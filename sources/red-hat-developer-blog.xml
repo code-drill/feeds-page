@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about red-hat-developer-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/red-hat-developer-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multicluster resiliency with global load balancing and mesh federation</title><link>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore the new architecture for multicluster resiliency using global
+load balancing and mesh federation! 🌐 This approach combines a global
+load balancer and a federated service mesh to enhance service
+availability and disaster recovery, particularly for stateless
+workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and
+Red Hat Connectivity Link now allow for more robust deployments. Learn
+how to configure these tools for optimal performance! #Multicluster
+#RedHat #CloudComputing…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Raffaele Spazzoli&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</guid><pubDate>Thu, 28 Aug 2025 07:01:21 GMT</pubDate></item><item><title>Simplify local prototyping with Camel JBang infrastructure</title><link>https://feeds.code-drill.eu/posts/2025-08-28/simplify-local-prototyping-with-camel-jbang-infrastructure/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Apache Camel simplifies integration with systems like databases
+and APIs through minimal coding. 🌟 Camel JBang, a command-line
+interface, enhances prototyping by allowing rapid creation and testing
+of integration flows without complex setups. 🔧 Its infra command
+quickly launches backends like Kafka or ActiveMQ, streamlining the
+development process and reducing setup time. For more details, check out
+the full article! #ApacheCamel #CamelJBang #Integration #Development
+#Prototyping&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Bruno Meseguer&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/simplify-local-prototyping-with-camel-jbang-infrastructure/</guid><pubDate>Thu, 28 Aug 2025 07:01:18 GMT</pubDate></item><item><title>Smart deployments at scale: Leveraging ApplicationSets and Helm with cluster labels in Red Hat Advanced Cluster Management for Kubernetes</title><link>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Managing multiple Kubernetes clusters can be complex, but Red Hat
+Advanced Cluster Management simplifies this process. 🌐 It offers a
+centralized platform to oversee the entire lifecycle of Kubernetes
+clusters, ensuring consistent health monitoring and policy enforcement
+across environments. Combining ApplicationSets and Helm with cluster
+labels allows for tailored deployments, adapting configurations based on
+specific cluster characteristics. This integration streamlines
+operations and…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mikel Sanchez&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</guid><pubDate>Wed, 27 Aug 2025 07:01:16 GMT</pubDate></item><item><title>How to verify container signatures in disconnected OpenShift</title><link>https://feeds.code-drill.eu/posts/2025-08-27/how-to-verify-container-signatures-in-disconnected-openshift/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 Discover how to verify container signatures in disconnected
+OpenShift environments using the latest tools from sigstore! The article
+explores the use of oc-mirror v2 in Red Hat OpenShift 4.19, allowing
+mirroring of container images and their cryptographic signatures. It
+provides a proof of concept and detailed configuration steps for
+enabling signature verification with CoSign. Check it out for practical
+insights! 🛠️🔒 #OpenShift #ContainerSecurity #Sigstore #RedHat
+#DevOps&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mohammad Ahmad, Tom Stockwell, Alex Guidi, Jack
+Adolph&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-to-verify-container-signatures-in-disconnected-openshift/</guid><pubDate>Wed, 27 Aug 2025 07:01:15 GMT</pubDate></item><item><title>Event-driven ingestion of Keycloak entities</title><link>https://feeds.code-drill.eu/posts/2025-08-27/event-driven-ingestion-of-keycloak-entities/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Discover a solution to delayed updates in entity information with
+the Backstage Events System! This article details a Proof of Concept
+(PoC) that enables near real-time synchronization of Keycloak entities
+into Red Hat Developer Hub (RHDH). Key benefits include immediate
+updates and efficient, incremental syncing, reducing API calls and CPU
+usage. Learn how to set up the PoC and optimize your developer catalog!
+🔗 Check out the PoC code: [GitHub Link] #Keycloak #RedHat
+#EventDriven…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Kashish Mittal&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/event-driven-ingestion-of-keycloak-entities/</guid><pubDate>Wed, 27 Aug 2025 07:01:12 GMT</pubDate></item><item><title>BGP dynamic routing with Fast Data Path on RHOSO 18</title><link>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Exploring the performance of dynamic routing with OVN-BGP-Agent and
+Fast Data Path on RHOSO 18 has yielded insightful findings. 🚀 A recent
+Proof of Concept assessed throughput, packet loss, stability, and
+resource utilization using Trex and BIRD. The results show high
+throughput, especially with large frames, and stable performance over
+extended periods. 📈 However, there are limitations, including
+bottlenecks for small packets and some manual configuration challenges.
+Insights from this study…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Pradipta Sahoo, Spoorthi K, Haresh
+Khandelwal&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</guid><pubDate>Wed, 27 Aug 2025 07:01:08 GMT</pubDate></item><item><title>A VM tuning case study: Balancing power and performance on AMD processors</title><link>https://feeds.code-drill.eu/posts/2025-08-26/a-vm-tuning-case-study-balancing-power-and-performance-on-amd-processors/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;During a server deployment, a significant performance gap was found
+between bare metal and virtual machine (VM) workloads. Optimizations,
+including adjusting system profiles and enabling CPU scaling drivers,
+were implemented. These changes resulted in notable improvements in VM
+performance, with the tuned VM even surpassing the original bare-metal
+completion times. The study highlights how targeted adjustments can lead
+to substantial gains in efficiency. 🔧💻⚡️ #VMTuning…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Kevin Buettner&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/a-vm-tuning-case-study-balancing-power-and-performance-on-amd-processors/</guid><pubDate>Tue, 26 Aug 2025 07:01:25 GMT</pubDate></item><item><title>Optimize GPU utilization with Kueue and KEDA</title><link>https://feeds.code-drill.eu/posts/2025-08-26/optimize-gpu-utilization-with-kueue-and-keda/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore how integrating Kueue and KEDA can optimize GPU utilization
+in AI workloads! 🚀 This proof of concept showcases a method to enhance
+resource efficiency on OpenShift AI. The combination allows scaling
+long-running workloads to zero when idle, reducing costs significantly.
+Learn how to implement this strategy with a focus on resource management
+and effective workload scheduling. 📊💻 #AI #GPUUtilization #OpenShift
+#Kubernetes #CloudComputing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Christian Zaccaria&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/optimize-gpu-utilization-with-kueue-and-keda/</guid><pubDate>Tue, 26 Aug 2025 07:01:23 GMT</pubDate></item><item><title>Implement AI safeguards with Python and Llama Stack</title><link>https://feeds.code-drill.eu/posts/2025-08-26/implement-ai-safeguards-with-python-and-llama-stack/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exploring AI safety with Llama Stack! This article highlights how
+to implement guardrails in AI applications using Python and Llama Stack.
+It introduces two main built-in guardrails: Llama Guard, which filters
+unsafe content, and Prompt Guard, designed to prevent circumvention of
+safety measures. The post provides insights into setting up Llama Stack
+and utilizing these guardrails effectively in Python. #AI #LlamaStack
+#Python #MachineLearning #AIsafety&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Michael Dawson&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/implement-ai-safeguards-with-python-and-llama-stack/</guid><pubDate>Tue, 26 Aug 2025 07:01:20 GMT</pubDate></item><item><title>LLM Compressor 0.7.0 release recap</title><link>https://feeds.code-drill.eu/posts/2025-08-25/llm-compressor-070-release-recap/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 LLM Compressor has released version 0.7.0, enhancing performance
+for quantizing large language models. Key updates include: 1️⃣ New QuIP
+and SpinQuant-style transforms for improved accuracy. 2️⃣ Mixed-precision
+support with FP4 enhancements for better layer quantization. 3️⃣ DeepSeek
+v3-style block quantization for efficient compression without
+calibration data. Explore more about these features! #LLMCompressor #AI
+#MachineLearning #Quantization #TechUpdate&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Dipika Sikka, Kyle Sayers, Brian Dellabetta,
+Helen Zhao&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-25/llm-compressor-070-release-recap/</guid><pubDate>Mon, 25 Aug 2025 16:09:49 GMT</pubDate></item></channel></rss>

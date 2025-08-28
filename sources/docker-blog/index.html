@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posts about docker-blog | All the tech news</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="https://feeds.code-drill.eu/sources/docker-blog/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS for tag docker-blog" hreflang="en" href="../docker-blog.xml">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://feeds.code-drill.eu/">
+
+                <span id="blog-title">All the tech news</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../categories/">Categories</a>
+                </li>
+<li>
+<a href="../">Sources</a>
+                </li>
+<li>
+<a href="../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<!-- Category and Source Navigation -->
+<div class="filter-nav" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <h5>Filter by Category:</h5>
+            <div class="btn-group-mobile" role="group">
+                <a href="." class="btn btn-outline-primary btn-sm">All</a>
+                <a href="categories/cat_product_announcements/" class="btn btn-outline-primary btn-sm">Product Announcements</a>
+                <a href="categories/cat_educational/" class="btn btn-outline-primary btn-sm">Educational</a>
+                <a href="categories/cat_technical_deep_dives/" class="btn btn-outline-primary btn-sm">Technical Deep Dives</a>
+                <a href="categories/cat_security_compliance/" class="btn btn-outline-primary btn-sm">Security &amp; Compliance</a>
+                <a href="categories/" class="btn btn-outline-secondary btn-sm">View All Categories</a>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h5>Filter by Source:</h5>
+            <div class="btn-group-mobile" role="group">
+                
+                        <a href="../atlassian-developer-blog/" class="btn btn-outline-success btn-sm">Atlassian Developer Blog</a>
+                        <a href="../auth0-blog/" class="btn btn-outline-success btn-sm">Auth0 Blog</a>
+                        <a href="../circleci-blog/" class="btn btn-outline-success btn-sm">CircleCI Blog</a>
+                        <a href="../cisco-developer-blog/" class="btn btn-outline-success btn-sm">Cisco Developer Blog</a>
+                        <a href="../cloudflare-blog/" class="btn btn-outline-success btn-sm">Cloudflare Blog</a>
+                        <a href="../crowdstrike-blog/" class="btn btn-outline-success btn-sm">CrowdStrike Blog</a>
+                        <a href="../databricks-blog/" class="btn btn-outline-success btn-sm">Databricks Blog</a>
+                        <a href="." class="btn btn-outline-success btn-sm">Docker Blog</a>
+                <a href="sources/" class="btn btn-outline-secondary btn-sm">View All Sources</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="postindex">
+    <!-- DEBUG: Custom index template with filtering is being used -->
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/a-shift-left-approach-with-docker/" class="u-url" target="_blank" rel="noopener">Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-28/secure-by-design-a-shift-left-approach-with-testcontainers-docker-scout-and/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-28T13:00:00Z" itemprop="datePublished" title="2025-08-28 13:00">2025-08-28 13:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images
+.. slug: secure-by-design-a-shift-left-approach-with-testcontainers-docker-scout-and
+.. date: 2025-08-28 13:00:00 +0000
+.. tags: docker-blog
+.. category: security_compliance
+.. link: https://www.docker.com/blog/a-shift-left-approach-with-docker/
+.. description: In today's software development landscape, speed should not compromise security. 🛡️ This article discusses a shift-left approach using tools like Test...
+.. type: text
+-->
+<p>In today’s software development landscape, speed should not
+compromise security. 🛡️ This article discusses a shift-left approach
+using tools like Testcontainers and Docker to enhance security early in
+the development lifecycle. It highlights how developers can conduct
+reliable integration tests while maintaining high quality. A practical
+example features a Node.js Movie Catalog API, demonstrating how
+Testcontainers can streamline testing against a PostgreSQL database. 📦
+Learn how modern…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Anna Chernyshova<br><strong>Category:</strong> security_compliance</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/docker-desktop-updates-every-two-weeks/" class="u-url" target="_blank" rel="noopener">Docker Desktop Accelerates Innovation with Faster Release Cadence</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-27/docker-desktop-accelerates-innovation-with-faster-release-cadence/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-27T13:00:00Z" itemprop="datePublished" title="2025-08-27 13:00">2025-08-27 13:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Docker Desktop Accelerates Innovation with Faster Release Cadence
+.. slug: docker-desktop-accelerates-innovation-with-faster-release-cadence
+.. date: 2025-08-27 13:00:00 +0000
+.. tags: docker-blog
+.. category: product_announcements
+.. link: https://www.docker.com/blog/docker-desktop-updates-every-two-weeks/
+.. description: 📢 Exciting news from Docker! Starting with release 4.45.0 on August 28, Docker Desktop will shift to a new update schedule, moving from monthly to bi-...
+.. type: text
+-->
+<p>📢 Exciting news from Docker! Starting with release 4.45.0 on August
+28, Docker Desktop will shift to a new update schedule, moving from
+monthly to bi-weekly releases, aiming for weekly updates by 2025. This
+change is in response to user requests for quicker access to new
+features and urgent updates. 🚀 Enhancements include smarter component
+updates that occur silently without interrupting your workflow and
+clearer update information within the app. Enterprise users will retain
+control over…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Kat Tomrushka<br><strong>Category:</strong> product_announcements</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/how-to-build-an-ai-tutor-with-model-runner/" class="u-url" target="_blank" rel="noopener">Prototyping an AI Tutor with Docker Model Runner</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-21/prototyping-an-ai-tutor-with-docker-model-runner/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-21T15:00:00Z" itemprop="datePublished" title="2025-08-21 15:00">2025-08-21 15:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Prototyping an AI Tutor with Docker Model Runner
+.. slug: prototyping-an-ai-tutor-with-docker-model-runner
+.. date: 2025-08-21 15:00:00 +0000
+.. tags: docker-blog
+.. category: educational
+.. link: https://www.docker.com/blog/how-to-build-an-ai-tutor-with-model-runner/
+.. description: 🚀 Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model R...
+.. type: text
+-->
+<p>🚀 Exploring how AI can enhance developer learning is exciting! A
+recent article discusses the creation of an interactive AI tutor using
+Docker Model Runner. This tool aims to streamline the learning process
+by embedding AI assistance directly into the development environment.
+The tutor helps users run their first “hello-world” container without
+the hassle of switching between various resources, maintaining context,
+and ensuring privacy. #AITutoring #Docker #DeveloperExperience
+#TechInnovation…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Sarah Sanders<br><strong>Category:</strong> educational</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/" class="u-url" target="_blank" rel="noopener">The Supply Chain Paradox: When “Hardened” Images Become a Vendor Lock-in Trap</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-20/the-supply-chain-paradox-when-hardened-images-become-a-vendor-lock-in-trap/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-20T13:10:09Z" itemprop="datePublished" title="2025-08-20 13:10">2025-08-20 13:10</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: The Supply Chain Paradox: When “Hardened” Images Become a Vendor Lock-in Trap
+.. slug: the-supply-chain-paradox-when-hardened-images-become-a-vendor-lock-in-trap
+.. date: 2025-08-20 13:10:09 +0000
+.. tags: docker-blog
+.. category: industry_analysis
+.. link: https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/
+.. description: The demand for pre-hardened container images is rapidly rising as companies seek immediate security solutions with low operational effort. These image...
+.. type: text
+-->
+<p>The demand for pre-hardened container images is rapidly rising as
+companies seek immediate security solutions with low operational effort.
+These images offer minimal dependencies, allowing teams to focus on
+application development. However, this trend may lead to unintended
+vendor lock-in. Organizations could become overly reliant on a single
+vendor’s systems and processes, complicating operations and potentially
+weakening security. Additionally, deviations from mainstream
+distributions can…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Michael Donovan<br><strong>Category:</strong> industry_analysis</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/streamline-nginx-configuration-with-docker-desktop-extension/" class="u-url" target="_blank" rel="noopener">Streamline NGINX Configuration with Docker Desktop Extension</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-19/streamline-nginx-configuration-with-docker-desktop-extension/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-19T16:13:36Z" itemprop="datePublished" title="2025-08-19 16:13">2025-08-19 16:13</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Streamline NGINX Configuration with Docker Desktop Extension
+.. slug: streamline-nginx-configuration-with-docker-desktop-extension
+.. date: 2025-08-19 16:13:36 +0000
+.. tags: docker-blog
+.. category: educational
+.. link: https://www.docker.com/blog/streamline-nginx-configuration-with-docker-desktop-extension/
+.. description: 🚀 Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boos...
+.. type: text
+-->
+<p>🚀 Enhance your NGINX configuration with Docker Desktop! This article
+highlights how the NGINX Development Center simplifies server management
+and boosts workflow efficiency. It offers user-friendly tools for easier
+configuration, multi-server management, and improved debugging. With
+over 51,000 downloads, it integrates seamlessly with Docker Desktop to
+streamline app and web server development. #Docker #NGINX
+#WebDevelopment #DevOps #Containerization</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Dylen Turnbull<br><strong>Category:</strong> educational</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" class="u-url" target="_blank" rel="noopener">Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-19/building-ai-agents-with-docker-mcp-toolkit-a-developers-real-world-setup/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-19T14:59:46Z" itemprop="datePublished" title="2025-08-19 14:59">2025-08-19 14:59</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup
+.. slug: building-ai-agents-with-docker-mcp-toolkit-a-developers-real-world-setup
+.. date: 2025-08-19 14:59:46 +0000
+.. tags: docker-blog
+.. category: educational
+.. link: https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/
+.. description: 🚀 Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with Git...
+.. type: text
+-->
+<p>🚀 Building AI agents requires more than just model calls. The
+article explores using the Docker MCP Toolkit to create an agent that
+interacts with GitHub repositories. This agent can answer questions
+about code, such as summarizing modules or locating specific functions.
+🛠️ The Docker MCP Toolkit streamlines setup and integration, making
+development faster and more efficient. By using Docker Compose, the
+environment remains consistent across all stages of development. #AI
+#Docker #MCPToolkit…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Rajesh Padmakumaran<br><strong>Category:</strong> educational</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/" class="u-url" target="_blank" rel="noopener">Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-15/docker-black-hat-2025-cves-have-everyones-attention-heres-the-path-forward/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-15T18:05:10Z" itemprop="datePublished" title="2025-08-15 18:05">2025-08-15 18:05</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward
+.. slug: docker-black-hat-2025-cves-have-everyones-attention-heres-the-path-forward
+.. date: 2025-08-15 18:05:10 +0000
+.. tags: docker-blog
+.. category: security_compliance
+.. link: https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/
+.. description: 🚀 At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to ...
+.. type: text
+-->
+<p>🚀 At Black Hat 2025, CVEs were a hot topic, highlighting the need
+for effective vulnerability management. The focus is shifting from just
+scanning to eliminating security debt before it enters the software
+supply chain. Hardened images and compliance-ready tools are becoming
+essential. Key themes included the importance of secure starting points,
+customization for enterprises, and the demand for FedRAMP-ready
+solutions. Thanks to everyone who joined the Docker community at our
+booth and the…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Aditya Tripathi<br><strong>Category:</strong> security_compliance</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/how-docker-enables-security-by-default/" class="u-url" target="_blank" rel="noopener">A practitioner’s view on how Docker enables security by default and makes developers work better</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-15/a-practitioners-view-on-how-docker-enables-security-by-default-and-makes-de/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-15T16:00:00Z" itemprop="datePublished" title="2025-08-15 16:00">2025-08-15 16:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: A practitioner’s view on how Docker enables security by default and makes developers work better
+.. slug: a-practitioners-view-on-how-docker-enables-security-by-default-and-makes-de
+.. date: 2025-08-15 16:00:00 +0000
+.. tags: docker-blog
+.. category: security_compliance
+.. link: https://www.docker.com/blog/how-docker-enables-security-by-default/
+.. description: Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Dock...
+.. type: text
+-->
+<p>Docker Captains share their experiences on how Docker enhances
+security and developer efficiency. Security in distributed systems is
+crucial, and Docker provides a strong framework for developers and
+security teams. Key areas of focus include managing artifacts, code
+quality, and vulnerability management. For more insights on becoming a
+Docker Captain, visit the Docker Captains’ website! 🛠️🔒 #Docker
+#Security #DevOps #ContainerSecurity #TechInsights</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Pedro Ignácio<br><strong>Category:</strong> security_compliance</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/docker-desktop-4-44/" class="u-url" target="_blank" rel="noopener">Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-14/docker-desktop-444-smarter-ai-modeling-platform-stability-and-streamlined-k/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-14T20:16:35Z" itemprop="datePublished" title="2025-08-14 20:16">2025-08-14 20:16</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows
+.. slug: docker-desktop-444-smarter-ai-modeling-platform-stability-and-streamlined-k
+.. date: 2025-08-14 20:16:35 +0000
+.. tags: docker-blog
+.. category: product_announcements
+.. link: https://www.docker.com/blog/docker-desktop-4-44/
+.. description: 🚀 Docker Desktop 4.44 introduces key updates for developers. The new Docker Model Runner allows users to inspect AI inference requests and responses d...
+.. type: text
+-->
+<p>🚀 Docker Desktop 4.44 introduces key updates for developers. The new
+Docker Model Runner allows users to inspect AI inference requests and
+responses directly, enhancing transparency and debugging. This feature
+aids in troubleshooting workflows, especially for AI/LLM applications.
+Real-time resource checks are now available to prevent system slowdowns
+when running multiple models. Additionally, Goose and Gemini CLI are
+supported as MCP clients, streamlining connections to over 140 MCP
+servers…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Deanna Sparks<br><strong>Category:</strong> product_announcements</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" class="u-url" target="_blank" rel="noopener">MCP Horror Stories: The GitHub Prompt Injection Data Heist</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-14/mcp-horror-stories-the-github-prompt-injection-data-heist/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-14T16:00:00Z" itemprop="datePublished" title="2025-08-14 16:00">2025-08-14 16:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: MCP Horror Stories: The GitHub Prompt Injection Data Heist
+.. slug: mcp-horror-stories-the-github-prompt-injection-data-heist
+.. date: 2025-08-14 16:00:00 +0000
+.. tags: docker-blog
+.. category: security_compliance
+.. link: https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/
+.. description: 🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in ...
+.. type: text
+-->
+<p>🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub
+Prompt Injection Data Heist. This incident highlights critical
+vulnerabilities in AI security, revealing how attackers can manipulate
+AI assistants through malicious GitHub issues. When developers request
+help, they risk exposing sensitive data from locked repositories. Learn
+how these attacks exploit broad GitHub tokens and bypass traditional
+access controls. Docker’s MCP Toolkit offers solutions to protect
+against such…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Ajeet Singh Raina<br><strong>Category:</strong> security_compliance</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/gpt5-api-deprecation-ai-app-failure/" class="u-url" target="_blank" rel="noopener">The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-13/the-gpt-5-launch-broke-the-ai-internet-and-not-in-a-good-way/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-13T17:38:06Z" itemprop="datePublished" title="2025-08-13 17:38">2025-08-13 17:38</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)
+.. slug: the-gpt-5-launch-broke-the-ai-internet-and-not-in-a-good-way
+.. date: 2025-08-13 17:38:06 +0000
+.. tags: docker-blog
+.. category: industry_analysis
+.. link: https://www.docker.com/blog/gpt5-api-deprecation-ai-app-failure/
+.. description: 🚨 The launch of GPT-5 by OpenAI caused significant disruption in the AI app ecosystem. Many applications failed overnight due to the unexpected remova...
+.. type: text
+-->
+<p>🚨 The launch of GPT-5 by OpenAI caused significant disruption in the
+AI app ecosystem. Many applications failed overnight due to the
+unexpected removal of older APIs. Developers are reminded that relying
+too heavily on a single provider or model can lead to system failures.
+The interconnected nature of AI applications means that even small
+changes can have wide-reaching impacts. As the landscape evolves, it’s
+crucial to build resilient systems. Developers should prepare for sudden
+changes by…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Docker Team<br><strong>Category:</strong> industry_analysis</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" class="u-url" target="_blank" rel="noopener">Building AI agents made easy with Goose and Docker</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-12/building-ai-agents-made-easy-with-goose-and-docker/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-12T16:00:00Z" itemprop="datePublished" title="2025-08-12 16:00">2025-08-12 16:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Building AI agents made easy with Goose and Docker
+.. slug: building-ai-agents-made-easy-with-goose-and-docker
+.. date: 2025-08-12 16:00:00 +0000
+.. tags: docker-blog
+.. category: educational
+.. link: https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/
+.. description: 🚀 Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible too...
+.. type: text
+-->
+<p>🚀 Building AI agents can be simplified with the right tools and
+frameworks. Key components include selecting an AI backend, configuring
+accessible tools, and integrating business logic for specific use cases.
+This article explores using Goose, Docker, and the MCP protocol to
+create an agent that summarizes YouTube videos. With Docker Model
+Runner, you can run AI locally for enhanced privacy. For more details,
+check the GitHub repository: https://github.com/shelajev/hani. #AIAgents
+#Docker…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Oleg Selajev<br><strong>Category:</strong> educational</p>
+        </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title">
+                <a href="https://www.docker.com/blog/why-changing-ai-workflows-still-feels-like-duct-tape/" class="u-url" target="_blank" rel="noopener">Tooling ≠ Glue: Why changing AI workflows still feels like duct tape</a>
+            </h1>
+            <div class="metadata">
+                <p class="dateline">
+                    <a href="../../posts/2025-08-11/tooling-glue-why-changing-ai-workflows-still-feels-like-duct-tape/" rel="bookmark">
+                        <time class="published dt-published" datetime="2025-08-11T16:00:00Z" itemprop="datePublished" title="2025-08-11 16:00">2025-08-11 16:00</time></a>
+                </p>
+            </div>
+        </header><div class="e-content entry-content">
+            <!--
+.. title: Tooling ≠ Glue: Why changing AI workflows still feels like duct tape
+.. slug: tooling-glue-why-changing-ai-workflows-still-feels-like-duct-tape
+.. date: 2025-08-11 16:00:00 +0000
+.. tags: docker-blog
+.. category: industry_analysis
+.. link: https://www.docker.com/blog/why-changing-ai-workflows-still-feels-like-duct-tape/
+.. description: Modern AI development presents a contradiction. While we have advanced tools and frameworks like LangChain and Hugging Face, replacing components ofte...
+.. type: text
+-->
+<p>Modern AI development presents a contradiction. While we have
+advanced tools and frameworks like LangChain and Hugging Face, replacing
+components often leads to system failures. 🔧 The expectation was for
+modular workflows, but instead, we face a fragmented landscape. Each
+tool has different assumptions, making integration challenging and
+time-consuming. 🕒 Abstractions often leak, complicating even simple
+tasks. What should be seamless can turn into complex issues, leaving
+developers to write…</p>
+<p><strong>Source:</strong> <a href="https://www.docker.com/blog/feed/">Docker Blog</a><br><strong>Author:</strong> Gerardo López Falcón<br><strong>Category:</strong> industry_analysis</p>
+        </div>
+    </article>
+</div>
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2025         <a href="mailto:michal@code-drill.eu">Michał Rutkowski</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about technical_deep_dives)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_technical_deep_dives.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Moving the public Stack Overflow sites to the cloud: Part 1</title><link>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Stack Overflow is transitioning from physical servers to the
+cloud! This move marks a significant shift from their traditional data
+center model, primarily based in the US. The journey began with Stack
+Overflow for Teams successfully migrating to Azure, but challenges
+remain for the public site. 🌐 Key project deadlines are set for July
+31, 2025, coinciding with the data center’s closure. The team is focused
+on setting milestones to ensure a smooth transition while maintaining
+flexibility…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://stackoverflow.blog/feed/"&gt;Stack Overflow Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Wouter de Kort, Joseph Schwanz&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>stack-overflow-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</guid><pubDate>Thu, 28 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Controlling the Rollout of Large-Scale Monorepo Changes</title><link>https://feeds.code-drill.eu/posts/2025-08-28/controlling-the-rollout-of-large-scale-monorepo-changes/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Uber is enhancing its deployment strategy by managing the impact of
+large-scale changes through effective orchestration. As the company
+moves towards fully automated continuous deployment, implementing robust
+safety practices is essential to minimize risks. This approach ensures
+smoother transitions and maintains system integrity during significant
+updates. #Deployment #Uber #TechUpdates #ContinuousIntegration
+#SoftwareEngineering 🚀🔧📈&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/controlling-the-rollout-of-large-scale-monorepo-changes/</guid><pubDate>Thu, 28 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Multicluster resiliency with global load balancing and mesh federation</title><link>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore the new architecture for multicluster resiliency using global
+load balancing and mesh federation! 🌐 This approach combines a global
+load balancer and a federated service mesh to enhance service
+availability and disaster recovery, particularly for stateless
+workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and
+Red Hat Connectivity Link now allow for more robust deployments. Learn
+how to configure these tools for optimal performance! #Multicluster
+#RedHat #CloudComputing…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Raffaele Spazzoli&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</guid><pubDate>Thu, 28 Aug 2025 07:01:21 GMT</pubDate></item><item><title>Breaking AI Testing Barriers: Dynamic Assertions and AI Automation Deliver 1000%+ Productivity Gains</title><link>https://feeds.code-drill.eu/posts/2025-08-27/breaking-ai-testing-barriers-dynamic-assertions-and-ai-automation-deliver-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Discover how Gayathri Rajan and her team at Salesforce are
+revolutionizing AI quality testing! Their innovative approach tackles
+non-deterministic AI responses and complex integration challenges. By
+implementing dynamic assertions, they enhance validation processes and
+boost productivity by over 1000%. Their mission is to ensure reliable AI
+experiences, empowering teams while transforming quality into a
+competitive advantage. #AI #QualityTesting #Salesforce #Innovation
+#Productivity&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://engineering.salesforce.com/feed/"&gt;Salesforce
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Scott Nyberg&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>salesforce-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/breaking-ai-testing-barriers-dynamic-assertions-and-ai-automation-deliver-1/</guid><pubDate>Wed, 27 Aug 2025 19:28:13 GMT</pubDate></item><item><title>How to Improve CUDA Kernel Performance with Shared Memory Register Spilling</title><link>https://feeds.code-drill.eu/posts/2025-08-27/how-to-improve-cuda-kernel-performance-with-shared-memory-register-spilling/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 New in CUDA Toolkit 13.0: Shared Memory Register Spilling! This
+feature helps improve CUDA kernel performance by allowing the compiler
+to use shared memory for excess variables instead of local memory. This
+reduces spill latency and L2 pressure for register-heavy kernels. To
+enable shared memory spilling, use the pragma command in your kernel
+definition. With this optimization, kernels can perform better,
+especially in critical regions where registers are heavily used. Learn
+more about how…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developer.nvidia.com/blog/feed"&gt;Nvidia Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Divya Shanmughan&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>nvidia-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-to-improve-cuda-kernel-performance-with-shared-memory-register-spilling/</guid><pubDate>Wed, 27 Aug 2025 16:30:00 GMT</pubDate></item><item><title>How Cloudflare runs more AI models on fewer GPUs: A technical deep-dive</title><link>https://feeds.code-drill.eu/posts/2025-08-27/how-cloudflare-runs-more-ai-models-on-fewer-gpus-a-technical-deep-dive/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Cloudflare has developed a new platform called Omni to optimize
+GPU usage for AI models. Omni employs lightweight isolation and memory
+over-commitment, allowing multiple models to run on a single GPU. This
+innovation enhances model availability and reduces latency, making AI
+services more efficient. The platform also simplifies management by
+using a single control plane to handle model provisioning and scaling
+automatically. #AI #Cloudflare #TechInnovation #GPU #Omni&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mari Galicer&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-cloudflare-runs-more-ai-models-on-fewer-gpus-a-technical-deep-dive/</guid><pubDate>Wed, 27 Aug 2025 14:00:00 GMT</pubDate></item><item><title>How we built the most efficient inference engine for Cloudflare’s network</title><link>https://feeds.code-drill.eu/posts/2025-08-27/how-we-built-the-most-efficient-inference-engine-for-cloudflares-network/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Cloudflare has developed Infire, a new LLM inference engine
+designed to enhance resource efficiency for AI tasks. Infire uses
+advanced techniques to optimize memory, network I/O, and GPU
+utilization, allowing it to serve more requests with fewer resources.
+Initial tests show it completes tasks up to 7% faster than the previous
+vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers
+AI, demonstrating significant performance improvements for Cloudflare’s
+unique distributed…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mari Galicer&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-we-built-the-most-efficient-inference-engine-for-cloudflares-network/</guid><pubDate>Wed, 27 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Smart deployments at scale: Leveraging ApplicationSets and Helm with cluster labels in Red Hat Advanced Cluster Management for Kubernetes</title><link>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Managing multiple Kubernetes clusters can be complex, but Red Hat
+Advanced Cluster Management simplifies this process. 🌐 It offers a
+centralized platform to oversee the entire lifecycle of Kubernetes
+clusters, ensuring consistent health monitoring and policy enforcement
+across environments. Combining ApplicationSets and Helm with cluster
+labels allows for tailored deployments, adapting configurations based on
+specific cluster characteristics. This integration streamlines
+operations and…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mikel Sanchez&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</guid><pubDate>Wed, 27 Aug 2025 07:01:16 GMT</pubDate></item><item><title>BGP dynamic routing with Fast Data Path on RHOSO 18</title><link>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Exploring the performance of dynamic routing with OVN-BGP-Agent and
+Fast Data Path on RHOSO 18 has yielded insightful findings. 🚀 A recent
+Proof of Concept assessed throughput, packet loss, stability, and
+resource utilization using Trex and BIRD. The results show high
+throughput, especially with large frames, and stable performance over
+extended periods. 📈 However, there are limitations, including
+bottlenecks for small packets and some manual configuration challenges.
+Insights from this study…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Pradipta Sahoo, Spoorthi K, Haresh
+Khandelwal&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</guid><pubDate>Wed, 27 Aug 2025 07:01:08 GMT</pubDate></item><item><title>Graphics and rendering tips from Survival Kids</title><link>https://feeds.code-drill.eu/posts/2025-08-27/graphics-and-rendering-tips-from-survival-kids/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 This summer, Unity launched the co-op game “Survival Kids,”
+developed in-house with a small team. With limited resources, they
+focused on innovative graphics and rendering techniques. 🌟 Using the
+Universal Render Pipeline, they balanced artistic goals with performance
+needs. Custom shaders and dynamic lighting were key to achieving their
+visual style. 🌊 The ocean rendering was inspired by existing projects,
+utilizing signed distance fields for unique effects. Stay tuned for more
+insights on…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.unity.com/feed"&gt;Unity
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>unity-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/graphics-and-rendering-tips-from-survival-kids/</guid><pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about elastic-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/elastic-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>JVM essentials for Elasticsearch: Metrics, memory, and monitoring</title><link>https://feeds.code-drill.eu/posts/2025-08-27/jvm-essentials-for-elasticsearch-metrics-memory-and-monitoring/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Understanding JVM essentials is crucial for effectively running
+Elasticsearch, a Java-based search and analytics engine. The Java
+Virtual Machine (JVM) provides a platform-independent environment,
+crucial for troubleshooting memory issues like OutOfMemoryError. The
+blog outlines how to monitor memory usage and garbage collection for
+optimal performance. Default JVM settings are typically sufficient for
+most use cases, and any changes should be approached with caution. For
+more insights, check…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Nitish Pandey&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/jvm-essentials-for-elasticsearch-metrics-memory-and-monitoring/</guid><pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate></item><item><title>The business impact of Elasticsearch logsdb index mode and TSDS</title><link>https://feeds.code-drill.eu/posts/2025-08-27/the-business-impact-of-elasticsearch-logsdb-index-mode-and-tsds/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 The Elasticsearch team has rolled out enhancements in versions
+8.19 and 9.1, focusing on storage efficiency and performance. 📊 Key
+features include the logsdb index mode and time series data streams
+(TSDS), which address challenges faced by DevOps and security teams. 📈
+Benchmark results show a storage efficiency improvement of ~16% and an
+indexing throughput boost of ~19%. For users not yet on logsdb, storage
+reductions could exceed 70%. 🔍 Remember, logsdb is available for both
+Basic and…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Tim Brophy&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/the-business-impact-of-elasticsearch-logsdb-index-mode-and-tsds/</guid><pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate></item><item><title>How Tipalti mastered Elasticsearch performance with AutoOps</title><link>https://feeds.code-drill.eu/posts/2025-08-22/how-tipalti-mastered-elasticsearch-performance-with-autoops/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Tipalti, a leader in payables automation, has transformed its
+approach to Elasticsearch performance. By switching from manual
+monitoring to the automated AutoOps system, they achieved a 10% annual
+cost saving while managing a complex database ecosystem with a small
+team. Oz Levy, a data operations manager at Tipalti, shared insights on
+this transition and its impact on operational efficiency. #Tipalti
+#Elasticsearch #AutoOps #Efficiency #CostSaving 💼📈🔍&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Oz Levy,Farisha Vadera,Jordi Mon Companys&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-22/how-tipalti-mastered-elasticsearch-performance-with-autoops/</guid><pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate></item><item><title>How to reduce alert overload in defence SOCs</title><link>https://feeds.code-drill.eu/posts/2025-08-22/how-to-reduce-alert-overload-in-defence-socs/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 Analysts in defense SOCs are facing significant alert overload,
+with many notifications being false positives. A recent study shows that
+71% of SOC personnel feel overwhelmed, and 62% of alerts go ignored.
+This impacts both efficiency and security. Using AI tools like Elastic’s
+Attack Discovery, organizations have seen daily alerts drop
+dramatically, enhancing analyst focus and operational efficiency. Learn
+more about transforming your SOC operations in our upcoming webinar!
+📊💻…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Crossley McEwen&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-22/how-to-reduce-alert-overload-in-defence-socs/</guid><pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Building effective threat hunting and detection rules in Elastic Security</title><link>https://feeds.code-drill.eu/posts/2025-08-21/building-effective-threat-hunting-and-detection-rules-in-elastic-security/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 Learn how to build effective threat hunting and detection rules in
+Elastic Security! This blog provides step-by-step guidance on creating
+custom detection rules using Elasticsearch Query Language (ES|QL) and
+the Elastic AI Assistant. Key highlights include best practices for
+refining detection logic, testing rules, and automating responses to
+enhance security operations. Explore how to categorize API calls and
+streamline your queries for better analysis. #ElasticSecurity
+#ThreatHunting…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Kseniia Ignatovych,Isai Anthony&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/building-effective-threat-hunting-and-detection-rules-in-elastic-security/</guid><pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Elastic’s capabilities in the world of Zero Trust operations</title><link>https://feeds.code-drill.eu/posts/2025-08-20/elastics-capabilities-in-the-world-of-zero-trust-operations/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Exploring Zero Trust Operations with Elastic The article discusses
+the essential pillars of Zero Trust (ZT) based on the US Department of
+Defense’s framework. Key elements include user identity, device
+characteristics, network integrity, data protection, application
+vulnerabilities, and automation. Challenges exist in implementing ZT,
+such as system complexity, operational speed, and fragility from
+disparate integrations. Elastic’s Search AI Platform is highlighted for
+its role in enhancing…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Woody Walton&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-20/elastics-capabilities-in-the-world-of-zero-trust-operations/</guid><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Traditional AI vs. generative AI: A guide for IT leaders</title><link>https://feeds.code-drill.eu/posts/2025-08-20/traditional-ai-vs-generative-ai-a-guide-for-it-leaders/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;AI is evolving rapidly, presenting new challenges for IT leaders.
+This article outlines the key differences between traditional AI and
+generative AI. Traditional AI excels in structured tasks, while
+generative AI is suited for creative applications. Understanding your
+organization’s needs is crucial for choosing the right AI approach.
+Explore more about their applications and impact on technology. 🤖💡
+#ArtificialIntelligence #TechTrends #ITLeadership #GenerativeAI
+#BusinessStrategy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; The Elastic Platform team&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-20/traditional-ai-vs-generative-ai-a-guide-for-it-leaders/</guid><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Elastic response to blog ‘EDR 0-Day Vulnerability’</title><link>https://feeds.code-drill.eu/posts/2025-08-18/elastic-response-to-blog-edr-0-day-vulnerability/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 Elastic’s Security team has responded to claims of a vulnerability
+in Elastic Defend. After comprehensive investigation, no evidence was
+found to support the alleged bypass of EDR monitoring or remote code
+execution. The demonstrations provided were not from unprivileged
+processes. Elastic remains committed to transparency and encourages
+researchers to share any valid findings at security@elastic.co. Updates
+will be provided as necessary. #CyberSecurity #Elastic #Vulnerability
+#EDR #InfoSec&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Brian Levine&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-18/elastic-response-to-blog-edr-0-day-vulnerability/</guid><pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Generative AI fields now available in ECS allowing parity and compatibility with OTel</title><link>https://feeds.code-drill.eu/posts/2025-08-15/generative-ai-fields-now-available-in-ecs-allowing-parity-and-compatibility/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting updates from Elastic! The Elastic Common Schema (ECS) now
+supports generative AI (GenAI) fields, enhancing compatibility with
+OpenTelemetry (OTel). This allows for better normalization of data from
+diverse GenAI vendors. Key use cases include observability, security,
+and log normalization for GenAI applications. Users can seamlessly
+integrate ECS and OTel for improved monitoring. Stay informed and
+explore how these advancements can benefit your workflows! #Elastic
+#GenerativeAI…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Susan Chang&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-15/generative-ai-fields-now-available-in-ecs-allowing-parity-and-compatibility/</guid><pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Transforming IT Help Desk: How Elastic’s Search AI Platform supercharges Salesforce Service Cloud</title><link>https://feeds.code-drill.eu/posts/2025-08-15/transforming-it-help-desk-how-elastics-search-ai-platform-supercharges-sale/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Transforming IT support with Elastic’s Search AI Platform in
+Salesforce Service Cloud is a game-changer. The platform enhances
+internal IT operations by providing real-time, accurate assistance. It
+allows users to choose between instant AI support or traditional ticket
+submissions for complex issues. This dual approach improves ticket
+quality and accelerates resolution times. By integrating with tools like
+JIRA and Google Docs, it ensures responses are grounded in
+enterprise-specific…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.elastic.co/blog/feed"&gt;Elastic Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Sri Kolagani&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>elastic-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-15/transforming-it-help-desk-how-elastics-search-ai-platform-supercharges-sale/</guid><pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>

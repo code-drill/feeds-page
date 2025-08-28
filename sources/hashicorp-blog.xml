@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about hashicorp-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/hashicorp-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Policy as code, explained</title><link>https://feeds.code-drill.eu/posts/2025-08-28/policy-as-code-explained/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Policy as code is transforming IT operations by automating
+compliance checks in infrastructure deployments. This approach allows
+for quick verification of stakeholder requirements, moving away from
+slow, error-prone manual processes. With customizable policy languages,
+organizations can effectively manage security, compliance, and
+architecture. Learn more about how companies like Fannie Mae and Wayfair
+are implementing this strategy. #PolicyAsCode #ITOperations
+#Infrastructure #Automation…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mitch Pronschinske&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/policy-as-code-explained/</guid><pubDate>Thu, 28 Aug 2025 12:00:00 GMT</pubDate></item><item><title>Terraform provider for Google Cloud 7.0 is now GA</title><link>https://feeds.code-drill.eu/posts/2025-08-27/terraform-provider-for-google-cloud-70-is-now-ga/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for Terraform users! The Terraform provider for
+Google Cloud has reached general availability with version 7.0. This
+release introduces new ephemeral resources and write-only attributes to
+enhance security when managing sensitive data. The community’s feedback
+has played a crucial role in this improvement. With over 1.4 billion
+downloads, the provider now supports 800+ resources and 300+ data
+sources. #Terraform #GoogleCloud #CloudSecurity #DevOps #TechUpdates&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Vishnu Ravindra&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/terraform-provider-for-google-cloud-70-is-now-ga/</guid><pubDate>Wed, 27 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Secret sprawl is costing you more than you think</title><link>https://feeds.code-drill.eu/posts/2025-08-25/secret-sprawl-is-costing-you-more-than-you-think/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛡️ Secret sprawl is significantly impacting organizations, costing
+them millions annually through lost productivity and increased security
+overhead. Developers often waste time on preventable secret management
+tasks, leading to an estimated $936,000 annual loss for a typical
+50-person team. This includes hunting down exposed credentials and
+managing compromised keys. Moreover, security teams face a burden from
+false positives, costing around $520,000 each year due to
+unnecessary…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Chandni Patel&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-25/secret-sprawl-is-costing-you-more-than-you-think/</guid><pubDate>Mon, 25 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Why default secret detection rules don't work (and how to fix it)</title><link>https://feeds.code-drill.eu/posts/2025-08-22/why-default-secret-detection-rules-dont-work-and-how-to-fix-it/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 Many organizations face challenges with default secret detection
+rules. Studies indicate that up to 80% of security alerts are false
+positives, leading to overlooked real threats. 📊 Generic detection
+tools often miss unique credentials like proprietary API keys. This can
+result in significant security incidents if not addressed. 💡 HCP Vault
+Radar offers a solution with customizable detection patterns and
+severity-based workflows. This approach helps teams focus on genuine
+threats while…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Durgesh Shukla&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-22/why-default-secret-detection-rules-dont-work-and-how-to-fix-it/</guid><pubDate>Fri, 22 Aug 2025 16:00:00 GMT</pubDate></item><item><title>How to enable developer self-service at scale with Terraform and Waypoint</title><link>https://feeds.code-drill.eu/posts/2025-08-20/how-to-enable-developer-self-service-at-scale-with-terraform-and-waypoint/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Unlock developer self-service at scale with HCP Waypoint! 🚀 Learn
+how to streamline Terraform workflows and empower your teams. With
+Waypoint, platform teams can create reusable modules, simplifying
+complex processes for developers. This approach reduces bottlenecks and
+enhances productivity. Waypoint integrates seamlessly with existing
+tools, offering a user-friendly interface that maintains security and
+compliance. Explore how to build effective workflows and facilitate
+efficient…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Apoorva Murthy&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-20/how-to-enable-developer-self-service-at-scale-with-terraform-and-waypoint/</guid><pubDate>Wed, 20 Aug 2025 19:00:00 GMT</pubDate></item><item><title>5 lessons from Moneybox’s Terraform journey</title><link>https://feeds.code-drill.eu/posts/2025-08-19/5-lessons-from-moneyboxs-terraform-journey/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Moneybox, a UK fintech, shares insights from their transition to
+HCP Terraform. They faced challenges as their infrastructure grew,
+shifting from Terraform Community Edition to streamline workflows. Key
+lessons include: 1️⃣ Start simple, but scale when needed. 2️⃣ Design
+infrastructure for growth. 3️⃣ Build self-service modules for teams. 4️⃣
+Integrate governance into workflows. These changes improved efficiency
+and team collaboration. 🌐💼 #Fintech #Infrastructure #Terraform
+#CloudComputing…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mitch Pronschinske&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-19/5-lessons-from-moneyboxs-terraform-journey/</guid><pubDate>Tue, 19 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Terraform now supports assigning agent pools at the project level</title><link>https://feeds.code-drill.eu/posts/2025-08-18/terraform-now-supports-assigning-agent-pools-at-the-project-level/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for HCP Terraform and Terraform Enterprise users!
+You can now assign default agent pools at the project level. This update
+simplifies the management of self-hosted agents, enhancing security and
+scalability. With this feature, project owners can easily set a default
+agent pool for future workspaces, promoting consistency across projects.
+Existing workspaces maintain their current settings, ensuring a smooth
+transition. Get started today and streamline your infrastructure…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Mitchell Ross&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-18/terraform-now-supports-assigning-agent-pools-at-the-project-level/</guid><pubDate>Mon, 18 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Solving secret zero with Vault and OpenShift Virtualization</title><link>https://feeds.code-drill.eu/posts/2025-08-14/solving-secret-zero-with-vault-and-openshift-virtualization/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Discover how Red Hat OpenShift Virtualization and HashiCorp Vault can
+address the secret zero problem in virtualized environments.
+Organizations face challenges in establishing machine identity as they
+adopt identity-based security. Traditional virtualization solutions
+often lack inherent machine identity, leading to reliance on initial
+credentials for secure communication with Vault. Red Hat OpenShift
+Virtualization offers a solution by enabling virtual machines to
+leverage Kubernetes…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Ben Holmes&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/solving-secret-zero-with-vault-and-openshift-virtualization/</guid><pubDate>Thu, 14 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Software provenance: Why visibility into your software supply chain matters</title><link>https://feeds.code-drill.eu/posts/2025-08-13/software-provenance-why-visibility-into-your-software-supply-chain-matters/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Understanding software provenance is crucial in today’s complex
+software supply chain. This concept emphasizes tracking the creation,
+modification, and ownership of software artifacts throughout their
+lifecycle. As cyber threats rise, maintaining visibility is essential
+for security and compliance. Challenges include limited visibility,
+pipeline complexity, and compliance risks. Organizations must prioritize
+comprehensive documentation to address these issues. Stay informed and
+secure! 🔒🛡️…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Devashish Patel&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-13/software-provenance-why-visibility-into-your-software-supply-chain-matters/</guid><pubDate>Wed, 13 Aug 2025 16:00:00 GMT</pubDate></item><item><title>Terraform embraces Arm: More choice, greater flexibility</title><link>https://feeds.code-drill.eu/posts/2025-08-12/terraform-embraces-arm-more-choice-greater-flexibility/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Terraform has expanded support for Arm architecture, giving
+customers more options for their IT investments. With the rise of Arm’s
+popularity for its cost savings and performance benefits, Terraform now
+allows running Terraform Enterprise and HCP Terraform agents on
+Arm-based platforms like AWS Graviton. This change enables customers to
+optimize their setups for both performance and cost. One user shared
+that they moved to 100% Graviton CPUs, enhancing efficiency in their
+operations. Learn…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.hashicorp.com/blog/feed.xml"&gt;HashiCorp Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Kelly Hansen&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>hashicorp-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-12/terraform-embraces-arm-more-choice-greater-flexibility/</guid><pubDate>Tue, 12 Aug 2025 16:00:00 GMT</pubDate></item></channel></rss>

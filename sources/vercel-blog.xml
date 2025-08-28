@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about vercel-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/vercel-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Preparing for the worst: Our core database failover test</title><link>https://feeds.code-drill.eu/posts/2025-08-28/preparing-for-the-worst-our-core-database-failover-test/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;On July 24, 2025, we conducted a successful failover test of our core
+control-plane database from Azure West US to East US 2. This exercise
+confirmed our disaster recovery plans in real-world conditions. All
+control-plane traffic was tested, ensuring stability without any
+customer impact. While preview and development traffic were affected,
+our production CDN traffic remained unaffected across 19 regions. The
+operation highlighted our commitment to resilience, achieving zero
+downtime and no…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Matthew Binshtok&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/preparing-for-the-worst-our-core-database-failover-test/</guid><pubDate>Thu, 28 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Anomaly alerts now in limited beta for Enterprise customers</title><link>https://feeds.code-drill.eu/posts/2025-08-27/anomaly-alerts-now-in-limited-beta-for-enterprise-customers/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 Enterprise customers can now access anomaly alerts in limited
+beta! These alerts help quickly identify unusual patterns in application
+metrics, allowing for prompt issue resolution. Users can integrate
+alerts via webhooks into existing monitoring systems and receive
+notifications directly in Slack channels. Explore this feature with
+Observability Plus and streamline your monitoring process!
+#AnomalyDetection #EnterpriseSolutions #MonitoringAlerts #TechUpdates
+#ObservabilityPlus&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Malavika Tadeusz&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/anomaly-alerts-now-in-limited-beta-for-enterprise-customers/</guid><pubDate>Wed, 27 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Deploy Slack's Bolt.js to Vercel with @vercel/slack-bolt</title><link>https://feeds.code-drill.eu/posts/2025-08-27/deploy-slacks-boltjs-to-vercel-with-vercelslack-bolt/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for developers! &lt;span class="citation" data-cites="vercel"&gt;@vercel&lt;/span&gt; has released &lt;span class="citation" data-cites="vercel/slack-bolt"&gt;@vercel/slack-bolt&lt;/span&gt;, an adapter
+that allows you to deploy Slack’s Bolt for JavaScript on Vercel’s AI
+Cloud. This tool helps manage Slack webhook events efficiently. It
+addresses the challenge of responding within three seconds to avoid
+timeouts, using Fluid compute’s streaming feature. Compatible with any
+function or framework like Hono, Nitro, or Next.js, you can start with
+the Slack Agent Template or explore the library on npm. #Slack…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Matt Lewis&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/deploy-slacks-boltjs-to-vercel-with-vercelslack-bolt/</guid><pubDate>Wed, 27 Aug 2025 13:00:00 GMT</pubDate></item><item><title>s1ngularity: supply chain attack in Nx packages</title><link>https://feeds.code-drill.eu/posts/2025-08-27/s1ngularity-supply-chain-attack-in-nx-packages/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 A supply chain attack has targeted the Nx package in the npm
+registry. Malicious versions were published using a stolen npm token,
+leading to potential exfiltration of developer credentials. 🔍 The Nx
+team quickly removed the compromised packages, but Vercel customers are
+generally safe unless specific conditions were met. 👉 For detailed
+information, visit the GitHub advisory from the Nx team. Stay vigilant!
+#SupplyChainAttack #CyberSecurity #NxPackages #Vercel
+#DeveloperSafety&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Andy Riancho&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/s1ngularity-supply-chain-attack-in-nx-packages/</guid><pubDate>Wed, 27 Aug 2025 13:00:00 GMT</pubDate></item><item><title>30-day runtime log retention, now available in Observability Plus</title><link>https://feeds.code-drill.eu/posts/2025-08-26/30-day-runtime-log-retention-now-available-in-observability-plus/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;📊 Exciting news for Observability Plus users! Teams can now access
+30 days of runtime log retention, which includes valuable details on
+requests, Vercel Functions, and cache activity. This feature allows you
+to view, query, and share up to 14 consecutive days of log data at once.
+Best of all, this extended retention comes at no extra cost for Pro and
+Enterprise plans! Learn more about Runtime Logs and how to utilize this
+feature. #ObservabilityPlus #LogRetention #DataInsights&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Malavika Tadeusz&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/30-day-runtime-log-retention-now-available-in-observability-plus/</guid><pubDate>Tue, 26 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Devin, Raycast, Windsurf, and Goose now supported on Vercel MCP</title><link>https://feeds.code-drill.eu/posts/2025-08-25/devin-raycast-windsurf-and-goose-now-supported-on-vercel-mcp/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for developers! You can now integrate Devin,
+Raycast, Windsurf, and Goose with Vercel’s Model Context Protocol (MCP).
+This allows for secure access to AI clients approved by Vercel. To get
+started, follow the installation steps for each client. Discover how to
+enhance your projects with Vercel MCP! #Vercel #AIIntegration
+#WebDevelopment #TechNews&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Allen Zhou&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-25/devin-raycast-windsurf-and-goose-now-supported-on-vercel-mcp/</guid><pubDate>Mon, 25 Aug 2025 13:00:00 GMT</pubDate></item><item><title>AI-powered prototyping with design systems</title><link>https://feeds.code-drill.eu/posts/2025-08-22/ai-powered-prototyping-with-design-systems/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Unlocking the potential of AI in prototyping means speeding up
+collaboration and maintaining brand consistency. While many AI tools
+excel in speed and teamwork, they often fall short in producing on-brand
+designs. This gap arises from a lack of context about design components.
+To bridge this gap, a design system tailored for AI can help create
+prototypes that are both brand-aware and production-ready. Discover how
+to enhance your prototyping process! #AIDesign #Prototyping
+#DesignSystems…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Will Sather&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-22/ai-powered-prototyping-with-design-systems/</guid><pubDate>Fri, 22 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Deploy xmcp servers with zero-configuration</title><link>https://feeds.code-drill.eu/posts/2025-08-22/deploy-xmcp-servers-with-zero-configuration/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Vercel now supports xmcp, a framework for building MCP servers
+using TypeScript with zero configuration. 📁 It utilizes file-based
+routing, making it easy to develop tools for your MCP server. You can
+create tools simply by adding a file with a default export. 🛠️ Learn
+more about deploying xmcp to Vercel in the documentation. #Vercel #xmcp
+#TypeScript #WebDevelopment #MCPServers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Anthony Shew&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-22/deploy-xmcp-servers-with-zero-configuration/</guid><pubDate>Fri, 22 Aug 2025 13:00:00 GMT</pubDate></item><item><title>AI Gateway is now generally available</title><link>https://feeds.code-drill.eu/posts/2025-08-21/ai-gateway-is-now-generally-available/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 AI Gateway is now available! This new tool offers a unified API to
+access hundreds of AI models with features like transparent pricing and
+built-in observability. Key benefits include sub-20ms latency, automatic
+failover, and detailed usage analytics. You can use the AI SDK or an
+OpenAI-compatible endpoint to get started quickly. Discover more about
+AI Gateway today! #AIGateway #AIModels #TechNews #Innovation #APIs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Harpreet Arora&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/ai-gateway-is-now-generally-available/</guid><pubDate>Thu, 21 Aug 2025 13:00:00 GMT</pubDate></item><item><title>AI Gateway: Production-ready reliability for your AI apps</title><link>https://feeds.code-drill.eu/posts/2025-08-21/ai-gateway-production-ready-reliability-for-your-ai-apps/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Building AI apps just got easier! With tools like the AI SDK,
+developers can create both frontends and backends in minutes. However,
+moving to production poses challenges, especially with reliability.
+Connecting to a single LLM provider can create risks if that provider
+faces downtime or rate limits. Introducing AI Gateway: it ensures
+consistent availability and stability for AI workloads, having already
+supported millions of users. #AIGateway #AIApps #TechInnovation
+#Reliability…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Harpreet Arora&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/ai-gateway-production-ready-reliability-for-your-ai-apps/</guid><pubDate>Thu, 21 Aug 2025 13:00:00 GMT</pubDate></item></channel></rss>

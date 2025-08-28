@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about gitlab-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/gitlab-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fine-grained permissions for job tokens is now GA</title><link>https://feeds.code-drill.eu/posts/2025-08-26/fine-grained-permissions-for-job-tokens-is-now-ga/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 GitLab 18.3 has launched fine-grained permissions for job tokens,
+now in GA! This update enhances security by allowing maintainers to set
+specific permissions for job tokens, following the principle of least
+privilege. 🔒 Key resources include Repositories, Deployments, and
+Pipelines, with more API endpoints planned for future releases. This
+capability aims to reduce security risks in CI/CD pipelines. 👥 DevOps
+teams should assess this opt-in feature for projects with automated
+deployments….&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Joe Randazzo&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/fine-grained-permissions-for-job-tokens-is-now-ga/</guid><pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Custom admin roles are now GA</title><link>https://feeds.code-drill.eu/posts/2025-08-25/custom-admin-roles-are-now-ga/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 GitLab has rolled out custom admin roles for Self-Managed and
+Dedicated instances! These roles enable organizations to apply granular
+permissions, ensuring the principle of least privilege is upheld while
+enhancing operational efficiency. Key features include centralized
+management, LDAP integration, and purpose-built roles for various teams.
+This aligns with GitLab’s mission to boost software supply chain
+security. For more details, check out the custom roles documentation.
+#GitLab…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Joe Randazzo&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-25/custom-admin-roles-are-now-ga/</guid><pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Embedded views: The future of work tracking in GitLab</title><link>https://feeds.code-drill.eu/posts/2025-08-21/embedded-views-the-future-of-work-tracking-in-gitlab/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;📊 Tired of switching tabs in GitLab to track your projects?
+Introducing &lt;strong&gt;Embedded Views&lt;/strong&gt;! This feature, available in
+version 18.3, allows you to access live, relevant data directly within
+your workflow. No more outdated reports or endless context switching.
+With &lt;strong&gt;GitLab Query Language (GLQL)&lt;/strong&gt;, you can pull
+real-time data right where you need it, enhancing collaboration and
+maintaining context. Learn how this can transform your team’s work
+tracking! 🚀 #GitLab #ProjectManagement…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Alex Fracazo&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/embedded-views-the-future-of-work-tracking-in-gitlab/</guid><pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate></item><item><title>GitLab 18.3: Expanding AI orchestration in software engineering</title><link>https://feeds.code-drill.eu/posts/2025-08-21/gitlab-183-expanding-ai-orchestration-in-software-engineering/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 GitLab 18.3 is here, enhancing software engineering with
+integrated AI capabilities! The platform now serves as a comprehensive
+system of record, control plane, and user experience hub. Key updates
+include a Knowledge Graph for better data context, an Orchestration
+Layer for multi-agent workflows, and first-class agent integration
+across the development lifecycle. This evolution promotes seamless
+human-AI collaboration, boosting productivity for over 50 million users.
+Explore the future of…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Bill Staples&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/gitlab-183-expanding-ai-orchestration-in-software-engineering/</guid><pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate></item><item><title>The GitLab documentation site gets a major design overhaul</title><link>https://feeds.code-drill.eu/posts/2025-08-20/the-gitlab-documentation-site-gets-a-major-design-overhaul/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 The GitLab documentation site has undergone a major redesign! Key
+updates include: 🌙 Dark mode for improved readability. 🎨 Enhanced
+brand alignment with GitLab’s marketing site. 👍 Simplified feedback
+options with thumbs up/down directly on pages. 📚 Redesigned navigation
+for easier access to over 2,300 pages. 🔧 Addressed technical debt for a
+more polished experience. These changes stem from a recent platform
+migration, enhancing overall performance. #GitLab #Documentation
+#UXDesign…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Julia Miocene&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-20/the-gitlab-documentation-site-gets-a-major-design-overhaul/</guid><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate></item><item><title>What’s new in Git 2.51.0?</title><link>https://feeds.code-drill.eu/posts/2025-08-18/whats-new-in-git-2510/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Git has released version 2.51, with key updates aimed at improving
+performance and user experience. 🔧 Notable changes include enhanced
+git-push(1) and git-fetch(1) commands, which now use batched updates for
+reference synchronization, resulting in up to 22x speed improvements. 📦
+The release also introduces the “reftable” format as the default
+reference backend, addressing limitations of the previous “files”
+backend. 🔑 Additionally, SHA-256 is now the default hash function,
+enhancing…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Karthik Nayak&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-18/whats-new-in-git-2510/</guid><pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Why financial services choose single-tenant SaaS</title><link>https://feeds.code-drill.eu/posts/2025-08-14/why-financial-services-choose-single-tenant-saas/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Financial institutions face unique challenges with shared
+infrastructure, which heightens systemic risks. As highlighted by
+JPMorgan Chase’s CISO, incidents on multi-tenant platforms can lead to
+widespread disruptions. GitLab Dedicated offers a solution, providing
+isolated environments for development while ensuring compliance and
+security. This approach enables institutions to manage risks more
+effectively, ensuring their source code is treated as a critical asset.
+Learn more about how…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Allie Holland&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/why-financial-services-choose-single-tenant-saas/</guid><pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Custom rules in GitLab Duo Agentic Chat for greater developer efficiency</title><link>https://feeds.code-drill.eu/posts/2025-08-12/custom-rules-in-gitlab-duo-agentic-chat-for-greater-developer-efficiency/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Unlock the potential of GitLab Duo with custom rules to enhance
+developer efficiency! 🚀 Transform your AI assistant into a tailored
+coding expert. Set version controls for Java, enforce coding styles, and
+automate DevSecOps processes. This guide covers practical steps, use
+cases, and examples to streamline your coding standards. Explore how to
+implement custom rules in GitLab projects today! #GitLab
+#DeveloperEfficiency #CustomRules #DevSecOps #AIInDevelopment&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Michael Friedrich&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-12/custom-rules-in-gitlab-duo-agentic-chat-for-greater-developer-efficiency/</guid><pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Get started with GitLab Duo Agentic Chat in the web UI</title><link>https://feeds.code-drill.eu/posts/2025-08-11/get-started-with-gitlab-duo-agentic-chat-in-the-web-ui/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 GitLab has introduced the Duo Agentic Chat feature, enhancing user
+interaction with the GitLab API directly from the web UI. This tool
+allows users to manage issues, track statuses, and take actions based on
+conversations. Access is available for Duo Pro or Enterprise users,
+streamlining workflows across projects. To start, navigate to your Group
+or Project, open the chat panel, and toggle to Agentic mode. Explore how
+Agentic Chat can simplify your development tasks! #GitLab
+#DuoAgenticChat…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://about.gitlab.com/atom.xml"&gt;GitLab Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Daniel Helfand&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>gitlab-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-11/get-started-with-gitlab-duo-agentic-chat-in-the-web-ui/</guid><pubDate>Mon, 11 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>

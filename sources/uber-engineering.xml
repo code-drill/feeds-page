@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about uber-engineering)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/uber-engineering.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Controlling the Rollout of Large-Scale Monorepo Changes</title><link>https://feeds.code-drill.eu/posts/2025-08-28/controlling-the-rollout-of-large-scale-monorepo-changes/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Uber is enhancing its deployment strategy by managing the impact of
+large-scale changes through effective orchestration. As the company
+moves towards fully automated continuous deployment, implementing robust
+safety practices is essential to minimize risks. This approach ensures
+smoother transitions and maintains system integrity during significant
+updates. #Deployment #Uber #TechUpdates #ContinuousIntegration
+#SoftwareEngineering 🚀🔧📈&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/controlling-the-rollout-of-large-scale-monorepo-changes/</guid><pubDate>Thu, 28 Aug 2025 13:00:00 GMT</pubDate></item><item><title>How Uber Serves over 150 Million Reads per Second from Integrated Cache with Stronger Consistency Guarantees</title><link>https://feeds.code-drill.eu/posts/2025-08-26/how-uber-serves-over-150-million-reads-per-second-from-integrated-cache-wit/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Uber’s integrated cache, CacheFront, now handles over 150 million
+reads per second, achieving impressive hit rates exceeding 99.9%. Recent
+enhancements have strengthened the consistency guarantees of this
+infrastructure, ensuring reliable performance for users. For more
+insights, check out the full article. #Uber #CacheFront #TechInnovation
+#DataInfrastructure #Performance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/how-uber-serves-over-150-million-reads-per-second-from-integrated-cache-wit/</guid><pubDate>Tue, 26 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Lightweight Office Infrastructure: Transitioning from Backbone to SD-WAN</title><link>https://feeds.code-drill.eu/posts/2025-08-21/lightweight-office-infrastructure-transitioning-from-backbone-to-sd-wan/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Uber is enhancing its global office network by adopting SD-WAN
+technology. This transition has resulted in an 89% reduction in latency,
+improved automation, and more efficient connectivity worldwide. Such
+advancements are set to make operations faster and more cost-effective.
+#SDWAN #Uber #TechInnovation #GlobalNetwork #Connectivity&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-21/lightweight-office-infrastructure-transitioning-from-backbone-to-sd-wan/</guid><pubDate>Thu, 21 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Forecasting Models to Improve Driver Availability at Airports</title><link>https://feeds.code-drill.eu/posts/2025-08-19/forecasting-models-to-improve-driver-availability-at-airports/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Uber is enhancing driver availability at airports through advanced
+forecasting models. 📊 These models aim to reduce wait times and
+minimize queues for passengers. By analyzing data patterns, Uber
+optimizes driver deployment to meet demand effectively. 🚖 Stay tuned
+for more updates on innovations in transportation! #Uber #DataScience
+#AirportTravel #DriverAvailability #Innovation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-19/forecasting-models-to-improve-driver-availability-at-airports/</guid><pubDate>Tue, 19 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Locking Down the Fleet: Encryption at Rest and Disk Isolation at Scale</title><link>https://feeds.code-drill.eu/posts/2025-08-14/locking-down-the-fleet-encryption-at-rest-and-disk-isolation-at-scale/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔒 Managing encryption at rest and ensuring disk isolation for
+numerous stateful workloads presents significant challenges. In a recent
+article, the focus is on how effective logical volume management was
+implemented to secure a large fleet of servers. This approach enhances
+data security while maintaining operational efficiency. #DataSecurity
+#Encryption #LogicalVolumeManagement #TechInnovation #CyberSecurity&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/locking-down-the-fleet-encryption-at-rest-and-disk-isolation-at-scale/</guid><pubDate>Thu, 14 Aug 2025 13:00:00 GMT</pubDate></item><item><title>uReview: Scalable, Trustworthy GenAI for Code Review at Uber</title><link>https://feeds.code-drill.eu/posts/2025-08-12/ureview-scalable-trustworthy-genai-for-code-review-at-uber/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Uber has introduced uReview, a GenAI-powered tool designed to
+enhance code review efficiency. This innovative solution automates the
+review process, helping developers save thousands of hours while
+maintaining high-quality standards. uReview aims to improve trust in
+code reviews without compromising on quality for every commit.
+#CodeReview #GenAI #UberTech #DeveloperTools #SoftwareDevelopment&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.uber.com/en-US/blog/engineering/rss"&gt;Uber
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>uber-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-12/ureview-scalable-trustworthy-genai-for-code-review-at-uber/</guid><pubDate>Tue, 12 Aug 2025 13:00:00 GMT</pubDate></item></channel></rss>

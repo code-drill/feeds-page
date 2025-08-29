@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about docker-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/docker-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</title><link>https://feeds.code-drill.eu/posts/2025-08-28/secure-by-design-a-shift-left-approach-with-testcontainers-docker-scout-and/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;In today’s software development landscape, speed should not
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about docker-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/docker-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 14:15:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Boost Your Copilot with SonarQube via Docker MCP Toolkit and Gateway</title><link>https://feeds.code-drill.eu/posts/2025-08-29/boost-your-copilot-with-sonarqube-via-docker-mcp-toolkit-and-gateway/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 In the age of AI copilots, ensuring code quality is crucial.
+SonarQube helps identify bugs, test coverage, and security issues but
+can interrupt workflow due to feedback loops. 🔧 The solution? Integrate
+SonarQube directly into your IDE using the Sonar MCP server and Docker
+MCP Toolkit. This allows AI agents like GitHub Copilot to access code
+quality metrics seamlessly. 🛠️ The Docker MCP Toolkit simplifies the
+setup, enabling developers to focus on coding without distractions. For
+hands-on…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.docker.com/blog/feed/"&gt;Docker Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Anna Chernyshova&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>docker-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/boost-your-copilot-with-sonarqube-via-docker-mcp-toolkit-and-gateway/</guid><pubDate>Fri, 29 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</title><link>https://feeds.code-drill.eu/posts/2025-08-28/secure-by-design-a-shift-left-approach-with-testcontainers-docker-scout-and/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;In today’s software development landscape, speed should not
 compromise security. 🛡️ This article discusses a shift-left approach
 using tools like Testcontainers and Docker to enhance security early in
 the development lifecycle. It highlights how developers can conduct
@@ -87,14 +97,4 @@ supported as MCP clients, streamlining connections to over 140 MCP
 servers…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.docker.com/blog/feed/"&gt;Docker Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Deanna Sparks&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>docker-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/docker-desktop-444-smarter-ai-modeling-platform-stability-and-streamlined-k/</guid><pubDate>Thu, 14 Aug 2025 20:16:35 GMT</pubDate></item><item><title>MCP Horror Stories: The GitHub Prompt Injection Data Heist</title><link>https://feeds.code-drill.eu/posts/2025-08-14/mcp-horror-stories-the-github-prompt-injection-data-heist/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub
-Prompt Injection Data Heist. This incident highlights critical
-vulnerabilities in AI security, revealing how attackers can manipulate
-AI assistants through malicious GitHub issues. When developers request
-help, they risk exposing sensitive data from locked repositories. Learn
-how these attacks exploit broad GitHub tokens and bypass traditional
-access controls. Docker’s MCP Toolkit offers solutions to protect
-against such…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.docker.com/blog/feed/"&gt;Docker Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Ajeet Singh Raina&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>docker-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/mcp-horror-stories-the-github-prompt-injection-data-heist/</guid><pubDate>Thu, 14 Aug 2025 16:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>docker-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/docker-desktop-444-smarter-ai-modeling-platform-stability-and-streamlined-k/</guid><pubDate>Thu, 14 Aug 2025 20:16:35 GMT</pubDate></item></channel></rss>

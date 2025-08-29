@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about red-hat-developer-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/red-hat-developer-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multicluster resiliency with global load balancing and mesh federation</title><link>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore the new architecture for multicluster resiliency using global
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about red-hat-developer-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/red-hat-developer-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:14:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Migrating Ansible Automation Platform 2.4 to 2.5</title><link>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Migrating from Ansible Automation Platform 2.4 to 2.5 involves
+careful steps to ensure a smooth transition. This article outlines the
+preparation, export, and import process using the configify.aapconfig
+collection. Key points include: - Ensure Ansible Automation Platform 2.5
+is deployed separately. - Follow similar steps as migrating from AWX 25.
+- Focus on user roles and authentication changes in the new version. For
+detailed steps, refer to the article! 📜 #Ansible #Automation
+#DevOps…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Konstantin Kuminsky&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</guid><pubDate>Fri, 29 Aug 2025 07:01:20 GMT</pubDate></item><item><title>Multicluster resiliency with global load balancing and mesh federation</title><link>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore the new architecture for multicluster resiliency using global
 load balancing and mesh federation! 🌐 This approach combines a global
 load balancer and a federated service mesh to enhance service
 availability and disaster recovery, particularly for stateless
@@ -97,15 +108,4 @@ and utilizing these guardrails effectively in Python. #AI #LlamaStack
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
 Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Michael Dawson&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/implement-ai-safeguards-with-python-and-llama-stack/</guid><pubDate>Tue, 26 Aug 2025 07:01:20 GMT</pubDate></item><item><title>LLM Compressor 0.7.0 release recap</title><link>https://feeds.code-drill.eu/posts/2025-08-25/llm-compressor-070-release-recap/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 LLM Compressor has released version 0.7.0, enhancing performance
-for quantizing large language models. Key updates include: 1️⃣ New QuIP
-and SpinQuant-style transforms for improved accuracy. 2️⃣ Mixed-precision
-support with FP4 enhancements for better layer quantization. 3️⃣ DeepSeek
-v3-style block quantization for efficient compression without
-calibration data. Explore more about these features! #LLMCompressor #AI
-#MachineLearning #Quantization #TechUpdate&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Dipika Sikka, Kyle Sayers, Brian Dellabetta,
-Helen Zhao&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-25/llm-compressor-070-release-recap/</guid><pubDate>Mon, 25 Aug 2025 16:09:49 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/implement-ai-safeguards-with-python-and-llama-stack/</guid><pubDate>Tue, 26 Aug 2025 07:01:20 GMT</pubDate></item></channel></rss>

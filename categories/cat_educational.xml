@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about educational)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_educational.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to use Lakebase as a transactional data layer for Databricks Apps</title><link>https://feeds.code-drill.eu/posts/2025-08-28/how-to-use-lakebase-as-a-transactional-data-layer-for-databricks-apps/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore how to effectively use Lakebase as a transactional data layer
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about educational)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_educational.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:14:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Migrating Ansible Automation Platform 2.4 to 2.5</title><link>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Migrating from Ansible Automation Platform 2.4 to 2.5 involves
+careful steps to ensure a smooth transition. This article outlines the
+preparation, export, and import process using the configify.aapconfig
+collection. Key points include: - Ensure Ansible Automation Platform 2.5
+is deployed separately. - Follow similar steps as migrating from AWX 25.
+- Focus on user roles and authentication changes in the new version. For
+detailed steps, refer to the article! 📜 #Ansible #Automation
+#DevOps…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Konstantin Kuminsky&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</guid><pubDate>Fri, 29 Aug 2025 07:01:20 GMT</pubDate></item><item><title>Improving code quality - Session 44: Misdiagnosis of anemia</title><link>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛠️ In the latest article by Munetoshi Ishikawa, the focus is on code
+quality through the lens of anemia misdiagnosis. The discussion revolves
+around two modules—foo-module and bar-module—each with their own data
+models: FooModel and BarModel. The article highlights how conversion
+logic between these models was integrated to avoid an anemic domain
+model, ensuring better data handling. For developers, this insight
+emphasizes the importance of architecture in maintaining clean code.
+#CodeQuality…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://techblog.lycorp.co.jp/en/feed/index.xml"&gt;LY Corporation
+Tech Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>ly-corporation-tech-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</guid><pubDate>Fri, 29 Aug 2025 02:00:00 GMT</pubDate></item><item><title>Implementing Asynchronous Human-in-the-Loop Authorization in Python with LangGraph and Auth0</title><link>https://feeds.code-drill.eu/posts/2025-08-29/implementing-asynchronous-human-in-the-loop-authorization-in-python-with-la/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Learn how to implement asynchronous authorization in your LangGraph
+application using Auth0 and the CIBA flow. This tutorial covers using a
+secondary device for secure permissions, allowing actions like financial
+transactions or order approvals with human oversight. Discover the
+importance of keeping humans in the loop for responsible AI actions. For
+more insights on CIBA, check out the linked blog post! 🔐📱🤖
+#AsynchronousAuth #LangGraph #Auth0 #CIBA #ResponsibleAI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://auth0.com/blog/rss.xml"&gt;Auth0 Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Raphael do Vale&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>auth0-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/implementing-asynchronous-human-in-the-loop-authorization-in-python-with-la/</guid><pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate></item><item><title>How to use Lakebase as a transactional data layer for Databricks Apps</title><link>https://feeds.code-drill.eu/posts/2025-08-28/how-to-use-lakebase-as-a-transactional-data-layer-for-databricks-apps/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Explore how to effectively use Lakebase as a transactional data layer
 for Databricks Apps. The article discusses the integration of Lakebase
 in building internal tools and AI applications. It highlights key
 strategies for optimizing data management and enhancing application
@@ -67,36 +98,4 @@ efficient information retrieval. #AI #Python #KnowledgeBase #MCP
 #TechGuide&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://auth0.com/blog/rss.xml"&gt;Auth0 Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Jessica Temporal&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>auth0-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-to-build-a-python-mcp-server-to-consult-a-knowledge-base/</guid><pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate></item><item><title>How to prompt Gemini 2.5 Flash Image Generation for the best results</title><link>https://feeds.code-drill.eu/posts/2025-08-28/how-to-prompt-gemini-25-flash-image-generation-for-the-best-results/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Unlock the potential of Gemini 2.5 Flash Image! 🌟 This advanced
-model combines text and image processing for seamless image generation.
-Key features include: - &lt;strong&gt;Text-to-image&lt;/strong&gt;: Create images
-from descriptions. - &lt;strong&gt;Image editing&lt;/strong&gt;: Use text to modify
-existing images. - &lt;strong&gt;Multi-image composition&lt;/strong&gt;: Combine
-multiple images into one. Learn how to write effective prompts to
-enhance results. Descriptive narratives yield better images than simple
-keywords. Start creating in Google AI Studio today!…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.googleblog.com/feeds/posts/default"&gt;Google
-Developers Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>google-developers-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-to-prompt-gemini-25-flash-image-generation-for-the-best-results/</guid><pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Self-Assessing your Enterprise Strategy and Planning maturity</title><link>https://feeds.code-drill.eu/posts/2025-08-27/self-assessing-your-enterprise-strategy-and-planning-maturity/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Assessing your enterprise strategy and planning maturity is key for
-continuous improvement. 📈 Organizations must understand their position
-on the maturity spectrum to enhance alignment and execution. This can
-lead to better revenue generation, cost savings, and risk mitigation.
-Atlassian emphasizes the importance of setting and operationalizing
-strategy through six facets: Goals, Funds, Work, Systems, Talent, and
-Updates. Utilize this assessment as a benchmark and revisit it
-regularly. 🗓️…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.atlassian.com/blog/rss"&gt;Atlassian Developer
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; dhuether&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>atlassian-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/self-assessing-your-enterprise-strategy-and-planning-maturity/</guid><pubDate>Wed, 27 Aug 2025 20:58:47 GMT</pubDate></item><item><title>How Google’s AI can help transform health professions education</title><link>https://feeds.code-drill.eu/posts/2025-08-27/how-googles-ai-can-help-transform-health-professions-education/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Google’s AI is shaping the future of health professions education. 🌍
-With a projected shortage of over 11 million healthcare workers by 2030,
-AI tools are being explored to enhance medical learning. Two studies
-reveal how Google’s AI models can serve as personalized learning aids
-for medical students. The first study focused on using generative AI to
-support clinical reasoning, while the second assessed LearnLM, an AI
-model tailored for education. Results show strong interest in AI
-that…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://research.google/blog/rss/"&gt;Google Research&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>google-research</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-googles-ai-can-help-transform-health-professions-education/</guid><pubDate>Wed, 27 Aug 2025 17:19:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>auth0-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-to-build-a-python-mcp-server-to-consult-a-knowledge-base/</guid><pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>

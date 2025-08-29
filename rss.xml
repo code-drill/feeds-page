@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Thu, 28 Aug 2025 23:11:05 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New general-purpose Amazon EC2 M8i and M8i Flex instances are now available</title><link>https://feeds.code-drill.eu/posts/2025-08-28/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for cloud users! Amazon has launched the M8i and
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:14:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Open-source is for the people, by the people</title><link>https://feeds.code-drill.eu/posts/2025-08-29/open-source-is-for-the-people-by-the-people/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting developments in the world of Python! Travis Oliphant, the
+creator of NumPy and SciPy, discusses the growth of Python as a data
+science tool and the significance of community in open-source projects.
+He highlights recent releases of NumPy 2.3.0 and SciPy 1.16.0, and
+introduces the OpenTeams Incubator, aimed at supporting sustainable
+open-source communities. 📊 Connect with Travis for insights on
+open-source growth! #OpenSource #DataScience #Python #Community
+#Collaboration&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://stackoverflow.blog/feed/"&gt;Stack Overflow Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Phoebe Sajor&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>stack-overflow-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/open-source-is-for-the-people-by-the-people/</guid><pubDate>Fri, 29 Aug 2025 07:40:00 GMT</pubDate></item><item><title>Migrating Ansible Automation Platform 2.4 to 2.5</title><link>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Migrating from Ansible Automation Platform 2.4 to 2.5 involves
+careful steps to ensure a smooth transition. This article outlines the
+preparation, export, and import process using the configify.aapconfig
+collection. Key points include: - Ensure Ansible Automation Platform 2.5
+is deployed separately. - Follow similar steps as migrating from AWX 25.
+- Focus on user roles and authentication changes in the new version. For
+detailed steps, refer to the article! 📜 #Ansible #Automation
+#DevOps…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Konstantin Kuminsky&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/migrating-ansible-automation-platform-24-to-25/</guid><pubDate>Fri, 29 Aug 2025 07:01:20 GMT</pubDate></item><item><title>Improving code quality - Session 44: Misdiagnosis of anemia</title><link>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛠️ In the latest article by Munetoshi Ishikawa, the focus is on code
+quality through the lens of anemia misdiagnosis. The discussion revolves
+around two modules—foo-module and bar-module—each with their own data
+models: FooModel and BarModel. The article highlights how conversion
+logic between these models was integrated to avoid an anemic domain
+model, ensuring better data handling. For developers, this insight
+emphasizes the importance of architecture in maintaining clean code.
+#CodeQuality…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://techblog.lycorp.co.jp/en/feed/index.xml"&gt;LY Corporation
+Tech Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>ly-corporation-tech-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</guid><pubDate>Fri, 29 Aug 2025 02:00:00 GMT</pubDate></item><item><title>Implementing Asynchronous Human-in-the-Loop Authorization in Python with LangGraph and Auth0</title><link>https://feeds.code-drill.eu/posts/2025-08-29/implementing-asynchronous-human-in-the-loop-authorization-in-python-with-la/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Learn how to implement asynchronous authorization in your LangGraph
+application using Auth0 and the CIBA flow. This tutorial covers using a
+secondary device for secure permissions, allowing actions like financial
+transactions or order approvals with human oversight. Discover the
+importance of keeping humans in the loop for responsible AI actions. For
+more insights on CIBA, check out the linked blog post! 🔐📱🤖
+#AsynchronousAuth #LangGraph #Auth0 #CIBA #ResponsibleAI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://auth0.com/blog/rss.xml"&gt;Auth0 Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Raphael do Vale&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>auth0-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/implementing-asynchronous-human-in-the-loop-authorization-in-python-with-la/</guid><pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate></item><item><title>New general-purpose Amazon EC2 M8i and M8i Flex instances are now available</title><link>https://feeds.code-drill.eu/posts/2025-08-28/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for cloud users! Amazon has launched the M8i and
 M8i-Flex EC2 instances powered by Intel Xeon processors. These new
 instances offer up to 15% better price performance and 20% higher
 performance than previous generations. They’re designed for general
@@ -56,44 +97,4 @@ on setting milestones to ensure a smooth transition while maintaining
 flexibility…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://stackoverflow.blog/feed/"&gt;Stack Overflow Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Wouter de Kort, Joseph Schwanz&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>stack-overflow-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</guid><pubDate>Thu, 28 Aug 2025 16:00:00 GMT</pubDate></item><item><title>A deeper look at AI crawlers: breaking down traffic by purpose and industry</title><link>https://feeds.code-drill.eu/posts/2025-08-28/a-deeper-look-at-ai-crawlers-breaking-down-traffic-by-purpose-and-industry/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Cloudflare Radar is enhancing AI insights with new
-industry-focused data on bot traffic. The article discusses how
-traditional search platforms are affected by the rise of AI. Users often
-find answers without clicking through to original sources, impacting ad
-revenue for publishers. New features include a breakdown of AI bot
-traffic by purpose, such as training and user action, allowing for
-better understanding of these trends. 📊🤖 #AIBotTraffic
-#CloudflareRadar #DigitalMarketing…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; David Belson&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/a-deeper-look-at-ai-crawlers-breaking-down-traffic-by-purpose-and-industry/</guid><pubDate>Thu, 28 Aug 2025 14:05:00 GMT</pubDate></item><item><title>Evaluating image segmentation models for background removal for Images</title><link>https://feeds.code-drill.eu/posts/2025-08-28/evaluating-image-segmentation-models-for-background-removal-for-images/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 This week, the Images team introduced background removal using
-dichotomous image segmentation models on Workers AI. We evaluated
-several models to efficiently isolate subjects from their backgrounds.
-Image segmentation involves dividing an image into meaningful parts,
-with salient object detection highlighting the most prominent areas. The
-focus was on creating a soft saliency mask, assigning pixel values to
-indicate foreground and background. This allows for accurate predictions
-across…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Diretnan Domnan&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/evaluating-image-segmentation-models-for-background-removal-for-images/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Make Your Website Conversational for People and Agents with NLWeb and AutoRAG</title><link>https://feeds.code-drill.eu/posts/2025-08-28/make-your-website-conversational-for-people-and-agents-with-nlweb-and-autor/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Transform your website with NLWeb and Cloudflare’s AutoRAG! 🌐✨ This
-new approach shifts from traditional keyword searches to a
-conversational model, helping users and AI agents find answers more
-effectively. NLWeb, developed by Microsoft, standardizes
-natural-language queries, while AutoRAG manages content retrieval
-seamlessly. Together, they make websites AI-ready, improving user
-experience and opening new monetization opportunities for publishers.
-#WebInnovation #ConversationalAI #NLWeb…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Anni Wang&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/make-your-website-conversational-for-people-and-agents-with-nlweb-and-autor/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item><item><title>The age of agents: cryptographically recognizing agent traffic</title><link>https://feeds.code-drill.eu/posts/2025-08-28/the-age-of-agents-cryptographically-recognizing-agent-traffic/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Cloudflare has introduced Web Bot Auth, allowing websites to
-differentiate between verified bots and agents. This new system supports
-the growing demand for granular control over bot traffic, helping to
-block malicious bots while enabling helpful ones. The classification
-includes agents that act on behalf of users, enhancing interactions like
-booking flights or ordering food. Stay updated on the evolving bot
-landscape! 🤖✨ #WebSecurity #BotTraffic #Cloudflare #VerifiedBots
-#AIagents&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Jin-Hee Lee&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/the-age-of-agents-cryptographically-recognizing-agent-traffic/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>stack-overflow-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</guid><pubDate>Thu, 28 Aug 2025 16:00:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about technical_deep_dives)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_technical_deep_dives.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Moving the public Stack Overflow sites to the cloud: Part 1</title><link>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Stack Overflow is transitioning from physical servers to the
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about technical_deep_dives)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_technical_deep_dives.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sat, 30 Aug 2025 17:55:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>1 Billion Build Minutes Later: How we reinvented CI/CD at Atlassian</title><link>https://feeds.code-drill.eu/posts/2025-08-29/1-billion-build-minutes-later-how-we-reinvented-cicd-at-atlassian/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 In 2022, Atlassian recognized the need to streamline its CI/CD
+process due to fragmentation and inefficiencies. 🛠️ The solution?
+Consolidating efforts on Bitbucket Pipelines to support over 9,000
+users, enhancing reliability and flexibility while maintaining team
+autonomy. Key focus areas included enterprise-grade scale, centralized
+standards, and preparing for AI advancements. Discover how Atlassian is
+transforming its development landscape! 🌐 #Atlassian #CICD
+#SoftwareDevelopment…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.atlassian.com/blog/rss"&gt;Atlassian Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; aacosta&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>atlassian-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/1-billion-build-minutes-later-how-we-reinvented-cicd-at-atlassian/</guid><pubDate>Fri, 29 Aug 2025 17:28:23 GMT</pubDate></item><item><title>Fine-Tuning gpt-oss for Accuracy and Performance with Quantization Aware Training</title><link>https://feeds.code-drill.eu/posts/2025-08-29/fine-tuning-gpt-oss-for-accuracy-and-performance-with-quantization-aware-tr/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;OpenAI’s gpt-oss model has made waves in the AI community with its
+innovative architecture and performance capabilities. 📈🧠 It features a
+mixture of expert architecture and a 128K context length, competing
+closely with OpenAI’s closed-source models. However, deploying
+foundational models like gpt-oss in critical fields requires careful
+fine-tuning. The article discusses employing Supervised Fine-Tuning
+(SFT) and Quantization-Aware Training (QAT) to enhance model accuracy
+while maintaining…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developer.nvidia.com/blog/feed"&gt;Nvidia Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Eduardo Alvarez&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>nvidia-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/fine-tuning-gpt-oss-for-accuracy-and-performance-with-quantization-aware-tr/</guid><pubDate>Fri, 29 Aug 2025 14:47:04 GMT</pubDate></item><item><title>Moving the public Stack Overflow sites to the cloud: Part 1</title><link>https://feeds.code-drill.eu/posts/2025-08-28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Stack Overflow is transitioning from physical servers to the
 cloud! This move marks a significant shift from their traditional data
 center model, primarily based in the US. The journey began with Stack
 Overflow for Teams successfully migrating to Azure, but challenges
@@ -30,7 +52,15 @@ how to configure these tools for optimal performance! #Multicluster
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
 Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Raffaele Spazzoli&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</guid><pubDate>Thu, 28 Aug 2025 07:01:21 GMT</pubDate></item><item><title>Breaking AI Testing Barriers: Dynamic Assertions and AI Automation Deliver 1000%+ Productivity Gains</title><link>https://feeds.code-drill.eu/posts/2025-08-27/breaking-ai-testing-barriers-dynamic-assertions-and-ai-automation-deliver-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Discover how Gayathri Rajan and her team at Salesforce are
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/multicluster-resiliency-with-global-load-balancing-and-mesh-federation/</guid><pubDate>Thu, 28 Aug 2025 07:01:21 GMT</pubDate></item><item><title>How We Oops-Proofed Infrastructure Deletion on Railway</title><link>https://feeds.code-drill.eu/posts/2025-08-28/how-we-oops-proofed-infrastructure-deletion-on-railway/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Railway enhances cloud infrastructure safety with a focus on staged
+changes and undoable deletions. This approach ensures that destructive
+actions, such as deleting infrastructure, are carefully managed from the
+dashboard to the underlying physical resources. Learn more about how
+these methods protect users and improve overall reliability.
+#CloudInfrastructure #SafetyFirst #TechInnovation 🌐🔧💡&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.railway.com/rss.xml"&gt;Railway Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>railway-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-we-oops-proofed-infrastructure-deletion-on-railway/</guid><pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Breaking AI Testing Barriers: Dynamic Assertions and AI Automation Deliver 1000%+ Productivity Gains</title><link>https://feeds.code-drill.eu/posts/2025-08-27/breaking-ai-testing-barriers-dynamic-assertions-and-ai-automation-deliver-1/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Discover how Gayathri Rajan and her team at Salesforce are
 revolutionizing AI quality testing! Their innovative approach tackles
 non-deterministic AI responses and complex integration challenges. By
 implementing dynamic assertions, they enhance validation processes and
@@ -71,38 +101,4 @@ AI, demonstrating significant performance improvements for Cloudflare’s
 unique distributed…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Mari Galicer&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-we-built-the-most-efficient-inference-engine-for-cloudflares-network/</guid><pubDate>Wed, 27 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Smart deployments at scale: Leveraging ApplicationSets and Helm with cluster labels in Red Hat Advanced Cluster Management for Kubernetes</title><link>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Managing multiple Kubernetes clusters can be complex, but Red Hat
-Advanced Cluster Management simplifies this process. 🌐 It offers a
-centralized platform to oversee the entire lifecycle of Kubernetes
-clusters, ensuring consistent health monitoring and policy enforcement
-across environments. Combining ApplicationSets and Helm with cluster
-labels allows for tailored deployments, adapting configurations based on
-specific cluster characteristics. This integration streamlines
-operations and…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Mikel Sanchez&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/smart-deployments-at-scale-leveraging-applicationsets-and-helm-with-cluster/</guid><pubDate>Wed, 27 Aug 2025 07:01:16 GMT</pubDate></item><item><title>BGP dynamic routing with Fast Data Path on RHOSO 18</title><link>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Exploring the performance of dynamic routing with OVN-BGP-Agent and
-Fast Data Path on RHOSO 18 has yielded insightful findings. 🚀 A recent
-Proof of Concept assessed throughput, packet loss, stability, and
-resource utilization using Trex and BIRD. The results show high
-throughput, especially with large frames, and stable performance over
-extended periods. 📈 However, there are limitations, including
-bottlenecks for small packets and some manual configuration challenges.
-Insights from this study…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Pradipta Sahoo, Spoorthi K, Haresh
-Khandelwal&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/bgp-dynamic-routing-with-fast-data-path-on-rhoso-18/</guid><pubDate>Wed, 27 Aug 2025 07:01:08 GMT</pubDate></item><item><title>Graphics and rendering tips from Survival Kids</title><link>https://feeds.code-drill.eu/posts/2025-08-27/graphics-and-rendering-tips-from-survival-kids/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 This summer, Unity launched the co-op game “Survival Kids,”
-developed in-house with a small team. With limited resources, they
-focused on innovative graphics and rendering techniques. 🌟 Using the
-Universal Render Pipeline, they balanced artistic goals with performance
-needs. Custom shaders and dynamic lighting were key to achieving their
-visual style. 🌊 The ocean rendering was inspired by existing projects,
-utilizing signed distance fields for unique effects. Stay tuned for more
-insights on…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.unity.com/feed"&gt;Unity
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>unity-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/graphics-and-rendering-tips-from-survival-kids/</guid><pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/how-we-built-the-most-efficient-inference-engine-for-cloudflares-network/</guid><pubDate>Wed, 27 Aug 2025 14:00:00 GMT</pubDate></item></channel></rss>

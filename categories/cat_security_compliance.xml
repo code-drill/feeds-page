@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about security_compliance)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_security_compliance.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Preparing for the worst: Our core database failover test</title><link>https://feeds.code-drill.eu/posts/2025-08-28/preparing-for-the-worst-our-core-database-failover-test/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;On July 24, 2025, we conducted a successful failover test of our core
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about security_compliance)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_security_compliance.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sat, 30 Aug 2025 17:55:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Security Update: Multiple vulnerabilities in Next.js</title><link>https://feeds.code-drill.eu/posts/2025-08-30/security-update-multiple-vulnerabilities-in-nextjs/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 Security Alert for Next.js Users 🚨 Recent vulnerabilities have
+been disclosed affecting Next.js applications, including issues related
+to arbitrary file downloads and cache poisoning. Netlify’s engineering
+team confirms that sites hosted on their platform are not vulnerable to
+multiple threats. However, if using the next/image component with
+protected sources, caution is advised. To ensure security, it is
+recommended to upgrade to the latest Next.js versions and enable
+automatic updates for…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.netlify.com/changelog/feed.xml"&gt;Netlify Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>netlify-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-30/security-update-multiple-vulnerabilities-in-nextjs/</guid><pubDate>Sat, 30 Aug 2025 01:00:00 GMT</pubDate></item><item><title>Automating 70% of Dependency &amp; Vulnerability Management with Renovate and CI/CD</title><link>https://feeds.code-drill.eu/posts/2025-08-29/automating-70-of-dependency-vulnerability-management-with-renovate-and-cicd/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting advancements in security automation at Salesforce! Sai
+Saketh Nakkina and his team transformed vulnerability management for AI
+features on the Agentforce platform. By automating 70% of the process
+with Renovate and CI/CD, they significantly reduced manual responses to
+vulnerabilities. Their mission focuses on maintaining secure ML
+pipelines and delivering AI features efficiently while ensuring platform
+integrity. This approach addresses security threats and enhances
+customer trust….&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://engineering.salesforce.com/feed/"&gt;Salesforce
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Scott Nyberg&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>salesforce-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/automating-70-of-dependency-vulnerability-management-with-renovate-and-cicd/</guid><pubDate>Fri, 29 Aug 2025 23:27:54 GMT</pubDate></item><item><title>CVE-2025-55173</title><link>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-55173/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 A vulnerability (CVE-2025-55173) affecting Next.js Image
+Optimization has been identified. It impacts versions prior to v15.4.5
+and v14.2.31, allowing attacker-controlled external image servers to
+trigger arbitrary file downloads. This could lead to phishing and social
+engineering attacks. A patch was released on July 29th, 2025, addressing
+this issue for Vercel customers. For more details, check the GitHub
+Advisory and Next.js Release Notes. #CyberSecurity #NextJS
+#Vulnerability…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Zack Tanner&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-55173/</guid><pubDate>Fri, 29 Aug 2025 13:00:00 GMT</pubDate></item><item><title>CVE-2025-57752</title><link>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-57752/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;A vulnerability, CVE-2025-57752, has been identified in Next.js Image
+Optimization affecting versions prior to v15.4.5 and v14.2.31. It
+involved cache poisoning, risking unauthorized access to sensitive
+images. The issue arose when API routes returned images based on
+headers, leading to potential disclosure of user-specific content. The
+vulnerability has been resolved in the latest versions, ensuring that
+request headers are not forwarded to image endpoints. For more details,
+refer to the…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Zack Tanner&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-57752/</guid><pubDate>Fri, 29 Aug 2025 13:00:00 GMT</pubDate></item><item><title>CVE-2025-57822</title><link>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-57822/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;A recent vulnerability, CVE-2025-57822, has been identified in
+Next.js Middleware, affecting versions before v14.2.32 and v15.4.7. This
+flaw allowed for Server-Side Request Forgery (SSRF) risks due to
+misconfigured NextResponse.next() usage. Applications that reflected
+user request headers could unintentionally allow servers to make
+requests to harmful destinations. A patch was released on August 25,
+2025, to protect Vercel customers. For those unable to upgrade, it is
+vital to adhere to…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://vercel.com/atom"&gt;Vercel
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Luba Kravchenko&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>vercel-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/cve-2025-57822/</guid><pubDate>Fri, 29 Aug 2025 13:00:00 GMT</pubDate></item><item><title>Preparing for the worst: Our core database failover test</title><link>https://feeds.code-drill.eu/posts/2025-08-28/preparing-for-the-worst-our-core-database-failover-test/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;On July 24, 2025, we conducted a successful failover test of our core
 control-plane database from Azure West US to East US 2. This exercise
 confirmed our disaster recovery plans in real-world conditions. All
 control-plane traffic was tested, ensuring stability without any
@@ -51,54 +105,4 @@ implement effective…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blogs.cisco.com/feed"&gt;Cisco
 Developer Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Jorge Quintero&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cisco-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/get-ahead-of-the-hipaa-security-rule-update-with-secure-workload/</guid><pubDate>Wed, 27 Aug 2025 12:00:00 GMT</pubDate></item><item><title>Best Practices for Securing Generative AI with SASE</title><link>https://feeds.code-drill.eu/posts/2025-08-26/best-practices-for-securing-generative-ai-with-sase/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 As businesses adopt Generative AI, Security and IT leaders face
-new challenges. Executives push for quick implementation, while teams
-must create effective AI Security Strategies. 🔒 Cloudflare’s SASE
-architecture offers a solution, integrating networking and security for
-secure access to corporate resources. Their platform supports safe AI
-usage without hindering innovation. 🛡️ Recent enhancements include
-shadow AI reporting, confidence scoring for AI providers, and
-protections against…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Yumna Moazzam&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/best-practices-for-securing-generative-ai-with-sase/</guid><pubDate>Tue, 26 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Block unsafe prompts targeting your LLM endpoints with Firewall for AI</title><link>https://feeds.code-drill.eu/posts/2025-08-26/block-unsafe-prompts-targeting-your-llm-endpoints-with-firewall-for-ai/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Cloudflare has enhanced its AI security suite with the
-introduction of unsafe content moderation through Firewall for AI. This
-new feature aims to protect AI applications from malicious prompts that
-could compromise sensitive data or user trust. 🔒 With this integration,
-customers can now detect and block harmful prompts at the network level
-without modifying their application code. Firewall for AI supports
-various models, ensuring consistent protection across all platforms. 🛡️
-This update…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Mathias Deschamps&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/block-unsafe-prompts-targeting-your-llm-endpoints-with-firewall-for-ai/</guid><pubDate>Tue, 26 Aug 2025 14:00:00 GMT</pubDate></item><item><title>ChatGPT, Claude, &amp; Gemini security scanning with Cloudflare CASB</title><link>https://feeds.code-drill.eu/posts/2025-08-26/chatgpt-claude-gemini-security-scanning-with-cloudflare-casb/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Cloudflare CASB now offers security scanning for generative AI
-tools like ChatGPT, Claude, and Gemini. Organizations can connect their
-accounts to detect misconfigurations, data exposure, and compliance
-risks quickly and without additional software. This integration enhances
-visibility and helps IT teams manage the security challenges of AI
-adoption effectively. 🔍 #Cloudflare #CyberSecurity #GenerativeAI
-#DataProtection #Compliance&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Alex Dunbrack&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/chatgpt-claude-gemini-security-scanning-with-cloudflare-casb/</guid><pubDate>Tue, 26 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Introducing Cloudflare Application Confidence Score For AI Applications</title><link>https://feeds.code-drill.eu/posts/2025-08-26/introducing-cloudflare-application-confidence-score-for-ai-applications/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Cloudflare has introduced Application Confidence Scores for Gen AI
-applications to help businesses assess risks associated with shadow IT.
-These scores will aid security, IT, and legal teams in evaluating
-third-party applications without needing extensive individual audits.
-This initiative aims to balance productivity with security, promoting
-smarter controls rather than blanket bans. Stay informed about the new
-features in Cloudflare’s AI Security Posture Management within the
-Cloudflare…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Sharon Goldberg&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/introducing-cloudflare-application-confidence-score-for-ai-applications/</guid><pubDate>Tue, 26 Aug 2025 14:00:00 GMT</pubDate></item><item><title>Protecting Cisco’s front lines with AI-powered Email Threat Defense and Splunk</title><link>https://feeds.code-drill.eu/posts/2025-08-26/protecting-ciscos-front-lines-with-ai-powered-email-threat-defense-and-splu/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Cisco is enhancing email security with a layered approach using AI
-and Splunk. 💻✉️ Facing over 326 million emails quarterly, Cisco
-recognized the need to defend against phishing and malware while
-improving user productivity. The FBI reported a staggering rise in email
-cyberattacks, highlighting the urgency for robust security measures. By
-integrating Cisco Email Threat Defense with Splunk’s analytics, Cisco
-aims to provide comprehensive protection against evolving threats.
-#CyberSecurity…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blogs.cisco.com/feed"&gt;Cisco
-Developer Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Joe Allesi&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cisco-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-26/protecting-ciscos-front-lines-with-ai-powered-email-threat-defense-and-splu/</guid><pubDate>Tue, 26 Aug 2025 12:00:34 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; security_compliance&lt;/p&gt;</description><category>cisco-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-27/get-ahead-of-the-hipaa-security-rule-update-with-secure-workload/</guid><pubDate>Wed, 27 Aug 2025 12:00:00 GMT</pubDate></item></channel></rss>

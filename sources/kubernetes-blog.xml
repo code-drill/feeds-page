@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about kubernetes-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/kubernetes-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Kubernetes v1.34: Of Wind &amp; Will (O' WaW)</title><link>https://feeds.code-drill.eu/posts/2025-08-27/kubernetes-v134-of-wind-will-o-waw/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Kubernetes v1.34 is here, featuring 58 enhancements! This release
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about kubernetes-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/kubernetes-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sat, 30 Aug 2025 17:55:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Kubernetes v1.34: Finer-Grained Control Over Container Restarts</title><link>https://feeds.code-drill.eu/posts/2025-08-29/kubernetes-v134-finer-grained-control-over-container-restarts/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Kubernetes 1.34 introduces an alpha feature called Container
+Restart Policy and Rules. This feature allows developers to set
+individual restart policies for each container in a Pod, moving beyond
+the previous single policy for all containers. 🔧 Users can now define
+restart rules based on exit codes, offering more control for complex
+workloads. For instance, you can ensure that an ML training job restarts
+only on retriable errors without rescheduling the entire Pod. 📦 The new
+capability is…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://kubernetes.io/feed.xml"&gt;Kubernetes Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>kubernetes-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/kubernetes-v134-finer-grained-control-over-container-restarts/</guid><pubDate>Fri, 29 Aug 2025 18:30:00 GMT</pubDate></item><item><title>Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34</title><link>https://feeds.code-drill.eu/posts/2025-08-28/kubernetes-v134-user-preferences-kuberc-are-available-for-testing-in-kubect/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for Kubernetes users! The Kubernetes v1.34 release
+introduces user preferences in kubectl, now in beta. This feature allows
+you to set default options, like enabling interactive delete, and define
+custom aliases to streamline your workflow. To configure, place your
+preferences in a &lt;code&gt;kuberc&lt;/code&gt; file, located in your kubeconfig
+directory. Check out the official documentation for more details!
+#Kubernetes #kubectl #DevOps #CloudComputing #UserPreferences&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://kubernetes.io/feed.xml"&gt;Kubernetes Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>kubernetes-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/kubernetes-v134-user-preferences-kuberc-are-available-for-testing-in-kubect/</guid><pubDate>Thu, 28 Aug 2025 18:30:00 GMT</pubDate></item><item><title>Kubernetes v1.34: Of Wind &amp; Will (O' WaW)</title><link>https://feeds.code-drill.eu/posts/2025-08-27/kubernetes-v134-of-wind-will-o-waw/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Kubernetes v1.34 is here, featuring 58 enhancements! This release
 includes 23 stable, 22 beta, and 13 alpha features, showcasing the
 strength of its development cycle. 🌬 The theme “Of Wind &amp;amp; Will”
 highlights the community’s resilience in navigating challenges. Key

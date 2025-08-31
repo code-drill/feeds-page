@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sat, 30 Aug 2025 17:55:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Security Update: Multiple vulnerabilities in Next.js</title><link>https://feeds.code-drill.eu/posts/2025-08-30/security-update-multiple-vulnerabilities-in-nextjs/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 Security Alert for Next.js Users 🚨 Recent vulnerabilities have
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sun, 31 Aug 2025 00:06:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</title><link>https://feeds.code-drill.eu/posts/2025-08-30/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Bitnami has been crucial in simplifying application deployment for
+developers. However, significant changes are coming to their
+distribution model. Starting September 29, access to most versioned
+images will require a paid subscription under Bitnami Secure Images.
+Only the :latest tags will remain free, while older images will move to
+a legacy archive without updates. Docker offers alternatives with their
+Official Images and Hardened Images, providing robust options for teams
+facing these…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.docker.com/blog/feed/"&gt;Docker Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Michael Donovan&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>docker-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-30/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/</guid><pubDate>Sat, 30 Aug 2025 23:19:29 GMT</pubDate></item><item><title>Security Update: Multiple vulnerabilities in Next.js</title><link>https://feeds.code-drill.eu/posts/2025-08-30/security-update-multiple-vulnerabilities-in-nextjs/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚨 Security Alert for Next.js Users 🚨 Recent vulnerabilities have
 been disclosed affecting Next.js applications, including issues related
 to arbitrary file downloads and cache poisoning. Netlify’s engineering
 team confirms that sites hosted on their platform are not vulnerable to
@@ -95,14 +105,4 @@ summaries. Now, users can ask questions and refine their inquiries,
 streamlining root cause…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Levi Kipke&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/automating-threat-analysis-and-response-with-cloudy/</guid><pubDate>Fri, 29 Aug 2025 14:05:00 GMT</pubDate></item><item><title>Cloudflare is the best place to build realtime voice agents</title><link>https://feeds.code-drill.eu/posts/2025-08-29/cloudflare-is-the-best-place-to-build-realtime-voice-agents/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Exciting news from Cloudflare! They have launched new tools to
-simplify the development of real-time, voice-enabled AI applications.
-With Cloudflare Realtime Agents, developers can now orchestrate voice AI
-pipelines efficiently on a global network. These advancements support
-features like direct WebRTC audio connections and real-time AI
-inference. Cloudflare aims to make voice AI deployment as easy as
-creating a static website, enhancing user experience with low latency.
-#VoiceAI…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Renan Dincer&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/cloudflare-is-the-best-place-to-build-realtime-voice-agents/</guid><pubDate>Fri, 29 Aug 2025 14:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/automating-threat-analysis-and-response-with-cloudy/</guid><pubDate>Fri, 29 Aug 2025 14:05:00 GMT</pubDate></item></channel></rss>

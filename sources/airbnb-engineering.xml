@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about airbnb-engineering)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/airbnb-engineering.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Migrating Airbnb’s JVM Monorepo to Bazel</title><link>https://feeds.code-drill.eu/posts/2025-08-13/migrating-airbnbs-jvm-monorepo-to-bazel/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting updates from Airbnb! We have successfully migrated our
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about airbnb-engineering)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/airbnb-engineering.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Migrating Airbnb’s JVM Monorepo to Bazel</title><link>https://feeds.code-drill.eu/posts/2025-08-13/migrating-airbnbs-jvm-monorepo-to-bazel/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting updates from Airbnb! We have successfully migrated our
 largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated
 work. This transition has significantly improved our build process,
 achieving a Build CSAT increase from 38% to 68%. Key benefits include: -
@@ -10,4 +10,15 @@ involved…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://medium.com/feed/airbnb-engineering"&gt;Airbnb
 Engineering&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Thomas Bao&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>airbnb-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-13/migrating-airbnbs-jvm-monorepo-to-bazel/</guid><pubDate>Wed, 13 Aug 2025 17:01:58 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>airbnb-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-13/migrating-airbnbs-jvm-monorepo-to-bazel/</guid><pubDate>Wed, 13 Aug 2025 17:01:58 GMT</pubDate></item><item><title>Seamless Istio Upgrades at Scale</title><link>https://feeds.code-drill.eu/posts/2025-08-07/seamless-istio-upgrades-at-scale/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Airbnb has successfully upgraded Istio 14 times since 2019, managing
+thousands of pods and VMs across multiple Kubernetes clusters. Their
+upgrade strategy focuses on zero downtime for users and gradual
+rollouts, allowing for controlled upgrades and rollbacks without
+coordinating individual teams. The process involves running two Istiod
+versions simultaneously, ensuring seamless transitions for workloads.
+Learn more about their innovative approach in the full article! 🚀🔧
+#AirbnbTech #Istio…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://medium.com/feed/airbnb-engineering"&gt;Airbnb
+Engineering&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Rushy R. Panchal&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>airbnb-engineering</category><guid>https://feeds.code-drill.eu/posts/2025-08-07/seamless-istio-upgrades-at-scale/</guid><pubDate>Thu, 07 Aug 2025 17:01:42 GMT</pubDate></item></channel></rss>

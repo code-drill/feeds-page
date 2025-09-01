@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about hugging-face-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/hugging-face-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Generate Images with Claude and Hugging Face</title><link>https://feeds.code-drill.eu/posts/2025-08-19/generate-images-with-claude-and-hugging-face/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Discover how to generate images using Claude and Hugging Face! 🤖✨
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about hugging-face-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/hugging-face-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Generate Images with Claude and Hugging Face</title><link>https://feeds.code-drill.eu/posts/2025-08-19/generate-images-with-claude-and-hugging-face/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Discover how to generate images using Claude and Hugging Face! 🤖✨
 The article outlines step-by-step methods for utilizing these tools
 effectively. It highlights key features and provides tips for best
 practices in image generation. Explore the potential of AI in creative
@@ -44,4 +44,42 @@ Read the paper: &lt;a href="https://arxiv.org/abs/2508.03523"&gt;arxiv.org&lt;/a
 #FilBench #LLMs…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://huggingface.co/blog/feed.xml"&gt;Hugging Face Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-12/filbench-can-llms-understand-and-generate-filipino/</guid><pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-12/filbench-can-llms-understand-and-generate-filipino/</guid><pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Accelerate ND-Parallel: A Guide to Efficient Multi-GPU Training</title><link>https://feeds.code-drill.eu/posts/2025-08-08/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Training large models on multiple GPUs can be complex. The article
+“Accelerate ND-Parallel” discusses how to simplify this process using
+the Accelerate library and Axolotl. It provides a step-by-step guide to
+integrate various parallelism strategies in your training script,
+enhancing efficiency. Key configurations for parallelism include Fully
+Sharded Data Parallel and Data Parallel degrees. This approach requires
+at least 2 nodes with 8 GPUs each for optimal performance.
+#MultiGPU…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://huggingface.co/blog/feed.xml"&gt;Hugging Face Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-08/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training/</guid><pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Introducing AI Sheets: a tool to work with datasets using open AI models!</title><link>https://feeds.code-drill.eu/posts/2025-08-08/introducing-ai-sheets-a-tool-to-work-with-datasets-using-open-ai-models/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news for data enthusiasts! Hugging Face has launched AI
+Sheets, an open-source tool designed to build, enrich, and transform
+datasets using AI models without any coding required. You can deploy it
+locally or access it directly on the Hub, utilizing thousands of models,
+including gpt-oss from OpenAI. Explore the tool for free here: &lt;a href="https://huggingface.co/spaces/aisheets/sheets"&gt;AI Sheets&lt;/a&gt; or
+install it locally from GitHub! #AISheets #OpenSource #DataScience
+#MachineLearning…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://huggingface.co/blog/feed.xml"&gt;Hugging Face Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-08/introducing-ai-sheets-a-tool-to-work-with-datasets-using-open-ai-models/</guid><pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Vision Language Model Alignment in TRL ⚡️</title><link>https://feeds.code-drill.eu/posts/2025-08-07/vision-language-model-alignment-in-trl/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🔍 The article discusses the alignment of Vision Language Models
+(VLMs) in the context of Technology Readiness Levels (TRL). It
+highlights the importance of aligning VLMs with real-world applications
+to enhance their effectiveness. 💡 The piece outlines key strategies for
+achieving this alignment, focusing on practical implementation and
+evaluation methods. For those interested in AI development, this is a
+valuable read! #VisionLanguageModel #AIAlignment #TechnologyReadiness
+#MachineLearning…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://huggingface.co/blog/feed.xml"&gt;Hugging Face Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-07/vision-language-model-alignment-in-trl/</guid><pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate></item><item><title>Welcome GPT OSS, the new open-source model family from OpenAI!</title><link>https://feeds.code-drill.eu/posts/2025-08-05/welcome-gpt-oss-the-new-open-source-model-family-from-openai/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Exciting news from OpenAI! They have launched GPT OSS, a new
+open-source model family featuring two versions: gpt-oss-120b with 117B
+parameters and gpt-oss-20b with 21B parameters. Both models utilize a
+mixture-of-experts design for efficient performance. These models are
+licensed under Apache 2.0, promoting safe and responsible use. OpenAI
+aims to enhance accessibility in AI through this release. #OpenAI
+#GPTOSS #MachineLearning #AICommunity #OpenSource&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://huggingface.co/blog/feed.xml"&gt;Hugging Face Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>hugging-face-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-05/welcome-gpt-oss-the-new-open-source-model-family-from-openai/</guid><pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate></item></channel></rss>

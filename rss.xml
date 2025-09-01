@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sun, 31 Aug 2025 08:51:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</title><link>https://feeds.code-drill.eu/posts/2025-08-30/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Bitnami has been crucial in simplifying application deployment for
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news</title><link>https://feeds.code-drill.eu/</link><description>All feeds from top IT tech blogs in one place</description><atom:link href="https://feeds.code-drill.eu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How Ben McCarthy is bringing Obscura’s vision to photo editing</title><link>https://feeds.code-drill.eu/posts/2025-09-01/how-ben-mccarthy-is-bringing-obscuras-vision-to-photo-editing/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;📸 Ben McCarthy, creator of Obscura, has launched Obscura Studio, a
+new photo editing app focused on simplicity and efficiency. The app
+emerged from the need to adapt to Apple’s Lock Screen Camera extension,
+prompting a redesign of Obscura. This standalone editor allows for
+streamlined editing without launching the camera first. McCarthy
+emphasizes thoughtful design that prioritizes ease of use, aiming to
+create a product that meets user needs effectively. #PhotoEditing
+#AppDevelopment…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.sketch.com/blog/feed.xml"&gt;Sketch Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Ale Cubero&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>sketch-blog</category><guid>https://feeds.code-drill.eu/posts/2025-09-01/how-ben-mccarthy-is-bringing-obscuras-vision-to-photo-editing/</guid><pubDate>Mon, 01 Sep 2025 09:46:00 GMT</pubDate></item><item><title>Migrate your OpenShift logging stack from Elasticsearch to Loki</title><link>https://feeds.code-drill.eu/posts/2025-09-01/migrate-your-openshift-logging-stack-from-elasticsearch-to-loki/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 To leverage the latest logging features in Red Hat OpenShift 6.0,
+migrating from Elasticsearch to Loki is essential. This guide details
+how to test changes in development and plan for production
+implementations. Loki, a scalable log aggregation system, offers
+improved performance by using log labels. It allows multiple tenants,
+which simplifies resource management. 🔄 The migration process involves
+running both stacks in parallel, ensuring old logs remain accessible via
+Elasticsearch while…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Oscar Casal Sanchez, Jamie Parker&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-09-01/migrate-your-openshift-logging-stack-from-elasticsearch-to-loki/</guid><pubDate>Mon, 01 Sep 2025 07:01:16 GMT</pubDate></item><item><title>Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</title><link>https://feeds.code-drill.eu/posts/2025-08-30/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;Bitnami has been crucial in simplifying application deployment for
 developers. However, significant changes are coming to their
 distribution model. Starting September 29, access to most versioned
 images will require a paid subscription under Bitnami Secure Images.
@@ -84,25 +105,4 @@ demonstrate the…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developer.nvidia.com/blog/feed"&gt;Nvidia Developer
 Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Peter Belcak&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>nvidia-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/how-small-language-models-are-key-to-scalable-agentic-ai/</guid><pubDate>Fri, 29 Aug 2025 15:28:42 GMT</pubDate></item><item><title>Fine-Tuning gpt-oss for Accuracy and Performance with Quantization Aware Training</title><link>https://feeds.code-drill.eu/posts/2025-08-29/fine-tuning-gpt-oss-for-accuracy-and-performance-with-quantization-aware-tr/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;OpenAI’s gpt-oss model has made waves in the AI community with its
-innovative architecture and performance capabilities. 📈🧠 It features a
-mixture of expert architecture and a 128K context length, competing
-closely with OpenAI’s closed-source models. However, deploying
-foundational models like gpt-oss in critical fields requires careful
-fine-tuning. The article discusses employing Supervised Fine-Tuning
-(SFT) and Quantization-Aware Training (QAT) to enhance model accuracy
-while maintaining…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developer.nvidia.com/blog/feed"&gt;Nvidia Developer
-Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Eduardo Alvarez&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>nvidia-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/fine-tuning-gpt-oss-for-accuracy-and-performance-with-quantization-aware-tr/</guid><pubDate>Fri, 29 Aug 2025 14:47:04 GMT</pubDate></item><item><title>Automating threat analysis and response with Cloudy</title><link>https://feeds.code-drill.eu/posts/2025-08-29/automating-threat-analysis-and-response-with-cloudy/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Cloudflare has enhanced threat analysis with Cloudy, its AI agent,
-integrating advanced security analytics and a new conversational
-interface. This development aims to simplify investigations during
-traffic spikes, helping security teams quickly identify and address
-issues. Over 54,000 users have engaged with Cloudy since its launch,
-highlighting its effectiveness in rule creation and insightful log
-summaries. Now, users can ask questions and refine their inquiries,
-streamlining root cause…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Levi Kipke&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/automating-threat-analysis-and-response-with-cloudy/</guid><pubDate>Fri, 29 Aug 2025 14:05:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>nvidia-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-29/how-small-language-models-are-key-to-scalable-agentic-ai/</guid><pubDate>Fri, 29 Aug 2025 15:28:42 GMT</pubDate></item></channel></rss>

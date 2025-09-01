@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about educational)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_educational.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sun, 31 Aug 2025 08:51:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Developer's Guide to Building on the HubSpot Marketplace: The Swarm's Journey</title><link>https://feeds.code-drill.eu/posts/2025-08-29/a-developers-guide-to-building-on-the-hubspot-marketplace-the-swarms-journe/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 In the sales world, time is precious. The Swarm is addressing this
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about educational)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_educational.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Migrate your OpenShift logging stack from Elasticsearch to Loki</title><link>https://feeds.code-drill.eu/posts/2025-09-01/migrate-your-openshift-logging-stack-from-elasticsearch-to-loki/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 To leverage the latest logging features in Red Hat OpenShift 6.0,
+migrating from Elasticsearch to Loki is essential. This guide details
+how to test changes in development and plan for production
+implementations. Loki, a scalable log aggregation system, offers
+improved performance by using log labels. It allows multiple tenants,
+which simplifies resource management. 🔄 The migration process involves
+running both stacks in parallel, ensuring old logs remain accessible via
+Elasticsearch while…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://developers.redhat.com/blog/feed/"&gt;Red Hat Developer
+Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Oscar Casal Sanchez, Jamie Parker&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>red-hat-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-09-01/migrate-your-openshift-logging-stack-from-elasticsearch-to-loki/</guid><pubDate>Mon, 01 Sep 2025 07:01:16 GMT</pubDate></item><item><title>A Developer's Guide to Building on the HubSpot Marketplace: The Swarm's Journey</title><link>https://feeds.code-drill.eu/posts/2025-08-29/a-developers-guide-to-building-on-the-hubspot-marketplace-the-swarms-journe/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 In the sales world, time is precious. The Swarm is addressing this
 challenge by creating an app card using HubSpot’s UI Extensions. Their
 platform maps relationships within a company’s network, helping sales
 teams identify trusted connections based on shared history and
@@ -87,13 +98,4 @@ streamline processes and improve efficiency. #Databricks #Lakebase
 #DataManagement #AI #TechSolutions 🌊📊💻&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.databricks.com/feed"&gt;Databricks Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>databricks-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-to-use-lakebase-as-a-transactional-data-layer-for-databricks-apps/</guid><pubDate>Thu, 28 Aug 2025 17:43:09 GMT</pubDate></item><item><title>Ethical Hacking Challenge: Decode the Server Heist, Defend Your Digital Data</title><link>https://feeds.code-drill.eu/posts/2025-08-28/ethical-hacking-challenge-decode-the-server-heist-defend-your-digital-data/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛡️ Learn about SQL Injection (SQLi) attacks and their impact on
-database security. These attacks exploit application vulnerabilities to
-manipulate SQL queries, leading to unauthorized access and data theft.
-Consequences include credential theft, data alteration, and even system
-access. Stay informed and protect your digital data! 🔐 #CyberSecurity
-#EthicalHacking #SQLInjection #DataProtection #TechAwareness&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blogs.cisco.com/feed"&gt;Cisco
-Developer Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Francois Caen&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>cisco-developer-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/ethical-hacking-challenge-decode-the-server-heist-defend-your-digital-data/</guid><pubDate>Thu, 28 Aug 2025 17:39:04 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; educational&lt;/p&gt;</description><category>databricks-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/how-to-use-lakebase-as-a-transactional-data-layer-for-databricks-apps/</guid><pubDate>Thu, 28 Aug 2025 17:43:09 GMT</pubDate></item></channel></rss>

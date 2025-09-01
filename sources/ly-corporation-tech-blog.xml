@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about ly-corporation-tech-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/ly-corporation-tech-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 08:29:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Improving code quality - Session 44: Misdiagnosis of anemia</title><link>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛠️ In the latest article by Munetoshi Ishikawa, the focus is on code
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about ly-corporation-tech-blog)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/sources/ly-corporation-tech-blog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Improving code quality - Session 44: Misdiagnosis of anemia</title><link>https://feeds.code-drill.eu/posts/2025-08-29/improving-code-quality-session-44-misdiagnosis-of-anemia/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🛠️ In the latest article by Munetoshi Ishikawa, the focus is on code
 quality through the lens of anemia misdiagnosis. The discussion revolves
 around two modules—foo-module and bar-module—each with their own data
 models: FooModel and BarModel. The article highlights how conversion
@@ -51,4 +51,15 @@ insights from the concurrent Tech-Verse conference! #HackDay2025
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://techblog.lycorp.co.jp/en/feed/index.xml"&gt;LY Corporation
 Tech Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>ly-corporation-tech-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/hack-the-planet-a-recap-of-hack-day-2025/</guid><pubDate>Thu, 14 Aug 2025 02:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; industry_analysis&lt;/p&gt;</description><category>ly-corporation-tech-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-14/hack-the-planet-a-recap-of-hack-day-2025/</guid><pubDate>Thu, 14 Aug 2025 02:00:00 GMT</pubDate></item><item><title>Improving code quality - Session 41: \"Architecture\" under construction</title><link>https://feeds.code-drill.eu/posts/2025-08-08/improving-code-quality-session-41-architecture-under-construction/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;📢 Exciting insights from “Improving Code Quality” Session 41!
+Munetoshi Ishikawa discusses application architecture for a messaging
+app. The article outlines a data model defining messages, featuring
+various types like Text, Image, and External Resource. The message type
+is identified by the first character of its ID, which is crucial for
+maintaining historical compatibility. Discover more about managing
+different message types and their unique creation logic! #CodeQuality
+#AppDevelopment…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://techblog.lycorp.co.jp/en/feed/index.xml"&gt;LY Corporation
+Tech Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Unknown&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; technical_deep_dives&lt;/p&gt;</description><category>ly-corporation-tech-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-08/improving-code-quality-session-41-architecture-under-construction/</guid><pubDate>Fri, 08 Aug 2025 02:00:00 GMT</pubDate></item></channel></rss>

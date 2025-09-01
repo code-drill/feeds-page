@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about product_announcements)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_product_announcements.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Sun, 31 Aug 2025 08:51:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Kubernetes v1.34: Finer-Grained Control Over Container Restarts</title><link>https://feeds.code-drill.eu/posts/2025-08-29/kubernetes-v134-finer-grained-control-over-container-restarts/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Kubernetes 1.34 introduces an alpha feature called Container
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All the tech news (Posts about product_announcements)</title><link>https://feeds.code-drill.eu/</link><description></description><atom:link href="https://feeds.code-drill.eu/categories/cat_product_announcements.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:michal@code-drill.eu"&gt;Michał Rutkowski&lt;/a&gt; </copyright><lastBuildDate>Mon, 01 Sep 2025 10:29:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How Ben McCarthy is bringing Obscura’s vision to photo editing</title><link>https://feeds.code-drill.eu/posts/2025-09-01/how-ben-mccarthy-is-bringing-obscuras-vision-to-photo-editing/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;📸 Ben McCarthy, creator of Obscura, has launched Obscura Studio, a
+new photo editing app focused on simplicity and efficiency. The app
+emerged from the need to adapt to Apple’s Lock Screen Camera extension,
+prompting a redesign of Obscura. This standalone editor allows for
+streamlined editing without launching the camera first. McCarthy
+emphasizes thoughtful design that prioritizes ease of use, aiming to
+create a product that meets user needs effectively. #PhotoEditing
+#AppDevelopment…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://www.sketch.com/blog/feed.xml"&gt;Sketch Blog&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Author:&lt;/strong&gt; Ale Cubero&lt;br&gt;
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>sketch-blog</category><guid>https://feeds.code-drill.eu/posts/2025-09-01/how-ben-mccarthy-is-bringing-obscuras-vision-to-photo-editing/</guid><pubDate>Mon, 01 Sep 2025 09:46:00 GMT</pubDate></item><item><title>Kubernetes v1.34: Finer-Grained Control Over Container Restarts</title><link>https://feeds.code-drill.eu/posts/2025-08-29/kubernetes-v134-finer-grained-control-over-container-restarts/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🚀 Kubernetes 1.34 introduces an alpha feature called Container
 Restart Policy and Rules. This feature allows developers to set
 individual restart policies for each container in a Pod, moving beyond
 the previous single policy for all containers. 🔧 Users can now define
@@ -85,14 +95,4 @@ indicate foreground and background. This allows for accurate predictions
 across…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Author:&lt;/strong&gt; Diretnan Domnan&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/evaluating-image-segmentation-models-for-background-removal-for-images/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item><item><title>The age of agents: cryptographically recognizing agent traffic</title><link>https://feeds.code-drill.eu/posts/2025-08-28/the-age-of-agents-cryptographically-recognizing-agent-traffic/</link><dc:creator>Michał Rutkowski</dc:creator><description>&lt;p&gt;🌐 Cloudflare has introduced Web Bot Auth, allowing websites to
-differentiate between verified bots and agents. This new system supports
-the growing demand for granular control over bot traffic, helping to
-block malicious bots while enabling helpful ones. The classification
-includes agents that act on behalf of users, enhancing interactions like
-booking flights or ordering food. Stay updated on the evolving bot
-landscape! 🤖✨ #WebSecurity #BotTraffic #Cloudflare #VerifiedBots
-#AIagents&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://blog.cloudflare.com/rss/"&gt;Cloudflare Blog&lt;/a&gt;&lt;br&gt;
-&lt;strong&gt;Author:&lt;/strong&gt; Jin-Hee Lee&lt;br&gt;
-&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/the-age-of-agents-cryptographically-recognizing-agent-traffic/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;Category:&lt;/strong&gt; product_announcements&lt;/p&gt;</description><category>cloudflare-blog</category><guid>https://feeds.code-drill.eu/posts/2025-08-28/evaluating-image-segmentation-models-for-background-removal-for-images/</guid><pubDate>Thu, 28 Aug 2025 14:00:00 GMT</pubDate></item></channel></rss>

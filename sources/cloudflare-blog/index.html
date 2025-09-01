@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cloudflare-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: Cloudflare-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/automating-threat-analysis-and-response-with-cloudy/" target="_blank">Automating threat analysis and response with Cloudy</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 14:05</span>
+                
+                <span class="author">by Levi Kipke</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Cloudflare has enhanced threat analysis with Cloudy, its AI agent, integrating advanced security analytics and a new conversational interface. This development aims to simplify investigations during traffic spikes, helping security teams quickly identify and address issues. Over 54,000 users have engaged with Cloudy since its launch, highlighting its effectiveness in rule creation and insightful log summaries. Now, users can ask questions and refine their inquiries, streamlining root cause...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/cloudflare-realtime-voice-ai/" target="_blank">Cloudflare is the best place to build realtime voice agents</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 14:00</span>
+                
+                <span class="author">by Renan Dincer</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🌐 Exciting news from Cloudflare! They have launched new tools to simplify the development of real-time, voice-enabled AI applications. With Cloudflare Realtime Agents, developers can now orchestrate voice AI pipelines efficiently on a global network. These advancements support features like direct WebRTC audio connections and real-time AI inference. Cloudflare aims to make voice AI deployment as easy as creating a static website, enhancing user experience with low latency. #VoiceAI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/cloudy-driven-email-security-summaries/" target="_blank">Cloudy Summarizations of Email Detections: Beta Announcement</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 14:00</span>
+                
+                <span class="author">by Phil Syme</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news from Cloudflare! We are enhancing our Email Security product with Cloudy, our internal AI, to provide automated summaries of detected threats. This aims to assist SOC teams in understanding flagged messages better. Given the rapid evolution of email attacks, it&#39;s crucial for security teams to know what threats are being blocked and why. However, current detection methods can leave analysts with unclear information. Cloudy Summaries will translate complex detection logic into...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/crawlers-click-ai-bots-training/" target="_blank">The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 14:00</span>
+                
+                <span class="author">by João Tomé</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">The landscape of internet traffic is changing dramatically due to AI. By mid-2025, AI training is driving nearly 80% of crawling activity, significantly impacting referral traffic to publishers. 📉 As search engines and AI crawlers consume vast amounts of data, real user engagement is declining. For example, Google&#39;s referrals to news sites fell nearly 9% in March 2025 compared to January. Cloudflare data highlights this shift, showing a surge in crawling activity, yet a notable imbalance in...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/AI-troubleshoot-warp-and-network-connectivity-issues/" target="_blank">Troubleshooting network connectivity and performance with Cloudflare AI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 14:00</span>
+                
+                <span class="author">by Koko Uko</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🌐 Troubleshooting network issues just got easier with Cloudflare AI! The complexity of corporate networks has increased, making it hard to pinpoint performance problems. Cloudflare introduces two new AI tools in their Secure Access Service Edge (SASE) platform, Cloudflare One, designed to simplify this process. The new WARP diagnostic analyzer helps users understand connectivity issues by analyzing extensive diagnostic logs. This tool is available for free, empowering users to resolve issues...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-crawler-traffic-by-purpose-and-industry/" target="_blank">A deeper look at AI crawlers: breaking down traffic by purpose and industry</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 14:05</span>
+                
+                <span class="author">by David Belson</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare Radar is enhancing AI insights with new industry-focused data on bot traffic. The article discusses how traditional search platforms are affected by the rise of AI. Users often find answers without clicking through to original sources, impacting ad revenue for publishers. New features include a breakdown of AI bot traffic by purpose, such as training and user action, allowing for better understanding of these trends. ðð¤ #AIBotTraffic #CloudflareRadar #DigitalMarketing...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/background-removal/" target="_blank">Evaluating image segmentation models for background removal for Images</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 14:00</span>
+                
+                <span class="author">by Diretnan Domnan</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð This week, the Images team introduced background removal using dichotomous image segmentation models on Workers AI. We evaluated several models to efficiently isolate subjects from their backgrounds. Image segmentation involves dividing an image into meaningful parts, with salient object detection highlighting the most prominent areas. The focus was on creating a soft saliency mask, assigning pixel values to indicate foreground and background. This allows for accurate predictions across...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/conversational-search-with-nlweb-and-autorag/" target="_blank">Make Your Website Conversational for People and Agents with NLWeb and AutoRAG</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 14:00</span>
+                
+                <span class="author">by Anni Wang</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Transform your website with NLWeb and Cloudflare&#39;s AutoRAG! ðâ¨ This new approach shifts from traditional keyword searches to a conversational model, helping users and AI agents find answers more effectively. NLWeb, developed by Microsoft, standardizes natural-language queries, while AutoRAG manages content retrieval seamlessly. Together, they make websites AI-ready, improving user experience and opening new monetization opportunities for publishers. #WebInnovation #ConversationalAI #NLWeb...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/signed-agents/" target="_blank">The age of agents: cryptographically recognizing agent traffic</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 14:00</span>
+                
+                <span class="author">by Jin-Hee Lee</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has introduced Web Bot Auth, allowing websites to differentiate between verified bots and agents. This new system supports the growing demand for granular control over bot traffic, helping to block malicious bots while enabling helpful ones. The classification includes agents that act on behalf of users, enhancing interactions like booking flights or ordering food. Stay updated on the evolving bot landscape! ð¤â¨ #WebSecurity #BotTraffic #Cloudflare #VerifiedBots #AIagents</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/introducing-ai-crawl-control/" target="_blank">The next step for content creators in working with AI bots: Introducing AI Crawl Control</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 14:00</span>
+                
+                <span class="author">by Cam Whiteside</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has launched AI Crawl Control, previously known as AI Audit, to empower content creators with smarter crawling controls. This tool allows creators to communicate their terms directly to AI crawlers, addressing the challenges of licensing and referral traffic. With customizable 402 HTTP responses, content owners can specify how crawlers can access their material while promoting potential revenue opportunities. This innovative approach aims to enhance content independence for...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-gateway-aug-2025-refresh/" target="_blank">AI Gateway now gives you access to your favorite AI models, dynamic routing and more â through just one endpoint</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 14:05</span>
+                
+                <span class="author">by Mia Malden</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Cloudflare! The new AI Gateway allows users to access multiple AI models through a single endpoint. This update simplifies the management of AI applications with features like unified billing, secure key storage, and dynamic routing. Users can connect to providers like OpenAI and Google, managing everything from one dashboard. Experience improved performance and observability while controlling costs effortlessly. Learn more about these features on the AI Gateway landing...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/how-cloudflare-runs-more-ai-models-on-fewer-gpus/" target="_blank">How Cloudflare runs more AI models on fewer GPUs: A technical deep-dive</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 14:00</span>
+                
+                <span class="author">by Mari Galicer</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has developed a new platform called Omni to optimize GPU usage for AI models. Omni employs lightweight isolation and memory over-commitment, allowing multiple models to run on a single GPU. This innovation enhances model availability and reduces latency, making AI services more efficient. The platform also simplifies management by using a single control plane to handle model provisioning and scaling automatically. #AI #Cloudflare #TechInnovation #GPU #Omni</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/cloudflares-most-efficient-ai-inference-engine/" target="_blank">How we built the most efficient inference engine for Cloudflareâs network</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 14:00</span>
+                
+                <span class="author">by Mari Galicer</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has developed Infire, a new LLM inference engine designed to enhance resource efficiency for AI tasks. Infire uses advanced techniques to optimize memory, network I/O, and GPU utilization, allowing it to serve more requests with fewer resources. Initial tests show it completes tasks up to 7% faster than the previous vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers AI, demonstrating significant performance improvements for Cloudflareâs unique distributed...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/workers-ai-partner-models/" target="_blank">State-of-the-art image generation Leonardo models and text-to-speech Deepgram models now available in Workers AI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 14:00</span>
+                
+                <span class="author">by Nikhil Kothari</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates in Workers AI! We&#39;ve partnered with Leonardo.Ai and Deepgram to enhance our model catalog. Users can now access advanced image generation and real-time text-to-speech models, all hosted on Cloudflare&#39;s infrastructure. This integration allows developers to create applications with low-latency image generation and audio voice agents effectively. Discover more about our new models and how they can support your AI projects! #AI #WorkersAI #Leonardo #Deepgram #Cloudflare</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/zero-trust-mcp-server-portals/" target="_blank">Securing the AI Revolution: Introducing Cloudflare MCP Server Portals</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:05</span>
+                
+                <span class="author">by Kenny Johnson</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news in AI security! Cloudflare has launched MCP Server Portals in Open Beta. This new feature allows organizations to centralize, secure, and monitor every MCP connection. The Model Context Protocol (MCP) enables Large Language Models (LLMs) like ChatGPT to interact with various applications, enhancing their functionality. Discover how MCP transforms AI into collaborative teammates while addressing security concerns. ð #AI #Cloudflare #Cybersecurity #MCP #TechInnovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/best-practices-sase-for-ai/" target="_blank">Best Practices for Securing Generative AI with SASE</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:00</span>
+                
+                <span class="author">by Yumna Moazzam</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð As businesses adopt Generative AI, Security and IT leaders face new challenges. Executives push for quick implementation, while teams must create effective AI Security Strategies. ð Cloudflareâs SASE architecture offers a solution, integrating networking and security for secure access to corporate resources. Their platform supports safe AI usage without hindering innovation. ð¡ï¸ Recent enhancements include shadow AI reporting, confidence scoring for AI providers, and protections against...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/block-unsafe-llm-prompts-with-firewall-for-ai/" target="_blank">Block unsafe prompts targeting your LLM endpoints with Firewall for AI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:00</span>
+                
+                <span class="author">by Mathias Deschamps</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has enhanced its AI security suite with the introduction of unsafe content moderation through Firewall for AI. This new feature aims to protect AI applications from malicious prompts that could compromise sensitive data or user trust. ð With this integration, customers can now detect and block harmful prompts at the network level without modifying their application code. Firewall for AI supports various models, ensuring consistent protection across all platforms. ð¡ï¸ This update...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/casb-ai-integrations/" target="_blank">ChatGPT, Claude, &amp; Gemini security scanning with Cloudflare CASB</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:00</span>
+                
+                <span class="author">by Alex Dunbrack</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare CASB now offers security scanning for generative AI tools like ChatGPT, Claude, and Gemini. Organizations can connect their accounts to detect misconfigurations, data exposure, and compliance risks quickly and without additional software. This integration enhances visibility and helps IT teams manage the security challenges of AI adoption effectively. ð #Cloudflare #CyberSecurity #GenerativeAI #DataProtection #Compliance</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/confidence-score-rubric/" target="_blank">Introducing Cloudflare Application Confidence Score For AI Applications</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:00</span>
+                
+                <span class="author">by Sharon Goldberg</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has introduced Application Confidence Scores for Gen AI applications to help businesses assess risks associated with shadow IT. These scores will aid security, IT, and legal teams in evaluating third-party applications without needing extensive individual audits. This initiative aims to balance productivity with security, promoting smarter controls rather than blanket bans. Stay informed about the new features in Cloudflare&#39;s AI Security Posture Management within the Cloudflare...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/shadow-AI-analytics/" target="_blank">Unmasking the Unseen: Your Guide to Taming Shadow AI with Cloudflare One</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 14:05</span>
+                
+                <span class="author">by Joey Steinberger</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ Concerned about data leaks from unsanctioned AI use? The rise of &#34;Shadow AI&#34; poses a significant risk as employees unknowingly expose sensitive information through AI tools. Traditional security measures often miss these interactions. Cloudflare One offers a solution with its Shadow IT Report, providing visibility into AI application usage and helping organizations manage potential risks effectively. Stay informed and secure! ðð» #CyberSecurity #ShadowAI #Cloudflare #DataProtection #Innovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-prompt-protection/" target="_blank">Beyond the ban: A better way to secure generative AI applications</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 14:00</span>
+                
+                <span class="author">by Matt Davis</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Generative AI is transforming workplace productivity, but it also poses significant data security risks. ð¡ï¸ Many employees inadvertently share sensitive information with AI tools. Recent incidents highlight the consequences of this, including private chats being indexed online. To address these risks, Cloudflare introduces AI prompt protection, part of its Data Loss Prevention (DLP) system. This feature helps organizations manage AI use while securing sensitive data. AI prompt protection...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/fedramphigh-ai/" target="_blank">Bringing Cloudflareâs AI to FedRAMP High</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 14:00</span>
+                
+                <span class="author">by Wesley Evans</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare is set to enhance AI capabilities for the US public sector by bringing its AI Developer suite, including Workers AI, AI Gateway, and Vectorize, into FedRAMP Moderate and High boundaries by 2026. This initiative aims to streamline generative AI use while ensuring compliance and security. Workers AI will provide serverless inference close to users, improving response times for agency services. With these tools, agencies can modernize their operations and improve efficiency in...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/welcome-to-ai-avenue/" target="_blank">Cloudflare Launching AI Miniseries for Developers (and Everyone Else They Know)</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 14:00</span>
+                
+                <span class="author">by Craig Dennis</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-link">event</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare has launched &#34;AI Avenue,&#34; a miniseries designed to demystify AI for developers and the general public. Each episode explores AI&#39;s growth, capabilities, and human augmentation stories, making the technology approachable and engaging. Viewers can interact with AI hands-on, breaking down fears and showcasing its potential. Join the journey to learn more at aiavenue.show! #AI #Cloudflare #Innovation #Technology #HumanAugmentation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/welcome-to-ai-week-2025/" target="_blank">Welcome to AI Week 2025</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-24 16:00</span>
+                
+                <span class="author">by James Allworth</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Welcome to AI Week 2025! AI is transforming industries by enhancing productivity. Customer support agents can now handle up to ten times more tickets, while software engineers focus on reviewing AI-generated code. This shift allows sales teams to prioritize relationship building over administrative tasks. However, the rapid advancement of AI presents governance challenges. Security concerns arise as sensitive data can be mishandled or exposed. Companies face tough decisions on managing AI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/moq/" target="_blank">MoQ: Refactoring the Internet&#39;s real-time media stack</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 14:00</span>
+                
+                <span class="author">by Renan Dincer</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Media over QUIC (MoQ) is a new IETF standard transforming real-time media streaming by unifying various protocols. For years, we relied on RTMP, HLS, and WebRTC, each addressing specific needs but creating complexity in the process. MoQ aims to streamline this by combining low latency with scalability and operational simplicity. Cloudflare has launched the first MoQ relay network, collaborating with industry leaders like Meta and Google to create a shared foundation for future applications....</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/cloudflare-incident-on-august-21-2025/" target="_blank">Cloudflare incident on August 21, 2025</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 00:58</span>
+                
+                <span class="author">by Bryton Herdes</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">On August 21, 2025, Cloudflare experienced significant congestion due to a surge of traffic directed at its clients hosted in AWS us-east-1. ð The congestion began at 16:27 UTC and peaked until 19:38 UTC, affecting user connections with high latency and packet loss. This issue was localized and not a result of an attack. The traffic overload was traced back to a single customer. â ï¸ Cloudflare is working on measures to prevent similar incidents in the future. For more details, check out the...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/wildfire-fogos-pt-portugal-ddos-attack/" target="_blank">How a volunteer-run wildfire site in Portugal stayed online during DDoS attacks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-21 17:28</span>
+                
+                <span class="author">by JoÃ£o TomÃ©</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ðð¥ In 2015, fogos.pt began as a volunteer side project to improve access to wildfire data in Portugal. Today, it serves as a vital resource for citizens, media, and government during fire seasons. During the intense 2025 wildfire season, fogos.pt faced DDoS attacks but was protected by Cloudflare&#39;s Project Galileo. This platform provides real-time data and is crucial for public safety. Volunteers and partners keep this initiative running without formal funding. #WildfireTracker...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-face-cropping-for-images/" target="_blank">How we built AI face cropping for Images</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 14:00</span>
+                
+                <span class="author">by Diretnan Domnan</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Developer Week 2024! We launched AI face cropping, a feature that automatically crops images around detected faces. This marks a significant step in our AI image manipulation capabilities. Our transition from a CPU-based prototype to a GPU-based implementation allows for better performance and scalability, addressing previous technical challenges. This feature is aimed at enhancing image handling for social media platforms and e-commerce sites, making it easier to create...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/announcing-the-cloudflare-browser-developer-program/" target="_blank">Announcing the Cloudflare Browser Developer Program</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 14:00</span>
+                
+                <span class="author">by Oliver Payne</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Cloudflare! They have launched the Browser Developer Program, aimed at enhancing collaboration between Cloudflare and browser development teams. This initiative focuses on improving security measures while ensuring a seamless user experience. Browser developers can join to share feedback, access best practices, and engage in discussions with Cloudflare engineers. The program also offers insights into updates that may affect browser interactions with Cloudflare Challenges...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/madeyoureset-an-http-2-vulnerability-thwarted-by-rapid-reset-mitigations/" target="_blank">MadeYouReset: An HTTP/2 vulnerability thwarted by Rapid Reset mitigations</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 22:03</span>
+                
+                <span class="author">by Evan Rittenhouse</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ A new HTTP/2 vulnerability named MadeYouReset (CVE-2025-8671) has been disclosed by researchers at Tel Aviv University. This denial-of-service (DoS) vulnerability affects unpatched HTTP/2 servers, potentially leading to resource exhaustion. If you use Cloudflare for DDoS mitigation, your systems are already protected. MadeYouReset exploits server-sent stream resets, similar to the previously identified Rapid Reset vulnerability. Implementations are encouraged to monitor and limit the use of...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/aligning-our-prices-and-packaging-with-the-problems-we-help-customers-solve/" target="_blank">Aligning our prices and packaging with the problems we help customers solve</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-11 23:03</span>
+                
+                <span class="author">by Phil Winslow</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cloudflare is introducing Externa and Interna, two new packages designed to simplify how you connect and protect your infrastructure. These use-case bundles address the need for straightforward solutions and pricing, responding to customer feedback for simplicity. Externa focuses on connecting and protecting public-facing systems, while Interna secures internal resources. These packages aim to reduce complexity and enhance security. #Cloudflare #Cybersecurity #TechSolutions #Simplicity...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/rearchitecting-workers-kv-for-redundancy/" target="_blank">Redesigning Workers KV for increased availability and faster performance</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-08 13:00</span>
+                
+                <span class="author">by Tyson Trautmann</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Cloudflare has redesigned its Workers KV service following a significant outage on June 12, 2025. This incident was caused by a failure in the underlying storage infrastructure. To enhance availability and performance, Cloudflare has transitioned to its own storage infrastructure. This change eliminates single points of failure and reduces reliance on third-party providers for redundancy. The updated design aims to provide high availability while improving response times for critical...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/" target="_blank">Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 21:05</span>
+                
+                <span class="author">by Ashish Datta</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news! OpenAI&#39;s latest open-source models are now live on Cloudflare Workers AI. Developers can access two new models: a 120 billion parameter and a 20 billion parameter version. These models feature a Mixture-of-Experts architecture for efficient performance and are designed for transparency and flexibility. 🛠️ In addition, Cloudflare supports the new Responses API, enhancing interaction capabilities. The Code Interpreter and Web Search features are also on the way! #OpenAI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/" target="_blank">Reducing double spend latency from 40 ms to &lt; 1 ms on privacy proxy</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 13:00</span>
+                
+                <span class="author">by Ben Yang</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">We recently improved the performance of our privacy proxy service by reducing double-spend check latency from 40 ms to less than 1 ms. 🚀 This enhancement helps users browse the web securely without compromising their privacy. It also boosts the efficiency of our service, as we handle millions of requests each second. 🔒 Using a tracing platform and metrics, we identified bottlenecks and optimized our processes. This change is part of Cloudflare&#39;s commitment to making the Internet faster for...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/" target="_blank">Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 13:00</span>
+                
+                <span class="author">by Reid Tatoris</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Perplexity, an AI-powered answer engine, is reportedly using stealth tactics to bypass website no-crawl directives. They modify user agents and change IPs to continue crawling despite explicit blocks. This behavior contradicts the trust-based principles of the internet, which emphasize transparency and adherence to website preferences. As a result, Perplexity has been de-listed as a verified bot and is facing new blocking measures. #Crawling #AI #WebSecurity #DataPrivacy #TechNews 🕵️‍♂️🔍🚫</div>
+        </article>
+        
+    </div>
+    
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

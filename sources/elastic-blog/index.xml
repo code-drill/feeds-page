@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elastic-Blog on Daily Tech Articles Feed</title>
+    <link>http://localhost:1313/sources/elastic-blog/</link>
+    <description>Recent content in Elastic-Blog on Daily Tech Articles Feed</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sources/elastic-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JVM essentials for Elasticsearch: Metrics, memory, and monitoring</title>
+      <link>http://localhost:1313/articles/article-7272/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7272/</guid>
+      <description>Understanding JVM essentials is crucial for effectively running Elasticsearch, a Java-based search and analytics engine. The Java Virtual Machine (JVM) provides a platform-independent environment, crucial for troubleshooting memory issues like OutOfMemoryError. The blog outlines how to monitor memory usage and garbage collection for optimal performance. Default JVM settings are typically sufficient for most use cases, and any changes should be approached with caution. For more insights, check&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The business impact of Elasticsearch logsdb index mode and TSDS</title>
+      <link>http://localhost:1313/articles/article-7401/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7401/</guid>
+      <description>ð The Elasticsearch team has rolled out enhancements in versions 8.19 and 9.1, focusing on storage efficiency and performance. ð Key features include the logsdb index mode and time series data streams (TSDS), which address challenges faced by DevOps and security teams. ð Benchmark results show a storage efficiency improvement of ~16% and an indexing throughput boost of ~19%. For users not yet on logsdb, storage reductions could exceed 70%. ð Remember, logsdb is available for both Basic and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Tipalti mastered Elasticsearch performance with AutoOps</title>
+      <link>http://localhost:1313/articles/article-6300/</link>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-6300/</guid>
+      <description>Tipalti, a leader in payables automation, has transformed its approach to Elasticsearch performance. By switching from manual monitoring to the automated AutoOps system, they achieved a 10% annual cost saving while managing a complex database ecosystem with a small team. Oz Levy, a data operations manager at Tipalti, shared insights on this transition and its impact on operational efficiency. #Tipalti #Elasticsearch #AutoOps #Efficiency #CostSaving ð¼ðð</description>
+    </item>
+    <item>
+      <title>How to reduce alert overload in defence SOCs</title>
+      <link>http://localhost:1313/articles/article-4721/</link>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4721/</guid>
+      <description>ð Analysts in defense SOCs are facing significant alert overload, with many notifications being false positives. A recent study shows that 71% of SOC personnel feel overwhelmed, and 62% of alerts go ignored. This impacts both efficiency and security. Using AI tools like Elastic&amp;rsquo;s Attack Discovery, organizations have seen daily alerts drop dramatically, enhancing analyst focus and operational efficiency. Learn more about transforming your SOC operations in our upcoming webinar! ðð»&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building effective threat hunting and detection rules in Elastic Security</title>
+      <link>http://localhost:1313/articles/article-5056/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5056/</guid>
+      <description>ð Learn how to build effective threat hunting and detection rules in Elastic Security! This blog provides step-by-step guidance on creating custom detection rules using Elasticsearch Query Language (ES|QL) and the Elastic AI Assistant. Key highlights include best practices for refining detection logic, testing rules, and automating responses to enhance security operations. Explore how to categorize API calls and streamline your queries for better analysis. #ElasticSecurity #ThreatHunting&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elasticâs capabilities in the world of Zero Trust operations</title>
+      <link>http://localhost:1313/articles/article-5058/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5058/</guid>
+      <description>ð Exploring Zero Trust Operations with Elastic The article discusses the essential pillars of Zero Trust (ZT) based on the US Department of Defense&amp;rsquo;s framework. Key elements include user identity, device characteristics, network integrity, data protection, application vulnerabilities, and automation. Challenges exist in implementing ZT, such as system complexity, operational speed, and fragility from disparate integrations. Elasticâs Search AI Platform is highlighted for its role in enhancing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Traditional AI vs. generative AI: A guide for IT leaders</title>
+      <link>http://localhost:1313/articles/article-5057/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5057/</guid>
+      <description>ð The AI landscape is rapidly changing, presenting challenges for IT leaders. This article outlines the key differences between traditional AI and generative AI. Traditional AI has supported enterprise operations for years, while generative AI is redefining creativity and innovation. Key considerations for choosing the right AI include task complexity, creativity needs, and data requirements. Understanding these factors is essential for strategic decision-making. ð #ArtificialIntelligence&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Traditional AI vs. generative AI: A guide for IT leaders</title>
+      <link>http://localhost:1313/articles/article-6301/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-6301/</guid>
+      <description>AI is evolving rapidly, presenting new challenges for IT leaders. This article outlines the key differences between traditional AI and generative AI. Traditional AI excels in structured tasks, while generative AI is suited for creative applications. Understanding your organization&amp;rsquo;s needs is crucial for choosing the right AI approach. Explore more about their applications and impact on technology. ð¤ð¡ #ArtificialIntelligence #TechTrends #ITLeadership #GenerativeAI #BusinessStrategy</description>
+    </item>
+    <item>
+      <title>Elastic response to blog âEDR 0-Day Vulnerabilityâ</title>
+      <link>http://localhost:1313/articles/article-5059/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5059/</guid>
+      <description>ð Elasticâs Security team has responded to claims of a vulnerability in Elastic Defend. After comprehensive investigation, no evidence was found to support the alleged bypass of EDR monitoring or remote code execution. The demonstrations provided were not from unprivileged processes. Elastic remains committed to transparency and encourages researchers to share any valid findings at &lt;a href=&#34;mailto:security@elastic.co&#34;&gt;security@elastic.co&lt;/a&gt;. Updates will be provided as necessary. #CyberSecurity #Elastic #Vulnerability #EDR #InfoSec</description>
+    </item>
+    <item>
+      <title>Generative AI fields now available in ECS allowing parity and compatibility with OTel</title>
+      <link>http://localhost:1313/articles/article-5060/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5060/</guid>
+      <description>ð Exciting updates from Elastic! The Elastic Common Schema (ECS) now supports generative AI (GenAI) fields, enhancing compatibility with OpenTelemetry (OTel). This allows for better normalization of data from diverse GenAI vendors. Key use cases include observability, security, and log normalization for GenAI applications. Users can seamlessly integrate ECS and OTel for improved monitoring. Stay informed and explore how these advancements can benefit your workflows! #Elastic #GenerativeAI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Transforming IT Help Desk: How Elasticâs Search AI Platform supercharges Salesforce Service Cloud</title>
+      <link>http://localhost:1313/articles/article-5061/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5061/</guid>
+      <description>ð Transforming IT support with Elastic&amp;rsquo;s Search AI Platform in Salesforce Service Cloud is a game-changer. The platform enhances internal IT operations by providing real-time, accurate assistance. It allows users to choose between instant AI support or traditional ticket submissions for complex issues. This dual approach improves ticket quality and accelerates resolution times. By integrating with tools like JIRA and Google Docs, it ensures responses are grounded in enterprise-specific&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Community, consulting, and chili sauce: Top Down with Dominik Toepfer</title>
+      <link>http://localhost:1313/articles/article-5062/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5062/</guid>
+      <description>Meet Dominik âDomâ Toepfer, a principal software engineer at Elastic, where he focuses on generative AI and Search. His engineering journey began with a book on Elasticsearch, leading him through various roles at the company. Dom emphasizes the importance of collaboration, stating, âWe build better together.â He balances work and family life, ensuring heâs present for his kids while pursuing his passion for tech. His workspace is carefully designed for inspiration, featuring tools and an&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic joins AWS Zero Trust Accelerator for Government (ZTAG) program</title>
+      <link>http://localhost:1313/articles/article-4998/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4998/</guid>
+      <description>ð Exciting news! Elastic has joined the AWS Zero Trust Accelerator for Government (ZTAG) program. This partnership aims to enhance the security of US federal agencies by integrating Elasticâs data-centric approach with AWSâs Zero Trust framework. ð The collaboration focuses on improving security information and event management (SIEM) tailored for the government&amp;rsquo;s Zero Trust architecture. This is crucial as cyber threats continue to evolve. ð Together, they aim to support federal agencies in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic wins 2025 Google Cloud DORA Award for Architecting for the Future with AI</title>
+      <link>http://localhost:1313/articles/article-4897/</link>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4897/</guid>
+      <description>ð Exciting news! Elastic has won the 2025 Google Cloud DORA Award for Architecting for the Future with AI. This recognition highlights our commitment to enhancing software delivery and operational performance using DORA principles. By adopting a data-driven approach, we&amp;rsquo;ve improved the velocity and reliability of our services for customers. AI is transforming software development, with 76% of technologists relying on it daily. Our focus remains on innovation and smart operations in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.17.10 released</title>
+      <link>http://localhost:1313/articles/article-4898/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4898/</guid>
+      <description>ð Elastic Stack 8.17.10 has officially been released! This new version comes with important updates and fixes compared to 8.17.9. Users are encouraged to upgrade to enhance their experience. For a complete list of changes and resolved issues, check out the release notes. #ElasticStack #SoftwareUpdate #TechNews #VersionRelease</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.18.5 released</title>
+      <link>http://localhost:1313/articles/article-4899/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4899/</guid>
+      <description>ð Exciting news for Elastic Stack users! Version 8.18.5 has been officially released today. Users are encouraged to upgrade from version 8.18.4 to benefit from the latest improvements. For a comprehensive list of issues fixed and changes made, check the release notes. #ElasticStack #SoftwareUpdate #TechNews #Upgrade</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.19.2 released</title>
+      <link>http://localhost:1313/articles/article-4901/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4901/</guid>
+      <description>ð Exciting news! Elastic Stack 8.19.2 has been released today. The new version offers improvements over 8.19.1, and users are encouraged to upgrade. For a detailed overview of fixed issues and changes, check the release notes. Stay updated! #ElasticStack #SoftwareUpdate #TechNews #Upgrade #VersionRelease</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.0.5 released</title>
+      <link>http://localhost:1313/articles/article-4900/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4900/</guid>
+      <description>ð The Elastic Stack has officially launched version 9.0.5! This update is recommended over version 9.0.4 for improved performance and fixes. For a complete list of changes and resolved issues, check out the release notes. Stay updated and enhance your experience! ð§ð #ElasticStack #SoftwareUpdate #TechNews</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.1.2 released</title>
+      <link>http://localhost:1313/articles/article-4902/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4902/</guid>
+      <description>ð Elastic Stack version 9.1.2 has been officially released! This update brings several important fixes and improvements over version 9.1.1. For a complete list of changes and resolved issues, please check the release notes. Upgrade today to enhance your experience! #ElasticStack #SoftwareUpdate #TechNews #VersionRelease</description>
+    </item>
+    <item>
+      <title>Accelerating creativity with Elasticsearch vector database and the Dell AI Data Platform</title>
+      <link>http://localhost:1313/articles/article-4836/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4836/</guid>
+      <description>Unlock creativity in today&amp;rsquo;s fast-paced industries! ð The collaboration between Dell and NVIDIA is enhancing the Dell AI Data Platform with Elasticsearch, streamlining access to unstructured data for teams in media, gaming, and design. This partnership enables natural language searches, global collaboration, and AI-generated insights, ensuring efficient workflows and quick decision-making. Discover how this innovative platform can transform your creative processes! ð¡ð #AI #Elasticsearch #Dell&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The rise of intelligent banking: Unifying fraud, security, and compliance in the era of AI</title>
+      <link>http://localhost:1313/articles/article-4835/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4835/</guid>
+      <description>In the evolving financial landscape, security, compliance, and customer trust are interconnected. The IDC Spotlight report, sponsored by Elastic and AWS, highlights the need for financial institutions to adopt AI-powered platforms that unify fraud prevention, cybersecurity, and regulatory compliance. As threats grow more sophisticated, institutions must move beyond siloed risk functions to ensure operational resilience and regulatory readiness. This shift is critical for maintaining customer&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Security: Announcing Agentic Query validation, Attack Discovery persistence, and automated scheduling and actions</title>
+      <link>http://localhost:1313/articles/article-4720/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4720/</guid>
+      <description>🚀 Elastic Security has unveiled updates to Attack Discovery and the Elastic AI Assistant, enhancing security operations with AI support. 🔍 The new agentic query validation ensures reliable queries, reducing errors during investigations. Analysts can focus on critical tasks with functional queries provided right away. 📅 The AI Assistant is now time-aware, streamlining incident management by providing real-time on-call information. 📊 Additionally, Attack Discovery saves historical findings and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.19.1 released</title>
+      <link>http://localhost:1313/articles/article-4723/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4723/</guid>
+      <description>🚨 New Release Alert! 🚨 Elastic Stack 8.19.1 has officially launched! This version includes important fixes and improvements over 8.19.0. For a detailed overview of the changes and resolved issues, check the release notes. Upgrade your systems for enhanced performance! 🔄 #ElasticStack #TechUpdate #SoftwareRelease #UpgradeNow</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.1.1 released</title>
+      <link>http://localhost:1313/articles/article-4722/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4722/</guid>
+      <description>🚀 Exciting news! Elastic Stack has officially released version 9.1.1. This update includes important fixes and improvements compared to version 9.1.0. Users are encouraged to upgrade to benefit from these enhancements. For a complete list of changes and resolved issues, check the release notes. #ElasticStack #SoftwareUpdate #TechNews #UpgradeNow</description>
+    </item>
+    <item>
+      <title>Hash, store, join: A modern solution to log deduplication with ES|QL LOOKUP JOIN</title>
+      <link>http://localhost:1313/articles/article-4692/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4692/</guid>
+      <description>In the realm of cybersecurity, the challenge of balancing data fidelity with budget constraints is critical, especially with PowerShell logging. 📊 Comprehensive logging is essential for threat hunting, yet it can lead to massive data storage costs. This article introduces an innovative approach using the Elastic Stack and ES|QL LOOKUP JOIN to optimize log management. The strategy focuses on intelligent data deduplication, allowing organizations to store references rather than full logs,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Expose hidden threats with EASE</title>
+      <link>http://localhost:1313/articles/article-4115/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4115/</guid>
+      <description>Introducing the Elastic AI SOC Engine (EASE)! 🚀 EASE is designed to enhance security operations by integrating AI capabilities into existing SIEM and EDR systems. It helps analysts detect complex threats faster and reduces investigation time. With features like centralized alert summaries and automated attack discovery, EASE enables better prioritization and response to high-risk alerts. 🛡️ This solution is especially beneficial for organizations looking to improve their threat detection&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Leaning into AI, ML, and observability to manage your ever-growing infrastructure</title>
+      <link>http://localhost:1313/articles/article-520/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-520/</guid>
+      <description>🚀 The landscape of IT infrastructure is rapidly changing with AI and ML enhancing software development and orchestration. As systems scale, the need for advanced observability tools has become crucial. This transformation reveals gaps in current tools, affecting data volume, fidelity, and root cause analysis. To address these challenges, the article outlines four key technologies essential for modern observability. #AI #MachineLearning #Observability #ITInfrastructure #TechTrends</description>
+    </item>
+    <item>
+      <title>Harnessing Elastic APIs for custom AI-driven SOAR</title>
+      <link>http://localhost:1313/articles/article-521/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-521/</guid>
+      <description>🔍 Security teams face challenges with alerts and investigations. Elastic Security offers an API-first approach, enabling custom workflows for efficient threat response. 🛠️ The article highlights how Elastic&amp;rsquo;s APIs can automate security orchestration, integrating AI and tools like Slack for improved operations. 💡 Key steps include monitoring for critical alerts, leveraging the Elastic AI Assistant, and executing commands seamlessly. #CyberSecurity #ElasticSecurity #Automation #AI #SOAR</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DigitalOcean-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: DigitalOcean-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/mcp-server-public-release" target="_blank">DigitalOcean MCP Server is now available</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 02:32</span>
+                
+                <span class="author">by Bikram Gupta</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The new DigitalOcean MCP Server is here! This tool allows developers to manage cloud resources using natural language commands through AI tools like Cursor and Claude. It connects to 9 services, streamlining operations. ð¨âð» With simple commands, you can deploy apps, manage databases, and optimize costsâall without extensive scripting. ð Get started by following the configuration guidelines on GitHub. #DigitalOcean #CloudManagement #AI #MCP #TechInnovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/seanotes-saas-starter-kit" target="_blank">Stop Building SaaS from Scratch: Meet the SeaNotes Starter Kit</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-21 14:20</span>
+                
+                <span class="author">by Haimantika Mitra</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Introducing SeaNotes, a SaaS Starter Kit by DigitalOcean! Designed for indie hackers and developers, it offers a ready-to-use framework for building SaaS applications quickly. With built-in features like user authentication, Stripe billing, and AI integrations, you can focus on your product instead of setup. ð Check it out on GitHub and start building with best practices in mind! #SaaS #DigitalOcean #SeaNotes #OpenSource #DevTools</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/gpt-oss-models-on-gradient-ai-platform" target="_blank">Announcing OpenAI gpt-oss Models on the DigitalOcean Gradientâ¢ AI Platform</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 16:21</span>
+                
+                <span class="author">by Grace Morgan</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð OpenAI has launched its first open-source GPT models (20b and 120b) on the Gradient AI Platform! These models offer flexibility for developers to create AI applications, from prototypes to production agents. Users can access them through the Serverless Inference API or the Gradient dashboard. With integrated billing and monitoring features, building AI apps is now simpler than ever. Get started today! ð #OpenAI #GradientAI #AIDevelopment #TechNews #MachineLearning</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/digitalocean-gradient-ai-platform-langchain-integration" target="_blank">Introducing langchain-gradient: Seamless LangChain Integration with DigitalOcean Gradientâ¢ AI Platform</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 17:37</span>
+                
+                <span class="author">by Narasimha Badrinath</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news! We&#39;ve launched **langchain-gradient**, an open-source integration connecting LangChain to the DigitalOcean Gradient AI Platform. This innovative package simplifies the development of AI applications with tools for chaining prompts and managing data. Key features include: - Seamless integration for quick deployment. - Access to multiple AI models with GPU-accelerated performance. - Full open-source compatibility. Use cases range from chatbots to automated workflows, enhancing...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/new-gradient-ai-platform-tools" target="_blank">Build smarter AI agents: new tools now available for the DigitalOcean Gradientâ¢ AI Platform</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 14:37</span>
+                
+                <span class="author">by Grace Morgan</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates are here for the Gradient AI Platform! The new tools enable faster and easier AI app development. Key features include: - **Unified Gradient AI Python SDK:** Access all major services in one place. - **Log Stream Insights:** Real-time analysis improves agent performance. - **Dropbox Data Connector:** Ingest knowledge directly from Dropbox. These enhancements support building production-ready AI applications efficiently. #AI #GradientAI #PythonSDK #TechUpdates #Innovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/now-available-gpu-dropletsl-nvidia-h200s" target="_blank">Introducing GPU Droplets accelerated by NVIDIA HGX H200</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 14:00</span>
+                
+                <span class="author">by Waverly Swinton</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for AI developers! DigitalOcean has launched NVIDIA HGX H200 GPU Droplets, offering up to 2x faster inference speeds and double the memory capacity compared to the H100. These droplets are designed for simplicity and scalability, priced at just $3.44/GPU/hr. With 141 GB of memory and HBM3e technology, they enhance performance for demanding tasks in AI and HPC. All droplets are HIPAA-eligible and SOC 2 compliant, ensuring security. Start accelerating your AI projects today!...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/shark-tales-darian-wilkin-senior-manager" target="_blank">Sharks of DigitalOcean: Darian Wilkin, Senior Manager, Solutions Engineering</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 04:29</span>
+                
+                <span class="author">by Sujatha R</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Meet Darian Wilkin, Senior Manager of Solutions Engineering at DigitalOcean, who has been with the company for over eight years. He has witnessed its evolution from a startup to a public company. ð Darian emphasizes the importance of a supportive culture and talented team, which enhances collaboration and keeps him motivated. He plays a key role in helping customers build efficient cloud solutions. âï¸ He values the quick decision-making process at DigitalOcean, allowing ideas to turn into...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/gpt-5-now-on-digitalocean-gradient-ai-platform" target="_blank">Now Live: GPT-5 on the DigitalOcean Gradient™ AI Platform</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 23:00</span>
+                
+                <span class="author">by Amit Jotwani</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news! GPT-5 is now live on the DigitalOcean Gradient™ AI Platform. Developers can access this advanced model via serverless inference APIs or the Gradient AI Platform SDK. You can also use your own OpenAI API key for integration. GPT-5 enhances reasoning and performance, making it ideal for tasks like financial planning, medical analysis, and creative content generation. Get started today! 🌟 #GPT5 #DigitalOcean #AIPlatform #Developers #OpenAI</div>
+        </article>
+        
+    </div>
+    
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cisco-Developer-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: Cisco-Developer-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama" target="_blank">Detecting Exposed LLM Servers: A Shodan Case Study on Ollama</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-09-01 12:00</span>
+                
+                <span class="author">by Dr. Giannis Tziakouris</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚨 A recent case study reveals over 1,100 exposed Ollama LLM servers, with 20% hosting open models. This highlights critical security vulnerabilities in LLM deployments. 🔍 The study utilized Shodan to identify these unsecured endpoints, emphasizing the need for stronger security measures. 🛡️ As LLMs become more popular, addressing these gaps is essential for protecting sensitive data. #CyberSecurity #LLM #DataProtection #Ollama #Shodan</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/cisco-u-ethical-hacking-ctf-decoding-the-server-heist" target="_blank">Ethical Hacking Challenge: Decode the Server Heist, Defend Your Digital Data</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 17:39</span>
+                
+                <span class="author">by Francois Caen</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¡ï¸ Learn about SQL Injection (SQLi) attacks and their impact on database security. These attacks exploit application vulnerabilities to manipulate SQL queries, leading to unauthorized access and data theft. Consequences include credential theft, data alteration, and even system access. Stay informed and protect your digital data! ð #CyberSecurity #EthicalHacking #SQLInjection #DataProtection #TechAwareness</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/industrial-iot/uninterrupted-motion-why-factories-need-a-new-class-of-wireless" target="_blank">Uninterrupted Motion: Why Factories Need a New Class of Wireless</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 13:15</span>
+                
+                <span class="author">by Patricia Costa</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Factories are increasingly using Automated Guided Vehicles (AGVs) and Autonomous Mobile Robots (AMRs) to boost productivity. These vehicles rely on robust wireless networks to operate effectively. ðð¤ A reliable connection is vital for real-time inspections and safety alerts. Any interruption can lead to missed defects or safety risks, potentially halting production. ðâ ï¸ Companies like BMW and Samsung are already utilizing these technologies to enhance quality assurance and operational safety....</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/in-demand-skills-for-the-modern-network-engineer" target="_blank">In-Demand Skills for the Modern Network Engineer</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 16:12</span>
+                
+                <span class="author">by Par Merat</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Staying current in the tech industry is vital for network engineers. Cisco emphasizes the importance of continuous skill development amid rapid technological changes. ð Their research highlights that networking, cybersecurity, and AI skills are essential for future job roles. ð§  Critical thinking also emerges as a key skill, helping professionals grasp the &#34;why&#34; behind tech advances. #NetworkEngineering #Cybersecurity #AITechnology #SkillDevelopment #Cisco</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/get-ahead-of-hipaa-security-rule-update-with-secure-workload" target="_blank">Get Ahead of the HIPAA Security Rule Update With Secure Workload</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 12:00</span>
+                
+                <span class="author">by Jorge Quintero</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ Important Update for Healthcare Organizations! ð¨ On January 6, 2025, the Office of Civil Rights will introduce new cybersecurity requirements as part of the HIPAA Security Rule Update. This will shift the focus from reactive measures to a risk-based approach to enhance cybersecurity in healthcare. The update aims to strengthen the protection of electronic personal health information (ePHI) and address the increasing number of cyberattacks. Organizations must prepare to implement effective...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/a-dedicated-wireless-certification-track-is-on-the-horizon" target="_blank">A Dedicated Cisco Wireless Certification Track Is on the Horizon</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 17:00</span>
+                
+                <span class="author">by Andrew Richter</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for wireless professionals! Cisco is launching a dedicated Wireless Certification Track in March 2026. This includes the new CCNP Wireless and CCIE Wireless certifications, designed to align with modern wireless technologies. From foundational courses to expert levels, these certifications will equip you with essential skills for managing complex networks. Start your journey with the Understanding Cisco Wireless Foundations training to build the necessary knowledge for WLAN...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/partner/marketing-velocity-comstors-powerful-engine-driving-partner-success" target="_blank">Marketing Velocity: Comstorâs Powerful Engine Driving Partner Success</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 15:00</span>
+                
+                <span class="author">by Christine Otts</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Discover how Cisco&#39;s Marketing Velocity, in partnership with Comstor, fuels business growth through demand generation and co-branded campaigns. This initiative focuses on AI, digital resilience, and future-proof workplaces, showcasing partner success stories to highlight effective strategies. Learn more about driving sustainable growth in the tech industry! ðð #MarketingVelocity #PartnerSuccess #Cisco #Comstor #BusinessGrowth</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/datacenter/redefining-enterprise-ai-closing-the-infrastructure-gap" target="_blank">Redefining Enterprise AI: Closing the Infrastructure Gap</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 15:00</span>
+                
+                <span class="author">by Jeremy Foster</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Enterprise AI is evolving beyond just GPU power. Success now relies on integrating data, security, and operations effectively. Cisco&#39;s Secure AI Factory and Modular AI PODs enable organizations to transition from experimentation to production smoothly. Despite the potential for $4.4 trillion in corporate profits, only 13% of enterprises feel ready for AI at scale. Learn more about addressing the infrastructure gap in AI. ð¡ #EnterpriseAI #Cisco #AIInfrastructure #DataSecurity #TechInnovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/industries/are-you-ready-for-some-football-cisco-triples-nfl-franchise-and-stadium-partnerships-ahead-of-2025-2026-season" target="_blank">Are you ready for some football? Cisco Triples NFL Franchise and Stadium Partnerships Ahead of 2025-2026 Season</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 14:00</span>
+                
+                <span class="author">by Tim Coogan</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Cisco is expanding its role in the NFL by tripling its partnerships with franchises and stadiums for the upcoming 2025-2026 season. New additions include the Arizona Cardinals, Buffalo Bills, Carolina Panthers, Chicago Bears, Las Vegas Raiders, and Miami Dolphins. This growth highlights Cisco&#39;s commitment to providing advanced technology solutions for fan engagement and security. With a focus on high-density wireless networks and cyber threat protection, Cisco aims to enhance the overall...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/cisco-on-cisco/protecting-cisco-security-with-ai-and-splunk" target="_blank">Protecting Ciscoâs front lines with AI-powered Email Threat Defense and Splunk</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 12:00</span>
+                
+                <span class="author">by Joe Allesi</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Cisco is enhancing email security with a layered approach using AI and Splunk. ð»âï¸ Facing over 326 million emails quarterly, Cisco recognized the need to defend against phishing and malware while improving user productivity. The FBI reported a staggering rise in email cyberattacks, highlighting the urgency for robust security measures. By integrating Cisco Email Threat Defense with Splunkâs analytics, Cisco aims to provide comprehensive protection against evolving threats. #CyberSecurity...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/wearecisco/living-my-childhood-dream-thanks-to-ciscos-time2give-benefit" target="_blank">Living My Childhood Dream â Thanks to Ciscoâs Time2Give Benefit</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 12:00</span>
+                
+                <span class="author">by Rana Khalil</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-link">event</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Rana K., a Technical Consulting Engineer at Cisco, shares her inspiring journey of fulfilling a childhood dream through the company&#39;s Time2Give benefit. ðâ¨ This initiative allows employees to dedicate 80 hours annually to volunteer for causes they care about. Rana, originally from Egypt and now living in Poland, has embraced this opportunity to teach and give back globally. She reflects on the connections she&#39;s made, highlighting that cultural differences have not hindered her ability to...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/fragmented-sse-is-a-risk-you-cant-afford" target="_blank">Fragmented SSE Is a Risk You Canât Afford</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 12:00</span>
+                
+                <span class="author">by Raj Chopra</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Fragmented security solutions can create significant risks. Many organizations rely on multiple vendors for their security needs, leading to complex systems that may leave gaps in protection. Cisco Secure Access addresses this issue by providing a unified architecture. This ensures consistent policy enforcement regardless of where users connect from, enhancing overall security. No more silos or inconsistent access experiences! #Cybersecurity #Cisco #SecureAccess #SSE #DataProtection ððð»</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/views-from-an-insider-on-the-ccnp-automation-track-enauto-2-0" target="_blank">Views from an Insider on the CCNP Automation Certification Track: ENAUTO 2.0</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 13:56</span>
+                
+                <span class="author">by Quinn Snyder</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates are coming to the CCNP Automation Certification Track with the ENAUTO 2.0 exam, effective February 3, 2026. Quinn Snyder shares insights from his experience as part of the team that developed the exam. The goal was to create a valuable certification for learners focused on enterprise automation. Stay tuned for the detailed exam topics that reflect extensive discussions and expert input. #CCNP #Automation #Cisco #Certification #ENAUTO2.0</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/cisco-bolsters-security-for-government-with-new-fedramp-authorizations" target="_blank">Cisco Bolsters Security for Government With New FedRAMP Authorizations</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 12:00</span>
+                
+                <span class="author">by Shailaja Shankar</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Cisco has announced three new FedRAMP-authorized cloud security solutions designed for federal, state, and local agencies. These solutions respond to the growing need for secure, adaptable systems in complex digital environments. The new offerings include Cisco Secure Access for Government, Cisco Security Cloud Control for Government, and Cisco Multicloud Defense for Government. These tools aim to enhance security while supporting compliance and zero trust initiatives. As government agencies...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/our-corporate-purpose/leveraging-technology-to-transform-homeless-services" target="_blank">Leveraging technology to transform homeless services</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 07:15</span>
+                
+                <span class="author">by Erin Connor</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Cisco and Destination: Home have partnered to address homelessness in Santa Clara County since 2018. Their initiative focuses on developing supportive housing while leveraging technology to improve access to vital resources for those experiencing homelessness. A recent assessment evaluated the technology needs of the supportive housing system in the area. ðð ð¤ #Homelessness #TechnologyForGood #SupportiveHousing #SantaClara #CommunitySupport</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/partner/reimagine-your-data-center-with-cisco-nexus-hyperfabric-on-black-belt-academy" target="_blank">Reimagine Your Data Center With Cisco Nexus Hyperfabric on Black Belt Academy</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 15:22</span>
+                
+                <span class="author">by Umang Gupta</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for data center professionals! Cisco Nexus HyperFabric, co-developed with NVIDIA, offers scalable AI data center solutions. This cloud-managed network fabric is designed to simplify the management of infrastructure and software. ð Partners can now access enablement resources on Cisco Black Belt Academy, covering everything from solution overviews to deployment guidance. Learn how to leverage Nexus HyperFabric for diverse use cases and enhance your offerings in the evolving AI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/our-corporate-purpose/the-power-of-ten-and-the-power-of-purpose" target="_blank">The power of ten â and the power of Purpose</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-21 17:00</span>
+                
+                <span class="author">by Kelly Petrich</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-link">event</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco empowers employees through the Time2Give program, offering ten days off to volunteer and $10,000 in matching donations. In FY25, 81% of employees participated, contributing over 566,000 volunteer hours. This initiative not only supports communities but also enhances employee retention and recognition. Learn more about our impact and future goals for FY26! ðð¤ #Cisco #CorporateResponsibility #Volunteerism #CommunityImpact #EmployeeEngagement</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/developer/building-a-scalable-e-commerce-platform-at-cisco-from-devnet-to-company-wide-impact" target="_blank">Building a Scalable E-Commerce Platform at Cisco: From DevNet to Company-Wide Impact</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 21:45</span>
+                
+                <span class="author">by Koushik Dhar</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco&#39;s DevNet initiative has transformed into a scalable e-commerce framework that benefits the entire company. Over two years, the team navigated complex legal and security processes to onboard payment vendors like Stripe and VeriFone, ensuring compliance with international regulations. ð This groundwork allows Cisco Learning to easily integrate new payment solutions, showcasing the importance of strategic planning for future needs. #Cisco #Ecommerce #DevNet #BusinessGrowth #Innovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/wrangling-the-wild-west-of-mcp-servers" target="_blank">Wrangling the Wild West of MCP Servers</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 23:05</span>
+                
+                <span class="author">by Kareem Iskander</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Ready to build your own Model Context Protocol (MCP) server? In a recent article, Kareem Iskander explains how to leverage your existing APIs using OpenAPI specs. This approach allows you to create an AI-powered gateway for your product with minimal effort. Just a few lines of Python and a FastMCP wrapper can transform your APIs into role-based AI tools without the need for custom definitions. #MCPServer #OpenAPI #AI #APIs #TechTips</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/rsac-2025-soc" target="_blank">Findings Report From the SOC at RSACâ¢ 2025 Conference</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 12:00</span>
+                
+                <span class="author">by Jessica (Bair) Oppenheimer</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ Exciting updates from the RSACâ¢ 2025 Conference! ð¨ The Findings Report from the Security Operations Center reveals key insights into network security. Cisco and Endace monitored the Moscone Center&#39;s wireless network, showcasing how an open network operates. The SOC utilized advanced tools, including the EndaceProbe packet capture platform and Cisco Security Cloud, to enhance security measures. Learn more about these innovations and watch the session replay! #RSAC2025 #CyberSecurity...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/sp/leading-the-future-of-iot-mobility-cisco-wins-frost-sullivan-award-two-years-running" target="_blank">Leading the Future of IoT Mobility: Cisco Wins Frost &amp; Sullivan Award Two Years Running</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:00</span>
+                
+                <span class="author">by Masum Mir</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news! Cisco has been awarded Frost &amp; Sullivanâs 2025 Global Company of the Year for Mobile IoT Platforms, marking a second consecutive win. This honor reflects the trust of customers and partners in Cisco&#39;s innovative solutions for IoT mobility. The Cisco Mobility Services Platform serves as a comprehensive resource for enterprise mobility, supporting advanced technologies like 5G and NB-IoT. Thank you to our partners and customers for your collaboration and trust! Together, we are...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/partner/scaling-the-future-of-work-together" target="_blank">Scaling the Future of Work Together</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:00</span>
+                
+                <span class="author">by Kristyn Hogan</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco is redefining the future of work with innovative office transformations globally. From New York to London, these spaces highlight what hybrid work can be with cutting-edge technology. Partners like Softcat in London are leading the way, creating immersive experiences that showcase Cisco&#39;s capabilities. ð With over 70 partner offices demonstrating these advancements, Cisco has launched a Collaboration Partner Workspace Catalog to connect teams with hands-on Cisco technology demos....</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/cisco-kddi-deliver-partner-to-deliver-japans-first-fully-managed-sase-solution" target="_blank">Cisco and KDDI Partner to Deliver Japanâs First Fully Managed SASE Solution</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 12:00</span>
+                
+                <span class="author">by Raj Chopra</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco and KDDI have announced Japan&#39;s first fully managed SASE solution, enhancing secure access for businesses adapting to digital changes. This partnership aims to simplify SASE adoption, providing integrated and scalable solutions for secure connectivity. Service providers like KDDI are essential in navigating this transition, leveraging Ciscoâs expertise to ensure streamlined operations and robust security. #Cisco #KDDI #SASE #Cybersecurity #CloudSolutions</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/datacenter/unleash-the-power-of-storage-networking-for-mainframe-environments-with-cisco-mds-9000-series" target="_blank">Unleash the Power of Storage Networking for Mainframe Environments with Cisco MDS 9000 Series</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-15 15:00</span>
+                
+                <span class="author">by Fausto Vaninetti</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð As enterprises increasingly rely on mainframes, efficient storage networking solutions become crucial. The Cisco MDS 9000 Series, now z17 qualified, enhances FICON support and is designed for modern mainframe environments. This series promises exceptional reliability and performance, handling today&#39;s growing data demands. ð With mainframes like IBM&#39;s z17 at the forefront of AI integration, the need for robust SANs is more important than ever. #StorageNetworking #CiscoMDS9000 #Mainframe...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/industrial-iot/secure-and-modernize-your-roadways-with-cisco" target="_blank">Secure and Modernize your Roadways with Cisco</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 15:19</span>
+                
+                <span class="author">by Pete Kavanagh</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¦ Modernizing roadways is essential for enhancing safety and efficiency. Cisco&#39;s networking solutions are at the forefront of Intelligent Transportation Systems (ITS), enabling real-time data and connectivity. Join us at ITS World Congress 2025 in Atlanta (Aug 24-28) at Booth #1741 to explore our innovations in traffic management and public safety. Discover how our secure solutions can improve communication through digital signage and support a connected roadway network. #Cisco #ITS2025...</div>
+        </article>
+        
+    </div>
+    
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

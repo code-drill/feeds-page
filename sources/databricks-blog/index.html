@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Databricks-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: Databricks-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/how-use-lakebase-transactional-data-layer-databricks-apps" target="_blank">How to use Lakebase as a transactional data layer for Databricks Apps</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 17:43</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Explore how to effectively use Lakebase as a transactional data layer for Databricks Apps. The article discusses the integration of Lakebase in building internal tools and AI applications. It highlights key strategies for optimizing data management and enhancing application performance. For developers and data professionals, this approach can streamline processes and improve efficiency. #Databricks #Lakebase #DataManagement #AI #TechSolutions ððð»</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/new-foundation-enterprise-ai" target="_blank">The New Foundation for Enterprise AI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 00:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Enterprise AI has shifted from being a trial to a necessity for businesses. Global organizations must now integrate AI into their operations to maintain a competitive edge. Connecting SAP with your entire data estate can streamline this process and enhance efficiency. Stay ahead in the evolving tech landscape! ðð¤ #EnterpriseAI #SAP #DataIntegration #BusinessStrategy #TechTrends</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/unified-approach-data-exfiltration-protection-databricks" target="_blank">A Unified Approach to Data Exfiltration Protection on Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 20:30</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Data exfiltration poses a significant security risk for organizations. A recent article outlines a comprehensive framework for protecting against unauthorized data movement on Databricks. The recommendations focus on unified strategies to enhance data security and prevent breaches. Implementing these measures can help safeguard sensitive information effectively. ðð¡ï¸ #DataSecurity #Databricks #CyberSecurity #DataProtection #InformationSecurity</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/cracking-complex-contracts-genai-azure-databricks" target="_blank">Cracking Complex Contracts with GenAI on Azure Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 07:19</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">At a top diagnostic healthcare manufacturer, contract management has been transformed using GenAI on Azure Databricks. The implementation of advanced analytics has reduced contract review time by 92%, enabling quicker decision-making. This innovation has also revealed valuable business insights. #Healthcare #Analytics #GenAI #AzureDatabricks #BusinessInsights ððð¡</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/delivering-agentic-bi-how-unify-infrastructure-data-and-semantics" target="_blank">Delivering Agentic BI: How to Unify Infrastructure, Data and Semantics</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 16:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unifying infrastructure, data, and semantics is key to delivering effective Business Intelligence (BI). The article discusses strategies for data teams and professionals to enhance their BI efforts. It emphasizes the importance of collaboration and the integration of various data sources. Explore these best practices to streamline your BI processes. ððð¡ #BusinessIntelligence #DataIntegration #BestPractices #DataManagement #Analytics</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/tecton-joining-databricks-power-real-time-data-personalized-ai-agents" target="_blank">Tecton is Joining Databricks to Power Real-Time Data for Personalized AI Agents</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 23:55</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¢ Exciting news in the data world! Tecton is set to join forces with Databricks to enhance real-time data capabilities for personalized AI agents. This partnership aims to streamline data operations and improve AI performance across various applications. Stay tuned for advancements in AI technology! #DataScience #ArtificialIntelligence #TechNews #Databricks #Tecton</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/securing-future-how-databricks-powers-financial-services" target="_blank">Securing the Future: How Databricks Powers Financial Services</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 18:35</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">In the evolving financial services landscape, data security and compliance are vital for growth. Databricks enables financial institutions to build resilience and accelerate innovation while ensuring adherence to regulations. This approach supports the safe use of data and AI technologies in the sector. Understanding these elements is crucial for navigating future challenges. ððâ¨ #DataSecurity #FinancialServices #Innovation #Compliance #AI</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/processing-millions-events-thousands-aircraft-one-declarative-pipeline" target="_blank">Processing Millions of Events from Thousands of Aircraft with One Declarative Pipeline</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 18:30</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">A new article discusses how tens of thousands of aircraft generate IoT events every second. It highlights the use of Lakeflow declarative pipelines and PySpark custom data sources to process millions of these events efficiently. The focus is on building scalable systems to manage this vast amount of data effectively. âï¸ðð #Aviation #DataProcessing #IoT #CloudComputing #ScalableSystems</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/booking-bon-voyage-how-ai-redefining-travel-hospitality-experience" target="_blank">From Booking to Bon Voyage: How AI Is Redefining the Travel &amp; Hospitality Experience</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 19:40</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI is transforming the travel and hospitality industry, enhancing guest experiences from booking to arrival. With advanced data analytics, businesses can offer personalized services that cater to individual preferences. This technology also streamlines operations, making travel more efficient. Stay ahead in the evolving travel landscape! âï¸ð #TravelTech #AI #Hospitality #Innovation #CustomerExperience</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/announcing-public-preview-request-access-unity-catalog" target="_blank">Announcing Public Preview of Request for Access in Unity Catalog</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 18:45</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Databricks! The public preview of the Request for Access feature in Unity Catalog has been announced. This tool aims to enhance self-service data discovery and simplify access provisioning for users in security-focused enterprises. Stay informed and empower your teams with better data access! ðð #DataAccess #UnityCatalog #Databricks #DataSecurity #Innovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/how-ai-transforming-way-retailers-connect-consumers" target="_blank">How AI is Transforming the Way Retailers Connect With Consumers</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 16:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI is transforming retail by enhancing connections between brands and consumers. Companies like Pilot, adidas, and PRADA Group are utilizing the Databricks Data Intelligence Platform to harness data effectively. From personalized experiences to accurate forecasting, AI is paving the way for innovative strategies in the retail sector. Stay tuned for more insights on the impact of technology in retail! ð¤ðï¸ð #RetailInnovation #AI #ConsumerExperience #DataIntelligence #TechnologyTrends</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/reverse-etl-lakebase-activate-your-lakehouse-data-operational-analytics" target="_blank">Reverse ETL with Lakebase: Activate your lakehouse data for operational analytics</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 12:41</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock the power of your lakehouse data with Reverse ETL using Lakebase! ð This approach allows you to serve data to applications efficiently and at scale, eliminating the need for custom pipelines. It bridges the gap between analytics and operations, enhancing decision-making processes. Explore how to activate your data for seamless operational analytics! ðð #DataAnalytics #Lakehouse #ReverseETL #OperationalExcellence #Lakebase</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/introducing-real-time-mode-apache-sparktm-structured-streaming" target="_blank">Introducing Real-Time Mode in Apache Sparkâ¢ Structured Streaming</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 20:15</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for data engineers! Apache Sparkâ¢ Structured Streaming now features a Real-Time Mode that processes events in milliseconds. This upgrade enhances the ability to manage mission-critical data pipelines efficiently. Stay updated with the latest in streaming technology! #ApacheSpark #StructuredStreaming #RealTimeData #DataEngineering #TechNews</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents" target="_blank">Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 19:30</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! ðð¡ #AI #Mosaic #VectorSearch #Innovation #TechTrends</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/introducing-sql-stored-procedures-databricks" target="_blank">Introducing SQL Stored Procedures in Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 15:17</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Databricks is enhancing its platform with SQL Stored Procedures! These procedures aim to simplify repetitive SQL tasks such as data cleaning and updating business rules. This feature will streamline workflows, making it easier for teams to manage their data. Explore how this advancement can benefit your operations! #Databricks #SQLStoredProcedures #DataManagement #TechUpdates #DataAnalytics</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/databricks-assistant-edit-mode-fastest-way-transform-your-notebooks" target="_blank">Databricks Assistant Edit Mode: The Fastest Way to Transform Your Notebooks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 08:05</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Databricks! They have launched the Assistant Edit Mode, which allows users to make AI-driven edits across notebooks with just one prompt. This feature aims to enhance efficiency and consistency in data processing. This innovation is designed to streamline workflows and improve productivity for users. #Databricks #AI #DataScience #Productivity #TechNews</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/agent-bricks-action-smarter-offer-targeting-sales-teams" target="_blank">Agent Bricks in Action: Smarter Offer Targeting for Sales Teams</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-13 21:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlocking smarter sales strategies! ð The article discusses how the Agent Bricks Multi-Agent Supervisor is enhancing sales delivery. By using data-driven methods, sales teams can achieve faster and more targeted offers. This approach aims to improve overall effectiveness in reaching potential clients. Discover how technology is reshaping sales tactics! ð¼ð #SalesStrategy #DataDriven #AgentBricks #SalesInnovation #TargetedMarketing</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/how-uipath-built-scalable-real-time-etl-pipeline-databricks" target="_blank">How UiPath Built a Scalable Real-Time ETL pipeline on Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-13 08:12</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð UiPath has developed a scalable real-time ETL pipeline using Databricks to enhance automation processes. This pipeline aims to deliver fast and reliable data processing, which is crucial for effective decision-making. By leveraging Databricks, UiPath is focused on improving operational efficiency and customer satisfaction. #UiPath #Databricks #ETL #Automation #DataProcessing</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/passing-security-vibe-check-dangers-vibe-coding" target="_blank">Passing the Security Vibe Check: The Dangers of Vibe Coding</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-12 19:10</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">In a recent article from Databricks, the concept of &#34;vibe coding&#34; is examined in relation to software security. The piece discusses how developers often rely on intuition or &#34;vibes&#34; when assessing security risks, which can lead to vulnerabilities. It emphasizes the importance of structured security practices over subjective judgments. Understanding these risks is crucial for building safer software systems. ðð» #CyberSecurity #SoftwareDevelopment #VibeCoding #TechInsights #DataProtection</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/judging-confidence-meet-pgrm-promptable-reward-model" target="_blank">Judging with Confidence: Meet PGRM, the Promptable Reward Model</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-12 15:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Introducing the Prompt-Guided Reward Model (PGRM) from Databricks! This innovative tool enhances AI monitoring and evaluation, offering a flexible solution for businesses. PGRM adapts to new rules, flags uncertain cases, and provides confidence-backed scores for AI decisions. ðâ¨ It combines the strengths of LLM judges and reward models, achieving high accuracy in judgment quality while facilitating scalable oversight. With PGRM, companies can ensure safety, accuracy, and alignment with brand...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/optimizing-materialized-views-recomputes" target="_blank">Optimizing Materialized Views Recomputes</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-11 19:35</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Discover strategies for optimizing the incremental computation of materialized views in data management. The article discusses techniques that digital-native companies can implement to enhance efficiency. It highlights the importance of improving performance while managing data effectively. Learn how to leverage these strategies for better data handling and quicker insights! ðð #DataManagement #MaterializedViews #Optimization #TechInsights</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/teaching-ai-fix-your-code-my-summer-improving-quick-fix-databricks" target="_blank">Teaching AI to Fix Your Code: My Summer Improving Quick Fix at Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-08 22:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">This summer, I interned at Databricks, focusing on enhancing AI capabilities for coding assistance. The project aimed to improve the Quick Fix feature, helping developers identify and resolve coding issues more efficiently. This experience highlighted the potential of AI in software development and its real-world applications. 🤖💻 #AI #Coding #Internship #Databricks #SoftwareDevelopment</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/7x-faster-medical-image-ingestion-python-data-source-api" target="_blank">7x Faster Medical Image Ingestion with Python Data Source API</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 20:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting advancements in medical imaging! A recent article discusses a new Python Data Source API that enhances DICOM data ingestion speed by seven times. This development utilizes industry-standard libraries like pydicom and zipfile. This improvement aims to streamline processes in healthcare and life sciences, addressing the challenges of handling medical images effectively. #MedicalImaging #HealthcareInnovation #Python #DICOM #DataScience</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/personalizing-players-experiences-recommendation-systems" target="_blank">Personalizing Players&#39; Experiences with Recommendation Systems</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 17:20</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Discover how recommendation systems enhance player experiences in gaming! These systems analyze player behavior to offer personalized content, improving engagement and satisfaction. By tailoring experiences, games can better connect with their audiences. Explore the impact of these technologies on player-centric design. 🎮📈 #Gaming #RecommendationSystems #PlayerExperience #TechInGames #GameDesign</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/build-gpt-5-databricks-ai-gateway" target="_blank">Build with GPT-5 on Databricks with AI Gateway</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 16:42</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 OpenAI has launched GPT-5, their latest and most advanced language model! This new model can be integrated with Databricks through the AI Gateway, allowing users to harness its capabilities securely and at scale. Developers can now leverage Mosaic AI Gateway to enhance their applications effectively. #OpenAI #GPT5 #Databricks #AIGateway #MosaicAI</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/introducing-openais-new-open-models-databricks" target="_blank">Introducing OpenAI’s New Open Models on Databricks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 17:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news from OpenAI! They&#39;ve partnered with Databricks to launch new open weight models, gpt-oss 20B and gpt-oss 120B. These models will help developers build intelligent, domain-specific AI agents securely. Stay tuned for updates on how these advancements can transform AI applications! #OpenAI #Databricks #AI #MachineLearning #Innovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study" target="_blank">Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 16:15</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Discover the innovative concept of Agent Learning from Human Feedback (ALHF) in the latest Databricks blog. ALHF allows agents to learn from minimal natural language feedback, enhancing their adaptability in specialized enterprise environments. The case study highlights its application in the Databricks Agent Bricks Knowledge Assistant, showcasing significant improvements in answer quality with limited expert feedback. This approach addresses the challenges of tuning AI systems by enabling...</div>
+        </article>
+        
+    </div>
+    
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airbnb-Engineering on Daily Tech Articles Feed</title>
+    <link>http://localhost:1313/sources/airbnb-engineering/</link>
+    <description>Recent content in Airbnb-Engineering on Daily Tech Articles Feed</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Aug 2025 17:01:58 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sources/airbnb-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Airbnbâs JVM Monorepo to Bazel</title>
+      <link>http://localhost:1313/articles/article-4964/</link>
+      <pubDate>Wed, 13 Aug 2025 17:01:58 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4964/</guid>
+      <description>ð Exciting updates from Airbnb! We have successfully migrated our largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated work. This transition has significantly improved our build process, achieving a Build CSAT increase from 38% to 68%. Key benefits include: - 3â5x faster local build and test times - 2â3x faster IntelliJ syncs - 2â3x faster deploys to the development environment We chose Bazel for its speed, reliability, and uniform infrastructure. The migration involved&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Seamless Istio Upgrades at Scale</title>
+      <link>http://localhost:1313/articles/article-4768/</link>
+      <pubDate>Thu, 07 Aug 2025 17:01:42 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4768/</guid>
+      <description>Airbnb has successfully upgraded Istio 14 times since 2019, managing thousands of pods and VMs across multiple Kubernetes clusters. Their upgrade strategy focuses on zero downtime for users and gradual rollouts, allowing for controlled upgrades and rollbacks without coordinating individual teams. The process involves running two Istiod versions simultaneously, ensuring seamless transitions for workloads. Learn more about their innovative approach in the full article! 🚀🔧 #AirbnbTech #Istio&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

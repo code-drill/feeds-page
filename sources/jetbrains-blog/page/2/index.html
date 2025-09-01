@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JetBrains-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: JetBrains-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+        <p>Page 2 of 2 (57 articles total)</p>
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/codecanvas/2025/08/configuration-drift-the-pitfall-of-local-machines/" target="_blank">Configuration Drift: The Pitfall of Local Machines</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-06 12:51</span>
+                
+                <span class="author">by Alexey Totin</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Configuration drift can disrupt project development when environments deviate from intended setups. This often leads to issues like inconsistent test results, broken CI/CD pipelines, and wasted debugging time. Common causes include differing package versions and unshared configuration changes. While teams try to maintain consistency through version pinning and environment files, lapses can still occur. Addressing configuration drift is essential for smoother collaboration. 🔍💻🔧 #DevOps...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/idea/2025/08/java-annotated-monthly-august-2025/" target="_blank">Java Annotated Monthly – August 2025</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-06 11:17</span>
+                
+                <span class="author">by Irina Mariasova</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Dive into the latest edition of Java Annotated Monthly for August 2025! This month covers Java, Kotlin, frameworks, and the evolving tech landscape. 📚 Explore insightful articles tailored for developers and teams, along with a special feature by A N M Bazlur Rahman, who shares his reflections on the future of development. 🤖 Don&#39;t miss the AI corner, highlighting the readiness of AI integration in Java, especially with the upcoming JDK 25 release. #Java #Kotlin #TechTrends #AI #JavaDevelopment</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/idea/2025/08/whats-fixed-intellij-idea-2025-2/" target="_blank">What’s Fixed in IntelliJ IDEA 2025.2</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-06 10:39</span>
+                
+                <span class="author">by Dmitriy Smirnov</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting updates in IntelliJ IDEA 2025.2! This release introduces a standalone &#34;What’s Fixed&#34; overview, highlighting stability and quality improvements. Key areas of focus include enhanced Spring and Kotlin support, better remote development features, and performance upgrades. For the complete list of fixes, check the release notes. #IntelliJIDEA #SoftwareUpdates #Kotlin #SpringFramework #DevelopmentTools</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/platform/2025/08/kotlin-notebook-meets-intellij-platform-advancing-ide-plugin-development/" target="_blank">Kotlin Notebook Meets IntelliJ Platform: Advancing IDE Plugin Development</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-06 10:32</span>
+                
+                <span class="author">by Jakub Chrzanowski</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🌟 Exciting news for developers! JetBrains has introduced Kotlin Notebook, an interactive platform that enhances plugin development within IntelliJ IDEs. This tool allows users to write, run, and visualize Kotlin code in a dynamic environment, streamlining data analysis and prototyping. The integration with IntelliJ enables faster brainstorming and testing of plugin features. Ready to get started? Simply create a new Kotlin notebook and use the command `%use intellij-platform` to load...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/" target="_blank">RustRover 2025.2 Is Now Available</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 15:19</span>
+                
+                <span class="author">by Kseniya Starodubtseva</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news for developers! RustRover 2025.2 is now available, featuring significant debugger enhancements. New functionalities include remote and on-chip support, improved borrow checker assistance, and additional Rust learning resources. Junie, the in-IDE coding agent, is now 30% faster and offers smarter code completion, enhancing your coding experience. Check out the updated features and improvements today! #RustRover #DevelopmentTools #Coding #RustLang #JetBrains</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/teamcity/2025/08/kotlin-dsl-what-s-new/" target="_blank">Kotlin DSL: What’s New?</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 13:57</span>
+                
+                <span class="author">by Pavel Sher</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 TeamCity has introduced significant enhancements to the Kotlin DSL in recent releases! 📁 Users can now store Kotlin DSL files outside the .teamcity directory, improving visibility and convenience when working with IntelliJ IDEA. 🔄 Additionally, code reuse is simplified with the introduction of DSL libraries, allowing developers to share code across projects more efficiently. 📊 For those managing multiple branches, changes in DSL files can now better align with build configurations. Learn...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/05/join-the-livestream-how-to-work-with-sql-and-databases-in-jetbrains-ides/" target="_blank">Join the Livestream: How to work with SQL and Databases in JetBrains IDEs</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 13:50</span>
+                
+                <span class="author">by Stanislav Garkusha</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Join our livestream, &#34;How to Work With SQL and Databases in JetBrains IDEs,&#34; on August 14, 2025, at 4:00 pm UTC (6:00 pm CET / 12:00 pm ET). Learn about SQL queries, database navigation, and data import/export. We&#39;ll showcase features like text-to-SQL and user parameters. Don’t miss the chance to ask questions! A recording will be available on our YouTube channel afterward. 🔗 Register now to stay updated! #JetBrains #SQL #Databases #Livestream #DataGrip</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/phpstorm/2025/08/phpstorm-2025-2-is-now-available/" target="_blank">PhpStorm 2025.2 Is Now Available</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 13:45</span>
+                
+                <span class="author">by Hanna Yakush</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 PhpStorm 2025.2 is here! This release introduces several key features, including making Laravel Idea free for users and enhancing the remote development experience. Junie coding agent now supports the Model Context Protocol (MCP), allowing connections to databases and APIs. Additionally, enjoy a 30% speed increase in prompt processing and improved JetBrains AI tools. Explore the new features today! #PhpStorm #WebDevelopment #JetBrains #AI #SoftwareUpdate</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/go/2025/08/05/goland-2025-2-is-now-out/" target="_blank">GoLand 2025.2 Is Now Out!</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 12:22</span>
+                
+                <span class="author">by Artem Pronichev</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 GoLand 2025.2 is here with exciting updates! Key features include enhanced support for HTTP servers, smarter inspections using data flow analysis (DFA), and a new non-blocking Welcome screen for faster access to tools. The update also improves golangci-lint integration for real-time code analysis. 🛠️ Explore the new capabilities and streamline your development process! #GoLand #SoftwareUpdate #CodingTools #Golang #DevCommunity</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/kineto/2025/08/make-your-ideas-clickable-with-kineto-by-jetbrains/" target="_blank">Make Your Ideas Clickable With Kineto by JetBrains</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 12:02</span>
+                
+                <span class="author">by Andrew Zakonov</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Introducing Kineto by JetBrains! This new platform addresses the technical challenges faced when creating websites and apps. Kineto allows anyone to build their own app in just 20 minutes, without needing coding skills. It&#39;s designed for small applications like personal blogs, fitness trackers, and more. With Kineto, your ideas can become reality effortlessly! Join the waitlist today! 📱✨ #Kineto #NoCode #AppDevelopment #JetBrains #TechInnovation</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/clion/2025/08/clion-2025-2-release/" target="_blank">CLion 2025.2 Is Here: Better CLion Nova, Smarter Embedded Development</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 11:24</span>
+                
+                <span class="author">by Oleg Zinovyev</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 CLion 2025.2 has been released! This update enhances the JetBrains IDE for C and C&#43;&#43; with several new features. Key improvements include an upgraded code formatter in CLion Nova, faster remote development, and live watches in the debugger for real-time variable monitoring. 🛠️ Additionally, the ESP32 debug server is now available for ESP-IDF projects. You can download CLion 2025.2 via the Toolbox App, as a snap package for Ubuntu, or as a patch update from version 2025.1. #CLion #JetBrains...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/pycharm/2025/08/pycharm-2025-2/" target="_blank">PyCharm 2025.2: AI Toolkit for AI Engineers and More!</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 11:04</span>
+                
+                <span class="author">by Evgenia Verbina</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Discover the new features in PyCharm 2025.2! 🚀 This release introduces the AI Toolkit, designed to support AI engineers with tools for experimentation, debugging, and deployment all within the IDE. Additionally, it marks the last version of PyCharm Community, paving the way for a unified PyCharm experience. Notable updates include enhancements to AI Assistant, Junie, and notebooks. Download the latest version today! 💻✨ #PyCharm #AIToolkit #SoftwareUpdate #Programming #AI</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/dotnet/2025/08/05/jetbrains-is-a-platinum-sponsor-of-the-godot-foundation/" target="_blank">JetBrains is a Platinum Sponsor of the Godot Foundation</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 10:11</span>
+                
+                <span class="author">by Matt Ellis</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting news from JetBrains! We are proud to announce our Platinum Sponsorship of the Godot Foundation. Godot is an open-source game engine, driven by a community-focused approach and dedicated to supporting developers. The Godot Foundation plays a vital role in ensuring financial backing for the Godot Project. Our support enhances JetBrains Rider, which offers robust features for Godot development, including improved GDScript support in upcoming releases. Together, we&#39;re committed to...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2/" target="_blank">IntelliJ IDEA 2025.2 Is Here!</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 17:08</span>
+                
+                <span class="author">by Maria Kosukhina</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 IntelliJ IDEA 2025.2 has officially launched! This version offers updates aimed at enhancing productivity and code quality. Users can download it from the website, update through the IDE, or use the Toolbox App. Key highlights include smarter AI workflows, support for Java 25 Early Access, and improvements for Spring developers. For more details, visit the newly redesigned What’s New page. Check it out and explore the features today! 🔍💻 #IntelliJIDEA #SoftwareUpdates #Coding #Java...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/ai/2025/08/jetbrains-ai-assistant-2025-2/" target="_blank">JetBrains AI Assistant Update: Better Context, Greater Offline Flexibility, Deeper IDE Integration</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 15:06</span>
+                
+                <span class="author">by Anna Maltseva</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 JetBrains AI Assistant has received a significant update! Key features include smarter code completion with support for more languages and file types like SQL and Markdown. The improved Mellum model enhances context-awareness for better results. Project rules now allow for consistent instructions, making it easier to maintain coding standards across teams. Additionally, users can connect local models for offline flexibility and attach images in chats for quicker analysis. #JetBrains #AI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/04/datagrip-and-database-tools-ux-survey-2-results/" target="_blank">DataGrip and Database tools UX Survey #2 Results</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 14:01</span>
+                
+                <span class="author">by Dmitry Romanov</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 Exciting updates from the DataGrip community! The second UX Survey results are in, highlighting key improvements made from your feedback. Significant changes include faster introspection, editable results for SELECT queries, and new AI-powered features. The survey also expanded to gather insights on user experiences and team collaboration with database tools. Discover more about the findings and upcoming enhancements in DataGrip! #DataGrip #UXSurvey #DatabaseTools #AI #UserExperience</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/ruby/2025/08/rubymine-2025-2-junie-and-ai-assistant-upgrades-faster-rails-project-startup-enhanced-bundler-management-and-more/" target="_blank">RubyMine 2025.2: Junie and AI Assistant Upgrades, Faster Rails Project Startup, Enhanced Bundler Management, and More</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 13:06</span>
+                
+                <span class="author">by Alexey Varfolomeev</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 RubyMine 2025.2 is here with exciting updates! The JetBrains AI Assistant has been enhanced, providing smarter code completion and project-specific context. Key features include improved ERB code support and project rules for consistency. You can now connect local AI models for offline use, plus enjoy expanded code suggestions and image attachments in chat. Explore the full details on our website! #RubyMine #AI #Coding #SoftwareDevelopment #TechUpdates</div>
+        </article>
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/sources/jetbrains-blog/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/sources/jetbrains-blog/" class="pagination-link">1</a>
+            
+            
+            
+            <span class="pagination-current">2</span>
+            
+            
+        </div>
+        
+        
+    </nav>
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

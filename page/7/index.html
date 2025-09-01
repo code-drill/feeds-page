@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Daily Tech Articles Feed</h1>
+    
+    <div class="filters-container">
+        <div class="filter-section">
+            <h3>Filter by Category</h3>
+            <div class="filter-options">
+                <a href="/" class="filter-link all-link">All Categories</a>
+                
+                
+                
+                
+                
+                <a href="/categories/educational" class="filter-link">
+                    Educational (161)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/event" class="filter-link">
+                    Event (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/industry_analysis" class="filter-link">
+                    Industry_analysis (75)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/product_announcements" class="filter-link">
+                    Product_announcements (233)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/security_compliance" class="filter-link">
+                    Security_compliance (69)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/technical_deep_dives" class="filter-link">
+                    Technical_deep_dives (80)
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="filter-section">
+            <h3>Filter by Source</h3>
+            <div class="filter-options">
+                <a href="/" class="filter-link all-link">All Sources</a>
+                
+                
+                
+                
+                
+                <a href="/sources/1password-blog" class="filter-link">
+                    1Password-Blog (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/amd-developer-blog" class="filter-link">
+                    AMD-Developer-Blog (6)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/aws-blog" class="filter-link">
+                    AWS-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/airbnb-engineering" class="filter-link">
+                    Airbnb-Engineering (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/apple-developer-news" class="filter-link">
+                    Apple-Developer-News (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/atlassian-developer-blog" class="filter-link">
+                    Atlassian-Developer-Blog (10)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/auth0-blog" class="filter-link">
+                    Auth0-Blog (19)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/canva-engineering" class="filter-link">
+                    Canva-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/circleci-blog" class="filter-link">
+                    CircleCI-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/cisco-developer-blog" class="filter-link">
+                    Cisco-Developer-Blog (25)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/cloudflare-blog" class="filter-link">
+                    Cloudflare-Blog (35)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/code-as-craft" class="filter-link">
+                    Code-as-Craft (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/crowdstrike-blog" class="filter-link">
+                    CrowdStrike-Blog (10)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/databricks-blog" class="filter-link">
+                    Databricks-Blog (27)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/digitalocean-blog" class="filter-link">
+                    DigitalOcean-Blog (8)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/docker-blog" class="filter-link">
+                    Docker-Blog (23)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/doordash-engineering" class="filter-link">
+                    DoorDash-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/dropbox-tech-blog" class="filter-link">
+                    Dropbox-Tech-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/elastic-blog" class="filter-link">
+                    Elastic-Blog (28)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/engineering-at-meta" class="filter-link">
+                    Engineering-at-Meta (5)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/gitlab-blog" class="filter-link">
+                    GitLab-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/google-developers-blog" class="filter-link">
+                    Google-Developers-Blog (11)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/google-research" class="filter-link">
+                    Google-Research (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/grab-tech" class="filter-link">
+                    Grab-Tech (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hashicorp-blog" class="filter-link">
+                    HashiCorp-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hashicorp-solutions-engineering-blog" class="filter-link">
+                    HashiCorp-Solutions-Engineering-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/heroku-blog" class="filter-link">
+                    Heroku-Blog (4)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hubspot-developers" class="filter-link">
+                    HubSpot-Developers (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hugging-face-blog" class="filter-link">
+                    Hugging-Face-Blog (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/jetbrains-blog" class="filter-link">
+                    JetBrains-Blog (57)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/kubernetes-blog" class="filter-link">
+                    Kubernetes-Blog (5)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/ly-corporation-tech-blog" class="filter-link">
+                    LY-Corporation-Tech-Blog (6)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/lyft-engineering" class="filter-link">
+                    Lyft-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/medium-engineering" class="filter-link">
+                    Medium-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/mongodb-blog" class="filter-link">
+                    MongoDB-Blog (15)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/mozilla-hacks" class="filter-link">
+                    Mozilla-Hacks (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/netflix-technology-blog" class="filter-link">
+                    Netflix-Technology-Blog (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/netlify-blog" class="filter-link">
+                    Netlify-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/nvidia-developer-blog" class="filter-link">
+                    Nvidia-Developer-Blog (40)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/okta-developer-blog" class="filter-link">
+                    Okta-Developer-Blog (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/palantir-blog" class="filter-link">
+                    Palantir-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/pinterest-engineering" class="filter-link">
+                    Pinterest-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/planetscale-blog" class="filter-link">
+                    PlanetScale-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/railway-blog" class="filter-link">
+                    Railway-Blog (4)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/red-hat-developer-blog" class="filter-link">
+                    Red-Hat-Developer-Blog (52)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/robinhood-engineering" class="filter-link">
+                    Robinhood-Engineering (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/salesforce-engineering" class="filter-link">
+                    Salesforce-Engineering (7)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/shopify-engineering" class="filter-link">
+                    Shopify-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/sketch-blog" class="filter-link">
+                    Sketch-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/stack-overflow-blog" class="filter-link">
+                    Stack-Overflow-Blog (18)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/stripe-blog" class="filter-link">
+                    Stripe-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/supabase-blog" class="filter-link">
+                    Supabase-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/tableau-engineering" class="filter-link">
+                    Tableau-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/twilio-engineering" class="filter-link">
+                    Twilio-Engineering (32)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/uber-engineering" class="filter-link">
+                    Uber-Engineering (7)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/unity-blog" class="filter-link">
+                    Unity-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/unreal-engine-blog" class="filter-link">
+                    Unreal-Engine-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/vercel-blog" class="filter-link">
+                    Vercel-Blog (50)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/webflow-blog" class="filter-link">
+                    Webflow-Blog (7)
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagination-info">
+        
+        <p>Page 7 of 16 (637 articles total)</p>
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/how-ai-transforming-way-retailers-connect-consumers" target="_blank">How AI is Transforming the Way Retailers Connect With Consumers</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 16:00</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI is transforming retail by enhancing connections between brands and consumers. Companies like Pilot, adidas, and PRADA Group are utilizing the Databricks Data Intelligence Platform to harness data effectively. From personalized experiences to accurate forecasting, AI is paving the way for innovative strategies in the retail sector. Stay tuned for more insights on the impact of technology in retail! ð¤ðï¸ð #RetailInnovation #AI #ConsumerExperience #DataIntelligence #TechnologyTrends</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/" target="_blank">Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 15:15</span>
+                
+                <span class="author">by Anna Shors</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.heroku.com/blog/heroku-ai-openai-gpt-oss-120b-model-now-available/" target="_blank">Heroku AI Expands Model Offering with OpenAIâs gpt-oss-120b</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 15:00</span>
+                
+                <span class="author">by Anush DSouza</span>
+                
+                <span class="source">from <a href="https://blog.heroku.com/feed" target="_blank">Heroku Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/heroku-blog" class="source-link">Heroku-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for developers! OpenAI&#39;s new model, gpt-oss-120b, is now available on Heroku Managed Inference and Agents. This open-weight model allows for easy integration into existing applications through an OpenAI-compatible API. With its Mixture-of-Experts architecture, gpt-oss-120b is efficient and designed for a variety of text generation tasks. Early benchmarks show it performs competitively with other models. Explore the future of AI application development on Heroku! ð #AI #OpenAI...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://stackoverflow.blog/2025/08/20/documents-the-architect-s-programming-language/" target="_blank">Documents: The architectâs programming language</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 14:00</span>
+                
+                <span class="author">by Isaac Lyman</span>
+                
+                <span class="source">from <a href="https://stackoverflow.blog/feed/" target="_blank">Stack Overflow Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/stack-overflow-blog" class="source-link">Stack-Overflow-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Architects in tech play a vital role in bridging ideas and people. While senior developers focus on coding, architects leverage their experience to deploy concepts effectively within teams. This involves collaboration, communication, and consensus-building across various stakeholders. Tools like Confluence and Notion aid architects in organizing and sharing ideas, ensuring projects move forward smoothly. #TechLeadership #SoftwareArchitecture #Collaboration #CareerPaths #EngineeringManagement...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-face-cropping-for-images/" target="_blank">How we built AI face cropping for Images</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 14:00</span>
+                
+                <span class="author">by Diretnan Domnan</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Developer Week 2024! We launched AI face cropping, a feature that automatically crops images around detected faces. This marks a significant step in our AI image manipulation capabilities. Our transition from a CPU-based prototype to a GPU-based implementation allows for better performance and scalability, addressing previous technical challenges. This feature is aimed at enhancing image handling for social media platforms and e-commerce sites, making it easier to create...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/product-release-announcements/powering-long-term-memory-for-agents-langgraph" target="_blank">Powering Long-Term Memory for Agents With LangGraph and MongoDB</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 13:59</span>
+                
+                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news! The MongoDB Store for LangGraph is now available, enhancing AI agents with long-term memory. This integration allows agents to remember past interactions across sessions, leading to more intelligent systems that learn over time. It complements existing short-term memory capabilities, creating a robust solution for memory-enabled agents. Key features include cross-thread persistence, JSON structure for easy storage, and vector search for efficient retrieval. Explore the...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/" target="_blank">The Supply Chain Paradox: When âHardenedâ Images Become a Vendor Lock-in Trap</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 13:10</span>
+                
+                <span class="author">by Michael Donovan</span>
+                
+                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
+                
+            </div>
+            
+            <div class="summary">The demand for pre-hardened container images is rapidly rising as companies seek immediate security solutions with low operational effort. These images offer minimal dependencies, allowing teams to focus on application development. However, this trend may lead to unintended vendor lock-in. Organizations could become overly reliant on a single vendor&#39;s systems and processes, complicating operations and potentially weakening security. Additionally, deviations from mainstream distributions can...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/a-proposal-for-inline-llm-instructions-in-html" target="_blank">&lt;script type=&#34;text/llms.txt&#34;&gt;</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 13:00</span>
+                
+                <span class="author">by Malte Ubl</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! ð»ð #AI #HTML #llms #Innovation #TechNews</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/deploying-your-omniverse-kit-apps-at-scale/" target="_blank">Deploying Your Omniverse Kit Apps at Scale</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 13:00</span>
+                
+                <span class="author">by Ashley Goldstein</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock the potential of 3D applications with NVIDIA Omniverse Kit App Streaming! ð This solution simplifies deployment and enables users to stream applications directly from their browsers, reducing the need for complex installations. With flexible options like self-managed deployment or fully-managed infrastructure, developers can easily reach their audience. Explore the straightforward steps to get started and enhance your 3D application experience! ð»ð #NVIDIA #Omniverse #3DStreaming...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/rethinking-prototyping-requirements-and-project-delivery-at-code-and-theory" target="_blank">Rethinking prototyping, requirements, and project delivery at Code and Theory</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 13:00</span>
+                
+                <span class="author">by Peri Langlois</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Code and Theory is a digital agency that integrates strategy, design, and engineering. Their team consists of equal parts creatives and engineers, working on projects for major brands like Microsoft and Amazon. They focus on creating scalable digital experiences and utilize a method called v0 to streamline the process from concept to functioning software. Learn more about their innovative approach! ðð» #DigitalAgency #Prototyping #Innovation #Tech #ProjectDelivery</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/reverse-etl-lakebase-activate-your-lakehouse-data-operational-analytics" target="_blank">Reverse ETL with Lakebase: Activate your lakehouse data for operational analytics</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 12:41</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock the power of your lakehouse data with Reverse ETL using Lakebase! ð This approach allows you to serve data to applications efficiently and at scale, eliminating the need for custom pipelines. It bridges the gap between analytics and operations, enhancing decision-making processes. Explore how to activate your data for seamless operational analytics! ðð #DataAnalytics #Lakehouse #ReverseETL #OperationalExcellence #Lakebase</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/your-agent-your-rules-deep-dive-responses-api-llama-stack" target="_blank">Your agent, your rules: A deep dive into the Responses API with Llama Stack</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 07:01</span>
+                
+                <span class="author">by J William Murdock, Roland HuÃ, Ann Marie Fred</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/build-container-image-quarkus-project-using-buildpacks" target="_blank">Build a container image for a Quarkus project using Buildpacks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 07:01</span>
+                
+                <span class="author">by Charles Moulliard, Ozzy Osborne</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Learn how to build container images for your Quarkus projects using the Container Image Buildpack extension! This method eliminates the need for a Dockerfile, streamlining your CI/CD workflow. ð§ The extension leverages the Java Buildpack Client to simplify application deployment in Kubernetes. Ensure you have Podman/Docker, JDK 21&#43;, and Maven 3.9&#43; to get started. ð¦ With just a few Maven commands, you can create, build, and push your images to container registries effortlessly. #Quarkus...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/how-i-built-agentic-application-docling-mcp" target="_blank">How I built an agentic application for Docling with MCP</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 07:01</span>
+                
+                <span class="author">by Ryan Fernandes</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. ð ï¸ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&#39;s still untapped potential in fully utilizing MCPâs capabilities. ð My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor....</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/building-trustworthy-ai-developers-guide-production-ready-systems" target="_blank">Building trustworthy AI: A developer&#39;s guide to production-ready systems</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 07:01</span>
+                
+                <span class="author">by Maarten Vandeperre, Camille Nigon</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Building trustworthy AI is essential in today&#39;s development landscape. As AI engineers and developers, focusing on trust, safety, and transparency is crucial for creating reliable applications. ð AI systems should be assessed based on their potential impact, categorized into high, moderate, and minimal tiers. This impacts design choices and operational guardrails. ð¡ Best practices include documenting training data, testing for bias, ensuring explainability, and providing human...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://supabase.com/blog/lw15-hackathon-winners" target="_blank">Supabase Launch Week 15 Hackathon Winner Announcement</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 07:00</span>
+                
+                <span class="source">from <a href="https://supabase.com/feed.xml" target="_blank">Supabase Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-link">event</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/supabase-blog" class="source-link">Supabase-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Supabase Launch Week 15 has concluded, and we are excited to announce the winners of our Hackathon! The event showcased remarkable innovation from participants, demonstrating their technical skills. The standout project, &#34;Figma AI Tickets&#34; by vickywane, is a plugin that converts design tasks into actionable user stories using OpenAIâs GPT-4. Congratulations to all participants for their impressive submissions! ð #Supabase #Hackathon #Innovation #Figma #GPT4</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.okta.com/blog/2025/08/20/ios-mfa" target="_blank">How to Build a Secure iOS App with MFA</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 05:00</span>
+                
+                <span class="source">from <a href="https://developer.okta.com/feed.xml" target="_blank">Okta Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/okta-developer-blog" class="source-link">Okta-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Secure your iOS app with multi-factor authentication (MFA) using Oktaâs Swift SDK! ðâ¨ This guide walks you through: - Setting up your Okta developer account - Configuring your app for OAuth 2.0 and OpenID Connect - Customizing MFA policies - Creating a testable AuthService protocol Follow best practices to protect sensitive user data while enhancing your app&#39;s login experience. #iOSDevelopment #Okta #MobileSecurity #MFA #SwiftUI</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://techblog.lycorp.co.jp/en/tech-verse-2025-recap-current-state-of-ly-ai-tech" target="_blank">LY Corporation on AI, a recap of Tech-Verse 2025</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 02:00</span>
+                
+                <span class="source">from <a href="https://techblog.lycorp.co.jp/en/feed/index.xml" target="_blank">LY Corporation Tech Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/ly-corporation-tech-blog" class="source-link">LY-Corporation-Tech-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð I recently attended Tech-Verse 2025 in Tokyo as a &#34;LINE DEV Reporter.&#34; The focus was on AI, showcasing various presentations and applications of AI in services. It was insightful to see how these advancements can relate to my work at LINE AI LAB. For those who missed it, videos and materials are available on the Tech-Verse 2025 website! ð¥ #TechVerse2025 #AI #LINEAIlab #Innovation #TechConference</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/elastic-zero-trust-operations" target="_blank">Elasticâs capabilities in the world of Zero Trust operations</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="author">by Woody Walton</span>
+                
+                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exploring Zero Trust Operations with Elastic The article discusses the essential pillars of Zero Trust (ZT) based on the US Department of Defense&#39;s framework. Key elements include user identity, device characteristics, network integrity, data protection, application vulnerabilities, and automation. Challenges exist in implementing ZT, such as system complexity, operational speed, and fragility from disparate integrations. Elasticâs Search AI Platform is highlighted for its role in enhancing...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/falcon-prevents-cookie-spider-shamos-delivery-macos/" target="_blank">Falcon Platform Prevents COOKIE SPIDER&amp;rsquo;s SHAMOS Delivery on macOS</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="author">by Maddie Stewart - Suweera De Souza - Ash Leslie - Doug Brown</span>
+                
+                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ The CrowdStrike FalconÂ® platform has successfully blocked a sophisticated malware campaign by COOKIE SPIDER targeting macOS users. Between June and August 2025, over 300 customer environments were at risk due to the SHAMOS variant of the Atomic macOS Stealer. This malware was distributed through malvertising, tricking users into executing a harmful installation command. The campaign highlighted the use of one-line installation commands, which can bypass security checks, raising concerns...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.railway.com/p/railway-mcp-server" target="_blank">Railway MCP - Stateful, Serverful, Pay-per-use Infrastructure</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="source">from <a href="https://blog.railway.com/rss.xml" target="_blank">Railway Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/railway-blog" class="source-link">Railway-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for developers! A new Railway MCP server has been introduced, enabling AI coding agents to deploy applications and manage infrastructure directly from code editors. This innovative approach aims to streamline the development process. With this tool, developers can enhance their productivity by integrating deployment and infrastructure management seamlessly. #RailwayMCP #AICoding #AppDevelopment #TechInnovation #InfrastructureManagement</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://about.gitlab.com/blog/docs-site-design-overhaul/" target="_blank">The GitLab documentation site gets a major design overhaul</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="author">by Julia Miocene</span>
+                
+                <span class="source">from <a href="https://about.gitlab.com/atom.xml" target="_blank">GitLab Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/gitlab-blog" class="source-link">GitLab-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The GitLab documentation site has undergone a major redesign! Key updates include: ð Dark mode for improved readability. ð¨ Enhanced brand alignment with GitLab&#39;s marketing site. ð Simplified feedback options with thumbs up/down directly on pages. ð Redesigned navigation for easier access to over 2,300 pages. ð§ Addressed technical debt for a more polished experience. These changes stem from a recent platform migration, enhancing overall performance. #GitLab #Documentation #UXDesign...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blogl/traditional-ai-vs-generative-ai" target="_blank">Traditional AI vs. generative AI: A guide for IT leaders</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="author">by The Elastic Platform team</span>
+                
+                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The AI landscape is rapidly changing, presenting challenges for IT leaders. This article outlines the key differences between traditional AI and generative AI. Traditional AI has supported enterprise operations for years, while generative AI is redefining creativity and innovation. Key considerations for choosing the right AI include task complexity, creativity needs, and data requirements. Understanding these factors is essential for strategic decision-making. ð #ArtificialIntelligence...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/traditional-ai-vs-generative-ai" target="_blank">Traditional AI vs. generative AI: A guide for IT leaders</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-20 00:00</span>
+                
+                <span class="author">by The Elastic Platform team</span>
+                
+                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI is evolving rapidly, presenting new challenges for IT leaders. This article outlines the key differences between traditional AI and generative AI. Traditional AI excels in structured tasks, while generative AI is suited for creative applications. Understanding your organization&#39;s needs is crucial for choosing the right AI approach. Explore more about their applications and impact on technology. ð¤ð¡ #ArtificialIntelligence #TechTrends #ITLeadership #GenerativeAI #BusinessStrategy</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/learning/wrangling-the-wild-west-of-mcp-servers" target="_blank">Wrangling the Wild West of MCP Servers</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 23:05</span>
+                
+                <span class="author">by Kareem Iskander</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Ready to build your own Model Context Protocol (MCP) server? In a recent article, Kareem Iskander explains how to leverage your existing APIs using OpenAPI specs. This approach allows you to create an AI-powered gateway for your product with minimal effort. Just a few lines of Python and a FastMCP wrapper can transform your APIs into role-based AI tools without the need for custom definitions. #MCPServer #OpenAPI #AI #APIs #TechTips</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://huggingface.co/blog/nvidia/supercharge-ai-reasoning-with-nemotron-nano-2?nvid=nv-int-tblg-513492%20" target="_blank">New Nemotron Nano 2 Open Reasoning Model Tops Leaderboard and Delivers 6x Higher Throughput</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 20:50</span>
+                
+                <span class="author">by Chintan Patel</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news in AI! The NVIDIA Nemotron Nano 2 model has topped the leaderboard with impressive accuracy. This open reasoning model offers up to 6x higher throughput compared to its closest competitors, enhancing edge AI capabilities. Stay updated on advancements in technology! ðð #AI #NVIDIA #Innovation #EdgeComputing #Nemotron</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/introducing-real-time-mode-apache-sparktm-structured-streaming" target="_blank">Introducing Real-Time Mode in Apache Sparkâ¢ Structured Streaming</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 20:15</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for data engineers! Apache Sparkâ¢ Structured Streaming now features a Real-Time Mode that processes events in milliseconds. This upgrade enhances the ability to manage mission-critical data pipelines efficiently. Stay updated with the latest in streaming technology! #ApacheSpark #StructuredStreaming #RealTimeData #DataEngineering #TechNews</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.etsy.com/codeascraft/context-engineering-case-studies-etsy-specific-question-answering?utm_source=OpenGraph&amp;utm_medium=PageTools&amp;utm_campaign=Share" target="_blank">Context engineering case studies: Etsy-specific question answering</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 20:04</span>
+                
+                <span class="author">by Jerome Bellegarda</span>
+                
+                <span class="source">from <a href="https://codeascraft.com/feed/" target="_blank">Code as Craft</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/code-as-craft" class="source-link">Code-as-Craft</a>
+                
+            </div>
+            
+            <div class="summary">Exploring prompt engineering in AI-assisted onboarding at Etsy reveals both benefits and limitations. The study focused on how well LLMs provide reliable answers to Etsy-specific questions, particularly in the Travel &amp; Entertainment domain. Initial findings indicate that concise prompts improve answer accuracy. However, some instances showcased LLM &#34;hallucinations,&#34; emphasizing the need for careful prompt design. For more insights, check out the full article! ðð¤ #AIEducation #Etsy...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/" target="_blank">Best performance and fastest memory with the new Amazon EC2 R8i and R8i-flex instances</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 19:16</span>
+                
+                <span class="author">by Veliswa Boya</span>
+                
+                <span class="source">from <a href="https://aws.amazon.com/blogs/aws/feed/" target="_blank">AWS Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/aws-blog" class="source-link">AWS-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Amazon has launched the new R8i and R8i-flex instances, optimized for memory and powered by Intel Xeon processors. These instances offer 15% better price performance, 20% higher performance, and 2.5 times more memory throughput than previous generations. Ideal for memory-intensive workloads like SQL databases and real-time analytics, R8i instances scale up to 96xlarge with impressive capabilities for various applications. Check it out! ð»ð #AmazonEC2 #CloudComputing #IntelXeon...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://kubernetes.io/blog/2025/08/19/tuning-linux-swap-for-kubernetes-a-deep-dive/" target="_blank">Tuning Linux Swap for Kubernetes: A Deep Dive</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 18:30</span>
+                
+                <span class="source">from <a href="https://kubernetes.io/feed.xml" target="_blank">Kubernetes Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/kubernetes-blog" class="source-link">Kubernetes-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Kubernetes is set to introduce the NodeSwap feature in version 1.34, allowing Linux nodes to utilize swap for improved resource management. This marks a shift from the traditional approach of disabling swap for performance. However, enabling swap requires careful tuning of Linux kernel parameters to avoid performance issues and manage memory pressure effectively. Key parameters include `vm.swappiness`, `vm.min_free_kbytes`, and `vm.watermark_scale_factor`. Testing various configurations can...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.atlassian.com/blog/bitbucket/devex-bitbucket-pipelines-versus-jenkins" target="_blank">To Bitbucket from Jenkins: Enhancing Developer Experience</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 17:53</span>
+                
+                <span class="author">by Warren Marusiak</span>
+                
+                <span class="source">from <a href="https://www.atlassian.com/blog/rss" target="_blank">Atlassian Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/atlassian-developer-blog" class="source-link">Atlassian-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Atlassian&#39;s latest article discusses the advantages of transitioning from Jenkins to Bitbucket Cloud with Bitbucket Pipelines for CI/CD. The 2025 State of DevEx report reveals that 50% of developers lose over 10 hours weekly due to inefficiencies, and only 16% of their time is spent on coding. This highlights the need for better tools to enhance developer experience. The article also outlines the setup process for Jenkins, emphasizing the complexities involved. #DevExperience #Bitbucket...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/digitalocean-gradient-ai-platform-langchain-integration" target="_blank">Introducing langchain-gradient: Seamless LangChain Integration with DigitalOcean Gradientâ¢ AI Platform</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 17:37</span>
+                
+                <span class="author">by Narasimha Badrinath</span>
+                
+                <span class="source">from <a href="https://www.digitalocean.com/blog.atom" target="_blank">DigitalOcean Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/digitalocean-blog" class="source-link">DigitalOcean-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news! We&#39;ve launched **langchain-gradient**, an open-source integration connecting LangChain to the DigitalOcean Gradient AI Platform. This innovative package simplifies the development of AI applications with tools for chaining prompts and managing data. Key features include: - Seamless integration for quick deployment. - Access to multiple AI models with GPU-accelerated performance. - Full open-source compatibility. Use cases range from chatbots to automated workflows, enhancing...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/technical/constitutional-ai-ethical-governance-with-atlas" target="_blank">Constitutional AI: Ethical Governance with MongoDB Atlas</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 17:00</span>
+                
+                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
+                
+            </div>
+            
+            <div class="summary">As AI systems evolve, ensuring ethical governance becomes essential. The article discusses Constitutional AI (CAI), a method by Anthropic that allows AI models to self-govern using predefined ethical principles. This approach moves beyond traditional human oversight, integrating with MongoDB&#39;s governance tools for effective implementation. CAI utilizes a two-phase process: self-critique and AI feedback, making ethical decisions transparent. However, scaling CAI requires robust data governance...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/streamline-nginx-configuration-with-docker-desktop-extension/" target="_blank">Streamline NGINX Configuration with Docker Desktop Extension</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 16:13</span>
+                
+                <span class="author">by Dylen Turnbull</span>
+                
+                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://hacks.mozilla.org/2025/08/crlite-fast-private-and-comprehensive-certificate-revocation-checking-in-firefox/" target="_blank">CRLite: Fast, private, and comprehensive certificate revocation checking in Firefox</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 16:03</span>
+                
+                <span class="author">by John Schanck</span>
+                
+                <span class="source">from <a href="https://hacks.mozilla.org/feed/" target="_blank">Mozilla Hacks</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/mozilla-hacks" class="source-link">Mozilla-Hacks</a>
+                
+            </div>
+            
+            <div class="summary">ð Firefox has launched CRLite, the first fast and private certificate revocation checking system that protects user browsing activity. This new mechanism downloads a compact list of revoked certificates, making checking efficient and reliable. Starting with Firefox 137, CRLite enhances security while disabling the less private OCSP method in future updates. #Firefox #CRLite #Cybersecurity #Privacy #WebDevelopment</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.hashicorp.com/blog/5-lessons-from-moneybox-s-terraform-journey" target="_blank">5 lessons from Moneyboxâs Terraform journey</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 16:00</span>
+                
+                <span class="author">by Mitch Pronschinske</span>
+                
+                <span class="source">from <a href="https://www.hashicorp.com/blog/feed.xml" target="_blank">HashiCorp Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/hashicorp-blog" class="source-link">HashiCorp-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Moneybox, a UK fintech, shares insights from their transition to HCP Terraform. They faced challenges as their infrastructure grew, shifting from Terraform Community Edition to streamline workflows. Key lessons include: 1ï¸â£ Start simple, but scale when needed. 2ï¸â£ Design infrastructure for growth. 3ï¸â£ Build self-service modules for teams. 4ï¸â£ Integrate governance into workflows. These changes improved efficiency and team collaboration. ðð¼ #Fintech #Infrastructure #Terraform #CloudComputing...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.heroku.com/blog/building-data-aware-ai-applications-with-heroku-ai-llamaindex/" target="_blank">Building Data-Aware AI Applications with Heroku AI and LlamaIndex</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 15:00</span>
+                
+                <span class="author">by Anush DSouza</span>
+                
+                <span class="source">from <a href="https://blog.heroku.com/feed" target="_blank">Heroku Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/heroku-blog" class="source-link">Heroku-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Organizations aim to build AI applications that access private data, but connecting large language models (LLMs) to proprietary datasets can be challenging. Heroku Managed Inference and LlamaIndex offer a solution for creating retrieval-augmented generation (RAG) applications. LlamaIndex helps orchestrate data, while Heroku AI simplifies deployment. Use cases include financial analysis and insurance claim assessments, enhancing efficiency and accuracy in data retrieval. ðð¤ #AI...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://dropbox.tech/culture/ai-adoption-productivity-dropbox-cto-ali-dasdan" target="_blank">Driving AI adoption at Dropbox: a conversation with CTO Ali Dasdan</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 15:00</span>
+                
+                <span class="author">by Catie Keck,Catie Keck,Kazuaki Okumura</span>
+                
+                <span class="source">from <a href="https://dropbox.tech/feed" target="_blank">Dropbox Tech Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/dropbox-tech-blog" class="source-link">Dropbox-Tech-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð AI is transforming how Dropbox operates, enhancing productivity for engineers. In early 2025, a shift occurred, leading to over 90% AI adoption among engineering teams. This change was driven by leadership alignment and a culture of knowledge-sharing. CTO Ali Dasdan emphasizes AI&#39;s role in automating tasks and allowing deeper focus on coding and innovation. #AI #Dropbox #Productivity #Innovation #TechTrends</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" target="_blank">Building AI Agents with Docker MCP Toolkit: A Developerâs Real-World Setup</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 14:59</span>
+                
+                <span class="author">by Rajesh Padmakumaran</span>
+                
+                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. ð ï¸ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/innovation/building-an-agentic-ai-fleet-management-solution" target="_blank">Building an Agentic AI Fleet Management Solution</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 14:00</span>
+                
+                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Artificial intelligence is transforming fleet management with real-time insights that enhance route planning and maintenance. ðð¡ Modern vehicles generate vast data, creating challenges in processing and operational costs. An efficient architecture using MongoDB can streamline this by managing various data types effectively. Features like geospatial queries and time-series collections empower fleet managers to make informed decisions quickly. ðâ¨ Explore how AI-driven systems can optimize your...</div>
+        </article>
+        
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/page/6/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <a href="/page/3/" class="pagination-link">3</a>
+            
+            
+            
+            <a href="/page/4/" class="pagination-link">4</a>
+            
+            
+            
+            <a href="/page/5/" class="pagination-link">5</a>
+            
+            
+            
+            <a href="/page/6/" class="pagination-link">6</a>
+            
+            
+            
+            <span class="pagination-current">7</span>
+            
+            
+            
+            <a href="/page/8/" class="pagination-link">8</a>
+            
+            
+            
+            <a href="/page/9/" class="pagination-link">9</a>
+            
+            
+            
+            <a href="/page/10/" class="pagination-link">10</a>
+            
+            
+            
+            <a href="/page/11/" class="pagination-link">11</a>
+            
+            
+            
+            <a href="/page/12/" class="pagination-link">12</a>
+            
+            
+            
+            <a href="/page/13/" class="pagination-link">13</a>
+            
+            
+            
+            <a href="/page/14/" class="pagination-link">14</a>
+            
+            
+            
+            <a href="/page/15/" class="pagination-link">15</a>
+            
+            
+            
+            <a href="/page/16/" class="pagination-link">16</a>
+            
+            
+        </div>
+        
+        
+        <a href="/page/8/" class="pagination-link">Next &raquo;</a>
+        
+    </nav>
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Daily Tech Articles Feed</h1>
+    
+    <div class="filters-container">
+        <div class="filter-section">
+            <h3>Filter by Category</h3>
+            <div class="filter-options">
+                <a href="/" class="filter-link all-link">All Categories</a>
+                
+                
+                
+                
+                
+                <a href="/categories/educational" class="filter-link">
+                    Educational (161)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/event" class="filter-link">
+                    Event (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/industry_analysis" class="filter-link">
+                    Industry_analysis (75)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/product_announcements" class="filter-link">
+                    Product_announcements (233)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/security_compliance" class="filter-link">
+                    Security_compliance (69)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/categories/technical_deep_dives" class="filter-link">
+                    Technical_deep_dives (80)
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="filter-section">
+            <h3>Filter by Source</h3>
+            <div class="filter-options">
+                <a href="/" class="filter-link all-link">All Sources</a>
+                
+                
+                
+                
+                
+                <a href="/sources/1password-blog" class="filter-link">
+                    1Password-Blog (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/amd-developer-blog" class="filter-link">
+                    AMD-Developer-Blog (6)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/aws-blog" class="filter-link">
+                    AWS-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/airbnb-engineering" class="filter-link">
+                    Airbnb-Engineering (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/apple-developer-news" class="filter-link">
+                    Apple-Developer-News (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/atlassian-developer-blog" class="filter-link">
+                    Atlassian-Developer-Blog (10)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/auth0-blog" class="filter-link">
+                    Auth0-Blog (19)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/canva-engineering" class="filter-link">
+                    Canva-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/circleci-blog" class="filter-link">
+                    CircleCI-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/cisco-developer-blog" class="filter-link">
+                    Cisco-Developer-Blog (25)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/cloudflare-blog" class="filter-link">
+                    Cloudflare-Blog (35)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/code-as-craft" class="filter-link">
+                    Code-as-Craft (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/crowdstrike-blog" class="filter-link">
+                    CrowdStrike-Blog (10)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/databricks-blog" class="filter-link">
+                    Databricks-Blog (27)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/digitalocean-blog" class="filter-link">
+                    DigitalOcean-Blog (8)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/docker-blog" class="filter-link">
+                    Docker-Blog (23)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/doordash-engineering" class="filter-link">
+                    DoorDash-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/dropbox-tech-blog" class="filter-link">
+                    Dropbox-Tech-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/elastic-blog" class="filter-link">
+                    Elastic-Blog (28)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/engineering-at-meta" class="filter-link">
+                    Engineering-at-Meta (5)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/gitlab-blog" class="filter-link">
+                    GitLab-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/google-developers-blog" class="filter-link">
+                    Google-Developers-Blog (11)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/google-research" class="filter-link">
+                    Google-Research (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/grab-tech" class="filter-link">
+                    Grab-Tech (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hashicorp-blog" class="filter-link">
+                    HashiCorp-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hashicorp-solutions-engineering-blog" class="filter-link">
+                    HashiCorp-Solutions-Engineering-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/heroku-blog" class="filter-link">
+                    Heroku-Blog (4)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hubspot-developers" class="filter-link">
+                    HubSpot-Developers (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/hugging-face-blog" class="filter-link">
+                    Hugging-Face-Blog (9)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/jetbrains-blog" class="filter-link">
+                    JetBrains-Blog (57)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/kubernetes-blog" class="filter-link">
+                    Kubernetes-Blog (5)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/ly-corporation-tech-blog" class="filter-link">
+                    LY-Corporation-Tech-Blog (6)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/lyft-engineering" class="filter-link">
+                    Lyft-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/medium-engineering" class="filter-link">
+                    Medium-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/mongodb-blog" class="filter-link">
+                    MongoDB-Blog (15)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/mozilla-hacks" class="filter-link">
+                    Mozilla-Hacks (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/netflix-technology-blog" class="filter-link">
+                    Netflix-Technology-Blog (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/netlify-blog" class="filter-link">
+                    Netlify-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/nvidia-developer-blog" class="filter-link">
+                    Nvidia-Developer-Blog (40)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/okta-developer-blog" class="filter-link">
+                    Okta-Developer-Blog (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/palantir-blog" class="filter-link">
+                    Palantir-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/pinterest-engineering" class="filter-link">
+                    Pinterest-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/planetscale-blog" class="filter-link">
+                    PlanetScale-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/railway-blog" class="filter-link">
+                    Railway-Blog (4)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/red-hat-developer-blog" class="filter-link">
+                    Red-Hat-Developer-Blog (52)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/robinhood-engineering" class="filter-link">
+                    Robinhood-Engineering (3)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/salesforce-engineering" class="filter-link">
+                    Salesforce-Engineering (7)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/shopify-engineering" class="filter-link">
+                    Shopify-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/sketch-blog" class="filter-link">
+                    Sketch-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/stack-overflow-blog" class="filter-link">
+                    Stack-Overflow-Blog (18)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/stripe-blog" class="filter-link">
+                    Stripe-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/supabase-blog" class="filter-link">
+                    Supabase-Blog (2)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/tableau-engineering" class="filter-link">
+                    Tableau-Engineering (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/twilio-engineering" class="filter-link">
+                    Twilio-Engineering (32)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/uber-engineering" class="filter-link">
+                    Uber-Engineering (7)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/unity-blog" class="filter-link">
+                    Unity-Blog (1)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/unreal-engine-blog" class="filter-link">
+                    Unreal-Engine-Blog (14)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/vercel-blog" class="filter-link">
+                    Vercel-Blog (50)
+                </a>
+                
+                
+                
+                
+                
+                <a href="/sources/webflow-blog" class="filter-link">
+                    Webflow-Blog (7)
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagination-info">
+        
+        <p>Page 8 of 16 (637 articles total)</p>
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        
+        <article class="article-item">
+            <h2><a href="https://stackoverflow.blog/2025/08/19/strengthening-the-core-stack-overflow-for-teams-2025-6/" target="_blank">Strengthening the core: Stack Overflow for Teams 2025.6</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 14:00</span>
+                
+                <span class="author">by Carrie Koos</span>
+                
+                <span class="source">from <a href="https://stackoverflow.blog/feed/" target="_blank">Stack Overflow Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/stack-overflow-blog" class="source-link">Stack-Overflow-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates are here with Stack Overflow for Teams 2025.6! This release focuses on back-end improvements enhancing stability, data integrity, and identity management. Key upgrades include better SAML and SCIM integrations for smoother onboarding. Email address changes now sync automatically for improved reporting accuracy. Look forward to upcoming features like nested comments for richer discussions and an ingestion engine to convert content from various platforms into reusable...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://newsroom.aboutrobinhood.com/pro-and-college-football-prediction-markets/" target="_blank">Robinhood Launches Pro and College Football Prediction Markets</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 13:00</span>
+                
+                <span class="author">by olivermcintosh</span>
+                
+                <span class="source">from <a href="https://robinhood.engineering/feed/" target="_blank">Robinhood Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/robinhood-engineering" class="source-link">Robinhood-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">ð Robinhood has launched pro and college football prediction markets in its app! Since the introduction of prediction markets last year, over 2 billion contracts have been traded. Now, users can trade outcomes for popular football games, including all regular season pro matchups and college Power 4 schools. These markets will be available for eligible customers soon, with contracts for the first two weeks of the season. Unlike traditional sports betting, these contracts allow customers to...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/give-agents-access-to-protected-deployments-via-vercels-mcp-server" target="_blank">Agents can now access protected deployments via Vercelâs MCP server</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 13:00</span>
+                
+                <span class="author">by Kit Foster</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for developers! Vercel has introduced two new tools in its MCP server. The **get_access_to_vercel_url** feature allows agents to generate a temporary shareable URL, enabling access to Vercel Auth-protected deployments without login credentials. Additionally, the **web_fetch_vercel_url** tool lets agents fetch content directly from protected deployments, even when access would normally be denied. Explore these features to streamline your development process! #Vercel...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.uber.com/blog/forecasting-models-to-improve-availability-at-airports/" target="_blank">Forecasting Models to Improve Driver Availability at Airports</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 13:00</span>
+                
+                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">Uber is enhancing driver availability at airports through advanced forecasting models. ð These models aim to reduce wait times and minimize queues for passengers. By analyzing data patterns, Uber optimizes driver deployment to meet demand effectively. ð Stay tuned for more updates on innovations in transportation! #Uber #DataScience #AirportTravel #DriverAvailability #Innovation</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/node-js-vercel-functions-now-support-fetch-web-handlers" target="_blank">Node.js Vercel Functions now support fetch web handlers</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 13:00</span>
+                
+                <span class="author">by Pooya Pasa</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for developers! Vercel Functions on the Node.js runtime now support fetch web handlers. This enhancement boosts interoperability across various JavaScript frameworks and runtimes. You can still choose to export individual HTTP methods if that suits your project better. For further details, check out the documentation! ð #NodeJS #Vercel #WebDevelopment #JavaScript #APIs</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/rsac-2025-soc" target="_blank">Findings Report From the SOC at RSACâ¢ 2025 Conference</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 12:00</span>
+                
+                <span class="author">by Jessica (Bair) Oppenheimer</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð¨ Exciting updates from the RSACâ¢ 2025 Conference! ð¨ The Findings Report from the Security Operations Center reveals key insights into network security. Cisco and Endace monitored the Moscone Center&#39;s wireless network, showcasing how an open network operates. The SOC utilized advanced tools, including the EndaceProbe packet capture platform and Cisco Security Cloud, to enhance security measures. Learn more about these innovations and watch the session replay! #RSAC2025 #CyberSecurity...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://stackoverflow.blog/2025/08/19/the-server-side-rendering-equivalent-for-llm-inference-workloads/" target="_blank">The server-side rendering equivalent for LLM inference workloads</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 07:40</span>
+                
+                <span class="author">by Phoebe Sajor</span>
+                
+                <span class="source">from <a href="https://stackoverflow.blog/feed/" target="_blank">Stack Overflow Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/stack-overflow-blog" class="source-link">Stack-Overflow-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Join Ryan and Tuhin Srivastava, CEO of Baseten, as they discuss the changing AI infrastructure landscape. They highlight how the shift to large-scale neural networks is impacting GPU usage and the future of hardware optimizations in AI. Baseten offers the tools and expertise needed to accelerate AI product development. ðð¤ð¡ #AI #MachineLearning #NeuralNetworks #Baseten #TechTalk</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/19/build-multi-arch-clusters-builds-red-hat-openshift" target="_blank">Build on multi-arch clusters with builds for Red Hat OpenShift</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 07:01</span>
+                
+                <span class="author">by Dylan Orzel</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Discover how to streamline multi-arch builds with Red Hat OpenShift! This article explains the builds for Red Hat OpenShift operator, allowing you to create a single build object for mixed architecture clusters. Key steps include installing the oc client, configuring the ClusterBuildStrategy, and verifying image builds for different architectures. Learn more about simplifying your build process! #RedHat #OpenShift #MultiArch #CloudComputing #DevOps</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/19/how-enhance-agent2agent-security" target="_blank">How to enhance Agent2Agent (A2A) security</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 07:01</span>
+                
+                <span class="author">by Florencio Cano Gabarda</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The Agent2Agent (A2A) protocol by Google facilitates communication between AI agents, allowing seamless interaction across different vendors. Each agent can serve as a client or remote agent depending on the context. ð Communication involves retrieving an Agent Card, which contains essential details for task execution. Security measures such as HTTPS and authentication protocols are crucial for protecting these interactions. ð¡ï¸ Developers implementing A2A should remain vigilant about...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/19/getting-started-llm-d-distributed-ai-inference" target="_blank">Getting started with llm-d for distributed AI inference</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 07:01</span>
+                
+                <span class="author">by Cedric Clyburn, Philip Hayes</span>
+                
+                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð As large language models (LLMs) evolve, so must their infrastructure. Introducing **llm-d**, a Kubernetes-native distributed inference stack designed to enhance AI applications. It optimizes for complex reasoning, long-running prompts, and modular scaling. Key features include smart load balancing, split-phase inference, and disaggregated caching for efficiency. This innovation addresses the unique challenges of LLM inference, making it more cost-effective and performant. Join the growing...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://newsroom.aboutrobinhood.com/digests-by-robinhood-cortex-uk/" target="_blank">Introducing Digests by Robinhood Cortex for customers in the UK</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 06:00</span>
+                
+                <span class="author">by olivermcintosh</span>
+                
+                <span class="source">from <a href="https://robinhood.engineering/feed/" target="_blank">Robinhood Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/robinhood-engineering" class="source-link">Robinhood-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for UK investors! Robinhood has launched Digests powered by Robinhood Cortex, an AI-driven feature that explains stock movements in clear language. This tool reviews news, analyst reports, and proprietary data to help users make informed decisions. Available for free on stock detail pages, Digests aims to support investors of all experience levels. For more details, visit the Help Centre. #InvestSmart #StockMarket #AI #Robinhood #UKInvestors</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://engineering.grab.com/signals-market-place" target="_blank">Data mesh at Grab part I: Building trust through certification</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 00:23</span>
+                
+                <span class="source">from <a href="https://engineering.grab.com/feed.xml" target="_blank">Grab Tech</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/grab-tech" class="source-link">Grab-Tech</a>
+                
+            </div>
+            
+            <div class="summary">At Grab, we are evolving our data ecosystem to better serve our diverse operations, including ride-hailing, food delivery, and financial services. ð In 2024, we initiated the Signals Marketplace, a data mesh journey aimed at enhancing data quality and accessibility. This decentralized approach allows domain-specific teams to take ownership of their data, fostering reliability and trust. ð Key challenges included high data volume, unclear ownership, and communication gaps. We introduced data...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.unrealengine.com/developer-interviews/mongil-star-dive-brings-monster-collection-and-solo-party-play-to-pc-console-and-mobile" target="_blank">&lt;p&gt;&lt;em&gt;MONGIL: STAR DIVE&lt;/em&gt; brings monster collection and solo party play to PC, console, and mobile&lt;/p&gt;</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 00:00</span>
+                
+                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news in the gaming world! Netmarble Monster&#39;s CEO, Ken Kim, recently shared insights about their new game, MONGIL: STAR DIVE. This cross-platform collectible action-adventure game is set to launch on PC, console, and mobile, developed using Unreal Engine 5. Stay tuned for more updates on this innovative gaming experience! ð®â¨ #MONGIL #StarDive #GamingNews #Netmarble #ActionAdventure</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://huggingface.co/blog/claude-and-mcp" target="_blank">Generate Images with Claude and Hugging Face</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 00:00</span>
+                
+                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Discover how to generate images using Claude and Hugging Face! ð¤â¨ The article outlines step-by-step methods for utilizing these tools effectively. It highlights key features and provides tips for best practices in image generation. Explore the potential of AI in creative projects! #AI #ImageGeneration #HuggingFace #Claude #TechTrends</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/prevent-race-conditions-laravel-atomic-locks" target="_blank">How to Prevent Race Conditions in Laravel with Atomic Locks</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 00:00</span>
+                
+                <span class="author">by Prosper Ugbovo</span>
+                
+                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">Learn how to prevent race conditions in Laravel with atomic locks! ð This article outlines the importance of using Laravelâs locking mechanisms to ensure data integrity and manage concurrent processes effectively. Discover practical steps and examples to implement these techniques in your projects. Stay informed and enhance your development skills! ð»â¨ #Laravel #WebDevelopment #CodingTips #RaceConditions #AtomicLocks</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.1password.com/new-device-trust-check-makes-browser-extension-enforcement-easier/" target="_blank">New Device Trust Check makes browser extension enforcement easier</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-19 00:00</span>
+                
+                <span class="author">by info@1password.com (Evan Sandhu)</span>
+                
+                <span class="source">from <a href="https://blog.1password.com/index.xml" target="_blank">1Password Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/1password-blog" class="source-link">1Password-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð 1Password has launched the new Device Trust Check to enhance security in managing browser extensions. This feature allows admins to ensure the 1Password browser extension remains installed and active on user devices. If the extension is missing, users receive prompts to restore it before access to the desktop app is denied. The integration between the Extended Device Compliance feature and EPM strengthens security enforcement continuously, closing gaps for potential compliance issues....</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.atlassian.com/blog/developer/how-titanapps-migrated-smart-checklist-to-forge-and-got-it-to-run-on-atlassian" target="_blank">How TitanApps Migrated Smart Checklist to Forge (and Got It to Run on Atlassian)</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 23:44</span>
+                
+                <span class="author">by kwhite@atlassian.com</span>
+                
+                <span class="source">from <a href="https://www.atlassian.com/blog/rss" target="_blank">Atlassian Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/atlassian-developer-blog" class="source-link">Atlassian-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð TitanApps shares the journey of migrating Smart Checklist to Forge, ensuring it meets security standards and runs smoothly on Atlassian. The team tackled challenges like data migration without downtime, all while retaining the app&#39;s reliability for thousands of users. This migration highlights the importance of planning and adapting to new technologies. For those considering a similar move, this post offers valuable insights. #Atlassian #SmartChecklist #ForgeMigration #TechInnovation...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://careersatdoordash.com/blog/doordash-llm-chatbot-knowledge-with-ugc/" target="_blank">A scalable LLM approach to enhancing chatbot knowledge with user-generated content</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 21:49</span>
+                
+                <span class="author">by Tony Luo</span>
+                
+                <span class="source">from <a href="https://careersatdoordash.com/feed/" target="_blank">DoorDash Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/doordash-engineering" class="source-link">DoorDash-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">DoorDash&#39;s support chatbot efficiently addresses numerous questions from Dashers and customers daily. As their marketplace grows, so does the complexity of inquiries. To enhance chatbot knowledge, DoorDash employs large language models (LLMs) paired with clustering algorithms. This method identifies content gaps and drafts articles quickly, streamlining the knowledge base update process. By analyzing escalated chat transcripts, they pinpoint areas needing improvement. This data-driven...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/announcing-the-latest-nvidia-gaming-ai-and-neural-rendering-technologies/" target="_blank">Announcing the Latest NVIDIA Gaming AI and Neural Rendering Technologies</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 19:30</span>
+                
+                <span class="author">by Ike Nnoli</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð NVIDIA has made significant announcements at Gamescom 2025, introducing updates to its RTX neural rendering and ACE generative AI technologies. These advancements aim to enhance gaming experiences with expanded integration for DLSS 4, new AI models, and cloud solutions like GeForce NOW inside Discord. ð® Upcoming titles, including Resident Evil Requiem and Borderlands 4, will feature these technologies, helping developers optimize graphics even for players with older hardware. For Unreal...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents" target="_blank">Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 19:30</span>
+                
+                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! ðð¡ #AI #Mosaic #VectorSearch #Innovation #TechTrends</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://netflixtechblog.com/ml-observability-bring-transparency-to-payments-and-beyond-33073e260a38?source=rss----2615bd06b42e---4" target="_blank">ML Observability: Bringing Transparency to Payments and Beyond</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 18:15</span>
+                
+                <span class="author">by Netflix Technology Blog</span>
+                
+                <span class="source">from <a href="https://netflixtechblog.com/feed" target="_blank">Netflix Technology Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/netflix-technology-blog" class="source-link">Netflix-Technology-Blog</a>
+                
+            </div>
+            
+            <div class="summary">At Netflix, ML observability is crucial for monitoring and understanding machine learning models in production. It allows teams to track performance, detect anomalies, and ensure reliability. This is particularly important in payment processing, where optimizing transactions helps reduce friction for users. By utilizing ML observability tools, we can enhance model performance and maintain stakeholder trust through clear insights into model behavior. Examples include logging, monitoring, and...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/ai/2025/08/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/" target="_blank">Introducing Next Edit Suggestions in JetBrains AI Assistant</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 16:14</span>
+                
+                <span class="author">by Anton Semenkin</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð JetBrains AI Assistant has launched a new feature: next edit suggestions, now available in Beta for Java, Kotlin, and Python. These intelligent recommendations offer edit suggestions across your entire file, enhancing your coding experience. With integration into IDE-native actions, users can benefit from smart edits while maintaining workflow. The feature triggers as you type, providing instant suggestions highlighted in light purple. Global support ensures fast responses from regions like...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/identify-speakers-in-meetings-calls-and-voice-apps-in-real-time-with-nvidia-streaming-sortformer/" target="_blank">Identify Speakers in Meetings, Calls, and Voice Apps in Real-Time with NVIDIA Streaming Sortformer</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 16:00</span>
+                
+                <span class="author">by Ivan Medennikov</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Introducing NVIDIA Streaming Sortformer, a breakthrough in real-time speaker identification for meetings, calls, and voice-enabled apps. ð¤ This production-grade diarization model offers low-latency performance, making it ideal for multi-speaker environments. Key features include frame-level diarization, precision timestamps, and efficient GPU inference. ð Optimized for English and tested with Mandarin and other languages, it promises robust tracking with minimal latency. #NVIDIA #AI...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/" target="_blank">Scaling AI Factories with Co-Packaged Optics for Better Power Efficiency</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 16:00</span>
+                
+                <span class="author">by Ashkan Seyedi</span>
+                
+                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI is reshaping the computing landscape, with networks becoming essential for future data centers. NVIDIA is leading this evolution with GPU-driven AI factories that require high bandwidth and low latency. Their networking solutions, including Spectrum-X Ethernet and Quantum InfiniBand, support these advanced needs. Co-packaged optics are now crucial for power efficiency and resilience in AI workloads, marking a significant shift from traditional data center designs. #NVIDIA #AI #DataCenters...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.hashicorp.com/blog/terraform-now-supports-assigning-agent-pools-at-the-project-level" target="_blank">Terraform now supports assigning agent pools at the project level</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 16:00</span>
+                
+                <span class="author">by Mitchell Ross</span>
+                
+                <span class="source">from <a href="https://www.hashicorp.com/blog/feed.xml" target="_blank">HashiCorp Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/hashicorp-blog" class="source-link">HashiCorp-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for HCP Terraform and Terraform Enterprise users! You can now assign default agent pools at the project level. This update simplifies the management of self-hosted agents, enhancing security and scalability. With this feature, project owners can easily set a default agent pool for future workspaces, promoting consistency across projects. Existing workspaces maintain their current settings, ensuring a smooth transition. Get started today and streamline your infrastructure...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-single-gpu-p5-instances-advanced-go-driver-amazon-sagemaker-hyperpod-and-more-august-18-2025/" target="_blank">AWS Weekly Roundup: Single GPU P5 instances, Advanced Go Driver, Amazon SageMaker HyperPod and more (August 18, 2025)</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:39</span>
+                
+                <span class="author">by Prasad Rao</span>
+                
+                <span class="source">from <a href="https://aws.amazon.com/blogs/aws/feed/" target="_blank">AWS Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/aws-blog" class="source-link">AWS-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates from AWS this week! The upcoming BeSA (Become a Solutions Architect) cohort starts on September 6, offering free mentoring to enhance cloud careers. Learn more on the BeSA website. New launches include: - **Amazon EC2 Single GPU P5 instances** for cost-effective ML and HPC. - **AWS Advanced Go Driver** for improved database performance. - Enhanced **Cilium support** for Amazon EKS Hybrid Nodes. For AI enthusiasts, **Amazon SageMaker HyperPod** now supports advanced features...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://engineering.salesforce.com/how-cursor-ai-cut-legacy-code-coverage-time-by-85/" target="_blank">How Cursor AI Cut Legacy Code Coverage Time by 85%</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:32</span>
+                
+                <span class="author">by Scott Nyberg</span>
+                
+                <span class="source">from <a href="https://engineering.salesforce.com/feed/" target="_blank">Salesforce Engineering</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/salesforce-engineering" class="source-link">Salesforce-Engineering</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting advancements in software engineering at Salesforce! Rachna Singh and her team tackled the challenge of achieving 80% code coverage on legacy systems. By utilizing Cursor AI, they reduced unit test development time from 26 days to just 4! ð This innovative approach not only met the coverage requirement but also improved feature delivery and code quality across multiple repositories. #Salesforce #AI #SoftwareEngineering #CodeCoverage #Innovation</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/sp/leading-the-future-of-iot-mobility-cisco-wins-frost-sullivan-award-two-years-running" target="_blank">Leading the Future of IoT Mobility: Cisco Wins Frost &amp; Sullivan Award Two Years Running</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:00</span>
+                
+                <span class="author">by Masum Mir</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news! Cisco has been awarded Frost &amp; Sullivanâs 2025 Global Company of the Year for Mobile IoT Platforms, marking a second consecutive win. This honor reflects the trust of customers and partners in Cisco&#39;s innovative solutions for IoT mobility. The Cisco Mobility Services Platform serves as a comprehensive resource for enterprise mobility, supporting advanced technologies like 5G and NB-IoT. Thank you to our partners and customers for your collaboration and trust! Together, we are...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/partner/scaling-the-future-of-work-together" target="_blank">Scaling the Future of Work Together</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:00</span>
+                
+                <span class="author">by Kristyn Hogan</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco is redefining the future of work with innovative office transformations globally. From New York to London, these spaces highlight what hybrid work can be with cutting-edge technology. Partners like Softcat in London are leading the way, creating immersive experiences that showcase Cisco&#39;s capabilities. ð With over 70 partner offices demonstrating these advancements, Cisco has launched a Collaboration Partner Workspace Catalog to connect teams with hands-on Cisco technology demos....</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/innovation/unlock-multi-agent-ai-predictive-maintenance" target="_blank">Unlock Multi-Agent AI Predictive Maintenance with MongoDB</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 15:00</span>
+                
+                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð The manufacturing sector faces challenges like evolving demands and a skilled labor shortage. Digital transformation is key, with data-driven strategies at the forefront. ð§ Predictive maintenance is vital for operational excellence, using data to foresee machine failures and reduce costly downtime. ð¤ The rise of multi-agent AI systems is revolutionizing this process. MongoDB enables the development of these agents, enhancing automation and efficiency on the shop floor. Explore how Agentic...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/18/using-sql-and-databases-in-jetbrains-ides/" target="_blank">Using SQL and databases in JetBrains IDEs</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 14:21</span>
+                
+                <span class="author">by Stanislav Garkusha</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Check out our recent livestream on August 14, where we discussed working with SQL and databases in JetBrains IDEs. ð» The session featured a demo on writing SQL queries and utilizing embedded database functionality, covering both simple and advanced tasks. ð¤ Speaker Maxim Sobolevskiy, a PMM at JetBrains, shared his expertise gained from years of experience as an SQL developer. For updates on product news and future livestreams, follow DataGrip on X or visit our Blog! #JetBrains #SQL...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/announcing-the-cloudflare-browser-developer-program/" target="_blank">Announcing the Cloudflare Browser Developer Program</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 14:00</span>
+                
+                <span class="author">by Oliver Payne</span>
+                
+                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news from Cloudflare! They have launched the Browser Developer Program, aimed at enhancing collaboration between Cloudflare and browser development teams. This initiative focuses on improving security measures while ensuring a seamless user experience. Browser developers can join to share feedback, access best practices, and engage in discussions with Cloudflare engineers. The program also offers insights into updates that may affect browser interactions with Cloudflare Challenges...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/if-agents-are-building-your-app-who-gets-the-w-2" target="_blank">If agents are building your app, who gets the W-2?</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 13:00</span>
+                
+                <span class="author">by Werner Schwock</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Autonomous coding agents are changing the software development landscape. ð¤ These agents can now fully design, build, test, and deploy features without human intervention. However, current U.S. GAAP regulations have not fully adapted to this technology. While third-party software costs can be capitalized, developer tools are often classified as overhead. It&#39;s essential to consider how to treat work done by these agents in a manner similar to salaried engineers. #SoftwareDevelopment...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/native-support-for-sveltekits-new-opentelemetry-spans" target="_blank">Native support for SvelteKit&#39;s new OpenTelemetry spans</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 13:00</span>
+                
+                <span class="author">by Elliott Johnson</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Vercel has added native support for SvelteKit&#39;s new server-side OpenTelemetry spans. To begin, users can activate experimental tracing in SvelteKit and set up a tracing instrumentation file with the Vercel OpenTelemetry collector. Generated traces will now include built-in SvelteKit spans, and other collectors can also be configured. For further details, check the SvelteKit observability documentation. ð #SvelteKit #OpenTelemetry #Vercel #WebDevelopment #Observability</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/vercel-sandbox-increases-concurrency-and-port-limits" target="_blank">Vercel Sandbox increases concurrency and port limits</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 13:00</span>
+                
+                <span class="author">by Laurens Duijvesteijn</span>
+                
+                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Vercel has enhanced its Sandbox capabilities for Pro and Enterprise teams! Now, users can run up to 2,000 Sandboxes concurrently, a significant increase from the previous limit of 150. Each Sandbox can also expose up to 4 ports for external access. This improvement allows for better handling of traffic spikes, untrusted code execution, and more complex applications. For projects needing even higher limits, contacting the sales team is an option. Learn more in the Vercel Sandbox docs! ðð§...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/cisco-kddi-deliver-partner-to-deliver-japans-first-fully-managed-sase-solution" target="_blank">Cisco and KDDI Partner to Deliver Japanâs First Fully Managed SASE Solution</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 12:00</span>
+                
+                <span class="author">by Raj Chopra</span>
+                
+                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Cisco and KDDI have announced Japan&#39;s first fully managed SASE solution, enhancing secure access for businesses adapting to digital changes. This partnership aims to simplify SASE adoption, providing integrated and scalable solutions for secure connectivity. Service providers like KDDI are essential in navigating this transition, leveraging Ciscoâs expertise to ensure streamlined operations and robust security. #Cisco #KDDI #SASE #Cybersecurity #CloudSolutions</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/pycharm/2025/08/the-state-of-python-2025/" target="_blank">The State of Python 2025</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 11:42</span>
+                
+                <span class="author">by Evgenia Verbina</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting insights from the eighth annual Python Developers Survey, conducted by the Python Software Foundation and JetBrains! Michael Kennedy shares key trends and actions that can enhance your Python career. Notably, 86% of respondents use Python as their main programming language. The survey reveals that many Python developers are relatively new to programming, highlighting a shift in the community. For those relying on Python for their projects, this article offers valuable perspectives....</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/teamcity/2025/08/devops-for-startups/" target="_blank">DevOps for Startups: CI/CD from the Ground Up</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 10:37</span>
+                
+                <span class="author">by Olga Bedrina</span>
+                
+                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Startups can greatly benefit from adopting DevOps practices. This approach enhances agility, allowing quicker responses to market demands while maintaining software quality. ð DevOps fosters collaboration between development and operations teams, streamlining processes and automating tasks. This leads to improved productivity and faster delivery times. ð With continuous feedback and automated testing, startups can refine their products efficiently, ensuring a better user experience. ð» #DevOps...</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/elastic-response-edr-0-day-vulnerability-blog" target="_blank">Elastic response to blog âEDR 0-Day Vulnerabilityâ</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 00:00</span>
+                
+                <span class="author">by Brian Levine</span>
+                
+                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Elasticâs Security team has responded to claims of a vulnerability in Elastic Defend. After comprehensive investigation, no evidence was found to support the alleged bypass of EDR monitoring or remote code execution. The demonstrations provided were not from unprivileged processes. Elastic remains committed to transparency and encourages researchers to share any valid findings at security@elastic.co. Updates will be provided as necessary. #CyberSecurity #Elastic #Vulnerability #EDR #InfoSec</div>
+        </article>
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://huggingface.co/blog/kernel-builder" target="_blank">From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-18 00:00</span>
+                
+                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Excited to enhance your GPU capabilities? Check out the guide on building production-ready CUDA kernels! It introduces the kernel-builder library, designed to simplify the development of custom kernels for various architectures. Learn how to create efficient and maintainable systems while overcoming deployment challenges. Perfect for those looking to elevate their models! #CUDA #GPUs #Programming #TechGuide #MachineLearning</div>
+        </article>
+        
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/page/7/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <a href="/page/3/" class="pagination-link">3</a>
+            
+            
+            
+            <a href="/page/4/" class="pagination-link">4</a>
+            
+            
+            
+            <a href="/page/5/" class="pagination-link">5</a>
+            
+            
+            
+            <a href="/page/6/" class="pagination-link">6</a>
+            
+            
+            
+            <a href="/page/7/" class="pagination-link">7</a>
+            
+            
+            
+            <span class="pagination-current">8</span>
+            
+            
+            
+            <a href="/page/9/" class="pagination-link">9</a>
+            
+            
+            
+            <a href="/page/10/" class="pagination-link">10</a>
+            
+            
+            
+            <a href="/page/11/" class="pagination-link">11</a>
+            
+            
+            
+            <a href="/page/12/" class="pagination-link">12</a>
+            
+            
+            
+            <a href="/page/13/" class="pagination-link">13</a>
+            
+            
+            
+            <a href="/page/14/" class="pagination-link">14</a>
+            
+            
+            
+            <a href="/page/15/" class="pagination-link">15</a>
+            
+            
+            
+            <a href="/page/16/" class="pagination-link">16</a>
+            
+            
+        </div>
+        
+        
+        <a href="/page/9/" class="pagination-link">Next &raquo;</a>
+        
+    </nav>
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

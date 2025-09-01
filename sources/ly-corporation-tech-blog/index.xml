@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LY-Corporation-Tech-Blog on Daily Tech Articles Feed</title>
+    <link>http://localhost:1313/sources/ly-corporation-tech-blog/</link>
+    <description>Recent content in LY-Corporation-Tech-Blog on Daily Tech Articles Feed</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 02:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sources/ly-corporation-tech-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 44: Misdiagnosis of anemia</title>
+      <link>http://localhost:1313/articles/article-7519/</link>
+      <pubDate>Fri, 29 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7519/</guid>
+      <description>ð ï¸ In the latest article by Munetoshi Ishikawa, the focus is on code quality through the lens of anemia misdiagnosis. The discussion revolves around two modulesâfoo-module and bar-moduleâeach with their own data models: FooModel and BarModel. The article highlights how conversion logic between these models was integrated to avoid an anemic domain model, ensuring better data handling. For developers, this insight emphasizes the importance of architecture in maintaining clean code. #CodeQuality&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving code quality - Session 43: Return of values</title>
+      <link>http://localhost:1313/articles/article-6311/</link>
+      <pubDate>Fri, 22 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-6311/</guid>
+      <description>ð In the latest installment of &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses the function for registering new users in the LINE app. ð§ The &lt;code&gt;registerNewUser&lt;/code&gt; function handles two main tasks: creating a user account and uploading a profile image. The process includes validating the account creation request and checking if the profile image is uploaded successfully. For more insights, check out the full article! #CodeQuality #SoftwareDevelopment #MobileApp #LINE #Programming</description>
+    </item>
+    <item>
+      <title>LY Corporation on AI, a recap of Tech-Verse 2025</title>
+      <link>http://localhost:1313/articles/article-5829/</link>
+      <pubDate>Wed, 20 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5829/</guid>
+      <description>ð I recently attended Tech-Verse 2025 in Tokyo as a &amp;ldquo;LINE DEV Reporter.&amp;rdquo; The focus was on AI, showcasing various presentations and applications of AI in services. It was insightful to see how these advancements can relate to my work at LINE AI LAB. For those who missed it, videos and materials are available on the Tech-Verse 2025 website! ð¥ #TechVerse2025 #AI #LINEAIlab #Innovation #TechConference</description>
+    </item>
+    <item>
+      <title>Improving code quality - Session 42: Theoretical testing</title>
+      <link>http://localhost:1313/articles/article-5830/</link>
+      <pubDate>Fri, 15 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5830/</guid>
+      <description>ð Session 42 of &amp;ldquo;Improving Code Quality&amp;rdquo; focuses on theoretical testing in mobile development. Munetoshi Ishikawa discusses how to manage different account types (FREE, PREMIUM, etc.) with icons. If AccountType is solely for UI, icons can be properties. However, for broader usage, a conversion mechanism using a Map is more effective. Explore efficient coding strategies! ð»â¨ #CodeQuality #SoftwareDevelopment #MobileDev #Programming #TheoreticalTesting</description>
+    </item>
+    <item>
+      <title>Hack the planet! A recap of Hack Day 2025</title>
+      <link>http://localhost:1313/articles/article-5831/</link>
+      <pubDate>Thu, 14 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5831/</guid>
+      <description>ð Just wrapped up Hack Day 2025 at LY Corporation in Tokyo! This internal hackathon, running since 2007, allows employees from all departments to collaborate freely on projects. Teams can be formed locally or globally, fostering creativity and innovation. ð Participants shared ideas, planned, and developed products over two days, with a focus on collaboration and fun. Stay tuned for more insights from the concurrent Tech-Verse conference! #HackDay2025 #Innovation #Teamwork #LYCorporation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving code quality - Session 41: &#34;Architecture&#34; under construction</title>
+      <link>http://localhost:1313/articles/article-5832/</link>
+      <pubDate>Fri, 08 Aug 2025 02:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5832/</guid>
+      <description>📢 Exciting insights from &amp;ldquo;Improving Code Quality&amp;rdquo; Session 41! Munetoshi Ishikawa discusses application architecture for a messaging app. The article outlines a data model defining messages, featuring various types like Text, Image, and External Resource. The message type is identified by the first character of its ID, which is crucial for maintaining historical compatibility. Discover more about managing different message types and their unique creation logic! #CodeQuality #AppDevelopment&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auth0-Blog | Daily Tech Articles Feed</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5;
+            font-variant-emoji: emoji;
+            text-rendering: optimizeQuality;
+        }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+         
+        .filters-container { width: 100%; margin-bottom: 30px; }
+        .filter-section { width: 100%; margin-bottom: 25px; }
+        .filter-section:last-child { margin-bottom: 0; }
+        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
+        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
+        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
+        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
+        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #1976d2; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        
+         
+        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+        .article-item:last-child { border-bottom: none; }
+        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
+        .article-item h2 a { color: #333; text-decoration: none; }
+        .article-item h2 a:hover { color: #0066cc; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
+        .article-meta span { margin-right: 15px; }
+        
+         
+        .categories, .sources { margin-bottom: 10px; }
+        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
+        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
+        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
+        .sources .source-link:hover { background: #7b1fa2; color: white; }
+        
+        .summary { color: #444; line-height: 1.5; }
+        .source a { color: #666; }
+        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
+        .pagination-numbers { display: flex; gap: 5px; }
+        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
+        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
+        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) {
+            .filter-options { justify-content: center; }
+            .taxonomy-index { grid-template-columns: 1fr; }
+            .pagination { flex-direction: column; gap: 15px; }
+            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: Auth0-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    <div class="pagination-info">
+        
+    </div>
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/async-ciba-python-langgraph-auth0/" target="_blank">Implementing Asynchronous Human-in-the-Loop Authorization in Python with LangGraph and Auth0</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-29 00:00</span>
+                
+                <span class="author">by Raphael do Vale</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Learn how to implement asynchronous authorization in your LangGraph application using Auth0 and the CIBA flow. This tutorial covers using a secondary device for secure permissions, allowing actions like financial transactions or order approvals with human oversight. Discover the importance of keeping humans in the loop for responsible AI actions. For more insights on CIBA, check out the linked blog post! ðð±ð¤ #AsynchronousAuth #LangGraph #Auth0 #CIBA #ResponsibleAI</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/build-python-mcp-server-for-blog-search/" target="_blank">How to Build a Python MCP Server to Consult a Knowledge Base</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-28 00:00</span>
+                
+                <span class="author">by Jessica Temporal</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Want to enhance your AI assistant&#39;s capabilities? Check out this guide on building a Python MCP server to create a searchable knowledge base from your blog. Learn how to connect your AI, like Claude, to your blog content seamlessly without interrupting your workflow. Discover the benefits of the Model Context Protocol (MCP) for secure data access and efficient information retrieval. #AI #Python #KnowledgeBase #MCP #TechGuide</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/level-up-your-security-posture-with-the-auth0-security-detection-catalog/" target="_blank">Level Up Your Security Posture with the Auth0 Security Detection Catalog</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-27 00:00</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting news for security professionals! Auth0 has launched the **Security Detection Catalog** on GitHub, an open-source resource aimed at enhancing your security posture. It offers actionable intelligence and proactive threat updates to help you stay ahead of emerging threats. Each detection includes threat descriptions and recommended prevention strategies, ensuring a swift response. The catalog is designed for compatibility with Sigma rules, allowing for quick deployment across various...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/securing-amazon-bedrock-agents-with-auth0-genai-guide/" target="_blank">A Step-by-Step Guide to Securing Amazon Bedrock Agents with Auth0</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-26 00:05</span>
+                
+                <span class="author">by Kapil Patil</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Enhance the security of your Amazon Bedrock agents with Auth0 for GenAI! ð This guide outlines how to implement secure authentication and authorization, allowing agents to act on users&#39; behalf without static credentials. Key features include secure login, identity-based API access, and authorization-aware actions. Learn how to build robust, identity-aware AI applications with these essential capabilities. #AmazonBedrock #GenAI #Auth0 #AI #Security</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/protect-your-access-tokens-with-dpop/" target="_blank">Protect Your Access Tokens with DPoP (Demonstrating Proof of Possession)</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-25 00:00</span>
+                
+                <span class="author">by Andrea Chiarelli</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Protect your applications with DPoP! This article explains how Demonstrating Proof-of-Possession enhances security for access tokens by ensuring they can only be used by the intended application. Unlike traditional bearer tokens, DPoP binds tokens to a specific client instance, mitigating risks of token theft. Learn about the benefits, security threats it addresses, and how to implement DPoP in your applications using Auth0. #Security #DPoP #OAuth2 #AccessTokens #ApplicationSecurity</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/secure-third-party-tool-calling-python-fastapi-auth0-langchain-langgraph/" target="_blank">Secure Third-Party Tool Calling: A Guide to LangGraph Tool Calling and Secure AI Integration in Python</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-22 00:00</span>
+                
+                <span class="author">by Raphael do Vale</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Discover how to integrate third-party APIs securely using LangGraph in Python! This guide builds on the previous article about the Zoo AI, focusing on tool calling on behalf of users while maintaining security. Learn how to implement LangChain with FastAPI and Auth0 to access protected resources safely. Enhance your application while ensuring proper authorization for each user action. ð¦ð¾ #LangChain #APISecurity #Python #FastAPI #AIIntegration</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/ai-in-financial-services-demands-new-trust-layer/" target="_blank">AI in Financial Services Demands a New Trust Layer: Why Identity Security Is the Answer</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-21 00:00</span>
+                
+                <span class="author">by Christopher Ottman</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">As AI transforms financial services, new risks arise with autonomous AI agents accessing sensitive data. Traditional identity security is becoming insufficient. Financial institutions must now consider not just who the user is, but also what operates on their behalf. A shift to advanced identity solutions, like Auth for GenAI, is essential for secure innovation. ðð Explore more insights from the Auth0 Customer Identity Trends Report 2025. #AI #FinancialServices #IdentitySecurity #Innovation...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/securing-trust-in-ai-a-developer-s-identity-guide/" target="_blank">Securing Trust in AI: A Developer&#39;s Identity Guide</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-14 00:00</span>
+                
+                <span class="author">by Bhawna Singh</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð In the evolving landscape of AI, security is essential for building user trust. Developers face challenges like signup attacks, account takeovers, and poor password hygiene, which can erode confidence in digital platforms. The Auth0 Customer Identity Trends Report 2025 reveals that 46.1% of new registrations may be fraudulent, while 16.9% of login attempts show malicious intent. To foster trust, developers must prioritize robust identity management, as 74% of users value a companyâs...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/access-control-in-the-era-of-ai-agents/" target="_blank">Access Control in the Era of AI Agents</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-13 08:27</span>
+                
+                <span class="author">by Carla Urrea Stabile</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">AI agents are evolving, performing complex tasks and making API calls autonomously. This shift poses new security challenges, particularly in access control. The article discusses the history of AI agents and highlights the risks they bring, emphasizing the need for fine-grained access control. Traditional models like RBAC and ABAC struggle under the dynamic nature of AI systems, often requiring additional engineering for effective management. Explore how to adapt access control as AI...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/july-2025-product-updates-new-security-features-global-regions-and-developer-previews/" target="_blank">Auth0 Product Updates (July 2025): New Security Features, Global Regions, and Developer Previews</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-12 00:00</span>
+                
+                <span class="author">by Ari Schapiro</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð Exciting updates from Auth0 this July! We&#39;re introducing enhanced security features like PII masking in logs, which helps protect sensitive data. Improvements in bot detection will ensure smoother experiences for genuine users. Additionally, new global cloud regions are now available, including Mexico ð²ð½ and Hong Kong ð­ð°, expanding our reach. Stay tuned for more features aimed at empowering developers! #Auth0 #Security #DeveloperUpdates #CloudExpansion #IdentityManagement</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/earn-customer-trust-in-the-ai-era-a-guide-for-businesses/" target="_blank">Earn Customer Trust in the AI Era: A Guide for Businesses</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-12 00:00</span>
+                
+                <span class="author">by Anika Jang</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">ð In the AI era, building customer trust is crucial for businesses. A recent report reveals that 37% of consumers frequently interact with AI. Yet, 70% prefer humans for assistance, valuing empathy over efficiency. ð¤ As customers define AI&#39;s role, they see it as a tool for tasks but hesitate to trust it with complex decisions. The key question remains: &#34;Can I trust you with my data?&#34; With 23% of users avoiding AI entirely, addressing this concern is essential for fostering trust. ð...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/mcp-vs-api/" target="_blank">Why Can&#39;t I Just Use an API? Because Your AI Agent Needs MCP</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-11 13:55</span>
+                
+                <span class="author">by Will Johnson</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Understanding the limitations of traditional APIs for AI agents is crucial. ð¤ The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&#39;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/the-future-of-healthcare-is-ai-powered-and-secure-how-ciam-builds-trust/" target="_blank">The Future of Healthcare Is AI-Powered and Secure: How CIAM Builds Trust</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 22:14</span>
+                
+                <span class="author">by Nick Apostolu</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">The integration of AI in healthcare is reshaping the industry, promising enhanced efficiency and personalized treatment. However, the security of sensitive patient data is a major concern. Customer Identity and Access Management (CIAM) solutions play a crucial role in ensuring that only authorized users access AI systems, supporting compliance and security. As the healthcare IAM market is projected to grow significantly, establishing trust becomes vital. Patients prioritize trust over...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/five-myths-about-jwts-debunked/" target="_blank">Five Myths About JWTs Debunked</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 00:00</span>
+                
+                <span class="author">by Andrea Chiarelli</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🔍 Understanding JSON Web Tokens (JWTs) is crucial for secure application and API management. This article debunks five common myths about JWTs, highlighting misconceptions that can lead to vulnerabilities. One key point is that JWTs are not just another type of token; they are structured and self-contained, offering stateless validation. Learn more about JWTs and their proper usage to enhance your security practices. #JWT #WebSecurity #APIProtection #TechMyths #Cybersecurity</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/implementing-rbac-fastapi-auth0-fga/" target="_blank">Implementing Role-Based Access Control (RBAC) with Auth0 FGA and FastAPI</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 00:00</span>
+                
+                <span class="author">by Carla Urrea Stabile</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlocking tenant-level permissions is essential for application growth. This article delves into implementing Role-Based Access Control (RBAC) using Auth0 FGA and FastAPI. RBAC simplifies user management by assigning permissions to roles rather than individuals, making administration easier. Auth0 FGA provides a scalable solution for handling authorization decisions. Learn how to design a coarse-grained RBAC model tailored for multi-tenant applications. This approach enables efficient...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/securing-ai-agents-retail-s-next-big-challenge/" target="_blank">Securing AI Agents: Retail&#39;s Next Big Challenge</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-07 00:00</span>
+                
+                <span class="author">by Bradford Peirce</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Artificial intelligence is transforming the retail industry, offering new ways to engage customers and streamline operations. 🚀 While 90% of retailers are already using or evaluating AI, concerns about data privacy and security remain significant. 60% of retailers worry about data privacy, highlighting the need for secure AI adoption. 🔒 Current AI applications include hyper-personalized shopping experiences, virtual try-ons, and real-time customer service assistance. The future holds even...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/fapi-2-0-the-future-of-api-security-for-high-stakes-customer-interactions/" target="_blank">FAPI 2.0: The Future of API Security for High-Stakes Customer Interactions</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-06 00:00</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🚀 FAPI 2.0 is redefining API security for critical customer interactions. Originally created for financial services, it now offers advanced protections applicable across industries. This new version focuses on enhancing end-to-end security and privacy for sensitive actions like payments and data sharing. Key benefits include clear specifications, thorough conformance tests, and a standards-based approach for better security. Discover how FAPI 2.0 can help protect your organization. 🔒🌐...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/how-auth0-mitigates-owasps-agentic-ai-threats/" target="_blank">How Auth0 Mitigates OWASP’s Agentic AI Threats</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-05 00:00</span>
+                
+                <span class="author">by Mallory Sword Glenn</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">🌐 AI-powered agents are transforming industries, but they also bring significant security risks. Auth0 addresses these challenges highlighted by OWASP&#39;s recent report on Agentic AI threats. Key risks include data breaches and regulatory non-compliance, which can erode customer trust. Traditional security measures often fall short for autonomous AI. Organizations must implement robust security from the start when developing GenAI applications. 🔐 #CyberSecurity #AI #GenAI #Auth0 #OWASP</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/how-to-connect-auth0-with-shopify-a-tech-quick-start-guide/" target="_blank">How to Connect Auth0 with Shopify: A Tech Quick Start Guide</a></h2>
+            <div class="article-meta">
+                <span class="date">2025-08-04 00:00</span>
+                
+                <span class="author">by Stanley Varner</span>
+                
+                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
+            </div>
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-link">educational</a>
+                
+            </div>
+            
+            
+            <div class="sources">
+                
+                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
+                
+            </div>
+            
+            <div class="summary">Unlock enhanced security for your Shopify store by integrating Auth0! 🔐 This guide details how to connect Auth0 with Shopify customer accounts using OpenID Connect (OIDC). The integration allows for better login options, including social logins and multifactor authentication (MFA). Learn how to set up Auth0, configure your Shopify store, and customize your authentication flow, all while ensuring a secure and personalized experience for your customers. #Shopify #Auth0 #Ecommerce #Cybersecurity...</div>
+        </article>
+        
+    </div>
+    
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+    </script>
+</body>
+</html>

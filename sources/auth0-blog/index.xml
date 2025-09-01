@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auth0-Blog on Daily Tech Articles Feed</title>
+    <link>http://localhost:1313/sources/auth0-blog/</link>
+    <description>Recent content in Auth0-Blog on Daily Tech Articles Feed</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sources/auth0-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Asynchronous Human-in-the-Loop Authorization in Python with LangGraph and Auth0</title>
+      <link>http://localhost:1313/articles/article-7518/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7518/</guid>
+      <description>Learn how to implement asynchronous authorization in your LangGraph application using Auth0 and the CIBA flow. This tutorial covers using a secondary device for secure permissions, allowing actions like financial transactions or order approvals with human oversight. Discover the importance of keeping humans in the loop for responsible AI actions. For more insights on CIBA, check out the linked blog post! ðð±ð¤ #AsynchronousAuth #LangGraph #Auth0 #CIBA #ResponsibleAI</description>
+    </item>
+    <item>
+      <title>How to Build a Python MCP Server to Consult a Knowledge Base</title>
+      <link>http://localhost:1313/articles/article-7455/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7455/</guid>
+      <description>ð Want to enhance your AI assistant&amp;rsquo;s capabilities? Check out this guide on building a Python MCP server to create a searchable knowledge base from your blog. Learn how to connect your AI, like Claude, to your blog content seamlessly without interrupting your workflow. Discover the benefits of the Model Context Protocol (MCP) for secure data access and efficient information retrieval. #AI #Python #KnowledgeBase #MCP #TechGuide</description>
+    </item>
+    <item>
+      <title>Level Up Your Security Posture with the Auth0 Security Detection Catalog</title>
+      <link>http://localhost:1313/articles/article-7228/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7228/</guid>
+      <description>ð Exciting news for security professionals! Auth0 has launched the &lt;strong&gt;Security Detection Catalog&lt;/strong&gt; on GitHub, an open-source resource aimed at enhancing your security posture. It offers actionable intelligence and proactive threat updates to help you stay ahead of emerging threats. Each detection includes threat descriptions and recommended prevention strategies, ensuring a swift response. The catalog is designed for compatibility with Sigma rules, allowing for quick deployment across various&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A Step-by-Step Guide to Securing Amazon Bedrock Agents with Auth0</title>
+      <link>http://localhost:1313/articles/article-7188/</link>
+      <pubDate>Tue, 26 Aug 2025 00:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7188/</guid>
+      <description>Enhance the security of your Amazon Bedrock agents with Auth0 for GenAI! ð This guide outlines how to implement secure authentication and authorization, allowing agents to act on users&amp;rsquo; behalf without static credentials. Key features include secure login, identity-based API access, and authorization-aware actions. Learn how to build robust, identity-aware AI applications with these essential capabilities. #AmazonBedrock #GenAI #Auth0 #AI #Security</description>
+    </item>
+    <item>
+      <title>Protect Your Access Tokens with DPoP (Demonstrating Proof of Possession)</title>
+      <link>http://localhost:1313/articles/article-6332/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-6332/</guid>
+      <description>ð Protect your applications with DPoP! This article explains how Demonstrating Proof-of-Possession enhances security for access tokens by ensuring they can only be used by the intended application. Unlike traditional bearer tokens, DPoP binds tokens to a specific client instance, mitigating risks of token theft. Learn about the benefits, security threats it addresses, and how to implement DPoP in your applications using Auth0. #Security #DPoP #OAuth2 #AccessTokens #ApplicationSecurity</description>
+    </item>
+    <item>
+      <title>Secure Third-Party Tool Calling: A Guide to LangGraph Tool Calling and Secure AI Integration in Python</title>
+      <link>http://localhost:1313/articles/article-6308/</link>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-6308/</guid>
+      <description>ð Discover how to integrate third-party APIs securely using LangGraph in Python! This guide builds on the previous article about the Zoo AI, focusing on tool calling on behalf of users while maintaining security. Learn how to implement LangChain with FastAPI and Auth0 to access protected resources safely. Enhance your application while ensuring proper authorization for each user action. ð¦ð¾ #LangChain #APISecurity #Python #FastAPI #AIIntegration</description>
+    </item>
+    <item>
+      <title>AI in Financial Services Demands a New Trust Layer: Why Identity Security Is the Answer</title>
+      <link>http://localhost:1313/articles/article-5100/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5100/</guid>
+      <description>As AI transforms financial services, new risks arise with autonomous AI agents accessing sensitive data. Traditional identity security is becoming insufficient. Financial institutions must now consider not just who the user is, but also what operates on their behalf. A shift to advanced identity solutions, like Auth for GenAI, is essential for secure innovation. ðð Explore more insights from the Auth0 Customer Identity Trends Report 2025. #AI #FinancialServices #IdentitySecurity #Innovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing Trust in AI: A Developer&#39;s Identity Guide</title>
+      <link>http://localhost:1313/articles/article-5009/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5009/</guid>
+      <description>ð In the evolving landscape of AI, security is essential for building user trust. Developers face challenges like signup attacks, account takeovers, and poor password hygiene, which can erode confidence in digital platforms. The Auth0 Customer Identity Trends Report 2025 reveals that 46.1% of new registrations may be fraudulent, while 16.9% of login attempts show malicious intent. To foster trust, developers must prioritize robust identity management, as 74% of users value a companyâs&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Access Control in the Era of AI Agents</title>
+      <link>http://localhost:1313/articles/article-4945/</link>
+      <pubDate>Wed, 13 Aug 2025 08:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4945/</guid>
+      <description>AI agents are evolving, performing complex tasks and making API calls autonomously. This shift poses new security challenges, particularly in access control. The article discusses the history of AI agents and highlights the risks they bring, emphasizing the need for fine-grained access control. Traditional models like RBAC and ABAC struggle under the dynamic nature of AI systems, often requiring additional engineering for effective management. Explore how to adapt access control as AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Auth0 Product Updates (July 2025): New Security Features, Global Regions, and Developer Previews</title>
+      <link>http://localhost:1313/articles/article-4946/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4946/</guid>
+      <description>ð Exciting updates from Auth0 this July! We&amp;rsquo;re introducing enhanced security features like PII masking in logs, which helps protect sensitive data. Improvements in bot detection will ensure smoother experiences for genuine users. Additionally, new global cloud regions are now available, including Mexico ð²ð½ and Hong Kong ð­ð°, expanding our reach. Stay tuned for more features aimed at empowering developers! #Auth0 #Security #DeveloperUpdates #CloudExpansion #IdentityManagement</description>
+    </item>
+    <item>
+      <title>Earn Customer Trust in the AI Era: A Guide for Businesses</title>
+      <link>http://localhost:1313/articles/article-4947/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4947/</guid>
+      <description>ð In the AI era, building customer trust is crucial for businesses. A recent report reveals that 37% of consumers frequently interact with AI. Yet, 70% prefer humans for assistance, valuing empathy over efficiency. ð¤ As customers define AI&amp;rsquo;s role, they see it as a tool for tasks but hesitate to trust it with complex decisions. The key question remains: &amp;ldquo;Can I trust you with my data?&amp;rdquo; With 23% of users avoiding AI entirely, addressing this concern is essential for fostering trust. ð&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Can&#39;t I Just Use an API? Because Your AI Agent Needs MCP</title>
+      <link>http://localhost:1313/articles/article-4849/</link>
+      <pubDate>Mon, 11 Aug 2025 13:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4849/</guid>
+      <description>Understanding the limitations of traditional APIs for AI agents is crucial. ð¤ The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&amp;rsquo;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Future of Healthcare Is AI-Powered and Secure: How CIAM Builds Trust</title>
+      <link>http://localhost:1313/articles/article-4850/</link>
+      <pubDate>Thu, 07 Aug 2025 22:14:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4850/</guid>
+      <description>The integration of AI in healthcare is reshaping the industry, promising enhanced efficiency and personalized treatment. However, the security of sensitive patient data is a major concern. Customer Identity and Access Management (CIAM) solutions play a crucial role in ensuring that only authorized users access AI systems, supporting compliance and security. As the healthcare IAM market is projected to grow significantly, establishing trust becomes vital. Patients prioritize trust over&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Five Myths About JWTs Debunked</title>
+      <link>http://localhost:1313/articles/article-4707/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4707/</guid>
+      <description>🔍 Understanding JSON Web Tokens (JWTs) is crucial for secure application and API management. This article debunks five common myths about JWTs, highlighting misconceptions that can lead to vulnerabilities. One key point is that JWTs are not just another type of token; they are structured and self-contained, offering stateless validation. Learn more about JWTs and their proper usage to enhance your security practices. #JWT #WebSecurity #APIProtection #TechMyths #Cybersecurity</description>
+    </item>
+    <item>
+      <title>Implementing Role-Based Access Control (RBAC) with Auth0 FGA and FastAPI</title>
+      <link>http://localhost:1313/articles/article-4756/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4756/</guid>
+      <description>Unlocking tenant-level permissions is essential for application growth. This article delves into implementing Role-Based Access Control (RBAC) using Auth0 FGA and FastAPI. RBAC simplifies user management by assigning permissions to roles rather than individuals, making administration easier. Auth0 FGA provides a scalable solution for handling authorization decisions. Learn how to design a coarse-grained RBAC model tailored for multi-tenant applications. This approach enables efficient&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing AI Agents: Retail&#39;s Next Big Challenge</title>
+      <link>http://localhost:1313/articles/article-4706/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4706/</guid>
+      <description>Artificial intelligence is transforming the retail industry, offering new ways to engage customers and streamline operations. 🚀 While 90% of retailers are already using or evaluating AI, concerns about data privacy and security remain significant. 60% of retailers worry about data privacy, highlighting the need for secure AI adoption. 🔒 Current AI applications include hyper-personalized shopping experiences, virtual try-ons, and real-time customer service assistance. The future holds even&amp;hellip;</description>
+    </item>
+    <item>
+      <title>FAPI 2.0: The Future of API Security for High-Stakes Customer Interactions</title>
+      <link>http://localhost:1313/articles/article-4133/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-4133/</guid>
+      <description>🚀 FAPI 2.0 is redefining API security for critical customer interactions. Originally created for financial services, it now offers advanced protections applicable across industries. This new version focuses on enhancing end-to-end security and privacy for sensitive actions like payments and data sharing. Key benefits include clear specifications, thorough conformance tests, and a standards-based approach for better security. Discover how FAPI 2.0 can help protect your organization. 🔒🌐&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Auth0 Mitigates OWASP’s Agentic AI Threats</title>
+      <link>http://localhost:1313/articles/article-1965/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-1965/</guid>
+      <description>🌐 AI-powered agents are transforming industries, but they also bring significant security risks. Auth0 addresses these challenges highlighted by OWASP&amp;rsquo;s recent report on Agentic AI threats. Key risks include data breaches and regulatory non-compliance, which can erode customer trust. Traditional security measures often fall short for autonomous AI. Organizations must implement robust security from the start when developing GenAI applications. 🔐 #CyberSecurity #AI #GenAI #Auth0 #OWASP</description>
+    </item>
+    <item>
+      <title>How to Connect Auth0 with Shopify: A Tech Quick Start Guide</title>
+      <link>http://localhost:1313/articles/article-1966/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-1966/</guid>
+      <description>Unlock enhanced security for your Shopify store by integrating Auth0! 🔐 This guide details how to connect Auth0 with Shopify customer accounts using OpenID Connect (OIDC). The integration allows for better login options, including social logins and multifactor authentication (MFA). Learn how to set up Auth0, configure your Shopify store, and customize your authentication flow, all while ensuring a secure and personalized experience for your customers. #Shopify #Auth0 #Ecommerce #Cybersecurity&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

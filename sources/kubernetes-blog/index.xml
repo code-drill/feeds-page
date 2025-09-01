@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes-Blog on Daily Tech Articles Feed</title>
+    <link>http://localhost:1313/sources/kubernetes-blog/</link>
+    <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 18:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Finer-Grained Control Over Container Restarts</title>
+      <link>http://localhost:1313/articles/article-7552/</link>
+      <pubDate>Fri, 29 Aug 2025 18:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7552/</guid>
+      <description>🚀 Kubernetes 1.34 introduces an alpha feature called Container Restart Policy and Rules. This feature allows developers to set individual restart policies for each container in a Pod, moving beyond the previous single policy for all containers. 🔧 Users can now define restart rules based on exit codes, offering more control for complex workloads. For instance, you can ensure that an ML training job restarts only on retriable errors without rescheduling the entire Pod. 📦 The new capability is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34</title>
+      <link>http://localhost:1313/articles/article-7520/</link>
+      <pubDate>Thu, 28 Aug 2025 18:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7520/</guid>
+      <description>ð Exciting news for Kubernetes users! The Kubernetes v1.34 release introduces user preferences in kubectl, now in beta. This feature allows you to set default options, like enabling interactive delete, and define custom aliases to streamline your workflow. To configure, place your preferences in a &lt;code&gt;kuberc&lt;/code&gt; file, located in your kubeconfig directory. Check out the official documentation for more details! #Kubernetes #kubectl #DevOps #CloudComputing #UserPreferences</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Of Wind &amp; Will (O&#39; WaW)</title>
+      <link>http://localhost:1313/articles/article-7447/</link>
+      <pubDate>Wed, 27 Aug 2025 18:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-7447/</guid>
+      <description>ð Kubernetes v1.34 is here, featuring 58 enhancements! This release includes 23 stable, 22 beta, and 13 alpha features, showcasing the strength of its development cycle. ð¬ The theme &amp;ldquo;Of Wind &amp;amp; Will&amp;rdquo; highlights the community&amp;rsquo;s resilience in navigating challenges. Key updates include: - &lt;strong&gt;Stable&lt;/strong&gt;: Dynamic Resource Allocation (DRA) now enables better device management. - &lt;strong&gt;Beta&lt;/strong&gt;: Short-lived ServiceAccount tokens enhance security for image pulls. - &lt;strong&gt;Alpha&lt;/strong&gt;: KYAML introduces a new, safer YAML&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Tuning Linux Swap for Kubernetes: A Deep Dive</title>
+      <link>http://localhost:1313/articles/article-5779/</link>
+      <pubDate>Tue, 19 Aug 2025 18:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5779/</guid>
+      <description>Kubernetes is set to introduce the NodeSwap feature in version 1.34, allowing Linux nodes to utilize swap for improved resource management. This marks a shift from the traditional approach of disabling swap for performance. However, enabling swap requires careful tuning of Linux kernel parameters to avoid performance issues and manage memory pressure effectively. Key parameters include &lt;code&gt;vm.swappiness&lt;/code&gt;, &lt;code&gt;vm.min_free_kbytes&lt;/code&gt;, and &lt;code&gt;vm.watermark_scale_factor&lt;/code&gt;. Testing various configurations can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Headlamp AI Assistant</title>
+      <link>http://localhost:1313/articles/article-5780/</link>
+      <pubDate>Thu, 07 Aug 2025 19:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5780/</guid>
+      <description>🚀 Exciting news! The Headlamp AI Assistant is here to enhance Kubernetes management and troubleshooting. This new plugin allows users, regardless of experience, to ask questions like &amp;ldquo;Is my application healthy?&amp;rdquo; and receive actionable insights. 🛠️ With a conversational UI powered by Large Language Models, users can now get contextual help directly from their Headlamp interface. Try it out today and streamline your Kubernetes operations! #Kubernetes #AI #TechInnovation #Headlamp #DevOps</description>
+    </item>
+  </channel>
+</rss>

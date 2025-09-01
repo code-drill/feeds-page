@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+    <style>
+        canvas { border: 1px solid #ccc; margin: 10px; }
+        body { font-family: Arial, sans-serif; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h3>RSS Tech Aggregator Favicon</h3>
+    <p>This generates a 16x16 favicon for the RSS aggregator site.</p>
+    <canvas id="favicon" width="16" height="16"></canvas>
+    
+    <script>
+        const canvas = document.getElementById('favicon');
+        const ctx = canvas.getContext('2d');
+        
+        // Background gradient
+        const gradient = ctx.createLinearGradient(0, 0, 16, 16);
+        gradient.addColorStop(0, '#007cba');
+        gradient.addColorStop(1, '#0056b3');
+        
+        // Draw background circle
+        ctx.fillStyle = gradient;
+        ctx.beginPath();
+        ctx.arc(8, 8, 7, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Border
+        ctx.strokeStyle = '#003d5c';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+        
+        // RSS waves (simplified)
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(4, 12, 4, -Math.PI/2, 0, false);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.arc(4, 12, 6, -Math.PI/2, 0, false);
+        ctx.stroke();
+        
+        // RSS dot
+        ctx.fillStyle = 'white';
+        ctx.beginPath();
+        ctx.arc(4, 12, 1, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Tech dots
+        ctx.globalAlpha = 0.7;
+        ctx.beginPath();
+        ctx.arc(11, 4, 0.8, 0, Math.PI * 2);
+        ctx.fill();
+        
+        ctx.globalAlpha = 0.5;
+        ctx.beginPath();
+        ctx.arc(13, 6, 0.6, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Convert to data URL and create download link
+        setTimeout(() => {
+            const dataURL = canvas.toDataURL();
+            console.log('Data URL for favicon:', dataURL);
+            
+            const link = document.createElement('a');
+            link.download = 'favicon.png';
+            link.href = dataURL;
+            link.textContent = 'Download favicon.png';
+            link.style.display = 'block';
+            link.style.marginTop = '20px';
+            document.body.appendChild(link);
+        }, 100);
+    </script>
+</body>
+</html>

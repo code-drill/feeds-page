@@ -12,7 +12,12 @@
 <link rel="canonical" href="https://feeds.code-drill.eu/index-12.html">
 <link rel="prev" href="index-13.html" type="text/html">
 <link rel="next" href="index-11.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><!-- Favicon package for RSS Tech Aggregator --><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/svg+xml" sizes="16x16" href="favicon-16.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.svg">
+<link rel="shortcut icon" href="favicon.svg">
+<meta name="theme-color" content="#007cba">
+<!-- FontAwesome for icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -63,84 +68,129 @@
             
             
 <!-- Category and Source Navigation -->
-<div class="filter-nav" style="margin-bottom: 20px; padding: 20px; background-color: #f8f9fa; border-radius: 5px;">
-    <!-- Categories Filter - Full Width -->
+<div class="filter-nav" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <!-- Categories Filter - Responsive -->
     <div class="row">
         <div class="col-12">
-            <h5 style="margin-bottom: 15px;">Filter by Category:</h5>
-            <div class="btn-group-mobile" role="group" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
-                <a href="https://feeds.code-drill.eu/" class="btn btn-outline-primary btn-sm">All</a>
-                                <a href="https://feeds.code-drill.eu/categories/cat_educational/" class="btn btn-outline-primary btn-sm">Educational &amp; How-To</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_event/" class="btn btn-outline-primary btn-sm">Event</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_general/" class="btn btn-outline-primary btn-sm">General</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_industry_analysis/" class="btn btn-outline-primary btn-sm">Industry Analysis &amp; Insights</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_product_announcements/" class="btn btn-outline-primary btn-sm">Product Announcements &amp; Updates</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_security_compliance/" class="btn btn-outline-primary btn-sm">Security &amp; Compliance Focus</a>
-                <a href="https://feeds.code-drill.eu/categories/cat_technical_deep_dives/" class="btn btn-outline-primary btn-sm">Technical Deep Dives</a>
-                <a href="https://feeds.code-drill.eu/categories/" class="btn btn-outline-secondary btn-sm">View All Categories</a>
+            <div class="categories-section">
+                <h5 class="filter-title" style="margin-bottom: 12px; color: #495057; font-weight: 600;">
+                    <i class="fas fa-tags" aria-hidden="true"></i> Filter by Category:
+                </h5>
+                <div class="category-filters" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-bottom: 25px;">
+                    <a href="https://feeds.code-drill.eu/" class="btn btn-outline-primary btn-sm category-btn" role="button">All</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_educational/" class="btn btn-outline-primary btn-sm category-btn" role="button">Educational &amp; How-To</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_event/" class="btn btn-outline-primary btn-sm category-btn" role="button">Event</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_general/" class="btn btn-outline-primary btn-sm category-btn" role="button">General</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_industry_analysis/" class="btn btn-outline-primary btn-sm category-btn" role="button">Industry Analysis</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_product_announcements/" class="btn btn-outline-primary btn-sm category-btn" role="button">Product Updates</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_security_compliance/" class="btn btn-outline-primary btn-sm category-btn" role="button">Security &amp; Compliance</a>
+                    <a href="https://feeds.code-drill.eu/categories/cat_technical_deep_dives/" class="btn btn-outline-primary btn-sm category-btn" role="button">Technical Deep Dives</a>
+                    <a href="https://feeds.code-drill.eu/categories/" class="btn btn-outline-secondary btn-sm category-btn" role="button">View All Categories</a>
+                </div>
             </div>
         </div>
     </div>
     
-    <!-- Sources Filter - Full Width -->
+    <!-- Sources Filter - Collapsible with Search -->
     <div class="row">
         <div class="col-12">
-            <h5 style="margin-bottom: 15px;">Filter by Source:</h5>
-            <div class="btn-group-mobile" role="group" style="display: flex; flex-wrap: wrap; gap: 6px;">
-                                <a href="https://feeds.code-drill.eu/sources/1password-blog/" class="btn btn-outline-success btn-sm">1Password Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/airbnb-engineering/" class="btn btn-outline-success btn-sm">Airbnb Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/amd-developer-blog/" class="btn btn-outline-success btn-sm">AMD Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/apple-developer-news/" class="btn btn-outline-success btn-sm">Apple Developer News</a>
-                <a href="https://feeds.code-drill.eu/sources/atlassian-developer-blog/" class="btn btn-outline-success btn-sm">Atlassian Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/auth0-blog/" class="btn btn-outline-success btn-sm">Auth0 Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/aws-blog/" class="btn btn-outline-success btn-sm">AWS Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/circleci-blog/" class="btn btn-outline-success btn-sm">CircleCI Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/cisco-developer-blog/" class="btn btn-outline-success btn-sm">Cisco Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/cloudflare-blog/" class="btn btn-outline-success btn-sm">Cloudflare Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/code-as-craft/" class="btn btn-outline-success btn-sm">Code as Craft</a>
-                <a href="https://feeds.code-drill.eu/sources/crowdstrike-blog/" class="btn btn-outline-success btn-sm">CrowdStrike Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/databricks-blog/" class="btn btn-outline-success btn-sm">Databricks Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/digitalocean-blog/" class="btn btn-outline-success btn-sm">DigitalOcean Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/docker-blog/" class="btn btn-outline-success btn-sm">Docker Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/doordash-engineering/" class="btn btn-outline-success btn-sm">DoorDash Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/dropbox-tech-blog/" class="btn btn-outline-success btn-sm">Dropbox Tech Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/elastic-blog/" class="btn btn-outline-success btn-sm">Elastic Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/engineering-at-meta/" class="btn btn-outline-success btn-sm">Engineering at Meta</a>
-                <a href="https://feeds.code-drill.eu/sources/gitlab-blog/" class="btn btn-outline-success btn-sm">GitLab Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/google-developers-blog/" class="btn btn-outline-success btn-sm">Google Developers Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/google-research/" class="btn btn-outline-success btn-sm">Google Research</a>
-                <a href="https://feeds.code-drill.eu/sources/grab-tech/" class="btn btn-outline-success btn-sm">Grab Tech</a>
-                <a href="https://feeds.code-drill.eu/sources/hashicorp-blog/" class="btn btn-outline-success btn-sm">HashiCorp Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/heroku-blog/" class="btn btn-outline-success btn-sm">Heroku Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/hugging-face-blog/" class="btn btn-outline-success btn-sm">Hugging Face Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/jetbrains-blog/" class="btn btn-outline-success btn-sm">JetBrains Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/kubernetes-blog/" class="btn btn-outline-success btn-sm">Kubernetes Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/ly-corporation-tech-blog/" class="btn btn-outline-success btn-sm">LY Corporation Tech Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/lyft-engineering/" class="btn btn-outline-success btn-sm">Lyft Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/medium-engineering/" class="btn btn-outline-success btn-sm">Medium Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/mongodb-blog/" class="btn btn-outline-success btn-sm">MongoDB Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/mozilla-hacks/" class="btn btn-outline-success btn-sm">Mozilla Hacks</a>
-                <a href="https://feeds.code-drill.eu/sources/netflix-technology-blog/" class="btn btn-outline-success btn-sm">Netflix Technology Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/nvidia-developer-blog/" class="btn btn-outline-success btn-sm">NVIDIA Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/okta-developer-blog/" class="btn btn-outline-success btn-sm">Okta Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/palantir-blog/" class="btn btn-outline-success btn-sm">Palantir Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/pinterest-engineering/" class="btn btn-outline-success btn-sm">Pinterest Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/planetscale-blog/" class="btn btn-outline-success btn-sm">PlanetScale Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/railway-blog/" class="btn btn-outline-success btn-sm">Railway Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/red-hat-developer-blog/" class="btn btn-outline-success btn-sm">Red Hat Developer Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/robinhood-engineering/" class="btn btn-outline-success btn-sm">Robinhood Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/salesforce-engineering/" class="btn btn-outline-success btn-sm">Salesforce Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/stack-overflow-blog/" class="btn btn-outline-success btn-sm">Stack Overflow Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/stripe-blog/" class="btn btn-outline-success btn-sm">Stripe Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/supabase-blog/" class="btn btn-outline-success btn-sm">Supabase Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/tableau-engineering/" class="btn btn-outline-success btn-sm">Tableau Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/twilio-engineering/" class="btn btn-outline-success btn-sm">Twilio Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/uber-engineering/" class="btn btn-outline-success btn-sm">Uber Engineering</a>
-                <a href="https://feeds.code-drill.eu/sources/unity-blog/" class="btn btn-outline-success btn-sm">Unity Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/unreal-engine-blog/" class="btn btn-outline-success btn-sm">Unreal Engine Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/vercel-blog/" class="btn btn-outline-success btn-sm">Vercel Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/webflow-blog/" class="btn btn-outline-success btn-sm">Webflow Blog</a>
-                <a href="https://feeds.code-drill.eu/sources/" class="btn btn-outline-secondary btn-sm" style="margin-left: 10px;">View All Sources</a>
+            <div class="sources-section">
+                <div class="filter-title" style="margin-bottom: 12px; color: #495057; font-weight: 600; display: flex; align-items: center; justify-content: space-between;">
+                    <span style="display: flex; align-items: center; gap: 8px;">
+                        <i class="fas fa-rss" aria-hidden="true"></i> Filter by Source:
+                    </span>
+                    <button class="toggle-sources" onclick="toggleSourcesSection()" aria-expanded="false" aria-controls="sources-content" style="background: none; border: none; color: #007cba; font-size: 0.85em; padding: 4px 8px; cursor: pointer; border-radius: 4px; transition: all 0.2s ease;">
+                        <span class="toggle-text">Show All Sources</span> 
+                        <i class="fas fa-chevron-down toggle-icon" aria-hidden="true" style="margin-left: 6px; transition: transform 0.3s ease;"></i>
+                    </button>
+                </div>
+                
+                <!-- Popular Sources - Always Visible -->
+                <div class="popular-sources" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 6px; margin-bottom: 15px;">
+                    <a href="https://feeds.code-drill.eu/sources/aws-blog/" class="btn btn-outline-success btn-sm source-btn" role="button">AWS Blog</a>
+                    <a href="https://feeds.code-drill.eu/sources/google-developers-blog/" class="btn btn-outline-success btn-sm source-btn" role="button">Google Developers</a>
+                    <a href="https://feeds.code-drill.eu/sources/engineering-at-meta/" class="btn btn-outline-success btn-sm source-btn" role="button">Meta Engineering</a>
+                    <a href="https://feeds.code-drill.eu/sources/netflix-technology-blog/" class="btn btn-outline-success btn-sm source-btn" role="button">Netflix Tech Blog</a>
+                    <a href="https://feeds.code-drill.eu/sources/uber-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button">Uber Engineering</a>
+                    <a href="https://feeds.code-drill.eu/sources/cloudflare-blog/" class="btn btn-outline-success btn-sm source-btn" role="button">Cloudflare Blog</a>
+                </div>
+                
+                <!-- Collapsible All Sources Section -->
+                <div id="sources-content" class="sources-content" style="display: none;">
+                    <!-- Search Box -->
+                    <div class="source-search" style="margin-bottom: 15px;">
+                        <div class="input-group input-group-sm">
+                            <input type="text" id="source-search" class="form-control" placeholder="Search sources..." onkeyup="filterSources()" aria-label="Search sources"><div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- All Sources Grid -->
+                    <div class="all-sources" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 6px;">
+                        <a href="https://feeds.code-drill.eu/sources/1password-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="1password">1Password Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/airbnb-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="airbnb">Airbnb Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/amd-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="amd">AMD Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/apple-developer-news/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="apple">Apple Developer News</a>
+                        <a href="https://feeds.code-drill.eu/sources/atlassian-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="atlassian">Atlassian Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/auth0-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="auth0">Auth0 Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/aws-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="aws">AWS Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/circleci-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="circleci">CircleCI Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/cisco-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="cisco">Cisco Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/cloudflare-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="cloudflare">Cloudflare Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/code-as-craft/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="etsy">Code as Craft</a>
+                        <a href="https://feeds.code-drill.eu/sources/crowdstrike-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="crowdstrike">CrowdStrike Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/databricks-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="databricks">Databricks Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/digitalocean-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="digitalocean">DigitalOcean Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/docker-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="docker">Docker Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/doordash-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="doordash">DoorDash Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/dropbox-tech-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="dropbox">Dropbox Tech Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/elastic-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="elastic">Elastic Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/engineering-at-meta/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="meta">Engineering at Meta</a>
+                        <a href="https://feeds.code-drill.eu/sources/gitlab-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="gitlab">GitLab Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/google-developers-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="google">Google Developers Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/google-research/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="google">Google Research</a>
+                        <a href="https://feeds.code-drill.eu/sources/grab-tech/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="grab">Grab Tech</a>
+                        <a href="https://feeds.code-drill.eu/sources/hashicorp-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="hashicorp">HashiCorp Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/heroku-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="heroku">Heroku Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/hugging-face-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="huggingface">Hugging Face Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/jetbrains-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="jetbrains">JetBrains Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/kubernetes-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="kubernetes">Kubernetes Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/ly-corporation-tech-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="line">LY Corporation Tech Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/lyft-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="lyft">Lyft Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/medium-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="medium">Medium Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/mongodb-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="mongodb">MongoDB Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/mozilla-hacks/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="mozilla">Mozilla Hacks</a>
+                        <a href="https://feeds.code-drill.eu/sources/netflix-technology-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="netflix">Netflix Technology Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/nvidia-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="nvidia">NVIDIA Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/okta-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="okta">Okta Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/palantir-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="palantir">Palantir Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/pinterest-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="pinterest">Pinterest Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/planetscale-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="planetscale">PlanetScale Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/railway-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="railway">Railway Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/red-hat-developer-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="redhat">Red Hat Developer Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/robinhood-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="robinhood">Robinhood Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/salesforce-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="salesforce">Salesforce Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/stack-overflow-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="stackoverflow">Stack Overflow Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/stripe-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="stripe">Stripe Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/supabase-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="supabase">Supabase Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/tableau-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="tableau">Tableau Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/twilio-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="twilio">Twilio Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/uber-engineering/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="uber">Uber Engineering</a>
+                        <a href="https://feeds.code-drill.eu/sources/unity-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="unity">Unity Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/unreal-engine-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="unreal">Unreal Engine Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/vercel-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="vercel">Vercel Blog</a>
+                        <a href="https://feeds.code-drill.eu/sources/webflow-blog/" class="btn btn-outline-success btn-sm source-btn" role="button" data-source="webflow">Webflow Blog</a>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 15px;">
+                        <a href="https://feeds.code-drill.eu/sources/" class="btn btn-outline-secondary btn-sm" role="button">
+                            <i class="fas fa-eye" aria-hidden="true"></i> View All Sources
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -162,9 +212,7 @@
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/driving-ai-adoption-at-dropbox-a-conversation-with-cto-ali-dasdan/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T15:00:00Z" itemprop="datePublished" title="2025-08-19 15:00">2025-08-19 15:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T15:00:00Z" itemprop="datePublished" title="2025-08-19 15:00">2025-08-19 15:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -191,9 +239,7 @@ Tech Blog</a><br><strong>Author:</strong> Catie Keck,Catie Keck,Kazuaki Okumura<
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/building-ai-agents-with-docker-mcp-toolkit-a-developers-real-world-setup/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T14:59:46Z" itemprop="datePublished" title="2025-08-19 14:59">2025-08-19 14:59</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T14:59:46Z" itemprop="datePublished" title="2025-08-19 14:59">2025-08-19 14:59</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -221,9 +267,7 @@ environment remains consistent across all stages of development. #AI
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/building-an-agentic-ai-fleet-management-solution/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T14:00:00Z" itemprop="datePublished" title="2025-08-19 14:00">2025-08-19 14:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T14:00:00Z" itemprop="datePublished" title="2025-08-19 14:00">2025-08-19 14:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -251,9 +295,7 @@ systems can optimize your…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/strengthening-the-core-stack-overflow-for-teams-20256/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T14:00:00Z" itemprop="datePublished" title="2025-08-19 14:00">2025-08-19 14:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T14:00:00Z" itemprop="datePublished" title="2025-08-19 14:00">2025-08-19 14:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -281,9 +323,7 @@ reusable…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/robinhood-launches-pro-and-college-football-prediction-markets/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T13:00:21Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T13:00:21Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -312,9 +352,7 @@ Engineering</a><br><strong>Author:</strong> olivermcintosh<br><strong>Category:<
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/agents-can-now-access-protected-deployments-via-vercels-mcp-server/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -343,9 +381,7 @@ Blog</a><br><strong>Author:</strong> Kit Foster<br><strong>Category:</strong> pr
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/forecasting-models-to-improve-driver-availability-at-airports/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -372,9 +408,7 @@ Engineering</a><br><strong>Author:</strong> Unknown<br><strong>Category:</strong
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/nodejs-vercel-functions-now-support-fetch-web-handlers/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T13:00:00Z" itemprop="datePublished" title="2025-08-19 13:00">2025-08-19 13:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -401,9 +435,7 @@ Blog</a><br><strong>Author:</strong> Pooya Pasa<br><strong>Category:</strong> pr
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/findings-report-from-the-soc-at-rsac-2025-conference/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T12:00:58Z" itemprop="datePublished" title="2025-08-19 12:00">2025-08-19 12:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T12:00:58Z" itemprop="datePublished" title="2025-08-19 12:00">2025-08-19 12:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -432,9 +464,7 @@ Developer Blog</a><br><strong>Author:</strong> Jessica (Bair) Oppenheimer<br><st
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/the-server-side-rendering-equivalent-for-llm-inference-workloads/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T07:40:00Z" itemprop="datePublished" title="2025-08-19 07:40">2025-08-19 07:40</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T07:40:00Z" itemprop="datePublished" title="2025-08-19 07:40">2025-08-19 07:40</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -460,9 +490,7 @@ needed to accelerate AI product development. 📈🤖💡 #AI #MachineLearning
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/build-on-multi-arch-clusters-with-builds-for-red-hat-openshift/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T07:01:16Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T07:01:16Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -490,9 +518,7 @@ Blog</a><br><strong>Author:</strong> Dylan Orzel<br><strong>Category:</strong> e
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/how-to-enhance-agent2agent-a2a-security/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T07:01:14Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T07:01:14Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -521,9 +547,7 @@ Blog</a><br><strong>Author:</strong> Florencio Cano Gabarda<br><strong>Category:
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/getting-started-with-llm-d-for-distributed-ai-inference/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T07:01:12Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T07:01:12Z" itemprop="datePublished" title="2025-08-19 07:01">2025-08-19 07:01</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -552,9 +576,7 @@ Blog</a><br><strong>Author:</strong> Cedric Clyburn, Philip Hayes<br><strong>Cat
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/introducing-digests-by-robinhood-cortex-for-customers-in-the-uk/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T06:00:00Z" itemprop="datePublished" title="2025-08-19 06:00">2025-08-19 06:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T06:00:00Z" itemprop="datePublished" title="2025-08-19 06:00">2025-08-19 06:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -582,9 +604,7 @@ Engineering</a><br><strong>Author:</strong> olivermcintosh<br><strong>Category:<
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/data-mesh-at-grab-part-i-building-trust-through-certification/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T00:23:00Z" itemprop="datePublished" title="2025-08-19 00:23">2025-08-19 00:23</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T00:23:00Z" itemprop="datePublished" title="2025-08-19 00:23">2025-08-19 00:23</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -612,9 +632,7 @@ introduced data…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/generate-images-with-claude-and-hugging-face/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -639,9 +657,7 @@ projects! #AI #ImageGeneration #HuggingFace #Claude #TechTrends</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/how-to-prevent-race-conditions-in-laravel-with-atomic-locks/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -668,9 +684,7 @@ skills! 💻✨ #Laravel #WebDevelopment #CodingTips #RaceConditions
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/mongil-star-dive-brings-monster-collection-and-solo-party-play-to-pc-consol/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -697,9 +711,7 @@ Blog</a><br><strong>Author:</strong> Unknown<br><strong>Category:</strong> produ
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-19/new-device-trust-check-makes-browser-extension-enforcement-easier/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-19T00:00:00Z" itemprop="datePublished" title="2025-08-19 00:00">2025-08-19 00:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -733,9 +745,7 @@ issues….</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/how-titanapps-migrated-smart-checklist-to-forge-and-got-it-to-run-on-atlass/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T23:44:27Z" itemprop="datePublished" title="2025-08-18 23:44">2025-08-18 23:44</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T23:44:27Z" itemprop="datePublished" title="2025-08-18 23:44">2025-08-18 23:44</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -764,9 +774,7 @@ Blog</a><br><strong>Author:</strong> kwhite@atlassian.com<br><strong>Category:</
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/a-scalable-llm-approach-to-enhancing-chatbot-knowledge-with-user-generated-/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T21:49:22Z" itemprop="datePublished" title="2025-08-18 21:49">2025-08-18 21:49</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T21:49:22Z" itemprop="datePublished" title="2025-08-18 21:49">2025-08-18 21:49</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -795,9 +803,7 @@ Engineering</a><br><strong>Author:</strong> Tony Luo<br><strong>Category:</stron
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/announcing-the-latest-nvidia-gaming-ai-and-neural-rendering-technologies/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T19:30:00Z" itemprop="datePublished" title="2025-08-18 19:30">2025-08-18 19:30</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T19:30:00Z" itemprop="datePublished" title="2025-08-18 19:30">2025-08-18 19:30</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -826,9 +832,7 @@ Blog</a><br><strong>Author:</strong> Ike Nnoli<br><strong>Category:</strong> pro
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/reranking-in-mosaic-ai-vector-search-for-faster-smarter-retrieval-in-rag-ag/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T19:30:00Z" itemprop="datePublished" title="2025-08-18 19:30">2025-08-18 19:30</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T19:30:00Z" itemprop="datePublished" title="2025-08-18 19:30">2025-08-18 19:30</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -854,9 +858,7 @@ unstructured data. Stay ahead in AI technology! 🚀💡 #AI #Mosaic
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/ml-observability-bringing-transparency-to-payments-and-beyond/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T18:15:00Z" itemprop="datePublished" title="2025-08-18 18:15">2025-08-18 18:15</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T18:15:00Z" itemprop="datePublished" title="2025-08-18 18:15">2025-08-18 18:15</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -885,9 +887,7 @@ Blog</a><br><strong>Author:</strong> Netflix Technology Blog<br><strong>Category
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T16:14:18Z" itemprop="datePublished" title="2025-08-18 16:14">2025-08-18 16:14</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T16:14:18Z" itemprop="datePublished" title="2025-08-18 16:14">2025-08-18 16:14</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -915,9 +915,7 @@ regions like…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/identify-speakers-in-meetings-calls-and-voice-apps-in-real-time-with-nvidia/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -946,9 +944,7 @@ Blog</a><br><strong>Author:</strong> Ivan Medennikov<br><strong>Category:</stron
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -977,9 +973,7 @@ Blog</a><br><strong>Author:</strong> Ashkan Seyedi<br><strong>Category:</strong>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/terraform-now-supports-assigning-agent-pools-at-the-project-level/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T16:00:00Z" itemprop="datePublished" title="2025-08-18 16:00">2025-08-18 16:00</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -1006,9 +1000,7 @@ transition. Get started today and streamline your infrastructure…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/aws-weekly-roundup-single-gpu-p5-instances-advanced-go-driver-amazon-sagema/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T15:39:10Z" itemprop="datePublished" title="2025-08-18 15:39">2025-08-18 15:39</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T15:39:10Z" itemprop="datePublished" title="2025-08-18 15:39">2025-08-18 15:39</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -1037,9 +1029,7 @@ features…</p>
                 </h1>
                 <div class="metadata">
                     <p class="dateline">
-                        <a href="posts/2025-08-18/how-cursor-ai-cut-legacy-code-coverage-time-by-85/" rel="bookmark">
-                            <time class="published dt-published" datetime="2025-08-18T15:32:39Z" itemprop="datePublished" title="2025-08-18 15:32">2025-08-18 15:32</time></a>
-                    </p>
+                        <time class="published dt-published" datetime="2025-08-18T15:32:39Z" itemprop="datePublished" title="2025-08-18 15:32">2025-08-18 15:32</time></p>
                 </div>
             </header><div class="e-content entry-content">
                 <!--
@@ -1085,9 +1075,9 @@ Engineering</a><br><strong>Author:</strong> Scott Nyberg<br><strong>Category:</s
 
 
             <script src="assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
-    moment.locale("en");
+    // Using Luxon instead of moment.js
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates --><script>
+    </script><!-- end fancy dates --><!-- Enhanced filter navigation --><script src="assets/js/filter-nav.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element) {

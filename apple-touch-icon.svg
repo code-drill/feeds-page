@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007cba"/>
+      <stop offset="100%" style="stop-color:#0056b3"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners for iOS -->
+  <rect x="10" y="10" width="160" height="160" rx="35" ry="35" fill="url(#bgGrad)" stroke="#003d5c" stroke-width="4"/>
+  
+  <!-- RSS signal waves -->
+  <path d="M45 110 Q70 80 95 110" stroke="url(#waveGrad)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M35 125 Q70 60 105 100 Q120 115 135 100" stroke="url(#waveGrad)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M25 140 Q70 40 115 90 Q135 70 155 90" stroke="url(#waveGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- RSS dot -->
+  <circle cx="45" cy="135" r="8" fill="#ffffff"/>
+  
+  <!-- Tech elements -->
+  <circle cx="125" cy="50" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="140" cy="60" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="110" cy="40" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="150" cy="70" r="4" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Circuit connections -->
+  <path d="M125 50 L140 60 M110 40 L125 50 M140 60 L150 70" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Small "82" indicator for 82 blogs -->
+  <text x="120" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" opacity="0.8">82</text>
+</svg>

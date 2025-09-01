@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007cba"/>
+      <stop offset="100%" style="stop-color:#0056b3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="8" cy="8" r="7.5" fill="url(#bg)" stroke="#003d5c" stroke-width="1"/>
+  
+  <!-- RSS waves - simplified for small size -->
+  <path d="M4 10 Q6 8 8 10" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M3 11 Q6 6 9 9 Q10.5 10.5 12 9" stroke="white" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- RSS dot -->
+  <circle cx="4" cy="12" r="1" fill="white"/>
+  
+  <!-- Tech dots -->
+  <circle cx="11" cy="4" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="12.5" cy="5.5" r="0.6" fill="white" opacity="0.5"/>
+</svg>

@@ -64,7 +64,11 @@ function toggleSourcesSection() {
             searchInput.value = '';
             // Reset the sources filter to show all
             filterSources();
-            setTimeout(() => searchInput.focus(), 300);
+            
+            // Only focus on desktop/larger screens to avoid mobile keyboard popup
+            if (window.innerWidth > 768) {
+                setTimeout(() => searchInput.focus(), 300);
+            }
         }
     }
 }

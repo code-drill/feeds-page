@@ -139,7 +139,7 @@
     
     .navbar-brand {
         font-size: 16px !important;
-        padding: 15px 8px 15px 15px !important;
+        padding: 15px 8px 15px 20px !important;
         flex: 1 !important;
         order: 1 !important;
         margin: 0 !important;
@@ -159,7 +159,7 @@
     }
     
     .navbar-nav > li > a {
-        padding: 12px 8px !important;
+        padding: 12px 8px 12px 20px !important;
     }
     
     /* Filter navigation mobile layout */
@@ -265,7 +265,7 @@
     
     .navbar-brand {
         font-size: 14px !important;
-        padding: 12px 6px 12px 12px !important;
+        padding: 12px 6px 12px 16px !important;
     }
     
     .navbar-toggle {
@@ -274,7 +274,7 @@
     }
     
     .navbar-nav > li > a {
-        padding: 10px 6px !important;
+        padding: 10px 6px 10px 16px !important;
         font-size: 0.9em;
     }
 }

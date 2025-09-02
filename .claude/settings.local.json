@@ -7,7 +7,21 @@
       "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\files\\assets\\css/**)",
       "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\files\\assets\\js/**)",
       "Bash(nikola build:*)",
-      "Bash(nikola clean:*)"
+      "Bash(nikola clean:*)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu/**)",
+      "WebSearch",
+      "WebFetch(domain:getnikola.com)",
+      "WebFetch(domain:github.com)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\posts/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\posts/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\posts\\2025-08-02/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\posts\\2025-08-02/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\themes\\bootstrap3\\templates/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\themes\\bootstrap3\\templates/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu\\themes\\bootstrap3\\templates/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu/**)",
+      "Read(T:\\code-drill-eu\\feeds\\feeds.code-drill.eu/**)"
     ],
     "deny": [],
     "ask": []

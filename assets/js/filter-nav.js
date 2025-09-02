@@ -58,9 +58,12 @@ function toggleSourcesSection() {
         sourcesContent.setAttribute('aria-hidden', 'false');
         toggleText.textContent = 'Hide All Sources';
         
-        // Focus the search input when expanding
+        // Clear search input and reset filter when expanding
         const searchInput = document.getElementById('source-search');
         if (searchInput) {
+            searchInput.value = '';
+            // Reset the sources filter to show all
+            filterSources();
             setTimeout(() => searchInput.focus(), 300);
         }
     }

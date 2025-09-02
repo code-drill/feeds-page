@@ -1042,10 +1042,35 @@ article.post-micro {
         padding: 0.8em 0 !important;
     }
     
-    /* Navigation improvements */
+    /* Navigation improvements - Fixed alignment */
+    .navbar-header {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 50px !important;
+    }
+    
     .navbar-brand {
         font-size: 16px !important;
-        padding: 10px 8px !important;
+        padding: 15px 8px 15px 15px !important;
+        flex: 1 !important;
+        order: 1 !important;
+        margin: 0 !important;
+        height: auto !important;
+        line-height: 1.2 !important;
+    }
+    
+    .navbar-toggle {
+        order: 2 !important;
+        margin: 8px 8px 8px 0 !important;
+        padding: 9px 10px !important;
+        align-self: center !important;
+        float: none !important;
+        position: relative !important;
+        border: 1px solid transparent !important;
+        border-radius: 4px !important;
     }
     
     .navbar-nav > li > a {
@@ -1149,9 +1174,18 @@ article.post-micro {
         margin-bottom: 4px;
     }
     
+    .navbar-header {
+        min-height: 45px !important;
+    }
+    
     .navbar-brand {
         font-size: 14px !important;
-        padding: 8px 6px !important;
+        padding: 12px 6px 12px 12px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 6px 6px 6px 0 !important;
+        padding: 7px 8px !important;
     }
     
     .navbar-nav > li > a {

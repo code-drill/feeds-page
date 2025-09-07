@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product_announcements | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,858 +414,673 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 6 of 6 (233 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://www.hashicorp.com/blog/what-transition-to-ibm-means-hashicorp-customers-greater-value-same-commitment" target="_blank">What the transition to IBM means for HashiCorp customers: Greater value, same commitment</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 04:00</span>
-                
-                <span class="author">by The HashiCorp Team</span>
-                
-                <span class="source">from <a href="https://www.hashicorp.com/blog/feed.xml" target="_blank">HashiCorp Blog</a></span>
-            </div>
+            <h2><a href="https://stackoverflow.blog/2025/08/11/renewing-chat-on-stack-overflow/" target="_blank">Renewing Chat on Stack Overflow</a></h2>
+            <div class="publication-date">2025-08-11 16:00</div>
+            <div class="summary">🔄 Stack Overflow is focusing on enhancing its chat features to foster better conversations among developers. 💬 The goal is to create a more collaborative environment where users can engage in meaningful discussions. 👥 These improvements aim to make the platform a valuable space for sharing knowledge and support. #StackOverflow #DeveloperCommunity #Collaboration #TechTalk #ChatImprovements</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Kate Smith</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hashicorp-blog" class="source-link">HashiCorp-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 HashiCorp is transitioning to IBM starting September 1, 2025. This move aims to enhance customer value while maintaining the trust you&#39;ve built with HashiCorp. 🔧 Key updates include changes to product naming conventions, aligning with IBM’s portfolio, but no alterations to features. Customers using legacy products will benefit from upgrades at current pricing. 💼 Billing operations will also shift to IBM, with new customer numbers issued. PAYG customers will see no changes. For more details,...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.elastic.co/blog/elastic-ease" target="_blank">Expose hidden threats with EASE</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 00:00</span>
-                
-                <span class="author">by Manasa Agaram,James Spiteri</span>
-                
-                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/isaac-sim-and-isaac-lab-are-now-available-for-early-developer-preview/" target="_blank">Announcing General Availability for NVIDIA Isaac Sim 5.0 and NVIDIA Isaac Lab 2.2</a></h2>
+            <div class="publication-date">2025-08-11 15:00</div>
+            <div class="summary">🚀 NVIDIA has announced the general availability of NVIDIA Isaac Sim 5.0 and NVIDIA Isaac Lab 2.2 at SIGGRAPH 2025. These frameworks are now accessible on GitHub, providing developers with tools for building, training, and testing AI-powered robots in physics-based simulations. Explore the cutting-edge capabilities that these releases bring to robotics development. #NVIDIA #IsaacSim #Robotics #AI #SIGGRAPH2025</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Prachi Mishra</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Introducing the Elastic AI SOC Engine (EASE)! 🚀 EASE is designed to enhance security operations by integrating AI capabilities into existing SIEM and EDR systems. It helps analysts detect complex threats faster and reduces investigation time. With features like centralized alert summaries and automated attack discovery, EASE enables better prioritization and response to high-risk alerts. 🛡️ This solution is especially beneficial for organizations looking to improve their threat detection...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/" target="_blank">Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 21:05</span>
-                
-                <span class="author">by Ashish Datta</span>
-                
-                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/developers-build-fast-and-reliable-robot-simulations-with-nvidia-omniverse-libraries/" target="_blank">Developers Build Fast and Reliable Robot Simulations with NVIDIA Omniverse Libraries</a></h2>
+            <div class="publication-date">2025-08-11 15:00</div>
+            <div class="summary">NVIDIA recently unveiled updates to the Omniverse libraries and Cosmos world foundation models at SIGGRAPH. 🌐 These enhancements, driven by OpenUSD, provide developers with new tools and models to create accurate virtual environments. They focus on building AI agents and simulations that can interact effectively with the real world. 🤖 This advancement aims to improve the reliability and speed of robotic simulations. #NVIDIA #Omniverse #Robotics #AI #SIGGRAPH</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Pomi Lee</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news! OpenAI&#39;s latest open-source models are now live on Cloudflare Workers AI. Developers can access two new models: a 120 billion parameter and a 20 billion parameter version. These models feature a Mixture-of-Experts architecture for efficient performance and are designed for transparency and flexibility. 🛠️ In addition, Cloudflare supports the new Responses API, enhancing interaction capabilities. The Code Interpreter and Web Search features are also on the way! #OpenAI...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://gpuopen.com/learn/dense-geometry-format-amd-vulkan-extension/" target="_blank">AMD releases Vulkan support for Dense Geometry Format</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 21:00</span>
-                
-                <span class="source">from <a href="https://gpuopen.com/feed/" target="_blank">AMD Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/maximize-robotics-performance-by-post-training-nvidia-cosmos-reason/" target="_blank">Maximize Robotics Performance by Post-Training NVIDIA Cosmos Reason</a></h2>
+            <div class="publication-date">2025-08-11 15:00</div>
+            <div class="summary">Introducing NVIDIA Cosmos Reason, unveiled at GTC 2025! 🤖 This innovative reasoning vision language model (VLM) is designed for physical AI and robotics. It allows robots and vision AI agents to utilize prior knowledge, physics, and common sense to interpret and interact with the real world. By processing video and text prompts, Cosmos Reason transforms visual information into actionable insights. #NVIDIA #Robotics #AI #Innovation #GTC2025</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Tsung-Yi Lin</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/amd-developer-blog" class="source-link">AMD-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 AMD has announced a provisional Vulkan® extension for its Dense Geometry Format (DGF), a block-based geometry compression technology. This extension, VK_AMDX_dense_geometry_format, allows DGF data to be directly used in building acceleration structures, enhancing performance and reducing memory costs. With native DGF support, developers can expect improved build times and lower memory usage for BLAS. #AMD #Vulkan #GameDev #Graphics #TechNews</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/nvidia-vgpu-19-0-enables-graphics-and-ai-virtualization-on-nvidia-blackwell-gpus/" target="_blank">NVIDIA vGPU 19.0 Enables Graphics and AI Virtualization on NVIDIA Blackwell GPUs</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 18:39</span>
-                
-                <span class="author">by Phoebe Lee</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/new-instant-rollback-flow" target="_blank">Add context when using Instant Rollback</a></h2>
+            <div class="publication-date">2025-08-11 13:00</div>
+            <div class="summary">🚀 New feature alert! You can now add context when performing an Instant Rollback. This allows you to include a reason visible to your team in the project overview. You can even incorporate links or notes for clarity. Plus, updates can be made at any time! Learn more about enhancing your rollback process. #InstantRollback #ProjectManagement #TeamCollaboration #TechUpdates</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Jay Gengelbach</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">NVIDIA has released vGPU 19.0, enhancing virtualization for graphics and AI workloads. 🌐 The update leverages the NVIDIA RTX PRO 6000 Blackwell GPUs, which support advanced features like Multi-Instance GPU (MIG) for improved scalability and user density in data centers. With 96 GB of GDDR7 memory, these GPUs excel in demanding enterprise tasks, from AI inference to scientific computing. This release aims to significantly boost performance for virtualized workloads. #NVIDIA #Virtualization #AI...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://shopifyengineering.myshopify.com/blogs/engineering/mcp-ui-breaking-the-text-wall" target="_blank">MCP UI: Breaking the text wall with interactive components</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 17:21</span>
-                
-                <span class="author">by Liad Yosef</span>
-                
-                <span class="source">from <a href="https://shopify.engineering/" target="_blank">Shopify Engineering</a></span>
-            </div>
+            <h2><a href="https://vercel.com/blog/v0-app" target="_blank">v0.dev -&gt; v0.app</a></h2>
+            <div class="publication-date">2025-08-11 13:00</div>
+            <div class="summary">Transform your ideas into deployed apps with ease using v0.app! 🚀 With just one prompt, v0 streamlines the process by providing UI, content, backend, and logic. It also offers support for research, debugging, and planning. From product managers to recruiters, v0 is revolutionizing team operations. #AppDevelopment #TechInnovation #Teamwork #Productivity #v0app</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Zeb Hermann</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/shopify-engineering" class="source-link">Shopify-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">🚀 MCP UI is transforming AI interactions in commerce by enabling agents to deliver interactive UI components. This open-source protocol enhances the shopping experience with features like product selectors and image galleries, addressing the limitations of text-only communication. MCP UI uses an intent-based messaging system to maintain agent control while providing dynamic user experiences. Explore the Shopify Storefront MCP UI Server prototype for a firsthand look! 🛒✨ #ECommerce #AI #MCPUI...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/delivering-1-5-m-tps-inference-on-nvidia-gb200-nvl72-nvidia-accelerates-openai-gpt-oss-models-from-cloud-to-edge/" target="_blank">NVIDIA Accelerates OpenAI gpt-oss Models Delivering 1.5 M TPS Inference on NVIDIA GB200 NVL72</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 17:10</span>
-                
-                <span class="author">by Anu Srivastava</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/elasticsearch-vector-database-dell-nvidia" target="_blank">Accelerating creativity with Elasticsearch vector database and the Dell AI Data Platform</a></h2>
+            <div class="publication-date">2025-08-11 00:00</div>
+            <div class="summary">Unlock creativity in today&#39;s fast-paced industries! 🚀 The collaboration between Dell and NVIDIA is enhancing the Dell AI Data Platform with Elasticsearch, streamlining access to unstructured data for teams in media, gaming, and design. This partnership enables natural language searches, global collaboration, and AI-generated insights, ensuring efficient workflows and quick decision-making. Discover how this innovative platform can transform your creative processes! 💡🌍 #AI #Elasticsearch #Dell...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Ranjana Devaji,Hemant Malik,Dell Team</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 NVIDIA and OpenAI are advancing AI technologies with the launch of the gpt-oss-20b and gpt-oss-120b models. These models, designed for high-performance inference, can achieve 1.5 million tokens per second on the NVIDIA GB200 NVL72 system. 🧠 The gpt-oss models utilize a mixture of experts architecture and are optimized for NVIDIA&#39;s Blackwell system. They support advanced text reasoning capabilities and are trained on NVIDIA H100 Tensor Core GPUs. 🔧 Developers can access optimized kernels and...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-elastic-vmware-service-for-running-vmware-cloud-foundation-on-aws/" target="_blank">Introducing Amazon Elastic VMware Service for running VMware Cloud Foundation on AWS</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 17:08</span>
-                
-                <span class="author">by Micah Walter</span>
-                
-                <span class="source">from <a href="https://aws.amazon.com/blogs/aws/feed/" target="_blank">AWS Blog</a></span>
-            </div>
+            <h2><a href="https://planetscale.com/blog/announcing-neki" target="_blank">Announcing Neki</a></h2>
+            <div class="publication-date">2025-08-11 00:00</div>
+            <div class="summary">🚀 Exciting news in the database world! Today, the team behind Vitess announced Neki, a new sharded Postgres solution. Neki aims to bring the power of explicit sharding to Postgres users, leveraging insights from extensive experience with Vitess. This initiative is not a fork of Vitess but a fresh architecture designed to handle demanding workloads effectively. Stay updated on Neki&#39;s development by signing up at neki.dev! #Neki #Postgres #Databases #OpenSource #Vitess</div>
+            <div class="source">Source: <a href="/sources/planetscale-blog">PlanetScale Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/aws-blog" class="source-link">AWS-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news for organizations looking to migrate VMware workloads to the cloud! AWS has launched the Amazon Elastic VMware Service (Amazon EVS), which allows users to run VMware Cloud Foundation environments directly within Amazon VPCs. This service simplifies migration while maintaining existing tools and practices. With Amazon EVS, you can deploy fully functional environments in just a few hours, ensuring minimal disruption and full control over your cloud resources. 🌥️ Key features...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/introducing-openais-new-open-models-databricks" target="_blank">Introducing OpenAI’s New Open Models on Databricks</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 17:00</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <h2><a href="https://about.gitlab.com/blog/get-started-with-gitlab-duo-agentic-chat-in-the-web-ui/" target="_blank">Get started with GitLab Duo Agentic Chat in the web UI</a></h2>
+            <div class="publication-date">2025-08-11 00:00</div>
+            <div class="summary">🚀 GitLab has introduced the Duo Agentic Chat feature, enhancing user interaction with the GitLab API directly from the web UI. This tool allows users to manage issues, track statuses, and take actions based on conversations. Access is available for Duo Pro or Enterprise users, streamlining workflows across projects. To start, navigate to your Group or Project, open the chat panel, and toggle to Agentic mode. Explore how Agentic Chat can simplify your development tasks! #GitLab #DuoAgenticChat...</div>
+            <div class="source">Source: <a href="/sources/gitlab-blog">GitLab Blog</a></div>
+            
+            <div class="author">Daniel Helfand</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news from OpenAI! They&#39;ve partnered with Databricks to launch new open weight models, gpt-oss 20B and gpt-oss 120B. These models will help developers build intelligent, domain-specific AI agents securely. Stay tuned for updates on how these advancements can transform AI applications! #OpenAI #Databricks #AI #MachineLearning #Innovation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/" target="_blank">RustRover 2025.2 Is Now Available</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 15:19</span>
-                
-                <span class="author">by Kseniya Starodubtseva</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/cursor-now-supported-on-vercel-mcp" target="_blank">Cursor now supported on Vercel MCP</a></h2>
+            <div class="publication-date">2025-08-09 13:00</div>
+            <div class="summary">🚀 Great news for developers! Cursor is now compatible with Vercel&#39;s Model Context Protocol (MCP). With this integration, you can easily explore projects, inspect deployments, and fetch logs directly from Cursor. 🔍 To get started, simply follow the one-click setup or update your .cursor/mcp.json file. A Vercel account login will be required. Learn more about using Cursor with Vercel MCP! #Vercel #Cursor #DevTools #MCP #SoftwareDevelopment</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Aparna Sinha</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news for developers! RustRover 2025.2 is now available, featuring significant debugger enhancements. New functionalities include remote and on-chip support, improved borrow checker assistance, and additional Rust learning resources. Junie, the in-IDE coding agent, is now 30% faster and offers smarter code completion, enhancing your coding experience. Check out the updated features and improvements today! #RustRover #DevelopmentTools #Coding #RustLang #JetBrains</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/teamcity/2025/08/kotlin-dsl-what-s-new/" target="_blank">Kotlin DSL: What’s New?</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:57</span>
-                
-                <span class="author">by Pavel Sher</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://developers.hubspot.com/blog/the-developers-guide-to-inbound25" target="_blank">The Developer’s Guide to INBOUND25</a></h2>
+            <div class="publication-date">2025-08-08 17:43</div>
+            <div class="summary">🚀 INBOUND 2025 is just around the corner, taking place in San Francisco from September 3rd-5th! This year&#39;s event will focus on how HubSpot is evolving, bringing developers and builders closer together. AI will be a key topic, promising fresh insights and innovations. Don&#39;t miss Partner Day on September 2nd for app and solutions partners, featuring valuable sessions and networking opportunities. #INBOUND25 #HubSpot #DeveloperCommunity #TechInnovation #Networking 🌟</div>
+            <div class="source">Source: <a href="/sources/hubspot-developers">HubSpot Developers</a></div>
+            
+            <div class="author">jenixon@hubspot.com (Jennifer Nixon)</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 TeamCity has introduced significant enhancements to the Kotlin DSL in recent releases! 📁 Users can now store Kotlin DSL files outside the .teamcity directory, improving visibility and convenience when working with IntelliJ IDEA. 🔄 Additionally, code reuse is simplified with the introduction of DSL libraries, allowing developers to share code across projects more efficiently. 📊 For those managing multiple branches, changes in DSL files can now better align with build configurations. Learn...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/phpstorm/2025/08/phpstorm-2025-2-is-now-available/" target="_blank">PhpStorm 2025.2 Is Now Available</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:45</span>
-                
-                <span class="author">by Hanna Yakush</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/kotlin/2025/08/kotlinx-rpc-0-9-1-is-now-available/" target="_blank">KotlinX RPC 0.9.1 Is Now Available</a></h2>
+            <div class="publication-date">2025-08-08 13:40</div>
+            <div class="summary">🚀 KotlinX RPC 0.9.1 has been released with key improvements for stability and user experience. The library now decouples from KotlinX Serialization, allowing for more flexible gRPC setups. Resource management has been simplified, reducing potential errors in implementation. Strict mode is now the default, ensuring better API correctness. Ready to dive in? Start your project at start.ktor.io and explore samples on GitHub! #KotlinXRPC #Kotlin #Programming #SoftwareDevelopment #OpenSource</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Simon Vergauwen</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 PhpStorm 2025.2 is here! This release introduces several key features, including making Laravel Idea free for users and enhancing the remote development experience. Junie coding agent now supports the Model Context Protocol (MCP), allowing connections to databases and APIs. Additionally, enjoy a 30% speed increase in prompt processing and improved JetBrains AI tools. Explore the new features today! #PhpStorm #WebDevelopment #JetBrains #AI #SoftwareUpdate</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/claude-4-1-opus-is-now-supported-in-vercel-ai-gateway" target="_blank">Claude Opus 4.1 is now supported in Vercel AI Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:00</span>
-                
-                <span class="author">by Josh Lipman</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/bulk-upgrade-deprecated-node-js-versions" target="_blank">Bulk upgrade deprecated Node.js versions</a></h2>
+            <div class="publication-date">2025-08-08 13:00</div>
+            <div class="summary">🚀 Upgrade your Node.js projects easily! Team owners can now update all projects using Node.js 18 or earlier to Node.js 22 with just one click in the Vercel Dashboard. Remember, if your project specifies a version in package.json, you&#39;ll need to update it manually. Existing deployments remain unaffected. Check out your deprecated Node.js projects today! #Nodejs #Vercel #TechUpdate #WebDevelopment #SoftwareEngineering</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Ali Smesseim</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news! Claude Opus 4.1 is now accessible via Vercel&#39;s AI Gateway without the need for additional provider accounts. This new model enhances task execution, coding, and reasoning compared to its predecessor. AI Gateway offers a unified API, usage tracking, and performance optimizations for improved reliability. Start using it with the AI SDK v5 by installing the package and setting the model to anthropic/claude-4.1-opus. Learn more about the AI Gateway and explore the new model...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/gpt-oss-20b-and-gpt-oss-120b-are-now-supported-in-vercel-ai-gateway" target="_blank">gpt-oss-20b and gpt-oss-120b are now supported in Vercel AI Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:00</span>
-                
-                <span class="author">by Josh Lipman</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/blog/how-zapier-scales-product-partnerships-with-v0" target="_blank">How Zapier scales product partnerships with v0</a></h2>
+            <div class="publication-date">2025-08-08 13:00</div>
+            <div class="summary">🚀 Zapier is enhancing product partnerships with its v0 tool, streamlining how SaaS and AI companies can integrate automation. This innovation allows partners to embed Zapier&#39;s automation engine directly into their products without extensive in-house integration work. With v0, the Powered by Zapier team can now create high-fidelity demos in just hours, leading to quicker implementation and more integrations. #Automation #Partnerships #SaaS #Innovation #AI</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Peri Langlois</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news! Vercel AI Gateway now supports OpenAI&#39;s gpt-oss-20b and gpt-oss-120b models. These open-weight reasoning models enhance access with a unified API, simplifying usage tracking and performance optimizations. 💻 Developers can easily integrate them using AI SDK v5, with built-in observability and support for multiple model providers. Discover more about AI Gateway and check out the new model leaderboard! 📊 #Vercel #OpenAI #AIModels #TechNews #Innovation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/go/2025/08/05/goland-2025-2-is-now-out/" target="_blank">GoLand 2025.2 Is Now Out!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 12:22</span>
-                
-                <span class="author">by Artem Pronichev</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/improved-metrics-search-in-observability-plus" target="_blank">Improved metrics search in Observability Plus</a></h2>
+            <div class="publication-date">2025-08-08 13:00</div>
+            <div class="summary">🚀 Exciting updates in Vercel Observability! The metrics search and navigation experience has been enhanced. You can now quickly find metrics using partial names or abbreviations like TTFB (time to first byte). Additional features include a side-by-side view of all metrics for an event, keyboard shortcuts for faster navigation, and a mobile-optimized interface. These updates are available now for all teams using Observability Plus. #Vercel #Observability #TechUpdates #Metrics #Productivity</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Timo Lins</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 GoLand 2025.2 is here with exciting updates! Key features include enhanced support for HTTP servers, smarter inspections using data flow analysis (DFA), and a new non-blocking Welcome screen for faster access to tools. The update also improves golangci-lint integration for real-time code analysis. 🛠️ Explore the new capabilities and streamline your development process! #GoLand #SoftwareUpdate #CodingTools #Golang #DevCommunity</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/kineto/2025/08/make-your-ideas-clickable-with-kineto-by-jetbrains/" target="_blank">Make Your Ideas Clickable With Kineto by JetBrains</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 12:02</span>
-                
-                <span class="author">by Andrew Zakonov</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://blog.cloudflare.com/rearchitecting-workers-kv-for-redundancy/" target="_blank">Redesigning Workers KV for increased availability and faster performance</a></h2>
+            <div class="publication-date">2025-08-08 13:00</div>
+            <div class="summary">Cloudflare has redesigned its Workers KV service following a significant outage on June 12, 2025. This incident was caused by a failure in the underlying storage infrastructure. To enhance availability and performance, Cloudflare has transitioned to its own storage infrastructure. This change eliminates single points of failure and reduces reliance on third-party providers for redundancy. The updated design aims to provide high availability while improving response times for critical...</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Tyson Trautmann</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Introducing Kineto by JetBrains! This new platform addresses the technical challenges faced when creating websites and apps. Kineto allows anyone to build their own app in just 20 minutes, without needing coding skills. It&#39;s designed for small applications like personal blogs, fitness trackers, and more. With Kineto, your ideas can become reality effortlessly! Join the waitlist today! 📱✨ #Kineto #NoCode #AppDevelopment #JetBrains #TechInnovation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.apple.com/news/?id=4qkavrhc" target="_blank">Hello Developer: August 2025</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 12:00</span>
-                
-                <span class="source">from <a href="https://developer.apple.com/news/rss/news.rss" target="_blank">Apple Developer News</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/vlt-is-now-available-in-builds-via-zero-configuration" target="_blank">vlt is now available in builds via zero configuration</a></h2>
+            <div class="publication-date">2025-08-08 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel now supports the vlt package manager for builds without the need for configuration. 📂 Projects with a vlt-lock.json file will automatically execute vlt install as the default Install Command. 🔧 Note: vlt requires Node 20.x and is available only in the modern build image. Learn more about this new feature on Vercel! #Vercel #vlt #WebDevelopment #PackageManager #TechNews</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Luke Phillips-Sheard</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/apple-developer-news" class="source-link">Apple-Developer-News</a>
-                
-            </div>
-            
-            <div class="summary">🌍 Exciting news for developers! Apple is launching new workshops globally, offering opportunities to enhance your skills. Also, you can now download Apple UI design kits for Figma and Sketch. Don’t miss the chance to connect with the Italy-based team behind Sunlitt. #AppleDeveloper #UIDesign #Figma #Sketch #TechNews</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/clion/2025/08/clion-2025-2-release/" target="_blank">CLion 2025.2 Is Here: Better CLion Nova, Smarter Embedded Development</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 11:24</span>
-                
-                <span class="author">by Oleg Zinovyev</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/elastic-security-attack-discovery-ai-assistant" target="_blank">Elastic Security: Announcing Agentic Query validation, Attack Discovery persistence, and automated scheduling and actions</a></h2>
+            <div class="publication-date">2025-08-08 00:00</div>
+            <div class="summary">🚀 Elastic Security has unveiled updates to Attack Discovery and the Elastic AI Assistant, enhancing security operations with AI support. 🔍 The new agentic query validation ensures reliable queries, reducing errors during investigations. Analysts can focus on critical tasks with functional queries provided right away. 📅 The AI Assistant is now time-aware, streamlining incident management by providing real-time on-call information. 📊 Additionally, Attack Discovery saves historical findings and...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">James Spiteri,Dhrumil Patel</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 CLion 2025.2 has been released! This update enhances the JetBrains IDE for C and C&#43;&#43; with several new features. Key improvements include an upgraded code formatter in CLion Nova, faster remote development, and live watches in the debugger for real-time variable monitoring. 🛠️ Additionally, the ESP32 debug server is now available for ESP-IDF projects. You can download CLion 2025.2 via the Toolbox App, as a snap package for Ubuntu, or as a patch update from version 2025.1. #CLion #JetBrains...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/pycharm/2025/08/pycharm-2025-2/" target="_blank">PyCharm 2025.2: AI Toolkit for AI Engineers and More!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 11:04</span>
-                
-                <span class="author">by Evgenia Verbina</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/aisheets" target="_blank">Introducing AI Sheets: a tool to work with datasets using open AI models!</a></h2>
+            <div class="publication-date">2025-08-08 00:00</div>
+            <div class="summary">🚀 Exciting news for data enthusiasts! Hugging Face has launched AI Sheets, an open-source tool designed to build, enrich, and transform datasets using AI models without any coding required. You can deploy it locally or access it directly on the Hub, utilizing thousands of models, including gpt-oss from OpenAI. Explore the tool for free here: [AI Sheets](https://huggingface.co/spaces/aisheets/sheets) or install it locally from GitHub! #AISheets #OpenSource #DataScience #MachineLearning...</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover the new features in PyCharm 2025.2! 🚀 This release introduces the AI Toolkit, designed to support AI engineers with tools for experimentation, debugging, and deployment all within the IDE. Additionally, it marks the last version of PyCharm Community, paving the way for a unified PyCharm experience. Notable updates include enhancements to AI Assistant, Junie, and notebooks. Download the latest version today! 💻✨ #PyCharm #AIToolkit #SoftwareUpdate #Programming #AI</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/dotnet/2025/08/05/jetbrains-is-a-platinum-sponsor-of-the-godot-foundation/" target="_blank">JetBrains is a Platinum Sponsor of the Godot Foundation</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 10:11</span>
-                
-                <span class="author">by Matt Ellis</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.digitalocean.com/blog/gpt-5-now-on-digitalocean-gradient-ai-platform" target="_blank">Now Live: GPT-5 on the DigitalOcean Gradient™ AI Platform</a></h2>
+            <div class="publication-date">2025-08-07 23:00</div>
+            <div class="summary">🚀 Exciting news! GPT-5 is now live on the DigitalOcean Gradient™ AI Platform. Developers can access this advanced model via serverless inference APIs or the Gradient AI Platform SDK. You can also use your own OpenAI API key for integration. GPT-5 enhances reasoning and performance, making it ideal for tasks like financial planning, medical analysis, and creative content generation. Get started today! 🌟 #GPT5 #DigitalOcean #AIPlatform #Developers #OpenAI</div>
+            <div class="source">Source: <a href="/sources/digitalocean-blog">DigitalOcean Blog</a></div>
+            
+            <div class="author">Amit Jotwani</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news from JetBrains! We are proud to announce our Platinum Sponsorship of the Godot Foundation. Godot is an open-source game engine, driven by a community-focused approach and dedicated to supporting developers. The Godot Foundation plays a vital role in ensuring financial backing for the Godot Project. Our support enhances JetBrains Rider, which offers robust features for Godot development, including improved GDScript support in upcoming releases. Together, we&#39;re committed to...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/05/introducing-incident-detection-red-hat-advanced-cluster-management-kubernetes" target="_blank">Introducing incident detection in Red Hat Advanced Cluster Management for Kubernetes 2.14</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Tomas Remes, Luiz Bernardo Levenhagen</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://kubernetes.io/blog/2025/08/07/introducing-headlamp-ai-assistant/" target="_blank">Introducing Headlamp AI Assistant</a></h2>
+            <div class="publication-date">2025-08-07 19:00</div>
+            <div class="summary">🚀 Exciting news! The Headlamp AI Assistant is here to enhance Kubernetes management and troubleshooting. This new plugin allows users, regardless of experience, to ask questions like &#34;Is my application healthy?&#34; and receive actionable insights. 🛠️ With a conversational UI powered by Large Language Models, users can now get contextual help directly from their Headlamp interface. Try it out today and streamline your Kubernetes operations! #Kubernetes #AI #TechInnovation #Headlamp #DevOps</div>
+            <div class="source">Source: <a href="/sources/kubernetes-blog">Kubernetes Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Red Hat Advanced Cluster Management for Kubernetes 2.14 introduces incident detection, helping teams manage alert storms more effectively. This feature groups related alerts into manageable incidents, allowing for better root cause analysis and prioritization. To utilize this, install the Cluster Observability Operator on each cluster. It simplifies navigation between incidents within managed clusters. For installation details and to explore this feature, check the latest documentation....</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/welcome-openai-gpt-oss" target="_blank">Welcome GPT OSS, the new open-source model family from OpenAI!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/blog/2025/08/07/gpt-5-support-in-ai-assistant-junie-kineto/" target="_blank">AI Assistant, Junie and Kineto Now Support GPT-5 by OpenAI</a></h2>
+            <div class="publication-date">2025-08-07 17:00</div>
+            <div class="summary">🚀 Exciting news from JetBrains! The latest model from OpenAI, GPT-5, is now integrated into AI Assistant, Junie, and Kineto. This update enhances coding capabilities, improving code quality and handling complex tasks more effectively. Junie, now powered by GPT-5, shows significant performance gains, making it easier to create production-ready code. To experience GPT-5, update to JetBrains IDE version 2025.2 and install the latest AI Assistant and Junie plugins. #JetBrains #GPT5 #AI #Coding...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Anna Maltseva</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news from OpenAI! They have launched GPT OSS, a new open-source model family featuring two versions: gpt-oss-120b with 117B parameters and gpt-oss-20b with 21B parameters. Both models utilize a mixture-of-experts design for efficient performance. These models are licensed under Apache 2.0, promoting safe and responsible use. OpenAI aims to enhance accessibility in AI through this release. #OpenAI #GPTOSS #MachineLearning #AICommunity #OpenSource</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/nvidia-cuda-q-0-12-expands-toolset-for-developing-hardware-performant-quantum-applications/" target="_blank">NVIDIA CUDA-Q 0.12 Expands Toolset for Developing Hardware-Performant Quantum Applications</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 19:00</span>
-                
-                <span class="author">by Pradnya Khalate</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.databricks.com/blog/build-gpt-5-databricks-ai-gateway" target="_blank">Build with GPT-5 on Databricks with AI Gateway</a></h2>
+            <div class="publication-date">2025-08-07 16:42</div>
+            <div class="summary">🚀 OpenAI has launched GPT-5, their latest and most advanced language model! This new model can be integrated with Databricks through the AI Gateway, allowing users to harness its capabilities securely and at scale. Developers can now leverage Mosaic AI Gateway to enhance their applications effectively. #OpenAI #GPT5 #Databricks #AIGateway #MosaicAI</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 NVIDIA CUDA-Q 0.12 has been released, bringing new simulation tools for quantum application development. The update allows researchers to access detailed statistics on individual simulation runs, aiding in areas like noise correlation and circuit benchmarking. New features also enhance the CUDA-Q dynamics backend, improving support for multidiagonal sparse matrices and generic super-operators. This open-source project includes community contributions and Python 3.13 support. For more...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2/" target="_blank">IntelliJ IDEA 2025.2 Is Here!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 17:08</span>
-                
-                <span class="author">by Maria Kosukhina</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://gpuopen.com/learn/amd-fsr3-ue5-6-redstone/" target="_blank">Get ready for FSR Redstone with AMD FSR 3.1.4 and our new UE 5.6 plugin</a></h2>
+            <div class="publication-date">2025-08-07 16:00</div>
+            <div class="summary">🚀 Exciting news for game developers! AMD has released FidelityFX™ Super Resolution 3.1.4, enhancing framerates with improved upscaling and frame generation. This version also features a signed DLL for easy upgrades to future FSR technologies, including FSR Redstone. The updated Unreal Engine 5.6 plugin simplifies integration, allowing developers to prepare for upcoming ML-powered features like Neural Radiance Caching and ML Frame Generation. Get ready to elevate your game’s performance! 🎮✨...</div>
+            <div class="source">Source: <a href="/sources/amd-developer-blog">AMD Developer Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 IntelliJ IDEA 2025.2 has officially launched! This version offers updates aimed at enhancing productivity and code quality. Users can download it from the website, update through the IDE, or use the Toolbox App. Key highlights include smarter AI workflows, support for Java 25 Early Access, and improvements for Spring developers. For more details, visit the newly redesigned What’s New page. Check it out and explore the features today! 🔍💻 #IntelliJIDEA #SoftwareUpdates #Coding #Java...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-documentdb-aws-lambda-amazon-ec2-and-more-august-4-2025/" target="_blank">AWS Weekly Roundup: Amazon DocumentDB, AWS Lambda, Amazon EC2, and more (August 4, 2025)</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 16:23</span>
-                
-                <span class="author">by Danilo Poccia</span>
-                
-                <span class="source">from <a href="https://aws.amazon.com/blogs/aws/feed/" target="_blank">AWS Blog</a></span>
-            </div>
+            <h2><a href="https://newsroom.aboutrobinhood.com/hood-summit-25/" target="_blank">Robinhood Presents: HOOD Summit ‘25 – Enter the Mainframe</a></h2>
+            <div class="publication-date">2025-08-07 15:59</div>
+            <div class="summary">🚀 Exciting news from Robinhood! Join us for the second annual HOOD Summit in Las Vegas on September 9-10. This event will showcase new technology and trading tools for active traders. 📅 Don&#39;t miss the keynote by CEO Vlad Tenev on September 9 at 5:30 PM PT, available via livestream. 📈 On September 10, industry leaders will share insights on active trading. Celebrate with HOOD Month starting August 19, featuring special promotions! For more details, visit events.robinhood.com/presents-...</div>
+            <div class="source">Source: <a href="/sources/robinhood-engineering">Robinhood Engineering</a></div>
+            
+            <div class="author">olivermcintosh</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/aws-blog" class="source-link">AWS-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 This week, AWS announced several key updates across its services. 🔹 Amazon DocumentDB Serverless is now live, providing a fully managed MongoDB API-compatible database. 🔹 The Amazon Q Developer CLI allows for custom agent creation to streamline specialized tasks. 🔹 Amazon Bedrock now supports DOC/DOCX files and H.265 video files for enhanced data processing. 🔹 AWS Lambda increases response streaming payload size to 200 MB, improving performance. For the full details, check the article! #AWS...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://gpuopen.com/learn/tressfx-5-0-unreal-engine-5-update/" target="_blank">AMD TressFX 5.0 for Unreal Engine 5 is now available</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 16:00</span>
-                
-                <span class="source">from <a href="https://gpuopen.com/feed/" target="_blank">AMD Developer Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/gpt-5-gpt-5-mini-and-gpt-5-nano-are-now-available-in-vercel-ai-gateway" target="_blank">GPT-5, GPT-5-mini, and GPT-5-nano are now available in Vercel AI Gateway</a></h2>
+            <div class="publication-date">2025-08-07 13:00</div>
+            <div class="summary">🚀 Exciting news! OpenAI&#39;s GPT-5, GPT-5-mini, and GPT-5-nano are now accessible via Vercel AI Gateway. This platform allows seamless model integration without needing multiple provider accounts. Users can easily track usage, costs, and optimize performance. To get started, install the AI SDK v5 and select your preferred model. Explore more about the AI Gateway and its features! 🌐✨ #OpenAI #Vercel #AIGateway #GPT5 #TechUpdates</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Josh Lipman</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/amd-developer-blog" class="source-link">AMD-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🌟 AMD has launched TressFX 5.0 for Unreal Engine 5.4, enhancing realistic hair and fur simulation. Key updates include support for Lumen ray tracing, deep shadow approximation, and continuous LOD. This version is designed for seamless integration into your Unreal projects. To install, ensure you are a registered Unreal developer and follow the simple integration steps. #AMD #UnrealEngine #TressFX #GameDev #Simulation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/ai/2025/08/jetbrains-ai-assistant-2025-2/" target="_blank">JetBrains AI Assistant Update: Better Context, Greater Offline Flexibility, Deeper IDE Integration</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 15:06</span>
-                
-                <span class="author">by Anna Maltseva</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/blog/vercel-collaborates-with-openai-for-gpt-5-launch" target="_blank">Vercel collaborates with OpenAI for GPT-5 launch</a></h2>
+            <div class="publication-date">2025-08-07 13:00</div>
+            <div class="summary">🚀 Vercel has partnered with OpenAI to launch the GPT-5 family of models! These models are now available through AI Gateway and in production on v0.dev. Vercel has been testing GPT-5 in various environments, and the results indicate improved frontend design capabilities. GPT-5 generates clean, composable code and enhances workflows, particularly with long-context reasoning and tool handling. Vercel is already integrating GPT-5 into its dashboard and other applications. #Vercel #OpenAI #GPT5...</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Janos Szathmary</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 JetBrains AI Assistant has received a significant update! Key features include smarter code completion with support for more languages and file types like SQL and Markdown. The improved Mellum model enhances context-awareness for better results. Project rules now allow for consistent instructions, making it easier to maintain coding standards across teams. Additionally, users can connect local models for offline flexibility and attach images in chats for quicker analysis. #JetBrains #AI...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/04/datagrip-and-database-tools-ux-survey-2-results/" target="_blank">DataGrip and Database tools UX Survey #2 Results</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 14:01</span>
-                
-                <span class="author">by Dmitry Romanov</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/blog/gartner-mq-visionary-2025" target="_blank">Vercel is the only vendor to be recognized as a Visionary in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms</a></h2>
+            <div class="publication-date">2025-08-07 13:00</div>
+            <div class="summary">🌐 Vercel has been recognized as a Visionary in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms. With over 4M weekly active domains and 115B requests served, Vercel’s AI Cloud empowers teams to create fast and secure applications effortlessly. This acknowledgment underscores Vercel&#39;s role in shaping the future of web development. #CloudComputing #Gartner #WebDevelopment #Vercel #Innovation</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Jeanne Grosser</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting updates from the DataGrip community! The second UX Survey results are in, highlighting key improvements made from your feedback. Significant changes include faster introspection, editable results for SELECT queries, and new AI-powered features. The survey also expanded to gather insights on user experiences and team collaboration with database tools. Discover more about the findings and upcoming enhancements in DataGrip! #DataGrip #UXSurvey #DatabaseTools #AI #UserExperience</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/04/optimize-workloads-right-sizing-recommendations" target="_blank">Optimize workloads with right-sizing recommendations</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 13:46</span>
-                
-                <span class="author">by Raj Zalavadia, Darshan Vandra</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://forums.unrealengine.com/t/the-trials-2-a-new-first-person-puzzle-game/2633045" target="_blank">The Trials 2 – A New First-Person Puzzle Game</a></h2>
+            <div class="publication-date">2025-08-07 07:52</div>
+            <div class="summary">🌟 Introducing &#34;The Trials 2&#34;! Ahmad Sultan, an independent game developer from Syria, has launched a new first-person puzzle game. The Trials 2 draws inspiration from well-known titles like The Talos Principle. Get ready to solve intricate puzzles and experience a unique gaming journey! #TheTrials2 #GameDevelopment #IndieGame #PuzzleGame #GamingCommunity</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Introducing the Right-Sizing Recommendations in Red Hat Advanced Cluster Management for Kubernetes! This new capability helps users identify over-provisioned and under-utilized resources across clusters, promoting efficient infrastructure use and cost savings. By analyzing real-time CPU and memory consumption, it offers actionable recommendations for workload optimization. Key features include a Grafana dashboard for resource metrics, customizable data filtering, and policy-driven...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/ruby/2025/08/rubymine-2025-2-junie-and-ai-assistant-upgrades-faster-rails-project-startup-enhanced-bundler-management-and-more/" target="_blank">RubyMine 2025.2: Junie and AI Assistant Upgrades, Faster Rails Project Startup, Enhanced Bundler Management, and More</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 13:06</span>
-                
-                <span class="author">by Alexey Varfolomeev</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/elastic-stack-8-19-1-released" target="_blank">Elastic Stack 8.19.1 released</a></h2>
+            <div class="publication-date">2025-08-07 00:00</div>
+            <div class="summary">🚨 New Release Alert! 🚨 Elastic Stack 8.19.1 has officially launched! This version includes important fixes and improvements over 8.19.0. For a detailed overview of the changes and resolved issues, check the release notes. Upgrade your systems for enhanced performance! 🔄 #ElasticStack #TechUpdate #SoftwareRelease #UpgradeNow</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Navya Uppalapati</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 RubyMine 2025.2 is here with exciting updates! The JetBrains AI Assistant has been enhanced, providing smarter code completion and project-specific context. Key features include improved ERB code support and project rules for consistency. You can now connect local AI models for offline use, plus enjoy expanded code suggestions and image attachments in chat. Explore the full details on our website! #RubyMine #AI #Coding #SoftwareDevelopment #TechUpdates</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/new-custom-visualization-in-vercel-observability" target="_blank">New custom visualization in Vercel Observability</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 13:00</span>
-                
-                <span class="author">by Timo Lins</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/elastic-stack-9-1-1-released" target="_blank">Elastic Stack 9.1.1 released</a></h2>
+            <div class="publication-date">2025-08-07 00:00</div>
+            <div class="summary">🚀 Exciting news! Elastic Stack has officially released version 9.1.1. This update includes important fixes and improvements compared to version 9.1.0. Users are encouraged to upgrade to benefit from these enhancements. For a complete list of changes and resolved issues, check the release notes. #ElasticStack #SoftwareUpdate #TechNews #UpgradeNow</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Navya Uppalapati</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news for Observability Plus users! You can now customize your data visualizations with options like line charts, volume charts, tables, or big numbers. 📊 Both queries and visualization settings can be saved in shareable notebooks, enhancing teamwork. This update is available at no extra cost for Observability Plus teams. Explore the new features today! #DataVisualization #Observability #TechUpdate #Vercel #Collaboration</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/vercels-mcp" target="_blank">Vercel MCP now in Public Beta</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 13:00</span>
-                
-                <span class="author">by Aparna Sinha</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/whats-new-and-important-in-cuda-toolkit-13-0/" target="_blank">What’s New and Important in CUDA Toolkit 13.0</a></h2>
+            <div class="publication-date">2025-08-06 16:00</div>
+            <div class="summary">🚀 Exciting updates in CUDA Toolkit 13.0! This major release enhances computing on NVIDIA CPUs and GPUs, introducing new features like tile-based programming and improved support for Arm platforms. Key updates include: - Enhanced NVIDIA Nsight Developer Tools - Math libraries updates for linear algebra and FFT - Improved NVCC Compiler with better compression - Accelerated Python cuda.core release CUDA 13.0 continues to support Blackwell GPUs and introduces a new programming model to boost...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Jonathan Bentz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Vercel&#39;s Model Control Protocol (MCP) server is now in Public Beta! The server, accessible at mcp.vercel.com, offers a remote interface with OAuth-based authorization, allowing secure interactions with AI tools and Vercel projects. It supports AI assistants like Claude.ai and integrates with tools such as VS Code to help manage projects, analyze deployment logs, and navigate documentation. This update aims to enhance collaboration between AI workflows and the Vercel ecosystem. For more...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.unrealengine.com/news/check-out-the-winners-of-the-unreal-engine-dance-animation-challenge" target="_blank">Check out the winners of the Unreal Engine Dance Animation Challenge</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 00:00</span>
-                
-                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
-            </div>
+            <h2><a href="https://aws.amazon.com/blogs/aws/minimize-ai-hallucinations-and-deliver-up-to-99-verification-accuracy-with-automated-reasoning-checks-now-available/" target="_blank">Minimize AI hallucinations and deliver up to 99% verification accuracy with Automated Reasoning checks: Now available</a></h2>
+            <div class="publication-date">2025-08-06 15:06</div>
+            <div class="summary">🚀 Exciting news for AI developers! Amazon has launched Automated Reasoning checks, a new feature in Amazon Bedrock Guardrails. This tool offers up to 99% verification accuracy to minimize AI hallucinations and ensure data accuracy. Key features include support for large documents, simplified policy validation, and automated scenario generation. This will enhance the reliability of AI-generated content. Learn how to create policies using this tool to maintain strict adherence to rules in...</div>
+            <div class="source">Source: <a href="/sources/aws-blog">AWS Blog</a></div>
+            
+            <div class="author">Danilo Poccia</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/the-next-evolution-of-docker-hardened-images/" target="_blank">The Next Evolution of Docker Hardened Images: Customizable, FedRAMP Ready, AI Migration Agent, and Deeper Integrations</a></h2>
+            <div class="publication-date">2025-08-06 14:00</div>
+            <div class="summary">🚀 Docker Hardened Images (DHI) have seen rapid adoption since their launch in May, helping organizations achieve near-zero CVEs and secure their software supply chains. 🔒 The latest enhancements include a broader image catalog, customizable options, and an AI migration agent. These updates will be showcased at Black Hat 2025. 🛠️ DHI now supports full-stack systems with trusted, production-ready images, ensuring security without hindering developer speed. #Docker #Cybersecurity #DevOps...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
             
-            <div class="sources">
+            <div class="author">Michael Donovan</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            <div class="summary">Discover the remarkable winners of the Unreal Engine Dance Animation Challenge! 🎉 These entries showcase impressive dance animations that highlight creativity and skill. Check out the fantastic moves that have taken the spotlight! 💃🕺 #UnrealEngine #DanceAnimation #AnimationChallenge #Winners #Creativity</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/introducing-ai-elements" target="_blank">Introducing AI Elements: build AI interfaces faster</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Exciting news for frontend engineers! Vercel has launched AI Elements, a tool designed to simplify the process of building AI interfaces. With this new product, developers can create ChatGPT or v0-like interfaces in just minutes. This innovation aims to streamline the app-building process, allowing teams to focus on functionality over design complexity. #AIElements #Vercel #FrontendDevelopment #TechInnovation #AIInterfaces</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Ryan Haraki</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/introducing-ai-elements" target="_blank">Introducing AI Elements: Prebuilt, composable AI SDK components</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Introducing AI Elements, a new open-source library designed for customizable React components! Built on shadcn/ui, it allows developers to create interfaces using the Vercel AI SDK. Key features include control over UI elements like message threads and input boxes. To get started, simply initialize with our CLI, choose your components, and begin building. For detailed guidance, check out the documentation. #AI #OpenSource #React #Vercel #Development</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Ryan Haraki</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/introducing-vercel-mcp-connect-vercel-to-your-ai-tools" target="_blank">Introducing Vercel MCP: Connect Vercel to your AI tools</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel has launched its MCP server, now in Public Beta. This secure interface allows AI tools to connect with your Vercel projects seamlessly. With Vercel MCP, tools like Cursor and Claude can access project logs, documents, and metadata directly, enhancing your workflow. Discover more about this innovative development! #Vercel #AIDevelopment #MCP #TechNews #DeveloperTools</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Aparna Sinha</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/microfrontends-support-is-now-in-public-beta" target="_blank">Microfrontends support is now in Public Beta</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Microfrontends support is now in Public Beta! This feature allows developers to split large applications into smaller, manageable parts, enabling faster development and independent testing. Vercel simplifies the assembly and routing of these microfrontends into a cohesive user experience. To get started, users can clone examples from the Vercel dashboard, create microfrontend groups, and configure their projects with ease. For more details, check the documentation or contact Vercel support....</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Justin Kropp</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/idea/2025/08/whats-fixed-intellij-idea-2025-2/" target="_blank">What’s Fixed in IntelliJ IDEA 2025.2</a></h2>
+            <div class="publication-date">2025-08-06 10:39</div>
+            <div class="summary">🚀 Exciting updates in IntelliJ IDEA 2025.2! This release introduces a standalone &#34;What’s Fixed&#34; overview, highlighting stability and quality improvements. Key areas of focus include enhanced Spring and Kotlin support, better remote development features, and performance upgrades. For the complete list of fixes, check the release notes. #IntelliJIDEA #SoftwareUpdates #Kotlin #SpringFramework #DevelopmentTools</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Dmitriy Smirnov</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://forums.unrealengine.com/t/metahuman-for-maya-release/2631936" target="_blank">MetaHuman for Maya Release</a></h2>
+            <div class="publication-date">2025-08-06 09:24</div>
+            <div class="summary">🚀 Exciting news for creators! The latest version of MetaHuman for Maya has been launched, featuring the new Pose Editor. This tool allows rigging artists to assemble and customize MetaHuman characters directly in Autodesk Maya. Explore the enhanced capabilities and improve your character creation process! #MetaHuman #Maya #3DAnimation #CharacterDesign #GameDev</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
         </article>
         
     </div>
@@ -967,8 +1117,18 @@
             <span class="pagination-current">6</span>
             
             
+            
+            <a href="/categories/product_announcements/page/7/" class="pagination-link">7</a>
+            
+            
+            
+            <a href="/categories/product_announcements/page/8/" class="pagination-link">8</a>
+            
+            
         </div>
         
+        
+        <a href="/categories/product_announcements/page/7/" class="pagination-link">Next &raquo;</a>
         
     </nav>
     
@@ -1024,6 +1184,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

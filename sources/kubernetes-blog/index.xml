@@ -2,45 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/kubernetes-blog/</link>
+    <link>/sources/kubernetes-blog/</link>
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 18:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Pod Replacement Policy for Jobs Goes GA</title>
+      <link>/articles/article-2025-09-05-7797/</link>
+      <pubDate>Fri, 05 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7797/</guid>
+      <description>Kubernetes v1.34 introduces the Pod Replacement Policy feature, now generally available. This allows users to manage how Pods are replaced in Jobs, addressing issues with overlapping Pods that can occur during terminations. You can choose between two policies: 1. &lt;strong&gt;TerminatingOrFailed&lt;/strong&gt; (default) - Replaces Pods immediately upon termination. 2. &lt;strong&gt;Failed&lt;/strong&gt; - Replaces Pods only after the previous ones have fully terminated. This enhancement is particularly useful for workloads requiring strict&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: PSI Metrics for Kubernetes Graduates to Beta</title>
+      <link>/articles/article-2025-09-04-7768/</link>
+      <pubDate>Thu, 04 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7768/</guid>
+      <description>🚀 Exciting news for Kubernetes users! As of v1.34, Pressure Stall Information (PSI) Metrics has graduated to Beta. PSI helps quantify resource pressure by measuring stalled tasks due to contention, providing a clearer view of CPU, memory, and I/O performance. Metrics are available via the Summary API and Prometheus endpoints. 📊 To enable PSI metrics, ensure your nodes run Linux kernel 4.20+ and enable the KubeletPSI feature gate. This allows for better resource management and performance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Service Account Token Integration for Image Pulls Graduates to Beta</title>
+      <link>/articles/article-2025-09-03-7712/</link>
+      <pubDate>Wed, 03 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7712/</guid>
+      <description>Kubernetes v1.34 has officially moved Service Account Token Integration for Kubelet Credential Providers to beta. This update enhances security by reducing reliance on long-lived image pull secrets. 🔒 Key changes include a required &lt;code&gt;cacheType&lt;/code&gt; field in the configuration and improved security isolation for image pulls. This ensures that only authorized pods can access specific container images. 🛡️ For more details, check out the Kubernetes documentation. #Kubernetes #DevOps #CloudSecurity #K8s&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Uncore Cache Alignment</title>
+      <link>/articles/article-2025-09-02-7647/</link>
+      <pubDate>Tue, 02 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7647/</guid>
+      <description>🚀 Kubernetes v1.34 has introduced a new feature: the CPU Manager Static Policy Option, prefer-align-cpus-by-uncorecache, now in beta. This option optimizes performance for workloads on processors with a split uncore cache architecture, enhancing efficiency by reducing latency between CPU cores. To enable it, update your kubelet configuration. This feature is particularly beneficial for applications like telco systems but may vary based on workload types. #Kubernetes #CloudComputing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: DRA has graduated to GA</title>
+      <link>/articles/article-2025-09-01-7599/</link>
+      <pubDate>Mon, 01 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-01-7599/</guid>
+      <description>🚀 Kubernetes 1.34 is now live, featuring significant advancements in Dynamic Resource Allocation (DRA)! Key highlights include the core of DRA graduating to General Availability (GA), ensuring stability and confidence for users. Key features have also moved to beta, enhancing control and flexibility in resource management. Notable updates include improved admin access labeling and prioritized device lists for workloads. Explore new alpha features aimed at simplifying resource management for&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: Finer-Grained Control Over Container Restarts</title>
-      <link>http://localhost:1313/articles/article-7552/</link>
+      <link>/articles/article-2025-08-29-7552/</link>
       <pubDate>Fri, 29 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7552/</guid>
+      <guid>/articles/article-2025-08-29-7552/</guid>
       <description>🚀 Kubernetes 1.34 introduces an alpha feature called Container Restart Policy and Rules. This feature allows developers to set individual restart policies for each container in a Pod, moving beyond the previous single policy for all containers. 🔧 Users can now define restart rules based on exit codes, offering more control for complex workloads. For instance, you can ensure that an ML training job restarts only on retriable errors without rescheduling the entire Pod. 📦 The new capability is&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34</title>
-      <link>http://localhost:1313/articles/article-7520/</link>
+      <link>/articles/article-2025-08-28-7520/</link>
       <pubDate>Thu, 28 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7520/</guid>
-      <description>ð Exciting news for Kubernetes users! The Kubernetes v1.34 release introduces user preferences in kubectl, now in beta. This feature allows you to set default options, like enabling interactive delete, and define custom aliases to streamline your workflow. To configure, place your preferences in a &lt;code&gt;kuberc&lt;/code&gt; file, located in your kubeconfig directory. Check out the official documentation for more details! #Kubernetes #kubectl #DevOps #CloudComputing #UserPreferences</description>
+      <guid>/articles/article-2025-08-28-7520/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The Kubernetes v1.34 release introduces user preferences in kubectl, now in beta. This feature allows you to set default options, like enabling interactive delete, and define custom aliases to streamline your workflow. To configure, place your preferences in a &lt;code&gt;kuberc&lt;/code&gt; file, located in your kubeconfig directory. Check out the official documentation for more details! #Kubernetes #kubectl #DevOps #CloudComputing #UserPreferences</description>
     </item>
     <item>
       <title>Kubernetes v1.34: Of Wind &amp; Will (O&#39; WaW)</title>
-      <link>http://localhost:1313/articles/article-7447/</link>
+      <link>/articles/article-2025-08-27-7447/</link>
       <pubDate>Wed, 27 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7447/</guid>
-      <description>ð Kubernetes v1.34 is here, featuring 58 enhancements! This release includes 23 stable, 22 beta, and 13 alpha features, showcasing the strength of its development cycle. ð¬ The theme &amp;ldquo;Of Wind &amp;amp; Will&amp;rdquo; highlights the community&amp;rsquo;s resilience in navigating challenges. Key updates include: - &lt;strong&gt;Stable&lt;/strong&gt;: Dynamic Resource Allocation (DRA) now enables better device management. - &lt;strong&gt;Beta&lt;/strong&gt;: Short-lived ServiceAccount tokens enhance security for image pulls. - &lt;strong&gt;Alpha&lt;/strong&gt;: KYAML introduces a new, safer YAML&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7447/</guid>
+      <description>🚀 Kubernetes v1.34 is here, featuring 58 enhancements! This release includes 23 stable, 22 beta, and 13 alpha features, showcasing the strength of its development cycle. 🌬 The theme &amp;ldquo;Of Wind &amp;amp; Will&amp;rdquo; highlights the community&amp;rsquo;s resilience in navigating challenges. Key updates include: - &lt;strong&gt;Stable&lt;/strong&gt;: Dynamic Resource Allocation (DRA) now enables better device management. - &lt;strong&gt;Beta&lt;/strong&gt;: Short-lived ServiceAccount tokens enhance security for image pulls. - &lt;strong&gt;Alpha&lt;/strong&gt;: KYAML introduces a new, safer YAML&amp;hellip;</description>
     </item>
     <item>
       <title>Tuning Linux Swap for Kubernetes: A Deep Dive</title>
-      <link>http://localhost:1313/articles/article-5779/</link>
+      <link>/articles/article-2025-08-19-5779/</link>
       <pubDate>Tue, 19 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5779/</guid>
+      <guid>/articles/article-2025-08-19-5779/</guid>
       <description>Kubernetes is set to introduce the NodeSwap feature in version 1.34, allowing Linux nodes to utilize swap for improved resource management. This marks a shift from the traditional approach of disabling swap for performance. However, enabling swap requires careful tuning of Linux kernel parameters to avoid performance issues and manage memory pressure effectively. Key parameters include &lt;code&gt;vm.swappiness&lt;/code&gt;, &lt;code&gt;vm.min_free_kbytes&lt;/code&gt;, and &lt;code&gt;vm.watermark_scale_factor&lt;/code&gt;. Testing various configurations can&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing Headlamp AI Assistant</title>
-      <link>http://localhost:1313/articles/article-5780/</link>
+      <link>/articles/article-2025-08-07-5780/</link>
       <pubDate>Thu, 07 Aug 2025 19:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5780/</guid>
+      <guid>/articles/article-2025-08-07-5780/</guid>
       <description>🚀 Exciting news! The Headlamp AI Assistant is here to enhance Kubernetes management and troubleshooting. This new plugin allows users, regardless of experience, to ask questions like &amp;ldquo;Is my application healthy?&amp;rdquo; and receive actionable insights. 🛠️ With a conversational UI powered by Large Language Models, users can now get contextual help directly from their Headlamp interface. Try it out today and streamline your Kubernetes operations! #Kubernetes #AI #TechInnovation #Headlamp #DevOps</description>
     </item>
   </channel>

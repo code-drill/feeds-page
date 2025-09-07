@@ -2,25 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CircleCI-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/circleci-blog/</link>
+    <link>/sources/circleci-blog/</link>
     <description>Recent content in CircleCI-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Aug 2025 15:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/circleci-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2025 15:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/circleci-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build and deploy a Pinecone question answering RAG application</title>
+      <link>/articles/article-2025-09-02-7643/</link>
+      <pubDate>Tue, 02 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7643/</guid>
+      <description>🚀 Ready to build a Pinecone question-answering RAG application? This tutorial walks you through the key steps: 1. Set up your Python environment and create necessary accounts (Pinecone, CircleCI, Heroku, OpenAI). 2. Create a Pinecone index for data management. 3. Define ingestion and query scripts, and set up environment variables. 4. Implement unit tests and define the Flask server. 5. Automate deployment with CircleCI. Learn how to enhance language model responses using Pinecone&amp;rsquo;s vector&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automating GDPR compliance for web applications with CircleCI</title>
+      <link>/articles/article-2025-08-29-7644/</link>
+      <pubDate>Fri, 29 Aug 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-29-7644/</guid>
+      <description>🌐 This tutorial guides developers on automating GDPR compliance for web applications using CircleCI. It covers prerequisites, setting up a CI/CD pipeline, and integrating GitHub. Key topics include user consent, data security, and audit logging. By following this guide, you&amp;rsquo;ll learn to configure a CircleCI pipeline for GDPR tasks like privacy audits and compliance reporting. #GDPR #CircleCI #WebDevelopment #PrivacyCompliance #DataProtection</description>
+    </item>
     <item>
       <title>Secure Streamlit app deployment with AWS Cognito, Streamlit, and CircleCI</title>
-      <link>http://localhost:1313/articles/article-7445/</link>
+      <link>/articles/article-2025-08-27-7445/</link>
       <pubDate>Wed, 27 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7445/</guid>
-      <description>ð This tutorial guides you on deploying a secure Streamlit app using AWS Cognito and CircleCI. It covers prerequisites, setting up AWS Cognito for user authentication, building the Streamlit application, and automating testing and deployment with CircleCI. By the end, you&amp;rsquo;ll be equipped to create a secure, scalable deployment pipeline for your applications. #AWS #Streamlit #CircleCI #WebDevelopment #Authentication</description>
+      <guid>/articles/article-2025-08-27-7445/</guid>
+      <description>🔒 This tutorial guides you on deploying a secure Streamlit app using AWS Cognito and CircleCI. It covers prerequisites, setting up AWS Cognito for user authentication, building the Streamlit application, and automating testing and deployment with CircleCI. By the end, you&amp;rsquo;ll be equipped to create a secure, scalable deployment pipeline for your applications. #AWS #Streamlit #CircleCI #WebDevelopment #Authentication</description>
     </item>
     <item>
       <title>Zero-downtime deployment with Flagsmith and CircleCI</title>
-      <link>http://localhost:1313/articles/article-5106/</link>
+      <link>/articles/article-2025-08-14-5106/</link>
       <pubDate>Thu, 14 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5106/</guid>
-      <description>ð Learn how to achieve zero-downtime deployment with Flagsmith and CircleCI! This tutorial covers the essentials, including setting up feature flags, project configuration, and automating deployments. Feature flags enable developers to control feature visibility without redeploying, minimizing risks associated with buggy releases. Get started with a GitHub, Flagsmith, CircleCI, and Vercel account to enhance your deployment process! #Deployment #FeatureFlags #CircleCI #Flagsmith&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5106/</guid>
+      <description>🚀 Learn how to achieve zero-downtime deployment with Flagsmith and CircleCI! This tutorial covers the essentials, including setting up feature flags, project configuration, and automating deployments. Feature flags enable developers to control feature visibility without redeploying, minimizing risks associated with buggy releases. Get started with a GitHub, Flagsmith, CircleCI, and Vercel account to enhance your deployment process! #Deployment #FeatureFlags #CircleCI #Flagsmith&amp;hellip;</description>
     </item>
   </channel>
 </rss>

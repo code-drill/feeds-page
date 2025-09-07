@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Technical_deep_dives | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,1018 +414,661 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 2 of 2 (80 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://www.mongodb.com/company/blog/technical/constitutional-ai-ethical-governance-with-atlas" target="_blank">Constitutional AI: Ethical Governance with MongoDB Atlas</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 17:00</span>
-                
-                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
-            </div>
+            <h2><a href="https://medium.com/pinterest-engineering/developer-experience-at-pinterest-the-journey-to-pinconsole-b34ac9e3bdd9?source=rss-ef81ef829bcb------2" target="_blank">Developer Experience at Pinterest: The Journey to PinConsole</a></h2>
+            <div class="publication-date">2025-08-22 20:12</div>
+            <div class="summary">🚀 Pinterest has introduced PinConsole, an Internal Developer Platform (IDP) aimed at simplifying the developer experience. This initiative addresses increasing complexity and improves engineering velocity for over 550 million users. 🔍 The team identified challenges such as tool fragmentation and inconsistent workflows, which were hindering productivity. By leveraging Backstage, PinConsole creates a unified interface, allowing engineers to focus on business logic. 📈 Early adoption shows...</div>
+            <div class="source">Source: <a href="/sources/pinterest-engineering">Pinterest Engineering</a></div>
+            
+            <div class="author">Pinterest Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/processing-millions-events-thousands-aircraft-one-declarative-pipeline" target="_blank">Processing Millions of Events from Thousands of Aircraft with One Declarative Pipeline</a></h2>
+            <div class="publication-date">2025-08-22 18:30</div>
+            <div class="summary">A new article discusses how tens of thousands of aircraft generate IoT events every second. It highlights the use of Lakeflow declarative pipelines and PySpark custom data sources to process millions of these events efficiently. The focus is on building scalable systems to manage this vast amount of data effectively. ✈️🌐📊 #Aviation #DataProcessing #IoT #CloudComputing #ScalableSystems</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
             
-            <div class="sources">
+            
+            <div class="categories">
                 
-                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/" target="_blank">Inside NVIDIA Blackwell Ultra: The Chip Powering the AI Factory Era</a></h2>
+            <div class="publication-date">2025-08-22 17:58</div>
+            <div class="summary">Introducing the NVIDIA Blackwell Ultra GPU, a key advancement in the Blackwell architecture. This GPU enhances AI training and reasoning with innovative technology. Key features include a dual-reticle design, high bandwidth, and energy-efficient performance. It boasts 208 billion transistors and provides significant scalability for AI tasks. With 15 PetaFLOPS performance and improved memory access, the Blackwell Ultra sets a new standard for accelerated computing. #NVIDIA #AI #BlackwellUltra...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Kyle Aubrey</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/elasticsearch-tipalti-autoops" target="_blank">How Tipalti mastered Elasticsearch performance with AutoOps</a></h2>
+            <div class="publication-date">2025-08-22 00:00</div>
+            <div class="summary">Tipalti, a leader in payables automation, has transformed its approach to Elasticsearch performance. By switching from manual monitoring to the automated AutoOps system, they achieved a 10% annual cost saving while managing a complex database ecosystem with a small team. Oz Levy, a data operations manager at Tipalti, shared insights on this transition and its impact on operational efficiency. #Tipalti #Elasticsearch #AutoOps #Efficiency #CostSaving 💼📈🔍</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Oz Levy,Farisha Vadera,Jordi Mon Companys</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://research.google/blog/from-massive-models-to-mobile-magic-the-tech-behind-youtube-real-time-generative-ai-effects/" target="_blank">From massive models to mobile magic: The tech behind YouTube real-time generative AI effects</a></h2>
+            <div class="publication-date">2025-08-21 18:05</div>
+            <div class="summary">YouTube is enhancing user experience on mobile with real-time generative AI effects. 📱✨ By utilizing knowledge distillation and MediaPipe, YouTube has developed a solution to deliver over 20 effects directly on creators&#39; phones. This process involves creating smaller, efficient models tailored for specific tasks, allowing for seamless video processing. These advancements make features like cartoon style transfer not only possible but also fun and interactive for creators on YouTube Shorts. 🎨🎥...</div>
+            <div class="source">Source: <a href="/sources/google-research">Google Research</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://netflixtechblog.com/from-facts-metrics-to-media-machine-learning-evolving-the-data-engineering-function-at-netflix-6dcc91058d8d?source=rss----2615bd06b42e---4" target="_blank">From Facts &amp; Metrics to Media Machine Learning: Evolving the Data Engineering Function at Netflix</a></h2>
+            <div class="publication-date">2025-08-21 17:39</div>
+            <div class="summary">At Netflix, we are evolving our data engineering function with the introduction of Media ML Data Engineering. 🎥📊 This new specialization focuses on managing complex media data, allowing for centralized access to various media assets like video, audio, and text. The initiative aims to enhance machine learning capabilities and improve analytics through the Media Data Lake, which supports advanced technologies. Key responsibilities include standardizing media assets and enriching metadata to...</div>
+            <div class="source">Source: <a href="/sources/netflix-technology-blog">Netflix Technology Blog</a></div>
+            
+            <div class="author">Netflix Technology Blog</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/technical/converged-datastore-for-agentic-ai" target="_blank">Converged Datastore for Agentic AI</a></h2>
+            <div class="publication-date">2025-08-21 15:00</div>
+            <div class="summary">As AI evolves, traditional data architectures struggle to keep pace. Fragmented systems hinder efficiency, especially in data-heavy sectors like insurance. 🌩️ The article advocates for converged datastores that unify structured and unstructured data. This shift allows AI agents to analyze, reason, and act in real-time, streamlining processes and enhancing customer experiences. 📊 A new approach is essential, integrating advanced tools to support intelligent automation and cognitive decision-...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/improve-data-integrity-and-security-with-accelerated-hash-functions-and-merkle-trees-in-cupqc-0-4/" target="_blank">Improve Data Integrity and Security with Accelerated Hash Functions and Merkle Trees in cuPQC 0.4</a></h2>
+            <div class="publication-date">2025-08-21 15:00</div>
+            <div class="summary">🔒 As data sizes grow, ensuring security and integrity is vital. The cuPQC SDK v0.4 offers advanced cryptographic techniques, including inclusion proofs and digital signatures, to enhance data protection. New features include expanded hash function support and efficient Merkle tree calculations, improving performance in data verification. 🌳 Discover how these updates can benefit your cryptographic tasks! #DataIntegrity #Cryptography #cuPQC #MerkleTrees #CyberSecurity</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Yarkin Doroz</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/scaling-ai-inference-performance-and-flexibility-with-nvidia-nvlink-and-nvlink-fusion/" target="_blank">Scaling AI Inference Performance and Flexibility with NVIDIA NVLink and NVLink Fusion</a></h2>
+            <div class="publication-date">2025-08-21 15:00</div>
+            <div class="summary">The rise of AI model complexity has increased parameter counts from millions to trillions, demanding more computational power. 🌐 NVIDIA NVLink and NVLink Fusion are key technologies enhancing AI inference performance. They enable large-scale parallelization strategies, essential for handling advanced AI architectures like mixture-of-experts (MoE). 🤖 This evolution in AI systems highlights the need for interconnected GPUs acting as a unified pool of compute and memory. #AI #NVIDIA #NVLink...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Joe DeLaere</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://engineering.salesforce.com/building-hyperforce-service-mesh-blast-radius-reduction-scale-optimization-and-open-source-innovation/" target="_blank">Building Hyperforce Service Mesh: Blast Radius Reduction, Scale Optimization, and Open Source Innovation</a></h2>
+            <div class="publication-date">2025-08-21 13:52</div>
+            <div class="summary">🚀 In the latest &#34;Engineering Energizers&#34; Q&amp;A, we spotlight Pratima Nambiar, a Distinguished Architect at Salesforce. She has been pivotal in developing the service mesh architecture for the Hyperforce platform. 🔍 This architecture secures communication among thousands of services, addressing challenges like blast radius reduction and scale optimization. The team leverages open source tools like Envoy and Istio to enhance service connectivity. 💡 The shift to public cloud infrastructure has...</div>
+            <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
+            
+            <div class="author">Scott Nyberg</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/innovation/new-benchmark-tests-reveal-key-vector-search-performance-factors" target="_blank">New Benchmark Tests Reveal Key Vector Search Performance Factors</a></h2>
+            <div class="publication-date">2025-08-21 11:55</div>
+            <div class="summary">🚀 New benchmarks for vector search performance are here! The MongoDB Benchmark for Atlas Vector Search provides essential strategies for optimizing search at scale, especially for datasets exceeding 10M vectors. Key factors like accuracy, cost, and throughput are explored, offering insights into quantization, dimensionality, and more. The guide aims to simplify initial tests and enhance understanding of system behavior. Explore the full guide in our documentation! 📊📈 #VectorSearch #MongoDB...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/21/hidden-pitfalls-kafka-tiered-storage" target="_blank">The hidden pitfalls of Kafka tiered storage</a></h2>
+            <div class="publication-date">2025-08-21 07:01</div>
+            <div class="summary">🚀 Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like `fetch.max.bytes` and `max.partition.fetch.bytes`. Kafka 4.2.0 promises improvements to address these issues, enhancing...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Federico Valeri, Luke Chen</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/" target="_blank">Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput</a></h2>
+            <div class="publication-date">2025-08-20 15:15</div>
+            <div class="summary">🚀 Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Anna Shors</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/a-proposal-for-inline-llm-instructions-in-html" target="_blank">&lt;script type=&#34;text/llms.txt&#34;&gt;</a></h2>
+            <div class="publication-date">2025-08-20 13:00</div>
+            <div class="summary">Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! 💻📄 #AI #HTML #llms #Innovation #TechNews</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Malte Ubl</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/your-agent-your-rules-deep-dive-responses-api-llama-stack" target="_blank">Your agent, your rules: A deep dive into the Responses API with Llama Stack</a></h2>
+            <div class="publication-date">2025-08-20 07:01</div>
+            <div class="summary">🔍 The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">J William Murdock, Roland Huß, Ann Marie Fred</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/how-i-built-agentic-application-docling-mcp" target="_blank">How I built an agentic application for Docling with MCP</a></h2>
+            <div class="publication-date">2025-08-20 07:01</div>
+            <div class="summary">🌐 Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. 🛠️ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&#39;s still untapped potential in fully utilizing MCP’s capabilities. 📄 My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor....</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Ryan Fernandes</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.etsy.com/codeascraft/context-engineering-case-studies-etsy-specific-question-answering?utm_source=OpenGraph&amp;utm_medium=PageTools&amp;utm_campaign=Share" target="_blank">Context engineering case studies: Etsy-specific question answering</a></h2>
+            <div class="publication-date">2025-08-19 20:04</div>
+            <div class="summary">Exploring prompt engineering in AI-assisted onboarding at Etsy reveals both benefits and limitations. The study focused on how well LLMs provide reliable answers to Etsy-specific questions, particularly in the Travel &amp; Entertainment domain. Initial findings indicate that concise prompts improve answer accuracy. However, some instances showcased LLM &#34;hallucinations,&#34; emphasizing the need for careful prompt design. For more insights, check out the full article! 📝🤖 #AIEducation #Etsy...</div>
+            <div class="source">Source: <a href="/sources/code-as-craft">Code as Craft</a></div>
+            
+            <div class="author">Jerome Bellegarda</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://kubernetes.io/blog/2025/08/19/tuning-linux-swap-for-kubernetes-a-deep-dive/" target="_blank">Tuning Linux Swap for Kubernetes: A Deep Dive</a></h2>
+            <div class="publication-date">2025-08-19 18:30</div>
+            <div class="summary">Kubernetes is set to introduce the NodeSwap feature in version 1.34, allowing Linux nodes to utilize swap for improved resource management. This marks a shift from the traditional approach of disabling swap for performance. However, enabling swap requires careful tuning of Linux kernel parameters to avoid performance issues and manage memory pressure effectively. Key parameters include `vm.swappiness`, `vm.min_free_kbytes`, and `vm.watermark_scale_factor`. Testing various configurations can...</div>
+            <div class="source">Source: <a href="/sources/kubernetes-blog">Kubernetes Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.mongodb.com/company/blog/technical/constitutional-ai-ethical-governance-with-atlas" target="_blank">Constitutional AI: Ethical Governance with MongoDB Atlas</a></h2>
+            <div class="publication-date">2025-08-19 17:00</div>
             <div class="summary">As AI systems evolve, ensuring ethical governance becomes essential. The article discusses Constitutional AI (CAI), a method by Anthropic that allows AI models to self-govern using predefined ethical principles. This approach moves beyond traditional human oversight, integrating with MongoDB&#39;s governance tools for effective implementation. CAI utilizes a two-phase process: self-critique and AI feedback, making ethical decisions transparent. However, scaling CAI requires robust data governance...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.mongodb.com/company/blog/innovation/building-an-agentic-ai-fleet-management-solution" target="_blank">Building an Agentic AI Fleet Management Solution</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 14:00</span>
-                
-                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-19 14:00</div>
+            <div class="summary">Artificial intelligence is transforming fleet management with real-time insights that enhance route planning and maintenance. 🚗💡 Modern vehicles generate vast data, creating challenges in processing and operational costs. An efficient architecture using MongoDB can streamline this by managing various data types effectively. Features like geospatial queries and time-series collections empower fleet managers to make informed decisions quickly. 📊✨ Explore how AI-driven systems can optimize your...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Artificial intelligence is transforming fleet management with real-time insights that enhance route planning and maintenance. ðð¡ Modern vehicles generate vast data, creating challenges in processing and operational costs. An efficient architecture using MongoDB can streamline this by managing various data types effectively. Features like geospatial queries and time-series collections empower fleet managers to make informed decisions quickly. ðâ¨ Explore how AI-driven systems can optimize your...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.atlassian.com/blog/developer/how-titanapps-migrated-smart-checklist-to-forge-and-got-it-to-run-on-atlassian" target="_blank">How TitanApps Migrated Smart Checklist to Forge (and Got It to Run on Atlassian)</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 23:44</span>
-                
-                <span class="author">by kwhite@atlassian.com</span>
-                
-                <span class="source">from <a href="https://www.atlassian.com/blog/rss" target="_blank">Atlassian Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 23:44</div>
+            <div class="summary">🚀 TitanApps shares the journey of migrating Smart Checklist to Forge, ensuring it meets security standards and runs smoothly on Atlassian. The team tackled challenges like data migration without downtime, all while retaining the app&#39;s reliability for thousands of users. This migration highlights the importance of planning and adapting to new technologies. For those considering a similar move, this post offers valuable insights. #Atlassian #SmartChecklist #ForgeMigration #TechInnovation...</div>
+            <div class="source">Source: <a href="/sources/atlassian-developer-blog">Atlassian Developer Blog</a></div>
+            
+            <div class="author">kwhite@atlassian.com</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/atlassian-developer-blog" class="source-link">Atlassian-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð TitanApps shares the journey of migrating Smart Checklist to Forge, ensuring it meets security standards and runs smoothly on Atlassian. The team tackled challenges like data migration without downtime, all while retaining the app&#39;s reliability for thousands of users. This migration highlights the importance of planning and adapting to new technologies. For those considering a similar move, this post offers valuable insights. #Atlassian #SmartChecklist #ForgeMigration #TechInnovation...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://careersatdoordash.com/blog/doordash-llm-chatbot-knowledge-with-ugc/" target="_blank">A scalable LLM approach to enhancing chatbot knowledge with user-generated content</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 21:49</span>
-                
-                <span class="author">by Tony Luo</span>
-                
-                <span class="source">from <a href="https://careersatdoordash.com/feed/" target="_blank">DoorDash Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 21:49</div>
+            <div class="summary">DoorDash&#39;s support chatbot efficiently addresses numerous questions from Dashers and customers daily. As their marketplace grows, so does the complexity of inquiries. To enhance chatbot knowledge, DoorDash employs large language models (LLMs) paired with clustering algorithms. This method identifies content gaps and drafts articles quickly, streamlining the knowledge base update process. By analyzing escalated chat transcripts, they pinpoint areas needing improvement. This data-driven...</div>
+            <div class="source">Source: <a href="/sources/doordash-engineering">DoorDash Engineering</a></div>
+            
+            <div class="author">Tony Luo</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/doordash-engineering" class="source-link">DoorDash-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">DoorDash&#39;s support chatbot efficiently addresses numerous questions from Dashers and customers daily. As their marketplace grows, so does the complexity of inquiries. To enhance chatbot knowledge, DoorDash employs large language models (LLMs) paired with clustering algorithms. This method identifies content gaps and drafts articles quickly, streamlining the knowledge base update process. By analyzing escalated chat transcripts, they pinpoint areas needing improvement. This data-driven...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents" target="_blank">Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 19:30</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 19:30</div>
+            <div class="summary">Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! 🚀💡 #AI #Mosaic #VectorSearch #Innovation #TechTrends</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! ðð¡ #AI #Mosaic #VectorSearch #Innovation #TechTrends</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://netflixtechblog.com/ml-observability-bring-transparency-to-payments-and-beyond-33073e260a38?source=rss----2615bd06b42e---4" target="_blank">ML Observability: Bringing Transparency to Payments and Beyond</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 18:15</span>
-                
-                <span class="author">by Netflix Technology Blog</span>
-                
-                <span class="source">from <a href="https://netflixtechblog.com/feed" target="_blank">Netflix Technology Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 18:15</div>
+            <div class="summary">At Netflix, ML observability is crucial for monitoring and understanding machine learning models in production. It allows teams to track performance, detect anomalies, and ensure reliability. This is particularly important in payment processing, where optimizing transactions helps reduce friction for users. By utilizing ML observability tools, we can enhance model performance and maintain stakeholder trust through clear insights into model behavior. Examples include logging, monitoring, and...</div>
+            <div class="source">Source: <a href="/sources/netflix-technology-blog">Netflix Technology Blog</a></div>
+            
+            <div class="author">Netflix Technology Blog</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/netflix-technology-blog" class="source-link">Netflix-Technology-Blog</a>
-                
-            </div>
-            
-            <div class="summary">At Netflix, ML observability is crucial for monitoring and understanding machine learning models in production. It allows teams to track performance, detect anomalies, and ensure reliability. This is particularly important in payment processing, where optimizing transactions helps reduce friction for users. By utilizing ML observability tools, we can enhance model performance and maintain stakeholder trust through clear insights into model behavior. Examples include logging, monitoring, and...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://engineering.salesforce.com/how-cursor-ai-cut-legacy-code-coverage-time-by-85/" target="_blank">How Cursor AI Cut Legacy Code Coverage Time by 85%</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 15:32</span>
-                
-                <span class="author">by Scott Nyberg</span>
-                
-                <span class="source">from <a href="https://engineering.salesforce.com/feed/" target="_blank">Salesforce Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 15:32</div>
+            <div class="summary">🚀 Exciting advancements in software engineering at Salesforce! Rachna Singh and her team tackled the challenge of achieving 80% code coverage on legacy systems. By utilizing Cursor AI, they reduced unit test development time from 26 days to just 4! 📉 This innovative approach not only met the coverage requirement but also improved feature delivery and code quality across multiple repositories. #Salesforce #AI #SoftwareEngineering #CodeCoverage #Innovation</div>
+            <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
+            
+            <div class="author">Scott Nyberg</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/salesforce-engineering" class="source-link">Salesforce-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting advancements in software engineering at Salesforce! Rachna Singh and her team tackled the challenge of achieving 80% code coverage on legacy systems. By utilizing Cursor AI, they reduced unit test development time from 26 days to just 4! ð This innovative approach not only met the coverage requirement but also improved feature delivery and code quality across multiple repositories. #Salesforce #AI #SoftwareEngineering #CodeCoverage #Innovation</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.mongodb.com/company/blog/innovation/unlock-multi-agent-ai-predictive-maintenance" target="_blank">Unlock Multi-Agent AI Predictive Maintenance with MongoDB</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 15:00</span>
-                
-                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 15:00</div>
+            <div class="summary">🚀 The manufacturing sector faces challenges like evolving demands and a skilled labor shortage. Digital transformation is key, with data-driven strategies at the forefront. 🔧 Predictive maintenance is vital for operational excellence, using data to foresee machine failures and reduce costly downtime. 🤖 The rise of multi-agent AI systems is revolutionizing this process. MongoDB enables the development of these agents, enhancing automation and efficiency on the shop floor. Explore how Agentic...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð The manufacturing sector faces challenges like evolving demands and a skilled labor shortage. Digital transformation is key, with data-driven strategies at the forefront. ð§ Predictive maintenance is vital for operational excellence, using data to foresee machine failures and reduce costly downtime. ð¤ The rise of multi-agent AI systems is revolutionizing this process. MongoDB enables the development of these agents, enhancing automation and efficiency on the shop floor. Explore how Agentic...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://research.google/blog/beyond-billion-parameter-burdens-unlocking-data-synthesis-with-a-conditional-generator/" target="_blank">Beyond billion-parameter burdens: Unlocking data synthesis with a conditional generator</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 19:06</span>
-                
-                <span class="source">from <a href="https://research.google/blog/rss/" target="_blank">Google Research</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 19:06</div>
+            <div class="summary">Unlocking data synthesis in AI just got easier! 🌐 A new algorithm, CTCL, enables the generation of synthetic data while preserving privacy, using a lightweight 140 million parameter model. This approach avoids the complexities of fine-tuning billion-scale models, making it accessible for resource-constrained applications. CTCL conditions data on topic information, ensuring better topic distribution matching. It also allows for unlimited synthetic data generation without additional privacy...</div>
+            <div class="source">Source: <a href="/sources/google-research">Google Research</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/google-research" class="source-link">Google-Research</a>
-                
-            </div>
-            
-            <div class="summary">Unlocking data synthesis in AI just got easier! ð A new algorithm, CTCL, enables the generation of synthetic data while preserving privacy, using a lightweight 140 million parameter model. This approach avoids the complexities of fine-tuning billion-scale models, making it accessible for resource-constrained applications. CTCL conditions data on topic information, ensuring better topic distribution matching. It also allows for unlimited synthetic data generation without additional privacy...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.hashicorp.com/blog/solving-secret-zero-with-vault-and-openshift-virtualization" target="_blank">Solving secret zero with Vault and OpenShift Virtualization</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 16:00</span>
-                
-                <span class="author">by Ben Holmes</span>
-                
-                <span class="source">from <a href="https://www.hashicorp.com/blog/feed.xml" target="_blank">HashiCorp Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 16:00</div>
+            <div class="summary">Discover how Red Hat OpenShift Virtualization and HashiCorp Vault can address the secret zero problem in virtualized environments. Organizations face challenges in establishing machine identity as they adopt identity-based security. Traditional virtualization solutions often lack inherent machine identity, leading to reliance on initial credentials for secure communication with Vault. Red Hat OpenShift Virtualization offers a solution by enabling virtual machines to leverage Kubernetes...</div>
+            <div class="source">Source: <a href="/sources/hashicorp-blog">HashiCorp Blog</a></div>
+            
+            <div class="author">Ben Holmes</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hashicorp-blog" class="source-link">HashiCorp-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover how Red Hat OpenShift Virtualization and HashiCorp Vault can address the secret zero problem in virtualized environments. Organizations face challenges in establishing machine identity as they adopt identity-based security. Traditional virtualization solutions often lack inherent machine identity, leading to reliance on initial credentials for secure communication with Vault. Red Hat OpenShift Virtualization offers a solution by enabling virtual machines to leverage Kubernetes...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://medium.com/airbnb-engineering/migrating-airbnbs-jvm-monorepo-to-bazel-33f90eda51ec?source=rss----53c7c27702d5---4" target="_blank">Migrating Airbnbâs JVM Monorepo to Bazel</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 17:01</span>
-                
-                <span class="author">by Thomas Bao</span>
-                
-                <span class="source">from <a href="https://medium.com/feed/airbnb-engineering" target="_blank">Airbnb Engineering</a></span>
-            </div>
+            <h2><a href="https://medium.com/airbnb-engineering/migrating-airbnbs-jvm-monorepo-to-bazel-33f90eda51ec?source=rss----53c7c27702d5---4" target="_blank">Migrating Airbnb’s JVM Monorepo to Bazel</a></h2>
+            <div class="publication-date">2025-08-13 17:01</div>
+            <div class="summary">🚀 Exciting updates from Airbnb! We have successfully migrated our largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated work. This transition has significantly improved our build process, achieving a Build CSAT increase from 38% to 68%. Key benefits include: - 3–5x faster local build and test times - 2–3x faster IntelliJ syncs - 2–3x faster deploys to the development environment We chose Bazel for its speed, reliability, and uniform infrastructure. The migration involved...</div>
+            <div class="source">Source: <a href="/sources/airbnb-engineering">Airbnb Engineering</a></div>
+            
+            <div class="author">Thomas Bao</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/airbnb-engineering" class="source-link">Airbnb-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting updates from Airbnb! We have successfully migrated our largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated work. This transition has significantly improved our build process, achieving a Build CSAT increase from 38% to 68%. Key benefits include: - 3â5x faster local build and test times - 2â3x faster IntelliJ syncs - 2â3x faster deploys to the development environment We chose Bazel for its speed, reliability, and uniform infrastructure. The migration involved...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/the-real-serverless-compute-to-database-connection-problem-solved" target="_blank">The real serverless compute to database connection problem, solved</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 13:00</span>
-                
-                <span class="author">by Malte Ubl</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 13:00</div>
+            <div class="summary">The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. 🔍💻🔗 #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Malte Ubl</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. ðð»ð #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.databricks.com/blog/how-uipath-built-scalable-real-time-etl-pipeline-databricks" target="_blank">How UiPath Built a Scalable Real-Time ETL pipeline on Databricks</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 08:12</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 08:12</div>
+            <div class="summary">🚀 UiPath has developed a scalable real-time ETL pipeline using Databricks to enhance automation processes. This pipeline aims to deliver fast and reliable data processing, which is crucial for effective decision-making. By leveraging Databricks, UiPath is focused on improving operational efficiency and customer satisfaction. #UiPath #Databricks #ETL #Automation #DataProcessing</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð UiPath has developed a scalable real-time ETL pipeline using Databricks to enhance automation processes. This pipeline aims to deliver fast and reliable data processing, which is crucial for effective decision-making. By leveraging Databricks, UiPath is focused on improving operational efficiency and customer satisfaction. #UiPath #Databricks #ETL #Automation #DataProcessing</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://netflixtechblog.com/accelerating-video-quality-control-at-netflix-with-pixel-error-detection-47ef7af7ca2e?source=rss----2615bd06b42e---4" target="_blank">Accelerating Video Quality Control at Netflix with Pixel Error Detection</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 21:29</span>
-                
-                <span class="author">by Netflix Technology Blog</span>
-                
-                <span class="source">from <a href="https://netflixtechblog.com/feed" target="_blank">Netflix Technology Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 21:29</div>
+            <div class="summary">🚀 Netflix has developed an automated method for video quality control that detects pixel-level artifacts, reducing manual reviews. This new system identifies hot pixels that can distract viewers, ensuring a seamless viewing experience. By using a specialized neural network, Netflix speeds up the QC process from hours to minutes. This innovation allows creative teams to focus more on storytelling rather than technical issues. 🎥✨ #Netflix #VideoQuality #Innovation #TechForGood #Filmmaking</div>
+            <div class="source">Source: <a href="/sources/netflix-technology-blog">Netflix Technology Blog</a></div>
+            
+            <div class="author">Netflix Technology Blog</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/netflix-technology-blog" class="source-link">Netflix-Technology-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Netflix has developed an automated method for video quality control that detects pixel-level artifacts, reducing manual reviews. This new system identifies hot pixels that can distract viewers, ensuring a seamless viewing experience. By using a specialized neural network, Netflix speeds up the QC process from hours to minutes. This innovation allows creative teams to focus more on storytelling rather than technical issues. ð¥â¨ #Netflix #VideoQuality #Innovation #TechForGood #Filmmaking</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.databricks.com/blog/optimizing-materialized-views-recomputes" target="_blank">Optimizing Materialized Views Recomputes</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 19:35</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 19:35</div>
+            <div class="summary">🚀 Discover strategies for optimizing the incremental computation of materialized views in data management. The article discusses techniques that digital-native companies can implement to enhance efficiency. It highlights the importance of improving performance while managing data effectively. Learn how to leverage these strategies for better data handling and quicker insights! 📊🔍 #DataManagement #MaterializedViews #Optimization #TechInsights</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Discover strategies for optimizing the incremental computation of materialized views in data management. The article discusses techniques that digital-native companies can implement to enhance efficiency. It highlights the importance of improving performance while managing data effectively. Learn how to leverage these strategies for better data handling and quicker insights! ðð #DataManagement #MaterializedViews #Optimization #TechInsights</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/11/disaster-recovery-approaches-red-hat-openshift-virtualization-part-2" target="_blank">Disaster recovery approaches for Red Hat OpenShift Virtualization, part 2</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 15:31</span>
-                
-                <span class="author">by Bryon Baker, Raffaele Spazzoli</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 15:31</div>
+            <div class="summary">🌐 Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Bryon Baker, Raffaele Spazzoli</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.mongodb.com/company/blog/innovation/boost-connected-car-developments-mongodb-atlas-and-aws" target="_blank">Boost Connected Car Developments with MongoDB Atlas and AWS</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 15:00</span>
-                
-                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 15:00</div>
+            <div class="summary">The automotive industry is transforming with connected, software-defined vehicles generating vast amounts of data daily. 🚗💻 A recent survey highlights that 40% of US consumers value connectivity enough to switch brands. OEMs are responding by leveraging data for predictive maintenance and personalized services. Combining MongoDB Atlas with AWS tools enables innovative applications like real-time diagnostics and tailored insurance models. 📊🔧 Explore how this architecture can enhance mobility...</div>
+            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
-                
-            </div>
-            
-            <div class="summary">The automotive industry is transforming with connected, software-defined vehicles generating vast amounts of data daily. ðð» A recent survey highlights that 40% of US consumers value connectivity enough to switch brands. OEMs are responding by leveraging data for predictive maintenance and personalized services. Combining MongoDB Atlas with AWS tools enables innovative applications like real-time diagnostics and tailored insurance models. ðð§ Explore how this architecture can enhance mobility...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://engineering.salesforce.com/how-salesforce-delivers-reliable-low-latency-ai-inference/" target="_blank">How Salesforce Delivers Reliable, Low-Latency AI Inference</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 14:15</span>
-                
-                <span class="author">by Scott Nyberg</span>
-                
-                <span class="source">from <a href="https://engineering.salesforce.com/feed/" target="_blank">Salesforce Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 14:15</div>
+            <div class="summary">🚀 Meet Nilesh Salpe, an engineer at Salesforce focusing on the AI Metadata Service (AIMS). This service offers tenant-specific configurations for AI inferences, crucial for applications like Agentforce. 🔧 His team developed a multi-layered caching system to address a 400ms latency issue, enhancing performance to sub-millisecond levels while ensuring reliability against backend outages. 🌐 AIMS plays a key role in managing diverse AI models and configurations across Salesforce’s multi-cloud...</div>
+            <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
+            
+            <div class="author">Scott Nyberg</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/salesforce-engineering" class="source-link">Salesforce-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Meet Nilesh Salpe, an engineer at Salesforce focusing on the AI Metadata Service (AIMS). This service offers tenant-specific configurations for AI inferences, crucial for applications like Agentforce. ð§ His team developed a multi-layered caching system to address a 400ms latency issue, enhancing performance to sub-millisecond levels while ensuring reliability against backend outages. ð AIMS plays a key role in managing diverse AI models and configurations across Salesforceâs multi-cloud...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://auth0.com/blog/mcp-vs-api/" target="_blank">Why Can&#39;t I Just Use an API? Because Your AI Agent Needs MCP</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 13:55</span>
-                
-                <span class="author">by Will Johnson</span>
-                
-                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 13:55</div>
+            <div class="summary">Understanding the limitations of traditional APIs for AI agents is crucial. 🤖 The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&#39;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation...</div>
+            <div class="source">Source: <a href="/sources/auth0-blog">Auth0 Blog</a></div>
+            
+            <div class="author">Will Johnson</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Understanding the limitations of traditional APIs for AI agents is crucial. ð¤ The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&#39;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.crowdstrike.com/en-us/blog/machine-learning-evaluation-using-data-splitting/" target="_blank">CrowdStrike&amp;rsquo;s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 00:00</span>
-                
-                <span class="author">by Josh Sun</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/machine-learning-evaluation-using-data-splitting/" target="_blank">CrowdStrike’s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</a></h2>
+            <div class="publication-date">2025-08-11 00:00</div>
+            <div class="summary">CrowdStrike is enhancing machine learning evaluation by tackling data leakage, which can lead to inaccurate threat detection in cybersecurity. To combat this, they implement strategic data splitting during model training. This method carefully manages how data is divided, ensuring that similar data points do not skew results, ultimately leading to more reliable detection of new threats. By focusing on this strategy, CrowdStrike aims to improve the performance of their AI-native platform...</div>
+            <div class="source">Source: <a href="/sources/crowdstrike-blog">CrowdStrike Blog</a></div>
+            
+            <div class="author">Josh Sun</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">CrowdStrike is enhancing machine learning evaluation by tackling data leakage, which can lead to inaccurate threat detection in cybersecurity. To combat this, they implement strategic data splitting during model training. This method carefully manages how data is divided, ensuring that similar data points do not skew results, ultimately leading to more reliable detection of new threats. By focusing on this strategy, CrowdStrike aims to improve the performance of their AI-native platform...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developer.nvidia.com/blog/r2d2-boost-robot-training-with-world-foundation-models-and-workflows-from-nvidia-research/" target="_blank">R²D²: Boost Robot Training with World Foundation Models and Workflows from NVIDIA Research</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 18:33</span>
-                
-                <span class="author">by Asawaree Bhide</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-08 18:33</div>
+            <div class="summary">🚀 The latest edition of NVIDIA&#39;s R²D² highlights the role of World Foundation Models (WFMs) in enhancing robot training. WFMs address the growing need for labeled datasets by simulating real-world dynamics. Key components include Cosmos Predict, Transfer, and Reason, each designed for specific applications in robotics and autonomous vehicles. Cosmos Predict generates future world states through various input types. Cosmos Transfer facilitates photorealistic style transfers, while Cosmos...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Asawaree Bhide</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 The latest edition of NVIDIA&#39;s R²D² highlights the role of World Foundation Models (WFMs) in enhancing robot training. WFMs address the growing need for labeled datasets by simulating real-world dynamics. Key components include Cosmos Predict, Transfer, and Reason, each designed for specific applications in robotics and autonomous vehicles. Cosmos Predict generates future world states through various input types. Cosmos Transfer facilitates photorealistic style transfers, while Cosmos...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking" target="_blank">Ollama vs. vLLM: A deep dive into performance benchmarking</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 07:16</span>
-                
-                <span class="author">by Harshith Umesh</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
+            <div class="publication-date">2025-08-08 07:16</div>
             <div class="summary">Ollama and vLLM serve distinct roles in the AI landscape. Ollama is designed for local development and prototyping, while vLLM excels in high-performance production environments. In benchmarks, vLLM outperformed Ollama with a peak throughput of 793 TPS compared to Ollama&#39;s 41 TPS and lower latency across all concurrency levels. Ollama prioritizes ease of use, making it suitable for individual developers, whereas vLLM is built for scalability, catering to enterprise applications. For detailed...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://techblog.lycorp.co.jp/en/20250808icq" target="_blank">Improving code quality - Session 41: &#34;Architecture&#34; under construction</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 02:00</span>
-                
-                <span class="source">from <a href="https://techblog.lycorp.co.jp/en/feed/index.xml" target="_blank">LY Corporation Tech Blog</a></span>
-            </div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Harshith Umesh</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/ly-corporation-tech-blog" class="source-link">LY-Corporation-Tech-Blog</a>
-                
-            </div>
-            
-            <div class="summary">📢 Exciting insights from &#34;Improving Code Quality&#34; Session 41! Munetoshi Ishikawa discusses application architecture for a messaging app. The article outlines a data model defining messages, featuring various types like Text, Image, and External Resource. The message type is identified by the first character of its ID, which is crucial for maintaining historical compatibility. Discover more about managing different message types and their unique creation logic! #CodeQuality #AppDevelopment...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/efficient-transforms-in-cudf-using-jit-compilation/" target="_blank">Efficient Transforms in cuDF Using JIT Compilation</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 21:06</span>
-                
-                <span class="author">by Basit Ayantunde</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock efficient data processing with RAPIDS cuDF! 🚀 cuDF offers a wide range of ETL algorithms optimized for GPUs, allowing for seamless integration with pandas. Users can leverage accelerated algorithms without changing their existing code. For advanced developers, the cuDF C&#43;&#43; submodule enhances functionality through non-owning views and kernel fusion, boosting performance and reducing unnecessary GPU memory transfers. Learn how JIT compilation improves throughput and resource utilization...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/7x-faster-medical-image-ingestion-python-data-source-api" target="_blank">7x Faster Medical Image Ingestion with Python Data Source API</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 20:00</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting advancements in medical imaging! A recent article discusses a new Python Data Source API that enhances DICOM data ingestion speed by seven times. This development utilizes industry-standard libraries like pydicom and zipfile. This improvement aims to streamline processes in healthcare and life sciences, addressing the challenges of handling medical images effectively. #MedicalImaging #HealthcareInnovation #Python #DICOM #DataScience</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/train-with-terabyte-scale-datasets-on-a-single-nvidia-grace-hopper-superchip-using-xgboost-3-0/" target="_blank">Train with Terabyte-Scale Datasets on a Single NVIDIA Grace Hopper Superchip Using XGBoost 3.0</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 18:25</span>
-                
-                <span class="author">by Dante Gama Dessavre</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting advancements in machine learning with XGBoost 3.0! This version leverages the NVIDIA Grace Hopper Superchip to process datasets up to 1 TB, significantly speeding up training times—up to 8x faster than traditional CPUs. Key enhancements include a new external-memory engine, simplifying scalability and reducing reliance on complex GPU clusters. Major banks like RBC are already benefiting, reporting 16x speedups and 94% reductions in training costs. #XGBoost #MachineLearning #NVIDIA...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://medium.com/airbnb-engineering/seamless-istio-upgrades-at-scale-bcb0e49c5cf8?source=rss----53c7c27702d5---4" target="_blank">Seamless Istio Upgrades at Scale</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 17:01</span>
-                
-                <span class="author">by Rushy R. Panchal</span>
-                
-                <span class="source">from <a href="https://medium.com/feed/airbnb-engineering" target="_blank">Airbnb Engineering</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/airbnb-engineering" class="source-link">Airbnb-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Airbnb has successfully upgraded Istio 14 times since 2019, managing thousands of pods and VMs across multiple Kubernetes clusters. Their upgrade strategy focuses on zero downtime for users and gradual rollouts, allowing for controlled upgrades and rollbacks without coordinating individual teams. The process involves running two Istiod versions simultaneously, ensuring seamless transitions for workloads. Learn more about their innovative approach in the full article! 🚀🔧 #AirbnbTech #Istio...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/" target="_blank">Achieving 10,000x training data reduction with high-fidelity labels</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 09:46</span>
-                
-                <span class="source">from <a href="https://research.google/blog/rss/" target="_blank">Google Research</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/google-research" class="source-link">Google-Research</a>
-                
-            </div>
-            
-            <div class="summary">A new method in active learning significantly reduces the training data needed for fine-tuning large language models (LLMs). 📉 This innovative approach addresses the challenges in classifying unsafe ad content, which requires deep contextual understanding. Traditional methods are costly and often ineffective with evolving safety policies. The new curation process can cut training data from 100,000 examples to under 500, while improving model alignment with human experts by up to 65%. This is...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://auth0.com/blog/five-myths-about-jwts-debunked/" target="_blank">Five Myths About JWTs Debunked</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Andrea Chiarelli</span>
-                
-                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🔍 Understanding JSON Web Tokens (JWTs) is crucial for secure application and API management. This article debunks five common myths about JWTs, highlighting misconceptions that can lead to vulnerabilities. One key point is that JWTs are not just another type of token; they are structured and self-contained, offering stateless validation. Learn more about JWTs and their proper usage to enhance your security practices. #JWT #WebSecurity #APIProtection #TechMyths #Cybersecurity</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.elastic.co/blog/log-deduplication-esql-lookup-join" target="_blank">Hash, store, join: A modern solution to log deduplication with ES|QL LOOKUP JOIN</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Adrian Chen</span>
-                
-                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
-                
-            </div>
-            
-            <div class="summary">In the realm of cybersecurity, the challenge of balancing data fidelity with budget constraints is critical, especially with PowerShell logging. 📊 Comprehensive logging is essential for threat hunting, yet it can lead to massive data storage costs. This article introduces an innovative approach using the Elastic Stack and ES|QL LOOKUP JOIN to optimize log management. The strategy focuses on intelligent data deduplication, allowing organizations to store references rather than full logs,...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/trl-vlm-alignment" target="_blank">Vision Language Model Alignment in TRL ⚡️</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🔍 The article discusses the alignment of Vision Language Models (VLMs) in the context of Technology Readiness Levels (TRL). It highlights the importance of aligning VLMs with real-world applications to enhance their effectiveness. 💡 The piece outlines key strategies for achieving this alignment, focusing on practical implementation and evaluation methods. For those interested in AI development, this is a valuable read! #VisionLanguageModel #AIAlignment #TechnologyReadiness #MachineLearning...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://engineering.fb.com/2025/08/06/developer-tools/diff-risk-score-drs-ai-risk-aware-software-development-meta/" target="_blank">Diff Risk Score: AI-driven risk-aware software development</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 17:50</span>
-                
-                <span class="source">from <a href="https://engineering.fb.com/feed/" target="_blank">Engineering at Meta</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/engineering-at-meta" class="source-link">Engineering-at-Meta</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Introducing the Diff Risk Score (DRS) from Meta! This AI-driven technology predicts the likelihood of code changes causing production incidents, enhancing software development processes. By analyzing code changes and metadata, DRS generates risk scores, allowing developers to identify potentially risky code. 🛠️ DRS has notably reduced code freezes during critical periods, boosting productivity while maintaining user experience. For instance, during a key event in 2024, over 10,000 code...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://research.google/blog/highly-accurate-genome-polishing-with-deeppolisher-enhancing-the-foundation-of-genomic-research/" target="_blank">Highly accurate genome polishing with DeepPolisher: Enhancing the foundation of genomic research</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 16:13</span>
-                
-                <span class="source">from <a href="https://research.google/blog/rss/" target="_blank">Google Research</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/google-research" class="source-link">Google-Research</a>
-                
-            </div>
-            
-            <div class="summary">Introducing DeepPolisher, a new deep learning tool that enhances the accuracy of genome assemblies by correcting base-level errors. 🧬 This advancement plays a crucial role in refining the Human Pangenome Reference, making it easier to study heredity, disease, and evolution. DeepPolisher reduces assembly errors by 50% and indel errors by 70%, improving gene identification significantly. This open-source method was developed in collaboration with UC Santa Cruz Genomics Institute, marking a step...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.canva.dev/blog/engineering/draw-in-present-mode/" target="_blank">From Intern Project to Production: How I Shipped the Draw Tool for Canva&#39;s Present Mode</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 00:00</span>
-                
-                <span class="author">by Edwina Adisusila</span>
-                
-                <span class="source">from <a href="https://www.canva.dev/blog/engineering/feed.xml" target="_blank">Canva Engineering</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/canva-engineering" class="source-link">Canva-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting progress at Canva! A recent blog post details the journey of transforming an intern project into the Draw Tool for Present Mode. The author shares the technical challenges faced and how they were successfully addressed to enhance user experience. Learn about this innovative feature and the engineering practices behind it. #Canva #Engineering #UserExperience #Innovation #TechJourney</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/" target="_blank">Reducing double spend latency from 40 ms to &lt; 1 ms on privacy proxy</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:00</span>
-                
-                <span class="author">by Ben Yang</span>
-                
-                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
-                
-            </div>
-            
-            <div class="summary">We recently improved the performance of our privacy proxy service by reducing double-spend check latency from 40 ms to less than 1 ms. 🚀 This enhancement helps users browse the web securely without compromising their privacy. It also boosts the efficiency of our service, as we handle millions of requests each second. 🔒 Using a tracing platform and metrics, we identified bottlenecks and optimized our processes. This change is part of Cloudflare&#39;s commitment to making the Internet faster for...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.unrealengine.com/developer-interviews/made-with-ue5-wildgate-blends-emergent-gameplay-with-explosive-spaceship-combat" target="_blank">Made with UE5, Wildgate blends emergent gameplay with explosive spaceship combat</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 00:00</span>
-                
-                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting developments in gaming! Moonshot Games is using Unreal Engine 5 features like Nanite, Lumen, and Chaos in their debut project, the PvP space shooter Wildgate. These technologies enhance graphics and gameplay. Discover how these tools are shaping the future of gaming. #Wildgate #MoonshotGames #UE5 #GamingNews #SpaceShooter</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/cuda-pro-tip-increase-performance-with-vectorized-memory-access/" target="_blank">CUDA Pro Tip: Increase Performance with Vectorized Memory Access</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 21:05</span>
-                
-                <span class="author">by Justin Luitjens</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Boost your CUDA performance by addressing bandwidth limitations! 🌐 Bandwidth-bound kernels are becoming more common due to the increasing ratio of flops to bandwidth in new hardware. To enhance bandwidth utilization, consider using vector loads and stores in your CUDA C&#43;&#43; code. Check out the provided memory copy kernel example, which uses grid-stride loops to improve efficiency. 📊 #CUDA #PerformanceOptimization #ProgrammingTips #TechInsights #NVIDIA</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/how-to-enhance-rag-pipelines-with-reasoning-using-nvidia-llama-nemotron-models/" target="_blank">How to Enhance RAG Pipelines with Reasoning Using NVIDIA Llama Nemotron Models</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 17:00</span>
-                
-                <span class="author">by Nicole Luo</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlocking the potential of retrieval-augmented generation (RAG) systems involves addressing user queries that are vague or carry implicit intent. 🤔 The article discusses how NVIDIA&#39;s Nemotron LLMs enhance RAG pipelines through advanced query rewriting techniques. This process optimizes user prompts for better information retrieval, improving the relevance of results. 📈 Techniques like Q2E, Q2D, and chain-of-thought query rewriting help bridge gaps in understanding, leading to more accurate...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study" target="_blank">Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 16:15</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover the innovative concept of Agent Learning from Human Feedback (ALHF) in the latest Databricks blog. ALHF allows agents to learn from minimal natural language feedback, enhancing their adaptability in specialized enterprise environments. The case study highlights its application in the Databricks Agent Bricks Knowledge Assistant, showcasing significant improvements in answer quality with limited expert feedback. This approach addresses the challenges of tuning AI systems by enabling...</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://engineering.fb.com/2025/08/04/virtual-reality/building-a-human-computer-interface-for-everyone-meta-tech-podcast/" target="_blank">Building a human-computer interface for everyone</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 14:00</span>
-                
-                <span class="source">from <a href="https://engineering.fb.com/feed/" target="_blank">Engineering at Meta</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/engineering-at-meta" class="source-link">Engineering-at-Meta</a>
-                
-            </div>
-            
-            <div class="summary">Discover how Meta&#39;s Reality Labs is advancing human-computer interaction with wrist-worn devices using surface electromyography (sEMG). 🤖 Their research focuses on creating a universal input device that adapts to different users. Generalization remains a key challenge, as existing models often cater to individual gestures. Listen to the latest episode of the Meta Tech Podcast to learn more about this innovative approach! 🎧✨ #HumanComputerInteraction #TechInnovation #MetaTech #sEMG #Podcast</div>
         </article>
         
     </div>
@@ -1111,8 +1089,14 @@
             <span class="pagination-current">2</span>
             
             
+            
+            <a href="/categories/technical_deep_dives/page/3/" class="pagination-link">3</a>
+            
+            
         </div>
         
+        
+        <a href="/categories/technical_deep_dives/page/3/" class="pagination-link">Next &raquo;</a>
         
     </nav>
     
@@ -1168,6 +1152,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

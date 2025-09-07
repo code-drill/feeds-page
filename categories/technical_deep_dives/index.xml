@@ -2,571 +2,718 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical_deep_dives on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/categories/technical_deep_dives/</link>
+    <link>/categories/technical_deep_dives/</link>
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 17:28:23 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 17:24:06 +0000</lastBuildDate>
+    <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing</title>
+      <link>/articles/article-2025-09-05-7790/</link>
+      <pubDate>Fri, 05 Sep 2025 17:24:06 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7790/</guid>
+      <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B are pushing AI boundaries but pose memory challenges for inference efficiency. These models can require significant memory, with Llama 3 needing around 140 GB and Llama 4 about 218 GB. The key-value (KV) cache also demands additional memory as context and batch sizes increase. NVIDIA&amp;rsquo;s Grace Hopper and Blackwell architectures use NVLink-C2C, allowing CPU-GPU memory sharing. This innovation enhances data access and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Multi-Agentic Ticket-Based Complaint Resolution System</title>
+      <link>/articles/article-2025-09-04-7746/</link>
+      <pubDate>Thu, 04 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7746/</guid>
+      <description>In the AI-driven landscape, financial institutions must enhance customer service efficiency. A new multi-agentic ticket-based complaint resolution system, developed with MongoDB and Confluent, aims to automate this process. It allows banks to quickly resolve common issues like card declines and authentication problems through AI agents. By leveraging real-time event streaming, this system significantly improves resolution times, ultimately boosting customer satisfaction. 📈🤖&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Uber’s Data Lake: Batch Data Replication Using HiveSync</title>
+      <link>/articles/article-2025-09-04-7734/</link>
+      <pubDate>Thu, 04 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7734/</guid>
+      <description>🚀 Dive into how Uber efficiently manages batch data replication using HiveSync! This technology ensures their data lake remains consistent, reliable, and high-performing. The article highlights the engineering efforts behind maintaining data integrity at scale. Learn more about Uber&amp;rsquo;s innovative approach to data management! 📊💻 #DataEngineering #Uber #HiveSync #DataManagement #TechInnovation</description>
+    </item>
+    <item>
+      <title>Improved Annotation Handling in Kotlin 2.2: Less Boilerplate, Fewer Surprises</title>
+      <link>/articles/article-2025-09-04-7728/</link>
+      <pubDate>Thu, 04 Sep 2025 11:56:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7728/</guid>
+      <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with annotations in frameworks like Spring and JPA. Previously, annotations applied to constructor parameters often did not validate properties during updates, leading to unexpected behavior. The new default rule ensures that annotations are applied to both constructor parameters and properties, streamlining code and reducing boilerplate. This update enhances validation consistency, allowing for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Slack’s Anomaly Event Response</title>
+      <link>/articles/article-2025-09-04-7723/</link>
+      <pubDate>Thu, 04 Sep 2025 10:00:02 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7723/</guid>
+      <description>In response to evolving cyber threats, Slack has introduced Anomaly Event Response (AER), a proactive security measure. 🌐 AER utilizes real-time monitoring and advanced analytics to quickly identify and respond to suspicious activities on the platform, reducing detection-to-response time from hours to minutes. ⏱️ This system helps prevent potential data breaches without the need for additional security tools. Slack also provides comprehensive audit logs to enhance security for Enterprise&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Etsy Buyer Profiles with LLMs</title>
+      <link>/articles/article-2025-09-03-7694/</link>
+      <pubDate>Wed, 03 Sep 2025 21:40:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7694/</guid>
+      <description>Etsy is enhancing buyer experiences by using large language models (LLMs) to create detailed buyer profiles based on shopping behaviors. 🛍️ These profiles capture individual interests, helping to tailor search results for nearly 90 million users while maintaining privacy compliance. Users have the option to opt-out of profile generation. 🔍 Technical improvements have reduced the time for profile generation from 21 days to just 3 days, making personalization more efficient and cost-effective&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>You are Doing MCP Wrong: 3 Big Misconceptions</title>
+      <link>/articles/article-2025-09-03-7692/</link>
+      <pubDate>Wed, 03 Sep 2025 16:59:46 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7692/</guid>
+      <description>🔍 Understanding the Model Context Protocol (MCP) is crucial for developers. Many mistakenly view MCP as just another API, which can disrupt agent designs and execution reliability. MCP is designed for LLM tool use, not replacing RPC but enhancing it. Another common misconception is that tools are agents. While tools execute tasks, agents plan and evaluate until goals are met. For effective use, define tool preconditions, validate inputs, and maintain clear logs. #ModelContextProtocol #MCP&amp;hellip;</description>
+    </item>
+    <item>
+      <title>North–South Networks: The Key to Faster Enterprise AI Workloads</title>
+      <link>/articles/article-2025-09-03-7684/</link>
+      <pubDate>Wed, 03 Sep 2025 15:04:24 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7684/</guid>
+      <description>In the realm of AI infrastructure, data movement is crucial for performance. As enterprises adopt advanced AI systems, they face challenges in quickly and reliably moving data. NVIDIA’s Enterprise Reference Architectures (RAs) provide guidance on optimizing north-south networks, essential for tasks like model loading and inference queries. By utilizing NVIDIA Spectrum-X Ethernet, organizations can enhance data flow, particularly for data-intensive AI applications. Legacy networks often&amp;hellip;</description>
+    </item>
+    <item>
+      <title>vLLM with torch.compile: Efficient LLM inference on PyTorch</title>
+      <link>/articles/article-2025-09-03-7653/</link>
+      <pubDate>Wed, 03 Sep 2025 07:01:11 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7653/</guid>
+      <description>🚀 Efficient LLM inference is crucial in today’s diverse tech landscape. The article discusses how &lt;strong&gt;torch.compile&lt;/strong&gt;, PyTorch&amp;rsquo;s JIT compiler, streamlines performance by automatically optimizing kernels. This reduces the burden on developers, allowing them to focus on model design rather than manual tuning. Incorporated into &lt;strong&gt;vLLM&lt;/strong&gt;, torch.compile enhances usability and performance through custom compiler passes. It supports dynamic batch sizes and improves startup times with caching&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Calculating Character Count of RCS Messages</title>
+      <link>/articles/article-2025-09-03-7770/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7770/</guid>
+      <description>Understanding RCS message character count is crucial for effective customer engagement. 📱 This article delves into the differences in message length and encoding between RCS and SMS. It highlights the importance of these factors in communication strategies. For developers, these insights can optimize message delivery and enhance user experiences. #RCS #SMS #CustomerEngagement #TechInsights #Messaging</description>
+    </item>
+    <item>
+      <title>Cut Model Deployment Costs While Keeping Performance With GPU Memory Swap</title>
+      <link>/articles/article-2025-09-02-7629/</link>
+      <pubDate>Tue, 02 Sep 2025 18:44:27 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7629/</guid>
+      <description>Deploying large language models (LLMs) at scale involves balancing fast responsiveness and GPU costs. Organizations often face tough choices: over-provisioning GPUs or risking user experience with latency spikes. NVIDIA&amp;rsquo;s GPU memory swap, or model hot-swapping, offers a solution. This innovation allows multiple models to share GPUs, dynamically offloading inactive models to CPU memory, enabling rapid activation when needed. Benchmark tests show promising results with lower costs and improved&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Uncore Cache Alignment</title>
+      <link>/articles/article-2025-09-02-7647/</link>
+      <pubDate>Tue, 02 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7647/</guid>
+      <description>🚀 Kubernetes v1.34 has introduced a new feature: the CPU Manager Static Policy Option, prefer-align-cpus-by-uncorecache, now in beta. This option optimizes performance for workloads on processors with a split uncore cache architecture, enhancing efficiency by reducing latency between CPU cores. To enable it, update your kubelet configuration. This feature is particularly beneficial for applications like telco systems but may vary based on workload types. #Kubernetes #CloudComputing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving GEMM Kernel Auto-Tuning Efficiency on NVIDIA GPUs with Heuristics and CUTLASS 4.2</title>
+      <link>/articles/article-2025-09-02-7630/</link>
+      <pubDate>Tue, 02 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7630/</guid>
+      <description>🚀 Selecting the optimal GEMM kernel for specific hardware is challenging due to the many performance-determining parameters. NVIDIA introduces &lt;strong&gt;nvMatmulHeuristics&lt;/strong&gt; to enhance the process. This module identifies a small set of top-performing kernel configurations, simplifying the tuning workflow and saving time. ⏱️ With nvMatmulHeuristics and CUTLASS 4.2, users can quickly generate and auto-tune kernels, leading to faster model compilation and better performance. #NVIDIA #GEMM #CUDA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A New Ranking Framework for Better Notification Quality on Instagram</title>
+      <link>/articles/article-2025-09-02-7650/</link>
+      <pubDate>Tue, 02 Sep 2025 16:00:08 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7650/</guid>
+      <description>Meta is enhancing Instagram notifications using machine learning and diversity algorithms. A new framework aims to reduce uniformity, offering a varied mix of notifications while lowering overall volume. This approach boosts engagement rates by ensuring users discover diverse content and creators. The goal is to balance personalization with a richer notification experience, avoiding overexposure to the same authors. #InstagramUpdates #MachineLearning #UserExperience #Diversity #SocialMedia</description>
+    </item>
+    <item>
+      <title>Building AI for consumer applications isn’t all fun and games</title>
+      <link>/articles/article-2025-09-02-7600/</link>
+      <pubDate>Tue, 02 Sep 2025 07:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7600/</guid>
+      <description>🚀 Kylan Gibbs, CEO of Inworld, shares insights on the technical challenges of developing interactive AI for virtual worlds and games. He highlights the importance of user experience, accessibility, and cost-efficiency in AI deployment. Inworld aims to streamline workload management and enhance iteration speed for teams. 👏 Congratulations to MrWhite for earning an Illuminator badge by answering 500 questions in just 12 hours! #AI #VirtualWorlds #UserExperience #Inworld #TechInsights</description>
+    </item>
+    <item>
+      <title>Architecting a High-Concurrency, Low-Latency Data Warehouse on Databricks That Scales</title>
+      <link>/articles/article-2025-09-02-7642/</link>
+      <pubDate>Tue, 02 Sep 2025 07:28:59 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7642/</guid>
+      <description>Unlock the potential of your data with a high-concurrency, low-latency data warehouse on Databricks. The article outlines key architectural considerations and a technical solution breakdown for implementing production-grade analytics. It also discusses real-world scenarios and trade-offs to keep in mind. Explore practical insights to achieve cost-efficient performance at scale. 📊💡 #DataWarehouse #Databricks #Analytics #BigData #CloudComputing</description>
+    </item>
+    <item>
+      <title>Your LLM is too large: How I generate production-ready failure analysis on a toaster</title>
+      <link>/articles/article-2025-09-02-7602/</link>
+      <pubDate>Tue, 02 Sep 2025 07:00:53 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7602/</guid>
+      <description>Running production-grade Kubernetes failure analysis on a cost-effective edge device can streamline troubleshooting. Using Llama 3.2:3B with 4-bit quantization, root cause analysis is achieved in just 70 seconds. This method incorporates pattern preprocessing to efficiently identify known failures without overwhelming the system with raw logs. Real-world results show a significant cost reduction, from $0.30-3.00 per analysis to less than $0.001, while providing actionable insights. Explore&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cronos: The New Dawn is set to deliver pulse-pounding survival horror using UE5</title>
+      <link>/articles/article-2025-09-02-7620/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7620/</guid>
+      <description>🕹️ Exciting developments in survival horror! The Bloober Team shared insights on &amp;ldquo;Cronos: The New Dawn,&amp;rdquo; highlighting their use of Unreal Engine 5 features like Lumen and Nanite. These technologies enhance combat mechanics and create a chilling atmosphere for players. Stay tuned for more updates on this intense gaming experience! 🎮🌌 #CronosTheNewDawn #SurvivalHorror #UnrealEngine5 #GameDevelopment #BlooberTeam</description>
+    </item>
     <item>
       <title>1 Billion Build Minutes Later: How we reinvented CI/CD at Atlassian</title>
-      <link>http://localhost:1313/articles/article-7560/</link>
+      <link>/articles/article-2025-08-29-7560/</link>
       <pubDate>Fri, 29 Aug 2025 17:28:23 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7560/</guid>
+      <guid>/articles/article-2025-08-29-7560/</guid>
       <description>🚀 In 2022, Atlassian recognized the need to streamline its CI/CD process due to fragmentation and inefficiencies. 🛠️ The solution? Consolidating efforts on Bitbucket Pipelines to support over 9,000 users, enhancing reliability and flexibility while maintaining team autonomy. Key focus areas included enterprise-grade scale, centralized standards, and preparing for AI advancements. Discover how Atlassian is transforming its development landscape! 🌐 #Atlassian #CICD #SoftwareDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>Fine-Tuning gpt-oss for Accuracy and Performance with Quantization Aware Training</title>
-      <link>http://localhost:1313/articles/article-7545/</link>
+      <link>/articles/article-2025-08-29-7545/</link>
       <pubDate>Fri, 29 Aug 2025 14:47:04 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7545/</guid>
+      <guid>/articles/article-2025-08-29-7545/</guid>
       <description>OpenAI&amp;rsquo;s gpt-oss model has made waves in the AI community with its innovative architecture and performance capabilities. 📈🧠 It features a mixture of expert architecture and a 128K context length, competing closely with OpenAI&amp;rsquo;s closed-source models. However, deploying foundational models like gpt-oss in critical fields requires careful fine-tuning. The article discusses employing Supervised Fine-Tuning (SFT) and Quantization-Aware Training (QAT) to enhance model accuracy while maintaining&amp;hellip;</description>
     </item>
     <item>
       <title>Moving the public Stack Overflow sites to the cloud: Part 1</title>
-      <link>http://localhost:1313/articles/article-7471/</link>
+      <link>/articles/article-2025-08-28-7471/</link>
       <pubDate>Thu, 28 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7471/</guid>
-      <description>ð Stack Overflow is transitioning from physical servers to the cloud! This move marks a significant shift from their traditional data center model, primarily based in the US. The journey began with Stack Overflow for Teams successfully migrating to Azure, but challenges remain for the public site. ð Key project deadlines are set for July 31, 2025, coinciding with the data center&amp;rsquo;s closure. The team is focused on setting milestones to ensure a smooth transition while maintaining flexibility&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7471/</guid>
+      <description>🚀 Stack Overflow is transitioning from physical servers to the cloud! This move marks a significant shift from their traditional data center model, primarily based in the US. The journey began with Stack Overflow for Teams successfully migrating to Azure, but challenges remain for the public site. 🌐 Key project deadlines are set for July 31, 2025, coinciding with the data center&amp;rsquo;s closure. The team is focused on setting milestones to ensure a smooth transition while maintaining flexibility&amp;hellip;</description>
     </item>
     <item>
       <title>Controlling the Rollout of Large-Scale Monorepo Changes</title>
-      <link>http://localhost:1313/articles/article-7472/</link>
+      <link>/articles/article-2025-08-28-7472/</link>
       <pubDate>Thu, 28 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7472/</guid>
-      <description>Uber is enhancing its deployment strategy by managing the impact of large-scale changes through effective orchestration. As the company moves towards fully automated continuous deployment, implementing robust safety practices is essential to minimize risks. This approach ensures smoother transitions and maintains system integrity during significant updates. #Deployment #Uber #TechUpdates #ContinuousIntegration #SoftwareEngineering ðð§ð</description>
+      <guid>/articles/article-2025-08-28-7472/</guid>
+      <description>Uber is enhancing its deployment strategy by managing the impact of large-scale changes through effective orchestration. As the company moves towards fully automated continuous deployment, implementing robust safety practices is essential to minimize risks. This approach ensures smoother transitions and maintains system integrity during significant updates. #Deployment #Uber #TechUpdates #ContinuousIntegration #SoftwareEngineering 🚀🔧📈</description>
     </item>
     <item>
       <title>Multicluster resiliency with global load balancing and mesh federation</title>
-      <link>http://localhost:1313/articles/article-7451/</link>
+      <link>/articles/article-2025-08-28-7451/</link>
       <pubDate>Thu, 28 Aug 2025 07:01:21 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7451/</guid>
-      <description>Explore the new architecture for multicluster resiliency using global load balancing and mesh federation! ð This approach combines a global load balancer and a federated service mesh to enhance service availability and disaster recovery, particularly for stateless workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and Red Hat Connectivity Link now allow for more robust deployments. Learn how to configure these tools for optimal performance! #Multicluster #RedHat #CloudComputing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7451/</guid>
+      <description>Explore the new architecture for multicluster resiliency using global load balancing and mesh federation! 🌐 This approach combines a global load balancer and a federated service mesh to enhance service availability and disaster recovery, particularly for stateless workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and Red Hat Connectivity Link now allow for more robust deployments. Learn how to configure these tools for optimal performance! #Multicluster #RedHat #CloudComputing&amp;hellip;</description>
     </item>
     <item>
       <title>How We Oops-Proofed Infrastructure Deletion on Railway</title>
-      <link>http://localhost:1313/articles/article-7508/</link>
+      <link>/articles/article-2025-08-28-7508/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7508/</guid>
-      <description>Railway enhances cloud infrastructure safety with a focus on staged changes and undoable deletions. This approach ensures that destructive actions, such as deleting infrastructure, are carefully managed from the dashboard to the underlying physical resources. Learn more about how these methods protect users and improve overall reliability. #CloudInfrastructure #SafetyFirst #TechInnovation ðð§ð¡</description>
+      <guid>/articles/article-2025-08-28-7508/</guid>
+      <description>Railway enhances cloud infrastructure safety with a focus on staged changes and undoable deletions. This approach ensures that destructive actions, such as deleting infrastructure, are carefully managed from the dashboard to the underlying physical resources. Learn more about how these methods protect users and improve overall reliability. #CloudInfrastructure #SafetyFirst #TechInnovation 🌐🔧💡</description>
     </item>
     <item>
       <title>Breaking AI Testing Barriers: Dynamic Assertions and AI Automation Deliver 1000%&#43; Productivity Gains</title>
-      <link>http://localhost:1313/articles/article-7448/</link>
+      <link>/articles/article-2025-08-27-7448/</link>
       <pubDate>Wed, 27 Aug 2025 19:28:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7448/</guid>
-      <description>ð Discover how Gayathri Rajan and her team at Salesforce are revolutionizing AI quality testing! Their innovative approach tackles non-deterministic AI responses and complex integration challenges. By implementing dynamic assertions, they enhance validation processes and boost productivity by over 1000%. Their mission is to ensure reliable AI experiences, empowering teams while transforming quality into a competitive advantage. #AI #QualityTesting #Salesforce #Innovation #Productivity</description>
+      <guid>/articles/article-2025-08-27-7448/</guid>
+      <description>🚀 Discover how Gayathri Rajan and her team at Salesforce are revolutionizing AI quality testing! Their innovative approach tackles non-deterministic AI responses and complex integration challenges. By implementing dynamic assertions, they enhance validation processes and boost productivity by over 1000%. Their mission is to ensure reliable AI experiences, empowering teams while transforming quality into a competitive advantage. #AI #QualityTesting #Salesforce #Innovation #Productivity</description>
     </item>
     <item>
       <title>How to Improve CUDA Kernel Performance with Shared Memory Register Spilling</title>
-      <link>http://localhost:1313/articles/article-7273/</link>
+      <link>/articles/article-2025-08-27-7273/</link>
       <pubDate>Wed, 27 Aug 2025 16:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7273/</guid>
-      <description>ð New in CUDA Toolkit 13.0: Shared Memory Register Spilling! This feature helps improve CUDA kernel performance by allowing the compiler to use shared memory for excess variables instead of local memory. This reduces spill latency and L2 pressure for register-heavy kernels. To enable shared memory spilling, use the pragma command in your kernel definition. With this optimization, kernels can perform better, especially in critical regions where registers are heavily used. Learn more about how&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7273/</guid>
+      <description>🚀 New in CUDA Toolkit 13.0: Shared Memory Register Spilling! This feature helps improve CUDA kernel performance by allowing the compiler to use shared memory for excess variables instead of local memory. This reduces spill latency and L2 pressure for register-heavy kernels. To enable shared memory spilling, use the pragma command in your kernel definition. With this optimization, kernels can perform better, especially in critical regions where registers are heavily used. Learn more about how&amp;hellip;</description>
     </item>
     <item>
       <title>How Cloudflare runs more AI models on fewer GPUs: A technical deep-dive</title>
-      <link>http://localhost:1313/articles/article-7236/</link>
+      <link>/articles/article-2025-08-27-7236/</link>
       <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7236/</guid>
-      <description>ð Cloudflare has developed a new platform called Omni to optimize GPU usage for AI models. Omni employs lightweight isolation and memory over-commitment, allowing multiple models to run on a single GPU. This innovation enhances model availability and reduces latency, making AI services more efficient. The platform also simplifies management by using a single control plane to handle model provisioning and scaling automatically. #AI #Cloudflare #TechInnovation #GPU #Omni</description>
+      <guid>/articles/article-2025-08-27-7236/</guid>
+      <description>🚀 Cloudflare has developed a new platform called Omni to optimize GPU usage for AI models. Omni employs lightweight isolation and memory over-commitment, allowing multiple models to run on a single GPU. This innovation enhances model availability and reduces latency, making AI services more efficient. The platform also simplifies management by using a single control plane to handle model provisioning and scaling automatically. #AI #Cloudflare #TechInnovation #GPU #Omni</description>
     </item>
     <item>
-      <title>How we built the most efficient inference engine for Cloudflareâs network</title>
-      <link>http://localhost:1313/articles/article-7289/</link>
+      <title>How we built the most efficient inference engine for Cloudflare’s network</title>
+      <link>/articles/article-2025-08-27-7289/</link>
       <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7289/</guid>
-      <description>ð Cloudflare has developed Infire, a new LLM inference engine designed to enhance resource efficiency for AI tasks. Infire uses advanced techniques to optimize memory, network I/O, and GPU utilization, allowing it to serve more requests with fewer resources. Initial tests show it completes tasks up to 7% faster than the previous vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers AI, demonstrating significant performance improvements for Cloudflareâs unique distributed&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7289/</guid>
+      <description>🚀 Cloudflare has developed Infire, a new LLM inference engine designed to enhance resource efficiency for AI tasks. Infire uses advanced techniques to optimize memory, network I/O, and GPU utilization, allowing it to serve more requests with fewer resources. Initial tests show it completes tasks up to 7% faster than the previous vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers AI, demonstrating significant performance improvements for Cloudflare’s unique distributed&amp;hellip;</description>
     </item>
     <item>
       <title>Smart deployments at scale: Leveraging ApplicationSets and Helm with cluster labels in Red Hat Advanced Cluster Management for Kubernetes</title>
-      <link>http://localhost:1313/articles/article-7203/</link>
+      <link>/articles/article-2025-08-27-7203/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7203/</guid>
-      <description>Managing multiple Kubernetes clusters can be complex, but Red Hat Advanced Cluster Management simplifies this process. ð It offers a centralized platform to oversee the entire lifecycle of Kubernetes clusters, ensuring consistent health monitoring and policy enforcement across environments. Combining ApplicationSets and Helm with cluster labels allows for tailored deployments, adapting configurations based on specific cluster characteristics. This integration streamlines operations and&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7203/</guid>
+      <description>Managing multiple Kubernetes clusters can be complex, but Red Hat Advanced Cluster Management simplifies this process. 🌐 It offers a centralized platform to oversee the entire lifecycle of Kubernetes clusters, ensuring consistent health monitoring and policy enforcement across environments. Combining ApplicationSets and Helm with cluster labels allows for tailored deployments, adapting configurations based on specific cluster characteristics. This integration streamlines operations and&amp;hellip;</description>
     </item>
     <item>
       <title>BGP dynamic routing with Fast Data Path on RHOSO 18</title>
-      <link>http://localhost:1313/articles/article-7206/</link>
+      <link>/articles/article-2025-08-27-7206/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:08 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7206/</guid>
-      <description>Exploring the performance of dynamic routing with OVN-BGP-Agent and Fast Data Path on RHOSO 18 has yielded insightful findings. ð A recent Proof of Concept assessed throughput, packet loss, stability, and resource utilization using Trex and BIRD. The results show high throughput, especially with large frames, and stable performance over extended periods. ð However, there are limitations, including bottlenecks for small packets and some manual configuration challenges. Insights from this study&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7206/</guid>
+      <description>Exploring the performance of dynamic routing with OVN-BGP-Agent and Fast Data Path on RHOSO 18 has yielded insightful findings. 🚀 A recent Proof of Concept assessed throughput, packet loss, stability, and resource utilization using Trex and BIRD. The results show high throughput, especially with large frames, and stable performance over extended periods. 📈 However, there are limitations, including bottlenecks for small packets and some manual configuration challenges. Insights from this study&amp;hellip;</description>
     </item>
     <item>
       <title>Graphics and rendering tips from Survival Kids</title>
-      <link>http://localhost:1313/articles/article-7217/</link>
+      <link>/articles/article-2025-08-27-7217/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7217/</guid>
-      <description>ð This summer, Unity launched the co-op game &amp;ldquo;Survival Kids,&amp;rdquo; developed in-house with a small team. With limited resources, they focused on innovative graphics and rendering techniques. ð Using the Universal Render Pipeline, they balanced artistic goals with performance needs. Custom shaders and dynamic lighting were key to achieving their visual style. ð The ocean rendering was inspired by existing projects, utilizing signed distance fields for unique effects. Stay tuned for more insights on&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7217/</guid>
+      <description>🚀 This summer, Unity launched the co-op game &amp;ldquo;Survival Kids,&amp;rdquo; developed in-house with a small team. With limited resources, they focused on innovative graphics and rendering techniques. 🌟 Using the Universal Render Pipeline, they balanced artistic goals with performance needs. Custom shaders and dynamic lighting were key to achieving their visual style. 🌊 The ocean rendering was inspired by existing projects, utilizing signed distance fields for unique effects. Stay tuned for more insights on&amp;hellip;</description>
     </item>
     <item>
       <title>How Uber Serves over 150 Million Reads per Second from Integrated Cache with Stronger Consistency Guarantees</title>
-      <link>http://localhost:1313/articles/article-7249/</link>
+      <link>/articles/article-2025-08-26-7249/</link>
       <pubDate>Tue, 26 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7249/</guid>
-      <description>ð Uber&amp;rsquo;s integrated cache, CacheFront, now handles over 150 million reads per second, achieving impressive hit rates exceeding 99.9%. Recent enhancements have strengthened the consistency guarantees of this infrastructure, ensuring reliable performance for users. For more insights, check out the full article. #Uber #CacheFront #TechInnovation #DataInfrastructure #Performance</description>
+      <guid>/articles/article-2025-08-26-7249/</guid>
+      <description>🚀 Uber&amp;rsquo;s integrated cache, CacheFront, now handles over 150 million reads per second, achieving impressive hit rates exceeding 99.9%. Recent enhancements have strengthened the consistency guarantees of this infrastructure, ensuring reliable performance for users. For more insights, check out the full article. #Uber #CacheFront #TechInnovation #DataInfrastructure #Performance</description>
     </item>
     <item>
       <title>Engineering stories behind the Medium Daily Digest Algorithm: Part 1</title>
-      <link>http://localhost:1313/articles/article-7243/</link>
+      <link>/articles/article-2025-08-26-7243/</link>
       <pubDate>Tue, 26 Aug 2025 11:31:37 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7243/</guid>
-      <description>ð Exciting improvements to Medium&amp;rsquo;s Daily Digest algorithm are highlighted in a new article series! Part 1 details how adjustments led to a 7% increase in reading time for users. The engineering team identified filtering issues affecting recommendations, particularly due to Appleâs Mail Privacy Protection. The changes made resulted in a 10% rise in user conversions and enhanced story quality for all readers. Stay tuned for more insights as the series continues! ðð§ #Medium #DataScience&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7243/</guid>
+      <description>🚀 Exciting improvements to Medium&amp;rsquo;s Daily Digest algorithm are highlighted in a new article series! Part 1 details how adjustments led to a 7% increase in reading time for users. The engineering team identified filtering issues affecting recommendations, particularly due to Apple’s Mail Privacy Protection. The changes made resulted in a 10% rise in user conversions and enhanced story quality for all readers. Stay tuned for more insights as the series continues! 📈📧 #Medium #DataScience&amp;hellip;</description>
     </item>
     <item>
       <title>Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine</title>
-      <link>http://localhost:1313/articles/article-7177/</link>
+      <link>/articles/article-2025-08-26-7177/</link>
       <pubDate>Tue, 26 Aug 2025 07:11:53 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7177/</guid>
-      <description>ð Attention Ruby developers! In the latest blog post from RubyMine, the focus is on the importance of mastering debuggers like byebug and the debug gem. These tools are essential for tracking down bugs effectively. The article also explores RubyMine&amp;rsquo;s debugging architecture and provides insights from Dmitry Pogrebnoy&amp;rsquo;s talk, &amp;ldquo;Demystifying Debugger&amp;rdquo;. An interesting experiment on the performance of these debuggers is included as well. Learn how often Ruby developers rely on debuggers, with data&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7177/</guid>
+      <description>🚀 Attention Ruby developers! In the latest blog post from RubyMine, the focus is on the importance of mastering debuggers like byebug and the debug gem. These tools are essential for tracking down bugs effectively. The article also explores RubyMine&amp;rsquo;s debugging architecture and provides insights from Dmitry Pogrebnoy&amp;rsquo;s talk, &amp;ldquo;Demystifying Debugger&amp;rdquo;. An interesting experiment on the performance of these debuggers is included as well. Learn how often Ruby developers rely on debuggers, with data&amp;hellip;</description>
     </item>
     <item>
       <title>A VM tuning case study: Balancing power and performance on AMD processors</title>
-      <link>http://localhost:1313/articles/article-7173/</link>
+      <link>/articles/article-2025-08-26-7173/</link>
       <pubDate>Tue, 26 Aug 2025 07:01:25 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7173/</guid>
-      <description>During a server deployment, a significant performance gap was found between bare metal and virtual machine (VM) workloads. Optimizations, including adjusting system profiles and enabling CPU scaling drivers, were implemented. These changes resulted in notable improvements in VM performance, with the tuned VM even surpassing the original bare-metal completion times. The study highlights how targeted adjustments can lead to substantial gains in efficiency. ð§ð»â¡ï¸ #VMTuning&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7173/</guid>
+      <description>During a server deployment, a significant performance gap was found between bare metal and virtual machine (VM) workloads. Optimizations, including adjusting system profiles and enabling CPU scaling drivers, were implemented. These changes resulted in notable improvements in VM performance, with the tuned VM even surpassing the original bare-metal completion times. The study highlights how targeted adjustments can lead to substantial gains in efficiency. 🔧💻⚡️ #VMTuning&amp;hellip;</description>
     </item>
     <item>
-      <title>&lt;p&gt;The future of Riotâs &lt;em&gt;VALORANT&lt;/em&gt; is built on UE5&lt;/p&gt;</title>
-      <link>http://localhost:1313/articles/article-7215/</link>
+      <title>The future of Riot’s VALORANT is built on UE5</title>
+      <link>/articles/article-2025-08-26-7215/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7215/</guid>
-      <description>Riot Games is upgrading VALORANT from Unreal Engine 4 to Unreal Engine 5. Marcus Reid explains that this shift aims to enhance gameplay and graphics, ensuring the game remains competitive and appealing. The transition is part of Riot&amp;rsquo;s strategy to secure VALORANT&amp;rsquo;s future in the gaming landscape. ð®â¨ #VALORANT #RiotGames #GamingNews #UE5 #GameDevelopment</description>
+      <guid>/articles/article-2025-08-26-7215/</guid>
+      <description>Riot Games is upgrading VALORANT from Unreal Engine 4 to Unreal Engine 5. Marcus Reid explains that this shift aims to enhance gameplay and graphics, ensuring the game remains competitive and appealing. The transition is part of Riot&amp;rsquo;s strategy to secure VALORANT&amp;rsquo;s future in the gaming landscape. 🎮✨ #VALORANT #RiotGames #GamingNews #UE5 #GameDevelopment</description>
     </item>
     <item>
-      <title>Comment ranker â An ML-based classifier to improve LLM code review quality using Atlassianâs proprietary data</title>
-      <link>http://localhost:1313/articles/article-7192/</link>
+      <title>Comment ranker – An ML-based classifier to improve LLM code review quality using Atlassian’s proprietary data</title>
+      <link>/articles/article-2025-08-25-7192/</link>
       <pubDate>Mon, 25 Aug 2025 23:22:23 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7192/</guid>
+      <guid>/articles/article-2025-08-25-7192/</guid>
       <description>Atlassian has introduced an ML-based comment ranker to enhance code review quality using proprietary data. This tool, part of the Rovo Dev agents, helps developers by filtering comments generated by LLMs, significantly improving efficiency. In its open beta, it has already supported over 43K PRs monthly and reduced PR cycle time by 30%. The comment ranker optimizes comment selection based on success metrics, ensuring only valuable feedback is highlighted for developers. #Atlassian #CodeReview&amp;hellip;</description>
     </item>
     <item>
       <title>Driving Airport Efficiency with MongoDB and Dataworkz</title>
-      <link>http://localhost:1313/articles/article-6474/</link>
+      <link>/articles/article-2025-08-25-6474/</link>
       <pubDate>Mon, 25 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6474/</guid>
-      <description>In 2024, over 40 million flights were supported globally, leading to complex ground operations that involve numerous tasks. ð With approximately 30,000 daily flight delays, a new smart airport operations application using MongoDB Atlas and Dataworkz aims to enhance efficiency. The solution features an AI voice assistant that provides real-time information and guides staff through checklists, potentially reducing human errors and improving safety. This technology harnesses Google Cloud&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-6474/</guid>
+      <description>In 2024, over 40 million flights were supported globally, leading to complex ground operations that involve numerous tasks. 🚀 With approximately 30,000 daily flight delays, a new smart airport operations application using MongoDB Atlas and Dataworkz aims to enhance efficiency. The solution features an AI voice assistant that provides real-time information and guides staff through checklists, potentially reducing human errors and improving safety. This technology harnesses Google Cloud&amp;hellip;</description>
     </item>
     <item>
       <title>What is an image mode 3-way merge?</title>
-      <link>http://localhost:1313/articles/article-6331/</link>
+      <link>/articles/article-2025-08-25-6331/</link>
       <pubDate>Mon, 25 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6331/</guid>
-      <description>ð Curious about the 3-way merge in Red Hat Enterprise Linux (RHEL)? In image mode, a new filesystem image is created to manage updates. This process includes a third version, older than the current and new images, to reduce conflicts. The merge prioritizes local changes, ensuring personalized settings remain intact. Utilizing OSTree, RHEL manages multiple OS installations effectively, making the merging process smoother. ð¥ï¸â¨ #RedHat #Linux #3WayMerge #OSTree #TechUpdates</description>
+      <guid>/articles/article-2025-08-25-6331/</guid>
+      <description>🔍 Curious about the 3-way merge in Red Hat Enterprise Linux (RHEL)? In image mode, a new filesystem image is created to manage updates. This process includes a third version, older than the current and new images, to reduce conflicts. The merge prioritizes local changes, ensuring personalized settings remain intact. Utilizing OSTree, RHEL manages multiple OS installations effectively, making the merging process smoother. 🖥️✨ #RedHat #Linux #3WayMerge #OSTree #TechUpdates</description>
     </item>
     <item>
       <title>Forest in a (Water) Bottle | Virtual Aquarium</title>
-      <link>http://localhost:1313/articles/article-7507/</link>
+      <link>/articles/article-2025-08-24-7507/</link>
       <pubDate>Sun, 24 Aug 2025 23:33:53 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7507/</guid>
-      <description>ð³ð§ Exploring the potential of Unreal Engine 5, this article discusses a test-bench scene featuring a virtual aquarium. The focus was on experimenting with new features during UE5&amp;rsquo;s Early Access phase. This project highlights the innovative possibilities for developers in creating immersive environments. #UnrealEngine5 #GameDevelopment #VirtualReality #Innovation</description>
+      <guid>/articles/article-2025-08-24-7507/</guid>
+      <description>🌳💧 Exploring the potential of Unreal Engine 5, this article discusses a test-bench scene featuring a virtual aquarium. The focus was on experimenting with new features during UE5&amp;rsquo;s Early Access phase. This project highlights the innovative possibilities for developers in creating immersive environments. #UnrealEngine5 #GameDevelopment #VirtualReality #Innovation</description>
     </item>
     <item>
       <title>Developer Experience at Pinterest: The Journey to PinConsole</title>
-      <link>http://localhost:1313/articles/article-6316/</link>
+      <link>/articles/article-2025-08-22-6316/</link>
       <pubDate>Fri, 22 Aug 2025 20:12:18 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6316/</guid>
-      <description>ð Pinterest has introduced PinConsole, an Internal Developer Platform (IDP) aimed at simplifying the developer experience. This initiative addresses increasing complexity and improves engineering velocity for over 550 million users. ð The team identified challenges such as tool fragmentation and inconsistent workflows, which were hindering productivity. By leveraging Backstage, PinConsole creates a unified interface, allowing engineers to focus on business logic. ð Early adoption shows&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6316/</guid>
+      <description>🚀 Pinterest has introduced PinConsole, an Internal Developer Platform (IDP) aimed at simplifying the developer experience. This initiative addresses increasing complexity and improves engineering velocity for over 550 million users. 🔍 The team identified challenges such as tool fragmentation and inconsistent workflows, which were hindering productivity. By leveraging Backstage, PinConsole creates a unified interface, allowing engineers to focus on business logic. 📈 Early adoption shows&amp;hellip;</description>
     </item>
     <item>
       <title>Processing Millions of Events from Thousands of Aircraft with One Declarative Pipeline</title>
-      <link>http://localhost:1313/articles/article-6310/</link>
+      <link>/articles/article-2025-08-22-6310/</link>
       <pubDate>Fri, 22 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6310/</guid>
-      <description>A new article discusses how tens of thousands of aircraft generate IoT events every second. It highlights the use of Lakeflow declarative pipelines and PySpark custom data sources to process millions of these events efficiently. The focus is on building scalable systems to manage this vast amount of data effectively. âï¸ðð #Aviation #DataProcessing #IoT #CloudComputing #ScalableSystems</description>
+      <guid>/articles/article-2025-08-22-6310/</guid>
+      <description>A new article discusses how tens of thousands of aircraft generate IoT events every second. It highlights the use of Lakeflow declarative pipelines and PySpark custom data sources to process millions of these events efficiently. The focus is on building scalable systems to manage this vast amount of data effectively. ✈️🌐📊 #Aviation #DataProcessing #IoT #CloudComputing #ScalableSystems</description>
     </item>
     <item>
       <title>Inside NVIDIA Blackwell Ultra: The Chip Powering the AI Factory Era</title>
-      <link>http://localhost:1313/articles/article-6299/</link>
-      <pubDate>Fri, 22 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6299/</guid>
+      <link>/articles/article-2025-08-22-6299/</link>
+      <pubDate>Fri, 22 Aug 2025 17:58:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-22-6299/</guid>
       <description>Introducing the NVIDIA Blackwell Ultra GPU, a key advancement in the Blackwell architecture. This GPU enhances AI training and reasoning with innovative technology. Key features include a dual-reticle design, high bandwidth, and energy-efficient performance. It boasts 208 billion transistors and provides significant scalability for AI tasks. With 15 PetaFLOPS performance and improved memory access, the Blackwell Ultra sets a new standard for accelerated computing. #NVIDIA #AI #BlackwellUltra&amp;hellip;</description>
     </item>
     <item>
       <title>How Tipalti mastered Elasticsearch performance with AutoOps</title>
-      <link>http://localhost:1313/articles/article-6300/</link>
+      <link>/articles/article-2025-08-22-6300/</link>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6300/</guid>
-      <description>Tipalti, a leader in payables automation, has transformed its approach to Elasticsearch performance. By switching from manual monitoring to the automated AutoOps system, they achieved a 10% annual cost saving while managing a complex database ecosystem with a small team. Oz Levy, a data operations manager at Tipalti, shared insights on this transition and its impact on operational efficiency. #Tipalti #Elasticsearch #AutoOps #Efficiency #CostSaving ð¼ðð</description>
+      <guid>/articles/article-2025-08-22-6300/</guid>
+      <description>Tipalti, a leader in payables automation, has transformed its approach to Elasticsearch performance. By switching from manual monitoring to the automated AutoOps system, they achieved a 10% annual cost saving while managing a complex database ecosystem with a small team. Oz Levy, a data operations manager at Tipalti, shared insights on this transition and its impact on operational efficiency. #Tipalti #Elasticsearch #AutoOps #Efficiency #CostSaving 💼📈🔍</description>
     </item>
     <item>
       <title>From massive models to mobile magic: The tech behind YouTube real-time generative AI effects</title>
-      <link>http://localhost:1313/articles/article-5179/</link>
+      <link>/articles/article-2025-08-21-5179/</link>
       <pubDate>Thu, 21 Aug 2025 18:05:35 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5179/</guid>
-      <description>YouTube is enhancing user experience on mobile with real-time generative AI effects. ð±â¨ By utilizing knowledge distillation and MediaPipe, YouTube has developed a solution to deliver over 20 effects directly on creators&amp;rsquo; phones. This process involves creating smaller, efficient models tailored for specific tasks, allowing for seamless video processing. These advancements make features like cartoon style transfer not only possible but also fun and interactive for creators on YouTube Shorts. ð¨ð¥&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5179/</guid>
+      <description>YouTube is enhancing user experience on mobile with real-time generative AI effects. 📱✨ By utilizing knowledge distillation and MediaPipe, YouTube has developed a solution to deliver over 20 effects directly on creators&amp;rsquo; phones. This process involves creating smaller, efficient models tailored for specific tasks, allowing for seamless video processing. These advancements make features like cartoon style transfer not only possible but also fun and interactive for creators on YouTube Shorts. 🎨🎥&amp;hellip;</description>
     </item>
     <item>
       <title>From Facts &amp; Metrics to Media Machine Learning: Evolving the Data Engineering Function at Netflix</title>
-      <link>http://localhost:1313/articles/article-5177/</link>
+      <link>/articles/article-2025-08-21-5177/</link>
       <pubDate>Thu, 21 Aug 2025 17:39:40 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5177/</guid>
-      <description>At Netflix, we are evolving our data engineering function with the introduction of Media ML Data Engineering. ð¥ð This new specialization focuses on managing complex media data, allowing for centralized access to various media assets like video, audio, and text. The initiative aims to enhance machine learning capabilities and improve analytics through the Media Data Lake, which supports advanced technologies. Key responsibilities include standardizing media assets and enriching metadata to&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5177/</guid>
+      <description>At Netflix, we are evolving our data engineering function with the introduction of Media ML Data Engineering. 🎥📊 This new specialization focuses on managing complex media data, allowing for centralized access to various media assets like video, audio, and text. The initiative aims to enhance machine learning capabilities and improve analytics through the Media Data Lake, which supports advanced technologies. Key responsibilities include standardizing media assets and enriching metadata to&amp;hellip;</description>
     </item>
     <item>
       <title>Converged Datastore for Agentic AI</title>
-      <link>http://localhost:1313/articles/article-6475/</link>
+      <link>/articles/article-2025-08-21-6475/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6475/</guid>
-      <description>As AI evolves, traditional data architectures struggle to keep pace. Fragmented systems hinder efficiency, especially in data-heavy sectors like insurance. ð©ï¸ The article advocates for converged datastores that unify structured and unstructured data. This shift allows AI agents to analyze, reason, and act in real-time, streamlining processes and enhancing customer experiences. ð A new approach is essential, integrating advanced tools to support intelligent automation and cognitive decision-&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-6475/</guid>
+      <description>As AI evolves, traditional data architectures struggle to keep pace. Fragmented systems hinder efficiency, especially in data-heavy sectors like insurance. 🌩️ The article advocates for converged datastores that unify structured and unstructured data. This shift allows AI agents to analyze, reason, and act in real-time, streamlining processes and enhancing customer experiences. 📊 A new approach is essential, integrating advanced tools to support intelligent automation and cognitive decision-&amp;hellip;</description>
     </item>
     <item>
       <title>Improve Data Integrity and Security with Accelerated Hash Functions and Merkle Trees in cuPQC 0.4</title>
-      <link>http://localhost:1313/articles/article-5039/</link>
+      <link>/articles/article-2025-08-21-5039/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5039/</guid>
-      <description>ð As data sizes grow, ensuring security and integrity is vital. The cuPQC SDK v0.4 offers advanced cryptographic techniques, including inclusion proofs and digital signatures, to enhance data protection. New features include expanded hash function support and efficient Merkle tree calculations, improving performance in data verification. ð³ Discover how these updates can benefit your cryptographic tasks! #DataIntegrity #Cryptography #cuPQC #MerkleTrees #CyberSecurity</description>
+      <guid>/articles/article-2025-08-21-5039/</guid>
+      <description>🔒 As data sizes grow, ensuring security and integrity is vital. The cuPQC SDK v0.4 offers advanced cryptographic techniques, including inclusion proofs and digital signatures, to enhance data protection. New features include expanded hash function support and efficient Merkle tree calculations, improving performance in data verification. 🌳 Discover how these updates can benefit your cryptographic tasks! #DataIntegrity #Cryptography #cuPQC #MerkleTrees #CyberSecurity</description>
     </item>
     <item>
       <title>Scaling AI Inference Performance and Flexibility with NVIDIA NVLink and NVLink Fusion</title>
-      <link>http://localhost:1313/articles/article-5040/</link>
+      <link>/articles/article-2025-08-21-5040/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5040/</guid>
-      <description>The rise of AI model complexity has increased parameter counts from millions to trillions, demanding more computational power. ð NVIDIA NVLink and NVLink Fusion are key technologies enhancing AI inference performance. They enable large-scale parallelization strategies, essential for handling advanced AI architectures like mixture-of-experts (MoE). ð¤ This evolution in AI systems highlights the need for interconnected GPUs acting as a unified pool of compute and memory. #AI #NVIDIA #NVLink&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5040/</guid>
+      <description>The rise of AI model complexity has increased parameter counts from millions to trillions, demanding more computational power. 🌐 NVIDIA NVLink and NVLink Fusion are key technologies enhancing AI inference performance. They enable large-scale parallelization strategies, essential for handling advanced AI architectures like mixture-of-experts (MoE). 🤖 This evolution in AI systems highlights the need for interconnected GPUs acting as a unified pool of compute and memory. #AI #NVIDIA #NVLink&amp;hellip;</description>
     </item>
     <item>
       <title>Building Hyperforce Service Mesh: Blast Radius Reduction, Scale Optimization, and Open Source Innovation</title>
-      <link>http://localhost:1313/articles/article-5162/</link>
+      <link>/articles/article-2025-08-21-5162/</link>
       <pubDate>Thu, 21 Aug 2025 13:52:48 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5162/</guid>
-      <description>ð In the latest &amp;ldquo;Engineering Energizers&amp;rdquo; Q&amp;amp;A, we spotlight Pratima Nambiar, a Distinguished Architect at Salesforce. She has been pivotal in developing the service mesh architecture for the Hyperforce platform. ð This architecture secures communication among thousands of services, addressing challenges like blast radius reduction and scale optimization. The team leverages open source tools like Envoy and Istio to enhance service connectivity. ð¡ The shift to public cloud infrastructure has&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5162/</guid>
+      <description>🚀 In the latest &amp;ldquo;Engineering Energizers&amp;rdquo; Q&amp;amp;A, we spotlight Pratima Nambiar, a Distinguished Architect at Salesforce. She has been pivotal in developing the service mesh architecture for the Hyperforce platform. 🔍 This architecture secures communication among thousands of services, addressing challenges like blast radius reduction and scale optimization. The team leverages open source tools like Envoy and Istio to enhance service connectivity. 💡 The shift to public cloud infrastructure has&amp;hellip;</description>
     </item>
     <item>
       <title>New Benchmark Tests Reveal Key Vector Search Performance Factors</title>
-      <link>http://localhost:1313/articles/article-6476/</link>
+      <link>/articles/article-2025-08-21-6476/</link>
       <pubDate>Thu, 21 Aug 2025 11:55:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6476/</guid>
-      <description>ð New benchmarks for vector search performance are here! The MongoDB Benchmark for Atlas Vector Search provides essential strategies for optimizing search at scale, especially for datasets exceeding 10M vectors. Key factors like accuracy, cost, and throughput are explored, offering insights into quantization, dimensionality, and more. The guide aims to simplify initial tests and enhance understanding of system behavior. Explore the full guide in our documentation! ðð #VectorSearch #MongoDB&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-6476/</guid>
+      <description>🚀 New benchmarks for vector search performance are here! The MongoDB Benchmark for Atlas Vector Search provides essential strategies for optimizing search at scale, especially for datasets exceeding 10M vectors. Key factors like accuracy, cost, and throughput are explored, offering insights into quantization, dimensionality, and more. The guide aims to simplify initial tests and enhance understanding of system behavior. Explore the full guide in our documentation! 📊📈 #VectorSearch #MongoDB&amp;hellip;</description>
     </item>
     <item>
       <title>The hidden pitfalls of Kafka tiered storage</title>
-      <link>http://localhost:1313/articles/article-5019/</link>
+      <link>/articles/article-2025-08-21-5019/</link>
       <pubDate>Thu, 21 Aug 2025 07:01:29 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5019/</guid>
-      <description>ð Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like &lt;code&gt;fetch.max.bytes&lt;/code&gt; and &lt;code&gt;max.partition.fetch.bytes&lt;/code&gt;. Kafka 4.2.0 promises improvements to address these issues, enhancing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5019/</guid>
+      <description>🚀 Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like &lt;code&gt;fetch.max.bytes&lt;/code&gt; and &lt;code&gt;max.partition.fetch.bytes&lt;/code&gt;. Kafka 4.2.0 promises improvements to address these issues, enhancing&amp;hellip;</description>
     </item>
     <item>
       <title>Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput</title>
-      <link>http://localhost:1313/articles/article-5041/</link>
+      <link>/articles/article-2025-08-20-5041/</link>
       <pubDate>Wed, 20 Aug 2025 15:15:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5041/</guid>
-      <description>ð Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5041/</guid>
+      <description>🚀 Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore&amp;hellip;</description>
     </item>
     <item>
       <title>&lt;script type=&#34;text/llms.txt&#34;&gt;</title>
-      <link>http://localhost:1313/articles/article-5082/</link>
+      <link>/articles/article-2025-08-20-5082/</link>
       <pubDate>Wed, 20 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5082/</guid>
-      <description>Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! ð»ð #AI #HTML #llms #Innovation #TechNews</description>
+      <guid>/articles/article-2025-08-20-5082/</guid>
+      <description>Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! 💻📄 #AI #HTML #llms #Innovation #TechNews</description>
     </item>
     <item>
       <title>Your agent, your rules: A deep dive into the Responses API with Llama Stack</title>
-      <link>http://localhost:1313/articles/article-5021/</link>
+      <link>/articles/article-2025-08-20-5021/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:24 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5021/</guid>
-      <description>ð The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5021/</guid>
+      <description>🔍 The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI&amp;hellip;</description>
     </item>
     <item>
       <title>How I built an agentic application for Docling with MCP</title>
-      <link>http://localhost:1313/articles/article-5025/</link>
+      <link>/articles/article-2025-08-20-5025/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:20 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5025/</guid>
-      <description>ð Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. ð ï¸ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&amp;rsquo;s still untapped potential in fully utilizing MCPâs capabilities. ð My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor&amp;hellip;.</description>
+      <guid>/articles/article-2025-08-20-5025/</guid>
+      <description>🌐 Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. 🛠️ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&amp;rsquo;s still untapped potential in fully utilizing MCP’s capabilities. 📄 My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor&amp;hellip;.</description>
     </item>
     <item>
       <title>Context engineering case studies: Etsy-specific question answering</title>
-      <link>http://localhost:1313/articles/article-5133/</link>
+      <link>/articles/article-2025-08-19-5133/</link>
       <pubDate>Tue, 19 Aug 2025 20:04:41 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5133/</guid>
-      <description>Exploring prompt engineering in AI-assisted onboarding at Etsy reveals both benefits and limitations. The study focused on how well LLMs provide reliable answers to Etsy-specific questions, particularly in the Travel &amp;amp; Entertainment domain. Initial findings indicate that concise prompts improve answer accuracy. However, some instances showcased LLM &amp;ldquo;hallucinations,&amp;rdquo; emphasizing the need for careful prompt design. For more insights, check out the full article! ðð¤ #AIEducation #Etsy&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5133/</guid>
+      <description>Exploring prompt engineering in AI-assisted onboarding at Etsy reveals both benefits and limitations. The study focused on how well LLMs provide reliable answers to Etsy-specific questions, particularly in the Travel &amp;amp; Entertainment domain. Initial findings indicate that concise prompts improve answer accuracy. However, some instances showcased LLM &amp;ldquo;hallucinations,&amp;rdquo; emphasizing the need for careful prompt design. For more insights, check out the full article! 📝🤖 #AIEducation #Etsy&amp;hellip;</description>
     </item>
     <item>
       <title>Tuning Linux Swap for Kubernetes: A Deep Dive</title>
-      <link>http://localhost:1313/articles/article-5779/</link>
+      <link>/articles/article-2025-08-19-5779/</link>
       <pubDate>Tue, 19 Aug 2025 18:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5779/</guid>
+      <guid>/articles/article-2025-08-19-5779/</guid>
       <description>Kubernetes is set to introduce the NodeSwap feature in version 1.34, allowing Linux nodes to utilize swap for improved resource management. This marks a shift from the traditional approach of disabling swap for performance. However, enabling swap requires careful tuning of Linux kernel parameters to avoid performance issues and manage memory pressure effectively. Key parameters include &lt;code&gt;vm.swappiness&lt;/code&gt;, &lt;code&gt;vm.min_free_kbytes&lt;/code&gt;, and &lt;code&gt;vm.watermark_scale_factor&lt;/code&gt;. Testing various configurations can&amp;hellip;</description>
     </item>
     <item>
       <title>Constitutional AI: Ethical Governance with MongoDB Atlas</title>
-      <link>http://localhost:1313/articles/article-6478/</link>
+      <link>/articles/article-2025-08-19-6478/</link>
       <pubDate>Tue, 19 Aug 2025 17:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6478/</guid>
+      <guid>/articles/article-2025-08-19-6478/</guid>
       <description>As AI systems evolve, ensuring ethical governance becomes essential. The article discusses Constitutional AI (CAI), a method by Anthropic that allows AI models to self-govern using predefined ethical principles. This approach moves beyond traditional human oversight, integrating with MongoDB&amp;rsquo;s governance tools for effective implementation. CAI utilizes a two-phase process: self-critique and AI feedback, making ethical decisions transparent. However, scaling CAI requires robust data governance&amp;hellip;</description>
     </item>
     <item>
       <title>Building an Agentic AI Fleet Management Solution</title>
-      <link>http://localhost:1313/articles/article-6479/</link>
+      <link>/articles/article-2025-08-19-6479/</link>
       <pubDate>Tue, 19 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6479/</guid>
-      <description>Artificial intelligence is transforming fleet management with real-time insights that enhance route planning and maintenance. ðð¡ Modern vehicles generate vast data, creating challenges in processing and operational costs. An efficient architecture using MongoDB can streamline this by managing various data types effectively. Features like geospatial queries and time-series collections empower fleet managers to make informed decisions quickly. ðâ¨ Explore how AI-driven systems can optimize your&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-6479/</guid>
+      <description>Artificial intelligence is transforming fleet management with real-time insights that enhance route planning and maintenance. 🚗💡 Modern vehicles generate vast data, creating challenges in processing and operational costs. An efficient architecture using MongoDB can streamline this by managing various data types effectively. Features like geospatial queries and time-series collections empower fleet managers to make informed decisions quickly. 📊✨ Explore how AI-driven systems can optimize your&amp;hellip;</description>
     </item>
     <item>
       <title>How TitanApps Migrated Smart Checklist to Forge (and Got It to Run on Atlassian)</title>
-      <link>http://localhost:1313/articles/article-6540/</link>
+      <link>/articles/article-2025-08-18-6540/</link>
       <pubDate>Mon, 18 Aug 2025 23:44:27 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6540/</guid>
-      <description>ð TitanApps shares the journey of migrating Smart Checklist to Forge, ensuring it meets security standards and runs smoothly on Atlassian. The team tackled challenges like data migration without downtime, all while retaining the app&amp;rsquo;s reliability for thousands of users. This migration highlights the importance of planning and adapting to new technologies. For those considering a similar move, this post offers valuable insights. #Atlassian #SmartChecklist #ForgeMigration #TechInnovation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-6540/</guid>
+      <description>🚀 TitanApps shares the journey of migrating Smart Checklist to Forge, ensuring it meets security standards and runs smoothly on Atlassian. The team tackled challenges like data migration without downtime, all while retaining the app&amp;rsquo;s reliability for thousands of users. This migration highlights the importance of planning and adapting to new technologies. For those considering a similar move, this post offers valuable insights. #Atlassian #SmartChecklist #ForgeMigration #TechInnovation&amp;hellip;</description>
     </item>
     <item>
       <title>A scalable LLM approach to enhancing chatbot knowledge with user-generated content</title>
-      <link>http://localhost:1313/articles/article-7161/</link>
+      <link>/articles/article-2025-08-18-7161/</link>
       <pubDate>Mon, 18 Aug 2025 21:49:22 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7161/</guid>
+      <guid>/articles/article-2025-08-18-7161/</guid>
       <description>DoorDash&amp;rsquo;s support chatbot efficiently addresses numerous questions from Dashers and customers daily. As their marketplace grows, so does the complexity of inquiries. To enhance chatbot knowledge, DoorDash employs large language models (LLMs) paired with clustering algorithms. This method identifies content gaps and drafts articles quickly, streamlining the knowledge base update process. By analyzing escalated chat transcripts, they pinpoint areas needing improvement. This data-driven&amp;hellip;</description>
     </item>
     <item>
       <title>Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents</title>
-      <link>http://localhost:1313/articles/article-5108/</link>
+      <link>/articles/article-2025-08-18-5108/</link>
       <pubDate>Mon, 18 Aug 2025 19:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5108/</guid>
-      <description>Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! ðð¡ #AI #Mosaic #VectorSearch #Innovation #TechTrends</description>
+      <guid>/articles/article-2025-08-18-5108/</guid>
+      <description>Unlock faster, smarter retrieval in AI with the latest advancements in Mosaic AI Vector Search. Organizations can now enhance their RAG agents to deliver more relevant answers efficiently, all with a simple line of code. This innovation addresses challenges faced in handling unstructured data. Stay ahead in AI technology! 🚀💡 #AI #Mosaic #VectorSearch #Innovation #TechTrends</description>
     </item>
     <item>
       <title>ML Observability: Bringing Transparency to Payments and Beyond</title>
-      <link>http://localhost:1313/articles/article-5178/</link>
+      <link>/articles/article-2025-08-18-5178/</link>
       <pubDate>Mon, 18 Aug 2025 18:15:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5178/</guid>
+      <guid>/articles/article-2025-08-18-5178/</guid>
       <description>At Netflix, ML observability is crucial for monitoring and understanding machine learning models in production. It allows teams to track performance, detect anomalies, and ensure reliability. This is particularly important in payment processing, where optimizing transactions helps reduce friction for users. By utilizing ML observability tools, we can enhance model performance and maintain stakeholder trust through clear insights into model behavior. Examples include logging, monitoring, and&amp;hellip;</description>
     </item>
     <item>
       <title>How Cursor AI Cut Legacy Code Coverage Time by 85%</title>
-      <link>http://localhost:1313/articles/article-5163/</link>
+      <link>/articles/article-2025-08-18-5163/</link>
       <pubDate>Mon, 18 Aug 2025 15:32:39 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5163/</guid>
-      <description>ð Exciting advancements in software engineering at Salesforce! Rachna Singh and her team tackled the challenge of achieving 80% code coverage on legacy systems. By utilizing Cursor AI, they reduced unit test development time from 26 days to just 4! ð This innovative approach not only met the coverage requirement but also improved feature delivery and code quality across multiple repositories. #Salesforce #AI #SoftwareEngineering #CodeCoverage #Innovation</description>
+      <guid>/articles/article-2025-08-18-5163/</guid>
+      <description>🚀 Exciting advancements in software engineering at Salesforce! Rachna Singh and her team tackled the challenge of achieving 80% code coverage on legacy systems. By utilizing Cursor AI, they reduced unit test development time from 26 days to just 4! 📉 This innovative approach not only met the coverage requirement but also improved feature delivery and code quality across multiple repositories. #Salesforce #AI #SoftwareEngineering #CodeCoverage #Innovation</description>
     </item>
     <item>
       <title>Unlock Multi-Agent AI Predictive Maintenance with MongoDB</title>
-      <link>http://localhost:1313/articles/article-6480/</link>
+      <link>/articles/article-2025-08-18-6480/</link>
       <pubDate>Mon, 18 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6480/</guid>
-      <description>ð The manufacturing sector faces challenges like evolving demands and a skilled labor shortage. Digital transformation is key, with data-driven strategies at the forefront. ð§ Predictive maintenance is vital for operational excellence, using data to foresee machine failures and reduce costly downtime. ð¤ The rise of multi-agent AI systems is revolutionizing this process. MongoDB enables the development of these agents, enhancing automation and efficiency on the shop floor. Explore how Agentic&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-6480/</guid>
+      <description>🚀 The manufacturing sector faces challenges like evolving demands and a skilled labor shortage. Digital transformation is key, with data-driven strategies at the forefront. 🔧 Predictive maintenance is vital for operational excellence, using data to foresee machine failures and reduce costly downtime. 🤖 The rise of multi-agent AI systems is revolutionizing this process. MongoDB enables the development of these agents, enhancing automation and efficiency on the shop floor. Explore how Agentic&amp;hellip;</description>
     </item>
     <item>
       <title>Beyond billion-parameter burdens: Unlocking data synthesis with a conditional generator</title>
-      <link>http://localhost:1313/articles/article-5181/</link>
+      <link>/articles/article-2025-08-14-5181/</link>
       <pubDate>Thu, 14 Aug 2025 19:06:20 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5181/</guid>
-      <description>Unlocking data synthesis in AI just got easier! ð A new algorithm, CTCL, enables the generation of synthetic data while preserving privacy, using a lightweight 140 million parameter model. This approach avoids the complexities of fine-tuning billion-scale models, making it accessible for resource-constrained applications. CTCL conditions data on topic information, ensuring better topic distribution matching. It also allows for unlimited synthetic data generation without additional privacy&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5181/</guid>
+      <description>Unlocking data synthesis in AI just got easier! 🌐 A new algorithm, CTCL, enables the generation of synthetic data while preserving privacy, using a lightweight 140 million parameter model. This approach avoids the complexities of fine-tuning billion-scale models, making it accessible for resource-constrained applications. CTCL conditions data on topic information, ensuring better topic distribution matching. It also allows for unlimited synthetic data generation without additional privacy&amp;hellip;</description>
     </item>
     <item>
       <title>Solving secret zero with Vault and OpenShift Virtualization</title>
-      <link>http://localhost:1313/articles/article-5114/</link>
+      <link>/articles/article-2025-08-14-5114/</link>
       <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5114/</guid>
+      <guid>/articles/article-2025-08-14-5114/</guid>
       <description>Discover how Red Hat OpenShift Virtualization and HashiCorp Vault can address the secret zero problem in virtualized environments. Organizations face challenges in establishing machine identity as they adopt identity-based security. Traditional virtualization solutions often lack inherent machine identity, leading to reliance on initial credentials for secure communication with Vault. Red Hat OpenShift Virtualization offers a solution by enabling virtual machines to leverage Kubernetes&amp;hellip;</description>
     </item>
     <item>
-      <title>Migrating Airbnbâs JVM Monorepo to Bazel</title>
-      <link>http://localhost:1313/articles/article-4964/</link>
+      <title>Migrating Airbnb’s JVM Monorepo to Bazel</title>
+      <link>/articles/article-2025-08-13-4964/</link>
       <pubDate>Wed, 13 Aug 2025 17:01:58 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4964/</guid>
-      <description>ð Exciting updates from Airbnb! We have successfully migrated our largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated work. This transition has significantly improved our build process, achieving a Build CSAT increase from 38% to 68%. Key benefits include: - 3â5x faster local build and test times - 2â3x faster IntelliJ syncs - 2â3x faster deploys to the development environment We chose Bazel for its speed, reliability, and uniform infrastructure. The migration involved&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4964/</guid>
+      <description>🚀 Exciting updates from Airbnb! We have successfully migrated our largest repo, the JVM monorepo, to Bazel after 4.5 years of dedicated work. This transition has significantly improved our build process, achieving a Build CSAT increase from 38% to 68%. Key benefits include: - 3–5x faster local build and test times - 2–3x faster IntelliJ syncs - 2–3x faster deploys to the development environment We chose Bazel for its speed, reliability, and uniform infrastructure. The migration involved&amp;hellip;</description>
     </item>
     <item>
       <title>The real serverless compute to database connection problem, solved</title>
-      <link>http://localhost:1313/articles/article-4936/</link>
+      <link>/articles/article-2025-08-13-4936/</link>
       <pubDate>Wed, 13 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4936/</guid>
-      <description>The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. ðð»ð #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</description>
+      <guid>/articles/article-2025-08-13-4936/</guid>
+      <description>The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. 🔍💻🔗 #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</description>
     </item>
     <item>
       <title>How UiPath Built a Scalable Real-Time ETL pipeline on Databricks</title>
-      <link>http://localhost:1313/articles/article-4950/</link>
+      <link>/articles/article-2025-08-13-4950/</link>
       <pubDate>Wed, 13 Aug 2025 08:12:58 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4950/</guid>
-      <description>ð UiPath has developed a scalable real-time ETL pipeline using Databricks to enhance automation processes. This pipeline aims to deliver fast and reliable data processing, which is crucial for effective decision-making. By leveraging Databricks, UiPath is focused on improving operational efficiency and customer satisfaction. #UiPath #Databricks #ETL #Automation #DataProcessing</description>
+      <guid>/articles/article-2025-08-13-4950/</guid>
+      <description>🚀 UiPath has developed a scalable real-time ETL pipeline using Databricks to enhance automation processes. This pipeline aims to deliver fast and reliable data processing, which is crucial for effective decision-making. By leveraging Databricks, UiPath is focused on improving operational efficiency and customer satisfaction. #UiPath #Databricks #ETL #Automation #DataProcessing</description>
     </item>
     <item>
       <title>Accelerating Video Quality Control at Netflix with Pixel Error Detection</title>
-      <link>http://localhost:1313/articles/article-4969/</link>
+      <link>/articles/article-2025-08-11-4969/</link>
       <pubDate>Mon, 11 Aug 2025 21:29:57 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4969/</guid>
-      <description>ð Netflix has developed an automated method for video quality control that detects pixel-level artifacts, reducing manual reviews. This new system identifies hot pixels that can distract viewers, ensuring a seamless viewing experience. By using a specialized neural network, Netflix speeds up the QC process from hours to minutes. This innovation allows creative teams to focus more on storytelling rather than technical issues. ð¥â¨ #Netflix #VideoQuality #Innovation #TechForGood #Filmmaking</description>
+      <guid>/articles/article-2025-08-11-4969/</guid>
+      <description>🚀 Netflix has developed an automated method for video quality control that detects pixel-level artifacts, reducing manual reviews. This new system identifies hot pixels that can distract viewers, ensuring a seamless viewing experience. By using a specialized neural network, Netflix speeds up the QC process from hours to minutes. This innovation allows creative teams to focus more on storytelling rather than technical issues. 🎥✨ #Netflix #VideoQuality #Innovation #TechForGood #Filmmaking</description>
     </item>
     <item>
       <title>Optimizing Materialized Views Recomputes</title>
-      <link>http://localhost:1313/articles/article-4953/</link>
+      <link>/articles/article-2025-08-11-4953/</link>
       <pubDate>Mon, 11 Aug 2025 19:35:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4953/</guid>
-      <description>ð Discover strategies for optimizing the incremental computation of materialized views in data management. The article discusses techniques that digital-native companies can implement to enhance efficiency. It highlights the importance of improving performance while managing data effectively. Learn how to leverage these strategies for better data handling and quicker insights! ðð #DataManagement #MaterializedViews #Optimization #TechInsights</description>
+      <guid>/articles/article-2025-08-11-4953/</guid>
+      <description>🚀 Discover strategies for optimizing the incremental computation of materialized views in data management. The article discusses techniques that digital-native companies can implement to enhance efficiency. It highlights the importance of improving performance while managing data effectively. Learn how to leverage these strategies for better data handling and quicker insights! 📊🔍 #DataManagement #MaterializedViews #Optimization #TechInsights</description>
     </item>
     <item>
       <title>Disaster recovery approaches for Red Hat OpenShift Virtualization, part 2</title>
-      <link>http://localhost:1313/articles/article-4857/</link>
+      <link>/articles/article-2025-08-11-4857/</link>
       <pubDate>Mon, 11 Aug 2025 15:31:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4857/</guid>
-      <description>ð Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4857/</guid>
+      <description>🌐 Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear&amp;hellip;</description>
     </item>
     <item>
       <title>Boost Connected Car Developments with MongoDB Atlas and AWS</title>
-      <link>http://localhost:1313/articles/article-6482/</link>
+      <link>/articles/article-2025-08-11-6482/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6482/</guid>
-      <description>The automotive industry is transforming with connected, software-defined vehicles generating vast amounts of data daily. ðð» A recent survey highlights that 40% of US consumers value connectivity enough to switch brands. OEMs are responding by leveraging data for predictive maintenance and personalized services. Combining MongoDB Atlas with AWS tools enables innovative applications like real-time diagnostics and tailored insurance models. ðð§ Explore how this architecture can enhance mobility&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-6482/</guid>
+      <description>The automotive industry is transforming with connected, software-defined vehicles generating vast amounts of data daily. 🚗💻 A recent survey highlights that 40% of US consumers value connectivity enough to switch brands. OEMs are responding by leveraging data for predictive maintenance and personalized services. Combining MongoDB Atlas with AWS tools enables innovative applications like real-time diagnostics and tailored insurance models. 📊🔧 Explore how this architecture can enhance mobility&amp;hellip;</description>
     </item>
     <item>
       <title>How Salesforce Delivers Reliable, Low-Latency AI Inference</title>
-      <link>http://localhost:1313/articles/article-4854/</link>
+      <link>/articles/article-2025-08-11-4854/</link>
       <pubDate>Mon, 11 Aug 2025 14:15:02 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4854/</guid>
-      <description>ð Meet Nilesh Salpe, an engineer at Salesforce focusing on the AI Metadata Service (AIMS). This service offers tenant-specific configurations for AI inferences, crucial for applications like Agentforce. ð§ His team developed a multi-layered caching system to address a 400ms latency issue, enhancing performance to sub-millisecond levels while ensuring reliability against backend outages. ð AIMS plays a key role in managing diverse AI models and configurations across Salesforceâs multi-cloud&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4854/</guid>
+      <description>🚀 Meet Nilesh Salpe, an engineer at Salesforce focusing on the AI Metadata Service (AIMS). This service offers tenant-specific configurations for AI inferences, crucial for applications like Agentforce. 🔧 His team developed a multi-layered caching system to address a 400ms latency issue, enhancing performance to sub-millisecond levels while ensuring reliability against backend outages. 🌐 AIMS plays a key role in managing diverse AI models and configurations across Salesforce’s multi-cloud&amp;hellip;</description>
     </item>
     <item>
       <title>Why Can&#39;t I Just Use an API? Because Your AI Agent Needs MCP</title>
-      <link>http://localhost:1313/articles/article-4849/</link>
+      <link>/articles/article-2025-08-11-4849/</link>
       <pubDate>Mon, 11 Aug 2025 13:55:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4849/</guid>
-      <description>Understanding the limitations of traditional APIs for AI agents is crucial. ð¤ The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&amp;rsquo;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4849/</guid>
+      <description>Understanding the limitations of traditional APIs for AI agents is crucial. 🤖 The article discusses how APIs can confuse AI agents due to excessive choices and the need for manual translation of information. This often hampers performance and adaptability. Introducing the Model Context Protocol (MCP), which streamlines AI reasoning by providing high-level capabilities instead of overwhelming details. MCP enhances the agent&amp;rsquo;s ability to focus on tasks efficiently. #AI #MCP #TechInnovation&amp;hellip;</description>
     </item>
     <item>
-      <title>CrowdStrike&amp;rsquo;s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</title>
-      <link>http://localhost:1313/articles/article-7444/</link>
+      <title>CrowdStrike’s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</title>
+      <link>/articles/article-2025-08-11-7444/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7444/</guid>
+      <guid>/articles/article-2025-08-11-7444/</guid>
       <description>CrowdStrike is enhancing machine learning evaluation by tackling data leakage, which can lead to inaccurate threat detection in cybersecurity. To combat this, they implement strategic data splitting during model training. This method carefully manages how data is divided, ensuring that similar data points do not skew results, ultimately leading to more reliable detection of new threats. By focusing on this strategy, CrowdStrike aims to improve the performance of their AI-native platform&amp;hellip;</description>
     </item>
     <item>
       <title>R²D²: Boost Robot Training with World Foundation Models and Workflows from NVIDIA Research</title>
-      <link>http://localhost:1313/articles/article-4714/</link>
+      <link>/articles/article-2025-08-08-4714/</link>
       <pubDate>Fri, 08 Aug 2025 18:33:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4714/</guid>
+      <guid>/articles/article-2025-08-08-4714/</guid>
       <description>🚀 The latest edition of NVIDIA&amp;rsquo;s R²D² highlights the role of World Foundation Models (WFMs) in enhancing robot training. WFMs address the growing need for labeled datasets by simulating real-world dynamics. Key components include Cosmos Predict, Transfer, and Reason, each designed for specific applications in robotics and autonomous vehicles. Cosmos Predict generates future world states through various input types. Cosmos Transfer facilitates photorealistic style transfers, while Cosmos&amp;hellip;</description>
     </item>
     <item>
       <title>Ollama vs. vLLM: A deep dive into performance benchmarking</title>
-      <link>http://localhost:1313/articles/article-4711/</link>
+      <link>/articles/article-2025-08-08-4711/</link>
       <pubDate>Fri, 08 Aug 2025 07:16:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4711/</guid>
+      <guid>/articles/article-2025-08-08-4711/</guid>
       <description>Ollama and vLLM serve distinct roles in the AI landscape. Ollama is designed for local development and prototyping, while vLLM excels in high-performance production environments. In benchmarks, vLLM outperformed Ollama with a peak throughput of 793 TPS compared to Ollama&amp;rsquo;s 41 TPS and lower latency across all concurrency levels. Ollama prioritizes ease of use, making it suitable for individual developers, whereas vLLM is built for scalability, catering to enterprise applications. For detailed&amp;hellip;</description>
     </item>
     <item>
       <title>Improving code quality - Session 41: &#34;Architecture&#34; under construction</title>
-      <link>http://localhost:1313/articles/article-5832/</link>
+      <link>/articles/article-2025-08-08-5832/</link>
       <pubDate>Fri, 08 Aug 2025 02:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5832/</guid>
+      <guid>/articles/article-2025-08-08-5832/</guid>
       <description>📢 Exciting insights from &amp;ldquo;Improving Code Quality&amp;rdquo; Session 41! Munetoshi Ishikawa discusses application architecture for a messaging app. The article outlines a data model defining messages, featuring various types like Text, Image, and External Resource. The message type is identified by the first character of its ID, which is crucial for maintaining historical compatibility. Discover more about managing different message types and their unique creation logic! #CodeQuality #AppDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>Efficient Transforms in cuDF Using JIT Compilation</title>
-      <link>http://localhost:1313/articles/article-4715/</link>
+      <link>/articles/article-2025-08-07-4715/</link>
       <pubDate>Thu, 07 Aug 2025 21:06:42 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4715/</guid>
+      <guid>/articles/article-2025-08-07-4715/</guid>
       <description>Unlock efficient data processing with RAPIDS cuDF! 🚀 cuDF offers a wide range of ETL algorithms optimized for GPUs, allowing for seamless integration with pandas. Users can leverage accelerated algorithms without changing their existing code. For advanced developers, the cuDF C++ submodule enhances functionality through non-owning views and kernel fusion, boosting performance and reducing unnecessary GPU memory transfers. Learn how JIT compilation improves throughput and resource utilization&amp;hellip;</description>
     </item>
     <item>
       <title>7x Faster Medical Image Ingestion with Python Data Source API</title>
-      <link>http://localhost:1313/articles/article-4758/</link>
+      <link>/articles/article-2025-08-07-4758/</link>
       <pubDate>Thu, 07 Aug 2025 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4758/</guid>
+      <guid>/articles/article-2025-08-07-4758/</guid>
       <description>🚀 Exciting advancements in medical imaging! A recent article discusses a new Python Data Source API that enhances DICOM data ingestion speed by seven times. This development utilizes industry-standard libraries like pydicom and zipfile. This improvement aims to streamline processes in healthcare and life sciences, addressing the challenges of handling medical images effectively. #MedicalImaging #HealthcareInnovation #Python #DICOM #DataScience</description>
     </item>
     <item>
       <title>Train with Terabyte-Scale Datasets on a Single NVIDIA Grace Hopper Superchip Using XGBoost 3.0</title>
-      <link>http://localhost:1313/articles/article-4716/</link>
+      <link>/articles/article-2025-08-07-4716/</link>
       <pubDate>Thu, 07 Aug 2025 18:25:36 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4716/</guid>
+      <guid>/articles/article-2025-08-07-4716/</guid>
       <description>🚀 Exciting advancements in machine learning with XGBoost 3.0! This version leverages the NVIDIA Grace Hopper Superchip to process datasets up to 1 TB, significantly speeding up training times—up to 8x faster than traditional CPUs. Key enhancements include a new external-memory engine, simplifying scalability and reducing reliance on complex GPU clusters. Major banks like RBC are already benefiting, reporting 16x speedups and 94% reductions in training costs. #XGBoost #MachineLearning #NVIDIA&amp;hellip;</description>
     </item>
     <item>
       <title>Seamless Istio Upgrades at Scale</title>
-      <link>http://localhost:1313/articles/article-4768/</link>
+      <link>/articles/article-2025-08-07-4768/</link>
       <pubDate>Thu, 07 Aug 2025 17:01:42 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4768/</guid>
+      <guid>/articles/article-2025-08-07-4768/</guid>
       <description>Airbnb has successfully upgraded Istio 14 times since 2019, managing thousands of pods and VMs across multiple Kubernetes clusters. Their upgrade strategy focuses on zero downtime for users and gradual rollouts, allowing for controlled upgrades and rollbacks without coordinating individual teams. The process involves running two Istiod versions simultaneously, ensuring seamless transitions for workloads. Learn more about their innovative approach in the full article! 🚀🔧 #AirbnbTech #Istio&amp;hellip;</description>
     </item>
     <item>
       <title>Achieving 10,000x training data reduction with high-fidelity labels</title>
-      <link>http://localhost:1313/articles/article-5183/</link>
+      <link>/articles/article-2025-08-07-5183/</link>
       <pubDate>Thu, 07 Aug 2025 09:46:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5183/</guid>
+      <guid>/articles/article-2025-08-07-5183/</guid>
       <description>A new method in active learning significantly reduces the training data needed for fine-tuning large language models (LLMs). 📉 This innovative approach addresses the challenges in classifying unsafe ad content, which requires deep contextual understanding. Traditional methods are costly and often ineffective with evolving safety policies. The new curation process can cut training data from 100,000 examples to under 500, while improving model alignment with human experts by up to 65%. This is&amp;hellip;</description>
     </item>
     <item>
       <title>Five Myths About JWTs Debunked</title>
-      <link>http://localhost:1313/articles/article-4707/</link>
+      <link>/articles/article-2025-08-07-4707/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4707/</guid>
+      <guid>/articles/article-2025-08-07-4707/</guid>
       <description>🔍 Understanding JSON Web Tokens (JWTs) is crucial for secure application and API management. This article debunks five common myths about JWTs, highlighting misconceptions that can lead to vulnerabilities. One key point is that JWTs are not just another type of token; they are structured and self-contained, offering stateless validation. Learn more about JWTs and their proper usage to enhance your security practices. #JWT #WebSecurity #APIProtection #TechMyths #Cybersecurity</description>
     </item>
     <item>
       <title>Hash, store, join: A modern solution to log deduplication with ES|QL LOOKUP JOIN</title>
-      <link>http://localhost:1313/articles/article-4692/</link>
+      <link>/articles/article-2025-08-07-4692/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4692/</guid>
+      <guid>/articles/article-2025-08-07-4692/</guid>
       <description>In the realm of cybersecurity, the challenge of balancing data fidelity with budget constraints is critical, especially with PowerShell logging. 📊 Comprehensive logging is essential for threat hunting, yet it can lead to massive data storage costs. This article introduces an innovative approach using the Elastic Stack and ES|QL LOOKUP JOIN to optimize log management. The strategy focuses on intelligent data deduplication, allowing organizations to store references rather than full logs,&amp;hellip;</description>
     </item>
     <item>
       <title>Vision Language Model Alignment in TRL ⚡️</title>
-      <link>http://localhost:1313/articles/article-4695/</link>
+      <link>/articles/article-2025-08-07-4695/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4695/</guid>
+      <guid>/articles/article-2025-08-07-4695/</guid>
       <description>🔍 The article discusses the alignment of Vision Language Models (VLMs) in the context of Technology Readiness Levels (TRL). It highlights the importance of aligning VLMs with real-world applications to enhance their effectiveness. 💡 The piece outlines key strategies for achieving this alignment, focusing on practical implementation and evaluation methods. For those interested in AI development, this is a valuable read! #VisionLanguageModel #AIAlignment #TechnologyReadiness #MachineLearning&amp;hellip;</description>
     </item>
     <item>
       <title>Diff Risk Score: AI-driven risk-aware software development</title>
-      <link>http://localhost:1313/articles/article-4160/</link>
+      <link>/articles/article-2025-08-06-4160/</link>
       <pubDate>Wed, 06 Aug 2025 17:50:51 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4160/</guid>
+      <guid>/articles/article-2025-08-06-4160/</guid>
       <description>🚀 Introducing the Diff Risk Score (DRS) from Meta! This AI-driven technology predicts the likelihood of code changes causing production incidents, enhancing software development processes. By analyzing code changes and metadata, DRS generates risk scores, allowing developers to identify potentially risky code. 🛠️ DRS has notably reduced code freezes during critical periods, boosting productivity while maintaining user experience. For instance, during a key event in 2024, over 10,000 code&amp;hellip;</description>
     </item>
     <item>
       <title>Highly accurate genome polishing with DeepPolisher: Enhancing the foundation of genomic research</title>
-      <link>http://localhost:1313/articles/article-5185/</link>
+      <link>/articles/article-2025-08-06-5185/</link>
       <pubDate>Wed, 06 Aug 2025 16:13:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5185/</guid>
+      <guid>/articles/article-2025-08-06-5185/</guid>
       <description>Introducing DeepPolisher, a new deep learning tool that enhances the accuracy of genome assemblies by correcting base-level errors. 🧬 This advancement plays a crucial role in refining the Human Pangenome Reference, making it easier to study heredity, disease, and evolution. DeepPolisher reduces assembly errors by 50% and indel errors by 70%, improving gene identification significantly. This open-source method was developed in collaboration with UC Santa Cruz Genomics Institute, marking a step&amp;hellip;</description>
     </item>
     <item>
       <title>From Intern Project to Production: How I Shipped the Draw Tool for Canva&#39;s Present Mode</title>
-      <link>http://localhost:1313/articles/article-4694/</link>
+      <link>/articles/article-2025-08-06-4694/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4694/</guid>
+      <guid>/articles/article-2025-08-06-4694/</guid>
       <description>🚀 Exciting progress at Canva! A recent blog post details the journey of transforming an intern project into the Draw Tool for Present Mode. The author shares the technical challenges faced and how they were successfully addressed to enhance user experience. Learn about this innovative feature and the engineering practices behind it. #Canva #Engineering #UserExperience #Innovation #TechJourney</description>
     </item>
     <item>
       <title>Reducing double spend latency from 40 ms to &lt; 1 ms on privacy proxy</title>
-      <link>http://localhost:1313/articles/article-2076/</link>
+      <link>/articles/article-2025-08-05-2076/</link>
       <pubDate>Tue, 05 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2076/</guid>
+      <guid>/articles/article-2025-08-05-2076/</guid>
       <description>We recently improved the performance of our privacy proxy service by reducing double-spend check latency from 40 ms to less than 1 ms. 🚀 This enhancement helps users browse the web securely without compromising their privacy. It also boosts the efficiency of our service, as we handle millions of requests each second. 🔒 Using a tracing platform and metrics, we identified bottlenecks and optimized our processes. This change is part of Cloudflare&amp;rsquo;s commitment to making the Internet faster for&amp;hellip;</description>
     </item>
     <item>
       <title>Made with UE5, Wildgate blends emergent gameplay with explosive spaceship combat</title>
-      <link>http://localhost:1313/articles/article-4081/</link>
+      <link>/articles/article-2025-08-05-4081/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4081/</guid>
+      <guid>/articles/article-2025-08-05-4081/</guid>
       <description>🚀 Exciting developments in gaming! Moonshot Games is using Unreal Engine 5 features like Nanite, Lumen, and Chaos in their debut project, the PvP space shooter Wildgate. These technologies enhance graphics and gameplay. Discover how these tools are shaping the future of gaming. #Wildgate #MoonshotGames #UE5 #GamingNews #SpaceShooter</description>
     </item>
     <item>
       <title>CUDA Pro Tip: Increase Performance with Vectorized Memory Access</title>
-      <link>http://localhost:1313/articles/article-212/</link>
+      <link>/articles/article-2025-08-04-212/</link>
       <pubDate>Mon, 04 Aug 2025 21:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-212/</guid>
+      <guid>/articles/article-2025-08-04-212/</guid>
       <description>Boost your CUDA performance by addressing bandwidth limitations! 🌐 Bandwidth-bound kernels are becoming more common due to the increasing ratio of flops to bandwidth in new hardware. To enhance bandwidth utilization, consider using vector loads and stores in your CUDA C++ code. Check out the provided memory copy kernel example, which uses grid-stride loops to improve efficiency. 📊 #CUDA #PerformanceOptimization #ProgrammingTips #TechInsights #NVIDIA</description>
     </item>
     <item>
       <title>How to Enhance RAG Pipelines with Reasoning Using NVIDIA Llama Nemotron Models</title>
-      <link>http://localhost:1313/articles/article-215/</link>
+      <link>/articles/article-2025-08-04-215/</link>
       <pubDate>Mon, 04 Aug 2025 17:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-215/</guid>
+      <guid>/articles/article-2025-08-04-215/</guid>
       <description>Unlocking the potential of retrieval-augmented generation (RAG) systems involves addressing user queries that are vague or carry implicit intent. 🤔 The article discusses how NVIDIA&amp;rsquo;s Nemotron LLMs enhance RAG pipelines through advanced query rewriting techniques. This process optimizes user prompts for better information retrieval, improving the relevance of results. 📈 Techniques like Q2E, Q2D, and chain-of-thought query rewriting help bridge gaps in understanding, leading to more accurate&amp;hellip;</description>
     </item>
     <item>
       <title>Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study</title>
-      <link>http://localhost:1313/articles/article-3181/</link>
+      <link>/articles/article-2025-08-04-3181/</link>
       <pubDate>Mon, 04 Aug 2025 16:15:29 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-3181/</guid>
+      <guid>/articles/article-2025-08-04-3181/</guid>
       <description>Discover the innovative concept of Agent Learning from Human Feedback (ALHF) in the latest Databricks blog. ALHF allows agents to learn from minimal natural language feedback, enhancing their adaptability in specialized enterprise environments. The case study highlights its application in the Databricks Agent Bricks Knowledge Assistant, showcasing significant improvements in answer quality with limited expert feedback. This approach addresses the challenges of tuning AI systems by enabling&amp;hellip;</description>
     </item>
     <item>
       <title>Building a human-computer interface for everyone</title>
-      <link>http://localhost:1313/articles/article-11/</link>
+      <link>/articles/article-2025-08-04-11/</link>
       <pubDate>Mon, 04 Aug 2025 14:00:25 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-11/</guid>
+      <guid>/articles/article-2025-08-04-11/</guid>
       <description>Discover how Meta&amp;rsquo;s Reality Labs is advancing human-computer interaction with wrist-worn devices using surface electromyography (sEMG). 🤖 Their research focuses on creating a universal input device that adapts to different users. Generalization remains a key challenge, as existing models often cater to individual gestures. Listen to the latest episode of the Meta Tech Podcast to learn more about this innovative approach! 🎧✨ #HumanComputerInteraction #TechInnovation #MetaTech #sEMG #Podcast</description>
+    </item>
+    <item>
+      <title>Optimizing LLMs for Performance and Accuracy with Post-Training Quantization</title>
+      <link>/articles/article-2025-08-01-217/</link>
+      <pubDate>Fri, 01 Aug 2025 21:27:23 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-217/</guid>
+      <description>🚀 Quantization is a key method for developers looking to enhance AI model performance with minimal overhead. It allows for significant improvements in latency, throughput, and memory efficiency by reducing model precision without retraining. Models typically use FP16 or BF16, while advancing to FP4 can yield even better efficiency. NVIDIA&amp;rsquo;s TensorRT Model Optimizer offers a flexible framework for post-training quantization, supporting various formats and integrating calibration techniques for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Solving Dispatch in a Ridesharing Problem Space</title>
+      <link>/articles/article-2025-07-31-2045/</link>
+      <pubDate>Thu, 31 Jul 2025 17:43:14 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2045/</guid>
+      <description>🚗💡 Ridesharing platforms like Lyft tackle complex matching challenges daily. Each rider and driver represents a unique piece in a dynamic puzzle, requiring real-time solutions for efficient urban mobility. Graph theory helps model these matches, particularly through bipartite graphs. This allows for flexible connections based on factors like distance and time. Lyft&amp;rsquo;s dispatch team continually processes millions of potential decisions, aiming to optimize pickups and driver earnings. Stay tuned&amp;hellip;</description>
+    </item>
+    <item>
+      <title>July 28 Incident report: Service availability disruption</title>
+      <link>/articles/article-2025-07-31-5655/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-5655/</guid>
+      <description>Webflow faced service disruptions from July 28-31, impacting the Designer, Dashboard, Marketplace, and user sign-ups. While hosted sites remained operational, core functionalities were affected. The incident involved multiple phases of malicious attacks leading to elevated latency and outages. Mitigation efforts included firewall protections and database optimizations. Full stability was restored through configuration changes and adopting a more efficient CPU architecture. For a deeper&amp;hellip;</description>
     </item>
   </channel>
 </rss>

@@ -2,235 +2,347 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twilio-Engineering on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/twilio-engineering/</link>
+    <link>/sources/twilio-engineering/</link>
     <description>Recent content in Twilio-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/twilio-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/twilio-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculating Character Count of RCS Messages</title>
+      <link>/articles/article-2025-09-03-7770/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7770/</guid>
+      <description>Understanding RCS message character count is crucial for effective customer engagement. 📱 This article delves into the differences in message length and encoding between RCS and SMS. It highlights the importance of these factors in communication strategies. For developers, these insights can optimize message delivery and enhance user experiences. #RCS #SMS #CustomerEngagement #TechInsights #Messaging</description>
+    </item>
+    <item>
+      <title>Compliance Toolkit: AI-powered support for SMS compliance</title>
+      <link>/articles/article-2025-09-03-7713/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7713/</guid>
+      <description>Twilio&amp;rsquo;s new Compliance Toolkit leverages AI and machine learning to enhance SMS compliance. This tool proactively identifies and mitigates potential regulatory violations, helping businesses maintain compliance and avoid penalties. Explore how AI can support your compliance efforts! 📲🤖 #Compliance #AI #SMS #Twilio #Regulations</description>
+    </item>
+    <item>
+      <title>Laravel Queries: Learn by Building a Data Table</title>
+      <link>/articles/article-2025-09-02-7649/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7649/</guid>
+      <description>🚀 Dive into Laravel with a hands-on tutorial! Learn how to effectively use Laravel&amp;rsquo;s Query Builder through practical examples. The article guides you step-by-step to build a functional data table, enhancing your development skills. Perfect for developers looking to sharpen their database query techniques! #Laravel #WebDevelopment #Coding #Programming #DataTables</description>
+    </item>
+    <item>
+      <title>AI Email Marketing: Tools, Benefits &amp; Best Practices in 2025</title>
+      <link>/articles/article-2025-09-01-7772/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-01-7772/</guid>
+      <description>Unlock the potential of AI in email marketing! 🚀 AI tools analyze subscriber behavior in real-time, optimizing send times and personalizing content for better engagement. This means no more one-size-fits-all newsletters; instead, you can craft tailored emails for each recipient. 📧 Discover how AI can help your email marketing team understand what works best, from subject lines to send times. It enhances communication without replacing marketers. #EmailMarketing #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Guide to Apple Mail Privacy Protection (MPP) &amp; iOS 18 (2025)</title>
+      <link>/articles/article-2025-09-01-7771/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-01-7771/</guid>
+      <description>Apple&amp;rsquo;s Mail Privacy Protection (MPP) has evolved since its launch in 2021. The feature aims to enhance user data control but presents challenges for email marketers. 📧 As we head into 2025 with iOS 18, expect changes like AI-generated previews and new inbox categories that impact email visibility. 📊 Tracking remains complex due to masked IP addresses and stripped tracking parameters, making campaign attribution more difficult. 📉 Marketers need to adapt their strategies to thrive in this&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Check Phone Usage and Time Spent on Phone</title>
+      <link>/articles/article-2025-08-31-7714/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-31-7714/</guid>
+      <description>📱 Want to monitor your phone usage? This article guides Android and iPhone users on how to check the time spent on apps and websites. It details the steps needed to access usage statistics, helping you understand your digital habits. Stay informed about your screen time! ⏳ #PhoneUsage #DigitalWellness #ScreenTime #TechTips #Smartphone</description>
+    </item>
+    <item>
+      <title>SMS Verification: What It Is, How It Works, &amp; Sending Codes</title>
+      <link>/articles/article-2025-08-30-7715/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-30-7715/</guid>
+      <description>🔒 SMS verification enhances security by sending unique codes to your phone. This process adds an extra layer of protection for users, ensuring that only authorized individuals can access accounts. Businesses can easily implement SMS verification to safeguard sensitive information and improve user trust. Learn more about how this system works and its benefits! 📱✅ #SMSVerification #CyberSecurity #UserTrust #BusinessSafety #Twilio</description>
+    </item>
     <item>
       <title>Connect the OpenAI Realtime SIP Connector with Twilio Elastic SIP Trunking</title>
-      <link>http://localhost:1313/articles/article-7558/</link>
+      <link>/articles/article-2025-08-29-7558/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7558/</guid>
+      <guid>/articles/article-2025-08-29-7558/</guid>
       <description>🔗 Learn how to connect the OpenAI Realtime SIP Connector with Twilio&amp;rsquo;s Elastic SIP Trunking. This integration enables communication with an AI Agent, enhancing your application&amp;rsquo;s capabilities. The article provides a step-by-step guide tailored for developers looking to implement this technology. For more details, check out the full tutorial! #Twilio #OpenAI #SIPTrunking #Developers #TechIntegration</description>
     </item>
     <item>
       <title>Using Twilio’s Real-Time Transcriptions Service in Node.js</title>
-      <link>http://localhost:1313/articles/article-7557/</link>
+      <link>/articles/article-2025-08-29-7557/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7557/</guid>
+      <guid>/articles/article-2025-08-29-7557/</guid>
       <description>Learn how to implement Twilio’s Real-Time Transcriptions service in your Node.js application. 🖥️ This tutorial guides developers on streaming voice call transcripts through webhooks, enhancing communication and accessibility in applications. Explore the step-by-step process to integrate this feature into your projects. 📞 #Twilio #NodeJS #RealTimeTranscription #Webhooks #DevTutorials</description>
     </item>
     <item>
-      <title>Build an AI Voice Assistant with Twilio Voice, OpenAIâs Realtime API, and Node.js</title>
-      <link>http://localhost:1313/articles/article-7524/</link>
+      <title>Build an AI Voice Assistant with Twilio Voice, OpenAI’s Realtime API, and Node.js</title>
+      <link>/articles/article-2025-08-28-7524/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7524/</guid>
-      <description>ð Discover how to create an AI voice assistant using Twilio Voice and OpenAI&amp;rsquo;s Realtime API with Node.js! This tutorial guides you through building a conversational assistant that allows fluid, human-like interactions. The new Speech to Speech (S2S) capabilities enhance latency and improve dialogue flow. Learn to set up a Twilio Media Stream server to process audio and deliver real-time responses. Letâs dive into building your own assistant! ð¤ð¬ #AI #VoiceAssistant #Twilio #OpenAI #NodeJS</description>
+      <guid>/articles/article-2025-08-28-7524/</guid>
+      <description>🚀 Discover how to create an AI voice assistant using Twilio Voice and OpenAI&amp;rsquo;s Realtime API with Node.js! This tutorial guides you through building a conversational assistant that allows fluid, human-like interactions. The new Speech to Speech (S2S) capabilities enhance latency and improve dialogue flow. Learn to set up a Twilio Media Stream server to process audio and deliver real-time responses. Let’s dive into building your own assistant! 🤖💬 #AI #VoiceAssistant #Twilio #OpenAI #NodeJS</description>
     </item>
     <item>
-      <title>Build an AI Voice Assistant with Twilio Voice, OpenAIâs Realtime API, and Python</title>
-      <link>http://localhost:1313/articles/article-7526/</link>
+      <title>Build an AI Voice Assistant with Twilio Voice, OpenAI’s Realtime API, and Python</title>
+      <link>/articles/article-2025-08-28-7526/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7526/</guid>
-      <description>ð Exciting news for developers! A new tutorial teaches how to build an AI voice assistant using Twilio Voice and OpenAIâs Realtime API with Python and FastAPI. This integration allows for direct Speech to Speech (S2S) functionality, enhancing conversation fluidity. By setting up a Twilio Media Stream server, you can enable your assistant to respond to calls with real-time audio. Explore the possibilities of creating interactive AI experiences! #AI #VoiceAssistant #Twilio #OpenAI #Python</description>
+      <guid>/articles/article-2025-08-28-7526/</guid>
+      <description>🚀 Exciting news for developers! A new tutorial teaches how to build an AI voice assistant using Twilio Voice and OpenAI’s Realtime API with Python and FastAPI. This integration allows for direct Speech to Speech (S2S) functionality, enhancing conversation fluidity. By setting up a Twilio Media Stream server, you can enable your assistant to respond to calls with real-time audio. Explore the possibilities of creating interactive AI experiences! #AI #VoiceAssistant #Twilio #OpenAI #Python</description>
     </item>
     <item>
       <title>Build an AI Voice Assistant with Twilio Voice, the OpenAI Realtime Agents SDK, and Node.js</title>
-      <link>http://localhost:1313/articles/article-7522/</link>
+      <link>/articles/article-2025-08-28-7522/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7522/</guid>
-      <description>ð Dive into the world of AI! This article outlines how to build an AI voice assistant using Twilio Voice, the OpenAI Realtime Agents SDK, and Node.js. It offers practical tips for tool calling and appointment scheduling. Enhance your development skills and explore the integration possibilities. #AI #VoiceAssistant #Twilio #OpenAI #NodeJS</description>
+      <guid>/articles/article-2025-08-28-7522/</guid>
+      <description>🚀 Dive into the world of AI! This article outlines how to build an AI voice assistant using Twilio Voice, the OpenAI Realtime Agents SDK, and Node.js. It offers practical tips for tool calling and appointment scheduling. Enhance your development skills and explore the integration possibilities. #AI #VoiceAssistant #Twilio #OpenAI #NodeJS</description>
     </item>
     <item>
       <title>Build Multimodal Conversational AI Experiences with Twilio and the OpenAI Realtime API</title>
-      <link>http://localhost:1313/articles/article-7523/</link>
+      <link>/articles/article-2025-08-28-7523/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7523/</guid>
-      <description>Unlock the potential of multimodal Voice AI by integrating Twilio APIs with OpenAI&amp;rsquo;s Realtime API. This collaboration enhances customer interactions through practical tutorials and sample projects. Explore how to elevate your conversational AI experiences effectively. #AI #VoiceTech #Twilio #OpenAI #CustomerExperience ðð¤ð¬ð</description>
+      <guid>/articles/article-2025-08-28-7523/</guid>
+      <description>Unlock the potential of multimodal Voice AI by integrating Twilio APIs with OpenAI&amp;rsquo;s Realtime API. This collaboration enhances customer interactions through practical tutorials and sample projects. Explore how to elevate your conversational AI experiences effectively. #AI #VoiceTech #Twilio #OpenAI #CustomerExperience 🌐🤖💬📈</description>
     </item>
     <item>
       <title>How to Make Outgoing Calls with Twilio Voice and the OpenAI Realtime API and Node.js</title>
-      <link>http://localhost:1313/articles/article-7525/</link>
+      <link>/articles/article-2025-08-28-7525/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7525/</guid>
-      <description>ð Ready to enhance your calling experience? This article explains how to create an AI-driven voice assistant that can make outbound calls using Twilio Voice and the OpenAI Realtime API with Node.js. It covers essential prerequisites including setting up Node.js, Twilio, and OpenAI accounts. The tutorial also provides demo code for dialing a phone number and handling call interactions. Learn more about building your own voice assistant today! ðð» #AI #Twilio #OpenAI #NodeJS #VoiceAssistant</description>
+      <guid>/articles/article-2025-08-28-7525/</guid>
+      <description>🚀 Ready to enhance your calling experience? This article explains how to create an AI-driven voice assistant that can make outbound calls using Twilio Voice and the OpenAI Realtime API with Node.js. It covers essential prerequisites including setting up Node.js, Twilio, and OpenAI accounts. The tutorial also provides demo code for dialing a phone number and handling call interactions. Learn more about building your own voice assistant today! 📞💻 #AI #Twilio #OpenAI #NodeJS #VoiceAssistant</description>
     </item>
     <item>
       <title>How to Make Outgoing Calls with Twilio Voice, the OpenAI Realtime API, and Python</title>
-      <link>http://localhost:1313/articles/article-7559/</link>
+      <link>/articles/article-2025-08-28-7559/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7559/</guid>
+      <guid>/articles/article-2025-08-28-7559/</guid>
       <description>📞 Learn how to build an AI-driven voice assistant that can make outbound calls using Twilio Voice and the OpenAI Realtime API with Python. This tutorial guides you through the process of setting up your Python environment, ensuring you have the required accounts and tools, including Twilio and OpenAI API access. Follow along as you create a filter function to check phone numbers and initiate calls. Once connected, the OpenAI Realtime API will start the conversation! #AI #Twilio #Python&amp;hellip;</description>
     </item>
     <item>
-      <title>RCS is now generally available: Increase engagement and ROI with zero code changes</title>
-      <link>http://localhost:1313/articles/article-7244/</link>
+      <title>SMTP Port 587 vs 465: Which Port Should You Use?</title>
+      <link>/articles/article-2025-08-28-7716/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-28-7716/</guid>
+      <description>📧 Confused about SMTP ports? Here&amp;rsquo;s a quick guide! For email submission, use &lt;strong&gt;SMTP port 587&lt;/strong&gt; with StartTLS. It&amp;rsquo;s the current standard, well-supported, and ensures both secure and non-secure connections run smoothly. &lt;strong&gt;Port 465&lt;/strong&gt; is an option, but it has a complicated history and is generally not recommended unless absolutely necessary. Choose wisely to avoid troubleshooting! 🔧 #SMTP #EmailConfiguration #TechTips #CyberSecurity</description>
+    </item>
+    <item>
+      <title>Cloud Call Center: What It Is, How It Works, &amp; Top Solutions</title>
+      <link>/articles/article-2025-08-26-7717/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7244/</guid>
-      <description>ð Exciting news for businesses! RCS is now generally available through Twilio. Engage your customers with rich content on a branded channel without any code changes to your existing messaging solutions. This update aims to enhance customer engagement and improve return on investment. #RCS #Twilio #CustomerEngagement #Messaging #BusinessGrowth</description>
+      <guid>/articles/article-2025-08-26-7717/</guid>
+      <description>Discover the essentials of cloud call centers in our latest guide! ☁️📞 Learn what cloud call centers are, how they operate, and the advantages they hold over traditional systems. The article also highlights top solutions and best practices for implementation. Stay informed about the future of customer communication! #CloudCallCenter #CustomerService #TechTrends #BusinessSolutions #Twilio</description>
+    </item>
+    <item>
+      <title>RCS is now generally available: Increase engagement and ROI with zero code changes</title>
+      <link>/articles/article-2025-08-26-7244/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-26-7244/</guid>
+      <description>🚀 Exciting news for businesses! RCS is now generally available through Twilio. Engage your customers with rich content on a branded channel without any code changes to your existing messaging solutions. This update aims to enhance customer engagement and improve return on investment. #RCS #Twilio #CustomerEngagement #Messaging #BusinessGrowth</description>
     </item>
     <item>
       <title>12 contact center technologies and trends to support your agents and customers</title>
-      <link>http://localhost:1313/articles/article-7245/</link>
+      <link>/articles/article-2025-08-25-7245/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7245/</guid>
-      <description>ð Contact center technologies are rapidly evolving. Staying updated on these trends is essential for supporting both agents and customers. ð The article highlights 12 key technologies that are shaping the future of contact centers. These advancements aim to enhance efficiency and improve user experiences. Explore the latest in contact center innovation to ensure your operations remain competitive and effective. #ContactCenter #TechTrends #CustomerSupport #Innovation #BusinessSolutions</description>
+      <guid>/articles/article-2025-08-25-7245/</guid>
+      <description>🌐 Contact center technologies are rapidly evolving. Staying updated on these trends is essential for supporting both agents and customers. 📈 The article highlights 12 key technologies that are shaping the future of contact centers. These advancements aim to enhance efficiency and improve user experiences. Explore the latest in contact center innovation to ensure your operations remain competitive and effective. #ContactCenter #TechTrends #CustomerSupport #Innovation #BusinessSolutions</description>
     </item>
     <item>
       <title>Using Vibe Coding to Alter a Twilio Code Exchange Template</title>
-      <link>http://localhost:1313/articles/article-7190/</link>
+      <link>/articles/article-2025-08-25-7190/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7190/</guid>
-      <description>ð Are you a non-developer wanting to customize Twilio Code Exchange templates? This article introduces &amp;ldquo;vibe coding,&amp;rdquo; a method to enhance templates using AI tools without manual coding. It guides you through using OpenAI&amp;rsquo;s ChatGPT to expand a Node.js application that tracks email events in SendGrid. Create your account on OpenAI to get started and explore how AI can assist in developing your ideas. #Twilio #OpenAI #VibeCoding #NoCode #TechForEveryone</description>
+      <guid>/articles/article-2025-08-25-7190/</guid>
+      <description>🚀 Are you a non-developer wanting to customize Twilio Code Exchange templates? This article introduces &amp;ldquo;vibe coding,&amp;rdquo; a method to enhance templates using AI tools without manual coding. It guides you through using OpenAI&amp;rsquo;s ChatGPT to expand a Node.js application that tracks email events in SendGrid. Create your account on OpenAI to get started and explore how AI can assist in developing your ideas. #Twilio #OpenAI #VibeCoding #NoCode #TechForEveryone</description>
     </item>
     <item>
       <title>19&#43; tips to stop your emails from going to spam in 2025</title>
-      <link>http://localhost:1313/articles/article-7246/</link>
+      <link>/articles/article-2025-08-24-7246/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7246/</guid>
-      <description>Struggling with your emails landing in the spam folder? ð§ Here are key tips to improve your email deliverability: - Build your own email list and use double opt-in methods. - Regularly clean your email list and monitor your sender reputation. - Ensure compliance with privacy laws and provide an email preference center. Stay informed and keep your messages in the inbox! ð¨ #EmailMarketing #SpamFilters #EmailTips #DigitalMarketing #InboxSuccess</description>
+      <guid>/articles/article-2025-08-24-7246/</guid>
+      <description>Struggling with your emails landing in the spam folder? 📧 Here are key tips to improve your email deliverability: - Build your own email list and use double opt-in methods. - Regularly clean your email list and monitor your sender reputation. - Ensure compliance with privacy laws and provide an email preference center. Stay informed and keep your messages in the inbox! 📨 #EmailMarketing #SpamFilters #EmailTips #DigitalMarketing #InboxSuccess</description>
+    </item>
+    <item>
+      <title>List-Unsubscribe Header: What It Is &amp; How to Use It</title>
+      <link>/articles/article-2025-08-21-7773/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-21-7773/</guid>
+      <description>📧 A list-unsubscribe header is a helpful email feature that allows recipients to easily opt out of future communications without marking emails as spam. This option appears directly in the email client interface, streamlining the process for users. Major providers like Gmail and Outlook support this feature, making it a best practice for businesses. Implementing list-unsubscribe headers not only enhances user experience but also helps businesses maintain compliance and a healthy email list&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Email Authentication: How to Authenticate Email in 5 Steps</title>
+      <link>/articles/article-2025-08-20-7774/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-20-7774/</guid>
+      <description>🔒 Email authentication is crucial for ensuring your messages are recognized as genuine by providers like Gmail and Yahoo. With new 2024 sender requirements, it&amp;rsquo;s no longer optional. Use SPF, DKIM, and DMARC to build trust and improve deliverability. Follow five simple steps to authenticate your email and keep your messages out of spam folders. #EmailAuthentication #SPF #TrustInEmail #EmailDeliverability #Cybersecurity</description>
     </item>
     <item>
       <title>How to Prevent Race Conditions in Laravel with Atomic Locks</title>
-      <link>http://localhost:1313/articles/article-5136/</link>
+      <link>/articles/article-2025-08-19-5136/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5136/</guid>
-      <description>Learn how to prevent race conditions in Laravel with atomic locks! ð This article outlines the importance of using Laravelâs locking mechanisms to ensure data integrity and manage concurrent processes effectively. Discover practical steps and examples to implement these techniques in your projects. Stay informed and enhance your development skills! ð»â¨ #Laravel #WebDevelopment #CodingTips #RaceConditions #AtomicLocks</description>
+      <guid>/articles/article-2025-08-19-5136/</guid>
+      <description>Learn how to prevent race conditions in Laravel with atomic locks! 🔒 This article outlines the importance of using Laravel’s locking mechanisms to ensure data integrity and manage concurrent processes effectively. Discover practical steps and examples to implement these techniques in your projects. Stay informed and enhance your development skills! 💻✨ #Laravel #WebDevelopment #CodingTips #RaceConditions #AtomicLocks</description>
     </item>
     <item>
       <title>How to boost business with affiliate email marketing programs</title>
-      <link>http://localhost:1313/articles/article-5137/</link>
+      <link>/articles/article-2025-08-18-5137/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5137/</guid>
-      <description>Boost your business with affiliate email marketing! ð§â¨ Successful companies expand their reach by identifying target markets and building connections. One effective strategy is partnering with affiliate marketers who promote your products through their own networks. These marketers communicate with audiences that already trust them, increasing the likelihood of conversions. Compensation structures in affiliate programs vary, typically rewarding based on performance. Tracking links help&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5137/</guid>
+      <description>Boost your business with affiliate email marketing! 📧✨ Successful companies expand their reach by identifying target markets and building connections. One effective strategy is partnering with affiliate marketers who promote your products through their own networks. These marketers communicate with audiences that already trust them, increasing the likelihood of conversions. Compensation structures in affiliate programs vary, typically rewarding based on performance. Tracking links help&amp;hellip;</description>
     </item>
     <item>
-      <title>Regulatory and Compliance Corner - August 2025</title>
-      <link>http://localhost:1313/articles/article-5138/</link>
+      <title>Regulatory and Compliance Corner - August &amp; September 2025</title>
+      <link>/articles/article-2025-08-18-5138/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5138/</guid>
-      <description>ð This month&amp;rsquo;s Regulatory and Compliance Corner highlights significant telecom policy changes worldwide. Key updates include new regulations aimed at enhancing data privacy and security for users. Additionally, several countries are revising rules to promote competition in the telecom sector. Stay informed about these important shifts in the industry! ð¡âï¸ #Telecom #Regulations #DataPrivacy #IndustryInsights #Compliance</description>
+      <guid>/articles/article-2025-08-18-5138/</guid>
+      <description>🌍 This month&amp;rsquo;s Regulatory and Compliance Corner highlights significant telecom policy changes worldwide. Key updates include new regulations aimed at enhancing data privacy and security for users. Additionally, several countries are revising rules to promote competition in the telecom sector. Stay informed about these important shifts in the industry! 📡✉️ #Telecom #Regulations #DataPrivacy #IndustryInsights #Compliance</description>
     </item>
     <item>
       <title>A CDP is the Best Contextual Data Layer for Agentic Systems</title>
-      <link>http://localhost:1313/articles/article-5140/</link>
+      <link>/articles/article-2025-08-15-5140/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5140/</guid>
+      <guid>/articles/article-2025-08-15-5140/</guid>
       <description>AI agents thrive on accurate, real-time context. A Customer Data Platform (CDP) like Twilio Segment plays a crucial role in delivering this data. It provides clean, consented information tailored to the agents&amp;rsquo; needs. This enables more informed, efficient, and secure decision-making, ultimately enhancing customer experiences. #AI #CustomerExperience #DataManagement #Twilio #CDP</description>
     </item>
     <item>
       <title>Best Practices for OTP Input Forms in Android</title>
-      <link>http://localhost:1313/articles/article-5139/</link>
+      <link>/articles/article-2025-08-15-5139/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5139/</guid>
-      <description>Creating effective OTP input forms in Android is crucial for user verification. This article by Twilio discusses best practices for design and implementation. It highlights troubleshooting tips to enhance user experience and security. Developers can benefit from these insights to improve their applications. Explore more to ensure your OTP forms are user-friendly and effective! ðð± #AndroidDevelopment #OTPSecurity #UserExperience #Twilio</description>
+      <guid>/articles/article-2025-08-15-5139/</guid>
+      <description>Creating effective OTP input forms in Android is crucial for user verification. This article by Twilio discusses best practices for design and implementation. It highlights troubleshooting tips to enhance user experience and security. Developers can benefit from these insights to improve their applications. Explore more to ensure your OTP forms are user-friendly and effective! 🔐📱 #AndroidDevelopment #OTPSecurity #UserExperience #Twilio</description>
     </item>
     <item>
-      <title>Announcing Twilio Support for Metaâs WhatsApp Marketing Messages Lite API on Private Beta</title>
-      <link>http://localhost:1313/articles/article-5144/</link>
+      <title>How to Insert a GIF into Emails in 2025</title>
+      <link>/articles/article-2025-08-15-7718/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-15-7718/</guid>
+      <description>🚀 Want to enhance your email marketing? Consider adding GIFs! GIFs can capture attention and engage customers effectively. This article provides a concise tutorial on inserting GIFs into emails using platforms like Gmail and Outlook. 🖼️ Key steps include copying a GIF link from sites like Giphy, pasting it into your email, and ensuring the entire animation displays correctly. For detailed methods and insights on using GIFs in your campaigns, check out the full article! #EmailMarketing #GIFs&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing Twilio Support for Meta’s WhatsApp Marketing Messages Lite API on Private Beta</title>
+      <link>/articles/article-2025-08-14-5144/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5144/</guid>
-      <description>ð Exciting news for businesses! Twilio now supports Metaâs WhatsApp Marketing Messages Lite API, enhancing the delivery of high-volume marketing campaigns. ð The MM Lite API is designed to improve message deliverability and reduce errors, all managed through the Twilio platform. Key features include optimized delivery, TTL control, and ROI tracking. ð With Twilio, businesses gain a reliable communication platform that simplifies the management of multiple channels while ensuring compliance&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5144/</guid>
+      <description>🚀 Exciting news for businesses! Twilio now supports Meta’s WhatsApp Marketing Messages Lite API, enhancing the delivery of high-volume marketing campaigns. 📈 The MM Lite API is designed to improve message deliverability and reduce errors, all managed through the Twilio platform. Key features include optimized delivery, TTL control, and ROI tracking. 🔗 With Twilio, businesses gain a reliable communication platform that simplifies the management of multiple channels while ensuring compliance&amp;hellip;</description>
     </item>
     <item>
       <title>Behind the builder: Kate Molony, Software Engineer</title>
-      <link>http://localhost:1313/articles/article-5141/</link>
+      <link>/articles/article-2025-08-14-5141/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5141/</guid>
-      <description>Meet Kate Molony, a Software Engineer at Twilio! ð In our latest #BehindTheBuilder feature, Kate discusses her career journey, starting as an intern and progressing to a full-time role on the Operational Insights team. Her experience highlights the growth and opportunities available at Twilio. Learn more about her insights and contributions! ð¡ #Twilio #SoftwareEngineering #CareerJourney</description>
+      <guid>/articles/article-2025-08-14-5141/</guid>
+      <description>Meet Kate Molony, a Software Engineer at Twilio! 🚀 In our latest #BehindTheBuilder feature, Kate discusses her career journey, starting as an intern and progressing to a full-time role on the Operational Insights team. Her experience highlights the growth and opportunities available at Twilio. Learn more about her insights and contributions! 💡 #Twilio #SoftwareEngineering #CareerJourney</description>
     </item>
     <item>
       <title>Best Practices for OTP Input Forms in iOS</title>
-      <link>http://localhost:1313/articles/article-5142/</link>
+      <link>/articles/article-2025-08-14-5142/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5142/</guid>
-      <description>ð Building effective OTP input forms in iOS is crucial for security. This article outlines best practices for developers, focusing on user experience and testing methods. It emphasizes the importance of clear design and error handling to enhance usability. Learn how to create secure and efficient OTP forms that meet industry standards. #iOSDevelopment #OTPSecurity #UserExperience #BestPractices #Twilio</description>
+      <guid>/articles/article-2025-08-14-5142/</guid>
+      <description>🔑 Building effective OTP input forms in iOS is crucial for security. This article outlines best practices for developers, focusing on user experience and testing methods. It emphasizes the importance of clear design and error handling to enhance usability. Learn how to create secure and efficient OTP forms that meet industry standards. #iOSDevelopment #OTPSecurity #UserExperience #BestPractices #Twilio</description>
     </item>
     <item>
       <title>What Businesses Need to Know About iOS 26</title>
-      <link>http://localhost:1313/articles/article-5143/</link>
+      <link>/articles/article-2025-08-14-5143/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5143/</guid>
-      <description>ð± Businesses should be aware of the recent changes in Apple iOS 26. These updates may significantly affect how companies utilize SMS, MMS, RCS messaging, and voice calls to communicate with customers. Understanding these implications is crucial for maintaining effective customer engagement strategies. Stay informed to adapt your communication approaches accordingly! #iOS26 #BusinessCommunication #CustomerEngagement #TechUpdates</description>
+      <guid>/articles/article-2025-08-14-5143/</guid>
+      <description>📱 Businesses should be aware of the recent changes in Apple iOS 26. These updates may significantly affect how companies utilize SMS, MMS, RCS messaging, and voice calls to communicate with customers. Understanding these implications is crucial for maintaining effective customer engagement strategies. Stay informed to adapt your communication approaches accordingly! #iOS26 #BusinessCommunication #CustomerEngagement #TechUpdates</description>
     </item>
     <item>
       <title>Introducing Developer Evangelist Anni Chen</title>
-      <link>http://localhost:1313/articles/article-5145/</link>
+      <link>/articles/article-2025-08-13-5145/</link>
       <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5145/</guid>
-      <description>ð Meet Anni Chen, Twilio&amp;rsquo;s new Developer Evangelist! Anni brings a passion for AI, food, and productivity to her role. She shares insights from her journey into developer evangelism, aiming to connect with the developer community and enhance user experiences. Stay tuned for more updates and insights from Anni! #DeveloperEvangelism #Twilio #TechCommunity #AI #Productivity</description>
+      <guid>/articles/article-2025-08-13-5145/</guid>
+      <description>🌟 Meet Anni Chen, Twilio&amp;rsquo;s new Developer Evangelist! Anni brings a passion for AI, food, and productivity to her role. She shares insights from her journey into developer evangelism, aiming to connect with the developer community and enhance user experiences. Stay tuned for more updates and insights from Anni! #DeveloperEvangelism #Twilio #TechCommunity #AI #Productivity</description>
     </item>
     <item>
       <title>How to clean your email list: your step-by-step scrub guide</title>
-      <link>http://localhost:1313/articles/article-5146/</link>
+      <link>/articles/article-2025-08-11-5146/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5146/</guid>
-      <description>Cleaning your email list is crucial for effective marketing. ð§¹ Inactive subscribers and invalid addresses can hurt your engagement rates and sender reputation. Regular maintenance can help you maintain a high-performing email database. Key steps include removing bad addresses, identifying inactive subscribers, and segmenting your audience. ð Remember, it&amp;rsquo;s an ongoing process, not just a one-time task. #EmailMarketing #ListCleaning #DigitalMarketing #Engagement #MarketingTips</description>
+      <guid>/articles/article-2025-08-11-5146/</guid>
+      <description>Cleaning your email list is crucial for effective marketing. 🧹 Inactive subscribers and invalid addresses can hurt your engagement rates and sender reputation. Regular maintenance can help you maintain a high-performing email database. Key steps include removing bad addresses, identifying inactive subscribers, and segmenting your audience. 📊 Remember, it&amp;rsquo;s an ongoing process, not just a one-time task. #EmailMarketing #ListCleaning #DigitalMarketing #Engagement #MarketingTips</description>
     </item>
     <item>
       <title>How to test Twilio Verify without getting rate limited</title>
-      <link>http://localhost:1313/articles/article-4790/</link>
+      <link>/articles/article-2025-08-08-4790/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4790/</guid>
+      <guid>/articles/article-2025-08-08-4790/</guid>
       <description>Struggling with Twilio Verify testing? This article offers solutions to common issues like rate limits and expired verifications. It also shares best practices for effective verification testing. Additionally, you&amp;rsquo;ll learn how to set up a testing dashboard to streamline your process. #Twilio #API #Testing #DevTips #SoftwareDevelopment</description>
     </item>
     <item>
       <title>19 Best Email Fonts That Won&#39;t Let You Down in 2025</title>
-      <link>http://localhost:1313/articles/article-5149/</link>
+      <link>/articles/article-2025-08-07-5149/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5149/</guid>
+      <guid>/articles/article-2025-08-07-5149/</guid>
       <description>Discover the 19 best email fonts for 2025 that ensure your messages stand out! This guide highlights email-safe fonts that work seamlessly in platforms like Gmail and Outlook. It covers key topics such as the benefits of choosing the right font, top recommendations for email signatures, newsletters, and marketing campaigns. Optimize your email communications for better engagement! ✉️📈 #EmailMarketing #DesignTips #EmailFonts</description>
     </item>
     <item>
       <title>Deliver Secure and Reliable OTPs with Twilio Verify and PingOne</title>
-      <link>http://localhost:1313/articles/article-5147/</link>
+      <link>/articles/article-2025-08-07-5147/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5147/</guid>
+      <guid>/articles/article-2025-08-07-5147/</guid>
       <description>PingOne now integrates directly with Twilio Verify, enhancing OTP delivery and reducing fraud risks. 🔒✨ This integration improves multi-factor authentication by utilizing Twilio&amp;rsquo;s global sender management and intelligent fallback systems. 📲 The guide provides a step-by-step configuration, requiring no extra tools. Learn more about securing user access effectively! #CyberSecurity #MultiFactorAuthentication #TwilioVerify #PingOne #FraudPrevention</description>
     </item>
     <item>
       <title>Why RCS messaging is the future</title>
-      <link>http://localhost:1313/articles/article-5148/</link>
+      <link>/articles/article-2025-08-07-5148/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5148/</guid>
+      <guid>/articles/article-2025-08-07-5148/</guid>
       <description>RCS messaging is transforming customer engagement by providing interactive and visual experiences directly within messaging apps. 📱✨ Unlike SMS and MMS, RCS offers features like tap-to-buy buttons and branded profiles, enhancing communication between brands and consumers. Businesses adopting RCS are seeing improved response rates and increased customer loyalty. Explore how RCS can elevate your customer experience. #RCS #CustomerEngagement #DigitalMarketing #MessagingInnovation #BusinessGrowth</description>
     </item>
     <item>
       <title>Modern messaging with RCS: Your webinar recap</title>
-      <link>http://localhost:1313/articles/article-5150/</link>
+      <link>/articles/article-2025-08-06-5150/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5150/</guid>
+      <guid>/articles/article-2025-08-06-5150/</guid>
       <description>Discover the potential of Rich Communication Services (RCS) in engaging customers! 📱 In a recent webinar, Twilio experts highlighted how RCS transforms customer communication. With 89% of consumers preferring messaging, brands can now leverage RCS for a more interactive experience. RCS offers features like verified sender IDs, multimedia content, and secure messaging, enhancing trust and engagement. Learn how to utilize these advancements for your business! 🌟 #RCS #CustomerEngagement&amp;hellip;</description>
     </item>
     <item>
       <title>How to Send an MMS With Rust</title>
-      <link>http://localhost:1313/articles/article-5151/</link>
+      <link>/articles/article-2025-08-05-5151/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5151/</guid>
+      <guid>/articles/article-2025-08-05-5151/</guid>
       <description>📱 Learn how to send an MMS using Rust with Twilio&amp;rsquo;s Programmable Messaging API! This tutorial builds on a previous SMS guide, introducing the Multimedia Messaging Service (MMS), which allows sending images, audio, and more. While Rust lacks a dedicated SDK from Twilio, you can utilize Crates like Reqwest and Serde to simplify the process. You&amp;rsquo;ll need Rust, a Twilio account, and a mobile device. Ready to get started? #Rust #MMS #Twilio #Programming #Coding</description>
     </item>
     <item>
       <title>Secure CakePHP with One-Time Password Verification Using  WhatsApp</title>
-      <link>http://localhost:1313/articles/article-5152/</link>
+      <link>/articles/article-2025-08-05-5152/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5152/</guid>
+      <guid>/articles/article-2025-08-05-5152/</guid>
       <description>Enhance your CakePHP security with One-Time Password (OTP) verification via WhatsApp! 📱🔒 This tutorial guides you through the process of integrating the Twilio WhatsApp Business API for user authentication. Learn to create login and verification pages that streamline user access while boosting security. Prerequisites include PHP 8.3+, a Twilio account, and basic CakePHP knowledge. #WebDevelopment #CakePHP #Twilio #UserSecurity #WhatsApp</description>
     </item>
     <item>
       <title>6 things to know about RCS business messaging</title>
-      <link>http://localhost:1313/articles/article-5153/</link>
+      <link>/articles/article-2025-08-04-5153/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5153/</guid>
+      <guid>/articles/article-2025-08-04-5153/</guid>
       <description>RCS business messaging is transforming brand-consumer interactions. This advanced protocol enables the exchange of rich, interactive content like images, videos, and buttons. If you&amp;rsquo;re considering moving from SMS or MMS, understanding RCS is essential. Twilio hosted a webinar to discuss RCS&amp;rsquo;s significance and how to begin using it. Check it out for insights! 📱💬 #RCS #BusinessMessaging #Twilio #DigitalCommunication #Marketing</description>
     </item>
     <item>
       <title>What does looping in email mean?</title>
-      <link>http://localhost:1313/articles/article-5154/</link>
+      <link>/articles/article-2025-08-04-5154/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5154/</guid>
+      <guid>/articles/article-2025-08-04-5154/</guid>
       <description>📧 Looping in email can be confusing, but it’s important to understand the difference. Email looping is the practice of adding someone to an existing conversation, enhancing communication and transparency. However, it’s wise to seek consent to avoid unwanted notifications. On the other hand, looping mail refers to automated emails continuously sent between systems, which can lead to spam and affect email marketing performance. Understanding these concepts can improve your email practices&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>21 Types of Emails Explained (With Tips &amp; Examples)</title>
+      <link>/articles/article-2025-08-02-5155/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-02-5155/</guid>
+      <description>Discover the 21 types of emails you can use to enhance your marketing strategy. 📧 From welcome emails that create strong first impressions to promotional emails that boost sales, knowing when to use each type is key. Explore email categories like product, event, privacy, educational, and promotional with helpful tips and examples. Experiment to find what resonates with your audience! #EmailMarketing #DigitalCommunication #MarketingStrategy #EmailTypes #BusinessGrowth</description>
+    </item>
+    <item>
+      <title>SMTP Relay Service: What Is SMTP Relay &amp; How Does It Work?</title>
+      <link>/articles/article-2025-08-02-5156/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-02-5156/</guid>
+      <description>Discover the role of SMTP relay services in email delivery! 📧 These services ensure your marketing emails reach inboxes effectively. They route messages through dedicated servers, helping manage high-volume sending and maintain sender reputation. Learn more about how SMTP relay servers work and their importance for reliable email communication. #EmailMarketing #SMTPRelay #EmailDelivery #DigitalCommunication #MarketingTools</description>
+    </item>
+    <item>
+      <title>23 Rules for Writing Website Copy in 2025</title>
+      <link>/articles/article-2025-08-01-5157/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-5157/</guid>
+      <description>🚀 Looking to improve your website copy? Check out these 23 essential rules for writing effective web content in 2025. From headlines to calls-to-action, the right words can engage and convert visitors. Mastering elements like body copy and subheaders is crucial for a better user experience. Learn how to make your website a powerful tool for your brand! 🖥️✍️ #WebsiteCopy #ContentWriting #DigitalMarketing #SEO #WebDesign</description>
+    </item>
+    <item>
+      <title>New Rules in Spain: Don’t Let Your Calls Get Ghosted</title>
+      <link>/articles/article-2025-07-31-5158/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-5158/</guid>
+      <description>🚨 New telecom regulations in Spain are now in effect! Spanish mobile numbers cannot be used for unsolicited marketing or customer service calls. This means calls may get flagged or blocked, especially if using Transit-Caller-ID. 📞 To stay compliant, consider switching to Spanish landline or toll-free numbers. Review your number strategy to avoid disruptions in communication. Stay informed and keep your calls connected! #Telecom #Spain #Compliance #Twilio #Communication</description>
     </item>
   </channel>
 </rss>

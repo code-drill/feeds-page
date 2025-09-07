@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Event | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,366 +414,488 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/research/2025/09/ai4se-interns-jetbrains-part-1/" target="_blank">Meet Our Newest Innovators: Welcoming AI4SE Interns as JetBrains Employees!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-09-01 15:17</span>
-                
-                <span class="author">by Katie Fraser</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/idea/2025/09/java-annotated-monthly-september-2025/" target="_blank">Java Annotated Monthly – September 2025</a></h2>
+            <div class="publication-date">2025-09-05 08:24</div>
+            <div class="summary">🚀 Excited for September&#39;s Java Annotated Monthly! This edition features updates on Java 25, set to release on September 16, 2025. Key enhancements include Compact Source Files, Flexible Constructor Bodies, and Scoped Values for better thread management. Additionally, IntelliJ IDEA 2025.2 supports these updates, including new debugging tools. Don&#39;t miss out on the upcoming events and insights from Marit van Dijk! #Java25 #IntelliJIDEA #TechNews #SoftwareDevelopment #JavaCommunity</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Irina Mariasova</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/design-disruption-sara-vienna" target="_blank">Leading design through disruption: A conversation with Sara Vienna, Chief Design Officer at Metalab</a></h2>
+            <div class="publication-date">2025-09-05 00:00</div>
+            <div class="summary">🚀 Excited to share insights from my conversation with Sara Vienna, Chief Design Officer at Metalab! Sara reflects on her journey from a cold email to leading a top design firm. She emphasizes flexibility and continuous improvement in a rapidly evolving tech landscape. AI is reshaping design, prompting a redefinition of craft that focuses on user needs over time spent. Client expectations have also shifted, with heightened pressure on businesses to adapt. #DesignLeadership #AIinDesign...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
             
-            <div class="sources">
+            
+            <div class="categories">
                 
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.heroku.com/blog/heroku-ai-paas-dreamforce-2025/" target="_blank">Discover How Heroku’s AI PaaS Delivers Real-World Results at Dreamforce</a></h2>
+            <div class="publication-date">2025-09-04 15:00</div>
+            <div class="summary">🚀 Heroku has transformed at Dreamforce into an AI PaaS, designed to enhance the shift from experimentation to production. Key highlights include new features like AppLink, Managed Inference, and Agents, all aimed at speeding up the delivery of AI-powered applications. Discover how companies like Workday and AT&amp;T; are achieving significant results with Heroku’s solutions. Explore more at Dreamforce! #Heroku #Dreamforce #AI #TechInnovation #BusinessGrowth</div>
+            <div class="source">Source: <a href="/sources/heroku-blog">Heroku Blog</a></div>
+            
+            <div class="author">Lauren Groccia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/webstorm/2025/09/jetbrains-javascript-day-2025-registration-is-now-open/" target="_blank">JetBrains JavaScript Day 2025 Registration Is Now Open</a></h2>
+            <div class="publication-date">2025-09-04 14:39</div>
+            <div class="summary">🚀 Exciting news for JavaScript enthusiasts! Registration is now open for the fifth edition of JetBrains JavaScript Day, a free online event set for October 2 at 9:00 am EDT / 3:00 pm CEST. Join us for insightful talks from industry leaders, covering topics from modern JavaScript tooling to open source project management. Don&#39;t miss out on this opportunity to learn and engage! 📅 Register now and be part of the conversation! #JavaScriptDay #JetBrains #JavaScript #TechEvent #WebDevelopment</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Aleksandra Aganezova</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/ai-week-2025-wrapup/" target="_blank">AI Week 2025: Recap</a></h2>
+            <div class="publication-date">2025-09-03 14:00</div>
+            <div class="summary">🌐 AI Week 2025 has concluded, focusing on how to harness AI&#39;s power while maintaining control. Key announcements included new products and partnerships aimed at enhancing AI security and usability. 🔒 The event emphasized four main areas: securing AI environments, protecting original content, supporting developers, and improving Cloudflare with AI features. Stay tuned for updates on our Blog, AI Avenue, and CloudflareTV! 📅 #AIWeek2025 #Cloudflare #AISecurity #TechInnovation #AI</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">James Allworth</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/conference-hopping-training-attendee-scanning-def-con" target="_blank">Conference Hopping: Training Attendee Scanning Def Con</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">🚨 The Black Hat NOC faces unique challenges, as it operates in a cybersecurity hub where scanning and ethical hacking are expected. Cisco is enhancing security with network-based telemetry to monitor diverse personal devices at the conference. An alert recently identified suspicious activity linked to a training session targeting an external IP associated with Def Con. #Cybersecurity #BlackHat2025 #Cisco #ThreatDetection #EthicalHacking</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Bilal Qamar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/driving-cisco-xdr-integration-with-third-party-partners-at-black-hat" target="_blank">Driving Cisco XDR Integration With Third-Party Partners at Black Hat</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">Cisco is the Official Security Cloud provider at Black Hat USA 2025, showcasing its latest advancements in XDR integration. These integrations enhance the Security Operations Center&#39;s capabilities, allowing analysts to quickly investigate Indicators of Compromise (IOC) with a single search. Special thanks to alphaMountain.ai and Pulsedive for their contributions to the event. #Cisco #CyberSecurity #BlackHat2025 #XDR #MalwareAnalysis 🚀🔍💻</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Aditya Sankar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/cisco-secure-firewall-snortml-at-black-hat-usa-2025" target="_blank">Cisco Secure Firewall: SnortML at Black Hat USA 2025</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">Cisco is the Security Cloud Provider for Black Hat USA 2025! Attendees can participate in hands-on training sessions, using cloud resources for real-time attack simulations. The Cisco team ensures stable connectivity and monitors traffic to protect against unauthorized attacks. SnortML, Cisco&#39;s machine learning tool, demonstrated high accuracy, detecting over 100 attacks with only 21 false positives. Stay informed about cybersecurity innovations! 🔒💻 #Cisco #BlackHat2025 #Cybersecurity...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Adam Kilgore</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/black-hat-training-attendees-scan-aviation-organization" target="_blank">Black Hat Training Attendees Scan Aviation Organization</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">🚀 The Black Hat conference highlights the unique challenges of cybersecurity, particularly within its Security and Network Operations Center (NOC). Attendees engage in ethical hacking, leading to expected scanning and exploitation activities. This dynamic environment differs from typical corporate settings where such actions are seen as malicious. With a Bring Your Own Device (BYOD) policy, comprehensive monitoring becomes challenging. The focus shifts to robust network-based telemetry for...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Bilal Qamar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/bhusa-2025-noc" target="_blank">Black Hat USA 2025: 10 Years Protecting Black Hat</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">Cisco celebrates a decade as the Official Security Cloud Provider for Black Hat USA! 🎉 Partnering with companies like Arista, Corelight, Lumen, and Palo Alto Networks, Cisco helps build and secure the Black Hat network. The NOC focuses on continuous network stability, delivering seamless security and visibility through an embedded SOC. 🔒🌐 #BlackHat2025 #CyberSecurity #Cisco #NetworkOperations #TechPartnerships</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Jessica (Bair) Oppenheimer</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/refining-sso-at-black-hat-usa" target="_blank">Refining SSO at Black Hat USA</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">🚀 Exciting updates from Black Hat USA 2025! Cisco Duo has enhanced its role as the multifactor authentication (MFA) and single sign-on (SSO) provider for the Network Operations Center (NOC). The successful deployment of Duo Directory has expanded user access, supporting over 100 users at the event. This upgrade improves identity and access management for both users and admins. Key features include streamlined password management and a new Global Enrollment Policy to simplify onboarding. 🔐...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Ryan Maclennan</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/securing-dns-with-umbrella-at-black-hat" target="_blank">Securing DNS With Umbrella at Black Hat</a></h2>
+            <div class="publication-date">2025-09-03 12:00</div>
+            <div class="summary">Cisco continues to enhance security at Black Hat, focusing on DNS monitoring since 2017. 🌐 With Umbrella, they route DNS traffic through a centralized service, gaining insights into potential threats like malware and phishing. At Black Hat USA 2025, encrypted DNS requests were blocked to improve visibility into user traffic. 🔍 The team prioritized monitoring the ApateWeb PUP delivery and phishing campaign, noting specific domain patterns. #Cisco #BlackHat2025 #CyberSecurity #DNS #Umbrella</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Jessica (Bair) Oppenheimer</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/our-corporate-purpose/rebuilding-homes-and-a-resilient-community-in-western-north-carolina" target="_blank">Rebuilding homes and a resilient community in Western North Carolina</a></h2>
+            <div class="publication-date">2025-09-02 16:44</div>
+            <div class="summary">In Western North Carolina, Cisco Crisis Response and 40 Communities are aiding in the recovery from Hurricane Helene. 🌪️ After the storm caused severe damage, affecting over 73,000 homes, a coalition was formed to support local leaders and nonprofits in the rebuilding efforts. 🏠 Nearly a year later, the focus remains on restoring homes, especially for low-income families, while ensuring vital services are accessible. 🤝 #CommunitySupport #HurricaneHelene #RebuildingTogether #CrisisResponse...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Erin Connor</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/partner/marketing-velocity-reimagined-wins-triple-industry-recognition" target="_blank">Marketing Velocity Reimagined Wins Triple Industry Recognition!</a></h2>
+            <div class="publication-date">2025-09-02 15:00</div>
+            <div class="summary">🚀 Cisco’s Marketing Velocity Reimagined has achieved a remarkable feat by winning three industry awards in 2025! 🏆 The program received the 2025 Killer Content Award for Channel Partner Marketing, recognizing its innovative digital co-marketing experience that empowers partners with learning and customizable campaigns. 📈 It also earned the 2025 Sammy Award for Sales and Marketing, celebrating the team&#39;s efforts to enhance connections with partners and drive growth through data-driven...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Jennifer Machgan</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.apple.com/news/?id=6zd7a3al" target="_blank">Hello Developer: September 2025</a></h2>
+            <div class="publication-date">2025-09-02 12:00</div>
+            <div class="summary">Get ready for an exciting design update! 🎨 Whether you&#39;re an experienced developer or just starting out, discover resources to enhance your apps and games. Explore videos, downloads, and documentation. Additionally, you can sign up for one-on-one sessions focusing on machine learning and AI. Plus, meet the team behind the popular game, Hello Kitty Island Adventure! 🌟 #HelloDeveloper #AppDevelopment #GameDesign #MachineLearning #HelloKittyAdventure</div>
+            <div class="source">Source: <a href="/sources/apple-developer-news">Apple Developer News</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/research/2025/09/ai4se-interns-jetbrains-part-1/" target="_blank">Meet Our Newest Innovators: Welcoming AI4SE Interns as JetBrains Employees!</a></h2>
+            <div class="publication-date">2025-09-01 15:17</div>
             <div class="summary">🚀 Exciting times at JetBrains as we welcome our new AI4SE interns! These recent graduates from TU Delft have transitioned from academic projects to full-time roles, applying their MSc thesis work in real-world settings. Meet Milan, Nadine, Saga, and Sergey, who gained hands-on experience during their internships and contributed to significant research. Their work will soon lead to journal publications! 📚 The AI4SE program, launched in 2023, combines academic research with industry...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Katie Fraser</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-amazon-q-developer-ipv6-updates-and-more-september-1-2025/" target="_blank">AWS Weekly Roundup: Amazon EC2, Amazon Q Developer, IPv6 updates, and more (September 1, 2025)</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-09-01 12:59</span>
-                
-                <span class="author">by Sébastien Stormacq</span>
-                
-                <span class="source">from <a href="https://aws.amazon.com/blogs/aws/feed/" target="_blank">AWS Blog</a></span>
-            </div>
+            <div class="publication-date">2025-09-01 12:59</div>
+            <div class="summary">📅 This week, the AWS Heroes Summit in Seattle highlighted the contributions of the AWS Heroes community. These exceptional individuals share their expertise through content creation, speaking, and open-source projects. 🤝 The summit provided a platform for networking and collaboration, with discussions on AWS roadmaps and direct feedback opportunities to AWS service teams. 🚀 Notable launches included IPv6 support for AWS App Runner, AWS Client VPN, and RDS Data API, enhancing connectivity...</div>
+            <div class="source">Source: <a href="/sources/aws-blog">AWS Blog</a></div>
+            
+            <div class="author">Sébastien Stormacq</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/aws-blog" class="source-link">AWS-Blog</a>
-                
-            </div>
-            
-            <div class="summary">📅 This week, the AWS Heroes Summit in Seattle highlighted the contributions of the AWS Heroes community. These exceptional individuals share their expertise through content creation, speaking, and open-source projects. 🤝 The summit provided a platform for networking and collaboration, with discussions on AWS roadmaps and direct feedback opportunities to AWS service teams. 🚀 Notable launches included IPv6 support for AWS App Runner, AWS Client VPN, and RDS Data API, enhancing connectivity...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://blog.jetbrains.com/kotlin/2025/08/icpc-world-finals-livestream-ecnerwala-secondthread-kotlin/" target="_blank">ICPC World Finals Livestream: ecnerwala and SecondThread Speed-Solving Kotlin Challenge</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-29 19:29</span>
-                
-                <span class="author">by Ksenia Shneyveys</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-29 19:29</div>
+            <div class="summary">🌍 Join us live from the ICPC World Finals in Baku, Azerbaijan, on September 2, 2025, at 9:30 am UTC! Watch top programmers Andrew ‘ecnerwala’ He and David ‘SecondThread’ Harmeyer compete in a real-time Kotlin speed-solving challenge. Hosted by Sebastian Aigner from JetBrains, this event showcases coding mastery under time pressure. Don&#39;t miss the chance to see Kotlin&#39;s strengths and get inspired to join the upcoming Kotlin Heroes contest! #ICPC #KotlinHeroes #CompetitiveProgramming #LiveEvent...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Ksenia Shneyveys</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🌍 Join us live from the ICPC World Finals in Baku, Azerbaijan, on September 2, 2025, at 9:30 am UTC! Watch top programmers Andrew ‘ecnerwala’ He and David ‘SecondThread’ Harmeyer compete in a real-time Kotlin speed-solving challenge. Hosted by Sebastian Aigner from JetBrains, this event showcases coding mastery under time pressure. Don&#39;t miss the chance to see Kotlin&#39;s strengths and get inspired to join the upcoming Kotlin Heroes contest! #ICPC #KotlinHeroes #CompetitiveProgramming #LiveEvent...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server" target="_blank">Hack Week 2025: How these engineers liquid-cooled a GPU server</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 15:00</span>
-                
-                <span class="author">by Catie Keck</span>
-                
-                <span class="source">from <a href="https://dropbox.tech/feed" target="_blank">Dropbox Tech Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 15:00</div>
+            <div class="summary">🚀 Hack Week 2025 at Dropbox focused on the theme “Keep It Simple,” encouraging innovation and collaboration. One highlight was the &#34;Liquid Cooling CPU/GPU Hardware&#34; project, which won the Learn Fast award. The team developed a custom liquid cooling system for GPU servers to address the thermal demands of AI workloads. This system demonstrated significant benefits, including lower operating temperatures and quieter performance. Future plans include expanding testing across multiple data...</div>
+            <div class="source">Source: <a href="/sources/dropbox-tech-blog">Dropbox Tech Blog</a></div>
+            
+            <div class="author">Catie Keck</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/dropbox-tech-blog" class="source-link">Dropbox-Tech-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Hack Week 2025 at Dropbox focused on the theme âKeep It Simple,â encouraging innovation and collaboration. One highlight was the &#34;Liquid Cooling CPU/GPU Hardware&#34; project, which won the Learn Fast award. The team developed a custom liquid cooling system for GPU servers to address the thermal demands of AI workloads. This system demonstrated significant benefits, including lower operating temperatures and quieter performance. Future plans include expanding testing across multiple data...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://blog.jetbrains.com/education/2025/08/27/new-school-year-2025-2026/" target="_blank">Ready for the Best School Year Ever? Join Our STEM Clubs, Camps, and Competitions</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 07:45</span>
-                
-                <span class="author">by Alena Gupaisova</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 07:45</div>
+            <div class="summary">🎉 A new school year is here, bringing fresh opportunities in STEM! Join our free online Youth Clubs to enhance your skills in math, coding, and AI. Weekly sessions with expert instructors and a global community await you. 🔍 Explore the Math Club, AI Club, and Coding Club for tailored learning experiences. 🌐 Engage in competitions and prepare for olympiads with peers worldwide! #STEMEducation #YouthClubs #Math #Coding #AI</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Alena Gupaisova</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð A new school year is here, bringing fresh opportunities in STEM! Join our free online Youth Clubs to enhance your skills in math, coding, and AI. Weekly sessions with expert instructors and a global community await you. ð Explore the Math Club, AI Club, and Coding Club for tailored learning experiences. ð Engage in competitions and prepare for olympiads with peers worldwide! #STEMEducation #YouthClubs #Math #Coding #AI</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developer.apple.com/news/?id=p9nukitr" target="_blank">Awe dropping.</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-26 14:00</span>
-                
-                <span class="source">from <a href="https://developer.apple.com/news/rss/news.rss" target="_blank">Apple Developer News</a></span>
-            </div>
+            <div class="publication-date">2025-08-26 14:00</div>
+            <div class="summary">🎉 Mark your calendars! Join us for a special Apple Event on September 9 at 10 a.m. PT. Tune in to watch live on apple.com, Apple TV, or YouTube Live. Don&#39;t miss out on the latest announcements! #AppleEvent #TechNews #LiveStream 📅🍏📺</div>
+            <div class="source">Source: <a href="/sources/apple-developer-news">Apple Developer News</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/apple-developer-news" class="source-link">Apple-Developer-News</a>
-                
-            </div>
-            
-            <div class="summary">ð Mark your calendars! Join us for a special Apple Event on September 9 at 10 a.m. PT. Tune in to watch live on apple.com, Apple TV, or YouTube Live. Don&#39;t miss out on the latest announcements! #AppleEvent #TechNews #LiveStream ðððº</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blogs.cisco.com/wearecisco/living-my-childhood-dream-thanks-to-ciscos-time2give-benefit" target="_blank">Living My Childhood Dream â Thanks to Ciscoâs Time2Give Benefit</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-26 12:00</span>
-                
-                <span class="author">by Rana Khalil</span>
-                
-                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blogs.cisco.com/wearecisco/living-my-childhood-dream-thanks-to-ciscos-time2give-benefit" target="_blank">Living My Childhood Dream — Thanks to Cisco’s Time2Give Benefit</a></h2>
+            <div class="publication-date">2025-08-26 12:00</div>
+            <div class="summary">Rana K., a Technical Consulting Engineer at Cisco, shares her inspiring journey of fulfilling a childhood dream through the company&#39;s Time2Give benefit. 🌍✨ This initiative allows employees to dedicate 80 hours annually to volunteer for causes they care about. Rana, originally from Egypt and now living in Poland, has embraced this opportunity to teach and give back globally. She reflects on the connections she&#39;s made, highlighting that cultural differences have not hindered her ability to...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Rana Khalil</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Rana K., a Technical Consulting Engineer at Cisco, shares her inspiring journey of fulfilling a childhood dream through the company&#39;s Time2Give benefit. ðâ¨ This initiative allows employees to dedicate 80 hours annually to volunteer for causes they care about. Rana, originally from Egypt and now living in Poland, has embraced this opportunity to teach and give back globally. She reflects on the connections she&#39;s made, highlighting that cultural differences have not hindered her ability to...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://blog.cloudflare.com/welcome-to-ai-avenue/" target="_blank">Cloudflare Launching AI Miniseries for Developers (and Everyone Else They Know)</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-25 14:00</span>
-                
-                <span class="author">by Craig Dennis</span>
-                
-                <span class="source">from <a href="https://blog.cloudflare.com/rss/" target="_blank">Cloudflare Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-25 14:00</div>
+            <div class="summary">🚀 Cloudflare has launched &#34;AI Avenue,&#34; a miniseries designed to demystify AI for developers and the general public. Each episode explores AI&#39;s growth, capabilities, and human augmentation stories, making the technology approachable and engaging. Viewers can interact with AI hands-on, breaking down fears and showcasing its potential. Join the journey to learn more at aiavenue.show! #AI #Cloudflare #Innovation #Technology #HumanAugmentation</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Craig Dennis</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/cloudflare-blog" class="source-link">Cloudflare-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Cloudflare has launched &#34;AI Avenue,&#34; a miniseries designed to demystify AI for developers and the general public. Each episode explores AI&#39;s growth, capabilities, and human augmentation stories, making the technology approachable and engaging. Viewers can interact with AI hands-on, breaking down fears and showcasing its potential. Join the journey to learn more at aiavenue.show! #AI #Cloudflare #Innovation #Technology #HumanAugmentation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.unrealengine.com/developer-interviews/exploring-creators-block-in-award-winning-animated-short-new-idea" target="_blank">&lt;p&gt;Watch the premiere of the award-winning animated short &lt;em&gt;NEW IDEA&lt;/em&gt; here!&lt;/p&gt;</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-25 00:00</span>
-                
-                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
-            </div>
+            <h2><a href="https://www.unrealengine.com/developer-interviews/exploring-creators-block-in-award-winning-animated-short-new-idea" target="_blank">Watch the premiere of the award-winning animated short NEW IDEA here!</a></h2>
+            <div class="publication-date">2025-08-25 00:00</div>
+            <div class="summary">🎥 Discover &#34;NEW IDEA,&#34; the award-winning animated short that has captured 26 accolades! This film showcases the inspiring journey of its creator, who faced challenges before finding success. Don&#39;t miss the chance to watch this imaginative piece and appreciate its unique story! #NewIdea #Animation #FilmAwards #ShortFilm #Inspiration ✨</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¥ Discover &#34;NEW IDEA,&#34; the award-winning animated short that has captured 26 accolades! This film showcases the inspiring journey of its creator, who faced challenges before finding success. Don&#39;t miss the chance to watch this imaginative piece and appreciate its unique story! #NewIdea #Animation #FilmAwards #ShortFilm #Inspiration â¨</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/kotlin/2025/08/kotlin-on-the-backend-what-s-new-from-kotlinconf-2025/" target="_blank">Kotlin on the Backend â Whatâs New From KotlinConf 2025</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-22 15:02</span>
-                
-                <span class="author">by Alina Dolgikh</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/kotlin/2025/08/kotlin-on-the-backend-what-s-new-from-kotlinconf-2025/" target="_blank">Kotlin on the Backend – What’s New From KotlinConf 2025</a></h2>
+            <div class="publication-date">2025-08-22 15:02</div>
+            <div class="summary">KotlinConf 2025 showcased significant advancements in server-side Kotlin. 🌐 Key highlights include a strategic partnership with Spring for enhanced null-safety and Kotlin-centric tutorials. 📚 Developers are increasingly adopting Kotlin for backend, with notable insights shared by leaders from major tech companies. Ktor continues to evolve, offering support for modern scalable applications, including new features for dependency injection and server-driven UI development. For in-depth insights,...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Alina Dolgikh</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">KotlinConf 2025 showcased significant advancements in server-side Kotlin. ð Key highlights include a strategic partnership with Spring for enhanced null-safety and Kotlin-centric tutorials. ð Developers are increasingly adopting Kotlin for backend, with notable insights shared by leaders from major tech companies. Ktor continues to evolve, offering support for modern scalable applications, including new features for dependency injection and server-driven UI development. For in-depth insights,...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://blog.1password.com/do-any-cisos-feel-lucky/" target="_blank">Do any CISOs feel lucky?</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-22 00:00</span>
-                
-                <span class="author">by info@1password.com (Wendy Nather)</span>
-                
-                <span class="source">from <a href="https://blog.1password.com/index.xml" target="_blank">1Password Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-22 00:00</div>
+            <div class="summary">Cybersecurity events like the RSA Conference and &#34;Hacker Summer Camp&#34; in Vegas are crucial for industry leaders. This year, CISOs expressed heightened concerns over nation-state threats and the impact of AI on security. Key discussions included resilience and anti-fragility in cybersecurity, with panels addressing AI’s role in enterprise threats. Informal settings also allowed for deeper conversations among CISOs about the practical use of AI and data protection challenges. #Cybersecurity...</div>
+            <div class="source">Source: <a href="/sources/1password-blog">1Password Blog</a></div>
+            
+            <div class="author">info@1password.com (Wendy Nather)</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/1password-blog" class="source-link">1Password-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Cybersecurity events like the RSA Conference and &#34;Hacker Summer Camp&#34; in Vegas are crucial for industry leaders. This year, CISOs expressed heightened concerns over nation-state threats and the impact of AI on security. Key discussions included resilience and anti-fragility in cybersecurity, with panels addressing AIâs role in enterprise threats. Informal settings also allowed for deeper conversations among CISOs about the practical use of AI and data protection challenges. #Cybersecurity...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blogs.cisco.com/our-corporate-purpose/the-power-of-ten-and-the-power-of-purpose" target="_blank">The power of ten â and the power of Purpose</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 17:00</span>
-                
-                <span class="author">by Kelly Petrich</span>
-                
-                <span class="source">from <a href="https://blogs.cisco.com/feed" target="_blank">Cisco Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blogs.cisco.com/our-corporate-purpose/the-power-of-ten-and-the-power-of-purpose" target="_blank">The power of ten — and the power of Purpose</a></h2>
+            <div class="publication-date">2025-08-21 17:00</div>
+            <div class="summary">🚀 Cisco empowers employees through the Time2Give program, offering ten days off to volunteer and $10,000 in matching donations. In FY25, 81% of employees participated, contributing over 566,000 volunteer hours. This initiative not only supports communities but also enhances employee retention and recognition. Learn more about our impact and future goals for FY26! 🌍🤝 #Cisco #CorporateResponsibility #Volunteerism #CommunityImpact #EmployeeEngagement</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Kelly Petrich</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/cisco-developer-blog" class="source-link">Cisco-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Cisco empowers employees through the Time2Give program, offering ten days off to volunteer and $10,000 in matching donations. In FY25, 81% of employees participated, contributing over 566,000 volunteer hours. This initiative not only supports communities but also enhances employee retention and recognition. Learn more about our impact and future goals for FY26! ðð¤ #Cisco #CorporateResponsibility #Volunteerism #CommunityImpact #EmployeeEngagement</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://supabase.com/blog/lw15-hackathon-winners" target="_blank">Supabase Launch Week 15 Hackathon Winner Announcement</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-20 07:00</span>
-                
-                <span class="source">from <a href="https://supabase.com/feed.xml" target="_blank">Supabase Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-20 07:00</div>
+            <div class="summary">🚀 Supabase Launch Week 15 has concluded, and we are excited to announce the winners of our Hackathon! The event showcased remarkable innovation from participants, demonstrating their technical skills. The standout project, &#34;Figma AI Tickets&#34; by vickywane, is a plugin that converts design tasks into actionable user stories using OpenAI’s GPT-4. Congratulations to all participants for their impressive submissions! 👏 #Supabase #Hackathon #Innovation #Figma #GPT4</div>
+            <div class="source">Source: <a href="/sources/supabase-blog">Supabase Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/supabase-blog" class="source-link">Supabase-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Supabase Launch Week 15 has concluded, and we are excited to announce the winners of our Hackathon! The event showcased remarkable innovation from participants, demonstrating their technical skills. The standout project, &#34;Figma AI Tickets&#34; by vickywane, is a plugin that converts design tasks into actionable user stories using OpenAIâs GPT-4. Congratulations to all participants for their impressive submissions! ð #Supabase #Hackathon #Innovation #Figma #GPT4</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://blog.railway.com/p/hackathon-2025-winners" target="_blank">Hackathon: Winners Announced!</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 00:00</span>
-                
-                <span class="source">from <a href="https://blog.railway.com/rss.xml" target="_blank">Railway Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-15 00:00</div>
+            <div class="summary">🚆 The winners of the first Railway User Hackathon have been announced! This event showcased innovative projects aimed at improving railway user experiences. Several projects received honorable mentions for their creativity and potential impact. Congratulations to all participants for their hard work and dedication! 🎉 #Hackathon #RailwayInnovation #UserExperience #Winners #TechForGood</div>
+            <div class="source">Source: <a href="/sources/railway-blog">Railway Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/event" class="category-link">event</a>
+                <a href="/categories/event" class="category-text">Event</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/railway-blog" class="source-link">Railway-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð The winners of the first Railway User Hackathon have been announced! This event showcased innovative projects aimed at improving railway user experiences. Several projects received honorable mentions for their creativity and potential impact. Congratulations to all participants for their hard work and dedication! ð #Hackathon #RailwayInnovation #UserExperience #Winners #TechForGood</div>
         </article>
         
     </div>
@@ -496,6 +953,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

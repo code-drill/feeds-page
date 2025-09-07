@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Educational | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,1026 +414,675 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 3 of 5 (161 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/claude-and-mcp" target="_blank">Generate Images with Claude and Hugging Face</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/cloud-contact-center" target="_blank">Cloud Call Center: What It Is, How It Works, &amp; Top Solutions</a></h2>
+            <div class="publication-date">2025-08-26 00:00</div>
+            <div class="summary">Discover the essentials of cloud call centers in our latest guide! ☁️📞 Learn what cloud call centers are, how they operate, and the advantages they hold over traditional systems. The article also highlights top solutions and best practices for implementation. Stay informed about the future of customer communication! #CloudCallCenter #CustomerService #TechTrends #BusinessSolutions #Twilio</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Ravleen Kaur, Jesse Sumrak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover how to generate images using Claude and Hugging Face! ð¤â¨ The article outlines step-by-step methods for utilizing these tools effectively. It highlights key features and provides tips for best practices in image generation. Explore the potential of AI in creative projects! #AI #ImageGeneration #HuggingFace #Claude #TechTrends</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/prevent-race-conditions-laravel-atomic-locks" target="_blank">How to Prevent Race Conditions in Laravel with Atomic Locks</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 00:00</span>
-                
-                <span class="author">by Prosper Ugbovo</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/choosing-blog-resource-center-content-hub" target="_blank">How to choose between a blog, resource center, and content hub for maximum impact</a></h2>
+            <div class="publication-date">2025-08-26 00:00</div>
+            <div class="summary">Choosing the right content structure is crucial for business success. 📊 Many companies lack a clear content strategy, leading to poor user experiences and lost sales. Research shows that 82% of consumers abandon purchases due to this issue. Understanding the differences between blogs, resource centers, and content hubs can enhance lead generation and SEO. A blog focuses on timely, engaging content, while a resource center offers actionable resources. Content hubs provide organized, evergreen...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Learn how to prevent race conditions in Laravel with atomic locks! ð This article outlines the importance of using Laravelâs locking mechanisms to ensure data integrity and manage concurrent processes effectively. Discover practical steps and examples to implement these techniques in your projects. Stay informed and enhance your development skills! ð»â¨ #Laravel #WebDevelopment #CodingTips #RaceConditions #AtomicLocks</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/18/using-sql-and-databases-in-jetbrains-ides/" target="_blank">Using SQL and databases in JetBrains IDEs</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 14:21</span>
-                
-                <span class="author">by Stanislav Garkusha</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://stackoverflow.blog/2025/08/25/making-continuous-learning-work-at-work/" target="_blank">Making continuous learning work at work</a></h2>
+            <div class="publication-date">2025-08-25 16:00</div>
+            <div class="summary">Continuous learning is vital for success in today&#39;s fast-paced work environment. 🛠️ The most effective learning occurs in real work situations—during code reviews, problem-solving, and retrospectives. Leaders can embed learning into daily routines using the Learn → Question → Answer → Apply cycle. To ensure skills remain relevant, it&#39;s essential to be intentional, lead by example, and offer diverse learning methods. Capturing these learning moments helps prevent knowledge decay and retains...</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Eira May</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Check out our recent livestream on August 14, where we discussed working with SQL and databases in JetBrains IDEs. ð» The session featured a demo on writing SQL queries and utilizing embedded database functionality, covering both simple and advanced tasks. ð¤ Speaker Maxim Sobolevskiy, a PMM at JetBrains, shared his expertise gained from years of experience as an SQL developer. For updates on product news and future livestreams, follow DataGrip on X or visit our Blog! #JetBrains #SQL...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/teamcity/2025/08/devops-for-startups/" target="_blank">DevOps for Startups: CI/CD from the Ground Up</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 10:37</span>
-                
-                <span class="author">by Olga Bedrina</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://blogs.cisco.com/learning/views-from-an-insider-on-the-ccnp-automation-track-enauto-2-0" target="_blank">Views from an Insider on the CCNP Automation Certification Track: ENAUTO 2.0</a></h2>
+            <div class="publication-date">2025-08-25 13:56</div>
+            <div class="summary">🚀 Exciting updates are coming to the CCNP Automation Certification Track with the ENAUTO 2.0 exam, effective February 3, 2026. Quinn Snyder shares insights from his experience as part of the team that developed the exam. The goal was to create a valuable certification for learners focused on enterprise automation. Stay tuned for the detailed exam topics that reflect extensive discussions and expert input. #CCNP #Automation #Cisco #Certification #ENAUTO2.0</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Quinn Snyder</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Startups can greatly benefit from adopting DevOps practices. This approach enhances agility, allowing quicker responses to market demands while maintaining software quality. ð DevOps fosters collaboration between development and operations teams, streamlining processes and automating tasks. This leads to improved productivity and faster delivery times. ð With continuous feedback and automated testing, startups can refine their products efficiently, ensuring a better user experience. ð» #DevOps...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/kernel-builder" target="_blank">From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/pycharm/2025/08/fine-tuning-and-deploying-gpt-models-using-hugging-face-transformers/" target="_blank">Fine-Tuning and Deploying GPT Models Using Hugging Face Transformers</a></h2>
+            <div class="publication-date">2025-08-25 11:01</div>
+            <div class="summary">Unlock the power of AI with Hugging Face Transformers! 🤖 Hugging Face has become essential for machine learning, offering a framework for models in text, vision, audio, and video. Fine-tuning models is key for improving performance on specific tasks, saving time and resources. ⏳ In the latest blog, learn how to fine-tune GPT models for better mathematical reasoning, and leverage the vast model repository on Hugging Face. Discover how to integrate and deploy these models effortlessly! 🌟...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Cheuk Ting Ho</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Excited to enhance your GPU capabilities? Check out the guide on building production-ready CUDA kernels! It introduces the kernel-builder library, designed to simplify the development of custom kernels for various architectures. Learn how to create efficient and maintainable systems while overcoming deployment challenges. Perfect for those looking to elevate their models! #CUDA #GPUs #Programming #TechGuide #MachineLearning</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/affiliate-email-marketing" target="_blank">How to boost business with affiliate email marketing programs</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 00:00</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://www.unrealengine.com/learning/august-learning-content-metahuman-metasounds-and-more" target="_blank">August learning content: MetaHuman, MetaSounds, and more.</a></h2>
+            <div class="publication-date">2025-08-25 00:00</div>
+            <div class="summary">🚀 August brings new learning opportunities! This month’s free content includes tutorials on MetaHuman, Blueprint-controlled particle effects, and MetaSounds. Perfect for those looking to enhance their skills in these areas. Explore these resources and elevate your knowledge today! #Learning #MetaHuman #MetaSounds #SkillDevelopment #Tutorials</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Boost your business with affiliate email marketing! ð§â¨ Successful companies expand their reach by identifying target markets and building connections. One effective strategy is partnering with affiliate marketers who promote your products through their own networks. These marketers communicate with audiences that already trust them, increasing the likelihood of conversions. Compensation structures in affiliate programs vary, typically rewarding based on performance. Tracking links help...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/mcp-for-research" target="_blank">MCP for Research: How to Connect AI to Research Tools</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/using-vibe-coding-alter-code-exchange-template-getting-started" target="_blank">Using Vibe Coding to Alter a Twilio Code Exchange Template</a></h2>
+            <div class="publication-date">2025-08-25 00:00</div>
+            <div class="summary">🚀 Are you a non-developer wanting to customize Twilio Code Exchange templates? This article introduces &#34;vibe coding,&#34; a method to enhance templates using AI tools without manual coding. It guides you through using OpenAI&#39;s ChatGPT to expand a Node.js application that tracks email events in SendGrid. Create your account on OpenAI to get started and explore how AI can assist in developing your ideas. #Twilio #OpenAI #VibeCoding #NoCode #TechForEveryone</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Amanda Lange</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Academic research often requires navigating multiple platforms like arXiv and GitHub. The Model Context Protocol (MCP) offers a solution by enabling AI to communicate with these research tools. This allows for natural language requests, streamlining the discovery process and reducing the need for manual switching between sites. Explore how MCP can enhance your research experience! ðð¤ #AIinResearch #ModelContextProtocol #ResearchInnovation #AcademicTools</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://forums.unrealengine.com/t/ue5-automotive-cinematic/2642699" target="_blank">UE5 Automotive Cinematic</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 10:09</span>
-                
-                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/10-tips-to-keep-email-out-of-the-spam-folder" target="_blank">19&#43; tips to stop your emails from going to spam in 2025</a></h2>
+            <div class="publication-date">2025-08-24 00:00</div>
+            <div class="summary">Struggling with your emails landing in the spam folder? 📧 Here are key tips to improve your email deliverability: - Build your own email list and use double opt-in methods. - Regularly clean your email list and monitor your sender reputation. - Ensure compliance with privacy laws and provide an email preference center. Stay informed and keep your messages in the inbox! 📨 #EmailMarketing #SpamFilters #EmailTips #DigitalMarketing #InboxSuccess</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Jesse Sumrak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ðâ¨ Unreal Engine 5 (UE5) showcases its potential in automotive cinematics. The article dives into the technical aspects and features that make UE5 a powerful tool for creating stunning visuals in the automotive industry. It highlights how real-time rendering and advanced lighting techniques enhance vehicle presentations. The use of UE5 allows for greater creativity and efficiency in producing automotive content. #UnrealEngine5 #AutomotiveCinematics #3DRendering #GameDevelopment #Innovation</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://techblog.lycorp.co.jp/en/icq42" target="_blank">Improving code quality - Session 42: Theoretical testing</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 02:00</span>
-                
-                <span class="source">from <a href="https://techblog.lycorp.co.jp/en/feed/index.xml" target="_blank">LY Corporation Tech Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/how-to-spot-and-fix-5-common-performance-bottlenecks-in-pandas-workflows/" target="_blank">How to Spot (and Fix) 5 Common Performance Bottlenecks in pandas Workflows</a></h2>
+            <div class="publication-date">2025-08-22 19:54</div>
+            <div class="summary">Are you facing slow data loads and memory issues in your pandas workflows? 🐍💻 This article highlights five common performance bottlenecks in pandas, including slow CSV parsing and memory-intensive joins. It offers practical solutions to improve your workflow efficiency, such as using the PyArrow engine for faster CSV reads and exploring the cudf.pandas library for GPU acceleration. Don&#39;t have a GPU? You can use cudf.pandas for free in Google Colab! 🚀📊 #DataScience #Python #Pandas #Performance...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Jamil Semaan</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/ly-corporation-tech-blog" class="source-link">LY-Corporation-Tech-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Session 42 of &#34;Improving Code Quality&#34; focuses on theoretical testing in mobile development. Munetoshi Ishikawa discusses how to manage different account types (FREE, PREMIUM, etc.) with icons. If AccountType is solely for UI, icons can be properties. However, for broader usage, a conversion mechanism using a Map is more effective. Explore efficient coding strategies! ð»â¨ #CodeQuality #SoftwareDevelopment #MobileDev #Programming #TheoreticalTesting</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/best-practices/best-practices-for-otp-input-forms-in-android" target="_blank">Best Practices for OTP Input Forms in Android</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 00:00</span>
-                
-                <span class="author">by Alvin Lee</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://vercel.com/blog/ai-powered-prototyping-with-design-systems" target="_blank">AI-powered prototyping with design systems</a></h2>
+            <div class="publication-date">2025-08-22 13:00</div>
+            <div class="summary">Unlocking the potential of AI in prototyping means speeding up collaboration and maintaining brand consistency. While many AI tools excel in speed and teamwork, they often fall short in producing on-brand designs. This gap arises from a lack of context about design components. To bridge this gap, a design system tailored for AI can help create prototypes that are both brand-aware and production-ready. Discover how to enhance your prototyping process! #AIDesign #Prototyping #DesignSystems...</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Will Sather</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Creating effective OTP input forms in Android is crucial for user verification. This article by Twilio discusses best practices for design and implementation. It highlights troubleshooting tips to enhance user experience and security. Developers can benefit from these insights to improve their applications. Explore more to ensure your OTP forms are user-friendly and effective! ðð± #AndroidDevelopment #OTPSecurity #UserExperience #Twilio</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://eng.lyft.com/intern-experience-at-lyft-9b7338e7c8bb?source=rss----25cd379abb8---4" target="_blank">Intern Experience at Lyft</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 19:34</span>
-                
-                <span class="author">by Iraklikhorguani</span>
-                
-                <span class="source">from <a href="https://eng.lyft.com/feed" target="_blank">Lyft Engineering</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/22/least-privilege-installation-openshift-ipi-aws" target="_blank">Least-privilege installation of OpenShift IPI on AWS</a></h2>
+            <div class="publication-date">2025-08-22 07:16</div>
+            <div class="summary">🔒 The latest guide on installing OpenShift IPI on AWS emphasizes a secure, least-privilege approach. By using the cloud credential operator utility (ccoctl) and setting credentials mode to manual, users can create narrowly-defined IAM roles. 🛠️ This method eliminates long-lived AWS access keys, relying instead on short-term AWS STS credentials. The ccoctl --dry-run feature allows for auditing IAM policies before applying them, enhancing security. 📊 Key points include understanding the IAM...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Mohammad Ahmad, Thuan Vo</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/lyft-engineering" class="source-link">Lyft-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ðâ¨ Discover the journey of two data scientists, Morteza Taiebat and Han Gong, who started as interns at Lyft and now contribute to impactful projects. They share insights on their experiences, focusing on sustainability and driver loyalty. Their work includes evaluating electric vehicle (EV) adoption and designing incentive strategies for drivers. If you&#39;re considering an internship at Lyft, their stories highlight the growth opportunities and collaborative culture that await you! ð±ð...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.atlassian.com/blog/design/from-insights-to-impact-content-design-research-at-atlassian" target="_blank">From insights to impact: Content design research at Atlassian</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 19:20</span>
-                
-                <span class="author">by jsandhu</span>
-                
-                <span class="source">from <a href="https://www.atlassian.com/blog/rss" target="_blank">Atlassian Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/22/integrate-azure-devops-red-hat-developer-hub-workflows" target="_blank">Integrate Azure DevOps into Red Hat Developer Hub workflows</a></h2>
+            <div class="publication-date">2025-08-22 07:16</div>
+            <div class="summary">🚀 Exciting news for developers! Integrating Azure DevOps with Red Hat Developer Hub creates a seamless CI/CD experience. Azure DevOps enhances source control and deployment, while Red Hat Developer Hub centralizes tools and documentation. Key plug-ins include Azure Scaffolder and Azure DevOps, enabling improved collaboration and faster delivery. For setup, ensure Azure Entra ID is configured and follow the detailed steps for integration. Learn more about optimizing your workflows!...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Sumiran Chugh, Zheng Wang (George)</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/atlassian-developer-blog" class="source-link">Atlassian-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">At Atlassian, effective content design is rooted in research. This guide outlines a structured approach to planning and executing content design research. Start by defining your research goals with a concise plan that aligns your team. Key components include understanding user needs, research questions, and methods. Choose appropriate research methods to gather insights, combining qualitative and quantitative approaches for comprehensive results. Techniques like unmoderated surveys can...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://circleci.com/blog/zero-downtime-deployment-with-flagsmith/" target="_blank">Zero-downtime deployment with Flagsmith and CircleCI</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 15:00</span>
-                
-                <span class="author">by Daniel Efe</span>
-                
-                <span class="source">from <a href="https://circleci.com/blog/feed.xml" target="_blank">CircleCI Blog</a></span>
-            </div>
+            <h2><a href="https://techblog.lycorp.co.jp/en/icq43" target="_blank">Improving code quality - Session 43: Return of values</a></h2>
+            <div class="publication-date">2025-08-22 02:00</div>
+            <div class="summary">🚀 In the latest installment of &#34;Improving Code Quality,&#34; Munetoshi Ishikawa discusses the function for registering new users in the LINE app. 🔧 The `registerNewUser` function handles two main tasks: creating a user account and uploading a profile image. The process includes validating the account creation request and checking if the profile image is uploaded successfully. For more insights, check out the full article! #CodeQuality #SoftwareDevelopment #MobileApp #LINE #Programming</div>
+            <div class="source">Source: <a href="/sources/ly-corporation-tech-blog">LY Corporation Tech Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/circleci-blog" class="source-link">CircleCI-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Learn how to achieve zero-downtime deployment with Flagsmith and CircleCI! This tutorial covers the essentials, including setting up feature flags, project configuration, and automating deployments. Feature flags enable developers to control feature visibility without redeploying, minimizing risks associated with buggy releases. Get started with a GitHub, Flagsmith, CircleCI, and Vercel account to enhance your deployment process! #Deployment #FeatureFlags #CircleCI #Flagsmith...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/clion/2025/08/fuzz-testing-in-clion/" target="_blank">Getting Started With Fuzz Testing in CLion</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 09:17</span>
-                
-                <span class="author">by Oleg Zinovyev</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/reduce-alert-fatigue-with-ai-defence-soc" target="_blank">How to reduce alert overload in defence SOCs</a></h2>
+            <div class="publication-date">2025-08-22 00:00</div>
+            <div class="summary">🔍 Analysts in defense SOCs are facing significant alert overload, with many notifications being false positives. A recent study shows that 71% of SOC personnel feel overwhelmed, and 62% of alerts go ignored. This impacts both efficiency and security. Using AI tools like Elastic&#39;s Attack Discovery, organizations have seen daily alerts drop dramatically, enhancing analyst focus and operational efficiency. Learn more about transforming your SOC operations in our upcoming webinar! 📊💻...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Crossley McEwen</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover the essentials of fuzz testing in CLion! ð§ªâ¨ This article explains how fuzz testing helps identify hidden bugs that traditional methods might miss. It highlights the use of CI Fuzz, a tool by Code Intelligence, to execute fuzz tests, analyze results, and debug functions. Learn how to set up CI Fuzz in CLion and run tests effectively. This approach enhances code reliability by feeding unexpected data to your programs. #FuzzTesting #CLion #SoftwareTesting #CodeQuality #CI_Fuzz</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/14/manage-advanced-cluster-management-policies-using-ansible" target="_blank">Manage Advanced Cluster Management policies using Ansible</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 07:01</span>
-                
-                <span class="author">by Amjed Jabari (AJ)</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://auth0.com/blog/secure-third-party-tool-calling-python-fastapi-auth0-langchain-langgraph/" target="_blank">Secure Third-Party Tool Calling: A Guide to LangGraph Tool Calling and Secure AI Integration in Python</a></h2>
+            <div class="publication-date">2025-08-22 00:00</div>
+            <div class="summary">🚀 Discover how to integrate third-party APIs securely using LangGraph in Python! This guide builds on the previous article about the Zoo AI, focusing on tool calling on behalf of users while maintaining security. Learn how to implement LangChain with FastAPI and Auth0 to access protected resources safely. Enhance your application while ensuring proper authorization for each user action. 🦁🐾 #LangChain #APISecurity #Python #FastAPI #AIIntegration</div>
+            <div class="source">Source: <a href="/sources/auth0-blog">Auth0 Blog</a></div>
+            
+            <div class="author">Raphael do Vale</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Managing multiple Kubernetes clusters can be complex, especially with the need for consistent security and compliance. This article discusses how Red Hat Advanced Cluster Management simplifies this process through centralized management. Ansible automation enhances policy management by ensuring consistency, repeatability, and compliance across clusters. It also covers the use of the external secrets operator for secure credential management with AWS Secrets Manager. For more details, check...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/14/integrate-vllm-inference-macosios-alamofire-and-apple-foundation" target="_blank">Integrate vLLM inference on macOS/iOS with Alamofire and Apple Foundation</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 07:01</span>
-                
-                <span class="author">by Rich Naszcyniec</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/how-to-build-an-ai-tutor-with-model-runner/" target="_blank">Prototyping an AI Tutor with Docker Model Runner</a></h2>
+            <div class="publication-date">2025-08-21 15:00</div>
+            <div class="summary">🚀 Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model Runner. This tool aims to streamline the learning process by embedding AI assistance directly into the development environment. The tutor helps users run their first &#34;hello-world&#34; container without the hassle of switching between various resources, maintaining context, and ensuring privacy. #AITutoring #Docker #DeveloperExperience #TechInnovation...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Sarah Sanders</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of vLLM inference in your macOS/iOS apps! ð±ð» This article explores how to use Apple Foundation and Alamofire for seamless communication with vLLM via an OpenAI-compatible Chat Completions endpoint. It covers essential topics such as data encoding, error handling, and processing streaming results. For hands-on experience, grab the sample code from GitHub and start building! ðð #vLLM #macOS #iOSDevelopment #OpenAI #Alamofire</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/company/spotlights/behind-the-builder--kate-molony--software-engineer" target="_blank">Behind the builder: Kate Molony, Software Engineer</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="author">by Twilio Employer Brand Team</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://stackoverflow.blog/2025/08/21/learning-in-the-flow-unlocking-employee-potential-through-continuous-learning/" target="_blank">Learning in the flow: Unlocking employee potential through continuous learning</a></h2>
+            <div class="publication-date">2025-08-21 07:40</div>
+            <div class="summary">Unlocking employee potential through continuous learning is vital in today&#39;s fast-paced work environment. In the latest episode of Leaders of Code, Stack Overflow CEO Prashanth Chandrasekar and Christina Dacauaziliqua from Morgan Stanley discuss the benefits of experiential learning. They highlight the need for intentional learning environments that combine innovative tools and collaborative communities. The conversation covers the importance of leaders modeling continuous learning, three key...</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Katja Skafar</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Meet Kate Molony, a Software Engineer at Twilio! ð In our latest #BehindTheBuilder feature, Kate discusses her career journey, starting as an intern and progressing to a full-time role on the Operational Insights team. Her experience highlights the growth and opportunities available at Twilio. Learn more about her insights and contributions! ð¡ #Twilio #SoftwareEngineering #CareerJourney</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/best-practices/best-practices-for-otp-input-forms-in-ios" target="_blank">Best Practices for OTP Input Forms in iOS</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="author">by Alvin Lee</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/21/how-auto-register-red-hat-edge-manager-microshift" target="_blank">How to auto-register Red Hat Edge Manager with MicroShift</a></h2>
+            <div class="publication-date">2025-08-21 07:01</div>
+            <div class="summary">🚀 Red Hat Edge Manager, in Technology Preview, offers a fleet management solution for edge devices. It ensures security, simplifies management, and provides real-time visibility. 🔧 The article details how to auto-register Edge Manager with Red Hat MicroShift using Red Hat Advanced Cluster Management for Kubernetes 2.13. 📋 Key steps include enabling Edge Manager, setting up the flightctl command, and configuring auto-registration. Explore how these tools can enhance your edge device...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Hui Chen, Zhao Xue, Jacob Berger</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Building effective OTP input forms in iOS is crucial for security. This article outlines best practices for developers, focusing on user experience and testing methods. It emphasizes the importance of clear design and error handling to enhance usability. Learn how to create secure and efficient OTP forms that meet industry standards. #iOSDevelopment #OTPSecurity #UserExperience #BestPractices #Twilio</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.elastic.co/blog/top-down-with-dominik-toepfer" target="_blank">Community, consulting, and chili sauce: Top Down with Dominik Toepfer</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="author">by Jeanetta Clement</span>
-                
-                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/21/unleash-controlled-chaos-krknctl" target="_blank">Unleash controlled chaos with krknctl</a></h2>
+            <div class="publication-date">2025-08-21 07:01</div>
+            <div class="summary">Unleash the power of chaos engineering with **krknctl**! 🎉 This command-line interface simplifies testing system resilience by orchestrating chaos scenarios using container images from krkn-hub. Key features include instant autocompletion, dynamic graph orchestration, and versatile container support with Podman or Docker. With pre-compiled binaries available, you can start your chaos engineering journey in minutes. Discover more and elevate your systems today! 🔍💻 #ChaosEngineering #DevOps...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Tullio Sebastiani</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Meet Dominik âDomâ Toepfer, a principal software engineer at Elastic, where he focuses on generative AI and Search. His engineering journey began with a book on Elasticsearch, leading him through various roles at the company. Dom emphasizes the importance of collaboration, stating, âWe build better together.â He balances work and family life, ensuring heâs present for his kids while pursuing his passion for tech. His workspace is carefully designed for inspiration, featuring tools and an...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://wf-blog-2021.webflow.io/blog/ai-mcp-servers" target="_blank">MCP servers worth knowing if you&#39;re building with AI</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="source">from <a href="https://webflow.com/blog/rss.xml" target="_blank">Webflow Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/elastic-security-building-effective-threat-hunting-detection-rules" target="_blank">Building effective threat hunting and detection rules in Elastic Security</a></h2>
+            <div class="publication-date">2025-08-21 00:00</div>
+            <div class="summary">🔍 Learn how to build effective threat hunting and detection rules in Elastic Security! This blog provides step-by-step guidance on creating custom detection rules using Elasticsearch Query Language (ES|QL) and the Elastic AI Assistant. Key highlights include best practices for refining detection logic, testing rules, and automating responses to enhance security operations. Explore how to categorize API calls and streamline your queries for better analysis. #ElasticSecurity #ThreatHunting...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Kseniia Ignatovych,Isai Anthony</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/webflow-blog" class="source-link">Webflow-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exploring MCP servers is essential for AI development! These servers help integrate structured context into AI models, crucial for building advanced tools like agents and code assistants. The article highlights various MCP servers, especially Context7, which is optimized for codebases and offers access to numerous open-source libraries. Cursor IDE makes integration straightforward, enhancing workflow efficiency across platforms. For developers, understanding these tools can streamline...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/streamline-cuda-accelerated-python-install-and-packaging-workflows-with-wheel-variants/" target="_blank">Streamline CUDA-Accelerated Python Install and Packaging Workflows with Wheel Variants</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 22:00</span>
-                
-                <span class="author">by Jonathan Dekhtiar</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/color-and-typography-pairings" target="_blank">Color and typography pairings: A designer’s cheatsheet</a></h2>
+            <div class="publication-date">2025-08-21 00:00</div>
+            <div class="summary">Designing an effective website starts with two key elements: color and typography. 🎨✍️ These choices are interconnected and can significantly impact user perception and emotional response. Colors elicit feelings quickly, while typography conveys your brand&#39;s personality. For instance, finance sites use deep blues and clean fonts to communicate trust, while creative agencies opt for bold colors and unique typefaces. Accessibility is crucial; poor contrast can hinder readability for users with...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð NVIDIA addresses the challenges of installing GPU-accelerated Python packages with the WheelNext initiative. Current wheel formats struggle with hardware diversity, leading to installation complexities. WheelNext aims to improve this by introducing Wheel Variants, allowing precise artifact descriptions for better compatibility. This collaboration with Meta and others enhances user experience in scientific computing and AI. ð Learn more: [GitHub repo link] #Python #NVIDIA #CUDA #OpenSource #AI</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/agent-bricks-action-smarter-offer-targeting-sales-teams" target="_blank">Agent Bricks in Action: Smarter Offer Targeting for Sales Teams</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 21:00</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <h2><a href="https://blog.1password.com/how-to-lead-with-confidence-in-the-ai-era/" target="_blank">How to lead with confidence in the AI era: a conversation with Nancy Wang, VP, Engineering</a></h2>
+            <div class="publication-date">2025-08-21 00:00</div>
+            <div class="summary">Artificial Intelligence (AI) is transforming leadership and collaboration at 1Password. In a recent conversation, Nancy Wang, VP of Engineering, discussed how AI enhances productivity by handling repetitive tasks, allowing teams to focus on critical decision-making and user trust. She emphasizes the importance of human skills like empathy and trust in leadership, especially as AI becomes more integrated into our work. To foster a culture of confidence with AI, Nancy encourages curiosity and...</div>
+            <div class="source">Source: <a href="/sources/1password-blog">1Password Blog</a></div>
+            
+            <div class="author">info@1password.com (1Password)</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlocking smarter sales strategies! ð The article discusses how the Agent Bricks Multi-Agent Supervisor is enhancing sales delivery. By using data-driven methods, sales teams can achieve faster and more targeted offers. This approach aims to improve overall effectiveness in reaching potential clients. Discover how technology is reshaping sales tactics! ð¼ð #SalesStrategy #DataDriven #AgentBricks #SalesInnovation #TargetedMarketing</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/education/2025/08/13/jetbrains-academy-august/" target="_blank">JetBrains Academy â August Digest</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 15:52</span>
-                
-                <span class="author">by Maria Sharobaeva</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/list-unsubscribe" target="_blank">List-Unsubscribe Header: What It Is &amp; How to Use It</a></h2>
+            <div class="publication-date">2025-08-21 00:00</div>
+            <div class="summary">📧 A list-unsubscribe header is a helpful email feature that allows recipients to easily opt out of future communications without marking emails as spam. This option appears directly in the email client interface, streamlining the process for users. Major providers like Gmail and Outlook support this feature, making it a best practice for businesses. Implementing list-unsubscribe headers not only enhances user experience but also helps businesses maintain compliance and a healthy email list....</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Jesse Sumrak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Boost your learning this August with JetBrains Academy! Explore free tools and career-launching courses. Students can access the JetBrains Student Pack, used by top universities and companies like NASA and Google. Don&#39;t miss your chance to win a MacBook Pro! Apply by September 12. New courses include mastering AI agents and tackling 100 Rust exercises. #JetBrainsAcademy #Learning #CareerDevelopment #Rust #AI</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/idea/2025/08/debugging-transactions-let-spring-debugger-do-the-heavy-lifting/" target="_blank">Debugging Transactions? Let Spring Debugger Do the Heavy Lifting</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 10:08</span>
-                
-                <span class="author">by Siva Katamreddy</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.hashicorp.com/blog/how-to-enable-developer-self-service-at-scale-with-terraform-and-waypoint" target="_blank">How to enable developer self-service at scale with Terraform and Waypoint</a></h2>
+            <div class="publication-date">2025-08-20 19:00</div>
+            <div class="summary">Unlock developer self-service at scale with HCP Waypoint! 🚀 Learn how to streamline Terraform workflows and empower your teams. With Waypoint, platform teams can create reusable modules, simplifying complex processes for developers. This approach reduces bottlenecks and enhances productivity. Waypoint integrates seamlessly with existing tools, offering a user-friendly interface that maintains security and compliance. Explore how to build effective workflows and facilitate efficient...</div>
+            <div class="source">Source: <a href="/sources/hashicorp-blog">HashiCorp Blog</a></div>
+            
+            <div class="author">Apoorva Murthy</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Debugging transaction issues in Spring Framework can be challenging due to potential misconfigurations. The @Transactional annotation simplifies transaction management but can lead to complications. The Spring Debugger plugin aids in identifying and resolving these issues, streamlining the debugging process. A practical example illustrates how to manage bookmarks and categories, ensuring proper transaction handling. Watch the demonstration to see the Spring Debugger in action! ð¥ð§...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/13/deploy-image-mode-update-offline-and-air-gapped-environments" target="_blank">How to deploy an image mode update in offline and air-gapped environments</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 07:01</span>
-                
-                <span class="author">by Armando Ortiz</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://gpuopen.com/learn/ue-fsr4/" target="_blank">AMD FidelityFX Super Resolution 4 Unreal Engine plugin guide</a></h2>
+            <div class="publication-date">2025-08-20 16:00</div>
+            <div class="summary">🚀 Exciting news for game developers! The AMD FidelityFX Super Resolution 4 (FSR 4) plugin is now available for Unreal Engine 5.1 to 5.6. This plugin enhances framerates with a machine learning upscaler and frame generation. 🎮 FSR 4 combines advanced upscaling algorithms with AMD RDNA 4 architecture for improved performance. It also includes the FSR4MovieRenderPipeline for efficient rendering. For optimal results, developers should review recommendations and known issues specific to their...</div>
+            <div class="source">Source: <a href="/sources/amd-developer-blog">AMD Developer Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Need to deploy image mode updates in offline or air-gapped environments? Red Hat Enterprise Linux offers a flexible solution that doesn&#39;t rely on network connections. This method is ideal for security or hardware limitations. ðð Key steps include preparing an external storage device, copying the necessary images, and applying updates directly to the offline system. While effective, this approach can be time-consuming and requires on-site deployment. If your system can connect online, consider...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/13/how-install-offline-knowledge-portal-local-system" target="_blank">How to install Offline Knowledge Portal on a local system</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 07:01</span>
-                
-                <span class="author">by Avnish Kumar</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://stackoverflow.blog/2025/08/20/documents-the-architect-s-programming-language/" target="_blank">Documents: The architect’s programming language</a></h2>
+            <div class="publication-date">2025-08-20 14:00</div>
+            <div class="summary">Architects in tech play a vital role in bridging ideas and people. While senior developers focus on coding, architects leverage their experience to deploy concepts effectively within teams. This involves collaboration, communication, and consensus-building across various stakeholders. Tools like Confluence and Notion aid architects in organizing and sharing ideas, ensuring projects move forward smoothly. #TechLeadership #SoftwareArchitecture #Collaboration #CareerPaths #EngineeringManagement...</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Isaac Lyman</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the Red Hat Offline Knowledge Portal for easy access to documentation and guides without an internet connection! ðð» To install, ensure you have a Red Hat Satellite subscription, a web browser, and enough disk space. Follow these steps: 1ï¸â£ Generate your access key. 2ï¸â£ Log in to the registry and pull the image. 3ï¸â£ Run the podman image to verify. 4ï¸â£ Access the portal at http://localhost:8080. Explore valuable resources anytime, anywhere! ðâ¨ #RedHat #KnowledgePortal #OfflineAccess...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.okta.com/blog/2025/08/13/oktane-ai-security" target="_blank">Find the intersection of security, AI, IAM, and fun at Oktane</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 05:00</span>
-                
-                <span class="source">from <a href="https://developer.okta.com/feed.xml" target="_blank">Okta Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/deploying-your-omniverse-kit-apps-at-scale/" target="_blank">Deploying Your Omniverse Kit Apps at Scale</a></h2>
+            <div class="publication-date">2025-08-20 13:00</div>
+            <div class="summary">Unlock the potential of 3D applications with NVIDIA Omniverse Kit App Streaming! 🌐 This solution simplifies deployment and enables users to stream applications directly from their browsers, reducing the need for complex installations. With flexible options like self-managed deployment or fully-managed infrastructure, developers can easily reach their audience. Explore the straightforward steps to get started and enhance your 3D application experience! 💻🚀 #NVIDIA #Omniverse #3DStreaming...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Ashley Goldstein</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/okta-developer-blog" class="source-link">Okta-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Join us at Oktane 2025 in Las Vegas, NV, from September 24-26! ð This yearâs focus is on AI, security, and identity management. Explore the Oktane Developer Lounge for insights into creating secure applications and connecting with identity experts. ð¤ Donât miss our hands-on labs, covering topics like OAuth and Terraform. Network with peers and enjoy engaging events! For more info, feel free to reach out. We look forward to seeing you! #Oktane2025 #AI #Security #IdentityManagement #Networking</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/company/spotlights/introducing-developer-evangelist-anni-chen" target="_blank">Introducing Developer Evangelist Anni Chen</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 00:00</span>
-                
-                <span class="author">by Anni Chen</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/build-container-image-quarkus-project-using-buildpacks" target="_blank">Build a container image for a Quarkus project using Buildpacks</a></h2>
+            <div class="publication-date">2025-08-20 07:01</div>
+            <div class="summary">🚀 Learn how to build container images for your Quarkus projects using the Container Image Buildpack extension! This method eliminates the need for a Dockerfile, streamlining your CI/CD workflow. 🔧 The extension leverages the Java Buildpack Client to simplify application deployment in Kubernetes. Ensure you have Podman/Docker, JDK 21&#43;, and Maven 3.9&#43; to get started. 📦 With just a few Maven commands, you can create, build, and push your images to container registries effortlessly. #Quarkus...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Charles Moulliard, Ozzy Osborne</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Meet Anni Chen, Twilio&#39;s new Developer Evangelist! Anni brings a passion for AI, food, and productivity to her role. She shares insights from her journey into developer evangelism, aiming to connect with the developer community and enhance user experiences. Stay tuned for more updates and insights from Anni! #DeveloperEvangelism #Twilio #TechCommunity #AI #Productivity</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" target="_blank">Building AI agents made easy with Goose and Docker</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 16:00</span>
-                
-                <span class="author">by Oleg Selajev</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/20/building-trustworthy-ai-developers-guide-production-ready-systems" target="_blank">Building trustworthy AI: A developer&#39;s guide to production-ready systems</a></h2>
+            <div class="publication-date">2025-08-20 07:01</div>
+            <div class="summary">🌐 Building trustworthy AI is essential in today&#39;s development landscape. As AI engineers and developers, focusing on trust, safety, and transparency is crucial for creating reliable applications. 🔍 AI systems should be assessed based on their potential impact, categorized into high, moderate, and minimal tiers. This impacts design choices and operational guardrails. 💡 Best practices include documenting training data, testing for bias, ensuring explainability, and providing human...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Maarten Vandeperre, Camille Nigon</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: https://github.com/shelajev/hani. #AIAgents #Docker...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/12/windows-image-building-service-openshift-virtualization" target="_blank">Windows image-building service for OpenShift Virtualization</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 15:16</span>
-                
-                <span class="author">by Karel Simon</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developer.okta.com/blog/2025/08/20/ios-mfa" target="_blank">How to Build a Secure iOS App with MFA</a></h2>
+            <div class="publication-date">2025-08-20 05:00</div>
+            <div class="summary">Secure your iOS app with multi-factor authentication (MFA) using Okta’s Swift SDK! 🔐✨ This guide walks you through: - Setting up your Okta developer account - Configuring your app for OAuth 2.0 and OpenID Connect - Customizing MFA policies - Creating a testable AuthService protocol Follow best practices to protect sensitive user data while enhancing your app&#39;s login experience. #iOSDevelopment #Okta #MobileSecurity #MFA #SwiftUI</div>
+            <div class="source">Source: <a href="/sources/okta-developer-blog">Okta Developer Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Red Hat OpenShift Pipelines now allows for seamless management of virtual machines (VMs) in your CI/CD process. By integrating OpenShift Pipelines with OpenShift Virtualization, developers can automate the creation of standardized Windows golden images, enhancing VM provisioning. Key features include: - Management of pipelines as Kubernetes Custom Resources (CRs). - Simplified collaboration through source control management (SCM). - Streamlined operations by treating VMs as native objects...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/dotnet/2025/08/12/dotinsights-august-2025/" target="_blank">dotInsights | August 2025</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 14:09</span>
-                
-                <span class="author">by Rachel Appel</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/how-to-authenticate-your-email-in-5-steps" target="_blank">Email Authentication: How to Authenticate Email in 5 Steps</a></h2>
+            <div class="publication-date">2025-08-20 00:00</div>
+            <div class="summary">🔒 Email authentication is crucial for ensuring your messages are recognized as genuine by providers like Gmail and Yahoo. With new 2024 sender requirements, it&#39;s no longer optional. Use SPF, DKIM, and DMARC to build trust and improve deliverability. Follow five simple steps to authenticate your email and keep your messages out of spam folders. #EmailAuthentication #SPF #TrustInEmail #EmailDeliverability #Cybersecurity</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Will Boyd, Jesse Sumrak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Did you know about C# null-coalescing operators? The ?? operator returns the left operand if it&#39;s not null; otherwise, it returns the right operand. The ??= operator assigns the right operandâs value only if the left is null. Stay updated with .NET insights from JetBrains in their latest dotInsights newsletter! ð¢ Catch talks on refactoring, testing, and more from industry experts! #CSharp #dotNet #SoftwareDevelopment #JetBrains #ProgrammingTips</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/12/build-your-first-software-template-backstage" target="_blank">Build your first Software Template for Backstage</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 12:31</span>
-                
-                <span class="author">by Evan Shortiss, Raghu Banda</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/traditional-ai-vs-generative-ai" target="_blank">Traditional AI vs. generative AI: A guide for IT leaders</a></h2>
+            <div class="publication-date">2025-08-20 00:00</div>
+            <div class="summary">AI is evolving rapidly, presenting new challenges for IT leaders. This article outlines the key differences between traditional AI and generative AI. Traditional AI excels in structured tasks, while generative AI is suited for creative applications. Understanding your organization&#39;s needs is crucial for choosing the right AI approach. Explore more about their applications and impact on technology. 🤖💡 #ArtificialIntelligence #TechTrends #ITLeadership #GenerativeAI #BusinessStrategy</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">The Elastic Platform team</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð More organizations are adopting platform engineering and internal developer portals (IDPs) to enhance onboarding and self-service capabilities. This article details how to create a Software Template for Backstage using Red Hat Developer Hub. The template automates developer tasks, enabling faster application repository creation on GitHub with a CI pipeline. Prerequisites include admin access to Red Hat Developer Hub and GitHub integration setup. The guide offers step-by-step instructions...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp" target="_blank">How to build a simple agentic AI server with MCP</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 07:16</span>
-                
-                <span class="author">by Saroj Paudel</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blogs.cisco.com/learning/wrangling-the-wild-west-of-mcp-servers" target="_blank">Wrangling the Wild West of MCP Servers</a></h2>
+            <div class="publication-date">2025-08-19 23:05</div>
+            <div class="summary">🚀 Ready to build your own Model Context Protocol (MCP) server? In a recent article, Kareem Iskander explains how to leverage your existing APIs using OpenAPI specs. This approach allows you to create an AI-powered gateway for your product with minimal effort. Just a few lines of Python and a FastMCP wrapper can transform your APIs into role-based AI tools without the need for custom definitions. #MCPServer #OpenAPI #AI #APIs #TechTips</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Kareem Iskander</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð As AI agents evolve, the need for reliable connections to real-world data grows. The Model Context Protocol (MCP) offers a standardized way to connect AI systems securely and efficiently. In a recent article, a simple MCP server was built to fetch weather data from the Open-Meteo API. This server allows AI models to interact with external tools and data, enhancing their functionality. To explore MCP, developers can set up their environment and create tools to access data easily. The article...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/12/boost-ai-efficiency-gpu-autoscaling-openshift" target="_blank">Boost AI efficiency with GPU autoscaling on OpenShift</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 07:16</span>
-                
-                <span class="author">by Rohit Ralhan</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.atlassian.com/blog/bitbucket/devex-bitbucket-pipelines-versus-jenkins" target="_blank">To Bitbucket from Jenkins: Enhancing Developer Experience</a></h2>
+            <div class="publication-date">2025-08-19 17:53</div>
+            <div class="summary">Atlassian&#39;s latest article discusses the advantages of transitioning from Jenkins to Bitbucket Cloud with Bitbucket Pipelines for CI/CD. The 2025 State of DevEx report reveals that 50% of developers lose over 10 hours weekly due to inefficiencies, and only 16% of their time is spent on coding. This highlights the need for better tools to enhance developer experience. The article also outlines the setup process for Jenkins, emphasizing the complexities involved. #DevExperience #Bitbucket...</div>
+            <div class="source">Source: <a href="/sources/atlassian-developer-blog">Atlassian Developer Blog</a></div>
+            
+            <div class="author">Warren Marusiak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock AI potential with GPU autoscaling on OpenShift! ð Dynamic autoscaling is essential for maintaining efficiency and availability in modern applications. Red Hat OpenShift offers features like horizontal pod autoscaling (HPA) and custom metrics autoscaler (KEDA) to optimize resource allocation and manage workloads effectively. KEDA enhances traditional scaling methods by utilizing external metrics, enabling better performance for GPU-accelerated applications. ð Learn how to implement...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://wf-blog-2021.webflow.io/blog/webflow-analyze-user-journey" target="_blank">A data-driven approach to building better user journeys with Webflow Analyze</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="source">from <a href="https://webflow.com/blog/rss.xml" target="_blank">Webflow Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/streamline-nginx-configuration-with-docker-desktop-extension/" target="_blank">Streamline NGINX Configuration with Docker Desktop Extension</a></h2>
+            <div class="publication-date">2025-08-19 16:13</div>
+            <div class="summary">🚀 Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Dylen Turnbull</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/webflow-blog" class="source-link">Webflow-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of your website with Webflow Analyze! ð This tool empowers web teams to access user behavior data directly within their design workflow. Understanding user journeysâfrom first click to conversionâcan lead to significant increases in demo requests and revenue. Learn how to analyze visitor touchpoints to enhance engagement and reduce bounce rates. Discover a three-step roadmap for optimizing user journeys and driving better results. ð #WebDesign #UserExperience #DataDriven...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://about.gitlab.com/blog/custom-rules-duo-agentic-chat-deep-dive/" target="_blank">Custom rules in GitLab Duo Agentic Chat for greater developer efficiency</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="author">by Michael Friedrich</span>
-                
-                <span class="source">from <a href="https://about.gitlab.com/atom.xml" target="_blank">GitLab Blog</a></span>
-            </div>
+            <h2><a href="https://www.hashicorp.com/blog/5-lessons-from-moneybox-s-terraform-journey" target="_blank">5 lessons from Moneybox’s Terraform journey</a></h2>
+            <div class="publication-date">2025-08-19 16:00</div>
+            <div class="summary">🚀 Moneybox, a UK fintech, shares insights from their transition to HCP Terraform. They faced challenges as their infrastructure grew, shifting from Terraform Community Edition to streamline workflows. Key lessons include: 1️⃣ Start simple, but scale when needed. 2️⃣ Design infrastructure for growth. 3️⃣ Build self-service modules for teams. 4️⃣ Integrate governance into workflows. These changes improved efficiency and team collaboration. 🌐💼 #Fintech #Infrastructure #Terraform #CloudComputing...</div>
+            <div class="source">Source: <a href="/sources/hashicorp-blog">HashiCorp Blog</a></div>
+            
+            <div class="author">Mitch Pronschinske</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/gitlab-blog" class="source-link">GitLab-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of GitLab Duo with custom rules to enhance developer efficiency! ð Transform your AI assistant into a tailored coding expert. Set version controls for Java, enforce coding styles, and automate DevSecOps processes. This guide covers practical steps, use cases, and examples to streamline your coding standards. Explore how to implement custom rules in GitLab projects today! #GitLab #DeveloperEfficiency #CustomRules #DevSecOps #AIInDevelopment</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/filbench" target="_blank">ðµð­ FilBench - Can LLMs Understand and Generate Filipino?</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://www.heroku.com/blog/building-data-aware-ai-applications-with-heroku-ai-llamaindex/" target="_blank">Building Data-Aware AI Applications with Heroku AI and LlamaIndex</a></h2>
+            <div class="publication-date">2025-08-19 15:00</div>
+            <div class="summary">🚀 Organizations aim to build AI applications that access private data, but connecting large language models (LLMs) to proprietary datasets can be challenging. Heroku Managed Inference and LlamaIndex offer a solution for creating retrieval-augmented generation (RAG) applications. LlamaIndex helps orchestrate data, while Heroku AI simplifies deployment. Use cases include financial analysis and insurance claim assessments, enhancing efficiency and accuracy in data retrieval. 📊🤖 #AI...</div>
+            <div class="source">Source: <a href="/sources/heroku-blog">Heroku Blog</a></div>
+            
+            <div class="author">Anush DSouza</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Exploring the capabilities of LLMs in Filipino languages is essential. ðµð­ FilBench, a new evaluation suite, assesses LLM fluency, translation, and cultural knowledge in Tagalog and Cebuano. Despite high ChatGPT usage in the Philippines, systematic evaluations are lacking. The study evaluates over 20 LLMs, aiming to provide clear insights. ð Read the paper: [arxiv.org](https://arxiv.org/abs/2508.03523) ð¥ï¸ Check GitHub: [github.com](https://github.com/filbench/filbench-eval) #FilBench #LLMs...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://auth0.com/blog/earn-customer-trust-in-the-ai-era-a-guide-for-businesses/" target="_blank">Earn Customer Trust in the AI Era: A Guide for Businesses</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="author">by Anika Jang</span>
-                
-                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" target="_blank">Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</a></h2>
+            <div class="publication-date">2025-08-19 14:59</div>
+            <div class="summary">🚀 Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. 🛠️ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Rajesh Padmakumaran</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð In the AI era, building customer trust is crucial for businesses. A recent report reveals that 37% of consumers frequently interact with AI. Yet, 70% prefer humans for assistance, valuing empathy over efficiency. ð¤ As customers define AI&#39;s role, they see it as a tool for tasks but hesitate to trust it with complex decisions. The key question remains: &#34;Can I trust you with my data?&#34; With 23% of users avoiding AI entirely, addressing this concern is essential for fostering trust. ð...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/textquests" target="_blank">TextQuests: How Good are LLMs at Text-Based Video Games?</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/19/build-multi-arch-clusters-builds-red-hat-openshift" target="_blank">Build on multi-arch clusters with builds for Red Hat OpenShift</a></h2>
+            <div class="publication-date">2025-08-19 07:01</div>
+            <div class="summary">🚀 Discover how to streamline multi-arch builds with Red Hat OpenShift! This article explains the builds for Red Hat OpenShift operator, allowing you to create a single build object for mixed architecture clusters. Key steps include installing the oc client, configuring the ClusterBuildStrategy, and verifying image builds for different architectures. Learn more about simplifying your build process! #RedHat #OpenShift #MultiArch #CloudComputing #DevOps</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Dylan Orzel</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð The article explores the capabilities of Large Language Models (LLMs) in text-based video games. It highlights that while LLMs excel in static knowledge benchmarks, they face challenges in dynamic, interactive environments. Developing effective evaluation methods for these models remains crucial. Two main approaches are suggested: real-world environments with specific skills and simulated open-world settings. The article introduces TextQuests as a new benchmark to assess LLM performance in...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/" target="_blank">Train a GPT2 model with JAX on TPU for free</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="source">from <a href="https://developers.googleblog.com/feeds/posts/default" target="_blank">Google Developers Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/19/getting-started-llm-d-distributed-ai-inference" target="_blank">Getting started with llm-d for distributed AI inference</a></h2>
+            <div class="publication-date">2025-08-19 07:01</div>
+            <div class="summary">🌐 As large language models (LLMs) evolve, so must their infrastructure. Introducing **llm-d**, a Kubernetes-native distributed inference stack designed to enhance AI applications. It optimizes for complex reasoning, long-running prompts, and modular scaling. Key features include smart load balancing, split-phase inference, and disaggregated caching for efficiency. This innovation addresses the unique challenges of LLM inference, making it more cost-effective and performant. Join the growing...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Cedric Clyburn, Philip Hayes</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/google-developers-blog" class="source-link">Google-Developers-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Interested in building a GPT-2 model? Check out this guide on training a GPT-2 model with JAX using Google TPUs, completely for free! It includes a hands-on Python notebook suitable for Colab or Kaggle. Learn about defining a hardware mesh, partitioning model parameters, and optimizing training. For those new to JAX, a PyTorch developerâs guide is also available. #MachineLearning #GPT2 #JAX #AI #GoogleTPUs</div>
         </article>
         
     </div>
@@ -1129,6 +1113,10 @@
             
             
             <a href="/categories/educational/page/5/" class="pagination-link">5</a>
+            
+            
+            
+            <a href="/categories/educational/page/6/" class="pagination-link">6</a>
             
             
         </div>
@@ -1190,6 +1178,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

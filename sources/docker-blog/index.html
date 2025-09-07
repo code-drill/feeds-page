@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Docker-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,608 +414,483 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/" target="_blank">Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-30 23:19</span>
-                
-                <span class="author">by Michael Donovan</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/docker-acquires-mcp-defender-ai-agent-security/" target="_blank">Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</a></h2>
+            <div class="publication-date">2025-09-05 13:00</div>
+            <div class="summary">🚀 Docker, Inc. has acquired MCP Defender to enhance security for AI applications. As AI evolves rapidly, new security challenges arise for software development. 🔍 The current AI security landscape reflects early container adoption, marked by innovation but also uncertainty about risks. Organizations must now focus on real-time monitoring and dynamic threat detection. 🔒 Docker aims to embed security into AI infrastructure from the start, ensuring seamless integration into development...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Andy Ramirez</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/hybrid-ai-and-how-it-runs-in-docker/" target="_blank">Hybrid AI Isn’t the Future — It’s Here (and It Runs in Docker)</a></h2>
+            <div class="publication-date">2025-09-04 13:00</div>
+            <div class="summary">🌐 Hybrid AI is revolutionizing how we utilize AI models! Running large models in the cloud can lead to high costs, while local models help maintain privacy and control expenses. However, local models often lack capability. The hybrid approach combines cloud and local strengths, offering a cost-effective, efficient solution. Using Docker, developers can easily deploy systems that balance performance and affordability. Explore how this innovative model works! 🖥️💡 #HybridAI #Docker #AIModels...</div>
+            <div class="source">Source: Docker Blog</div>
             
-            <div class="sources">
+            <div class="author">Ignasi Lopez Luna</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/mcp-misconceptions-tools-agents-not-api/" target="_blank">You are Doing MCP Wrong: 3 Big Misconceptions</a></h2>
+            <div class="publication-date">2025-09-03 16:59</div>
+            <div class="summary">🔍 Understanding the Model Context Protocol (MCP) is crucial for developers. Many mistakenly view MCP as just another API, which can disrupt agent designs and execution reliability. MCP is designed for LLM tool use, not replacing RPC but enhancing it. Another common misconception is that tools are agents. While tools execute tasks, agents plan and evaluate until goals are met. For effective use, define tool preconditions, validate inputs, and maintain clear logs. #ModelContextProtocol #MCP...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Jim Clark</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/broadcoms-new-bitnami-restrictions-migrate-easily-with-docker/" target="_blank">Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</a></h2>
+            <div class="publication-date">2025-08-30 23:19</div>
             <div class="summary">Bitnami has been crucial in simplifying application deployment for developers. However, significant changes are coming to their distribution model. Starting September 29, access to most versioned images will require a paid subscription under Bitnami Secure Images. Only the :latest tags will remain free, while older images will move to a legacy archive without updates. Docker offers alternatives with their Official Images and Hardened Images, providing robust options for teams facing these...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Michael Donovan</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/blog-sonarqube-copilot-docker-mcp-toolkit/" target="_blank">Boost Your Copilot with SonarQube via Docker MCP Toolkit and Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-29 13:00</span>
-                
-                <span class="author">by Anna Chernyshova</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-29 13:00</div>
+            <div class="summary">🚀 In the age of AI copilots, ensuring code quality is crucial. SonarQube helps identify bugs, test coverage, and security issues but can interrupt workflow due to feedback loops. 🔧 The solution? Integrate SonarQube directly into your IDE using the Sonar MCP server and Docker MCP Toolkit. This allows AI agents like GitHub Copilot to access code quality metrics seamlessly. 🛠️ The Docker MCP Toolkit simplifies the setup, enabling developers to focus on coding without distractions. For hands-on...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Anna Chernyshova</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 In the age of AI copilots, ensuring code quality is crucial. SonarQube helps identify bugs, test coverage, and security issues but can interrupt workflow due to feedback loops. 🔧 The solution? Integrate SonarQube directly into your IDE using the Sonar MCP server and Docker MCP Toolkit. This allows AI agents like GitHub Copilot to access code quality metrics seamlessly. 🛠️ The Docker MCP Toolkit simplifies the setup, enabling developers to focus on coding without distractions. For hands-on...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/a-shift-left-approach-with-docker/" target="_blank">Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-28 13:00</span>
-                
-                <span class="author">by Anna Chernyshova</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-28 13:00</div>
+            <div class="summary">In today&#39;s software development landscape, speed should not compromise security. 🛡️ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. 📦 Learn how modern...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Anna Chernyshova</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">In today&#39;s software development landscape, speed should not compromise security. ð¡ï¸ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. ð¦ Learn how modern...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/docker-desktop-updates-every-two-weeks/" target="_blank">Docker Desktop Accelerates Innovation with Faster Release Cadence</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 13:00</span>
-                
-                <span class="author">by Kat Tomrushka</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 13:00</div>
+            <div class="summary">📢 Exciting news from Docker! Starting with release 4.45.0 on August 28, Docker Desktop will shift to a new update schedule, moving from monthly to bi-weekly releases, aiming for weekly updates by 2025. This change is in response to user requests for quicker access to new features and urgent updates. 🚀 Enhancements include smarter component updates that occur silently without interrupting your workflow and clearer update information within the app. Enterprise users will retain control over...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Kat Tomrushka</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¢ Exciting news from Docker! Starting with release 4.45.0 on August 28, Docker Desktop will shift to a new update schedule, moving from monthly to bi-weekly releases, aiming for weekly updates by 2025. This change is in response to user requests for quicker access to new features and urgent updates. ð Enhancements include smarter component updates that occur silently without interrupting your workflow and clearer update information within the app. Enterprise users will retain control over...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/how-to-build-an-ai-tutor-with-model-runner/" target="_blank">Prototyping an AI Tutor with Docker Model Runner</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 15:00</span>
-                
-                <span class="author">by Sarah Sanders</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 15:00</div>
+            <div class="summary">🚀 Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model Runner. This tool aims to streamline the learning process by embedding AI assistance directly into the development environment. The tutor helps users run their first &#34;hello-world&#34; container without the hassle of switching between various resources, maintaining context, and ensuring privacy. #AITutoring #Docker #DeveloperExperience #TechInnovation...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Sarah Sanders</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model Runner. This tool aims to streamline the learning process by embedding AI assistance directly into the development environment. The tutor helps users run their first &#34;hello-world&#34; container without the hassle of switching between various resources, maintaining context, and ensuring privacy. #AITutoring #Docker #DeveloperExperience #TechInnovation...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/" target="_blank">The Supply Chain Paradox: When âHardenedâ Images Become a Vendor Lock-in Trap</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-20 13:10</span>
-                
-                <span class="author">by Michael Donovan</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/" target="_blank">The Supply Chain Paradox: When “Hardened” Images Become a Vendor Lock-in Trap</a></h2>
+            <div class="publication-date">2025-08-20 13:10</div>
+            <div class="summary">The demand for pre-hardened container images is rapidly rising as companies seek immediate security solutions with low operational effort. These images offer minimal dependencies, allowing teams to focus on application development. However, this trend may lead to unintended vendor lock-in. Organizations could become overly reliant on a single vendor&#39;s systems and processes, complicating operations and potentially weakening security. Additionally, deviations from mainstream distributions can...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Michael Donovan</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">The demand for pre-hardened container images is rapidly rising as companies seek immediate security solutions with low operational effort. These images offer minimal dependencies, allowing teams to focus on application development. However, this trend may lead to unintended vendor lock-in. Organizations could become overly reliant on a single vendor&#39;s systems and processes, complicating operations and potentially weakening security. Additionally, deviations from mainstream distributions can...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/streamline-nginx-configuration-with-docker-desktop-extension/" target="_blank">Streamline NGINX Configuration with Docker Desktop Extension</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 16:13</span>
-                
-                <span class="author">by Dylen Turnbull</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-19 16:13</div>
+            <div class="summary">🚀 Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Dylen Turnbull</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" target="_blank">Building AI Agents with Docker MCP Toolkit: A Developerâs Real-World Setup</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 14:59</span>
-                
-                <span class="author">by Rajesh Padmakumaran</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" target="_blank">Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</a></h2>
+            <div class="publication-date">2025-08-19 14:59</div>
+            <div class="summary">🚀 Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. 🛠️ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Rajesh Padmakumaran</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. ð ï¸ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/" target="_blank">Docker @ Black Hat 2025: CVEs have everyoneâs attention, hereâs the path forward</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 18:05</span>
-                
-                <span class="author">by Aditya Tripathi</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/" target="_blank">Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</a></h2>
+            <div class="publication-date">2025-08-15 18:05</div>
+            <div class="summary">🚀 At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Aditya Tripathi</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/how-docker-enables-security-by-default/" target="_blank">A practitionerâs view on how Docker enables security by default and makes developers work better</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 16:00</span>
-                
-                <span class="author">by Pedro IgnÃ¡cio</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/how-docker-enables-security-by-default/" target="_blank">A practitioner’s view on how Docker enables security by default and makes developers work better</a></h2>
+            <div class="publication-date">2025-08-15 16:00</div>
+            <div class="summary">Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captains’ website! 🛠️🔒 #Docker #Security #DevOps #ContainerSecurity #TechInsights</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Pedro Ignácio</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captainsâ website! ð ï¸ð #Docker #Security #DevOps #ContainerSecurity #TechInsights</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/docker-desktop-4-44/" target="_blank">Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 20:16</span>
-                
-                <span class="author">by Deanna Sparks</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 20:16</div>
+            <div class="summary">🚀 Docker Desktop 4.44 introduces key updates for developers. The new Docker Model Runner allows users to inspect AI inference requests and responses directly, enhancing transparency and debugging. This feature aids in troubleshooting workflows, especially for AI/LLM applications. Real-time resource checks are now available to prevent system slowdowns when running multiple models. Additionally, Goose and Gemini CLI are supported as MCP clients, streamlining connections to over 140 MCP servers...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Deanna Sparks</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Docker Desktop 4.44 introduces key updates for developers. The new Docker Model Runner allows users to inspect AI inference requests and responses directly, enhancing transparency and debugging. This feature aids in troubleshooting workflows, especially for AI/LLM applications. Real-time resource checks are now available to prevent system slowdowns when running multiple models. Additionally, Goose and Gemini CLI are supported as MCP clients, streamlining connections to over 140 MCP servers...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" target="_blank">MCP Horror Stories: The GitHub Prompt Injection Data Heist</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 16:00</span>
-                
-                <span class="author">by Ajeet Singh Raina</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 16:00</div>
+            <div class="summary">🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Docker’s MCP Toolkit offers solutions to protect against such...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Ajeet Singh Raina</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Dockerâs MCP Toolkit offers solutions to protect against such...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/gpt5-api-deprecation-ai-app-failure/" target="_blank">The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 17:38</span>
-                
-                <span class="author">by Docker Team</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 17:38</div>
+            <div class="summary">🚨 The launch of GPT-5 by OpenAI caused significant disruption in the AI app ecosystem. Many applications failed overnight due to the unexpected removal of older APIs. Developers are reminded that relying too heavily on a single provider or model can lead to system failures. The interconnected nature of AI applications means that even small changes can have wide-reaching impacts. As the landscape evolves, it’s crucial to build resilient systems. Developers should prepare for sudden changes by...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Docker Team</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ The launch of GPT-5 by OpenAI caused significant disruption in the AI app ecosystem. Many applications failed overnight due to the unexpected removal of older APIs. Developers are reminded that relying too heavily on a single provider or model can lead to system failures. The interconnected nature of AI applications means that even small changes can have wide-reaching impacts. As the landscape evolves, itâs crucial to build resilient systems. Developers should prepare for sudden changes by...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" target="_blank">Building AI agents made easy with Goose and Docker</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 16:00</span>
-                
-                <span class="author">by Oleg Selajev</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 16:00</div>
+            <div class="summary">🚀 Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: https://github.com/shelajev/hani. #AIAgents #Docker...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Oleg Selajev</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: https://github.com/shelajev/hani. #AIAgents #Docker...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/why-changing-ai-workflows-still-feels-like-duct-tape/" target="_blank">Tooling â  Glue: Why changing AI workflows still feels like duct tape</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 16:00</span>
-                
-                <span class="author">by Gerardo LÃ³pez FalcÃ³n</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/why-changing-ai-workflows-still-feels-like-duct-tape/" target="_blank">Tooling ≠ Glue: Why changing AI workflows still feels like duct tape</a></h2>
+            <div class="publication-date">2025-08-11 16:00</div>
+            <div class="summary">Modern AI development presents a contradiction. While we have advanced tools and frameworks like LangChain and Hugging Face, replacing components often leads to system failures. 🔧 The expectation was for modular workflows, but instead, we face a fragmented landscape. Each tool has different assumptions, making integration challenging and time-consuming. 🕒 Abstractions often leak, complicating even simple tasks. What should be seamless can turn into complex issues, leaving developers to write...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Gerardo López Falcón</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Modern AI development presents a contradiction. While we have advanced tools and frameworks like LangChain and Hugging Face, replacing components often leads to system failures. ð§ The expectation was for modular workflows, but instead, we face a fragmented landscape. Each tool has different assumptions, making integration challenging and time-consuming. ð Abstractions often leak, complicating even simple tasks. What should be seamless can turn into complex issues, leaving developers to write...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/remocal-minimum-viable-models-ai/" target="_blank">Remocal and Minimum Viable Models: Why Right-Sized Models Beat API Overkill</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-09 12:30</span>
-                
-                <span class="author">by Michael Donovan</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-09 12:30</div>
+            <div class="summary">💡 Discover a new approach to AI development with Remocal and Minimum Viable Models! Many businesses face high costs and latency issues from API-dependent AI. For example, a simple sentiment analyzer can cost $847/month and take 2.3 seconds per review. Remocal combines local and cloud resources, allowing developers to work efficiently without the hassle of complex cloud setups. This method makes AI development more affordable and speeds up iteration. Minimum Viable Models (MVM) focus on using...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Michael Donovan</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">💡 Discover a new approach to AI development with Remocal and Minimum Viable Models! Many businesses face high costs and latency issues from API-dependent AI. For example, a simple sentiment analyzer can cost $847/month and take 2.3 seconds per review. Remocal combines local and cloud resources, allowing developers to work efficiently without the hassle of complex cloud setups. This method makes AI development more affordable and speeds up iteration. Minimum Viable Models (MVM) focus on using...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/build-a-recipe-ai-agent-with-koog-and-docker/" target="_blank">Build a Recipe AI Agent with Koog and Docker</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 16:23</span>
-                
-                <span class="author">by Philippe Charrière</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-08 16:23</div>
+            <div class="summary">🚀 Dive into the world of AI with Philippe Charriere’s latest blog post on building a recipe AI agent using JetBrains’ Koog and Docker. He details the integration of Koog with Docker Model Runner for creating a specialized agent for ratatouille recipes. Key tools include Docker Compose and the Docker MCP Gateway. For those interested in hands-on learning, the post outlines project setup using IntelliJ IDEA, Gradle, and Docker configurations. Explore the details to enhance your AI skills! 🍳📦...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Philippe Charrière</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Dive into the world of AI with Philippe Charriere’s latest blog post on building a recipe AI agent using JetBrains’ Koog and Docker. He details the integration of Koog with Docker Model Runner for creating a specialized agent for ratatouille recipes. Key tools include Docker Compose and the Docker MCP Gateway. For those interested in hands-on learning, the post outlines project setup using IntelliJ IDEA, Gradle, and Docker configurations. Explore the details to enhance your AI skills! 🍳📦...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/mcp-horror-stories-the-supply-chain-attack/" target="_blank">MCP Horror Stories: The Supply Chain Attack</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 18:04</span>
-                
-                <span class="author">by Ajeet Singh Raina</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-07 18:04</div>
+            <div class="summary">🚨 Part 2 of our MCP Horror Stories series highlights a critical supply chain attack affecting AI development environments. The article discusses CVE-2025-6514, where a vulnerability in mcp-remote led to credential compromise and remote code execution. This incident impacted nearly 437,000 environments, including major platforms like Cloudflare and Hugging Face. Learn about the attack techniques used, the importance of containerized MCP servers, and practical steps to secure your AI...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Ajeet Singh Raina</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚨 Part 2 of our MCP Horror Stories series highlights a critical supply chain attack affecting AI development environments. The article discusses CVE-2025-6514, where a vulnerability in mcp-remote led to credential compromise and remote code execution. This incident impacted nearly 437,000 environments, including major platforms like Cloudflare and Hugging Face. Learn about the attack techniques used, the importance of containerized MCP servers, and practical steps to secure your AI...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/fedramp-compliance-with-hardened-images/" target="_blank">Accelerating FedRAMP Compliance with Docker Hardened Images</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 15:00</span>
-                
-                <span class="author">by Brian Pratt</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-06 15:00</div>
+            <div class="summary">🚀 Navigating FedRAMP compliance can be costly and time-consuming, often taking 12-18 months and over $2 million. Competitors are already moving ahead while you manage security controls. Docker has introduced Hardened Images (DHI) to streamline this process. These pre-configured images support FIPS 140 compliance, simplifying cryptographic requirements. With DHI, companies can reduce compliance costs and speed up time-to-market for cloud services. 💻🔒 #FedRAMP #Docker #CloudCompliance...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Brian Pratt</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Navigating FedRAMP compliance can be costly and time-consuming, often taking 12-18 months and over $2 million. Competitors are already moving ahead while you manage security controls. Docker has introduced Hardened Images (DHI) to streamline this process. These pre-configured images support FIPS 140 compliance, simplifying cryptographic requirements. With DHI, companies can reduce compliance costs and speed up time-to-market for cloud services. 💻🔒 #FedRAMP #Docker #CloudCompliance...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/the-next-evolution-of-docker-hardened-images/" target="_blank">The Next Evolution of Docker Hardened Images: Customizable, FedRAMP Ready, AI Migration Agent, and Deeper Integrations</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 14:00</span>
-                
-                <span class="author">by Michael Donovan</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-06 14:00</div>
+            <div class="summary">🚀 Docker Hardened Images (DHI) have seen rapid adoption since their launch in May, helping organizations achieve near-zero CVEs and secure their software supply chains. 🔒 The latest enhancements include a broader image catalog, customizable options, and an AI migration agent. These updates will be showcased at Black Hat 2025. 🛠️ DHI now supports full-stack systems with trusted, production-ready images, ensuring security without hindering developer speed. #Docker #Cybersecurity #DevOps...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Michael Donovan</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Docker Hardened Images (DHI) have seen rapid adoption since their launch in May, helping organizations achieve near-zero CVEs and secure their software supply chains. 🔒 The latest enhancements include a broader image catalog, customizable options, and an AI migration agent. These updates will be showcased at Black Hat 2025. 🛠️ DHI now supports full-stack systems with trusted, production-ready images, ensuring security without hindering developer speed. #Docker #Cybersecurity #DevOps...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/hardened-image-best-practices/" target="_blank">Everyone’s a Snowflake: Designing Hardened Image Processes for the Real World</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 18:54</span>
-                
-                <span class="author">by Christian Dupuis</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-05 18:54</div>
+            <div class="summary">Hardened container images and distroless software are gaining traction among startups and established companies. While they promise a smaller attack surface and operational simplicity, challenges arise in real-world applications. The unique needs of development teams often clash with rigid security measures, leading to frustration and workarounds. This &#39;Snowflake Problem&#39; highlights how no two environments are the same, complicating the balance between usability and security. Flexibility is...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Christian Dupuis</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Hardened container images and distroless software are gaining traction among startups and established companies. While they promise a smaller attack surface and operational simplicity, challenges arise in real-world applications. The unique needs of development teams often clash with rigid security measures, leading to frustration and workarounds. This &#39;Snowflake Problem&#39; highlights how no two environments are the same, complicating the balance between usability and security. Flexibility is...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/mcp-toolkit-and-vs-code-copilot-agent/" target="_blank">How Docker MCP Toolkit Works with VS Code Copilot Agent Mode</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 20:10</span>
-                
-                <span class="author">by Hamida Rebaï</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-04 20:10</div>
+            <div class="summary">Unlock the potential of your development workflow! 🚀 The article explores how Docker&#39;s Model Context Protocol (MCP) Toolkit integrates with VS Code’s GitHub Copilot Agent Mode. This combination enhances productivity by allowing autonomous coding workflows with improved security and automation. Key features of the MCP Toolkit include modular components for various tasks and strict access controls for security. 🛡️ For a step-by-step setup guide, check out the article to get started with these...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Hamida Rebaï</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of your development workflow! 🚀 The article explores how Docker&#39;s Model Context Protocol (MCP) Toolkit integrates with VS Code’s GitHub Copilot Agent Mode. This combination enhances productivity by allowing autonomous coding workflows with improved security and automation. Key features of the MCP Toolkit include modular components for various tasks and strict access controls for security. 🛡️ For a step-by-step setup guide, check out the article to get started with these...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/container-security-hardened-images-questions/" target="_blank">Hard Questions: What You Should Really Be Asking Your Hardened Image Provider Before You Press the Buy Button</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 19:08</span>
-                
-                <span class="author">by Christian Dupuis</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-04 19:08</div>
+            <div class="summary">When considering hardened image providers, it’s essential to go beyond buzzwords like &#34;zero-CVE.&#34; Understanding their update and patch management processes is crucial. Ask how quickly they can respond to serious vulnerabilities and their SLAs on updates. Also, inquire about their modification processes. Knowing how to adjust images without compromising security is vital for maintaining your workflows. For more insights on essential questions to ask, check the full article. 🔍💻 #CyberSecurity...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Christian Dupuis</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/genai-vs-agentic-ai/" target="_blank">GenAI vs. Agentic AI: What Developers Need to Know</a></h2>
+            <div class="publication-date">2025-07-31 19:00</div>
+            <div class="summary">🔍 Generative AI (GenAI) is transforming how developers create applications, focusing on content generation like text and images. In contrast, a new form, agentic AI, enables planning, reasoning, and multi-step actions, paving the way for intelligent, goal-driven systems. 💻 The article discusses the differences between GenAI and agentic AI, including their construction, challenges, and use cases. It highlights how developers can utilize Docker for building AI applications, offering insights on...</div>
+            <div class="source">Source: Docker Blog</div>
             
-            <div class="sources">
+            <div class="author">Michael Irwin</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            <div class="summary">When considering hardened image providers, it’s essential to go beyond buzzwords like &#34;zero-CVE.&#34; Understanding their update and patch management processes is crucial. Ask how quickly they can respond to serious vulnerabilities and their SLAs on updates. Also, inquire about their modification processes. Knowing how to adjust images without compromising security is vital for maintaining your workflows. For more insights on essential questions to ask, check the full article. 🔍💻 #CyberSecurity...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/mcp-security-issues-threatening-ai-infrastructure/" target="_blank">MCP Horror Stories: The Security Issues Threatening AI Infrastructure</a></h2>
+            <div class="publication-date">2025-07-31 16:00</div>
+            <div class="summary">🚨 New Series Alert: MCP Horror Stories! 🚨 The first issue dives into the security vulnerabilities within the Model Context Protocol (MCP) ecosystem. MCP enables AI agents to communicate with various services, but this connectivity brings significant security risks. While MCP aims to streamline integrations, it has raised concerns about potential data breaches and system compromises due to malicious servers. Stay informed about the challenges in AI infrastructure! #AI #CyberSecurity #MCP...</div>
+            <div class="source">Source: Docker Blog</div>
+            
+            <div class="author">Ajeet Singh Raina</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
         </article>
         
     </div>
@@ -738,6 +948,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

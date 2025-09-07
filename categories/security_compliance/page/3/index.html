@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Security_compliance | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        
+         
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles by Category: Security_compliance</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://auth0.com/blog/how-auth0-mitigates-owasps-agentic-ai-threats/" target="_blank">How Auth0 Mitigates OWASP’s Agentic AI Threats</a></h2>
+            <div class="publication-date">2025-08-05 00:00</div>
+            <div class="summary">🌐 AI-powered agents are transforming industries, but they also bring significant security risks. Auth0 addresses these challenges highlighted by OWASP&#39;s recent report on Agentic AI threats. Key risks include data breaches and regulatory non-compliance, which can erode customer trust. Traditional security measures often fall short for autonomous AI. Organizations must implement robust security from the start when developing GenAI applications. 🔐 #CyberSecurity #AI #GenAI #Auth0 #OWASP</div>
+            <div class="source">Source: <a href="/sources/auth0-blog">Auth0 Blog</a></div>
+            
+            <div class="author">Mallory Sword Glenn</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/container-security-hardened-images-questions/" target="_blank">Hard Questions: What You Should Really Be Asking Your Hardened Image Provider Before You Press the Buy Button</a></h2>
+            <div class="publication-date">2025-08-04 19:08</div>
+            <div class="summary">When considering hardened image providers, it’s essential to go beyond buzzwords like &#34;zero-CVE.&#34; Understanding their update and patch management processes is crucial. Ask how quickly they can respond to serious vulnerabilities and their SLAs on updates. Also, inquire about their modification processes. Knowing how to adjust images without compromising security is vital for maintaining your workflows. For more insights on essential questions to ask, check the full article. 🔍💻 #CyberSecurity...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Christian Dupuis</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/" target="_blank">Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives</a></h2>
+            <div class="publication-date">2025-08-04 13:00</div>
+            <div class="summary">Perplexity, an AI-powered answer engine, is reportedly using stealth tactics to bypass website no-crawl directives. They modify user agents and change IPs to continue crawling despite explicit blocks. This behavior contradicts the trust-based principles of the internet, which emphasize transparency and adherence to website preferences. As a result, Perplexity has been de-listed as a verified bot and is facing new blocking measures. #Crawling #AI #WebSecurity #DataPrivacy #TechNews 🕵️‍♂️🔍🚫</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Reid Tatoris</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/v0-vibe-coding-securely" target="_blank">v0: vibe coding, securely</a></h2>
+            <div class="publication-date">2025-08-04 13:00</div>
+            <div class="summary">Vibe coding is transforming software development, allowing rapid prototyping with tools like v0. Anthropic&#39;s CEO indicates that in just 3-6 months, 90% of code may be AI-generated. However, this speed can lead to significant risks. A recent incident involved a viral app that leaked 72,000 selfies and IDs due to misconfigured settings, emphasizing the need for security measures. #VibeCoding #SoftwareDevelopment #CyberSecurity #AI #TechNews 🚀🔒📱</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Kevin Corbett</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/vulnerability-disclosure-on-ssl-for-saas-v1-managed-cname/" target="_blank">Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)</a></h2>
+            <div class="publication-date">2025-08-01 13:00</div>
+            <div class="summary">Cloudflare has announced a vulnerability disclosure for its SSL for SaaS v1 (Managed CNAME) product, identified through its bug bounty program. Despite deprecating this version in 2021, some customers have yet to migrate to SSL for SaaS v2. Cloudflare is working to assist these remaining clients in the transition. The architecture of SSL for SaaS v1 posed security risks due to its reliance on IP-based routing without domain ownership verification, leading to potential vulnerabilities. 🌐🔒...</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Ross Jacobs</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/securing-agentic-ai-how-semantic-prompt-injections-bypass-ai-guardrails/" target="_blank">Securing Agentic AI: How Semantic Prompt Injections Bypass AI Guardrails</a></h2>
+            <div class="publication-date">2025-07-31 16:58</div>
+            <div class="summary">Prompt injection remains a significant threat to AI systems, particularly with the rise of multimodal and agentic AI. 🛡️ NVIDIA&#39;s AI Red Team simulates real-world attacks to identify vulnerabilities in these advanced systems, emphasizing the need for cross-functional solutions. Their recent research introduces a new category of multimodal prompt injection using symbolic visual inputs, like emoji sequences. 🔍 This shift highlights the importance of adapting security strategies from input...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Daniel Teixeira</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/mcp-security-issues-threatening-ai-infrastructure/" target="_blank">MCP Horror Stories: The Security Issues Threatening AI Infrastructure</a></h2>
+            <div class="publication-date">2025-07-31 16:00</div>
+            <div class="summary">🚨 New Series Alert: MCP Horror Stories! 🚨 The first issue dives into the security vulnerabilities within the Model Context Protocol (MCP) ecosystem. MCP enables AI agents to communicate with various services, but this connectivity brings significant security risks. While MCP aims to streamline integrations, it has raised concerns about potential data breaches and system compromises due to malicious servers. Stay informed about the challenges in AI infrastructure! #AI #CyberSecurity #MCP...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Ajeet Singh Raina</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/07/31/ibm-hyper-protect-openshift-sandboxed-containers" target="_blank">IBM Hyper Protect with OpenShift sandboxed containers</a></h2>
+            <div class="publication-date">2025-07-31 07:01</div>
+            <div class="summary">IBM is advancing data security with Hyper Protect Confidential Containers (HPCC) for Red Hat OpenShift. This solution protects sensitive workloads in untrusted environments, essential for industries like finance and healthcare. Using OpenShift sandboxed containers, HPCC ensures VM-level isolation for confidential computing. It addresses vulnerabilities of traditional containers by employing hardware-based trusted execution environments. Learn how HPCC enhances data protection and supports...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Marcos Entenza Garcia, Jens Freimann</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.okta.com/blog/2025/07/31/ciba-okta" target="_blank">Introducing CIBA for Secure Transaction Verification</a></h2>
+            <div class="publication-date">2025-07-31 05:00</div>
+            <div class="summary">🔐 **Introducing CIBA for Secure Transaction Verification** 🔐 Digital applications require identity verification beyond just login interfaces. CIBA (Client-Initiated Backchannel Authentication) enhances security by decoupling authentication from applications, allowing users to verify their identity securely on different devices. This method is particularly useful in scenarios like updating bank email addresses or making payments at retail POS systems without sharing credentials on public...</div>
+            <div class="source">Source: <a href="/sources/okta-developer-blog">Okta Developer Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/regulatory-updates-spain" target="_blank">New Rules in Spain: Don’t Let Your Calls Get Ghosted</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚨 New telecom regulations in Spain are now in effect! Spanish mobile numbers cannot be used for unsolicited marketing or customer service calls. This means calls may get flagged or blocked, especially if using Transit-Caller-ID. 📞 To stay compliant, consider switching to Spanish landline or toll-free numbers. Review your number strategy to avoid disruptions in communication. Stay informed and keep your calls connected! #Telecom #Spain #Compliance #Twilio #Communication</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://about.gitlab.com/blog/securing-ai-together-gitlabs-partnership-with-security-researchers/" target="_blank">Securing AI together: GitLab’s partnership with security researchers</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">GitLab is enhancing security in AI with the support of external researchers. As AI evolves, so do the challenges, like prompt injection attacks. Our collaboration with organizations like Persistent Security helps us identify vulnerabilities and implement fast solutions. By engaging with the security research community, we aim to protect customers and ensure a secure development environment. Join us in our mission at GitLab! 🤝🔒 #AISecurity #CyberSecurity #GitLab #Collaboration #SoftwareSafety</div>
+            <div class="source">Source: <a href="/sources/gitlab-blog">GitLab Blog</a></div>
+            
+            <div class="author">Kymberlee Price</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/july-2025-webflow-availability-incident" target="_blank">Webflow’s availability incident: what we got wrong and what we’re changing</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Webflow faced a significant service disruption on July 28, caused by a malicious attack that affected customer access. The team worked quickly to stabilize the platform. CEO&#39;s reflections highlight shortcomings in communication and support during this incident. Immediate changes include enhanced monitoring, improved infrastructure, and proactive customer updates. Webflow is committed to making the platform more reliable and transparent moving forward. #Webflow #ServiceUpdate #CustomerSupport...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.1password.com/why-omdia-recommends-extended-access-management-to-secure-agentic-ai/" target="_blank">Why Omdia recommends Extended Access Management to secure agentic AI</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Omdia&#39;s recent report highlights significant security challenges in managing access for agentic AI. With the rise of application, device, and identity sprawl, organizations face increased risk. AI agents require extensive access but lack secure management tools, leading to potential data leaks and unauthorized actions. Omdia recommends five strategies to secure access, including the need for robust measures specifically for AI agents. 1Password Extended Access Management offers a solution by...</div>
+            <div class="source">Source: <a href="/sources/1password-blog">1Password Blog</a></div>
+            
+            <div class="author">info@1password.com (Elaine Atwell)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/categories/security_compliance/page/2/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/categories/security_compliance/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/categories/security_compliance/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <span class="pagination-current">3</span>
+            
+            
+        </div>
+        
+        
+    </nav>
+    
+</div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

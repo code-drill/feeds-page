@@ -2,172 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/docker-blog/</link>
+    <link>/sources/docker-blog/</link>
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Aug 2025 23:19:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 13:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
+      <link>/articles/article-2025-09-05-7786/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7786/</guid>
+      <description>🚀 Docker, Inc. has acquired MCP Defender to enhance security for AI applications. As AI evolves rapidly, new security challenges arise for software development. 🔍 The current AI security landscape reflects early container adoption, marked by innovation but also uncertainty about risks. Organizations must now focus on real-time monitoring and dynamic threat detection. 🔒 Docker aims to embed security into AI infrastructure from the start, ensuring seamless integration into development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Hybrid AI Isn’t the Future — It’s Here (and It Runs in Docker)</title>
+      <link>/articles/article-2025-09-04-7731/</link>
+      <pubDate>Thu, 04 Sep 2025 13:00:44 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7731/</guid>
+      <description>🌐 Hybrid AI is revolutionizing how we utilize AI models! Running large models in the cloud can lead to high costs, while local models help maintain privacy and control expenses. However, local models often lack capability. The hybrid approach combines cloud and local strengths, offering a cost-effective, efficient solution. Using Docker, developers can easily deploy systems that balance performance and affordability. Explore how this innovative model works! 🖥️💡 #HybridAI #Docker #AIModels&amp;hellip;</description>
+    </item>
+    <item>
+      <title>You are Doing MCP Wrong: 3 Big Misconceptions</title>
+      <link>/articles/article-2025-09-03-7692/</link>
+      <pubDate>Wed, 03 Sep 2025 16:59:46 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7692/</guid>
+      <description>🔍 Understanding the Model Context Protocol (MCP) is crucial for developers. Many mistakenly view MCP as just another API, which can disrupt agent designs and execution reliability. MCP is designed for LLM tool use, not replacing RPC but enhancing it. Another common misconception is that tools are agents. While tools execute tasks, agents plan and evaluate until goals are met. For effective use, define tool preconditions, validate inputs, and maintain clear logs. #ModelContextProtocol #MCP&amp;hellip;</description>
+    </item>
     <item>
       <title>Broadcom’s New Bitnami Restrictions? Migrate Easily with Docker</title>
-      <link>http://localhost:1313/articles/article-7564/</link>
+      <link>/articles/article-2025-08-30-7564/</link>
       <pubDate>Sat, 30 Aug 2025 23:19:29 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7564/</guid>
+      <guid>/articles/article-2025-08-30-7564/</guid>
       <description>Bitnami has been crucial in simplifying application deployment for developers. However, significant changes are coming to their distribution model. Starting September 29, access to most versioned images will require a paid subscription under Bitnami Secure Images. Only the :latest tags will remain free, while older images will move to a legacy archive without updates. Docker offers alternatives with their Official Images and Hardened Images, providing robust options for teams facing these&amp;hellip;</description>
     </item>
     <item>
       <title>Boost Your Copilot with SonarQube via Docker MCP Toolkit and Gateway</title>
-      <link>http://localhost:1313/articles/article-7536/</link>
+      <link>/articles/article-2025-08-29-7536/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7536/</guid>
+      <guid>/articles/article-2025-08-29-7536/</guid>
       <description>🚀 In the age of AI copilots, ensuring code quality is crucial. SonarQube helps identify bugs, test coverage, and security issues but can interrupt workflow due to feedback loops. 🔧 The solution? Integrate SonarQube directly into your IDE using the Sonar MCP server and Docker MCP Toolkit. This allows AI agents like GitHub Copilot to access code quality metrics seamlessly. 🛠️ The Docker MCP Toolkit simplifies the setup, enabling developers to focus on coding without distractions. For hands-on&amp;hellip;</description>
     </item>
     <item>
       <title>Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</title>
-      <link>http://localhost:1313/articles/article-7465/</link>
+      <link>/articles/article-2025-08-28-7465/</link>
       <pubDate>Thu, 28 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7465/</guid>
-      <description>In today&amp;rsquo;s software development landscape, speed should not compromise security. ð¡ï¸ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. ð¦ Learn how modern&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7465/</guid>
+      <description>In today&amp;rsquo;s software development landscape, speed should not compromise security. 🛡️ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. 📦 Learn how modern&amp;hellip;</description>
     </item>
     <item>
       <title>Docker Desktop Accelerates Innovation with Faster Release Cadence</title>
-      <link>http://localhost:1313/articles/article-7231/</link>
+      <link>/articles/article-2025-08-27-7231/</link>
       <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7231/</guid>
-      <description>ð¢ Exciting news from Docker! Starting with release 4.45.0 on August 28, Docker Desktop will shift to a new update schedule, moving from monthly to bi-weekly releases, aiming for weekly updates by 2025. This change is in response to user requests for quicker access to new features and urgent updates. ð Enhancements include smarter component updates that occur silently without interrupting your workflow and clearer update information within the app. Enterprise users will retain control over&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7231/</guid>
+      <description>📢 Exciting news from Docker! Starting with release 4.45.0 on August 28, Docker Desktop will shift to a new update schedule, moving from monthly to bi-weekly releases, aiming for weekly updates by 2025. This change is in response to user requests for quicker access to new features and urgent updates. 🚀 Enhancements include smarter component updates that occur silently without interrupting your workflow and clearer update information within the app. Enterprise users will retain control over&amp;hellip;</description>
     </item>
     <item>
       <title>Prototyping an AI Tutor with Docker Model Runner</title>
-      <link>http://localhost:1313/articles/article-5115/</link>
+      <link>/articles/article-2025-08-21-5115/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5115/</guid>
-      <description>ð Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model Runner. This tool aims to streamline the learning process by embedding AI assistance directly into the development environment. The tutor helps users run their first &amp;ldquo;hello-world&amp;rdquo; container without the hassle of switching between various resources, maintaining context, and ensuring privacy. #AITutoring #Docker #DeveloperExperience #TechInnovation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5115/</guid>
+      <description>🚀 Exploring how AI can enhance developer learning is exciting! A recent article discusses the creation of an interactive AI tutor using Docker Model Runner. This tool aims to streamline the learning process by embedding AI assistance directly into the development environment. The tutor helps users run their first &amp;ldquo;hello-world&amp;rdquo; container without the hassle of switching between various resources, maintaining context, and ensuring privacy. #AITutoring #Docker #DeveloperExperience #TechInnovation&amp;hellip;</description>
     </item>
     <item>
-      <title>The Supply Chain Paradox: When âHardenedâ Images Become a Vendor Lock-in Trap</title>
-      <link>http://localhost:1313/articles/article-5116/</link>
+      <title>The Supply Chain Paradox: When “Hardened” Images Become a Vendor Lock-in Trap</title>
+      <link>/articles/article-2025-08-20-5116/</link>
       <pubDate>Wed, 20 Aug 2025 13:10:09 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5116/</guid>
+      <guid>/articles/article-2025-08-20-5116/</guid>
       <description>The demand for pre-hardened container images is rapidly rising as companies seek immediate security solutions with low operational effort. These images offer minimal dependencies, allowing teams to focus on application development. However, this trend may lead to unintended vendor lock-in. Organizations could become overly reliant on a single vendor&amp;rsquo;s systems and processes, complicating operations and potentially weakening security. Additionally, deviations from mainstream distributions can&amp;hellip;</description>
     </item>
     <item>
       <title>Streamline NGINX Configuration with Docker Desktop Extension</title>
-      <link>http://localhost:1313/articles/article-5117/</link>
+      <link>/articles/article-2025-08-19-5117/</link>
       <pubDate>Tue, 19 Aug 2025 16:13:36 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5117/</guid>
-      <description>ð Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</description>
+      <guid>/articles/article-2025-08-19-5117/</guid>
+      <description>🚀 Enhance your NGINX configuration with Docker Desktop! This article highlights how the NGINX Development Center simplifies server management and boosts workflow efficiency. It offers user-friendly tools for easier configuration, multi-server management, and improved debugging. With over 51,000 downloads, it integrates seamlessly with Docker Desktop to streamline app and web server development. #Docker #NGINX #WebDevelopment #DevOps #Containerization</description>
     </item>
     <item>
-      <title>Building AI Agents with Docker MCP Toolkit: A Developerâs Real-World Setup</title>
-      <link>http://localhost:1313/articles/article-5118/</link>
+      <title>Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</title>
+      <link>/articles/article-2025-08-19-5118/</link>
       <pubDate>Tue, 19 Aug 2025 14:59:46 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5118/</guid>
-      <description>ð Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. ð ï¸ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5118/</guid>
+      <description>🚀 Building AI agents requires more than just model calls. The article explores using the Docker MCP Toolkit to create an agent that interacts with GitHub repositories. This agent can answer questions about code, such as summarizing modules or locating specific functions. 🛠️ The Docker MCP Toolkit streamlines setup and integration, making development faster and more efficient. By using Docker Compose, the environment remains consistent across all stages of development. #AI #Docker #MCPToolkit&amp;hellip;</description>
     </item>
     <item>
-      <title>Docker @ Black Hat 2025: CVEs have everyoneâs attention, hereâs the path forward</title>
-      <link>http://localhost:1313/articles/article-5119/</link>
+      <title>Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</title>
+      <link>/articles/article-2025-08-15-5119/</link>
       <pubDate>Fri, 15 Aug 2025 18:05:10 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5119/</guid>
-      <description>ð At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the&amp;hellip;</description>
+      <guid>/articles/article-2025-08-15-5119/</guid>
+      <description>🚀 At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the&amp;hellip;</description>
     </item>
     <item>
-      <title>A practitionerâs view on how Docker enables security by default and makes developers work better</title>
-      <link>http://localhost:1313/articles/article-5120/</link>
+      <title>A practitioner’s view on how Docker enables security by default and makes developers work better</title>
+      <link>/articles/article-2025-08-15-5120/</link>
       <pubDate>Fri, 15 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5120/</guid>
-      <description>Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captainsâ website! ð ï¸ð #Docker #Security #DevOps #ContainerSecurity #TechInsights</description>
+      <guid>/articles/article-2025-08-15-5120/</guid>
+      <description>Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captains’ website! 🛠️🔒 #Docker #Security #DevOps #ContainerSecurity #TechInsights</description>
     </item>
     <item>
       <title>Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows</title>
-      <link>http://localhost:1313/articles/article-5121/</link>
+      <link>/articles/article-2025-08-14-5121/</link>
       <pubDate>Thu, 14 Aug 2025 20:16:35 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5121/</guid>
-      <description>ð Docker Desktop 4.44 introduces key updates for developers. The new Docker Model Runner allows users to inspect AI inference requests and responses directly, enhancing transparency and debugging. This feature aids in troubleshooting workflows, especially for AI/LLM applications. Real-time resource checks are now available to prevent system slowdowns when running multiple models. Additionally, Goose and Gemini CLI are supported as MCP clients, streamlining connections to over 140 MCP servers&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5121/</guid>
+      <description>🚀 Docker Desktop 4.44 introduces key updates for developers. The new Docker Model Runner allows users to inspect AI inference requests and responses directly, enhancing transparency and debugging. This feature aids in troubleshooting workflows, especially for AI/LLM applications. Real-time resource checks are now available to prevent system slowdowns when running multiple models. Additionally, Goose and Gemini CLI are supported as MCP clients, streamlining connections to over 140 MCP servers&amp;hellip;</description>
     </item>
     <item>
       <title>MCP Horror Stories: The GitHub Prompt Injection Data Heist</title>
-      <link>http://localhost:1313/articles/article-5122/</link>
+      <link>/articles/article-2025-08-14-5122/</link>
       <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5122/</guid>
-      <description>ð¨ In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Dockerâs MCP Toolkit offers solutions to protect against such&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5122/</guid>
+      <description>🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Docker’s MCP Toolkit offers solutions to protect against such&amp;hellip;</description>
     </item>
     <item>
       <title>The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)</title>
-      <link>http://localhost:1313/articles/article-4956/</link>
+      <link>/articles/article-2025-08-13-4956/</link>
       <pubDate>Wed, 13 Aug 2025 17:38:06 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4956/</guid>
-      <description>ð¨ The launch of GPT-5 by OpenAI caused significant disruption in the AI app ecosystem. Many applications failed overnight due to the unexpected removal of older APIs. Developers are reminded that relying too heavily on a single provider or model can lead to system failures. The interconnected nature of AI applications means that even small changes can have wide-reaching impacts. As the landscape evolves, itâs crucial to build resilient systems. Developers should prepare for sudden changes by&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4956/</guid>
+      <description>🚨 The launch of GPT-5 by OpenAI caused significant disruption in the AI app ecosystem. Many applications failed overnight due to the unexpected removal of older APIs. Developers are reminded that relying too heavily on a single provider or model can lead to system failures. The interconnected nature of AI applications means that even small changes can have wide-reaching impacts. As the landscape evolves, it’s crucial to build resilient systems. Developers should prepare for sudden changes by&amp;hellip;</description>
     </item>
     <item>
       <title>Building AI agents made easy with Goose and Docker</title>
-      <link>http://localhost:1313/articles/article-4957/</link>
+      <link>/articles/article-2025-08-12-4957/</link>
       <pubDate>Tue, 12 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4957/</guid>
-      <description>ð Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: &lt;a href=&#34;https://github.com/shelajev/hani&#34;&gt;https://github.com/shelajev/hani&lt;/a&gt;. #AIAgents #Docker&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4957/</guid>
+      <description>🚀 Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: &lt;a href=&#34;https://github.com/shelajev/hani&#34;&gt;https://github.com/shelajev/hani&lt;/a&gt;. #AIAgents #Docker&amp;hellip;</description>
     </item>
     <item>
-      <title>Tooling â  Glue: Why changing AI workflows still feels like duct tape</title>
-      <link>http://localhost:1313/articles/article-4852/</link>
+      <title>Tooling ≠ Glue: Why changing AI workflows still feels like duct tape</title>
+      <link>/articles/article-2025-08-11-4852/</link>
       <pubDate>Mon, 11 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4852/</guid>
-      <description>Modern AI development presents a contradiction. While we have advanced tools and frameworks like LangChain and Hugging Face, replacing components often leads to system failures. ð§ The expectation was for modular workflows, but instead, we face a fragmented landscape. Each tool has different assumptions, making integration challenging and time-consuming. ð Abstractions often leak, complicating even simple tasks. What should be seamless can turn into complex issues, leaving developers to write&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4852/</guid>
+      <description>Modern AI development presents a contradiction. While we have advanced tools and frameworks like LangChain and Hugging Face, replacing components often leads to system failures. 🔧 The expectation was for modular workflows, but instead, we face a fragmented landscape. Each tool has different assumptions, making integration challenging and time-consuming. 🕒 Abstractions often leak, complicating even simple tasks. What should be seamless can turn into complex issues, leaving developers to write&amp;hellip;</description>
     </item>
     <item>
       <title>Remocal and Minimum Viable Models: Why Right-Sized Models Beat API Overkill</title>
-      <link>http://localhost:1313/articles/article-4802/</link>
+      <link>/articles/article-2025-08-09-4802/</link>
       <pubDate>Sat, 09 Aug 2025 12:30:53 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4802/</guid>
+      <guid>/articles/article-2025-08-09-4802/</guid>
       <description>💡 Discover a new approach to AI development with Remocal and Minimum Viable Models! Many businesses face high costs and latency issues from API-dependent AI. For example, a simple sentiment analyzer can cost $847/month and take 2.3 seconds per review. Remocal combines local and cloud resources, allowing developers to work efficiently without the hassle of complex cloud setups. This method makes AI development more affordable and speeds up iteration. Minimum Viable Models (MVM) focus on using&amp;hellip;</description>
     </item>
     <item>
       <title>Build a Recipe AI Agent with Koog and Docker</title>
-      <link>http://localhost:1313/articles/article-4762/</link>
+      <link>/articles/article-2025-08-08-4762/</link>
       <pubDate>Fri, 08 Aug 2025 16:23:59 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4762/</guid>
+      <guid>/articles/article-2025-08-08-4762/</guid>
       <description>🚀 Dive into the world of AI with Philippe Charriere’s latest blog post on building a recipe AI agent using JetBrains’ Koog and Docker. He details the integration of Koog with Docker Model Runner for creating a specialized agent for ratatouille recipes. Key tools include Docker Compose and the Docker MCP Gateway. For those interested in hands-on learning, the post outlines project setup using IntelliJ IDEA, Gradle, and Docker configurations. Explore the details to enhance your AI skills! 🍳📦&amp;hellip;</description>
     </item>
     <item>
       <title>MCP Horror Stories: The Supply Chain Attack</title>
-      <link>http://localhost:1313/articles/article-4763/</link>
+      <link>/articles/article-2025-08-07-4763/</link>
       <pubDate>Thu, 07 Aug 2025 18:04:40 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4763/</guid>
+      <guid>/articles/article-2025-08-07-4763/</guid>
       <description>🚨 Part 2 of our MCP Horror Stories series highlights a critical supply chain attack affecting AI development environments. The article discusses CVE-2025-6514, where a vulnerability in mcp-remote led to credential compromise and remote code execution. This incident impacted nearly 437,000 environments, including major platforms like Cloudflare and Hugging Face. Learn about the attack techniques used, the importance of containerized MCP servers, and practical steps to secure your AI&amp;hellip;</description>
     </item>
     <item>
       <title>Accelerating FedRAMP Compliance with Docker Hardened Images</title>
-      <link>http://localhost:1313/articles/article-4147/</link>
+      <link>/articles/article-2025-08-06-4147/</link>
       <pubDate>Wed, 06 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4147/</guid>
+      <guid>/articles/article-2025-08-06-4147/</guid>
       <description>🚀 Navigating FedRAMP compliance can be costly and time-consuming, often taking 12-18 months and over $2 million. Competitors are already moving ahead while you manage security controls. Docker has introduced Hardened Images (DHI) to streamline this process. These pre-configured images support FIPS 140 compliance, simplifying cryptographic requirements. With DHI, companies can reduce compliance costs and speed up time-to-market for cloud services. 💻🔒 #FedRAMP #Docker #CloudCompliance&amp;hellip;</description>
     </item>
     <item>
       <title>The Next Evolution of Docker Hardened Images: Customizable, FedRAMP Ready, AI Migration Agent, and Deeper Integrations</title>
-      <link>http://localhost:1313/articles/article-4148/</link>
+      <link>/articles/article-2025-08-06-4148/</link>
       <pubDate>Wed, 06 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4148/</guid>
+      <guid>/articles/article-2025-08-06-4148/</guid>
       <description>🚀 Docker Hardened Images (DHI) have seen rapid adoption since their launch in May, helping organizations achieve near-zero CVEs and secure their software supply chains. 🔒 The latest enhancements include a broader image catalog, customizable options, and an AI migration agent. These updates will be showcased at Black Hat 2025. 🛠️ DHI now supports full-stack systems with trusted, production-ready images, ensuring security without hindering developer speed. #Docker #Cybersecurity #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>Everyone’s a Snowflake: Designing Hardened Image Processes for the Real World</title>
-      <link>http://localhost:1313/articles/article-2015/</link>
+      <link>/articles/article-2025-08-05-2015/</link>
       <pubDate>Tue, 05 Aug 2025 18:54:38 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2015/</guid>
+      <guid>/articles/article-2025-08-05-2015/</guid>
       <description>Hardened container images and distroless software are gaining traction among startups and established companies. While they promise a smaller attack surface and operational simplicity, challenges arise in real-world applications. The unique needs of development teams often clash with rigid security measures, leading to frustration and workarounds. This &amp;lsquo;Snowflake Problem&amp;rsquo; highlights how no two environments are the same, complicating the balance between usability and security. Flexibility is&amp;hellip;</description>
     </item>
     <item>
       <title>How Docker MCP Toolkit Works with VS Code Copilot Agent Mode</title>
-      <link>http://localhost:1313/articles/article-2016/</link>
+      <link>/articles/article-2025-08-04-2016/</link>
       <pubDate>Mon, 04 Aug 2025 20:10:50 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2016/</guid>
+      <guid>/articles/article-2025-08-04-2016/</guid>
       <description>Unlock the potential of your development workflow! 🚀 The article explores how Docker&amp;rsquo;s Model Context Protocol (MCP) Toolkit integrates with VS Code’s GitHub Copilot Agent Mode. This combination enhances productivity by allowing autonomous coding workflows with improved security and automation. Key features of the MCP Toolkit include modular components for various tasks and strict access controls for security. 🛡️ For a step-by-step setup guide, check out the article to get started with these&amp;hellip;</description>
     </item>
     <item>
       <title>Hard Questions: What You Should Really Be Asking Your Hardened Image Provider Before You Press the Buy Button</title>
-      <link>http://localhost:1313/articles/article-2017/</link>
+      <link>/articles/article-2025-08-04-2017/</link>
       <pubDate>Mon, 04 Aug 2025 19:08:03 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2017/</guid>
+      <guid>/articles/article-2025-08-04-2017/</guid>
       <description>When considering hardened image providers, it’s essential to go beyond buzzwords like &amp;ldquo;zero-CVE.&amp;rdquo; Understanding their update and patch management processes is crucial. Ask how quickly they can respond to serious vulnerabilities and their SLAs on updates. Also, inquire about their modification processes. Knowing how to adjust images without compromising security is vital for maintaining your workflows. For more insights on essential questions to ask, check the full article. 🔍💻 #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GenAI vs. Agentic AI: What Developers Need to Know</title>
+      <link>/articles/article-2025-07-31-2018/</link>
+      <pubDate>Thu, 31 Jul 2025 19:00:32 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2018/</guid>
+      <description>🔍 Generative AI (GenAI) is transforming how developers create applications, focusing on content generation like text and images. In contrast, a new form, agentic AI, enables planning, reasoning, and multi-step actions, paving the way for intelligent, goal-driven systems. 💻 The article discusses the differences between GenAI and agentic AI, including their construction, challenges, and use cases. It highlights how developers can utilize Docker for building AI applications, offering insights on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>MCP Horror Stories: The Security Issues Threatening AI Infrastructure</title>
+      <link>/articles/article-2025-07-31-2019/</link>
+      <pubDate>Thu, 31 Jul 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2019/</guid>
+      <description>🚨 New Series Alert: MCP Horror Stories! 🚨 The first issue dives into the security vulnerabilities within the Model Context Protocol (MCP) ecosystem. MCP enables AI agents to communicate with various services, but this connectivity brings significant security risks. While MCP aims to streamline integrations, it has raised concerns about potential data breaches and system compromises due to malicious servers. Stay informed about the challenges in AI infrastructure! #AI #CyberSecurity #MCP&amp;hellip;</description>
     </item>
   </channel>
 </rss>

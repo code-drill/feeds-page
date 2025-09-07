@@ -2,494 +2,662 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security_compliance on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/categories/security_compliance/</link>
+    <link>/categories/security_compliance/</link>
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 15:00:13 +0000</lastBuildDate>
+    <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corrective Action Update for the Heroku June 10th Outage</title>
+      <link>/articles/article-2025-09-05-7784/</link>
+      <pubDate>Fri, 05 Sep 2025 15:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7784/</guid>
+      <description>🚨 &lt;strong&gt;Heroku Outage Update&lt;/strong&gt; 🚨 On June 10, 2025, Heroku experienced a service disruption due to an unintended system update. This affected not only platform performance but also the Heroku Status site, leading to confusion among users. 🛠️ On June 15, we outlined our remediation objectives, focusing on: - Immutable infrastructure - Improved communication resilience - Faster investigation and recovery 🔧 Key actions taken include halting unattended vendor upgrades, auditing system images, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
+      <link>/articles/article-2025-09-05-7786/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7786/</guid>
+      <description>🚀 Docker, Inc. has acquired MCP Defender to enhance security for AI applications. As AI evolves rapidly, new security challenges arise for software development. 🔍 The current AI security landscape reflects early container adoption, marked by innovation but also uncertainty about risks. Organizations must now focus on real-time monitoring and dynamic threat detection. 🔒 Docker aims to embed security into AI infrastructure from the start, ensuring seamless integration into development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Addressing the unauthorized issuance of multiple TLS certificates for 1.1.1.1</title>
+      <link>/articles/article-2025-09-04-7750/</link>
+      <pubDate>Thu, 04 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7750/</guid>
+      <description>Cloudflare has reported unauthorized TLS certificates issued for 1.1.1.1 by Fina CA without permission. These 12 certificates were issued between February 2024 and August 2025 and have since been revoked. While no evidence suggests malicious use, this incident highlights the importance of proper certificate issuance protocols. Fina CA stated the certificates were intended for internal testing. Cloudflare emphasizes the need for awareness around internet trust dynamics. 🔒🌐 #CyberSecurity #DNS&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why secrets management is incomplete without secret scanning</title>
+      <link>/articles/article-2025-09-04-7745/</link>
+      <pubDate>Thu, 04 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7745/</guid>
+      <description>🔍 Secrets management is vital for safeguarding API keys, passwords, and certificates. However, it often only covers known secrets, leaving gaps in security. 💻 Secrets can be scattered across code, pipelines, and tools, creating hidden risks. Recent research shows that leaked secrets can take 94 days to remediate, increasing vulnerability to attacks. 🔐 Secret scanning complements management by providing visibility and real-time detection of hidden secrets. This proactive approach integrates&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A developer&#39;s guide to building secure retail apps with GitLab</title>
+      <link>/articles/article-2025-09-04-7741/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7741/</guid>
+      <description>🔒 Retailers face unique security challenges as modern commerce expands. With mobile apps, AI, and IoT, each touchpoint increases the risk of vulnerabilities that can impact customer trust and revenue. Traditional security methods often fall short in this complex landscape. An integrated DevSecOps platform, like GitLab, embeds security into the development lifecycle, allowing teams to innovate while maintaining customer experience. Discover how to address these challenges effectively through&amp;hellip;</description>
+    </item>
+    <item>
+      <title>4 security wins from Booking.com&#39;s hybrid cloud migration</title>
+      <link>/articles/article-2025-09-03-7701/</link>
+      <pubDate>Wed, 03 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7701/</guid>
+      <description>🚀 Booking.com has made significant strides in their hybrid cloud migration by enhancing security with HashiCorp Vault. They developed a unified secrets management system, allowing consistent access across various platforms, including AWS and GCP. This central security bridge mitigates risks of misconfigurations. By migrating to JWT authentication, they simplified their authentication processes, reducing complexity and improving oversight. Additionally, Vault&amp;rsquo;s secrets sync will provide&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Black Hat Investigation: Attempted Exploitation of Registration Server</title>
+      <link>/articles/article-2025-09-03-7668/</link>
+      <pubDate>Wed, 03 Sep 2025 12:00:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7668/</guid>
+      <description>🚨 Black Hat Conference Update 🚨 Recent investigations revealed attempted exploitation of the registration server at the Black Hat conference. Operating within the unique Security and Network Operations Center (NOC) environment, Cisco faces distinct challenges due to the conference&amp;rsquo;s focus on cybersecurity research and ethical hacking. 🔍 The NOC anticipates various activities that might appear suspicious elsewhere. The Bring Your Own Device (BYOD) policy complicates monitoring, emphasizing the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Value of PCAP in Firewall Investigations</title>
+      <link>/articles/article-2025-09-03-7669/</link>
+      <pubDate>Wed, 03 Sep 2025 12:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7669/</guid>
+      <description>🚀 The article highlights the importance of PCAP (packet capture) in firewall investigations, emphasizing its time-consuming nature. Key steps include finding a suitable platform, executing the capture, and analyzing large files. At Black Hat USA 2025, the ‘Endace PCAP Pivot’ feature enabled easier access to packet-level data, enhancing SOC analyst investigations significantly. 📊🔍 #CyberSecurity #PacketCapture #NetworkAnalysis #BlackHat2025 #SOCInsights</description>
+    </item>
+    <item>
+      <title>Compliance Toolkit: AI-powered support for SMS compliance</title>
+      <link>/articles/article-2025-09-03-7713/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7713/</guid>
+      <description>Twilio&amp;rsquo;s new Compliance Toolkit leverages AI and machine learning to enhance SMS compliance. This tool proactively identifies and mitigates potential regulatory violations, helping businesses maintain compliance and avoid penalties. Explore how AI can support your compliance efforts! 📲🤖 #Compliance #AI #SMS #Twilio #Regulations</description>
+    </item>
+    <item>
+      <title>What security leaders need to know about mergers and acquisitions</title>
+      <link>/articles/article-2025-09-03-7681/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7681/</guid>
+      <description>Mergers and acquisitions (M&amp;amp;A) present unique security challenges for teams. The integration of two companies involves managing devices, applications, and data, often exposing serious vulnerabilities. Notable cases, like Verizon and Yahoo, highlight the consequences of security oversights that can lead to costly data breaches. Due diligence is crucial. Security leaders should be involved from the start, focusing on identifying risks through thorough discovery and validation processes&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>5 tips for credential management across multi-cloud</title>
+      <link>/articles/article-2025-09-02-7645/</link>
+      <pubDate>Tue, 02 Sep 2025 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7645/</guid>
+      <description>Managing credentials in multi-cloud environments can be complex. Lino Telera from InfoCert shares five essential tips to streamline secret management: 1️⃣ Use dynamic secrets instead of static API keys to minimize risk. 2️⃣ Automate runtime secret management to eliminate manual errors. 3️⃣ Implement workspace sandboxing to enforce zero trust principles. These practices help improve security and efficiency in development. #CredentialManagement #CloudSecurity #DevOps #InfoSec #HashiCorp</description>
+    </item>
+    <item>
+      <title>The impact of the Salesloft Drift breach on Cloudflare and our customers</title>
+      <link>/articles/article-2025-09-02-7648/</link>
+      <pubDate>Tue, 02 Sep 2025 17:10:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7648/</guid>
+      <description>🚨 Last week, Cloudflare confirmed that it was affected by the Salesloft Drift breach, where an advanced threat actor accessed Salesforce data, impacting Cloudflare and many companies. The breach compromised customer contact information and support case data, including sensitive details. Cloudflare has urged customers to rotate any credentials shared through this channel. Immediate actions were taken, including securing the environment and investigating the incident. All affected customers&amp;hellip;</description>
+    </item>
+    <item>
+      <title>API Keys and AI Agents: Four Common Risks</title>
+      <link>/articles/article-2025-09-02-7639/</link>
+      <pubDate>Tue, 02 Sep 2025 16:26:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7639/</guid>
+      <description>Building AI agents can be thrilling, but it comes with serious security risks when using API keys. 🚨 Pasting keys everywhere can lead to exposure through public repositories, logs, or client-side applications. This increases the chance of automated attacks, especially if the keys have broad permissions. 🔑 Managing these keys is crucial to ensure data security and compliance, particularly in regulated industries. Consider solutions like Auth0&amp;rsquo;s Token Vault to safeguard your integrations. 🔒 #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Closing the Backdoor in TACACS&#43;: Why Full-Session Encryption Matters More Than Ever</title>
+      <link>/articles/article-2025-09-02-7607/</link>
+      <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7607/</guid>
+      <description>🚨 Recent cyber threats highlight the risks of weak TACACS+ encryption. Attackers exploited vulnerabilities, targeting network operators to steal credentials and blend in as legitimate admins. By harvesting TACACS+ traffic, they captured sensitive data, allowing unauthorized access and evading detection. Cisco ISE with TLS 1.3 and Duo MFA offers solutions to enhance security and close these backdoors. 🔒🛡️ #Cybersecurity #TACACS #DataProtection #CiscoISE #MFA</description>
+    </item>
+    <item>
+      <title>Secure AI at Machine Speed: Defending the Growing Attack Surface</title>
+      <link>/articles/article-2025-09-02-7658/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7658/</guid>
+      <description>As AI integrates into various business functions, it significantly broadens the enterprise attack surface. 📈 Adversaries are increasingly targeting AI tools and their supporting infrastructure, exploiting vulnerabilities in APIs and models. Many organizations struggle with visibility and lack adequate protection for these evolving threats. 🔍 To tackle these challenges, innovative, real-time security solutions tailored for AI are essential. The CrowdStrike Falcon® platform offers insights on&amp;hellip;</description>
+    </item>
     <item>
       <title>Detecting Exposed LLM Servers: A Shodan Case Study on Ollama</title>
-      <link>http://localhost:1313/articles/article-7583/</link>
+      <link>/articles/article-2025-09-01-7583/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7583/</guid>
+      <guid>/articles/article-2025-09-01-7583/</guid>
       <description>🚨 A recent case study reveals over 1,100 exposed Ollama LLM servers, with 20% hosting open models. This highlights critical security vulnerabilities in LLM deployments. 🔍 The study utilized Shodan to identify these unsecured endpoints, emphasizing the need for stronger security measures. 🛡️ As LLMs become more popular, addressing these gaps is essential for protecting sensitive data. #CyberSecurity #LLM #DataProtection #Ollama #Shodan</description>
     </item>
     <item>
       <title>Security Update: Multiple vulnerabilities in Next.js</title>
-      <link>http://localhost:1313/articles/article-7551/</link>
+      <link>/articles/article-2025-08-30-7551/</link>
       <pubDate>Sat, 30 Aug 2025 01:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7551/</guid>
+      <guid>/articles/article-2025-08-30-7551/</guid>
       <description>🚨 Security Alert for Next.js Users 🚨 Recent vulnerabilities have been disclosed affecting Next.js applications, including issues related to arbitrary file downloads and cache poisoning. Netlify&amp;rsquo;s engineering team confirms that sites hosted on their platform are not vulnerable to multiple threats. However, if using the next/image component with protected sources, caution is advised. To ensure security, it is recommended to upgrade to the latest Next.js versions and enable automatic updates for&amp;hellip;</description>
     </item>
     <item>
       <title>Automating 70% of Dependency &amp; Vulnerability Management with Renovate and CI/CD</title>
-      <link>http://localhost:1313/articles/article-7556/</link>
+      <link>/articles/article-2025-08-29-7556/</link>
       <pubDate>Fri, 29 Aug 2025 23:27:54 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7556/</guid>
+      <guid>/articles/article-2025-08-29-7556/</guid>
       <description>🚀 Exciting advancements in security automation at Salesforce! Sai Saketh Nakkina and his team transformed vulnerability management for AI features on the Agentforce platform. By automating 70% of the process with Renovate and CI/CD, they significantly reduced manual responses to vulnerabilities. Their mission focuses on maintaining secure ML pipelines and delivering AI features efficiently while ensuring platform integrity. This approach addresses security threats and enhances customer trust&amp;hellip;.</description>
     </item>
     <item>
       <title>CVE-2025-55173</title>
-      <link>http://localhost:1313/articles/article-7555/</link>
+      <link>/articles/article-2025-08-29-7555/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7555/</guid>
+      <guid>/articles/article-2025-08-29-7555/</guid>
       <description>🚨 A vulnerability (CVE-2025-55173) affecting Next.js Image Optimization has been identified. It impacts versions prior to v15.4.5 and v14.2.31, allowing attacker-controlled external image servers to trigger arbitrary file downloads. This could lead to phishing and social engineering attacks. A patch was released on July 29th, 2025, addressing this issue for Vercel customers. For more details, check the GitHub Advisory and Next.js Release Notes. #CyberSecurity #NextJS #Vulnerability&amp;hellip;</description>
     </item>
     <item>
       <title>CVE-2025-57752</title>
-      <link>http://localhost:1313/articles/article-7553/</link>
+      <link>/articles/article-2025-08-29-7553/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7553/</guid>
+      <guid>/articles/article-2025-08-29-7553/</guid>
       <description>A vulnerability, CVE-2025-57752, has been identified in Next.js Image Optimization affecting versions prior to v15.4.5 and v14.2.31. It involved cache poisoning, risking unauthorized access to sensitive images. The issue arose when API routes returned images based on headers, leading to potential disclosure of user-specific content. The vulnerability has been resolved in the latest versions, ensuring that request headers are not forwarded to image endpoints. For more details, refer to the&amp;hellip;</description>
     </item>
     <item>
       <title>CVE-2025-57822</title>
-      <link>http://localhost:1313/articles/article-7554/</link>
+      <link>/articles/article-2025-08-29-7554/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7554/</guid>
+      <guid>/articles/article-2025-08-29-7554/</guid>
       <description>A recent vulnerability, CVE-2025-57822, has been identified in Next.js Middleware, affecting versions before v14.2.32 and v15.4.7. This flaw allowed for Server-Side Request Forgery (SSRF) risks due to misconfigured NextResponse.next() usage. Applications that reflected user request headers could unintentionally allow servers to make requests to harmful destinations. A patch was released on August 25, 2025, to protect Vercel customers. For those unable to upgrade, it is vital to adhere to&amp;hellip;</description>
     </item>
     <item>
       <title>Preparing for the worst: Our core database failover test</title>
-      <link>http://localhost:1313/articles/article-7485/</link>
+      <link>/articles/article-2025-08-28-7485/</link>
       <pubDate>Thu, 28 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7485/</guid>
+      <guid>/articles/article-2025-08-28-7485/</guid>
       <description>On July 24, 2025, we conducted a successful failover test of our core control-plane database from Azure West US to East US 2. This exercise confirmed our disaster recovery plans in real-world conditions. All control-plane traffic was tested, ensuring stability without any customer impact. While preview and development traffic were affected, our production CDN traffic remained unaffected across 19 regions. The operation highlighted our commitment to resilience, achieving zero downtime and no&amp;hellip;</description>
     </item>
     <item>
       <title>Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</title>
-      <link>http://localhost:1313/articles/article-7465/</link>
+      <link>/articles/article-2025-08-28-7465/</link>
       <pubDate>Thu, 28 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7465/</guid>
-      <description>In today&amp;rsquo;s software development landscape, speed should not compromise security. ð¡ï¸ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. ð¦ Learn how modern&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7465/</guid>
+      <description>In today&amp;rsquo;s software development landscape, speed should not compromise security. 🛡️ This article discusses a shift-left approach using tools like Testcontainers and Docker to enhance security early in the development lifecycle. It highlights how developers can conduct reliable integration tests while maintaining high quality. A practical example features a Node.js Movie Catalog API, demonstrating how Testcontainers can streamline testing against a PostgreSQL database. 📦 Learn how modern&amp;hellip;</description>
     </item>
     <item>
       <title>A Unified Approach to Data Exfiltration Protection on Databricks</title>
-      <link>http://localhost:1313/articles/article-7446/</link>
+      <link>/articles/article-2025-08-27-7446/</link>
       <pubDate>Wed, 27 Aug 2025 20:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7446/</guid>
-      <description>Data exfiltration poses a significant security risk for organizations. A recent article outlines a comprehensive framework for protecting against unauthorized data movement on Databricks. The recommendations focus on unified strategies to enhance data security and prevent breaches. Implementing these measures can help safeguard sensitive information effectively. ðð¡ï¸ #DataSecurity #Databricks #CyberSecurity #DataProtection #InformationSecurity</description>
+      <guid>/articles/article-2025-08-27-7446/</guid>
+      <description>Data exfiltration poses a significant security risk for organizations. A recent article outlines a comprehensive framework for protecting against unauthorized data movement on Databricks. The recommendations focus on unified strategies to enhance data security and prevent breaches. Implementing these measures can help safeguard sensitive information effectively. 🔒🛡️ #DataSecurity #Databricks #CyberSecurity #DataProtection #InformationSecurity</description>
     </item>
     <item>
       <title>s1ngularity: supply chain attack in Nx packages</title>
-      <link>http://localhost:1313/articles/article-7486/</link>
+      <link>/articles/article-2025-08-27-7486/</link>
       <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7486/</guid>
-      <description>ð¨ A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. ð The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. ð For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</description>
+      <guid>/articles/article-2025-08-27-7486/</guid>
+      <description>🚨 A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. 🔍 The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. 👉 For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</description>
     </item>
     <item>
       <title>Get Ahead of the HIPAA Security Rule Update With Secure Workload</title>
-      <link>http://localhost:1313/articles/article-7193/</link>
+      <link>/articles/article-2025-08-27-7193/</link>
       <pubDate>Wed, 27 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7193/</guid>
-      <description>ð¨ Important Update for Healthcare Organizations! ð¨ On January 6, 2025, the Office of Civil Rights will introduce new cybersecurity requirements as part of the HIPAA Security Rule Update. This will shift the focus from reactive measures to a risk-based approach to enhance cybersecurity in healthcare. The update aims to strengthen the protection of electronic personal health information (ePHI) and address the increasing number of cyberattacks. Organizations must prepare to implement effective&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7193/</guid>
+      <description>🚨 Important Update for Healthcare Organizations! 🚨 On January 6, 2025, the Office of Civil Rights will introduce new cybersecurity requirements as part of the HIPAA Security Rule Update. This will shift the focus from reactive measures to a risk-based approach to enhance cybersecurity in healthcare. The update aims to strengthen the protection of electronic personal health information (ePHI) and address the increasing number of cyberattacks. Organizations must prepare to implement effective&amp;hellip;</description>
     </item>
     <item>
       <title>Best Practices for Securing Generative AI with SASE</title>
-      <link>http://localhost:1313/articles/article-7241/</link>
+      <link>/articles/article-2025-08-26-7241/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7241/</guid>
-      <description>ð As businesses adopt Generative AI, Security and IT leaders face new challenges. Executives push for quick implementation, while teams must create effective AI Security Strategies. ð Cloudflareâs SASE architecture offers a solution, integrating networking and security for secure access to corporate resources. Their platform supports safe AI usage without hindering innovation. ð¡ï¸ Recent enhancements include shadow AI reporting, confidence scoring for AI providers, and protections against&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7241/</guid>
+      <description>🚀 As businesses adopt Generative AI, Security and IT leaders face new challenges. Executives push for quick implementation, while teams must create effective AI Security Strategies. 🔒 Cloudflare’s SASE architecture offers a solution, integrating networking and security for secure access to corporate resources. Their platform supports safe AI usage without hindering innovation. 🛡️ Recent enhancements include shadow AI reporting, confidence scoring for AI providers, and protections against&amp;hellip;</description>
     </item>
     <item>
       <title>Block unsafe prompts targeting your LLM endpoints with Firewall for AI</title>
-      <link>http://localhost:1313/articles/article-7240/</link>
+      <link>/articles/article-2025-08-26-7240/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7240/</guid>
-      <description>ð Cloudflare has enhanced its AI security suite with the introduction of unsafe content moderation through Firewall for AI. This new feature aims to protect AI applications from malicious prompts that could compromise sensitive data or user trust. ð With this integration, customers can now detect and block harmful prompts at the network level without modifying their application code. Firewall for AI supports various models, ensuring consistent protection across all platforms. ð¡ï¸ This update&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7240/</guid>
+      <description>🚀 Cloudflare has enhanced its AI security suite with the introduction of unsafe content moderation through Firewall for AI. This new feature aims to protect AI applications from malicious prompts that could compromise sensitive data or user trust. 🔒 With this integration, customers can now detect and block harmful prompts at the network level without modifying their application code. Firewall for AI supports various models, ensuring consistent protection across all platforms. 🛡️ This update&amp;hellip;</description>
     </item>
     <item>
       <title>ChatGPT, Claude, &amp; Gemini security scanning with Cloudflare CASB</title>
-      <link>http://localhost:1313/articles/article-7239/</link>
+      <link>/articles/article-2025-08-26-7239/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7239/</guid>
-      <description>ð Cloudflare CASB now offers security scanning for generative AI tools like ChatGPT, Claude, and Gemini. Organizations can connect their accounts to detect misconfigurations, data exposure, and compliance risks quickly and without additional software. This integration enhances visibility and helps IT teams manage the security challenges of AI adoption effectively. ð #Cloudflare #CyberSecurity #GenerativeAI #DataProtection #Compliance</description>
+      <guid>/articles/article-2025-08-26-7239/</guid>
+      <description>🚀 Cloudflare CASB now offers security scanning for generative AI tools like ChatGPT, Claude, and Gemini. Organizations can connect their accounts to detect misconfigurations, data exposure, and compliance risks quickly and without additional software. This integration enhances visibility and helps IT teams manage the security challenges of AI adoption effectively. 🔍 #Cloudflare #CyberSecurity #GenerativeAI #DataProtection #Compliance</description>
     </item>
     <item>
       <title>Introducing Cloudflare Application Confidence Score For AI Applications</title>
-      <link>http://localhost:1313/articles/article-7238/</link>
+      <link>/articles/article-2025-08-26-7238/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7238/</guid>
-      <description>ð Cloudflare has introduced Application Confidence Scores for Gen AI applications to help businesses assess risks associated with shadow IT. These scores will aid security, IT, and legal teams in evaluating third-party applications without needing extensive individual audits. This initiative aims to balance productivity with security, promoting smarter controls rather than blanket bans. Stay informed about the new features in Cloudflare&amp;rsquo;s AI Security Posture Management within the Cloudflare&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7238/</guid>
+      <description>🌐 Cloudflare has introduced Application Confidence Scores for Gen AI applications to help businesses assess risks associated with shadow IT. These scores will aid security, IT, and legal teams in evaluating third-party applications without needing extensive individual audits. This initiative aims to balance productivity with security, promoting smarter controls rather than blanket bans. Stay informed about the new features in Cloudflare&amp;rsquo;s AI Security Posture Management within the Cloudflare&amp;hellip;</description>
     </item>
     <item>
-      <title>Protecting Ciscoâs front lines with AI-powered Email Threat Defense and Splunk</title>
-      <link>http://localhost:1313/articles/article-7198/</link>
+      <title>Protecting Cisco’s front lines with AI-powered Email Threat Defense and Splunk</title>
+      <link>/articles/article-2025-08-26-7198/</link>
       <pubDate>Tue, 26 Aug 2025 12:00:34 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7198/</guid>
-      <description>Cisco is enhancing email security with a layered approach using AI and Splunk. ð»âï¸ Facing over 326 million emails quarterly, Cisco recognized the need to defend against phishing and malware while improving user productivity. The FBI reported a staggering rise in email cyberattacks, highlighting the urgency for robust security measures. By integrating Cisco Email Threat Defense with Splunkâs analytics, Cisco aims to provide comprehensive protection against evolving threats. #CyberSecurity&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7198/</guid>
+      <description>Cisco is enhancing email security with a layered approach using AI and Splunk. 💻✉️ Facing over 326 million emails quarterly, Cisco recognized the need to defend against phishing and malware while improving user productivity. The FBI reported a staggering rise in email cyberattacks, highlighting the urgency for robust security measures. By integrating Cisco Email Threat Defense with Splunk’s analytics, Cisco aims to provide comprehensive protection against evolving threats. #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
-      <title>Fragmented SSE Is a Risk You Canât Afford</title>
-      <link>http://localhost:1313/articles/article-7200/</link>
+      <title>Fragmented SSE Is a Risk You Can’t Afford</title>
+      <link>/articles/article-2025-08-26-7200/</link>
       <pubDate>Tue, 26 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7200/</guid>
-      <description>Fragmented security solutions can create significant risks. Many organizations rely on multiple vendors for their security needs, leading to complex systems that may leave gaps in protection. Cisco Secure Access addresses this issue by providing a unified architecture. This ensures consistent policy enforcement regardless of where users connect from, enhancing overall security. No more silos or inconsistent access experiences! #Cybersecurity #Cisco #SecureAccess #SSE #DataProtection ððð»</description>
+      <guid>/articles/article-2025-08-26-7200/</guid>
+      <description>Fragmented security solutions can create significant risks. Many organizations rely on multiple vendors for their security needs, leading to complex systems that may leave gaps in protection. Cisco Secure Access addresses this issue by providing a unified architecture. This ensures consistent policy enforcement regardless of where users connect from, enhancing overall security. No more silos or inconsistent access experiences! #Cybersecurity #Cisco #SecureAccess #SSE #DataProtection 🔐🌐💻</description>
     </item>
     <item>
       <title>AI and security at Black Hat: 5 key takeaways from a security expert panel</title>
-      <link>http://localhost:1313/articles/article-7251/</link>
+      <link>/articles/article-2025-08-26-7251/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7251/</guid>
-      <description>ð At Black Hat, security leaders discussed the rise of AI in cybersecurity, highlighting key challenges and strategies. 1ï¸â£ Zero trust principles need to evolve to include AI agents. 2ï¸â£ Cybercriminals are increasingly using AI for more sophisticated attacks. 3ï¸â£ Many organizations lack visibility into their AI usage, leading to risks. 4ï¸â£ Business demand for AI is outpacing security preparedness. 5ï¸â£ AI can enhance security but also introduces new vulnerabilities. Effective governance is&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7251/</guid>
+      <description>🌐 At Black Hat, security leaders discussed the rise of AI in cybersecurity, highlighting key challenges and strategies. 1️⃣ Zero trust principles need to evolve to include AI agents. 2️⃣ Cybercriminals are increasingly using AI for more sophisticated attacks. 3️⃣ Many organizations lack visibility into their AI usage, leading to risks. 4️⃣ Business demand for AI is outpacing security preparedness. 5️⃣ AI can enhance security but also introduces new vulnerabilities. Effective governance is&amp;hellip;</description>
     </item>
     <item>
       <title>Clickjacking: What it means for 1Password users</title>
-      <link>http://localhost:1313/articles/article-7252/</link>
+      <link>/articles/article-2025-08-26-7252/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7252/</guid>
-      <description>ð 1Password has released an important update (version 8.11.7) addressing clickjacking, a technique that can trick users into autofilling sensitive information. This vulnerability does not put 1Password systems at risk, but the update provides users with better control by introducing confirmation alerts for autofill actions. It&amp;rsquo;s crucial to update to the latest version and keep autofill enabled for enhanced security. Stay safe online! ð¡ï¸ #1Password #CyberSecurity #Clickjacking #DataProtection&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7252/</guid>
+      <description>🔒 1Password has released an important update (version 8.11.7) addressing clickjacking, a technique that can trick users into autofilling sensitive information. This vulnerability does not put 1Password systems at risk, but the update provides users with better control by introducing confirmation alerts for autofill actions. It&amp;rsquo;s crucial to update to the latest version and keep autofill enabled for enhanced security. Stay safe online! 🛡️ #1Password #CyberSecurity #Clickjacking #DataProtection&amp;hellip;</description>
     </item>
     <item>
       <title>Secret sprawl is costing you more than you think</title>
-      <link>http://localhost:1313/articles/article-7172/</link>
+      <link>/articles/article-2025-08-25-7172/</link>
       <pubDate>Mon, 25 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7172/</guid>
-      <description>ð¡ï¸ Secret sprawl is significantly impacting organizations, costing them millions annually through lost productivity and increased security overhead. Developers often waste time on preventable secret management tasks, leading to an estimated $936,000 annual loss for a typical 50-person team. This includes hunting down exposed credentials and managing compromised keys. Moreover, security teams face a burden from false positives, costing around $520,000 each year due to unnecessary&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-7172/</guid>
+      <description>🛡️ Secret sprawl is significantly impacting organizations, costing them millions annually through lost productivity and increased security overhead. Developers often waste time on preventable secret management tasks, leading to an estimated $936,000 annual loss for a typical 50-person team. This includes hunting down exposed credentials and managing compromised keys. Moreover, security teams face a burden from false positives, costing around $520,000 each year due to unnecessary&amp;hellip;</description>
     </item>
     <item>
       <title>Unmasking the Unseen: Your Guide to Taming Shadow AI with Cloudflare One</title>
-      <link>http://localhost:1313/articles/article-6345/</link>
+      <link>/articles/article-2025-08-25-6345/</link>
       <pubDate>Mon, 25 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6345/</guid>
-      <description>ð¨ Concerned about data leaks from unsanctioned AI use? The rise of &amp;ldquo;Shadow AI&amp;rdquo; poses a significant risk as employees unknowingly expose sensitive information through AI tools. Traditional security measures often miss these interactions. Cloudflare One offers a solution with its Shadow IT Report, providing visibility into AI application usage and helping organizations manage potential risks effectively. Stay informed and secure! ðð» #CyberSecurity #ShadowAI #Cloudflare #DataProtection #Innovation</description>
+      <guid>/articles/article-2025-08-25-6345/</guid>
+      <description>🚨 Concerned about data leaks from unsanctioned AI use? The rise of &amp;ldquo;Shadow AI&amp;rdquo; poses a significant risk as employees unknowingly expose sensitive information through AI tools. Traditional security measures often miss these interactions. Cloudflare One offers a solution with its Shadow IT Report, providing visibility into AI application usage and helping organizations manage potential risks effectively. Stay informed and secure! 🔍💻 #CyberSecurity #ShadowAI #Cloudflare #DataProtection #Innovation</description>
     </item>
     <item>
       <title>Beyond the ban: A better way to secure generative AI applications</title>
-      <link>http://localhost:1313/articles/article-6348/</link>
+      <link>/articles/article-2025-08-25-6348/</link>
       <pubDate>Mon, 25 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6348/</guid>
-      <description>Generative AI is transforming workplace productivity, but it also poses significant data security risks. ð¡ï¸ Many employees inadvertently share sensitive information with AI tools. Recent incidents highlight the consequences of this, including private chats being indexed online. To address these risks, Cloudflare introduces AI prompt protection, part of its Data Loss Prevention (DLP) system. This feature helps organizations manage AI use while securing sensitive data. AI prompt protection&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-6348/</guid>
+      <description>Generative AI is transforming workplace productivity, but it also poses significant data security risks. 🛡️ Many employees inadvertently share sensitive information with AI tools. Recent incidents highlight the consequences of this, including private chats being indexed online. To address these risks, Cloudflare introduces AI prompt protection, part of its Data Loss Prevention (DLP) system. This feature helps organizations manage AI use while securing sensitive data. AI prompt protection&amp;hellip;</description>
     </item>
     <item>
       <title>Protect Your Access Tokens with DPoP (Demonstrating Proof of Possession)</title>
-      <link>http://localhost:1313/articles/article-6332/</link>
+      <link>/articles/article-2025-08-25-6332/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6332/</guid>
-      <description>ð Protect your applications with DPoP! This article explains how Demonstrating Proof-of-Possession enhances security for access tokens by ensuring they can only be used by the intended application. Unlike traditional bearer tokens, DPoP binds tokens to a specific client instance, mitigating risks of token theft. Learn about the benefits, security threats it addresses, and how to implement DPoP in your applications using Auth0. #Security #DPoP #OAuth2 #AccessTokens #ApplicationSecurity</description>
+      <guid>/articles/article-2025-08-25-6332/</guid>
+      <description>🔒 Protect your applications with DPoP! This article explains how Demonstrating Proof-of-Possession enhances security for access tokens by ensuring they can only be used by the intended application. Unlike traditional bearer tokens, DPoP binds tokens to a specific client instance, mitigating risks of token theft. Learn about the benefits, security threats it addresses, and how to implement DPoP in your applications using Auth0. #Security #DPoP #OAuth2 #AccessTokens #ApplicationSecurity</description>
     </item>
     <item>
       <title>Securing the Future: How Databricks Powers Financial Services</title>
-      <link>http://localhost:1313/articles/article-6309/</link>
+      <link>/articles/article-2025-08-22-6309/</link>
       <pubDate>Fri, 22 Aug 2025 18:35:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6309/</guid>
-      <description>In the evolving financial services landscape, data security and compliance are vital for growth. Databricks enables financial institutions to build resilience and accelerate innovation while ensuring adherence to regulations. This approach supports the safe use of data and AI technologies in the sector. Understanding these elements is crucial for navigating future challenges. ððâ¨ #DataSecurity #FinancialServices #Innovation #Compliance #AI</description>
+      <guid>/articles/article-2025-08-22-6309/</guid>
+      <description>In the evolving financial services landscape, data security and compliance are vital for growth. Databricks enables financial institutions to build resilience and accelerate innovation while ensuring adherence to regulations. This approach supports the safe use of data and AI technologies in the sector. Understanding these elements is crucial for navigating future challenges. 📊🔐✨ #DataSecurity #FinancialServices #Innovation #Compliance #AI</description>
     </item>
     <item>
       <title>Why default secret detection rules don&#39;t work (and how to fix it)</title>
-      <link>http://localhost:1313/articles/article-6312/</link>
+      <link>/articles/article-2025-08-22-6312/</link>
       <pubDate>Fri, 22 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6312/</guid>
-      <description>ð Many organizations face challenges with default secret detection rules. Studies indicate that up to 80% of security alerts are false positives, leading to overlooked real threats. ð Generic detection tools often miss unique credentials like proprietary API keys. This can result in significant security incidents if not addressed. ð¡ HCP Vault Radar offers a solution with customizable detection patterns and severity-based workflows. This approach helps teams focus on genuine threats while&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6312/</guid>
+      <description>🔍 Many organizations face challenges with default secret detection rules. Studies indicate that up to 80% of security alerts are false positives, leading to overlooked real threats. 📊 Generic detection tools often miss unique credentials like proprietary API keys. This can result in significant security incidents if not addressed. 💡 HCP Vault Radar offers a solution with customizable detection patterns and severity-based workflows. This approach helps teams focus on genuine threats while&amp;hellip;</description>
     </item>
     <item>
       <title>AI in Financial Services Demands a New Trust Layer: Why Identity Security Is the Answer</title>
-      <link>http://localhost:1313/articles/article-5100/</link>
+      <link>/articles/article-2025-08-21-5100/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5100/</guid>
-      <description>As AI transforms financial services, new risks arise with autonomous AI agents accessing sensitive data. Traditional identity security is becoming insufficient. Financial institutions must now consider not just who the user is, but also what operates on their behalf. A shift to advanced identity solutions, like Auth for GenAI, is essential for secure innovation. ðð Explore more insights from the Auth0 Customer Identity Trends Report 2025. #AI #FinancialServices #IdentitySecurity #Innovation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5100/</guid>
+      <description>As AI transforms financial services, new risks arise with autonomous AI agents accessing sensitive data. Traditional identity security is becoming insufficient. Financial institutions must now consider not just who the user is, but also what operates on their behalf. A shift to advanced identity solutions, like Auth for GenAI, is essential for secure innovation. 🚀🔐 Explore more insights from the Auth0 Customer Identity Trends Report 2025. #AI #FinancialServices #IdentitySecurity #Innovation&amp;hellip;</description>
     </item>
     <item>
       <title>MURKY PANDA: A Trusted-Relationship Threat in the Cloud</title>
-      <link>http://localhost:1313/articles/article-7438/</link>
+      <link>/articles/article-2025-08-21-7438/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7438/</guid>
-      <description>ð¨ MURKY PANDA is a China-nexus adversary targeting various sectors in North America, including government and technology. Since late 2024, they have used trusted-relationship compromises in the cloud, showcasing deep knowledge of cloud environments. Their tactics include exploiting vulnerabilities and deploying malware like CloudedHope. ð» CrowdStrike has tracked MURKY PANDA&amp;rsquo;s operations, which are driven by intelligence-collection goals, often resulting in the exfiltration of sensitive&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-7438/</guid>
+      <description>🚨 MURKY PANDA is a China-nexus adversary targeting various sectors in North America, including government and technology. Since late 2024, they have used trusted-relationship compromises in the cloud, showcasing deep knowledge of cloud environments. Their tactics include exploiting vulnerabilities and deploying malware like CloudedHope. 💻 CrowdStrike has tracked MURKY PANDA&amp;rsquo;s operations, which are driven by intelligence-collection goals, often resulting in the exfiltration of sensitive&amp;hellip;</description>
     </item>
     <item>
       <title>Securing private data at scale with differentially private partition selection</title>
-      <link>http://localhost:1313/articles/article-5180/</link>
+      <link>/articles/article-2025-08-20-5180/</link>
       <pubDate>Wed, 20 Aug 2025 19:24:05 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5180/</guid>
-      <description>ð New algorithms are advancing user privacy in data sharing through differentially private partition selection. This approach allows for safe sharing of large datasets, crucial for AI and machine learning innovation. It ensures individual contributions remain confidential by adding controlled noise during selection. Parallel algorithms enhance efficiency, enabling the processing of vast datasets while maintaining robust privacy guarantees. Explore more in the publication âScalable Private&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5180/</guid>
+      <description>🔒 New algorithms are advancing user privacy in data sharing through differentially private partition selection. This approach allows for safe sharing of large datasets, crucial for AI and machine learning innovation. It ensures individual contributions remain confidential by adding controlled noise during selection. Parallel algorithms enhance efficiency, enabling the processing of vast datasets while maintaining robust privacy guarantees. Explore more in the publication “Scalable Private&amp;hellip;</description>
     </item>
     <item>
-      <title>Elasticâs capabilities in the world of Zero Trust operations</title>
-      <link>http://localhost:1313/articles/article-5058/</link>
+      <title>Elastic’s capabilities in the world of Zero Trust operations</title>
+      <link>/articles/article-2025-08-20-5058/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5058/</guid>
-      <description>ð Exploring Zero Trust Operations with Elastic The article discusses the essential pillars of Zero Trust (ZT) based on the US Department of Defense&amp;rsquo;s framework. Key elements include user identity, device characteristics, network integrity, data protection, application vulnerabilities, and automation. Challenges exist in implementing ZT, such as system complexity, operational speed, and fragility from disparate integrations. Elasticâs Search AI Platform is highlighted for its role in enhancing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5058/</guid>
+      <description>🌐 Exploring Zero Trust Operations with Elastic The article discusses the essential pillars of Zero Trust (ZT) based on the US Department of Defense&amp;rsquo;s framework. Key elements include user identity, device characteristics, network integrity, data protection, application vulnerabilities, and automation. Challenges exist in implementing ZT, such as system complexity, operational speed, and fragility from disparate integrations. Elastic’s Search AI Platform is highlighted for its role in enhancing&amp;hellip;</description>
     </item>
     <item>
-      <title>Falcon Platform Prevents COOKIE SPIDER&amp;rsquo;s SHAMOS Delivery on macOS</title>
-      <link>http://localhost:1313/articles/article-7439/</link>
+      <title>Falcon Platform Prevents COOKIE SPIDER’s SHAMOS Delivery on macOS</title>
+      <link>/articles/article-2025-08-20-7439/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7439/</guid>
-      <description>ð¨ The CrowdStrike FalconÂ® platform has successfully blocked a sophisticated malware campaign by COOKIE SPIDER targeting macOS users. Between June and August 2025, over 300 customer environments were at risk due to the SHAMOS variant of the Atomic macOS Stealer. This malware was distributed through malvertising, tricking users into executing a harmful installation command. The campaign highlighted the use of one-line installation commands, which can bypass security checks, raising concerns&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-7439/</guid>
+      <description>🚨 The CrowdStrike Falcon® platform has successfully blocked a sophisticated malware campaign by COOKIE SPIDER targeting macOS users. Between June and August 2025, over 300 customer environments were at risk due to the SHAMOS variant of the Atomic macOS Stealer. This malware was distributed through malvertising, tricking users into executing a harmful installation command. The campaign highlighted the use of one-line installation commands, which can bypass security checks, raising concerns&amp;hellip;</description>
     </item>
     <item>
       <title>CRLite: Fast, private, and comprehensive certificate revocation checking in Firefox</title>
-      <link>http://localhost:1313/articles/article-5048/</link>
+      <link>/articles/article-2025-08-19-5048/</link>
       <pubDate>Tue, 19 Aug 2025 16:03:19 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5048/</guid>
-      <description>ð Firefox has launched CRLite, the first fast and private certificate revocation checking system that protects user browsing activity. This new mechanism downloads a compact list of revoked certificates, making checking efficient and reliable. Starting with Firefox 137, CRLite enhances security while disabling the less private OCSP method in future updates. #Firefox #CRLite #Cybersecurity #Privacy #WebDevelopment</description>
+      <guid>/articles/article-2025-08-19-5048/</guid>
+      <description>🚀 Firefox has launched CRLite, the first fast and private certificate revocation checking system that protects user browsing activity. This new mechanism downloads a compact list of revoked certificates, making checking efficient and reliable. Starting with Firefox 137, CRLite enhances security while disabling the less private OCSP method in future updates. #Firefox #CRLite #Cybersecurity #Privacy #WebDevelopment</description>
     </item>
     <item>
-      <title>Findings Report From the SOC at RSACâ¢ 2025 Conference</title>
-      <link>http://localhost:1313/articles/article-5286/</link>
+      <title>Findings Report From the SOC at RSAC™ 2025 Conference</title>
+      <link>/articles/article-2025-08-19-5286/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:58 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5286/</guid>
-      <description>ð¨ Exciting updates from the RSACâ¢ 2025 Conference! ð¨ The Findings Report from the Security Operations Center reveals key insights into network security. Cisco and Endace monitored the Moscone Center&amp;rsquo;s wireless network, showcasing how an open network operates. The SOC utilized advanced tools, including the EndaceProbe packet capture platform and Cisco Security Cloud, to enhance security measures. Learn more about these innovations and watch the session replay! #RSAC2025 #CyberSecurity&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5286/</guid>
+      <description>🚨 Exciting updates from the RSAC™ 2025 Conference! 🚨 The Findings Report from the Security Operations Center reveals key insights into network security. Cisco and Endace monitored the Moscone Center&amp;rsquo;s wireless network, showcasing how an open network operates. The SOC utilized advanced tools, including the EndaceProbe packet capture platform and Cisco Security Cloud, to enhance security measures. Learn more about these innovations and watch the session replay! #RSAC2025 #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>How to enhance Agent2Agent (A2A) security</title>
-      <link>http://localhost:1313/articles/article-5032/</link>
+      <link>/articles/article-2025-08-19-5032/</link>
       <pubDate>Tue, 19 Aug 2025 07:01:14 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5032/</guid>
-      <description>ð The Agent2Agent (A2A) protocol by Google facilitates communication between AI agents, allowing seamless interaction across different vendors. Each agent can serve as a client or remote agent depending on the context. ð Communication involves retrieving an Agent Card, which contains essential details for task execution. Security measures such as HTTPS and authentication protocols are crucial for protecting these interactions. ð¡ï¸ Developers implementing A2A should remain vigilant about&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5032/</guid>
+      <description>🔒 The Agent2Agent (A2A) protocol by Google facilitates communication between AI agents, allowing seamless interaction across different vendors. Each agent can serve as a client or remote agent depending on the context. 🌐 Communication involves retrieving an Agent Card, which contains essential details for task execution. Security measures such as HTTPS and authentication protocols are crucial for protecting these interactions. 🛡️ Developers implementing A2A should remain vigilant about&amp;hellip;</description>
     </item>
     <item>
-      <title>Elastic response to blog âEDR 0-Day Vulnerabilityâ</title>
-      <link>http://localhost:1313/articles/article-5059/</link>
+      <title>Elastic response to blog ‘EDR 0-Day Vulnerability’</title>
+      <link>/articles/article-2025-08-18-5059/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5059/</guid>
-      <description>ð Elasticâs Security team has responded to claims of a vulnerability in Elastic Defend. After comprehensive investigation, no evidence was found to support the alleged bypass of EDR monitoring or remote code execution. The demonstrations provided were not from unprivileged processes. Elastic remains committed to transparency and encourages researchers to share any valid findings at &lt;a href=&#34;mailto:security@elastic.co&#34;&gt;security@elastic.co&lt;/a&gt;. Updates will be provided as necessary. #CyberSecurity #Elastic #Vulnerability #EDR #InfoSec</description>
+      <guid>/articles/article-2025-08-18-5059/</guid>
+      <description>🔍 Elastic’s Security team has responded to claims of a vulnerability in Elastic Defend. After comprehensive investigation, no evidence was found to support the alleged bypass of EDR monitoring or remote code execution. The demonstrations provided were not from unprivileged processes. Elastic remains committed to transparency and encourages researchers to share any valid findings at &lt;a href=&#34;mailto:security@elastic.co&#34;&gt;security@elastic.co&lt;/a&gt;. Updates will be provided as necessary. #CyberSecurity #Elastic #Vulnerability #EDR #InfoSec</description>
     </item>
     <item>
-      <title>Regulatory and Compliance Corner - August 2025</title>
-      <link>http://localhost:1313/articles/article-5138/</link>
+      <title>Regulatory and Compliance Corner - August &amp; September 2025</title>
+      <link>/articles/article-2025-08-18-5138/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5138/</guid>
-      <description>ð This month&amp;rsquo;s Regulatory and Compliance Corner highlights significant telecom policy changes worldwide. Key updates include new regulations aimed at enhancing data privacy and security for users. Additionally, several countries are revising rules to promote competition in the telecom sector. Stay informed about these important shifts in the industry! ð¡âï¸ #Telecom #Regulations #DataPrivacy #IndustryInsights #Compliance</description>
+      <guid>/articles/article-2025-08-18-5138/</guid>
+      <description>🌍 This month&amp;rsquo;s Regulatory and Compliance Corner highlights significant telecom policy changes worldwide. Key updates include new regulations aimed at enhancing data privacy and security for users. Additionally, several countries are revising rules to promote competition in the telecom sector. Stay informed about these important shifts in the industry! 📡✉️ #Telecom #Regulations #DataPrivacy #IndustryInsights #Compliance</description>
     </item>
     <item>
-      <title>Docker @ Black Hat 2025: CVEs have everyoneâs attention, hereâs the path forward</title>
-      <link>http://localhost:1313/articles/article-5119/</link>
+      <title>Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</title>
+      <link>/articles/article-2025-08-15-5119/</link>
       <pubDate>Fri, 15 Aug 2025 18:05:10 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5119/</guid>
-      <description>ð At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the&amp;hellip;</description>
+      <guid>/articles/article-2025-08-15-5119/</guid>
+      <description>🚀 At Black Hat 2025, CVEs were a hot topic, highlighting the need for effective vulnerability management. The focus is shifting from just scanning to eliminating security debt before it enters the software supply chain. Hardened images and compliance-ready tools are becoming essential. Key themes included the importance of secure starting points, customization for enterprises, and the demand for FedRAMP-ready solutions. Thanks to everyone who joined the Docker community at our booth and the&amp;hellip;</description>
     </item>
     <item>
-      <title>A practitionerâs view on how Docker enables security by default and makes developers work better</title>
-      <link>http://localhost:1313/articles/article-5120/</link>
+      <title>A practitioner’s view on how Docker enables security by default and makes developers work better</title>
+      <link>/articles/article-2025-08-15-5120/</link>
       <pubDate>Fri, 15 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5120/</guid>
-      <description>Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captainsâ website! ð ï¸ð #Docker #Security #DevOps #ContainerSecurity #TechInsights</description>
+      <guid>/articles/article-2025-08-15-5120/</guid>
+      <description>Docker Captains share their experiences on how Docker enhances security and developer efficiency. Security in distributed systems is crucial, and Docker provides a strong framework for developers and security teams. Key areas of focus include managing artifacts, code quality, and vulnerability management. For more insights on becoming a Docker Captain, visit the Docker Captains’ website! 🛠️🔒 #Docker #Security #DevOps #ContainerSecurity #TechInsights</description>
     </item>
     <item>
       <title>Scaling On-Prem Security at Palantir</title>
-      <link>http://localhost:1313/articles/article-5053/</link>
+      <link>/articles/article-2025-08-15-5053/</link>
       <pubDate>Fri, 15 Aug 2025 13:59:47 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5053/</guid>
-      <description>Palantir emphasizes security in its on-premises solutions, tailoring approaches for various environments. ð The Insight tool enhances security by automating checks on server configurations, ensuring compliance with rigorous standards. It allows users to run scans and generate reports easily. ð With the integration of Foundry and Apollo, Palantir streamlines the review process, improving visibility and collaboration. ð Learn more about how Palantir maintains security across thousands of&amp;hellip;</description>
+      <guid>/articles/article-2025-08-15-5053/</guid>
+      <description>Palantir emphasizes security in its on-premises solutions, tailoring approaches for various environments. 🌐 The Insight tool enhances security by automating checks on server configurations, ensuring compliance with rigorous standards. It allows users to run scans and generate reports easily. 📊 With the integration of Foundry and Apollo, Palantir streamlines the review process, improving visibility and collaboration. 🔍 Learn more about how Palantir maintains security across thousands of&amp;hellip;</description>
     </item>
     <item>
       <title>MadeYouReset: An HTTP/2 vulnerability thwarted by Rapid Reset mitigations</title>
-      <link>http://localhost:1313/articles/article-5132/</link>
+      <link>/articles/article-2025-08-14-5132/</link>
       <pubDate>Thu, 14 Aug 2025 22:03:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5132/</guid>
-      <description>ð¨ A new HTTP/2 vulnerability named MadeYouReset (CVE-2025-8671) has been disclosed by researchers at Tel Aviv University. This denial-of-service (DoS) vulnerability affects unpatched HTTP/2 servers, potentially leading to resource exhaustion. If you use Cloudflare for DDoS mitigation, your systems are already protected. MadeYouReset exploits server-sent stream resets, similar to the previously identified Rapid Reset vulnerability. Implementations are encouraged to monitor and limit the use of&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5132/</guid>
+      <description>🚨 A new HTTP/2 vulnerability named MadeYouReset (CVE-2025-8671) has been disclosed by researchers at Tel Aviv University. This denial-of-service (DoS) vulnerability affects unpatched HTTP/2 servers, potentially leading to resource exhaustion. If you use Cloudflare for DDoS mitigation, your systems are already protected. MadeYouReset exploits server-sent stream resets, similar to the previously identified Rapid Reset vulnerability. Implementations are encouraged to monitor and limit the use of&amp;hellip;</description>
     </item>
     <item>
       <title>MCP Horror Stories: The GitHub Prompt Injection Data Heist</title>
-      <link>http://localhost:1313/articles/article-5122/</link>
+      <link>/articles/article-2025-08-14-5122/</link>
       <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5122/</guid>
-      <description>ð¨ In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Dockerâs MCP Toolkit offers solutions to protect against such&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5122/</guid>
+      <description>🚨 In Part 3 of the MCP Horror Stories series, we explore the GitHub Prompt Injection Data Heist. This incident highlights critical vulnerabilities in AI security, revealing how attackers can manipulate AI assistants through malicious GitHub issues. When developers request help, they risk exposing sensitive data from locked repositories. Learn how these attacks exploit broad GitHub tokens and bypass traditional access controls. Docker’s MCP Toolkit offers solutions to protect against such&amp;hellip;</description>
     </item>
     <item>
       <title>Locking Down the Fleet: Encryption at Rest and Disk Isolation at Scale</title>
-      <link>http://localhost:1313/articles/article-5015/</link>
+      <link>/articles/article-2025-08-14-5015/</link>
       <pubDate>Thu, 14 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5015/</guid>
-      <description>ð Managing encryption at rest and ensuring disk isolation for numerous stateful workloads presents significant challenges. In a recent article, the focus is on how effective logical volume management was implemented to secure a large fleet of servers. This approach enhances data security while maintaining operational efficiency. #DataSecurity #Encryption #LogicalVolumeManagement #TechInnovation #CyberSecurity</description>
+      <guid>/articles/article-2025-08-14-5015/</guid>
+      <description>🔒 Managing encryption at rest and ensuring disk isolation for numerous stateful workloads presents significant challenges. In a recent article, the focus is on how effective logical volume management was implemented to secure a large fleet of servers. This approach enhances data security while maintaining operational efficiency. #DataSecurity #Encryption #LogicalVolumeManagement #TechInnovation #CyberSecurity</description>
     </item>
     <item>
       <title>How to secure your Jenkins pipeline with Red Hat Advanced Developer Suite</title>
-      <link>http://localhost:1313/articles/article-4994/</link>
+      <link>/articles/article-2025-08-14-4994/</link>
       <pubDate>Thu, 14 Aug 2025 07:01:08 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4994/</guid>
-      <description>Enhance your Jenkins pipeline security with Red Hat Advanced Developer Suite! ð This suite integrates cryptographic signing, SBOM validation, and runtime enforcement to ensure a secure CI/CD process. Each stageâfrom commit to deploymentânow includes proof of compliance. Key features include: - Trusted Artifact Signer for image signing. - Profile Analyzer for risk assessment. - Advanced Cluster Security for policy enforcement. Learn how to keep your deployment velocity while lowering risks! ðð§&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-4994/</guid>
+      <description>Enhance your Jenkins pipeline security with Red Hat Advanced Developer Suite! 🔒 This suite integrates cryptographic signing, SBOM validation, and runtime enforcement to ensure a secure CI/CD process. Each stage—from commit to deployment—now includes proof of compliance. Key features include: - Trusted Artifact Signer for image signing. - Profile Analyzer for risk assessment. - Advanced Cluster Security for policy enforcement. Learn how to keep your deployment velocity while lowering risks! 🚀🔧&amp;hellip;</description>
     </item>
     <item>
       <title>Defending Against SCATTERED SPIDER with Falcon Next-Gen SIEM</title>
-      <link>http://localhost:1313/articles/article-7440/</link>
+      <link>/articles/article-2025-08-14-7440/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7440/</guid>
-      <description>ð¨ SCATTERED SPIDER continues to pose a significant threat, launching attacks on organizations globally since 2022. This adversary uses refined social engineering tactics to compromise sensitive information. ð CrowdStrike&amp;rsquo;s Falcon Next-Gen SIEM offers real-time detection across various domains, enhancing defenses against these evolving threats. It integrates third-party telemetry for improved visibility and tailored protection. ð The blog details key phases of SCATTERED SPIDERâs kill chain and&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-7440/</guid>
+      <description>🚨 SCATTERED SPIDER continues to pose a significant threat, launching attacks on organizations globally since 2022. This adversary uses refined social engineering tactics to compromise sensitive information. 🔍 CrowdStrike&amp;rsquo;s Falcon Next-Gen SIEM offers real-time detection across various domains, enhancing defenses against these evolving threats. It integrates third-party telemetry for improved visibility and tailored protection. 📊 The blog details key phases of SCATTERED SPIDER’s kill chain and&amp;hellip;</description>
     </item>
     <item>
       <title>Securing Trust in AI: A Developer&#39;s Identity Guide</title>
-      <link>http://localhost:1313/articles/article-5009/</link>
+      <link>/articles/article-2025-08-14-5009/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5009/</guid>
-      <description>ð In the evolving landscape of AI, security is essential for building user trust. Developers face challenges like signup attacks, account takeovers, and poor password hygiene, which can erode confidence in digital platforms. The Auth0 Customer Identity Trends Report 2025 reveals that 46.1% of new registrations may be fraudulent, while 16.9% of login attempts show malicious intent. To foster trust, developers must prioritize robust identity management, as 74% of users value a companyâs&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5009/</guid>
+      <description>🔐 In the evolving landscape of AI, security is essential for building user trust. Developers face challenges like signup attacks, account takeovers, and poor password hygiene, which can erode confidence in digital platforms. The Auth0 Customer Identity Trends Report 2025 reveals that 46.1% of new registrations may be fraudulent, while 16.9% of login attempts show malicious intent. To foster trust, developers must prioritize robust identity management, as 74% of users value a company’s&amp;hellip;</description>
     </item>
     <item>
       <title>Why financial services choose single-tenant SaaS</title>
-      <link>http://localhost:1313/articles/article-5066/</link>
+      <link>/articles/article-2025-08-14-5066/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5066/</guid>
+      <guid>/articles/article-2025-08-14-5066/</guid>
       <description>Financial institutions face unique challenges with shared infrastructure, which heightens systemic risks. As highlighted by JPMorgan Chase&amp;rsquo;s CISO, incidents on multi-tenant platforms can lead to widespread disruptions. GitLab Dedicated offers a solution, providing isolated environments for development while ensuring compliance and security. This approach enables institutions to manage risks more effectively, ensuring their source code is treated as a critical asset. Learn more about how&amp;hellip;</description>
     </item>
     <item>
       <title>Creating AI agent solutions for warehouse data access and security</title>
-      <link>http://localhost:1313/articles/article-4966/</link>
+      <link>/articles/article-2025-08-13-4966/</link>
       <pubDate>Wed, 13 Aug 2025 22:05:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4966/</guid>
-      <description>Meta is evolving its data warehouse to enhance productivity and security for both human users and AI agents. ð¤ð We are developing AI agents to streamline data access requests, helping users find the data they need while assisting data owners in maintaining security. Guardrails, such as auditing and feedback systems, are also being implemented to ensure safe operations. As the scale and complexity of data access grow, our focus is on minimizing security risks while improving efficiency. This&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4966/</guid>
+      <description>Meta is evolving its data warehouse to enhance productivity and security for both human users and AI agents. 🤖🔒 We are developing AI agents to streamline data access requests, helping users find the data they need while assisting data owners in maintaining security. Guardrails, such as auditing and feedback systems, are also being implemented to ensure safe operations. As the scale and complexity of data access grow, our focus is on minimizing security risks while improving efficiency. This&amp;hellip;</description>
     </item>
     <item>
       <title>Software provenance: Why visibility into your software supply chain matters</title>
-      <link>http://localhost:1313/articles/article-4954/</link>
+      <link>/articles/article-2025-08-13-4954/</link>
       <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4954/</guid>
-      <description>ð Understanding software provenance is crucial in today&amp;rsquo;s complex software supply chain. This concept emphasizes tracking the creation, modification, and ownership of software artifacts throughout their lifecycle. As cyber threats rise, maintaining visibility is essential for security and compliance. Challenges include limited visibility, pipeline complexity, and compliance risks. Organizations must prioritize comprehensive documentation to address these issues. Stay informed and secure! ðð¡ï¸&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4954/</guid>
+      <description>🌐 Understanding software provenance is crucial in today&amp;rsquo;s complex software supply chain. This concept emphasizes tracking the creation, modification, and ownership of software artifacts throughout their lifecycle. As cyber threats rise, maintaining visibility is essential for security and compliance. Challenges include limited visibility, pipeline complexity, and compliance risks. Organizations must prioritize comprehensive documentation to address these issues. Stay informed and secure! 🔒🛡️&amp;hellip;</description>
     </item>
     <item>
       <title>Access Control in the Era of AI Agents</title>
-      <link>http://localhost:1313/articles/article-4945/</link>
+      <link>/articles/article-2025-08-13-4945/</link>
       <pubDate>Wed, 13 Aug 2025 08:27:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4945/</guid>
+      <guid>/articles/article-2025-08-13-4945/</guid>
       <description>AI agents are evolving, performing complex tasks and making API calls autonomously. This shift poses new security challenges, particularly in access control. The article discusses the history of AI agents and highlights the risks they bring, emphasizing the need for fine-grained access control. Traditional models like RBAC and ABAC struggle under the dynamic nature of AI systems, often requiring additional engineering for effective management. Explore how to adapt access control as AI&amp;hellip;</description>
     </item>
     <item>
       <title>Passing the Security Vibe Check: The Dangers of Vibe Coding</title>
-      <link>http://localhost:1313/articles/article-4951/</link>
+      <link>/articles/article-2025-08-12-4951/</link>
       <pubDate>Tue, 12 Aug 2025 19:10:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4951/</guid>
-      <description>In a recent article from Databricks, the concept of &amp;ldquo;vibe coding&amp;rdquo; is examined in relation to software security. The piece discusses how developers often rely on intuition or &amp;ldquo;vibes&amp;rdquo; when assessing security risks, which can lead to vulnerabilities. It emphasizes the importance of structured security practices over subjective judgments. Understanding these risks is crucial for building safer software systems. ðð» #CyberSecurity #SoftwareDevelopment #VibeCoding #TechInsights #DataProtection</description>
+      <guid>/articles/article-2025-08-12-4951/</guid>
+      <description>In a recent article from Databricks, the concept of &amp;ldquo;vibe coding&amp;rdquo; is examined in relation to software security. The piece discusses how developers often rely on intuition or &amp;ldquo;vibes&amp;rdquo; when assessing security risks, which can lead to vulnerabilities. It emphasizes the importance of structured security practices over subjective judgments. Understanding these risks is crucial for building safer software systems. 🔒💻 #CyberSecurity #SoftwareDevelopment #VibeCoding #TechInsights #DataProtection</description>
     </item>
     <item>
       <title>August 2025 Patch Tuesday: One Publicly Disclosed Zero-Day and 13 Critical Vulnerabilities Among 107 CVEs</title>
-      <link>http://localhost:1313/articles/article-7443/</link>
+      <link>/articles/article-2025-08-12-7443/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7443/</guid>
-      <description>ð Microsoft has released its August 2025 Patch Tuesday updates, addressing 107 vulnerabilities. Among these are one publicly disclosed zero-day and 13 critical vulnerabilities. The most common risk types involve elevation of privilege (39%), remote code execution (33%), and information disclosure (15%). Windows received the largest share of patches with 67 updates. #PatchTuesday #CyberSecurity #MicrosoftUpdates #Vulnerabilities #InfoSec</description>
+      <guid>/articles/article-2025-08-12-7443/</guid>
+      <description>🔒 Microsoft has released its August 2025 Patch Tuesday updates, addressing 107 vulnerabilities. Among these are one publicly disclosed zero-day and 13 critical vulnerabilities. The most common risk types involve elevation of privilege (39%), remote code execution (33%), and information disclosure (15%). Windows received the largest share of patches with 67 updates. #PatchTuesday #CyberSecurity #MicrosoftUpdates #Vulnerabilities #InfoSec</description>
     </item>
     <item>
       <title>Federation Platform and Privacy Waves: How Meta distributes compliance-related tasks at scale</title>
-      <link>http://localhost:1313/articles/article-4855/</link>
+      <link>/articles/article-2025-08-11-4855/</link>
       <pubDate>Mon, 11 Aug 2025 16:00:21 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4855/</guid>
-      <description>Meta is enhancing privacy compliance with its Federation Platform and Privacy Waves program. These tools manage compliance tasks effectively and ensure accountability across teams. ð The Federation Platform breaks down compliance initiatives into manageable tasks, while Privacy Waves organizes these tasks into monthly batches for better planning. ð Together, they improve user data protection and streamline operations, managing over 100,000 tasks annually. This approach is expanding into&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4855/</guid>
+      <description>Meta is enhancing privacy compliance with its Federation Platform and Privacy Waves program. These tools manage compliance tasks effectively and ensure accountability across teams. 🌐 The Federation Platform breaks down compliance initiatives into manageable tasks, while Privacy Waves organizes these tasks into monthly batches for better planning. 📅 Together, they improve user data protection and streamline operations, managing over 100,000 tasks annually. This approach is expanding into&amp;hellip;</description>
     </item>
     <item>
       <title>The rise of intelligent banking: Unifying fraud, security, and compliance in the era of AI</title>
-      <link>http://localhost:1313/articles/article-4835/</link>
+      <link>/articles/article-2025-08-11-4835/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4835/</guid>
+      <guid>/articles/article-2025-08-11-4835/</guid>
       <description>In the evolving financial landscape, security, compliance, and customer trust are interconnected. The IDC Spotlight report, sponsored by Elastic and AWS, highlights the need for financial institutions to adopt AI-powered platforms that unify fraud prevention, cybersecurity, and regulatory compliance. As threats grow more sophisticated, institutions must move beyond siloed risk functions to ensure operational resilience and regulatory readiness. This shift is critical for maintaining customer&amp;hellip;</description>
     </item>
     <item>
       <title>The Future of Healthcare Is AI-Powered and Secure: How CIAM Builds Trust</title>
-      <link>http://localhost:1313/articles/article-4850/</link>
+      <link>/articles/article-2025-08-07-4850/</link>
       <pubDate>Thu, 07 Aug 2025 22:14:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4850/</guid>
+      <guid>/articles/article-2025-08-07-4850/</guid>
       <description>The integration of AI in healthcare is reshaping the industry, promising enhanced efficiency and personalized treatment. However, the security of sensitive patient data is a major concern. Customer Identity and Access Management (CIAM) solutions play a crucial role in ensuring that only authorized users access AI systems, supporting compliance and security. As the healthcare IAM market is projected to grow significantly, establishing trust becomes vital. Patients prioritize trust over&amp;hellip;</description>
     </item>
     <item>
       <title>MCP Horror Stories: The Supply Chain Attack</title>
-      <link>http://localhost:1313/articles/article-4763/</link>
+      <link>/articles/article-2025-08-07-4763/</link>
       <pubDate>Thu, 07 Aug 2025 18:04:40 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4763/</guid>
+      <guid>/articles/article-2025-08-07-4763/</guid>
       <description>🚨 Part 2 of our MCP Horror Stories series highlights a critical supply chain attack affecting AI development environments. The article discusses CVE-2025-6514, where a vulnerability in mcp-remote led to credential compromise and remote code execution. This incident impacted nearly 437,000 environments, including major platforms like Cloudflare and Hugging Face. Learn about the attack techniques used, the importance of containerized MCP servers, and practical steps to secure your AI&amp;hellip;</description>
     </item>
     <item>
       <title>How Hackers Exploit AI’s Problem-Solving Instincts</title>
-      <link>http://localhost:1313/articles/article-4717/</link>
+      <link>/articles/article-2025-08-07-4717/</link>
       <pubDate>Thu, 07 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4717/</guid>
+      <guid>/articles/article-2025-08-07-4717/</guid>
       <description>🚨 As AI models become more advanced, they face new vulnerabilities. Researchers highlight how hackers exploit these systems by manipulating their problem-solving instincts. 🔍 The article discusses the evolution of attack techniques from text-based prompt injections to sophisticated multimodal reasoning attacks. These new methods target how AI merges inputs like text, images, and audio. 🔒 Securing AI requires a shift in focus from just input/output layers to the reasoning architecture itself&amp;hellip;.</description>
     </item>
     <item>
       <title>10 key questions about designing a secure cloud environment</title>
-      <link>http://localhost:1313/articles/article-4708/</link>
+      <link>/articles/article-2025-08-07-4708/</link>
       <pubDate>Thu, 07 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4708/</guid>
+      <guid>/articles/article-2025-08-07-4708/</guid>
       <description>🔒 Designing a secure cloud environment is crucial for organizations to avoid risks and enhance innovation. Here are 10 key questions leaders should ask their teams: 1. Do we have full visibility into our cloud infrastructure? 2. Are we embedding security throughout the development lifecycle? 3. Can we enforce security policies at scale? These discussions are essential for reducing risk and maintaining compliance. 🌐 For more insights on cloud security, check the full article. #CloudSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>Build trust in your CI/CD pipelines with OpenShift Pipelines</title>
-      <link>http://localhost:1313/articles/article-4691/</link>
+      <link>/articles/article-2025-08-07-4691/</link>
       <pubDate>Thu, 07 Aug 2025 07:01:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4691/</guid>
+      <guid>/articles/article-2025-08-07-4691/</guid>
       <description>🔒 Red Hat OpenShift Pipelines provide a cloud-native CI/CD solution using Tekton. This article highlights the use of OpenShift sandboxed containers, which isolate workloads in virtual machines, enhancing security for tasks needing elevated privileges. 🌐 For untrusted environments, OpenShift confidential containers (CoCo) further protect pipeline data by running containers in isolated hardware enclaves, safeguarding against admin access. 💡 The integration of these technologies ensures secure,&amp;hellip;</description>
     </item>
     <item>
       <title>Securing AI Agents: Retail&#39;s Next Big Challenge</title>
-      <link>http://localhost:1313/articles/article-4706/</link>
+      <link>/articles/article-2025-08-07-4706/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4706/</guid>
+      <guid>/articles/article-2025-08-07-4706/</guid>
       <description>Artificial intelligence is transforming the retail industry, offering new ways to engage customers and streamline operations. 🚀 While 90% of retailers are already using or evaluating AI, concerns about data privacy and security remain significant. 60% of retailers worry about data privacy, highlighting the need for secure AI adoption. 🔒 Current AI applications include hyper-personalized shopping experiences, virtual try-ons, and real-time customer service assistance. The future holds even&amp;hellip;</description>
     </item>
     <item>
       <title>The security principles guiding 1Password’s approach to AI</title>
-      <link>http://localhost:1313/articles/article-4745/</link>
+      <link>/articles/article-2025-08-07-4745/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4745/</guid>
+      <guid>/articles/article-2025-08-07-4745/</guid>
       <description>AI is reshaping our work landscape, bringing both opportunities and responsibilities, especially in security. 1Password emphasizes building trustworthy AI while maintaining core values of privacy and transparency. Key principles include: 🔒 Keeping secrets secure through strong encryption. 📜 Ensuring predictable authorization processes. 📊 Maintaining audit trails for AI actions. 1Password is committed to integrating AI securely and effectively. #AI #CyberSecurity #1Password #DataPrivacy #Trust</description>
     </item>
     <item>
       <title>Accelerating FedRAMP Compliance with Docker Hardened Images</title>
-      <link>http://localhost:1313/articles/article-4147/</link>
+      <link>/articles/article-2025-08-06-4147/</link>
       <pubDate>Wed, 06 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4147/</guid>
+      <guid>/articles/article-2025-08-06-4147/</guid>
       <description>🚀 Navigating FedRAMP compliance can be costly and time-consuming, often taking 12-18 months and over $2 million. Competitors are already moving ahead while you manage security controls. Docker has introduced Hardened Images (DHI) to streamline this process. These pre-configured images support FIPS 140 compliance, simplifying cryptographic requirements. With DHI, companies can reduce compliance costs and speed up time-to-market for cloud services. 💻🔒 #FedRAMP #Docker #CloudCompliance&amp;hellip;</description>
     </item>
     <item>
       <title>It&#39;s Time to Evolve Authentication Security</title>
-      <link>http://localhost:1313/articles/article-4146/</link>
+      <link>/articles/article-2025-08-06-4146/</link>
       <pubDate>Wed, 06 Aug 2025 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4146/</guid>
+      <guid>/articles/article-2025-08-06-4146/</guid>
       <description>Identity-based attacks are on the rise, making strong authentication security necessary. Okta emphasizes the need to enhance identity security through initiatives like the Secure Identity Commitment. Key steps include adopting phishing-resistant methods, avoiding weak authentication, and implementing Multi-factor Authentication (MFA). Tailoring authentication requirements dynamically is crucial for balancing security and user experience. For developers, leveraging Identity Providers and using&amp;hellip;</description>
     </item>
     <item>
       <title>FAPI 2.0: The Future of API Security for High-Stakes Customer Interactions</title>
-      <link>http://localhost:1313/articles/article-4133/</link>
+      <link>/articles/article-2025-08-06-4133/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4133/</guid>
+      <guid>/articles/article-2025-08-06-4133/</guid>
       <description>🚀 FAPI 2.0 is redefining API security for critical customer interactions. Originally created for financial services, it now offers advanced protections applicable across industries. This new version focuses on enhancing end-to-end security and privacy for sensitive actions like payments and data sharing. Key benefits include clear specifications, thorough conformance tests, and a standards-based approach for better security. Discover how FAPI 2.0 can help protect your organization. 🔒🌐&amp;hellip;</description>
     </item>
     <item>
       <title>GitLab uncovers Bittensor theft campaign via PyPI</title>
-      <link>http://localhost:1313/articles/article-4678/</link>
+      <link>/articles/article-2025-08-06-4678/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4678/</guid>
+      <guid>/articles/article-2025-08-06-4678/</guid>
       <description>🚨 GitLab&amp;rsquo;s Vulnerability Research team has uncovered a cryptocurrency theft campaign targeting the Bittensor ecosystem via typosquatted Python packages on PyPI. Multiple malicious packages mimicked legitimate ones, published within a 25-minute window. These were designed to steal funds during staking operations, bypassing user confirmations and draining wallets silently. The attackers used a typosquatting strategy, exploiting common errors to increase the likelihood of installation. GitLab is&amp;hellip;</description>
     </item>
     <item>
       <title>Simplify access reviews with Trelica by 1Password</title>
-      <link>http://localhost:1313/articles/article-4679/</link>
+      <link>/articles/article-2025-08-06-4679/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4679/</guid>
+      <guid>/articles/article-2025-08-06-4679/</guid>
       <description>Managing access in today&amp;rsquo;s SaaS environment is challenging for organizations. Each time an employee joins or leaves, IT and security teams must adjust permissions to maintain security and compliance. 🔒 Access reviews are essential for verifying user access and meeting compliance standards like SOC 2 and ISO 27001. However, traditional methods often rely on spreadsheets, leading to incomplete processes and errors. 📊 Trelica by 1Password simplifies access reviews with automated workflows, a&amp;hellip;</description>
     </item>
     <item>
       <title>Everyone’s a Snowflake: Designing Hardened Image Processes for the Real World</title>
-      <link>http://localhost:1313/articles/article-2015/</link>
+      <link>/articles/article-2025-08-05-2015/</link>
       <pubDate>Tue, 05 Aug 2025 18:54:38 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2015/</guid>
+      <guid>/articles/article-2025-08-05-2015/</guid>
       <description>Hardened container images and distroless software are gaining traction among startups and established companies. While they promise a smaller attack surface and operational simplicity, challenges arise in real-world applications. The unique needs of development teams often clash with rigid security measures, leading to frustration and workarounds. This &amp;lsquo;Snowflake Problem&amp;rsquo; highlights how no two environments are the same, complicating the balance between usability and security. Flexibility is&amp;hellip;</description>
     </item>
     <item>
       <title>How Auth0 Mitigates OWASP’s Agentic AI Threats</title>
-      <link>http://localhost:1313/articles/article-1965/</link>
+      <link>/articles/article-2025-08-05-1965/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-1965/</guid>
+      <guid>/articles/article-2025-08-05-1965/</guid>
       <description>🌐 AI-powered agents are transforming industries, but they also bring significant security risks. Auth0 addresses these challenges highlighted by OWASP&amp;rsquo;s recent report on Agentic AI threats. Key risks include data breaches and regulatory non-compliance, which can erode customer trust. Traditional security measures often fall short for autonomous AI. Organizations must implement robust security from the start when developing GenAI applications. 🔐 #CyberSecurity #AI #GenAI #Auth0 #OWASP</description>
     </item>
     <item>
       <title>Hard Questions: What You Should Really Be Asking Your Hardened Image Provider Before You Press the Buy Button</title>
-      <link>http://localhost:1313/articles/article-2017/</link>
+      <link>/articles/article-2025-08-04-2017/</link>
       <pubDate>Mon, 04 Aug 2025 19:08:03 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2017/</guid>
+      <guid>/articles/article-2025-08-04-2017/</guid>
       <description>When considering hardened image providers, it’s essential to go beyond buzzwords like &amp;ldquo;zero-CVE.&amp;rdquo; Understanding their update and patch management processes is crucial. Ask how quickly they can respond to serious vulnerabilities and their SLAs on updates. Also, inquire about their modification processes. Knowing how to adjust images without compromising security is vital for maintaining your workflows. For more insights on essential questions to ask, check the full article. 🔍💻 #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives</title>
-      <link>http://localhost:1313/articles/article-2077/</link>
+      <link>/articles/article-2025-08-04-2077/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2077/</guid>
+      <guid>/articles/article-2025-08-04-2077/</guid>
       <description>Perplexity, an AI-powered answer engine, is reportedly using stealth tactics to bypass website no-crawl directives. They modify user agents and change IPs to continue crawling despite explicit blocks. This behavior contradicts the trust-based principles of the internet, which emphasize transparency and adherence to website preferences. As a result, Perplexity has been de-listed as a verified bot and is facing new blocking measures. #Crawling #AI #WebSecurity #DataPrivacy #TechNews 🕵️‍♂️🔍🚫</description>
     </item>
     <item>
       <title>v0: vibe coding, securely</title>
-      <link>http://localhost:1313/articles/article-4165/</link>
+      <link>/articles/article-2025-08-04-4165/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4165/</guid>
+      <guid>/articles/article-2025-08-04-4165/</guid>
       <description>Vibe coding is transforming software development, allowing rapid prototyping with tools like v0. Anthropic&amp;rsquo;s CEO indicates that in just 3-6 months, 90% of code may be AI-generated. However, this speed can lead to significant risks. A recent incident involved a viral app that leaked 72,000 selfies and IDs due to misconfigured settings, emphasizing the need for security measures. #VibeCoding #SoftwareDevelopment #CyberSecurity #AI #TechNews 🚀🔒📱</description>
+    </item>
+    <item>
+      <title>Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)</title>
+      <link>/articles/article-2025-08-01-2078/</link>
+      <pubDate>Fri, 01 Aug 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-2078/</guid>
+      <description>Cloudflare has announced a vulnerability disclosure for its SSL for SaaS v1 (Managed CNAME) product, identified through its bug bounty program. Despite deprecating this version in 2021, some customers have yet to migrate to SSL for SaaS v2. Cloudflare is working to assist these remaining clients in the transition. The architecture of SSL for SaaS v1 posed security risks due to its reliance on IP-based routing without domain ownership verification, leading to potential vulnerabilities. 🌐🔒&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing Agentic AI: How Semantic Prompt Injections Bypass AI Guardrails</title>
+      <link>/articles/article-2025-07-31-220/</link>
+      <pubDate>Thu, 31 Jul 2025 16:58:07 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-220/</guid>
+      <description>Prompt injection remains a significant threat to AI systems, particularly with the rise of multimodal and agentic AI. 🛡️ NVIDIA&amp;rsquo;s AI Red Team simulates real-world attacks to identify vulnerabilities in these advanced systems, emphasizing the need for cross-functional solutions. Their recent research introduces a new category of multimodal prompt injection using symbolic visual inputs, like emoji sequences. 🔍 This shift highlights the importance of adapting security strategies from input&amp;hellip;</description>
+    </item>
+    <item>
+      <title>MCP Horror Stories: The Security Issues Threatening AI Infrastructure</title>
+      <link>/articles/article-2025-07-31-2019/</link>
+      <pubDate>Thu, 31 Jul 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2019/</guid>
+      <description>🚨 New Series Alert: MCP Horror Stories! 🚨 The first issue dives into the security vulnerabilities within the Model Context Protocol (MCP) ecosystem. MCP enables AI agents to communicate with various services, but this connectivity brings significant security risks. While MCP aims to streamline integrations, it has raised concerns about potential data breaches and system compromises due to malicious servers. Stay informed about the challenges in AI infrastructure! #AI #CyberSecurity #MCP&amp;hellip;</description>
+    </item>
+    <item>
+      <title>IBM Hyper Protect with OpenShift sandboxed containers</title>
+      <link>/articles/article-2025-07-31-99/</link>
+      <pubDate>Thu, 31 Jul 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-99/</guid>
+      <description>IBM is advancing data security with Hyper Protect Confidential Containers (HPCC) for Red Hat OpenShift. This solution protects sensitive workloads in untrusted environments, essential for industries like finance and healthcare. Using OpenShift sandboxed containers, HPCC ensures VM-level isolation for confidential computing. It addresses vulnerabilities of traditional containers by employing hardware-based trusted execution environments. Learn how HPCC enhances data protection and supports&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing CIBA for Secure Transaction Verification</title>
+      <link>/articles/article-2025-07-31-4073/</link>
+      <pubDate>Thu, 31 Jul 2025 05:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-4073/</guid>
+      <description>🔐 &lt;strong&gt;Introducing CIBA for Secure Transaction Verification&lt;/strong&gt; 🔐 Digital applications require identity verification beyond just login interfaces. CIBA (Client-Initiated Backchannel Authentication) enhances security by decoupling authentication from applications, allowing users to verify their identity securely on different devices. This method is particularly useful in scenarios like updating bank email addresses or making payments at retail POS systems without sharing credentials on public&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New Rules in Spain: Don’t Let Your Calls Get Ghosted</title>
+      <link>/articles/article-2025-07-31-5158/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-5158/</guid>
+      <description>🚨 New telecom regulations in Spain are now in effect! Spanish mobile numbers cannot be used for unsolicited marketing or customer service calls. This means calls may get flagged or blocked, especially if using Transit-Caller-ID. 📞 To stay compliant, consider switching to Spanish landline or toll-free numbers. Review your number strategy to avoid disruptions in communication. Stay informed and keep your calls connected! #Telecom #Spain #Compliance #Twilio #Communication</description>
+    </item>
+    <item>
+      <title>Securing AI together: GitLab’s partnership with security researchers</title>
+      <link>/articles/article-2025-07-31-3192/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-3192/</guid>
+      <description>GitLab is enhancing security in AI with the support of external researchers. As AI evolves, so do the challenges, like prompt injection attacks. Our collaboration with organizations like Persistent Security helps us identify vulnerabilities and implement fast solutions. By engaging with the security research community, we aim to protect customers and ensure a secure development environment. Join us in our mission at GitLab! 🤝🔒 #AISecurity #CyberSecurity #GitLab #Collaboration #SoftwareSafety</description>
+    </item>
+    <item>
+      <title>Webflow’s availability incident: what we got wrong and what we’re changing</title>
+      <link>/articles/article-2025-07-31-5656/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-5656/</guid>
+      <description>Webflow faced a significant service disruption on July 28, caused by a malicious attack that affected customer access. The team worked quickly to stabilize the platform. CEO&amp;rsquo;s reflections highlight shortcomings in communication and support during this incident. Immediate changes include enhanced monitoring, improved infrastructure, and proactive customer updates. Webflow is committed to making the platform more reliable and transparent moving forward. #Webflow #ServiceUpdate #CustomerSupport&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Omdia recommends Extended Access Management to secure agentic AI</title>
+      <link>/articles/article-2025-07-31-2506/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2506/</guid>
+      <description>Omdia&amp;rsquo;s recent report highlights significant security challenges in managing access for agentic AI. With the rise of application, device, and identity sprawl, organizations face increased risk. AI agents require extensive access but lack secure management tools, leading to potential data leaks and unauthorized actions. Omdia recommends five strategies to secure access, including the need for robust measures specifically for AI agents. 1Password Extended Access Management offers a solution by&amp;hellip;</description>
     </item>
   </channel>
 </rss>

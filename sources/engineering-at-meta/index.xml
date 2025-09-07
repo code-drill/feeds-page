@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engineering-at-Meta on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/engineering-at-meta/</link>
+    <link>/sources/engineering-at-meta/</link>
     <description>Recent content in Engineering-at-Meta on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 16:00:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/engineering-at-meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2025 16:00:08 +0000</lastBuildDate>
+    <atom:link href="/sources/engineering-at-meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Ranking Framework for Better Notification Quality on Instagram</title>
+      <link>/articles/article-2025-09-02-7650/</link>
+      <pubDate>Tue, 02 Sep 2025 16:00:08 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7650/</guid>
+      <description>Meta is enhancing Instagram notifications using machine learning and diversity algorithms. A new framework aims to reduce uniformity, offering a varied mix of notifications while lowering overall volume. This approach boosts engagement rates by ensuring users discover diverse content and creators. The goal is to balance personalization with a richer notification experience, avoiding overexposure to the same authors. #InstagramUpdates #MachineLearning #UserExperience #Diversity #SocialMedia</description>
+    </item>
     <item>
       <title>Enabling Kotlin incremental compilation on Buck2</title>
-      <link>http://localhost:1313/articles/article-7256/</link>
+      <link>/articles/article-2025-08-26-7256/</link>
       <pubDate>Tue, 26 Aug 2025 16:00:52 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7256/</guid>
-      <description>ð Exciting news for Kotlin developers! Meta has integrated the Kotlin incremental compiler into Buck2, enhancing speed and efficiency. This incremental approach reduces compilation time by focusing on changed files, a significant improvement as codebases grow. Some modules now build up to 3x faster! Learn more about the integration process and its impact on developer productivity. #Kotlin #Buck2 #IncrementalCompilation #Meta #DeveloperProductivity</description>
+      <guid>/articles/article-2025-08-26-7256/</guid>
+      <description>🚀 Exciting news for Kotlin developers! Meta has integrated the Kotlin incremental compiler into Buck2, enhancing speed and efficiency. This incremental approach reduces compilation time by focusing on changed files, a significant improvement as codebases grow. Some modules now build up to 3x faster! Learn more about the integration process and its impact on developer productivity. #Kotlin #Buck2 #IncrementalCompilation #Meta #DeveloperProductivity</description>
     </item>
     <item>
       <title>Creating AI agent solutions for warehouse data access and security</title>
-      <link>http://localhost:1313/articles/article-4966/</link>
+      <link>/articles/article-2025-08-13-4966/</link>
       <pubDate>Wed, 13 Aug 2025 22:05:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4966/</guid>
-      <description>Meta is evolving its data warehouse to enhance productivity and security for both human users and AI agents. ð¤ð We are developing AI agents to streamline data access requests, helping users find the data they need while assisting data owners in maintaining security. Guardrails, such as auditing and feedback systems, are also being implemented to ensure safe operations. As the scale and complexity of data access grow, our focus is on minimizing security risks while improving efficiency. This&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4966/</guid>
+      <description>Meta is evolving its data warehouse to enhance productivity and security for both human users and AI agents. 🤖🔒 We are developing AI agents to streamline data access requests, helping users find the data they need while assisting data owners in maintaining security. Guardrails, such as auditing and feedback systems, are also being implemented to ensure safe operations. As the scale and complexity of data access grow, our focus is on minimizing security risks while improving efficiency. This&amp;hellip;</description>
     </item>
     <item>
       <title>Federation Platform and Privacy Waves: How Meta distributes compliance-related tasks at scale</title>
-      <link>http://localhost:1313/articles/article-4855/</link>
+      <link>/articles/article-2025-08-11-4855/</link>
       <pubDate>Mon, 11 Aug 2025 16:00:21 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4855/</guid>
-      <description>Meta is enhancing privacy compliance with its Federation Platform and Privacy Waves program. These tools manage compliance tasks effectively and ensure accountability across teams. ð The Federation Platform breaks down compliance initiatives into manageable tasks, while Privacy Waves organizes these tasks into monthly batches for better planning. ð Together, they improve user data protection and streamline operations, managing over 100,000 tasks annually. This approach is expanding into&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4855/</guid>
+      <description>Meta is enhancing privacy compliance with its Federation Platform and Privacy Waves program. These tools manage compliance tasks effectively and ensure accountability across teams. 🌐 The Federation Platform breaks down compliance initiatives into manageable tasks, while Privacy Waves organizes these tasks into monthly batches for better planning. 📅 Together, they improve user data protection and streamline operations, managing over 100,000 tasks annually. This approach is expanding into&amp;hellip;</description>
     </item>
     <item>
       <title>Diff Risk Score: AI-driven risk-aware software development</title>
-      <link>http://localhost:1313/articles/article-4160/</link>
+      <link>/articles/article-2025-08-06-4160/</link>
       <pubDate>Wed, 06 Aug 2025 17:50:51 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4160/</guid>
+      <guid>/articles/article-2025-08-06-4160/</guid>
       <description>🚀 Introducing the Diff Risk Score (DRS) from Meta! This AI-driven technology predicts the likelihood of code changes causing production incidents, enhancing software development processes. By analyzing code changes and metadata, DRS generates risk scores, allowing developers to identify potentially risky code. 🛠️ DRS has notably reduced code freezes during critical periods, boosting productivity while maintaining user experience. For instance, during a key event in 2024, over 10,000 code&amp;hellip;</description>
     </item>
     <item>
       <title>Building a human-computer interface for everyone</title>
-      <link>http://localhost:1313/articles/article-11/</link>
+      <link>/articles/article-2025-08-04-11/</link>
       <pubDate>Mon, 04 Aug 2025 14:00:25 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-11/</guid>
+      <guid>/articles/article-2025-08-04-11/</guid>
       <description>Discover how Meta&amp;rsquo;s Reality Labs is advancing human-computer interaction with wrist-worn devices using surface electromyography (sEMG). 🤖 Their research focuses on creating a universal input device that adapts to different users. Generalization remains a key challenge, as existing models often cater to individual gestures. Listen to the latest episode of the Meta Tech Podcast to learn more about this innovative approach! 🎧✨ #HumanComputerInteraction #TechInnovation #MetaTech #sEMG #Podcast</description>
     </item>
   </channel>

@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vercel-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,1052 +414,687 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 1 of 2 (50 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/cve-2025-55173" target="_blank">CVE-2025-55173</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-29 13:00</span>
-                
-                <span class="author">by Zack Tanner</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/export-traces-web-analytics-events-and-speed-insights-datapoints-to-any" target="_blank">Export traces, web analytics events, and speed insights datapoints to any destination</a></h2>
+            <div class="publication-date">2025-09-05 13:00</div>
+            <div class="summary">🚀 Exciting news for Vercel users! You can now export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement allows streaming of more raw data through expanded Log Drains infrastructure. Pro and Enterprise teams can set custom HTTP endpoints and choose from various encodings like JSON, NDJSON, or Protobuf. Explore Vercel Drains today! #Vercel #DataExport #WebAnalytics #OpenTelemetry #TechUpdates</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malavika Tadeusz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/export-more-data-with-vercel-drains" target="_blank">Export traces, web analytics events, and speed insights datapoints to any destination</a></h2>
+            <div class="publication-date">2025-09-05 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel now allows users to export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement expands the Log Drains infrastructure for seamless data streaming. Users can set up custom HTTP endpoints to receive data in various formats like JSON, NDJSON, or Protobuf. Pro and Enterprise teams can export data at a cost of $0.50 per GB. Learn more about Vercel Drains! #DataExport #WebAnalytics #Vercel #OpenTelemetry...</div>
+            <div class="source">Source: Vercel Blog</div>
             
-            <div class="sources">
+            <div class="author">Malavika Tadeusz</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/zero-configuration-express-backends" target="_blank">Zero-configuration Express backends</a></h2>
+            <div class="publication-date">2025-09-05 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Express, the minimalist web framework for Node.js, now offers zero-configuration support on Vercel. This means you can deploy Express applications without the hassle of setting up redirects in vercel.json or using the /api folder. For a seamless experience, check out the Express on Vercel documentation. #NodeJS #Express #Vercel #WebDevelopment #Programming</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Jeff See</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/moonshot-ais-kimi-k2-0905-model-is-now-supported-in-vercel-ai-gateway" target="_blank">Moonshot AI&#39;s Kimi K2 0905 model is now supported in Vercel AI Gateway</a></h2>
+            <div class="publication-date">2025-09-04 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Moonshot AI&#39;s Kimi K2 0905 model is now accessible through Vercel AI Gateway. This model supports agentic coding with a 256K context window and requires no additional provider accounts. AI Gateway offers a unified API for tracking usage, costs, and optimizing performance. It includes built-in observability and intelligent routing for enhanced reliability. To get started, install the AI SDK v5 and set the model to moonshotai/kimi-k2-0905. #AI #MoonshotAI #Vercel...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Harpreet Arora</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/stress-testing-biomes-nofloatingpromises-lint-rule" target="_blank">Stress testing Biome&#39;s noFloatingPromises lint rule</a></h2>
+            <div class="publication-date">2025-09-04 13:00</div>
+            <div class="summary">We recently collaborated with the Biome team to enhance their noFloatingPromises lint rule. This rule is crucial for identifying unhandled Promises that can lead to errors. To test its effectiveness, we organized a friendly competition to create challenging test cases that could still pass the updated lint rule. This initiative not only fostered creativity but also encouraged learning among our team. Stay tuned for more insights! 🚀💡 #SoftwareDevelopment #LintRules #Teamwork #Innovation...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Dimitri Mitropoulos</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/open-sdk-strategy" target="_blank">Open SDK strategy</a></h2>
+            <div class="publication-date">2025-09-03 13:00</div>
+            <div class="summary">At Vercel, open source is a core principle. They focus on developing high-quality software without the goal of profit. Their approach aims to enhance the overall software landscape for everyone, not just their customers. This philosophy reflects the belief that improving software benefits all users. Learn more about Vercel&#39;s commitment to open source. 🌍💻 #OpenSource #SoftwareDevelopment #Vercel #TechCommunity #Innovation</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Daniel Roe</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/cve-2025-55173" target="_blank">CVE-2025-55173</a></h2>
+            <div class="publication-date">2025-08-29 13:00</div>
             <div class="summary">🚨 A vulnerability (CVE-2025-55173) affecting Next.js Image Optimization has been identified. It impacts versions prior to v15.4.5 and v14.2.31, allowing attacker-controlled external image servers to trigger arbitrary file downloads. This could lead to phishing and social engineering attacks. A patch was released on July 29th, 2025, addressing this issue for Vercel customers. For more details, check the GitHub Advisory and Next.js Release Notes. #CyberSecurity #NextJS #Vulnerability...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Zack Tanner</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/cve-2025-57752" target="_blank">CVE-2025-57752</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-29 13:00</span>
-                
-                <span class="author">by Zack Tanner</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-29 13:00</div>
+            <div class="summary">A vulnerability, CVE-2025-57752, has been identified in Next.js Image Optimization affecting versions prior to v15.4.5 and v14.2.31. It involved cache poisoning, risking unauthorized access to sensitive images. The issue arose when API routes returned images based on headers, leading to potential disclosure of user-specific content. The vulnerability has been resolved in the latest versions, ensuring that request headers are not forwarded to image endpoints. For more details, refer to the...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Zack Tanner</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">A vulnerability, CVE-2025-57752, has been identified in Next.js Image Optimization affecting versions prior to v15.4.5 and v14.2.31. It involved cache poisoning, risking unauthorized access to sensitive images. The issue arose when API routes returned images based on headers, leading to potential disclosure of user-specific content. The vulnerability has been resolved in the latest versions, ensuring that request headers are not forwarded to image endpoints. For more details, refer to the...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/cve-2025-57822" target="_blank">CVE-2025-57822</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-29 13:00</span>
-                
-                <span class="author">by Luba Kravchenko</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-29 13:00</div>
+            <div class="summary">A recent vulnerability, CVE-2025-57822, has been identified in Next.js Middleware, affecting versions before v14.2.32 and v15.4.7. This flaw allowed for Server-Side Request Forgery (SSRF) risks due to misconfigured NextResponse.next() usage. Applications that reflected user request headers could unintentionally allow servers to make requests to harmful destinations. A patch was released on August 25, 2025, to protect Vercel customers. For those unable to upgrade, it is vital to adhere to...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Luba Kravchenko</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">A recent vulnerability, CVE-2025-57822, has been identified in Next.js Middleware, affecting versions before v14.2.32 and v15.4.7. This flaw allowed for Server-Side Request Forgery (SSRF) risks due to misconfigured NextResponse.next() usage. Applications that reflected user request headers could unintentionally allow servers to make requests to harmful destinations. A patch was released on August 25, 2025, to protect Vercel customers. For those unable to upgrade, it is vital to adhere to...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/preparing-for-the-worst-our-core-database-failover-test" target="_blank">Preparing for the worst: Our core database failover test</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-28 13:00</span>
-                
-                <span class="author">by Matthew Binshtok</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-28 13:00</div>
+            <div class="summary">On July 24, 2025, we conducted a successful failover test of our core control-plane database from Azure West US to East US 2. This exercise confirmed our disaster recovery plans in real-world conditions. All control-plane traffic was tested, ensuring stability without any customer impact. While preview and development traffic were affected, our production CDN traffic remained unaffected across 19 regions. The operation highlighted our commitment to resilience, achieving zero downtime and no...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Matthew Binshtok</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">On July 24, 2025, we conducted a successful failover test of our core control-plane database from Azure West US to East US 2. This exercise confirmed our disaster recovery plans in real-world conditions. All control-plane traffic was tested, ensuring stability without any customer impact. While preview and development traffic were affected, our production CDN traffic remained unaffected across 19 regions. The operation highlighted our commitment to resilience, achieving zero downtime and no...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/anomaly-alerts-now-in-limited-beta-for-enterprise-customers" target="_blank">Anomaly alerts now in limited beta for Enterprise customers</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 13:00</span>
-                
-                <span class="author">by Malavika Tadeusz</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 13:00</div>
+            <div class="summary">🚨 Enterprise customers can now access anomaly alerts in limited beta! These alerts help quickly identify unusual patterns in application metrics, allowing for prompt issue resolution. Users can integrate alerts via webhooks into existing monitoring systems and receive notifications directly in Slack channels. Explore this feature with Observability Plus and streamline your monitoring process! #AnomalyDetection #EnterpriseSolutions #MonitoringAlerts #TechUpdates #ObservabilityPlus</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malavika Tadeusz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ Enterprise customers can now access anomaly alerts in limited beta! These alerts help quickly identify unusual patterns in application metrics, allowing for prompt issue resolution. Users can integrate alerts via webhooks into existing monitoring systems and receive notifications directly in Slack channels. Explore this feature with Observability Plus and streamline your monitoring process! #AnomalyDetection #EnterpriseSolutions #MonitoringAlerts #TechUpdates #ObservabilityPlus</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/build-slack-agents-with-vercel-slack-bolt" target="_blank">Deploy Slack&#39;s Bolt.js to Vercel with @vercel/slack-bolt</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 13:00</span>
-                
-                <span class="author">by Matt Lewis</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! @vercel has released @vercel/slack-bolt, an adapter that allows you to deploy Slack&#39;s Bolt for JavaScript on Vercel&#39;s AI Cloud. This tool helps manage Slack webhook events efficiently. It addresses the challenge of responding within three seconds to avoid timeouts, using Fluid compute’s streaming feature. Compatible with any function or framework like Hono, Nitro, or Next.js, you can start with the Slack Agent Template or explore the library on npm. #Slack...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Matt Lewis</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! @vercel has released @vercel/slack-bolt, an adapter that allows you to deploy Slack&#39;s Bolt for JavaScript on Vercel&#39;s AI Cloud. This tool helps manage Slack webhook events efficiently. It addresses the challenge of responding within three seconds to avoid timeouts, using Fluid computeâs streaming feature. Compatible with any function or framework like Hono, Nitro, or Next.js, you can start with the Slack Agent Template or explore the library on npm. #Slack...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/s1ngularity-supply-chain-attack-in-nx-packages" target="_blank">s1ngularity: supply chain attack in Nx packages</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 13:00</span>
-                
-                <span class="author">by Andy Riancho</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 13:00</div>
+            <div class="summary">🚨 A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. 🔍 The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. 👉 For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Andy Riancho</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. ð The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. ð For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/30-day-runtime-log-retention-now-available-in-observability-plus" target="_blank">30-day runtime log retention, now available in Observability Plus</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-26 13:00</span>
-                
-                <span class="author">by Malavika Tadeusz</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-26 13:00</div>
+            <div class="summary">📊 Exciting news for Observability Plus users! Teams can now access 30 days of runtime log retention, which includes valuable details on requests, Vercel Functions, and cache activity. This feature allows you to view, query, and share up to 14 consecutive days of log data at once. Best of all, this extended retention comes at no extra cost for Pro and Enterprise plans! Learn more about Runtime Logs and how to utilize this feature. #ObservabilityPlus #LogRetention #DataInsights</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malavika Tadeusz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for Observability Plus users! Teams can now access 30 days of runtime log retention, which includes valuable details on requests, Vercel Functions, and cache activity. This feature allows you to view, query, and share up to 14 consecutive days of log data at once. Best of all, this extended retention comes at no extra cost for Pro and Enterprise plans! Learn more about Runtime Logs and how to utilize this feature. #ObservabilityPlus #LogRetention #DataInsights</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/devin-raycast-windsurf-and-goose-now-supported-on-vercel-mcp" target="_blank">Devin, Raycast, Windsurf, and Goose now supported on Vercel MCP</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-25 13:00</span>
-                
-                <span class="author">by Allen Zhou</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-25 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! You can now integrate Devin, Raycast, Windsurf, and Goose with Vercel&#39;s Model Context Protocol (MCP). This allows for secure access to AI clients approved by Vercel. To get started, follow the installation steps for each client. Discover how to enhance your projects with Vercel MCP! #Vercel #AIIntegration #WebDevelopment #TechNews</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Allen Zhou</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! You can now integrate Devin, Raycast, Windsurf, and Goose with Vercel&#39;s Model Context Protocol (MCP). This allows for secure access to AI clients approved by Vercel. To get started, follow the installation steps for each client. Discover how to enhance your projects with Vercel MCP! #Vercel #AIIntegration #WebDevelopment #TechNews</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/ai-powered-prototyping-with-design-systems" target="_blank">AI-powered prototyping with design systems</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-22 13:00</span>
-                
-                <span class="author">by Will Sather</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-22 13:00</div>
+            <div class="summary">Unlocking the potential of AI in prototyping means speeding up collaboration and maintaining brand consistency. While many AI tools excel in speed and teamwork, they often fall short in producing on-brand designs. This gap arises from a lack of context about design components. To bridge this gap, a design system tailored for AI can help create prototypes that are both brand-aware and production-ready. Discover how to enhance your prototyping process! #AIDesign #Prototyping #DesignSystems...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Will Sather</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlocking the potential of AI in prototyping means speeding up collaboration and maintaining brand consistency. While many AI tools excel in speed and teamwork, they often fall short in producing on-brand designs. This gap arises from a lack of context about design components. To bridge this gap, a design system tailored for AI can help create prototypes that are both brand-aware and production-ready. Discover how to enhance your prototyping process! #AIDesign #Prototyping #DesignSystems...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/deploy-xmcp-servers-with-zero-configuration" target="_blank">Deploy xmcp servers with zero-configuration</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-22 13:00</span>
-                
-                <span class="author">by Anthony Shew</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-22 13:00</div>
+            <div class="summary">🚀 Vercel now supports xmcp, a framework for building MCP servers using TypeScript with zero configuration. 📁 It utilizes file-based routing, making it easy to develop tools for your MCP server. You can create tools simply by adding a file with a default export. 🛠️ Learn more about deploying xmcp to Vercel in the documentation. #Vercel #xmcp #TypeScript #WebDevelopment #MCPServers</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Anthony Shew</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Vercel now supports xmcp, a framework for building MCP servers using TypeScript with zero configuration. ð It utilizes file-based routing, making it easy to develop tools for your MCP server. You can create tools simply by adding a file with a default export. ð ï¸ Learn more about deploying xmcp to Vercel in the documentation. #Vercel #xmcp #TypeScript #WebDevelopment #MCPServers</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/ai-gateway-is-now-generally-available" target="_blank">AI Gateway is now generally available</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 13:00</span>
-                
-                <span class="author">by Harpreet Arora</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 13:00</div>
+            <div class="summary">🚀 AI Gateway is now available! This new tool offers a unified API to access hundreds of AI models with features like transparent pricing and built-in observability. Key benefits include sub-20ms latency, automatic failover, and detailed usage analytics. You can use the AI SDK or an OpenAI-compatible endpoint to get started quickly. Discover more about AI Gateway today! #AIGateway #AIModels #TechNews #Innovation #APIs</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Harpreet Arora</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð AI Gateway is now available! This new tool offers a unified API to access hundreds of AI models with features like transparent pricing and built-in observability. Key benefits include sub-20ms latency, automatic failover, and detailed usage analytics. You can use the AI SDK or an OpenAI-compatible endpoint to get started quickly. Discover more about AI Gateway today! #AIGateway #AIModels #TechNews #Innovation #APIs</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/ai-gateway-is-now-generally-available" target="_blank">AI Gateway: Production-ready reliability for your AI apps</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 13:00</span>
-                
-                <span class="author">by Harpreet Arora</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 13:00</div>
+            <div class="summary">🚀 Building AI apps just got easier! With tools like the AI SDK, developers can create both frontends and backends in minutes. However, moving to production poses challenges, especially with reliability. Connecting to a single LLM provider can create risks if that provider faces downtime or rate limits. Introducing AI Gateway: it ensures consistent availability and stability for AI workloads, having already supported millions of users. #AIGateway #AIApps #TechInnovation #Reliability...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Harpreet Arora</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Building AI apps just got easier! With tools like the AI SDK, developers can create both frontends and backends in minutes. However, moving to production poses challenges, especially with reliability. Connecting to a single LLM provider can create risks if that provider faces downtime or rate limits. Introducing AI Gateway: it ensures consistent availability and stability for AI workloads, having already supported millions of users. #AIGateway #AIApps #TechInnovation #Reliability...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/introducing-streamdown" target="_blank">Introducing Streamdown: Open source Markdown for AI streaming</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 13:00</span>
-                
-                <span class="author">by Hayden Bleasel</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 13:00</div>
+            <div class="summary">🚀 Introducing Streamdown: a new open-source Markdown renderer tailored for AI streaming! Streamdown enhances the AI Elements Response component and can also function as a standalone option for developers. It effectively manages unterminated chunks, interactive code blocks, and math expressions. Key features include: - Tailwind typography styles - GitHub Flavored Markdown support - Interactive code blocks with Shiki highlighting - LaTeX math support - Enhanced security for untrusted content...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Hayden Bleasel</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Introducing Streamdown: a new open-source Markdown renderer tailored for AI streaming! Streamdown enhances the AI Elements Response component and can also function as a standalone option for developers. It effectively manages unterminated chunks, interactive code blocks, and math expressions. Key features include: - Tailwind typography styles - GitHub Flavored Markdown support - Interactive code blocks with Shiki highlighting - LaTeX math support - Enhanced security for untrusted content...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/a-proposal-for-inline-llm-instructions-in-html" target="_blank">&lt;script type=&#34;text/llms.txt&#34;&gt;</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-20 13:00</span>
-                
-                <span class="author">by Malte Ubl</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-20 13:00</div>
+            <div class="summary">Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! 💻📄 #AI #HTML #llms #Innovation #TechNews</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malte Ubl</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! ð»ð #AI #HTML #llms #Innovation #TechNews</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/rethinking-prototyping-requirements-and-project-delivery-at-code-and-theory" target="_blank">Rethinking prototyping, requirements, and project delivery at Code and Theory</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-20 13:00</span>
-                
-                <span class="author">by Peri Langlois</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-20 13:00</div>
+            <div class="summary">Code and Theory is a digital agency that integrates strategy, design, and engineering. Their team consists of equal parts creatives and engineers, working on projects for major brands like Microsoft and Amazon. They focus on creating scalable digital experiences and utilize a method called v0 to streamline the process from concept to functioning software. Learn more about their innovative approach! 🌐💻 #DigitalAgency #Prototyping #Innovation #Tech #ProjectDelivery</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Peri Langlois</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Code and Theory is a digital agency that integrates strategy, design, and engineering. Their team consists of equal parts creatives and engineers, working on projects for major brands like Microsoft and Amazon. They focus on creating scalable digital experiences and utilize a method called v0 to streamline the process from concept to functioning software. Learn more about their innovative approach! ðð» #DigitalAgency #Prototyping #Innovation #Tech #ProjectDelivery</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/give-agents-access-to-protected-deployments-via-vercels-mcp-server" target="_blank">Agents can now access protected deployments via Vercelâs MCP server</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 13:00</span>
-                
-                <span class="author">by Kit Foster</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <h2><a href="https://vercel.com/changelog/give-agents-access-to-protected-deployments-via-vercels-mcp-server" target="_blank">Agents can now access protected deployments via Vercel’s MCP server</a></h2>
+            <div class="publication-date">2025-08-19 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel has introduced two new tools in its MCP server. The **get_access_to_vercel_url** feature allows agents to generate a temporary shareable URL, enabling access to Vercel Auth-protected deployments without login credentials. Additionally, the **web_fetch_vercel_url** tool lets agents fetch content directly from protected deployments, even when access would normally be denied. Explore these features to streamline your development process! #Vercel...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kit Foster</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! Vercel has introduced two new tools in its MCP server. The **get_access_to_vercel_url** feature allows agents to generate a temporary shareable URL, enabling access to Vercel Auth-protected deployments without login credentials. Additionally, the **web_fetch_vercel_url** tool lets agents fetch content directly from protected deployments, even when access would normally be denied. Explore these features to streamline your development process! #Vercel...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/node-js-vercel-functions-now-support-fetch-web-handlers" target="_blank">Node.js Vercel Functions now support fetch web handlers</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 13:00</span>
-                
-                <span class="author">by Pooya Pasa</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-19 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel Functions on the Node.js runtime now support fetch web handlers. This enhancement boosts interoperability across various JavaScript frameworks and runtimes. You can still choose to export individual HTTP methods if that suits your project better. For further details, check out the documentation! 📚 #NodeJS #Vercel #WebDevelopment #JavaScript #APIs</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Pooya Pasa</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! Vercel Functions on the Node.js runtime now support fetch web handlers. This enhancement boosts interoperability across various JavaScript frameworks and runtimes. You can still choose to export individual HTTP methods if that suits your project better. For further details, check out the documentation! ð #NodeJS #Vercel #WebDevelopment #JavaScript #APIs</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/if-agents-are-building-your-app-who-gets-the-w-2" target="_blank">If agents are building your app, who gets the W-2?</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 13:00</span>
-                
-                <span class="author">by Werner Schwock</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 13:00</div>
+            <div class="summary">Autonomous coding agents are changing the software development landscape. 🤖 These agents can now fully design, build, test, and deploy features without human intervention. However, current U.S. GAAP regulations have not fully adapted to this technology. While third-party software costs can be capitalized, developer tools are often classified as overhead. It&#39;s essential to consider how to treat work done by these agents in a manner similar to salaried engineers. #SoftwareDevelopment...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Werner Schwock</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Autonomous coding agents are changing the software development landscape. ð¤ These agents can now fully design, build, test, and deploy features without human intervention. However, current U.S. GAAP regulations have not fully adapted to this technology. While third-party software costs can be capitalized, developer tools are often classified as overhead. It&#39;s essential to consider how to treat work done by these agents in a manner similar to salaried engineers. #SoftwareDevelopment...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/native-support-for-sveltekits-new-opentelemetry-spans" target="_blank">Native support for SvelteKit&#39;s new OpenTelemetry spans</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 13:00</span>
-                
-                <span class="author">by Elliott Johnson</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 13:00</div>
+            <div class="summary">🚀 Vercel has added native support for SvelteKit&#39;s new server-side OpenTelemetry spans. To begin, users can activate experimental tracing in SvelteKit and set up a tracing instrumentation file with the Vercel OpenTelemetry collector. Generated traces will now include built-in SvelteKit spans, and other collectors can also be configured. For further details, check the SvelteKit observability documentation. 📊 #SvelteKit #OpenTelemetry #Vercel #WebDevelopment #Observability</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Elliott Johnson</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Vercel has added native support for SvelteKit&#39;s new server-side OpenTelemetry spans. To begin, users can activate experimental tracing in SvelteKit and set up a tracing instrumentation file with the Vercel OpenTelemetry collector. Generated traces will now include built-in SvelteKit spans, and other collectors can also be configured. For further details, check the SvelteKit observability documentation. ð #SvelteKit #OpenTelemetry #Vercel #WebDevelopment #Observability</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/vercel-sandbox-increases-concurrency-and-port-limits" target="_blank">Vercel Sandbox increases concurrency and port limits</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-18 13:00</span>
-                
-                <span class="author">by Laurens Duijvesteijn</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-18 13:00</div>
+            <div class="summary">🚀 Vercel has enhanced its Sandbox capabilities for Pro and Enterprise teams! Now, users can run up to 2,000 Sandboxes concurrently, a significant increase from the previous limit of 150. Each Sandbox can also expose up to 4 ports for external access. This improvement allows for better handling of traffic spikes, untrusted code execution, and more complex applications. For projects needing even higher limits, contacting the sales team is an option. Learn more in the Vercel Sandbox docs! 📊🔧...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Laurens Duijvesteijn</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Vercel has enhanced its Sandbox capabilities for Pro and Enterprise teams! Now, users can run up to 2,000 Sandboxes concurrently, a significant increase from the previous limit of 150. Each Sandbox can also expose up to 4 ports for external access. This improvement allows for better handling of traffic spikes, untrusted code execution, and more complex applications. For projects needing even higher limits, contacting the sales team is an option. Learn more in the Vercel Sandbox docs! ðð§...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/botid-deep-analysis-model-improved-for-fake-hardware-detection" target="_blank">Improved fake hardware detection with Vercel BotID</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-15 13:00</span>
-                
-                <span class="author">by Andrew Qu</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-15 13:00</div>
+            <div class="summary">Vercel has enhanced its BotID Deep Analysis with an updated detection model. This improvement expands fingerprinting coverage for headless browsers and simulated device hardware, allowing for better identification of advanced bots. The upgraded model works in real-time without disrupting genuine users. Current users can benefit from these updates immediately by upgrading to botid@1.5.2. 🔍🤖🚀 #BotID #CyberSecurity #TechUpdate</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Andrew Qu</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Vercel has enhanced its BotID Deep Analysis with an updated detection model. This improvement expands fingerprinting coverage for headless browsers and simulated device hardware, allowing for better identification of advanced bots. The upgraded model works in real-time without disrupting genuine users. Current users can benefit from these updates immediately by upgrading to botid@1.5.2. ðð¤ð #BotID #CyberSecurity #TechUpdate</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/how-coxwave-delivers-genai-value-faster-with-vercel" target="_blank">How Coxwave delivers GenAI value faster with Vercel</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 13:00</span>
-                
-                <span class="author">by Peri Langlois</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 13:00</div>
+            <div class="summary">Coxwave is revolutionizing the development of GenAI products for enterprises. 🚀 Their consulting arm, AX, and analytics platform, Align, serve leading companies like Anthropic, Meta, Microsoft, and PwC. Since 2021, Coxwave has focused on speed—not just in model performance, but in iteration and value delivery. To enhance their web app strategy, they utilized Next.js and Vercel, enabling quicker results for their clients. #GenAI #Coxwave #Nextjs #Vercel #TechInnovation</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Peri Langlois</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Coxwave is revolutionizing the development of GenAI products for enterprises. ð Their consulting arm, AX, and analytics platform, Align, serve leading companies like Anthropic, Meta, Microsoft, and PwC. Since 2021, Coxwave has focused on speedânot just in model performance, but in iteration and value delivery. To enhance their web app strategy, they utilized Next.js and Vercel, enabling quicker results for their clients. #GenAI #Coxwave #Nextjs #Vercel #TechInnovation</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/introducing-the-runtime-cache-api" target="_blank">Introducing the Runtime Cache API</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 13:00</span>
-                
-                <span class="author">by Kelly Davis</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel has launched the Runtime Cache API, allowing you to store and retrieve data seamlessly across Functions, Routing Middleware, and Builds within the same region. This ephemeral cache offers tag-based invalidation for better cache management. You can monitor performance metrics like hit rates and storage usage in the Observability dashboard. Keep in mind, reads and writes are billed regionally based on your runtime area. Learn more in the documentation! 📊...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kelly Davis</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! Vercel has launched the Runtime Cache API, allowing you to store and retrieve data seamlessly across Functions, Routing Middleware, and Builds within the same region. This ephemeral cache offers tag-based invalidation for better cache management. You can monitor performance metrics like hit rates and storage usage in the Observability dashboard. Keep in mind, reads and writes are billed regionally based on your runtime area. Learn more in the documentation! ð...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/the-real-serverless-compute-to-database-connection-problem-solved" target="_blank">The real serverless compute to database connection problem, solved</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 13:00</span>
-                
-                <span class="author">by Malte Ubl</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 13:00</div>
+            <div class="summary">The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. 🔍💻🔗 #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malte Ubl</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. ðð»ð #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/the-three-types-of-ai-bot-traffic-and-how-to-handle-them" target="_blank">The three types of AI bot traffic and how to handle them</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-13 13:00</span>
-                
-                <span class="author">by Kevin Corbett</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-13 13:00</div>
+            <div class="summary">AI bot traffic is on the rise, and recent data identifies three types of AI-driven crawlers. These bots can enhance discoverability but may disrupt teams if not managed properly. 🤖 Understanding the role of these crawlers is vital. While some bots are beneficial, blocking them could lead to missed opportunities, similar to restricting early search engines. 🌐 As user behavior shifts towards seeking direct answers, sites that strategically manage bot access will gain a competitive edge. #AIBots...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kevin Corbett</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">AI bot traffic is on the rise, and recent data identifies three types of AI-driven crawlers. These bots can enhance discoverability but may disrupt teams if not managed properly. ð¤ Understanding the role of these crawlers is vital. While some bots are beneficial, blocking them could lead to missed opportunities, similar to restricting early search engines. ð As user behavior shifts towards seeking direct answers, sites that strategically manage bot access will gain a competitive edge. #AIBots...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/auto-recharge-available-in-ai-gateway" target="_blank">Auto-recharge available in AI Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="author">by Harpreet Arora</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">🚀 Great news for Vercel users! The AI Gateway now offers an auto-recharge feature. This allows for automatic credit top-ups, ensuring your apps run smoothly without interruptions. You can easily enable or adjust this feature in the AI Gateway dashboard. Set your preferred top-up amount, trigger balance, and even a monthly spend limit to manage your credits efficiently. Learn more about this update! #Vercel #AIGateway #AutoRecharge #WebDevelopment #TechUpdates</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Harpreet Arora</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Great news for Vercel users! The AI Gateway now offers an auto-recharge feature. This allows for automatic credit top-ups, ensuring your apps run smoothly without interruptions. You can easily enable or adjust this feature in the AI Gateway dashboard. Set your preferred top-up amount, trigger balance, and even a monthly spend limit to manage your credits efficiently. Learn more about this update! #Vercel #AIGateway #AutoRecharge #WebDevelopment #TechUpdates</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/claude-sonnet-4-now-supports-1m-token-context-in-vercel-ai-gateway" target="_blank">Claude Sonnet 4 now supports 1M token context in Vercel AI Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="author">by Harpreet Arora</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Claude Sonnet 4 now offers a 1 million-token context window through Vercel&#39;s AI Gateway. This enhancement allows for larger inputs, such as extensive codebases and document sets. With a unified API, users can easily manage performance optimizations and track usage. The AI Gateway also supports built-in observability and intelligent provider routing for reliability. For implementation, simply install the AI SDK v5 and set up the model. #AI #Vercel #ClaudeSonnet4...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Harpreet Arora</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! Claude Sonnet 4 now offers a 1 million-token context window through Vercel&#39;s AI Gateway. This enhancement allows for larger inputs, such as extensive codebases and document sets. With a unified API, users can easily manage performance optimizations and track usage. The AI Gateway also supports built-in observability and intelligent provider routing for reliability. For implementation, simply install the AI SDK v5 and set up the model. #AI #Vercel #ClaudeSonnet4...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/cutting-delivery-times-in-half-with-v0" target="_blank">Cutting delivery times in half with v0</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="author">by Peri Langlois</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">Ready.net is enhancing utility company operations with its new feature, v0. This platform streamlines the process for managing financing and compliance with state-level stakeholders. Faced with urgent and often unclear requirements, Ready.net needed a solution to accelerate ideation, validation, and delivery. v0 is designed to cut delivery times significantly, supporting three teams with limited design resources. Learn more about this innovative approach! 🚀⚡️ #UtilityManagement #Innovation...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Peri Langlois</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Ready.net is enhancing utility company operations with its new feature, v0. This platform streamlines the process for managing financing and compliance with state-level stakeholders. Faced with urgent and often unclear requirements, Ready.net needed a solution to accelerate ideation, validation, and delivery. v0 is designed to cut delivery times significantly, supporting three teams with limited design resources. Learn more about this innovative approach! ðâ¡ï¸ #UtilityManagement #Innovation...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/vercel-botid-now-leverages-vercels-verified-bot-directory" target="_blank">Vercel BotID now leverages Vercel&#39;s verified bot directory</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="author">by Sage Abraham</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! With the release of BotID 1.5.0, you can now access Vercel&#39;s verified bot directory for deeper insights. This update enhances real-time detection of verified bots, allowing for secure programmatic decisions. The Deep Analysis mode provides key information like source IP range and user-agent validation, helping teams manage bot interactions effectively. Discover how BotID can improve your workflow! #BotID #Vercel #WebDevelopment #TechUpdates #Bots 🤖</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Sage Abraham</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for developers! With the release of BotID 1.5.0, you can now access Vercel&#39;s verified bot directory for deeper insights. This update enhances real-time detection of verified bots, allowing for secure programmatic decisions. The Deep Analysis mode provides key information like source IP range and user-agent validation, helping teams manage bot interactions effectively. Discover how BotID can improve your workflow! #BotID #Vercel #WebDevelopment #TechUpdates #Bots ð¤</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/vercels-bot-verification-now-supports-web-bot-auth" target="_blank">Vercel&#39;s bot verification now supports Web Bot Auth</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="author">by Sage Abraham</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">🚀 Vercel has enhanced its bot verification system by supporting Web Bot Auth, developed through collaboration with industry partners. This new protocol uses HTTP Message Signatures for verifying traffic from various automated sources. It helps maintain a curated directory of verified bots, ensuring legitimate ones access your site while blocking spoofed bots. Web Bot Auth uses public-key cryptography to authenticate bots, including popular tools like SEO crawlers and AI bots. Notably,...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Sage Abraham</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Vercel has enhanced its bot verification system by supporting Web Bot Auth, developed through collaboration with industry partners. This new protocol uses HTTP Message Signatures for verifying traffic from various automated sources. It helps maintain a curated directory of verified bots, ensuring legitimate ones access your site while blocking spoofed bots. Web Bot Auth uses public-key cryptography to authenticate bots, including popular tools like SEO crawlers and AI bots. Notably,...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/new-instant-rollback-flow" target="_blank">Add context when using Instant Rollback</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 13:00</span>
-                
-                <span class="author">by Jay Gengelbach</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 13:00</div>
+            <div class="summary">🚀 New feature alert! You can now add context when performing an Instant Rollback. This allows you to include a reason visible to your team in the project overview. You can even incorporate links or notes for clarity. Plus, updates can be made at any time! Learn more about enhancing your rollback process. #InstantRollback #ProjectManagement #TeamCollaboration #TechUpdates</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Jay Gengelbach</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð New feature alert! You can now add context when performing an Instant Rollback. This allows you to include a reason visible to your team in the project overview. You can even incorporate links or notes for clarity. Plus, updates can be made at any time! Learn more about enhancing your rollback process. #InstantRollback #ProjectManagement #TeamCollaboration #TechUpdates</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/blog/v0-app" target="_blank">v0.dev -&gt; v0.app</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 13:00</span>
-                
-                <span class="author">by Zeb Hermann</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-11 13:00</div>
+            <div class="summary">Transform your ideas into deployed apps with ease using v0.app! 🚀 With just one prompt, v0 streamlines the process by providing UI, content, backend, and logic. It also offers support for research, debugging, and planning. From product managers to recruiters, v0 is revolutionizing team operations. #AppDevelopment #TechInnovation #Teamwork #Productivity #v0app</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Zeb Hermann</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Transform your ideas into deployed apps with ease using v0.app! ð With just one prompt, v0 streamlines the process by providing UI, content, backend, and logic. It also offers support for research, debugging, and planning. From product managers to recruiters, v0 is revolutionizing team operations. #AppDevelopment #TechInnovation #Teamwork #Productivity #v0app</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://vercel.com/changelog/cursor-now-supported-on-vercel-mcp" target="_blank">Cursor now supported on Vercel MCP</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-09 13:00</span>
-                
-                <span class="author">by Aparna Sinha</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
+            <div class="publication-date">2025-08-09 13:00</div>
             <div class="summary">🚀 Great news for developers! Cursor is now compatible with Vercel&#39;s Model Context Protocol (MCP). With this integration, you can easily explore projects, inspect deployments, and fetch logs directly from Cursor. 🔍 To get started, simply follow the one-click setup or update your .cursor/mcp.json file. A Vercel account login will be required. Learn more about using Cursor with Vercel MCP! #Vercel #Cursor #DevTools #MCP #SoftwareDevelopment</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/bulk-upgrade-deprecated-node-js-versions" target="_blank">Bulk upgrade deprecated Node.js versions</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 13:00</span>
-                
-                <span class="author">by Ali Smesseim</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Aparna Sinha</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Upgrade your Node.js projects easily! Team owners can now update all projects using Node.js 18 or earlier to Node.js 22 with just one click in the Vercel Dashboard. Remember, if your project specifies a version in package.json, you&#39;ll need to update it manually. Existing deployments remain unaffected. Check out your deprecated Node.js projects today! #Nodejs #Vercel #TechUpdate #WebDevelopment #SoftwareEngineering</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/blog/how-zapier-scales-product-partnerships-with-v0" target="_blank">How Zapier scales product partnerships with v0</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 13:00</span>
-                
-                <span class="author">by Peri Langlois</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Zapier is enhancing product partnerships with its v0 tool, streamlining how SaaS and AI companies can integrate automation. This innovation allows partners to embed Zapier&#39;s automation engine directly into their products without extensive in-house integration work. With v0, the Powered by Zapier team can now create high-fidelity demos in just hours, leading to quicker implementation and more integrations. #Automation #Partnerships #SaaS #Innovation #AI</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/improved-metrics-search-in-observability-plus" target="_blank">Improved metrics search in Observability Plus</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 13:00</span>
-                
-                <span class="author">by Timo Lins</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting updates in Vercel Observability! The metrics search and navigation experience has been enhanced. You can now quickly find metrics using partial names or abbreviations like TTFB (time to first byte). Additional features include a side-by-side view of all metrics for an event, keyboard shortcuts for faster navigation, and a mobile-optimized interface. These updates are available now for all teams using Observability Plus. #Vercel #Observability #TechUpdates #Metrics #Productivity</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/vlt-is-now-available-in-builds-via-zero-configuration" target="_blank">vlt is now available in builds via zero configuration</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 13:00</span>
-                
-                <span class="author">by Luke Phillips-Sheard</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news for developers! Vercel now supports the vlt package manager for builds without the need for configuration. 📂 Projects with a vlt-lock.json file will automatically execute vlt install as the default Install Command. 🔧 Note: vlt requires Node 20.x and is available only in the modern build image. Learn more about this new feature on Vercel! #Vercel #vlt #WebDevelopment #PackageManager #TechNews</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/gpt-5-gpt-5-mini-and-gpt-5-nano-are-now-available-in-vercel-ai-gateway" target="_blank">GPT-5, GPT-5-mini, and GPT-5-nano are now available in Vercel AI Gateway</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 13:00</span>
-                
-                <span class="author">by Josh Lipman</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting news! OpenAI&#39;s GPT-5, GPT-5-mini, and GPT-5-nano are now accessible via Vercel AI Gateway. This platform allows seamless model integration without needing multiple provider accounts. Users can easily track usage, costs, and optimize performance. To get started, install the AI SDK v5 and select your preferred model. Explore more about the AI Gateway and its features! 🌐✨ #OpenAI #Vercel #AIGateway #GPT5 #TechUpdates</div>
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/blog/vercel-collaborates-with-openai-for-gpt-5-launch" target="_blank">Vercel collaborates with OpenAI for GPT-5 launch</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 13:00</span>
-                
-                <span class="author">by Janos Szathmary</span>
-                
-                <span class="source">from <a href="https://vercel.com/atom" target="_blank">Vercel Blog</a></span>
-            </div>
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
-                
-            </div>
-            
-            
-            <div class="sources">
-                
-                <a href="/sources/vercel-blog" class="source-link">Vercel-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Vercel has partnered with OpenAI to launch the GPT-5 family of models! These models are now available through AI Gateway and in production on v0.dev. Vercel has been testing GPT-5 in various environments, and the results indicate improved frontend design capabilities. GPT-5 generates clean, composable code and enhances workflows, particularly with long-context reasoning and tool handling. Vercel is already integrating GPT-5 into its dashboard and other applications. #Vercel #OpenAI #GPT5...</div>
         </article>
         
     </div>
@@ -1202,6 +1172,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

@@ -2,375 +2,452 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Red-Hat-Developer-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/red-hat-developer-blog/</link>
+    <link>/sources/red-hat-developer-blog/</link>
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 07:01:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 07:01:17 +0000</lastBuildDate>
+    <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s new in network observability 1.9</title>
+      <link>/articles/article-2025-09-05-7761/</link>
+      <pubDate>Fri, 05 Sep 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7761/</guid>
+      <description>🚀 Exciting updates in Network Observability 1.9! This version enhances insights into network traffic with features like IPsec tracking, flowlogs-pipeline filter queries, and UDN mapping. It is compatible with Red Hat OpenShift Container Platform 4.19 and older releases. Learn how to enable IPsec and explore the new CLI enhancements for capturing flows, metrics, and packets. For detailed installation instructions, refer to the OpenShift documentation. 📊🔍 #NetworkObservability #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Customize your deployments with the Red Hat Developer Hub Operator</title>
+      <link>/articles/article-2025-09-04-7736/</link>
+      <pubDate>Thu, 04 Sep 2025 16:53:23 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7736/</guid>
+      <description>🚀 The Red Hat Developer Hub enhances internal developer portals when paired with Red Hat OpenShift. Key updates in version 1.2 include: - A new Argo CD front-end plug-in for better UX. - Enhanced orchestration capabilities for software templates. - Improved provenance tracking through ScaffoldedFrom metadata. Deployment is streamlined using the Red Hat Developer Hub Operator. Access your Backstage instance easily with the provided route. For detailed customization, a Backstage custom resource&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to migrate from Fluentd to Vector in OpenShift 4</title>
+      <link>/articles/article-2025-09-04-7703/</link>
+      <pubDate>Thu, 04 Sep 2025 07:01:18 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7703/</guid>
+      <description>🔄 &lt;strong&gt;Migrating from Fluentd to Vector in OpenShift 4&lt;/strong&gt; 🔄 This article provides a comprehensive guide for migrating the default log collector in OpenShift 4 from Fluentd to Vector. With Fluentd being deprecated in Logging 5.X, this transition is essential to access the new features in Logging 6.0. Vector serves as a log collector and analyzer, simplifying the processing of logs for real-time analysis. It allows logs to be sent to destinations like Amazon CloudWatch and supports JSON formatted&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How platform engineering accelerates enterprise AI adoption</title>
+      <link>/articles/article-2025-09-04-7704/</link>
+      <pubDate>Thu, 04 Sep 2025 07:01:16 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7704/</guid>
+      <description>🚀 Platform engineering is reshaping enterprise AI adoption. By integrating technologies like Kafka and service mesh, organizations can enhance AI deployments. 🔍 Key challenges include reproducibility and compliance. Platform engineering addresses these by providing self-service access and standardized environments, enabling developers and data scientists to innovate efficiently. 💻 Red Hat OpenShift and Developer Hub are pivotal in making AI resources accessible while ensuring governance. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to deploy Azure Red Hat OpenShift using Terraform</title>
+      <link>/articles/article-2025-09-04-7705/</link>
+      <pubDate>Thu, 04 Sep 2025 07:01:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7705/</guid>
+      <description>🚀 Learn how to deploy Azure Red Hat OpenShift using Terraform! This article covers the steps to set up and configure your Azure infrastructure with Terraform, ensuring compliance using Azure policies. It emphasizes the importance of governance rules and the use of policy-as-code for better resource management. Key prerequisites include Terraform CLI, Azure CLI, and proper role assignments. The setup involves creating a network, configuring security, and deploying the OpenShift cluster with&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Effective observability with Red Hat build of OpenTelemetry</title>
+      <link>/articles/article-2025-09-03-7652/</link>
+      <pubDate>Wed, 03 Sep 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7652/</guid>
+      <description>🚀 Discover the power of observability with the Red Hat build of OpenTelemetry! This framework enables comprehensive metrics and logs reporting, crucial for monitoring your applications and infrastructure. It simplifies data collection and management while providing scalability and flexibility. Key features include: - Unified data collection - Seamless integration with monitoring tools - Enterprise-grade support from Red Hat Explore how to get started and enhance your observability practices!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>vLLM with torch.compile: Efficient LLM inference on PyTorch</title>
+      <link>/articles/article-2025-09-03-7653/</link>
+      <pubDate>Wed, 03 Sep 2025 07:01:11 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7653/</guid>
+      <description>🚀 Efficient LLM inference is crucial in today’s diverse tech landscape. The article discusses how &lt;strong&gt;torch.compile&lt;/strong&gt;, PyTorch&amp;rsquo;s JIT compiler, streamlines performance by automatically optimizing kernels. This reduces the burden on developers, allowing them to focus on model design rather than manual tuning. Incorporated into &lt;strong&gt;vLLM&lt;/strong&gt;, torch.compile enhances usability and performance through custom compiler passes. It supports dynamic batch sizes and improves startup times with caching&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your LLM is too large: How I generate production-ready failure analysis on a toaster</title>
+      <link>/articles/article-2025-09-02-7602/</link>
+      <pubDate>Tue, 02 Sep 2025 07:00:53 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7602/</guid>
+      <description>Running production-grade Kubernetes failure analysis on a cost-effective edge device can streamline troubleshooting. Using Llama 3.2:3B with 4-bit quantization, root cause analysis is achieved in just 70 seconds. This method incorporates pattern preprocessing to efficiently identify known failures without overwhelming the system with raw logs. Real-world results show a significant cost reduction, from $0.30-3.00 per analysis to less than $0.001, while providing actionable insights. Explore&amp;hellip;</description>
+    </item>
     <item>
       <title>Migrate your OpenShift logging stack from Elasticsearch to Loki</title>
-      <link>http://localhost:1313/articles/article-7578/</link>
+      <link>/articles/article-2025-09-01-7578/</link>
       <pubDate>Mon, 01 Sep 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7578/</guid>
+      <guid>/articles/article-2025-09-01-7578/</guid>
       <description>🚀 To leverage the latest logging features in Red Hat OpenShift 6.0, migrating from Elasticsearch to Loki is essential. This guide details how to test changes in development and plan for production implementations. Loki, a scalable log aggregation system, offers improved performance by using log labels. It allows multiple tenants, which simplifies resource management. 🔄 The migration process involves running both stacks in parallel, ensuring old logs remain accessible via Elasticsearch while&amp;hellip;</description>
     </item>
     <item>
       <title>Migrating Ansible Automation Platform 2.4 to 2.5</title>
-      <link>http://localhost:1313/articles/article-7509/</link>
+      <link>/articles/article-2025-08-29-7509/</link>
       <pubDate>Fri, 29 Aug 2025 07:01:20 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7509/</guid>
-      <description>ð Migrating from Ansible Automation Platform 2.4 to 2.5 involves careful steps to ensure a smooth transition. This article outlines the preparation, export, and import process using the configify.aapconfig collection. Key points include: - Ensure Ansible Automation Platform 2.5 is deployed separately. - Follow similar steps as migrating from AWX 25. - Focus on user roles and authentication changes in the new version. For detailed steps, refer to the article! ð #Ansible #Automation #DevOps&amp;hellip;</description>
+      <guid>/articles/article-2025-08-29-7509/</guid>
+      <description>🚀 Migrating from Ansible Automation Platform 2.4 to 2.5 involves careful steps to ensure a smooth transition. This article outlines the preparation, export, and import process using the configify.aapconfig collection. Key points include: - Ensure Ansible Automation Platform 2.5 is deployed separately. - Follow similar steps as migrating from AWX 25. - Focus on user roles and authentication changes in the new version. For detailed steps, refer to the article! 📜 #Ansible #Automation #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>Multicluster resiliency with global load balancing and mesh federation</title>
-      <link>http://localhost:1313/articles/article-7451/</link>
+      <link>/articles/article-2025-08-28-7451/</link>
       <pubDate>Thu, 28 Aug 2025 07:01:21 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7451/</guid>
-      <description>Explore the new architecture for multicluster resiliency using global load balancing and mesh federation! ð This approach combines a global load balancer and a federated service mesh to enhance service availability and disaster recovery, particularly for stateless workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and Red Hat Connectivity Link now allow for more robust deployments. Learn how to configure these tools for optimal performance! #Multicluster #RedHat #CloudComputing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7451/</guid>
+      <description>Explore the new architecture for multicluster resiliency using global load balancing and mesh federation! 🌐 This approach combines a global load balancer and a federated service mesh to enhance service availability and disaster recovery, particularly for stateless workloads. New capabilities in Red Hat OpenShift Service Mesh 3.0 and Red Hat Connectivity Link now allow for more robust deployments. Learn how to configure these tools for optimal performance! #Multicluster #RedHat #CloudComputing&amp;hellip;</description>
     </item>
     <item>
       <title>Simplify local prototyping with Camel JBang infrastructure</title>
-      <link>http://localhost:1313/articles/article-7452/</link>
+      <link>/articles/article-2025-08-28-7452/</link>
       <pubDate>Thu, 28 Aug 2025 07:01:18 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7452/</guid>
-      <description>ð Apache Camel simplifies integration with systems like databases and APIs through minimal coding. ð Camel JBang, a command-line interface, enhances prototyping by allowing rapid creation and testing of integration flows without complex setups. ð§ Its infra command quickly launches backends like Kafka or ActiveMQ, streamlining the development process and reducing setup time. For more details, check out the full article! #ApacheCamel #CamelJBang #Integration #Development #Prototyping</description>
+      <guid>/articles/article-2025-08-28-7452/</guid>
+      <description>🚀 Apache Camel simplifies integration with systems like databases and APIs through minimal coding. 🌟 Camel JBang, a command-line interface, enhances prototyping by allowing rapid creation and testing of integration flows without complex setups. 🔧 Its infra command quickly launches backends like Kafka or ActiveMQ, streamlining the development process and reducing setup time. For more details, check out the full article! #ApacheCamel #CamelJBang #Integration #Development #Prototyping</description>
     </item>
     <item>
       <title>Smart deployments at scale: Leveraging ApplicationSets and Helm with cluster labels in Red Hat Advanced Cluster Management for Kubernetes</title>
-      <link>http://localhost:1313/articles/article-7203/</link>
+      <link>/articles/article-2025-08-27-7203/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7203/</guid>
-      <description>Managing multiple Kubernetes clusters can be complex, but Red Hat Advanced Cluster Management simplifies this process. ð It offers a centralized platform to oversee the entire lifecycle of Kubernetes clusters, ensuring consistent health monitoring and policy enforcement across environments. Combining ApplicationSets and Helm with cluster labels allows for tailored deployments, adapting configurations based on specific cluster characteristics. This integration streamlines operations and&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7203/</guid>
+      <description>Managing multiple Kubernetes clusters can be complex, but Red Hat Advanced Cluster Management simplifies this process. 🌐 It offers a centralized platform to oversee the entire lifecycle of Kubernetes clusters, ensuring consistent health monitoring and policy enforcement across environments. Combining ApplicationSets and Helm with cluster labels allows for tailored deployments, adapting configurations based on specific cluster characteristics. This integration streamlines operations and&amp;hellip;</description>
     </item>
     <item>
       <title>How to verify container signatures in disconnected OpenShift</title>
-      <link>http://localhost:1313/articles/article-7204/</link>
+      <link>/articles/article-2025-08-27-7204/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7204/</guid>
-      <description>ð Discover how to verify container signatures in disconnected OpenShift environments using the latest tools from sigstore! The article explores the use of oc-mirror v2 in Red Hat OpenShift 4.19, allowing mirroring of container images and their cryptographic signatures. It provides a proof of concept and detailed configuration steps for enabling signature verification with CoSign. Check it out for practical insights! ð ï¸ð #OpenShift #ContainerSecurity #Sigstore #RedHat #DevOps</description>
+      <guid>/articles/article-2025-08-27-7204/</guid>
+      <description>🔍 Discover how to verify container signatures in disconnected OpenShift environments using the latest tools from sigstore! The article explores the use of oc-mirror v2 in Red Hat OpenShift 4.19, allowing mirroring of container images and their cryptographic signatures. It provides a proof of concept and detailed configuration steps for enabling signature verification with CoSign. Check it out for practical insights! 🛠️🔒 #OpenShift #ContainerSecurity #Sigstore #RedHat #DevOps</description>
     </item>
     <item>
       <title>Event-driven ingestion of Keycloak entities</title>
-      <link>http://localhost:1313/articles/article-7205/</link>
+      <link>/articles/article-2025-08-27-7205/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7205/</guid>
-      <description>ð Discover a solution to delayed updates in entity information with the Backstage Events System! This article details a Proof of Concept (PoC) that enables near real-time synchronization of Keycloak entities into Red Hat Developer Hub (RHDH). Key benefits include immediate updates and efficient, incremental syncing, reducing API calls and CPU usage. Learn how to set up the PoC and optimize your developer catalog! ð Check out the PoC code: [GitHub Link] #Keycloak #RedHat #EventDriven&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7205/</guid>
+      <description>🚀 Discover a solution to delayed updates in entity information with the Backstage Events System! This article details a Proof of Concept (PoC) that enables near real-time synchronization of Keycloak entities into Red Hat Developer Hub (RHDH). Key benefits include immediate updates and efficient, incremental syncing, reducing API calls and CPU usage. Learn how to set up the PoC and optimize your developer catalog! 🔗 Check out the PoC code: [GitHub Link] #Keycloak #RedHat #EventDriven&amp;hellip;</description>
     </item>
     <item>
       <title>BGP dynamic routing with Fast Data Path on RHOSO 18</title>
-      <link>http://localhost:1313/articles/article-7206/</link>
+      <link>/articles/article-2025-08-27-7206/</link>
       <pubDate>Wed, 27 Aug 2025 07:01:08 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7206/</guid>
-      <description>Exploring the performance of dynamic routing with OVN-BGP-Agent and Fast Data Path on RHOSO 18 has yielded insightful findings. ð A recent Proof of Concept assessed throughput, packet loss, stability, and resource utilization using Trex and BIRD. The results show high throughput, especially with large frames, and stable performance over extended periods. ð However, there are limitations, including bottlenecks for small packets and some manual configuration challenges. Insights from this study&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7206/</guid>
+      <description>Exploring the performance of dynamic routing with OVN-BGP-Agent and Fast Data Path on RHOSO 18 has yielded insightful findings. 🚀 A recent Proof of Concept assessed throughput, packet loss, stability, and resource utilization using Trex and BIRD. The results show high throughput, especially with large frames, and stable performance over extended periods. 📈 However, there are limitations, including bottlenecks for small packets and some manual configuration challenges. Insights from this study&amp;hellip;</description>
     </item>
     <item>
       <title>A VM tuning case study: Balancing power and performance on AMD processors</title>
-      <link>http://localhost:1313/articles/article-7173/</link>
+      <link>/articles/article-2025-08-26-7173/</link>
       <pubDate>Tue, 26 Aug 2025 07:01:25 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7173/</guid>
-      <description>During a server deployment, a significant performance gap was found between bare metal and virtual machine (VM) workloads. Optimizations, including adjusting system profiles and enabling CPU scaling drivers, were implemented. These changes resulted in notable improvements in VM performance, with the tuned VM even surpassing the original bare-metal completion times. The study highlights how targeted adjustments can lead to substantial gains in efficiency. ð§ð»â¡ï¸ #VMTuning&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7173/</guid>
+      <description>During a server deployment, a significant performance gap was found between bare metal and virtual machine (VM) workloads. Optimizations, including adjusting system profiles and enabling CPU scaling drivers, were implemented. These changes resulted in notable improvements in VM performance, with the tuned VM even surpassing the original bare-metal completion times. The study highlights how targeted adjustments can lead to substantial gains in efficiency. 🔧💻⚡️ #VMTuning&amp;hellip;</description>
     </item>
     <item>
       <title>Optimize GPU utilization with Kueue and KEDA</title>
-      <link>http://localhost:1313/articles/article-7174/</link>
+      <link>/articles/article-2025-08-26-7174/</link>
       <pubDate>Tue, 26 Aug 2025 07:01:23 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7174/</guid>
-      <description>Explore how integrating Kueue and KEDA can optimize GPU utilization in AI workloads! ð This proof of concept showcases a method to enhance resource efficiency on OpenShift AI. The combination allows scaling long-running workloads to zero when idle, reducing costs significantly. Learn how to implement this strategy with a focus on resource management and effective workload scheduling. ðð» #AI #GPUUtilization #OpenShift #Kubernetes #CloudComputing</description>
+      <guid>/articles/article-2025-08-26-7174/</guid>
+      <description>Explore how integrating Kueue and KEDA can optimize GPU utilization in AI workloads! 🚀 This proof of concept showcases a method to enhance resource efficiency on OpenShift AI. The combination allows scaling long-running workloads to zero when idle, reducing costs significantly. Learn how to implement this strategy with a focus on resource management and effective workload scheduling. 📊💻 #AI #GPUUtilization #OpenShift #Kubernetes #CloudComputing</description>
     </item>
     <item>
       <title>Implement AI safeguards with Python and Llama Stack</title>
-      <link>http://localhost:1313/articles/article-7175/</link>
+      <link>/articles/article-2025-08-26-7175/</link>
       <pubDate>Tue, 26 Aug 2025 07:01:20 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7175/</guid>
-      <description>ð Exploring AI safety with Llama Stack! This article highlights how to implement guardrails in AI applications using Python and Llama Stack. It introduces two main built-in guardrails: Llama Guard, which filters unsafe content, and Prompt Guard, designed to prevent circumvention of safety measures. The post provides insights into setting up Llama Stack and utilizing these guardrails effectively in Python. #AI #LlamaStack #Python #MachineLearning #AIsafety</description>
+      <guid>/articles/article-2025-08-26-7175/</guid>
+      <description>🚀 Exploring AI safety with Llama Stack! This article highlights how to implement guardrails in AI applications using Python and Llama Stack. It introduces two main built-in guardrails: Llama Guard, which filters unsafe content, and Prompt Guard, designed to prevent circumvention of safety measures. The post provides insights into setting up Llama Stack and utilizing these guardrails effectively in Python. #AI #LlamaStack #Python #MachineLearning #AIsafety</description>
     </item>
     <item>
       <title>LLM Compressor 0.7.0 release recap</title>
-      <link>http://localhost:1313/articles/article-6534/</link>
+      <link>/articles/article-2025-08-25-6534/</link>
       <pubDate>Mon, 25 Aug 2025 16:09:49 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6534/</guid>
-      <description>ð LLM Compressor has released version 0.7.0, enhancing performance for quantizing large language models. Key updates include: 1ï¸â£ New QuIP and SpinQuant-style transforms for improved accuracy. 2ï¸â£ Mixed-precision support with FP4 enhancements for better layer quantization. 3ï¸â£ DeepSeek v3-style block quantization for efficient compression without calibration data. Explore more about these features! #LLMCompressor #AI #MachineLearning #Quantization #TechUpdate</description>
+      <guid>/articles/article-2025-08-25-6534/</guid>
+      <description>🚀 LLM Compressor has released version 0.7.0, enhancing performance for quantizing large language models. Key updates include: 1️⃣ New QuIP and SpinQuant-style transforms for improved accuracy. 2️⃣ Mixed-precision support with FP4 enhancements for better layer quantization. 3️⃣ DeepSeek v3-style block quantization for efficient compression without calibration data. Explore more about these features! #LLMCompressor #AI #MachineLearning #Quantization #TechUpdate</description>
     </item>
     <item>
       <title>What is an image mode 3-way merge?</title>
-      <link>http://localhost:1313/articles/article-6331/</link>
+      <link>/articles/article-2025-08-25-6331/</link>
       <pubDate>Mon, 25 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6331/</guid>
-      <description>ð Curious about the 3-way merge in Red Hat Enterprise Linux (RHEL)? In image mode, a new filesystem image is created to manage updates. This process includes a third version, older than the current and new images, to reduce conflicts. The merge prioritizes local changes, ensuring personalized settings remain intact. Utilizing OSTree, RHEL manages multiple OS installations effectively, making the merging process smoother. ð¥ï¸â¨ #RedHat #Linux #3WayMerge #OSTree #TechUpdates</description>
+      <guid>/articles/article-2025-08-25-6331/</guid>
+      <description>🔍 Curious about the 3-way merge in Red Hat Enterprise Linux (RHEL)? In image mode, a new filesystem image is created to manage updates. This process includes a third version, older than the current and new images, to reduce conflicts. The merge prioritizes local changes, ensuring personalized settings remain intact. Utilizing OSTree, RHEL manages multiple OS installations effectively, making the merging process smoother. 🖥️✨ #RedHat #Linux #3WayMerge #OSTree #TechUpdates</description>
     </item>
     <item>
       <title>Least-privilege installation of OpenShift IPI on AWS</title>
-      <link>http://localhost:1313/articles/article-6295/</link>
+      <link>/articles/article-2025-08-22-6295/</link>
       <pubDate>Fri, 22 Aug 2025 07:16:18 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6295/</guid>
-      <description>ð The latest guide on installing OpenShift IPI on AWS emphasizes a secure, least-privilege approach. By using the cloud credential operator utility (ccoctl) and setting credentials mode to manual, users can create narrowly-defined IAM roles. ð ï¸ This method eliminates long-lived AWS access keys, relying instead on short-term AWS STS credentials. The ccoctl &amp;ndash;dry-run feature allows for auditing IAM policies before applying them, enhancing security. ð Key points include understanding the IAM&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6295/</guid>
+      <description>🔒 The latest guide on installing OpenShift IPI on AWS emphasizes a secure, least-privilege approach. By using the cloud credential operator utility (ccoctl) and setting credentials mode to manual, users can create narrowly-defined IAM roles. 🛠️ This method eliminates long-lived AWS access keys, relying instead on short-term AWS STS credentials. The ccoctl &amp;ndash;dry-run feature allows for auditing IAM policies before applying them, enhancing security. 📊 Key points include understanding the IAM&amp;hellip;</description>
     </item>
     <item>
       <title>Integrate Azure DevOps into Red Hat Developer Hub workflows</title>
-      <link>http://localhost:1313/articles/article-6296/</link>
+      <link>/articles/article-2025-08-22-6296/</link>
       <pubDate>Fri, 22 Aug 2025 07:16:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6296/</guid>
-      <description>ð Exciting news for developers! Integrating Azure DevOps with Red Hat Developer Hub creates a seamless CI/CD experience. Azure DevOps enhances source control and deployment, while Red Hat Developer Hub centralizes tools and documentation. Key plug-ins include Azure Scaffolder and Azure DevOps, enabling improved collaboration and faster delivery. For setup, ensure Azure Entra ID is configured and follow the detailed steps for integration. Learn more about optimizing your workflows!&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6296/</guid>
+      <description>🚀 Exciting news for developers! Integrating Azure DevOps with Red Hat Developer Hub creates a seamless CI/CD experience. Azure DevOps enhances source control and deployment, while Red Hat Developer Hub centralizes tools and documentation. Key plug-ins include Azure Scaffolder and Azure DevOps, enabling improved collaboration and faster delivery. For setup, ensure Azure Entra ID is configured and follow the detailed steps for integration. Learn more about optimizing your workflows!&amp;hellip;</description>
     </item>
     <item>
       <title>How to auto-register Red Hat Edge Manager with MicroShift</title>
-      <link>http://localhost:1313/articles/article-5016/</link>
+      <link>/articles/article-2025-08-21-5016/</link>
       <pubDate>Thu, 21 Aug 2025 07:01:31 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5016/</guid>
-      <description>ð Red Hat Edge Manager, in Technology Preview, offers a fleet management solution for edge devices. It ensures security, simplifies management, and provides real-time visibility. ð§ The article details how to auto-register Edge Manager with Red Hat MicroShift using Red Hat Advanced Cluster Management for Kubernetes 2.13. ð Key steps include enabling Edge Manager, setting up the flightctl command, and configuring auto-registration. Explore how these tools can enhance your edge device&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5016/</guid>
+      <description>🚀 Red Hat Edge Manager, in Technology Preview, offers a fleet management solution for edge devices. It ensures security, simplifies management, and provides real-time visibility. 🔧 The article details how to auto-register Edge Manager with Red Hat MicroShift using Red Hat Advanced Cluster Management for Kubernetes 2.13. 📋 Key steps include enabling Edge Manager, setting up the flightctl command, and configuring auto-registration. Explore how these tools can enhance your edge device&amp;hellip;</description>
     </item>
     <item>
       <title>The hidden pitfalls of Kafka tiered storage</title>
-      <link>http://localhost:1313/articles/article-5019/</link>
+      <link>/articles/article-2025-08-21-5019/</link>
       <pubDate>Thu, 21 Aug 2025 07:01:29 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5019/</guid>
-      <description>ð Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like &lt;code&gt;fetch.max.bytes&lt;/code&gt; and &lt;code&gt;max.partition.fetch.bytes&lt;/code&gt;. Kafka 4.2.0 promises improvements to address these issues, enhancing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5019/</guid>
+      <description>🚀 Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like &lt;code&gt;fetch.max.bytes&lt;/code&gt; and &lt;code&gt;max.partition.fetch.bytes&lt;/code&gt;. Kafka 4.2.0 promises improvements to address these issues, enhancing&amp;hellip;</description>
     </item>
     <item>
       <title>Unleash controlled chaos with krknctl</title>
-      <link>http://localhost:1313/articles/article-5020/</link>
+      <link>/articles/article-2025-08-21-5020/</link>
       <pubDate>Thu, 21 Aug 2025 07:01:25 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5020/</guid>
-      <description>Unleash the power of chaos engineering with &lt;strong&gt;krknctl&lt;/strong&gt;! ð This command-line interface simplifies testing system resilience by orchestrating chaos scenarios using container images from krkn-hub. Key features include instant autocompletion, dynamic graph orchestration, and versatile container support with Podman or Docker. With pre-compiled binaries available, you can start your chaos engineering journey in minutes. Discover more and elevate your systems today! ðð» #ChaosEngineering #DevOps&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5020/</guid>
+      <description>Unleash the power of chaos engineering with &lt;strong&gt;krknctl&lt;/strong&gt;! 🎉 This command-line interface simplifies testing system resilience by orchestrating chaos scenarios using container images from krkn-hub. Key features include instant autocompletion, dynamic graph orchestration, and versatile container support with Podman or Docker. With pre-compiled binaries available, you can start your chaos engineering journey in minutes. Discover more and elevate your systems today! 🔍💻 #ChaosEngineering #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>Your agent, your rules: A deep dive into the Responses API with Llama Stack</title>
-      <link>http://localhost:1313/articles/article-5021/</link>
+      <link>/articles/article-2025-08-20-5021/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:24 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5021/</guid>
-      <description>ð The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5021/</guid>
+      <description>🔍 The OpenAI Responses API simplifies AI application development by managing complex orchestration. However, it is tied to specific models and a proprietary cloud service. Enter Llama Stack, an open-source server that offers a compatible Responses API and lets you deploy on your hardware with your chosen models. It supports advanced features like Retrieval-augmented Generation (RAG) for accurate answers without compromising document privacy. Explore how Llama Stack can transform your AI&amp;hellip;</description>
     </item>
     <item>
       <title>Build a container image for a Quarkus project using Buildpacks</title>
-      <link>http://localhost:1313/articles/article-5024/</link>
+      <link>/articles/article-2025-08-20-5024/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:22 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5024/</guid>
-      <description>ð Learn how to build container images for your Quarkus projects using the Container Image Buildpack extension! This method eliminates the need for a Dockerfile, streamlining your CI/CD workflow. ð§ The extension leverages the Java Buildpack Client to simplify application deployment in Kubernetes. Ensure you have Podman/Docker, JDK 21+, and Maven 3.9+ to get started. ð¦ With just a few Maven commands, you can create, build, and push your images to container registries effortlessly. #Quarkus&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5024/</guid>
+      <description>🚀 Learn how to build container images for your Quarkus projects using the Container Image Buildpack extension! This method eliminates the need for a Dockerfile, streamlining your CI/CD workflow. 🔧 The extension leverages the Java Buildpack Client to simplify application deployment in Kubernetes. Ensure you have Podman/Docker, JDK 21+, and Maven 3.9+ to get started. 📦 With just a few Maven commands, you can create, build, and push your images to container registries effortlessly. #Quarkus&amp;hellip;</description>
     </item>
     <item>
       <title>How I built an agentic application for Docling with MCP</title>
-      <link>http://localhost:1313/articles/article-5025/</link>
+      <link>/articles/article-2025-08-20-5025/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:20 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5025/</guid>
-      <description>ð Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. ð ï¸ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&amp;rsquo;s still untapped potential in fully utilizing MCPâs capabilities. ð My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor&amp;hellip;.</description>
+      <guid>/articles/article-2025-08-20-5025/</guid>
+      <description>🌐 Exciting developments in AI with the Model Context Protocol (MCP) from Anthropic! Released in November 2024, MCP enables large language models to communicate seamlessly with various tools. 🛠️ With thousands of open-source MCP servers available, many developers are now creating agentic applications. However, there&amp;rsquo;s still untapped potential in fully utilizing MCP’s capabilities. 📄 My journey began during my internship at Red Hat, where I worked with Docling, an open-source data preprocessor&amp;hellip;.</description>
     </item>
     <item>
       <title>Building trustworthy AI: A developer&#39;s guide to production-ready systems</title>
-      <link>http://localhost:1313/articles/article-5028/</link>
+      <link>/articles/article-2025-08-20-5028/</link>
       <pubDate>Wed, 20 Aug 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5028/</guid>
-      <description>ð Building trustworthy AI is essential in today&amp;rsquo;s development landscape. As AI engineers and developers, focusing on trust, safety, and transparency is crucial for creating reliable applications. ð AI systems should be assessed based on their potential impact, categorized into high, moderate, and minimal tiers. This impacts design choices and operational guardrails. ð¡ Best practices include documenting training data, testing for bias, ensuring explainability, and providing human&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5028/</guid>
+      <description>🌐 Building trustworthy AI is essential in today&amp;rsquo;s development landscape. As AI engineers and developers, focusing on trust, safety, and transparency is crucial for creating reliable applications. 🔍 AI systems should be assessed based on their potential impact, categorized into high, moderate, and minimal tiers. This impacts design choices and operational guardrails. 💡 Best practices include documenting training data, testing for bias, ensuring explainability, and providing human&amp;hellip;</description>
     </item>
     <item>
       <title>Build on multi-arch clusters with builds for Red Hat OpenShift</title>
-      <link>http://localhost:1313/articles/article-5030/</link>
+      <link>/articles/article-2025-08-19-5030/</link>
       <pubDate>Tue, 19 Aug 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5030/</guid>
-      <description>ð Discover how to streamline multi-arch builds with Red Hat OpenShift! This article explains the builds for Red Hat OpenShift operator, allowing you to create a single build object for mixed architecture clusters. Key steps include installing the oc client, configuring the ClusterBuildStrategy, and verifying image builds for different architectures. Learn more about simplifying your build process! #RedHat #OpenShift #MultiArch #CloudComputing #DevOps</description>
+      <guid>/articles/article-2025-08-19-5030/</guid>
+      <description>🚀 Discover how to streamline multi-arch builds with Red Hat OpenShift! This article explains the builds for Red Hat OpenShift operator, allowing you to create a single build object for mixed architecture clusters. Key steps include installing the oc client, configuring the ClusterBuildStrategy, and verifying image builds for different architectures. Learn more about simplifying your build process! #RedHat #OpenShift #MultiArch #CloudComputing #DevOps</description>
     </item>
     <item>
       <title>How to enhance Agent2Agent (A2A) security</title>
-      <link>http://localhost:1313/articles/article-5032/</link>
+      <link>/articles/article-2025-08-19-5032/</link>
       <pubDate>Tue, 19 Aug 2025 07:01:14 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5032/</guid>
-      <description>ð The Agent2Agent (A2A) protocol by Google facilitates communication between AI agents, allowing seamless interaction across different vendors. Each agent can serve as a client or remote agent depending on the context. ð Communication involves retrieving an Agent Card, which contains essential details for task execution. Security measures such as HTTPS and authentication protocols are crucial for protecting these interactions. ð¡ï¸ Developers implementing A2A should remain vigilant about&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5032/</guid>
+      <description>🔒 The Agent2Agent (A2A) protocol by Google facilitates communication between AI agents, allowing seamless interaction across different vendors. Each agent can serve as a client or remote agent depending on the context. 🌐 Communication involves retrieving an Agent Card, which contains essential details for task execution. Security measures such as HTTPS and authentication protocols are crucial for protecting these interactions. 🛡️ Developers implementing A2A should remain vigilant about&amp;hellip;</description>
     </item>
     <item>
       <title>Getting started with llm-d for distributed AI inference</title>
-      <link>http://localhost:1313/articles/article-5035/</link>
+      <link>/articles/article-2025-08-19-5035/</link>
       <pubDate>Tue, 19 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5035/</guid>
-      <description>ð As large language models (LLMs) evolve, so must their infrastructure. Introducing &lt;strong&gt;llm-d&lt;/strong&gt;, a Kubernetes-native distributed inference stack designed to enhance AI applications. It optimizes for complex reasoning, long-running prompts, and modular scaling. Key features include smart load balancing, split-phase inference, and disaggregated caching for efficiency. This innovation addresses the unique challenges of LLM inference, making it more cost-effective and performant. Join the growing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5035/</guid>
+      <description>🌐 As large language models (LLMs) evolve, so must their infrastructure. Introducing &lt;strong&gt;llm-d&lt;/strong&gt;, a Kubernetes-native distributed inference stack designed to enhance AI applications. It optimizes for complex reasoning, long-running prompts, and modular scaling. Key features include smart load balancing, split-phase inference, and disaggregated caching for efficiency. This innovation addresses the unique challenges of LLM inference, making it more cost-effective and performant. Join the growing&amp;hellip;</description>
     </item>
     <item>
       <title>Manage Advanced Cluster Management policies using Ansible</title>
-      <link>http://localhost:1313/articles/article-4991/</link>
+      <link>/articles/article-2025-08-14-4991/</link>
       <pubDate>Thu, 14 Aug 2025 07:01:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4991/</guid>
+      <guid>/articles/article-2025-08-14-4991/</guid>
       <description>Managing multiple Kubernetes clusters can be complex, especially with the need for consistent security and compliance. This article discusses how Red Hat Advanced Cluster Management simplifies this process through centralized management. Ansible automation enhances policy management by ensuring consistency, repeatability, and compliance across clusters. It also covers the use of the external secrets operator for secure credential management with AWS Secrets Manager. For more details, check&amp;hellip;</description>
     </item>
     <item>
       <title>Integrate vLLM inference on macOS/iOS with Alamofire and Apple Foundation</title>
-      <link>http://localhost:1313/articles/article-4992/</link>
+      <link>/articles/article-2025-08-14-4992/</link>
       <pubDate>Thu, 14 Aug 2025 07:01:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4992/</guid>
-      <description>Unlock the potential of vLLM inference in your macOS/iOS apps! ð±ð» This article explores how to use Apple Foundation and Alamofire for seamless communication with vLLM via an OpenAI-compatible Chat Completions endpoint. It covers essential topics such as data encoding, error handling, and processing streaming results. For hands-on experience, grab the sample code from GitHub and start building! ðð #vLLM #macOS #iOSDevelopment #OpenAI #Alamofire</description>
+      <guid>/articles/article-2025-08-14-4992/</guid>
+      <description>Unlock the potential of vLLM inference in your macOS/iOS apps! 📱💻 This article explores how to use Apple Foundation and Alamofire for seamless communication with vLLM via an OpenAI-compatible Chat Completions endpoint. It covers essential topics such as data encoding, error handling, and processing streaming results. For hands-on experience, grab the sample code from GitHub and start building! 🚀🔗 #vLLM #macOS #iOSDevelopment #OpenAI #Alamofire</description>
     </item>
     <item>
       <title>Enhancing system resilience with Krkn chaos dashboard</title>
-      <link>http://localhost:1313/articles/article-4993/</link>
+      <link>/articles/article-2025-08-14-4993/</link>
       <pubDate>Thu, 14 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4993/</guid>
-      <description>ð§ In today&amp;rsquo;s digital landscape, system resilience is crucial for businesses. The Krkn chaos dashboard is an open-source tool designed to enhance Kubernetes environments by simulating failures to identify vulnerabilities. ð The dashboard allows teams to easily design and monitor chaos experiments, providing real-time updates on system health and generating detailed reports on failures. ð» With user-friendly features, it encourages regular chaos testing, helping teams improve their system&amp;rsquo;s&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-4993/</guid>
+      <description>🔧 In today&amp;rsquo;s digital landscape, system resilience is crucial for businesses. The Krkn chaos dashboard is an open-source tool designed to enhance Kubernetes environments by simulating failures to identify vulnerabilities. 📊 The dashboard allows teams to easily design and monitor chaos experiments, providing real-time updates on system health and generating detailed reports on failures. 💻 With user-friendly features, it encourages regular chaos testing, helping teams improve their system&amp;rsquo;s&amp;hellip;</description>
     </item>
     <item>
       <title>How to secure your Jenkins pipeline with Red Hat Advanced Developer Suite</title>
-      <link>http://localhost:1313/articles/article-4994/</link>
+      <link>/articles/article-2025-08-14-4994/</link>
       <pubDate>Thu, 14 Aug 2025 07:01:08 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4994/</guid>
-      <description>Enhance your Jenkins pipeline security with Red Hat Advanced Developer Suite! ð This suite integrates cryptographic signing, SBOM validation, and runtime enforcement to ensure a secure CI/CD process. Each stageâfrom commit to deploymentânow includes proof of compliance. Key features include: - Trusted Artifact Signer for image signing. - Profile Analyzer for risk assessment. - Advanced Cluster Security for policy enforcement. Learn how to keep your deployment velocity while lowering risks! ðð§&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-4994/</guid>
+      <description>Enhance your Jenkins pipeline security with Red Hat Advanced Developer Suite! 🔒 This suite integrates cryptographic signing, SBOM validation, and runtime enforcement to ensure a secure CI/CD process. Each stage—from commit to deployment—now includes proof of compliance. Key features include: - Trusted Artifact Signer for image signing. - Profile Analyzer for risk assessment. - Advanced Cluster Security for policy enforcement. Learn how to keep your deployment velocity while lowering risks! 🚀🔧&amp;hellip;</description>
     </item>
     <item>
       <title>How to deploy an image mode update in offline and air-gapped environments</title>
-      <link>http://localhost:1313/articles/article-4884/</link>
+      <link>/articles/article-2025-08-13-4884/</link>
       <pubDate>Wed, 13 Aug 2025 07:01:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4884/</guid>
-      <description>Need to deploy image mode updates in offline or air-gapped environments? Red Hat Enterprise Linux offers a flexible solution that doesn&amp;rsquo;t rely on network connections. This method is ideal for security or hardware limitations. ðð Key steps include preparing an external storage device, copying the necessary images, and applying updates directly to the offline system. While effective, this approach can be time-consuming and requires on-site deployment. If your system can connect online, consider&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4884/</guid>
+      <description>Need to deploy image mode updates in offline or air-gapped environments? Red Hat Enterprise Linux offers a flexible solution that doesn&amp;rsquo;t rely on network connections. This method is ideal for security or hardware limitations. 🌐🔒 Key steps include preparing an external storage device, copying the necessary images, and applying updates directly to the offline system. While effective, this approach can be time-consuming and requires on-site deployment. If your system can connect online, consider&amp;hellip;</description>
     </item>
     <item>
       <title>How to install Offline Knowledge Portal on a local system</title>
-      <link>http://localhost:1313/articles/article-4885/</link>
+      <link>/articles/article-2025-08-13-4885/</link>
       <pubDate>Wed, 13 Aug 2025 07:01:05 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4885/</guid>
-      <description>Unlock the Red Hat Offline Knowledge Portal for easy access to documentation and guides without an internet connection! ðð» To install, ensure you have a Red Hat Satellite subscription, a web browser, and enough disk space. Follow these steps: 1ï¸â£ Generate your access key. 2ï¸â£ Log in to the registry and pull the image. 3ï¸â£ Run the podman image to verify. 4ï¸â£ Access the portal at http://localhost:8080. Explore valuable resources anytime, anywhere! ðâ¨ #RedHat #KnowledgePortal #OfflineAccess&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4885/</guid>
+      <description>Unlock the Red Hat Offline Knowledge Portal for easy access to documentation and guides without an internet connection! 📚💻 To install, ensure you have a Red Hat Satellite subscription, a web browser, and enough disk space. Follow these steps: 1️⃣ Generate your access key. 2️⃣ Log in to the registry and pull the image. 3️⃣ Run the podman image to verify. 4️⃣ Access the portal at http://localhost:8080. Explore valuable resources anytime, anywhere! 🌐✨ #RedHat #KnowledgePortal #OfflineAccess&amp;hellip;</description>
     </item>
     <item>
       <title>New features in Bunsen</title>
-      <link>http://localhost:1313/articles/article-4886/</link>
+      <link>/articles/article-2025-08-13-4886/</link>
       <pubDate>Wed, 13 Aug 2025 07:01:02 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4886/</guid>
-      <description>ð Bunsen has rolled out new features to enhance user experience! The updated web interface now includes a simplified project chooser, making it easier to select projects and modify search criteria. A cookie support feature allows users to save search settings for future use, streamlining the process. ðª Additionally, the testrun overview section is customizable, letting users sort results by various columns. The new &amp;ldquo;filter by testcase&amp;rdquo; feature helps identify regressions in test results more&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4886/</guid>
+      <description>🚀 Bunsen has rolled out new features to enhance user experience! The updated web interface now includes a simplified project chooser, making it easier to select projects and modify search criteria. A cookie support feature allows users to save search settings for future use, streamlining the process. 🍪 Additionally, the testrun overview section is customizable, letting users sort results by various columns. The new &amp;ldquo;filter by testcase&amp;rdquo; feature helps identify regressions in test results more&amp;hellip;</description>
     </item>
     <item>
       <title>Windows image-building service for OpenShift Virtualization</title>
-      <link>http://localhost:1313/articles/article-4887/</link>
+      <link>/articles/article-2025-08-12-4887/</link>
       <pubDate>Tue, 12 Aug 2025 15:16:06 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4887/</guid>
-      <description>ð Red Hat OpenShift Pipelines now allows for seamless management of virtual machines (VMs) in your CI/CD process. By integrating OpenShift Pipelines with OpenShift Virtualization, developers can automate the creation of standardized Windows golden images, enhancing VM provisioning. Key features include: - Management of pipelines as Kubernetes Custom Resources (CRs). - Simplified collaboration through source control management (SCM). - Streamlined operations by treating VMs as native objects&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4887/</guid>
+      <description>🚀 Red Hat OpenShift Pipelines now allows for seamless management of virtual machines (VMs) in your CI/CD process. By integrating OpenShift Pipelines with OpenShift Virtualization, developers can automate the creation of standardized Windows golden images, enhancing VM provisioning. Key features include: - Management of pipelines as Kubernetes Custom Resources (CRs). - Simplified collaboration through source control management (SCM). - Streamlined operations by treating VMs as native objects&amp;hellip;</description>
     </item>
     <item>
       <title>Build your first Software Template for Backstage</title>
-      <link>http://localhost:1313/articles/article-4888/</link>
+      <link>/articles/article-2025-08-12-4888/</link>
       <pubDate>Tue, 12 Aug 2025 12:31:14 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4888/</guid>
-      <description>ð More organizations are adopting platform engineering and internal developer portals (IDPs) to enhance onboarding and self-service capabilities. This article details how to create a Software Template for Backstage using Red Hat Developer Hub. The template automates developer tasks, enabling faster application repository creation on GitHub with a CI pipeline. Prerequisites include admin access to Red Hat Developer Hub and GitHub integration setup. The guide offers step-by-step instructions&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4888/</guid>
+      <description>🚀 More organizations are adopting platform engineering and internal developer portals (IDPs) to enhance onboarding and self-service capabilities. This article details how to create a Software Template for Backstage using Red Hat Developer Hub. The template automates developer tasks, enabling faster application repository creation on GitHub with a CI pipeline. Prerequisites include admin access to Red Hat Developer Hub and GitHub integration setup. The guide offers step-by-step instructions&amp;hellip;</description>
     </item>
     <item>
       <title>How to build a simple agentic AI server with MCP</title>
-      <link>http://localhost:1313/articles/article-4889/</link>
+      <link>/articles/article-2025-08-12-4889/</link>
       <pubDate>Tue, 12 Aug 2025 07:16:11 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4889/</guid>
-      <description>ð As AI agents evolve, the need for reliable connections to real-world data grows. The Model Context Protocol (MCP) offers a standardized way to connect AI systems securely and efficiently. In a recent article, a simple MCP server was built to fetch weather data from the Open-Meteo API. This server allows AI models to interact with external tools and data, enhancing their functionality. To explore MCP, developers can set up their environment and create tools to access data easily. The article&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4889/</guid>
+      <description>🌐 As AI agents evolve, the need for reliable connections to real-world data grows. The Model Context Protocol (MCP) offers a standardized way to connect AI systems securely and efficiently. In a recent article, a simple MCP server was built to fetch weather data from the Open-Meteo API. This server allows AI models to interact with external tools and data, enhancing their functionality. To explore MCP, developers can set up their environment and create tools to access data easily. The article&amp;hellip;</description>
     </item>
     <item>
       <title>Boost AI efficiency with GPU autoscaling on OpenShift</title>
-      <link>http://localhost:1313/articles/article-4890/</link>
+      <link>/articles/article-2025-08-12-4890/</link>
       <pubDate>Tue, 12 Aug 2025 07:16:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4890/</guid>
-      <description>Unlock AI potential with GPU autoscaling on OpenShift! ð Dynamic autoscaling is essential for maintaining efficiency and availability in modern applications. Red Hat OpenShift offers features like horizontal pod autoscaling (HPA) and custom metrics autoscaler (KEDA) to optimize resource allocation and manage workloads effectively. KEDA enhances traditional scaling methods by utilizing external metrics, enabling better performance for GPU-accelerated applications. ð Learn how to implement&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4890/</guid>
+      <description>Unlock AI potential with GPU autoscaling on OpenShift! 🚀 Dynamic autoscaling is essential for maintaining efficiency and availability in modern applications. Red Hat OpenShift offers features like horizontal pod autoscaling (HPA) and custom metrics autoscaler (KEDA) to optimize resource allocation and manage workloads effectively. KEDA enhances traditional scaling methods by utilizing external metrics, enabling better performance for GPU-accelerated applications. 📈 Learn how to implement&amp;hellip;</description>
     </item>
     <item>
       <title>Disaster recovery approaches for Red Hat OpenShift Virtualization, part 2</title>
-      <link>http://localhost:1313/articles/article-4857/</link>
+      <link>/articles/article-2025-08-11-4857/</link>
       <pubDate>Mon, 11 Aug 2025 15:31:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4857/</guid>
-      <description>ð Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4857/</guid>
+      <description>🌐 Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear&amp;hellip;</description>
     </item>
     <item>
       <title>How to migrate smart inventories to constructed inventories</title>
-      <link>http://localhost:1313/articles/article-4858/</link>
+      <link>/articles/article-2025-08-11-4858/</link>
       <pubDate>Mon, 11 Aug 2025 07:01:11 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4858/</guid>
-      <description>ð Red Hat is set to discontinue support for smart inventories in favor of constructed inventories. This shift aims to address the limitations and challenges smart inventories present. ð Migrating to constructed inventories can be complex, especially for large organizations. This article outlines a semi-automated process to simplify the transition, requiring human review to ensure accuracy. ð Key migration steps include converting filtering conditions, reviewing configurations, and applying&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4858/</guid>
+      <description>🚀 Red Hat is set to discontinue support for smart inventories in favor of constructed inventories. This shift aims to address the limitations and challenges smart inventories present. 🔄 Migrating to constructed inventories can be complex, especially for large organizations. This article outlines a semi-automated process to simplify the transition, requiring human review to ensure accuracy. 📋 Key migration steps include converting filtering conditions, reviewing configurations, and applying&amp;hellip;</description>
     </item>
     <item>
       <title>How to use Minio for Ansible automation hub</title>
-      <link>http://localhost:1313/articles/article-4859/</link>
+      <link>/articles/article-2025-08-11-4859/</link>
       <pubDate>Mon, 11 Aug 2025 07:01:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4859/</guid>
-      <description>Learn how to configure MinIO as a backend for the Ansible Automation Hub in Red Hat environments. This setup provides a self-hosted, cost-effective alternative to cloud storage solutions like AWS S3. The article covers: 1ï¸â£ Setting up MinIO on an OpenShift cluster. 2ï¸â£ Integrating it with the Ansible Automation Platform. This method is ideal for air-gapped or on-premise deployments. #Ansible #MinIO #OpenShift #CloudStorage #DevOps</description>
+      <guid>/articles/article-2025-08-11-4859/</guid>
+      <description>Learn how to configure MinIO as a backend for the Ansible Automation Hub in Red Hat environments. This setup provides a self-hosted, cost-effective alternative to cloud storage solutions like AWS S3. The article covers: 1️⃣ Setting up MinIO on an OpenShift cluster. 2️⃣ Integrating it with the Ansible Automation Platform. This method is ideal for air-gapped or on-premise deployments. #Ansible #MinIO #OpenShift #CloudStorage #DevOps</description>
     </item>
     <item>
       <title>Ollama vs. vLLM: A deep dive into performance benchmarking</title>
-      <link>http://localhost:1313/articles/article-4711/</link>
+      <link>/articles/article-2025-08-08-4711/</link>
       <pubDate>Fri, 08 Aug 2025 07:16:15 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4711/</guid>
+      <guid>/articles/article-2025-08-08-4711/</guid>
       <description>Ollama and vLLM serve distinct roles in the AI landscape. Ollama is designed for local development and prototyping, while vLLM excels in high-performance production environments. In benchmarks, vLLM outperformed Ollama with a peak throughput of 793 TPS compared to Ollama&amp;rsquo;s 41 TPS and lower latency across all concurrency levels. Ollama prioritizes ease of use, making it suitable for individual developers, whereas vLLM is built for scalability, catering to enterprise applications. For detailed&amp;hellip;</description>
     </item>
     <item>
       <title>Upgrade from RHEL 9 to RHEL 10 with Red Hat Satellite 6.17</title>
-      <link>http://localhost:1313/articles/article-4712/</link>
+      <link>/articles/article-2025-08-08-4712/</link>
       <pubDate>Fri, 08 Aug 2025 07:16:11 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4712/</guid>
+      <guid>/articles/article-2025-08-08-4712/</guid>
       <description>🚀 Red Hat Enterprise Linux (RHEL) 10 is now available! For system admins managing large environments, upgrading from RHEL 9 to RHEL 10 can be simplified using Red Hat Satellite 6.17 and Leapp. These tools help ensure consistency, compliance, and minimal downtime during the upgrade process. Leapp automates checks and resolves compatibility issues, while Satellite manages repository synchronization and system tracking. Before upgrading, ensure your Satellite is properly configured and&amp;hellip;</description>
     </item>
     <item>
       <title>Batch inference on OpenShift AI with Ray Data, vLLM, and CodeFlare</title>
-      <link>http://localhost:1313/articles/article-4690/</link>
+      <link>/articles/article-2025-08-07-4690/</link>
       <pubDate>Thu, 07 Aug 2025 07:01:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4690/</guid>
+      <guid>/articles/article-2025-08-07-4690/</guid>
       <description>Explore how to run batch inference at scale with OpenShift AI using the CodeFlare SDK, Ray Data, and vLLM. This approach helps bridge the gap between local development and production execution, enabling data scientists to efficiently process large datasets without needing deep infrastructure knowledge. The article outlines the differences between online and offline inference, focusing on the latter for large-scale tasks. It provides a step-by-step guide on connecting to a Ray cluster and&amp;hellip;</description>
     </item>
     <item>
       <title>Build trust in your CI/CD pipelines with OpenShift Pipelines</title>
-      <link>http://localhost:1313/articles/article-4691/</link>
+      <link>/articles/article-2025-08-07-4691/</link>
       <pubDate>Thu, 07 Aug 2025 07:01:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4691/</guid>
+      <guid>/articles/article-2025-08-07-4691/</guid>
       <description>🔒 Red Hat OpenShift Pipelines provide a cloud-native CI/CD solution using Tekton. This article highlights the use of OpenShift sandboxed containers, which isolate workloads in virtual machines, enhancing security for tasks needing elevated privileges. 🌐 For untrusted environments, OpenShift confidential containers (CoCo) further protect pipeline data by running containers in isolated hardware enclaves, safeguarding against admin access. 💡 The integration of these technologies ensures secure,&amp;hellip;</description>
     </item>
     <item>
       <title>Simplify access management for Red Hat Insights for Red Hat Enterprise Linux with new system roles</title>
-      <link>http://localhost:1313/articles/article-4103/</link>
+      <link>/articles/article-2025-08-06-4103/</link>
       <pubDate>Wed, 06 Aug 2025 07:16:10 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4103/</guid>
+      <guid>/articles/article-2025-08-06-4103/</guid>
       <description>Managing user access for Red Hat Enterprise Linux (RHEL) just became simpler! 🚀 Red Hat has introduced three new system roles in the User Access service of the Hybrid Cloud Console: 1️⃣ &lt;strong&gt;RHEL Administrator&lt;/strong&gt;: Full privileges for managing configurations and vulnerabilities. 2️⃣ &lt;strong&gt;RHEL Operator&lt;/strong&gt;: Broad capabilities for editing configurations, but with some restrictions. 3️⃣ &lt;strong&gt;RHEL Viewer&lt;/strong&gt;: Read-only access for viewing system data. These roles enhance security and streamline user management&amp;hellip;</description>
     </item>
     <item>
       <title>Intro to Redis and PostgreSQL in Red Hat SAP environments</title>
-      <link>http://localhost:1313/articles/article-4104/</link>
+      <link>/articles/article-2025-08-06-4104/</link>
       <pubDate>Wed, 06 Aug 2025 07:16:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4104/</guid>
+      <guid>/articles/article-2025-08-06-4104/</guid>
       <description>🚀 Discover how Redis and PostgreSQL can enhance SQL query performance in SAP environments! This article guides SAP and Red Hat admins in leveraging these technologies for better caching. 🔍 Key points include: - PostgreSQL and Redis can be deployed alongside SAP applications. - Redis offers granular control over caching, improving performance. - A Python program example showcases data caching. For more insights, check the full article! #Redis #PostgreSQL #SAP #Caching #DataManagement</description>
     </item>
     <item>
       <title>Getting started with managed clusters migration</title>
-      <link>http://localhost:1313/articles/article-90/</link>
+      <link>/articles/article-2025-08-05-90/</link>
       <pubDate>Tue, 05 Aug 2025 07:01:14 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-90/</guid>
+      <guid>/articles/article-2025-08-05-90/</guid>
       <description>🚀 Red Hat Advanced Cluster Management 2.13 introduces a new developer preview feature: Managed Cluster Migration. This feature is beneficial when you need to migrate managed clusters due to instability, excess clusters, or selective transfers to another hub cluster. To get started, ensure both hub clusters are imported, running the same version, and have the managed-service account add-on enabled. You can then create a ManagedClusterMigration custom resource to facilitate the migration. For&amp;hellip;</description>
     </item>
     <item>
       <title>Retrieval-augmented generation with Llama Stack and Python</title>
-      <link>http://localhost:1313/articles/article-91/</link>
+      <link>/articles/article-2025-08-05-91/</link>
       <pubDate>Tue, 05 Aug 2025 07:01:12 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-91/</guid>
+      <guid>/articles/article-2025-08-05-91/</guid>
       <description>🚀 Learn how to implement retrieval-augmented generation (RAG) using Python and Llama Stack! This article explores how RAG enhances AI responses by providing relevant context from documents, like Node.js reference architecture. By transforming data into vectors, the application retrieves pertinent document chunks to improve answer quality. The setup process involves running a Llama Stack instance and managing vector databases for efficient data handling. For developers interested in leveraging&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing incident detection in Red Hat Advanced Cluster Management for Kubernetes 2.14</title>
-      <link>http://localhost:1313/articles/article-92/</link>
+      <link>/articles/article-2025-08-05-92/</link>
       <pubDate>Tue, 05 Aug 2025 07:01:10 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-92/</guid>
+      <guid>/articles/article-2025-08-05-92/</guid>
       <description>🚀 Red Hat Advanced Cluster Management for Kubernetes 2.14 introduces incident detection, helping teams manage alert storms more effectively. This feature groups related alerts into manageable incidents, allowing for better root cause analysis and prioritization. To utilize this, install the Cluster Observability Operator on each cluster. It simplifies navigation between incidents within managed clusters. For installation details and to explore this feature, check the latest documentation&amp;hellip;.</description>
     </item>
     <item>
       <title>How to deploy multiple OpenStack environments on OpenShift</title>
-      <link>http://localhost:1313/articles/article-93/</link>
+      <link>/articles/article-2025-08-05-93/</link>
       <pubDate>Tue, 05 Aug 2025 07:01:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-93/</guid>
+      <guid>/articles/article-2025-08-05-93/</guid>
       <description>Red Hat OpenStack Services on OpenShift introduces a new deployment architecture that enhances Infrastructure-as-a-Service (IaaS) environments. This architecture utilizes distributed control plane services in pods, which significantly reduces resource consumption compared to previous versions. A key feature of the latest release is the ability to run multiple OpenStack Services across different namespaces within the same OpenShift infrastructure, supporting development, staging, testing, and&amp;hellip;</description>
     </item>
     <item>
       <title>Optimize workloads with right-sizing recommendations</title>
-      <link>http://localhost:1313/articles/article-94/</link>
+      <link>/articles/article-2025-08-04-94/</link>
       <pubDate>Mon, 04 Aug 2025 13:46:13 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-94/</guid>
+      <guid>/articles/article-2025-08-04-94/</guid>
       <description>🚀 Introducing the Right-Sizing Recommendations in Red Hat Advanced Cluster Management for Kubernetes! This new capability helps users identify over-provisioned and under-utilized resources across clusters, promoting efficient infrastructure use and cost savings. By analyzing real-time CPU and memory consumption, it offers actionable recommendations for workload optimization. Key features include a Grafana dashboard for resource metrics, customizable data filtering, and policy-driven&amp;hellip;</description>
     </item>
     <item>
       <title>How to use Red Hat Quay as a proxy cache</title>
-      <link>http://localhost:1313/articles/article-95/</link>
+      <link>/articles/article-2025-08-04-95/</link>
       <pubDate>Mon, 04 Aug 2025 07:01:06 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-95/</guid>
+      <guid>/articles/article-2025-08-04-95/</guid>
       <description>Unlock the potential of Red Hat Quay as a proxy cache for container images! 🌐 This guide details how to set up a Red Hat OpenShift cluster and enable proxy caching in Red Hat Quay. Start by configuring the FEATURE_PROXY_CACHE flag in the config.yaml file, then create an organization for remote image proxying. Learn how to pull images from external sources like Docker Hub and deploy applications seamlessly. 🚀 For more insights, check out the full article! #RedHat #ContainerRegistry #OpenShift&amp;hellip;</description>
     </item>
     <item>
       <title>.NET container troubleshooting in OpenShift 4</title>
-      <link>http://localhost:1313/articles/article-96/</link>
+      <link>/articles/article-2025-08-04-96/</link>
       <pubDate>Mon, 04 Aug 2025 07:01:03 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-96/</guid>
+      <guid>/articles/article-2025-08-04-96/</guid>
       <description>🚀 The .NET framework is a robust tool for deploying applications across platforms like Windows, Linux, and macOS. Red Hat offers a containerized version specifically for OpenShift. 🔍 The article by Tom Deseyn outlines steps for creating .NET container images and troubleshooting common issues. It highlights methods for memory analysis using tools like &lt;code&gt;dotnet dump&lt;/code&gt;. 📊 For developers looking to optimize their .NET applications in OpenShift, this is a valuable resource. #DotNet #OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automatic certificate provisioning with cert-manager and DNS challenge</title>
+      <link>/articles/article-2025-08-01-97/</link>
+      <pubDate>Fri, 01 Aug 2025 07:01:18 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-97/</guid>
+      <description>Learn how to automate certificate management in OpenShift using the cert-manager operator. 🔐 This article outlines the use of the ACME protocol with Identity Management (IdM) to streamline certificate issuance and renewal through a DNS challenge. It highlights the setup process with Red Hat Enterprise Linux (RHEL) 10 and OpenShift 4.14. Discover the benefits of reducing manual certificate management, which can lead to inefficiencies and errors. Read more to enhance your OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>5 steps to consistently patch RHEL and Windows systems</title>
+      <link>/articles/article-2025-08-01-98/</link>
+      <pubDate>Fri, 01 Aug 2025 07:01:15 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-98/</guid>
+      <description>Staying updated on patching RHEL and Windows systems is crucial for security and operational efficiency. 🛡️ Using Red Hat Ansible Automation Platform can streamline this process by automating patch management for both systems. This reduces friction between teams and ensures compliance. Key steps include building a centralized inventory, creating job templates, applying patches with safety checks, validating success, and leveraging event-driven automation for proactive patching. 📊 Explore more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>IBM Hyper Protect with OpenShift sandboxed containers</title>
+      <link>/articles/article-2025-07-31-99/</link>
+      <pubDate>Thu, 31 Jul 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-99/</guid>
+      <description>IBM is advancing data security with Hyper Protect Confidential Containers (HPCC) for Red Hat OpenShift. This solution protects sensitive workloads in untrusted environments, essential for industries like finance and healthcare. Using OpenShift sandboxed containers, HPCC ensures VM-level isolation for confidential computing. It addresses vulnerabilities of traditional containers by employing hardware-based trusted execution environments. Learn how HPCC enhances data protection and supports&amp;hellip;</description>
     </item>
   </channel>
 </rss>

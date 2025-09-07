@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Educational | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,1038 +414,663 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 4 of 5 (161 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/" target="_blank">How to Instantly Render Real-World Scenes in Interactive Simulation</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 15:00</span>
-                
-                <span class="author">by Katie Washabaugh</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/claude-and-mcp" target="_blank">Generate Images with Claude and Hugging Face</a></h2>
+            <div class="publication-date">2025-08-19 00:00</div>
+            <div class="summary">Discover how to generate images using Claude and Hugging Face! 🤖✨ The article outlines step-by-step methods for utilizing these tools effectively. It highlights key features and provides tips for best practices in image generation. Explore the potential of AI in creative projects! #AI #ImageGeneration #HuggingFace #Claude #TechTrends</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Transforming real-world environments into interactive simulations is now faster than ever. With NVIDIA Omniverse NuRec and 3DGUT, users can reconstruct photorealistic 3D scenes from basic sensor data. This process takes mere moments instead of days or weeks. ðâ¨ These scenes can be deployed in platforms like NVIDIA Isaac Sim or CARLA Simulator, enhancing simulation experiences. #NVIDIA #SimulationTechnology #3DModeling #Omniverse #InteractiveSimulations</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.mongodb.com/company/blog/technical/you-dont-always-need-frontier-models-to-power-your-rag-architecture" target="_blank">You Don&#39;t Always Need Frontier Models to Power Your RAG Architecture</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 14:00</span>
-                
-                <span class="source">from <a href="https://www.mongodb.com/company/blog/rss" target="_blank">MongoDB Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/prevent-race-conditions-laravel-atomic-locks" target="_blank">How to Prevent Race Conditions in Laravel with Atomic Locks</a></h2>
+            <div class="publication-date">2025-08-19 00:00</div>
+            <div class="summary">Learn how to prevent race conditions in Laravel with atomic locks! 🔒 This article outlines the importance of using Laravel’s locking mechanisms to ensure data integrity and manage concurrent processes effectively. Discover practical steps and examples to implement these techniques in your projects. Stay informed and enhance your development skills! 💻✨ #Laravel #WebDevelopment #CodingTips #RaceConditions #AtomicLocks</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Prosper Ugbovo</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/mongodb-blog" class="source-link">MongoDB-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Exploring the partnership between MongoDB and Fireworks.AI reveals innovative strategies for optimizing AI performance while managing costs. ð¡ The collaboration focuses on enhancing Retrieval-Augmented Generation (RAG) applications using efficient data management from MongoDB and model optimization tools from Fireworks.AI. ð Key topics include building agentic RAG systems and techniques for fine-tuning models through Parameter-Efficient Fine-Tuning (PEFT). This approach allows organizations...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/11/how-migrate-smart-inventories-constructed-inventories" target="_blank">How to migrate smart inventories to constructed inventories</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 07:01</span>
-                
-                <span class="author">by Konstantin Kuminsky</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/18/using-sql-and-databases-in-jetbrains-ides/" target="_blank">Using SQL and databases in JetBrains IDEs</a></h2>
+            <div class="publication-date">2025-08-18 14:21</div>
+            <div class="summary">📅 Check out our recent livestream on August 14, where we discussed working with SQL and databases in JetBrains IDEs. 💻 The session featured a demo on writing SQL queries and utilizing embedded database functionality, covering both simple and advanced tasks. 👤 Speaker Maxim Sobolevskiy, a PMM at JetBrains, shared his expertise gained from years of experience as an SQL developer. For updates on product news and future livestreams, follow DataGrip on X or visit our Blog! #JetBrains #SQL...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Stanislav Garkusha</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Red Hat is set to discontinue support for smart inventories in favor of constructed inventories. This shift aims to address the limitations and challenges smart inventories present. ð Migrating to constructed inventories can be complex, especially for large organizations. This article outlines a semi-automated process to simplify the transition, requiring human review to ensure accuracy. ð Key migration steps include converting filtering conditions, reviewing configurations, and applying...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/11/how-use-minio-ansible-automation-hub" target="_blank">How to use Minio for Ansible automation hub</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 07:01</span>
-                
-                <span class="author">by Kamlendu Shekhar</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/teamcity/2025/08/devops-for-startups/" target="_blank">DevOps for Startups: CI/CD from the Ground Up</a></h2>
+            <div class="publication-date">2025-08-18 10:37</div>
+            <div class="summary">Startups can greatly benefit from adopting DevOps practices. This approach enhances agility, allowing quicker responses to market demands while maintaining software quality. 🚀 DevOps fosters collaboration between development and operations teams, streamlining processes and automating tasks. This leads to improved productivity and faster delivery times. 📈 With continuous feedback and automated testing, startups can refine their products efficiently, ensuring a better user experience. 💻 #DevOps...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Olga Bedrina</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Learn how to configure MinIO as a backend for the Ansible Automation Hub in Red Hat environments. This setup provides a self-hosted, cost-effective alternative to cloud storage solutions like AWS S3. The article covers: 1ï¸â£ Setting up MinIO on an OpenShift cluster. 2ï¸â£ Integrating it with the Ansible Automation Platform. This method is ideal for air-gapped or on-premise deployments. #Ansible #MinIO #OpenShift #CloudStorage #DevOps</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/insights/best-practices/how-to-clean-email-list" target="_blank">How to clean your email list: your step-by-step scrub guide</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 00:00</span>
-                
-                <span class="author">by Jesse Sumrak</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/kernel-builder" target="_blank">From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels</a></h2>
+            <div class="publication-date">2025-08-18 00:00</div>
+            <div class="summary">🚀 Excited to enhance your GPU capabilities? Check out the guide on building production-ready CUDA kernels! It introduces the kernel-builder library, designed to simplify the development of custom kernels for various architectures. Learn how to create efficient and maintainable systems while overcoming deployment challenges. Perfect for those looking to elevate their models! #CUDA #GPUs #Programming #TechGuide #MachineLearning</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Cleaning your email list is crucial for effective marketing. ð§¹ Inactive subscribers and invalid addresses can hurt your engagement rates and sender reputation. Regular maintenance can help you maintain a high-performing email database. Key steps include removing bad addresses, identifying inactive subscribers, and segmenting your audience. ð Remember, it&#39;s an ongoing process, not just a one-time task. #EmailMarketing #ListCleaning #DigitalMarketing #Engagement #MarketingTips</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/teaching-ai-fix-your-code-my-summer-improving-quick-fix-databricks" target="_blank">Teaching AI to Fix Your Code: My Summer Improving Quick Fix at Databricks</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 22:00</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/affiliate-email-marketing" target="_blank">How to boost business with affiliate email marketing programs</a></h2>
+            <div class="publication-date">2025-08-18 00:00</div>
+            <div class="summary">Boost your business with affiliate email marketing! 📧✨ Successful companies expand their reach by identifying target markets and building connections. One effective strategy is partnering with affiliate marketers who promote your products through their own networks. These marketers communicate with audiences that already trust them, increasing the likelihood of conversions. Compensation structures in affiliate programs vary, typically rewarding based on performance. Tracking links help...</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">This summer, I interned at Databricks, focusing on enhancing AI capabilities for coding assistance. The project aimed to improve the Quick Fix feature, helping developers identify and resolve coding issues more efficiently. This experience highlighted the potential of AI in software development and its real-world applications. 🤖💻 #AI #Coding #Internship #Databricks #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.heroku.com/blog/building-agents-with-heroku-ai-and-pydantic-ai/" target="_blank">Building Agents With Heroku AI and Pydantic AI</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 16:33</span>
-                
-                <span class="author">by Anush DSouza</span>
-                
-                <span class="source">from <a href="https://blog.heroku.com/feed" target="_blank">Heroku Blog</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/mcp-for-research" target="_blank">MCP for Research: How to Connect AI to Research Tools</a></h2>
+            <div class="publication-date">2025-08-18 00:00</div>
+            <div class="summary">🔍 Academic research often requires navigating multiple platforms like arXiv and GitHub. The Model Context Protocol (MCP) offers a solution by enabling AI to communicate with these research tools. This allows for natural language requests, streamlining the discovery process and reducing the need for manual switching between sites. Explore how MCP can enhance your research experience! 📊🤖 #AIinResearch #ModelContextProtocol #ResearchInnovation #AcademicTools</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/heroku-blog" class="source-link">Heroku-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of AI with Heroku and Pydantic AI! 🚀 Developers can easily integrate advanced AI capabilities using Heroku Managed Inference and Agents. A simple click attaches powerful models like Anthropic&#39;s Claude 4 Sonnet to your applications. Pydantic AI enhances this by providing a Python framework for building production-grade agents, ensuring a smooth development experience. 🐍 Together, they support advanced workflows through the Model Context Protocol and Agent2Agent Protocol,...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/build-a-recipe-ai-agent-with-koog-and-docker/" target="_blank">Build a Recipe AI Agent with Koog and Docker</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 16:23</span>
-                
-                <span class="author">by Philippe Charrière</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://forums.unrealengine.com/t/ue5-automotive-cinematic/2642699" target="_blank">UE5 Automotive Cinematic</a></h2>
+            <div class="publication-date">2025-08-15 10:09</div>
+            <div class="summary">🚗✨ Unreal Engine 5 (UE5) showcases its potential in automotive cinematics. The article dives into the technical aspects and features that make UE5 a powerful tool for creating stunning visuals in the automotive industry. It highlights how real-time rendering and advanced lighting techniques enhance vehicle presentations. The use of UE5 allows for greater creativity and efficiency in producing automotive content. #UnrealEngine5 #AutomotiveCinematics #3DRendering #GameDevelopment #Innovation</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Dive into the world of AI with Philippe Charriere’s latest blog post on building a recipe AI agent using JetBrains’ Koog and Docker. He details the integration of Koog with Docker Model Runner for creating a specialized agent for ratatouille recipes. Key tools include Docker Compose and the Docker MCP Gateway. For those interested in hands-on learning, the post outlines project setup using IntelliJ IDEA, Gradle, and Docker configurations. Explore the details to enhance your AI skills! 🍳📦...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/08/upgrade-rhel-9-rhel-10-red-hat-satellite-617" target="_blank">Upgrade from RHEL 9 to RHEL 10 with Red Hat Satellite 6.17</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 07:16</span>
-                
-                <span class="author">by Avnish Kumar</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://techblog.lycorp.co.jp/en/icq42" target="_blank">Improving code quality - Session 42: Theoretical testing</a></h2>
+            <div class="publication-date">2025-08-15 02:00</div>
+            <div class="summary">🔍 Session 42 of &#34;Improving Code Quality&#34; focuses on theoretical testing in mobile development. Munetoshi Ishikawa discusses how to manage different account types (FREE, PREMIUM, etc.) with icons. If AccountType is solely for UI, icons can be properties. However, for broader usage, a conversion mechanism using a Map is more effective. Explore efficient coding strategies! 💻✨ #CodeQuality #SoftwareDevelopment #MobileDev #Programming #TheoreticalTesting</div>
+            <div class="source">Source: <a href="/sources/ly-corporation-tech-blog">LY Corporation Tech Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Red Hat Enterprise Linux (RHEL) 10 is now available! For system admins managing large environments, upgrading from RHEL 9 to RHEL 10 can be simplified using Red Hat Satellite 6.17 and Leapp. These tools help ensure consistency, compliance, and minimal downtime during the upgrade process. Leapp automates checks and resolves compatibility issues, while Satellite manages repository synchronization and system tracking. Before upgrading, ensure your Satellite is properly configured and...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/accelerate-nd-parallel" target="_blank">Accelerate ND-Parallel: A Guide to Efficient Multi-GPU Training</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 00:00</span>
-                
-                <span class="source">from <a href="https://huggingface.co/blog/feed.xml" target="_blank">Hugging Face Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/best-practices/best-practices-for-otp-input-forms-in-android" target="_blank">Best Practices for OTP Input Forms in Android</a></h2>
+            <div class="publication-date">2025-08-15 00:00</div>
+            <div class="summary">Creating effective OTP input forms in Android is crucial for user verification. This article by Twilio discusses best practices for design and implementation. It highlights troubleshooting tips to enhance user experience and security. Developers can benefit from these insights to improve their applications. Explore more to ensure your OTP forms are user-friendly and effective! 🔐📱 #AndroidDevelopment #OTPSecurity #UserExperience #Twilio</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Alvin Lee</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hugging-face-blog" class="source-link">Hugging-Face-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Training large models on multiple GPUs can be complex. The article &#34;Accelerate ND-Parallel&#34; discusses how to simplify this process using the Accelerate library and Axolotl. It provides a step-by-step guide to integrate various parallelism strategies in your training script, enhancing efficiency. Key configurations for parallelism include Fully Sharded Data Parallel and Data Parallel degrees. This approach requires at least 2 nodes with 8 GPUs each for optimal performance. #MultiGPU...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.unrealengine.com/spotlights/cory-williams-makes-hit-childrens-youtube-channel-featuring-silly-crocodile" target="_blank">Cory Williams makes hit children’s YouTube channel featuring Silly Crocodile</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 00:00</span>
-                
-                <span class="source">from <a href="https://www.unrealengine.com/en-US/rss" target="_blank">Unreal Engine Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/how-to-insert-a-gif" target="_blank">How to Insert a GIF into Emails in 2025</a></h2>
+            <div class="publication-date">2025-08-15 00:00</div>
+            <div class="summary">🚀 Want to enhance your email marketing? Consider adding GIFs! GIFs can capture attention and engage customers effectively. This article provides a concise tutorial on inserting GIFs into emails using platforms like Gmail and Outlook. 🖼️ Key steps include copying a GIF link from sites like Giphy, pasting it into your email, and ensuring the entire animation displays correctly. For detailed methods and insights on using GIFs in your campaigns, check out the full article! #EmailMarketing #GIFs...</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Jesse Sumrak</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/unreal-engine-blog" class="source-link">Unreal-Engine-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Cory Williams is thriving as he creates engaging videos for his YouTube channel, Just For Kids, featuring a playful crocodile. 🐊 His innovative real-time pipeline allows him to produce content quickly while maintaining a strong connection with his audience. Discover more about Cory&#39;s journey and his unique approach to children&#39;s entertainment! 🎥✨ #YouTubeKids #ContentCreation #CoryWilliams #ChildrensEntertainment #SillyCrocodile</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/test-verify-no-rate-limits" target="_blank">How to test Twilio Verify without getting rate limited</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 00:00</span>
-                
-                <span class="author">by Kelley Robinson</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://eng.lyft.com/intern-experience-at-lyft-9b7338e7c8bb?source=rss----25cd379abb8---4" target="_blank">Intern Experience at Lyft</a></h2>
+            <div class="publication-date">2025-08-14 19:34</div>
+            <div class="summary">🚗✨ Discover the journey of two data scientists, Morteza Taiebat and Han Gong, who started as interns at Lyft and now contribute to impactful projects. They share insights on their experiences, focusing on sustainability and driver loyalty. Their work includes evaluating electric vehicle (EV) adoption and designing incentive strategies for drivers. If you&#39;re considering an internship at Lyft, their stories highlight the growth opportunities and collaborative culture that await you! 🌱📊...</div>
+            <div class="source">Source: <a href="/sources/lyft-engineering">Lyft Engineering</a></div>
+            
+            <div class="author">Iraklikhorguani</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Struggling with Twilio Verify testing? This article offers solutions to common issues like rate limits and expired verifications. It also shares best practices for effective verification testing. Additionally, you&#39;ll learn how to set up a testing dashboard to streamline your process. #Twilio #API #Testing #DevTips #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/qodana/2025/08/how-to-integrate-qodana-into-teamcity/" target="_blank">How to Integrate Qodana Into TeamCity</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 20:33</span>
-                
-                <span class="author">by Kerry Beetge</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.atlassian.com/blog/design/from-insights-to-impact-content-design-research-at-atlassian" target="_blank">From insights to impact: Content design research at Atlassian</a></h2>
+            <div class="publication-date">2025-08-14 19:20</div>
+            <div class="summary">At Atlassian, effective content design is rooted in research. This guide outlines a structured approach to planning and executing content design research. Start by defining your research goals with a concise plan that aligns your team. Key components include understanding user needs, research questions, and methods. Choose appropriate research methods to gather insights, combining qualitative and quantitative approaches for comprehensive results. Techniques like unmoderated surveys can...</div>
+            <div class="source">Source: <a href="/sources/atlassian-developer-blog">Atlassian Developer Blog</a></div>
+            
+            <div class="author">jsandhu</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Integrating Qodana with TeamCity can enhance your CI/CD pipeline by improving code quality and compliance. TeamCity’s features make it a reliable CI server, while Qodana’s static code analysis helps enforce coding standards. You can easily embed quality checks in your workflow with a dedicated build runner. Explore how to set up Qodana in your TeamCity environment for better software quality. 📊🛠️💻 #TeamCity #Qodana #CICD #CodeQuality #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/personalizing-players-experiences-recommendation-systems" target="_blank">Personalizing Players&#39; Experiences with Recommendation Systems</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 17:20</span>
-                
-                <span class="source">from <a href="https://www.databricks.com/feed" target="_blank">Databricks Blog</a></span>
-            </div>
+            <h2><a href="https://circleci.com/blog/zero-downtime-deployment-with-flagsmith/" target="_blank">Zero-downtime deployment with Flagsmith and CircleCI</a></h2>
+            <div class="publication-date">2025-08-14 15:00</div>
+            <div class="summary">🚀 Learn how to achieve zero-downtime deployment with Flagsmith and CircleCI! This tutorial covers the essentials, including setting up feature flags, project configuration, and automating deployments. Feature flags enable developers to control feature visibility without redeploying, minimizing risks associated with buggy releases. Get started with a GitHub, Flagsmith, CircleCI, and Vercel account to enhance your deployment process! #Deployment #FeatureFlags #CircleCI #Flagsmith...</div>
+            <div class="source">Source: <a href="/sources/circleci-blog">CircleCI Blog</a></div>
+            
+            <div class="author">Daniel Efe</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/databricks-blog" class="source-link">Databricks-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Discover how recommendation systems enhance player experiences in gaming! These systems analyze player behavior to offer personalized content, improving engagement and satisfaction. By tailoring experiences, games can better connect with their audiences. Explore the impact of these technologies on player-centric design. 🎮📈 #Gaming #RecommendationSystems #PlayerExperience #TechInGames #GameDesign</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.hashicorp.com/blog/managing-ansible-automation-platform-aap-credentials-at-scale-with-vault" target="_blank">Managing Ansible Automation Platform (AAP) credentials at scale with Vault</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 12:00</span>
-                
-                <span class="author">by Pablo Diaz</span>
-                
-                <span class="source">from <a href="https://www.hashicorp.com/blog/feed.xml" target="_blank">HashiCorp Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/clion/2025/08/fuzz-testing-in-clion/" target="_blank">Getting Started With Fuzz Testing in CLion</a></h2>
+            <div class="publication-date">2025-08-14 09:17</div>
+            <div class="summary">Discover the essentials of fuzz testing in CLion! 🧪✨ This article explains how fuzz testing helps identify hidden bugs that traditional methods might miss. It highlights the use of CI Fuzz, a tool by Code Intelligence, to execute fuzz tests, analyze results, and debug functions. Learn how to set up CI Fuzz in CLion and run tests effectively. This approach enhances code reliability by feeding unexpected data to your programs. #FuzzTesting #CLion #SoftwareTesting #CodeQuality #CI_Fuzz</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Oleg Zinovyev</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hashicorp-blog" class="source-link">HashiCorp-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🔑 Managing SSH credentials at scale just got easier! This article explores how HashiCorp Vault and Red Hat Ansible Automation Platform (AAP) work together to automate SSH certificate retrieval. By issuing short-lived credentials, organizations can enhance security and streamline operations. Static SSH keys pose risks, making secure and scalable management a challenge. Vault&#39;s integration allows AAP to request dynamic SSH certificates on demand, simplifying access to remote hosts. Learn more...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/07/batch-inference-openshift-ai-ray-data-vllm-and-codeflare" target="_blank">Batch inference on OpenShift AI with Ray Data, vLLM, and CodeFlare</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 07:01</span>
-                
-                <span class="author">by Bryan Keane</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/14/manage-advanced-cluster-management-policies-using-ansible" target="_blank">Manage Advanced Cluster Management policies using Ansible</a></h2>
+            <div class="publication-date">2025-08-14 07:01</div>
+            <div class="summary">Managing multiple Kubernetes clusters can be complex, especially with the need for consistent security and compliance. This article discusses how Red Hat Advanced Cluster Management simplifies this process through centralized management. Ansible automation enhances policy management by ensuring consistency, repeatability, and compliance across clusters. It also covers the use of the external secrets operator for secure credential management with AWS Secrets Manager. For more details, check...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Amjed Jabari (AJ)</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Explore how to run batch inference at scale with OpenShift AI using the CodeFlare SDK, Ray Data, and vLLM. This approach helps bridge the gap between local development and production execution, enabling data scientists to efficiently process large datasets without needing deep infrastructure knowledge. The article outlines the differences between online and offline inference, focusing on the latter for large-scale tasks. It provides a step-by-step guide on connecting to a Ray cluster and...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/insights/best-email-fonts" target="_blank">19 Best Email Fonts That Won&#39;t Let You Down in 2025</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Jesse Sumrak</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/14/integrate-vllm-inference-macosios-alamofire-and-apple-foundation" target="_blank">Integrate vLLM inference on macOS/iOS with Alamofire and Apple Foundation</a></h2>
+            <div class="publication-date">2025-08-14 07:01</div>
+            <div class="summary">Unlock the potential of vLLM inference in your macOS/iOS apps! 📱💻 This article explores how to use Apple Foundation and Alamofire for seamless communication with vLLM via an OpenAI-compatible Chat Completions endpoint. It covers essential topics such as data encoding, error handling, and processing streaming results. For hands-on experience, grab the sample code from GitHub and start building! 🚀🔗 #vLLM #macOS #iOSDevelopment #OpenAI #Alamofire</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Rich Naszcyniec</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Discover the 19 best email fonts for 2025 that ensure your messages stand out! This guide highlights email-safe fonts that work seamlessly in platforms like Gmail and Outlook. It covers key topics such as the benefits of choosing the right font, top recommendations for email signatures, newsletters, and marketing campaigns. Optimize your email communications for better engagement! ✉️📈 #EmailMarketing #DesignTips #EmailFonts</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/integrations/pingone-custom-server-mfa-verify" target="_blank">Deliver Secure and Reliable OTPs with Twilio Verify and PingOne</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Yukti Ahuja, Itai Zach</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/company/spotlights/behind-the-builder--kate-molony--software-engineer" target="_blank">Behind the builder: Kate Molony, Software Engineer</a></h2>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">Meet Kate Molony, a Software Engineer at Twilio! 🚀 In our latest #BehindTheBuilder feature, Kate discusses her career journey, starting as an intern and progressing to a full-time role on the Operational Insights team. Her experience highlights the growth and opportunities available at Twilio. Learn more about her insights and contributions! 💡 #Twilio #SoftwareEngineering #CareerJourney</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Twilio Employer Brand Team</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">PingOne now integrates directly with Twilio Verify, enhancing OTP delivery and reducing fraud risks. 🔒✨ This integration improves multi-factor authentication by utilizing Twilio&#39;s global sender management and intelligent fallback systems. 📲 The guide provides a step-by-step configuration, requiring no extra tools. Learn more about securing user access effectively! #CyberSecurity #MultiFactorAuthentication #TwilioVerify #PingOne #FraudPrevention</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://auth0.com/blog/implementing-rbac-fastapi-auth0-fga/" target="_blank">Implementing Role-Based Access Control (RBAC) with Auth0 FGA and FastAPI</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Carla Urrea Stabile</span>
-                
-                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/best-practices/best-practices-for-otp-input-forms-in-ios" target="_blank">Best Practices for OTP Input Forms in iOS</a></h2>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">🔑 Building effective OTP input forms in iOS is crucial for security. This article outlines best practices for developers, focusing on user experience and testing methods. It emphasizes the importance of clear design and error handling to enhance usability. Learn how to create secure and efficient OTP forms that meet industry standards. #iOSDevelopment #OTPSecurity #UserExperience #BestPractices #Twilio</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Alvin Lee</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlocking tenant-level permissions is essential for application growth. This article delves into implementing Role-Based Access Control (RBAC) using Auth0 FGA and FastAPI. RBAC simplifies user management by assigning permissions to roles rather than individuals, making administration easier. Auth0 FGA provides a scalable solution for handling authorization decisions. Learn how to design a coarse-grained RBAC model tailored for multi-tenant applications. This approach enables efficient...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://about.gitlab.com/blog/gitlab-duo-self-hosted-models-on-aws-bedrock/" target="_blank">Own your AI: Self-Hosted GitLab Duo models with AWS Bedrock</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 00:00</span>
-                
-                <span class="author">by Olivier Dupré</span>
-                
-                <span class="source">from <a href="https://about.gitlab.com/atom.xml" target="_blank">GitLab Blog</a></span>
-            </div>
+            <h2><a href="https://www.elastic.co/blog/top-down-with-dominik-toepfer" target="_blank">Community, consulting, and chili sauce: Top Down with Dominik Toepfer</a></h2>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">Meet Dominik “Dom” Toepfer, a principal software engineer at Elastic, where he focuses on generative AI and Search. His engineering journey began with a book on Elasticsearch, leading him through various roles at the company. Dom emphasizes the importance of collaboration, stating, “We build better together.” He balances work and family life, ensuring he’s present for his kids while pursuing his passion for tech. His workspace is carefully designed for inspiration, featuring tools and an...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Jeanetta Clement</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/gitlab-blog" class="source-link">GitLab-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the power of AI with GitLab Duo Self-Hosted! 🚀 This article outlines how organizations can implement AI models while maintaining control over data and security. Key benefits include data privacy, model flexibility, and compliance adherence. Learn about the architecture, prerequisites, and step-by-step implementation using AWS Bedrock. For detailed guidance, check out the full article! 📊🔐 #AI #GitLab #DataPrivacy #AWS #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/" target="_blank">Insulin resistance prediction from wearables and routine blood biomarkers</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 20:02</span>
-                
-                <span class="source">from <a href="https://research.google/blog/rss/" target="_blank">Google Research</a></span>
-            </div>
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/ai-mcp-servers" target="_blank">MCP servers worth knowing if you&#39;re building with AI</a></h2>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">🚀 Exploring MCP servers is essential for AI development! These servers help integrate structured context into AI models, crucial for building advanced tools like agents and code assistants. The article highlights various MCP servers, especially Context7, which is optimized for codebases and offers access to numerous open-source libraries. Cursor IDE makes integration straightforward, enhancing workflow efficiency across platforms. For developers, understanding these tools can streamline...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/google-research" class="source-link">Google-Research</a>
-                
-            </div>
-            
-            <div class="summary">New research highlights a promising method for predicting insulin resistance using wearable data and routine blood tests. This approach makes early screening for type 2 diabetes more accessible and scalable. Early detection of insulin resistance is crucial, as timely lifestyle changes can reverse the condition. Traditional testing methods can be invasive and costly, creating barriers for many. The study utilized machine learning models to analyze data from wearables and common blood tests,...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/codecanvas/2025/08/configuration-drift-the-pitfall-of-local-machines/" target="_blank">Configuration Drift: The Pitfall of Local Machines</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 12:51</span>
-                
-                <span class="author">by Alexey Totin</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://developer.nvidia.com/blog/streamline-cuda-accelerated-python-install-and-packaging-workflows-with-wheel-variants/" target="_blank">Streamline CUDA-Accelerated Python Install and Packaging Workflows with Wheel Variants</a></h2>
+            <div class="publication-date">2025-08-13 22:00</div>
+            <div class="summary">🚀 NVIDIA addresses the challenges of installing GPU-accelerated Python packages with the WheelNext initiative. Current wheel formats struggle with hardware diversity, leading to installation complexities. WheelNext aims to improve this by introducing Wheel Variants, allowing precise artifact descriptions for better compatibility. This collaboration with Meta and others enhances user experience in scientific computing and AI. 🔗 Learn more: [GitHub repo link] #Python #NVIDIA #CUDA #OpenSource #AI</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Jonathan Dekhtiar</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Configuration drift can disrupt project development when environments deviate from intended setups. This often leads to issues like inconsistent test results, broken CI/CD pipelines, and wasted debugging time. Common causes include differing package versions and unshared configuration changes. While teams try to maintain consistency through version pinning and environment files, lapses can still occur. Addressing configuration drift is essential for smoother collaboration. 🔍💻🔧 #DevOps...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/platform/2025/08/kotlin-notebook-meets-intellij-platform-advancing-ide-plugin-development/" target="_blank">Kotlin Notebook Meets IntelliJ Platform: Advancing IDE Plugin Development</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 10:32</span>
-                
-                <span class="author">by Jakub Chrzanowski</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://www.databricks.com/blog/agent-bricks-action-smarter-offer-targeting-sales-teams" target="_blank">Agent Bricks in Action: Smarter Offer Targeting for Sales Teams</a></h2>
+            <div class="publication-date">2025-08-13 21:00</div>
+            <div class="summary">Unlocking smarter sales strategies! 🚀 The article discusses how the Agent Bricks Multi-Agent Supervisor is enhancing sales delivery. By using data-driven methods, sales teams can achieve faster and more targeted offers. This approach aims to improve overall effectiveness in reaching potential clients. Discover how technology is reshaping sales tactics! 💼📊 #SalesStrategy #DataDriven #AgentBricks #SalesInnovation #TargetedMarketing</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🌟 Exciting news for developers! JetBrains has introduced Kotlin Notebook, an interactive platform that enhances plugin development within IntelliJ IDEs. This tool allows users to write, run, and visualize Kotlin code in a dynamic environment, streamlining data analysis and prototyping. The integration with IntelliJ enables faster brainstorming and testing of plugin features. Ready to get started? Simply create a new Kotlin notebook and use the command `%use intellij-platform` to load...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/06/intro-redis-and-postgresql-red-hat-sap-environments" target="_blank">Intro to Redis and PostgreSQL in Red Hat SAP environments</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 07:16</span>
-                
-                <span class="author">by Vas Mitra</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/education/2025/08/13/jetbrains-academy-august/" target="_blank">JetBrains Academy – August Digest</a></h2>
+            <div class="publication-date">2025-08-13 15:52</div>
+            <div class="summary">🚀 Boost your learning this August with JetBrains Academy! Explore free tools and career-launching courses. Students can access the JetBrains Student Pack, used by top universities and companies like NASA and Google. Don&#39;t miss your chance to win a MacBook Pro! Apply by September 12. New courses include mastering AI agents and tackling 100 Rust exercises. #JetBrainsAcademy #Learning #CareerDevelopment #Rust #AI</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Maria Sharobaeva</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Discover how Redis and PostgreSQL can enhance SQL query performance in SAP environments! This article guides SAP and Red Hat admins in leveraging these technologies for better caching. 🔍 Key points include: - PostgreSQL and Redis can be deployed alongside SAP applications. - Redis offers granular control over caching, improving performance. - A Python program example showcases data caching. For more insights, check the full article! #Redis #PostgreSQL #SAP #Caching #DataManagement</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://about.gitlab.com/blog/measuring-ai-roi-at-scale-a-practical-guide-to-gitlab-duo-analytics/" target="_blank">Measuring AI ROI at scale: A practical guide to GitLab Duo Analytics</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 00:00</span>
-                
-                <span class="author">by Paul Meresanu</span>
-                
-                <span class="source">from <a href="https://about.gitlab.com/atom.xml" target="_blank">GitLab Blog</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/idea/2025/08/debugging-transactions-let-spring-debugger-do-the-heavy-lifting/" target="_blank">Debugging Transactions? Let Spring Debugger Do the Heavy Lifting</a></h2>
+            <div class="publication-date">2025-08-13 10:08</div>
+            <div class="summary">Debugging transaction issues in Spring Framework can be challenging due to potential misconfigurations. The @Transactional annotation simplifies transaction management but can lead to complications. The Spring Debugger plugin aids in identifying and resolving these issues, streamlining the debugging process. A practical example illustrates how to manage bookmarks and categories, ensuring proper transaction handling. Watch the demonstration to see the Spring Debugger in action! 🎥🔧...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Siva Katamreddy</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/gitlab-blog" class="source-link">GitLab-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the value of AI with GitLab Duo Analytics! 📊 This practical guide emphasizes the importance of measuring AI investments to understand usage and ROI. GitLab&#39;s Duo Accelerator program offers a specialized tool that converts usage data into actionable insights. Organizations can optimize license allocation and identify high-value use cases, enhancing AI adoption across teams. Learn how to implement a hybrid analytics solution for measuring AI productivity and make informed decisions for...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://wf-blog-2021.webflow.io/blog/llm-search-terms" target="_blank">The marketer’s guide to LLM search terms: From SEO to AEO</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 00:00</span>
-                
-                <span class="source">from <a href="https://webflow.com/blog/rss.xml" target="_blank">Webflow Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/13/deploy-image-mode-update-offline-and-air-gapped-environments" target="_blank">How to deploy an image mode update in offline and air-gapped environments</a></h2>
+            <div class="publication-date">2025-08-13 07:01</div>
+            <div class="summary">Need to deploy image mode updates in offline or air-gapped environments? Red Hat Enterprise Linux offers a flexible solution that doesn&#39;t rely on network connections. This method is ideal for security or hardware limitations. 🌐🔒 Key steps include preparing an external storage device, copying the necessary images, and applying updates directly to the offline system. While effective, this approach can be time-consuming and requires on-site deployment. If your system can connect online, consider...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Armando Ortiz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/webflow-blog" class="source-link">Webflow-Blog</a>
-                
-            </div>
-            
-            <div class="summary">SEO strategies are evolving due to the rise of AI in search. 🌐 Today, 55% of users rely on AI search for general research, often receiving direct answers on results pages without visiting websites. Marketers need to adapt by understanding new terms like AIO, GEO, and LLMs, which shape this AI-first search landscape. Learn how to optimize your content for a changing digital environment. 📊✨ #DigitalMarketing #SEO #AI #SearchTrends #MarketingStrategy</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.hubspot.com/blog/building-intelligent-support-workflows-with-hubspot-and-postman" target="_blank">Building Intelligent Support Workflows with HubSpot and Postman</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 14:37</span>
-                
-                <span class="author">by hseligson@hubspot.com (Hannah Seligson)</span>
-                
-                <span class="source">from <a href="https://developers.hubspot.com/blog/rss.xml" target="_blank">HubSpot Developers</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/13/how-install-offline-knowledge-portal-local-system" target="_blank">How to install Offline Knowledge Portal on a local system</a></h2>
+            <div class="publication-date">2025-08-13 07:01</div>
+            <div class="summary">Unlock the Red Hat Offline Knowledge Portal for easy access to documentation and guides without an internet connection! 📚💻 To install, ensure you have a Red Hat Satellite subscription, a web browser, and enough disk space. Follow these steps: 1️⃣ Generate your access key. 2️⃣ Log in to the registry and pull the image. 3️⃣ Run the podman image to verify. 4️⃣ Access the portal at http://localhost:8080. Explore valuable resources anytime, anywhere! 🌐✨ #RedHat #KnowledgePortal #OfflineAccess...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Avnish Kumar</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/hubspot-developers" class="source-link">HubSpot-Developers</a>
-                
-            </div>
-            
-            <div class="summary">Unlock efficient customer support with intelligent workflows! 🚀 This article explores how to enhance ticket escalation using HubSpot and Postman. It highlights the need for systems that not only respond quickly but also integrate human expertise. Key components include HubSpot&#39;s Service Hub for ticket management and Postman Flows for automation. This blend improves response quality while managing rising ticket volumes. #CustomerSupport #HubSpot #Postman #AI #Workflows</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/datagrip/2025/08/05/join-the-livestream-how-to-work-with-sql-and-databases-in-jetbrains-ides/" target="_blank">Join the Livestream: How to work with SQL and Databases in JetBrains IDEs</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 13:50</span>
-                
-                <span class="author">by Stanislav Garkusha</span>
-                
-                <span class="source">from <a href="https://blog.jetbrains.com/feed/" target="_blank">JetBrains Blog</a></span>
-            </div>
+            <h2><a href="https://developer.okta.com/blog/2025/08/13/oktane-ai-security" target="_blank">Find the intersection of security, AI, IAM, and fun at Oktane</a></h2>
+            <div class="publication-date">2025-08-13 05:00</div>
+            <div class="summary">Join us at Oktane 2025 in Las Vegas, NV, from September 24-26! 🎉 This year’s focus is on AI, security, and identity management. Explore the Oktane Developer Lounge for insights into creating secure applications and connecting with identity experts. 🤖 Don’t miss our hands-on labs, covering topics like OAuth and Terraform. Network with peers and enjoy engaging events! For more info, feel free to reach out. We look forward to seeing you! #Oktane2025 #AI #Security #IdentityManagement #Networking</div>
+            <div class="source">Source: <a href="/sources/okta-developer-blog">Okta Developer Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/jetbrains-blog" class="source-link">JetBrains-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Join our livestream, &#34;How to Work With SQL and Databases in JetBrains IDEs,&#34; on August 14, 2025, at 4:00 pm UTC (6:00 pm CET / 12:00 pm ET). Learn about SQL queries, database navigation, and data import/export. We&#39;ll showcase features like text-to-SQL and user parameters. Don’t miss the chance to ask questions! A recording will be available on our YouTube channel afterward. 🔗 Register now to stay updated! #JetBrains #SQL #Databases #Livestream #DataGrip</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/05/getting-started-managed-clusters-migration" target="_blank">Getting started with managed clusters migration</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Yaheng Liu, ChunLin Yang, Jacob Berger</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.twilio.com/en-us/blog/company/spotlights/introducing-developer-evangelist-anni-chen" target="_blank">Introducing Developer Evangelist Anni Chen</a></h2>
+            <div class="publication-date">2025-08-13 00:00</div>
+            <div class="summary">🌟 Meet Anni Chen, Twilio&#39;s new Developer Evangelist! Anni brings a passion for AI, food, and productivity to her role. She shares insights from her journey into developer evangelism, aiming to connect with the developer community and enhance user experiences. Stay tuned for more updates and insights from Anni! #DeveloperEvangelism #Twilio #TechCommunity #AI #Productivity</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Anni Chen</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Red Hat Advanced Cluster Management 2.13 introduces a new developer preview feature: Managed Cluster Migration. This feature is beneficial when you need to migrate managed clusters due to instability, excess clusters, or selective transfers to another hub cluster. To get started, ensure both hub clusters are imported, running the same version, and have the managed-service account add-on enabled. You can then create a ManagedClusterMigration custom resource to facilitate the migration. For...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/05/retrieval-augmented-generation-llama-stack-and-python" target="_blank">Retrieval-augmented generation with Llama Stack and Python</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Michael Dawson</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" target="_blank">Building AI agents made easy with Goose and Docker</a></h2>
+            <div class="publication-date">2025-08-12 16:00</div>
+            <div class="summary">🚀 Building AI agents can be simplified with the right tools and frameworks. Key components include selecting an AI backend, configuring accessible tools, and integrating business logic for specific use cases. This article explores using Goose, Docker, and the MCP protocol to create an agent that summarizes YouTube videos. With Docker Model Runner, you can run AI locally for enhanced privacy. For more details, check the GitHub repository: https://github.com/shelajev/hani. #AIAgents #Docker...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Oleg Selajev</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Learn how to implement retrieval-augmented generation (RAG) using Python and Llama Stack! This article explores how RAG enhances AI responses by providing relevant context from documents, like Node.js reference architecture. By transforming data into vectors, the application retrieves pertinent document chunks to improve answer quality. The setup process involves running a Llama Stack instance and managing vector databases for efficient data handling. For developers interested in leveraging...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/05/how-deploy-multiple-openstack-environments-openshift" target="_blank">How to deploy multiple OpenStack environments on OpenShift</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Gil Rosenberg</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/windows-image-building-service-openshift-virtualization" target="_blank">Windows image-building service for OpenShift Virtualization</a></h2>
+            <div class="publication-date">2025-08-12 15:16</div>
+            <div class="summary">🚀 Red Hat OpenShift Pipelines now allows for seamless management of virtual machines (VMs) in your CI/CD process. By integrating OpenShift Pipelines with OpenShift Virtualization, developers can automate the creation of standardized Windows golden images, enhancing VM provisioning. Key features include: - Management of pipelines as Kubernetes Custom Resources (CRs). - Simplified collaboration through source control management (SCM). - Streamlined operations by treating VMs as native objects...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Karel Simon</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Red Hat OpenStack Services on OpenShift introduces a new deployment architecture that enhances Infrastructure-as-a-Service (IaaS) environments. This architecture utilizes distributed control plane services in pods, which significantly reduces resource consumption compared to previous versions. A key feature of the latest release is the ability to run multiple OpenStack Services across different namespaces within the same OpenShift infrastructure, supporting development, staging, testing, and...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/send-mms-with-rust" target="_blank">How to Send an MMS With Rust</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 00:00</span>
-                
-                <span class="author">by Matthew Setter</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://blog.jetbrains.com/dotnet/2025/08/12/dotinsights-august-2025/" target="_blank">dotInsights | August 2025</a></h2>
+            <div class="publication-date">2025-08-12 14:09</div>
+            <div class="summary">🚀 Did you know about C# null-coalescing operators? The ?? operator returns the left operand if it&#39;s not null; otherwise, it returns the right operand. The ??= operator assigns the right operand’s value only if the left is null. Stay updated with .NET insights from JetBrains in their latest dotInsights newsletter! 📢 Catch talks on refactoring, testing, and more from industry experts! #CSharp #dotNet #SoftwareDevelopment #JetBrains #ProgrammingTips</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Rachel Appel</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">📱 Learn how to send an MMS using Rust with Twilio&#39;s Programmable Messaging API! This tutorial builds on a previous SMS guide, introducing the Multimedia Messaging Service (MMS), which allows sending images, audio, and more. While Rust lacks a dedicated SDK from Twilio, you can utilize Crates like Reqwest and Serde to simplify the process. You&#39;ll need Rust, a Twilio account, and a mobile device. Ready to get started? #Rust #MMS #Twilio #Programming #Coding</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/developers/community/secure-cakephp-otp-verification-using-whatsapp" target="_blank">Secure CakePHP with One-Time Password Verification Using  WhatsApp</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 00:00</span>
-                
-                <span class="author">by Isijola Jeremiah</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/build-your-first-software-template-backstage" target="_blank">Build your first Software Template for Backstage</a></h2>
+            <div class="publication-date">2025-08-12 12:31</div>
+            <div class="summary">🚀 More organizations are adopting platform engineering and internal developer portals (IDPs) to enhance onboarding and self-service capabilities. This article details how to create a Software Template for Backstage using Red Hat Developer Hub. The template automates developer tasks, enabling faster application repository creation on GitHub with a CI pipeline. Prerequisites include admin access to Red Hat Developer Hub and GitHub integration setup. The guide offers step-by-step instructions...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Evan Shortiss, Raghu Banda</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Enhance your CakePHP security with One-Time Password (OTP) verification via WhatsApp! 📱🔒 This tutorial guides you through the process of integrating the Twilio WhatsApp Business API for user authentication. Learn to create login and verification pages that streamline user access while boosting security. Prerequisites include PHP 8.3&#43;, a Twilio account, and basic CakePHP knowledge. #WebDevelopment #CakePHP #Twilio #UserSecurity #WhatsApp</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.docker.com/blog/mcp-toolkit-and-vs-code-copilot-agent/" target="_blank">How Docker MCP Toolkit Works with VS Code Copilot Agent Mode</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 20:10</span>
-                
-                <span class="author">by Hamida Rebaï</span>
-                
-                <span class="source">from <a href="https://www.docker.com/blog/feed/" target="_blank">Docker Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp" target="_blank">How to build a simple agentic AI server with MCP</a></h2>
+            <div class="publication-date">2025-08-12 07:16</div>
+            <div class="summary">🌐 As AI agents evolve, the need for reliable connections to real-world data grows. The Model Context Protocol (MCP) offers a standardized way to connect AI systems securely and efficiently. In a recent article, a simple MCP server was built to fetch weather data from the Open-Meteo API. This server allows AI models to interact with external tools and data, enhancing their functionality. To explore MCP, developers can set up their environment and create tools to access data easily. The article...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Saroj Paudel</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/docker-blog" class="source-link">Docker-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of your development workflow! 🚀 The article explores how Docker&#39;s Model Context Protocol (MCP) Toolkit integrates with VS Code’s GitHub Copilot Agent Mode. This combination enhances productivity by allowing autonomous coding workflows with improved security and automation. Key features of the MCP Toolkit include modular components for various tasks and strict access controls for security. 🛡️ For a step-by-step setup guide, check out the article to get started with these...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/navigating-gpu-architecture-support-a-guide-for-nvidia-cuda-developers/" target="_blank">Navigating GPU Architecture Support: A Guide for NVIDIA CUDA Developers</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 20:01</span>
-                
-                <span class="author">by Jonathan Bentz</span>
-                
-                <span class="source">from <a href="https://developer.nvidia.com/blog/feed" target="_blank">Nvidia Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/boost-ai-efficiency-gpu-autoscaling-openshift" target="_blank">Boost AI efficiency with GPU autoscaling on OpenShift</a></h2>
+            <div class="publication-date">2025-08-12 07:16</div>
+            <div class="summary">Unlock AI potential with GPU autoscaling on OpenShift! 🚀 Dynamic autoscaling is essential for maintaining efficiency and availability in modern applications. Red Hat OpenShift offers features like horizontal pod autoscaling (HPA) and custom metrics autoscaler (KEDA) to optimize resource allocation and manage workloads effectively. KEDA enhances traditional scaling methods by utilizing external metrics, enabling better performance for GPU-accelerated applications. 📈 Learn how to implement...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Rohit Ralhan</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/nvidia-developer-blog" class="source-link">Nvidia-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Are you developing with NVIDIA CUDA? You may have seen warnings about offline compilation for architectures prior to &#39;_75&#39; being phased out. This is a heads-up for developers to update their practices. The NVIDIA software stack consists of two main components: the CUDA Toolkit for building applications and the NVIDIA Driver for running them. The driver interfaces directly with GPU hardware and comes in three branches: New Feature Branch, Production Branch, and Long-Term Support Branch. Each...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/04/how-use-red-hat-quay-proxy-cache" target="_blank">How to use Red Hat Quay as a proxy cache</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 07:01</span>
-                
-                <span class="author">by Ahmed Bashir</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/filbench" target="_blank">🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?</a></h2>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">Exploring the capabilities of LLMs in Filipino languages is essential. 🇵🇭 FilBench, a new evaluation suite, assesses LLM fluency, translation, and cultural knowledge in Tagalog and Cebuano. Despite high ChatGPT usage in the Philippines, systematic evaluations are lacking. The study evaluates over 20 LLMs, aiming to provide clear insights. 📄 Read the paper: [arxiv.org](https://arxiv.org/abs/2508.03523) 🖥️ Check GitHub: [github.com](https://github.com/filbench/filbench-eval) #FilBench #LLMs...</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of Red Hat Quay as a proxy cache for container images! 🌐 This guide details how to set up a Red Hat OpenShift cluster and enable proxy caching in Red Hat Quay. Start by configuring the FEATURE_PROXY_CACHE flag in the config.yaml file, then create an organization for remote image proxying. Learn how to pull images from external sources like Docker Hub and deploy applications seamlessly. 🚀 For more insights, check out the full article! #RedHat #ContainerRegistry #OpenShift...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/04/net-container-troubleshooting-openshift-4" target="_blank">.NET container troubleshooting in OpenShift 4</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 07:01</span>
-                
-                <span class="author">by Francisco De Melo Junior</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/webflow-analyze-user-journey" target="_blank">A data-driven approach to building better user journeys with Webflow Analyze</a></h2>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">Unlock the potential of your website with Webflow Analyze! 🌐 This tool empowers web teams to access user behavior data directly within their design workflow. Understanding user journeys—from first click to conversion—can lead to significant increases in demo requests and revenue. Learn how to analyze visitor touchpoints to enhance engagement and reduce bounce rates. Discover a three-step roadmap for optimizing user journeys and driving better results. 📈 #WebDesign #UserExperience #DataDriven...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 The .NET framework is a robust tool for deploying applications across platforms like Windows, Linux, and macOS. Red Hat offers a containerized version specifically for OpenShift. 🔍 The article by Tom Deseyn outlines steps for creating .NET container images and troubleshooting common issues. It highlights methods for memory analysis using tools like `dotnet dump`. 📊 For developers looking to optimize their .NET applications in OpenShift, this is a valuable resource. #DotNet #OpenShift...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.twilio.com/en-us/blog/insights/best-practices/rcs-what-to-know" target="_blank">6 things to know about RCS business messaging</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 00:00</span>
-                
-                <span class="author">by Ravleen Kaur</span>
-                
-                <span class="source">from <a href="https://www.twilio.com/blog/feed" target="_blank">Twilio Engineering</a></span>
-            </div>
+            <h2><a href="https://about.gitlab.com/blog/custom-rules-duo-agentic-chat-deep-dive/" target="_blank">Custom rules in GitLab Duo Agentic Chat for greater developer efficiency</a></h2>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">Unlock the potential of GitLab Duo with custom rules to enhance developer efficiency! 🚀 Transform your AI assistant into a tailored coding expert. Set version controls for Java, enforce coding styles, and automate DevSecOps processes. This guide covers practical steps, use cases, and examples to streamline your coding standards. Explore how to implement custom rules in GitLab projects today! #GitLab #DeveloperEfficiency #CustomRules #DevSecOps #AIInDevelopment</div>
+            <div class="source">Source: <a href="/sources/gitlab-blog">GitLab Blog</a></div>
+            
+            <div class="author">Michael Friedrich</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/twilio-engineering" class="source-link">Twilio-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">RCS business messaging is transforming brand-consumer interactions. This advanced protocol enables the exchange of rich, interactive content like images, videos, and buttons. If you&#39;re considering moving from SMS or MMS, understanding RCS is essential. Twilio hosted a webinar to discuss RCS&#39;s significance and how to begin using it. Check it out for insights! 📱💬 #RCS #BusinessMessaging #Twilio #DigitalCommunication #Marketing</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.elastic.co/blog/elastic-api-custom-soar" target="_blank">Harnessing Elastic APIs for custom AI-driven SOAR</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 00:00</span>
-                
-                <span class="author">by Kevin Umsted</span>
-                
-                <span class="source">from <a href="https://www.elastic.co/blog/feed" target="_blank">Elastic Blog</a></span>
-            </div>
+            <h2><a href="https://auth0.com/blog/earn-customer-trust-in-the-ai-era-a-guide-for-businesses/" target="_blank">Earn Customer Trust in the AI Era: A Guide for Businesses</a></h2>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">🌐 In the AI era, building customer trust is crucial for businesses. A recent report reveals that 37% of consumers frequently interact with AI. Yet, 70% prefer humans for assistance, valuing empathy over efficiency. 🤝 As customers define AI&#39;s role, they see it as a tool for tasks but hesitate to trust it with complex decisions. The key question remains: &#34;Can I trust you with my data?&#34; With 23% of users avoiding AI entirely, addressing this concern is essential for fostering trust. 🔑...</div>
+            <div class="source">Source: <a href="/sources/auth0-blog">Auth0 Blog</a></div>
+            
+            <div class="author">Anika Jang</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/elastic-blog" class="source-link">Elastic-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🔍 Security teams face challenges with alerts and investigations. Elastic Security offers an API-first approach, enabling custom workflows for efficient threat response. 🛠️ The article highlights how Elastic&#39;s APIs can automate security orchestration, integrating AI and tools like Slack for improved operations. 💡 Key steps include monitoring for critical alerts, leveraging the Elastic AI Assistant, and executing commands seamlessly. #CyberSecurity #ElasticSecurity #Automation #AI #SOAR</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://auth0.com/blog/how-to-connect-auth0-with-shopify-a-tech-quick-start-guide/" target="_blank">How to Connect Auth0 with Shopify: A Tech Quick Start Guide</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 00:00</span>
-                
-                <span class="author">by Stanley Varner</span>
-                
-                <span class="source">from <a href="https://auth0.com/blog/rss.xml" target="_blank">Auth0 Blog</a></span>
-            </div>
+            <h2><a href="https://huggingface.co/blog/textquests" target="_blank">TextQuests: How Good are LLMs at Text-Based Video Games?</a></h2>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">📚 The article explores the capabilities of Large Language Models (LLMs) in text-based video games. It highlights that while LLMs excel in static knowledge benchmarks, they face challenges in dynamic, interactive environments. Developing effective evaluation methods for these models remains crucial. Two main approaches are suggested: real-world environments with specific skills and simulated open-world settings. The article introduces TextQuests as a new benchmark to assess LLM performance in...</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/auth0-blog" class="source-link">Auth0-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock enhanced security for your Shopify store by integrating Auth0! 🔐 This guide details how to connect Auth0 with Shopify customer accounts using OpenID Connect (OIDC). The integration allows for better login options, including social logins and multifactor authentication (MFA). Learn how to set up Auth0, configure your Shopify store, and customize your authentication flow, all while ensuring a secure and personalized experience for your customers. #Shopify #Auth0 #Ecommerce #Cybersecurity...</div>
         </article>
         
     </div>
@@ -1141,6 +1101,10 @@
             
             
             <a href="/categories/educational/page/5/" class="pagination-link">5</a>
+            
+            
+            
+            <a href="/categories/educational/page/6/" class="pagination-link">6</a>
             
             
         </div>
@@ -1202,6 +1166,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CrowdStrike-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,270 +414,228 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-2025-idc-marketscape-worldwide-ir-services/" target="_blank">CrowdStrike Named a Leader in 2025 IDC MarketScape for Worldwide Incident Response Services</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 00:00</span>
-                
-                <span class="author">by Max Gebhardt</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-managed-detection-response-services-europe-q3-2025/" target="_blank">CrowdStrike Named a Leader in The Forrester Wave™: Managed Detection and Response Services in Europe, Q3 2025</a></h2>
+            <div class="publication-date">2025-09-04 00:00</div>
+            <div class="summary">🚀 CrowdStrike has been recognized as a Leader in The Forrester Wave™: Managed Detection and Response Services in Europe for Q3 2025. The company excelled in 16 evaluation criteria, including endpoint detection and threat hunting. This highlights the importance of AI-driven technology and human expertise in today’s complex threat landscape. CrowdStrike Falcon® Complete Next-Gen MDR offers robust AI-accelerated threat detection and response across various platforms. #CyberSecurity...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Austin Murphy</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/ember-2024-advancing-cybersecurity-ml-training-on-evasive-malware/" target="_blank">EMBER2024: Advancing the Training of Cybersecurity ML Models Against Evasive Malware</a></h2>
+            <div class="publication-date">2025-09-03 00:00</div>
+            <div class="summary">🌐 Exciting news in cybersecurity! CrowdStrike has released EMBER2024, an updated open-source dataset aimed at enhancing machine learning models for malware detection. It features over 3.2 million files across six formats and includes advanced malware samples that can evade antivirus solutions. The dataset&#39;s details were shared in a recent academic paper at the KDD-2025 conference. EMBER2024 aims to overcome challenges in public dataset release while promoting research in malware...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
             
-            <div class="sources">
+            <div class="author">Phil Roth</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            <div class="summary">ð CrowdStrike has been recognized as a Leader in the 2025 IDC MarketScape for Worldwide Incident Response Services. This acknowledgment highlights their rapid response capabilities, powered by the AI-native CrowdStrike FalconÂ® platform, and their global 24/7 incident response model. With the rise of AI-driven threats, CrowdStrike combines expertise and technology to effectively counteract these challenges. Their integrated approach ensures organizations can detect and manage incidents swiftly...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/secure-ai-at-machine-speed/" target="_blank">Secure AI at Machine Speed: Defending the Growing Attack Surface</a></h2>
+            <div class="publication-date">2025-09-02 00:00</div>
+            <div class="summary">As AI integrates into various business functions, it significantly broadens the enterprise attack surface. 📈 Adversaries are increasingly targeting AI tools and their supporting infrastructure, exploiting vulnerabilities in APIs and models. Many organizations struggle with visibility and lack adequate protection for these evolving threats. 🔍 To tackle these challenges, innovative, real-time security solutions tailored for AI are essential. The CrowdStrike Falcon® platform offers insights on...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Dr. Beth Williams - Grace Ural</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-2025-idc-marketscape-worldwide-ir-services/" target="_blank">CrowdStrike Named a Leader in 2025 IDC MarketScape for Worldwide Incident Response Services</a></h2>
+            <div class="publication-date">2025-08-27 00:00</div>
+            <div class="summary">🚀 CrowdStrike has been recognized as a Leader in the 2025 IDC MarketScape for Worldwide Incident Response Services. This acknowledgment highlights their rapid response capabilities, powered by the AI-native CrowdStrike Falcon® platform, and their global 24/7 incident response model. With the rise of AI-driven threats, CrowdStrike combines expertise and technology to effectively counteract these challenges. Their integrated approach ensures organizations can detect and manage incidents swiftly...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Max Gebhardt</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-onum/" target="_blank">CrowdStrike to Acquire Onum to Transform How Data Powers the Agentic SOC</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-27 00:00</span>
-                
-                <span class="author">by Michael Sentonas</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-27 00:00</div>
+            <div class="summary">🚀 CrowdStrike has announced its agreement to acquire Onum, enhancing its Falcon® platform. This acquisition aims to transform how data powers the agentic SOC by leveraging real-time data architecture. 📊 Onum&#39;s technology will enable faster, high-fidelity intelligence, addressing the data crisis security teams face today. Legacy SIEMs struggle with overwhelming volumes of data, often leading to costly decisions. 💡 With Onum, CrowdStrike promises to improve processing speed and reduce storage...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Michael Sentonas</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð CrowdStrike has announced its agreement to acquire Onum, enhancing its FalconÂ® platform. This acquisition aims to transform how data powers the agentic SOC by leveraging real-time data architecture. ð Onum&#39;s technology will enable faster, high-fidelity intelligence, addressing the data crisis security teams face today. Legacy SIEMs struggle with overwhelming volumes of data, often leading to costly decisions. ð¡ With Onum, CrowdStrike promises to improve processing speed and reduce storage...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-2025-idc-marketscape-exposure-management/" target="_blank">CrowdStrike Named a Leader in 2025 IDC MarketScape for Exposure Management</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-25 00:00</span>
-                
-                <span class="author">by Kamil Imtiaz</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-25 00:00</div>
+            <div class="summary">🚀 Exciting news for cybersecurity! CrowdStrike has been recognized as a Leader in the 2025 IDC MarketScape for Exposure Management. This recognition highlights their innovative approach to addressing modern threats, where adversaries use advanced techniques to exploit vulnerabilities. Unlike traditional tools, CrowdStrike Falcon® offers real-time visibility and prioritizes risks based on actual adversary behavior, streamlining response and remediation processes. Learn more about how they are...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Kamil Imtiaz</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news for cybersecurity! CrowdStrike has been recognized as a Leader in the 2025 IDC MarketScape for Exposure Management. This recognition highlights their innovative approach to addressing modern threats, where adversaries use advanced techniques to exploit vulnerabilities. Unlike traditional tools, CrowdStrike FalconÂ® offers real-time visibility and prioritizes risks based on actual adversary behavior, streamlining response and remediation processes. Learn more about how they are...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/murky-panda-trusted-relationship-threat-in-cloud/" target="_blank">MURKY PANDA: A Trusted-Relationship Threat in the Cloud</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 00:00</span>
-                
-                <span class="author">by Counter Adversary Operations</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 00:00</div>
+            <div class="summary">🚨 MURKY PANDA is a China-nexus adversary targeting various sectors in North America, including government and technology. Since late 2024, they have used trusted-relationship compromises in the cloud, showcasing deep knowledge of cloud environments. Their tactics include exploiting vulnerabilities and deploying malware like CloudedHope. 💻 CrowdStrike has tracked MURKY PANDA&#39;s operations, which are driven by intelligence-collection goals, often resulting in the exfiltration of sensitive...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Counter Adversary Operations</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ MURKY PANDA is a China-nexus adversary targeting various sectors in North America, including government and technology. Since late 2024, they have used trusted-relationship compromises in the cloud, showcasing deep knowledge of cloud environments. Their tactics include exploiting vulnerabilities and deploying malware like CloudedHope. ð» CrowdStrike has tracked MURKY PANDA&#39;s operations, which are driven by intelligence-collection goals, often resulting in the exfiltration of sensitive...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.crowdstrike.com/en-us/blog/falcon-prevents-cookie-spider-shamos-delivery-macos/" target="_blank">Falcon Platform Prevents COOKIE SPIDER&amp;rsquo;s SHAMOS Delivery on macOS</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-20 00:00</span>
-                
-                <span class="author">by Maddie Stewart - Suweera De Souza - Ash Leslie - Doug Brown</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/falcon-prevents-cookie-spider-shamos-delivery-macos/" target="_blank">Falcon Platform Prevents COOKIE SPIDER’s SHAMOS Delivery on macOS</a></h2>
+            <div class="publication-date">2025-08-20 00:00</div>
+            <div class="summary">🚨 The CrowdStrike Falcon® platform has successfully blocked a sophisticated malware campaign by COOKIE SPIDER targeting macOS users. Between June and August 2025, over 300 customer environments were at risk due to the SHAMOS variant of the Atomic macOS Stealer. This malware was distributed through malvertising, tricking users into executing a harmful installation command. The campaign highlighted the use of one-line installation commands, which can bypass security checks, raising concerns...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Maddie Stewart - Suweera De Souza - Ash Leslie - Doug Brown</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ The CrowdStrike FalconÂ® platform has successfully blocked a sophisticated malware campaign by COOKIE SPIDER targeting macOS users. Between June and August 2025, over 300 customer environments were at risk due to the SHAMOS variant of the Atomic macOS Stealer. This malware was distributed through malvertising, tricking users into executing a harmful installation command. The campaign highlighted the use of one-line installation commands, which can bypass security checks, raising concerns...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/defending-against-scattered-spider-with-falcon-next-gen-siem/" target="_blank">Defending Against SCATTERED SPIDER with Falcon Next-Gen SIEM</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="author">by CrowdStrike Engineering</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">🚨 SCATTERED SPIDER continues to pose a significant threat, launching attacks on organizations globally since 2022. This adversary uses refined social engineering tactics to compromise sensitive information. 🔍 CrowdStrike&#39;s Falcon Next-Gen SIEM offers real-time detection across various domains, enhancing defenses against these evolving threats. It integrates third-party telemetry for improved visibility and tailored protection. 📊 The blog details key phases of SCATTERED SPIDER’s kill chain and...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">CrowdStrike Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð¨ SCATTERED SPIDER continues to pose a significant threat, launching attacks on organizations globally since 2022. This adversary uses refined social engineering tactics to compromise sensitive information. ð CrowdStrike&#39;s Falcon Next-Gen SIEM offers real-time detection across various domains, enhancing defenses against these evolving threats. It integrates third-party telemetry for improved visibility and tailored protection. ð The blog details key phases of SCATTERED SPIDERâs kill chain and...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/next-gen-identity-security-unifies-protection-across-all-identities-domains/" target="_blank">Falcon Next-Gen Identity Security Unifies Protection Across All Identities and Domains</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 00:00</span>
-                
-                <span class="author">by Ryan Terry</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 00:00</div>
+            <div class="summary">🚀 Exciting news in identity security! CrowdStrike has launched Falcon Next-Gen Identity Security, a comprehensive solution designed to protect all identities—human, non-human, and AI—across various environments. This new platform unifies critical capabilities, including initial access prevention, privileged access security, and identity threat detection. It addresses the evolving landscape of identity threats as organizations increasingly adopt SaaS applications and AI agents. With Falcon,...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Ryan Terry</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Exciting news in identity security! CrowdStrike has launched Falcon Next-Gen Identity Security, a comprehensive solution designed to protect all identitiesâhuman, non-human, and AIâacross various environments. This new platform unifies critical capabilities, including initial access prevention, privileged access security, and identity threat detection. It addresses the evolving landscape of identity threats as organizations increasingly adopt SaaS applications and AI agents. With Falcon,...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2025/" target="_blank">August 2025 Patch Tuesday: One Publicly Disclosed Zero-Day and 13 Critical Vulnerabilities Among 107 CVEs</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="author">by Falcon Exposure Management Team</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">🔒 Microsoft has released its August 2025 Patch Tuesday updates, addressing 107 vulnerabilities. Among these are one publicly disclosed zero-day and 13 critical vulnerabilities. The most common risk types involve elevation of privilege (39%), remote code execution (33%), and information disclosure (15%). Windows received the largest share of patches with 67 updates. #PatchTuesday #CyberSecurity #MicrosoftUpdates #Vulnerabilities #InfoSec</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Falcon Exposure Management Team</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð Microsoft has released its August 2025 Patch Tuesday updates, addressing 107 vulnerabilities. Among these are one publicly disclosed zero-day and 13 critical vulnerabilities. The most common risk types involve elevation of privilege (39%), remote code execution (33%), and information disclosure (15%). Windows received the largest share of patches with 67 updates. #PatchTuesday #CyberSecurity #MicrosoftUpdates #Vulnerabilities #InfoSec</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-gigaom-radar-sspm/" target="_blank">CrowdStrike Named the Only Leader in GigaOm Radar for SaaS Security Posture Management</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 00:00</span>
-                
-                <span class="author">by Mitesh Shah</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 00:00</div>
+            <div class="summary">🌟 CrowdStrike has been named the sole Leader in the 2025 GigaOm Radar Report for SaaS Security Posture Management (SSPM). The report highlights CrowdStrike as the most innovative platform in the field, excelling in protecting identities and SaaS environments. With the rise of SaaS applications, the need for robust security has never been greater. CrowdStrike’s Falcon® platform addresses challenges like identity-based threats and misconfigurations, offering real-time threat detection and...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Mitesh Shah</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">ð CrowdStrike has been named the sole Leader in the 2025 GigaOm Radar Report for SaaS Security Posture Management (SSPM). The report highlights CrowdStrike as the most innovative platform in the field, excelling in protecting identities and SaaS environments. With the rise of SaaS applications, the need for robust security has never been greater. CrowdStrikeâs FalconÂ® platform addresses challenges like identity-based threats and misconfigurations, offering real-time threat detection and...</div>
         </article>
         
         <article class="article-item">
-            <h2><a href="https://www.crowdstrike.com/en-us/blog/machine-learning-evaluation-using-data-splitting/" target="_blank">CrowdStrike&amp;rsquo;s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-11 00:00</span>
-                
-                <span class="author">by Josh Sun</span>
-                
-                <span class="source">from <a href="https://www.crowdstrike.com/blog/feed/" target="_blank">CrowdStrike Blog</a></span>
-            </div>
+            <h2><a href="https://www.crowdstrike.com/en-us/blog/machine-learning-evaluation-using-data-splitting/" target="_blank">CrowdStrike’s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting</a></h2>
+            <div class="publication-date">2025-08-11 00:00</div>
+            <div class="summary">CrowdStrike is enhancing machine learning evaluation by tackling data leakage, which can lead to inaccurate threat detection in cybersecurity. To combat this, they implement strategic data splitting during model training. This method carefully manages how data is divided, ensuring that similar data points do not skew results, ultimately leading to more reliable detection of new threats. By focusing on this strategy, CrowdStrike aims to improve the performance of their AI-native platform...</div>
+            <div class="source">Source: CrowdStrike Blog</div>
+            
+            <div class="author">Josh Sun</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/crowdstrike-blog" class="source-link">CrowdStrike-Blog</a>
-                
-            </div>
-            
-            <div class="summary">CrowdStrike is enhancing machine learning evaluation by tackling data leakage, which can lead to inaccurate threat detection in cybersecurity. To combat this, they implement strategic data splitting during model training. This method carefully manages how data is divided, ensuring that similar data points do not skew results, ultimately leading to more reliable detection of new threats. By focusing on this strategy, CrowdStrike aims to improve the performance of their AI-native platform...</div>
         </article>
         
     </div>
@@ -400,6 +693,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

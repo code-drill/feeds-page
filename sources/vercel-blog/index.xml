@@ -2,361 +2,431 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vercel-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/vercel-blog/</link>
+    <link>/sources/vercel-blog/</link>
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 13:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 13:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Export traces, web analytics events, and speed insights datapoints to any destination</title>
+      <link>/articles/article-2025-09-05-7788/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7788/</guid>
+      <description>🚀 Exciting news for Vercel users! You can now export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement allows streaming of more raw data through expanded Log Drains infrastructure. Pro and Enterprise teams can set custom HTTP endpoints and choose from various encodings like JSON, NDJSON, or Protobuf. Explore Vercel Drains today! #Vercel #DataExport #WebAnalytics #OpenTelemetry #TechUpdates</description>
+    </item>
+    <item>
+      <title>Export traces, web analytics events, and speed insights datapoints to any destination</title>
+      <link>/articles/article-2025-09-05-7809/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7809/</guid>
+      <description>🚀 Exciting news for developers! Vercel now allows users to export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement expands the Log Drains infrastructure for seamless data streaming. Users can set up custom HTTP endpoints to receive data in various formats like JSON, NDJSON, or Protobuf. Pro and Enterprise teams can export data at a cost of $0.50 per GB. Learn more about Vercel Drains! #DataExport #WebAnalytics #Vercel #OpenTelemetry&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Zero-configuration Express backends</title>
+      <link>/articles/article-2025-09-05-7787/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7787/</guid>
+      <description>🚀 Exciting news for developers! Express, the minimalist web framework for Node.js, now offers zero-configuration support on Vercel. This means you can deploy Express applications without the hassle of setting up redirects in vercel.json or using the /api folder. For a seamless experience, check out the Express on Vercel documentation. #NodeJS #Express #Vercel #WebDevelopment #Programming</description>
+    </item>
+    <item>
+      <title>Moonshot AI&#39;s Kimi K2 0905 model is now supported in Vercel AI Gateway</title>
+      <link>/articles/article-2025-09-04-7775/</link>
+      <pubDate>Thu, 04 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7775/</guid>
+      <description>🚀 Exciting news for developers! Moonshot AI&amp;rsquo;s Kimi K2 0905 model is now accessible through Vercel AI Gateway. This model supports agentic coding with a 256K context window and requires no additional provider accounts. AI Gateway offers a unified API for tracking usage, costs, and optimizing performance. It includes built-in observability and intelligent routing for enhanced reliability. To get started, install the AI SDK v5 and set the model to moonshotai/kimi-k2-0905. #AI #MoonshotAI #Vercel&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Stress testing Biome&#39;s noFloatingPromises lint rule</title>
+      <link>/articles/article-2025-09-04-7748/</link>
+      <pubDate>Thu, 04 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7748/</guid>
+      <description>We recently collaborated with the Biome team to enhance their noFloatingPromises lint rule. This rule is crucial for identifying unhandled Promises that can lead to errors. To test its effectiveness, we organized a friendly competition to create challenging test cases that could still pass the updated lint rule. This initiative not only fostered creativity but also encouraged learning among our team. Stay tuned for more insights! 🚀💡 #SoftwareDevelopment #LintRules #Teamwork #Innovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Open SDK strategy</title>
+      <link>/articles/article-2025-09-03-7702/</link>
+      <pubDate>Wed, 03 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7702/</guid>
+      <description>At Vercel, open source is a core principle. They focus on developing high-quality software without the goal of profit. Their approach aims to enhance the overall software landscape for everyone, not just their customers. This philosophy reflects the belief that improving software benefits all users. Learn more about Vercel&amp;rsquo;s commitment to open source. 🌍💻 #OpenSource #SoftwareDevelopment #Vercel #TechCommunity #Innovation</description>
+    </item>
     <item>
       <title>CVE-2025-55173</title>
-      <link>http://localhost:1313/articles/article-7555/</link>
+      <link>/articles/article-2025-08-29-7555/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7555/</guid>
+      <guid>/articles/article-2025-08-29-7555/</guid>
       <description>🚨 A vulnerability (CVE-2025-55173) affecting Next.js Image Optimization has been identified. It impacts versions prior to v15.4.5 and v14.2.31, allowing attacker-controlled external image servers to trigger arbitrary file downloads. This could lead to phishing and social engineering attacks. A patch was released on July 29th, 2025, addressing this issue for Vercel customers. For more details, check the GitHub Advisory and Next.js Release Notes. #CyberSecurity #NextJS #Vulnerability&amp;hellip;</description>
     </item>
     <item>
       <title>CVE-2025-57752</title>
-      <link>http://localhost:1313/articles/article-7553/</link>
+      <link>/articles/article-2025-08-29-7553/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7553/</guid>
+      <guid>/articles/article-2025-08-29-7553/</guid>
       <description>A vulnerability, CVE-2025-57752, has been identified in Next.js Image Optimization affecting versions prior to v15.4.5 and v14.2.31. It involved cache poisoning, risking unauthorized access to sensitive images. The issue arose when API routes returned images based on headers, leading to potential disclosure of user-specific content. The vulnerability has been resolved in the latest versions, ensuring that request headers are not forwarded to image endpoints. For more details, refer to the&amp;hellip;</description>
     </item>
     <item>
       <title>CVE-2025-57822</title>
-      <link>http://localhost:1313/articles/article-7554/</link>
+      <link>/articles/article-2025-08-29-7554/</link>
       <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7554/</guid>
+      <guid>/articles/article-2025-08-29-7554/</guid>
       <description>A recent vulnerability, CVE-2025-57822, has been identified in Next.js Middleware, affecting versions before v14.2.32 and v15.4.7. This flaw allowed for Server-Side Request Forgery (SSRF) risks due to misconfigured NextResponse.next() usage. Applications that reflected user request headers could unintentionally allow servers to make requests to harmful destinations. A patch was released on August 25, 2025, to protect Vercel customers. For those unable to upgrade, it is vital to adhere to&amp;hellip;</description>
     </item>
     <item>
       <title>Preparing for the worst: Our core database failover test</title>
-      <link>http://localhost:1313/articles/article-7485/</link>
+      <link>/articles/article-2025-08-28-7485/</link>
       <pubDate>Thu, 28 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7485/</guid>
+      <guid>/articles/article-2025-08-28-7485/</guid>
       <description>On July 24, 2025, we conducted a successful failover test of our core control-plane database from Azure West US to East US 2. This exercise confirmed our disaster recovery plans in real-world conditions. All control-plane traffic was tested, ensuring stability without any customer impact. While preview and development traffic were affected, our production CDN traffic remained unaffected across 19 regions. The operation highlighted our commitment to resilience, achieving zero downtime and no&amp;hellip;</description>
     </item>
     <item>
       <title>Anomaly alerts now in limited beta for Enterprise customers</title>
-      <link>http://localhost:1313/articles/article-7270/</link>
+      <link>/articles/article-2025-08-27-7270/</link>
       <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7270/</guid>
-      <description>ð¨ Enterprise customers can now access anomaly alerts in limited beta! These alerts help quickly identify unusual patterns in application metrics, allowing for prompt issue resolution. Users can integrate alerts via webhooks into existing monitoring systems and receive notifications directly in Slack channels. Explore this feature with Observability Plus and streamline your monitoring process! #AnomalyDetection #EnterpriseSolutions #MonitoringAlerts #TechUpdates #ObservabilityPlus</description>
+      <guid>/articles/article-2025-08-27-7270/</guid>
+      <description>🚨 Enterprise customers can now access anomaly alerts in limited beta! These alerts help quickly identify unusual patterns in application metrics, allowing for prompt issue resolution. Users can integrate alerts via webhooks into existing monitoring systems and receive notifications directly in Slack channels. Explore this feature with Observability Plus and streamline your monitoring process! #AnomalyDetection #EnterpriseSolutions #MonitoringAlerts #TechUpdates #ObservabilityPlus</description>
     </item>
     <item>
       <title>Deploy Slack&#39;s Bolt.js to Vercel with @vercel/slack-bolt</title>
-      <link>http://localhost:1313/articles/article-7271/</link>
+      <link>/articles/article-2025-08-27-7271/</link>
       <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7271/</guid>
-      <description>ð Exciting news for developers! @vercel has released @vercel/slack-bolt, an adapter that allows you to deploy Slack&amp;rsquo;s Bolt for JavaScript on Vercel&amp;rsquo;s AI Cloud. This tool helps manage Slack webhook events efficiently. It addresses the challenge of responding within three seconds to avoid timeouts, using Fluid computeâs streaming feature. Compatible with any function or framework like Hono, Nitro, or Next.js, you can start with the Slack Agent Template or explore the library on npm. #Slack&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7271/</guid>
+      <description>🚀 Exciting news for developers! @vercel has released @vercel/slack-bolt, an adapter that allows you to deploy Slack&amp;rsquo;s Bolt for JavaScript on Vercel&amp;rsquo;s AI Cloud. This tool helps manage Slack webhook events efficiently. It addresses the challenge of responding within three seconds to avoid timeouts, using Fluid compute’s streaming feature. Compatible with any function or framework like Hono, Nitro, or Next.js, you can start with the Slack Agent Template or explore the library on npm. #Slack&amp;hellip;</description>
     </item>
     <item>
       <title>s1ngularity: supply chain attack in Nx packages</title>
-      <link>http://localhost:1313/articles/article-7486/</link>
+      <link>/articles/article-2025-08-27-7486/</link>
       <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7486/</guid>
-      <description>ð¨ A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. ð The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. ð For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</description>
+      <guid>/articles/article-2025-08-27-7486/</guid>
+      <description>🚨 A supply chain attack has targeted the Nx package in the npm registry. Malicious versions were published using a stolen npm token, leading to potential exfiltration of developer credentials. 🔍 The Nx team quickly removed the compromised packages, but Vercel customers are generally safe unless specific conditions were met. 👉 For detailed information, visit the GitHub advisory from the Nx team. Stay vigilant! #SupplyChainAttack #CyberSecurity #NxPackages #Vercel #DeveloperSafety</description>
     </item>
     <item>
       <title>30-day runtime log retention, now available in Observability Plus</title>
-      <link>http://localhost:1313/articles/article-7230/</link>
+      <link>/articles/article-2025-08-26-7230/</link>
       <pubDate>Tue, 26 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7230/</guid>
-      <description>ð Exciting news for Observability Plus users! Teams can now access 30 days of runtime log retention, which includes valuable details on requests, Vercel Functions, and cache activity. This feature allows you to view, query, and share up to 14 consecutive days of log data at once. Best of all, this extended retention comes at no extra cost for Pro and Enterprise plans! Learn more about Runtime Logs and how to utilize this feature. #ObservabilityPlus #LogRetention #DataInsights</description>
+      <guid>/articles/article-2025-08-26-7230/</guid>
+      <description>📊 Exciting news for Observability Plus users! Teams can now access 30 days of runtime log retention, which includes valuable details on requests, Vercel Functions, and cache activity. This feature allows you to view, query, and share up to 14 consecutive days of log data at once. Best of all, this extended retention comes at no extra cost for Pro and Enterprise plans! Learn more about Runtime Logs and how to utilize this feature. #ObservabilityPlus #LogRetention #DataInsights</description>
     </item>
     <item>
       <title>Devin, Raycast, Windsurf, and Goose now supported on Vercel MCP</title>
-      <link>http://localhost:1313/articles/article-6342/</link>
+      <link>/articles/article-2025-08-25-6342/</link>
       <pubDate>Mon, 25 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6342/</guid>
-      <description>ð Exciting news for developers! You can now integrate Devin, Raycast, Windsurf, and Goose with Vercel&amp;rsquo;s Model Context Protocol (MCP). This allows for secure access to AI clients approved by Vercel. To get started, follow the installation steps for each client. Discover how to enhance your projects with Vercel MCP! #Vercel #AIIntegration #WebDevelopment #TechNews</description>
+      <guid>/articles/article-2025-08-25-6342/</guid>
+      <description>🚀 Exciting news for developers! You can now integrate Devin, Raycast, Windsurf, and Goose with Vercel&amp;rsquo;s Model Context Protocol (MCP). This allows for secure access to AI clients approved by Vercel. To get started, follow the installation steps for each client. Discover how to enhance your projects with Vercel MCP! #Vercel #AIIntegration #WebDevelopment #TechNews</description>
     </item>
     <item>
       <title>AI-powered prototyping with design systems</title>
-      <link>http://localhost:1313/articles/article-6306/</link>
+      <link>/articles/article-2025-08-22-6306/</link>
       <pubDate>Fri, 22 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6306/</guid>
+      <guid>/articles/article-2025-08-22-6306/</guid>
       <description>Unlocking the potential of AI in prototyping means speeding up collaboration and maintaining brand consistency. While many AI tools excel in speed and teamwork, they often fall short in producing on-brand designs. This gap arises from a lack of context about design components. To bridge this gap, a design system tailored for AI can help create prototypes that are both brand-aware and production-ready. Discover how to enhance your prototyping process! #AIDesign #Prototyping #DesignSystems&amp;hellip;</description>
     </item>
     <item>
       <title>Deploy xmcp servers with zero-configuration</title>
-      <link>http://localhost:1313/articles/article-6307/</link>
+      <link>/articles/article-2025-08-22-6307/</link>
       <pubDate>Fri, 22 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6307/</guid>
-      <description>ð Vercel now supports xmcp, a framework for building MCP servers using TypeScript with zero configuration. ð It utilizes file-based routing, making it easy to develop tools for your MCP server. You can create tools simply by adding a file with a default export. ð ï¸ Learn more about deploying xmcp to Vercel in the documentation. #Vercel #xmcp #TypeScript #WebDevelopment #MCPServers</description>
+      <guid>/articles/article-2025-08-22-6307/</guid>
+      <description>🚀 Vercel now supports xmcp, a framework for building MCP servers using TypeScript with zero configuration. 📁 It utilizes file-based routing, making it easy to develop tools for your MCP server. You can create tools simply by adding a file with a default export. 🛠️ Learn more about deploying xmcp to Vercel in the documentation. #Vercel #xmcp #TypeScript #WebDevelopment #MCPServers</description>
     </item>
     <item>
       <title>AI Gateway is now generally available</title>
-      <link>http://localhost:1313/articles/article-5777/</link>
+      <link>/articles/article-2025-08-21-5777/</link>
       <pubDate>Thu, 21 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5777/</guid>
-      <description>ð AI Gateway is now available! This new tool offers a unified API to access hundreds of AI models with features like transparent pricing and built-in observability. Key benefits include sub-20ms latency, automatic failover, and detailed usage analytics. You can use the AI SDK or an OpenAI-compatible endpoint to get started quickly. Discover more about AI Gateway today! #AIGateway #AIModels #TechNews #Innovation #APIs</description>
+      <guid>/articles/article-2025-08-21-5777/</guid>
+      <description>🚀 AI Gateway is now available! This new tool offers a unified API to access hundreds of AI models with features like transparent pricing and built-in observability. Key benefits include sub-20ms latency, automatic failover, and detailed usage analytics. You can use the AI SDK or an OpenAI-compatible endpoint to get started quickly. Discover more about AI Gateway today! #AIGateway #AIModels #TechNews #Innovation #APIs</description>
     </item>
     <item>
       <title>AI Gateway: Production-ready reliability for your AI apps</title>
-      <link>http://localhost:1313/articles/article-5776/</link>
+      <link>/articles/article-2025-08-21-5776/</link>
       <pubDate>Thu, 21 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5776/</guid>
-      <description>ð Building AI apps just got easier! With tools like the AI SDK, developers can create both frontends and backends in minutes. However, moving to production poses challenges, especially with reliability. Connecting to a single LLM provider can create risks if that provider faces downtime or rate limits. Introducing AI Gateway: it ensures consistent availability and stability for AI workloads, having already supported millions of users. #AIGateway #AIApps #TechInnovation #Reliability&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5776/</guid>
+      <description>🚀 Building AI apps just got easier! With tools like the AI SDK, developers can create both frontends and backends in minutes. However, moving to production poses challenges, especially with reliability. Connecting to a single LLM provider can create risks if that provider faces downtime or rate limits. Introducing AI Gateway: it ensures consistent availability and stability for AI workloads, having already supported millions of users. #AIGateway #AIApps #TechInnovation #Reliability&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing Streamdown: Open source Markdown for AI streaming</title>
-      <link>http://localhost:1313/articles/article-5778/</link>
+      <link>/articles/article-2025-08-21-5778/</link>
       <pubDate>Thu, 21 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5778/</guid>
-      <description>ð Introducing Streamdown: a new open-source Markdown renderer tailored for AI streaming! Streamdown enhances the AI Elements Response component and can also function as a standalone option for developers. It effectively manages unterminated chunks, interactive code blocks, and math expressions. Key features include: - Tailwind typography styles - GitHub Flavored Markdown support - Interactive code blocks with Shiki highlighting - LaTeX math support - Enhanced security for untrusted content&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5778/</guid>
+      <description>🚀 Introducing Streamdown: a new open-source Markdown renderer tailored for AI streaming! Streamdown enhances the AI Elements Response component and can also function as a standalone option for developers. It effectively manages unterminated chunks, interactive code blocks, and math expressions. Key features include: - Tailwind typography styles - GitHub Flavored Markdown support - Interactive code blocks with Shiki highlighting - LaTeX math support - Enhanced security for untrusted content&amp;hellip;</description>
     </item>
     <item>
       <title>&lt;script type=&#34;text/llms.txt&#34;&gt;</title>
-      <link>http://localhost:1313/articles/article-5082/</link>
+      <link>/articles/article-2025-08-20-5082/</link>
       <pubDate>Wed, 20 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5082/</guid>
-      <description>Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! ð»ð #AI #HTML #llms #Innovation #TechNews</description>
+      <guid>/articles/article-2025-08-20-5082/</guid>
+      <description>Discover a new approach for AI agents interacting with protected pages. The emerging standard, llms.txt, proposes including instructions directly in HTML responses using the &lt;script type=&#34;text/llms.txt&#34;&gt; tag. This could simplify how AIs access and consume documentation without relying on external sources. Learn more about this innovative concept! 💻📄 #AI #HTML #llms #Innovation #TechNews</description>
     </item>
     <item>
       <title>Rethinking prototyping, requirements, and project delivery at Code and Theory</title>
-      <link>http://localhost:1313/articles/article-5083/</link>
+      <link>/articles/article-2025-08-20-5083/</link>
       <pubDate>Wed, 20 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5083/</guid>
-      <description>Code and Theory is a digital agency that integrates strategy, design, and engineering. Their team consists of equal parts creatives and engineers, working on projects for major brands like Microsoft and Amazon. They focus on creating scalable digital experiences and utilize a method called v0 to streamline the process from concept to functioning software. Learn more about their innovative approach! ðð» #DigitalAgency #Prototyping #Innovation #Tech #ProjectDelivery</description>
+      <guid>/articles/article-2025-08-20-5083/</guid>
+      <description>Code and Theory is a digital agency that integrates strategy, design, and engineering. Their team consists of equal parts creatives and engineers, working on projects for major brands like Microsoft and Amazon. They focus on creating scalable digital experiences and utilize a method called v0 to streamline the process from concept to functioning software. Learn more about their innovative approach! 🌐💻 #DigitalAgency #Prototyping #Innovation #Tech #ProjectDelivery</description>
     </item>
     <item>
-      <title>Agents can now access protected deployments via Vercelâs MCP server</title>
-      <link>http://localhost:1313/articles/article-5084/</link>
+      <title>Agents can now access protected deployments via Vercel’s MCP server</title>
+      <link>/articles/article-2025-08-19-5084/</link>
       <pubDate>Tue, 19 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5084/</guid>
-      <description>ð Exciting news for developers! Vercel has introduced two new tools in its MCP server. The &lt;strong&gt;get_access_to_vercel_url&lt;/strong&gt; feature allows agents to generate a temporary shareable URL, enabling access to Vercel Auth-protected deployments without login credentials. Additionally, the &lt;strong&gt;web_fetch_vercel_url&lt;/strong&gt; tool lets agents fetch content directly from protected deployments, even when access would normally be denied. Explore these features to streamline your development process! #Vercel&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5084/</guid>
+      <description>🚀 Exciting news for developers! Vercel has introduced two new tools in its MCP server. The &lt;strong&gt;get_access_to_vercel_url&lt;/strong&gt; feature allows agents to generate a temporary shareable URL, enabling access to Vercel Auth-protected deployments without login credentials. Additionally, the &lt;strong&gt;web_fetch_vercel_url&lt;/strong&gt; tool lets agents fetch content directly from protected deployments, even when access would normally be denied. Explore these features to streamline your development process! #Vercel&amp;hellip;</description>
     </item>
     <item>
       <title>Node.js Vercel Functions now support fetch web handlers</title>
-      <link>http://localhost:1313/articles/article-5086/</link>
+      <link>/articles/article-2025-08-19-5086/</link>
       <pubDate>Tue, 19 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5086/</guid>
-      <description>ð Exciting news for developers! Vercel Functions on the Node.js runtime now support fetch web handlers. This enhancement boosts interoperability across various JavaScript frameworks and runtimes. You can still choose to export individual HTTP methods if that suits your project better. For further details, check out the documentation! ð #NodeJS #Vercel #WebDevelopment #JavaScript #APIs</description>
+      <guid>/articles/article-2025-08-19-5086/</guid>
+      <description>🚀 Exciting news for developers! Vercel Functions on the Node.js runtime now support fetch web handlers. This enhancement boosts interoperability across various JavaScript frameworks and runtimes. You can still choose to export individual HTTP methods if that suits your project better. For further details, check out the documentation! 📚 #NodeJS #Vercel #WebDevelopment #JavaScript #APIs</description>
     </item>
     <item>
       <title>If agents are building your app, who gets the W-2?</title>
-      <link>http://localhost:1313/articles/article-5087/</link>
+      <link>/articles/article-2025-08-18-5087/</link>
       <pubDate>Mon, 18 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5087/</guid>
-      <description>Autonomous coding agents are changing the software development landscape. ð¤ These agents can now fully design, build, test, and deploy features without human intervention. However, current U.S. GAAP regulations have not fully adapted to this technology. While third-party software costs can be capitalized, developer tools are often classified as overhead. It&amp;rsquo;s essential to consider how to treat work done by these agents in a manner similar to salaried engineers. #SoftwareDevelopment&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5087/</guid>
+      <description>Autonomous coding agents are changing the software development landscape. 🤖 These agents can now fully design, build, test, and deploy features without human intervention. However, current U.S. GAAP regulations have not fully adapted to this technology. While third-party software costs can be capitalized, developer tools are often classified as overhead. It&amp;rsquo;s essential to consider how to treat work done by these agents in a manner similar to salaried engineers. #SoftwareDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>Native support for SvelteKit&#39;s new OpenTelemetry spans</title>
-      <link>http://localhost:1313/articles/article-5089/</link>
+      <link>/articles/article-2025-08-18-5089/</link>
       <pubDate>Mon, 18 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5089/</guid>
-      <description>ð Vercel has added native support for SvelteKit&amp;rsquo;s new server-side OpenTelemetry spans. To begin, users can activate experimental tracing in SvelteKit and set up a tracing instrumentation file with the Vercel OpenTelemetry collector. Generated traces will now include built-in SvelteKit spans, and other collectors can also be configured. For further details, check the SvelteKit observability documentation. ð #SvelteKit #OpenTelemetry #Vercel #WebDevelopment #Observability</description>
+      <guid>/articles/article-2025-08-18-5089/</guid>
+      <description>🚀 Vercel has added native support for SvelteKit&amp;rsquo;s new server-side OpenTelemetry spans. To begin, users can activate experimental tracing in SvelteKit and set up a tracing instrumentation file with the Vercel OpenTelemetry collector. Generated traces will now include built-in SvelteKit spans, and other collectors can also be configured. For further details, check the SvelteKit observability documentation. 📊 #SvelteKit #OpenTelemetry #Vercel #WebDevelopment #Observability</description>
     </item>
     <item>
       <title>Vercel Sandbox increases concurrency and port limits</title>
-      <link>http://localhost:1313/articles/article-5088/</link>
+      <link>/articles/article-2025-08-18-5088/</link>
       <pubDate>Mon, 18 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5088/</guid>
-      <description>ð Vercel has enhanced its Sandbox capabilities for Pro and Enterprise teams! Now, users can run up to 2,000 Sandboxes concurrently, a significant increase from the previous limit of 150. Each Sandbox can also expose up to 4 ports for external access. This improvement allows for better handling of traffic spikes, untrusted code execution, and more complex applications. For projects needing even higher limits, contacting the sales team is an option. Learn more in the Vercel Sandbox docs! ðð§&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5088/</guid>
+      <description>🚀 Vercel has enhanced its Sandbox capabilities for Pro and Enterprise teams! Now, users can run up to 2,000 Sandboxes concurrently, a significant increase from the previous limit of 150. Each Sandbox can also expose up to 4 ports for external access. This improvement allows for better handling of traffic spikes, untrusted code execution, and more complex applications. For projects needing even higher limits, contacting the sales team is an option. Learn more in the Vercel Sandbox docs! 📊🔧&amp;hellip;</description>
     </item>
     <item>
       <title>Improved fake hardware detection with Vercel BotID</title>
-      <link>http://localhost:1313/articles/article-5091/</link>
+      <link>/articles/article-2025-08-15-5091/</link>
       <pubDate>Fri, 15 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5091/</guid>
-      <description>Vercel has enhanced its BotID Deep Analysis with an updated detection model. This improvement expands fingerprinting coverage for headless browsers and simulated device hardware, allowing for better identification of advanced bots. The upgraded model works in real-time without disrupting genuine users. Current users can benefit from these updates immediately by upgrading to &lt;a href=&#34;mailto:botid@1.5.2&#34;&gt;botid@1.5.2&lt;/a&gt;. ðð¤ð #BotID #CyberSecurity #TechUpdate</description>
+      <guid>/articles/article-2025-08-15-5091/</guid>
+      <description>Vercel has enhanced its BotID Deep Analysis with an updated detection model. This improvement expands fingerprinting coverage for headless browsers and simulated device hardware, allowing for better identification of advanced bots. The upgraded model works in real-time without disrupting genuine users. Current users can benefit from these updates immediately by upgrading to &lt;a href=&#34;mailto:botid@1.5.2&#34;&gt;botid@1.5.2&lt;/a&gt;. 🔍🤖🚀 #BotID #CyberSecurity #TechUpdate</description>
     </item>
     <item>
       <title>How Coxwave delivers GenAI value faster with Vercel</title>
-      <link>http://localhost:1313/articles/article-4935/</link>
+      <link>/articles/article-2025-08-13-4935/</link>
       <pubDate>Wed, 13 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4935/</guid>
-      <description>Coxwave is revolutionizing the development of GenAI products for enterprises. ð Their consulting arm, AX, and analytics platform, Align, serve leading companies like Anthropic, Meta, Microsoft, and PwC. Since 2021, Coxwave has focused on speedânot just in model performance, but in iteration and value delivery. To enhance their web app strategy, they utilized Next.js and Vercel, enabling quicker results for their clients. #GenAI #Coxwave #Nextjs #Vercel #TechInnovation</description>
+      <guid>/articles/article-2025-08-13-4935/</guid>
+      <description>Coxwave is revolutionizing the development of GenAI products for enterprises. 🚀 Their consulting arm, AX, and analytics platform, Align, serve leading companies like Anthropic, Meta, Microsoft, and PwC. Since 2021, Coxwave has focused on speed—not just in model performance, but in iteration and value delivery. To enhance their web app strategy, they utilized Next.js and Vercel, enabling quicker results for their clients. #GenAI #Coxwave #Nextjs #Vercel #TechInnovation</description>
     </item>
     <item>
       <title>Introducing the Runtime Cache API</title>
-      <link>http://localhost:1313/articles/article-4938/</link>
+      <link>/articles/article-2025-08-13-4938/</link>
       <pubDate>Wed, 13 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4938/</guid>
-      <description>ð Exciting news for developers! Vercel has launched the Runtime Cache API, allowing you to store and retrieve data seamlessly across Functions, Routing Middleware, and Builds within the same region. This ephemeral cache offers tag-based invalidation for better cache management. You can monitor performance metrics like hit rates and storage usage in the Observability dashboard. Keep in mind, reads and writes are billed regionally based on your runtime area. Learn more in the documentation! ð&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4938/</guid>
+      <description>🚀 Exciting news for developers! Vercel has launched the Runtime Cache API, allowing you to store and retrieve data seamlessly across Functions, Routing Middleware, and Builds within the same region. This ephemeral cache offers tag-based invalidation for better cache management. You can monitor performance metrics like hit rates and storage usage in the Observability dashboard. Keep in mind, reads and writes are billed regionally based on your runtime area. Learn more in the documentation! 📊&amp;hellip;</description>
     </item>
     <item>
       <title>The real serverless compute to database connection problem, solved</title>
-      <link>http://localhost:1313/articles/article-4936/</link>
+      <link>/articles/article-2025-08-13-4936/</link>
       <pubDate>Wed, 13 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4936/</guid>
-      <description>The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. ðð»ð #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</description>
+      <guid>/articles/article-2025-08-13-4936/</guid>
+      <description>The article addresses a common misconception about serverless compute and its connection to traditional databases. It highlights that the challenge lies not in the number of connections during normal operation but in potential connection leaks when serverless functions are suspended. The piece provides clarity on the actual cause and offers a simple solution to this issue. 🔍💻🔗 #Serverless #Database #TechSolutions #CloudComputing #SoftwareDevelopment</description>
     </item>
     <item>
       <title>The three types of AI bot traffic and how to handle them</title>
-      <link>http://localhost:1313/articles/article-4937/</link>
+      <link>/articles/article-2025-08-13-4937/</link>
       <pubDate>Wed, 13 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4937/</guid>
-      <description>AI bot traffic is on the rise, and recent data identifies three types of AI-driven crawlers. These bots can enhance discoverability but may disrupt teams if not managed properly. ð¤ Understanding the role of these crawlers is vital. While some bots are beneficial, blocking them could lead to missed opportunities, similar to restricting early search engines. ð As user behavior shifts towards seeking direct answers, sites that strategically manage bot access will gain a competitive edge. #AIBots&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4937/</guid>
+      <description>AI bot traffic is on the rise, and recent data identifies three types of AI-driven crawlers. These bots can enhance discoverability but may disrupt teams if not managed properly. 🤖 Understanding the role of these crawlers is vital. While some bots are beneficial, blocking them could lead to missed opportunities, similar to restricting early search engines. 🌐 As user behavior shifts towards seeking direct answers, sites that strategically manage bot access will gain a competitive edge. #AIBots&amp;hellip;</description>
     </item>
     <item>
       <title>Auto-recharge available in AI Gateway</title>
-      <link>http://localhost:1313/articles/article-4940/</link>
+      <link>/articles/article-2025-08-12-4940/</link>
       <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4940/</guid>
-      <description>ð Great news for Vercel users! The AI Gateway now offers an auto-recharge feature. This allows for automatic credit top-ups, ensuring your apps run smoothly without interruptions. You can easily enable or adjust this feature in the AI Gateway dashboard. Set your preferred top-up amount, trigger balance, and even a monthly spend limit to manage your credits efficiently. Learn more about this update! #Vercel #AIGateway #AutoRecharge #WebDevelopment #TechUpdates</description>
+      <guid>/articles/article-2025-08-12-4940/</guid>
+      <description>🚀 Great news for Vercel users! The AI Gateway now offers an auto-recharge feature. This allows for automatic credit top-ups, ensuring your apps run smoothly without interruptions. You can easily enable or adjust this feature in the AI Gateway dashboard. Set your preferred top-up amount, trigger balance, and even a monthly spend limit to manage your credits efficiently. Learn more about this update! #Vercel #AIGateway #AutoRecharge #WebDevelopment #TechUpdates</description>
     </item>
     <item>
       <title>Claude Sonnet 4 now supports 1M token context in Vercel AI Gateway</title>
-      <link>http://localhost:1313/articles/article-4941/</link>
+      <link>/articles/article-2025-08-12-4941/</link>
       <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4941/</guid>
-      <description>ð Exciting news for developers! Claude Sonnet 4 now offers a 1 million-token context window through Vercel&amp;rsquo;s AI Gateway. This enhancement allows for larger inputs, such as extensive codebases and document sets. With a unified API, users can easily manage performance optimizations and track usage. The AI Gateway also supports built-in observability and intelligent provider routing for reliability. For implementation, simply install the AI SDK v5 and set up the model. #AI #Vercel #ClaudeSonnet4&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4941/</guid>
+      <description>🚀 Exciting news for developers! Claude Sonnet 4 now offers a 1 million-token context window through Vercel&amp;rsquo;s AI Gateway. This enhancement allows for larger inputs, such as extensive codebases and document sets. With a unified API, users can easily manage performance optimizations and track usage. The AI Gateway also supports built-in observability and intelligent provider routing for reliability. For implementation, simply install the AI SDK v5 and set up the model. #AI #Vercel #ClaudeSonnet4&amp;hellip;</description>
     </item>
     <item>
       <title>Cutting delivery times in half with v0</title>
-      <link>http://localhost:1313/articles/article-4939/</link>
+      <link>/articles/article-2025-08-12-4939/</link>
       <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4939/</guid>
-      <description>Ready.net is enhancing utility company operations with its new feature, v0. This platform streamlines the process for managing financing and compliance with state-level stakeholders. Faced with urgent and often unclear requirements, Ready.net needed a solution to accelerate ideation, validation, and delivery. v0 is designed to cut delivery times significantly, supporting three teams with limited design resources. Learn more about this innovative approach! ðâ¡ï¸ #UtilityManagement #Innovation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4939/</guid>
+      <description>Ready.net is enhancing utility company operations with its new feature, v0. This platform streamlines the process for managing financing and compliance with state-level stakeholders. Faced with urgent and often unclear requirements, Ready.net needed a solution to accelerate ideation, validation, and delivery. v0 is designed to cut delivery times significantly, supporting three teams with limited design resources. Learn more about this innovative approach! 🚀⚡️ #UtilityManagement #Innovation&amp;hellip;</description>
     </item>
     <item>
       <title>Vercel BotID now leverages Vercel&#39;s verified bot directory</title>
-      <link>http://localhost:1313/articles/article-4942/</link>
+      <link>/articles/article-2025-08-12-4942/</link>
       <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4942/</guid>
-      <description>ð Exciting news for developers! With the release of BotID 1.5.0, you can now access Vercel&amp;rsquo;s verified bot directory for deeper insights. This update enhances real-time detection of verified bots, allowing for secure programmatic decisions. The Deep Analysis mode provides key information like source IP range and user-agent validation, helping teams manage bot interactions effectively. Discover how BotID can improve your workflow! #BotID #Vercel #WebDevelopment #TechUpdates #Bots ð¤</description>
+      <guid>/articles/article-2025-08-12-4942/</guid>
+      <description>🚀 Exciting news for developers! With the release of BotID 1.5.0, you can now access Vercel&amp;rsquo;s verified bot directory for deeper insights. This update enhances real-time detection of verified bots, allowing for secure programmatic decisions. The Deep Analysis mode provides key information like source IP range and user-agent validation, helping teams manage bot interactions effectively. Discover how BotID can improve your workflow! #BotID #Vercel #WebDevelopment #TechUpdates #Bots 🤖</description>
     </item>
     <item>
       <title>Vercel&#39;s bot verification now supports Web Bot Auth</title>
-      <link>http://localhost:1313/articles/article-4943/</link>
+      <link>/articles/article-2025-08-12-4943/</link>
       <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4943/</guid>
-      <description>ð Vercel has enhanced its bot verification system by supporting Web Bot Auth, developed through collaboration with industry partners. This new protocol uses HTTP Message Signatures for verifying traffic from various automated sources. It helps maintain a curated directory of verified bots, ensuring legitimate ones access your site while blocking spoofed bots. Web Bot Auth uses public-key cryptography to authenticate bots, including popular tools like SEO crawlers and AI bots. Notably,&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4943/</guid>
+      <description>🚀 Vercel has enhanced its bot verification system by supporting Web Bot Auth, developed through collaboration with industry partners. This new protocol uses HTTP Message Signatures for verifying traffic from various automated sources. It helps maintain a curated directory of verified bots, ensuring legitimate ones access your site while blocking spoofed bots. Web Bot Auth uses public-key cryptography to authenticate bots, including popular tools like SEO crawlers and AI bots. Notably,&amp;hellip;</description>
     </item>
     <item>
       <title>Add context when using Instant Rollback</title>
-      <link>http://localhost:1313/articles/article-4944/</link>
+      <link>/articles/article-2025-08-11-4944/</link>
       <pubDate>Mon, 11 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4944/</guid>
-      <description>ð New feature alert! You can now add context when performing an Instant Rollback. This allows you to include a reason visible to your team in the project overview. You can even incorporate links or notes for clarity. Plus, updates can be made at any time! Learn more about enhancing your rollback process. #InstantRollback #ProjectManagement #TeamCollaboration #TechUpdates</description>
+      <guid>/articles/article-2025-08-11-4944/</guid>
+      <description>🚀 New feature alert! You can now add context when performing an Instant Rollback. This allows you to include a reason visible to your team in the project overview. You can even incorporate links or notes for clarity. Plus, updates can be made at any time! Learn more about enhancing your rollback process. #InstantRollback #ProjectManagement #TeamCollaboration #TechUpdates</description>
     </item>
     <item>
       <title>v0.dev -&gt; v0.app</title>
-      <link>http://localhost:1313/articles/article-4838/</link>
+      <link>/articles/article-2025-08-11-4838/</link>
       <pubDate>Mon, 11 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4838/</guid>
-      <description>Transform your ideas into deployed apps with ease using v0.app! ð With just one prompt, v0 streamlines the process by providing UI, content, backend, and logic. It also offers support for research, debugging, and planning. From product managers to recruiters, v0 is revolutionizing team operations. #AppDevelopment #TechInnovation #Teamwork #Productivity #v0app</description>
+      <guid>/articles/article-2025-08-11-4838/</guid>
+      <description>Transform your ideas into deployed apps with ease using v0.app! 🚀 With just one prompt, v0 streamlines the process by providing UI, content, backend, and logic. It also offers support for research, debugging, and planning. From product managers to recruiters, v0 is revolutionizing team operations. #AppDevelopment #TechInnovation #Teamwork #Productivity #v0app</description>
     </item>
     <item>
       <title>Cursor now supported on Vercel MCP</title>
-      <link>http://localhost:1313/articles/article-4791/</link>
+      <link>/articles/article-2025-08-09-4791/</link>
       <pubDate>Sat, 09 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4791/</guid>
+      <guid>/articles/article-2025-08-09-4791/</guid>
       <description>🚀 Great news for developers! Cursor is now compatible with Vercel&amp;rsquo;s Model Context Protocol (MCP). With this integration, you can easily explore projects, inspect deployments, and fetch logs directly from Cursor. 🔍 To get started, simply follow the one-click setup or update your .cursor/mcp.json file. A Vercel account login will be required. Learn more about using Cursor with Vercel MCP! #Vercel #Cursor #DevTools #MCP #SoftwareDevelopment</description>
     </item>
     <item>
       <title>Bulk upgrade deprecated Node.js versions</title>
-      <link>http://localhost:1313/articles/article-4733/</link>
+      <link>/articles/article-2025-08-08-4733/</link>
       <pubDate>Fri, 08 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4733/</guid>
+      <guid>/articles/article-2025-08-08-4733/</guid>
       <description>🚀 Upgrade your Node.js projects easily! Team owners can now update all projects using Node.js 18 or earlier to Node.js 22 with just one click in the Vercel Dashboard. Remember, if your project specifies a version in package.json, you&amp;rsquo;ll need to update it manually. Existing deployments remain unaffected. Check out your deprecated Node.js projects today! #Nodejs #Vercel #TechUpdate #WebDevelopment #SoftwareEngineering</description>
     </item>
     <item>
       <title>How Zapier scales product partnerships with v0</title>
-      <link>http://localhost:1313/articles/article-4730/</link>
+      <link>/articles/article-2025-08-08-4730/</link>
       <pubDate>Fri, 08 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4730/</guid>
+      <guid>/articles/article-2025-08-08-4730/</guid>
       <description>🚀 Zapier is enhancing product partnerships with its v0 tool, streamlining how SaaS and AI companies can integrate automation. This innovation allows partners to embed Zapier&amp;rsquo;s automation engine directly into their products without extensive in-house integration work. With v0, the Powered by Zapier team can now create high-fidelity demos in just hours, leading to quicker implementation and more integrations. #Automation #Partnerships #SaaS #Innovation #AI</description>
     </item>
     <item>
       <title>Improved metrics search in Observability Plus</title>
-      <link>http://localhost:1313/articles/article-4731/</link>
+      <link>/articles/article-2025-08-08-4731/</link>
       <pubDate>Fri, 08 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4731/</guid>
+      <guid>/articles/article-2025-08-08-4731/</guid>
       <description>🚀 Exciting updates in Vercel Observability! The metrics search and navigation experience has been enhanced. You can now quickly find metrics using partial names or abbreviations like TTFB (time to first byte). Additional features include a side-by-side view of all metrics for an event, keyboard shortcuts for faster navigation, and a mobile-optimized interface. These updates are available now for all teams using Observability Plus. #Vercel #Observability #TechUpdates #Metrics #Productivity</description>
     </item>
     <item>
       <title>vlt is now available in builds via zero configuration</title>
-      <link>http://localhost:1313/articles/article-4732/</link>
+      <link>/articles/article-2025-08-08-4732/</link>
       <pubDate>Fri, 08 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4732/</guid>
+      <guid>/articles/article-2025-08-08-4732/</guid>
       <description>🚀 Exciting news for developers! Vercel now supports the vlt package manager for builds without the need for configuration. 📂 Projects with a vlt-lock.json file will automatically execute vlt install as the default Install Command. 🔧 Note: vlt requires Node 20.x and is available only in the modern build image. Learn more about this new feature on Vercel! #Vercel #vlt #WebDevelopment #PackageManager #TechNews</description>
     </item>
     <item>
       <title>GPT-5, GPT-5-mini, and GPT-5-nano are now available in Vercel AI Gateway</title>
-      <link>http://localhost:1313/articles/article-4736/</link>
+      <link>/articles/article-2025-08-07-4736/</link>
       <pubDate>Thu, 07 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4736/</guid>
+      <guid>/articles/article-2025-08-07-4736/</guid>
       <description>🚀 Exciting news! OpenAI&amp;rsquo;s GPT-5, GPT-5-mini, and GPT-5-nano are now accessible via Vercel AI Gateway. This platform allows seamless model integration without needing multiple provider accounts. Users can easily track usage, costs, and optimize performance. To get started, install the AI SDK v5 and select your preferred model. Explore more about the AI Gateway and its features! 🌐✨ #OpenAI #Vercel #AIGateway #GPT5 #TechUpdates</description>
     </item>
     <item>
       <title>Vercel collaborates with OpenAI for GPT-5 launch</title>
-      <link>http://localhost:1313/articles/article-4734/</link>
+      <link>/articles/article-2025-08-07-4734/</link>
       <pubDate>Thu, 07 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4734/</guid>
+      <guid>/articles/article-2025-08-07-4734/</guid>
       <description>🚀 Vercel has partnered with OpenAI to launch the GPT-5 family of models! These models are now available through AI Gateway and in production on v0.dev. Vercel has been testing GPT-5 in various environments, and the results indicate improved frontend design capabilities. GPT-5 generates clean, composable code and enhances workflows, particularly with long-context reasoning and tool handling. Vercel is already integrating GPT-5 into its dashboard and other applications. #Vercel #OpenAI #GPT5&amp;hellip;</description>
     </item>
     <item>
       <title>Vercel is the only vendor to be recognized as a Visionary in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms</title>
-      <link>http://localhost:1313/articles/article-4735/</link>
+      <link>/articles/article-2025-08-07-4735/</link>
       <pubDate>Thu, 07 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4735/</guid>
+      <guid>/articles/article-2025-08-07-4735/</guid>
       <description>🌐 Vercel has been recognized as a Visionary in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms. With over 4M weekly active domains and 115B requests served, Vercel’s AI Cloud empowers teams to create fast and secure applications effortlessly. This acknowledgment underscores Vercel&amp;rsquo;s role in shaping the future of web development. #CloudComputing #Gartner #WebDevelopment #Vercel #Innovation</description>
     </item>
     <item>
       <title>Introducing AI Elements: build AI interfaces faster</title>
-      <link>http://localhost:1313/articles/article-4693/</link>
+      <link>/articles/article-2025-08-06-4693/</link>
       <pubDate>Wed, 06 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4693/</guid>
+      <guid>/articles/article-2025-08-06-4693/</guid>
       <description>🚀 Exciting news for frontend engineers! Vercel has launched AI Elements, a tool designed to simplify the process of building AI interfaces. With this new product, developers can create ChatGPT or v0-like interfaces in just minutes. This innovation aims to streamline the app-building process, allowing teams to focus on functionality over design complexity. #AIElements #Vercel #FrontendDevelopment #TechInnovation #AIInterfaces</description>
     </item>
     <item>
       <title>Introducing AI Elements: Prebuilt, composable AI SDK components</title>
-      <link>http://localhost:1313/articles/article-4171/</link>
+      <link>/articles/article-2025-08-06-4171/</link>
       <pubDate>Wed, 06 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4171/</guid>
+      <guid>/articles/article-2025-08-06-4171/</guid>
       <description>🚀 Introducing AI Elements, a new open-source library designed for customizable React components! Built on shadcn/ui, it allows developers to create interfaces using the Vercel AI SDK. Key features include control over UI elements like message threads and input boxes. To get started, simply initialize with our CLI, choose your components, and begin building. For detailed guidance, check out the documentation. #AI #OpenSource #React #Vercel #Development</description>
     </item>
     <item>
       <title>Introducing Vercel MCP: Connect Vercel to your AI tools</title>
-      <link>http://localhost:1313/articles/article-4161/</link>
+      <link>/articles/article-2025-08-06-4161/</link>
       <pubDate>Wed, 06 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4161/</guid>
+      <guid>/articles/article-2025-08-06-4161/</guid>
       <description>🚀 Exciting news for developers! Vercel has launched its MCP server, now in Public Beta. This secure interface allows AI tools to connect with your Vercel projects seamlessly. With Vercel MCP, tools like Cursor and Claude can access project logs, documents, and metadata directly, enhancing your workflow. Discover more about this innovative development! #Vercel #AIDevelopment #MCP #TechNews #DeveloperTools</description>
     </item>
     <item>
       <title>Microfrontends support is now in Public Beta</title>
-      <link>http://localhost:1313/articles/article-4162/</link>
+      <link>/articles/article-2025-08-06-4162/</link>
       <pubDate>Wed, 06 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4162/</guid>
+      <guid>/articles/article-2025-08-06-4162/</guid>
       <description>🚀 Microfrontends support is now in Public Beta! This feature allows developers to split large applications into smaller, manageable parts, enabling faster development and independent testing. Vercel simplifies the assembly and routing of these microfrontends into a cohesive user experience. To get started, users can clone examples from the Vercel dashboard, create microfrontend groups, and configure their projects with ease. For more details, check the documentation or contact Vercel support&amp;hellip;.</description>
     </item>
     <item>
       <title>Claude Opus 4.1 is now supported in Vercel AI Gateway</title>
-      <link>http://localhost:1313/articles/article-4163/</link>
+      <link>/articles/article-2025-08-05-4163/</link>
       <pubDate>Tue, 05 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4163/</guid>
+      <guid>/articles/article-2025-08-05-4163/</guid>
       <description>🚀 Exciting news! Claude Opus 4.1 is now accessible via Vercel&amp;rsquo;s AI Gateway without the need for additional provider accounts. This new model enhances task execution, coding, and reasoning compared to its predecessor. AI Gateway offers a unified API, usage tracking, and performance optimizations for improved reliability. Start using it with the AI SDK v5 by installing the package and setting the model to anthropic/claude-4.1-opus. Learn more about the AI Gateway and explore the new model&amp;hellip;</description>
     </item>
     <item>
       <title>gpt-oss-20b and gpt-oss-120b are now supported in Vercel AI Gateway</title>
-      <link>http://localhost:1313/articles/article-4164/</link>
+      <link>/articles/article-2025-08-05-4164/</link>
       <pubDate>Tue, 05 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4164/</guid>
+      <guid>/articles/article-2025-08-05-4164/</guid>
       <description>🚀 Exciting news! Vercel AI Gateway now supports OpenAI&amp;rsquo;s gpt-oss-20b and gpt-oss-120b models. These open-weight reasoning models enhance access with a unified API, simplifying usage tracking and performance optimizations. 💻 Developers can easily integrate them using AI SDK v5, with built-in observability and support for multiple model providers. Discover more about AI Gateway and check out the new model leaderboard! 📊 #Vercel #OpenAI #AIModels #TechNews #Innovation</description>
     </item>
     <item>
       <title>New custom visualization in Vercel Observability</title>
-      <link>http://localhost:1313/articles/article-4167/</link>
+      <link>/articles/article-2025-08-04-4167/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4167/</guid>
+      <guid>/articles/article-2025-08-04-4167/</guid>
       <description>🚀 Exciting news for Observability Plus users! You can now customize your data visualizations with options like line charts, volume charts, tables, or big numbers. 📊 Both queries and visualization settings can be saved in shareable notebooks, enhancing teamwork. This update is available at no extra cost for Observability Plus teams. Explore the new features today! #DataVisualization #Observability #TechUpdate #Vercel #Collaboration</description>
     </item>
     <item>
       <title>v0: vibe coding, securely</title>
-      <link>http://localhost:1313/articles/article-4165/</link>
+      <link>/articles/article-2025-08-04-4165/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4165/</guid>
+      <guid>/articles/article-2025-08-04-4165/</guid>
       <description>Vibe coding is transforming software development, allowing rapid prototyping with tools like v0. Anthropic&amp;rsquo;s CEO indicates that in just 3-6 months, 90% of code may be AI-generated. However, this speed can lead to significant risks. A recent incident involved a viral app that leaked 72,000 selfies and IDs due to misconfigured settings, emphasizing the need for security measures. #VibeCoding #SoftwareDevelopment #CyberSecurity #AI #TechNews 🚀🔒📱</description>
     </item>
     <item>
       <title>Vercel MCP now in Public Beta</title>
-      <link>http://localhost:1313/articles/article-4166/</link>
+      <link>/articles/article-2025-08-04-4166/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4166/</guid>
+      <guid>/articles/article-2025-08-04-4166/</guid>
       <description>🚀 Vercel&amp;rsquo;s Model Control Protocol (MCP) server is now in Public Beta! The server, accessible at mcp.vercel.com, offers a remote interface with OAuth-based authorization, allowing secure interactions with AI tools and Vercel projects. It supports AI assistants like Claude.ai and integrates with tools such as VS Code to help manage projects, analyze deployment logs, and navigate documentation. This update aims to enhance collaboration between AI workflows and the Vercel ecosystem. For more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A new wave of software, shipped on Vercel</title>
+      <link>/articles/article-2025-08-01-4168/</link>
+      <pubDate>Fri, 01 Aug 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-4168/</guid>
+      <description>🚀 A new initiative, &amp;ldquo;Shipped on Vercel,&amp;rdquo; highlights innovative apps currently in production on the Vercel platform. This platform showcases teams that are reimagining web development, offering insights into their creative processes and technologies used. Discover how these real-world applications are shaping the future of the web! 🌐 #Vercel #WebDevelopment #Innovation #TechTrends #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Deploy Hono backends with zero configuration</title>
+      <link>/articles/article-2025-08-01-4169/</link>
+      <pubDate>Fri, 01 Aug 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-4169/</guid>
+      <description>🚀 Vercel now offers native support for Hono, a lightweight backend framework, with zero configuration required. This integration allows Vercel to optimize Hono applications for builds and deployments, enhancing performance. New deployments benefit from features like Fluid compute, Active CPU pricing, and automatic cold start optimizations. For more details, check out Hono&amp;rsquo;s Vercel documentation. #Hono #Vercel #BackendDevelopment #WebStandards #TechUpdate</description>
+    </item>
+    <item>
+      <title>AI SDK 5</title>
+      <link>/articles/article-2025-07-31-4170/</link>
+      <pubDate>Thu, 31 Jul 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-4170/</guid>
+      <description>🚀 The AI SDK 5 is making waves with over 2 million weekly downloads! This open-source toolkit for TypeScript and JavaScript offers a unified provider API, allowing developers to utilize any language model easily. It also supports powerful integrations with popular web frameworks. Explore the potential of AI SDK 5 for your projects! #AISDK #OpenSource #WebDevelopment #JavaScript #TypeScript</description>
+    </item>
+    <item>
+      <title>Vercel Open Source Program: Summer cohort</title>
+      <link>/articles/article-2025-07-31-4737/</link>
+      <pubDate>Thu, 31 Jul 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-4737/</guid>
+      <description>🚀 Exciting news from Vercel! The Vercel Open Source Program has announced its summer 2025 cohort. This initiative supports developers by providing resources, credits, and assistance to enhance their projects. This season features 28 innovative projects, including AI-powered calendars and stylish React Native components. Learn more about these amazing contributions! #Vercel #OpenSource #DeveloperCommunity #Innovation #TechForGood</description>
     </item>
   </channel>
 </rss>

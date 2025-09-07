@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Uber-Engineering | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,178 +414,127 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://www.uber.com/blog/controlling-the-rollout-of-large-scale-monorepo-changes/" target="_blank">Controlling the Rollout of Large-Scale Monorepo Changes</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-28 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <h2><a href="https://www.uber.com/blog/building-ubers-data-lake-batch-data-replication-using-hivesync/" target="_blank">Building Uber’s Data Lake: Batch Data Replication Using HiveSync</a></h2>
+            <div class="publication-date">2025-09-04 13:00</div>
+            <div class="summary">🚀 Dive into how Uber efficiently manages batch data replication using HiveSync! This technology ensures their data lake remains consistent, reliable, and high-performing. The article highlights the engineering efforts behind maintaining data integrity at scale. Learn more about Uber&#39;s innovative approach to data management! 📊💻 #DataEngineering #Uber #HiveSync #DataManagement #TechInnovation</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.uber.com/blog/controlling-the-rollout-of-large-scale-monorepo-changes/" target="_blank">Controlling the Rollout of Large-Scale Monorepo Changes</a></h2>
+            <div class="publication-date">2025-08-28 13:00</div>
+            <div class="summary">Uber is enhancing its deployment strategy by managing the impact of large-scale changes through effective orchestration. As the company moves towards fully automated continuous deployment, implementing robust safety practices is essential to minimize risks. This approach ensures smoother transitions and maintains system integrity during significant updates. #Deployment #Uber #TechUpdates #ContinuousIntegration #SoftwareEngineering 🚀🔧📈</div>
+            <div class="source">Source: Uber Engineering</div>
             
-            <div class="sources">
+            
+            <div class="categories">
                 
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            <div class="summary">Uber is enhancing its deployment strategy by managing the impact of large-scale changes through effective orchestration. As the company moves towards fully automated continuous deployment, implementing robust safety practices is essential to minimize risks. This approach ensures smoother transitions and maintains system integrity during significant updates. #Deployment #Uber #TechUpdates #ContinuousIntegration #SoftwareEngineering ðð§ð</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/how-uber-serves-over-150-million-reads/" target="_blank">How Uber Serves over 150 Million Reads per Second from Integrated Cache with Stronger Consistency Guarantees</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-26 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-26 13:00</div>
+            <div class="summary">🚀 Uber&#39;s integrated cache, CacheFront, now handles over 150 million reads per second, achieving impressive hit rates exceeding 99.9%. Recent enhancements have strengthened the consistency guarantees of this infrastructure, ensuring reliable performance for users. For more insights, check out the full article. #Uber #CacheFront #TechInnovation #DataInfrastructure #Performance</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/technical_deep_dives" class="category-link">technical_deep_dives</a>
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Uber&#39;s integrated cache, CacheFront, now handles over 150 million reads per second, achieving impressive hit rates exceeding 99.9%. Recent enhancements have strengthened the consistency guarantees of this infrastructure, ensuring reliable performance for users. For more insights, check out the full article. #Uber #CacheFront #TechInnovation #DataInfrastructure #Performance</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/lightweight-office-infrastructure/" target="_blank">Lightweight Office Infrastructure: Transitioning from Backbone to SD-WAN</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-21 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-21 13:00</div>
+            <div class="summary">🚀 Uber is enhancing its global office network by adopting SD-WAN technology. This transition has resulted in an 89% reduction in latency, improved automation, and more efficient connectivity worldwide. Such advancements are set to make operations faster and more cost-effective. #SDWAN #Uber #TechInnovation #GlobalNetwork #Connectivity</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Uber is enhancing its global office network by adopting SD-WAN technology. This transition has resulted in an 89% reduction in latency, improved automation, and more efficient connectivity worldwide. Such advancements are set to make operations faster and more cost-effective. #SDWAN #Uber #TechInnovation #GlobalNetwork #Connectivity</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/forecasting-models-to-improve-availability-at-airports/" target="_blank">Forecasting Models to Improve Driver Availability at Airports</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-19 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-19 13:00</div>
+            <div class="summary">Uber is enhancing driver availability at airports through advanced forecasting models. 📊 These models aim to reduce wait times and minimize queues for passengers. By analyzing data patterns, Uber optimizes driver deployment to meet demand effectively. 🚖 Stay tuned for more updates on innovations in transportation! #Uber #DataScience #AirportTravel #DriverAvailability #Innovation</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">Uber is enhancing driver availability at airports through advanced forecasting models. ð These models aim to reduce wait times and minimize queues for passengers. By analyzing data patterns, Uber optimizes driver deployment to meet demand effectively. ð Stay tuned for more updates on innovations in transportation! #Uber #DataScience #AirportTravel #DriverAvailability #Innovation</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/locking-down-the-fleet/" target="_blank">Locking Down the Fleet: Encryption at Rest and Disk Isolation at Scale</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-14 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-14 13:00</div>
+            <div class="summary">🔒 Managing encryption at rest and ensuring disk isolation for numerous stateful workloads presents significant challenges. In a recent article, the focus is on how effective logical volume management was implemented to secure a large fleet of servers. This approach enhances data security while maintaining operational efficiency. #DataSecurity #Encryption #LogicalVolumeManagement #TechInnovation #CyberSecurity</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Managing encryption at rest and ensuring disk isolation for numerous stateful workloads presents significant challenges. In a recent article, the focus is on how effective logical volume management was implemented to secure a large fleet of servers. This approach enhances data security while maintaining operational efficiency. #DataSecurity #Encryption #LogicalVolumeManagement #TechInnovation #CyberSecurity</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/ureview/" target="_blank">uReview: Scalable, Trustworthy GenAI for Code Review at Uber</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-12 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-12 13:00</div>
+            <div class="summary">🚀 Uber has introduced uReview, a GenAI-powered tool designed to enhance code review efficiency. This innovative solution automates the review process, helping developers save thousands of hours while maintaining high-quality standards. uReview aims to improve trust in code reviews without compromising on quality for every commit. #CodeReview #GenAI #UberTech #DeveloperTools #SoftwareDevelopment</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">ð Uber has introduced uReview, a GenAI-powered tool designed to enhance code review efficiency. This innovative solution automates the review process, helping developers save thousands of hours while maintaining high-quality standards. uReview aims to improve trust in code reviews without compromising on quality for every commit. #CodeReview #GenAI #UberTech #DeveloperTools #SoftwareDevelopment</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://www.uber.com/blog/scaling-uber-eats-for-everything/" target="_blank">From Restaurants to Retail: Scaling Uber Eats for Everything</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 13:00</span>
-                
-                <span class="source">from <a href="https://www.uber.com/en-US/blog/engineering/rss" target="_blank">Uber Engineering</a></span>
-            </div>
+            <div class="publication-date">2025-08-07 13:00</div>
+            <div class="summary">🚀 Exciting developments are on the horizon for Uber Eats with the introduction of its new catalog system, INCA (INventory and CAtalog). This innovative system is designed to process billions of updates daily from retailers globally, enhancing the efficiency of service delivery. Stay tuned as Uber Eats expands its offerings beyond restaurants! 🍽️🌍 #UberEats #INCA #RetailInnovation #TechNews #DeliveryServices</div>
+            <div class="source">Source: Uber Engineering</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/industry_analysis" class="category-link">industry_analysis</a>
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/uber-engineering" class="source-link">Uber-Engineering</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Exciting developments are on the horizon for Uber Eats with the introduction of its new catalog system, INCA (INventory and CAtalog). This innovative system is designed to process billions of updates daily from retailers globally, enhancing the efficiency of service delivery. Stay tuned as Uber Eats expands its offerings beyond restaurants! 🍽️🌍 #UberEats #INCA #RetailInnovation #TechNews #DeliveryServices</div>
         </article>
         
     </div>
@@ -308,6 +592,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

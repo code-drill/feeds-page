@@ -2,88 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google-Developers-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/google-developers-blog/</link>
+    <link>/sources/google-developers-blog/</link>
     <description>Recent content in Google-Developers-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/google-developers-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/google-developers-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Fine-Tuning to Production: A Scalable Embedding Pipeline with Dataflow</title>
+      <link>/articles/article-2025-09-04-7794/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7794/</guid>
+      <description>🚀 Unlock the power of AI with Google&amp;rsquo;s new EmbeddingGemma! This 308M parameter open embedding model is designed for efficient on-device applications and cloud customization. It works seamlessly with Google Cloud&amp;rsquo;s Dataflow and vector databases like AlloyDB to create scalable, real-time knowledge ingestion pipelines. Learn how embeddings can enhance applications like semantic search and Retrieval Augmented Generation (RAG) by capturing the relationships between concepts. #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings</title>
+      <link>/articles/article-2025-09-04-7752/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7752/</guid>
+      <description>🚀 Introducing EmbeddingGemma, Google&amp;rsquo;s new open embedding model tailored for on-device AI applications. With 308 million parameters, it ranks highest among multilingual text models under 500M on the MTEB benchmark. This model supports advanced features like Retrieval Augmented Generation (RAG) and semantic search without needing an internet connection. EmbeddingGemma is optimized for efficiency, running on devices like smartphones and laptops. It offers customizable output dimensions and a 2K&amp;hellip;</description>
+    </item>
     <item>
       <title>How to prompt Gemini 2.5 Flash Image Generation for the best results</title>
-      <link>http://localhost:1313/articles/article-7498/</link>
+      <link>/articles/article-2025-08-28-7498/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7498/</guid>
-      <description>Unlock the potential of Gemini 2.5 Flash Image! ð This advanced model combines text and image processing for seamless image generation. Key features include: - &lt;strong&gt;Text-to-image&lt;/strong&gt;: Create images from descriptions. - &lt;strong&gt;Image editing&lt;/strong&gt;: Use text to modify existing images. - &lt;strong&gt;Multi-image composition&lt;/strong&gt;: Combine multiple images into one. Learn how to write effective prompts to enhance results. Descriptive narratives yield better images than simple keywords. Start creating in Google AI Studio today!&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7498/</guid>
+      <description>Unlock the potential of Gemini 2.5 Flash Image! 🌟 This advanced model combines text and image processing for seamless image generation. Key features include: - &lt;strong&gt;Text-to-image&lt;/strong&gt;: Create images from descriptions. - &lt;strong&gt;Image editing&lt;/strong&gt;: Use text to modify existing images. - &lt;strong&gt;Multi-image composition&lt;/strong&gt;: Combine multiple images into one. Learn how to write effective prompts to enhance results. Descriptive narratives yield better images than simple keywords. Start creating in Google AI Studio today!&amp;hellip;</description>
     </item>
     <item>
       <title>Beyond the terminal: Gemini CLI comes to Zed</title>
-      <link>http://localhost:1313/articles/article-7253/</link>
+      <link>/articles/article-2025-08-27-7253/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7253/</guid>
-      <description>ð Exciting news for developers! Gemini CLI is now integrated into the Zed code editor. This partnership brings AI capabilities directly into your coding environment. With this integration, developers can generate and refactor code in real-time, and get instant answers to coding queries. The seamless workflow enhances productivity and efficiency. Explore the power of AI in your coding tasks with Gemini CLI in Zed! ð»â¨ #GeminiCLI #Zed #AIinCoding #DeveloperTools #Productivity</description>
+      <guid>/articles/article-2025-08-27-7253/</guid>
+      <description>🚀 Exciting news for developers! Gemini CLI is now integrated into the Zed code editor. This partnership brings AI capabilities directly into your coding environment. With this integration, developers can generate and refactor code in real-time, and get instant answers to coding queries. The seamless workflow enhances productivity and efficiency. Explore the power of AI in your coding tasks with Gemini CLI in Zed! 💻✨ #GeminiCLI #Zed #AIinCoding #DeveloperTools #Productivity</description>
     </item>
     <item>
-      <title>Stop âvibe testingâ your LLMs. It&#39;s time for real evals.</title>
-      <link>http://localhost:1313/articles/article-7292/</link>
+      <title>Stop “vibe testing” your LLMs. It&#39;s time for real evals.</title>
+      <link>/articles/article-2025-08-27-7292/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7292/</guid>
-      <description>Stop relying on &amp;ldquo;vibe testing&amp;rdquo; for LLMs! Stax, a new developer tool, aims to improve AI evaluations by streamlining the testing process. It allows users to conduct thorough assessments and make data-driven decisions using human labeling and LLM-as-a-judge auto-raters. General benchmarks may not fit your specific needs. With Stax, you can create tailored evaluations that offer clear metrics for performance. #AI #LLM #Stax #Evaluation #TechInnovation ð¤ðð</description>
+      <guid>/articles/article-2025-08-27-7292/</guid>
+      <description>Stop relying on &amp;ldquo;vibe testing&amp;rdquo; for LLMs! Stax, a new developer tool, aims to improve AI evaluations by streamlining the testing process. It allows users to conduct thorough assessments and make data-driven decisions using human labeling and LLM-as-a-judge auto-raters. General benchmarks may not fit your specific needs. With Stax, you can create tailored evaluations that offer clear metrics for performance. #AI #LLM #Stax #Evaluation #TechInnovation 🤖📈🔍</description>
     </item>
     <item>
       <title>Introducing Gemini 2.5 Flash Image, our state-of-the-art image model</title>
-      <link>http://localhost:1313/articles/article-7255/</link>
+      <link>/articles/article-2025-08-26-7255/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7255/</guid>
-      <description>ð Introducing Gemini 2.5 Flash Image! This advanced image generation and editing model allows users to blend multiple images seamlessly. It maintains character consistency for storytelling and enables targeted transformations through natural language. Available via the Gemini API, Google AI Studio, and Vertex AI, it is priced at $30 per million output tokens. #Gemini2.5 #AI #ImageEditing #GoogleAI #Innovation</description>
+      <guid>/articles/article-2025-08-26-7255/</guid>
+      <description>🚀 Introducing Gemini 2.5 Flash Image! This advanced image generation and editing model allows users to blend multiple images seamlessly. It maintains character consistency for storytelling and enables targeted transformations through natural language. Available via the Gemini API, Google AI Studio, and Vertex AI, it is priced at $30 per million output tokens. #Gemini2.5 #AI #ImageEditing #GoogleAI #Innovation</description>
     </item>
     <item>
       <title>What&#39;s new in Gemini Code Assist</title>
-      <link>http://localhost:1313/articles/article-5172/</link>
+      <link>/articles/article-2025-08-21-5172/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5172/</guid>
-      <description>ð Exciting updates from Gemini Code Assist! Agent Mode is now available in VS Code (Preview) and IntelliJ (Stable), enhancing your coding experience. It offers a collaborative approach to complex tasks by proposing detailed plans for user review and approval. Key features include inline diffs for visual code modifications and persistent chat history to streamline workflows. This aims to boost developer productivity and efficiency significantly. #GeminiCodeAssist #DeveloperTools #Programming&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5172/</guid>
+      <description>🚀 Exciting updates from Gemini Code Assist! Agent Mode is now available in VS Code (Preview) and IntelliJ (Stable), enhancing your coding experience. It offers a collaborative approach to complex tasks by proposing detailed plans for user review and approval. Key features include inline diffs for visual code modifications and persistent chat history to streamline workflows. This aims to boost developer productivity and efficiency significantly. #GeminiCodeAssist #DeveloperTools #Programming&amp;hellip;</description>
     </item>
     <item>
       <title>URL context tool for Gemini API now generally available</title>
-      <link>http://localhost:1313/articles/article-5173/</link>
+      <link>/articles/article-2025-08-18-5173/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5173/</guid>
-      <description>ð The Gemini API&amp;rsquo;s URL Context tool is now generally available for developers! This tool allows users to enhance prompts using web content, making applications more contextually aware. Key features include support for PDFs and images, expanding the types of content that can be grounded. The tool is now ready for scaled production use, with updated limits based on the specific Gemini model. #GeminiAPI #AI #TechUpdate #Developers #Innovation</description>
+      <guid>/articles/article-2025-08-18-5173/</guid>
+      <description>🚀 The Gemini API&amp;rsquo;s URL Context tool is now generally available for developers! This tool allows users to enhance prompts using web content, making applications more contextually aware. Key features include support for PDFs and images, expanding the types of content that can be grounded. The tool is now ready for scaled production use, with updated limits based on the specific Gemini model. #GeminiAPI #AI #TechUpdate #Developers #Innovation</description>
     </item>
     <item>
       <title>Announcing Imagen 4 Fast and the general availability of the Imagen 4 family in the Gemini API</title>
-      <link>http://localhost:1313/articles/article-5174/</link>
+      <link>/articles/article-2025-08-15-5174/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5174/</guid>
-      <description>ð Exciting news from Google! Imagen 4, the advanced text-to-image model, is now generally available in the Gemini API and Google AI Studio. This update brings substantial improvements in text rendering, enhancing image generation quality. Introducing Imagen 4 Fast, designed for speed and efficiency, alongside Imagen 4 and Imagen 4 Ultra, which now support up to 2K resolution for detailed visuals. Explore the capabilities of the Imagen 4 family for your creative needs! ð¨â¨ #GoogleAI #Imagen4&amp;hellip;</description>
+      <guid>/articles/article-2025-08-15-5174/</guid>
+      <description>🚀 Exciting news from Google! Imagen 4, the advanced text-to-image model, is now generally available in the Gemini API and Google AI Studio. This update brings substantial improvements in text rendering, enhancing image generation quality. Introducing Imagen 4 Fast, designed for speed and efficiency, alongside Imagen 4 and Imagen 4 Ultra, which now support up to 2K resolution for detailed visuals. Explore the capabilities of the Imagen 4 family for your creative needs! 🎨✨ #GoogleAI #Imagen4&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing Gemma 3 270M: The compact model for hyper-efficient AI</title>
-      <link>http://localhost:1313/articles/article-5175/</link>
+      <link>/articles/article-2025-08-14-5175/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5175/</guid>
-      <description>ð Google has unveiled the Gemma 3 270M, a compact AI model with 270 million parameters designed for efficiency and task-specific fine-tuning. This model excels in instruction-following and text structuring, making it ideal for on-device and research use. It sets a new performance standard for its size, enhancing accessibility to sophisticated AI capabilities. Explore the future of AI with Gemma! ð #Gemma3 #AI #MachineLearning #Innovation #TechNews</description>
+      <guid>/articles/article-2025-08-14-5175/</guid>
+      <description>🚀 Google has unveiled the Gemma 3 270M, a compact AI model with 270 million parameters designed for efficiency and task-specific fine-tuning. This model excels in instruction-following and text structuring, making it ideal for on-device and research use. It sets a new performance standard for its size, enhancing accessibility to sophisticated AI capabilities. Explore the future of AI with Gemma! 🌟 #Gemma3 #AI #MachineLearning #Innovation #TechNews</description>
     </item>
     <item>
       <title>Gemini CLI &#43; VS Code: Native diffing and context-aware workflows</title>
-      <link>http://localhost:1313/articles/article-4967/</link>
+      <link>/articles/article-2025-08-13-4967/</link>
       <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4967/</guid>
-      <description>ð Exciting news for developers! The latest update to Gemini CLI enhances its integration with VS Code. This update offers context-aware suggestions by accessing your workspace and selected text. This means targeted help right when you need it. Additionally, you can now use native in-editor diffing. Review and modify proposed changes directly in a full-screen diff view for better control over your code. ð§ Ready to enhance your workflow? Check your Gemini CLI version and get started! #GeminiCLI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4967/</guid>
+      <description>🚀 Exciting news for developers! The latest update to Gemini CLI enhances its integration with VS Code. This update offers context-aware suggestions by accessing your workspace and selected text. This means targeted help right when you need it. Additionally, you can now use native in-editor diffing. Review and modify proposed changes directly in a full-screen diff view for better control over your code. 🔧 Ready to enhance your workflow? Check your Gemini CLI version and get started! #GeminiCLI&amp;hellip;</description>
     </item>
     <item>
-      <title>Meet Julesâ sharpest critic and most valuable ally</title>
-      <link>http://localhost:1313/articles/article-4968/</link>
+      <title>Meet Jules’ sharpest critic and most valuable ally</title>
+      <link>/articles/article-2025-08-12-4968/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4968/</guid>
-      <description>Introducing Jules&amp;rsquo; new critic functionality! ð ï¸ This feature enhances AI-generated code by acting as a peer reviewer during the generation process. With &amp;ldquo;critic-augmented generation,&amp;rdquo; every code change undergoes adversarial review, aiming for higher quality output. It flags potential issues like subtle bugs and logic errors before you see the code. This integration helps ensure better code quality while you focus on other tasks. #AICoding #CodeQuality #Innovation #TechNews #GoogleLabs</description>
+      <guid>/articles/article-2025-08-12-4968/</guid>
+      <description>Introducing Jules&amp;rsquo; new critic functionality! 🛠️ This feature enhances AI-generated code by acting as a peer reviewer during the generation process. With &amp;ldquo;critic-augmented generation,&amp;rdquo; every code change undergoes adversarial review, aiming for higher quality output. It flags potential issues like subtle bugs and logic errors before you see the code. This integration helps ensure better code quality while you focus on other tasks. #AICoding #CodeQuality #Innovation #TechNews #GoogleLabs</description>
     </item>
     <item>
       <title>Train a GPT2 model with JAX on TPU for free</title>
-      <link>http://localhost:1313/articles/article-5176/</link>
+      <link>/articles/article-2025-08-12-5176/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5176/</guid>
-      <description>ð Interested in building a GPT-2 model? Check out this guide on training a GPT-2 model with JAX using Google TPUs, completely for free! It includes a hands-on Python notebook suitable for Colab or Kaggle. Learn about defining a hardware mesh, partitioning model parameters, and optimizing training. For those new to JAX, a PyTorch developerâs guide is also available. #MachineLearning #GPT2 #JAX #AI #GoogleTPUs</description>
+      <guid>/articles/article-2025-08-12-5176/</guid>
+      <description>🚀 Interested in building a GPT-2 model? Check out this guide on training a GPT-2 model with JAX using Google TPUs, completely for free! It includes a hands-on Python notebook suitable for Colab or Kaggle. Learn about defining a hardware mesh, partitioning model parameters, and optimizing training. For those new to JAX, a PyTorch developer’s guide is also available. #MachineLearning #GPT2 #JAX #AI #GoogleTPUs</description>
+    </item>
+    <item>
+      <title>The Google Developer Program is evolving</title>
+      <link>/articles/article-2025-08-01-20/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-20/</guid>
+      <description>🚀 Exciting updates are here for the Google Developer Program! 🔹 A new flexible monthly subscription is now available for $24.99. This plan includes access to AI tools, Google Cloud credits, and more. 🔹 The launch of the Google Developer Program forums simplifies collaboration among developers, allowing for easy sharing of knowledge and support. Explore these enhancements to elevate your coding experience! #GoogleDeveloper #AI #TechUpdates #DeveloperCommunity</description>
+    </item>
+    <item>
+      <title>Veo 3 Fast and new image-to-video capabilities</title>
+      <link>/articles/article-2025-07-31-21/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-21/</guid>
+      <description>🚀 Google has launched Veo 3 Fast, a new model designed for speed and cost-effectiveness. It allows developers to create high-quality videos quickly, supporting both text-to-video and image-to-video capabilities. This functionality is available through the Gemini API. With prices starting at $0.40/second for videos with audio, Veo 3 Fast is ideal for programmatic advertising and content creation at scale. #Google #Veo3 #VideoContent #TechNews #Developers</description>
     </item>
   </channel>
 </rss>

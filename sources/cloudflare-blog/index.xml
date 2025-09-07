@@ -2,256 +2,284 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudflare-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/cloudflare-blog/</link>
+    <link>/sources/cloudflare-blog/</link>
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 14:05:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Sep 2025 17:30:00 +0000</lastBuildDate>
+    <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Addressing the unauthorized issuance of multiple TLS certificates for 1.1.1.1</title>
+      <link>/articles/article-2025-09-04-7750/</link>
+      <pubDate>Thu, 04 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7750/</guid>
+      <description>Cloudflare has reported unauthorized TLS certificates issued for 1.1.1.1 by Fina CA without permission. These 12 certificates were issued between February 2024 and August 2025 and have since been revoked. While no evidence suggests malicious use, this incident highlights the importance of proper certificate issuance protocols. Fina CA stated the certificates were intended for internal testing. Cloudflare emphasizes the need for awareness around internet trust dynamics. 🔒🌐 #CyberSecurity #DNS&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI Week 2025: Recap</title>
+      <link>/articles/article-2025-09-03-7680/</link>
+      <pubDate>Wed, 03 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7680/</guid>
+      <description>🌐 AI Week 2025 has concluded, focusing on how to harness AI&amp;rsquo;s power while maintaining control. Key announcements included new products and partnerships aimed at enhancing AI security and usability. 🔒 The event emphasized four main areas: securing AI environments, protecting original content, supporting developers, and improving Cloudflare with AI features. Stay tuned for updates on our Blog, AI Avenue, and CloudflareTV! 📅 #AIWeek2025 #Cloudflare #AISecurity #TechInnovation #AI</description>
+    </item>
+    <item>
+      <title>The impact of the Salesloft Drift breach on Cloudflare and our customers</title>
+      <link>/articles/article-2025-09-02-7648/</link>
+      <pubDate>Tue, 02 Sep 2025 17:10:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7648/</guid>
+      <description>🚨 Last week, Cloudflare confirmed that it was affected by the Salesloft Drift breach, where an advanced threat actor accessed Salesforce data, impacting Cloudflare and many companies. The breach compromised customer contact information and support case data, including sensitive details. Cloudflare has urged customers to rotate any credentials shared through this channel. Immediate actions were taken, including securing the environment and investigating the incident. All affected customers&amp;hellip;</description>
+    </item>
     <item>
       <title>Automating threat analysis and response with Cloudy</title>
-      <link>http://localhost:1313/articles/article-7537/</link>
+      <link>/articles/article-2025-08-29-7537/</link>
       <pubDate>Fri, 29 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7537/</guid>
+      <guid>/articles/article-2025-08-29-7537/</guid>
       <description>🚀 Cloudflare has enhanced threat analysis with Cloudy, its AI agent, integrating advanced security analytics and a new conversational interface. This development aims to simplify investigations during traffic spikes, helping security teams quickly identify and address issues. Over 54,000 users have engaged with Cloudy since its launch, highlighting its effectiveness in rule creation and insightful log summaries. Now, users can ask questions and refine their inquiries, streamlining root cause&amp;hellip;</description>
     </item>
     <item>
       <title>Cloudflare is the best place to build realtime voice agents</title>
-      <link>http://localhost:1313/articles/article-7539/</link>
+      <link>/articles/article-2025-08-29-7539/</link>
       <pubDate>Fri, 29 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7539/</guid>
+      <guid>/articles/article-2025-08-29-7539/</guid>
       <description>🌐 Exciting news from Cloudflare! They have launched new tools to simplify the development of real-time, voice-enabled AI applications. With Cloudflare Realtime Agents, developers can now orchestrate voice AI pipelines efficiently on a global network. These advancements support features like direct WebRTC audio connections and real-time AI inference. Cloudflare aims to make voice AI deployment as easy as creating a static website, enhancing user experience with low latency. #VoiceAI&amp;hellip;</description>
     </item>
     <item>
       <title>Cloudy Summarizations of Email Detections: Beta Announcement</title>
-      <link>http://localhost:1313/articles/article-7538/</link>
+      <link>/articles/article-2025-08-29-7538/</link>
       <pubDate>Fri, 29 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7538/</guid>
+      <guid>/articles/article-2025-08-29-7538/</guid>
       <description>🚀 Exciting news from Cloudflare! We are enhancing our Email Security product with Cloudy, our internal AI, to provide automated summaries of detected threats. This aims to assist SOC teams in understanding flagged messages better. Given the rapid evolution of email attacks, it&amp;rsquo;s crucial for security teams to know what threats are being blocked and why. However, current detection methods can leave analysts with unclear information. Cloudy Summaries will translate complex detection logic into&amp;hellip;</description>
     </item>
     <item>
       <title>The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals</title>
-      <link>http://localhost:1313/articles/article-7541/</link>
+      <link>/articles/article-2025-08-29-7541/</link>
       <pubDate>Fri, 29 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7541/</guid>
+      <guid>/articles/article-2025-08-29-7541/</guid>
       <description>The landscape of internet traffic is changing dramatically due to AI. By mid-2025, AI training is driving nearly 80% of crawling activity, significantly impacting referral traffic to publishers. 📉 As search engines and AI crawlers consume vast amounts of data, real user engagement is declining. For example, Google&amp;rsquo;s referrals to news sites fell nearly 9% in March 2025 compared to January. Cloudflare data highlights this shift, showing a surge in crawling activity, yet a notable imbalance in&amp;hellip;</description>
     </item>
     <item>
       <title>Troubleshooting network connectivity and performance with Cloudflare AI</title>
-      <link>http://localhost:1313/articles/article-7540/</link>
+      <link>/articles/article-2025-08-29-7540/</link>
       <pubDate>Fri, 29 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7540/</guid>
+      <guid>/articles/article-2025-08-29-7540/</guid>
       <description>🌐 Troubleshooting network issues just got easier with Cloudflare AI! The complexity of corporate networks has increased, making it hard to pinpoint performance problems. Cloudflare introduces two new AI tools in their Secure Access Service Edge (SASE) platform, Cloudflare One, designed to simplify this process. The new WARP diagnostic analyzer helps users understand connectivity issues by analyzing extensive diagnostic logs. This tool is available for free, empowering users to resolve issues&amp;hellip;</description>
     </item>
     <item>
       <title>A deeper look at AI crawlers: breaking down traffic by purpose and industry</title>
-      <link>http://localhost:1313/articles/article-7466/</link>
+      <link>/articles/article-2025-08-28-7466/</link>
       <pubDate>Thu, 28 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7466/</guid>
-      <description>ð Cloudflare Radar is enhancing AI insights with new industry-focused data on bot traffic. The article discusses how traditional search platforms are affected by the rise of AI. Users often find answers without clicking through to original sources, impacting ad revenue for publishers. New features include a breakdown of AI bot traffic by purpose, such as training and user action, allowing for better understanding of these trends. ðð¤ #AIBotTraffic #CloudflareRadar #DigitalMarketing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7466/</guid>
+      <description>🌐 Cloudflare Radar is enhancing AI insights with new industry-focused data on bot traffic. The article discusses how traditional search platforms are affected by the rise of AI. Users often find answers without clicking through to original sources, impacting ad revenue for publishers. New features include a breakdown of AI bot traffic by purpose, such as training and user action, allowing for better understanding of these trends. 📊🤖 #AIBotTraffic #CloudflareRadar #DigitalMarketing&amp;hellip;</description>
     </item>
     <item>
       <title>Evaluating image segmentation models for background removal for Images</title>
-      <link>http://localhost:1313/articles/article-7467/</link>
+      <link>/articles/article-2025-08-28-7467/</link>
       <pubDate>Thu, 28 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7467/</guid>
-      <description>ð This week, the Images team introduced background removal using dichotomous image segmentation models on Workers AI. We evaluated several models to efficiently isolate subjects from their backgrounds. Image segmentation involves dividing an image into meaningful parts, with salient object detection highlighting the most prominent areas. The focus was on creating a soft saliency mask, assigning pixel values to indicate foreground and background. This allows for accurate predictions across&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7467/</guid>
+      <description>🚀 This week, the Images team introduced background removal using dichotomous image segmentation models on Workers AI. We evaluated several models to efficiently isolate subjects from their backgrounds. Image segmentation involves dividing an image into meaningful parts, with salient object detection highlighting the most prominent areas. The focus was on creating a soft saliency mask, assigning pixel values to indicate foreground and background. This allows for accurate predictions across&amp;hellip;</description>
     </item>
     <item>
       <title>Make Your Website Conversational for People and Agents with NLWeb and AutoRAG</title>
-      <link>http://localhost:1313/articles/article-7469/</link>
+      <link>/articles/article-2025-08-28-7469/</link>
       <pubDate>Thu, 28 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7469/</guid>
-      <description>Transform your website with NLWeb and Cloudflare&amp;rsquo;s AutoRAG! ðâ¨ This new approach shifts from traditional keyword searches to a conversational model, helping users and AI agents find answers more effectively. NLWeb, developed by Microsoft, standardizes natural-language queries, while AutoRAG manages content retrieval seamlessly. Together, they make websites AI-ready, improving user experience and opening new monetization opportunities for publishers. #WebInnovation #ConversationalAI #NLWeb&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7469/</guid>
+      <description>Transform your website with NLWeb and Cloudflare&amp;rsquo;s AutoRAG! 🌐✨ This new approach shifts from traditional keyword searches to a conversational model, helping users and AI agents find answers more effectively. NLWeb, developed by Microsoft, standardizes natural-language queries, while AutoRAG manages content retrieval seamlessly. Together, they make websites AI-ready, improving user experience and opening new monetization opportunities for publishers. #WebInnovation #ConversationalAI #NLWeb&amp;hellip;</description>
     </item>
     <item>
       <title>The age of agents: cryptographically recognizing agent traffic</title>
-      <link>http://localhost:1313/articles/article-7468/</link>
+      <link>/articles/article-2025-08-28-7468/</link>
       <pubDate>Thu, 28 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7468/</guid>
-      <description>ð Cloudflare has introduced Web Bot Auth, allowing websites to differentiate between verified bots and agents. This new system supports the growing demand for granular control over bot traffic, helping to block malicious bots while enabling helpful ones. The classification includes agents that act on behalf of users, enhancing interactions like booking flights or ordering food. Stay updated on the evolving bot landscape! ð¤â¨ #WebSecurity #BotTraffic #Cloudflare #VerifiedBots #AIagents</description>
+      <guid>/articles/article-2025-08-28-7468/</guid>
+      <description>🌐 Cloudflare has introduced Web Bot Auth, allowing websites to differentiate between verified bots and agents. This new system supports the growing demand for granular control over bot traffic, helping to block malicious bots while enabling helpful ones. The classification includes agents that act on behalf of users, enhancing interactions like booking flights or ordering food. Stay updated on the evolving bot landscape! 🤖✨ #WebSecurity #BotTraffic #Cloudflare #VerifiedBots #AIagents</description>
     </item>
     <item>
       <title>The next step for content creators in working with AI bots: Introducing AI Crawl Control</title>
-      <link>http://localhost:1313/articles/article-7470/</link>
+      <link>/articles/article-2025-08-28-7470/</link>
       <pubDate>Thu, 28 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7470/</guid>
-      <description>ð Cloudflare has launched AI Crawl Control, previously known as AI Audit, to empower content creators with smarter crawling controls. This tool allows creators to communicate their terms directly to AI crawlers, addressing the challenges of licensing and referral traffic. With customizable 402 HTTP responses, content owners can specify how crawlers can access their material while promoting potential revenue opportunities. This innovative approach aims to enhance content independence for&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7470/</guid>
+      <description>🚀 Cloudflare has launched AI Crawl Control, previously known as AI Audit, to empower content creators with smarter crawling controls. This tool allows creators to communicate their terms directly to AI crawlers, addressing the challenges of licensing and referral traffic. With customizable 402 HTTP responses, content owners can specify how crawlers can access their material while promoting potential revenue opportunities. This innovative approach aims to enhance content independence for&amp;hellip;</description>
     </item>
     <item>
-      <title>AI Gateway now gives you access to your favorite AI models, dynamic routing and more â through just one endpoint</title>
-      <link>http://localhost:1313/articles/article-7233/</link>
+      <title>AI Gateway now gives you access to your favorite AI models, dynamic routing and more — through just one endpoint</title>
+      <link>/articles/article-2025-08-27-7233/</link>
       <pubDate>Wed, 27 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7233/</guid>
-      <description>ð Exciting news from Cloudflare! The new AI Gateway allows users to access multiple AI models through a single endpoint. This update simplifies the management of AI applications with features like unified billing, secure key storage, and dynamic routing. Users can connect to providers like OpenAI and Google, managing everything from one dashboard. Experience improved performance and observability while controlling costs effortlessly. Learn more about these features on the AI Gateway landing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7233/</guid>
+      <description>🚀 Exciting news from Cloudflare! The new AI Gateway allows users to access multiple AI models through a single endpoint. This update simplifies the management of AI applications with features like unified billing, secure key storage, and dynamic routing. Users can connect to providers like OpenAI and Google, managing everything from one dashboard. Experience improved performance and observability while controlling costs effortlessly. Learn more about these features on the AI Gateway landing&amp;hellip;</description>
     </item>
     <item>
       <title>How Cloudflare runs more AI models on fewer GPUs: A technical deep-dive</title>
-      <link>http://localhost:1313/articles/article-7236/</link>
+      <link>/articles/article-2025-08-27-7236/</link>
       <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7236/</guid>
-      <description>ð Cloudflare has developed a new platform called Omni to optimize GPU usage for AI models. Omni employs lightweight isolation and memory over-commitment, allowing multiple models to run on a single GPU. This innovation enhances model availability and reduces latency, making AI services more efficient. The platform also simplifies management by using a single control plane to handle model provisioning and scaling automatically. #AI #Cloudflare #TechInnovation #GPU #Omni</description>
+      <guid>/articles/article-2025-08-27-7236/</guid>
+      <description>🚀 Cloudflare has developed a new platform called Omni to optimize GPU usage for AI models. Omni employs lightweight isolation and memory over-commitment, allowing multiple models to run on a single GPU. This innovation enhances model availability and reduces latency, making AI services more efficient. The platform also simplifies management by using a single control plane to handle model provisioning and scaling automatically. #AI #Cloudflare #TechInnovation #GPU #Omni</description>
     </item>
     <item>
-      <title>How we built the most efficient inference engine for Cloudflareâs network</title>
-      <link>http://localhost:1313/articles/article-7289/</link>
+      <title>How we built the most efficient inference engine for Cloudflare’s network</title>
+      <link>/articles/article-2025-08-27-7289/</link>
       <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7289/</guid>
-      <description>ð Cloudflare has developed Infire, a new LLM inference engine designed to enhance resource efficiency for AI tasks. Infire uses advanced techniques to optimize memory, network I/O, and GPU utilization, allowing it to serve more requests with fewer resources. Initial tests show it completes tasks up to 7% faster than the previous vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers AI, demonstrating significant performance improvements for Cloudflareâs unique distributed&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7289/</guid>
+      <description>🚀 Cloudflare has developed Infire, a new LLM inference engine designed to enhance resource efficiency for AI tasks. Infire uses advanced techniques to optimize memory, network I/O, and GPU utilization, allowing it to serve more requests with fewer resources. Initial tests show it completes tasks up to 7% faster than the previous vLLM engine. Currently, Infire supports the Llama 3.1 model for Workers AI, demonstrating significant performance improvements for Cloudflare’s unique distributed&amp;hellip;</description>
     </item>
     <item>
       <title>State-of-the-art image generation Leonardo models and text-to-speech Deepgram models now available in Workers AI</title>
-      <link>http://localhost:1313/articles/article-7293/</link>
+      <link>/articles/article-2025-08-27-7293/</link>
       <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7293/</guid>
-      <description>ð Exciting updates in Workers AI! We&amp;rsquo;ve partnered with Leonardo.Ai and Deepgram to enhance our model catalog. Users can now access advanced image generation and real-time text-to-speech models, all hosted on Cloudflare&amp;rsquo;s infrastructure. This integration allows developers to create applications with low-latency image generation and audio voice agents effectively. Discover more about our new models and how they can support your AI projects! #AI #WorkersAI #Leonardo #Deepgram #Cloudflare</description>
+      <guid>/articles/article-2025-08-27-7293/</guid>
+      <description>🚀 Exciting updates in Workers AI! We&amp;rsquo;ve partnered with Leonardo.Ai and Deepgram to enhance our model catalog. Users can now access advanced image generation and real-time text-to-speech models, all hosted on Cloudflare&amp;rsquo;s infrastructure. This integration allows developers to create applications with low-latency image generation and audio voice agents effectively. Discover more about our new models and how they can support your AI projects! #AI #WorkersAI #Leonardo #Deepgram #Cloudflare</description>
     </item>
     <item>
       <title>Securing the AI Revolution: Introducing Cloudflare MCP Server Portals</title>
-      <link>http://localhost:1313/articles/article-7237/</link>
+      <link>/articles/article-2025-08-26-7237/</link>
       <pubDate>Tue, 26 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7237/</guid>
-      <description>ð Exciting news in AI security! Cloudflare has launched MCP Server Portals in Open Beta. This new feature allows organizations to centralize, secure, and monitor every MCP connection. The Model Context Protocol (MCP) enables Large Language Models (LLMs) like ChatGPT to interact with various applications, enhancing their functionality. Discover how MCP transforms AI into collaborative teammates while addressing security concerns. ð #AI #Cloudflare #Cybersecurity #MCP #TechInnovation</description>
+      <guid>/articles/article-2025-08-26-7237/</guid>
+      <description>🚀 Exciting news in AI security! Cloudflare has launched MCP Server Portals in Open Beta. This new feature allows organizations to centralize, secure, and monitor every MCP connection. The Model Context Protocol (MCP) enables Large Language Models (LLMs) like ChatGPT to interact with various applications, enhancing their functionality. Discover how MCP transforms AI into collaborative teammates while addressing security concerns. 🔒 #AI #Cloudflare #Cybersecurity #MCP #TechInnovation</description>
     </item>
     <item>
       <title>Best Practices for Securing Generative AI with SASE</title>
-      <link>http://localhost:1313/articles/article-7241/</link>
+      <link>/articles/article-2025-08-26-7241/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7241/</guid>
-      <description>ð As businesses adopt Generative AI, Security and IT leaders face new challenges. Executives push for quick implementation, while teams must create effective AI Security Strategies. ð Cloudflareâs SASE architecture offers a solution, integrating networking and security for secure access to corporate resources. Their platform supports safe AI usage without hindering innovation. ð¡ï¸ Recent enhancements include shadow AI reporting, confidence scoring for AI providers, and protections against&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7241/</guid>
+      <description>🚀 As businesses adopt Generative AI, Security and IT leaders face new challenges. Executives push for quick implementation, while teams must create effective AI Security Strategies. 🔒 Cloudflare’s SASE architecture offers a solution, integrating networking and security for secure access to corporate resources. Their platform supports safe AI usage without hindering innovation. 🛡️ Recent enhancements include shadow AI reporting, confidence scoring for AI providers, and protections against&amp;hellip;</description>
     </item>
     <item>
       <title>Block unsafe prompts targeting your LLM endpoints with Firewall for AI</title>
-      <link>http://localhost:1313/articles/article-7240/</link>
+      <link>/articles/article-2025-08-26-7240/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7240/</guid>
-      <description>ð Cloudflare has enhanced its AI security suite with the introduction of unsafe content moderation through Firewall for AI. This new feature aims to protect AI applications from malicious prompts that could compromise sensitive data or user trust. ð With this integration, customers can now detect and block harmful prompts at the network level without modifying their application code. Firewall for AI supports various models, ensuring consistent protection across all platforms. ð¡ï¸ This update&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7240/</guid>
+      <description>🚀 Cloudflare has enhanced its AI security suite with the introduction of unsafe content moderation through Firewall for AI. This new feature aims to protect AI applications from malicious prompts that could compromise sensitive data or user trust. 🔒 With this integration, customers can now detect and block harmful prompts at the network level without modifying their application code. Firewall for AI supports various models, ensuring consistent protection across all platforms. 🛡️ This update&amp;hellip;</description>
     </item>
     <item>
       <title>ChatGPT, Claude, &amp; Gemini security scanning with Cloudflare CASB</title>
-      <link>http://localhost:1313/articles/article-7239/</link>
+      <link>/articles/article-2025-08-26-7239/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7239/</guid>
-      <description>ð Cloudflare CASB now offers security scanning for generative AI tools like ChatGPT, Claude, and Gemini. Organizations can connect their accounts to detect misconfigurations, data exposure, and compliance risks quickly and without additional software. This integration enhances visibility and helps IT teams manage the security challenges of AI adoption effectively. ð #Cloudflare #CyberSecurity #GenerativeAI #DataProtection #Compliance</description>
+      <guid>/articles/article-2025-08-26-7239/</guid>
+      <description>🚀 Cloudflare CASB now offers security scanning for generative AI tools like ChatGPT, Claude, and Gemini. Organizations can connect their accounts to detect misconfigurations, data exposure, and compliance risks quickly and without additional software. This integration enhances visibility and helps IT teams manage the security challenges of AI adoption effectively. 🔍 #Cloudflare #CyberSecurity #GenerativeAI #DataProtection #Compliance</description>
     </item>
     <item>
       <title>Introducing Cloudflare Application Confidence Score For AI Applications</title>
-      <link>http://localhost:1313/articles/article-7238/</link>
+      <link>/articles/article-2025-08-26-7238/</link>
       <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7238/</guid>
-      <description>ð Cloudflare has introduced Application Confidence Scores for Gen AI applications to help businesses assess risks associated with shadow IT. These scores will aid security, IT, and legal teams in evaluating third-party applications without needing extensive individual audits. This initiative aims to balance productivity with security, promoting smarter controls rather than blanket bans. Stay informed about the new features in Cloudflare&amp;rsquo;s AI Security Posture Management within the Cloudflare&amp;hellip;</description>
+      <guid>/articles/article-2025-08-26-7238/</guid>
+      <description>🌐 Cloudflare has introduced Application Confidence Scores for Gen AI applications to help businesses assess risks associated with shadow IT. These scores will aid security, IT, and legal teams in evaluating third-party applications without needing extensive individual audits. This initiative aims to balance productivity with security, promoting smarter controls rather than blanket bans. Stay informed about the new features in Cloudflare&amp;rsquo;s AI Security Posture Management within the Cloudflare&amp;hellip;</description>
     </item>
     <item>
       <title>Unmasking the Unseen: Your Guide to Taming Shadow AI with Cloudflare One</title>
-      <link>http://localhost:1313/articles/article-6345/</link>
+      <link>/articles/article-2025-08-25-6345/</link>
       <pubDate>Mon, 25 Aug 2025 14:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6345/</guid>
-      <description>ð¨ Concerned about data leaks from unsanctioned AI use? The rise of &amp;ldquo;Shadow AI&amp;rdquo; poses a significant risk as employees unknowingly expose sensitive information through AI tools. Traditional security measures often miss these interactions. Cloudflare One offers a solution with its Shadow IT Report, providing visibility into AI application usage and helping organizations manage potential risks effectively. Stay informed and secure! ðð» #CyberSecurity #ShadowAI #Cloudflare #DataProtection #Innovation</description>
+      <guid>/articles/article-2025-08-25-6345/</guid>
+      <description>🚨 Concerned about data leaks from unsanctioned AI use? The rise of &amp;ldquo;Shadow AI&amp;rdquo; poses a significant risk as employees unknowingly expose sensitive information through AI tools. Traditional security measures often miss these interactions. Cloudflare One offers a solution with its Shadow IT Report, providing visibility into AI application usage and helping organizations manage potential risks effectively. Stay informed and secure! 🔍💻 #CyberSecurity #ShadowAI #Cloudflare #DataProtection #Innovation</description>
     </item>
     <item>
       <title>Beyond the ban: A better way to secure generative AI applications</title>
-      <link>http://localhost:1313/articles/article-6348/</link>
+      <link>/articles/article-2025-08-25-6348/</link>
       <pubDate>Mon, 25 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6348/</guid>
-      <description>Generative AI is transforming workplace productivity, but it also poses significant data security risks. ð¡ï¸ Many employees inadvertently share sensitive information with AI tools. Recent incidents highlight the consequences of this, including private chats being indexed online. To address these risks, Cloudflare introduces AI prompt protection, part of its Data Loss Prevention (DLP) system. This feature helps organizations manage AI use while securing sensitive data. AI prompt protection&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-6348/</guid>
+      <description>Generative AI is transforming workplace productivity, but it also poses significant data security risks. 🛡️ Many employees inadvertently share sensitive information with AI tools. Recent incidents highlight the consequences of this, including private chats being indexed online. To address these risks, Cloudflare introduces AI prompt protection, part of its Data Loss Prevention (DLP) system. This feature helps organizations manage AI use while securing sensitive data. AI prompt protection&amp;hellip;</description>
     </item>
     <item>
-      <title>Bringing Cloudflareâs AI to FedRAMP High</title>
-      <link>http://localhost:1313/articles/article-6347/</link>
+      <title>Bringing Cloudflare’s AI to FedRAMP High</title>
+      <link>/articles/article-2025-08-25-6347/</link>
       <pubDate>Mon, 25 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6347/</guid>
-      <description>ð Cloudflare is set to enhance AI capabilities for the US public sector by bringing its AI Developer suite, including Workers AI, AI Gateway, and Vectorize, into FedRAMP Moderate and High boundaries by 2026. This initiative aims to streamline generative AI use while ensuring compliance and security. Workers AI will provide serverless inference close to users, improving response times for agency services. With these tools, agencies can modernize their operations and improve efficiency in&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-6347/</guid>
+      <description>🚀 Cloudflare is set to enhance AI capabilities for the US public sector by bringing its AI Developer suite, including Workers AI, AI Gateway, and Vectorize, into FedRAMP Moderate and High boundaries by 2026. This initiative aims to streamline generative AI use while ensuring compliance and security. Workers AI will provide serverless inference close to users, improving response times for agency services. With these tools, agencies can modernize their operations and improve efficiency in&amp;hellip;</description>
     </item>
     <item>
       <title>Cloudflare Launching AI Miniseries for Developers (and Everyone Else They Know)</title>
-      <link>http://localhost:1313/articles/article-6346/</link>
+      <link>/articles/article-2025-08-25-6346/</link>
       <pubDate>Mon, 25 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6346/</guid>
-      <description>ð Cloudflare has launched &amp;ldquo;AI Avenue,&amp;rdquo; a miniseries designed to demystify AI for developers and the general public. Each episode explores AI&amp;rsquo;s growth, capabilities, and human augmentation stories, making the technology approachable and engaging. Viewers can interact with AI hands-on, breaking down fears and showcasing its potential. Join the journey to learn more at aiavenue.show! #AI #Cloudflare #Innovation #Technology #HumanAugmentation</description>
+      <guid>/articles/article-2025-08-25-6346/</guid>
+      <description>🚀 Cloudflare has launched &amp;ldquo;AI Avenue,&amp;rdquo; a miniseries designed to demystify AI for developers and the general public. Each episode explores AI&amp;rsquo;s growth, capabilities, and human augmentation stories, making the technology approachable and engaging. Viewers can interact with AI hands-on, breaking down fears and showcasing its potential. Join the journey to learn more at aiavenue.show! #AI #Cloudflare #Innovation #Technology #HumanAugmentation</description>
     </item>
     <item>
       <title>Welcome to AI Week 2025</title>
-      <link>http://localhost:1313/articles/article-6319/</link>
+      <link>/articles/article-2025-08-24-6319/</link>
       <pubDate>Sun, 24 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6319/</guid>
-      <description>ð Welcome to AI Week 2025! AI is transforming industries by enhancing productivity. Customer support agents can now handle up to ten times more tickets, while software engineers focus on reviewing AI-generated code. This shift allows sales teams to prioritize relationship building over administrative tasks. However, the rapid advancement of AI presents governance challenges. Security concerns arise as sensitive data can be mishandled or exposed. Companies face tough decisions on managing AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-24-6319/</guid>
+      <description>🌐 Welcome to AI Week 2025! AI is transforming industries by enhancing productivity. Customer support agents can now handle up to ten times more tickets, while software engineers focus on reviewing AI-generated code. This shift allows sales teams to prioritize relationship building over administrative tasks. However, the rapid advancement of AI presents governance challenges. Security concerns arise as sensitive data can be mishandled or exposed. Companies face tough decisions on managing AI&amp;hellip;</description>
     </item>
     <item>
       <title>MoQ: Refactoring the Internet&#39;s real-time media stack</title>
-      <link>http://localhost:1313/articles/article-6314/</link>
+      <link>/articles/article-2025-08-22-6314/</link>
       <pubDate>Fri, 22 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6314/</guid>
-      <description>ð Media over QUIC (MoQ) is a new IETF standard transforming real-time media streaming by unifying various protocols. For years, we relied on RTMP, HLS, and WebRTC, each addressing specific needs but creating complexity in the process. MoQ aims to streamline this by combining low latency with scalability and operational simplicity. Cloudflare has launched the first MoQ relay network, collaborating with industry leaders like Meta and Google to create a shared foundation for future applications&amp;hellip;.</description>
+      <guid>/articles/article-2025-08-22-6314/</guid>
+      <description>🌐 Media over QUIC (MoQ) is a new IETF standard transforming real-time media streaming by unifying various protocols. For years, we relied on RTMP, HLS, and WebRTC, each addressing specific needs but creating complexity in the process. MoQ aims to streamline this by combining low latency with scalability and operational simplicity. Cloudflare has launched the first MoQ relay network, collaborating with industry leaders like Meta and Google to create a shared foundation for future applications&amp;hellip;.</description>
     </item>
     <item>
       <title>Cloudflare incident on August 21, 2025</title>
-      <link>http://localhost:1313/articles/article-6315/</link>
+      <link>/articles/article-2025-08-22-6315/</link>
       <pubDate>Fri, 22 Aug 2025 00:58:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6315/</guid>
-      <description>On August 21, 2025, Cloudflare experienced significant congestion due to a surge of traffic directed at its clients hosted in AWS us-east-1. ð The congestion began at 16:27 UTC and peaked until 19:38 UTC, affecting user connections with high latency and packet loss. This issue was localized and not a result of an attack. The traffic overload was traced back to a single customer. â ï¸ Cloudflare is working on measures to prevent similar incidents in the future. For more details, check out the&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6315/</guid>
+      <description>On August 21, 2025, Cloudflare experienced significant congestion due to a surge of traffic directed at its clients hosted in AWS us-east-1. 🌐 The congestion began at 16:27 UTC and peaked until 19:38 UTC, affecting user connections with high latency and packet loss. This issue was localized and not a result of an attack. The traffic overload was traced back to a single customer. ⚠️ Cloudflare is working on measures to prevent similar incidents in the future. For more details, check out the&amp;hellip;</description>
     </item>
     <item>
       <title>How a volunteer-run wildfire site in Portugal stayed online during DDoS attacks</title>
-      <link>http://localhost:1313/articles/article-5129/</link>
+      <link>/articles/article-2025-08-21-5129/</link>
       <pubDate>Thu, 21 Aug 2025 17:28:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5129/</guid>
-      <description>ðð¥ In 2015, fogos.pt began as a volunteer side project to improve access to wildfire data in Portugal. Today, it serves as a vital resource for citizens, media, and government during fire seasons. During the intense 2025 wildfire season, fogos.pt faced DDoS attacks but was protected by Cloudflare&amp;rsquo;s Project Galileo. This platform provides real-time data and is crucial for public safety. Volunteers and partners keep this initiative running without formal funding. #WildfireTracker&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5129/</guid>
+      <description>🌍🔥 In 2015, fogos.pt began as a volunteer side project to improve access to wildfire data in Portugal. Today, it serves as a vital resource for citizens, media, and government during fire seasons. During the intense 2025 wildfire season, fogos.pt faced DDoS attacks but was protected by Cloudflare&amp;rsquo;s Project Galileo. This platform provides real-time data and is crucial for public safety. Volunteers and partners keep this initiative running without formal funding. #WildfireTracker&amp;hellip;</description>
     </item>
     <item>
       <title>How we built AI face cropping for Images</title>
-      <link>http://localhost:1313/articles/article-5130/</link>
+      <link>/articles/article-2025-08-20-5130/</link>
       <pubDate>Wed, 20 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5130/</guid>
-      <description>ð Exciting news from Developer Week 2024! We launched AI face cropping, a feature that automatically crops images around detected faces. This marks a significant step in our AI image manipulation capabilities. Our transition from a CPU-based prototype to a GPU-based implementation allows for better performance and scalability, addressing previous technical challenges. This feature is aimed at enhancing image handling for social media platforms and e-commerce sites, making it easier to create&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5130/</guid>
+      <description>🚀 Exciting news from Developer Week 2024! We launched AI face cropping, a feature that automatically crops images around detected faces. This marks a significant step in our AI image manipulation capabilities. Our transition from a CPU-based prototype to a GPU-based implementation allows for better performance and scalability, addressing previous technical challenges. This feature is aimed at enhancing image handling for social media platforms and e-commerce sites, making it easier to create&amp;hellip;</description>
     </item>
     <item>
       <title>Announcing the Cloudflare Browser Developer Program</title>
-      <link>http://localhost:1313/articles/article-5131/</link>
+      <link>/articles/article-2025-08-18-5131/</link>
       <pubDate>Mon, 18 Aug 2025 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5131/</guid>
-      <description>ð Exciting news from Cloudflare! They have launched the Browser Developer Program, aimed at enhancing collaboration between Cloudflare and browser development teams. This initiative focuses on improving security measures while ensuring a seamless user experience. Browser developers can join to share feedback, access best practices, and engage in discussions with Cloudflare engineers. The program also offers insights into updates that may affect browser interactions with Cloudflare Challenges&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5131/</guid>
+      <description>🌐 Exciting news from Cloudflare! They have launched the Browser Developer Program, aimed at enhancing collaboration between Cloudflare and browser development teams. This initiative focuses on improving security measures while ensuring a seamless user experience. Browser developers can join to share feedback, access best practices, and engage in discussions with Cloudflare engineers. The program also offers insights into updates that may affect browser interactions with Cloudflare Challenges&amp;hellip;</description>
     </item>
     <item>
       <title>MadeYouReset: An HTTP/2 vulnerability thwarted by Rapid Reset mitigations</title>
-      <link>http://localhost:1313/articles/article-5132/</link>
+      <link>/articles/article-2025-08-14-5132/</link>
       <pubDate>Thu, 14 Aug 2025 22:03:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5132/</guid>
-      <description>ð¨ A new HTTP/2 vulnerability named MadeYouReset (CVE-2025-8671) has been disclosed by researchers at Tel Aviv University. This denial-of-service (DoS) vulnerability affects unpatched HTTP/2 servers, potentially leading to resource exhaustion. If you use Cloudflare for DDoS mitigation, your systems are already protected. MadeYouReset exploits server-sent stream resets, similar to the previously identified Rapid Reset vulnerability. Implementations are encouraged to monitor and limit the use of&amp;hellip;</description>
+      <guid>/articles/article-2025-08-14-5132/</guid>
+      <description>🚨 A new HTTP/2 vulnerability named MadeYouReset (CVE-2025-8671) has been disclosed by researchers at Tel Aviv University. This denial-of-service (DoS) vulnerability affects unpatched HTTP/2 servers, potentially leading to resource exhaustion. If you use Cloudflare for DDoS mitigation, your systems are already protected. MadeYouReset exploits server-sent stream resets, similar to the previously identified Rapid Reset vulnerability. Implementations are encouraged to monitor and limit the use of&amp;hellip;</description>
     </item>
     <item>
       <title>Aligning our prices and packaging with the problems we help customers solve</title>
-      <link>http://localhost:1313/articles/article-4959/</link>
+      <link>/articles/article-2025-08-11-4959/</link>
       <pubDate>Mon, 11 Aug 2025 23:03:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4959/</guid>
-      <description>ð Cloudflare is introducing Externa and Interna, two new packages designed to simplify how you connect and protect your infrastructure. These use-case bundles address the need for straightforward solutions and pricing, responding to customer feedback for simplicity. Externa focuses on connecting and protecting public-facing systems, while Interna secures internal resources. These packages aim to reduce complexity and enhance security. #Cloudflare #Cybersecurity #TechSolutions #Simplicity&amp;hellip;</description>
+      <guid>/articles/article-2025-08-11-4959/</guid>
+      <description>🌐 Cloudflare is introducing Externa and Interna, two new packages designed to simplify how you connect and protect your infrastructure. These use-case bundles address the need for straightforward solutions and pricing, responding to customer feedback for simplicity. Externa focuses on connecting and protecting public-facing systems, while Interna secures internal resources. These packages aim to reduce complexity and enhance security. #Cloudflare #Cybersecurity #TechSolutions #Simplicity&amp;hellip;</description>
     </item>
     <item>
       <title>Redesigning Workers KV for increased availability and faster performance</title>
-      <link>http://localhost:1313/articles/article-4764/</link>
+      <link>/articles/article-2025-08-08-4764/</link>
       <pubDate>Fri, 08 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4764/</guid>
+      <guid>/articles/article-2025-08-08-4764/</guid>
       <description>Cloudflare has redesigned its Workers KV service following a significant outage on June 12, 2025. This incident was caused by a failure in the underlying storage infrastructure. To enhance availability and performance, Cloudflare has transitioned to its own storage infrastructure. This change eliminates single points of failure and reduces reliance on third-party providers for redundancy. The updated design aims to provide high availability while improving response times for critical&amp;hellip;</description>
     </item>
     <item>
       <title>Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI</title>
-      <link>http://localhost:1313/articles/article-2075/</link>
+      <link>/articles/article-2025-08-05-2075/</link>
       <pubDate>Tue, 05 Aug 2025 21:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2075/</guid>
+      <guid>/articles/article-2025-08-05-2075/</guid>
       <description>🚀 Exciting news! OpenAI&amp;rsquo;s latest open-source models are now live on Cloudflare Workers AI. Developers can access two new models: a 120 billion parameter and a 20 billion parameter version. These models feature a Mixture-of-Experts architecture for efficient performance and are designed for transparency and flexibility. 🛠️ In addition, Cloudflare supports the new Responses API, enhancing interaction capabilities. The Code Interpreter and Web Search features are also on the way! #OpenAI&amp;hellip;</description>
     </item>
     <item>
       <title>Reducing double spend latency from 40 ms to &lt; 1 ms on privacy proxy</title>
-      <link>http://localhost:1313/articles/article-2076/</link>
+      <link>/articles/article-2025-08-05-2076/</link>
       <pubDate>Tue, 05 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2076/</guid>
+      <guid>/articles/article-2025-08-05-2076/</guid>
       <description>We recently improved the performance of our privacy proxy service by reducing double-spend check latency from 40 ms to less than 1 ms. 🚀 This enhancement helps users browse the web securely without compromising their privacy. It also boosts the efficiency of our service, as we handle millions of requests each second. 🔒 Using a tracing platform and metrics, we identified bottlenecks and optimized our processes. This change is part of Cloudflare&amp;rsquo;s commitment to making the Internet faster for&amp;hellip;</description>
     </item>
     <item>
       <title>Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives</title>
-      <link>http://localhost:1313/articles/article-2077/</link>
+      <link>/articles/article-2025-08-04-2077/</link>
       <pubDate>Mon, 04 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2077/</guid>
+      <guid>/articles/article-2025-08-04-2077/</guid>
       <description>Perplexity, an AI-powered answer engine, is reportedly using stealth tactics to bypass website no-crawl directives. They modify user agents and change IPs to continue crawling despite explicit blocks. This behavior contradicts the trust-based principles of the internet, which emphasize transparency and adherence to website preferences. As a result, Perplexity has been de-listed as a verified bot and is facing new blocking measures. #Crawling #AI #WebSecurity #DataPrivacy #TechNews 🕵️‍♂️🔍🚫</description>
+    </item>
+    <item>
+      <title>Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)</title>
+      <link>/articles/article-2025-08-01-2078/</link>
+      <pubDate>Fri, 01 Aug 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-2078/</guid>
+      <description>Cloudflare has announced a vulnerability disclosure for its SSL for SaaS v1 (Managed CNAME) product, identified through its bug bounty program. Despite deprecating this version in 2021, some customers have yet to migrate to SSL for SaaS v2. Cloudflare is working to assist these remaining clients in the transition. The architecture of SSL for SaaS v1 posed security risks due to its reliance on IP-based routing without domain ownership verification, leading to potential vulnerabilities. 🌐🔒&amp;hellip;</description>
     </item>
   </channel>
 </rss>

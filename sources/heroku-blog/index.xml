@@ -2,39 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heroku-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/heroku-blog/</link>
+    <link>/sources/heroku-blog/</link>
     <description>Recent content in Heroku-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 15:00:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/heroku-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 15:00:13 +0000</lastBuildDate>
+    <atom:link href="/sources/heroku-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amazon Nova Models: Now Available on Heroku</title>
-      <link>http://localhost:1313/articles/article-7214/</link>
-      <pubDate>Tue, 26 Aug 2025 15:00:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7214/</guid>
-      <description>ð Exciting news for developers! Amazon&amp;rsquo;s Nova models are now available on Heroku. Provisioning these advanced AI models is as easy as adding an add-on to your Heroku app. This allows businesses to access powerful, cost-effective AI with simplicity. The Nova family includes nova-pro, designed for accuracy and deep reasoning, and nova-lite, optimized for speed and high-throughput applications. Explore the capabilities of these models today! #AmazonNova #Heroku #AI #MachineLearning #TechNews</description>
+      <title>Corrective Action Update for the Heroku June 10th Outage</title>
+      <link>/articles/article-2025-09-05-7784/</link>
+      <pubDate>Fri, 05 Sep 2025 15:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7784/</guid>
+      <description>🚨 &lt;strong&gt;Heroku Outage Update&lt;/strong&gt; 🚨 On June 10, 2025, Heroku experienced a service disruption due to an unintended system update. This affected not only platform performance but also the Heroku Status site, leading to confusion among users. 🛠️ On June 15, we outlined our remediation objectives, focusing on: - Immutable infrastructure - Improved communication resilience - Faster investigation and recovery 🔧 Key actions taken include halting unattended vendor upgrades, auditing system images, and&amp;hellip;</description>
     </item>
     <item>
-      <title>Heroku AI Expands Model Offering with OpenAIâs gpt-oss-120b</title>
-      <link>http://localhost:1313/articles/article-5054/</link>
+      <title>Discover How Heroku’s AI PaaS Delivers Real-World Results at Dreamforce</title>
+      <link>/articles/article-2025-09-04-7743/</link>
+      <pubDate>Thu, 04 Sep 2025 15:00:12 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7743/</guid>
+      <description>🚀 Heroku has transformed at Dreamforce into an AI PaaS, designed to enhance the shift from experimentation to production. Key highlights include new features like AppLink, Managed Inference, and Agents, all aimed at speeding up the delivery of AI-powered applications. Discover how companies like Workday and AT&amp;amp;T; are achieving significant results with Heroku’s solutions. Explore more at Dreamforce! #Heroku #Dreamforce #AI #TechInnovation #BusinessGrowth</description>
+    </item>
+    <item>
+      <title>Amazon Nova Models: Now Available on Heroku</title>
+      <link>/articles/article-2025-08-26-7214/</link>
+      <pubDate>Tue, 26 Aug 2025 15:00:16 +0000</pubDate>
+      <guid>/articles/article-2025-08-26-7214/</guid>
+      <description>🚀 Exciting news for developers! Amazon&amp;rsquo;s Nova models are now available on Heroku. Provisioning these advanced AI models is as easy as adding an add-on to your Heroku app. This allows businesses to access powerful, cost-effective AI with simplicity. The Nova family includes nova-pro, designed for accuracy and deep reasoning, and nova-lite, optimized for speed and high-throughput applications. Explore the capabilities of these models today! #AmazonNova #Heroku #AI #MachineLearning #TechNews</description>
+    </item>
+    <item>
+      <title>Heroku AI Expands Model Offering with OpenAI’s gpt-oss-120b</title>
+      <link>/articles/article-2025-08-20-5054/</link>
       <pubDate>Wed, 20 Aug 2025 15:00:14 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5054/</guid>
-      <description>ð Exciting news for developers! OpenAI&amp;rsquo;s new model, gpt-oss-120b, is now available on Heroku Managed Inference and Agents. This open-weight model allows for easy integration into existing applications through an OpenAI-compatible API. With its Mixture-of-Experts architecture, gpt-oss-120b is efficient and designed for a variety of text generation tasks. Early benchmarks show it performs competitively with other models. Explore the future of AI application development on Heroku! ð #AI #OpenAI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5054/</guid>
+      <description>🚀 Exciting news for developers! OpenAI&amp;rsquo;s new model, gpt-oss-120b, is now available on Heroku Managed Inference and Agents. This open-weight model allows for easy integration into existing applications through an OpenAI-compatible API. With its Mixture-of-Experts architecture, gpt-oss-120b is efficient and designed for a variety of text generation tasks. Early benchmarks show it performs competitively with other models. Explore the future of AI application development on Heroku! 🌟 #AI #OpenAI&amp;hellip;</description>
     </item>
     <item>
       <title>Building Data-Aware AI Applications with Heroku AI and LlamaIndex</title>
-      <link>http://localhost:1313/articles/article-5055/</link>
+      <link>/articles/article-2025-08-19-5055/</link>
       <pubDate>Tue, 19 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5055/</guid>
-      <description>ð Organizations aim to build AI applications that access private data, but connecting large language models (LLMs) to proprietary datasets can be challenging. Heroku Managed Inference and LlamaIndex offer a solution for creating retrieval-augmented generation (RAG) applications. LlamaIndex helps orchestrate data, while Heroku AI simplifies deployment. Use cases include financial analysis and insurance claim assessments, enhancing efficiency and accuracy in data retrieval. ðð¤ #AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5055/</guid>
+      <description>🚀 Organizations aim to build AI applications that access private data, but connecting large language models (LLMs) to proprietary datasets can be challenging. Heroku Managed Inference and LlamaIndex offer a solution for creating retrieval-augmented generation (RAG) applications. LlamaIndex helps orchestrate data, while Heroku AI simplifies deployment. Use cases include financial analysis and insurance claim assessments, enhancing efficiency and accuracy in data retrieval. 📊🤖 #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Building Agents With Heroku AI and Pydantic AI</title>
-      <link>http://localhost:1313/articles/article-4718/</link>
+      <link>/articles/article-2025-08-08-4718/</link>
       <pubDate>Fri, 08 Aug 2025 16:33:37 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4718/</guid>
+      <guid>/articles/article-2025-08-08-4718/</guid>
       <description>Unlock the potential of AI with Heroku and Pydantic AI! 🚀 Developers can easily integrate advanced AI capabilities using Heroku Managed Inference and Agents. A simple click attaches powerful models like Anthropic&amp;rsquo;s Claude 4 Sonnet to your applications. Pydantic AI enhances this by providing a Python framework for building production-grade agents, ensuring a smooth development experience. 🐍 Together, they support advanced workflows through the Model Context Protocol and Agent2Agent Protocol,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AppLink Fundamentals III: Building with AppLink – Development Flow and Language Choices</title>
+      <link>/articles/article-2025-07-31-350/</link>
+      <pubDate>Thu, 31 Jul 2025 15:00:35 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-350/</guid>
+      <description>🌟 The latest article in the AppLink Fundamentals series focuses on the practical aspects of building with AppLink. It covers the development workflow, local testing, and managing changes to the OpenAPI specification. Key considerations for choosing programming languages for Salesforce extensions are also discussed. Additionally, the article highlights Agentforce integration, showcasing its ability to enhance agent capabilities beyond standard Salesforce functions. A real-world example&amp;hellip;</description>
     </item>
   </channel>
 </rss>

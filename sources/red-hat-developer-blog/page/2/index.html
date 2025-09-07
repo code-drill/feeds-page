@@ -1,35 +1,326 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Red-Hat-Developer-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
             margin: 0; 
-            padding: 20px; 
-            background: #f5f5f5;
-            font-variant-emoji: emoji;
-            text-rendering: optimizeQuality;
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
         }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         
          
-        .filters-container { width: 100%; margin-bottom: 30px; }
-        .filter-section { width: 100%; margin-bottom: 25px; }
-        .filter-section:last-child { margin-bottom: 0; }
-        .filter-section h3 { margin: 0 0 15px 0; color: #333; border-bottom: 2px solid #1976d2; padding-bottom: 5px; }
-        .filter-options { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
-        .filter-link { display: inline-block; padding: 6px 12px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.2s; font-size: 14px; }
-        .filter-link:hover { background: #e3f2fd; border-color: #1976d2; color: #1976d2; }
-        .filter-link.all-link { background: #1976d2; color: white; border-color: #1976d2; font-weight: bold; }
-        .filter-link.all-link:hover { background: #1565c0; border-color: #1565c0; }
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+            display: flex; 
+            gap: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
         
          
         .breadcrumb { margin-bottom: 20px; }
-        .breadcrumb a { color: #1976d2; text-decoration: none; }
-        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
         
          
         .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
@@ -37,36 +328,80 @@
         .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
         .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
         .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
         
-         
-        .article-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .article-item:last-child { border-bottom: none; }
-        .article-item h2 { margin: 0 0 10px 0; font-size: 18px; }
-        .article-item h2 a { color: #333; text-decoration: none; }
-        .article-item h2 a:hover { color: #0066cc; }
-        .article-meta { font-size: 12px; color: #666; margin-bottom: 10px; }
-        .article-meta span { margin-right: 15px; }
-        
-         
-        .categories, .sources { margin-bottom: 10px; }
-        .category-link, .source-link { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; text-decoration: none; display: inline-block; }
-        .category-link:hover, .source-link:hover { background: #1976d2; color: white; }
-        .sources .source-link { background: #f3e5f5; color: #7b1fa2; }
-        .sources .source-link:hover { background: #7b1fa2; color: white; }
-        
-        .summary { color: #444; line-height: 1.5; }
-        .source a { color: #666; }
-        .pagination-info { text-align: center; margin: 20px 0; color: #666; font-size: 14px; }
-        .pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 30px 0; flex-wrap: wrap; }
-        .pagination-numbers { display: flex; gap: 5px; }
-        .pagination-link { display: inline-block; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; background: #f9f9f9; transition: all 0.2s; }
-        .pagination-link:hover { background: #e9e9e9; border-color: #ccc; }
-        .pagination-current { display: inline-block; padding: 8px 12px; background: #1976d2; color: white; border-radius: 4px; font-weight: bold; }
         @media (max-width: 768px) {
-            .filter-options { justify-content: center; }
-            .taxonomy-index { grid-template-columns: 1fr; }
-            .pagination { flex-direction: column; gap: 15px; }
-            .pagination-numbers { flex-wrap: wrap; justify-content: center; }
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -79,324 +414,398 @@
         <a href="/">← Back to all articles</a>
     </nav>
     
-    <div class="pagination-info">
-        
-        <p>Page 2 of 2 (52 articles total)</p>
-        
-    </div>
     
     <div class="articles-list">
         
         <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/08/upgrade-rhel-9-rhel-10-red-hat-satellite-617" target="_blank">Upgrade from RHEL 9 to RHEL 10 with Red Hat Satellite 6.17</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-08 07:16</span>
-                
-                <span class="author">by Avnish Kumar</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/windows-image-building-service-openshift-virtualization" target="_blank">Windows image-building service for OpenShift Virtualization</a></h2>
+            <div class="publication-date">2025-08-12 15:16</div>
+            <div class="summary">🚀 Red Hat OpenShift Pipelines now allows for seamless management of virtual machines (VMs) in your CI/CD process. By integrating OpenShift Pipelines with OpenShift Virtualization, developers can automate the creation of standardized Windows golden images, enhancing VM provisioning. Key features include: - Management of pipelines as Kubernetes Custom Resources (CRs). - Simplified collaboration through source control management (SCM). - Streamlined operations by treating VMs as native objects...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Karel Simon</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/build-your-first-software-template-backstage" target="_blank">Build your first Software Template for Backstage</a></h2>
+            <div class="publication-date">2025-08-12 12:31</div>
+            <div class="summary">🚀 More organizations are adopting platform engineering and internal developer portals (IDPs) to enhance onboarding and self-service capabilities. This article details how to create a Software Template for Backstage using Red Hat Developer Hub. The template automates developer tasks, enabling faster application repository creation on GitHub with a CI pipeline. Prerequisites include admin access to Red Hat Developer Hub and GitHub integration setup. The guide offers step-by-step instructions...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
             
-            <div class="sources">
+            <div class="author">Evan Shortiss, Raghu Banda</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp" target="_blank">How to build a simple agentic AI server with MCP</a></h2>
+            <div class="publication-date">2025-08-12 07:16</div>
+            <div class="summary">🌐 As AI agents evolve, the need for reliable connections to real-world data grows. The Model Context Protocol (MCP) offers a standardized way to connect AI systems securely and efficiently. In a recent article, a simple MCP server was built to fetch weather data from the Open-Meteo API. This server allows AI models to interact with external tools and data, enhancing their functionality. To explore MCP, developers can set up their environment and create tools to access data easily. The article...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Saroj Paudel</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/12/boost-ai-efficiency-gpu-autoscaling-openshift" target="_blank">Boost AI efficiency with GPU autoscaling on OpenShift</a></h2>
+            <div class="publication-date">2025-08-12 07:16</div>
+            <div class="summary">Unlock AI potential with GPU autoscaling on OpenShift! 🚀 Dynamic autoscaling is essential for maintaining efficiency and availability in modern applications. Red Hat OpenShift offers features like horizontal pod autoscaling (HPA) and custom metrics autoscaler (KEDA) to optimize resource allocation and manage workloads effectively. KEDA enhances traditional scaling methods by utilizing external metrics, enabling better performance for GPU-accelerated applications. 📈 Learn how to implement...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Rohit Ralhan</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/11/disaster-recovery-approaches-red-hat-openshift-virtualization-part-2" target="_blank">Disaster recovery approaches for Red Hat OpenShift Virtualization, part 2</a></h2>
+            <div class="publication-date">2025-08-11 15:31</div>
+            <div class="summary">🌐 Discover effective disaster recovery strategies for Red Hat OpenShift Virtualization! This follow-up article explores orchestrating application failover using Kubernetes-native constructs and GitOps workflows. It emphasizes how to manage workloads during disruptions, focusing on redeployment and prioritization. Key practices include using Node Selectors and automation tools like Ansible and Helm for seamless transitions between primary and DR sites. Regular DR rehearsals and clear...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Bryon Baker, Raffaele Spazzoli</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/11/how-migrate-smart-inventories-constructed-inventories" target="_blank">How to migrate smart inventories to constructed inventories</a></h2>
+            <div class="publication-date">2025-08-11 07:01</div>
+            <div class="summary">🚀 Red Hat is set to discontinue support for smart inventories in favor of constructed inventories. This shift aims to address the limitations and challenges smart inventories present. 🔄 Migrating to constructed inventories can be complex, especially for large organizations. This article outlines a semi-automated process to simplify the transition, requiring human review to ensure accuracy. 📋 Key migration steps include converting filtering conditions, reviewing configurations, and applying...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Konstantin Kuminsky</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/11/how-use-minio-ansible-automation-hub" target="_blank">How to use Minio for Ansible automation hub</a></h2>
+            <div class="publication-date">2025-08-11 07:01</div>
+            <div class="summary">Learn how to configure MinIO as a backend for the Ansible Automation Hub in Red Hat environments. This setup provides a self-hosted, cost-effective alternative to cloud storage solutions like AWS S3. The article covers: 1️⃣ Setting up MinIO on an OpenShift cluster. 2️⃣ Integrating it with the Ansible Automation Platform. This method is ideal for air-gapped or on-premise deployments. #Ansible #MinIO #OpenShift #CloudStorage #DevOps</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Kamlendu Shekhar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking" target="_blank">Ollama vs. vLLM: A deep dive into performance benchmarking</a></h2>
+            <div class="publication-date">2025-08-08 07:16</div>
+            <div class="summary">Ollama and vLLM serve distinct roles in the AI landscape. Ollama is designed for local development and prototyping, while vLLM excels in high-performance production environments. In benchmarks, vLLM outperformed Ollama with a peak throughput of 793 TPS compared to Ollama&#39;s 41 TPS and lower latency across all concurrency levels. Ollama prioritizes ease of use, making it suitable for individual developers, whereas vLLM is built for scalability, catering to enterprise applications. For detailed...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Harshith Umesh</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/08/upgrade-rhel-9-rhel-10-red-hat-satellite-617" target="_blank">Upgrade from RHEL 9 to RHEL 10 with Red Hat Satellite 6.17</a></h2>
+            <div class="publication-date">2025-08-08 07:16</div>
             <div class="summary">🚀 Red Hat Enterprise Linux (RHEL) 10 is now available! For system admins managing large environments, upgrading from RHEL 9 to RHEL 10 can be simplified using Red Hat Satellite 6.17 and Leapp. These tools help ensure consistency, compliance, and minimal downtime during the upgrade process. Leapp automates checks and resolves compatibility issues, while Satellite manages repository synchronization and system tracking. Before upgrading, ensure your Satellite is properly configured and...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Avnish Kumar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/07/batch-inference-openshift-ai-ray-data-vllm-and-codeflare" target="_blank">Batch inference on OpenShift AI with Ray Data, vLLM, and CodeFlare</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 07:01</span>
-                
-                <span class="author">by Bryan Keane</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-07 07:01</div>
+            <div class="summary">Explore how to run batch inference at scale with OpenShift AI using the CodeFlare SDK, Ray Data, and vLLM. This approach helps bridge the gap between local development and production execution, enabling data scientists to efficiently process large datasets without needing deep infrastructure knowledge. The article outlines the differences between online and offline inference, focusing on the latter for large-scale tasks. It provides a step-by-step guide on connecting to a Ray cluster and...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Bryan Keane</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Explore how to run batch inference at scale with OpenShift AI using the CodeFlare SDK, Ray Data, and vLLM. This approach helps bridge the gap between local development and production execution, enabling data scientists to efficiently process large datasets without needing deep infrastructure knowledge. The article outlines the differences between online and offline inference, focusing on the latter for large-scale tasks. It provides a step-by-step guide on connecting to a Ray cluster and...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/07/build-trust-your-cicd-pipelines-openshift-pipelines" target="_blank">Build trust in your CI/CD pipelines with OpenShift Pipelines</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-07 07:01</span>
-                
-                <span class="author">by Pradipta Banerjee, Ariel Adam</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-07 07:01</div>
+            <div class="summary">🔒 Red Hat OpenShift Pipelines provide a cloud-native CI/CD solution using Tekton. This article highlights the use of OpenShift sandboxed containers, which isolate workloads in virtual machines, enhancing security for tasks needing elevated privileges. 🌐 For untrusted environments, OpenShift confidential containers (CoCo) further protect pipeline data by running containers in isolated hardware enclaves, safeguarding against admin access. 💡 The integration of these technologies ensures secure,...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Pradipta Banerjee, Ariel Adam</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/security_compliance" class="category-link">security_compliance</a>
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🔒 Red Hat OpenShift Pipelines provide a cloud-native CI/CD solution using Tekton. This article highlights the use of OpenShift sandboxed containers, which isolate workloads in virtual machines, enhancing security for tasks needing elevated privileges. 🌐 For untrusted environments, OpenShift confidential containers (CoCo) further protect pipeline data by running containers in isolated hardware enclaves, safeguarding against admin access. 💡 The integration of these technologies ensures secure,...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/06/simplify-user-access-rhel-red-hat-insights" target="_blank">Simplify access management for Red Hat Insights for Red Hat Enterprise Linux with new system roles</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 07:16</span>
-                
-                <span class="author">by Ryan Abbott</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-06 07:16</div>
+            <div class="summary">Managing user access for Red Hat Enterprise Linux (RHEL) just became simpler! 🚀 Red Hat has introduced three new system roles in the User Access service of the Hybrid Cloud Console: 1️⃣ **RHEL Administrator**: Full privileges for managing configurations and vulnerabilities. 2️⃣ **RHEL Operator**: Broad capabilities for editing configurations, but with some restrictions. 3️⃣ **RHEL Viewer**: Read-only access for viewing system data. These roles enhance security and streamline user management...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Ryan Abbott</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Managing user access for Red Hat Enterprise Linux (RHEL) just became simpler! 🚀 Red Hat has introduced three new system roles in the User Access service of the Hybrid Cloud Console: 1️⃣ **RHEL Administrator**: Full privileges for managing configurations and vulnerabilities. 2️⃣ **RHEL Operator**: Broad capabilities for editing configurations, but with some restrictions. 3️⃣ **RHEL Viewer**: Read-only access for viewing system data. These roles enhance security and streamline user management...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/06/intro-redis-and-postgresql-red-hat-sap-environments" target="_blank">Intro to Redis and PostgreSQL in Red Hat SAP environments</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-06 07:16</span>
-                
-                <span class="author">by Vas Mitra</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-06 07:16</div>
+            <div class="summary">🚀 Discover how Redis and PostgreSQL can enhance SQL query performance in SAP environments! This article guides SAP and Red Hat admins in leveraging these technologies for better caching. 🔍 Key points include: - PostgreSQL and Redis can be deployed alongside SAP applications. - Redis offers granular control over caching, improving performance. - A Python program example showcases data caching. For more insights, check the full article! #Redis #PostgreSQL #SAP #Caching #DataManagement</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Vas Mitra</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Discover how Redis and PostgreSQL can enhance SQL query performance in SAP environments! This article guides SAP and Red Hat admins in leveraging these technologies for better caching. 🔍 Key points include: - PostgreSQL and Redis can be deployed alongside SAP applications. - Redis offers granular control over caching, improving performance. - A Python program example showcases data caching. For more insights, check the full article! #Redis #PostgreSQL #SAP #Caching #DataManagement</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/05/getting-started-managed-clusters-migration" target="_blank">Getting started with managed clusters migration</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Yaheng Liu, ChunLin Yang, Jacob Berger</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-05 07:01</div>
+            <div class="summary">🚀 Red Hat Advanced Cluster Management 2.13 introduces a new developer preview feature: Managed Cluster Migration. This feature is beneficial when you need to migrate managed clusters due to instability, excess clusters, or selective transfers to another hub cluster. To get started, ensure both hub clusters are imported, running the same version, and have the managed-service account add-on enabled. You can then create a ManagedClusterMigration custom resource to facilitate the migration. For...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Yaheng Liu, ChunLin Yang, Jacob Berger</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Red Hat Advanced Cluster Management 2.13 introduces a new developer preview feature: Managed Cluster Migration. This feature is beneficial when you need to migrate managed clusters due to instability, excess clusters, or selective transfers to another hub cluster. To get started, ensure both hub clusters are imported, running the same version, and have the managed-service account add-on enabled. You can then create a ManagedClusterMigration custom resource to facilitate the migration. For...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/05/retrieval-augmented-generation-llama-stack-and-python" target="_blank">Retrieval-augmented generation with Llama Stack and Python</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Michael Dawson</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-05 07:01</div>
+            <div class="summary">🚀 Learn how to implement retrieval-augmented generation (RAG) using Python and Llama Stack! This article explores how RAG enhances AI responses by providing relevant context from documents, like Node.js reference architecture. By transforming data into vectors, the application retrieves pertinent document chunks to improve answer quality. The setup process involves running a Llama Stack instance and managing vector databases for efficient data handling. For developers interested in leveraging...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Michael Dawson</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Learn how to implement retrieval-augmented generation (RAG) using Python and Llama Stack! This article explores how RAG enhances AI responses by providing relevant context from documents, like Node.js reference architecture. By transforming data into vectors, the application retrieves pertinent document chunks to improve answer quality. The setup process involves running a Llama Stack instance and managing vector databases for efficient data handling. For developers interested in leveraging...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/05/introducing-incident-detection-red-hat-advanced-cluster-management-kubernetes" target="_blank">Introducing incident detection in Red Hat Advanced Cluster Management for Kubernetes 2.14</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Tomas Remes, Luiz Bernardo Levenhagen</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-05 07:01</div>
+            <div class="summary">🚀 Red Hat Advanced Cluster Management for Kubernetes 2.14 introduces incident detection, helping teams manage alert storms more effectively. This feature groups related alerts into manageable incidents, allowing for better root cause analysis and prioritization. To utilize this, install the Cluster Observability Operator on each cluster. It simplifies navigation between incidents within managed clusters. For installation details and to explore this feature, check the latest documentation....</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Tomas Remes, Luiz Bernardo Levenhagen</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Red Hat Advanced Cluster Management for Kubernetes 2.14 introduces incident detection, helping teams manage alert storms more effectively. This feature groups related alerts into manageable incidents, allowing for better root cause analysis and prioritization. To utilize this, install the Cluster Observability Operator on each cluster. It simplifies navigation between incidents within managed clusters. For installation details and to explore this feature, check the latest documentation....</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/05/how-deploy-multiple-openstack-environments-openshift" target="_blank">How to deploy multiple OpenStack environments on OpenShift</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-05 07:01</span>
-                
-                <span class="author">by Gil Rosenberg</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-05 07:01</div>
+            <div class="summary">Red Hat OpenStack Services on OpenShift introduces a new deployment architecture that enhances Infrastructure-as-a-Service (IaaS) environments. This architecture utilizes distributed control plane services in pods, which significantly reduces resource consumption compared to previous versions. A key feature of the latest release is the ability to run multiple OpenStack Services across different namespaces within the same OpenShift infrastructure, supporting development, staging, testing, and...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Gil Rosenberg</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Red Hat OpenStack Services on OpenShift introduces a new deployment architecture that enhances Infrastructure-as-a-Service (IaaS) environments. This architecture utilizes distributed control plane services in pods, which significantly reduces resource consumption compared to previous versions. A key feature of the latest release is the ability to run multiple OpenStack Services across different namespaces within the same OpenShift infrastructure, supporting development, staging, testing, and...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/04/optimize-workloads-right-sizing-recommendations" target="_blank">Optimize workloads with right-sizing recommendations</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 13:46</span>
-                
-                <span class="author">by Raj Zalavadia, Darshan Vandra</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-04 13:46</div>
+            <div class="summary">🚀 Introducing the Right-Sizing Recommendations in Red Hat Advanced Cluster Management for Kubernetes! This new capability helps users identify over-provisioned and under-utilized resources across clusters, promoting efficient infrastructure use and cost savings. By analyzing real-time CPU and memory consumption, it offers actionable recommendations for workload optimization. Key features include a Grafana dashboard for resource metrics, customizable data filtering, and policy-driven...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Raj Zalavadia, Darshan Vandra</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/product_announcements" class="category-link">product_announcements</a>
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">🚀 Introducing the Right-Sizing Recommendations in Red Hat Advanced Cluster Management for Kubernetes! This new capability helps users identify over-provisioned and under-utilized resources across clusters, promoting efficient infrastructure use and cost savings. By analyzing real-time CPU and memory consumption, it offers actionable recommendations for workload optimization. Key features include a Grafana dashboard for resource metrics, customizable data filtering, and policy-driven...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/04/how-use-red-hat-quay-proxy-cache" target="_blank">How to use Red Hat Quay as a proxy cache</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 07:01</span>
-                
-                <span class="author">by Ahmed Bashir</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-04 07:01</div>
+            <div class="summary">Unlock the potential of Red Hat Quay as a proxy cache for container images! 🌐 This guide details how to set up a Red Hat OpenShift cluster and enable proxy caching in Red Hat Quay. Start by configuring the FEATURE_PROXY_CACHE flag in the config.yaml file, then create an organization for remote image proxying. Learn how to pull images from external sources like Docker Hub and deploy applications seamlessly. 🚀 For more insights, check out the full article! #RedHat #ContainerRegistry #OpenShift...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Ahmed Bashir</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            
-            <div class="sources">
-                
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
-                
-            </div>
-            
-            <div class="summary">Unlock the potential of Red Hat Quay as a proxy cache for container images! 🌐 This guide details how to set up a Red Hat OpenShift cluster and enable proxy caching in Red Hat Quay. Start by configuring the FEATURE_PROXY_CACHE flag in the config.yaml file, then create an organization for remote image proxying. Learn how to pull images from external sources like Docker Hub and deploy applications seamlessly. 🚀 For more insights, check out the full article! #RedHat #ContainerRegistry #OpenShift...</div>
         </article>
         
         <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/08/04/net-container-troubleshooting-openshift-4" target="_blank">.NET container troubleshooting in OpenShift 4</a></h2>
-            <div class="article-meta">
-                <span class="date">2025-08-04 07:01</span>
-                
-                <span class="author">by Francisco De Melo Junior</span>
-                
-                <span class="source">from <a href="https://developers.redhat.com/blog/feed/" target="_blank">Red Hat Developer Blog</a></span>
-            </div>
+            <div class="publication-date">2025-08-04 07:01</div>
+            <div class="summary">🚀 The .NET framework is a robust tool for deploying applications across platforms like Windows, Linux, and macOS. Red Hat offers a containerized version specifically for OpenShift. 🔍 The article by Tom Deseyn outlines steps for creating .NET container images and troubleshooting common issues. It highlights methods for memory analysis using tools like `dotnet dump`. 📊 For developers looking to optimize their .NET applications in OpenShift, this is a valuable resource. #DotNet #OpenShift...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Francisco De Melo Junior</div>
+            
             
             <div class="categories">
                 
-                <a href="/categories/educational" class="category-link">educational</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/01/automatic-certificate-provisioning-cert-manager-and-dns-challenge" target="_blank">Automatic certificate provisioning with cert-manager and DNS challenge</a></h2>
+            <div class="publication-date">2025-08-01 07:01</div>
+            <div class="summary">Learn how to automate certificate management in OpenShift using the cert-manager operator. 🔐 This article outlines the use of the ACME protocol with Identity Management (IdM) to streamline certificate issuance and renewal through a DNS challenge. It highlights the setup process with Red Hat Enterprise Linux (RHEL) 10 and OpenShift 4.14. Discover the benefits of reducing manual certificate management, which can lead to inefficiencies and errors. Read more to enhance your OpenShift...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
             
-            <div class="sources">
+            <div class="author">Josep Andreu Font, Ramon Gordillo Gutierrez</div>
+            
+            
+            <div class="categories">
                 
-                <a href="/sources/red-hat-developer-blog" class="source-link">Red-Hat-Developer-Blog</a>
+                <a href="/categories/educational" class="category-text">Educational</a>
                 
             </div>
             
-            <div class="summary">🚀 The .NET framework is a robust tool for deploying applications across platforms like Windows, Linux, and macOS. Red Hat offers a containerized version specifically for OpenShift. 🔍 The article by Tom Deseyn outlines steps for creating .NET container images and troubleshooting common issues. It highlights methods for memory analysis using tools like `dotnet dump`. 📊 For developers looking to optimize their .NET applications in OpenShift, this is a valuable resource. #DotNet #OpenShift...</div>
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/08/01/5-steps-consistently-patch-rhel-and-windows-systems" target="_blank">5 steps to consistently patch RHEL and Windows systems</a></h2>
+            <div class="publication-date">2025-08-01 07:01</div>
+            <div class="summary">Staying updated on patching RHEL and Windows systems is crucial for security and operational efficiency. 🛡️ Using Red Hat Ansible Automation Platform can streamline this process by automating patch management for both systems. This reduces friction between teams and ensures compliance. Key steps include building a centralized inventory, creating job templates, applying patches with safety checks, validating success, and leveraging event-driven automation for proactive patching. 📊 Explore more...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Tricia McConnell</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/07/31/ibm-hyper-protect-openshift-sandboxed-containers" target="_blank">IBM Hyper Protect with OpenShift sandboxed containers</a></h2>
+            <div class="publication-date">2025-07-31 07:01</div>
+            <div class="summary">IBM is advancing data security with Hyper Protect Confidential Containers (HPCC) for Red Hat OpenShift. This solution protects sensitive workloads in untrusted environments, essential for industries like finance and healthcare. Using OpenShift sandboxed containers, HPCC ensures VM-level isolation for confidential computing. It addresses vulnerabilities of traditional containers by employing hardware-based trusted execution environments. Learn how HPCC enhances data protection and supports...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Marcos Entenza Garcia, Jens Freimann</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
         </article>
         
     </div>
@@ -474,6 +883,114 @@
             
             fixAllText(document.body);
         });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>

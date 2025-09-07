@@ -2,109 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HashiCorp-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/hashicorp-blog/</link>
+    <link>/sources/hashicorp-blog/</link>
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Sep 2025 16:00:00 +0000</lastBuildDate>
+    <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why secrets management is incomplete without secret scanning</title>
+      <link>/articles/article-2025-09-04-7745/</link>
+      <pubDate>Thu, 04 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7745/</guid>
+      <description>🔍 Secrets management is vital for safeguarding API keys, passwords, and certificates. However, it often only covers known secrets, leaving gaps in security. 💻 Secrets can be scattered across code, pipelines, and tools, creating hidden risks. Recent research shows that leaked secrets can take 94 days to remediate, increasing vulnerability to attacks. 🔐 Secret scanning complements management by providing visibility and real-time detection of hidden secrets. This proactive approach integrates&amp;hellip;</description>
+    </item>
+    <item>
+      <title>4 security wins from Booking.com&#39;s hybrid cloud migration</title>
+      <link>/articles/article-2025-09-03-7701/</link>
+      <pubDate>Wed, 03 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7701/</guid>
+      <description>🚀 Booking.com has made significant strides in their hybrid cloud migration by enhancing security with HashiCorp Vault. They developed a unified secrets management system, allowing consistent access across various platforms, including AWS and GCP. This central security bridge mitigates risks of misconfigurations. By migrating to JWT authentication, they simplified their authentication processes, reducing complexity and improving oversight. Additionally, Vault&amp;rsquo;s secrets sync will provide&amp;hellip;</description>
+    </item>
+    <item>
+      <title>5 tips for credential management across multi-cloud</title>
+      <link>/articles/article-2025-09-02-7645/</link>
+      <pubDate>Tue, 02 Sep 2025 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7645/</guid>
+      <description>Managing credentials in multi-cloud environments can be complex. Lino Telera from InfoCert shares five essential tips to streamline secret management: 1️⃣ Use dynamic secrets instead of static API keys to minimize risk. 2️⃣ Automate runtime secret management to eliminate manual errors. 3️⃣ Implement workspace sandboxing to enforce zero trust principles. These practices help improve security and efficiency in development. #CredentialManagement #CloudSecurity #DevOps #InfoSec #HashiCorp</description>
+    </item>
     <item>
       <title>Policy as code, explained</title>
-      <link>http://localhost:1313/articles/article-7484/</link>
+      <link>/articles/article-2025-08-28-7484/</link>
       <pubDate>Thu, 28 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7484/</guid>
-      <description>ð Policy as code is transforming IT operations by automating compliance checks in infrastructure deployments. This approach allows for quick verification of stakeholder requirements, moving away from slow, error-prone manual processes. With customizable policy languages, organizations can effectively manage security, compliance, and architecture. Learn more about how companies like Fannie Mae and Wayfair are implementing this strategy. #PolicyAsCode #ITOperations #Infrastructure #Automation&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7484/</guid>
+      <description>🚀 Policy as code is transforming IT operations by automating compliance checks in infrastructure deployments. This approach allows for quick verification of stakeholder requirements, moving away from slow, error-prone manual processes. With customizable policy languages, organizations can effectively manage security, compliance, and architecture. Learn more about how companies like Fannie Mae and Wayfair are implementing this strategy. #PolicyAsCode #ITOperations #Infrastructure #Automation&amp;hellip;</description>
     </item>
     <item>
       <title>Terraform provider for Google Cloud 7.0 is now GA</title>
-      <link>http://localhost:1313/articles/article-7288/</link>
+      <link>/articles/article-2025-08-27-7288/</link>
       <pubDate>Wed, 27 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7288/</guid>
-      <description>ð Exciting news for Terraform users! The Terraform provider for Google Cloud has reached general availability with version 7.0. This release introduces new ephemeral resources and write-only attributes to enhance security when managing sensitive data. The community&amp;rsquo;s feedback has played a crucial role in this improvement. With over 1.4 billion downloads, the provider now supports 800+ resources and 300+ data sources. #Terraform #GoogleCloud #CloudSecurity #DevOps #TechUpdates</description>
+      <guid>/articles/article-2025-08-27-7288/</guid>
+      <description>🚀 Exciting news for Terraform users! The Terraform provider for Google Cloud has reached general availability with version 7.0. This release introduces new ephemeral resources and write-only attributes to enhance security when managing sensitive data. The community&amp;rsquo;s feedback has played a crucial role in this improvement. With over 1.4 billion downloads, the provider now supports 800+ resources and 300+ data sources. #Terraform #GoogleCloud #CloudSecurity #DevOps #TechUpdates</description>
     </item>
     <item>
       <title>Secret sprawl is costing you more than you think</title>
-      <link>http://localhost:1313/articles/article-7172/</link>
+      <link>/articles/article-2025-08-25-7172/</link>
       <pubDate>Mon, 25 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7172/</guid>
-      <description>ð¡ï¸ Secret sprawl is significantly impacting organizations, costing them millions annually through lost productivity and increased security overhead. Developers often waste time on preventable secret management tasks, leading to an estimated $936,000 annual loss for a typical 50-person team. This includes hunting down exposed credentials and managing compromised keys. Moreover, security teams face a burden from false positives, costing around $520,000 each year due to unnecessary&amp;hellip;</description>
+      <guid>/articles/article-2025-08-25-7172/</guid>
+      <description>🛡️ Secret sprawl is significantly impacting organizations, costing them millions annually through lost productivity and increased security overhead. Developers often waste time on preventable secret management tasks, leading to an estimated $936,000 annual loss for a typical 50-person team. This includes hunting down exposed credentials and managing compromised keys. Moreover, security teams face a burden from false positives, costing around $520,000 each year due to unnecessary&amp;hellip;</description>
     </item>
     <item>
       <title>Why default secret detection rules don&#39;t work (and how to fix it)</title>
-      <link>http://localhost:1313/articles/article-6312/</link>
+      <link>/articles/article-2025-08-22-6312/</link>
       <pubDate>Fri, 22 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6312/</guid>
-      <description>ð Many organizations face challenges with default secret detection rules. Studies indicate that up to 80% of security alerts are false positives, leading to overlooked real threats. ð Generic detection tools often miss unique credentials like proprietary API keys. This can result in significant security incidents if not addressed. ð¡ HCP Vault Radar offers a solution with customizable detection patterns and severity-based workflows. This approach helps teams focus on genuine threats while&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6312/</guid>
+      <description>🔍 Many organizations face challenges with default secret detection rules. Studies indicate that up to 80% of security alerts are false positives, leading to overlooked real threats. 📊 Generic detection tools often miss unique credentials like proprietary API keys. This can result in significant security incidents if not addressed. 💡 HCP Vault Radar offers a solution with customizable detection patterns and severity-based workflows. This approach helps teams focus on genuine threats while&amp;hellip;</description>
     </item>
     <item>
       <title>How to enable developer self-service at scale with Terraform and Waypoint</title>
-      <link>http://localhost:1313/articles/article-5111/</link>
+      <link>/articles/article-2025-08-20-5111/</link>
       <pubDate>Wed, 20 Aug 2025 19:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5111/</guid>
-      <description>Unlock developer self-service at scale with HCP Waypoint! ð Learn how to streamline Terraform workflows and empower your teams. With Waypoint, platform teams can create reusable modules, simplifying complex processes for developers. This approach reduces bottlenecks and enhances productivity. Waypoint integrates seamlessly with existing tools, offering a user-friendly interface that maintains security and compliance. Explore how to build effective workflows and facilitate efficient&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5111/</guid>
+      <description>Unlock developer self-service at scale with HCP Waypoint! 🚀 Learn how to streamline Terraform workflows and empower your teams. With Waypoint, platform teams can create reusable modules, simplifying complex processes for developers. This approach reduces bottlenecks and enhances productivity. Waypoint integrates seamlessly with existing tools, offering a user-friendly interface that maintains security and compliance. Explore how to build effective workflows and facilitate efficient&amp;hellip;</description>
     </item>
     <item>
-      <title>5 lessons from Moneyboxâs Terraform journey</title>
-      <link>http://localhost:1313/articles/article-5112/</link>
+      <title>5 lessons from Moneybox’s Terraform journey</title>
+      <link>/articles/article-2025-08-19-5112/</link>
       <pubDate>Tue, 19 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5112/</guid>
-      <description>ð Moneybox, a UK fintech, shares insights from their transition to HCP Terraform. They faced challenges as their infrastructure grew, shifting from Terraform Community Edition to streamline workflows. Key lessons include: 1ï¸â£ Start simple, but scale when needed. 2ï¸â£ Design infrastructure for growth. 3ï¸â£ Build self-service modules for teams. 4ï¸â£ Integrate governance into workflows. These changes improved efficiency and team collaboration. ðð¼ #Fintech #Infrastructure #Terraform #CloudComputing&amp;hellip;</description>
+      <guid>/articles/article-2025-08-19-5112/</guid>
+      <description>🚀 Moneybox, a UK fintech, shares insights from their transition to HCP Terraform. They faced challenges as their infrastructure grew, shifting from Terraform Community Edition to streamline workflows. Key lessons include: 1️⃣ Start simple, but scale when needed. 2️⃣ Design infrastructure for growth. 3️⃣ Build self-service modules for teams. 4️⃣ Integrate governance into workflows. These changes improved efficiency and team collaboration. 🌐💼 #Fintech #Infrastructure #Terraform #CloudComputing&amp;hellip;</description>
     </item>
     <item>
       <title>Terraform now supports assigning agent pools at the project level</title>
-      <link>http://localhost:1313/articles/article-5113/</link>
+      <link>/articles/article-2025-08-18-5113/</link>
       <pubDate>Mon, 18 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5113/</guid>
-      <description>ð Exciting news for HCP Terraform and Terraform Enterprise users! You can now assign default agent pools at the project level. This update simplifies the management of self-hosted agents, enhancing security and scalability. With this feature, project owners can easily set a default agent pool for future workspaces, promoting consistency across projects. Existing workspaces maintain their current settings, ensuring a smooth transition. Get started today and streamline your infrastructure&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5113/</guid>
+      <description>🚀 Exciting news for HCP Terraform and Terraform Enterprise users! You can now assign default agent pools at the project level. This update simplifies the management of self-hosted agents, enhancing security and scalability. With this feature, project owners can easily set a default agent pool for future workspaces, promoting consistency across projects. Existing workspaces maintain their current settings, ensuring a smooth transition. Get started today and streamline your infrastructure&amp;hellip;</description>
     </item>
     <item>
       <title>Solving secret zero with Vault and OpenShift Virtualization</title>
-      <link>http://localhost:1313/articles/article-5114/</link>
+      <link>/articles/article-2025-08-14-5114/</link>
       <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5114/</guid>
+      <guid>/articles/article-2025-08-14-5114/</guid>
       <description>Discover how Red Hat OpenShift Virtualization and HashiCorp Vault can address the secret zero problem in virtualized environments. Organizations face challenges in establishing machine identity as they adopt identity-based security. Traditional virtualization solutions often lack inherent machine identity, leading to reliance on initial credentials for secure communication with Vault. Red Hat OpenShift Virtualization offers a solution by enabling virtual machines to leverage Kubernetes&amp;hellip;</description>
     </item>
     <item>
       <title>Software provenance: Why visibility into your software supply chain matters</title>
-      <link>http://localhost:1313/articles/article-4954/</link>
+      <link>/articles/article-2025-08-13-4954/</link>
       <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4954/</guid>
-      <description>ð Understanding software provenance is crucial in today&amp;rsquo;s complex software supply chain. This concept emphasizes tracking the creation, modification, and ownership of software artifacts throughout their lifecycle. As cyber threats rise, maintaining visibility is essential for security and compliance. Challenges include limited visibility, pipeline complexity, and compliance risks. Organizations must prioritize comprehensive documentation to address these issues. Stay informed and secure! ðð¡ï¸&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4954/</guid>
+      <description>🌐 Understanding software provenance is crucial in today&amp;rsquo;s complex software supply chain. This concept emphasizes tracking the creation, modification, and ownership of software artifacts throughout their lifecycle. As cyber threats rise, maintaining visibility is essential for security and compliance. Challenges include limited visibility, pipeline complexity, and compliance risks. Organizations must prioritize comprehensive documentation to address these issues. Stay informed and secure! 🔒🛡️&amp;hellip;</description>
     </item>
     <item>
       <title>Terraform embraces Arm: More choice, greater flexibility</title>
-      <link>http://localhost:1313/articles/article-4955/</link>
+      <link>/articles/article-2025-08-12-4955/</link>
       <pubDate>Tue, 12 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4955/</guid>
-      <description>ð Terraform has expanded support for Arm architecture, giving customers more options for their IT investments. With the rise of Arm&amp;rsquo;s popularity for its cost savings and performance benefits, Terraform now allows running Terraform Enterprise and HCP Terraform agents on Arm-based platforms like AWS Graviton. This change enables customers to optimize their setups for both performance and cost. One user shared that they moved to 100% Graviton CPUs, enhancing efficiency in their operations. Learn&amp;hellip;</description>
+      <guid>/articles/article-2025-08-12-4955/</guid>
+      <description>🚀 Terraform has expanded support for Arm architecture, giving customers more options for their IT investments. With the rise of Arm&amp;rsquo;s popularity for its cost savings and performance benefits, Terraform now allows running Terraform Enterprise and HCP Terraform agents on Arm-based platforms like AWS Graviton. This change enables customers to optimize their setups for both performance and cost. One user shared that they moved to 100% Graviton CPUs, enhancing efficiency in their operations. Learn&amp;hellip;</description>
     </item>
     <item>
       <title>10 key questions about designing a secure cloud environment</title>
-      <link>http://localhost:1313/articles/article-4708/</link>
+      <link>/articles/article-2025-08-07-4708/</link>
       <pubDate>Thu, 07 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4708/</guid>
+      <guid>/articles/article-2025-08-07-4708/</guid>
       <description>🔒 Designing a secure cloud environment is crucial for organizations to avoid risks and enhance innovation. Here are 10 key questions leaders should ask their teams: 1. Do we have full visibility into our cloud infrastructure? 2. Are we embedding security throughout the development lifecycle? 3. Can we enforce security policies at scale? These discussions are essential for reducing risk and maintaining compliance. 🌐 For more insights on cloud security, check the full article. #CloudSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>Managing Ansible Automation Platform (AAP) credentials at scale with Vault</title>
-      <link>http://localhost:1313/articles/article-4761/</link>
+      <link>/articles/article-2025-08-07-4761/</link>
       <pubDate>Thu, 07 Aug 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4761/</guid>
+      <guid>/articles/article-2025-08-07-4761/</guid>
       <description>🔑 Managing SSH credentials at scale just got easier! This article explores how HashiCorp Vault and Red Hat Ansible Automation Platform (AAP) work together to automate SSH certificate retrieval. By issuing short-lived credentials, organizations can enhance security and streamline operations. Static SSH keys pose risks, making secure and scalable management a challenge. Vault&amp;rsquo;s integration allows AAP to request dynamic SSH certificates on demand, simplifying access to remote hosts. Learn more&amp;hellip;</description>
     </item>
     <item>
       <title>What the transition to IBM means for HashiCorp customers: Greater value, same commitment</title>
-      <link>http://localhost:1313/articles/article-4052/</link>
+      <link>/articles/article-2025-08-06-4052/</link>
       <pubDate>Wed, 06 Aug 2025 04:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4052/</guid>
+      <guid>/articles/article-2025-08-06-4052/</guid>
       <description>🚀 HashiCorp is transitioning to IBM starting September 1, 2025. This move aims to enhance customer value while maintaining the trust you&amp;rsquo;ve built with HashiCorp. 🔧 Key updates include changes to product naming conventions, aligning with IBM’s portfolio, but no alterations to features. Customers using legacy products will benefit from upgrades at current pricing. 💼 Billing operations will also shift to IBM, with new customer numbers issued. PAYG customers will see no changes. For more details,&amp;hellip;</description>
     </item>
     <item>
       <title>Doing hybrid cloud right: Taking the complexity out of infrastructure management</title>
-      <link>http://localhost:1313/articles/article-1995/</link>
+      <link>/articles/article-2025-08-04-1995/</link>
       <pubDate>Mon, 04 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-1995/</guid>
+      <guid>/articles/article-2025-08-04-1995/</guid>
       <description>Navigating hybrid cloud management can be challenging. As AI adoption increases, organizations must modernize their cloud infrastructure for effective governance and management. 🌐 Gartner predicts that by 2027, 90% of organizations will embrace hybrid cloud models, yet many face complexities due to fragmented tools and inconsistent processes. 🚧 To improve efficiency, organizations should empower platform teams to standardize workflows and enhance collaboration between infrastructure and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>HCP Terraform introduces Hold Your Own Key (HYOK)</title>
+      <link>/articles/article-2025-07-31-1996/</link>
+      <pubDate>Thu, 31 Jul 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-1996/</guid>
+      <description>🚀 Exciting news for HCP Terraform customers! The new Hold Your Own Key (HYOK) feature is now available, providing enhanced control over sensitive data in Terraform artifacts. HYOK allows organizations to manage their encryption keys, ensuring that secrets in state and plan files are securely handled. This is crucial for those migrating to the cloud and needing compliance with strict security standards. 🔒 With HYOK, customers can encrypt their Terraform artifacts before uploading them,&amp;hellip;</description>
     </item>
   </channel>
 </rss>

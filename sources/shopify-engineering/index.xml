@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shopify-Engineering on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/shopify-engineering/</link>
+    <link>/sources/shopify-engineering/</link>
     <description>Recent content in Shopify-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Aug 2025 17:21:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/shopify-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/sources/shopify-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCP UI: Breaking the text wall with interactive components</title>
-      <link>http://localhost:1313/articles/article-2203/</link>
+      <link>/articles/article-2025-08-05-2203/</link>
       <pubDate>Tue, 05 Aug 2025 17:21:27 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2203/</guid>
+      <guid>/articles/article-2025-08-05-2203/</guid>
       <description>🚀 MCP UI is transforming AI interactions in commerce by enabling agents to deliver interactive UI components. This open-source protocol enhances the shopping experience with features like product selectors and image galleries, addressing the limitations of text-only communication. MCP UI uses an intent-based messaging system to maintain agent control while providing dynamic user experiences. Explore the Shopify Storefront MCP UI Server prototype for a firsthand look! 🛒✨ #ECommerce #AI #MCPUI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>FlashList v2: A Ground-Up Rewrite for React Native&#39;s New Architecture</title>
+      <link>/articles/article-2025-07-31-2204/</link>
+      <pubDate>Thu, 31 Jul 2025 18:32:29 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-2204/</guid>
+      <description>🚀 FlashList v2 has arrived, offering a complete rewrite for improved performance in React Native applications. This new version eliminates the need for item size estimates, allowing for faster load times and smoother scrolling. It is now production-ready and powers thousands of lists in the Shopify mobile app. Key improvements include precise rendering and support for complex lists without the hassle of manual estimates. The transition to React Native&amp;rsquo;s New Architecture has enhanced layout&amp;hellip;</description>
     </item>
   </channel>
 </rss>

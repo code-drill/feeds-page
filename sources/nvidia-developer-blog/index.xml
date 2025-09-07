@@ -2,291 +2,382 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nvidia-Developer-Blog on Daily Tech Articles Feed</title>
-    <link>http://localhost:1313/sources/nvidia-developer-blog/</link>
+    <link>/sources/nvidia-developer-blog/</link>
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 15:28:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 17:37:49 +0000</lastBuildDate>
+    <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Just Released: NVIDIA PhysicsNeMo 25.08</title>
+      <link>/articles/article-2025-09-05-7789/</link>
+      <pubDate>Fri, 05 Sep 2025 17:37:49 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7789/</guid>
+      <description>🚀 Exciting news from NVIDIA! The latest release of PhysicsNeMo 25.08 introduces powerful workflows and recipes specifically designed for CAE application developers. This update aims to enhance simulations and streamline development processes. Explore the new features and boost your CAE projects with NVIDIA&amp;rsquo;s advanced tools! #NVIDIA #PhysicsNeMo #CAE #TechUpdates #Simulation</description>
+    </item>
+    <item>
+      <title>Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing</title>
+      <link>/articles/article-2025-09-05-7790/</link>
+      <pubDate>Fri, 05 Sep 2025 17:24:06 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7790/</guid>
+      <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B are pushing AI boundaries but pose memory challenges for inference efficiency. These models can require significant memory, with Llama 3 needing around 140 GB and Llama 4 about 218 GB. The key-value (KV) cache also demands additional memory as context and batch sizes increase. NVIDIA&amp;rsquo;s Grace Hopper and Blackwell architectures use NVLink-C2C, allowing CPU-GPU memory sharing. This innovation enhances data access and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerate Autonomous Vehicle Development with the NVIDIA DRIVE AGX Thor Developer Kit</title>
+      <link>/articles/article-2025-09-03-7682/</link>
+      <pubDate>Wed, 03 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7682/</guid>
+      <description>🚗🔍 The NVIDIA DRIVE AGX Thor Developer Kit is now available, enhancing the development of autonomous vehicle technology. This platform supports advanced AI models for better perception and decision-making, enabling a comprehensive in-vehicle experience. With powerful Blackwell GPUs and next-gen Arm CPUs, it meets high safety and security standards. The DRIVE AGX Thor is designed to empower automotive OEMs and developers in scaling performance and efficiency for future demands. #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Run AI-Powered CAE Simulations</title>
+      <link>/articles/article-2025-09-03-7683/</link>
+      <pubDate>Wed, 03 Sep 2025 16:09:47 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7683/</guid>
+      <description>🚀 In modern engineering, accelerated simulations are crucial for innovation. Computer-aided engineering (CAE) helps design reliable products by verifying performance and safety. Traditional simulations take time, often hindering exploration of design options. Physics-based AI models serve as surrogates, predicting outcomes in seconds or minutes, thus enhancing the design process. This article outlines a modular workflow for automotive aerodynamics, leveraging NVIDIA technologies. It covers&amp;hellip;</description>
+    </item>
+    <item>
+      <title>North–South Networks: The Key to Faster Enterprise AI Workloads</title>
+      <link>/articles/article-2025-09-03-7684/</link>
+      <pubDate>Wed, 03 Sep 2025 15:04:24 +0000</pubDate>
+      <guid>/articles/article-2025-09-03-7684/</guid>
+      <description>In the realm of AI infrastructure, data movement is crucial for performance. As enterprises adopt advanced AI systems, they face challenges in quickly and reliably moving data. NVIDIA’s Enterprise Reference Architectures (RAs) provide guidance on optimizing north-south networks, essential for tasks like model loading and inference queries. By utilizing NVIDIA Spectrum-X Ethernet, organizations can enhance data flow, particularly for data-intensive AI applications. Legacy networks often&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cut Model Deployment Costs While Keeping Performance With GPU Memory Swap</title>
+      <link>/articles/article-2025-09-02-7629/</link>
+      <pubDate>Tue, 02 Sep 2025 18:44:27 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7629/</guid>
+      <description>Deploying large language models (LLMs) at scale involves balancing fast responsiveness and GPU costs. Organizations often face tough choices: over-provisioning GPUs or risking user experience with latency spikes. NVIDIA&amp;rsquo;s GPU memory swap, or model hot-swapping, offers a solution. This innovation allows multiple models to share GPUs, dynamically offloading inactive models to CPU memory, enabling rapid activation when needed. Benchmark tests show promising results with lower costs and improved&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving GEMM Kernel Auto-Tuning Efficiency on NVIDIA GPUs with Heuristics and CUTLASS 4.2</title>
+      <link>/articles/article-2025-09-02-7630/</link>
+      <pubDate>Tue, 02 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7630/</guid>
+      <description>🚀 Selecting the optimal GEMM kernel for specific hardware is challenging due to the many performance-determining parameters. NVIDIA introduces &lt;strong&gt;nvMatmulHeuristics&lt;/strong&gt; to enhance the process. This module identifies a small set of top-performing kernel configurations, simplifying the tuning workflow and saving time. ⏱️ With nvMatmulHeuristics and CUTLASS 4.2, users can quickly generate and auto-tune kernels, leading to faster model compilation and better performance. #NVIDIA #GEMM #CUDA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s New in CUDA Toolkit 13.0 for Jetson Thor: Unified Arm Ecosystem and More</title>
+      <link>/articles/article-2025-09-02-7631/</link>
+      <pubDate>Tue, 02 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-02-7631/</guid>
+      <description>🚀 Exciting advancements are on the horizon with CUDA Toolkit 13.0 for Jetson Thor! This release introduces a unified toolkit for Arm platforms, eliminating the need for separate installations. Developers can build applications once and deploy them seamlessly across various systems. Enhanced features like Unified Virtual Memory and improved developer tools streamline workflows and enhance performance for edge AI applications. #NVIDIA #CUDA #JetsonThor #EdgeComputing #AI</description>
+    </item>
     <item>
       <title>How Small Language Models Are Key to Scalable Agentic AI</title>
-      <link>http://localhost:1313/articles/article-7543/</link>
-      <pubDate>Fri, 29 Aug 2025 15:28:42 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7543/</guid>
+      <link>/articles/article-2025-08-29-7543/</link>
+      <pubDate>Fri, 29 Aug 2025 18:00:42 +0000</pubDate>
+      <guid>/articles/article-2025-08-29-7543/</guid>
       <description>The rise of agentic AI is transforming how businesses approach automation and productivity. 🤖 Recent insights highlight the potential of small language models (SLMs) as efficient alternatives to large language models (LLMs) in agentic applications. SLMs can reduce costs and improve operational flexibility while maintaining performance. This shift enables enterprises to utilize SLMs for specific tasks, reserving LLMs for more complex scenarios. Tools like NVIDIA’s Nemotron demonstrate the&amp;hellip;</description>
     </item>
     <item>
       <title>Fine-Tuning gpt-oss for Accuracy and Performance with Quantization Aware Training</title>
-      <link>http://localhost:1313/articles/article-7545/</link>
+      <link>/articles/article-2025-08-29-7545/</link>
       <pubDate>Fri, 29 Aug 2025 14:47:04 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7545/</guid>
+      <guid>/articles/article-2025-08-29-7545/</guid>
       <description>OpenAI&amp;rsquo;s gpt-oss model has made waves in the AI community with its innovative architecture and performance capabilities. 📈🧠 It features a mixture of expert architecture and a 128K context length, competing closely with OpenAI&amp;rsquo;s closed-source models. However, deploying foundational models like gpt-oss in critical fields requires careful fine-tuning. The article discusses employing Supervised Fine-Tuning (SFT) and Quantization-Aware Training (QAT) to enhance model accuracy while maintaining&amp;hellip;</description>
     </item>
     <item>
       <title>Getting Started with NVIDIA Isaac for Healthcare Using the Telesurgery Workflow</title>
-      <link>http://localhost:1313/articles/article-7474/</link>
+      <link>/articles/article-2025-08-28-7474/</link>
       <pubDate>Thu, 28 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7474/</guid>
-      <description>ð Telesurgery is transforming healthcare delivery as the shortage of surgeons rises. With advancements in 5G and AI, experts can now operate remotely, shifting from experimental to essential. ð NVIDIA Isaac for Healthcare offers a modular workflow that includes video streaming, robot control, and simulation tools. This enables seamless training and clinical deployment. Learn how this technology is paving the way for the next generation of surgical robotics. ð¤ð¡ #Telesurgery&amp;hellip;</description>
+      <guid>/articles/article-2025-08-28-7474/</guid>
+      <description>🚀 Telesurgery is transforming healthcare delivery as the shortage of surgeons rises. With advancements in 5G and AI, experts can now operate remotely, shifting from experimental to essential. 🌍 NVIDIA Isaac for Healthcare offers a modular workflow that includes video streaming, robot control, and simulation tools. This enables seamless training and clinical deployment. Learn how this technology is paving the way for the next generation of surgical robotics. 🤖💡 #Telesurgery&amp;hellip;</description>
     </item>
     <item>
       <title>How to Improve CUDA Kernel Performance with Shared Memory Register Spilling</title>
-      <link>http://localhost:1313/articles/article-7273/</link>
+      <link>/articles/article-2025-08-27-7273/</link>
       <pubDate>Wed, 27 Aug 2025 16:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7273/</guid>
-      <description>ð New in CUDA Toolkit 13.0: Shared Memory Register Spilling! This feature helps improve CUDA kernel performance by allowing the compiler to use shared memory for excess variables instead of local memory. This reduces spill latency and L2 pressure for register-heavy kernels. To enable shared memory spilling, use the pragma command in your kernel definition. With this optimization, kernels can perform better, especially in critical regions where registers are heavily used. Learn more about how&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7273/</guid>
+      <description>🚀 New in CUDA Toolkit 13.0: Shared Memory Register Spilling! This feature helps improve CUDA kernel performance by allowing the compiler to use shared memory for excess variables instead of local memory. This reduces spill latency and L2 pressure for register-heavy kernels. To enable shared memory spilling, use the pragma command in your kernel definition. With this optimization, kernels can perform better, especially in critical regions where registers are heavily used. Learn more about how&amp;hellip;</description>
     </item>
     <item>
       <title>How to Scale Your LangGraph Agents in Production From A Single User to 1,000 Coworkers</title>
-      <link>http://localhost:1313/articles/article-7274/</link>
+      <link>/articles/article-2025-08-27-7274/</link>
       <pubDate>Wed, 27 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7274/</guid>
-      <description>ð Scaling your AI agent for production use? In a recent article, the deployment of a deep-research agent using the AI-Q NVIDIA Blueprint is explored. This article outlines how NVIDIA tackled the challenges of sharing their AI tools with up to 1,000 coworkers. The focus was on using the NeMo Agent Toolkit to ensure scalability and security while accessing internal data. It details the architecture that supports document processing and web search capabilities. Learn more about the techniques&amp;hellip;</description>
+      <guid>/articles/article-2025-08-27-7274/</guid>
+      <description>📈 Scaling your AI agent for production use? In a recent article, the deployment of a deep-research agent using the AI-Q NVIDIA Blueprint is explored. This article outlines how NVIDIA tackled the challenges of sharing their AI tools with up to 1,000 coworkers. The focus was on using the NeMo Agent Toolkit to ensure scalability and security while accessing internal data. It details the architecture that supports document processing and web search capabilities. Learn more about the techniques&amp;hellip;</description>
     </item>
     <item>
       <title>How Industry Collaboration Fosters NVIDIA Co-Packaged Optics</title>
-      <link>http://localhost:1313/articles/article-7202/</link>
+      <link>/articles/article-2025-08-26-7202/</link>
       <pubDate>Tue, 26 Aug 2025 17:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-7202/</guid>
-      <description>NVIDIA is transforming data-center connectivity by merging optical and electrical components through strong industry partnerships. ð¤ Their networking platform integrates advanced technologies from top partners, focusing on scalable and efficient optical systems. Key innovations include the Micro Ring Modulator, allowing high data throughput with a compact design. Collaboration with TSMC has addressed manufacturing challenges, ensuring reliable performance essential for modern data centers&amp;hellip;.</description>
+      <guid>/articles/article-2025-08-26-7202/</guid>
+      <description>NVIDIA is transforming data-center connectivity by merging optical and electrical components through strong industry partnerships. 🤝 Their networking platform integrates advanced technologies from top partners, focusing on scalable and efficient optical systems. Key innovations include the Micro Ring Modulator, allowing high data throughput with a compact design. Collaboration with TSMC has addressed manufacturing challenges, ensuring reliable performance essential for modern data centers&amp;hellip;.</description>
     </item>
     <item>
       <title>NVFP4 Trains with Precision of 16-Bit and Speed and Efficiency of 4-Bit</title>
-      <link>http://localhost:1313/articles/article-6335/</link>
-      <pubDate>Mon, 25 Aug 2025 15:05:23 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6335/</guid>
-      <description>ð NVIDIA has introduced NVFP4, a 4-bit format designed to enhance AI workloads during pretraining of large language models (LLMs). This innovation aims to improve training efficiency and throughput while maintaining accuracy. The shift from higher precision formats to 4-bit is set to redefine scalability in AI development. Collaboration with major organizations like Google Cloud and OpenAI is ongoing to explore this technology&amp;rsquo;s full potential. #AI #NVIDIA #MachineLearning #LLMs #Innovation</description>
+      <link>/articles/article-2025-08-25-6335/</link>
+      <pubDate>Mon, 25 Aug 2025 17:59:23 +0000</pubDate>
+      <guid>/articles/article-2025-08-25-6335/</guid>
+      <description>🚀 NVIDIA has introduced NVFP4, a 4-bit format designed to enhance AI workloads during pretraining of large language models (LLMs). This innovation aims to improve training efficiency and throughput while maintaining accuracy. The shift from higher precision formats to 4-bit is set to redefine scalability in AI development. Collaboration with major organizations like Google Cloud and OpenAI is ongoing to explore this technology&amp;rsquo;s full potential. #AI #NVIDIA #MachineLearning #LLMs #Innovation</description>
     </item>
     <item>
       <title>Introducing NVIDIA Jetson Thor, the Ultimate Platform for Physical AI</title>
-      <link>http://localhost:1313/articles/article-6336/</link>
-      <pubDate>Mon, 25 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6336/</guid>
-      <description>ð Robotics is evolving! The shift from specialist machines to adaptable robots marks a new era in generalist robotics. These robots are designed to learn and perform various tasks, enhancing efficiency across industries. With NVIDIA&amp;rsquo;s Jetson Thor platform, developers can create flexible robots that streamline operations without constant reprogramming. Key components include hardware integration, real-time control, perception, and high-level reasoning to facilitate complex interactions&amp;hellip;.</description>
+      <link>/articles/article-2025-08-25-6336/</link>
+      <pubDate>Mon, 25 Aug 2025 17:57:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-25-6336/</guid>
+      <description>🚀 Robotics is evolving! The shift from specialist machines to adaptable robots marks a new era in generalist robotics. These robots are designed to learn and perform various tasks, enhancing efficiency across industries. With NVIDIA&amp;rsquo;s Jetson Thor platform, developers can create flexible robots that streamline operations without constant reprogramming. Key components include hardware integration, real-time control, perception, and high-level reasoning to facilitate complex interactions&amp;hellip;.</description>
     </item>
     <item>
       <title>How to Spot (and Fix) 5 Common Performance Bottlenecks in pandas Workflows</title>
-      <link>http://localhost:1313/articles/article-6297/</link>
+      <link>/articles/article-2025-08-22-6297/</link>
       <pubDate>Fri, 22 Aug 2025 19:54:44 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6297/</guid>
-      <description>Are you facing slow data loads and memory issues in your pandas workflows? ðð» This article highlights five common performance bottlenecks in pandas, including slow CSV parsing and memory-intensive joins. It offers practical solutions to improve your workflow efficiency, such as using the PyArrow engine for faster CSV reads and exploring the cudf.pandas library for GPU acceleration. Don&amp;rsquo;t have a GPU? You can use cudf.pandas for free in Google Colab! ðð #DataScience #Python #Pandas #Performance&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6297/</guid>
+      <description>Are you facing slow data loads and memory issues in your pandas workflows? 🐍💻 This article highlights five common performance bottlenecks in pandas, including slow CSV parsing and memory-intensive joins. It offers practical solutions to improve your workflow efficiency, such as using the PyArrow engine for faster CSV reads and exploring the cudf.pandas library for GPU acceleration. Don&amp;rsquo;t have a GPU? You can use cudf.pandas for free in Google Colab! 🚀📊 #DataScience #Python #Pandas #Performance&amp;hellip;</description>
     </item>
     <item>
       <title>Inside NVIDIA Blackwell Ultra: The Chip Powering the AI Factory Era</title>
-      <link>http://localhost:1313/articles/article-6299/</link>
-      <pubDate>Fri, 22 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6299/</guid>
+      <link>/articles/article-2025-08-22-6299/</link>
+      <pubDate>Fri, 22 Aug 2025 17:58:00 +0000</pubDate>
+      <guid>/articles/article-2025-08-22-6299/</guid>
       <description>Introducing the NVIDIA Blackwell Ultra GPU, a key advancement in the Blackwell architecture. This GPU enhances AI training and reasoning with innovative technology. Key features include a dual-reticle design, high bandwidth, and energy-efficient performance. It boasts 208 billion transistors and provides significant scalability for AI tasks. With 15 PetaFLOPS performance and improved memory access, the Blackwell Ultra sets a new standard for accelerated computing. #NVIDIA #AI #BlackwellUltra&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA Hardware Innovations and Open Source Contributions Are Shaping AI</title>
-      <link>http://localhost:1313/articles/article-6298/</link>
+      <link>/articles/article-2025-08-22-6298/</link>
       <pubDate>Fri, 22 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-6298/</guid>
-      <description>NVIDIA is making strides in AI through open source models like Cosmos, DeepSeek, and Llama. ð These models offer free access to AI methodologies, enabling innovation across the globe. Their new Blackwell GPU architecture enhances AI performance with advanced features like NVFP4 and high-bandwidth interconnects. â¡ï¸ Additionally, NVIDIA provides a wealth of open source tools and libraries, fostering an environment for developers to build and scale AI efficiently. ð» Discover more about these&amp;hellip;</description>
+      <guid>/articles/article-2025-08-22-6298/</guid>
+      <description>NVIDIA is making strides in AI through open source models like Cosmos, DeepSeek, and Llama. 🌐 These models offer free access to AI methodologies, enabling innovation across the globe. Their new Blackwell GPU architecture enhances AI performance with advanced features like NVFP4 and high-bandwidth interconnects. ⚡️ Additionally, NVIDIA provides a wealth of open source tools and libraries, fostering an environment for developers to build and scale AI efficiently. 💻 Discover more about these&amp;hellip;</description>
     </item>
     <item>
       <title>Less Coding, More Science: Simplify Ocean Modeling on GPUs With OpenACC and Unified Memory</title>
-      <link>http://localhost:1313/articles/article-5038/</link>
+      <link>/articles/article-2025-08-21-5038/</link>
       <pubDate>Thu, 21 Aug 2025 16:53:17 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5038/</guid>
-      <description>ð Exciting advancements in ocean modeling are here! NVIDIA HPC SDK v25.7 simplifies GPU programming for high-performance computing applications. This update automates data movement between CPU and GPU, reducing manual management and enhancing developer productivity. Notable systems like the NVIDIA GH200 Grace Hopper Superchip are leading the way. With unified memory programming, developers can focus more on science and less on coding complexities. This change is already benefiting projects,&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5038/</guid>
+      <description>🚀 Exciting advancements in ocean modeling are here! NVIDIA HPC SDK v25.7 simplifies GPU programming for high-performance computing applications. This update automates data movement between CPU and GPU, reducing manual management and enhancing developer productivity. Notable systems like the NVIDIA GH200 Grace Hopper Superchip are leading the way. With unified memory programming, developers can focus more on science and less on coding complexities. This change is already benefiting projects,&amp;hellip;</description>
     </item>
     <item>
       <title>Improve Data Integrity and Security with Accelerated Hash Functions and Merkle Trees in cuPQC 0.4</title>
-      <link>http://localhost:1313/articles/article-5039/</link>
+      <link>/articles/article-2025-08-21-5039/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5039/</guid>
-      <description>ð As data sizes grow, ensuring security and integrity is vital. The cuPQC SDK v0.4 offers advanced cryptographic techniques, including inclusion proofs and digital signatures, to enhance data protection. New features include expanded hash function support and efficient Merkle tree calculations, improving performance in data verification. ð³ Discover how these updates can benefit your cryptographic tasks! #DataIntegrity #Cryptography #cuPQC #MerkleTrees #CyberSecurity</description>
+      <guid>/articles/article-2025-08-21-5039/</guid>
+      <description>🔒 As data sizes grow, ensuring security and integrity is vital. The cuPQC SDK v0.4 offers advanced cryptographic techniques, including inclusion proofs and digital signatures, to enhance data protection. New features include expanded hash function support and efficient Merkle tree calculations, improving performance in data verification. 🌳 Discover how these updates can benefit your cryptographic tasks! #DataIntegrity #Cryptography #cuPQC #MerkleTrees #CyberSecurity</description>
     </item>
     <item>
       <title>Scaling AI Inference Performance and Flexibility with NVIDIA NVLink and NVLink Fusion</title>
-      <link>http://localhost:1313/articles/article-5040/</link>
+      <link>/articles/article-2025-08-21-5040/</link>
       <pubDate>Thu, 21 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5040/</guid>
-      <description>The rise of AI model complexity has increased parameter counts from millions to trillions, demanding more computational power. ð NVIDIA NVLink and NVLink Fusion are key technologies enhancing AI inference performance. They enable large-scale parallelization strategies, essential for handling advanced AI architectures like mixture-of-experts (MoE). ð¤ This evolution in AI systems highlights the need for interconnected GPUs acting as a unified pool of compute and memory. #AI #NVIDIA #NVLink&amp;hellip;</description>
+      <guid>/articles/article-2025-08-21-5040/</guid>
+      <description>The rise of AI model complexity has increased parameter counts from millions to trillions, demanding more computational power. 🌐 NVIDIA NVLink and NVLink Fusion are key technologies enhancing AI inference performance. They enable large-scale parallelization strategies, essential for handling advanced AI architectures like mixture-of-experts (MoE). 🤖 This evolution in AI systems highlights the need for interconnected GPUs acting as a unified pool of compute and memory. #AI #NVIDIA #NVLink&amp;hellip;</description>
     </item>
     <item>
       <title>Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput</title>
-      <link>http://localhost:1313/articles/article-5041/</link>
+      <link>/articles/article-2025-08-20-5041/</link>
       <pubDate>Wed, 20 Aug 2025 15:15:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5041/</guid>
-      <description>ð Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5041/</guid>
+      <description>🚀 Exciting updates in reinforcement learning with NVIDIA NeMo-RL! The latest release introduces support for the Megatron-Core library, enhancing training throughput for massive language models. This integration addresses limitations found in the PyTorch DTensor backend, particularly for models with hundreds of billions of parameters. With GPU-optimized techniques and simplified configuration options, NeMo-RL makes it easier for developers to harness the power of Megatron-Core. Explore&amp;hellip;</description>
     </item>
     <item>
       <title>Deploying Your Omniverse Kit Apps at Scale</title>
-      <link>http://localhost:1313/articles/article-5042/</link>
+      <link>/articles/article-2025-08-20-5042/</link>
       <pubDate>Wed, 20 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5042/</guid>
-      <description>Unlock the potential of 3D applications with NVIDIA Omniverse Kit App Streaming! ð This solution simplifies deployment and enables users to stream applications directly from their browsers, reducing the need for complex installations. With flexible options like self-managed deployment or fully-managed infrastructure, developers can easily reach their audience. Explore the straightforward steps to get started and enhance your 3D application experience! ð»ð #NVIDIA #Omniverse #3DStreaming&amp;hellip;</description>
+      <guid>/articles/article-2025-08-20-5042/</guid>
+      <description>Unlock the potential of 3D applications with NVIDIA Omniverse Kit App Streaming! 🌐 This solution simplifies deployment and enables users to stream applications directly from their browsers, reducing the need for complex installations. With flexible options like self-managed deployment or fully-managed infrastructure, developers can easily reach their audience. Explore the straightforward steps to get started and enhance your 3D application experience! 💻🚀 #NVIDIA #Omniverse #3DStreaming&amp;hellip;</description>
     </item>
     <item>
       <title>New Nemotron Nano 2 Open Reasoning Model Tops Leaderboard and Delivers 6x Higher Throughput</title>
-      <link>http://localhost:1313/articles/article-5043/</link>
+      <link>/articles/article-2025-08-19-5043/</link>
       <pubDate>Tue, 19 Aug 2025 20:50:07 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5043/</guid>
-      <description>ð Exciting news in AI! The NVIDIA Nemotron Nano 2 model has topped the leaderboard with impressive accuracy. This open reasoning model offers up to 6x higher throughput compared to its closest competitors, enhancing edge AI capabilities. Stay updated on advancements in technology! ðð #AI #NVIDIA #Innovation #EdgeComputing #Nemotron</description>
+      <guid>/articles/article-2025-08-19-5043/</guid>
+      <description>🚀 Exciting news in AI! The NVIDIA Nemotron Nano 2 model has topped the leaderboard with impressive accuracy. This open reasoning model offers up to 6x higher throughput compared to its closest competitors, enhancing edge AI capabilities. Stay updated on advancements in technology! 🔍📈 #AI #NVIDIA #Innovation #EdgeComputing #Nemotron</description>
     </item>
     <item>
       <title>Announcing the Latest NVIDIA Gaming AI and Neural Rendering Technologies</title>
-      <link>http://localhost:1313/articles/article-5044/</link>
+      <link>/articles/article-2025-08-18-5044/</link>
       <pubDate>Mon, 18 Aug 2025 19:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5044/</guid>
-      <description>ð NVIDIA has made significant announcements at Gamescom 2025, introducing updates to its RTX neural rendering and ACE generative AI technologies. These advancements aim to enhance gaming experiences with expanded integration for DLSS 4, new AI models, and cloud solutions like GeForce NOW inside Discord. ð® Upcoming titles, including Resident Evil Requiem and Borderlands 4, will feature these technologies, helping developers optimize graphics even for players with older hardware. For Unreal&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5044/</guid>
+      <description>🚀 NVIDIA has made significant announcements at Gamescom 2025, introducing updates to its RTX neural rendering and ACE generative AI technologies. These advancements aim to enhance gaming experiences with expanded integration for DLSS 4, new AI models, and cloud solutions like GeForce NOW inside Discord. 🎮 Upcoming titles, including Resident Evil Requiem and Borderlands 4, will feature these technologies, helping developers optimize graphics even for players with older hardware. For Unreal&amp;hellip;</description>
     </item>
     <item>
       <title>Identify Speakers in Meetings, Calls, and Voice Apps in Real-Time with NVIDIA Streaming Sortformer</title>
-      <link>http://localhost:1313/articles/article-5045/</link>
+      <link>/articles/article-2025-08-18-5045/</link>
       <pubDate>Mon, 18 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5045/</guid>
-      <description>Introducing NVIDIA Streaming Sortformer, a breakthrough in real-time speaker identification for meetings, calls, and voice-enabled apps. ð¤ This production-grade diarization model offers low-latency performance, making it ideal for multi-speaker environments. Key features include frame-level diarization, precision timestamps, and efficient GPU inference. ð Optimized for English and tested with Mandarin and other languages, it promises robust tracking with minimal latency. #NVIDIA #AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-18-5045/</guid>
+      <description>Introducing NVIDIA Streaming Sortformer, a breakthrough in real-time speaker identification for meetings, calls, and voice-enabled apps. 🎤 This production-grade diarization model offers low-latency performance, making it ideal for multi-speaker environments. Key features include frame-level diarization, precision timestamps, and efficient GPU inference. 🌐 Optimized for English and tested with Mandarin and other languages, it promises robust tracking with minimal latency. #NVIDIA #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Scaling AI Factories with Co-Packaged Optics for Better Power Efficiency</title>
-      <link>http://localhost:1313/articles/article-5046/</link>
+      <link>/articles/article-2025-08-18-5046/</link>
       <pubDate>Mon, 18 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5046/</guid>
+      <guid>/articles/article-2025-08-18-5046/</guid>
       <description>AI is reshaping the computing landscape, with networks becoming essential for future data centers. NVIDIA is leading this evolution with GPU-driven AI factories that require high bandwidth and low latency. Their networking solutions, including Spectrum-X Ethernet and Quantum InfiniBand, support these advanced needs. Co-packaged optics are now crucial for power efficiency and resilience in AI workloads, marking a significant shift from traditional data center designs. #NVIDIA #AI #DataCenters&amp;hellip;</description>
     </item>
     <item>
       <title>Upcoming Livestream: Building Cross-Framework Agent Ecosystems</title>
-      <link>http://localhost:1313/articles/article-5047/</link>
+      <link>/articles/article-2025-08-14-5047/</link>
       <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5047/</guid>
-      <description>ð Join us for an insightful livestream on August 21! Discover how the NVIDIA NeMo Agent Toolkit enhances multi-agent workflows through deep MCP integration. ð Time: 18:00 - 19:00 (CEST) ð Learn about building optimized agentic systems with NVIDIA NIM. Don&amp;rsquo;t miss this opportunity to expand your knowledge! #NVIDIA #Livestream #NeMoAgent #TechInnovation #AI</description>
+      <guid>/articles/article-2025-08-14-5047/</guid>
+      <description>🚀 Join us for an insightful livestream on August 21! Discover how the NVIDIA NeMo Agent Toolkit enhances multi-agent workflows through deep MCP integration. 📅 Time: 18:00 - 19:00 (CEST) 📍 Learn about building optimized agentic systems with NVIDIA NIM. Don&amp;rsquo;t miss this opportunity to expand your knowledge! #NVIDIA #Livestream #NeMoAgent #TechInnovation #AI</description>
     </item>
     <item>
       <title>Streamline CUDA-Accelerated Python Install and Packaging Workflows with Wheel Variants</title>
-      <link>http://localhost:1313/articles/article-4892/</link>
+      <link>/articles/article-2025-08-13-4892/</link>
       <pubDate>Wed, 13 Aug 2025 22:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4892/</guid>
-      <description>ð NVIDIA addresses the challenges of installing GPU-accelerated Python packages with the WheelNext initiative. Current wheel formats struggle with hardware diversity, leading to installation complexities. WheelNext aims to improve this by introducing Wheel Variants, allowing precise artifact descriptions for better compatibility. This collaboration with Meta and others enhances user experience in scientific computing and AI. ð Learn more: [GitHub repo link] #Python #NVIDIA #CUDA #OpenSource #AI</description>
+      <guid>/articles/article-2025-08-13-4892/</guid>
+      <description>🚀 NVIDIA addresses the challenges of installing GPU-accelerated Python packages with the WheelNext initiative. Current wheel formats struggle with hardware diversity, leading to installation complexities. WheelNext aims to improve this by introducing Wheel Variants, allowing precise artifact descriptions for better compatibility. This collaboration with Meta and others enhances user experience in scientific computing and AI. 🔗 Learn more: [GitHub repo link] #Python #NVIDIA #CUDA #OpenSource #AI</description>
     </item>
     <item>
       <title>Scaling LLM Reinforcement Learning with Prolonged Training Using ProRL v2</title>
-      <link>http://localhost:1313/articles/article-4893/</link>
+      <link>/articles/article-2025-08-13-4893/</link>
       <pubDate>Wed, 13 Aug 2025 21:33:03 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4893/</guid>
-      <description>ð Exciting advancements in AI with NVIDIA&amp;rsquo;s ProRL v2! This new framework explores whether large language models (LLMs) can enhance their capabilities through extended reinforcement learning (RL). ProRL v2 incorporates advanced algorithms and rigorous training methods across multiple domains. Key features include over 3,000 RL steps, stability improvements, and fully verifiable rewards. These innovations aim to help models discover new solutions rather than just refining existing ones. #AI&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4893/</guid>
+      <description>🚀 Exciting advancements in AI with NVIDIA&amp;rsquo;s ProRL v2! This new framework explores whether large language models (LLMs) can enhance their capabilities through extended reinforcement learning (RL). ProRL v2 incorporates advanced algorithms and rigorous training methods across multiple domains. Key features include over 3,000 RL steps, stability improvements, and fully verifiable rewards. These innovations aim to help models discover new solutions rather than just refining existing ones. #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Streamlining Quantum Error Correction and Application Development with CUDA-QX 0.4</title>
-      <link>http://localhost:1313/articles/article-4894/</link>
+      <link>/articles/article-2025-08-13-4894/</link>
       <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4894/</guid>
-      <description>ð Quantum computing is advancing with the latest release of CUDA-QX 0.4, focusing on quantum error correction (QEC). This update streamlines QEC experiments, enabling researchers to define and simulate codes, configure decoders, and deploy them effectively. Key features include a comprehensive API for user-defined components and the introduction of a detector error model (DEM) for improved circuit simulations. ð Check out the full release notes on GitHub for ongoing development and&amp;hellip;</description>
+      <guid>/articles/article-2025-08-13-4894/</guid>
+      <description>🚀 Quantum computing is advancing with the latest release of CUDA-QX 0.4, focusing on quantum error correction (QEC). This update streamlines QEC experiments, enabling researchers to define and simulate codes, configure decoders, and deploy them effectively. Key features include a comprehensive API for user-defined components and the introduction of a detector error model (DEM) for improved circuit simulations. 🔗 Check out the full release notes on GitHub for ongoing development and&amp;hellip;</description>
     </item>
     <item>
       <title>Dynamo 0.4 Delivers 4x Faster Performance, SLO-Based Autoscaling, and Real-Time Observability</title>
-      <link>http://localhost:1313/articles/article-4895/</link>
+      <link>/articles/article-2025-08-13-4895/</link>
       <pubDate>Wed, 13 Aug 2025 15:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4895/</guid>
-      <description>ð Exciting advancements in AI! Dynamo 0.4 has been released, offering 4x faster performance and SLO-based autoscaling. This update is designed for deploying new open-source models like OpenAI&amp;rsquo;s gpt-oss and Moonshot AI&amp;rsquo;s Kimi K2 efficiently. Key features include enhanced real-time observability and resiliency, making it easier to monitor performance and manage requests. #AI #OpenSource #Dynamo #Innovation #TechUpdates</description>
+      <guid>/articles/article-2025-08-13-4895/</guid>
+      <description>🚀 Exciting advancements in AI! Dynamo 0.4 has been released, offering 4x faster performance and SLO-based autoscaling. This update is designed for deploying new open-source models like OpenAI&amp;rsquo;s gpt-oss and Moonshot AI&amp;rsquo;s Kimi K2 efficiently. Key features include enhanced real-time observability and resiliency, making it easier to monitor performance and manage requests. #AI #OpenSource #Dynamo #Innovation #TechUpdates</description>
     </item>
     <item>
       <title>Announcing General Availability for NVIDIA Isaac Sim 5.0 and NVIDIA Isaac Lab 2.2</title>
-      <link>http://localhost:1313/articles/article-302/</link>
+      <link>/articles/article-2025-08-11-302/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-302/</guid>
-      <description>ð NVIDIA has announced the general availability of NVIDIA Isaac Sim 5.0 and NVIDIA Isaac Lab 2.2 at SIGGRAPH 2025. These frameworks are now accessible on GitHub, providing developers with tools for building, training, and testing AI-powered robots in physics-based simulations. Explore the cutting-edge capabilities that these releases bring to robotics development. #NVIDIA #IsaacSim #Robotics #AI #SIGGRAPH2025</description>
+      <guid>/articles/article-2025-08-11-302/</guid>
+      <description>🚀 NVIDIA has announced the general availability of NVIDIA Isaac Sim 5.0 and NVIDIA Isaac Lab 2.2 at SIGGRAPH 2025. These frameworks are now accessible on GitHub, providing developers with tools for building, training, and testing AI-powered robots in physics-based simulations. Explore the cutting-edge capabilities that these releases bring to robotics development. #NVIDIA #IsaacSim #Robotics #AI #SIGGRAPH2025</description>
     </item>
     <item>
       <title>Developers Build Fast and Reliable Robot Simulations with NVIDIA Omniverse Libraries</title>
-      <link>http://localhost:1313/articles/article-4832/</link>
+      <link>/articles/article-2025-08-11-4832/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4832/</guid>
-      <description>NVIDIA recently unveiled updates to the Omniverse libraries and Cosmos world foundation models at SIGGRAPH. ð These enhancements, driven by OpenUSD, provide developers with new tools and models to create accurate virtual environments. They focus on building AI agents and simulations that can interact effectively with the real world. ð¤ This advancement aims to improve the reliability and speed of robotic simulations. #NVIDIA #Omniverse #Robotics #AI #SIGGRAPH</description>
+      <guid>/articles/article-2025-08-11-4832/</guid>
+      <description>NVIDIA recently unveiled updates to the Omniverse libraries and Cosmos world foundation models at SIGGRAPH. 🌐 These enhancements, driven by OpenUSD, provide developers with new tools and models to create accurate virtual environments. They focus on building AI agents and simulations that can interact effectively with the real world. 🤖 This advancement aims to improve the reliability and speed of robotic simulations. #NVIDIA #Omniverse #Robotics #AI #SIGGRAPH</description>
     </item>
     <item>
       <title>How to Instantly Render Real-World Scenes in Interactive Simulation</title>
-      <link>http://localhost:1313/articles/article-4834/</link>
+      <link>/articles/article-2025-08-11-4834/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4834/</guid>
-      <description>Transforming real-world environments into interactive simulations is now faster than ever. With NVIDIA Omniverse NuRec and 3DGUT, users can reconstruct photorealistic 3D scenes from basic sensor data. This process takes mere moments instead of days or weeks. ðâ¨ These scenes can be deployed in platforms like NVIDIA Isaac Sim or CARLA Simulator, enhancing simulation experiences. #NVIDIA #SimulationTechnology #3DModeling #Omniverse #InteractiveSimulations</description>
+      <guid>/articles/article-2025-08-11-4834/</guid>
+      <description>Transforming real-world environments into interactive simulations is now faster than ever. With NVIDIA Omniverse NuRec and 3DGUT, users can reconstruct photorealistic 3D scenes from basic sensor data. This process takes mere moments instead of days or weeks. 🌍✨ These scenes can be deployed in platforms like NVIDIA Isaac Sim or CARLA Simulator, enhancing simulation experiences. #NVIDIA #SimulationTechnology #3DModeling #Omniverse #InteractiveSimulations</description>
     </item>
     <item>
       <title>Maximize Robotics Performance by Post-Training NVIDIA Cosmos Reason</title>
-      <link>http://localhost:1313/articles/article-4833/</link>
+      <link>/articles/article-2025-08-11-4833/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4833/</guid>
-      <description>Introducing NVIDIA Cosmos Reason, unveiled at GTC 2025! ð¤ This innovative reasoning vision language model (VLM) is designed for physical AI and robotics. It allows robots and vision AI agents to utilize prior knowledge, physics, and common sense to interpret and interact with the real world. By processing video and text prompts, Cosmos Reason transforms visual information into actionable insights. #NVIDIA #Robotics #AI #Innovation #GTC2025</description>
+      <guid>/articles/article-2025-08-11-4833/</guid>
+      <description>Introducing NVIDIA Cosmos Reason, unveiled at GTC 2025! 🤖 This innovative reasoning vision language model (VLM) is designed for physical AI and robotics. It allows robots and vision AI agents to utilize prior knowledge, physics, and common sense to interpret and interact with the real world. By processing video and text prompts, Cosmos Reason transforms visual information into actionable insights. #NVIDIA #Robotics #AI #Innovation #GTC2025</description>
     </item>
     <item>
       <title>R²D²: Boost Robot Training with World Foundation Models and Workflows from NVIDIA Research</title>
-      <link>http://localhost:1313/articles/article-4714/</link>
+      <link>/articles/article-2025-08-08-4714/</link>
       <pubDate>Fri, 08 Aug 2025 18:33:16 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4714/</guid>
+      <guid>/articles/article-2025-08-08-4714/</guid>
       <description>🚀 The latest edition of NVIDIA&amp;rsquo;s R²D² highlights the role of World Foundation Models (WFMs) in enhancing robot training. WFMs address the growing need for labeled datasets by simulating real-world dynamics. Key components include Cosmos Predict, Transfer, and Reason, each designed for specific applications in robotics and autonomous vehicles. Cosmos Predict generates future world states through various input types. Cosmos Transfer facilitates photorealistic style transfers, while Cosmos&amp;hellip;</description>
     </item>
     <item>
       <title>Efficient Transforms in cuDF Using JIT Compilation</title>
-      <link>http://localhost:1313/articles/article-4715/</link>
+      <link>/articles/article-2025-08-07-4715/</link>
       <pubDate>Thu, 07 Aug 2025 21:06:42 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4715/</guid>
+      <guid>/articles/article-2025-08-07-4715/</guid>
       <description>Unlock efficient data processing with RAPIDS cuDF! 🚀 cuDF offers a wide range of ETL algorithms optimized for GPUs, allowing for seamless integration with pandas. Users can leverage accelerated algorithms without changing their existing code. For advanced developers, the cuDF C++ submodule enhances functionality through non-owning views and kernel fusion, boosting performance and reducing unnecessary GPU memory transfers. Learn how JIT compilation improves throughput and resource utilization&amp;hellip;</description>
     </item>
     <item>
       <title>Train with Terabyte-Scale Datasets on a Single NVIDIA Grace Hopper Superchip Using XGBoost 3.0</title>
-      <link>http://localhost:1313/articles/article-4716/</link>
+      <link>/articles/article-2025-08-07-4716/</link>
       <pubDate>Thu, 07 Aug 2025 18:25:36 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4716/</guid>
+      <guid>/articles/article-2025-08-07-4716/</guid>
       <description>🚀 Exciting advancements in machine learning with XGBoost 3.0! This version leverages the NVIDIA Grace Hopper Superchip to process datasets up to 1 TB, significantly speeding up training times—up to 8x faster than traditional CPUs. Key enhancements include a new external-memory engine, simplifying scalability and reducing reliance on complex GPU clusters. Major banks like RBC are already benefiting, reporting 16x speedups and 94% reductions in training costs. #XGBoost #MachineLearning #NVIDIA&amp;hellip;</description>
     </item>
     <item>
       <title>How Hackers Exploit AI’s Problem-Solving Instincts</title>
-      <link>http://localhost:1313/articles/article-4717/</link>
+      <link>/articles/article-2025-08-07-4717/</link>
       <pubDate>Thu, 07 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4717/</guid>
+      <guid>/articles/article-2025-08-07-4717/</guid>
       <description>🚨 As AI models become more advanced, they face new vulnerabilities. Researchers highlight how hackers exploit these systems by manipulating their problem-solving instincts. 🔍 The article discusses the evolution of attack techniques from text-based prompt injections to sophisticated multimodal reasoning attacks. These new methods target how AI merges inputs like text, images, and audio. 🔒 Securing AI requires a shift in focus from just input/output layers to the reasoning architecture itself&amp;hellip;.</description>
     </item>
     <item>
       <title>What’s New and Important in CUDA Toolkit 13.0</title>
-      <link>http://localhost:1313/articles/article-4134/</link>
+      <link>/articles/article-2025-08-06-4134/</link>
       <pubDate>Wed, 06 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4134/</guid>
+      <guid>/articles/article-2025-08-06-4134/</guid>
       <description>🚀 Exciting updates in CUDA Toolkit 13.0! This major release enhances computing on NVIDIA CPUs and GPUs, introducing new features like tile-based programming and improved support for Arm platforms. Key updates include: - Enhanced NVIDIA Nsight Developer Tools - Math libraries updates for linear algebra and FFT - Improved NVCC Compiler with better compression - Accelerated Python cuda.core release CUDA 13.0 continues to support Blackwell GPUs and introduces a new programming model to boost&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA vGPU 19.0 Enables Graphics and AI Virtualization on NVIDIA Blackwell GPUs</title>
-      <link>http://localhost:1313/articles/article-210/</link>
+      <link>/articles/article-2025-08-05-210/</link>
       <pubDate>Tue, 05 Aug 2025 18:39:57 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-210/</guid>
+      <guid>/articles/article-2025-08-05-210/</guid>
       <description>NVIDIA has released vGPU 19.0, enhancing virtualization for graphics and AI workloads. 🌐 The update leverages the NVIDIA RTX PRO 6000 Blackwell GPUs, which support advanced features like Multi-Instance GPU (MIG) for improved scalability and user density in data centers. With 96 GB of GDDR7 memory, these GPUs excel in demanding enterprise tasks, from AI inference to scientific computing. This release aims to significantly boost performance for virtualized workloads. #NVIDIA #Virtualization #AI&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA Accelerates OpenAI gpt-oss Models Delivering 1.5 M TPS Inference on NVIDIA GB200 NVL72</title>
-      <link>http://localhost:1313/articles/article-211/</link>
+      <link>/articles/article-2025-08-05-211/</link>
       <pubDate>Tue, 05 Aug 2025 17:10:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-211/</guid>
+      <guid>/articles/article-2025-08-05-211/</guid>
       <description>🚀 NVIDIA and OpenAI are advancing AI technologies with the launch of the gpt-oss-20b and gpt-oss-120b models. These models, designed for high-performance inference, can achieve 1.5 million tokens per second on the NVIDIA GB200 NVL72 system. 🧠 The gpt-oss models utilize a mixture of experts architecture and are optimized for NVIDIA&amp;rsquo;s Blackwell system. They support advanced text reasoning capabilities and are trained on NVIDIA H100 Tensor Core GPUs. 🔧 Developers can access optimized kernels and&amp;hellip;</description>
     </item>
     <item>
       <title>CUDA Pro Tip: Increase Performance with Vectorized Memory Access</title>
-      <link>http://localhost:1313/articles/article-212/</link>
+      <link>/articles/article-2025-08-04-212/</link>
       <pubDate>Mon, 04 Aug 2025 21:05:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-212/</guid>
+      <guid>/articles/article-2025-08-04-212/</guid>
       <description>Boost your CUDA performance by addressing bandwidth limitations! 🌐 Bandwidth-bound kernels are becoming more common due to the increasing ratio of flops to bandwidth in new hardware. To enhance bandwidth utilization, consider using vector loads and stores in your CUDA C++ code. Check out the provided memory copy kernel example, which uses grid-stride loops to improve efficiency. 📊 #CUDA #PerformanceOptimization #ProgrammingTips #TechInsights #NVIDIA</description>
     </item>
     <item>
       <title>Navigating GPU Architecture Support: A Guide for NVIDIA CUDA Developers</title>
-      <link>http://localhost:1313/articles/article-213/</link>
+      <link>/articles/article-2025-08-04-213/</link>
       <pubDate>Mon, 04 Aug 2025 20:01:47 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-213/</guid>
+      <guid>/articles/article-2025-08-04-213/</guid>
       <description>🚀 Are you developing with NVIDIA CUDA? You may have seen warnings about offline compilation for architectures prior to &amp;lsquo;_75&amp;rsquo; being phased out. This is a heads-up for developers to update their practices. The NVIDIA software stack consists of two main components: the CUDA Toolkit for building applications and the NVIDIA Driver for running them. The driver interfaces directly with GPU hardware and comes in three branches: New Feature Branch, Production Branch, and Long-Term Support Branch. Each&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA CUDA-Q 0.12 Expands Toolset for Developing Hardware-Performant Quantum Applications</title>
-      <link>http://localhost:1313/articles/article-214/</link>
+      <link>/articles/article-2025-08-04-214/</link>
       <pubDate>Mon, 04 Aug 2025 19:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-214/</guid>
+      <guid>/articles/article-2025-08-04-214/</guid>
       <description>🚀 NVIDIA CUDA-Q 0.12 has been released, bringing new simulation tools for quantum application development. The update allows researchers to access detailed statistics on individual simulation runs, aiding in areas like noise correlation and circuit benchmarking. New features also enhance the CUDA-Q dynamics backend, improving support for multidiagonal sparse matrices and generic super-operators. This open-source project includes community contributions and Python 3.13 support. For more&amp;hellip;</description>
     </item>
     <item>
       <title>How to Enhance RAG Pipelines with Reasoning Using NVIDIA Llama Nemotron Models</title>
-      <link>http://localhost:1313/articles/article-215/</link>
+      <link>/articles/article-2025-08-04-215/</link>
       <pubDate>Mon, 04 Aug 2025 17:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-215/</guid>
+      <guid>/articles/article-2025-08-04-215/</guid>
       <description>Unlocking the potential of retrieval-augmented generation (RAG) systems involves addressing user queries that are vague or carry implicit intent. 🤔 The article discusses how NVIDIA&amp;rsquo;s Nemotron LLMs enhance RAG pipelines through advanced query rewriting techniques. This process optimizes user prompts for better information retrieval, improving the relevance of results. 📈 Techniques like Q2E, Q2D, and chain-of-thought query rewriting help bridge gaps in understanding, leading to more accurate&amp;hellip;</description>
+    </item>
+    <item>
+      <title>7 Drop-In Replacements to Instantly Speed Up Your Python Data Science Workflows</title>
+      <link>/articles/article-2025-08-01-216/</link>
+      <pubDate>Fri, 01 Aug 2025 22:45:50 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-216/</guid>
+      <description>🚀 Speed up your Python data science workflows with easy drop-in replacements! Many libraries like pandas and scikit-learn can now leverage GPU acceleration with minimal code changes. Using tools like NVIDIA cuDF, you can enhance performance on large datasets without rewriting your scripts. Explore seven options to optimize your data processing today! #DataScience #Python #GPUAcceleration #TechTips #Programming</description>
+    </item>
+    <item>
+      <title>Optimizing LLMs for Performance and Accuracy with Post-Training Quantization</title>
+      <link>/articles/article-2025-08-01-217/</link>
+      <pubDate>Fri, 01 Aug 2025 21:27:23 +0000</pubDate>
+      <guid>/articles/article-2025-08-01-217/</guid>
+      <description>🚀 Quantization is a key method for developers looking to enhance AI model performance with minimal overhead. It allows for significant improvements in latency, throughput, and memory efficiency by reducing model precision without retraining. Models typically use FP16 or BF16, while advancing to FP4 can yield even better efficiency. NVIDIA&amp;rsquo;s TensorRT Model Optimizer offers a flexible framework for post-training quantization, supporting various formats and integrating calibration techniques for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Just Released: NVIDIA HPC SDK v25.7</title>
+      <link>/articles/article-2025-07-31-218/</link>
+      <pubDate>Thu, 31 Jul 2025 18:09:45 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-218/</guid>
+      <description>🚀 Just announced: NVIDIA HPC SDK v25.7 is now available! This update includes support for CUDA 12.9U1, along with updated library components, bug fixes, and performance improvements. For installation, users can download the SDK for Linux x86_64 and follow the provided instructions for setup. Check it out to enhance your high-performance computing projects! #NVIDIA #HPCSDK #CUDA #TechUpdate #HighPerformanceComputing</description>
+    </item>
+    <item>
+      <title>Just Released: NVIDIA cuPQC v0.4</title>
+      <link>/articles/article-2025-07-31-219/</link>
+      <pubDate>Thu, 31 Jul 2025 18:07:46 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-219/</guid>
+      <description>🚀 Just in: NVIDIA has launched cuPQC v0.4! This update brings Poseidon2 to cuHash and introduces a Merkle Tree API compatible with all cuHash hash functions. For those interested, you can download the SDK for GPU-accelerated Post-Quantum Cryptography. Check the documentation for system requirements and installation instructions. 🔗 Download cuPQC: &lt;a href=&#34;https://developer.download.nvidia.com/compute/cupqc/redist/cupqc/cupqc-sdk-0.4.0-x86_64.tar.gz&#34;&gt;x86_64&lt;/a&gt; |&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing Agentic AI: How Semantic Prompt Injections Bypass AI Guardrails</title>
+      <link>/articles/article-2025-07-31-220/</link>
+      <pubDate>Thu, 31 Jul 2025 16:58:07 +0000</pubDate>
+      <guid>/articles/article-2025-07-31-220/</guid>
+      <description>Prompt injection remains a significant threat to AI systems, particularly with the rise of multimodal and agentic AI. 🛡️ NVIDIA&amp;rsquo;s AI Red Team simulates real-world attacks to identify vulnerabilities in these advanced systems, emphasizing the need for cross-functional solutions. Their recent research introduces a new category of multimodal prompt injection using symbolic visual inputs, like emoji sequences. 🔍 This shift highlights the importance of adapting security strategies from input&amp;hellip;</description>
     </item>
   </channel>
 </rss>

@@ -16,6 +16,13 @@
       <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B are pushing AI boundaries but pose memory challenges for inference efficiency. These models can require significant memory, with Llama 3 needing around 140 GB and Llama 4 about 218 GB. The key-value (KV) cache also demands additional memory as context and batch sizes increase. NVIDIA&amp;rsquo;s Grace Hopper and Blackwell architectures use NVLink-C2C, allowing CPU-GPU memory sharing. This innovation enhances data access and&amp;hellip;</description>
     </item>
     <item>
+      <title>Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing</title>
+      <link>/articles/article-2025-09-05-7826/</link>
+      <pubDate>Fri, 05 Sep 2025 17:24:06 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7826/</guid>
+      <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B face challenges with inference due to their size. These models can require significant memory, often exceeding GPU limits, especially with large context windows. The NVIDIA Grace architectures address this by utilizing NVLink C2C, allowing CPU and GPU to share memory efficiently. This setup enhances the processing of large datasets and enables quicker access, minimizing the risk of out-of-memory errors during inference&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Multi-Agentic Ticket-Based Complaint Resolution System</title>
       <link>/articles/article-2025-09-04-7746/</link>
       <pubDate>Thu, 04 Sep 2025 15:00:00 +0000</pubDate>
@@ -37,11 +44,25 @@
       <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with annotations in frameworks like Spring and JPA. Previously, annotations applied to constructor parameters often did not validate properties during updates, leading to unexpected behavior. The new default rule ensures that annotations are applied to both constructor parameters and properties, streamlining code and reducing boilerplate. This update enhances validation consistency, allowing for&amp;hellip;</description>
     </item>
     <item>
+      <title>Improved Annotation Handling in Kotlin 2.2: Less Boilerplate, Fewer Surprises</title>
+      <link>/articles/article-2025-09-04-7896/</link>
+      <pubDate>Thu, 04 Sep 2025 11:56:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7896/</guid>
+      <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with frameworks like Spring and JPA. Previously, annotations could only validate object construction, leading to unexpected bugs. Now, with the new default rule, annotations will apply to both constructor parameters and properties, ensuring they function as intended during updates. This change reduces boilerplate code and aligns better with framework expectations. 🔗 Kotlin 2.2 is required to enable&amp;hellip;</description>
+    </item>
+    <item>
       <title>Building Slack’s Anomaly Event Response</title>
       <link>/articles/article-2025-09-04-7723/</link>
       <pubDate>Thu, 04 Sep 2025 10:00:02 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7723/</guid>
       <description>In response to evolving cyber threats, Slack has introduced Anomaly Event Response (AER), a proactive security measure. 🌐 AER utilizes real-time monitoring and advanced analytics to quickly identify and respond to suspicious activities on the platform, reducing detection-to-response time from hours to minutes. ⏱️ This system helps prevent potential data breaches without the need for additional security tools. Slack also provides comprehensive audit logs to enhance security for Enterprise&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Slack’s Anomaly Event Response</title>
+      <link>/articles/article-2025-09-04-8172/</link>
+      <pubDate>Thu, 04 Sep 2025 10:00:02 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-8172/</guid>
+      <description>Cyberattacks are becoming more sophisticated, making rapid breach detection and response essential. Traditional methods often respond too late, giving attackers an advantage. To combat this, Slack has introduced Anomaly Event Response (AER). This proactive defense mechanism uses real-time monitoring and advanced analytics to identify threats and respond automatically, reducing detection-to-response time to minutes. 🚀🔍 AER helps prevent data breaches without needing extra tools or human&amp;hellip;</description>
     </item>
     <item>
       <title>Building Etsy Buyer Profiles with LLMs</title>

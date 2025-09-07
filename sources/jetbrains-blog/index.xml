@@ -16,11 +16,25 @@
       <description>🔗 The Model Context Protocol (MCP) offers a standardized way to connect AI models with various tools and data sources. 💻 You can integrate Junie, JetBrains&amp;rsquo; AI coding agent, with multiple MCP servers or build your own using the new MCP PHP SDK. 🛠️ The MCP PHP SDK is a collaborative effort aimed at providing a reliable framework for PHP developers. For guidance on setup and configuration, refer to the MCP server documentation and the Junie MCP Settings in PhpStorm. #AI #MCP #PhpStorm #Junie&amp;hellip;</description>
     </item>
     <item>
+      <title>Connect MCP Servers to Junie in PhpStorm</title>
+      <link>/articles/article-2025-09-05-7893/</link>
+      <pubDate>Fri, 05 Sep 2025 14:47:16 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7893/</guid>
+      <description>🔗 The Model Context Protocol (MCP) is an open standard from Anthropic, designed to connect AI models seamlessly to various tools and data sources. 🛠️ JetBrains’ Junie AI coding agent can link with multiple MCP servers, either community-built or custom ones using the new MCP PHP SDK. This SDK, developed collaboratively, provides a framework for PHP developers. 📈 To integrate Junie with an MCP server in PhpStorm, ensure the server is accessible, configure Junie through the MCP Settings, and add&amp;hellip;</description>
+    </item>
+    <item>
       <title>Java Annotated Monthly – September 2025</title>
       <link>/articles/article-2025-09-05-7762/</link>
       <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
       <guid>/articles/article-2025-09-05-7762/</guid>
       <description>🚀 Excited for September&amp;rsquo;s Java Annotated Monthly! This edition features updates on Java 25, set to release on September 16, 2025. Key enhancements include Compact Source Files, Flexible Constructor Bodies, and Scoped Values for better thread management. Additionally, IntelliJ IDEA 2025.2 supports these updates, including new debugging tools. Don&amp;rsquo;t miss out on the upcoming events and insights from Marit van Dijk! #Java25 #IntelliJIDEA #TechNews #SoftwareDevelopment #JavaCommunity</description>
+    </item>
+    <item>
+      <title>Java Annotated Monthly – September 2025</title>
+      <link>/articles/article-2025-09-05-7894/</link>
+      <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7894/</guid>
+      <description>🚀 September brings exciting updates in the latest Java Annotated Monthly! This edition features the much-anticipated Java 25 release on September 16, 2025, highlighting new features like Compact Source Files and improvements in performance. Marit van Dijk shares insights on these updates and the support in IntelliJ IDEA 2025.2. Don’t miss this month’s tech news and upcoming events! #Java25 #IntelliJ #TechNews #Kotlin #SoftwareDevelopment</description>
     </item>
     <item>
       <title>5 Ways Static Code Analysis Can Improve Developer Experience</title>
@@ -37,6 +51,13 @@
       <description>🚀 The first bug-fix update for ReSharper and Rider 2025.2 is now available! This release includes important fixes and quality improvements, along with performance optimizations. If you haven&amp;rsquo;t upgraded yet, check out the latest features in ReSharper and Rider. Key updates include Unity support in Command Line Tools and various fixes for C++ and IDE functionality. For the complete list of changes, visit our issue tracker. #ReSharper #Rider #SoftwareUpdate #DevTools #Programming</description>
     </item>
     <item>
+      <title>The First Set of Updates and Fixes for ReSharper and Rider 2025.2 Is Out!</title>
+      <link>/articles/article-2025-09-04-7895/</link>
+      <pubDate>Thu, 04 Sep 2025 15:04:45 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7895/</guid>
+      <description>🚀 The first bug-fix update for ReSharper and Rider 2025.2 is here! This update includes essential fixes, quality improvements, and performance optimizations. Key highlights include Unity support in Command Line Tools for ReSharper and enhanced functionality in Out-of-Process mode. For those yet to upgrade, check out the detailed blog posts on ReSharper and Rider 2025.2 for new features and improvements. 🔗 #ReSharper #Rider #SoftwareUpdate #DevTools #PerformanceBoost</description>
+    </item>
+    <item>
       <title>JetBrains JavaScript Day 2025 Registration Is Now Open</title>
       <link>/articles/article-2025-09-04-7727/</link>
       <pubDate>Thu, 04 Sep 2025 14:39:10 +0000</pubDate>
@@ -49,6 +70,13 @@
       <pubDate>Thu, 04 Sep 2025 11:56:15 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7728/</guid>
       <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with annotations in frameworks like Spring and JPA. Previously, annotations applied to constructor parameters often did not validate properties during updates, leading to unexpected behavior. The new default rule ensures that annotations are applied to both constructor parameters and properties, streamlining code and reducing boilerplate. This update enhances validation consistency, allowing for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improved Annotation Handling in Kotlin 2.2: Less Boilerplate, Fewer Surprises</title>
+      <link>/articles/article-2025-09-04-7896/</link>
+      <pubDate>Thu, 04 Sep 2025 11:56:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7896/</guid>
+      <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with frameworks like Spring and JPA. Previously, annotations could only validate object construction, leading to unexpected bugs. Now, with the new default rule, annotations will apply to both constructor parameters and properties, ensuring they function as intended during updates. This change reduces boilerplate code and aligns better with framework expectations. 🔗 Kotlin 2.2 is required to enable&amp;hellip;</description>
     </item>
     <item>
       <title>Enhanced Vulnerable API Detection in JetBrains IDEs and Qodana</title>

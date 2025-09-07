@@ -44,6 +44,13 @@
       <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B are pushing AI boundaries but pose memory challenges for inference efficiency. These models can require significant memory, with Llama 3 needing around 140 GB and Llama 4 about 218 GB. The key-value (KV) cache also demands additional memory as context and batch sizes increase. NVIDIA&amp;rsquo;s Grace Hopper and Blackwell architectures use NVLink-C2C, allowing CPU-GPU memory sharing. This innovation enhances data access and&amp;hellip;</description>
     </item>
     <item>
+      <title>Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing</title>
+      <link>/articles/article-2025-09-05-7826/</link>
+      <pubDate>Fri, 05 Sep 2025 17:24:06 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7826/</guid>
+      <description>Large Language Models (LLMs) like Llama 3 70B and Llama 4 Scout 109B face challenges with inference due to their size. These models can require significant memory, often exceeding GPU limits, especially with large context windows. The NVIDIA Grace architectures address this by utilizing NVLink C2C, allowing CPU and GPU to share memory efficiently. This setup enhances the processing of large datasets and enables quicker access, minimizing the risk of out-of-memory errors during inference&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Cisco Validated Design for Panasonic: A Blueprint for IP Media Success</title>
       <link>/articles/article-2025-09-05-7779/</link>
       <pubDate>Fri, 05 Sep 2025 15:34:59 +0000</pubDate>
@@ -58,11 +65,25 @@
       <description>🚀 Exciting news for data center operations! Nexus Dashboard 4.1 is now available, offering complete lifecycle management for multiple data center networks through a single interface. This solution simplifies provisioning and enhances visibility while providing diagnostics and automation. It supports various environments, including NX-OS, ACI, AI fabrics, and more. The dashboard also enables VXLAN EVPN automation on Cisco Catalyst switches. #DataCenter #NexusDashboard #AI #NetworkManagement&amp;hellip;</description>
     </item>
     <item>
+      <title>Announcing the New Nexus Dashboard for Simplifying Data Center Operations in the AI Era</title>
+      <link>/articles/article-2025-09-05-7817/</link>
+      <pubDate>Fri, 05 Sep 2025 15:00:23 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7817/</guid>
+      <description>🌐 Exciting news in data center management! The Nexus Dashboard 4.1 is now available for unified lifecycle management of multiple data center networks. This single interface streamlines provisioning and enhances visibility, making it easier for teams to manage diverse environments. It supports various network fabrics, including NX-OS and ACI, while offering robust automation and diagnostics. This advancement aims to simplify operations in an increasingly AI-driven landscape. #DataCenter&amp;hellip;</description>
+    </item>
+    <item>
       <title>Corrective Action Update for the Heroku June 10th Outage</title>
       <link>/articles/article-2025-09-05-7784/</link>
       <pubDate>Fri, 05 Sep 2025 15:00:13 +0000</pubDate>
       <guid>/articles/article-2025-09-05-7784/</guid>
       <description>🚨 &lt;strong&gt;Heroku Outage Update&lt;/strong&gt; 🚨 On June 10, 2025, Heroku experienced a service disruption due to an unintended system update. This affected not only platform performance but also the Heroku Status site, leading to confusion among users. 🛠️ On June 15, we outlined our remediation objectives, focusing on: - Immutable infrastructure - Improved communication resilience - Faster investigation and recovery 🔧 Key actions taken include halting unattended vendor upgrades, auditing system images, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Corrective Action Update for the Heroku June 10th Outage</title>
+      <link>/articles/article-2025-09-05-7910/</link>
+      <pubDate>Fri, 05 Sep 2025 15:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7910/</guid>
+      <description>🚨 &lt;strong&gt;Heroku Outage Update&lt;/strong&gt; 🚨 On June 10, 2025, Heroku faced a service disruption due to an unintended system update by a vendor. The outage also affected the Heroku Status site, leading to communication challenges. 📅 A summary of our root cause analysis was shared on June 15. Key remediation goals include enhancing infrastructure resilience, improving communication channels, and speeding up recovery processes. 🔧 &lt;strong&gt;Current Actions:&lt;/strong&gt; - Permanent halt on unattended vendor OS upgrades - Audit of&amp;hellip;</description>
     </item>
     <item>
       <title>Connect MCP Servers to Junie in PhpStorm</title>
@@ -72,11 +93,25 @@
       <description>🔗 The Model Context Protocol (MCP) offers a standardized way to connect AI models with various tools and data sources. 💻 You can integrate Junie, JetBrains&amp;rsquo; AI coding agent, with multiple MCP servers or build your own using the new MCP PHP SDK. 🛠️ The MCP PHP SDK is a collaborative effort aimed at providing a reliable framework for PHP developers. For guidance on setup and configuration, refer to the MCP server documentation and the Junie MCP Settings in PhpStorm. #AI #MCP #PhpStorm #Junie&amp;hellip;</description>
     </item>
     <item>
+      <title>Connect MCP Servers to Junie in PhpStorm</title>
+      <link>/articles/article-2025-09-05-7893/</link>
+      <pubDate>Fri, 05 Sep 2025 14:47:16 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7893/</guid>
+      <description>🔗 The Model Context Protocol (MCP) is an open standard from Anthropic, designed to connect AI models seamlessly to various tools and data sources. 🛠️ JetBrains’ Junie AI coding agent can link with multiple MCP servers, either community-built or custom ones using the new MCP PHP SDK. This SDK, developed collaboratively, provides a framework for PHP developers. 📈 To integrate Junie with an MCP server in PhpStorm, ensure the server is accessible, configure Junie through the MCP Settings, and add&amp;hellip;</description>
+    </item>
+    <item>
       <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
       <link>/articles/article-2025-09-05-7786/</link>
       <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-05-7786/</guid>
       <description>🚀 Docker, Inc. has acquired MCP Defender to enhance security for AI applications. As AI evolves rapidly, new security challenges arise for software development. 🔍 The current AI security landscape reflects early container adoption, marked by innovation but also uncertainty about risks. Organizations must now focus on real-time monitoring and dynamic threat detection. 🔒 Docker aims to embed security into AI infrastructure from the start, ensuring seamless integration into development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
+      <link>/articles/article-2025-09-05-8131/</link>
+      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-8131/</guid>
+      <description>🚀 Docker, Inc. has announced its acquisition of MCP Defender to enhance security for AI applications. As AI technology evolves, so do the security challenges it presents. 🚧 Companies are urged to shift towards real-time monitoring and proactive threat detection to safeguard their AI infrastructure. Docker aims to integrate security into AI development from the start, ensuring a seamless experience for developers. 🔐 #Docker #AIsafety #Cybersecurity #TechNews #Innovation</description>
     </item>
     <item>
       <title>Export traces, web analytics events, and speed insights datapoints to any destination</title>
@@ -105,6 +140,13 @@
       <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
       <guid>/articles/article-2025-09-05-7762/</guid>
       <description>🚀 Excited for September&amp;rsquo;s Java Annotated Monthly! This edition features updates on Java 25, set to release on September 16, 2025. Key enhancements include Compact Source Files, Flexible Constructor Bodies, and Scoped Values for better thread management. Additionally, IntelliJ IDEA 2025.2 supports these updates, including new debugging tools. Don&amp;rsquo;t miss out on the upcoming events and insights from Marit van Dijk! #Java25 #IntelliJIDEA #TechNews #SoftwareDevelopment #JavaCommunity</description>
+    </item>
+    <item>
+      <title>Java Annotated Monthly – September 2025</title>
+      <link>/articles/article-2025-09-05-7894/</link>
+      <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
+      <guid>/articles/article-2025-09-05-7894/</guid>
+      <description>🚀 September brings exciting updates in the latest Java Annotated Monthly! This edition features the much-anticipated Java 25 release on September 16, 2025, highlighting new features like Compact Source Files and improvements in performance. Marit van Dijk shares insights on these updates and the support in IntelliJ IDEA 2025.2. Don’t miss this month’s tech news and upcoming events! #Java25 #IntelliJ #TechNews #Kotlin #SoftwareDevelopment</description>
     </item>
     <item>
       <title>Kotlin is more than just the Android house language</title>
@@ -170,11 +212,25 @@
       <description>🌍 The Cisco Foundation highlights the role of blended finance in addressing the data-to-scale gap for climate AI solutions. AI can significantly impact climate innovation, but it requires access to diverse, quality data, which is often costly. Cisco recently hosted an AI + Climate Innovation Lab, uniting over 100 experts to explore data needs in various climate sectors. Together, these efforts aim to enhance climate tech funding and innovation. 💡📊 #ClimateAI #BlendedFinance #DataForClimate&amp;hellip;</description>
     </item>
     <item>
+      <title>The data catalyst: Blended finance paving the way for climate AI solutions</title>
+      <link>/articles/article-2025-09-04-7818/</link>
+      <pubDate>Thu, 04 Sep 2025 19:09:35 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7818/</guid>
+      <description>The Cisco Foundation is exploring blended finance to tackle the data accessibility challenges for climate AI solutions. 🌍 During the AI + Climate Innovation Lab at San Francisco Climate Week 2025, over 100 experts discussed the critical need for diverse and high-quality data across various climate sectors. This initiative aims to bridge the gap in funding and data for climate tech innovation. 💡 #ClimateAI #DataForGood #Sustainability #Innovation #BlendedFinance</description>
+    </item>
+    <item>
       <title>Advancing U.S. AI Leadership: Cisco to Skill 1 Million People</title>
       <link>/articles/article-2025-09-04-7755/</link>
       <pubDate>Thu, 04 Sep 2025 18:52:41 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7755/</guid>
       <description>Cisco is committed to enhancing AI education in the U.S. 🌟 As part of the White House&amp;rsquo;s Pledge to America’s Youth, they plan to train 1 million people in AI and digital skills over the next four years via Learn with Cisco. This initiative highlights the importance of preparing individuals for an AI-driven future. Cisco aims to equip educators with the necessary tools and curricula to effectively teach AI. Together, we can empower a new generation for the evolving job market! 💻🤝 #AI #Cisco&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advancing U.S. AI Leadership: Cisco to Skill 1 Million People</title>
+      <link>/articles/article-2025-09-04-7819/</link>
+      <pubDate>Thu, 04 Sep 2025 18:52:41 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7819/</guid>
+      <description>Cisco is committed to advancing AI skills in the U.S. by training 1 million people over the next four years through their Learn with Cisco initiative. This effort aligns with the White House’s Pledge to America’s Youth, focusing on enhancing AI education for all ages. Cisco aims to equip educators and students with the necessary tools and curricula to thrive in an AI-driven economy. #AI #Education #Cisco #DigitalSkills #FutureOfWork 🤖📚🌍</description>
     </item>
     <item>
       <title>Kubernetes v1.34: PSI Metrics for Kubernetes Graduates to Beta</title>
@@ -196,6 +252,13 @@
       <pubDate>Thu, 04 Sep 2025 17:43:01 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7735/</guid>
       <description>Exploring the integration of AI in network engineering, Hank Preston discusses the importance of source-of-truth data for NetAI agents. In his latest article, he reflects on using Model Context Protocol (MCP) servers to enhance AI&amp;rsquo;s ability to interact with network devices. The focus is on providing AI agents access to essential data, boosting their effectiveness. NetBox, an open-source tool, is highlighted for its role in this process, enabling better data accessibility for AI applications&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Bringing Some Source of Truth to Your NetAI Agentic Playground</title>
+      <link>/articles/article-2025-09-04-7820/</link>
+      <pubDate>Thu, 04 Sep 2025 17:43:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7820/</guid>
+      <description>Exploring the integration of AI in network engineering, the article discusses the importance of providing source-of-truth data to AI agents. The author shares insights on using Model Context Protocol (MCP) servers to enhance AI interactions with network devices. A key focus is on leveraging NetBox, an open-source tool, to supply vital data for AI operations. This approach aims to empower AI agents to function like human engineers. #NetAI #AIinNetworking #NetworkAutomation #TechInsights&amp;hellip;</description>
     </item>
     <item>
       <title>Addressing the unauthorized issuance of multiple TLS certificates for 1.1.1.1</title>
@@ -233,11 +296,25 @@
       <description>🚀 The first bug-fix update for ReSharper and Rider 2025.2 is now available! This release includes important fixes and quality improvements, along with performance optimizations. If you haven&amp;rsquo;t upgraded yet, check out the latest features in ReSharper and Rider. Key updates include Unity support in Command Line Tools and various fixes for C++ and IDE functionality. For the complete list of changes, visit our issue tracker. #ReSharper #Rider #SoftwareUpdate #DevTools #Programming</description>
     </item>
     <item>
+      <title>The First Set of Updates and Fixes for ReSharper and Rider 2025.2 Is Out!</title>
+      <link>/articles/article-2025-09-04-7895/</link>
+      <pubDate>Thu, 04 Sep 2025 15:04:45 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7895/</guid>
+      <description>🚀 The first bug-fix update for ReSharper and Rider 2025.2 is here! This update includes essential fixes, quality improvements, and performance optimizations. Key highlights include Unity support in Command Line Tools for ReSharper and enhanced functionality in Out-of-Process mode. For those yet to upgrade, check out the detailed blog posts on ReSharper and Rider 2025.2 for new features and improvements. 🔗 #ReSharper #Rider #SoftwareUpdate #DevTools #PerformanceBoost</description>
+    </item>
+    <item>
       <title>Discover How Heroku’s AI PaaS Delivers Real-World Results at Dreamforce</title>
       <link>/articles/article-2025-09-04-7743/</link>
       <pubDate>Thu, 04 Sep 2025 15:00:12 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7743/</guid>
       <description>🚀 Heroku has transformed at Dreamforce into an AI PaaS, designed to enhance the shift from experimentation to production. Key highlights include new features like AppLink, Managed Inference, and Agents, all aimed at speeding up the delivery of AI-powered applications. Discover how companies like Workday and AT&amp;amp;T; are achieving significant results with Heroku’s solutions. Explore more at Dreamforce! #Heroku #Dreamforce #AI #TechInnovation #BusinessGrowth</description>
+    </item>
+    <item>
+      <title>Discover How Heroku’s AI PaaS Delivers Real-World Results at Dreamforce</title>
+      <link>/articles/article-2025-09-04-7911/</link>
+      <pubDate>Thu, 04 Sep 2025 15:00:12 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7911/</guid>
+      <description>🚀 Heroku has transformed into an AI PaaS, addressing the challenge of moving AI from experimentation to production. This evolution includes features like AppLink and Managed Inference, designed to speed up the development of AI-powered applications. Join us at Dreamforce 2025 to see how businesses like Workday and AT&amp;amp;T; leverage Heroku for impactful results! #Heroku #AI #Dreamforce #CloudComputing #Innovation</description>
     </item>
     <item>
       <title>Multi-Agentic Ticket-Based Complaint Resolution System</title>
@@ -266,6 +343,13 @@
       <pubDate>Thu, 04 Sep 2025 13:00:44 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7731/</guid>
       <description>🌐 Hybrid AI is revolutionizing how we utilize AI models! Running large models in the cloud can lead to high costs, while local models help maintain privacy and control expenses. However, local models often lack capability. The hybrid approach combines cloud and local strengths, offering a cost-effective, efficient solution. Using Docker, developers can easily deploy systems that balance performance and affordability. Explore how this innovative model works! 🖥️💡 #HybridAI #Docker #AIModels&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Hybrid AI Isn’t the Future — It’s Here (and It Runs in Docker)</title>
+      <link>/articles/article-2025-09-04-8132/</link>
+      <pubDate>Thu, 04 Sep 2025 13:00:44 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-8132/</guid>
+      <description>🚀 Hybrid AI is reshaping how we utilize AI models. By merging powerful cloud models with efficient local models, it balances performance, cost, and privacy. This allows developers to achieve high quality without overspending. 💡 The Minions protocol exemplifies this, using local &amp;ldquo;minions&amp;rdquo; for routine tasks while a remote supervisor handles complex reasoning. Docker facilitates simple and secure deployments. 🐳 Explore the advantages of Hybrid AI, including cost reduction, scalability, and&amp;hellip;</description>
     </item>
     <item>
       <title>Building Uber’s Data Lake: Batch Data Replication Using HiveSync</title>
@@ -303,6 +387,13 @@
       <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with annotations in frameworks like Spring and JPA. Previously, annotations applied to constructor parameters often did not validate properties during updates, leading to unexpected behavior. The new default rule ensures that annotations are applied to both constructor parameters and properties, streamlining code and reducing boilerplate. This update enhances validation consistency, allowing for&amp;hellip;</description>
     </item>
     <item>
+      <title>Improved Annotation Handling in Kotlin 2.2: Less Boilerplate, Fewer Surprises</title>
+      <link>/articles/article-2025-09-04-7896/</link>
+      <pubDate>Thu, 04 Sep 2025 11:56:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7896/</guid>
+      <description>Kotlin 2.2 introduces improved annotation handling, addressing common issues developers faced with frameworks like Spring and JPA. Previously, annotations could only validate object construction, leading to unexpected bugs. Now, with the new default rule, annotations will apply to both constructor parameters and properties, ensuring they function as intended during updates. This change reduces boilerplate code and aligns better with framework expectations. 🔗 Kotlin 2.2 is required to enable&amp;hellip;</description>
+    </item>
+    <item>
       <title>Is Reactive IT Finally Dead?</title>
       <link>/articles/article-2025-09-04-7719/</link>
       <pubDate>Thu, 04 Sep 2025 11:23:18 +0000</pubDate>
@@ -310,11 +401,25 @@
       <description>🚨 Is Reactive IT Finally Dead? 🚨 In a recent article, Cisco&amp;rsquo;s Jason Coleman highlights the challenges of reactive IT. Engineers often spend over 150 hours a year addressing unexpected outages, leading to high costs and operational risks. Cisco is shifting towards AI-powered, preemptive IT solutions to combat these issues, aiming to minimize downtime and enhance efficiency. Learn more about this important shift in IT management! #Cisco #ReactiveIT #AITechnology #ITManagement #TechTrends</description>
     </item>
     <item>
+      <title>Is Reactive IT Finally Dead?</title>
+      <link>/articles/article-2025-09-04-7821/</link>
+      <pubDate>Thu, 04 Sep 2025 11:23:18 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-7821/</guid>
+      <description>🚨 Is Reactive IT Finally Dead? 🚨 Jason Coleman from Cisco discusses the challenges of reactive IT, where engineers spend over 150 hours annually fixing unexpected outages. This approach leads to high costs and operational risks for businesses. Cisco is shifting towards AI-powered, preemptive IT solutions to enhance network reliability and reduce downtime. Learn more about this important transition in IT management! #ITManagement #Cisco #AI #TechTrends #NetworkReliability</description>
+    </item>
+    <item>
       <title>Building Slack’s Anomaly Event Response</title>
       <link>/articles/article-2025-09-04-7723/</link>
       <pubDate>Thu, 04 Sep 2025 10:00:02 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7723/</guid>
       <description>In response to evolving cyber threats, Slack has introduced Anomaly Event Response (AER), a proactive security measure. 🌐 AER utilizes real-time monitoring and advanced analytics to quickly identify and respond to suspicious activities on the platform, reducing detection-to-response time from hours to minutes. ⏱️ This system helps prevent potential data breaches without the need for additional security tools. Slack also provides comprehensive audit logs to enhance security for Enterprise&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Slack’s Anomaly Event Response</title>
+      <link>/articles/article-2025-09-04-8172/</link>
+      <pubDate>Thu, 04 Sep 2025 10:00:02 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-8172/</guid>
+      <description>Cyberattacks are becoming more sophisticated, making rapid breach detection and response essential. Traditional methods often respond too late, giving attackers an advantage. To combat this, Slack has introduced Anomaly Event Response (AER). This proactive defense mechanism uses real-time monitoring and advanced analytics to identify threats and respond automatically, reducing detection-to-response time to minutes. 🚀🔍 AER helps prevent data breaches without needing extra tools or human&amp;hellip;</description>
     </item>
     <item>
       <title>How to migrate from Fluentd to Vector in OpenShift 4</title>
@@ -350,6 +455,13 @@
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-04-7759/</guid>
       <description>🚀 CrowdStrike has been recognized as a Leader in The Forrester Wave™: Managed Detection and Response Services in Europe for Q3 2025. The company excelled in 16 evaluation criteria, including endpoint detection and threat hunting. This highlights the importance of AI-driven technology and human expertise in today’s complex threat landscape. CrowdStrike Falcon® Complete Next-Gen MDR offers robust AI-accelerated threat detection and response across various platforms. #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>CrowdStrike Named a Leader in The Forrester Wave™: Managed Detection and Response Services in Europe, Q3 2025</title>
+      <link>/articles/article-2025-09-04-8087/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-04-8087/</guid>
+      <description>🚀 CrowdStrike has been recognized as a Leader in The Forrester Wave™ for Managed Detection and Response Services in Europe, Q3 2025. The company excelled in 16 key criteria, including endpoint and identity detection, cloud detection, and threat hunting. This highlights the importance of combining AI technology with human expertise to combat evolving cyber threats. CrowdStrike Falcon® Complete Next-Gen MDR ensures comprehensive protection across various attack surfaces. #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>From Fine-Tuning to Production: A Scalable Embedding Pipeline with Dataflow</title>

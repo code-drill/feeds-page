@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.149.0">
+	<meta name="generator" content="Hugo 0.149.1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daily Tech Articles Feed</title>
@@ -32,6 +32,13 @@
             margin: 0; 
             font-size: 24px; 
             color: #333;
+        }
+        .header h1 a {
+            color: #333;
+            text-decoration: none;
+        }
+        .header h1 a:hover {
+            color: #337ab7;
         }
         .nav { 
             margin-top: 10px;
@@ -338,6 +345,28 @@
             text-decoration: underline;
         }
         
+         
+        .site-footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e9ecef;
+            background: #f8f9fa;
+        }
+        .footer-text {
+            text-align: center;
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+        .author-link {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .author-link:hover {
+            color: #286090;
+            text-decoration: underline;
+        }
+        
         @media (max-width: 768px) {
             .container { 
                 padding: 15px;
@@ -410,7 +439,7 @@
     
 <div class="header">
     <div class="container">
-        <h1>Daily Tech Articles Feed</h1>
+        <h1><a href="/">Daily Tech Articles Feed</a></h1>
         <nav class="nav">
             <a href="/">Home</a>
             <a href="/categories/">Categories</a>
@@ -1913,6 +1942,14 @@
     
 </div>
 
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">
+                Contents © 2025 <a href="#" id="author-email" class="author-link">Michał Rutkowski</a>
+            </p>
+        </div>
+    </footer>
     <script>
         
         document.addEventListener('DOMContentLoaded', function() {
@@ -2031,6 +2068,9 @@
             
             
             clearSourcesFilter();
+            
+            
+            setupEmailLink();
         });
         
         
@@ -2069,6 +2109,26 @@
                 } else {
                     link.style.display = 'none';
                 }
+            }
+        }
+        
+        
+        function setupEmailLink() {
+            const emailLink = document.getElementById('author-email');
+            if (emailLink) {
+                
+                const encodedEmail = 'aG9tZWVuZEB3cC5wbA==';
+                
+                
+                const decodedEmail = atob(encodedEmail);
+                const mailtoLink = 'mailto:' + decodedEmail;
+                
+                emailLink.href = mailtoLink;
+                
+                
+                emailLink.addEventListener('click', function(e) {
+                    
+                });
             }
         }
     </script>

@@ -16,11 +16,32 @@
       <description>Cloudflare Workers now support Node.js HTTP client and server APIs, making it easier to run existing Node.js applications. Developers can deploy apps like Express.js and Koa with minimal code changes. 🌍✨ This enhancement allows for zero cold starts, automatic scaling, and lower latency, all while maintaining familiar development patterns. Key features include support for standard HTTP methods and streaming responses. #Cloudflare #NodeJS #Serverless #WebDevelopment #APIs</description>
     </item>
     <item>
+      <title>Vercel Functions now support graceful shutdown</title>
+      <link>/articles/article-2025-09-08-9432/</link>
+      <pubDate>Mon, 08 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9432/</guid>
+      <description>🚀 Vercel Functions now enhance Node.js and Python runtimes with graceful shutdown support! This feature allows up to 500 milliseconds for running cleanup tasks before termination. When a function is terminated, a SIGTERM signal can be used to manage essential tasks like closing database connections or flushing logs. Learn more about the benefits of this update! #Vercel #NodeJS #Python #WebDevelopment #Serverless</description>
+    </item>
+    <item>
       <title>JetBrains Mellum Now Available on Amazon Bedrock Marketplace – For Free</title>
       <link>/articles/article-2025-09-08-9396/</link>
       <pubDate>Mon, 08 Sep 2025 12:56:47 +0000</pubDate>
       <guid>/articles/article-2025-09-08-9396/</guid>
       <description>🚀 JetBrains Mellum is now available on the Amazon Bedrock Marketplace for free! This production-grade large language model (LLM) makes code completion easier and more accessible. With Mellum, you can deploy quickly, control costs, and enjoy zero extra model fees. It’s optimized for enterprise use, ensuring better performance and stability. Choose your GPU hardware, hit deploy, and integrate seamlessly into your engineering workflows. Explore Mellum today for instant access! 🌐💻 #JetBrains&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Unity Audience Hub helps marketers reach mobile gaming audiences and gains industry recognition</title>
+      <link>/articles/article-2025-09-08-9431/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9431/</guid>
+      <description>Unity Audience Hub is transforming how marketers engage with mobile gaming audiences while prioritizing privacy. 🎮✨ This innovative platform integrates insights from Unity&amp;rsquo;s ad ecosystem with third-party data, enabling custom audience building across mobile and CTV channels. Unity has recently been recognized as the &amp;ldquo;Best Mobile Games Marketing Platform&amp;rdquo; at the MarTech Breakthrough Awards, highlighting its commitment to effective and privacy-conscious marketing solutions. 🏆 Learn more about&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Signal Secure Backups</title>
+      <link>/articles/article-2025-09-08-9434/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9434/</guid>
+      <description>📱 Signal has introduced secure backups, addressing a long-standing user request. This new opt-in feature allows users to back up their message history, ensuring important conversations are not lost if a phone is damaged or lost. Currently available in beta for Android, it will soon roll out to iOS and Desktop. Secure backups are end-to-end encrypted and refresh daily for added security. #Signal #SecureBackups #Privacy #Messaging #TechUpdates</description>
     </item>
     <item>
       <title>Kubernetes v1.34: Pod Replacement Policy for Jobs Goes GA</title>

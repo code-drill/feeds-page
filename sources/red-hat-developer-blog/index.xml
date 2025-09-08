@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 07:01:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 07:00:54 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multicluster authentication with Ansible Automation Platform</title>
+      <link>/articles/article-2025-09-08-9394/</link>
+      <pubDate>Mon, 08 Sep 2025 07:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9394/</guid>
+      <description>Implementing multicluster authentication between Red Hat Ansible Automation Platform and Red Hat Advanced Cluster Management can enhance security and streamline operations. This integration allows for centralized authentication, reducing credential proliferation. Key features include dynamic token management and network security via Cluster Proxy. For successful implementation, ensure both ManagedServiceAccount and Cluster Proxy are enabled in your setup. Access detailed steps and best&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Verify Cosign bring-your-own PKI signature on OpenShift</title>
+      <link>/articles/article-2025-09-08-9395/</link>
+      <pubDate>Mon, 08 Sep 2025 07:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9395/</guid>
+      <description>🚀 Red Hat OpenShift 4.16 introduces ClusterImagePolicy and ImagePolicy for sigstore verification. These tech preview features support Fulcio CA and public key policies. 🔍 The bring-your-own PKI (BYO-PKI) feature, available from OpenShift 4.19, allows validation of container images using existing X.509 certificates. 🔧 The article outlines how to sign images with Cosign and configure OpenShift for signature verification using ClusterImagePolicy. #OpenShift #Cosign #BYOPKI #ContainerSecurity&amp;hellip;</description>
+    </item>
     <item>
       <title>What&#39;s new in network observability 1.9</title>
       <link>/articles/article-2025-09-05-7761/</link>

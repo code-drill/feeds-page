@@ -6,14 +6,49 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Connect Distributed Data Centers Into Large AI Factories with Scale-Across Networking</title>
+      <link>/articles/article-2025-09-09-9465/</link>
+      <pubDate>Tue, 09 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9465/</guid>
+      <description>AI scaling faces challenges due to physical limitations in data centers, such as power and cooling capacity. 🌐 Traditional long-haul Ethernet solutions can lead to high latency and unpredictable data delivery, which is problematic for AI workloads. NVIDIA&amp;rsquo;s Spectrum-XGS Ethernet technology introduces scale-across networking, allowing multiple data centers to function as one large AI factory, enhancing performance for training and inference tasks. 🚀 #ArtificialIntelligence #DataCenters&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Investigating IntelliJ Platform UI Freezes</title>
+      <link>/articles/article-2025-09-09-9473/</link>
+      <pubDate>Tue, 09 Sep 2025 12:26:47 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9473/</guid>
+      <description>Have you ever experienced UI freezes in JetBrains IDEs? 🤔 This article delves into the reasons behind these freezes, primarily caused by the single-threaded nature of the Java AWT framework. When the event dispatch thread (EDT) is blocked, user interactions become unresponsive. To investigate, start by examining the thread dump, focusing on the AWT-EventQueue thread. Look for signs of lock acquisition issues, particularly the read-write lock, which can indicate background threads causing the&amp;hellip;</description>
+    </item>
     <item>
       <title>Extracting trending keywords from OpenChat messages</title>
       <link>/articles/article-2025-09-09-9457/</link>
       <pubDate>Tue, 09 Sep 2025 09:30:00 +0000</pubDate>
       <guid>/articles/article-2025-09-09-9457/</guid>
       <description>🔍 Heewoong Park, a machine learning engineer, shares insights on enhancing LINE OpenChat. The article discusses how the AI Services Lab aims to extract trending keywords from OpenChat messages to improve user engagement. By analyzing message content, they hope to display relevant topics on the main screen, making it more appealing for users to explore new chatrooms. Currently, the focus on chatroom recommendations may not encourage frequent visits. The team’s approach aims to group similar&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Built with UE5, Borderlands 4 delivers ambitious scale with World Partition, Nanite, Lumen, and more</title>
+      <link>/articles/article-2025-09-09-9474/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9474/</guid>
+      <description>🚀 Exciting advancements are coming to the Borderlands series with Borderlands 4! Gearbox Software highlights how Unreal Engine 5 features like World Partition and Nanite enhance gameplay. These technologies allow for larger, more detailed environments, improving player experience. Stay tuned for more updates on this ambitious installment! 🎮✨ #Borderlands4 #GameDevelopment #UE5 #GearboxSoftware #GamingNews</description>
+    </item>
+    <item>
+      <title>Form follows function: Building resilient form submissions at scale</title>
+      <link>/articles/article-2025-09-09-9476/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9476/</guid>
+      <description>Webflow is enhancing its system resiliency to ensure reliable form submissions, crucial for businesses. Key features include: - &lt;strong&gt;Durability&lt;/strong&gt;: Submissions are preserved even during database failures. - &lt;strong&gt;Non-blocking&lt;/strong&gt;: Recovery mechanisms do not slow down requests. - &lt;strong&gt;Idempotent&lt;/strong&gt;: Submissions can be safely replayed without duplicates. The process involves write-ahead backups stored in Amazon S3, allowing for both targeted and global replay of submissions during outages. #Webflow&amp;hellip;</description>
+    </item>
+    <item>
+      <title>mmBERT: ModernBERT goes Multilingual</title>
+      <link>/articles/article-2025-09-09-9477/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9477/</guid>
+      <description>🌐 Exciting developments in AI! The article discusses mmBERT, a new multilingual model built on ModernBERT. It aims to enhance language processing across various languages. Key features include improved understanding and generation of text in multiple languages, making it a versatile tool for global applications. For more details, check out the full article! #AI #MachineLearning #NLP #mmBERT #Multilingual</description>
     </item>
     <item>
       <title>Triage and Fix with Confidence: heroku run and OTel on Heroku Fir</title>

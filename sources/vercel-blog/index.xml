@@ -9,11 +9,25 @@
     <lastBuildDate>Mon, 08 Sep 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI SDK and AI Gateway now integrated in GitHub Actions</title>
+      <link>/articles/article-2025-09-08-9448/</link>
+      <pubDate>Mon, 08 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9448/</guid>
+      <description>🚀 Exciting news for developers! The new integration of the AI SDK and AI Gateway with GitHub Actions allows users to access the vercel/ai-action@v2. This feature enables the generation of text or structured JSON directly within workflows by specifying prompts, models, and API keys. This opens up various AI-powered use cases, such as summarizing release notes, conducting light PR code reviews, moderating comments, and identifying duplicate issues. Explore more in the GitHub Actions marketplace&amp;hellip;</description>
+    </item>
+    <item>
       <title>Bulk enable on-demand concurrent builds across projects</title>
       <link>/articles/article-2025-09-08-9439/</link>
       <pubDate>Mon, 08 Sep 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-08-9439/</guid>
       <description>Pro teams can now enhance efficiency by bulk enabling on-demand concurrent builds across all projects with a single click. 🔄 This feature allows builds to start immediately upon request, optimizing compute capacity, except when multiple builds target the same Git branch. To activate this, visit your Pro team&amp;rsquo;s billing settings to enable or disable it for existing projects or select specific projects. Learn more in the documentation! 📄💻 #BuildAutomation #DevOps #ProjectManagement #TechUpdates</description>
+    </item>
+    <item>
+      <title>Critical npm supply chain attack response - September 8, 2025</title>
+      <link>/articles/article-2025-09-08-9447/</link>
+      <pubDate>Mon, 08 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9447/</guid>
+      <description>On September 8, 2025, a supply chain attack impacted 18 popular npm packages, including chalk, debug, and ansi-styles. These packages had malicious code aimed at intercepting cryptocurrency transactions in browsers. 🚨 Our security and engineering teams responded by identifying the affected projects and purging build caches. Affected customers have been notified with specific guidance. 🔍🔒 #CyberSecurity #npm #SupplyChainAttack #Cryptocurrency #Malware</description>
     </item>
     <item>
       <title>Vercel Functions now support graceful shutdown</title>

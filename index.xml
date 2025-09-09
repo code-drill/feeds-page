@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 17:52:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 21:28:56 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Gateway API Support for DigitalOcean Kubernetes</title>
+      <link>/articles/article-2025-09-09-9479/</link>
+      <pubDate>Tue, 09 Sep 2025 21:28:56 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9479/</guid>
+      <description>🚀 Exciting news for DigitalOcean Kubernetes users! The Kubernetes Gateway API is now pre-installed in all DOKS clusters at no extra cost. This new traffic management solution offers advanced routing capabilities and superior performance using Cilium’s eBPF technology. Key benefits include zero configuration, header-based routing, and seamless integration with DigitalOcean Load Balancers. The Gateway API also enhances team collaboration by separating infrastructure management from application&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Migrating Lyft’s Android Codebase to Kotlin</title>
+      <link>/articles/article-2025-09-09-9494/</link>
+      <pubDate>Tue, 09 Sep 2025 20:34:03 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9494/</guid>
+      <description>🚀 Lyft has successfully migrated its Android codebase to Kotlin, a journey that began in 2018. The Rider, Driver, and Urban Solutions apps are now fully Kotlin-based. This transition offers benefits like concise code, faster compile speeds with the K2 compiler, and support for modern UI frameworks like Compose. To manage the migration, Lyft utilized a tool called Migration Tracker, which monitors progress and helps automate the process. Challenges included issues with the migration tool and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI as a conduit for management cybernetics</title>
+      <link>/articles/article-2025-09-09-9493/</link>
+      <pubDate>Tue, 09 Sep 2025 19:15:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9493/</guid>
+      <description>AI is emerging as a crucial tool in management cybernetics, enhancing decision-making processes in organizations. The article discusses how AI can optimize operations and improve efficiency by providing insights into complex data systems. As businesses look to the future, understanding AI’s role in decision science becomes vital for effective management. 🔍🤖📊 #AI #Management #DecisionScience #Cybernetics #BusinessInsights</description>
+    </item>
     <item>
       <title>Sustainability 101: What is packaging sustainability?</title>
       <link>/articles/article-2025-09-09-9459/</link>
@@ -16,11 +37,32 @@
       <description>🌍 &lt;strong&gt;Understanding Packaging Sustainability&lt;/strong&gt; 🌱 Packaging plays a significant role in our daily lives, but much of it becomes waste quickly. The OECD reports that 31% of plastic production is for packaging, often single-use. This waste can lead to environmental issues, including toxin emissions and greenhouse gases from landfills. Research highlights that non-recyclable items, like certain foams and food-contaminated aluminum, add to the problem. These materials can disrupt ecosystems and harm&amp;hellip;</description>
     </item>
     <item>
+      <title>Real-Time Materialized Views With MongoDB Atlas Stream Processing</title>
+      <link>/articles/article-2025-09-09-9490/</link>
+      <pubDate>Tue, 09 Sep 2025 17:45:42 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9490/</guid>
+      <description>🚀 Developers transitioning from relational databases may struggle with MongoDB’s avoidance of joins, which can lead to performance issues. Instead of using joins, MongoDB encourages data duplication and denormalization for better efficiency. This method reduces query latency and simplifies architecture. MongoDB Atlas Stream Processing facilitates real-time materialized views, enhancing query optimization without the overhead of traditional ETL processes. Explore how to leverage these modern&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerating scientific discovery with AI-powered empirical software</title>
+      <link>/articles/article-2025-09-09-9498/</link>
+      <pubDate>Tue, 09 Sep 2025 17:08:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9498/</guid>
+      <description>🚀 Exciting advancements in scientific research! A new AI system has been developed to assist scientists in writing empirical software, achieving expert-level results across six challenging benchmarks. This system addresses the bottleneck in hypothesis evaluation by generating high-quality custom software. By leveraging large language models, the AI can propose and implement novel concepts, optimizing performance through extensive code iteration. This innovation spans diverse fields including&amp;hellip;</description>
+    </item>
+    <item>
       <title>How to Connect Distributed Data Centers Into Large AI Factories with Scale-Across Networking</title>
       <link>/articles/article-2025-09-09-9465/</link>
       <pubDate>Tue, 09 Sep 2025 17:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-09-9465/</guid>
       <description>AI scaling faces challenges due to physical limitations in data centers, such as power and cooling capacity. 🌐 Traditional long-haul Ethernet solutions can lead to high latency and unpredictable data delivery, which is problematic for AI workloads. NVIDIA&amp;rsquo;s Spectrum-XGS Ethernet technology introduces scale-across networking, allowing multiple data centers to function as one large AI factory, enhancing performance for training and inference tasks. 🚀 #ArtificialIntelligence #DataCenters&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Behind the screens: Building Atlassian’s new icon system</title>
+      <link>/articles/article-2025-09-09-9495/</link>
+      <pubDate>Tue, 09 Sep 2025 16:57:30 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9495/</guid>
+      <description>🚀 Atlassian is evolving its icon system to enhance user experience! After six years, the team recognized inconsistencies in size, style, and clarity across over 350 icons. This led to a redesign aimed at creating a cohesive, modern look that aligns with current UI standards. The new icons feature refined stroke widths and improved alignment, ensuring better visual harmony with the overall design. Stay tuned for more updates on this exciting transformation! #Atlassian #Design #UserExperience&amp;hellip;</description>
     </item>
     <item>
       <title>AI Training for Network Engineers</title>
@@ -58,11 +100,60 @@
       <description>🚀 MPS 2025.2 has officially launched! This update enhances quality and stability while introducing key features. Users can now start MPS with OS-native launchers for easier access. The Show Node Info dialog has been modernized, and resolve-info updates during copy-paste have improved. 🔧 Notable changes include: - New binary launchers for Windows and Linux - FactoryMethodIcon support - Compatibility with Java 21 For more details, visit the What’s New page! #MPS2025 #SoftwareUpdate #Java21&amp;hellip;</description>
     </item>
     <item>
+      <title>How MongoDB Helps Your Brand Thrive in the Age of AI</title>
+      <link>/articles/article-2025-09-09-9491/</link>
+      <pubDate>Tue, 09 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9491/</guid>
+      <description>In the evolving landscape of e-commerce, the concept of the Zero Moment of Truth (ZMOT) is changing. With AI agents now influencing shopping decisions, brands must adapt their strategies. The new term, Agentic Moment of Truth (AMOT), reflects this shift where AI assists users in making purchases. To succeed, brands need to ensure their products are discoverable by AI, as traditional marketing methods become less effective. Key solutions include utilizing a remote MCP server powered by MongoDB&amp;hellip;</description>
+    </item>
+    <item>
       <title>What qualifies for Red Hat Developer Subscription for Teams?</title>
       <link>/articles/article-2025-09-09-9464/</link>
       <pubDate>Tue, 09 Sep 2025 14:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-09-9464/</guid>
       <description>Unlock development potential with the Red Hat Developer Subscription for Teams! 🚀 This program provides organizations using Red Hat technologies free access to Red Hat Enterprise Linux for development activities. It&amp;rsquo;s available via Red Hat representatives or self-service at developers.redhat.com. Key activities covered include software design, coding, building, testing, and pre-production setups. The subscription supports efficient application development and deployment. For more details,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A more flexible Pro plan for modern teams</title>
+      <link>/articles/article-2025-09-09-9480/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9480/</guid>
+      <description>🚀 Vercel is enhancing its Pro plan to better support modern team collaboration and evolving workloads, including those driven by AI. Key updates aim to align with how applications now consume infrastructure. Stay tuned for a more flexible approach to managing your projects! #Vercel #ProPlan #TeamCollaboration #AI #Infrastructure</description>
+    </item>
+    <item>
+      <title>Free Viewer seats now available on Pro</title>
+      <link>/articles/article-2025-09-09-9484/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9484/</guid>
+      <description>🚀 Exciting news for Pro teams! You can now add unlimited Viewer seats at no extra cost. This allows team members to collaborate more flexibly without affecting your budget. Viewers can access project dashboards, deployments, and analytics but can&amp;rsquo;t change production settings or see sensitive data. Developer seats remain at $20, while Viewer seats are free. Team members can easily request upgrades from owners directly in the dashboard. #ProUpdates #TeamCollaboration #ViewerSeats #CostEfficient&amp;hellip;</description>
+    </item>
+    <item>
+      <title>HIPAA BAAs are now available to Pro teams</title>
+      <link>/articles/article-2025-09-09-9485/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9485/</guid>
+      <description>Pro teams can now enter into a Business Associate Agreement (BAA) on Vercel, supporting HIPAA-compliant workloads without needing an Enterprise contract. Vercel ensures HIPAA compliance through technical safeguards, annual audits, and breach notifications. However, compliance is a shared responsibility; teams must manage security features and access. This update simplifies regulatory compliance for healthcare applications. #HIPAA #Vercel #HealthcareTech #DataSecurity #ProTeams 🏥🔒📊</description>
+    </item>
+    <item>
+      <title>Included Pro usage is now credit-based</title>
+      <link>/articles/article-2025-09-09-9482/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9482/</guid>
+      <description>🚀 Big news for Pro users! The Pro plan now features a $20 monthly usage credit, replacing fixed allocations with a flexible system that adjusts to your workload. This update enhances your experience by allowing better management of resources. Additional benefits include free viewer seats, self-serve enterprise features like SAML SSO and HIPAA BA, and improved spend management. #ProPlan #UsageCredit #TechUpdates #EnterpriseFeatures #FlexibleSystem</description>
+    </item>
+    <item>
+      <title>No build queues: On-demand concurrent builds now on by default</title>
+      <link>/articles/article-2025-09-09-9481/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9481/</guid>
+      <description>🚀 Exciting news for teams on the new Pro pricing model! On-demand concurrent builds are now enabled by default, allowing builds to start immediately across projects without queue delays. This applies unless multiple builds target the same Git branch. Teams can manage this setting anytime with the new bulk enable feature, even if not yet on the Pro model. Learn more about these updates and the Pro pricing switch in the documentation! #BuildAutomation #ProPricing #DevOps #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Spend Management now enabled by default on Pro</title>
+      <link>/articles/article-2025-09-09-9483/</link>
+      <pubDate>Tue, 09 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9483/</guid>
+      <description>🚀 Spend Management is now the default for all Pro teams! New Pro teams will have a budget set based on previous usage, while existing teams will see no changes to their current budgets. You’ll receive email alerts when approaching your spend threshold, helping you manage costs effectively. Adjust settings anytime for flexibility. Stay informed and optimize your spending! #SpendManagement #ProTeams #CostControl #Budgeting #BusinessUpdates</description>
     </item>
     <item>
       <title>Investigating IntelliJ Platform UI Freezes</title>
@@ -93,6 +184,13 @@
       <description>🌍 Namita J., a Meraki Technical Leader at Cisco, shares her inspiring journey of a 21-day motorcycle trip across Europe. Cisco’s culture of trust and flexibility allowed her to take 30 days off without concerns about work. Her manager and team fully supported her adventure, ensuring a seamless workflow in her absence. This experience highlights how Cisco promotes work-life balance, empowering employees to pursue their dreams. 🏍️✨ #WorkLifeBalance #Cisco #EmployeeWellbeing #DreamBig&amp;hellip;</description>
     </item>
     <item>
+      <title>App Store submissions now open for the latest OS releases</title>
+      <link>/articles/article-2025-09-09-9499/</link>
+      <pubDate>Tue, 09 Sep 2025 12:00:09 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9499/</guid>
+      <description>🚀 App developers, good news! Submissions are now open for iOS 26, iPadOS 26, macOS Tahoe 26, tvOS 26, visionOS 26, and watchOS 26. Utilize Xcode 26 and the latest SDKs to create unique apps and games. Test your creations with TestFlight before submitting for review. Starting April 2026, ensure your submissions meet the required SDK standards for each platform. 📲 Learn more about the new requirements! #AppDevelopment #Apple #iOS26 #Xcode26 #TechNews</description>
+    </item>
+    <item>
       <title>Extracting trending keywords from OpenChat messages</title>
       <link>/articles/article-2025-09-09-9457/</link>
       <pubDate>Tue, 09 Sep 2025 09:30:00 +0000</pubDate>
@@ -121,11 +219,46 @@
       <description>🔒 Secure your DNS traffic in Red Hat OpenShift with DNS over TLS (DoT). This feature enhances security by ensuring all DNS communications are encrypted, aligning with zero trust architecture principles. 🛠️ The recent RHEL 10 release introduces encrypted DNS, allowing DoT during installation and runtime. While currently a Technology Preview in Identity Management (IdM), it lays the groundwork for secure operations. 🔍 Explore installation steps for IdM and OpenShift, including configuring DNS&amp;hellip;</description>
     </item>
     <item>
+      <title>1Password announces new integration with Zscaler</title>
+      <link>/articles/article-2025-09-09-9488/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9488/</guid>
+      <description>🔒 1Password has announced a new integration with Zscaler, aimed at enhancing Zero Trust practices for their shared customers. This integration allows users to secure access to applications from both managed and unmanaged devices, ensuring only trusted devices can authenticate. Companies with active accounts can set this up via the 1Password Marketplace. Discover more about this integration today! #1Password #Zscaler #ZeroTrust #Cybersecurity #Integration</description>
+    </item>
+    <item>
       <title>5 practical concepts for building trust in government digital strategies with Elastic</title>
       <link>/articles/article-2025-09-09-9471/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-09-9471/</guid>
       <description>🌐 Explore how Elastic is enhancing digital strategies in the public sector. The article outlines five key concepts: 1. Open source and open standards 2. Sovereign infrastructure 3. Responsible AI 4. Cybersecurity and resilience 5. Data-driven government Elastic supports organizations in managing their data securely and efficiently. Learn how to build trust with these strategies! #DigitalGovernment #PublicSector #Elastic #DataSecurity #AI</description>
+    </item>
+    <item>
+      <title>A Heartfelt Thanks to Our Community of Builders</title>
+      <link>/articles/article-2025-09-09-9496/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9496/</guid>
+      <description>We&amp;rsquo;re thrilled to announce that Twilio has been named one of Fast Company&amp;rsquo;s 2025 Best Workplaces for Innovators! 🎉 This recognition highlights our commitment to fostering a creative culture and empowering innovation within our community of builders. Thank you to everyone who contributes to this vibrant environment! 🙌 #Twilio #Innovation #BestWorkplaces #Community #Gratitude</description>
+    </item>
+    <item>
+      <title>A2A Extensions: Empowering Custom Agent Functionality</title>
+      <link>/articles/article-2025-09-09-9500/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9500/</guid>
+      <description>A2A Extensions enhance agent-to-agent communication by allowing developers to add custom functionalities beyond the core protocol. These extensions support specialized features tailored to specific needs, making it easier for agents to meet unique requirements. 📈 Getting started is user-friendly; developers can define and publish extensions through a simple &amp;ldquo;Agent Card.&amp;rdquo; This fosters an open, community-driven ecosystem. 🌐 Current use cases, like the Traceability Extension, highlight the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>August 2025 in Auth0: Non-Unique Emails, DPoP, and TLS Fingerprints</title>
+      <link>/articles/article-2025-09-09-9489/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9489/</guid>
+      <description>🚀 Exciting updates from Auth0 for August 2025! This month, they introduced flexibility with passwordless connection switching on Universal Login, allowing users to choose their login method easily. They also launched early access to Non-Unique Emails, enabling multiple accounts to share the same email, benefiting various business scenarios. Additionally, enhanced security features like DPoP and TLS Fingerprints have been added to protect users from token theft. #Auth0 #ProductUpdate&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Beyond backpropagation: JAX&#39;s symbolic power unlocks new frontiers in scientific computing</title>
+      <link>/articles/article-2025-09-09-9501/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9501/</guid>
+      <description>🚀 JAX is expanding its role beyond AI model development, now making strides in scientific computing. Researchers are utilizing JAX to tackle complex Partial Differential Equations (PDEs), achieving notable speed and memory efficiency. Its support for composable transformations simplifies the computation of high-order derivatives, essential for advanced research. This shift towards JAX is helping scientists overcome computational challenges in areas like physics-informed machine learning&amp;hellip;.</description>
     </item>
     <item>
       <title>Built with UE5, Borderlands 4 delivers ambitious scale with World Partition, Nanite, Lumen, and more</title>
@@ -399,6 +532,13 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-08-9434/</guid>
       <description>📱 Signal has introduced secure backups, addressing a long-standing user request. This new opt-in feature allows users to back up their message history, ensuring important conversations are not lost if a phone is damaged or lost. Currently available in beta for Android, it will soon roll out to iOS and Desktop. Secure backups are end-to-end encrypted and refresh daily for added security. #Signal #SecureBackups #Privacy #Messaging #TechUpdates</description>
+    </item>
+    <item>
+      <title>Perform a Warm Transfer to a Human Agent from the OpenAI Realtime API using Twilio Programmable SIP and TypeScript</title>
+      <link>/articles/article-2025-09-08-9497/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9497/</guid>
+      <description>🚀 Learn how to seamlessly connect OpenAI&amp;rsquo;s Realtime SIP Connector with Twilio’s Programmable SIP. This guide covers the process of interacting with an AI Agent and performing a warm transfer to a human agent using TypeScript. Enhance your communication solutions effectively! 🔗 Check out the full tutorial for detailed steps. #Twilio #OpenAI #SIP #TypeScript #Developers</description>
     </item>
     <item>
       <title>Veo 3 and Veo 3 Fast – new pricing, new configurations and better resolution</title>

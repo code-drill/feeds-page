@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 20:34:03 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Lyft’s Android Codebase to Kotlin</title>
+      <link>/articles/article-2025-09-09-9494/</link>
+      <pubDate>Tue, 09 Sep 2025 20:34:03 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9494/</guid>
+      <description>🚀 Lyft has successfully migrated its Android codebase to Kotlin, a journey that began in 2018. The Rider, Driver, and Urban Solutions apps are now fully Kotlin-based. This transition offers benefits like concise code, faster compile speeds with the K2 compiler, and support for modern UI frameworks like Compose. To manage the migration, Lyft utilized a tool called Migration Tracker, which monitors progress and helps automate the process. Challenges included issues with the migration tool and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Real-Time Materialized Views With MongoDB Atlas Stream Processing</title>
+      <link>/articles/article-2025-09-09-9490/</link>
+      <pubDate>Tue, 09 Sep 2025 17:45:42 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9490/</guid>
+      <description>🚀 Developers transitioning from relational databases may struggle with MongoDB’s avoidance of joins, which can lead to performance issues. Instead of using joins, MongoDB encourages data duplication and denormalization for better efficiency. This method reduces query latency and simplifies architecture. MongoDB Atlas Stream Processing facilitates real-time materialized views, enhancing query optimization without the overhead of traditional ETL processes. Explore how to leverage these modern&amp;hellip;</description>
+    </item>
     <item>
       <title>How to Connect Distributed Data Centers Into Large AI Factories with Scale-Across Networking</title>
       <link>/articles/article-2025-09-09-9465/</link>

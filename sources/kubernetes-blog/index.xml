@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Snapshottable API server cache</title>
+      <link>/articles/article-2025-09-09-9504/</link>
+      <pubDate>Tue, 09 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-09-9504/</guid>
+      <description>Kubernetes v1.34 introduces the snapshottable API server cache, now in Beta. This feature enhances the API server&amp;rsquo;s performance and stability by allowing most read requests to be served from cache. Key improvements include consistent reads and efficient handling of large responses. The new cache generates lightweight snapshots, ensuring predictable memory usage and reducing load on etcd. This marks a significant step towards a more resilient Kubernetes environment. 🌐✨ #Kubernetes #API&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: VolumeAttributesClass for Volume Modification GA</title>
       <link>/articles/article-2025-09-08-9451/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 07:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Use An Init Container To Define App Environment Variables</title>
+      <link>/articles/article-2025-09-10-9536/</link>
+      <pubDate>Wed, 10 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9536/</guid>
+      <description>🚀 Kubernetes v1.34 introduces an alpha feature that simplifies how environment variables are set for containers. You can now define environment variables directly from a file in an emptyDir volume, without the need for mounting it into the main container. This approach streamlines app configuration and reduces API calls. Keep in mind, while it can handle sensitive data, security measures should be in place to protect node access. #Kubernetes #DevOps #CloudComputing #Containers #K8s</description>
+    </item>
+    <item>
+      <title>How Observability in Lakeflow Helps You Build Reliable Data Pipelines</title>
+      <link>/articles/article-2025-09-10-9535/</link>
+      <pubDate>Wed, 10 Sep 2025 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9535/</guid>
+      <description>Lakeflow offers a suite of observability features designed for data engineers. These tools help maintain efficient and reliable data pipelines, even as data volume increases. By utilizing Lakeflow, teams can confidently manage the health of their data systems, reducing risks associated with stale pipelines. #DataPipelines #Observability #Lakeflow #DataEngineering #DataManagement 📊🔍💻</description>
+    </item>
     <item>
       <title>How to deploy language models with Red Hat OpenShift AI</title>
       <link>/articles/article-2025-09-10-9507/</link>
@@ -21,6 +35,13 @@
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-10-9527/</guid>
       <description>Motion design is transforming user experience (UX) by enhancing both function and feel. Today’s web users expect dynamic, responsive interfaces. Motion design helps communicate messages quickly, making interactions clearer and more engaging. For instance, using scroll-triggered animations can effectively highlight key features. Recent studies emphasize that smooth animations enhance user satisfaction and decision-making. Tools like LottieFiles for Webflow simplify the integration of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Supercharge your Git workflows</title>
+      <link>/articles/article-2025-09-10-9531/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9531/</guid>
+      <description>Struggling with slow Git clone times? ⏳ Introducing &lt;strong&gt;Git Much Faster&lt;/strong&gt;! This optimization script helps developers reduce clone times significantly, with improvements of up to 93%. By utilizing various benchmarking techniques, it transforms workflows for large repositories. Key benefits include: - Reduced CI/CD pipeline delays - Lower infrastructure costs - Enhanced developer productivity 🚀 Learn how to implement these optimizations for both development and CI/CD environments. #Git #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>Sustainability 101: What is packaging sustainability?</title>

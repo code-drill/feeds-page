@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 07:26:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 14:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Scalable Document Processing Pipeline With LlamaParse, Confluent Cloud, and MongoDB</title>
+      <link>/articles/article-2025-09-10-9515/</link>
+      <pubDate>Wed, 10 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9515/</guid>
+      <description>As data volumes grow, organizations face challenges in extracting insights from unstructured documents. This article introduces a scalable document processing pipeline using AWS S3, LlamaParse, Confluent Cloud, and MongoDB. The architecture enables real-time processing and semantic enrichment of documents, enhancing applications like search and recommendation systems. Key components include intelligent parsing, streaming data management, and flexible storage solutions. Explore how this system&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Hallucinations to Prompt Injection: Securing AI Workflows at Runtime</title>
+      <link>/articles/article-2025-09-10-9516/</link>
+      <pubDate>Wed, 10 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9516/</guid>
+      <description>Developers are facing new challenges as AI workflows become potential attack surfaces. With AI tools like LLMs generating code, issues can arise only at runtime, leading to serious risks such as data loss or unauthorized commands. ⚠️ Prompt injections and misuse of AI outputs are significant threats. Recent incidents have shown how AI-generated scripts can unintentionally delete databases or expose sensitive information. 📉 To tackle these risks, integrating runtime security directly into&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Bringing News and Conversations Together with Reddit Pro Tools for Publishers</title>
+      <link>/articles/article-2025-09-10-9513/</link>
+      <pubDate>Wed, 10 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9513/</guid>
+      <description>📢 Exciting updates for publishers! Reddit has launched Reddit Pro tools to enhance content sharing and engagement. 📰 This new suite includes features like article insights, auto-importing articles, and community recommendations. Publishers can track their stories&amp;rsquo; performance and connect directly with users on Reddit. 📈 With 75% of redditors reading online news regularly, these tools aim to streamline how media outlets share and discuss content. #RedditPro #PublishingTools #MediaEngagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kotlin 2.2.20 Released</title>
+      <link>/articles/article-2025-09-10-9511/</link>
+      <pubDate>Wed, 10 Sep 2025 09:54:07 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9511/</guid>
+      <description>🚀 Kotlin 2.2.20 is here with key updates for web development! Kotlin/Wasm is now in Beta, featuring enhanced exception handling, improved npm dependency management, and built-in browser debugging support. Highlights include: - Swift export for Kotlin Multiplatform - Improved overload resolution for lambdas - Smaller binary sizes in Kotlin/Native - Long values as JavaScript BigInt in Kotlin/JS For detailed changes, check the release notes on GitHub. #Kotlin #WebDevelopment #Programming&amp;hellip;</description>
+    </item>
     <item>
       <title>Junie Is Now Available in CLion: Supercharge Your C and C&#43;&#43; Development Today</title>
       <link>/articles/article-2025-09-10-9509/</link>
@@ -35,6 +63,20 @@
       <pubDate>Wed, 10 Sep 2025 00:51:27 +0000</pubDate>
       <guid>/articles/article-2025-09-10-9503/</guid>
       <description>🚀 Robinhood has launched exciting new tools for active traders at the HOOD Summit 2025! Introducing &lt;strong&gt;Robinhood Social&lt;/strong&gt;, a community feature offering live, verified trades and discussions on strategies. Users can follow traders, track real performance, and connect with market insiders. 🔍 &lt;strong&gt;Robinhood Legend&lt;/strong&gt; also sees enhancements with AI-powered indicators, futures trading, and expanded asset options, all aimed at improving trading analysis. These features will roll out early next year to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Defending Against AI-Powered CLI Supply Chain Attacks</title>
+      <link>/articles/article-2025-09-10-9514/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9514/</guid>
+      <description>🚨 AI-powered CLI supply chain attacks are becoming a serious threat to developers. These attacks exploit trusted command-line tools, turning them into insider threats that can steal sensitive data. A recent example involves an attacker exploiting a developer&amp;rsquo;s credentials to publish a malicious update, compromising systems and stealing secrets. To defend against these threats, an identity-first strategy is essential for securing developer environments and preventing data exfiltration. Stay&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Jupyter Agents: training LLMs to reason with notebooks</title>
+      <link>/articles/article-2025-09-10-9512/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-10-9512/</guid>
+      <description>🚀 Jupyter Agents aim to enhance LLMs by enabling code execution directly in Jupyter Notebooks. This integration helps tackle complex data science tasks more efficiently. The initiative focuses on improving smaller models to compete with larger ones through high-quality training data and fine-tuning methods. Stay tuned for updates on this innovative project! 🧠💻 #Jupyter #LLM #DataScience #AI #MachineLearning</description>
     </item>
     <item>
       <title>Bitbucket Cloud enters phase two of app password deprecation</title>
@@ -567,6 +609,13 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-08-9449/</guid>
       <description>🚀 More women are breaking into sales, challenging outdated perceptions and proving success isn&amp;rsquo;t gender-specific. Many women excel in roles that require problem-solving and relationship-building, making sales a promising path. With the potential for financial freedom, transferable skills, and career growth, it&amp;rsquo;s an opportunity worth exploring. 🌟 If you&amp;rsquo;re ready to step into a rewarding career, consider sales! #WomenInSales #CareerGrowth #SalesOpportunities #DiversityInBusiness #Empowerment</description>
+    </item>
+    <item>
+      <title>Gemini Batch API now supports Embeddings and OpenAI Compatibility</title>
+      <link>/articles/article-2025-09-08-9518/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9518/</guid>
+      <description>🚀 Exciting news for developers! The Gemini Batch API now supports the new Gemini Embedding model and OpenAI SDK, allowing for efficient batch processing. This enhancement offers asynchronous processing at 50% lower rates, ideal for high-volume use cases. You can access the Gemini Embedding model at just $0.075 per 1M input tokens. Start integrating with just a few lines of code! #GeminiAPI #OpenAI #Developers #TechUpdates #Embeddings</description>
     </item>
     <item>
       <title>How to Configure the Auth0 MCP Server in VS Code for AI Assistant Integration</title>

@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 16:01:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 17:18:36 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smarter nucleic acid design with NucleoBench and AdaBeam</title>
+      <link>/articles/article-2025-09-11-9561/</link>
+      <pubDate>Thu, 11 Sep 2025 17:18:36 +0000</pubDate>
+      <guid>/articles/article-2025-09-11-9561/</guid>
+      <description>🚀 Exciting advancements in nucleic acid design! Researchers have developed NucleoBench, an open-source benchmark for evaluating nucleic acid sequence design algorithms. This tool runs over 400,000 experiments across various biological challenges to improve therapeutic development. Alongside NucleoBench, they introduced AdaBeam, a new algorithm that outperforms existing methods on 11 out of 16 tasks, showing better scalability for complex models. Both NucleoBench and AdaBeam are available for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Multi-Agent Systems Need Memory Engineering</title>
+      <link>/articles/article-2025-09-11-9558/</link>
+      <pubDate>Thu, 11 Sep 2025 15:12:47 +0000</pubDate>
+      <guid>/articles/article-2025-09-11-9558/</guid>
+      <description>Multi-agent AI systems often struggle not due to communication issues, but because of memory limitations. Agents frequently duplicate tasks and work from inconsistent states, which worsens as more agents join. A solution lies in memory engineering, which provides a structured approach to manage agent memory. This allows for better coordination and efficiency in complex tasks. Understanding and implementing shared memory infrastructure is crucial for successful multi-agent deployments. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Quantization Aware Training Enables Low-Precision Accuracy Recovery</title>
+      <link>/articles/article-2025-09-11-9553/</link>
+      <pubDate>Thu, 11 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-11-9553/</guid>
+      <description>Optimizing AI models for deployment involves various compression techniques. Post-training quantization (PTQ) is common, but quantization aware training (QAT) and quantization aware distillation (QAD) provide significant advantages. These methods prepare models for lower precision by simulating quantization effects, enhancing accuracy recovery. Learn more about these techniques and their impact on model performance! 📊🤖 #AI #Quantization #MachineLearning #ModelOptimization #TechTrends</description>
+    </item>
     <item>
       <title>Next Gen Data Processing at Massive Scale At Pinterest With Moka (Part 2 of 2)</title>
       <link>/articles/article-2025-09-10-9530/</link>
@@ -119,6 +140,13 @@
       <pubDate>Mon, 08 Sep 2025 14:02:38 +0000</pubDate>
       <guid>/articles/article-2025-09-08-9429/</guid>
       <description>🚀 Exciting advancements in scaling Mixture of Experts (MoE) models with vLLM and the llm-d project are transforming open-source LLM capabilities. 🌐 This article discusses innovations like multi-head latent attention and sparse configurations, enabling efficient deployment in Kubernetes. Learn how vLLM enhances expert parallelism and communication for large models. For detailed insights, check the full article! 📊 #MachineLearning #AI #Kubernetes #DeepLearning #OpenSource</description>
+    </item>
+    <item>
+      <title>Scaling DeepSeek-style MoEs with vLLM and llm-d using Wide EP</title>
+      <link>/articles/article-2025-09-08-9551/</link>
+      <pubDate>Mon, 08 Sep 2025 14:02:38 +0000</pubDate>
+      <guid>/articles/article-2025-09-08-9551/</guid>
+      <description>🔍 Exciting advancements in serving large-scale Mixture of Experts (MoE) language models are discussed in a recent article on vLLM and llm-d. The article covers the architectural changes in vLLM that enhance the efficiency of DeepSeek-style models. Key innovations include multi-head latent attention and sparse configurations with hundreds of experts. llm-d enables high-performance deployments in Kubernetes, offering intelligent scheduling and expert parallelism for efficient scaling. Learn&amp;hellip;</description>
     </item>
     <item>
       <title>Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing</title>

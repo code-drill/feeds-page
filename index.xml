@@ -6,14 +6,35 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 17:00:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 20:00:47 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ServiceNow Says Windsurf Gave Its Engineers a 10% Productivity Boost</title>
+      <link>/articles/article-2025-09-12-9620/</link>
+      <pubDate>Fri, 12 Sep 2025 20:00:47 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9620/</guid>
+      <description>ServiceNow&amp;rsquo;s CTO, Pat Casey, shared insights on the company&amp;rsquo;s unique approach to infrastructure. Unlike many firms, 90% of ServiceNow&amp;rsquo;s workloads run on their own physical hardware. This strategy allows effective management of their AI infrastructure. The switch from GitHub Copilot to Windsurf has improved developer productivity by 10%. Casey emphasized the importance of reliable infrastructure for AI tasks. 🌐💻 #ServiceNow #AI #Productivity #TechNews #Infrastructure</description>
+    </item>
+    <item>
+      <title>Databricks on Databricks: Scaling Database Reliability</title>
+      <link>/articles/article-2025-09-12-9623/</link>
+      <pubDate>Fri, 12 Sep 2025 19:20:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9623/</guid>
+      <description>Databricks engineers share insights on enhancing database reliability through big data analytics tools. The article discusses strategies employed to scale their systems effectively, showcasing the role of advanced analytics in ensuring dependable performance. Learn how these techniques can benefit database management. 📊🔍 #Databricks #DatabaseReliability #BigData #DataEngineering #Analytics</description>
+    </item>
     <item>
       <title>Your APIs Are Costing More Than You Think</title>
       <link>/articles/article-2025-09-12-9609/</link>
       <pubDate>Fri, 12 Sep 2025 17:00:40 +0000</pubDate>
       <guid>/articles/article-2025-09-12-9609/</guid>
       <description>APIs play a crucial role in modern software, but their costs can be hidden within complex cloud bills and inefficient practices. Traditional cost monitoring often fails to identify the true drivers of API spend. Steve Rodda from Ambassador highlights issues with historical analysis, which can delay necessary actions for months. To optimize costs effectively, organizations need to shift towards continuous, automated monitoring that connects technical details to business value. #APICosts&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your Voice Belongs Here: Creating Compelling KotlinConf Proposals [Livestream]</title>
+      <link>/articles/article-2025-09-12-9621/</link>
+      <pubDate>Fri, 12 Sep 2025 16:57:17 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9621/</guid>
+      <description>🌟 Ready to elevate your speaking skills? Join the webinar &amp;ldquo;Your Voice Belongs Here&amp;rdquo; on October 14! This session is tailored for individuals from underrepresented groups in tech who have some speaking experience and want to present at KotlinConf. Learn what makes a compelling CFP, how to craft your proposal, and what reviewers seek. Connect, build confidence, and prepare to share your Kotlin journey! #KotlinConf #PublicSpeaking #TechInclusion #CFP #DiversityInTech</description>
     </item>
     <item>
       <title>Read Meta’s 2025 Sustainability Report</title>
@@ -119,6 +140,13 @@
       <pubDate>Fri, 12 Sep 2025 02:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-12-9600/</guid>
       <description>🚀 Dive into the latest insights from Munetoshi Ishikawa on improving code quality in mobile development! This week&amp;rsquo;s article focuses on the FooItemRepository class, highlighting its functions: getItem and getItemAsync. These functions are designed for data retrieval, with getItem prioritizing cached values to ensure non-blocking calls. Discover how effective caching can enhance performance in your applications! 📱💻 #CodeQuality #MobileDevelopment #Programming #SoftwareEngineering #Caching</description>
+    </item>
+    <item>
+      <title>Postgres High Availability with CDC</title>
+      <link>/articles/article-2025-09-12-9622/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9622/</guid>
+      <description>Postgres High Availability can face challenges with Change Data Capture (CDC). The design of Postgres’ replication introduces complexities that may stall failover. The primary system emits Write Ahead Logs (WAL) to standbys. However, if a CDC client lags, it can prevent effective failover, as the logical replication slot on the primary depends on the client&amp;rsquo;s progress. Postgres 17 introduced logical replication failover, but eligibility for promotion has specific requirements. If the CDC&amp;hellip;</description>
     </item>
     <item>
       <title>Unreal Fellowship: Games—explore the making of six awesome games in three weeks</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Sep 2025 22:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 19:20:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databricks on Databricks: Scaling Database Reliability</title>
+      <link>/articles/article-2025-09-12-9623/</link>
+      <pubDate>Fri, 12 Sep 2025 19:20:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9623/</guid>
+      <description>Databricks engineers share insights on enhancing database reliability through big data analytics tools. The article discusses strategies employed to scale their systems effectively, showcasing the role of advanced analytics in ensuring dependable performance. Learn how these techniques can benefit database management. 📊🔍 #Databricks #DatabaseReliability #BigData #DataEngineering #Analytics</description>
+    </item>
+    <item>
+      <title>Postgres High Availability with CDC</title>
+      <link>/articles/article-2025-09-12-9622/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9622/</guid>
+      <description>Postgres High Availability can face challenges with Change Data Capture (CDC). The design of Postgres’ replication introduces complexities that may stall failover. The primary system emits Write Ahead Logs (WAL) to standbys. However, if a CDC client lags, it can prevent effective failover, as the logical replication slot on the primary depends on the client&amp;rsquo;s progress. Postgres 17 introduced logical replication failover, but eligibility for promotion has specific requirements. If the CDC&amp;hellip;</description>
+    </item>
     <item>
       <title>Speculative cascades — A hybrid approach for smarter, faster LLM inference</title>
       <link>/articles/article-2025-09-11-9597/</link>

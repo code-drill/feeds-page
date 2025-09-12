@@ -447,6 +447,21 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://planetscale.com/blog/postgres-ha-with-cdc" target="_blank">Postgres High Availability with CDC</a></h2>
+            <div class="publication-date">2025-09-12 00:00</div>
+            <div class="summary">Postgres High Availability can face challenges with Change Data Capture (CDC). The design of Postgres’ replication introduces complexities that may stall failover. The primary system emits Write Ahead Logs (WAL) to standbys. However, if a CDC client lags, it can prevent effective failover, as the logical replication slot on the primary depends on the client&#39;s progress. Postgres 17 introduced logical replication failover, but eligibility for promotion has specific requirements. If the CDC...</div>
+            <div class="source">Source: PlanetScale Blog</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://planetscale.com/blog/announcing-neki" target="_blank">Announcing Neki</a></h2>
             <div class="publication-date">2025-08-11 00:00</div>
             <div class="summary">🚀 Exciting news in the database world! Today, the team behind Vitess announced Neki, a new sharded Postgres solution. Neki aims to bring the power of explicit sharding to Postgres users, leveraging insights from extensive experience with Vitess. This initiative is not a fork of Vitess but a fresh architecture designed to handle demanding workloads effectively. Stay updated on Neki&#39;s development by signing up at neki.dev! #Neki #Postgres #Databases #OpenSource #Vitess</div>

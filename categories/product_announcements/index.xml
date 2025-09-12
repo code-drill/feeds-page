@@ -6,14 +6,35 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 16:30:25 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Amazon EC2 M4 and M4 Pro Mac instances</title>
+      <link>/articles/article-2025-09-12-9618/</link>
+      <pubDate>Fri, 12 Sep 2025 16:30:25 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9618/</guid>
+      <description>🚀 AWS has launched new EC2 M4 and M4 Pro Mac instances, enhancing performance for iOS/macOS development. These instances, built on Apple M4 Mac mini, feature up to 48GB memory and 2TB storage, making them ideal for complex build processes and multiple iOS simulators. With improved performance—up to 20% better than M2 instances—developers can streamline their workflows and run tests more efficiently. Explore seamless integration with AWS services like CodeBuild and CloudFormation. #AWS #EC2&amp;hellip;</description>
+    </item>
     <item>
       <title>Scalable Automation Starts Here: Meet Stagehand and MongoDB Atlas</title>
       <link>/articles/article-2025-09-12-9608/</link>
       <pubDate>Fri, 12 Sep 2025 14:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-12-9608/</guid>
       <description>Discover how Stagehand and MongoDB Atlas are transforming AI data workflows! 🌐 Stagehand simplifies browser automation using natural language and code, allowing developers to reliably extract web data. 🖥️ Its adaptability to UI changes enhances efficiency. Once data is gathered, MongoDB Atlas provides a flexible, scalable database for real-time processing and AI applications. 📊 With features like vector search and stream processing, it supports diverse data types seamlessly. Explore the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>402-mcp enables x402 payments in MCP</title>
+      <link>/articles/article-2025-09-12-9615/</link>
+      <pubDate>Fri, 12 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9615/</guid>
+      <description>🚀 Introducing x402-mcp! This new library integrates with the AI SDK, allowing for seamless x402 paywalls on Model Context Protocol (MCP) servers. It enables secure, account-less payments for MCP tools with confirmation times of just 100–200ms and low fees under $0.01. Getting started is simple with just one function needed for integration. Learn more about x402 and the AI Starter Kit today! #x402mcp #AI #Payments #MCP #TechInnovation</description>
+    </item>
+    <item>
+      <title>Introducing x402-mcp: Open protocol payments for MCP tools</title>
+      <link>/articles/article-2025-09-12-9614/</link>
+      <pubDate>Fri, 12 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9614/</guid>
+      <description>🚀 Introducing x402-mcp: a new solution for open protocol payments in MCP tools. AI agents face challenges when accessing paid external services due to complex workflows. The x402 protocol simplifies this by allowing payment requests directly within HTTP requests, using the 402 Payment Required status code. This integration enhances the Model Context Protocol (MCP) servers alongside the Vercel AI SDK. #AI #OpenProtocol #PaymentSolutions #TechInnovation #MCP</description>
     </item>
     <item>
       <title>New Vercel CLI login flow</title>
@@ -28,6 +49,13 @@
       <pubDate>Fri, 12 Sep 2025 10:55:32 +0000</pubDate>
       <guid>/articles/article-2025-09-12-9606/</guid>
       <description>🚀 Exciting news for developers using TeamCity! A new GitHub Releases Support plugin simplifies the process of publishing releases for open-source projects. No more custom scripts or authentication hassles—just a few clicks to publish builds as GitHub releases. To get started, download the plugin from the Marketplace and add it to your build configurations. Key features include setting release tags, titles, and asset paths easily. #GitHub #TeamCity #DevTools #OpenSource #Automation</description>
+    </item>
+    <item>
+      <title>VaultGemma: The world&#39;s most capable differentially private LLM</title>
+      <link>/articles/article-2025-09-12-9617/</link>
+      <pubDate>Fri, 12 Sep 2025 08:14:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9617/</guid>
+      <description>🚀 Introducing VaultGemma, the largest differentially private language model trained from scratch! As AI becomes more integrated into daily life, ensuring privacy is essential. VaultGemma uses differential privacy (DP) to protect user data by adding calibrated noise that prevents memorization. Our research with Google DeepMind highlights the trade-offs of applying DP in large language models, including increased computation costs and altered training dynamics. We are excited to release&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta</title>

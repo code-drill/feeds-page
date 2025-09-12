@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Sep 2025 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 02:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 46: Functions are not what they seem</title>
+      <link>/articles/article-2025-09-12-9600/</link>
+      <pubDate>Fri, 12 Sep 2025 02:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9600/</guid>
+      <description>🚀 Dive into the latest insights from Munetoshi Ishikawa on improving code quality in mobile development! This week&amp;rsquo;s article focuses on the FooItemRepository class, highlighting its functions: getItem and getItemAsync. These functions are designed for data retrieval, with getItem prioritizing cached values to ensure non-blocking calls. Discover how effective caching can enhance performance in your applications! 📱💻 #CodeQuality #MobileDevelopment #Programming #SoftwareEngineering #Caching</description>
+    </item>
     <item>
       <title>Circles Uses MongoDB to Fuel Jetpac’s Rapid Global Expansion</title>
       <link>/articles/article-2025-09-11-9592/</link>
@@ -70,6 +77,13 @@
       <pubDate>Thu, 11 Sep 2025 19:00:14 +0000</pubDate>
       <guid>/articles/article-2025-09-11-9568/</guid>
       <description>🚨 Security teams face new challenges with autonomous AI agents that operate without human consciousness. These systems can expose vulnerabilities in traditional authorization processes. To address this, organizations should implement three key strategies: 1. &lt;strong&gt;Assign Composite Identities&lt;/strong&gt; - This helps clarify the relationship between AI actions and human operators, enhancing accountability. Understanding these risks is crucial for maintaining secure environments. #CyberSecurity #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta</title>
+      <link>/articles/article-2025-09-11-9601/</link>
+      <pubDate>Thu, 11 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-11-9601/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The Mutable CSI Node Allocatable feature has officially graduated to Beta in the v1.34 release. This update allows CSI drivers to dynamically adjust attachable volume counts, improving the accuracy of stateful pod scheduling and reducing issues with outdated capacity information. 🔧 With two update mechanisms—periodic and reactive—Kubernetes enhances pod placement reliability. To enable this feature, activate the MutableCSINodeAllocatableCount gate on&amp;hellip;</description>
     </item>
     <item>
       <title>Accelerate serverless testing with LocalStack integration in VS Code IDE</title>

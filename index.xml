@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 23:30:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Sep 2025 07:19:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A deep dive into Cloudflare’s September 12, 2025 dashboard and API outage</title>
+      <link>/articles/article-2025-09-13-9629/</link>
+      <pubDate>Sat, 13 Sep 2025 07:19:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-13-9629/</guid>
+      <description>🚨 On September 12, 2025, Cloudflare experienced a significant outage affecting its Dashboard and several APIs. The disruption lasted for about an hour, triggered by a bug that caused excessive calls to the Tenant Service API. This led to instability and authorization failures across the platform. Cloudflare has since detailed the timeline of events and corrective measures taken to prevent future occurrences. For more insights, check out their full post. #Cloudflare #APIOutage #TechUpdate&amp;hellip;</description>
+    </item>
     <item>
       <title>The key to production AI agents: Evaluations</title>
       <link>/articles/article-2025-09-12-9625/</link>
@@ -126,6 +133,13 @@
       <pubDate>Fri, 12 Sep 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-12-9607/</guid>
       <description>🚀 Exciting updates for Vercel users! The new Vercel CLI login now employs the OAuth 2.0 Device Flow for enhanced security and ease of use. You can sign in from any browser-enabled device. Before approving a login, remember to check the location, IP, and request time. Note that email-based logins and several flags will be phased out by February 1, 2026. Upgrade today with &lt;code&gt;npm i vercel@latest&lt;/code&gt;! #Vercel #OAuth #SecurityUpdate #WebDevelopment #TechNews</description>
+    </item>
+    <item>
+      <title>Qwen3-Next models are now supported in Vercel AI Gateway</title>
+      <link>/articles/article-2025-09-12-9628/</link>
+      <pubDate>Fri, 12 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9628/</guid>
+      <description>🚀 Exciting news! Qwen3 Next models are now available through the Vercel AI Gateway. These two efficient models from QwenLM utilize only 3B parameters. You can access them without needing additional provider accounts. The AI Gateway offers a unified API, tracking usage, cost management, and performance optimizations. To get started, install the AI SDK v5 and set the model to alibaba/qwen3-next-80b-a3b-thinking. Learn more about the capabilities of the AI Gateway! #AI #Vercel #QwenLM #TechNews&amp;hellip;</description>
     </item>
     <item>
       <title>Achieve Effortless GitHub Releases With a New Plugin for TeamCity</title>

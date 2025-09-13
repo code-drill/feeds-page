@@ -447,6 +447,21 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://kubernetes.io/blog/2025/09/12/kubernetes-v1-34-cri-cgroup-driver-lookup-now-ga/" target="_blank">Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA</a></h2>
+            <div class="publication-date">2025-09-12 18:30</div>
+            <div class="summary">Kubernetes v1.34 introduces a significant improvement in cgroup driver configuration. The new feature, KubeletCgroupDriverFromCRI, allows the kubelet to automatically detect the cgroup driver from the CRI implementation. This aims to reduce configuration issues for cluster admins. It&#39;s important to ensure your CRI is updated: - containerd: Needs v2.0.0 or later - CRI-O: Needs v1.28.0 or later Kubernetes is also deprecating containerd v1.y support, with the last supported version being v1.35....</div>
+            <div class="source">Source: Kubernetes Blog</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://kubernetes.io/blog/2025/09/11/kubernetes-v1-34-mutable-csi-node-allocatable-count/" target="_blank">Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta</a></h2>
             <div class="publication-date">2025-09-11 18:30</div>
             <div class="summary">🚀 Exciting news for Kubernetes users! The Mutable CSI Node Allocatable feature has officially graduated to Beta in the v1.34 release. This update allows CSI drivers to dynamically adjust attachable volume counts, improving the accuracy of stateful pod scheduling and reducing issues with outdated capacity information. 🔧 With two update mechanisms—periodic and reactive—Kubernetes enhances pod placement reliability. To enable this feature, activate the MutableCSINodeAllocatableCount gate on...</div>

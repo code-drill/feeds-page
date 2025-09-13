@@ -44,6 +44,13 @@
       <description>Databricks engineers share insights on enhancing database reliability through big data analytics tools. The article discusses strategies employed to scale their systems effectively, showcasing the role of advanced analytics in ensuring dependable performance. Learn how these techniques can benefit database management. 📊🔍 #Databricks #DatabaseReliability #BigData #DataEngineering #Analytics</description>
     </item>
     <item>
+      <title>Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA</title>
+      <link>/articles/article-2025-09-12-9627/</link>
+      <pubDate>Fri, 12 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9627/</guid>
+      <description>Kubernetes v1.34 introduces a significant improvement in cgroup driver configuration. The new feature, KubeletCgroupDriverFromCRI, allows the kubelet to automatically detect the cgroup driver from the CRI implementation. This aims to reduce configuration issues for cluster admins. It&amp;rsquo;s important to ensure your CRI is updated: - containerd: Needs v2.0.0 or later - CRI-O: Needs v1.28.0 or later Kubernetes is also deprecating containerd v1.y support, with the last supported version being v1.35&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Your APIs Are Costing More Than You Think</title>
       <link>/articles/article-2025-09-12-9609/</link>
       <pubDate>Fri, 12 Sep 2025 17:00:40 +0000</pubDate>

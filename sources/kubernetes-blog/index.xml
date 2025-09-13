@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA</title>
+      <link>/articles/article-2025-09-12-9627/</link>
+      <pubDate>Fri, 12 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-12-9627/</guid>
+      <description>Kubernetes v1.34 introduces a significant improvement in cgroup driver configuration. The new feature, KubeletCgroupDriverFromCRI, allows the kubelet to automatically detect the cgroup driver from the CRI implementation. This aims to reduce configuration issues for cluster admins. It&amp;rsquo;s important to ensure your CRI is updated: - containerd: Needs v2.0.0 or later - CRI-O: Needs v1.28.0 or later Kubernetes is also deprecating containerd v1.y support, with the last supported version being v1.35&amp;hellip;.</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta</title>
       <link>/articles/article-2025-09-11-9601/</link>

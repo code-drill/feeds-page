@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 07:00:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 18:57:44 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an anomaly detection platform at DoorDash to catch fraud trends early</title>
+      <link>/articles/article-2025-09-15-9668/</link>
+      <pubDate>Mon, 15 Sep 2025 18:57:44 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9668/</guid>
+      <description>🚨 DoorDash has developed an anomaly detection platform aimed at identifying fraud trends earlier. The system scans millions of user segments to detect subtle behavioral changes that may indicate emerging fraud patterns. Key concepts include anomalous trend detection, focusing on collective user behavior, and anomalous outlier detection, which identifies individual anomalies. This proactive approach seeks to mitigate potential losses before they escalate. #FraudDetection #DoorDash&amp;hellip;</description>
+    </item>
     <item>
       <title>Why some agentic AI developers are moving code from Python to Rust</title>
       <link>/articles/article-2025-09-15-9636/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 15 Sep 2025 07:00:51 +0000</pubDate>
       <guid>/articles/article-2025-09-15-9637/</guid>
       <description>🔍 Discover the essentials of Confidential Virtual Machines (CVMs) and their role in enhancing the security of confidential containers (CoCo). CVMs utilize hardware and software to ensure data confidentiality, isolating workloads from the host environment. This integration with Red Hat Enterprise Linux (RHEL) and OpenShift boosts security standards for data in use. 🛡️ Learn about features like Unified Kernel Images (UKI) and remote attestation that enhance the protection of workloads&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>How we supercharged GitLab CI statuses with WebSockets</title>
+      <link>/articles/article-2025-09-15-9666/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9666/</guid>
+      <description>🚀 We&amp;rsquo;ve made significant improvements to GitLab&amp;rsquo;s CI job status updates by reducing API calls by 92.56%! In 2025, we&amp;rsquo;ve shifted from legacy polling to WebSockets, allowing real-time updates without unnecessary network traffic. This change means users now see job status updates instantly instead of waiting up to 30 seconds. With GraphQL subscriptions, we’ve transformed how data is fetched, resulting in just 3.4 million calls per day, down from 45 million. Stay tuned as we work on implementing&amp;hellip;</description>
     </item>
     <item>
       <title>A deep dive into Cloudflare’s September 12, 2025 dashboard and API outage</title>

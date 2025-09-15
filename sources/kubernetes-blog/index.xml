@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Decoupled Taint Manager Is Now Stable</title>
+      <link>/articles/article-2025-09-15-9667/</link>
+      <pubDate>Mon, 15 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9667/</guid>
+      <description>🚀 Kubernetes v1.34 introduces a stable Decoupled Taint Manager! This update separates the node lifecycle management from pod eviction. A new taint eviction controller now handles pod evictions, while the node lifecycle controller focuses on applying taints. The feature gate SeparateTaintEvictionController is now GA, and users can disable taint-based eviction if needed. For more details, check the KEP and previous announcements. A big thank you to all contributors for their efforts! 🙌&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA</title>
       <link>/articles/article-2025-09-12-9627/</link>

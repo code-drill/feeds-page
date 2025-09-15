@@ -16,6 +16,13 @@
       <description>🚀 GitLab and Accenture have announced a global reseller agreement, making Accenture an authorized reseller of GitLab&amp;rsquo;s DevSecOps platform. This collaboration aims to enhance digital transformation for organizations. Key focus areas include: - &lt;strong&gt;Enterprise-scale DevSecOps Transformation&lt;/strong&gt; for modernizing development practices - &lt;strong&gt;Mainframe Modernization&lt;/strong&gt; to assist customers in migrating from legacy systems - &lt;strong&gt;GitLab Duo with Amazon Q&lt;/strong&gt; for AI-driven software development ensuring security and&amp;hellip;</description>
     </item>
     <item>
+      <title>How we supercharged GitLab CI statuses with WebSockets</title>
+      <link>/articles/article-2025-09-15-9666/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9666/</guid>
+      <description>🚀 We&amp;rsquo;ve made significant improvements to GitLab&amp;rsquo;s CI job status updates by reducing API calls by 92.56%! In 2025, we&amp;rsquo;ve shifted from legacy polling to WebSockets, allowing real-time updates without unnecessary network traffic. This change means users now see job status updates instantly instead of waiting up to 30 seconds. With GraphQL subscriptions, we’ve transformed how data is fetched, resulting in just 3.4 million calls per day, down from 45 million. Stay tuned as we work on implementing&amp;hellip;</description>
+    </item>
+    <item>
       <title>Supercharge your Git workflows</title>
       <link>/articles/article-2025-09-10-9531/</link>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>

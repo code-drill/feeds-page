@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Sep 2025 07:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 07:00:53 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why some agentic AI developers are moving code from Python to Rust</title>
+      <link>/articles/article-2025-09-15-9636/</link>
+      <pubDate>Mon, 15 Sep 2025 07:00:53 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9636/</guid>
+      <description>AI developers are exploring a shift from Python to Rust for agentic AI solutions. While Python is popular for its simplicity and rich libraries, its Global Interpreter Lock (GIL) limits performance in CPU-bound tasks, especially as systems scale from 5 to 500 agents. Rust offers a solution with better concurrency and scalability, allowing more efficient handling of multiple agents and CPU-intensive tasks. Developers are finding that a hybrid approach—prototyping in Python and optimizing with&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Confidential VMs: The core of confidential containers</title>
+      <link>/articles/article-2025-09-15-9637/</link>
+      <pubDate>Mon, 15 Sep 2025 07:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-09-15-9637/</guid>
+      <description>🔍 Discover the essentials of Confidential Virtual Machines (CVMs) and their role in enhancing the security of confidential containers (CoCo). CVMs utilize hardware and software to ensure data confidentiality, isolating workloads from the host environment. This integration with Red Hat Enterprise Linux (RHEL) and OpenShift boosts security standards for data in use. 🛡️ Learn about features like Unified Kernel Images (UKI) and remote attestation that enhance the protection of workloads&amp;hellip;.</description>
+    </item>
     <item>
       <title>A deep dive into Cloudflare’s September 12, 2025 dashboard and API outage</title>
       <link>/articles/article-2025-09-13-9629/</link>

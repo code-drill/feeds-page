@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 18:57:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 00:23:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taming the monorepo beast: Our journey to a leaner, faster GitLab repo</title>
+      <link>/articles/article-2025-09-16-9675/</link>
+      <pubDate>Tue, 16 Sep 2025 00:23:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-16-9675/</guid>
+      <description>🚀 At Grab, our engineering team tackled the challenges of a massive Go monorepo that had become a bottleneck over the years. We discovered that replication delays and a hefty repository size were crippling our developer workflows. With 12.7 million commits and 22.1 million Git trees, performance suffered significantly. To address this, we implemented a custom migration strategy that reduced commits by 99.9%, improving replication time from minutes to seconds! This transformation not only&amp;hellip;</description>
+    </item>
     <item>
       <title>Building an anomaly detection platform at DoorDash to catch fraud trends early</title>
       <link>/articles/article-2025-09-15-9668/</link>

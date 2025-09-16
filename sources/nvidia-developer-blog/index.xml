@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 17:35:13 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reducing Cold Start Latency for LLM Inference with NVIDIA Run:ai Model Streamer</title>
+      <link>/articles/article-2025-09-16-9702/</link>
+      <pubDate>Tue, 16 Sep 2025 17:35:13 +0000</pubDate>
+      <guid>/articles/article-2025-09-16-9702/</guid>
+      <description>🚀 Deploying large language models (LLMs) can be challenging due to cold start delays, which hinder performance and scalability. 🖥️ The article discusses the NVIDIA Run:ai Model Streamer, an open-source SDK that reduces loading times by concurrently streaming model weights into GPU memory. 📊 Benchmark tests show significant improvements in cold start latency, especially in cloud environments, while maintaining compatibility with Safetensor formats. #AI #MachineLearning #NVIDIA #Inference&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s New in PyNvVideoCodec 2.0 for Python GPU-Accelerated Video Processing</title>
+      <link>/articles/article-2025-09-16-9703/</link>
+      <pubDate>Tue, 16 Sep 2025 17:32:46 +0000</pubDate>
+      <guid>/articles/article-2025-09-16-9703/</guid>
+      <description>🚀 Exciting news for video processing developers! PyNvVideoCodec 2.0 is an upgraded NVIDIA library for GPU-accelerated video encoding, decoding, and transcoding using Python. This lightweight, easy-to-install library offers performance on par with the native SDK. It supports projects in video analytics, AI preprocessing, media transcoding, and real-time streaming, combining the speed of C++ with the ease of Python. Discover the enhanced features and performance improvements in this latest&amp;hellip;</description>
+    </item>
     <item>
       <title>Autodesk Research Brings Warp Speed to Computational Fluid Dynamics on NVIDIA GH200</title>
       <link>/articles/article-2025-09-16-9692/</link>

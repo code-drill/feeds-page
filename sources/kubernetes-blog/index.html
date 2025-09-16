@@ -447,6 +447,21 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://kubernetes.io/blog/2025/09/16/kubernetes-v1-34-volume-group-snapshot-beta-2/" target="_blank">Kubernetes v1.34: Moving Volume Group Snapshots to v1beta2</a></h2>
+            <div class="publication-date">2025-09-16 18:30</div>
+            <div class="summary">Kubernetes v1.34 has moved volume group snapshots to a second beta. 📦✨ This feature allows users to take crash consistent snapshots of multiple volumes using extension APIs. It relies on a label selector to group PersistentVolumeClaims for better snapshot management. Currently, it is supported only for CSI volume drivers. In this beta, a new VolumeSnapshotInfo struct has been introduced, enhancing snapshot identification and management. The project aims for general availability in future...</div>
+            <div class="source">Source: Kubernetes Blog</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://kubernetes.io/blog/2025/09/15/kubernetes-v1-34-decoupled-taint-manager-is-now-stable/" target="_blank">Kubernetes v1.34: Decoupled Taint Manager Is Now Stable</a></h2>
             <div class="publication-date">2025-09-15 18:30</div>
             <div class="summary">🚀 Kubernetes v1.34 introduces a stable Decoupled Taint Manager! This update separates the node lifecycle management from pod eviction. A new taint eviction controller now handles pod evictions, while the node lifecycle controller focuses on applying taints. The feature gate SeparateTaintEvictionController is now GA, and users can disable taint-based eviction if needed. For more details, check the KEP and previous announcements. A big thank you to all contributors for their efforts! 🙌...</div>

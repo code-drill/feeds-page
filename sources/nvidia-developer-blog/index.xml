@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 20:51:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 18:09:12 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to Speculative Decoding for Reducing Latency in AI Inference</title>
+      <link>/articles/article-2025-09-17-9746/</link>
+      <pubDate>Wed, 17 Sep 2025 18:09:12 +0000</pubDate>
+      <guid>/articles/article-2025-09-17-9746/</guid>
+      <description>🚀 Speculative decoding is a key technique for reducing latency in AI inference with large language models (LLMs). It addresses the bottleneck caused by the sequential nature of autoregressive generation, which can lead to underutilization of GPU power. By predicting multiple tokens at once, it enhances efficiency without sacrificing output quality. This method pairs a target model with a lightweight draft mechanism to speed up text generation, making AI systems more responsive. Explore how&amp;hellip;</description>
+    </item>
     <item>
       <title>Just Released: Warp 1.9</title>
       <link>/articles/article-2025-09-16-9709/</link>

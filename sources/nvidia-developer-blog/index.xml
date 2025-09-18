@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 22:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 17:29:36 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Kaggle Grandmasters Playbook: 7 Battle-Tested Modeling Techniques for Tabular Data</title>
+      <link>/articles/article-2025-09-18-9781/</link>
+      <pubDate>Thu, 18 Sep 2025 17:29:36 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9781/</guid>
+      <description>Unlock the secrets of Kaggle competitions with the &amp;ldquo;Kaggle Grandmasters Playbook&amp;rdquo;! 📊✨ This playbook outlines 7 proven techniques for tackling tabular data challenges, emphasizing fast experimentation and robust validation. By leveraging GPU acceleration, you can enhance your modeling process effectively. Key highlights include: - &lt;strong&gt;Fast Experimentation:&lt;/strong&gt; Optimize your pipeline for speed to uncover patterns quickly. - &lt;strong&gt;Local Validation:&lt;/strong&gt; Use k-fold cross-validation for reliable performance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Reduce KV Cache Bottlenecks with NVIDIA Dynamo</title>
+      <link>/articles/article-2025-09-18-9782/</link>
+      <pubDate>Thu, 18 Sep 2025 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9782/</guid>
+      <description>As AI models expand, managing inference has become a significant challenge due to the Key-Value (KV) Cache requirements. 🧠 The KV Cache stores crucial attention data but grows with prompt length, leading to bottlenecks in GPU memory. This can affect performance and increase costs. 💰 NVIDIA Dynamo&amp;rsquo;s latest release addresses this by offloading the KV Cache to more affordable storage, enabling faster access without disrupting inference. ⚡ Explore how these optimizations can enhance user&amp;hellip;</description>
+    </item>
     <item>
       <title>NVIDIA RAPIDS 25.08 Adds New Profiler for cuML, Updates to the Polars GPU Engine, Additional Algorithm Support, and More</title>
       <link>/articles/article-2025-09-17-9752/</link>

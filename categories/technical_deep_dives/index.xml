@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Sep 2025 07:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 16:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Reduce KV Cache Bottlenecks with NVIDIA Dynamo</title>
+      <link>/articles/article-2025-09-18-9782/</link>
+      <pubDate>Thu, 18 Sep 2025 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9782/</guid>
+      <description>As AI models expand, managing inference has become a significant challenge due to the Key-Value (KV) Cache requirements. 🧠 The KV Cache stores crucial attention data but grows with prompt length, leading to bottlenecks in GPU memory. This can affect performance and increase costs. 💰 NVIDIA Dynamo&amp;rsquo;s latest release addresses this by offloading the KV Cache to more affordable storage, enabling faster access without disrupting inference. ⚡ Explore how these optimizations can enhance user&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Modernizing Core Insurance Systems: Breaking the Batch Bottleneck</title>
+      <link>/articles/article-2025-09-18-9790/</link>
+      <pubDate>Thu, 18 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9790/</guid>
+      <description>Modernizing legacy databases to Java + MongoDB Atlas can enhance batch performance without sacrificing efficiency. By utilizing bulk operations, intelligent prefetching, and parallel execution, we developed a framework that significantly improves execution times—often achieving 10-15x better performance compared to legacy systems. 🌐📊 This modernization allows for flexibility, scalability, and real-time insights, addressing common challenges in batch job performance. Adapting to today&amp;rsquo;s&amp;hellip;</description>
+    </item>
     <item>
       <title>Reach native speed with MacOS llama.cpp container inference</title>
       <link>/articles/article-2025-09-18-9764/</link>

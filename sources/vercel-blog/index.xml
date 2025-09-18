@@ -6,8 +6,22 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale to one: How Fluid solves cold starts</title>
+      <link>/articles/article-2025-09-18-9787/</link>
+      <pubDate>Thu, 18 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9787/</guid>
+      <description>🚀 Cold starts are a challenge for traditional serverless platforms, causing delays during crucial user interactions. Vercel&amp;rsquo;s Fluid compute technology addresses this issue by achieving zero cold starts for 99.37% of requests. This means faster response times and a better user experience. Say goodbye to the choice between cost and performance! #Serverless #TechInnovation #UserExperience #WebDevelopment #Vercel</description>
+    </item>
+    <item>
+      <title>What you need to know about vibe coding</title>
+      <link>/articles/article-2025-09-18-9786/</link>
+      <pubDate>Thu, 18 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9786/</guid>
+      <description>In February 2025, Andrej Karpathy coined the term &amp;ldquo;vibe coding,&amp;rdquo; highlighting a new approach to programming with AI. This method encourages developers to embrace creativity and focus on ideas rather than the technical details of code. Currently, over 90% of U.S. developers are using AI coding tools, and the trend is expanding to other professions. English is now recognized as the fastest growing programming language globally. Explore more insights in our State of Vibe Coding report! 🖥️✨🌍&amp;hellip;</description>
+    </item>
     <item>
       <title>Generate static AI SDK tools from MCP servers with mcp-to-ai-sdk</title>
       <link>/articles/article-2025-09-17-9737/</link>
@@ -28,6 +42,13 @@
       <pubDate>Tue, 16 Sep 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-16-9676/</guid>
       <description>🚀 Exciting news for developers! Builds now start up to 30% faster thanks to improvements in the build cache. The cache now downloads parts in parallel using a worker pool, reducing initialization time by 30% and cutting down build times by up to 7 seconds for all plans. This enhancement is automatically enabled for new builds, building on previous improvements. Learn more about this update on Vercel! #DevUpdates #BuildFaster #Vercel #TechNews #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Shai-Halud Supply Chain Campaign — Expanded Impact &amp; Vercel Response</title>
+      <link>/articles/article-2025-09-16-9788/</link>
+      <pubDate>Tue, 16 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-16-9788/</guid>
+      <description>🚨 The Shai-Halud supply chain campaign has escalated, impacting over 40 npm packages, including Tinycolor and CrowdStrike. Vercel identified 10 customer projects affected by compromised packages but confirmed that no builds were impacted in the DuckDB incident. Steps taken include blocking compromised versions and purging build caches. Vercel is enhancing supply chain defenses and monitoring for further threats. For Vercel users, audit dependencies and consider using pnpm&amp;rsquo;s new settings to&amp;hellip;</description>
     </item>
     <item>
       <title>Helly Hansen migrated to Vercel and drove 80% Black Friday growth</title>

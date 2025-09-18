@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Pods Report DRA Resource Health</title>
+      <link>/articles/article-2025-09-17-9762/</link>
+      <pubDate>Wed, 17 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-17-9762/</guid>
+      <description>🚀 Kubernetes v1.34 introduces a new alpha feature that enhances visibility into the health of specialized hardware in clusters, crucial for AI/ML workloads. This update allows Dynamic Resource Allocation (DRA) drivers to report device health directly in a Pod’s status field, aiding quick diagnosis of issues. With the new gRPC health service and integration with Kubelet, operators can now identify hardware failures more efficiently, saving valuable time in troubleshooting. Explore this feature&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: Moving Volume Group Snapshots to v1beta2</title>
       <link>/articles/article-2025-09-16-9705/</link>

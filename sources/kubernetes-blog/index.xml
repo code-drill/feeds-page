@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: DRA Consumable Capacity</title>
+      <link>/articles/article-2025-09-18-9799/</link>
+      <pubDate>Thu, 18 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9799/</guid>
+      <description>🚀 Kubernetes v1.34 introduces DRA Consumable Capacity, enhancing Dynamic Resource Allocation (DRA) for better resource management. This feature allows multiple Pods to share devices more efficiently, accommodating specific workload needs. 🔑 Key benefits include: - Device sharing across multiple ResourceClaims. - Improved resource allocation for portions of devices. - New DistinctAttribute constraint to prevent duplicate allocations. To explore more about enabling this feature and its&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: Pods Report DRA Resource Health</title>
       <link>/articles/article-2025-09-17-9762/</link>

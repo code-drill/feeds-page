@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Sep 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)</title>
+      <link>/articles/article-2025-09-19-9840/</link>
+      <pubDate>Fri, 19 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9840/</guid>
+      <description>🚀 Kubernetes v1.34 has introduced a significant update for PersistentVolumeClaims (PVCs). Now, if you make a mistake while expanding your volumes, you can easily correct it without requiring admin access. Simply reduce the requested size before the expansion completes, and Kubernetes will handle the rest. 💻 This version also enhances error handling and observability during volume expansions. New API fields allow you to monitor progress and errors effectively. Explore these features and&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.34: DRA Consumable Capacity</title>
       <link>/articles/article-2025-09-18-9799/</link>

@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 19 Sep 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How we made global routing faster with Bloom filters</title>
+      <link>/articles/article-2025-09-19-9838/</link>
+      <pubDate>Fri, 19 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9838/</guid>
+      <description>🚀 We recently optimized our global routing service, achieving a 15% reduction in memory usage. This update improved time-to-first-byte (TTFB) by 10% for the 75th percentile and enhanced routing speeds for sites with numerous static paths. By implementing a Bloom filter instead of slow JSON parsing, we significantly decreased path lookup latency, benefiting all users. #TechUpdate #RoutingOptimization #PerformanceEnhancement #WebDevelopment #Innovation</description>
+    </item>
+    <item>
       <title>Observability Plus replacing legacy Monitoring</title>
       <link>/articles/article-2025-09-19-9820/</link>
       <pubDate>Fri, 19 Sep 2025 13:00:00 +0000</pubDate>

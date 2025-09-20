@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Sep 2025 20:15:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 21:58:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legacy plans can now update to credit-based plans</title>
+      <link>/articles/article-2025-09-19-9837/</link>
+      <pubDate>Fri, 19 Sep 2025 21:58:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9837/</guid>
+      <description>🚀 Legacy pricing accounts can keep their current plans without any changes. However, there&amp;rsquo;s an option to switch to new credit-based plans if desired. 🔍 Explore updated pricing and learn about the credit system. Use the pricing calculator to estimate costs effectively. 💬 For further questions, refer to the legacy plans FAQ or contact support. #PricingUpdate #CreditBasedPlans #CustomerSupport</description>
+    </item>
+    <item>
+      <title>It’s Splunkin’ Time to Rev Up Your Security Skills</title>
+      <link>/articles/article-2025-09-19-9836/</link>
+      <pubDate>Fri, 19 Sep 2025 21:43:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9836/</guid>
+      <description>🚀 Exciting news for networking professionals! Cisco has launched the Rev Up to Recert: Security Solutions program, offering free access to the Enhancing Cisco Security Solutions with Data Analytics Learning Path. Earn up to 32 Continuing Education credits! 📚 This initiative runs until October 31, 2025, just in time for Cybersecurity Awareness Month. Perfect for both beginners and seasoned pros looking to enhance their Splunk skills. Join now and elevate your career! 💼 #Cisco #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deep researcher with test-time diffusion</title>
+      <link>/articles/article-2025-09-19-9847/</link>
+      <pubDate>Fri, 19 Sep 2025 20:43:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9847/</guid>
+      <description>Introducing Test-Time Diffusion Deep Researcher (TTD-DR), a groundbreaking framework in machine intelligence. 🤖📚 TTD-DR utilizes a Deep Research agent to draft and refine research reports using high-quality information. This method leads to state-of-the-art results in long-form writing and complex reasoning tasks. Unlike traditional DR agents, TTD-DR emulates the iterative human research process, enhancing drafts through research and revision. This innovative approach mirrors the retrieval-&amp;hellip;</description>
+    </item>
     <item>
       <title>Why Linear Built an API For Agents</title>
       <link>/articles/article-2025-09-19-9831/</link>
@@ -28,6 +49,20 @@
       <pubDate>Fri, 19 Sep 2025 19:10:00 +0000</pubDate>
       <guid>/articles/article-2025-09-19-9834/</guid>
       <description>KPMG is leveraging Delta Sharing to enhance data access and auditing for billions of transactions. This approach addresses the significant challenges organizations face in managing secure data access. The article discusses practical applications of this technology, particularly in the energy supply sector, highlighting its impact on improving audit processes. 🔍💼📊 #DataAccess #KPMG #DeltaSharing #Auditing #EnergySector</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)</title>
+      <link>/articles/article-2025-09-19-9840/</link>
+      <pubDate>Fri, 19 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9840/</guid>
+      <description>🚀 Kubernetes v1.34 has introduced a significant update for PersistentVolumeClaims (PVCs). Now, if you make a mistake while expanding your volumes, you can easily correct it without requiring admin access. Simply reduce the requested size before the expansion completes, and Kubernetes will handle the rest. 💻 This version also enhances error handling and observability during volume expansions. New API fields allow you to monitor progress and errors effectively. Explore these features and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The real reason your AI initiatives are failing</title>
+      <link>/articles/article-2025-09-19-9839/</link>
+      <pubDate>Fri, 19 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9839/</guid>
+      <description>AI is transforming code generation, but it&amp;rsquo;s not solving the real challenges in software delivery. 🚀 Many organizations find that while AI speeds up coding, it leads to bottlenecks in getting that code into production. 📉 Studies show enterprise AI implementations often fail to yield significant returns, with delivery throughput stagnating in 2024. The focus on faster coding overlooks critical issues in integration and review processes. As AI-generated code floods systems, teams face delays&amp;hellip;</description>
     </item>
     <item>
       <title>Securing Government Operations: Cisco Security Cloud Control Achieves FedRAMP Authorization</title>
@@ -105,6 +140,13 @@
       <pubDate>Fri, 19 Sep 2025 13:00:38 +0000</pubDate>
       <guid>/articles/article-2025-09-19-9815/</guid>
       <description>Explore the latest advancements in Large Language Model (LLM) inferencing! 🚀 The article discusses six frameworks designed for efficient inferencing, focusing on low latency and high throughput. Key players include vLLM, Hugging Face TGI, and SGLang, each offering unique features for scaling and performance. 🔍 vLLM enhances memory management with PagedAttention, while Hugging Face TGI supports enterprise-level orchestration. SGLang provides programmable control for complex workflows. Discover&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we made global routing faster with Bloom filters</title>
+      <link>/articles/article-2025-09-19-9838/</link>
+      <pubDate>Fri, 19 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9838/</guid>
+      <description>🚀 We recently optimized our global routing service, achieving a 15% reduction in memory usage. This update improved time-to-first-byte (TTFB) by 10% for the 75th percentile and enhanced routing speeds for sites with numerous static paths. By implementing a Bloom filter instead of slow JSON parsing, we significantly decreased path lookup latency, benefiting all users. #TechUpdate #RoutingOptimization #PerformanceEnhancement #WebDevelopment #Innovation</description>
     </item>
     <item>
       <title>Observability Plus replacing legacy Monitoring</title>
@@ -434,6 +476,13 @@
       <pubDate>Thu, 18 Sep 2025 00:59:00 +0000</pubDate>
       <guid>/articles/article-2025-09-18-9761/</guid>
       <description>🌍 Celebrating innovation in tech, the MongoDB Global Partner Awards 2025 recognize partners driving success in AI and modernization. 🏆 Microsoft has been named Global Cloud Partner of the Year for its growth and collaboration with MongoDB across various industries. 🔗 AWS is honored as Global AI Cloud Partner of the Year, showcasing impactful AI solutions, while Google Cloud excels in joint go-to-market initiatives. ✨ Accenture earns recognition for its commitment to customer success in the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Big Changes Are Coming to the Gmail Inbox</title>
+      <link>/articles/article-2025-09-18-9841/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-18-9841/</guid>
+      <description>📧 Big updates are on the way for Gmail users! The platform will introduce relevancy sorting for promotional emails, enhancing how users view their inbox. Additionally, a new purchases tab will help organize transaction-related emails more effectively. These changes are significant for email marketers to consider in their strategies. #GmailUpdates #EmailMarketing #DigitalTrends #InboxChanges #TechNews</description>
     </item>
     <item>
       <title>CrowdStrike Advances Next-Gen Identity Security with Three Key Innovations</title>
@@ -791,6 +840,13 @@
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-17-9757/</guid>
       <description>🚀 Interested in building a smart inventory chatbot? Check out the latest guide on creating one using WhatsApp, LangChain, LangGraph, OpenAI, and Flask. The article provides step-by-step instructions and insights into leveraging these technologies for efficient communication. Enhance your customer interactions today! #ChatbotDevelopment #WhatsApp #OpenAI #LangChain #TechTrends</description>
+    </item>
+    <item>
+      <title>How to schedule a text message on iPhone and Android</title>
+      <link>/articles/article-2025-09-17-9842/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-17-9842/</guid>
+      <description>🚀 Want to send a text at the perfect moment? This guide covers how to schedule text messages on both iPhone and Android. Learn step-by-step methods to ensure your messages reach recipients at the right time, even if you&amp;rsquo;re busy. Never miss an important moment again! 📱💬 #TextMessage #iPhone #Android #TechTips #Communication</description>
     </item>
     <item>
       <title>Navigating the Shai-Hulud Worm: Elastic&#39;s proactive defense against npm supply chain compromise</title>

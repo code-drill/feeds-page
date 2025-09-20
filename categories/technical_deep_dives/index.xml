@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Sep 2025 13:00:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 20:43:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep researcher with test-time diffusion</title>
+      <link>/articles/article-2025-09-19-9847/</link>
+      <pubDate>Fri, 19 Sep 2025 20:43:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9847/</guid>
+      <description>Introducing Test-Time Diffusion Deep Researcher (TTD-DR), a groundbreaking framework in machine intelligence. 🤖📚 TTD-DR utilizes a Deep Research agent to draft and refine research reports using high-quality information. This method leads to state-of-the-art results in long-form writing and complex reasoning tasks. Unlike traditional DR agents, TTD-DR emulates the iterative human research process, enhancing drafts through research and revision. This innovative approach mirrors the retrieval-&amp;hellip;</description>
+    </item>
     <item>
       <title>Six Frameworks for Efficient LLM Inferencing</title>
       <link>/articles/article-2025-09-19-9815/</link>
       <pubDate>Fri, 19 Sep 2025 13:00:38 +0000</pubDate>
       <guid>/articles/article-2025-09-19-9815/</guid>
       <description>Explore the latest advancements in Large Language Model (LLM) inferencing! 🚀 The article discusses six frameworks designed for efficient inferencing, focusing on low latency and high throughput. Key players include vLLM, Hugging Face TGI, and SGLang, each offering unique features for scaling and performance. 🔍 vLLM enhances memory management with PagedAttention, while Hugging Face TGI supports enterprise-level orchestration. SGLang provides programmable control for complex workflows. Discover&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we made global routing faster with Bloom filters</title>
+      <link>/articles/article-2025-09-19-9838/</link>
+      <pubDate>Fri, 19 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-19-9838/</guid>
+      <description>🚀 We recently optimized our global routing service, achieving a 15% reduction in memory usage. This update improved time-to-first-byte (TTFB) by 10% for the 75th percentile and enhanced routing speeds for sites with numerous static paths. By implementing a Bloom filter instead of slow JSON parsing, we significantly decreased path lookup latency, benefiting all users. #TechUpdate #RoutingOptimization #PerformanceEnhancement #WebDevelopment #Innovation</description>
     </item>
     <item>
       <title>Kubernetes v1.34: DRA Consumable Capacity</title>

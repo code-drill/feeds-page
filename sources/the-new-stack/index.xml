@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 14:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 16:16:50 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Fix Performance Issues Error Monitoring Can’t See</title>
+      <link>/articles/article-2025-09-22-9876/</link>
+      <pubDate>Mon, 22 Sep 2025 16:16:50 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9876/</guid>
+      <description>🚀 Users report &amp;ldquo;buggy&amp;rdquo; experiences despite high crash-free rates. Why? Performance issues like slow startup times and memory leaks often go unnoticed by error monitoring. Real User Monitoring (RUM) is essential for identifying these hidden performance bottlenecks. It captures real-world app behavior under various conditions. Key performance problems include cold startup delays and app bloat, which can affect user experience. Tools to monitor and address these issues can help maintain optimal&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How We Cut Telemetry Queries to Under 10 Milliseconds</title>
+      <link>/articles/article-2025-09-22-9877/</link>
+      <pubDate>Mon, 22 Sep 2025 15:00:52 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9877/</guid>
+      <description>🚀 We developed a telemetry pipeline that processes over 5,400 data points per second with response times under 10 milliseconds. 📊 By utilizing techniques from flight simulator data, we improved query performance significantly. Traditional queries took over 30 seconds, but with caching and batching, we reduced this to less than 10ms. ⚙️ Key strategies included implementing Last Value Cache and batch writing, resulting in thousands of metrics processed with no data loss. #Telemetry&amp;hellip;</description>
+    </item>
     <item>
       <title>Is Oreon Linux a True Red Hat Enterprise Alternative?</title>
       <link>/articles/article-2025-09-21-9856/</link>

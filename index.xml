@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 07:01:15 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Python 3.13 on Red Hat Enterprise Linux from EPEL</title>
+      <link>/articles/article-2025-09-22-9860/</link>
+      <pubDate>Mon, 22 Sep 2025 07:01:15 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9860/</guid>
+      <description>📣 Exciting news for developers! Python 3.13 is now available in the EPEL repository for Red Hat Enterprise Linux (RHEL) 9 and 10. This allows users to access the latest Python features seamlessly. To install, ensure the EPEL repository is enabled and run: &lt;code&gt;sudo dnf install python3.13&lt;/code&gt; Verify the installation with: &lt;code&gt;python3.13 --version&lt;/code&gt; For project management, consider using virtual environments to isolate dependencies. Learn more about how EPEL supports software availability while&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Zero trust automation on AWS with Ansible and Terraform</title>
+      <link>/articles/article-2025-09-22-9861/</link>
+      <pubDate>Mon, 22 Sep 2025 07:01:12 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9861/</guid>
+      <description>🚀 Exciting advancements in cloud automation! The latest blog post discusses the Red Hat Ansible Certified Content Collection for amazon.aws 10.0.0. It highlights the amazon.aws.aws_ssm connection plug-in that enhances security by eliminating SSH access and public IPs. Key features include: - Secure provisioning of EC2 instances using Terraform - Management of tasks via Ansible over SSM - Dynamic inventory for automated resource discovery This approach supports zero trust networking and&amp;hellip;</description>
+    </item>
     <item>
       <title>MongoDB Community Edition to Atlas: A Migration Masterclass With BharatPE</title>
       <link>/articles/article-2025-09-21-9859/</link>

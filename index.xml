@@ -6,14 +6,35 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Sep 2025 20:15:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 21:24:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling Muse: How Netflix Powers Data-Driven Creative Insights at Trillion-Row Scale</title>
+      <link>/articles/article-2025-09-22-9898/</link>
+      <pubDate>Mon, 22 Sep 2025 21:24:20 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9898/</guid>
+      <description>🚀 At Netflix, our Muse application plays a vital role in delivering data-driven insights to enhance content discovery for members. Muse helps creative teams identify effective promotional media by analyzing audience engagement with various assets. As user demands evolved, we upgraded Muse&amp;rsquo;s architecture to support advanced features while ensuring high performance. We implemented techniques like HyperLogLog sketches for efficient data processing and utilized the Hollow library for faster&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Part 2: DoorDash 2025 summer intern projects</title>
+      <link>/articles/article-2025-09-22-9894/</link>
+      <pubDate>Mon, 22 Sep 2025 20:41:06 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9894/</guid>
+      <description>🚀 Exciting updates from DoorDash&amp;rsquo;s software engineering internship! This summer, interns contributed to meaningful projects, including enhancing the Merchant Support Hub. Key improvements were made to streamline communication for merchants, addressing issues like visibility and fragmented support interactions. The new features in Support Hub v1.5 include accessing email content, unread indicators, and the ability to reply directly to support agents. These enhancements aim to boost merchant&amp;hellip;</description>
+    </item>
     <item>
       <title>The Trust Foundation: How Unified Agentforce Platform’s Operational Excellence Unlocks Rapid AI Adoption</title>
       <link>/articles/article-2025-09-22-9891/</link>
       <pubDate>Mon, 22 Sep 2025 20:15:46 +0000</pubDate>
       <guid>/articles/article-2025-09-22-9891/</guid>
       <description>Salesforce&amp;rsquo;s Unified Agentforce Platform (UAP) has achieved a 94% adoption rate for AI tools by focusing on operational trust and productivity. The platform connects various sales, service, and marketing functions, integrating advanced AI and data capabilities. In 2024, a strategic &amp;ldquo;Trust Moratorium&amp;rdquo; addressed operational challenges, leading to a Safe Change Program that automated deployment processes, enhancing security and reliability. This initiative resulted in significant improvements,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.34: Pod Level Resources Graduated to Beta</title>
+      <link>/articles/article-2025-09-22-9893/</link>
+      <pubDate>Mon, 22 Sep 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9893/</guid>
+      <description>🚀 Exciting news from the Kubernetes community! The Pod Level Resources feature has graduated to Beta in v1.34 and is now enabled by default. This update allows users to define CPU and memory resources for the entire Pod, streamlining resource management and reducing the need for per-container specifications. Pod-level resources enhance efficiency by enabling containers within a Pod to share unused resources, preventing bottlenecks during peak times. For those ready to explore, ensure your&amp;hellip;</description>
     </item>
     <item>
       <title>Islands Theme: The New Look Coming to JetBrains IDEs</title>
@@ -191,6 +212,13 @@
       <description>🚀 Exciting advancements in cloud automation! The latest blog post discusses the Red Hat Ansible Certified Content Collection for amazon.aws 10.0.0. It highlights the amazon.aws.aws_ssm connection plug-in that enhances security by eliminating SSH access and public IPs. Key features include: - Secure provisioning of EC2 instances using Terraform - Management of tasks via Ansible over SSM - Dynamic inventory for automated resource discovery This approach supports zero trust networking and&amp;hellip;</description>
     </item>
     <item>
+      <title>Breaking the Monolith: How We Used the Strangler Fig Pattern to Transform Segment’s Notification Architecture</title>
+      <link>/articles/article-2025-09-22-9896/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9896/</guid>
+      <description>🚀 Exciting advancements in notification architecture! Segment has adopted the Strangler Fig pattern to modernize its alerts and notifications. This approach promotes modularity, reliability, and reusability in workflows. Learn how this transformation enhances the overall system performance. #TechInnovation #SoftwareDevelopment #Notifications #StranglerFig #ModularDesign</description>
+    </item>
+    <item>
       <title>Elastic excels in AV-Comparatives EPR Test 2025: A closer look</title>
       <link>/articles/article-2025-09-22-9881/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
@@ -238,6 +266,20 @@
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-22-9890/</guid>
       <description>🔒 Falcon Cloud Security is crucial for safeguarding AI development. It detects risks in the CI/CD pipeline and tracks AI workloads in production. As AI becomes integral to applications, it also introduces new security challenges. Without proper visibility, organizations may expose sensitive data or deploy vulnerable code. CrowdStrike&amp;rsquo;s solution offers real-time detection and comprehensive model scanning, ensuring robust protection throughout the AI pipeline. #CloudSecurity #AIDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Self-service in the age of AI: Virtual agents that actually resolve</title>
+      <link>/articles/article-2025-09-22-9895/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9895/</guid>
+      <description>🚀 Tired of ineffective chatbots? Explore AI virtual agents that provide real solutions across various channels. These agents not only enhance customer satisfaction (CSAT) but also relieve your support team from repetitive tasks. Learn how self-service is evolving in the age of AI! 🤖✨ #AI #CustomerSupport #SelfService #VirtualAgents #Technology</description>
+    </item>
+    <item>
+      <title>Use ConversationRelay with the Open Source Agent Builder Flowise: A Multi-Agent Example with Voice</title>
+      <link>/articles/article-2025-09-22-9897/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-22-9897/</guid>
+      <description>Explore how to integrate ConversationRelay with the open-source agent builder Flowise to create a multi-agent voice experience. This guide provides insights on using Twilio Voice alongside Flowise for enhanced voice interactions. Perfect for developers looking to elevate user engagement through voice technology! 📞🔧 #Twilio #Flowise #VoiceTech #Developers #OpenSource</description>
     </item>
     <item>
       <title>MongoDB Community Edition to Atlas: A Migration Masterclass With BharatPE</title>

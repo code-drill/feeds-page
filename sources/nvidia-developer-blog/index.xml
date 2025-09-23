@@ -6,8 +6,50 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Sep 2025 19:19:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 19:20:46 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy High-Performance AI Models in Windows Applications on NVIDIA RTX AI PCs</title>
+      <link>/articles/article-2025-09-23-9930/</link>
+      <pubDate>Tue, 23 Sep 2025 19:20:46 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9930/</guid>
+      <description>🚀 Microsoft has launched Windows ML for developers, enabling C#, C++, and Python programmers to efficiently run AI models on PCs. 🖥️ This tool supports various hardware types, including CPU, NPU, and GPUs. On NVIDIA RTX GPUs, it leverages TensorRT for optimal AI inference performance. 📊 Windows ML simplifies dependency management and helps developers build scalable AI applications seamlessly. #Microsoft #WindowsML #AI #NVIDIA #DeveloperTools</description>
+    </item>
+    <item>
+      <title>Faster Training Throughput in FP8 Precision with NVIDIA NeMo</title>
+      <link>/articles/article-2025-09-23-9931/</link>
+      <pubDate>Tue, 23 Sep 2025 16:36:21 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9931/</guid>
+      <description>Unlocking faster training throughput in FP8 precision with NVIDIA NeMo is the focus of the latest insights. 🚀 The article discusses the benefits of FP8 training, emphasizing real-world speed improvements and potential overheads. It compares various FP8 scaling recipes using NVIDIA GPUs, assessing efficiency, stability, and scalability across large models. Reducing numerical precision to 8 bits enhances computational efficiency, lowers costs, and diminishes communication overhead in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Accelerate Community Detection in Python Using GPU-Powered Leiden</title>
+      <link>/articles/article-2025-09-23-9932/</link>
+      <pubDate>Tue, 23 Sep 2025 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9932/</guid>
+      <description>🚀 Community detection algorithms are vital for uncovering hidden relationships in networks. The Leiden algorithm, a popular choice among data scientists, offers improved performance for large-scale graphs in Python. 🖥️ With GPU acceleration from cuGraph, Leiden can be up to 47x faster than traditional CPU methods, making it suitable for real-world applications across various fields, including social network analysis, recommendation systems, and genomics. 🔍 This article explores Leiden&amp;rsquo;s&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build a Real-Time Visual Inspection Pipeline with NVIDIA TAO 6 and NVIDIA DeepStream 8</title>
+      <link>/articles/article-2025-09-23-9933/</link>
+      <pubDate>Tue, 23 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9933/</guid>
+      <description>🚀 Building a visual inspection pipeline for defect detection can be challenging. Manufacturers often struggle with model customization, optimization for edge devices, and real-time deployment. NVIDIA Metropolis offers solutions through its tools like TAO 6 for fine-tuning models and DeepStream 8 for streaming analytics. These resources help streamline the entire process. 📊 Learn how to effectively implement these technologies to enhance quality control in your workflows. #NVIDIA #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Reasoning Through Molecular Synthetic Pathways with Generative AI</title>
+      <link>/articles/article-2025-09-23-9934/</link>
+      <pubDate>Tue, 23 Sep 2025 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9934/</guid>
+      <description>🌍 In molecular design, synthesizing viable molecules is a major challenge. Assessing synthesizability often involves mapping complex synthesis pathways. 🔬 NVIDIA&amp;rsquo;s ReaSyn model addresses this by predicting molecular synthesis pathways using a novel approach that combines chain-of-thought reasoning with test-time search methods. 🧪 This framework treats synthetic pathways as sequences of reactions, helping chemists deduce effective routes to valuable target molecules. #MolecularDesign&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build a Retrieval-Augmented Generation (RAG) Agent with NVIDIA Nemotron</title>
+      <link>/articles/article-2025-09-23-9935/</link>
+      <pubDate>Tue, 23 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-23-9935/</guid>
+      <description>Discover how to build a Retrieval-Augmented Generation (RAG) agent using NVIDIA Nemotron! This self-paced workshop covers the principles of agentic RAG, enabling systems to make decisions and adapt effectively. You&amp;rsquo;ll learn to create your customized RAG system with LangGraph and access a portable development environment. Join the journey towards advanced text generation! 🚀💻 #NVIDIA #RAG #AI #MachineLearning #TechWorkshop</description>
+    </item>
     <item>
       <title>Predict Extreme Weather Events in Minutes Without a Supercomputer</title>
       <link>/articles/article-2025-09-19-9832/</link>

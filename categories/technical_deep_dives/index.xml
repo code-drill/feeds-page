@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Sep 2025 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 16:02:09 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Next-Generation Key-Value Store at Airbnb</title>
+      <link>/articles/article-2025-09-24-10027/</link>
+      <pubDate>Wed, 24 Sep 2025 16:02:09 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-10027/</guid>
+      <description>🚀 Exciting updates from Airbnb! The team has successfully migrated from Mussel v1 to a rearchitected Mussel v2, enhancing their key-value store for derived data. Mussel v2 addresses issues like operational complexity and performance consistency, now offering real-time streaming and bulk ingestion capabilities. The new architecture utilizes Kubernetes for efficiency, ensuring quick scaling and minimal manual efforts. Airbnb&amp;rsquo;s migration strategy focused on zero data loss and service&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Case for Microfrontends and Moving Beyond One Framework</title>
+      <link>/articles/article-2025-09-24-9983/</link>
+      <pubDate>Wed, 24 Sep 2025 16:00:39 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9983/</guid>
+      <description>Building large applications today presents unique challenges, especially for the frontend. 🖥️ The article discusses the shift from monolithic frontends to microfrontends. This approach allows teams to create independently deployable slices of code, improving deployment safety and reducing bottlenecks. 🚀 However, this model introduces complexity in shared state and design consistency. Organizations can benefit from flexibility in choosing frameworks without being locked into one, but they must&amp;hellip;</description>
+    </item>
     <item>
       <title>From Lag to Agility: Reinventing Freshworks’ Data Ingestion Architecture</title>
       <link>/articles/article-2025-09-24-9961/</link>

@@ -6,8 +6,50 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A simpler path to a safer Internet: an update to our CSAM scanning tool</title>
+      <link>/articles/article-2025-09-24-9976/</link>
+      <pubDate>Wed, 24 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9976/</guid>
+      <description>Cloudflare has updated its CSAM Scanning Tool to enhance accessibility for all customers. Previously, a requirement for credentials from the National Center for Missing and Exploited Children (NCMEC) created barriers for smaller site owners. Now, this requirement has been removed, leading to a significant increase in tool adoption. The updated tool uses fuzzy hashing to identify modified images with high accuracy. The process is now simpler: activate the tool, scan for potential CSAM, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automatically Secure: how we upgraded 6,000,000 domains by default to get ready for the Quantum Future</title>
+      <link>/articles/article-2025-09-24-9977/</link>
+      <pubDate>Wed, 24 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9977/</guid>
+      <description>🚀 Exciting updates on Internet security! Cloudflare has upgraded over 6 million domains to Automatic SSL/TLS for enhanced protection. This service automatically scans and strengthens security without any action from users. As we prepare for future advancements, the focus is on evolving TLS protocols and integrating post-quantum cryptography to safeguard data against emerging threats. Learn more about these important developments! 🔒🌐 #InternetSecurity #Cloudflare #TLS #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Giving users choice with Cloudflare’s new Content Signals Policy</title>
+      <link>/articles/article-2025-09-24-9981/</link>
+      <pubDate>Wed, 24 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9981/</guid>
+      <description>Cloudflare has introduced the Content Signals Policy, empowering creators to manage how their content is used online. This new tool enhances the existing robots.txt, allowing users to define preferences for content usage after access. Unlike the current system, which only regulates access, this policy provides a clear way to communicate content usage rules. This initiative aims to strike a balance between open web access and protecting creators&amp;rsquo; rights. 🌐🔒 #Cloudflare #ContentPolicy&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing data in SaaS to SaaS applications</title>
+      <link>/articles/article-2025-09-24-9979/</link>
+      <pubDate>Wed, 24 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9979/</guid>
+      <description>The recent Salesloft breach highlights a critical issue: companies lack visibility over data in SaaS applications. 🔍 To address this, Cloudflare is developing security tools that consolidate SaaS connections through a single proxy. This aims to enhance monitoring, detection, and response capabilities. 🛡️ SaaS platform providers play a key role in safeguarding customer data, but integrations can create vulnerabilities. With more apps, the risk of data breaches increases. 🔒 Cloudflare&amp;rsquo;s&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing today for the quantum future: WARP client now supports post-quantum cryptography (PQC)</title>
+      <link>/articles/article-2025-09-24-9980/</link>
+      <pubDate>Wed, 24 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9980/</guid>
+      <description>🌐 Exciting news in cybersecurity! Cloudflare has upgraded its WARP client to support post-quantum cryptography (PQC). This move comes as a proactive step towards securing the Internet against future threats from quantum computing, with NIST urging the transition from classical cryptography by 2035. With over 45% of traffic already post-quantum encrypted, Cloudflare is ensuring a secure online experience for all users at no extra cost. The updated WARP client now offers immediate protection&amp;hellip;</description>
+    </item>
+    <item>
+      <title>To build a better Internet in the age of AI, we need responsible AI bot principles. Here’s our proposal.</title>
+      <link>/articles/article-2025-09-24-9978/</link>
+      <pubDate>Wed, 24 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-9978/</guid>
+      <description>🌐 Cloudflare is proposing responsible AI bot principles to enhance the Internet&amp;rsquo;s future. Key points include: 🔍 Public disclosure of AI bot information. 🤖 Truthful self-identification of bots. 🎯 Bots should have a declared single purpose. 📋 Respect website operators&amp;rsquo; preferences. 💡 Act with good intent to avoid excessive traffic. These principles aim to foster collaboration among publishers, bot operators, and tech companies. Join the conversation for a better Internet! #AIBots&amp;hellip;</description>
+    </item>
     <item>
       <title>Building unique, per-customer defenses against advanced bot threats in the AI era</title>
       <link>/articles/article-2025-09-23-9918/</link>

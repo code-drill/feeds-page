@@ -6,8 +6,71 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Sep 2025 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Cloudflare Email Service’s private beta</title>
+      <link>/articles/article-2025-09-25-10066/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10066/</guid>
+      <description>🚀 Cloudflare has launched the private beta of its Email Service, allowing developers to send and receive emails directly from Workers without needing API keys. This service simplifies transactional email workflows, enhancing user communication for applications. It integrates email sending with Cloudflare&amp;rsquo;s existing Email Routing, ensuring reliability and speed in email delivery. Key features include automatic DNS configuration for better deliverability, ease of use in development, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing the Cloudflare Data Platform: ingest, store, and query your data directly on Cloudflare</title>
+      <link>/articles/article-2025-09-25-10064/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10064/</guid>
+      <description>🌐 Exciting news from Cloudflare! The Cloudflare Data Platform has launched, offering a fully-managed suite for ingesting, storing, and querying analytical data. Key features include Cloudflare Pipelines for event processing, R2 Data Catalog for metadata management, and R2 SQL for large-scale queries. These tools are designed for ease of use and affordability, eliminating traditional cloud infrastructure challenges. You can integrate with popular query engines and platforms without worrying&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Choice: the path to AI sovereignty</title>
+      <link>/articles/article-2025-09-25-10065/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10065/</guid>
+      <description>🌍 AI sovereignty is a key focus for governments worldwide, aiming to harness AI for national growth while addressing potential risks. Countries are exploring various strategies, from self-sufficiency to forming partnerships, to maintain control over AI technologies. Cloudflare emphasizes that true AI sovereignty means having diverse options, control over data, and avoiding vendor lock-in. Their mission supports local developers in deploying AI tools effectively. Discover how nations can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cloudflare&#39;s developer platform keeps getting better, faster, and more powerful. Here&#39;s everything that&#39;s new.</title>
+      <link>/articles/article-2025-09-25-10059/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10059/</guid>
+      <description>🌐 Cloudflare continues to enhance its developer platform! Recent updates include support for more Node.js APIs, improved AI Search capabilities, and increased resources for Workers Builds. Developers can now deploy larger containers and run more concurrent headless browsers. New tools like the Cloudflare Email Service and VibeSDK are also available, making it easier to build and connect applications. Stay updated on these advancements! 🚀💻 #Cloudflare #DeveloperPlatform #WebDevelopment #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Every Cloudflare feature, available to everyone</title>
+      <link>/articles/article-2025-09-25-10063/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10063/</guid>
+      <description>🚀 Cloudflare is making every feature accessible to all customers, regardless of account type. Starting with Single Sign-On (SSO), users can now access advanced tools without needing to engage with sales teams or sign contracts. This initiative aims to remove barriers and promote a more secure Internet. More features will be rolled out in the coming months. Stay tuned! 🌐✨ #Cloudflare #TechUpdates #InternetSecurity #Innovation #SSO</description>
+    </item>
+    <item>
+      <title>Partnering to make full-stack fast: deploy PlanetScale databases directly from Workers</title>
+      <link>/articles/article-2025-09-25-10060/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10060/</guid>
+      <description>🚀 Exciting news for developers! Cloudflare has partnered with PlanetScale to simplify full-stack application deployment using Cloudflare Workers. You can now directly connect to PlanetScale databases, such as Postgres and MySQL, enhancing your app&amp;rsquo;s performance and reliability. With this integration, connections are optimized through Hyperdrive, ensuring fast access to your databases. Plus, the process is secure and user-friendly, eliminating the hassle of managing API keys manually&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>R2 SQL: a deep dive into our new distributed query engine</title>
+      <link>/articles/article-2025-09-25-10061/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10061/</guid>
+      <description>🚀 Excited to introduce R2 SQL, a serverless query engine that enables quick analytics on vast datasets without the need for separate services! 🔍 This innovative tool allows retrieval SQL queries directly against your R2 Data Catalog, utilizing Apache Iceberg for efficient data management. 🌐 R2 SQL tackles challenges in data I/O and compute by intelligently pruning data and distributing tasks globally, ensuring efficiency and speed. #Cloudflare #R2SQL #DataAnalytics #Serverless #ApacheIceberg</description>
+    </item>
+    <item>
+      <title>Safe in the sandbox: security hardening for Cloudflare Workers</title>
+      <link>/articles/article-2025-09-25-10062/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10062/</guid>
+      <description>Cloudflare Workers is enhancing security with new software and hardware features. We utilize defense-in-depth strategies, including V8 sandboxes and memory protection keys, to safeguard your data while running third-party code on our infrastructure. The V8 JavaScript runtime is key to our approach, designed to run safely under adversarial conditions. Our ongoing updates focus on leveraging the latest advancements to keep Workers secure. 🔒💻 #Cloudflare #CyberSecurity #Serverless&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A year of improving Node.js compatibility in Cloudflare Workers</title>
+      <link>/articles/article-2025-09-25-10067/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10067/</guid>
+      <description>🌐 Cloudflare Workers has made significant strides in Node.js compatibility over the past year. Hundreds of new Node.js APIs are now available, enabling developers to run existing Node.js code effortlessly. This includes support for popular npm modules and frameworks like Express. Key libraries like console, crypto, and http have been carefully implemented to match Node.js behavior closely. For more details on the expanded compatibility, check the documentation. #Cloudflare #Nodejs&amp;hellip;</description>
+    </item>
     <item>
       <title>A simpler path to a safer Internet: an update to our CSAM scanning tool</title>
       <link>/articles/article-2025-09-24-9976/</link>

@@ -6,8 +6,36 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Sep 2025 07:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R2 SQL: a deep dive into our new distributed query engine</title>
+      <link>/articles/article-2025-09-25-10061/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10061/</guid>
+      <description>🚀 Excited to introduce R2 SQL, a serverless query engine that enables quick analytics on vast datasets without the need for separate services! 🔍 This innovative tool allows retrieval SQL queries directly against your R2 Data Catalog, utilizing Apache Iceberg for efficient data management. 🌐 R2 SQL tackles challenges in data I/O and compute by intelligently pruning data and distributing tasks globally, ensuring efficiency and speed. #Cloudflare #R2SQL #DataAnalytics #Serverless #ApacheIceberg</description>
+    </item>
+    <item>
+      <title>Why Your App’s Biggest Performance Bottleneck Might Be SSL/TLS</title>
+      <link>/articles/article-2025-09-25-10049/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:08 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10049/</guid>
+      <description>Is your app&amp;rsquo;s performance lagging despite optimizations? The culprit may be SSL/TLS. 🔒 While we often see it as a security feature, SSL/TLS can be a significant performance bottleneck. Each secure connection requires CPU-intensive handshakes that can compete with your app&amp;rsquo;s logic. Understanding the negotiation process is essential. It involves greeting, certificate exchange, and key generation—each step adds overhead. Stay aware of these factors to improve your app&amp;rsquo;s efficiency! 💻&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Uber’s Strategy to Upgrading 2M&#43; Spark Jobs</title>
+      <link>/articles/article-2025-09-25-10068/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10068/</guid>
+      <description>🚀 Uber successfully migrated over 2 million daily Apache Spark jobs to Spark 3.3. This upgrade utilized automation and safe shadow testing, resulting in significant improvements and over $4 million in savings. Learn more about Uber&amp;rsquo;s innovative approach to enhancing their data processing capabilities. #Uber #ApacheSpark #DataEngineering #Innovation #TechNews</description>
+    </item>
+    <item>
+      <title>Building Omnichannel Customer Connections at HubSpot: A Look Under the Hood</title>
+      <link>/articles/article-2025-09-25-10054/</link>
+      <pubDate>Thu, 25 Sep 2025 12:00:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10054/</guid>
+      <description>🌟 HubSpot is addressing the challenge of meeting customer expectations for seamless communication across channels like chat, email, voice, and social media. With a focus on developers, HubSpot is making omnichannel experiences practical and scalable. They aim to unify customer data and streamline integrations, moving away from fragmented systems. Their Custom Channels API allows businesses to create tailored messaging experiences, syncing third-party apps with HubSpot’s Help Desk and CRM for&amp;hellip;</description>
+    </item>
     <item>
       <title>Unlocking the power of OpenShift Service Mesh 3</title>
       <link>/articles/article-2025-09-25-10047/</link>

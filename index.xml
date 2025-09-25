@@ -6,8 +6,134 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Sep 2025 07:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Cloudflare Email Service’s private beta</title>
+      <link>/articles/article-2025-09-25-10066/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10066/</guid>
+      <description>🚀 Cloudflare has launched the private beta of its Email Service, allowing developers to send and receive emails directly from Workers without needing API keys. This service simplifies transactional email workflows, enhancing user communication for applications. It integrates email sending with Cloudflare&amp;rsquo;s existing Email Routing, ensuring reliability and speed in email delivery. Key features include automatic DNS configuration for better deliverability, ease of use in development, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing the Cloudflare Data Platform: ingest, store, and query your data directly on Cloudflare</title>
+      <link>/articles/article-2025-09-25-10064/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10064/</guid>
+      <description>🌐 Exciting news from Cloudflare! The Cloudflare Data Platform has launched, offering a fully-managed suite for ingesting, storing, and querying analytical data. Key features include Cloudflare Pipelines for event processing, R2 Data Catalog for metadata management, and R2 SQL for large-scale queries. These tools are designed for ease of use and affordability, eliminating traditional cloud infrastructure challenges. You can integrate with popular query engines and platforms without worrying&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Choice: the path to AI sovereignty</title>
+      <link>/articles/article-2025-09-25-10065/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10065/</guid>
+      <description>🌍 AI sovereignty is a key focus for governments worldwide, aiming to harness AI for national growth while addressing potential risks. Countries are exploring various strategies, from self-sufficiency to forming partnerships, to maintain control over AI technologies. Cloudflare emphasizes that true AI sovereignty means having diverse options, control over data, and avoiding vendor lock-in. Their mission supports local developers in deploying AI tools effectively. Discover how nations can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cloudflare&#39;s developer platform keeps getting better, faster, and more powerful. Here&#39;s everything that&#39;s new.</title>
+      <link>/articles/article-2025-09-25-10059/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10059/</guid>
+      <description>🌐 Cloudflare continues to enhance its developer platform! Recent updates include support for more Node.js APIs, improved AI Search capabilities, and increased resources for Workers Builds. Developers can now deploy larger containers and run more concurrent headless browsers. New tools like the Cloudflare Email Service and VibeSDK are also available, making it easier to build and connect applications. Stay updated on these advancements! 🚀💻 #Cloudflare #DeveloperPlatform #WebDevelopment #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Every Cloudflare feature, available to everyone</title>
+      <link>/articles/article-2025-09-25-10063/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10063/</guid>
+      <description>🚀 Cloudflare is making every feature accessible to all customers, regardless of account type. Starting with Single Sign-On (SSO), users can now access advanced tools without needing to engage with sales teams or sign contracts. This initiative aims to remove barriers and promote a more secure Internet. More features will be rolled out in the coming months. Stay tuned! 🌐✨ #Cloudflare #TechUpdates #InternetSecurity #Innovation #SSO</description>
+    </item>
+    <item>
+      <title>Partnering to make full-stack fast: deploy PlanetScale databases directly from Workers</title>
+      <link>/articles/article-2025-09-25-10060/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10060/</guid>
+      <description>🚀 Exciting news for developers! Cloudflare has partnered with PlanetScale to simplify full-stack application deployment using Cloudflare Workers. You can now directly connect to PlanetScale databases, such as Postgres and MySQL, enhancing your app&amp;rsquo;s performance and reliability. With this integration, connections are optimized through Hyperdrive, ensuring fast access to your databases. Plus, the process is secure and user-friendly, eliminating the hassle of managing API keys manually&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>R2 SQL: a deep dive into our new distributed query engine</title>
+      <link>/articles/article-2025-09-25-10061/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10061/</guid>
+      <description>🚀 Excited to introduce R2 SQL, a serverless query engine that enables quick analytics on vast datasets without the need for separate services! 🔍 This innovative tool allows retrieval SQL queries directly against your R2 Data Catalog, utilizing Apache Iceberg for efficient data management. 🌐 R2 SQL tackles challenges in data I/O and compute by intelligently pruning data and distributing tasks globally, ensuring efficiency and speed. #Cloudflare #R2SQL #DataAnalytics #Serverless #ApacheIceberg</description>
+    </item>
+    <item>
+      <title>Safe in the sandbox: security hardening for Cloudflare Workers</title>
+      <link>/articles/article-2025-09-25-10062/</link>
+      <pubDate>Thu, 25 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10062/</guid>
+      <description>Cloudflare Workers is enhancing security with new software and hardware features. We utilize defense-in-depth strategies, including V8 sandboxes and memory protection keys, to safeguard your data while running third-party code on our infrastructure. The V8 JavaScript runtime is key to our approach, designed to run safely under adversarial conditions. Our ongoing updates focus on leveraging the latest advancements to keep Workers secure. 🔒💻 #Cloudflare #CyberSecurity #Serverless&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Rider Roadmap: What to Expect From the Upcoming Updates and Releases</title>
+      <link>/articles/article-2025-09-25-10051/</link>
+      <pubDate>Thu, 25 Sep 2025 13:22:46 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10051/</guid>
+      <description>🚀 Exciting updates are coming to Rider! Rider 2025.2 is out now, and the 2025.3 release cycle is underway. Key highlights include a same-day launch with .NET 10, ensuring you get the latest SDK and C# features right away. We&amp;rsquo;re focusing on performance, aiming to enhance startup times and improve Roslyn analyzer speeds by up to 20%. Additionally, look forward to the new Islands UI theme, designed for better clarity and a modern feel. Stay tuned for more updates! #RiderUpdates #DotNet10&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run OpenAI Models Directly on Databricks</title>
+      <link>/articles/article-2025-09-25-10056/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:53 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10056/</guid>
+      <description>🚀 OpenAI and Databricks have teamed up to enable users to run OpenAI&amp;rsquo;s latest models, including GPT-5, directly on the Databricks platform. This collaboration offers dedicated capacity and seamless integration with Agent Bricks and Model Serving, enhancing the development of high-quality AI agents. Stay tuned for more innovations! 🤖💡 #OpenAI #Databricks #AI #GPT5 #Technology</description>
+    </item>
+    <item>
+      <title>Why Your App’s Biggest Performance Bottleneck Might Be SSL/TLS</title>
+      <link>/articles/article-2025-09-25-10049/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:08 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10049/</guid>
+      <description>Is your app&amp;rsquo;s performance lagging despite optimizations? The culprit may be SSL/TLS. 🔒 While we often see it as a security feature, SSL/TLS can be a significant performance bottleneck. Each secure connection requires CPU-intensive handshakes that can compete with your app&amp;rsquo;s logic. Understanding the negotiation process is essential. It involves greeting, certificate exchange, and key generation—each step adds overhead. Stay aware of these factors to improve your app&amp;rsquo;s efficiency! 💻&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A year of improving Node.js compatibility in Cloudflare Workers</title>
+      <link>/articles/article-2025-09-25-10067/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10067/</guid>
+      <description>🌐 Cloudflare Workers has made significant strides in Node.js compatibility over the past year. Hundreds of new Node.js APIs are now available, enabling developers to run existing Node.js code effortlessly. This includes support for popular npm modules and frameworks like Express. Key libraries like console, crypto, and http have been carefully implemented to match Node.js behavior closely. For more details on the expanded compatibility, check the documentation. #Cloudflare #Nodejs&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing Changed Block Tracking API support (alpha)</title>
+      <link>/articles/article-2025-09-25-10057/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10057/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The alpha support for the Changed Block Tracking API is here. This enhancement allows CSI storage drivers to identify modified blocks in PersistentVolume snapshots, leading to faster and more efficient backup operations. 🔍 Changed block tracking eliminates the need to scan entire volumes, focusing only on changed data. Currently, it supports block volumes only, which streamlines backup processes for large datasets. 📈 This API addresses challenges like&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Uber’s Strategy to Upgrading 2M&#43; Spark Jobs</title>
+      <link>/articles/article-2025-09-25-10068/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10068/</guid>
+      <description>🚀 Uber successfully migrated over 2 million daily Apache Spark jobs to Spark 3.3. This upgrade utilized automation and safe shadow testing, resulting in significant improvements and over $4 million in savings. Learn more about Uber&amp;rsquo;s innovative approach to enhancing their data processing capabilities. #Uber #ApacheSpark #DataEngineering #Innovation #TechNews</description>
+    </item>
+    <item>
+      <title>MongoDB SQL Interface: Now Available for Enterprise Advanced</title>
+      <link>/articles/article-2025-09-25-10055/</link>
+      <pubDate>Thu, 25 Sep 2025 12:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10055/</guid>
+      <description>🚀 Exciting news! The MongoDB SQL Interface is now available for MongoDB Enterprise Advanced. This new feature allows teams to query MongoDB data directly from popular BI tools like Tableau and Power BI, using standard ODBC and JDBC connections. No need to learn MongoDB Query Language or build ETL pipelines! The setup is straightforward and requires MongoDB 6.0 or higher. The Schema Builder CLI helps create SQL-queryable schemas, ensuring smooth access to your data. For those using the BI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Cross App Access Protocol Makes AI Agents Enterprise-Ready</title>
+      <link>/articles/article-2025-09-25-10050/</link>
+      <pubDate>Thu, 25 Sep 2025 12:00:20 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10050/</guid>
+      <description>Enterprises are integrating AI agents, but governance systems are lacking. 🤖💼 The new Cross App Access (XAA) protocol aims to enhance security by allowing agents to access data within established identity management frameworks. Supported by companies like Okta and AWS, XAA gives security teams better control and oversight. 🛡️🔑 By complementing existing protocols, it simplifies access while ensuring agents are authenticated and authorized. This could improve the user experience and reduce&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Omnichannel Customer Connections at HubSpot: A Look Under the Hood</title>
+      <link>/articles/article-2025-09-25-10054/</link>
+      <pubDate>Thu, 25 Sep 2025 12:00:01 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10054/</guid>
+      <description>🌟 HubSpot is addressing the challenge of meeting customer expectations for seamless communication across channels like chat, email, voice, and social media. With a focus on developers, HubSpot is making omnichannel experiences practical and scalable. They aim to unify customer data and streamline integrations, moving away from fragmented systems. Their Custom Channels API allows businesses to create tailored messaging experiences, syncing third-party apps with HubSpot’s Help Desk and CRM for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run, Test, and Evaluate Models and MCP Locally with Docker &#43; Promptfoo</title>
+      <link>/articles/article-2025-09-25-10058/</link>
+      <pubDate>Thu, 25 Sep 2025 11:32:41 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10058/</guid>
+      <description>Explore the power of Promptfoo and Docker Model Runner for evaluating LLM apps! Promptfoo is an open-source CLI that simplifies the evaluation of AI models. With Docker Model Runner, users can easily manage and deploy these models. The Docker MCP Toolkit serves as a local gateway for running containerized MCP servers, enhancing connectivity with AI agents. These tools enable users to compare models and assess MCP servers directly from their development environment. #AI #Docker #Promptfoo&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes MCP server: AI-powered cluster management</title>
       <link>/articles/article-2025-09-25-10046/</link>
@@ -28,6 +154,13 @@
       <pubDate>Thu, 25 Sep 2025 07:00:51 +0000</pubDate>
       <guid>/articles/article-2025-09-25-10048/</guid>
       <description>Explore the deployment of the DialoGPT-small language model on OpenShift AI for internal testing. This guide details setting up your environment, configuring ServingRuntime, and deploying an inference service, all within a secure, cloud-native environment. Key steps include verifying components, managing model storage with PVCs, and running tests without exposing external endpoints. This workflow is intended for internal evaluation only. For production use, refer to official documentation&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Announcing Auth0 for AI Agents: Powering the Future of AI, Securely</title>
+      <link>/articles/article-2025-09-25-10053/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10053/</guid>
+      <description>🚀 Exciting news from Oktane! Auth0 for AI Agents is now set to be generally available this October. This complete authentication solution is designed for secure AI agent development, addressing the unique challenges they present. Many organizations are eager to adopt AI but face concerns about data security and trust. Traditional identity tools often fall short for AI agents, which can access and act on behalf of users across multiple platforms. Auth0 offers a solution, allowing companies to&amp;hellip;</description>
     </item>
     <item>
       <title>AI Agents for Network and Security: Expectations vs Reality</title>
@@ -245,6 +378,13 @@
       <pubDate>Wed, 24 Sep 2025 11:00:54 +0000</pubDate>
       <guid>/articles/article-2025-09-24-9966/</guid>
       <description>Cisco IT is redefining Zero Trust in the AI era by implementing Cisco Secure Access across its global workforce. By collaborating with product teams, Cisco improved security operations while enhancing user experiences. This shift addresses the challenges of a hyper-distributed environment, supporting 130,000 employees and contractors. Transitioning from a custom-built solution, Cisco embraced a SASE/SSE approach to focus on innovation and emerging security threats, particularly those related&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Partnering with Cloudflare to bring you the fastest globally distributed applications</title>
+      <link>/articles/article-2025-09-24-10052/</link>
+      <pubDate>Wed, 24 Sep 2025 09:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-24-10052/</guid>
+      <description>🚀 Exciting news! PlanetScale has partnered with Cloudflare to simplify the setup of full-stack applications using Postgres and MySQL. With our new native integration, you can quickly connect PlanetScale databases to Cloudflare Workers, enhancing performance and reliability. Key benefits include: - Faster setup with just a few clicks - Optimized performance through connection pooling and caching - Reduced latency via intelligent edge caching This integration is available for both Postgres and&amp;hellip;</description>
     </item>
     <item>
       <title>The Kotlin AI Stack: Build AI Agents With Koog, Code Smarter With Junie, and More</title>

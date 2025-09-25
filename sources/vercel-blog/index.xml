@@ -6,8 +6,22 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Sep 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preventing the stampede: Request collapsing in the Vercel CDN</title>
+      <link>/articles/article-2025-09-25-10084/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10084/</guid>
+      <description>🚀 When deploying Next.js apps with Incremental Static Regeneration (ISR), users may experience &amp;ldquo;cache stampedes.&amp;rdquo; This occurs when multiple requests for the same page trigger separate function invocations, leading to wasted resources and potential downtime. 🌍 Vercel&amp;rsquo;s CDN now tackles this issue with request collapsing. Only one request per region will invoke a function for uncached paths, while others wait for the cached response. 🔧 This feature requires no manual configuration, as Vercel&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Request collapsing for ISR cache misses</title>
+      <link>/articles/article-2025-09-25-10085/</link>
+      <pubDate>Thu, 25 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10085/</guid>
+      <description>🚀 Vercel CDN introduces request collapsing to manage cache misses for ISR pages. This feature prevents cache stampedes by consolidating simultaneous requests into a single regeneration per region. As a result, it enhances reliability and significantly reduces backend load. No extra configuration is needed, as cacheability is automatically detected. For more details, check out their blog post! #Vercel #CDN #WebDevelopment #ISR #Caching</description>
+    </item>
     <item>
       <title>Query data on external API requests in Vercel Observability</title>
       <link>/articles/article-2025-09-24-10034/</link>

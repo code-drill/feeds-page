@@ -6,8 +6,43 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Sep 2025 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 15:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale infrastructure with new Terraform and Packer features at HashiConf 2025</title>
+      <link>/articles/article-2025-09-25-10128/</link>
+      <pubDate>Thu, 25 Sep 2025 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10128/</guid>
+      <description>🚀 Exciting updates at HashiConf 2025! HashiCorp introduced new features for Terraform and Packer aimed at simplifying hybrid cloud infrastructure management. These tools address challenges like fragmented workflows and compliance issues, enhancing developer productivity and cost control. Key announcements include: - &lt;strong&gt;Terraform Stacks&lt;/strong&gt;: Now available for easier infrastructure management. - &lt;strong&gt;Terraform search&lt;/strong&gt;: Improve resource discovery and import efficiency. - **Integration with Azure&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Strengthen security with Vault, Boundary, and Radar features at HashiConf 2025</title>
+      <link>/articles/article-2025-09-25-10129/</link>
+      <pubDate>Thu, 25 Sep 2025 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10129/</guid>
+      <description>🚀 HashiCorp unveiled new features at HashiConf 2025 to enhance security in development workflows. Key updates include: - &lt;strong&gt;Vault Enterprise 1.21&lt;/strong&gt;: Introducing secrets to Kubernetes pods without persistent storage and improved identity management. - &lt;strong&gt;HCP Vault Radar&lt;/strong&gt;: New tools for real-time secrets detection and monitoring in VSCode and Jira. - &lt;strong&gt;HCP Boundary&lt;/strong&gt;: Passwordless access to Windows hosts to streamline developer experience. These enhancements aim to strengthen security across&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform &amp; Ansible: Unifying infrastructure provisioning and configuration management</title>
+      <link>/articles/article-2025-09-25-10130/</link>
+      <pubDate>Thu, 25 Sep 2025 15:29:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10130/</guid>
+      <description>🚀 Terraform and Ansible are transforming how we manage infrastructure in hybrid and multi-cloud environments. As the demand for cloud applications rises, organizations face increasing complexity in infrastructure management. Terraform excels in provisioning resources, while Ansible specializes in configuration management. Together, they streamline Day 2 operations, ensuring infrastructure remains healthy over time. Introducing Terraform actions aims to unify these workflows, reducing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform Stacks, explained</title>
+      <link>/articles/article-2025-09-25-10131/</link>
+      <pubDate>Thu, 25 Sep 2025 15:28:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10131/</guid>
+      <description>🚀 Terraform Stacks streamline resource management and provisioning at scale. They tackle challenges like managing dependencies and reducing run time by allowing users to organize Terraform modules into manageable pieces. Key benefits include simplified management and improved productivity, enabling rapid creation of consistent infrastructure setups. Common use cases involve deploying applications as single units and managing Kubernetes workloads efficiently. #Terraform #InfrastructureAsCode&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Public beta of RDP credential injection now available in Boundary 0.20</title>
+      <link>/articles/article-2025-09-25-10132/</link>
+      <pubDate>Thu, 25 Sep 2025 15:27:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10132/</guid>
+      <description>🚀 HashiCorp Boundary 0.20 has launched a public beta for RDP credential injection! This update enables passwordless and secure access to Windows environments, addressing the security risks associated with traditional RDP workflows. With automatic credential injection, users no longer have to handle sensitive information manually. This feature significantly reduces the chances of credential theft while ensuring a smooth user experience. #HashiCorp #Boundary #RDP #Cybersecurity #PasswordlessAccess</description>
+    </item>
     <item>
       <title>Why secrets management is incomplete without secret scanning</title>
       <link>/articles/article-2025-09-04-7745/</link>

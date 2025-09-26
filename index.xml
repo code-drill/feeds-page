@@ -6,8 +6,78 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Sep 2025 11:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 14:00:51 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Rancher’s Founders Pivoted From Kubernetes to Agentic AI</title>
+      <link>/articles/article-2025-09-26-10126/</link>
+      <pubDate>Fri, 26 Sep 2025 14:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10126/</guid>
+      <description>Rancher’s founders have shifted their focus from Kubernetes to agentic AI, marking a pivotal change in enterprise tech. 🚀 As generative AI evolves into autonomous agents, organizations face new challenges in governance, security, and scalability. The rise of “shadow AI” complicates this landscape, necessitating a dedicated control plane. Obot.ai, founded by this experienced team, aims to provide crucial governance as the standard Model Context Protocol (MCP) emerges. 🌐 #AgenticAI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>An AI Index for all our customers</title>
+      <link>/articles/article-2025-09-26-10143/</link>
+      <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10143/</guid>
+      <description>🌐 Cloudflare has launched the private beta of AI Index, designed to enhance content discoverability for websites. With this new feature, an AI-optimized search index will be created automatically for your domain. 🛠️ This includes standard APIs like MCP server and search API, empowering content creators and AI builders alike. Site owners will control their index and can monetize access through new integrations. AI builders can subscribe to specific sites for updates, ensuring fair&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cloudflare just got faster and more secure, powered by Rust</title>
+      <link>/articles/article-2025-09-26-10140/</link>
+      <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10140/</guid>
+      <description>🚀 Cloudflare has upgraded its core system, replacing NGINX with a new Rust-based proxy. This change aims to enhance network performance, cutting median response times by 10ms and boosting performance by 25%. The upgrade also improves security and accelerates product release times, benefiting millions of users. Learn more about these exciting advancements! 🔒🌐 #Cloudflare #NetworkPerformance #Cybersecurity #TechUpdate #Rust</description>
+    </item>
+    <item>
+      <title>Introducing Observatory and Smart Shield — see how the world sees your website, and make it faster in one click</title>
+      <link>/articles/article-2025-09-26-10141/</link>
+      <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10141/</guid>
+      <description>🌐 Cloudflare has launched two new tools to enhance website performance: Observatory and Smart Shield. Observatory, now in open beta, combines monitoring and actionable insights to help users improve application speed and resilience. This tool integrates real-user data, synthetic testing, error rates, and more for a comprehensive view of performance. 📊 Smart Shield complements Observatory by allowing users to quickly fix common performance issues with just a few clicks. Both tools are&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Monitoring AS-SETs and why they matter</title>
+      <link>/articles/article-2025-09-26-10142/</link>
+      <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10142/</guid>
+      <description>🌐 Understanding AS-SETs is crucial for network operators. These Internet Routing Registry objects allow the grouping of related networks, helping manage BGP routing effectively. 📊 Cloudflare Radar now provides a public listing to assist operators in monitoring AS-SET memberships. This ensures better route filtering and communication between networks. 🔍 AS-SETs play a vital role in BGP policies, helping define what networks should accept from providers. #Networking #BGP #ASSET #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Code Mode: the better way to use MCP</title>
+      <link>/articles/article-2025-09-26-10145/</link>
+      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10145/</guid>
+      <description>🔍 Recent insights reveal a better way to utilize Model Context Protocol (MCP). Many agents currently expose tools directly to LLMs, but converting these tools into a TypeScript API yields better results. This method allows LLMs to manage more complex tools efficiently. When agents string multiple calls, this API approach simplifies the process and enhances performance. For more on MCP’s impact on AI capabilities, check the full article! #AI #MCP #TechInnovation #TypeScript #LLM</description>
+    </item>
+    <item>
+      <title>Eliminating Cold Starts 2: shard and conquer</title>
+      <link>/articles/article-2025-09-26-10146/</link>
+      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10146/</guid>
+      <description>Cloudflare has made significant strides in reducing cold starts for Workers, achieving a 10x improvement. The new technique, called &amp;ldquo;Worker sharding,&amp;rdquo; utilizes a consistent hash ring to enhance routing efficiency across their global network. This builds on the previous method of pre-warming Workers during TLS handshakes. Cold starts, the time taken to initiate a Worker, can now be minimized, ensuring requests are handled more swiftly. Learn more about these advancements! 🚀🌐 #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing new regional Internet traffic and Certificate Transparency insights on Cloudflare Radar</title>
+      <link>/articles/article-2025-09-26-10144/</link>
+      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10144/</guid>
+      <description>🌐 Cloudflare Radar has introduced new features for enhanced Internet monitoring. 🔍 The updated platform now includes regional traffic insights, allowing users to view data on a more localized level. This means you can track Internet trends based on specific regions, rather than just at a national scale. 📜 Additionally, a Certificate Transparency dashboard has been added, providing detailed monitoring of TLS certificate activity. This builds on Cloudflare&amp;rsquo;s ongoing efforts in this area since&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Network performance update: Birthday Week 2025</title>
+      <link>/articles/article-2025-09-26-10147/</link>
+      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10147/</guid>
+      <description>🌐 Cloudflare is dedicated to being the fastest network globally, as demonstrated in their latest performance update for Birthday Week 2025. 📊 They measure network speed by analyzing TCP connection times from major networks, ensuring the results reflect real user experiences. Currently, Cloudflare ranks as the fastest in 40% of the top 1,000 networks. 🔍 The company continuously collects data through Real User Measurements, allowing them to identify areas for improvement. #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Trust Paradox: When Your AI Gets Catfished</title>
+      <link>/articles/article-2025-09-26-10139/</link>
+      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10139/</guid>
+      <description>🚨 Hackers are exploiting trust relationships to catfish your AI. Attacks aren&amp;rsquo;t about technical skills; they manipulate familiar systems designers and developers rely on. From altered npm packages to deceptive documentation, AI tools can be misled to introduce vulnerabilities. The good news? Solutions exist that don&amp;rsquo;t hinder development. #CyberSecurity #AI #TrustParadox #MCP #InfoSec</description>
+    </item>
     <item>
       <title>Project infragraph: IBM’s Real-Time Model for Infrastructure Assets</title>
       <link>/articles/article-2025-09-26-10122/</link>
@@ -30,6 +100,13 @@
       <description>Explore the advancements of Red Hat OpenShift Service Mesh 3! 🚀 This article highlights its robust support for multi-cluster topologies, transforming independent clusters into a unified application network. It emphasizes secure inter-cluster communication through dedicated gateways. Learn about the benefits of enhanced scalability, fault tolerance, and seamless failover patterns. A step-by-step guide is provided for creating a multi-cluster architecture. #OpenShift #ServiceMesh #MultiCluster&amp;hellip;</description>
     </item>
     <item>
+      <title>How Cloudflare uses the world’s greatest collection of performance data to make the world’s fastest global network even faster</title>
+      <link>/articles/article-2025-09-26-10148/</link>
+      <pubDate>Fri, 26 Sep 2025 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10148/</guid>
+      <description>Cloudflare has announced enhancements to its global network performance. By analyzing extensive traffic data, they are optimizing their congestion control system to handle Internet-scale congestion more efficiently. 🌐 Early results show an average speed increase of 10% across their network. This improvement is driven by new algorithmic methods that leverage insights from their vast Free Plan user base. 🚀 These updates aim to ensure faster and more reliable connections for all customers. 📈&amp;hellip;</description>
+    </item>
+    <item>
       <title>User foundation models for Grab</title>
       <link>/articles/article-2025-09-26-10119/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:10 +0000</pubDate>
@@ -49,6 +126,13 @@
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-26-10124/</guid>
       <description>🚀 Exciting developments in AI integration! The Agent Development Kit (ADK) now works with AG-UI, enhancing how developers connect backend AI agents to user-friendly frontends. ADK simplifies agent creation with features like multi-step planning and state management. AG-UI standardizes communication, making it easier to build interactive experiences. This combination streamlines the process of creating collaborative AI applications. #AI #Developers #AGUI #ADK #TechTrends</description>
+    </item>
+    <item>
+      <title>GitLab Duo Agent Platform adds support for Model Context Protocol</title>
+      <link>/articles/article-2025-09-26-10127/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10127/</guid>
+      <description>🚀 GitLab Duo Agent Platform now supports the Model Context Protocol (MCP), enhancing the integration of AI in development. MCP provides AI secure access to internal systems, enabling developers to retrieve real-time information directly within their IDE. This reduces context switching and allows for a smoother workflow. With MCP, AI tools can connect reliably to various systems while maintaining security and privacy. Explore the capabilities of GitLab’s MCP in your development environment&amp;hellip;</description>
     </item>
     <item>
       <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
@@ -182,6 +266,41 @@
       <pubDate>Thu, 25 Sep 2025 16:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-25-10087/</guid>
       <description>🚀 MongoDB has evolved from a niche NoSQL database to an enterprise powerhouse, driven by a focus on high availability, tunable consistency, and robust security. Over 70% of Fortune 500 companies now trust MongoDB for their critical applications, including 7 of the 10 largest banks. Key innovations like multi-document ACID transactions and advanced security features have solidified its position in various industries. 🌐 Learn more about how MongoDB is shaping the future of data management!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scale infrastructure with new Terraform and Packer features at HashiConf 2025</title>
+      <link>/articles/article-2025-09-25-10128/</link>
+      <pubDate>Thu, 25 Sep 2025 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10128/</guid>
+      <description>🚀 Exciting updates at HashiConf 2025! HashiCorp introduced new features for Terraform and Packer aimed at simplifying hybrid cloud infrastructure management. These tools address challenges like fragmented workflows and compliance issues, enhancing developer productivity and cost control. Key announcements include: - &lt;strong&gt;Terraform Stacks&lt;/strong&gt;: Now available for easier infrastructure management. - &lt;strong&gt;Terraform search&lt;/strong&gt;: Improve resource discovery and import efficiency. - **Integration with Azure&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Strengthen security with Vault, Boundary, and Radar features at HashiConf 2025</title>
+      <link>/articles/article-2025-09-25-10129/</link>
+      <pubDate>Thu, 25 Sep 2025 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10129/</guid>
+      <description>🚀 HashiCorp unveiled new features at HashiConf 2025 to enhance security in development workflows. Key updates include: - &lt;strong&gt;Vault Enterprise 1.21&lt;/strong&gt;: Introducing secrets to Kubernetes pods without persistent storage and improved identity management. - &lt;strong&gt;HCP Vault Radar&lt;/strong&gt;: New tools for real-time secrets detection and monitoring in VSCode and Jira. - &lt;strong&gt;HCP Boundary&lt;/strong&gt;: Passwordless access to Windows hosts to streamline developer experience. These enhancements aim to strengthen security across&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform &amp; Ansible: Unifying infrastructure provisioning and configuration management</title>
+      <link>/articles/article-2025-09-25-10130/</link>
+      <pubDate>Thu, 25 Sep 2025 15:29:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10130/</guid>
+      <description>🚀 Terraform and Ansible are transforming how we manage infrastructure in hybrid and multi-cloud environments. As the demand for cloud applications rises, organizations face increasing complexity in infrastructure management. Terraform excels in provisioning resources, while Ansible specializes in configuration management. Together, they streamline Day 2 operations, ensuring infrastructure remains healthy over time. Introducing Terraform actions aims to unify these workflows, reducing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform Stacks, explained</title>
+      <link>/articles/article-2025-09-25-10131/</link>
+      <pubDate>Thu, 25 Sep 2025 15:28:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10131/</guid>
+      <description>🚀 Terraform Stacks streamline resource management and provisioning at scale. They tackle challenges like managing dependencies and reducing run time by allowing users to organize Terraform modules into manageable pieces. Key benefits include simplified management and improved productivity, enabling rapid creation of consistent infrastructure setups. Common use cases involve deploying applications as single units and managing Kubernetes workloads efficiently. #Terraform #InfrastructureAsCode&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Public beta of RDP credential injection now available in Boundary 0.20</title>
+      <link>/articles/article-2025-09-25-10132/</link>
+      <pubDate>Thu, 25 Sep 2025 15:27:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-25-10132/</guid>
+      <description>🚀 HashiCorp Boundary 0.20 has launched a public beta for RDP credential injection! This update enables passwordless and secure access to Windows environments, addressing the security risks associated with traditional RDP workflows. With automatic credential injection, users no longer have to handle sensitive information manually. This feature significantly reduces the chances of credential theft while ensuring a smooth user experience. #HashiCorp #Boundary #RDP #Cybersecurity #PasswordlessAccess</description>
     </item>
     <item>
       <title>The New York Times Games’ Path to Dark Mode</title>

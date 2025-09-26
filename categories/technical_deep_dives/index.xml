@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Sep 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 18:57:07 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Resilient Data Platform with Write-Ahead Log at Netflix</title>
+      <link>/articles/article-2025-09-26-10173/</link>
+      <pubDate>Fri, 26 Sep 2025 18:57:07 +0000</pubDate>
+      <guid>/articles/article-2025-09-26-10173/</guid>
+      <description>📊 Netflix faces unique challenges in data management at scale, including data loss, corruption, and system entropy. To tackle these issues, they developed the Write-Ahead Log (WAL), a system that enhances data consistency and reliability. WAL ensures durable data changes and efficient message retries, crucial for Netflix’s real-time data pipelines. The simplified API allows teams to easily integrate different storage solutions while maintaining high performance. Learn more about how WAL is&amp;hellip;</description>
+    </item>
     <item>
       <title>Code Mode: the better way to use MCP</title>
       <link>/articles/article-2025-09-26-10145/</link>

@@ -6,8 +6,50 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 16:16:37 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlock GPU Performance: Global Memory Access in CUDA</title>
+      <link>/articles/article-2025-09-29-10210/</link>
+      <pubDate>Mon, 29 Sep 2025 16:16:37 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10210/</guid>
+      <description>Managing memory effectively is crucial for optimizing GPU performance in CUDA. Global memory, the main memory space on CUDA devices, can be accessed by both the host and threads within a kernel grid. It is allocated using the &lt;strong&gt;device&lt;/strong&gt; declaration or CUDA runtime APIs like cudaMalloc(). Data transfers between host and device are done using cudaMemcpy(), while memory can be freed with cudaFree(). Future discussions will cover more on global memory complexities. #CUDA #GPU #MemoryManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Streamline Robot Learning with Whole-Body Control and Enhanced Teleoperation in NVIDIA Isaac Lab 2.3</title>
+      <link>/articles/article-2025-09-29-10211/</link>
+      <pubDate>Mon, 29 Sep 2025 15:12:20 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10211/</guid>
+      <description>🚀 Exciting updates in NVIDIA Isaac Lab 2.3 enhance robot learning! The new version focuses on streamlining robot policy training through a sim-first approach, improving whole-body control, and refining imitation learning for humanoid robots. Teleoperation capabilities have expanded, supporting devices like Meta Quest VR for data collection. New features aid dexterous manipulation tasks and reinforce scaling for reinforcement learning. Explore the advancements in robot technology! 🤖✨ #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Train a Quadruped Locomotion Policy and Simulate Cloth Manipulation with NVIDIA Isaac Lab and Newton</title>
+      <link>/articles/article-2025-09-29-10212/</link>
+      <pubDate>Mon, 29 Sep 2025 15:11:31 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10212/</guid>
+      <description>Discover how physics enhances robotic simulation in the latest article on training a quadruped locomotion policy and simulating cloth manipulation using NVIDIA Isaac Lab and Newton. 🤖✨ The article explains the importance of accurate simulations for developing and testing robotic algorithms while addressing the challenges of the sim-to-real gap. Learn about Newton, an open-source physics engine that supports complex tasks and integrates with various robot learning frameworks. #Robotics&amp;hellip;</description>
+    </item>
+    <item>
+      <title>3 Easy Ways to Supercharge Your Robotics Development Using OpenUSD</title>
+      <link>/articles/article-2025-09-29-10214/</link>
+      <pubDate>Mon, 29 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10214/</guid>
+      <description>🚀 The demand for robotics is rising, highlighting the importance of physics-accurate simulation. OpenUSD is central to this evolution, providing a standard for creating virtual environments where robots can learn. Key points from the article include: 1. &lt;strong&gt;Data Ingestion&lt;/strong&gt;: Unifying CAD, URDF, and sensor data for effective simulation. 2. &lt;strong&gt;Data Aggregation&lt;/strong&gt;: Building expansive virtual worlds with OpenUSD to enhance training scenarios. 3. &lt;strong&gt;SimReady&lt;/strong&gt;: Streamlining robotics pipelines with&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advancing Robotics Development with Neural Dynamics in Newton</title>
+      <link>/articles/article-2025-09-29-10215/</link>
+      <pubDate>Mon, 29 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10215/</guid>
+      <description>🌟 Modern robotics is evolving with the introduction of Neural Robot Dynamics (NeRD). NeRD addresses limitations of classical dynamics by offering models that predict stable states and capture complex physics. It can generalize across various tasks and environments, bridging the gap between simulation and real-world applications. As a drop-in backend for physics engines like Newton, NeRD allows teams to enhance their existing frameworks easily. This innovation paves the way for continuous&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Smart Multi-Node Scheduling for Fast and Efficient LLM Inference with NVIDIA Run:ai and NVIDIA Dynamo</title>
+      <link>/articles/article-2025-09-29-10213/</link>
+      <pubDate>Mon, 29 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10213/</guid>
+      <description>🚀 The rise of large language models brings new challenges in GPU capacity and workload efficiency. NVIDIA&amp;rsquo;s Run:ai v2.23 integrates with Dynamo to tackle these issues, enhancing distributed AI model inference. Key features include dynamic GPU scheduling and advanced request routing. Learn how to optimize your deployments with a step-by-step guide on setting up Dynamo. #AI #NVIDIA #Dynamo #MachineLearning #TechUpdates</description>
+    </item>
     <item>
       <title>Upcoming Digital Event: Open Accelerated Computing Summit</title>
       <link>/articles/article-2025-09-28-10190/</link>

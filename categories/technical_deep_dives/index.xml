@@ -6,8 +6,36 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Sep 2025 07:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 16:16:37 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlock GPU Performance: Global Memory Access in CUDA</title>
+      <link>/articles/article-2025-09-29-10210/</link>
+      <pubDate>Mon, 29 Sep 2025 16:16:37 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10210/</guid>
+      <description>Managing memory effectively is crucial for optimizing GPU performance in CUDA. Global memory, the main memory space on CUDA devices, can be accessed by both the host and threads within a kernel grid. It is allocated using the &lt;strong&gt;device&lt;/strong&gt; declaration or CUDA runtime APIs like cudaMalloc(). Data transfers between host and device are done using cudaMemcpy(), while memory can be freed with cudaFree(). Future discussions will cover more on global memory complexities. #CUDA #GPU #MemoryManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>100X Faster: How We Supercharged Netflix Maestro’s Workflow Engine</title>
+      <link>/articles/article-2025-09-29-10221/</link>
+      <pubDate>Mon, 29 Sep 2025 16:10:40 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10221/</guid>
+      <description>🚀 Exciting improvements to Netflix&amp;rsquo;s Maestro engine! The recent upgrade boosts performance by 100X, reducing workflow overhead from seconds to milliseconds. This redesign enhances scalability and meets evolving business needs, supporting more complex workflows. Explore the updated Maestro on GitHub and enhance your workflow orchestration today! 🌐 #Netflix #Maestro #DataEngineering #WorkflowOptimization #OpenSource</description>
+    </item>
+    <item>
+      <title>Using LLMs to infer grocery preferences from DoorDash restaurant orders</title>
+      <link>/articles/article-2025-09-29-10218/</link>
+      <pubDate>Mon, 29 Sep 2025 16:07:33 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10218/</guid>
+      <description>🚀 DoorDash is enhancing grocery delivery by leveraging restaurant order histories to recommend items. By using large language models (LLMs), they analyze consumer preferences to provide personalized grocery suggestions. This approach addresses the &amp;ldquo;cold start problem&amp;rdquo; for new customers in grocery shopping. The system translates order history into relevant grocery recommendations, making it easier for users to find items they love. For more details, check out the article! 📦🍜🥡 #DoorDash&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advancing Robotics Development with Neural Dynamics in Newton</title>
+      <link>/articles/article-2025-09-29-10215/</link>
+      <pubDate>Mon, 29 Sep 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10215/</guid>
+      <description>🌟 Modern robotics is evolving with the introduction of Neural Robot Dynamics (NeRD). NeRD addresses limitations of classical dynamics by offering models that predict stable states and capture complex physics. It can generalize across various tasks and environments, bridging the gap between simulation and real-world applications. As a drop-in backend for physics engines like Newton, NeRD allows teams to enhance their existing frameworks easily. This innovation paves the way for continuous&amp;hellip;</description>
+    </item>
     <item>
       <title>Analysis of OpenShift node-system-admin-client lifespan</title>
       <link>/articles/article-2025-09-29-10193/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Sep 2025 18:57:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 07:00:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of OpenShift node-system-admin-client lifespan</title>
+      <link>/articles/article-2025-09-29-10193/</link>
+      <pubDate>Mon, 29 Sep 2025 07:00:55 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10193/</guid>
+      <description>In the Red Hat OpenShift Container Platform, the node-system-admin-client certificate plays a vital role in securing internal communication. This article analyzes its lifecycle, revealing a mismatch between its intended two-year validity and the actual one-year expiration due to constraints from its signing Certificate Authority (CA). It also highlights the manual rotation of certificates and the steps needed to renew them effectively. 🔄🔍 #OpenShift #PKI #Certificates #RedHat #ContainerSecurity</description>
+    </item>
     <item>
       <title>Building a Resilient Data Platform with Write-Ahead Log at Netflix</title>
       <link>/articles/article-2025-09-26-10173/</link>

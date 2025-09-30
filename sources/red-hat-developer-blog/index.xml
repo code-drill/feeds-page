@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Sep 2025 07:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 07:00:55 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to change the meaning of python and python3 on RHEL</title>
+      <link>/articles/article-2025-09-30-10240/</link>
+      <pubDate>Tue, 30 Sep 2025 07:00:55 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10240/</guid>
+      <description>Changing the default Python interpreter on RHEL requires caution. The alternatives command, previously used, is unsupported in RHEL 9 and later due to potential system risks. Modifying the system Python can disrupt core components like dnf, affecting system management. A safer approach is to create a symbolic link to your desired Python version without altering the system Python. This method is easy to reverse and maintains system integrity. For script portability, use `#!/usr/bin/env&amp;hellip;</description>
+    </item>
+    <item>
+      <title>vLLM or llama.cpp: Choosing the right LLM inference engine for your use case</title>
+      <link>/articles/article-2025-09-30-10241/</link>
+      <pubDate>Tue, 30 Sep 2025 07:00:52 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10241/</guid>
+      <description>🔍 Exploring LLM Inference Engines: vLLM vs. llama.cpp This article compares two powerful inference engines, highlighting their distinct features. vLLM is built for high-throughput, multi-user scenarios, excelling in scalability and responsiveness. It delivers rapid responses even under heavy loads. In contrast, llama.cpp focuses on efficiency and portability, ideal for single-user tasks and consumer-grade hardware. Its C++ architecture allows for quick loading and minimal dependencies. For&amp;hellip;</description>
+    </item>
     <item>
       <title>How to implement and monitor circuit breakers in OpenShift Service Mesh 3</title>
       <link>/articles/article-2025-09-29-10192/</link>

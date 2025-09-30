@@ -6,14 +6,42 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2025 07:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 08:17:36 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updates to TeamCity On-Premises Renewal Pricing</title>
+      <link>/articles/article-2025-09-30-10242/</link>
+      <pubDate>Tue, 30 Sep 2025 08:17:36 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10242/</guid>
+      <description>🚨 Important Update for TeamCity Users 🚨 TeamCity will update its on-premises renewal pricing and grace period policies effective November 3, 2025. Existing licenses purchased before this date will retain current renewal discounts. 🔍 Changes include: - The 50% renewal discount will end for new licenses. - Licenses must be renewed within one month of expiry to benefit from the discount. Review your licenses and consider purchasing before the deadline to secure discounted rates. Stay tuned for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Revolutionizing Car Measurement Data Storage and Analysis: Mercedes-Benz&#39;s Petabyte-Scale Solution on the Databricks Intelligence Platform</title>
+      <link>/articles/article-2025-09-30-10244/</link>
+      <pubDate>Tue, 30 Sep 2025 07:50:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10244/</guid>
+      <description>Mercedes-Benz is enhancing car measurement data storage and analysis with a new petabyte-scale solution on the Databricks Intelligence Platform. This advancement aims to utilize the growing data from connected vehicles, improving data management and insights in the automotive sector. Stay tuned for more updates on this innovative approach! 🚗📊🔍 #MercedesBenz #DataAnalytics #AutomotiveInnovation #Databricks #ConnectedVehicles</description>
+    </item>
     <item>
       <title>As your AI gets smarter, so must your API</title>
       <link>/articles/article-2025-09-30-10239/</link>
       <pubDate>Tue, 30 Sep 2025 07:40:00 +0000</pubDate>
       <guid>/articles/article-2025-09-30-10239/</guid>
       <description>In a recent podcast, Ryan Donovan speaks with Marco Palladino, CTO of Kong, about the growth of AI agents and their influence on API usage. 📈 Palladino highlights that the rise of AI has significantly increased API traffic, surpassing previous trends driven by mobile and cloud-native technologies. They also discuss the new MCP protocol, designed to enhance the interaction between AI agents and APIs, making it easier to access various tools and services. Observability and security in AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to change the meaning of python and python3 on RHEL</title>
+      <link>/articles/article-2025-09-30-10240/</link>
+      <pubDate>Tue, 30 Sep 2025 07:00:55 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10240/</guid>
+      <description>Changing the default Python interpreter on RHEL requires caution. The alternatives command, previously used, is unsupported in RHEL 9 and later due to potential system risks. Modifying the system Python can disrupt core components like dnf, affecting system management. A safer approach is to create a symbolic link to your desired Python version without altering the system Python. This method is easy to reverse and maintains system integrity. For script portability, use `#!/usr/bin/env&amp;hellip;</description>
+    </item>
+    <item>
+      <title>vLLM or llama.cpp: Choosing the right LLM inference engine for your use case</title>
+      <link>/articles/article-2025-09-30-10241/</link>
+      <pubDate>Tue, 30 Sep 2025 07:00:52 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10241/</guid>
+      <description>🔍 Exploring LLM Inference Engines: vLLM vs. llama.cpp This article compares two powerful inference engines, highlighting their distinct features. vLLM is built for high-throughput, multi-user scenarios, excelling in scalability and responsiveness. It delivers rapid responses even under heavy loads. In contrast, llama.cpp focuses on efficiency and portability, ideal for single-user tasks and consumer-grade hardware. Its C++ architecture allows for quick loading and minimal dependencies. For&amp;hellip;</description>
     </item>
     <item>
       <title>How AI Can Help IT Teams Find the Signals in Alert Noise</title>
@@ -280,6 +308,13 @@
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-09-29-10238/</guid>
       <description>Discover how to create a multimodal experience using Twilio&amp;rsquo;s ConversationRelay and the open-source AI Agent Builder, Dify. This guide provides developers with step-by-step instructions to integrate voice capabilities into their applications effectively. Enhance user interactions with this innovative approach! 🎤🤖 #Twilio #Dify #AI #VoiceTechnology #DeveloperTools</description>
+    </item>
+    <item>
+      <title>CrowdStrike Boosts SOC Detection Content with Correlation Rule Template Discovery Dashboard</title>
+      <link>/articles/article-2025-09-29-10243/</link>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-29-10243/</guid>
+      <description>🚀 CrowdStrike has launched the Correlation Rule Template Discovery dashboard in its Falcon Next-Gen SIEM. This new feature helps security teams quickly find and use detection content tailored to their data sources. With over 1,000 correlation rule templates, users can streamline their detection process, ensuring relevance and efficiency. The dashboard simplifies searches and includes curated insights from CrowdStrike, enhancing the user experience. #CrowdStrike #CyberSecurity #SIEM&amp;hellip;</description>
     </item>
     <item>
       <title>Developing an open standard for agentic commerce</title>

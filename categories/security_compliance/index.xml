@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2025 16:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 07:01:07 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The secure way to handle secrets in OpenShift</title>
+      <link>/articles/article-2025-10-01-10306/</link>
+      <pubDate>Wed, 01 Oct 2025 07:01:07 +0000</pubDate>
+      <guid>/articles/article-2025-10-01-10306/</guid>
+      <description>Managing sensitive information in cloud-native platforms like OpenShift is essential for security. 🌐 This article discusses two methods for accessing secrets: environment variables and volume mounts. While both are supported, volume mounts are recommended for better security and control. 🔒 Volume mounts automatically update sensitive data and limit exposure, ensuring only necessary credentials are accessed by applications. In contrast, environment variables carry risks of accidental exposure&amp;hellip;</description>
+    </item>
     <item>
       <title>LLMs Are the Key to Mutation Testing and Better Compliance</title>
       <link>/articles/article-2025-09-30-10301/</link>
@@ -28,6 +35,13 @@
       <pubDate>Tue, 30 Sep 2025 12:00:39 +0000</pubDate>
       <guid>/articles/article-2025-09-30-10249/</guid>
       <description>🔒 As AI becomes integral to business workflows, securing interactions with external tools is essential. The Dynamic Context Firewall (DCF) is a proposed security layer for the Model Context Protocol (MCP), enhancing adaptive AI security. Unlike traditional firewalls, the DCF analyzes AI interactions in real-time, considering context and intent to ensure proper access control. This innovative approach aims to tackle risks such as unauthorized data access and consent fatigue. #AISecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Falcon ASPM Secures GenAI Applications and Lessons from Dogfooding</title>
+      <link>/articles/article-2025-09-30-10308/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-09-30-10308/</guid>
+      <description>🚀 Falcon Application Security Posture Management (ASPM) enhances the security of generative AI applications by providing essential visibility and context to combat advanced threats. As businesses adopt large language models, traditional security tools may fall short. Falcon ASPM helps organizations understand complex attack surfaces, ensuring robust protection for their GenAI applications. Discover how CrowdStrike&amp;rsquo;s innovative approach addresses the unique challenges of agentic AI and keeps&amp;hellip;</description>
     </item>
     <item>
       <title>Expanding Docker Hardened Images: Secure Helm Charts for Deployments</title>

@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Oct 2025 07:01:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 07:00:57 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoscaling vLLM with OpenShift AI</title>
+      <link>/articles/article-2025-10-02-10358/</link>
+      <pubDate>Thu, 02 Oct 2025 07:00:57 +0000</pubDate>
+      <guid>/articles/article-2025-10-02-10358/</guid>
+      <description>Unlock the power of efficient LLM serving with OpenShift AI! 🚀 This article discusses how vLLM and KServe enable autoscaling of model servers, optimizing GPU resource utilization. It highlights the Serverless deployment mode, allowing scaling based on concurrent requests, and the future potential for RawDeployments using KEDA. Key prerequisites for setup include the NVIDIA GPU Operator and OpenShift Serverless. The article also provides a step-by-step guide on deploying models and configuring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Filtering packets from anywhere in the networking stack</title>
+      <link>/articles/article-2025-10-02-10359/</link>
+      <pubDate>Thu, 02 Oct 2025 07:00:56 +0000</pubDate>
+      <guid>/articles/article-2025-10-02-10359/</guid>
+      <description>Discover the potential of packet filtering with Retis! 🌐 This article explores how Retis allows packet dumps from anywhere in the networking stack. It highlights its unique filtering methods: packet filtering and metadata filtering, which help manage data, ensuring accurate captures and reducing overhead. Learn how Retis compares to tools like tcpdump and tshark, emphasizing the importance of precise filtering for effective network debugging. #NetworkEngineering #PacketFiltering #Retis&amp;hellip;</description>
+    </item>
+    <item>
+      <title>PostGIS: A powerful geospatial extension for PostgreSQL</title>
+      <link>/articles/article-2025-10-02-10360/</link>
+      <pubDate>Thu, 02 Oct 2025 07:00:52 +0000</pubDate>
+      <guid>/articles/article-2025-10-02-10360/</guid>
+      <description>🚀 PostGIS is a geospatial extension for PostgreSQL, enhancing the database&amp;rsquo;s ability to manage geographic data. It supports operations like distance calculations and spatial joins, making it ideal for GIS applications. 🔧 Installation requires compatible PostgreSQL versions, currently supporting PostgreSQL 16 on RHEL 9 and 10. 📊 Users can create tables with various geometric types and utilize raster data analysis through PostGIS. For detailed setup instructions, refer to the full article!&amp;hellip;</description>
+    </item>
     <item>
       <title>The secure way to handle secrets in OpenShift</title>
       <link>/articles/article-2025-10-01-10306/</link>

@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Oct 2025 21:37:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 02:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 48: Wild arguments</title>
+      <link>/articles/article-2025-10-03-10302/</link>
+      <pubDate>Fri, 03 Oct 2025 02:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-03-10302/</guid>
+      <description>📢 In the latest &amp;ldquo;Improving Code Quality&amp;rdquo; article, Munetoshi Ishikawa discusses handling shape data as strings. The string format includes a &amp;ldquo;tag&amp;rdquo; for the shape type and attributes like coordinates. For example, a circle is represented as &amp;ldquo;circle 10 20 30&amp;rdquo;. Ishikawa presents a code implementation that defines different shape classes and a common factory function for creating these shapes efficiently. Explore more about this approach in the full article! 🛠️✨ #CodeQuality #SoftwareDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Bloomberg Chose Vendor-Neutral Java Over Big Tech</title>
+      <link>/articles/article-2025-10-03-10399/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:40 +0000</pubDate>
+      <guid>/articles/article-2025-10-03-10399/</guid>
+      <description>Bloomberg standardized its Java infrastructure in 2018, impacting over 1,000 engineers. The choice of Eclipse Temurin from the Eclipse Foundation emphasizes the importance of reliability in financial services. Head of CTO cloud compute, Andrey Rybka, highlighted the need for vendor neutrality to avoid potential misalignment with single-vendor open source projects. This decision reflects Bloomberg&amp;rsquo;s commitment to open source principles. 🌐💻 #OpenSource #Java #Bloomberg #EclipseTemurin&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From embedded to everywhere: The new era of apps</title>
+      <link>/articles/article-2025-10-02-10401/</link>
+      <pubDate>Thu, 02 Oct 2025 23:19:11 +0000</pubDate>
+      <guid>/articles/article-2025-10-02-10401/</guid>
+      <description>Atlassian is evolving the way we view its offerings. The term &amp;ldquo;products&amp;rdquo; like Jira and Confluence is changing to &amp;ldquo;Atlassian apps,&amp;rdquo; reflecting a new approach. These apps run on the Atlassian platform, which provides a robust infrastructure for all. This shift allows users to assemble a unique system of work, combining Atlassian-built apps, Marketplace apps, and custom solutions seamlessly. Developers can now create apps that connect across the platform, enhancing integration and user&amp;hellip;</description>
+    </item>
     <item>
       <title>Inside the AIPCon 8 Demos Redefining the Future of Enterprise AI</title>
       <link>/articles/article-2025-10-02-10393/</link>
@@ -77,6 +98,13 @@
       <pubDate>Thu, 02 Oct 2025 16:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-02-10385/</guid>
       <description>🚀 Exciting news for Terraform users! The latest update to the ServiceNow Service Catalog for Terraform now features a native approval workflow. This integration adds a vital layer of governance to self-service infrastructure provisioning, ensuring all requests are reviewed before any resources are created. 🛠️ With version 2.9, organizations can now streamline their approval processes, reducing the complexity of custom solutions. Users can easily configure items to require approval, providing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why traditional secret scanning tools fail to address today&#39;s secret management crisis</title>
+      <link>/articles/article-2025-10-02-10400/</link>
+      <pubDate>Thu, 02 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-02-10400/</guid>
+      <description>Traditional secret scanning tools face significant challenges in today&amp;rsquo;s fast-paced development landscape. 🚀 Recent research shows over 18,000 exposed API secrets last year, with many categorized as highly critical. Despite using secret scanning, organizations struggle with credential leaks and sensitive data exposure. 🔑 The shift to microservice architectures and cloud deployments has increased the number of secrets to manage, outpacing older scanning methods. These tools often produce high&amp;hellip;</description>
     </item>
     <item>
       <title>The 10 Skills I Was Missing as a MongoDB User</title>

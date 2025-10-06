@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding Up Data Decompression with nvCOMP and the NVIDIA Blackwell Decompression Engine</title>
+      <link>/articles/article-2025-10-06-10452/</link>
+      <pubDate>Mon, 06 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-06-10452/</guid>
+      <description>NVIDIA has introduced the Decompression Engine (DE) in its Blackwell architecture to enhance data decompression speed while reducing latency and compute resource usage. 📊 Working alongside the nvCOMP library, DE accelerates decompression for popular formats like Snappy and LZ4, optimizing data transfers directly across PCIe or C2C. This innovation allows for better utilization of GPU resources, especially in data-intensive applications. 🚀 Developers are encouraged to use DE via nvCOMP APIs,&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Large-Scale Data Analytics with GPU-Native Velox and NVIDIA cuDF</title>
       <link>/articles/article-2025-10-06-10443/</link>

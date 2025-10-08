@@ -6,8 +6,85 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 18:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 21:00:29 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How IDPs and AI Are Democratizing Platform Engineering Roles</title>
+      <link>/articles/article-2025-10-08-10562/</link>
+      <pubDate>Wed, 08 Oct 2025 21:00:29 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10562/</guid>
+      <description>Internal developer platforms (IDPs) and AI are transforming software development by making platform engineering roles more accessible. These advancements support a smoother software development life cycle (SDLC) and enhance the developer experience. Cross-functional teams and IDPs simplify complex tasks and empower non-technical contributors, like data engineers and business analysts, to interact with platform capabilities without extensive technical knowledge. This shift promotes autonomy&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Survey: Engineers Want To Code, But Spend All Day on Tech Debt</title>
+      <link>/articles/article-2025-10-08-10563/</link>
+      <pubDate>Wed, 08 Oct 2025 20:00:50 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10563/</guid>
+      <description>📊 A recent report reveals that software engineers spend only 16% of their time coding and developing new features, despite 93% finding it the most rewarding part of their jobs. 🛠️ The majority of their week is consumed by technical debt, maintenance tasks, and fragmented tools. In fact, 35% report excessive workloads and burnout as significant issues. 🔄 Tool-related challenges and constant context switching further hinder productivity, with 62% feeling their tools lack proper integration. 👥&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How OpenTelemetry Works: Tracing, Metrics and Logs on Kubernetes</title>
+      <link>/articles/article-2025-10-08-10564/</link>
+      <pubDate>Wed, 08 Oct 2025 20:00:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10564/</guid>
+      <description>Explore how OpenTelemetry enhances monitoring in Kubernetes! 🌐 This excerpt from &amp;ldquo;Platform Engineering on Kubernetes&amp;rdquo; discusses setting up a conference app and key concepts like deployments, service discovery, and resilience. It highlights the importance of understanding distributed systems for effective troubleshooting. OpenTelemetry provides essential tools for gathering telemetry data—metrics, logs, and traces—to analyze software performance. Using Prometheus and Grafana, teams can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A Practical Guide to Kubernetes Stateful Backup and Recovery</title>
+      <link>/articles/article-2025-10-08-10549/</link>
+      <pubDate>Wed, 08 Oct 2025 19:00:21 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10549/</guid>
+      <description>Kubernetes is a robust platform for managing containerized applications, particularly stateful ones. Proper backup and recovery strategies are crucial for maintaining data integrity and availability in these applications. 🛠️ The article outlines essential strategies, such as using Volume Snapshots, which allow administrators to capture a volume&amp;rsquo;s state without creating new volumes. This method aids in restoring data efficiently during maintenance or emergencies. 📊 For more insights on backup&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Leaner, More Efficient Storage Infrastructure for the AI Era</title>
+      <link>/articles/article-2025-10-08-10550/</link>
+      <pubDate>Wed, 08 Oct 2025 18:42:31 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10550/</guid>
+      <description>The AI era requires a streamlined infrastructure strategy that focuses on scalability, performance, and cost efficiency for data management. A challenge is supporting large language model training, which needs vast data, compute, and storage resources. Efficient training necessitates continuous data access and effective management of model parameters. One solution is multiattach block storage, which simplifies data management by allowing access across multiple nodes with reduced complexity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>JavaScript Library Runs Machine Learning Models in Browser</title>
+      <link>/articles/article-2025-10-08-10551/</link>
+      <pubDate>Wed, 08 Oct 2025 18:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10551/</guid>
+      <description>🚀 Exciting news in machine learning! Julian Wilkison-Duran has launched AsterMind-ELM, an open-source JavaScript library tailored for browser-based machine learning. This library allows developers to utilize the Extreme Learning Machine (ELM) model without the need for massive resources. AsterMind-ELM aims to simplify the implementation of machine learning on the frontend, making it accessible for a wider range of applications. Learn more about this innovative tool! 🔍💻 #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Developers Do Not Trust AI, and That’s a Good Thing</title>
+      <link>/articles/article-2025-10-08-10552/</link>
+      <pubDate>Wed, 08 Oct 2025 17:00:37 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10552/</guid>
+      <description>Developers are increasingly using AI tools, with 95% reporting productivity boosts. However, trust in AI remains low, with many feeling only “somewhat” confident in its outputs. This skepticism is seen as beneficial, promoting critical thinking and vigilance in software development. A cautious mindset can help prevent potential pitfalls in high-stakes environments. Balancing AI&amp;rsquo;s amplification effects with a healthy dose of skepticism is essential for successful software delivery. 🤖💻🔍&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI Launches Apps SDK for ChatGPT: A New App Platform</title>
+      <link>/articles/article-2025-10-08-10538/</link>
+      <pubDate>Wed, 08 Oct 2025 13:39:23 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10538/</guid>
+      <description>OpenAI has introduced the Apps SDK for ChatGPT at its annual DevDay event, marking a significant development for developers. This new platform allows third-party developers to create web-based applications that can function within ChatGPT conversations. OpenAI plans to start accepting app submissions later this year. The Apps SDK utilizes a web UI model, differing from traditional app platforms like iOS and Android. These apps run as components inside ChatGPT, creating a unique app-&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Arcjet Brings AI Security Analysis Local — Into Your Code</title>
+      <link>/articles/article-2025-10-08-10528/</link>
+      <pubDate>Wed, 08 Oct 2025 11:30:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10528/</guid>
+      <description>🚀 Arcjet has launched a local AI model for security analysis within application request handlers. This new approach analyzes threats on-site, providing context that traditional cloud-based tools often miss. It addresses the ongoing issue of false positives that can cost businesses sales and conversions. The model operates alongside existing security measures, refining recommendations based on both rules and learned signals. Integration is simple, adding only minimal latency for real-time&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitHub Will Prioritize Migrating to Azure Over Feature Development</title>
+      <link>/articles/article-2025-10-08-10525/</link>
+      <pubDate>Wed, 08 Oct 2025 08:54:19 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10525/</guid>
+      <description>🚀 GitHub is shifting focus to migrate its infrastructure to Azure, delaying new feature development. This decision follows leadership changes and a need to address scaling issues in its Virginia data center, as stated by CTO Vladimir Fedorov. The complete migration is set to occur within 24 months, prioritizing capacity for AI and Copilot demands. GitHub acknowledges potential challenges during the transition, especially with its existing MySQL clusters. A spokesperson emphasized that this&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Retool’s New AI-Powered App Builder Lets Non-Developers Build Enterprise Apps</title>
+      <link>/articles/article-2025-10-07-10512/</link>
+      <pubDate>Tue, 07 Oct 2025 20:00:07 +0000</pubDate>
+      <guid>/articles/article-2025-10-07-10512/</guid>
+      <description>Retool has launched an AI-powered AppGen platform, enabling non-developers to create enterprise applications using natural language and existing data. This marks a shift, as nearly 50% of Retool’s users are now non-developers. The platform allows professional developers to set secure building blocks for users, ensuring governance and compliance. With advancements in generative AI, building software has become more accessible and efficient. 🔧💻✨ #NoCode #LowCode #AI #EnterpriseApps #Retool</description>
+    </item>
     <item>
       <title>OpenStack Flamingo Reduces Technical Debt, Boosts Performance</title>
       <link>/articles/article-2025-10-07-10503/</link>

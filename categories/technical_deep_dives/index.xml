@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 17:30:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 15:32:02 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Faster Insights with Experimenter-Defined Segmentations</title>
+      <link>/articles/article-2025-10-08-10544/</link>
+      <pubDate>Wed, 08 Oct 2025 15:32:02 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10544/</guid>
+      <description>Etsy is enhancing its experimentation capabilities by empowering teams to define their own segmentations. 📊 Previously limited to 13 hard-coded segmentations, the new Segmentation Library allows for 3x more custom options, leading to faster insights. Experimenters can quickly analyze data tailored to user groups, improving decision-making. This innovation has already saved teams 2-5 hours monthly. ⏳ #Etsy #Experimentation #DataInsights #Segmentation #Innovation</description>
+    </item>
+    <item>
+      <title>One model is not enough, too many models is hard: Technical deep dive</title>
+      <link>/articles/article-2025-10-08-10542/</link>
+      <pubDate>Wed, 08 Oct 2025 14:16:08 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10542/</guid>
+      <description>🚀 Discover how to efficiently manage hundreds to thousands of machine learning models with a systematic approach! This guide outlines a model lifecycle assembly line, focusing on configuration-driven pipelines, version control, and GitOps promotion. Key features include: - Continuous training and versioned pipelines - Data lineage for reproducibility - Safe, automated deployments Learn how to implement these practices in your environment! 🔗 Check out the full details and demo on YouTube!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we found a bug in Go&#39;s arm64 compiler</title>
+      <link>/articles/article-2025-10-08-10545/</link>
+      <pubDate>Wed, 08 Oct 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10545/</guid>
+      <description>Cloudflare recently uncovered a race condition in Go&amp;rsquo;s arm64 compiler, triggered by their high volume of HTTP requests—84 million per second. The investigation began after sporadic panics were detected in their services, which indicated potential stack corruption. Despite initial mitigation efforts, fatal panics persisted, prompting a deeper analysis. This situation highlights the complexities of maintaining software at scale. ⚙️🔍 #GoLang #Cloudflare #SoftwareEngineering #Debugging #CompilerBug</description>
+    </item>
     <item>
       <title>Kubernetes v1.34 Introduces Benefits but Also New Blind Spots</title>
       <link>/articles/article-2025-10-07-10504/</link>

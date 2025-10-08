@@ -6,8 +6,29 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Closing the credential risk gap for AI agents using a browser</title>
+      <link>/articles/article-2025-10-08-10534/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10534/</guid>
+      <description>AI agents are increasingly taking on tasks in browsers, but this raises security concerns regarding credential management. As these agents operate, they need access to sensitive information like passwords and API keys, leading to risks of credential sprawl and exposure. 🔑💻 1Password introduces Secure Agentic Autofill, which allows credentials to be securely injected into browsers without exposing them to AI agents. This method ensures that sensitive data remains protected and requires human&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Refresh Token Security: Detecting Hijacking and Misuse with Auth0</title>
+      <link>/articles/article-2025-10-08-10570/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10570/</guid>
+      <description>Enhancing refresh token security is vital for modern applications. 🔐 This article discusses methods to detect hijacking and misuse using Auth0&amp;rsquo;s Detection Catalog. Refresh tokens help maintain user experience but pose security risks, especially if compromised. Key strategies include: - Storing tokens in secure HTTP-Only cookies - Enabling refresh token rotation - Automatic reuse detection These measures can help mitigate risks and protect sensitive data. 💻🛡️ #Cybersecurity #Auth0&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From key sprawl to scalable control: Rethinking SSH access</title>
+      <link>/articles/article-2025-10-07-10514/</link>
+      <pubDate>Tue, 07 Oct 2025 16:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-07-10514/</guid>
+      <description>Access sprawl and security issues are growing concerns with static SSH keys. 🚨 These keys, widely used for secure connections, become unmanageable as organizations scale, leading to risks like shared access and lack of audit trails. Transitioning to SSH certificates can enhance security and manageability, providing better auditability and automatic revocation. This move addresses the challenges of static keys, especially in dynamic environments. 🔑 #CyberSecurity #SSH #AccessManagement&amp;hellip;</description>
+    </item>
     <item>
       <title>Defining a Standard Taxonomy for Segmentation</title>
       <link>/articles/article-2025-10-07-10495/</link>

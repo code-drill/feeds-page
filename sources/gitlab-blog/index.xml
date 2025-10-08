@@ -6,8 +6,22 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize GitLab object storage for scale and performance</title>
+      <link>/articles/article-2025-10-08-10569/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10569/</guid>
+      <description>Managing GitLab at scale requires careful object storage setup for optimal performance and security. Utilize a consolidated form for GitLab components to streamline configurations and enable encrypted S3 buckets. For container registries, a separate setup with the new s3_v2 driver is necessary. Ensure you disable proxy downloads for better performance and adopt identity-based authentication methods for improved security. #GitLab #ObjectStorage #CloudComputing #DevOps #DataSecurity 🌐🔐📦</description>
+    </item>
+    <item>
+      <title>Streamline enterprise artifact management with GitLab</title>
+      <link>/articles/article-2025-10-08-10556/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-08-10556/</guid>
+      <description>Managing artifacts has become increasingly complex and costly for organizations. A recent article highlights the significant challenges faced by platform engineers, including high licensing fees and productivity loss due to fragmented systems. GitLab offers a strategic solution by focusing on key artifact formats, helping to reduce operational overhead and improve efficiency. Their capabilities include lifecycle management, security integration, and deep CI/CD support. For teams looking to&amp;hellip;</description>
+    </item>
     <item>
       <title>Atlassian ending Data Center as GitLab maintains deployment choice</title>
       <link>/articles/article-2025-10-07-10496/</link>

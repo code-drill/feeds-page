@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Oct 2025 15:32:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 16:01:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Static Rate Limiting to Adaptive Traffic Management in Airbnb’s Key-Value Store</title>
+      <link>/articles/article-2025-10-09-10595/</link>
+      <pubDate>Thu, 09 Oct 2025 16:01:55 +0000</pubDate>
+      <guid>/articles/article-2025-10-09-10595/</guid>
+      <description>Airbnb has enhanced its key-value store, Mussel, with advanced traffic management techniques. 🌐 The updated system includes resource-aware rate control, which measures the real cost of requests, and load shedding to prioritize critical traffic during peak times. 🚦 Additionally, hot-key detection helps manage sudden spikes from bots or DDoS attacks, ensuring stability and performance for users. Read more about these improvements and their impact on service reliability. 📈 #AirbnbTech&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Cost of Not Knowing MongoDB, Part 3: appV6R0 to appV6R4</title>
+      <link>/articles/article-2025-10-09-10592/</link>
+      <pubDate>Thu, 09 Oct 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-09-10592/</guid>
+      <description>🚀 In the final part of &amp;ldquo;The Cost of Not Knowing MongoDB,&amp;rdquo; the focus is on advanced design patterns to enhance application performance. Key improvements include reducing document size using a dynamic schema and optimizing storage compression. The article discusses the transition from appV5R4 to appV6R0, demonstrating significant performance enhancements. 📊 The implementation of a dynamic monthly bucket document aims to alleviate disk throughput bottlenecks, showcasing the effectiveness of&amp;hellip;</description>
+    </item>
     <item>
       <title>Unlocking Faster Insights with Experimenter-Defined Segmentations</title>
       <link>/articles/article-2025-10-08-10544/</link>

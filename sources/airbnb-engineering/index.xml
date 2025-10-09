@@ -6,8 +6,15 @@
     <description>Recent content in Airbnb-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Sep 2025 16:02:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 16:01:55 +0000</lastBuildDate>
     <atom:link href="/sources/airbnb-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Static Rate Limiting to Adaptive Traffic Management in Airbnb’s Key-Value Store</title>
+      <link>/articles/article-2025-10-09-10595/</link>
+      <pubDate>Thu, 09 Oct 2025 16:01:55 +0000</pubDate>
+      <guid>/articles/article-2025-10-09-10595/</guid>
+      <description>Airbnb has enhanced its key-value store, Mussel, with advanced traffic management techniques. 🌐 The updated system includes resource-aware rate control, which measures the real cost of requests, and load shedding to prioritize critical traffic during peak times. 🚦 Additionally, hot-key detection helps manage sudden spikes from bots or DDoS attacks, ensuring stability and performance for users. Read more about these improvements and their impact on service reliability. 📈 #AirbnbTech&amp;hellip;</description>
+    </item>
     <item>
       <title>Building a Next-Generation Key-Value Store at Airbnb</title>
       <link>/articles/article-2025-09-24-10027/</link>

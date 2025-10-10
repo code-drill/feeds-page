@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Oct 2025 07:00:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 07:00:58 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Splitting OpenShift machine config pool without node reboots</title>
+      <link>/articles/article-2025-10-10-10616/</link>
+      <pubDate>Fri, 10 Oct 2025 07:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-10-10-10616/</guid>
+      <description>🚀 Splitting an OpenShift Machine Config Pool (MCP) without node reboots is now possible! This guide details how to create two separate MCPs while maintaining identical configurations. This method is especially beneficial for large clusters with over 100 worker nodes, simplifying upgrades and management. Key steps include identifying the current MCP and machine configurations, creating a new MCP, and labeling nodes for the transition. For detailed commands and procedures, refer to the full&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Node.js 20&#43; memory management in containers</title>
+      <link>/articles/article-2025-10-10-10617/</link>
+      <pubDate>Fri, 10 Oct 2025 07:00:55 +0000</pubDate>
+      <guid>/articles/article-2025-10-10-10617/</guid>
+      <description>Node.js 20 enhances memory management in containers by being container-aware, limiting heap size based on cgroup limits. This adaptation helps prevent memory overflow issues on platforms like OpenShift. The maximum heap size is 50% of the container size, capping at 2 GiB for larger containers. Developers can also set specific limits using the &lt;code&gt;--max-old-space-size&lt;/code&gt; flag. For efficient CPU allocation, combining &lt;code&gt;worker_threads&lt;/code&gt; with multiple CPU limits can improve performance, but balance is&amp;hellip;</description>
+    </item>
     <item>
       <title>Integrate incident detection with OpenShift Lightspeed via MCP</title>
       <link>/articles/article-2025-10-09-10576/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Oct 2025 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 07:00:58 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Splitting OpenShift machine config pool without node reboots</title>
+      <link>/articles/article-2025-10-10-10616/</link>
+      <pubDate>Fri, 10 Oct 2025 07:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-10-10-10616/</guid>
+      <description>🚀 Splitting an OpenShift Machine Config Pool (MCP) without node reboots is now possible! This guide details how to create two separate MCPs while maintaining identical configurations. This method is especially beneficial for large clusters with over 100 worker nodes, simplifying upgrades and management. Key steps include identifying the current MCP and machine configurations, creating a new MCP, and labeling nodes for the transition. For detailed commands and procedures, refer to the full&amp;hellip;</description>
+    </item>
     <item>
       <title>Improving code quality - Session 50: The only truth</title>
       <link>/articles/article-2025-10-10-10613/</link>

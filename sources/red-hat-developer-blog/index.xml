@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Oct 2025 07:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 07:01:04 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protecting virtual machines from storage and secondary network node failures</title>
+      <link>/articles/article-2025-10-13-10865/</link>
+      <pubDate>Mon, 13 Oct 2025 07:01:04 +0000</pubDate>
+      <guid>/articles/article-2025-10-13-10865/</guid>
+      <description>Kubernetes provides basic health monitoring for nodes but lacks adequate support for storage and secondary network failures, crucial for virtual machines and telco deployments. The kubelet detects node issues, focusing mainly on resource availability and control plane connectivity. However, it does not monitor storage or network health directly, leading to potential inconsistencies and downtime. To address this, the Node Problem Detector (NPD) operator can be implemented, allowing for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to use OCI for GitOps in OpenShift</title>
+      <link>/articles/article-2025-10-13-10866/</link>
+      <pubDate>Mon, 13 Oct 2025 07:01:02 +0000</pubDate>
+      <guid>/articles/article-2025-10-13-10866/</guid>
+      <description>🚀 Exploring GitOps with OCI in OpenShift! Organizations transitioning to GitOps often think they need Git-based systems. However, GitOps principles allow for other compliant storage options like OCI, which can store various content types beyond container images. OpenShift GitOps 1.18 now supports OCI as a source of truth, simplifying management and enhancing security. This approach streamlines operations and integrates well with CI pipelines. To get started, ensure you have the oras CLI and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Using AI agents with Red Hat Insights</title>
+      <link>/articles/article-2025-10-13-10867/</link>
+      <pubDate>Mon, 13 Oct 2025 07:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-10-13-10867/</guid>
+      <description>Unlock the potential of AI with insights-mcp by Red Hat! 🌐 This self-hosted server allows seamless interaction with key Red Hat Insights features like vulnerability management and inventory tracking, all through the Model Context Protocol (MCP). To get started, set up a service account and install VS Code. You can then connect LLM agents to enhance your workflows, from daily security checks to compliance monitoring. Explore the developer preview today and share your feedback! 🛠️💻 #RedHat #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Splitting OpenShift machine config pool without node reboots</title>
       <link>/articles/article-2025-10-10-10616/</link>

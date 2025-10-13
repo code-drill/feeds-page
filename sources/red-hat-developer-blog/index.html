@@ -447,6 +447,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/13/protecting-virtual-machines-storage-and-secondary-network-node-failures" target="_blank">Protecting virtual machines from storage and secondary network node failures</a></h2>
+            <div class="publication-date">2025-10-13 07:01</div>
+            <div class="summary">Kubernetes provides basic health monitoring for nodes but lacks adequate support for storage and secondary network failures, crucial for virtual machines and telco deployments. The kubelet detects node issues, focusing mainly on resource availability and control plane connectivity. However, it does not monitor storage or network health directly, leading to potential inconsistencies and downtime. To address this, the Node Problem Detector (NPD) operator can be implemented, allowing for...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Raffaele Spazzoli</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/13/how-use-oci-gitops-openshift" target="_blank">How to use OCI for GitOps in OpenShift</a></h2>
+            <div class="publication-date">2025-10-13 07:01</div>
+            <div class="summary">🚀 Exploring GitOps with OCI in OpenShift! Organizations transitioning to GitOps often think they need Git-based systems. However, GitOps principles allow for other compliant storage options like OCI, which can store various content types beyond container images. OpenShift GitOps 1.18 now supports OCI as a source of truth, simplifying management and enhancing security. This approach streamlines operations and integrates well with CI pipelines. To get started, ensure you have the oras CLI and...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Christian Hernandez</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/13/using-ai-agents-red-hat-insights" target="_blank">Using AI agents with Red Hat Insights</a></h2>
+            <div class="publication-date">2025-10-13 07:00</div>
+            <div class="summary">Unlock the potential of AI with insights-mcp by Red Hat! 🌐 This self-hosted server allows seamless interaction with key Red Hat Insights features like vulnerability management and inventory tracking, all through the Model Context Protocol (MCP). To get started, set up a service account and install VS Code. You can then connect LLM agents to enhance your workflows, from daily security checks to compliance monitoring. Explore the developer preview today and share your feedback! 🛠️💻 #RedHat #AI...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Sean O&#39;Keeffe</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/10/10/splitting-openshift-machine-config-pool-without-node-reboots" target="_blank">Splitting OpenShift machine config pool without node reboots</a></h2>
             <div class="publication-date">2025-10-10 07:00</div>
             <div class="summary">🚀 Splitting an OpenShift Machine Config Pool (MCP) without node reboots is now possible! This guide details how to create two separate MCPs while maintaining identical configurations. This method is especially beneficial for large clusters with over 100 worker nodes, simplifying upgrades and management. Key steps include identifying the current MCP and machine configurations, creating a new MCP, and labeling nodes for the transition. For detailed commands and procedures, refer to the full...</div>
@@ -1075,57 +1126,6 @@
             
         </article>
         
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/17/strengthen-privacy-and-security-encrypted-dns-rhel" target="_blank">Strengthen privacy and security with encrypted DNS in RHEL</a></h2>
-            <div class="publication-date">2025-09-17 07:01</div>
-            <div class="summary">🔒 In today&#39;s digital world, securing DNS traffic is crucial. Unencrypted DNS queries can expose sensitive information to eavesdroppers, leading to potential data breaches. 🔍 Encrypted DNS, particularly DNS over TLS (DoT), is now available in Red Hat Enterprise Linux 10 and 9.6. This advancement strengthens network security by ensuring that DNS queries are kept private and verifiable. 🛠️ The article provides a step-by-step guide for implementing encrypted DNS to improve system security during...</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Dominika Borges, Pavel Březina, Francisco Trivino Garcia</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/16/how-enable-ansible-lightspeed-intelligent-assistant" target="_blank">How to enable Ansible Lightspeed intelligent assistant</a></h2>
-            <div class="publication-date">2025-09-16 07:00</div>
-            <div class="summary">🚀 Discover the Red Hat Ansible Lightspeed intelligent assistant in the latest Red Hat Ansible Automation Platform 2.6! This integrated chatbot utilizes various inference backends and can be deployed with Red Hat OpenShift AI. The article provides a step-by-step guide for installing OpenShift AI and setting up an inference service on the same cluster. Key topics include: - Installing OpenShift AI - Deploying an Inference Service - Configuring Ansible Lightspeed Stay tuned for more insights in...</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Riya Sharma, Elijah DeLee</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/educational" class="category-text">Educational</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/15/why-some-agentic-ai-developers-are-moving-code-python-rust" target="_blank">Why some agentic AI developers are moving code from Python to Rust</a></h2>
-            <div class="publication-date">2025-09-15 07:00</div>
-            <div class="summary">AI developers are exploring a shift from Python to Rust for agentic AI solutions. While Python is popular for its simplicity and rich libraries, its Global Interpreter Lock (GIL) limits performance in CPU-bound tasks, especially as systems scale from 5 to 500 agents. Rust offers a solution with better concurrency and scalability, allowing more efficient handling of multiple agents and CPU-intensive tasks. Developers are finding that a hybrid approach—prototyping in Python and optimizing with...</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Louis Imershein</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
     </div>
     
     
@@ -1144,6 +1144,10 @@
             
             
             <a href="/sources/red-hat-developer-blog/page/3/" class="pagination-link">3</a>
+            
+            
+            
+            <a href="/sources/red-hat-developer-blog/page/4/" class="pagination-link">4</a>
             
             
         </div>

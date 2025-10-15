@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 20:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 07:16:20 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clang bytecode interpreter update</title>
+      <link>/articles/article-2025-10-15-10924/</link>
+      <pubDate>Wed, 15 Oct 2025 07:16:20 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10924/</guid>
+      <description>🚀 This October, an update on the Clang bytecode interpreter reveals significant progress! With about 500 commits since last year, the implementation has become more robust. Test failures in the clang suite have decreased from 155 to 90. A working version of &lt;code&gt;builtin_constant_p&lt;/code&gt; is now available, supporting real-world use cases. Key enhancements include optimizations for constant expressions, improving performance in certain scenarios. The inclusion of libc++ testing has also led to better&amp;hellip;</description>
+    </item>
     <item>
       <title>Unpacking Cloudflare Workers CPU Performance Benchmarks</title>
       <link>/articles/article-2025-10-14-10914/</link>

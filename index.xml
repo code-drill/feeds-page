@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 07:16:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clang bytecode interpreter update</title>
+      <link>/articles/article-2025-10-15-10924/</link>
+      <pubDate>Wed, 15 Oct 2025 07:16:20 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10924/</guid>
+      <description>🚀 This October, an update on the Clang bytecode interpreter reveals significant progress! With about 500 commits since last year, the implementation has become more robust. Test failures in the clang suite have decreased from 155 to 90. A working version of &lt;code&gt;builtin_constant_p&lt;/code&gt; is now available, supporting real-world use cases. Key enhancements include optimizations for constant expressions, improving performance in certain scenarios. The inclusion of libc++ testing has also led to better&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Red Hat has redefined continuous performance testing</title>
+      <link>/articles/article-2025-10-15-10925/</link>
+      <pubDate>Wed, 15 Oct 2025 07:16:15 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10925/</guid>
+      <description>🚀 Continuous performance testing (CPT) is crucial for software development, especially for Red Hat OpenShift. The article highlights its importance in preventing performance bottlenecks and improving user experience. Challenges include OpenShift&amp;rsquo;s complexity and the need for flexible testing solutions. The team shifted-left, integrating performance tests into their CI/CD pipeline, increasing development velocity and collaboration. Stay tuned for best practices and insights on CPT! 📈🔍 #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>20 years of Cisco Crisis Response: Reflecting on resilience from Hurricane Katrina to Helene</title>
+      <link>/articles/article-2025-10-15-10923/</link>
+      <pubDate>Wed, 15 Oct 2025 07:11:12 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10923/</guid>
+      <description>🌍 As we celebrate 20 years of Cisco Crisis Response (CCR), we reflect on resilience from Hurricane Katrina to Hurricane Helene. In 2005, CCR began by restoring communications in disaster-struck areas. Over the years, it has evolved to meet the growing needs of communities affected by crises. Cisco&amp;rsquo;s partnership with BBC StoryWorks highlights CCR&amp;rsquo;s vital role in reconnecting people and rebuilding hope. 👉 Watch the video to learn more about CCR’s impactful work! #CiscoCrisisResponse #Resilience&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cisco research warns EU infrastructure debt could be the emerging drag on AI value</title>
+      <link>/articles/article-2025-10-15-10922/</link>
+      <pubDate>Wed, 15 Oct 2025 07:01:24 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10922/</guid>
+      <description>🚨 Cisco&amp;rsquo;s latest AI Readiness Index reveals that only 7% of EU organizations are fully prepared to harness AI effectively. The report highlights a concerning trend: rising AI workloads, insufficient GPU capacity, and challenges in data centralization. This accumulation of &amp;ldquo;AI infrastructure debt&amp;rdquo; could hinder future value. With 45% of EU respondents anticipating workload increases, operational readiness is critical. Organizations that proactively invest in their infrastructure are gaining a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Get your VLM running in 3 simple steps on Intel CPUs</title>
+      <link>/articles/article-2025-10-15-10926/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-15-10926/</guid>
+      <description>Unlock the potential of Vision Language Models (VLMs) on Intel CPUs! 🌐 This article outlines three simple steps to set up a VLM locally. You can analyze images, generate captions, and answer visual content questions—all while keeping your data private and secure. 🔒 Tools like Optimum Intel and OpenVINO make this process accessible, even without high-end hardware. Check out the full guide for a seamless setup! 🖥️ #AI #VisionLanguageModels #DataPrivacy #Intel #TechGuide</description>
+    </item>
     <item>
       <title>Incident Report: October 15th, 2025</title>
       <link>/articles/article-2025-10-15-10921/</link>
@@ -289,6 +324,20 @@
       <description>🚀 Postgres 18 has arrived, showcasing major enhancements in read performance with async I/O and new I/O worker threads. The new io_method option allows users to control disk I/O behavior, introducing worker and io_uring modes. These aim to optimize performance, particularly for read operations. Benchmark tests using sysbench focused on read-only scenarios across various EC2 configurations. Results show that Postgres 18 in sync and worker modes outperformed version 17 on network-attached&amp;hellip;</description>
     </item>
     <item>
+      <title>How CrowdStrike Stops Living-off-the-Land Attacks</title>
+      <link>/articles/article-2025-10-14-10928/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-14-10928/</guid>
+      <description>CrowdStrike is addressing the rising threat of &amp;ldquo;living-off-the-land&amp;rdquo; attacks, where adversaries misuse legitimate tools instead of traditional malware. Their new capability, Anomalous Process Execution (APEX), enhances defense by using AI to identify and stop the abuse of trusted applications like Windows utilities and remote management tools. This shift in tactics has made detection challenging, as these applications are critical for business operations. APEX aims to improve security by&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
+      <link>/articles/article-2025-10-14-10930/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-14-10930/</guid>
+      <description>Introducing Coral NPU, a new full-stack platform tailored for Edge AI. It aims to tackle challenges in performance, fragmentation, and user trust in low-power devices. Designed for wearables and IoT, Coral NPU enables contextual awareness and audio/image processing while prioritizing user privacy. Synaptics is the first partner to implement this innovative technology. Explore the future of always-on AI! 🌐🤖🔋 #CoralNPU #EdgeAI #IoT #Privacy #AI</description>
+    </item>
+    <item>
       <title>Introducing stablecoin payments for subscriptions</title>
       <link>/articles/article-2025-10-14-10910/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
@@ -296,11 +345,25 @@
       <description>🚀 Exciting news for subscription-based businesses! Stablecoin payments are being introduced to help companies expand globally. These payments can lower costs and simplify transactions, making it easier to reach international audiences. Since their launch, many businesses have already benefited from this innovative payment method. #Stablecoins #BusinessExpansion #Fintech #Subscriptions #GlobalCommerce</description>
     </item>
     <item>
+      <title>October 2025 Patch Tuesday: Two Publicly Disclosed, Three Zero-Days, and Eight Critical Vulnerabilities Among 172 CVEs</title>
+      <link>/articles/article-2025-10-14-10929/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-14-10929/</guid>
+      <description>🔒 Microsoft has issued its October 2025 security update, addressing a total of 172 vulnerabilities. This is the highest monthly total for the year. This update includes two publicly disclosed vulnerabilities, three zero-day vulnerabilities, and eight critical vulnerabilities, along with 159 others of varying severity. The main risk types involve elevation of privilege (80 patches), remote code execution (31), and information disclosure (28). Most patches were for Microsoft Windows (134),&amp;hellip;</description>
+    </item>
+    <item>
       <title>What Brand Builders Need Most Right Now? Smarter Data, Real-Time Personalization, and AI That Actually Works | AdWeek 2025 Recap</title>
       <link>/articles/article-2025-10-14-10919/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-14-10919/</guid>
       <description>In the AdWeek 2025 recap, key insights for brand builders were shared. The focus is on the importance of smarter data, emphasizing the need for real-time personalization to enhance customer engagement. Additionally, the article highlights the value of effective AI tools that can genuinely support marketing efforts. Stay updated on these trends to improve brand strategies! 📊✨🤖 #AdWeek2025 #BrandBuilding #AI #MarketingTrends #Personalization</description>
+    </item>
+    <item>
+      <title>Windows 10 End of Support: How to Stay Protected</title>
+      <link>/articles/article-2025-10-14-10927/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-14-10927/</guid>
+      <description>🚨 Important Update for Windows 10 Users! 🚨 As of October 14, 2025, Microsoft will end support for non-LTSC releases of Windows 10. This means no more security updates or feature patches, increasing vulnerability to cyber threats. Many enterprises still rely on Windows 10, holding significant market share. Organizations must plan their migration to supported systems to avoid security risks and compliance issues. Stay informed and protect your systems! 💻🔒 #Windows10 #CyberSecurity #EndOfSupport&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco Joins Forces with OCP in the Ethernet for Scale-Up Networking (ESUN) Collaboration</title>

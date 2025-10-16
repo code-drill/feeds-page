@@ -6,14 +6,42 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Oct 2025 18:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 19:30:16 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Faster Coding Shifts the Bottleneck to Debugging</title>
+      <link>/articles/article-2025-10-16-9732/</link>
+      <pubDate>Thu, 16 Oct 2025 19:30:16 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-9732/</guid>
+      <description>Recent research reveals that AI coding tools may not enhance developer productivity as expected. According to METR, developers take 19% longer when using these tools, despite believing they are more efficient. A significant 76% of developers must refactor AI-generated code due to issues like inaccuracies and poor quality, impacting overall productivity. To address these challenges, join the webinar on Oct. 9, 2025, featuring experts discussing ways to overcome bottlenecks in engineering&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenSearch 3.3’s New AI Agents Now Generally Available for Developers</title>
+      <link>/articles/article-2025-10-16-11007/</link>
+      <pubDate>Thu, 16 Oct 2025 19:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11007/</guid>
+      <description>🚀 OpenSearch 3.3 is now live, enhancing developer capabilities with new AI agents! This release emphasizes an all-in-one observability experience, integrating logs, traces, and visualizations. Key features include smarter visualizations, advanced queries, and faster insights. 🔍 The highlight is the AI agentic search, allowing developers to deploy autonomous search agents that interpret natural language queries and refine tasks effectively. The update also brings improvements in semantic&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Claude Haiku 4.5 is now available in the AI Gateway</title>
+      <link>/articles/article-2025-10-16-11009/</link>
+      <pubDate>Thu, 16 Oct 2025 18:41:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11009/</guid>
+      <description>🚀 Claude Haiku 4.5 is now live on Netlify’s AI Gateway! No extra setup is needed to access the native Anthropic SDK. This allows users to avoid managing API keys or external accounts. Check out how to implement it in a Netlify Function with example code for easy integration. Supported across Edge, Background, and Scheduled Functions, it offers features like Rate-Limiting and advanced caching. Learn more in the AI Gateway docs! 📄💻 #AI #Netlify #ClaudeHaiku #Anthropic #TechUpdate</description>
+    </item>
     <item>
       <title>Control Fluent Bit Backpressure With Prometheus</title>
       <link>/articles/article-2025-10-16-10992/</link>
       <pubDate>Thu, 16 Oct 2025 18:00:24 +0000</pubDate>
       <guid>/articles/article-2025-10-16-10992/</guid>
       <description>🚀 Fluent Bit is a popular open-source tool for collecting logs, metrics, and traces. Its lightweight design makes it suitable for modern observability pipelines. However, it can face backpressure when data ingestion outpaces processing, leading to issues like high memory usage and potential data loss. Monitoring backpressure is essential for a healthy logging pipeline. Key controls, such as Mem_Buf_Limit and storage.max_chunks_up, help manage data flow during high throughput. 🔍 For a complete&amp;hellip;</description>
+    </item>
+    <item>
+      <title>NVIDIA Blackwell Leads on SemiAnalysis InferenceMAX v1 Benchmarks</title>
+      <link>/articles/article-2025-10-16-10611/</link>
+      <pubDate>Thu, 16 Oct 2025 17:33:19 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-10611/</guid>
+      <description>SemiAnalysis has launched InferenceMAX™ v1, an open-source initiative for evaluating inference hardware performance. The results show NVIDIA GPUs, particularly the Blackwell model, achieving a 15x performance increase over the previous Hopper generation. This advancement is attributed to innovative hardware-software designs. The AI community is encouraged to utilize InferenceMAX v1 to validate NVIDIA&amp;rsquo;s performance across various inference scenarios. #NVIDIA #AI #InferenceMAX #TechInnovation&amp;hellip;</description>
     </item>
     <item>
       <title>Search Isn’t Dead: From RAG to Agents With Vector Databases</title>
@@ -196,6 +224,13 @@
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-16-10981/</guid>
       <description>🚀 Google Cloud&amp;rsquo;s new C4 Virtual Machine showcases a significant 70% improvement in Total Cost of Ownership (TCO) for OpenAI&amp;rsquo;s GPT OSS, thanks to collaboration with Intel and Hugging Face. Key findings include a 1.7x TCO improvement over the previous C3 VM. The C4 VM also offers enhanced throughput and a lower hourly rate. #GoogleCloud #Intel #HuggingFace #AI #CloudComputing</description>
+    </item>
+    <item>
+      <title>Variable and artifact sharing in GitLab parent-child pipelines</title>
+      <link>/articles/article-2025-10-16-11008/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11008/</guid>
+      <description>🚀 In the world of software development, adapting to evolving needs is essential. The article discusses the significance of CI/CD pipelines, specifically the parent-child pipeline model in GitLab. 🔗 This approach breaks complex pipelines into smaller, manageable child pipelines, improving functionality and efficiency. It also covers how to share variables and artifacts between these pipelines for streamlined operations. 📊 Key benefits include conditional execution, parallel processing, and&amp;hellip;</description>
     </item>
     <item>
       <title>Learn, Experiment, and Build with Databricks Free Edition</title>

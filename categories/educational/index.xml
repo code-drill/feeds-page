@@ -6,8 +6,36 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Oct 2025 14:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 18:00:24 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control Fluent Bit Backpressure With Prometheus</title>
+      <link>/articles/article-2025-10-16-10992/</link>
+      <pubDate>Thu, 16 Oct 2025 18:00:24 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-10992/</guid>
+      <description>🚀 Fluent Bit is a popular open-source tool for collecting logs, metrics, and traces. Its lightweight design makes it suitable for modern observability pipelines. However, it can face backpressure when data ingestion outpaces processing, leading to issues like high memory usage and potential data loss. Monitoring backpressure is essential for a healthy logging pipeline. Key controls, such as Mem_Buf_Limit and storage.max_chunks_up, help manage data flow during high throughput. 🔍 For a complete&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Measure Sandbox Performance for AI-Driven Development</title>
+      <link>/articles/article-2025-10-16-10994/</link>
+      <pubDate>Thu, 16 Oct 2025 17:00:41 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-10994/</guid>
+      <description>Sandboxed environments are essential for AI-driven development, providing secure and isolated spaces for experimentation. While many teams focus on startup time, it&amp;rsquo;s command execution speed that truly impacts productivity. Slow commands can hinder developer flow and escalate costs, affecting project timelines. Real-world examples show that improved execution speeds lead to faster resolution times, demonstrating the importance of measuring this metric over startup time. #AIDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to write and rightsize Terraform modules</title>
+      <link>/articles/article-2025-10-16-11002/</link>
+      <pubDate>Thu, 16 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11002/</guid>
+      <description>🔧 Designing effective Terraform modules involves careful consideration of key areas: scope, code strategy, security, and testing. Rene Schach, a Senior Cloud Consultant, emphasizes the importance of understanding your module&amp;rsquo;s purpose and audience. Engaging with users helps identify their needs and streamline workflows. Modules should maintain clear functional separation and avoid tight coupling to ensure flexibility and maintainability. Group related resources and separate by volatility for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Profiling vLLM Inference Server with GPU acceleration on RHEL</title>
+      <link>/articles/article-2025-10-16-10998/</link>
+      <pubDate>Thu, 16 Oct 2025 15:44:40 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-10998/</guid>
+      <description>🚀 Profiling large language models (LLMs) is essential for optimization. This guide details how to set up and profile a vLLM inference server on RHEL with NVIDIA GPUs. 🔧 It covers three main stages: 1️⃣ Environment setup: Install NVIDIA drivers and the Container Toolkit. 2️⃣ Basic profiling: Use the PyTorch profiler to trace inference requests. 3️⃣ Advanced profiling: Leverage NVIDIA Nsight Systems for deeper insights. For a comprehensive understanding, check the full guide! #LLM #GPU #vLLM&amp;hellip;</description>
+    </item>
     <item>
       <title>AI-First Web Development: Model-First Design and Remix v3</title>
       <link>/articles/article-2025-10-16-10983/</link>

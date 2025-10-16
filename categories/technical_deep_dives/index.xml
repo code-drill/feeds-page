@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 18:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 17:10:43 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Branching in a Sapling Monorepo</title>
+      <link>/articles/article-2025-10-16-11005/</link>
+      <pubDate>Thu, 16 Oct 2025 17:10:43 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11005/</guid>
+      <description>🌱 Exciting insights from the GitMerge 2024 conference on branching in Sapling, Meta&amp;rsquo;s open-source source control system! Sapling supports a large monorepo, addressing the challenges of branching workflows. The article discusses tradeoffs between scalability and developer experience, highlighting two effective workflows: non-mergeable full-repo branching and mergeable directory branching. Key takeaways include how these workflows resolved branching issues for diverse products at Meta. The&amp;hellip;</description>
+    </item>
+    <item>
+      <title>10X Backbone: How Meta Is Scaling Backbone Connectivity for AI</title>
+      <link>/articles/article-2025-10-16-11006/</link>
+      <pubDate>Thu, 16 Oct 2025 16:30:02 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-11006/</guid>
+      <description>Meta is enhancing its Backbone network to meet the growing demands of AI workloads. 🌐 The Backbone consists of two main networks: Classic Backbone (CBB) for global reach and Express Backbone (EBB) for scalable data center interconnections. EBB, which has been growing since 2015, faces significant scalability challenges. 🚀 Meta&amp;rsquo;s focus is on evolving EBB to ensure reliable, high-capacity connections as new data centers are built. #Meta #AI #Networking #DataCenters #TechInnovation</description>
+    </item>
+    <item>
+      <title>Network performance in distributed training: Maximizing GPU utilization on OpenShift</title>
+      <link>/articles/article-2025-10-16-10999/</link>
+      <pubDate>Thu, 16 Oct 2025 15:07:18 +0000</pubDate>
+      <guid>/articles/article-2025-10-16-10999/</guid>
+      <description>🚀 Key findings from a recent study on GPU clusters for distributed training highlight the importance of network architecture. Using IBM Cloud, tests showed that the standard OpenShift pod network creates bottlenecks. For L40S GPUs, secondary vNICs increased performance by up to 132% at scale. For H100 GPUs, switching to SR-IOV led to a 3x increase in throughput. Recommendations emphasize investing in high-performance networks to maximize GPU utilization. #DistributedTraining #GPUPerformance&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerated and Distributed UPF for the Era of Agentic AI and 6G</title>
       <link>/articles/article-2025-10-15-10956/</link>

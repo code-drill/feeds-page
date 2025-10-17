@@ -6,8 +6,43 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 07:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 17:56:35 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving virtual machine puzzles: How AI is optimizing cloud computing</title>
+      <link>/articles/article-2025-10-17-11037/</link>
+      <pubDate>Fri, 17 Oct 2025 17:56:35 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11037/</guid>
+      <description>Introducing LAVA, a new AI-driven scheduling algorithm designed to enhance resource efficiency in cloud data centers. ☁️💻 LAVA adapts to the lifetimes of virtual machines (VMs) by continuously updating predictions, addressing the challenges of VM allocation. This system helps prevent resource stranding and optimizes server usage for both economic and environmental benefits. 🌱📈 The approach includes three algorithms: NILAS, LAVA, and LARS, which work together to improve VM fitting on physical&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerating GenAI Workloads With Seekable OCI</title>
+      <link>/articles/article-2025-10-17-11032/</link>
+      <pubDate>Fri, 17 Oct 2025 17:00:49 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11032/</guid>
+      <description>🚀 The rise of generative AI (GenAI) is transforming containerized applications. Organizations are focusing on optimizing container image sizes and network performance for better deployment efficiency. Reducing image pull times can significantly impact application startup speed. ⏱️ Seekable OCI (SOCI) offers innovative solutions like parallel pull and lazy loading to enhance container operations. These methods improve performance and resource utilization during AI/ML deployments. Learn more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Tracking Down Mysterious ML Training Stalls</title>
+      <link>/articles/article-2025-10-17-11036/</link>
+      <pubDate>Fri, 17 Oct 2025 16:01:48 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11036/</guid>
+      <description>🔍 Pinterest recently tackled a significant challenge during a PyTorch upgrade, experiencing a 50% drop in ML training throughput. The team meticulously traced the issue, identifying low-level Linux kernels and a monitoring process as major culprits. Their systematic debugging provided insights into optimizing performance and enhancing training efficiency. This journey highlights the importance of thorough analysis and innovative solutions in tackling complex tech issues. 💻✨ #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling LLM Inference: Innovations in Tensor Parallelism, Context Parallelism, and Expert Parallelism</title>
+      <link>/articles/article-2025-10-17-11038/</link>
+      <pubDate>Fri, 17 Oct 2025 16:00:50 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11038/</guid>
+      <description>At Meta, we are advancing LLM inference systems to enhance applications like the Meta AI App. We focus on optimizing resource efficiency, throughput, and latency using techniques like tensor, context, and expert parallelism. These methods help manage the demands of large language models during both the prefill and decoding stages. Our goal is to improve GPU utilization, increase query handling, and minimize response times for a smooth user experience. #MetaAI #LLMInference #Parallelism #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enterprise-Scale Governance: Migrating from Hive Metastore to Unity Catalog</title>
+      <link>/articles/article-2025-10-17-11035/</link>
+      <pubDate>Fri, 17 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11035/</guid>
+      <description>📊 Businesses are navigating complex data landscapes as they scale their digital capabilities. This article discusses the process of migrating from Hive Metastore to Unity Catalog. It highlights how organizations can manage large-scale workloads while maintaining data governance and optimizing performance. Learn more about this migration strategy to enhance your data management! 🔄📈 #DataGovernance #UnityCatalog #HiveMetastore #DataManagement #TechTrends</description>
+    </item>
     <item>
       <title>Why rent a cloud when you can build one?</title>
       <link>/articles/article-2025-10-17-11018/</link>

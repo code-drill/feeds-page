@@ -6,8 +6,57 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 18:00:15 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Atlassian Is Driving the AI Agent-Assisted Workflow</title>
+      <link>/articles/article-2025-10-17-11031/</link>
+      <pubDate>Fri, 17 Oct 2025 18:00:15 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11031/</guid>
+      <description>🚀 Atlassian is advancing AI agent-assisted workflows, but results vary by organization. CTO Laura Tacho highlighted that some teams see production failures double, while others reduce them. Speed also differs, with some developers shipping changes three times faster than others. At Atlassian&amp;rsquo;s recent conferences, leaders acknowledged that successful AI adoption requires understanding team workflows. They aim to support enterprise customers in navigating AI integration while seeking partners&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Solving virtual machine puzzles: How AI is optimizing cloud computing</title>
+      <link>/articles/article-2025-10-17-11037/</link>
+      <pubDate>Fri, 17 Oct 2025 17:56:35 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11037/</guid>
+      <description>Introducing LAVA, a new AI-driven scheduling algorithm designed to enhance resource efficiency in cloud data centers. ☁️💻 LAVA adapts to the lifetimes of virtual machines (VMs) by continuously updating predictions, addressing the challenges of VM allocation. This system helps prevent resource stranding and optimizes server usage for both economic and environmental benefits. 🌱📈 The approach includes three algorithms: NILAS, LAVA, and LARS, which work together to improve VM fitting on physical&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerating GenAI Workloads With Seekable OCI</title>
+      <link>/articles/article-2025-10-17-11032/</link>
+      <pubDate>Fri, 17 Oct 2025 17:00:49 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11032/</guid>
+      <description>🚀 The rise of generative AI (GenAI) is transforming containerized applications. Organizations are focusing on optimizing container image sizes and network performance for better deployment efficiency. Reducing image pull times can significantly impact application startup speed. ⏱️ Seekable OCI (SOCI) offers innovative solutions like parallel pull and lazy loading to enhance container operations. These methods improve performance and resource utilization during AI/ML deployments. Learn more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Maximize resource usage and minimize risk with Nomad-based Workload Security Rings</title>
+      <link>/articles/article-2025-10-17-11033/</link>
+      <pubDate>Fri, 17 Oct 2025 16:27:25 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11033/</guid>
+      <description>Explore how organizations can optimize resource usage and enhance security with the Workload Security Ring (WSR) method using HashiCorp tools! The WSR method helps manage diverse workloads by grouping them into security classes, maximizing efficiency while minimizing risks like lateral movement and denial of service. Learn about integrating Nomad, Vault, and Consul to create a secure multi-tenant environment. #WorkloadSecurity #HashiCorp #CloudSecurity #TechInnovation #ResourceOptimization 🌐🔒🖥️✨</description>
+    </item>
+    <item>
+      <title>Tracking Down Mysterious ML Training Stalls</title>
+      <link>/articles/article-2025-10-17-11036/</link>
+      <pubDate>Fri, 17 Oct 2025 16:01:48 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11036/</guid>
+      <description>🔍 Pinterest recently tackled a significant challenge during a PyTorch upgrade, experiencing a 50% drop in ML training throughput. The team meticulously traced the issue, identifying low-level Linux kernels and a monitoring process as major culprits. Their systematic debugging provided insights into optimizing performance and enhancing training efficiency. This journey highlights the importance of thorough analysis and innovative solutions in tackling complex tech issues. 💻✨ #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling LLM Inference: Innovations in Tensor Parallelism, Context Parallelism, and Expert Parallelism</title>
+      <link>/articles/article-2025-10-17-11038/</link>
+      <pubDate>Fri, 17 Oct 2025 16:00:50 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11038/</guid>
+      <description>At Meta, we are advancing LLM inference systems to enhance applications like the Meta AI App. We focus on optimizing resource efficiency, throughput, and latency using techniques like tensor, context, and expert parallelism. These methods help manage the demands of large language models during both the prefill and decoding stages. Our goal is to improve GPU utilization, increase query handling, and minimize response times for a smooth user experience. #MetaAI #LLMInference #Parallelism #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enterprise-Scale Governance: Migrating from Hive Metastore to Unity Catalog</title>
+      <link>/articles/article-2025-10-17-11035/</link>
+      <pubDate>Fri, 17 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11035/</guid>
+      <description>📊 Businesses are navigating complex data landscapes as they scale their digital capabilities. This article discusses the process of migrating from Hive Metastore to Unity Catalog. It highlights how organizations can manage large-scale workloads while maintaining data governance and optimizing performance. Learn more about this migration strategy to enhance your data management! 🔄📈 #DataGovernance #UnityCatalog #HiveMetastore #DataManagement #TechTrends</description>
+    </item>
     <item>
       <title>Solutions to secret sprawl: A 4-part framework</title>
       <link>/articles/article-2025-10-17-11028/</link>
@@ -98,6 +147,13 @@
       <pubDate>Fri, 17 Oct 2025 01:45:00 +0000</pubDate>
       <guid>/articles/article-2025-10-17-11015/</guid>
       <description>Discover how Edmunds transformed its data lakehouse into a multi-agent AI platform using Databricks. This shift enables enhanced activation, automation, and ongoing innovation in enterprise operations. The article highlights the importance of a unified data approach in today’s digital landscape. Learn more about this innovative architecture and its impact on business. 🌐💡 #DataLakehouse #AI #Innovation #Databricks #DigitalTransformation</description>
+    </item>
+    <item>
+      <title>Auth0 FGA Logging API: A Complete Audit Trail for Authorization</title>
+      <link>/articles/article-2025-10-17-11034/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-17-11034/</guid>
+      <description>🚀 Exciting news from Auth0! The new Fine-Grained Authorization (FGA) Logging API is now available. This dedicated endpoint provides a complete audit trail for every interaction with the FGA system. Developers, security engineers, and compliance officers can now easily access authorization logs for auditing, troubleshooting, and monitoring. Key features include: - Immutable logs for compliance - Detailed filtering for efficient debugging - Proactive security monitoring Learn more about how&amp;hellip;</description>
     </item>
     <item>
       <title>The consulting industry’s human-powered renaissance</title>

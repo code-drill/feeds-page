@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Oct 2025 14:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 17:00:46 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When JSDOM and Fetch Collide: Cross-Environment Lessons</title>
+      <link>/articles/article-2025-10-18-11052/</link>
+      <pubDate>Sat, 18 Oct 2025 17:00:46 +0000</pubDate>
+      <guid>/articles/article-2025-10-18-11052/</guid>
+      <description>🚀 Developing cross-environment JavaScript code can be challenging. An article explores issues with relative URLs in JSDOM compared to browsers. 📝 JSDOM, used in testing frameworks, defaults to about:blank, causing relative URLs to fail unless configured correctly. 🔍 Even with Jest and Vitest preconfiguring JSDOM, issues can arise due to differences in how location objects are handled. #JavaScript #JSDOM #WebDevelopment #Coding #TestingTools</description>
+    </item>
     <item>
       <title>React Native Rolls Out Its Latest Version on New Architecture</title>
       <link>/articles/article-2025-10-18-11050/</link>

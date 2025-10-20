@@ -27,7 +27,7 @@
       <link>/articles/article-2025-10-20-11075/</link>
       <pubDate>Mon, 20 Oct 2025 16:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-20-11075/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developer.nvidia.com/blog/feed&#34;&gt;Nvidia Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/scaling-large-moe-models-with-wide-expert-parallelism-on-nvl72-rack-scale-systems/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Modern AI workloads are evolving beyond single-GPU setups. Model parallelism is now key for scalable deployments, especially with mixture-of-experts (MoE) architectures, which activate only a portion of parameters per token. Expert parallelism (EP) is crucial for managing the complexities of scaling these models. With tools like NVIDIA Tensor RT-LLM’s Wide Expert Parallelism, large-scale deployments become more efficient, enhancing performance and cost-effectiveness. Learn how large-scale EP&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA Blackwell Leads on SemiAnalysis InferenceMAX v1 Benchmarks</title>

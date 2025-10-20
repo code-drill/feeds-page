@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 15:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 16:30:31 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How DoorDash slashed web developer build times</title>
+      <link>/articles/article-2025-10-20-11080/</link>
+      <pubDate>Mon, 20 Oct 2025 16:30:31 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11080/</guid>
+      <description>DoorDash faced challenges with lengthy CI pipeline durations as web projects grew in complexity. By optimizing tooling and adopting a new monorepo system, they reduced build and test times by 75%, saving over 500 engineering hours monthly. Key strategies included leveraging cobuilds and enhancing parallelization techniques. These changes have significantly improved developer productivity. 🚀💻 #DoorDash #WebDevelopment #ContinuousIntegration #EngineeringEfficiency #TechInnovation</description>
+    </item>
+    <item>
+      <title>Scaling Large MoE Models with Wide Expert Parallelism on NVL72 Rack Scale Systems</title>
+      <link>/articles/article-2025-10-20-11075/</link>
+      <pubDate>Mon, 20 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11075/</guid>
+      <description>Modern AI workloads are evolving beyond single-GPU setups. Model parallelism is now key for scalable deployments, especially with mixture-of-experts (MoE) architectures, which activate only a portion of parameters per token. Expert parallelism (EP) is crucial for managing the complexities of scaling these models. With tools like NVIDIA Tensor RT-LLM’s Wide Expert Parallelism, large-scale deployments become more efficient, enhancing performance and cost-effectiveness. Learn how large-scale EP&amp;hellip;</description>
+    </item>
     <item>
       <title>MCP vs. API Gateways: They’re Not Interchangeable</title>
       <link>/articles/article-2025-10-20-11062/</link>
@@ -28,6 +42,13 @@
       <pubDate>Mon, 20 Oct 2025 03:15:00 +0000</pubDate>
       <guid>/articles/article-2025-10-20-11058/</guid>
       <description>At LY Corporation, we are enhancing our pre-release testing process to minimize outages. Our end-to-end testing tool simulates real network calls, providing better insights than traditional unit tests. Recently, we&amp;rsquo;ve integrated this tool into our PR process to identify issues early and improve test coverage. 🚀 This initiative has been years in the making, leveraging advancements from multiple teams to ensure isolated testing environments. We are excited about the progress and the potential&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Airties migrated from ArcSight to Elastic and cut investigation times from hours to seconds</title>
+      <link>/articles/article-2025-10-20-11076/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11076/</guid>
+      <description>Airties has successfully migrated from ArcSight to Elastic, significantly reducing security investigation times from hours to mere seconds. ⏱️ As a leader in Wi-Fi mesh technology, Airties handles vast amounts of data to assist telecom partners in network monitoring and troubleshooting. This transition supports their shift to a software-first model, enhancing data management capabilities. 📈 Discover more about their innovative approach! #Cybersecurity #DataManagement #TechInnovation #Airties&amp;hellip;</description>
     </item>
     <item>
       <title>When JSDOM and Fetch Collide: Cross-Environment Lessons</title>

@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 11:00:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 15:00:54 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Namespaces: Why Kubernetes Needs Real Workload Isolation</title>
+      <link>/articles/article-2025-10-21-11101/</link>
+      <pubDate>Tue, 21 Oct 2025 15:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11101/</guid>
+      <description>Kubernetes namespaces are essential for managing resources, but they provide only logical separation, not true workload isolation. 🛠️ This means that while namespaces help teams share clusters, they do not prevent compromised containers from affecting others on the same node. Real security is needed to protect against vulnerabilities and potential breaches. 🔒 Modern attack patterns highlight the risks, showing that relying solely on namespaces can lead to significant security issues. ⚠️ For&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a Self-Aware Enterprise With GenAI</title>
+      <link>/articles/article-2025-10-21-11102/</link>
+      <pubDate>Tue, 21 Oct 2025 14:00:26 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11102/</guid>
+      <description>🚀 The concept of a self-aware enterprise is evolving with advancements in generative AI (GenAI). Enterprises are moving towards accessing all organizational data without pre-set limitations, allowing for deeper analysis and insights. Key innovations include the commercialization of large language models and scalable vector data stores, which enhance data accessibility and semantic search capabilities. Transitioning to this model requires careful planning and teamwork, emphasizing simplicity&amp;hellip;</description>
+    </item>
     <item>
       <title>How To Get Bare-Metal GPU Performance in Confidential VMs</title>
       <link>/articles/article-2025-10-21-11099/</link>

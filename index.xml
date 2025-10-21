@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 15:00:54 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Namespaces: Why Kubernetes Needs Real Workload Isolation</title>
+      <link>/articles/article-2025-10-21-11101/</link>
+      <pubDate>Tue, 21 Oct 2025 15:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11101/</guid>
+      <description>Kubernetes namespaces are essential for managing resources, but they provide only logical separation, not true workload isolation. 🛠️ This means that while namespaces help teams share clusters, they do not prevent compromised containers from affecting others on the same node. Real security is needed to protect against vulnerabilities and potential breaches. 🔒 Modern attack patterns highlight the risks, showing that relying solely on namespaces can lead to significant security issues. ⚠️ For&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a Self-Aware Enterprise With GenAI</title>
+      <link>/articles/article-2025-10-21-11102/</link>
+      <pubDate>Tue, 21 Oct 2025 14:00:26 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11102/</guid>
+      <description>🚀 The concept of a self-aware enterprise is evolving with advancements in generative AI (GenAI). Enterprises are moving towards accessing all organizational data without pre-set limitations, allowing for deeper analysis and insights. Key innovations include the commercialization of large language models and scalable vector data stores, which enhance data accessibility and semantic search capabilities. Transitioning to this model requires careful planning and teamwork, emphasizing simplicity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New Investments, Stronger Grids: Elevating Rural Electric Cooperative Security</title>
+      <link>/articles/article-2025-10-21-11103/</link>
+      <pubDate>Tue, 21 Oct 2025 13:51:48 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11103/</guid>
+      <description>Rural electric cooperatives are essential to America&amp;rsquo;s power grid, providing energy to millions. 🌍 With the rise of cyber threats, a federal investment of $20 million is aimed at enhancing their security through advanced technologies. These funds will help co-ops modernize operations and improve cyber resilience. ⚡️ Key focus areas include enhanced monitoring, network control, and secure remote access. This initiative allows cooperatives the flexibility to choose solutions that fit their&amp;hellip;</description>
+    </item>
+    <item>
+      <title>5 Steps to Building Resilient Industrial Networks</title>
+      <link>/articles/article-2025-10-21-11104/</link>
+      <pubDate>Tue, 21 Oct 2025 13:24:19 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11104/</guid>
+      <description>🔐 Securing industrial networks is crucial as they face increasing cyber threats. Cisco outlines a 5-step framework to enhance cybersecurity practices. 1️⃣ &lt;strong&gt;Visibility&lt;/strong&gt;: Gain a real-time view of all connected OT assets to identify vulnerabilities and risks effectively. 2️⃣ &lt;strong&gt;Segmentation&lt;/strong&gt;: Divide the network into smaller, secure zones to limit threat movement. Explore more about building resilient industrial networks in the full article! #Cybersecurity #IndustrialIoT #NetworkSecurity #Cisco&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Preview links between microfrontends projects now serve all paths</title>
+      <link>/articles/article-2025-10-21-11097/</link>
+      <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11097/</guid>
+      <description>🚀 Teams utilizing microfrontends can now access all routes from any domain within their group. This improvement enhances the testing experience by eliminating broken links. Previously, only the root domain served paths from child microfrontends. Now, preview links route paths between all projects, reducing 404 errors. Deployments from the same commit or branch link automatically, simplifying testing in monorepos. Fallback routing also resolves requests for microfrontends on different&amp;hellip;</description>
+    </item>
     <item>
       <title>Cisco Secure Firewall 1220: Snort3 – Uncompromised Performance in Rigorous Testing</title>
       <link>/articles/article-2025-10-21-11100/</link>
@@ -63,6 +98,34 @@
       <pubDate>Tue, 21 Oct 2025 00:00:10 +0000</pubDate>
       <guid>/articles/article-2025-10-21-11093/</guid>
       <description>🚀 Grab is enhancing its machine learning model serving platform, Catwalk, by integrating NVIDIA Triton Inference Server. This upgrade addresses performance issues caused by maintaining multiple legacy inference engines. Key benefits of Triton include multi-framework support, a unified API, and optimized hardware performance. Early results show over 50% of online deployments successfully migrated with improved latency and cost savings. Stay tuned for more updates on this transformation! 🌟&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Delivering faster and smarter scans with Advanced SAST</title>
+      <link>/articles/article-2025-10-21-11105/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11105/</guid>
+      <description>🚀 GitLab&amp;rsquo;s Advanced SAST is enhancing static application security testing to improve developer workflows. With the latest updates, teams can expect faster scans, increased accuracy, and the ability to create custom detection rules. 🔍 These enhancements, like multi-core and diff-based scanning, significantly reduce scan times, making security integration seamless. 💡 By prioritizing both speed and accuracy, GitLab aims to drive SAST adoption and secure software development. #DevSecOps #GitLab&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab 18.5: Intelligence that moves software development forward</title>
+      <link>/articles/article-2025-10-21-11106/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11106/</guid>
+      <description>🚀 GitLab 18.5 has been released, focusing on improving usability and integrating AI for software development teams. The new panel-based UI enhances user experience, allowing easy access to GitLab Duo Chat for contextual assistance. Purpose-built agents support vulnerability triage and backlog management, streamlining workflows. Key updates include advanced security features for identifying exploitable vulnerabilities, alongside tools for backlog organization and simplified API configurations&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Unlock the power of images with AI Sheets</title>
+      <link>/articles/article-2025-10-21-11108/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11108/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://huggingface.co/blog/feed.xml&#34;&gt;Hugging Face Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://huggingface.co/blog/aisheets-unlock-images&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unreal Engine 5 helps Frogwares deliver a different sort of horror in The Sinking City 2</title>
+      <link>/articles/article-2025-10-21-11107/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11107/</guid>
+      <description>Frogwares has shared insights on how Unreal Engine 5 has enhanced the development of ‘The Sinking City 2.’ 🎮 The team leveraged UE5 to craft Lovecraftian horror elements while integrating survival gameplay with investigative mechanics. This approach aims to immerse players in a unique and chilling experience. 🕵️‍♂️🔍 Discover more about their innovative techniques and design choices! #TheSinkingCity2 #Frogwares #UnrealEngine5 #GamingNews #HorrorGames</description>
     </item>
     <item>
       <title>Agentforce’s Agent Graph: Toward Guided Determinism with Hybrid Reasoning</title>

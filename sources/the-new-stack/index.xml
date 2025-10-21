@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 21:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:33 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Cascade of Failures: A Breakdown of the Massive AWS Outage</title>
+      <link>/articles/article-2025-10-21-11086/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11086/</guid>
+      <description>🚨 AWS experienced a significant outage in its US-EAST-1 region, affecting multiple services like AWS Lambda and Amazon API Gateway. The issues began around 3 a.m. EDT due to DNS misconfiguration, leading to increased error rates. By 6 a.m., recovery efforts were underway, but challenges with EC2 instances persisted. As of the latest update, services have largely recovered, though a backlog remains for some users. #AWS #CloudServices #Outage #TechNews #DNS</description>
+    </item>
+    <item>
+      <title>Why Google Cloud’s OTLP Support Matters for Your Telemetry Pipeline</title>
+      <link>/articles/article-2025-10-20-11087/</link>
+      <pubDate>Mon, 20 Oct 2025 22:00:56 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11087/</guid>
+      <description>Google Cloud has enhanced its Observability features by enabling Cloud Trace to support the OpenTelemetry Protocol (OTLP) for trace data ingestion. This allows users to send trace data directly via the Telemetry API, making it easier for those handling large volumes of data. 📊 The integration simplifies the telemetry pipeline and reduces the need for vendor-specific exporters, promoting standardization across various observability backends. This move aligns Google Cloud&amp;rsquo;s approach with&amp;hellip;</description>
+    </item>
     <item>
       <title>How Block Got 12,000 Employees Using AI Agents in Two Months</title>
       <link>/articles/article-2025-10-20-11082/</link>

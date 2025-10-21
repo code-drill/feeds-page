@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A deep dive into BPF LPM trie performance and optimization</title>
+      <link>/articles/article-2025-10-21-11125/</link>
+      <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11125/</guid>
+      <description>🚀 A recent article delves into the performance of BPF LPM tries, crucial for IP matching in network routing. It began with a soft lockup issue, highlighting performance bottlenecks in BPF LPM trie maps, including slow entry lookups and CPU lockups. These problems have impacted services like Cloudflare’s Magic Firewall, causing packet loss for users. The article also explains trie structures and their efficiency in storing and searching data, making them ideal for tasks like longest prefix&amp;hellip;</description>
+    </item>
     <item>
       <title>Load Balancing Monitor Groups: Multi-Service Health Checks for Resilient Applications</title>
       <link>/articles/article-2025-10-17-11030/</link>

@@ -27,7 +27,7 @@
       <link>/articles/article-2025-10-21-11118/</link>
       <pubDate>Tue, 21 Oct 2025 17:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-21-11118/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developer.nvidia.com/blog/feed&#34;&gt;Nvidia Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/nvidia-ace-adds-open-source-qwen3-slm-for-on-device-deployment-in-pc-games/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 NVIDIA ACE now supports the open-source Qwen3-8B small language model for on-device NPC character development. This integration allows for real-time reasoning and dynamic responses in gaming, enhancing player interaction. The IGI SDK plugin also includes updates for multilingual text-to-speech capabilities and improved performance features. Developers can check out the latest tools and resources to elevate their gaming projects. 🎮✨ #NVIDIA #Gaming #AI #GameDevelopment #Qwen3</description>
     </item>
     <item>
       <title>Should You Go All-In on Vite? A Risk vs. Reward Analysis</title>
@@ -44,11 +44,18 @@
       <description>🌍 At the recent Cisco NetAcad European Partner Conference in Thessaloniki, leaders gathered to discuss the future of workforce training. Cisco aims to equip 1.5 million Europeans with essential digital skills by 2030, focusing on AI readiness. With 3,841 academies supporting 5.1 million students, the commitment to education is strong. AI is reshaping job roles, with 78% of tech positions now needing AI skills. #CiscoNetAcad #AIFuture #DigitalSkills #WorkforceDevelopment #EducationInnovation</description>
     </item>
     <item>
+      <title>Day 2 infrastructure management with Terraform actions</title>
+      <link>/articles/article-2025-10-21-11124/</link>
+      <pubDate>Tue, 21 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11124/</guid>
+      <description>🌐 In the evolving landscape of hybrid and multi-cloud environments, managing infrastructure is becoming increasingly complex. 🔍 An article discusses how Terraform actions can standardize Day 2 workflows, ensuring effective long-term infrastructure management. It highlights that most risks occur post-deployment, making ongoing maintenance crucial. ⚙️ Day 0 involves provisioning, Day 1 focuses on configuration, and Day 2+ is about management and optimization. Common challenges include&amp;hellip;</description>
+    </item>
+    <item>
       <title>Unleash(ed) AI: The Rise of Cognitive Security Operations</title>
       <link>/articles/article-2025-10-21-11117/</link>
       <pubDate>Tue, 21 Oct 2025 15:23:06 +0000</pubDate>
       <guid>/articles/article-2025-10-21-11117/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/customerexperience/unleashed-ai-the-rise-of-cognitive-security-operations&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Cognitive Security is transforming cyber defense, moving organizations from reactive to proactive measures. Cisco&amp;rsquo;s experts discuss the increasing sophistication of AI-driven threats and the need for innovative solutions. They emphasize that traditional security tools are no longer enough to protect against these evolving risks. Learn more about how Cisco is shaping the future of cybersecurity. 🔐💻 #CyberSecurity #CognitiveSecurity #AI #Cisco #TechTrends</description>
     </item>
     <item>
       <title>Beyond Namespaces: Why Kubernetes Needs Real Workload Isolation</title>
@@ -84,6 +91,20 @@
       <pubDate>Tue, 21 Oct 2025 13:24:19 +0000</pubDate>
       <guid>/articles/article-2025-10-21-11104/</guid>
       <description>🔐 Securing industrial networks is crucial as they face increasing cyber threats. Cisco outlines a 5-step framework to enhance cybersecurity practices. 1️⃣ &lt;strong&gt;Visibility&lt;/strong&gt;: Gain a real-time view of all connected OT assets to identify vulnerabilities and risks effectively. 2️⃣ &lt;strong&gt;Segmentation&lt;/strong&gt;: Divide the network into smaller, secure zones to limit threat movement. Explore more about building resilient industrial networks in the full article! #Cybersecurity #IndustrialIoT #NetworkSecurity #Cisco&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A deep dive into BPF LPM trie performance and optimization</title>
+      <link>/articles/article-2025-10-21-11125/</link>
+      <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11125/</guid>
+      <description>🚀 A recent article delves into the performance of BPF LPM tries, crucial for IP matching in network routing. It began with a soft lockup issue, highlighting performance bottlenecks in BPF LPM trie maps, including slow entry lookups and CPU lockups. These problems have impacted services like Cloudflare’s Magic Firewall, causing packet loss for users. The article also explains trie structures and their efficiency in storing and searching data, making them ideal for tasks like longest prefix&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Dynamically extend timeout of an active Sandbox</title>
+      <link>/articles/article-2025-10-21-11121/</link>
+      <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11121/</guid>
+      <description>🚀 Exciting news for Vercel users! You can now extend the duration of an active Sandbox using the new extendTimeout method. This feature is designed to keep long-running sandboxes active beyond their initial timeout. It supports workflows that involve chained tasks or multi-step code generation. Users can extend the timeout multiple times until they reach their plan&amp;rsquo;s maximum runtime—up to 5 hours for Pro and Enterprise plans, and 45 minutes for Hobby plan. Learn more in the docs! 📚 #Vercel&amp;hellip;</description>
     </item>
     <item>
       <title>Preview links between microfrontends projects now serve all paths</title>
@@ -156,6 +177,13 @@
       <description>🚀 Grab is enhancing its machine learning model serving platform, Catwalk, by integrating NVIDIA Triton Inference Server. This upgrade addresses performance issues caused by maintaining multiple legacy inference engines. Key benefits of Triton include multi-framework support, a unified API, and optimized hardware performance. Early results show over 50% of online deployments successfully migrated with improved latency and cost savings. Stay tuned for more updates on this transformation! 🌟&amp;hellip;</description>
     </item>
     <item>
+      <title>Bridging partners in pursuit of agentic AI — Part 2: How leaders can position themselves for the future</title>
+      <link>/articles/article-2025-10-21-11119/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11119/</guid>
+      <description>In the latest insights on agentic AI, leaders are encouraged to focus on defining their specialties to drive scalable solutions. Establishing expertise in specific areas is crucial for differentiation in a competitive landscape. This clarity can enhance partnerships and accelerate growth. Examples from industries like healthcare and finance show how targeted applications can meet unique needs effectively. #AgenticAI #Leadership #Partnerships #Innovation #TechTrends 🤝📈💡</description>
+    </item>
+    <item>
       <title>Delivering faster and smarter scans with Advanced SAST</title>
       <link>/articles/article-2025-10-21-11105/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
@@ -175,6 +203,20 @@
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-21-11109/</guid>
       <description>The latest CrowdStrike State of Ransomware Survey reveals a concerning gap in business preparedness. While 50% of security leaders feel “very well prepared,” 78% faced ransomware attacks last year. Only 22% recovered within 24 hours, highlighting a false sense of security. As adversaries leverage AI for faster attacks, organizations must innovate their defenses. 89% see AI-powered protection as key to improving security. #Ransomware #CyberSecurity #AI #BusinessPreparedness #DataProtection 🛡️🔒💻</description>
+    </item>
+    <item>
+      <title>Social or Enterprise: Which Connection is Right?</title>
+      <link>/articles/article-2025-10-21-11123/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11123/</guid>
+      <description>Navigating the choice between Social and Enterprise Connections can be challenging for developers. 🤔 Social Connections enable users to log in with existing accounts from providers like Google and Facebook, ideal for B2C applications. They enhance user convenience and streamline sign-ups. In contrast, Enterprise Connections cater to B2B needs, allowing users to manage both personal and corporate accounts effectively. Understanding the right connection type is crucial for your app&amp;rsquo;s success! 🔑&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Supercharge your OCR Pipelines with Open Models</title>
+      <link>/articles/article-2025-10-21-11122/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11122/</guid>
+      <description>🚀 Supercharge your OCR pipelines with open models! The rise of vision-language models is changing the document AI landscape. This guide helps you navigate the choices, focusing on cost efficiency and privacy with open-weight models. Learn when to fine-tune models, key selection factors, and how to enhance OCR with multimodal retrieval and document QA. Get started today! 📄🔍 #OCR #DocumentAI #OpenModels #TechGuide #AIInsights</description>
     </item>
     <item>
       <title>Unlock the power of images with AI Sheets</title>
@@ -427,6 +469,13 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-20-11077/</guid>
       <description>🚀 Introducing CheckMate for Auth0! This new open-source tool helps developers and security teams assess and enhance the security of their Auth0 tenant configurations. CheckMate analyzes your setup against security best practices, providing insights to identify vulnerabilities. 🛡️ Key features include checks for misconfigured applications, password policies, MFA settings, and more. It streamlines security reviews, making it easier to maintain a secure environment. 🔍 #Auth0 #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Server rendering benchmarks: Railway vs Cloudflare vs Vercel</title>
+      <link>/articles/article-2025-10-20-11120/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11120/</guid>
+      <description>🔍 A recent benchmark compares the CPU performance of server-side rendering across Railway, Vercel, and Cloudflare. The analysis highlights key differences in efficiency and speed among these platforms, providing insights for developers choosing a server rendering solution. Understanding these metrics can help optimize performance in web applications. #ServerRendering #WebDevelopment #PerformanceBenchmark ⚙️💻</description>
     </item>
     <item>
       <title>Make Data Ready for AI With Hygiene, Governance, and Experimentation</title>

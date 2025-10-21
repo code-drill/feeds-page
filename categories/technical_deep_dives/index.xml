@@ -16,6 +16,13 @@
       <description>Kubernetes namespaces are essential for managing resources, but they provide only logical separation, not true workload isolation. 🛠️ This means that while namespaces help teams share clusters, they do not prevent compromised containers from affecting others on the same node. Real security is needed to protect against vulnerabilities and potential breaches. 🔒 Modern attack patterns highlight the risks, showing that relying solely on namespaces can lead to significant security issues. ⚠️ For&amp;hellip;</description>
     </item>
     <item>
+      <title>A deep dive into BPF LPM trie performance and optimization</title>
+      <link>/articles/article-2025-10-21-11125/</link>
+      <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-21-11125/</guid>
+      <description>🚀 A recent article delves into the performance of BPF LPM tries, crucial for IP matching in network routing. It began with a soft lockup issue, highlighting performance bottlenecks in BPF LPM trie maps, including slow entry lookups and CPU lockups. These problems have impacted services like Cloudflare’s Magic Firewall, causing packet loss for users. The article also explains trie structures and their efficiency in storing and searching data, making them ideal for tasks like longest prefix&amp;hellip;</description>
+    </item>
+    <item>
       <title>Requirement Adherence: Boosting Data Labeling Quality Using LLMs</title>
       <link>/articles/article-2025-10-21-11112/</link>
       <pubDate>Tue, 21 Oct 2025 13:00:00 +0000</pubDate>
@@ -112,6 +119,13 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-20-11076/</guid>
       <description>Airties has successfully migrated from ArcSight to Elastic, significantly reducing security investigation times from hours to mere seconds. ⏱️ As a leader in Wi-Fi mesh technology, Airties handles vast amounts of data to assist telecom partners in network monitoring and troubleshooting. This transition supports their shift to a software-first model, enhancing data management capabilities. 📈 Discover more about their innovative approach! #Cybersecurity #DataManagement #TechInnovation #Airties&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Server rendering benchmarks: Railway vs Cloudflare vs Vercel</title>
+      <link>/articles/article-2025-10-20-11120/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-20-11120/</guid>
+      <description>🔍 A recent benchmark compares the CPU performance of server-side rendering across Railway, Vercel, and Cloudflare. The analysis highlights key differences in efficiency and speed among these platforms, providing insights for developers choosing a server rendering solution. Understanding these metrics can help optimize performance in web applications. #ServerRendering #WebDevelopment #PerformanceBenchmark ⚙️💻</description>
     </item>
     <item>
       <title>When JSDOM and Fetch Collide: Cross-Environment Lessons</title>

@@ -447,6 +447,159 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/node-js-vercel-functions-now-support-per-path-request-cancellation" target="_blank">Node.js Vercel Functions now support per-path request cancellation</a></h2>
+            <div class="publication-date">2025-09-26 13:00</div>
+            <div class="summary">🚀 Vercel Functions with Node.js now support request cancellation on a per-path basis. This feature allows functions to stop execution when a request is canceled, such as when a user navigates away or closes a tab. This change helps to reduce unnecessary compute and token generation. To enable cancellation, simply add &#34;supportsCancellation&#34;: true to your vercel.json file. Learn more about this update and its implementation! 🔗 #Vercel #NodeJS #WebDevelopment #TechUpdate #RequestCancellation</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Craig Andrews</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/cdn-request-collapsing" target="_blank">Preventing the stampede: Request collapsing in the Vercel CDN</a></h2>
+            <div class="publication-date">2025-09-25 13:00</div>
+            <div class="summary">🚀 When deploying Next.js apps with Incremental Static Regeneration (ISR), users may experience &#34;cache stampedes.&#34; This occurs when multiple requests for the same page trigger separate function invocations, leading to wasted resources and potential downtime. 🌍 Vercel&#39;s CDN now tackles this issue with request collapsing. Only one request per region will invoke a function for uncached paths, while others wait for the cached response. 🔧 This feature requires no manual configuration, as Vercel...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Sachin Raja</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/request-collapsing-for-isr-cache-misses" target="_blank">Request collapsing for ISR cache misses</a></h2>
+            <div class="publication-date">2025-09-25 13:00</div>
+            <div class="summary">🚀 Vercel CDN introduces request collapsing to manage cache misses for ISR pages. This feature prevents cache stampedes by consolidating simultaneous requests into a single regeneration per region. As a result, it enhances reliability and significantly reduces backend load. No extra configuration is needed, as cacheability is automatically detected. For more details, check out their blog post! #Vercel #CDN #WebDevelopment #ISR #Caching</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Sachin Raja</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/vercel-domains-at-cost-pricing-and-the-fastest-on-the-web" target="_blank">Vercel Domains overhauled with instant search and at-cost pricing</a></h2>
+            <div class="publication-date">2025-09-25 13:00</div>
+            <div class="summary">🚀 Vercel has revamped its Domains service, making it easier and more affordable to find and purchase domains for your projects. Now, you can search for domains without logging in, and enjoy at-cost pricing with savings of up to 50% on popular TLDs. Results are transparent and available instantly, providing real-time updates on availability and premium status. Plus, with expanded TLD coverage and bulk checkout options, managing multiple domains is streamlined. Discover the new features at...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Maggie Valentine</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/zero-config-fastapi-backends" target="_blank">Zero-configuration FastAPI backends</a></h2>
+            <div class="publication-date">2025-09-25 13:00</div>
+            <div class="summary">🚀 FastAPI just got easier! Vercel now supports FastAPI with zero-configuration, simplifying deployment. No more redirects or /api folder requirements are needed. With Fluid compute and Active CPU pricing, your app will scale based on traffic, ensuring you only pay for what you use. For more details, check out the FastAPI on Vercel documentation! 🌐💻 #FastAPI #Vercel #WebDevelopment #APIs #Python</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Ricardo Gonzalez</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/query-data-on-external-api-requests-in-vercel-observability" target="_blank">Query data on external API requests in Vercel Observability</a></h2>
+            <div class="publication-date">2025-09-24 13:00</div>
+            <div class="summary">🚀 Exciting news for Vercel users! Observability Plus now enables the querying and visualizing of external API requests. This feature includes a query builder that helps explore Vercel data related to traffic and performance. You can create custom queries on request counts and time to first byte (TTFB) for API calls. TTFB queries provide detailed breakdowns and can be filtered by request hostname. This tool is available for Pro and Enterprise teams. #Vercel #Observability #APIs...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Tobias Lins</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/claimed-deployments-now-include-third-party-resources" target="_blank">Claimed deployments now include third-party resources</a></h2>
+            <div class="publication-date">2025-09-23 13:00</div>
+            <div class="summary">🚀 Vercel has introduced a new feature allowing users to claim deployments that include third-party resources. AI platforms and coding tools can now create projects on Vercel, enabling instant deployment. When a user claims a deployment, any attached resources like databases are transferred automatically. Currently, Prisma is the first provider to support this feature, allowing users to bundle a database with their Vercel-hosted app seamlessly. More providers will follow soon. Explore the live...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Justin Kropp</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/anomaly-alerts-now-include-error-spikes" target="_blank">Anomaly alerts now include error spikes</a></h2>
+            <div class="publication-date">2025-09-22 13:00</div>
+            <div class="summary">🚨 New feature alert for Enterprise customers! With Observability Plus, users can now receive alerts for error spikes that deviate from normal behavior. This helps teams identify issues early on. The system groups abnormal error patterns, such as sudden increases in 5XX responses on specific routes. Detailed alert pages include relevant log lines for easier investigation. This error anomaly detection is currently in limited beta. #Observability #ErrorDetection #EnterpriseSolutions #TechUpdates</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Malavika Tadeusz</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/botid-uncovers-hidden-seo-poisoning" target="_blank">BotID uncovers hidden SEO poisoning</a></h2>
+            <div class="publication-date">2025-09-22 13:00</div>
+            <div class="summary">🚨 A recent case highlights the risks of hidden SEO poisoning. A major financial institution observed unexpected bot traffic and deployed BotID. Instead of detecting malicious scrapers, they found verified Google bots. However, the search queries were unrelated to their business, revealing a long-standing SEO attack that was distorting their traffic patterns. Stay vigilant! 🕵️‍♂️ #SEOSecurity #BotID #CyberThreats #DigitalSafety #TrafficMonitoring</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kevin Corbett</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://vercel.com/changelog/filter-deployments-by-author" target="_blank">Filter deployments by author</a></h2>
             <div class="publication-date">2025-09-22 13:00</div>
             <div class="summary">New feature alert! 🚀 You can now filter deployments in the dashboard by author. Use a username, email, or Git username for easy tracking. These filters will stay in the URL, making it simple to share specific views with your team. Check it out in your project&#39;s deployments! #TechUpdate #SoftwareDevelopment #TeamCollaboration</div>
@@ -962,159 +1115,6 @@
             <div class="categories">
                 
                 <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/blog/critical-npm-supply-chain-attack-response-september-8-2025" target="_blank">Critical npm supply chain attack response - September 8, 2025</a></h2>
-            <div class="publication-date">2025-09-08 13:00</div>
-            <div class="summary">On September 8, 2025, a supply chain attack impacted 18 popular npm packages, including chalk, debug, and ansi-styles. These packages had malicious code aimed at intercepting cryptocurrency transactions in browsers. 🚨 Our security and engineering teams responded by identifying the affected projects and purging build caches. Affected customers have been notified with specific guidance. 🔍🔒 #CyberSecurity #npm #SupplyChainAttack #Cryptocurrency #Malware</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Aaron Brown</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/vercel-functions-now-support-graceful-shutdown" target="_blank">Vercel Functions now support graceful shutdown</a></h2>
-            <div class="publication-date">2025-09-08 13:00</div>
-            <div class="summary">🚀 Vercel Functions now enhance Node.js and Python runtimes with graceful shutdown support! This feature allows up to 500 milliseconds for running cleanup tasks before termination. When a function is terminated, a SIGTERM signal can be used to manage essential tasks like closing database connections or flushing logs. Learn more about the benefits of this update! #Vercel #NodeJS #Python #WebDevelopment #Serverless</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Tom Lienard</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/export-traces-web-analytics-events-and-speed-insights-datapoints-to-any" target="_blank">Export traces, web analytics events, and speed insights datapoints to any destination</a></h2>
-            <div class="publication-date">2025-09-05 13:00</div>
-            <div class="summary">🚀 Exciting news for Vercel users! You can now export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement allows streaming of more raw data through expanded Log Drains infrastructure. Pro and Enterprise teams can set custom HTTP endpoints and choose from various encodings like JSON, NDJSON, or Protobuf. Explore Vercel Drains today! #Vercel #DataExport #WebAnalytics #OpenTelemetry #TechUpdates</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Malavika Tadeusz</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/export-more-data-with-vercel-drains" target="_blank">Export traces, web analytics events, and speed insights datapoints to any destination</a></h2>
-            <div class="publication-date">2025-09-05 13:00</div>
-            <div class="summary">🚀 Exciting news for developers! Vercel now allows users to export OpenTelemetry traces, Web Analytics events, and Speed Insights data to any third-party tool. This enhancement expands the Log Drains infrastructure for seamless data streaming. Users can set up custom HTTP endpoints to receive data in various formats like JSON, NDJSON, or Protobuf. Pro and Enterprise teams can export data at a cost of $0.50 per GB. Learn more about Vercel Drains! #DataExport #WebAnalytics #Vercel #OpenTelemetry...</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Malavika Tadeusz</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/zero-configuration-express-backends" target="_blank">Zero-configuration Express backends</a></h2>
-            <div class="publication-date">2025-09-05 13:00</div>
-            <div class="summary">🚀 Exciting news for developers! Express, the minimalist web framework for Node.js, now offers zero-configuration support on Vercel. This means you can deploy Express applications without the hassle of setting up redirects in vercel.json or using the /api folder. For a seamless experience, check out the Express on Vercel documentation. #NodeJS #Express #Vercel #WebDevelopment #Programming</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Jeff See</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/moonshot-ais-kimi-k2-0905-model-is-now-supported-in-vercel-ai-gateway" target="_blank">Moonshot AI&#39;s Kimi K2 0905 model is now supported in Vercel AI Gateway</a></h2>
-            <div class="publication-date">2025-09-04 13:00</div>
-            <div class="summary">🚀 Exciting news for developers! Moonshot AI&#39;s Kimi K2 0905 model is now accessible through Vercel AI Gateway. This model supports agentic coding with a 256K context window and requires no additional provider accounts. AI Gateway offers a unified API for tracking usage, costs, and optimizing performance. It includes built-in observability and intelligent routing for enhanced reliability. To get started, install the AI SDK v5 and set the model to moonshotai/kimi-k2-0905. #AI #MoonshotAI #Vercel...</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Harpreet Arora</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/blog/stress-testing-biomes-nofloatingpromises-lint-rule" target="_blank">Stress testing Biome&#39;s noFloatingPromises lint rule</a></h2>
-            <div class="publication-date">2025-09-04 13:00</div>
-            <div class="summary">We recently collaborated with the Biome team to enhance their noFloatingPromises lint rule. This rule is crucial for identifying unhandled Promises that can lead to errors. To test its effectiveness, we organized a friendly competition to create challenging test cases that could still pass the updated lint rule. This initiative not only fostered creativity but also encouraged learning among our team. Stay tuned for more insights! 🚀💡 #SoftwareDevelopment #LintRules #Teamwork #Innovation...</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Dimitri Mitropoulos</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/educational" class="category-text">Educational</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/blog/open-sdk-strategy" target="_blank">Open SDK strategy</a></h2>
-            <div class="publication-date">2025-09-03 13:00</div>
-            <div class="summary">At Vercel, open source is a core principle. They focus on developing high-quality software without the goal of profit. Their approach aims to enhance the overall software landscape for everyone, not just their customers. This philosophy reflects the belief that improving software benefits all users. Learn more about Vercel&#39;s commitment to open source. 🌍💻 #OpenSource #SoftwareDevelopment #Vercel #TechCommunity #Innovation</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Daniel Roe</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://vercel.com/changelog/cve-2025-55173" target="_blank">CVE-2025-55173</a></h2>
-            <div class="publication-date">2025-08-29 13:00</div>
-            <div class="summary">🚨 A vulnerability (CVE-2025-55173) affecting Next.js Image Optimization has been identified. It impacts versions prior to v15.4.5 and v14.2.31, allowing attacker-controlled external image servers to trigger arbitrary file downloads. This could lead to phishing and social engineering attacks. A patch was released on July 29th, 2025, addressing this issue for Vercel customers. For more details, check the GitHub Advisory and Next.js Release Notes. #CyberSecurity #NextJS #Vulnerability...</div>
-            <div class="source">Source: Vercel Blog</div>
-            
-            <div class="author">Zack Tanner</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             

@@ -23,6 +23,13 @@
       <description>AI is transforming enterprise software, but it&amp;rsquo;s not an overnight change. 🚀 While some believe AI agents will completely replace traditional solutions, this overlooks the complexities of software use in businesses. Currently, AI excels at simpler tasks and assists humans in more elaborate processes. For now, AI agents work well in research and defined tasks, but they require structured processes to ensure reliability. As technology advances, their role in handling complex tasks will evolve&amp;hellip;.</description>
     </item>
     <item>
+      <title>How BoldSign Modernized Development at Scale With JetBrains dotUltimate</title>
+      <link>/articles/article-2025-10-23-11231/</link>
+      <pubDate>Thu, 23 Oct 2025 19:47:22 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11231/</guid>
+      <description>🚀 Exciting advancements at BoldSign! The Syncfusion engineering team revamped their modern e-signature platform to support over 40,000 organizations. They faced performance challenges as adoption grew, but the integration of JetBrains dotUltimate transformed their development process. With tools like Rider, dotTrace, and dotMemory, build times are now just 15–20 seconds, and issues are identified earlier. This shift has enhanced code quality and reduced debugging cycles significantly&amp;hellip;.</description>
+    </item>
+    <item>
       <title>How OpenAI’s AgentKit Embeds ChatGPT Into Any Website</title>
       <link>/articles/article-2025-10-23-11226/</link>
       <pubDate>Thu, 23 Oct 2025 19:03:17 +0000</pubDate>
@@ -30,11 +37,39 @@
       <description>🚀 OpenAI has introduced AgentKit, a toolkit for developers to integrate ChatGPT-powered agents into websites and applications. AgentKit features two main components: the Responses API, which manages outputs and tool integrations, and the Agents SDK, which oversees conversation states and orchestrates multi-step tasks. The architecture streamlines development, ensures reliability, and enhances security with built-in guardrails to protect sensitive data. Developers can customize these features&amp;hellip;</description>
     </item>
     <item>
+      <title>One night changed everything: Why I sleep out for Covenant House</title>
+      <link>/articles/article-2025-10-23-11227/</link>
+      <pubDate>Thu, 23 Oct 2025 19:00:43 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11227/</guid>
+      <description>I participated in my sixth Sleep Out for Covenant House, an event raising funds for homeless youth. 🌙 Each year, I learn more about the challenges faced by the 4.2 million young people experiencing homelessness. My first Sleep Out opened my eyes to the urgency of their needs. 🚶‍♂️💧 Join me in supporting this cause and raising awareness. #CovenantHouse #EndYouthHomelessness #SleepOut #SupportYouth #Community</description>
+    </item>
+    <item>
+      <title>Multi-Agent Supervisor Architecture: Orchestrating Enterprise AI at Scale</title>
+      <link>/articles/article-2025-10-23-11232/</link>
+      <pubDate>Thu, 23 Oct 2025 18:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11232/</guid>
+      <description>BASF is leveraging a Multi-Agent Supervisor Architecture to enhance its enterprise AI capabilities. This approach aims to accelerate the deployment of Agentic AI within BASF Coatings. The focus is on delivering faster value, improving productivity, ensuring compliance, and supporting scalable growth. This innovative strategy highlights the potential of AI in transforming business operations. 🤖✨ #BASF #AI #Innovation #EnterpriseAI #Growth</description>
+    </item>
+    <item>
+      <title>Advancing Our Chef Infrastructure: Safety Without Disruption</title>
+      <link>/articles/article-2025-10-23-11235/</link>
+      <pubDate>Thu, 23 Oct 2025 18:17:56 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11235/</guid>
+      <description>🚀 Last year, we discussed the evolution of our Chef infrastructure and its transition from a single stack to a multi-stack model. At Slack, service reliability is key. We explored moving to Chef Policyfiles but opted to enhance our existing EC2 framework instead. This approach minimizes disruption while improving deployment safety. We split our production Chef environment into multiple isolated buckets, increasing resilience and allowing independent updates. This strategy helps mitigate risks&amp;hellip;</description>
+    </item>
+    <item>
       <title>How To Deploy a Local AI via Docker</title>
       <link>/articles/article-2025-10-23-11202/</link>
       <pubDate>Thu, 23 Oct 2025 18:00:31 +0000</pubDate>
       <guid>/articles/article-2025-10-23-11202/</guid>
       <description>Unlock the potential of local AI with Docker! 🖥️ If you&amp;rsquo;re concerned about data privacy and environmental impact, deploying AI locally is an ideal solution. The article outlines how to set up a local AI service using Docker for enhanced privacy and easier management. You&amp;rsquo;ll need a compatible operating system (Linux, macOS, or Windows) and some basic commands to install Docker and deploy your AI efficiently. Explore methods for deployment with or without an NVIDIA GPU to tailor your setup to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vault Enterprise 1.21 gains SPIFFE auth, FIPS 140-3 Level 1 compliance, granular secret recovery, and more</title>
+      <link>/articles/article-2025-10-23-11234/</link>
+      <pubDate>Thu, 23 Oct 2025 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11234/</guid>
+      <description>🚀 HashiCorp Vault Enterprise 1.21 is now available, featuring significant enhancements for secure workflows. Key updates include SPIFFE authentication for non-human identities and improved Kubernetes integration for secret management. Other features are self-service TOTP setup for multi-factor authentication and granular secret recovery for individual items. Additionally, Vault is working towards FIPS 140-3 Level 1 compliance, enhancing its security for sensitive environments. #HashiCorp&amp;hellip;</description>
     </item>
     <item>
       <title>Bridging Affordability, Familiarity, and Novelty: DoorDash’s LLM-assisted personalization framework</title>
@@ -70,6 +105,13 @@
       <pubDate>Thu, 23 Oct 2025 17:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-23-11210/</guid>
       <description>🚀 Exciting news for developers! Netlify has launched skew protection for all plans, starting with Astro 5.15.0+ and Next.js. This new feature addresses version mismatch errors during site deployments. It ensures users remain on the same version throughout their session, preventing issues like broken assets, 404 errors, and degraded experiences. To implement this, check your framework&amp;rsquo;s compatibility with our Frameworks API. For more details, explore our blog post on skew protection. #Netlify&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Topaz Labs brings generative AI video enhancement to AMD Radeon GPUs</title>
+      <link>/articles/article-2025-10-23-11228/</link>
+      <pubDate>Thu, 23 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11228/</guid>
+      <description>Topaz Labs and AMD have teamed up to enhance video processing using generative AI on AMD Radeon GPUs. This collaboration enables real-time performance and improved workflows for users. The new diffusion-based video enhancement feature runs on AMD Ryzen processors and RDNA architecture, maximizing processing efficiency. The innovative Project Starlight transforms low-res video to HD, achieving seamless motion across frames. This technology is optimized for AMD devices, offering up to 3.3x&amp;hellip;</description>
     </item>
     <item>
       <title>Bring Your Circuits to CUDA-Q Using QGEAR</title>
@@ -126,6 +168,13 @@
       <pubDate>Thu, 23 Oct 2025 15:00:18 +0000</pubDate>
       <guid>/articles/article-2025-10-23-11190/</guid>
       <description>Exploring the NoSQL paradigm reveals that a shared-nothing architecture is often favored for its high performance and low latency. 🖥️ Using direct-attached storage (DAS), NoSQL databases like Cassandra and MongoDB can achieve efficient data management. However, DAS can hinder sustainability efforts due to increased hardware needs and underutilization. 🌱 Modern SAN solutions provide a way to maintain performance while enhancing efficiency and resilience. 🔄 #NoSQL #DataManagement #TechTrends&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Upgrade Your Lakehouse: Your How-To Guide for Converting to Unity Catalog Managed Tables</title>
+      <link>/articles/article-2025-10-23-11233/</link>
+      <pubDate>Thu, 23 Oct 2025 14:41:02 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11233/</guid>
+      <description>Transform your lakehouse with the new SET MANAGED command! 🔄 This guide explains how to convert external tables to Unity Catalog Managed Tables, enhancing query speed and reducing costs. Learn the steps to streamline your data management process effectively. #DataManagement #UnityCatalog #Lakehouse #TechGuide #Efficiency</description>
     </item>
     <item>
       <title>Are Unikernels the Answer for Next-Gen AI Cloud Workloads?</title>
@@ -268,6 +317,13 @@
       <description>🌍 Google Earth AI is enhancing our understanding of the planet with advanced geospatial AI models and reasoning agents. These innovations provide actionable insights on environmental issues and natural disasters. By integrating various data sources, users can address complex queries like hurricane landfalls and community preparedness. New features include updated imagery models and a geospatial reasoning agent for intricate problem-solving. Explore the potential of these tools today!&amp;hellip;</description>
     </item>
     <item>
+      <title>Scaling Privacy Infrastructure for GenAI Product Innovation</title>
+      <link>/articles/article-2025-10-23-11236/</link>
+      <pubDate>Thu, 23 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11236/</guid>
+      <description>Meta is enhancing product innovation through its Privacy Aware Infrastructure (PAI) to ensure responsible use of GenAI. The focus is on AI glasses as a key example of how GenAI enables new features while prioritizing user trust and data protection. Key challenges include managing explosive data growth, adapting to shifting privacy requirements, and supporting rapid innovation cycles. Explore how Meta balances innovation with privacy! 🔍✨ #Meta #GenAI #Privacy #Innovation #AI</description>
+    </item>
+    <item>
       <title>What leaders need to know from the 2025 Stack Overflow Developer Survey</title>
       <link>/articles/article-2025-10-23-11183/</link>
       <pubDate>Thu, 23 Oct 2025 07:40:00 +0000</pubDate>
@@ -301,6 +357,20 @@
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-23-11209/</guid>
       <description>🚀 Exciting news from Elastic! The release of Elastic 9.2 brings new features for developers, focusing on context engineering and agent building. This update enhances capabilities in Search &amp;amp; AI, Observability, and Security. Many features were previously available in Elastic Cloud Serverless, streamlining access to new tools. Explore Elastic Cloud Serverless for a seamless experience. 🌐 #Elastic9 #OpenSource #DataEngineering #ElasticCloud #TechUpdates</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.19.6 released</title>
+      <link>/articles/article-2025-10-23-11229/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11229/</guid>
+      <description>🚀 Version 8.19.6 of the Elastic Stack has been released today! Upgrading to this version is recommended over the previous 8.19.5. For a detailed list of fixes and changes, check the release notes. Explore the benefits of Elastic Cloud with a free trial! ☁️ #ElasticStack #SoftwareUpdate #TechNews #CloudComputing #ElasticCloud</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.1.6 released</title>
+      <link>/articles/article-2025-10-23-11230/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11230/</guid>
+      <description>🚀 Version 9.1.6 of the Elastic Stack is now available! Users are encouraged to upgrade from version 9.1.5 to benefit from the latest fixes and improvements. For a complete list of changes and resolved issues, check out the release notes. #ElasticStack #SoftwareUpdate #TechNews</description>
     </item>
     <item>
       <title>Cisco’s circular design goal: Our journey to 100%</title>

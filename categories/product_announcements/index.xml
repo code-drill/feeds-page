@@ -16,6 +16,13 @@
       <description>🚀 Exciting news for developers! Netlify has launched skew protection for all plans, starting with Astro 5.15.0+ and Next.js. This new feature addresses version mismatch errors during site deployments. It ensures users remain on the same version throughout their session, preventing issues like broken assets, 404 errors, and degraded experiences. To implement this, check your framework&amp;rsquo;s compatibility with our Frameworks API. For more details, explore our blog post on skew protection. #Netlify&amp;hellip;</description>
     </item>
     <item>
+      <title>Bring Your Circuits to CUDA-Q Using QGEAR</title>
+      <link>/articles/article-2025-10-23-11208/</link>
+      <pubDate>Thu, 23 Oct 2025 16:55:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11208/</guid>
+      <description>🚀 Exciting news for developers! You can now import Qiskit circuits into GPU-accelerated CUDA-Q kernels with NERSC’s QGEAR project. This makes integrating quantum circuits smoother and more efficient. To get started, simply install using: &lt;code&gt;bash pip install qgear-lightning &lt;/code&gt; Explore the future of quantum computing! 🖥️✨ #QuantumComputing #QGEAR #CUDAQ #Qiskit #NERSC</description>
+    </item>
+    <item>
       <title>Lightning AI Brings a PyTorch Copilot to Its Development Environment</title>
       <link>/articles/article-2025-10-23-11204/</link>
       <pubDate>Thu, 23 Oct 2025 16:30:55 +0000</pubDate>
@@ -30,11 +37,74 @@
       <description>🛠️ The era of AI agents is evolving, but trust remains a significant challenge. Docker, with over 20 million developers, is enhancing its tools for building and securing AI agents. 🔒 Recently, Docker partnered with E2B to provide secure cloud sandboxes for developers. This collaboration aims to give fast and secure access to numerous real-world tools. 🤖 With new capabilities and a focus on safety, Docker is setting the standard for how agents connect and act in a secure manner. #Docker #E2B&amp;hellip;</description>
     </item>
     <item>
+      <title>AI agents and services on the Vercel Marketplace</title>
+      <link>/articles/article-2025-10-23-11212/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11212/</guid>
+      <description>🚀 Exciting news for developers! The Vercel Marketplace now features a new category for AI agents and services. This addition allows for seamless integration of AI-powered workflows into projects. No more juggling multiple dashboards or billing systems! Enjoy unified billing, observability, and easy installation directly within the platform. #AI #VercelMarketplace #DeveloperTools #TechUpdates #Innovation</description>
+    </item>
+    <item>
+      <title>Built-in durability: Introducing Workflow Development Kit</title>
+      <link>/articles/article-2025-10-23-11213/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11213/</guid>
+      <description>Introducing the Workflow Development Kit (WDK) - a new open source TypeScript framework designed to enhance software durability. It simplifies the process for developers creating AI agents or data pipelines, allowing functions to pause and resume seamlessly, even after long periods or during system crashes. WDK runs on any framework, platform, or runtime, making it easier to build reliable software without deep knowledge of distributed systems. #WorkflowDevelopmentKit #SoftwareDurability&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing AI agents &amp; services on the Vercel Marketplace</title>
+      <link>/articles/article-2025-10-23-11217/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11217/</guid>
+      <description>🚀 The Vercel Marketplace has launched a new category for AI Agents &amp;amp; Services, simplifying the integration of AI automation into projects. Developers can now access off-the-shelf agents like CodeRabbit for automated code reviews and Corridor for real-time security. This category also includes AI services for building custom agents, such as Braintrust for monitoring and Chatbase for conversational analytics. Explore the new offerings and enhance your projects with AI! #Vercel #AIAgents&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Vercel Agent: Your new Vercel teammate</title>
+      <link>/articles/article-2025-10-23-11214/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11214/</guid>
+      <description>🚀 Vercel has launched Vercel Agent, an AI teammate designed to enhance your development workflow. This tool utilizes AI, deep platform knowledge, and application code to help teams ship faster and improve quality. Currently in Public Beta, Vercel Agent offers two main features: Code Review and Investigations. #Vercel #AI #Development #TechUpdates #Innovation</description>
+    </item>
+    <item>
+      <title>Open source Workflow Development Kit is now in public beta</title>
+      <link>/articles/article-2025-10-23-11219/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11219/</guid>
+      <description>🚀 The Workflow Development Kit is now in public beta! This framework simplifies building durable, long-running processes in async JavaScript. Key features include: - &lt;strong&gt;Reliability&lt;/strong&gt;: Just add &amp;ldquo;use workflow&amp;rdquo; to make async functions durable. - &lt;strong&gt;Durability&lt;/strong&gt;: Use the sleep function to pause and resume without holding compute. - &lt;strong&gt;Observability&lt;/strong&gt;: Access traces, logs, and metrics for every run. No lock-in is required, allowing for local development and deployment to Vercel or other clouds&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Vercel Agent Investigations now in Public Beta</title>
+      <link>/articles/article-2025-10-23-11216/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11216/</guid>
+      <description>🚀 Vercel Agent&amp;rsquo;s AI investigations are now in public beta! This feature helps teams respond to anomaly alerts by diagnosing issues quickly. It identifies root causes, analyzes impacts, and provides remediation steps, reducing alert fatigue and improving stability. Available for Pro and Enterprise teams with Observability Plus, teams can start with $100 in credits. Learn more about enhancing your incident response! #Vercel #AI #IncidentResponse #TechInnovation #Observability</description>
+    </item>
+    <item>
+      <title>Vercel Python SDK is now available in beta</title>
+      <link>/articles/article-2025-10-23-11218/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11218/</guid>
+      <description>🚀 Exciting news for Python developers! The Vercel Python SDK is now in beta. This SDK supports key Vercel features including Vercel Sandbox, Blob storage, and the Runtime Cache API. To start, simply run &lt;code&gt;pip install vercel&lt;/code&gt; and explore how you can run untrusted code, manage blob storage, and store data across functions. 🔗 #Vercel #Python #SDK #WebDevelopment #TechUpdates</description>
+    </item>
+    <item>
       <title>With Mobius Labs&#39; Aana models, we&#39;re bringing deeper multimodal understanding to Dropbox Dash</title>
       <link>/articles/article-2025-10-23-11198/</link>
       <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-23-11198/</guid>
       <description>🚀 Exciting news from Dropbox! They&amp;rsquo;ve partnered with Mobius Labs to enhance Dropbox Dash’s AI capabilities. With the integration of Aana models, Dash will improve its understanding of photos and videos, making it easier for teams to access and analyze their multimedia content. This multimodal processing will help users get answers faster without sifting through multiple tools. Stay organized and efficient with Dropbox Dash! #Dropbox #AI #MobiusLabs #Multimodal #Productivity</description>
+    </item>
+    <item>
+      <title>You can just ship agents</title>
+      <link>/articles/article-2025-10-23-11211/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11211/</guid>
+      <description>🚀 Building AI agents should feel like shaping ideas, not battling complex code. Just as web development evolved with frameworks, AI is now following suit. The emergence of Vercel AI Cloud offers tools and infrastructure that simplify the development process, allowing developers to focus on creation rather than technical hurdles. Explore how this shift enhances productivity and quality in AI development! #AIDevelopment #Vercel #TechInnovation #DeveloperExperience #AI</description>
+    </item>
+    <item>
+      <title>Zero-config backends on Vercel AI Cloud</title>
+      <link>/articles/article-2025-10-23-11215/</link>
+      <pubDate>Thu, 23 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-23-11215/</guid>
+      <description>🚀 Vercel AI Cloud now offers zero-config backends! Teams can build sophisticated AI applications that manage complex workflows and respond to real-time events. This new feature allows for easy deployment of popular Python and TypeScript frameworks without the need for manual configuration. Vercel automatically provisions the necessary infrastructure, streamlining the development process. #Vercel #AICLOUD #TechNews #BackendDevelopment #Innovation</description>
     </item>
     <item>
       <title>Image and audio models from fal now available on DigitalOcean</title>

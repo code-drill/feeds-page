@@ -6,8 +6,15 @@
     <description>Recent content in LY-Corporation-Tech-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 03:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 02:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/ly-corporation-tech-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 50: The only truth</title>
+      <link>/articles/article-2025-10-24-11244/</link>
+      <pubDate>Fri, 24 Oct 2025 02:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11244/</guid>
+      <description>📱 In the latest installment of &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses effective data modeling in the LINE app. He highlights the importance of separating properties in the UserModel class for better code clarity. Key properties like accountType, displayName, and profileImageUri can be grouped separately from onlineStatus and moodMessage, which have different update frequencies. This approach enhances code robustness by ensuring that feature-specific code relies on more stable,&amp;hellip;</description>
+    </item>
     <item>
       <title>End to End Testing on PRs</title>
       <link>/articles/article-2025-10-20-11058/</link>

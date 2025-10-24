@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 23:06:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 02:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 50: The only truth</title>
+      <link>/articles/article-2025-10-24-11244/</link>
+      <pubDate>Fri, 24 Oct 2025 02:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11244/</guid>
+      <description>📱 In the latest installment of &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses effective data modeling in the LINE app. He highlights the importance of separating properties in the UserModel class for better code clarity. Key properties like accountType, displayName, and profileImageUri can be grouped separately from onlineStatus and moodMessage, which have different update frequencies. This approach enhances code robustness by ensuring that feature-specific code relies on more stable,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>IntelliJ IDEA 2025.2.4 Is Out!</title>
+      <link>/articles/article-2025-10-24-11243/</link>
+      <pubDate>Fri, 24 Oct 2025 00:26:26 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11243/</guid>
+      <description>🚀 IntelliJ IDEA 2025.2.4 has been released, featuring key fixes and improvements. You can update directly from the IDE, via the Toolbox App, or download it from the website. Notable updates include: - Functional uninstaller - No more freezing during code completion - Enhanced cURL command conversion - Correct line endings when shelving changes For a full list of improvements, check out the release notes. Happy coding! 💻✨ #IntelliJIDEA #SoftwareUpdate #Coding #Development #TechNews</description>
+    </item>
     <item>
       <title>Reconstruct a Scene in NVIDIA Isaac Sim Using Only a Smartphone</title>
       <link>/articles/article-2025-10-23-11238/</link>

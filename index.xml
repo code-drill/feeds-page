@@ -6,14 +6,28 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 19:42:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 20:09:09 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Table Predictions in Data Cloud: Enabling Machine Learning Across Related Data Objects</title>
+      <link>/articles/article-2025-10-24-11272/</link>
+      <pubDate>Fri, 24 Oct 2025 20:09:09 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11272/</guid>
+      <description>🚀 Exciting advancements in machine learning are here! Lovi Yu, a Senior Software Engineer at Salesforce, discusses the new multi-DMO support in Data Cloud Model Builder. This feature allows users to build predictions across multiple related data objects, enhancing decision-making. The team focused on balancing functionality and performance while ensuring a user-friendly interface. This development addresses customer needs for more complex data analysis. Discover how predictive modeling can&amp;hellip;</description>
+    </item>
     <item>
       <title>Build Synthetic Data Pipelines to Train Smarter Robots with NVIDIA Isaac Sim</title>
       <link>/articles/article-2025-10-24-11268/</link>
       <pubDate>Fri, 24 Oct 2025 19:42:06 +0000</pubDate>
       <guid>/articles/article-2025-10-24-11268/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developer.nvidia.com/blog/feed&#34;&gt;Nvidia Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/build-synthetic-data-pipelines-to-train-smarter-robots-with-nvidia-isaac-sim/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Unlock the potential of robotics with synthetic data pipelines! 🤖 As robots tackle complex mobility tasks, developers require accurate simulations. NVIDIA Isaac Sim provides a solution by generating high-quality synthetic data, reducing the time and cost of real-world data collection. Key points include: - Creating simulated environments with NVIDIA Omniverse NuRec. - Utilizing SimReady assets for streamlined simulations. - Generating and augmenting synthetic data using MobilityGen and NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your Org, Your Tools: Building a Custom MCP Catalog</title>
+      <link>/articles/article-2025-10-24-11270/</link>
+      <pubDate>Fri, 24 Oct 2025 19:07:39 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11270/</guid>
+      <description>🚀 Exciting developments in AI tooling! Mike Coleman from Docker discusses the importance of implementing guardrails for AI adoption in enterprises. Many organizations seek tighter control over the tools available to developers through Docker’s Model Context Protocol (MCP) tooling. The article provides a guide on how to create a custom MCP catalog by forking Docker’s official catalog, hosting images in a private registry, and using the MCP Gateway to manage server connections. Learn more about&amp;hellip;</description>
     </item>
     <item>
       <title>2 Fixes Vastly Cut TiKV Write Stalls From SST File Ingestion</title>
@@ -21,6 +35,13 @@
       <pubDate>Fri, 24 Oct 2025 18:00:13 +0000</pubDate>
       <guid>/articles/article-2025-10-24-11259/</guid>
       <description>🚀 TiKV, the open-source key-value database, has addressed write stalls during SST file ingestion. 🔍 The issue arose when SST ingestion blocked foreground writes to maintain sequence order, leading to latency spikes. 💡 Two enhancements were implemented: reducing unnecessary flushes and allowing concurrent writes during ingestion with safety mechanisms. These changes significantly improve performance and reduce stall times. #TiKV #Database #OpenSource #Performance #TechNews</description>
+    </item>
+    <item>
+      <title>How Cloudflare’s client-side security made the npm supply chain attack a non-event</title>
+      <link>/articles/article-2025-10-24-11271/</link>
+      <pubDate>Fri, 24 Oct 2025 17:10:43 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11271/</guid>
+      <description>In September 2025, a phishing attack compromised 18 popular npm packages, risking over 2 billion weekly downloads. This breach allowed hackers to steal crypto assets and modify other packages. Cloudflare&amp;rsquo;s Page Shield, utilizing a graph-based machine learning model, detected these threats in real-time, analyzing 3.5 billion scripts daily. This proactive approach prevents future attacks by identifying malicious code patterns effectively. Stay informed and secure your applications! 🔒💻&amp;hellip;</description>
     </item>
     <item>
       <title>How TARmageddon Compromises Rust Security: A Developer’s Guide</title>
@@ -104,7 +125,7 @@
       <link>/articles/article-2025-10-24-11269/</link>
       <pubDate>Fri, 24 Oct 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-24-11269/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/ai-chat-now-available-on-vercel-docs&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news! AI Chat is now integrated into Vercel docs, making it easier to find information. You can ask questions directly on any docs page and receive instant responses. 🔍 To start, visit vercel.com/docs and click the &amp;ldquo;Ask AI&amp;rdquo; button. Use the feature to load specific pages for more tailored answers or copy conversations as Markdown. #Vercel #AIChat #Documentation #TechUpdates #Innovation</description>
     </item>
     <item>
       <title>AI Guide to the Galaxy: MCP Toolkit and Gateway, Explained</title>

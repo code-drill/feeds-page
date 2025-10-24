@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 15:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 18:00:13 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2 Fixes Vastly Cut TiKV Write Stalls From SST File Ingestion</title>
+      <link>/articles/article-2025-10-24-11259/</link>
+      <pubDate>Fri, 24 Oct 2025 18:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11259/</guid>
+      <description>🚀 TiKV, the open-source key-value database, has addressed write stalls during SST file ingestion. 🔍 The issue arose when SST ingestion blocked foreground writes to maintain sequence order, leading to latency spikes. 💡 Two enhancements were implemented: reducing unnecessary flushes and allowing concurrent writes during ingestion with safety mechanisms. These changes significantly improve performance and reduce stall times. #TiKV #Database #OpenSource #Performance #TechNews</description>
+    </item>
+    <item>
+      <title>How TARmageddon Compromises Rust Security: A Developer’s Guide</title>
+      <link>/articles/article-2025-10-24-11260/</link>
+      <pubDate>Fri, 24 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11260/</guid>
+      <description>🚨 A new Rust vulnerability, TARmageddon (CVE-2025-62518), has been identified by Edera, affecting the tokio-tar library. This flaw may lead to remote code execution (RCE) in several software programs, including popular tools like Astral’s uv and wasmCloud. With a CVSS score of 8.1, it&amp;rsquo;s classified as high severity. The issue arises from a desynchronization bug in TAR parsing that allows attackers to manipulate nested TAR archives. Developers are advised to be cautious, as this highlights&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How To Build Resilient IT Operations in 4 Steps</title>
+      <link>/articles/article-2025-10-24-11261/</link>
+      <pubDate>Fri, 24 Oct 2025 16:00:02 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11261/</guid>
+      <description>🔧 Managing digital incidents is now essential for IT operations. Research shows 84% of businesses faced increased outages recently. Operational resilience is key to thriving amidst disruptions. This involves predicting, withstanding, and recovering from IT outages. Here are four steps to enhance resilience: 1️⃣ Assess current operations to identify inefficiencies and outdated systems. 2️⃣ Automate repetitive tasks to streamline workflows. For more insights, read the full article&amp;hellip;.</description>
+    </item>
     <item>
       <title>How MIT’s Project NANDA Aims To Decentralize AI Agents</title>
       <link>/articles/article-2025-10-24-11250/</link>

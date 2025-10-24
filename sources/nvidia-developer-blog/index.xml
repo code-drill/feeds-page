@@ -6,8 +6,29 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 23:06:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 16:21:14 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Tensor Core Performance with Floating Point Emulation in cuBLAS</title>
+      <link>/articles/article-2025-10-24-11262/</link>
+      <pubDate>Fri, 24 Oct 2025 16:21:14 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11262/</guid>
+      <description>🚀 NVIDIA&amp;rsquo;s latest cuBLAS update in CUDA Toolkit 13.0 Update 2 enhances double-precision (FP64) matrix multiplications through floating-point emulation on Tensor Cores. This update offers improved performance for both FP32 and FP64 operations, ensuring accuracy while maximizing efficiency. Developers can access Tensor Core performance easily via familiar APIs. For detailed GPU compatibility and implementation specifics, refer to the cuBLAS documentation. #NVIDIA #CUDA #cuBLAS #AI #MachineLearning</description>
+    </item>
+    <item>
+      <title>How NVIDIA DGX Spark’s Performance Enables Intensive AI Tasks</title>
+      <link>/articles/article-2025-10-24-11264/</link>
+      <pubDate>Fri, 24 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11264/</guid>
+      <description>NVIDIA DGX Spark is designed to meet the needs of AI developers requiring high memory and powerful computing without relying on cloud resources. This compact supercomputer offers 1 petaflop of FP4 AI performance and 128 GB of coherent memory, making it suitable for intensive tasks like fine-tuning and image generation. Benchmark tests show impressive performance in fine-tuning models, with peak speeds of over 82,000 tokens per second. Additionally, it supports high-resolution image&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Solve Linear Programs Using the GPU-Accelerated Barrier Method in NVIDIA cuOpt</title>
+      <link>/articles/article-2025-10-24-11263/</link>
+      <pubDate>Fri, 24 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11263/</guid>
+      <description>Unlock the power of optimization with NVIDIA cuOpt! This open-source library enhances problem-solving for complex scenarios like sports scheduling and medical transplants. The latest update features a new barrier method solver for linear programs, offering significant speed improvements. Benchmarks show over 8x faster performance compared to leading CPU solvers. Discover how cuOpt is transforming optimization tasks! #Optimization #NVIDIA #cuOpt #LinearProgramming #TechInnovation 🚀📈💻</description>
+    </item>
     <item>
       <title>Reconstruct a Scene in NVIDIA Isaac Sim Using Only a Smartphone</title>
       <link>/articles/article-2025-10-23-11238/</link>

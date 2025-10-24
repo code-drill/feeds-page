@@ -16,6 +16,13 @@
       <description>🚀 TiKV, the open-source key-value database, has addressed write stalls during SST file ingestion. 🔍 The issue arose when SST ingestion blocked foreground writes to maintain sequence order, leading to latency spikes. 💡 Two enhancements were implemented: reducing unnecessary flushes and allowing concurrent writes during ingestion with safety mechanisms. These changes significantly improve performance and reduce stall times. #TiKV #Database #OpenSource #Performance #TechNews</description>
     </item>
     <item>
+      <title>How NVIDIA DGX Spark’s Performance Enables Intensive AI Tasks</title>
+      <link>/articles/article-2025-10-24-11264/</link>
+      <pubDate>Fri, 24 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-24-11264/</guid>
+      <description>NVIDIA DGX Spark is designed to meet the needs of AI developers requiring high memory and powerful computing without relying on cloud resources. This compact supercomputer offers 1 petaflop of FP4 AI performance and 128 GB of coherent memory, making it suitable for intensive tasks like fine-tuning and image generation. Benchmark tests show impressive performance in fine-tuning models, with peak speeds of over 82,000 tokens per second. Additionally, it supports high-resolution image&amp;hellip;</description>
+    </item>
+    <item>
       <title>Beyond Basic Scaling: Advanced Kubernetes Resource Strategies</title>
       <link>/articles/article-2025-10-24-10258/</link>
       <pubDate>Fri, 24 Oct 2025 14:30:49 +0000</pubDate>

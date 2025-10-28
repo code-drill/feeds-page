@@ -6,8 +6,43 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Oct 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A framework for measuring Internet resilience</title>
+      <link>/articles/article-2025-10-28-11348/</link>
+      <pubDate>Tue, 28 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-28-11348/</guid>
+      <description>A recent article introduces a data-driven framework for measuring Internet resilience. 🌐 The framework aims to quantify how networks can withstand and recover from disruptions, highlighting the importance of diverse routing paths and competitive markets. It emphasizes that local decisions by Autonomous Systems significantly impact global connectivity, making resilience a collective effort. By sharing concrete metrics, the goal is to enhance the reliability and security of the Internet for all&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Keeping the Internet fast and secure: introducing Merkle Tree Certificates</title>
+      <link>/articles/article-2025-10-28-11347/</link>
+      <pubDate>Tue, 28 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-28-11347/</guid>
+      <description>🌐 Cloudflare is partnering with Chrome to test Merkle Tree Certificates (MTCs), aiming to enhance Internet security against quantum threats. 🔒 With the rise of quantum computing, the need for Post-Quantum (PQ) cryptography is urgent. Currently, about 50% of Cloudflare&amp;rsquo;s network traffic is protected against future decryption threats. 📈 The challenge lies in the size of new PQ algorithms, which can significantly impact performance. Cloudflare aims to redesign the Web Public-Key Infrastructure&amp;hellip;</description>
+    </item>
+    <item>
+      <title>State of the post-quantum Internet in 2025</title>
+      <link>/articles/article-2025-10-28-11346/</link>
+      <pubDate>Tue, 28 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-28-11346/</guid>
+      <description>🚀 In October 2025, Cloudflare achieved a significant milestone: over half of human-initiated traffic is now protected by post-quantum encryption. This development counters the harvest-now/decrypt-later threat. 🔍 The article discusses the ongoing migration to post-quantum cryptography, highlighting advancements like NIST standards and new cryptographic proposals. 🖥️ Quantum computers pose risks to traditional encryption methods like RSA, prompting the shift to more secure options. While&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing Workers automatic tracing, now in open beta</title>
+      <link>/articles/article-2025-10-28-11349/</link>
+      <pubDate>Tue, 28 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-28-11349/</guid>
+      <description>🚀 Exciting news for Cloudflare Workers users! Automatic tracing is now in open beta. This feature allows you to gain deeper application observability without any code changes. Traces can be explored in the Cloudflare dashboard and exported to OpenTelemetry-compatible providers. Identify performance bottlenecks and resolve errors with detailed metadata and timing information on every operation your Worker performs. Enhance your application&amp;rsquo;s performance with this new capability! #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Online outages: Q3 2025 Internet disruption summary</title>
+      <link>/articles/article-2025-10-28-11350/</link>
+      <pubDate>Tue, 28 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-28-11350/</guid>
+      <description>🌍 In Q3 2025, global Internet disruptions were reported due to various factors. Government-directed shutdowns occurred in Sudan, Syria, and Iraq, particularly affecting exam periods. Additionally, outages were caused by cable cuts, power outages, a cyberattack, and natural disasters, including an earthquake and a fire. Traffic anomalies were detected, highlighting the impact of these events. For more detailed insights, check the Cloudflare Radar Outage Center. #InternetOutages #Q32025&amp;hellip;</description>
+    </item>
     <item>
       <title>The tricky science of Internet measurement</title>
       <link>/articles/article-2025-10-27-11300/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Oct 2025 12:12:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One IP address, many users: detecting CGNAT to reduce collateral effects</title>
+      <link>/articles/article-2025-10-29-11448/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11448/</guid>
+      <description>🌐 IPv4 scarcity leads to widespread use of Carrier-Grade Network Address Translation (CGNAT), placing multiple users behind a single IP address. This shift complicates security measures that rely on individual IP accountability, especially impacting users in developing regions where IP addresses are limited. Our article discusses a method to detect large-scale IP sharing to mitigate these biases and enhance digital equity. 📈 Explore how our approach can help address socioeconomic disparities&amp;hellip;</description>
+    </item>
+    <item>
+      <title>So long, and thanks for all the fish: how to escape the Linux networking stack</title>
+      <link>/articles/article-2025-10-29-11451/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11451/</guid>
+      <description>🚀 Cloudflare continuously pushes the boundaries of network hardware and software to enhance performance and efficiency. One key innovation is soft-unicast, allowing IP address sharing across data centers. The article discusses challenges related to Linux’s networking stack when implementing this feature. To simplify operations, Cloudflare developed a dedicated service, dubbed &amp;ldquo;fish,&amp;rdquo; to manage IP packets effectively. This service addresses complexities in IP address leasing and socket&amp;hellip;</description>
+    </item>
     <item>
       <title>Finding Order in the Mayhem: A Novel Concurrency Testing Tool that Improved the Kotlin Compiler</title>
       <link>/articles/article-2025-10-29-11442/</link>

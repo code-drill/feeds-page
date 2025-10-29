@@ -447,6 +447,38 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/cut-model-deployment-costs-while-keeping-performance-with-gpu-memory-swap/" target="_blank">Cut Model Deployment Costs While Keeping Performance With GPU Memory Swap</a></h2>
+            <div class="publication-date">2025-09-02 18:44</div>
+            <div class="summary">Deploying large language models (LLMs) at scale involves balancing fast responsiveness and GPU costs. Organizations often face tough choices: over-provisioning GPUs or risking user experience with latency spikes. NVIDIA&#39;s GPU memory swap, or model hot-swapping, offers a solution. This innovation allows multiple models to share GPUs, dynamically offloading inactive models to CPU memory, enabling rapid activation when needed. Benchmark tests show promising results with lower costs and improved...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Ekin Karabulut</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://kubernetes.io/blog/2025/09/02/kubernetes-v1-34-prefer-align-by-uncore-cache-cpumanager-static-policy-optimization/" target="_blank">Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Uncore Cache Alignment</a></h2>
+            <div class="publication-date">2025-09-02 18:30</div>
+            <div class="summary">🚀 Kubernetes v1.34 has introduced a new feature: the CPU Manager Static Policy Option, prefer-align-cpus-by-uncorecache, now in beta. This option optimizes performance for workloads on processors with a split uncore cache architecture, enhancing efficiency by reducing latency between CPU cores. To enable it, update your kubelet configuration. This feature is particularly beneficial for applications like telco systems but may vary based on workload types. #Kubernetes #CloudComputing...</div>
+            <div class="source">Source: <a href="/sources/kubernetes-blog">Kubernetes Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developer.nvidia.com/blog/improving-gemm-kernel-auto-tuning-efficiency-on-nvidia-gpus-with-heuristics-and-cutlass-4-2/" target="_blank">Improving GEMM Kernel Auto-Tuning Efficiency on NVIDIA GPUs with Heuristics and CUTLASS 4.2</a></h2>
             <div class="publication-date">2025-09-02 17:00</div>
             <div class="summary">🚀 Selecting the optimal GEMM kernel for specific hardware is challenging due to the many performance-determining parameters. NVIDIA introduces **nvMatmulHeuristics** to enhance the process. This module identifies a small set of top-performing kernel configurations, simplifying the tuning workflow and saving time. ⏱️ With nvMatmulHeuristics and CUTLASS 4.2, users can quickly generate and auto-tune kernels, leading to faster model compilation and better performance. #NVIDIA #GEMM #CUDA...</div>
@@ -1056,38 +1088,6 @@
             <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
             
             <div class="author">Scott Nyberg</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.mongodb.com/company/blog/innovation/new-benchmark-tests-reveal-key-vector-search-performance-factors" target="_blank">New Benchmark Tests Reveal Key Vector Search Performance Factors</a></h2>
-            <div class="publication-date">2025-08-21 11:55</div>
-            <div class="summary">🚀 New benchmarks for vector search performance are here! The MongoDB Benchmark for Atlas Vector Search provides essential strategies for optimizing search at scale, especially for datasets exceeding 10M vectors. Key factors like accuracy, cost, and throughput are explored, offering insights into quantization, dimensionality, and more. The guide aims to simplify initial tests and enhance understanding of system behavior. Explore the full guide in our documentation! 📊📈 #VectorSearch #MongoDB...</div>
-            <div class="source">Source: <a href="/sources/mongodb-blog">MongoDB Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/08/21/hidden-pitfalls-kafka-tiered-storage" target="_blank">The hidden pitfalls of Kafka tiered storage</a></h2>
-            <div class="publication-date">2025-08-21 07:01</div>
-            <div class="summary">🚀 Apache Kafka 3.9.0 introduces tiered storage for improved long-term data retention and cost efficiency. This feature allows independent scaling of compute and storage resources, leading to better client isolation. However, challenges remain in reading remote data. The article outlines two key problems and offers solutions, emphasizing important configurations like `fetch.max.bytes` and `max.partition.fetch.bytes`. Kafka 4.2.0 promises improvements to address these issues, enhancing...</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">Federico Valeri, Luke Chen</div>
             
             
             <div class="categories">

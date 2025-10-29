@@ -6,8 +6,43 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defending QUIC from acknowledgement-based DDoS attacks</title>
+      <link>/articles/article-2025-10-29-11450/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11450/</guid>
+      <description>🚨 Cloudflare has addressed two DDoS vulnerabilities in its QUIC implementation, identified as CVE-2025-4820 and CVE-2025-4821. These issues related to packet acknowledgements were reported through the Public Bug Bounty program. 🔧 The vulnerabilities allowed potential exploitation through the &amp;ldquo;Optimistic ACK&amp;rdquo; attack, which could unfairly increase connection send rates. Cloudflare has successfully patched these issues, ensuring no customers were impacted. 🌐 QUIC&amp;rsquo;s reliance on acknowledgements&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to build your own VPN, or: the history of WARP</title>
+      <link>/articles/article-2025-10-29-11449/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11449/</guid>
+      <description>🌐 Curious about WARP and VPNs? WARP started as a mobile-first security app, mimicking a traditional VPN to manage user data packets efficiently. Using Linux&amp;rsquo;s networking tools, Cloudflare built a high-performance system to support millions of mobile clients. This article dives into the integration challenges and solutions faced during development. Learn how our approach to networking can shape new products! #VPN #Cloudflare #WARP #Networking #TechInsights</description>
+    </item>
+    <item>
+      <title>Measuring characteristics of TCP connections at Internet scale</title>
+      <link>/articles/article-2025-10-29-11447/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11447/</guid>
+      <description>🌐 Researchers have long studied TCP connections, crucial for Internet interactions like web pages and streaming. At Cloudflare, millions of connections are analyzed to reveal characteristics such as lifetimes and sizes. Despite challenges in measuring connections globally, insights from Cloudflare’s CDN provide valuable data for understanding network behavior. 📊 This data aids in predicting the impact of changes in network protocols and algorithms, enhancing simulation accuracy and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>One IP address, many users: detecting CGNAT to reduce collateral effects</title>
+      <link>/articles/article-2025-10-29-11448/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11448/</guid>
+      <description>🌐 IPv4 scarcity leads to widespread use of Carrier-Grade Network Address Translation (CGNAT), placing multiple users behind a single IP address. This shift complicates security measures that rely on individual IP accountability, especially impacting users in developing regions where IP addresses are limited. Our article discusses a method to detect large-scale IP sharing to mitigate these biases and enhance digital equity. 📈 Explore how our approach can help address socioeconomic disparities&amp;hellip;</description>
+    </item>
+    <item>
+      <title>So long, and thanks for all the fish: how to escape the Linux networking stack</title>
+      <link>/articles/article-2025-10-29-11451/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11451/</guid>
+      <description>🚀 Cloudflare continuously pushes the boundaries of network hardware and software to enhance performance and efficiency. One key innovation is soft-unicast, allowing IP address sharing across data centers. The article discusses challenges related to Linux’s networking stack when implementing this feature. To simplify operations, Cloudflare developed a dedicated service, dubbed &amp;ldquo;fish,&amp;rdquo; to manage IP packets effectively. This service addresses complexities in IP address leasing and socket&amp;hellip;</description>
+    </item>
     <item>
       <title>Helping protect the 2025 Moldova elections</title>
       <link>/articles/article-2025-10-29-11434/</link>

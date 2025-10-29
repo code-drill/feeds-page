@@ -44,6 +44,41 @@
       <description>🚀 dbt Labs has open-sourced MetricFlow, a SQL generation tool that strengthens the dbt semantic layer under the Apache 2.0 license. This release supports the Open Semantic Interchange (OSI) Initiative, aiming for data standards across platforms. It includes a JSON-based metadata layer, providing a universal schema for data understanding. This could enhance interoperability between data systems and improve transparency in statistical AI applications. 🛠️📊 #DataInteroperability #OpenSource&amp;hellip;</description>
     </item>
     <item>
+      <title>Defending QUIC from acknowledgement-based DDoS attacks</title>
+      <link>/articles/article-2025-10-29-11450/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11450/</guid>
+      <description>🚨 Cloudflare has addressed two DDoS vulnerabilities in its QUIC implementation, identified as CVE-2025-4820 and CVE-2025-4821. These issues related to packet acknowledgements were reported through the Public Bug Bounty program. 🔧 The vulnerabilities allowed potential exploitation through the &amp;ldquo;Optimistic ACK&amp;rdquo; attack, which could unfairly increase connection send rates. Cloudflare has successfully patched these issues, ensuring no customers were impacted. 🌐 QUIC&amp;rsquo;s reliance on acknowledgements&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to build your own VPN, or: the history of WARP</title>
+      <link>/articles/article-2025-10-29-11449/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11449/</guid>
+      <description>🌐 Curious about WARP and VPNs? WARP started as a mobile-first security app, mimicking a traditional VPN to manage user data packets efficiently. Using Linux&amp;rsquo;s networking tools, Cloudflare built a high-performance system to support millions of mobile clients. This article dives into the integration challenges and solutions faced during development. Learn how our approach to networking can shape new products! #VPN #Cloudflare #WARP #Networking #TechInsights</description>
+    </item>
+    <item>
+      <title>Measuring characteristics of TCP connections at Internet scale</title>
+      <link>/articles/article-2025-10-29-11447/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11447/</guid>
+      <description>🌐 Researchers have long studied TCP connections, crucial for Internet interactions like web pages and streaming. At Cloudflare, millions of connections are analyzed to reveal characteristics such as lifetimes and sizes. Despite challenges in measuring connections globally, insights from Cloudflare’s CDN provide valuable data for understanding network behavior. 📊 This data aids in predicting the impact of changes in network protocols and algorithms, enhancing simulation accuracy and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>One IP address, many users: detecting CGNAT to reduce collateral effects</title>
+      <link>/articles/article-2025-10-29-11448/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11448/</guid>
+      <description>🌐 IPv4 scarcity leads to widespread use of Carrier-Grade Network Address Translation (CGNAT), placing multiple users behind a single IP address. This shift complicates security measures that rely on individual IP accountability, especially impacting users in developing regions where IP addresses are limited. Our article discusses a method to detect large-scale IP sharing to mitigate these biases and enhance digital equity. 📈 Explore how our approach can help address socioeconomic disparities&amp;hellip;</description>
+    </item>
+    <item>
+      <title>So long, and thanks for all the fish: how to escape the Linux networking stack</title>
+      <link>/articles/article-2025-10-29-11451/</link>
+      <pubDate>Wed, 29 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11451/</guid>
+      <description>🚀 Cloudflare continuously pushes the boundaries of network hardware and software to enhance performance and efficiency. One key innovation is soft-unicast, allowing IP address sharing across data centers. The article discusses challenges related to Linux’s networking stack when implementing this feature. To simplify operations, Cloudflare developed a dedicated service, dubbed &amp;ldquo;fish,&amp;rdquo; to manage IP packets effectively. This service addresses complexities in IP address leasing and socket&amp;hellip;</description>
+    </item>
+    <item>
       <title>The MPS 2025.3 Early Access Program Has Started</title>
       <link>/articles/article-2025-10-29-11441/</link>
       <pubDate>Wed, 29 Oct 2025 12:28:32 +0000</pubDate>
@@ -98,6 +133,20 @@
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-29-11380/</guid>
       <description>Discover how NVIDIA Isaac is transforming healthcare robotics! 🤖 The article details the journey of developing a healthcare robot, starting from simulation to real-world deployment. It highlights the use of advanced AI and simulation tools to enhance the robot&amp;rsquo;s capabilities in patient care. This innovation promises to improve efficiency in healthcare settings. #HealthcareInnovation #Robotics #NVIDIAIsaac #AI #Technology</description>
+    </item>
+    <item>
+      <title>Introducing new .env file support in 1Password environments</title>
+      <link>/articles/article-2025-10-29-11444/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11444/</guid>
+      <description>Introducing the new .env destination in 1Password environments! 🌐 This feature allows developers to securely use and collaborate on .env files directly from the desktop app. It provides a safe workspace for managing project secrets without the risks of plaintext storage. 🔐 Available in beta for Mac and Linux, it integrates seamlessly with AWS Secrets Manager, enhancing collaboration and simplifying workflows. 💻 Experience a secure way to handle environment variables today! #1Password&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Speed and security: Mark Hazelton on protecting Oracle Red Bull Racing’s most valuable asset – its data</title>
+      <link>/articles/article-2025-10-29-11445/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11445/</guid>
+      <description>In Episode 2 of &amp;ldquo;Securing the Win,&amp;rdquo; Mark Hazelton, CSO of Oracle Red Bull Racing, discusses the impact of a $100 million data breach on Formula 1® security practices. He highlights the shift from insider threats to digital risks and emphasizes the importance of a zero trust approach. With operations spanning multiple sites, the team generates vast data, making cybersecurity a performance necessity. Hazelton underscores that effective security is essential for speed and success. Learn more&amp;hellip;</description>
     </item>
     <item>
       <title>The Unreal Engine Student Showcase 2025 just dropped</title>
@@ -749,6 +798,13 @@
       <pubDate>Mon, 27 Oct 2025 12:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-27-11292/</guid>
       <description>🚀 Exciting developments in Confluence! The article discusses the evolution of the Table Enhancer plugin, designed to improve user experience from Data Center to Cloud. Key features include sorting, total lines, and sticky rows/columns. As Atlassian shifted to Cloud, the plugin faced challenges, leading to a temporary solution that impacted user experience. An automation assistant has been developed to simplify migration for existing users, streamlining the process. With new bodied macro&amp;hellip;</description>
+    </item>
+    <item>
+      <title>MS Agent Framework and Python: Use the Auth0 Token Vault to Call Third-Party APIs</title>
+      <link>/articles/article-2025-10-27-11446/</link>
+      <pubDate>Mon, 27 Oct 2025 11:58:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-27-11446/</guid>
+      <description>🚀 Explore how to build a secure AI-powered help desk application using Python! This article guides you through using the Microsoft Agent Framework, FastAPI, and Auth0 for authentication. You&amp;rsquo;ll learn to connect to the Gmail API for sending email notifications securely. Key prerequisites include Python 3.12+, an OpenAI API key, Google OAuth 2.0 access, and an Auth0 account. #Python #AI #FastAPI #Auth0 #GmailAPI</description>
     </item>
     <item>
       <title>How to Use a Spec-Driven Approach for Coding with AI</title>

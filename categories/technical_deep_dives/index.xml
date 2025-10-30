@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 12:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 14:00:33 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Next.js in ChatGPT: Vercel Brings the Dynamic Web to AI Chat</title>
+      <link>/articles/article-2025-10-30-11487/</link>
+      <pubDate>Thu, 30 Oct 2025 14:00:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11487/</guid>
+      <description>🚀 Vercel’s Andrew Qu discusses the challenges of integrating Next.js with OpenAI&amp;rsquo;s ChatGPT Apps platform. Initially, ChatGPT apps were designed as static HTML pages, limiting their dynamic capabilities. While they can respond to user input, they operate within strict security constraints. Vercel has found ways to enhance functionality, allowing Next.js to run in ChatGPT&amp;rsquo;s environment without altering the framework itself. This opens new possibilities for dynamic web experiences in AI chat!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why vLLM is the best choice for AI inference today</title>
+      <link>/articles/article-2025-10-30-11488/</link>
+      <pubDate>Thu, 30 Oct 2025 13:02:11 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11488/</guid>
+      <description>Organizations transitioning to AI production face critical decisions on inference platforms. vLLM, a library of open-source code, optimizes large language model (LLM) performance through efficient GPU memory use. Its architecture, including advanced KV-Cache management and parallelization strategies, supports diverse hardware and enhances scalability. As an open-source project under the PyTorch Foundation, vLLM ensures sustainable innovation and flexibility, making it a strong choice for&amp;hellip;</description>
+    </item>
     <item>
       <title>Addressing 3 Failure Points of Multiregion Incident Response</title>
       <link>/articles/article-2025-10-30-11482/</link>
@@ -28,6 +42,13 @@
       <pubDate>Wed, 29 Oct 2025 17:14:09 +0000</pubDate>
       <guid>/articles/article-2025-10-29-11463/</guid>
       <description>🚀 Etsy&amp;rsquo;s search team has implemented the Speculation Rules API (SRA) to enhance product page performance significantly. By prefetching pages, they&amp;rsquo;ve achieved improvements of 20-24% across various metrics. Key highlights include two methods of prefetching: traditional and speculative, with SRA offering advantages in caching and performance. The team also learned valuable lessons about user interaction and analytics during the implementation process. #Etsy #WebPerformance #SRA #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>ONNX and DirectML execution provider guide - part 2</title>
+      <link>/articles/article-2025-10-29-11491/</link>
+      <pubDate>Wed, 29 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11491/</guid>
+      <description>🚀 Dive into the latest guide on optimizing neural network inference on AMD hardware using ONNX Runtime with DirectML! This second part focuses on integrating DirectML into DirectX 11 applications. It addresses resource sharing challenges between DirectX 11 and 12, emphasizing the need for efficient data pipelines. Key points include: - Importance of sharing textures without mipmaps. - Conditions for successful resource sharing with DirectX APIs. Explore the potential of your applications! 💻🔧&amp;hellip;</description>
     </item>
     <item>
       <title>SPH Media shares its custom HCP Terraform operational dashboard</title>

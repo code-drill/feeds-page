@@ -6,8 +6,22 @@
     <description>Recent content in AMD-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/amd-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ONNX and DirectML execution provider guide - part 1</title>
+      <link>/articles/article-2025-10-29-11490/</link>
+      <pubDate>Wed, 29 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11490/</guid>
+      <description>Unlock the power of AMD hardware for neural network inference with the ONNX Runtime and DirectML execution provider. 🚀 This guide discusses optimizing performance by minimizing data transfer between CPU and GPU. It highlights the importance of establishing a native inference pipeline using DirectX 12 to enhance efficiency. Setting up the ONNX Runtime with DirectX 12 involves creating a shared context for pre- and post-processing, allowing smoother operations. #MachineLearning #ONNX #DirectML&amp;hellip;</description>
+    </item>
+    <item>
+      <title>ONNX and DirectML execution provider guide - part 2</title>
+      <link>/articles/article-2025-10-29-11491/</link>
+      <pubDate>Wed, 29 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11491/</guid>
+      <description>🚀 Dive into the latest guide on optimizing neural network inference on AMD hardware using ONNX Runtime with DirectML! This second part focuses on integrating DirectML into DirectX 11 applications. It addresses resource sharing challenges between DirectX 11 and 12, emphasizing the need for efficient data pipelines. Key points include: - Importance of sharing textures without mipmaps. - Conditions for successful resource sharing with DirectX APIs. Explore the potential of your applications! 💻🔧&amp;hellip;</description>
+    </item>
     <item>
       <title>Topaz Labs brings generative AI video enhancement to AMD Radeon GPUs</title>
       <link>/articles/article-2025-10-23-11228/</link>

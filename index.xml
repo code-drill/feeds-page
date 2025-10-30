@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 12:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 15:00:50 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Speed: Why Your Next App Must Be Multi-Architecture</title>
+      <link>/articles/article-2025-10-30-11486/</link>
+      <pubDate>Thu, 30 Oct 2025 15:00:50 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11486/</guid>
+      <description>The article &amp;ldquo;Beyond Speed: Why Your Next App Must Be Multi-Architecture&amp;rdquo; emphasizes the evolution of cloud-native applications. Originally focused on rapid deployment, the current trend supports microservices, SaaS platforms, and AI tasks, emphasizing performance and cost-efficiency. Developers now face the challenge of coding for diverse infrastructures without the ability to choose where their apps run. Multi-architecture support in Kubernetes is crucial, allowing developers to create&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Next.js in ChatGPT: Vercel Brings the Dynamic Web to AI Chat</title>
+      <link>/articles/article-2025-10-30-11487/</link>
+      <pubDate>Thu, 30 Oct 2025 14:00:33 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11487/</guid>
+      <description>🚀 Vercel’s Andrew Qu discusses the challenges of integrating Next.js with OpenAI&amp;rsquo;s ChatGPT Apps platform. Initially, ChatGPT apps were designed as static HTML pages, limiting their dynamic capabilities. While they can respond to user input, they operate within strict security constraints. Vercel has found ways to enhance functionality, allowing Next.js to run in ChatGPT&amp;rsquo;s environment without altering the framework itself. This opens new possibilities for dynamic web experiences in AI chat!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why vLLM is the best choice for AI inference today</title>
+      <link>/articles/article-2025-10-30-11488/</link>
+      <pubDate>Thu, 30 Oct 2025 13:02:11 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11488/</guid>
+      <description>Organizations transitioning to AI production face critical decisions on inference platforms. vLLM, a library of open-source code, optimizes large language model (LLM) performance through efficient GPU memory use. Its architecture, including advanced KV-Cache management and parallelization strategies, supports diverse hardware and enhances scalability. As an open-source project under the PyTorch Foundation, vLLM ensures sustainable innovation and flexibility, making it a strong choice for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Happy birthday, Repo! A look back on our mascot’s first year</title>
+      <link>/articles/article-2025-10-30-11489/</link>
+      <pubDate>Thu, 30 Oct 2025 12:46:10 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11489/</guid>
+      <description>🎉 Happy 1st Birthday, Repo! 🎉 This year marked the debut of Repo, our helpful &amp;ldquo;reponaut,&amp;rdquo; who assists developers in managing complex coding challenges. Key events included advancements in Red Hat OpenShift AI and the successful growth of the Quarkus project, highlighting the focus on developer productivity. In 2025, major releases such as Red Hat Enterprise Linux 10 and the Red Hat OpenShift Lightspeed assistant enhanced the developer experience. The community continues to embrace AI and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Grazie’s Next Step: Built-In Language Intelligence for Your IDE</title>
+      <link>/articles/article-2025-10-30-11492/</link>
+      <pubDate>Thu, 30 Oct 2025 12:43:27 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11492/</guid>
+      <description>🚀 Grazie is evolving! Starting with the 2025.3 IDE versions, Grazie transitions from an external plugin to a built-in feature in IntelliJ-based IDEs via the Natural Languages plugin. This integration enhances proofreading and writing support across various contexts, including code comments and documentation. While most Grazie Pro features will be included, some will not be available in the integrated version. Feedback is being collected to determine the future of these features. With this&amp;hellip;</description>
+    </item>
     <item>
       <title>Addressing 3 Failure Points of Multiregion Incident Response</title>
       <link>/articles/article-2025-10-30-11482/</link>
@@ -21,6 +56,13 @@
       <pubDate>Thu, 30 Oct 2025 11:46:28 +0000</pubDate>
       <guid>/articles/article-2025-10-30-11485/</guid>
       <description>🚀 The recent study by theCUBE Research highlights Docker&amp;rsquo;s significant role in enhancing developer productivity and software supply chain security. 🔍 Nearly 400 IT and AppDev leaders reported that Docker streamlines agentic AI development, reducing setup time by over 25% for 87% of organizations. 🛡️ Docker&amp;rsquo;s integrated security features help maintain compliance, with 95% of respondents noting improved vulnerability identification. For more insights, check out the full report! 📊 #Docker&amp;hellip;</description>
+    </item>
+    <item>
+      <title>$5 PlanetScale</title>
+      <link>/articles/article-2025-10-30-11493/</link>
+      <pubDate>Thu, 30 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11493/</guid>
+      <description>🚀 Exciting news from PlanetScale! They are introducing a new $5 plan, making their quality database services more accessible. The new PS-5 option offers a single node, non-HA mode, ideal for development and testing, without the cost of a multi-node setup. This change allows builders to scale efficiently as their needs grow, reducing migration stress during rapid growth. 🔗 Sign up for notifications on the single node release! #PlanetScale #Database #TechUpdates #Startup #CloudComputing</description>
     </item>
     <item>
       <title>A guide to the oc adm upgrade recommend command</title>
@@ -91,6 +133,20 @@
       <pubDate>Wed, 29 Oct 2025 17:00:24 +0000</pubDate>
       <guid>/articles/article-2025-10-29-11453/</guid>
       <description>Explore the connection between OpenTelemetry (OTel) and Fluent Bit in the context of Kubernetes logging! 📊 Fluent Bit captures both logs and local metrics, enhancing operational monitoring. Its alignment with OTel standards allows seamless integration without major changes. For deeper insights, check out the full book on Fluent Bit and its evolving role in observability. 📚 #OpenTelemetry #FluentBit #Kubernetes #Observability #TechInsights</description>
+    </item>
+    <item>
+      <title>ONNX and DirectML execution provider guide - part 1</title>
+      <link>/articles/article-2025-10-29-11490/</link>
+      <pubDate>Wed, 29 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11490/</guid>
+      <description>Unlock the power of AMD hardware for neural network inference with the ONNX Runtime and DirectML execution provider. 🚀 This guide discusses optimizing performance by minimizing data transfer between CPU and GPU. It highlights the importance of establishing a native inference pipeline using DirectX 12 to enhance efficiency. Setting up the ONNX Runtime with DirectX 12 involves creating a shared context for pre- and post-processing, allowing smoother operations. #MachineLearning #ONNX #DirectML&amp;hellip;</description>
+    </item>
+    <item>
+      <title>ONNX and DirectML execution provider guide - part 2</title>
+      <link>/articles/article-2025-10-29-11491/</link>
+      <pubDate>Wed, 29 Oct 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-29-11491/</guid>
+      <description>🚀 Dive into the latest guide on optimizing neural network inference on AMD hardware using ONNX Runtime with DirectML! This second part focuses on integrating DirectML into DirectX 11 applications. It addresses resource sharing challenges between DirectX 11 and 12, emphasizing the need for efficient data pipelines. Key points include: - Importance of sharing textures without mipmaps. - Conditions for successful resource sharing with DirectX APIs. Explore the potential of your applications! 💻🔧&amp;hellip;</description>
     </item>
     <item>
       <title>StreetReaderAI: Towards making street view accessible via context-aware multimodal AI</title>

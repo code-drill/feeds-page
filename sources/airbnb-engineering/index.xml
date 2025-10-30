@@ -6,8 +6,15 @@
     <description>Recent content in Airbnb-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Oct 2025 16:01:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 17:01:54 +0000</lastBuildDate>
     <atom:link href="/sources/airbnb-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GraphQL Data Mocking at Scale with LLMs and @generateMock</title>
+      <link>/articles/article-2025-10-30-11513/</link>
+      <pubDate>Thu, 30 Oct 2025 17:01:54 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11513/</guid>
+      <description>Airbnb has introduced a new GraphQL directive, @generateMock, to streamline the process of creating mock data for testing. This innovation combines GraphQL validation, product context, and LLMs to automate the generation of realistic, type-safe mock data, reducing manual effort for engineers. Key challenges addressed include time-consuming manual mock creation, difficulties in prototyping without server implementation, and keeping mock data in sync with evolving GraphQL queries. This solution&amp;hellip;</description>
+    </item>
     <item>
       <title>From Static Rate Limiting to Adaptive Traffic Management in Airbnb’s Key-Value Store</title>
       <link>/articles/article-2025-10-09-10595/</link>

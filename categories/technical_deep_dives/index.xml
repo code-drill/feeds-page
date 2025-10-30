@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 14:00:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 17:01:54 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GraphQL Data Mocking at Scale with LLMs and @generateMock</title>
+      <link>/articles/article-2025-10-30-11513/</link>
+      <pubDate>Thu, 30 Oct 2025 17:01:54 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11513/</guid>
+      <description>Airbnb has introduced a new GraphQL directive, @generateMock, to streamline the process of creating mock data for testing. This innovation combines GraphQL validation, product context, and LLMs to automate the generation of realistic, type-safe mock data, reducing manual effort for engineers. Key challenges addressed include time-consuming manual mock creation, difficulties in prototyping without server implementation, and keeping mock data in sync with evolving GraphQL queries. This solution&amp;hellip;</description>
+    </item>
     <item>
       <title>Next.js in ChatGPT: Vercel Brings the Dynamic Web to AI Chat</title>
       <link>/articles/article-2025-10-30-11487/</link>
@@ -42,6 +49,13 @@
       <pubDate>Thu, 30 Oct 2025 00:00:10 +0000</pubDate>
       <guid>/articles/article-2025-10-30-11473/</guid>
       <description>🚀 Grab is enhancing its Flink applications to meet growing demands for stream processing. With a 2.5x increase in Flink applications, the internal team is focusing on efficient, self-service CPU provisioning. Current reactive autoscaling methods face challenges like restart spikes and resource waste, leading to a need for a predictive solution. The new Predictive Resource Advisor optimizes CPU usage by forecasting workload and adjusting resources proactively, resulting in significant cost&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Beyond Request-Response: Architecting Real-time Bidirectional Streaming Multi-agent System</title>
+      <link>/articles/article-2025-10-30-11515/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-30-11515/</guid>
+      <description>Exploring the limitations of the traditional request-response model for AI agents, the article advocates for a real-time bidirectional streaming architecture. This approach, implemented by the Agent Development Kit (ADK), supports true concurrency and seamless multimodal processing. Key features include real-time I/O management and stateful sessions for efficient agent handoffs. The shift to this model aims to enhance interactivity and responsiveness in multi-agent systems. 🔗🤖💡 #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Improving performance by prefetching product pages from Etsy Search</title>

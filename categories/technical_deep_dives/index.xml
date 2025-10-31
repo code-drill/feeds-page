@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 12:00:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go and enhance your calm: demolishing an HTTP/2 interop problem</title>
+      <link>/articles/article-2025-10-31-11538/</link>
+      <pubDate>Fri, 31 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11538/</guid>
+      <description>Understanding the ENHANCE_YOUR_CALM error in HTTP/2 can help developers avoid communication issues between microservices. This article discusses how certain patterns in Go&amp;rsquo;s HTTP/2 client can inadvertently trigger this error, particularly during PING flood attacks, which can lead to connection closures. The post also highlights Cloudflare’s defenses against such vulnerabilities, emphasizing the need for careful implementation to prevent denial-of-service risks. 🔧💻🚫 #HTTP2 #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Mr. Bones: A Pirate-Voiced Halloween Chatbot Powered by Docker Model Runner</title>
+      <link>/articles/article-2025-10-31-11537/</link>
+      <pubDate>Fri, 31 Oct 2025 12:17:21 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11537/</guid>
+      <description>🎃 Meet Mr. Bones, the interactive Halloween chatbot! Mike Coleman from Docker transformed a Home Depot skeleton into a pirate-voiced AI that chats with kids. Using Docker Model Runner, he created a local LLM that handles conversations seamlessly. Key benefits include no API costs, low latency, and easy model switching. Curious about how it works? Kids talk to the skeleton, and a Raspberry Pi processes their questions before Mr. Bones responds in pirate voice! 🏴‍☠️👻 #Halloween #AI #Docker&amp;hellip;</description>
+    </item>
     <item>
       <title>How Cover Whale Scaled Its Developer Platform Beyond an MVP</title>
       <link>/articles/article-2025-10-31-11529/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in LY-Corporation-Tech-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 02:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/ly-corporation-tech-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving code quality - Session 51: Convincing questions</title>
+      <link>/articles/article-2025-10-31-11523/</link>
+      <pubDate>Fri, 31 Oct 2025 02:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11523/</guid>
+      <description>In the latest article of the &amp;ldquo;Improving Code Quality&amp;rdquo; series, Munetoshi Ishikawa discusses a code review scenario. The focus is on the function &lt;code&gt;getOnlineUserStates&lt;/code&gt;, which is designed to return the states of online users. It includes an early return for empty user IDs, but its necessity is questioned. The reviewer suggests that removing this early return could enhance code simplicity, prompting a dialogue about its purpose. #CodeQuality #SoftwareDevelopment #CodeReview #Programming #LINEapp 🚀💻🔍</description>
+    </item>
     <item>
       <title>Improving code quality - Session 50: The only truth</title>
       <link>/articles/article-2025-10-24-11244/</link>

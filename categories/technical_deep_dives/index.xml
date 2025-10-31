@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 18:00:22 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your AI Models Aren’t Slow, but Your Data Pipeline Might Be</title>
+      <link>/articles/article-2025-10-31-11540/</link>
+      <pubDate>Fri, 31 Oct 2025 18:00:22 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11540/</guid>
+      <description>Many AI failures stem from outdated data pipelines rather than model accuracy. Organizations often use batch-processed data for real-time predictions, leading to delays. Apache Kafka offers a solution by providing low-latency data streaming, enabling real-time processing. This allows for immediate insights and better decision-making in AI applications. Teams using Kafka are experiencing success by transforming data midflight, ensuring models operate with current information. #AI #DataPipeline&amp;hellip;</description>
+    </item>
+    <item>
+      <title>KAITO and KubeFleet: Projects Solving AI Inference at Scale</title>
+      <link>/articles/article-2025-10-31-11541/</link>
+      <pubDate>Fri, 31 Oct 2025 17:00:15 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11541/</guid>
+      <description>AI inference has become more resource-intensive with the growth of large language models (LLMs). 🌐 Kubernetes is now the go-to platform for deploying these services, but as organizations scale, multicluster inferencing is needed to manage workloads across multiple clusters. This approach offers benefits like redundancy but also introduces complexity. Projects like KAITO and KubeFleet are stepping up to address these challenges by optimizing LLM workflows and resource management. #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Go and enhance your calm: demolishing an HTTP/2 interop problem</title>
       <link>/articles/article-2025-10-31-11538/</link>

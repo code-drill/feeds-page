@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 18:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 20:09:24 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When the Cloud’s Backbone Falters: Why Digital Resilience Demands More Than Redundancy</title>
+      <link>/articles/article-2025-10-31-11554/</link>
+      <pubDate>Fri, 31 Oct 2025 20:09:24 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11554/</guid>
+      <description>On October 20, 2025, a significant AWS outage impacted various sectors, including banking and healthcare. 🌐 The disruption originated from a DNS management failure in DynamoDB, causing cascading issues across cloud services. A critical analysis highlighted the importance of multilayered visibility for effective response. 📉 Teams with advanced monitoring tools quickly identified the problems, distinguishing between network and application issues. This incident underscores the need for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Context Engineering: The Foundation for Reliable AI Agents</title>
+      <link>/articles/article-2025-10-31-11550/</link>
+      <pubDate>Fri, 31 Oct 2025 20:00:14 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11550/</guid>
+      <description>In the realm of AI, context plays a crucial role in enhancing agent performance. The article discusses the importance of context engineering, which involves techniques to provide AI agents with the right information. This ensures efficient planning, tool usage, and improved task accuracy. Challenges like excessive or insufficient context can lead to poor outcomes. Key components include tool selection, memory usage, prompt engineering, and data retrieval. Understanding these elements is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Stop Writing Code, Start Writing Docs</title>
+      <link>/articles/article-2025-10-31-11551/</link>
+      <pubDate>Fri, 31 Oct 2025 19:13:27 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11551/</guid>
+      <description>🚀 In a recent episode of The New Stack Agents, Keith Ballinger from Google Cloud discussed the evolving role of agentic coding tools like Gemini CLI. He emphasizes the importance of writing clear documentation and project plans to enhance developer intent and context. Ballinger believes we may reach a future where developers focus less on code and more on their design intentions. 🎙️ Join the conversation to learn more about AI in coding and the skills that make great programmers. #GoogleCloud&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Promise of Redundancy: Can the Impact of a Cloud Outage Be Avoided?</title>
+      <link>/articles/article-2025-10-31-11552/</link>
+      <pubDate>Fri, 31 Oct 2025 19:10:45 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11552/</guid>
+      <description>The recent AWS outage on October 20 highlighted the interconnected nature of modern applications across various industries. 🔗 Organizations depend on a complex network of cloud services, making it hard to establish effective redundancies. While some redundancy measures exist, invoking them poses challenges related to data consistency and service disruption. Understanding the outage&amp;rsquo;s scope and dependencies is crucial for effective remediation. 🛠️ #CloudOutage #Redundancy #AWS #TechChallenges&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A User-Focused Approach To Core Web Vitals via OpenTelemetry</title>
+      <link>/articles/article-2025-10-31-11553/</link>
+      <pubDate>Fri, 31 Oct 2025 19:00:46 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11553/</guid>
+      <description>Core Web Vitals (CWVs) provide crucial insights into website performance, focusing on user experience through metrics like load time and interactivity. However, relying solely on CWVs may not meet evolving user demands. 📊 To gain deeper insights, integrating CWVs into a user-focused observability system is essential. This approach connects technical performance to actual user experiences, highlighting issues that may not be captured by metrics alone. OpenTelemetry is highlighted as a key tool&amp;hellip;</description>
+    </item>
     <item>
       <title>Your AI Models Aren’t Slow, but Your Data Pipeline Might Be</title>
       <link>/articles/article-2025-10-31-11540/</link>
@@ -77,6 +112,13 @@
       <pubDate>Fri, 31 Oct 2025 13:00:27 +0000</pubDate>
       <guid>/articles/article-2025-10-31-11534/</guid>
       <description>Building reliable AI requires careful engineering, not just innovative algorithms. A recent article highlights that 74% of companies struggle with AI adoption, often treating projects as simple experiments rather than engineering tasks. Success lies in applying traditional software engineering principles to ensure reliability and maintainability. Effective AI systems require rigorous testing, monitoring, and robust infrastructure. Organizations that embrace these practices can avoid pitfalls&amp;hellip;</description>
+    </item>
+    <item>
+      <title>BotID Deep Analysis catches a sophisticated bot network in real-time</title>
+      <link>/articles/article-2025-10-31-11556/</link>
+      <pubDate>Fri, 31 Oct 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11556/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/blog/botid-deep-analysis-catches-a-sophisticated-bot-network-in-real-time&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Caching details now available in Runtime Logs</title>
@@ -168,6 +210,13 @@
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-10-31-11547/</guid>
       <description>Enhance your security with eight crucial log detections for credential stuffing and MFA exploit prevention from Auth0. These detections are part of the Auth0 Detection Catalog, offering real-time insights and customizable monitoring for your SIEM. Key features include tracking abnormal login patterns and identifying sophisticated bot activity. Stay ahead of potential threats and protect your systems! 🔒🛡️ #CyberSecurity #Auth0 #CredentialStuffing #MFA #SecurityMonitoring</description>
+    </item>
+    <item>
+      <title>Claude Sonnet 3.7 deprecation notice for GitLab Duo</title>
+      <link>/articles/article-2025-10-31-11555/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-10-31-11555/</guid>
+      <description>🚨 Important Update for GitLab Duo Users! 🚨 Anthropic is deprecating Claude Sonnet 3.7. As a result, GitLab will remove support for this model in version 18.8, scheduled for January 15, 2026. 📅 Current Status: Claude Sonnet 3.7 is still available. 🔄 Action Needed: Migrate to Claude 4.0+ models now. For further details, check the resources or contact GitLab Support for assistance. #GitLab #AI #ClaudeSonnet #Migration #TechUpdates</description>
     </item>
     <item>
       <title>Elevating public sector cyber defense with AI-powered threat hunting</title>

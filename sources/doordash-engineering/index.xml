@@ -6,8 +6,15 @@
     <description>Recent content in DoorDash-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 16:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 18:13:33 +0000</lastBuildDate>
     <atom:link href="/sources/doordash-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing DoorDash’s in-house search engine platform</title>
+      <link>/articles/article-2025-11-04-11836/</link>
+      <pubDate>Tue, 04 Nov 2025 18:13:33 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11836/</guid>
+      <description>In early 2024, DoorDash tackled challenges with its in-house search engine to meet global search demands. They achieved a 50% reduction in latency and a 75% decrease in hardware costs. However, they encountered issues with CPU utilization and latency spikes. By transitioning to a new garbage collector and upgrading Apache Lucene, they reduced hardware costs by an additional 30% and improved latency by up to 30%. This experience illustrates how focused optimizations can enhance overall&amp;hellip;</description>
+    </item>
     <item>
       <title>SafeChat: DoorDash’s AI-powered safety feature</title>
       <link>/articles/article-2025-10-30-11510/</link>

@@ -6,8 +6,78 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 07:01:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing resource optimization for Red Hat OpenShift GA</title>
+      <link>/articles/article-2025-11-04-11691/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11691/</guid>
+      <description>🚀 Exciting news for Red Hat OpenShift users! Resource optimization is now generally available as part of Red Hat Lightspeed cost management. This feature simplifies resource allocation for containers, deployments, and more. Key features include: - Recommendations for various workloads - Profile-based insights - Visual explanations for recommendations Get started by labeling your namespaces, installing the Cost Management Metrics Operator, and connecting your cloud accounts. For more details,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Convert CentOS Linux to RHEL using Red Hat Lightspeed</title>
+      <link>/articles/article-2025-11-04-11696/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11696/</guid>
+      <description>🚨 CentOS Linux 7 will reach its end-of-life on June 30, 2024, leaving users without official support. A recommended solution is migrating to Red Hat Enterprise Linux (RHEL) for ongoing security updates and support. The transition can be facilitated using Red Hat Lightspeed, which provides tools for analysis and conversion. 🔧 Steps include validating your CentOS version, updating the system, installing client tools, and running pre-conversion analyses. For detailed guidance, check out the full&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Detect network issues in Open vSwitch using Red Hat Lightspeed</title>
+      <link>/articles/article-2025-11-04-11695/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11695/</guid>
+      <description>🚀 Red Hat Lightspeed accelerates the detection of network issues in Open vSwitch (OVS). Support engineers can now quickly address problems like packet drops or latency, reducing lengthy communication with developers. The tool allows for easy monitoring of OVS coverage metrics and logs, streamlining the troubleshooting process. With extendable rules, it adapts to evolving needs in network management. #RedHat #OpenvSwitch #Networking #TechSupport #Troubleshooting</description>
+    </item>
+    <item>
+      <title>Extend Red Hat Lightspeed client to execute custom automation</title>
+      <link>/articles/article-2025-11-04-11692/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11692/</guid>
+      <description>Red Hat Lightspeed enhances operational efficiency by providing actionable intelligence for Red Hat Enterprise Linux environments. The insights client, running daily, can trigger custom automation using a shell script. This automation can assign systems to inventory groups, aiding in organized management and access control. Both inventory groups and system tags assist in filtering and managing systems effectively. A detailed guide on extending the insights client for automation is available&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Red Hat Lightspeed events enhance system life cycle management</title>
+      <link>/articles/article-2025-11-04-11687/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11687/</guid>
+      <description>🚀 Red Hat Lightspeed enhances system life cycle management through proactive monitoring and analytics. With new inventory events, IT teams gain deeper visibility, automating responses to system changes. Key events include new system registrations, stale system detection, and deletions, allowing for timely actions like opening ServiceNow tickets or initiating security checks. Integrating these events into workflows can lead to self-healing systems and optimized operations. Learn more about&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to use content templates in Red Hat Lightspeed</title>
+      <link>/articles/article-2025-11-04-11688/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11688/</guid>
+      <description>Manage your patching cycle effectively with content templates in Red Hat Lightspeed! 🛠️ These templates use snapshots of Red Hat and third-party repositories, allowing admins to control software availability at the dnf/yum level. Snapshots are updated every 24 hours, ensuring stability. Learn how to create and assign templates for smooth updates, including adding custom content. 📦 Explore the process for better system management today! #RedHat #SystemManagement #ContentTemplates #DevOps&amp;hellip;</description>
+    </item>
+    <item>
+      <title>InterSystems IRIS operations made easy with Red Hat Lightspeed</title>
+      <link>/articles/article-2025-11-04-11689/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11689/</guid>
+      <description>🚀 Red Hat Lightspeed, formerly Red Hat Insights, now enhances operations for InterSystems IRIS users. This service provides timely alerts and recommendations for Red Hat Enterprise Linux (RHEL) administrators, ensuring optimal system performance. Key features include performance tuning suggestions and high-availability enhancements to prevent failover issues. Connect your RHEL machine to Red Hat Lightspeed easily and access valuable insights through the new &amp;ldquo;InterSystems&amp;rdquo; topic in the Advisor&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Leverage Red Hat Satellite for Red Hat Lightspeed reporting and automation</title>
+      <link>/articles/article-2025-11-04-11690/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11690/</guid>
+      <description>Unlock efficient reporting with Red Hat Satellite! 🚀 This article highlights how to automate data retrieval from Red Hat Lightspeed using Ansible integration. System administrators can schedule tasks to generate CSV reports on system health, vulnerabilities, and more, directly to their inbox. Learn how to set up a service account, configure job templates, and receive timely updates on your infrastructure. 📊 Check out the step-by-step guide and start automating today! #RedHat #Automation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Synchronize instance tags from Amazon EC2 and Microsoft Azure with Red Hat Lightspeed</title>
+      <link>/articles/article-2025-11-04-11694/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11694/</guid>
+      <description>🔄 Red Hat Lightspeed now synchronizes system tags from Amazon EC2 and Microsoft Azure, enhancing operational efficiency. Tagging allows organizations to manage and filter their resources effectively. 🌐 This article outlines how Lightspeed ingests existing tags from cloud providers to streamline management. Users can leverage these tags for better reporting and automation across platforms. For detailed insights, explore the full article! #RedHat #CloudManagement #EC2 #MicrosoftAzure #DevOps</description>
+    </item>
+    <item>
+      <title>Testing frameworks for images built via Red Hat Lightspeed image builder</title>
+      <link>/articles/article-2025-11-04-11693/</link>
+      <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11693/</guid>
+      <description>Building images for cloud and on-premises servers poses challenges like reducing attack surfaces and ensuring compliance. 🌐 Red Hat Lightspeed simplifies image hardening by using OpenSCAP remediations at build time, allowing for pre-hardened images. Users can build images via an API or a user interface on sandbox.redhat.com. 🛠️ The article details steps for selecting the PCI-DSS profile and customizing images, ensuring compliance throughout the process. For compliance monitoring, Red Hat&amp;hellip;</description>
+    </item>
     <item>
       <title>Post-training methods for language models</title>
       <link>/articles/article-2025-11-04-11683/</link>

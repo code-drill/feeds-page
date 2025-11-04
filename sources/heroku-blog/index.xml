@@ -6,8 +6,15 @@
     <description>Recent content in Heroku-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 17:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 16:27:37 +0000</lastBuildDate>
     <atom:link href="/sources/heroku-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn How to Lower Heroku Dyno Latency through Persistent Connections (Keep-alive)</title>
+      <link>/articles/article-2025-11-04-11715/</link>
+      <pubDate>Tue, 04 Nov 2025 16:27:37 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11715/</guid>
+      <description>🚀 Learn how to enhance your Heroku app&amp;rsquo;s performance by reducing latency! The article explains the impact of TCP slow start on web applications and introduces keep-alive connections as a solution. Keep-alives allow multiple requests to reuse a single connection, improving response times by maximizing bandwidth. Understanding these concepts can significantly benefit developers working with HTTP. #Heroku #WebDevelopment #TCP #PerformanceOptimization #KeepAlive</description>
+    </item>
     <item>
       <title>Heroku Connect: Faster, More Reliable Data Sync with Salesforce CDC</title>
       <link>/articles/article-2025-10-30-11517/</link>

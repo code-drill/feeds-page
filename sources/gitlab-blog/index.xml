@@ -6,8 +6,15 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate from pipeline variables to pipeline inputs for better security</title>
+      <link>/articles/article-2025-11-04-11831/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11831/</guid>
+      <description>🚀 GitLab is enhancing CI/CD security by migrating from pipeline variables to pipeline inputs. Pipeline variables can be overridden without validation, posing security risks. In contrast, pipeline inputs offer explicit declarations, type safety, and built-in validation, improving overall maintainability and governance. To transition, restrict pipeline variables and configure roles effectively. This ensures a more secure CI/CD environment. Learn more about the migration process and its&amp;hellip;</description>
+    </item>
     <item>
       <title>Claude Sonnet 3.7 deprecation notice for GitLab Duo</title>
       <link>/articles/article-2025-10-31-11555/</link>

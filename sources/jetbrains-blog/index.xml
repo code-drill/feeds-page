@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Nov 2025 16:18:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 13:39:13 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taming the Billion Dollar Mistake: Maarten Balliauw’s Guide to C# Nullable Reference Types</title>
+      <link>/articles/article-2025-11-04-11707/</link>
+      <pubDate>Tue, 04 Nov 2025 13:39:13 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11707/</guid>
+      <description>Maarten Balliauw recently presented at JetBrains.NET Days Online 2025 on migrating to C# nullable reference types, a feature that enhances null safety in codebases. He emphasized that while this feature helps at design and compile time, it does not provide runtime safety. Developers should approach migration pragmatically, especially in larger projects, using the Boy Scout Rule to gradually enable nullability. Maarten also warned against the misuse of the null-forgiving operator, advocating&amp;hellip;</description>
+    </item>
     <item>
       <title>Busy Plugin Developers Newsletter – Q3 2025</title>
       <link>/articles/article-2025-11-03-11665/</link>

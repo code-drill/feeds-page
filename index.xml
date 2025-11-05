@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 21:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 00:00:59 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixes Required for Prometheus’ OpenTelemetry Integration</title>
+      <link>/articles/article-2025-11-05-11838/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-11-05-11838/</guid>
+      <description>Prometheus and OpenTelemetry integration faces challenges, particularly around compatibility and performance. During PromCon, Julius Volz highlighted issues such as loss of service discovery and SDK complexity. Benchmark tests indicate significant performance discrepancies when using OpenTelemetry versus native Prometheus instrumentation. However, ongoing collaboration is addressing these concerns. Richard Hartmann noted improvements in interoperability and support for data labels&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Build Your First HTTP Server in Python</title>
+      <link>/articles/article-2025-11-04-11839/</link>
+      <pubDate>Tue, 04 Nov 2025 23:00:17 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11839/</guid>
+      <description>🌐 HTTP is a crucial protocol for web communication, acting as the &amp;ldquo;language&amp;rdquo; between browsers and servers. An HTTP server processes requests from clients, serving webpages and data like a restaurant server takes orders. It uses requests and responses to share information, with status codes indicating success or errors. Ready to build your own HTTP server in Python? You&amp;rsquo;ll need basic Python knowledge, a terminal, and a text editor. #Python #HTTPServer #WebDevelopment #Programming #TechEducation</description>
+    </item>
+    <item>
+      <title>Why Diskless Is a Game-Changer for Running Kafka at Scale</title>
+      <link>/articles/article-2025-11-04-11840/</link>
+      <pubDate>Tue, 04 Nov 2025 22:00:03 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11840/</guid>
+      <description>Discover how the Kafka community is addressing challenges in handling large data volumes. The new Kafka Improvement Proposal, KP-1150, introduces Diskless Topics, which leverages object storage for replication, reducing costs and complexity. This approach allows businesses to scale Kafka effectively. Join the webinar on Nov. 20 to learn more about optimizing Kafka architecture! 📅💻 #ApacheKafka #DataStreaming #TechWebinar #CloudComputing #BigData</description>
+    </item>
     <item>
       <title>Deepnote, a ‘Successor to Jupyter Notebook,’ Goes Open Source</title>
       <link>/articles/article-2025-11-04-11827/</link>

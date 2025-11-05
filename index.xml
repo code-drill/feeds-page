@@ -13,21 +13,21 @@
       <link>/articles/article-2025-11-05-11845/</link>
       <pubDate>Wed, 05 Nov 2025 08:16:08 +0000</pubDate>
       <guid>/articles/article-2025-11-05-11845/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.redhat.com/blog/feed/&#34;&gt;Red Hat Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.redhat.com/articles/2025/11/05/setting-intel-tdx-vms-trustee-openshift&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>📢 Protecting sensitive data is crucial. The latest article discusses setting up confidential VMs on Red Hat OpenShift using Intel TDX technology. 🔑 This setup ensures data privacy, complying with regulations like DORA. It highlights how to use Trustee for secure attestation during VM boot-up. 🛠️ This proof of concept (PoC) involves configuring KubeVirt and verifying TDX support through the Linux kernel. Learn more about enhancing your cloud security! #CloudComputing #OpenShift #DataPrivacy&amp;hellip;</description>
     </item>
     <item>
       <title>Building and running Request Tracker as a quadlet container</title>
       <link>/articles/article-2025-11-05-11846/</link>
       <pubDate>Wed, 05 Nov 2025 07:16:50 +0000</pubDate>
       <guid>/articles/article-2025-11-05-11846/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.redhat.com/blog/feed/&#34;&gt;Red Hat Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.redhat.com/articles/2025/11/05/building-and-running-request-tracker-quadlet-container&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Dive into containerization with Request Tracker (RT)! This article guides you through the process of running RT as a quadlet container, utilizing MariaDB and httpd images. Learn about the setup, including persistent storage, configuration, and email routing. Key commands and examples are provided for a smooth deployment. 📦 Explore the benefits of using containers to simplify maintenance and enhance security. #RequestTracker #Containerization #Podman #DevOps #OpenSource</description>
     </item>
     <item>
       <title>Use OpenShift Lightspeed with locally served LLMs to drive security-focused, cost-efficient enterprise solutions for Red Hat products</title>
       <link>/articles/article-2025-11-05-11847/</link>
       <pubDate>Wed, 05 Nov 2025 07:16:47 +0000</pubDate>
       <guid>/articles/article-2025-11-05-11847/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.redhat.com/blog/feed/&#34;&gt;Red Hat Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.redhat.com/articles/2025/11/05/use-openshift-lightspeed-locally-served-llms&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Red Hat OpenShift Lightspeed is enhancing user efficiency by integrating with locally served large language models (LLMs) through OpenShift AI. This setup boosts data security, reduces costs, and allows for better performance control. The article outlines steps to connect OpenShift Lightspeed with an LLM, from prerequisites to model deployment. Key steps include setting up S3-compatible storage and configuring model connections. For detailed instructions, check the full article! #RedHat&amp;hellip;</description>
     </item>
     <item>
       <title>Fixes Required for Prometheus’ OpenTelemetry Integration</title>
@@ -448,6 +448,13 @@
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-04-11708/</guid>
       <description>🔐 AI Agents are revolutionizing how we manage tasks by interacting with services like Google and GitHub. However, this opens up new security challenges. Developers must implement secure-by-design strategies to protect sensitive data and manage third-party access tokens effectively. This involves ensuring proper user authentication and securely storing access tokens. Maintaining high security while providing easy integration is essential. #AISecurity #DataProtection #TokenManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Email Logs: Search, Filter, and Troubleshoot Email Events</title>
+      <link>/articles/article-2025-11-04-11848/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-04-11848/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.twilio.com/blog/feed&#34;&gt;Twilio Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.twilio.com/en-us/blog/products/launches/email-logs-generally-available&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrate from pipeline variables to pipeline inputs for better security</title>

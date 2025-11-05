@@ -449,6 +449,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/13/how-use-oci-gitops-openshift" target="_blank">How to use OCI for GitOps in OpenShift</a></h2>
+            <div class="publication-date">2025-10-13 07:01</div>
+            <div class="summary">🚀 Exploring GitOps with OCI in OpenShift! Organizations transitioning to GitOps often think they need Git-based systems. However, GitOps principles allow for other compliant storage options like OCI, which can store various content types beyond container images. OpenShift GitOps 1.18 now supports OCI as a source of truth, simplifying management and enhancing security. This approach streamlines operations and integrates well with CI pipelines. To get started, ensure you have the oras CLI and...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Christian Hernandez</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/13/using-ai-agents-red-hat-insights" target="_blank">Using AI agents with Red Hat Insights</a></h2>
+            <div class="publication-date">2025-10-13 07:00</div>
+            <div class="summary">Unlock the potential of AI with insights-mcp by Red Hat! 🌐 This self-hosted server allows seamless interaction with key Red Hat Insights features like vulnerability management and inventory tracking, all through the Model Context Protocol (MCP). To get started, set up a service account and install VS Code. You can then connect LLM agents to enhance your workflows, from daily security checks to compliance monitoring. Explore the developer preview today and share your feedback! 🛠️💻 #RedHat #AI...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Sean O&#39;Keeffe</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/10/splitting-openshift-machine-config-pool-without-node-reboots" target="_blank">Splitting OpenShift machine config pool without node reboots</a></h2>
+            <div class="publication-date">2025-10-10 07:00</div>
+            <div class="summary">🚀 Splitting an OpenShift Machine Config Pool (MCP) without node reboots is now possible! This guide details how to create two separate MCPs while maintaining identical configurations. This method is especially beneficial for large clusters with over 100 worker nodes, simplifying upgrades and management. Key steps include identifying the current MCP and machine configurations, creating a new MCP, and labeling nodes for the transition. For detailed commands and procedures, refer to the full...</div>
+            <div class="source">Source: Red Hat Developer Blog</div>
+            
+            <div class="author">Rob Fisher</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2025/10/10/nodejs-20-memory-management-containers" target="_blank">Node.js 20&#43; memory management in containers</a></h2>
             <div class="publication-date">2025-10-10 07:00</div>
             <div class="summary">Node.js 20 enhances memory management in containers by being container-aware, limiting heap size based on cgroup limits. This adaptation helps prevent memory overflow issues on platforms like OpenShift. The maximum heap size is 50% of the container size, capping at 2 GiB for larger containers. Developers can also set specific limits using the `--max-old-space-size` flag. For efficient CPU allocation, combining `worker_threads` with multiple CPU limits can improve performance, but balance is...</div>
@@ -1077,57 +1128,6 @@
             
         </article>
         
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/16/how-enable-ansible-lightspeed-intelligent-assistant" target="_blank">How to enable Ansible Lightspeed intelligent assistant</a></h2>
-            <div class="publication-date">2025-09-16 07:00</div>
-            <div class="summary">🚀 Discover the Red Hat Ansible Lightspeed intelligent assistant in the latest Red Hat Ansible Automation Platform 2.6! This integrated chatbot utilizes various inference backends and can be deployed with Red Hat OpenShift AI. The article provides a step-by-step guide for installing OpenShift AI and setting up an inference service on the same cluster. Key topics include: - Installing OpenShift AI - Deploying an Inference Service - Configuring Ansible Lightspeed Stay tuned for more insights in...</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Riya Sharma, Elijah DeLee</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/educational" class="category-text">Educational</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/15/why-some-agentic-ai-developers-are-moving-code-python-rust" target="_blank">Why some agentic AI developers are moving code from Python to Rust</a></h2>
-            <div class="publication-date">2025-09-15 07:00</div>
-            <div class="summary">AI developers are exploring a shift from Python to Rust for agentic AI solutions. While Python is popular for its simplicity and rich libraries, its Global Interpreter Lock (GIL) limits performance in CPU-bound tasks, especially as systems scale from 5 to 500 agents. Rust offers a solution with better concurrency and scalability, allowing more efficient handling of multiple agents and CPU-intensive tasks. Developers are finding that a hybrid approach—prototyping in Python and optimizing with...</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Louis Imershein</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2025/09/15/confidential-vms-core-confidential-containers" target="_blank">Confidential VMs: The core of confidential containers</a></h2>
-            <div class="publication-date">2025-09-15 07:00</div>
-            <div class="summary">🔍 Discover the essentials of Confidential Virtual Machines (CVMs) and their role in enhancing the security of confidential containers (CoCo). CVMs utilize hardware and software to ensure data confidentiality, isolating workloads from the host environment. This integration with Red Hat Enterprise Linux (RHEL) and OpenShift boosts security standards for data in use. 🛡️ Learn about features like Unified Kernel Images (UKI) and remote attestation that enhance the protection of workloads....</div>
-            <div class="source">Source: Red Hat Developer Blog</div>
-            
-            <div class="author">Emanuele Giuseppe Esposito</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
     </div>
     
     
@@ -1152,6 +1152,10 @@
             
             
             <a href="/sources/red-hat-developer-blog/page/4/" class="pagination-link">4</a>
+            
+            
+            
+            <a href="/sources/red-hat-developer-blog/page/5/" class="pagination-link">5</a>
             
             
         </div>

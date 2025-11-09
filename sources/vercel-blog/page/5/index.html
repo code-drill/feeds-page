@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vercel-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        
+         
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .header h1 a {
+            color: #333;
+            text-decoration: none;
+        }
+        .header h1 a:hover {
+            color: #337ab7;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+              
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+            margin-bottom: 5px;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .site-footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e9ecef;
+            background: #f8f9fa;
+        }
+        .footer-text {
+            text-align: center;
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+        .author-link {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .author-link:hover {
+            color: #286090;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: Vercel-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/introducing-vercel-mcp-connect-vercel-to-your-ai-tools" target="_blank">Introducing Vercel MCP: Connect Vercel to your AI tools</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Exciting news for developers! Vercel has launched its MCP server, now in Public Beta. This secure interface allows AI tools to connect with your Vercel projects seamlessly. With Vercel MCP, tools like Cursor and Claude can access project logs, documents, and metadata directly, enhancing your workflow. Discover more about this innovative development! #Vercel #AIDevelopment #MCP #TechNews #DeveloperTools</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Aparna Sinha</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/microfrontends-support-is-now-in-public-beta" target="_blank">Microfrontends support is now in Public Beta</a></h2>
+            <div class="publication-date">2025-08-06 13:00</div>
+            <div class="summary">🚀 Microfrontends support is now in Public Beta! This feature allows developers to split large applications into smaller, manageable parts, enabling faster development and independent testing. Vercel simplifies the assembly and routing of these microfrontends into a cohesive user experience. To get started, users can clone examples from the Vercel dashboard, create microfrontend groups, and configure their projects with ease. For more details, check the documentation or contact Vercel support....</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Justin Kropp</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/claude-4-1-opus-is-now-supported-in-vercel-ai-gateway" target="_blank">Claude Opus 4.1 is now supported in Vercel AI Gateway</a></h2>
+            <div class="publication-date">2025-08-05 13:00</div>
+            <div class="summary">🚀 Exciting news! Claude Opus 4.1 is now accessible via Vercel&#39;s AI Gateway without the need for additional provider accounts. This new model enhances task execution, coding, and reasoning compared to its predecessor. AI Gateway offers a unified API, usage tracking, and performance optimizations for improved reliability. Start using it with the AI SDK v5 by installing the package and setting the model to anthropic/claude-4.1-opus. Learn more about the AI Gateway and explore the new model...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Josh Lipman</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/gpt-oss-20b-and-gpt-oss-120b-are-now-supported-in-vercel-ai-gateway" target="_blank">gpt-oss-20b and gpt-oss-120b are now supported in Vercel AI Gateway</a></h2>
+            <div class="publication-date">2025-08-05 13:00</div>
+            <div class="summary">🚀 Exciting news! Vercel AI Gateway now supports OpenAI&#39;s gpt-oss-20b and gpt-oss-120b models. These open-weight reasoning models enhance access with a unified API, simplifying usage tracking and performance optimizations. 💻 Developers can easily integrate them using AI SDK v5, with built-in observability and support for multiple model providers. Discover more about AI Gateway and check out the new model leaderboard! 📊 #Vercel #OpenAI #AIModels #TechNews #Innovation</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Josh Lipman</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/new-custom-visualization-in-vercel-observability" target="_blank">New custom visualization in Vercel Observability</a></h2>
+            <div class="publication-date">2025-08-04 13:00</div>
+            <div class="summary">🚀 Exciting news for Observability Plus users! You can now customize your data visualizations with options like line charts, volume charts, tables, or big numbers. 📊 Both queries and visualization settings can be saved in shareable notebooks, enhancing teamwork. This update is available at no extra cost for Observability Plus teams. Explore the new features today! #DataVisualization #Observability #TechUpdate #Vercel #Collaboration</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Timo Lins</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/v0-vibe-coding-securely" target="_blank">v0: vibe coding, securely</a></h2>
+            <div class="publication-date">2025-08-04 13:00</div>
+            <div class="summary">Vibe coding is transforming software development, allowing rapid prototyping with tools like v0. Anthropic&#39;s CEO indicates that in just 3-6 months, 90% of code may be AI-generated. However, this speed can lead to significant risks. A recent incident involved a viral app that leaked 72,000 selfies and IDs due to misconfigured settings, emphasizing the need for security measures. #VibeCoding #SoftwareDevelopment #CyberSecurity #AI #TechNews 🚀🔒📱</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kevin Corbett</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/vercels-mcp" target="_blank">Vercel MCP now in Public Beta</a></h2>
+            <div class="publication-date">2025-08-04 13:00</div>
+            <div class="summary">🚀 Vercel&#39;s Model Control Protocol (MCP) server is now in Public Beta! The server, accessible at mcp.vercel.com, offers a remote interface with OAuth-based authorization, allowing secure interactions with AI tools and Vercel projects. It supports AI assistants like Claude.ai and integrates with tools such as VS Code to help manage projects, analyze deployment logs, and navigate documentation. This update aims to enhance collaboration between AI workflows and the Vercel ecosystem. For more...</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Aparna Sinha</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/shipped-on-vercel" target="_blank">A new wave of software, shipped on Vercel</a></h2>
+            <div class="publication-date">2025-08-01 13:00</div>
+            <div class="summary">🚀 A new initiative, &#34;Shipped on Vercel,&#34; highlights innovative apps currently in production on the Vercel platform. This platform showcases teams that are reimagining web development, offering insights into their creative processes and technologies used. Discover how these real-world applications are shaping the future of the web! 🌐 #Vercel #WebDevelopment #Innovation #TechTrends #SoftwareDevelopment</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Peri Langlois</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/changelog/deploy-hono-backends-with-zero-configuration" target="_blank">Deploy Hono backends with zero configuration</a></h2>
+            <div class="publication-date">2025-08-01 13:00</div>
+            <div class="summary">🚀 Vercel now offers native support for Hono, a lightweight backend framework, with zero configuration required. This integration allows Vercel to optimize Hono applications for builds and deployments, enhancing performance. New deployments benefit from features like Fluid compute, Active CPU pricing, and automatic cold start optimizations. For more details, check out Hono&#39;s Vercel documentation. #Hono #Vercel #BackendDevelopment #WebStandards #TechUpdate</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Jeff See</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/ai-sdk-5" target="_blank">AI SDK 5</a></h2>
+            <div class="publication-date">2025-07-31 13:00</div>
+            <div class="summary">🚀 The AI SDK 5 is making waves with over 2 million weekly downloads! This open-source toolkit for TypeScript and JavaScript offers a unified provider API, allowing developers to utilize any language model easily. It also supports powerful integrations with popular web frameworks. Explore the potential of AI SDK 5 for your projects! #AISDK #OpenSource #WebDevelopment #JavaScript #TypeScript</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Josh Singh</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/summer-2025-oss-program" target="_blank">Vercel Open Source Program: Summer cohort</a></h2>
+            <div class="publication-date">2025-07-31 13:00</div>
+            <div class="summary">🚀 Exciting news from Vercel! The Vercel Open Source Program has announced its summer 2025 cohort. This initiative supports developers by providing resources, credits, and assistance to enhance their projects. This season features 28 innovative projects, including AI-powered calendars and stylish React Native components. Learn more about these amazing contributions! #Vercel #OpenSource #DeveloperCommunity #Innovation #TechForGood</div>
+            <div class="source">Source: Vercel Blog</div>
+            
+            <div class="author">Kap Sev</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/sources/vercel-blog/page/4/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/sources/vercel-blog/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/sources/vercel-blog/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <a href="/sources/vercel-blog/page/3/" class="pagination-link">3</a>
+            
+            
+            
+            <a href="/sources/vercel-blog/page/4/" class="pagination-link">4</a>
+            
+            
+            
+            <span class="pagination-current">5</span>
+            
+            
+        </div>
+        
+        
+    </nav>
+    
+</div>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">
+                Contents © 2025 <a href="#" id="author-email" class="author-link">Michał Rutkowski</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+            
+            
+            setupEmailLink();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
+        
+        
+        function setupEmailLink() {
+            const emailLink = document.getElementById('author-email');
+            if (emailLink) {
+                
+                const encodedEmail = 'aG9tZWVuZEB3cC5wbA==';
+                
+                
+                const decodedEmail = atob(encodedEmail);
+                const mailtoLink = 'mailto:' + decodedEmail;
+                
+                emailLink.href = mailtoLink;
+                
+                
+                emailLink.addEventListener('click', function(e) {
+                    
+                });
+            }
+        }
+    </script>
+</body>
+</html>

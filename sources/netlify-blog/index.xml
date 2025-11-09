@@ -6,8 +6,43 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 22:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 00:18:53 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git SHA exposed for triggered deploys</title>
+      <link>/articles/article-2025-11-07-11907/</link>
+      <pubDate>Fri, 07 Nov 2025 00:18:53 +0000</pubDate>
+      <guid>/articles/article-2025-11-07-11907/</guid>
+      <description>Netlify has introduced a new feature for easier deployment tracking. When you trigger a deploy from the Netlify UI or via a build hook, a linkable Git commit SHA is now displayed. This helps you access detailed information about the changes made. Additionally, the Netlify API now includes a commit_ref response parameter showing your Git commit SHA, enhancing your troubleshooting capabilities. #Netlify #Deployment #WebDevelopment #TechUpdate #Coding 🚀🔗💻</description>
+    </item>
+    <item>
+      <title>Test scheduled functions in Netlify dashboard</title>
+      <link>/articles/article-2025-11-06-11908/</link>
+      <pubDate>Thu, 06 Nov 2025 22:22:30 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11908/</guid>
+      <description>🚀 Exciting news for Netlify users! You can now manually test scheduled functions directly from your Netlify dashboard. This new feature allows you to invoke these functions in various contexts, even during Deploy Previews, ensuring greater flexibility in testing. Check out the new &amp;ldquo;Run now&amp;rdquo; button to streamline your workflow! #Netlify #WebDevelopment #ScheduledFunctions #TechUpdates #DevTools</description>
+    </item>
+    <item>
+      <title>Revert agent run in a task</title>
+      <link>/articles/article-2025-11-06-11909/</link>
+      <pubDate>Thu, 06 Nov 2025 21:22:30 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11909/</guid>
+      <description>🚀 Exciting news for Agent Runners users! You can now revert to a previous agent run session within a task. This feature allows you to easily dismiss changes from a newer session. For example, if you previously set up Netlify forms and later added a phone number field, you can revert back to the initial setup quickly. Note: You must have more than one agent run session for a task, and no ongoing runs are allowed. #AgentRunners #ProductUpdate #TechNews #UI #Productivity</description>
+    </item>
+    <item>
+      <title>Deletion improvements with Netlify Blobs</title>
+      <link>/articles/article-2025-11-06-11910/</link>
+      <pubDate>Thu, 06 Nov 2025 21:09:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11910/</guid>
+      <description>🚀 Exciting updates for Netlify Blobs! You now have enhanced options for deleting entire stores or individual entries directly from your dashboard. You can also group blob stores by project or deploy. With the Blobs API, the new &lt;code&gt;deleteAll&lt;/code&gt; method allows for efficient bulk deletions. 💻 Learn more in the Blobs API docs! #Netlify #WebDevelopment #APIs #CloudStorage #TechUpdates</description>
+    </item>
+    <item>
+      <title>Preview Server restart for cross-functional collaborators</title>
+      <link>/articles/article-2025-11-06-11911/</link>
+      <pubDate>Thu, 06 Nov 2025 01:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11911/</guid>
+      <description>🚀 Exciting news for our teams! We’ve launched a new Preview Server status page. Now, users in Publisher and Content Editor roles can restart the server independently, streamlining collaboration across time zones. When the server stops, simply visit the status page and click the Restart button. You’ll be redirected to the preview once it’s back up. For more details, check out our documentation! 📄🔗 #PreviewServer #TeamCollaboration #ContentManagement #TechUpdates</description>
+    </item>
     <item>
       <title>AI inference usage graphs</title>
       <link>/articles/article-2025-10-31-11559/</link>

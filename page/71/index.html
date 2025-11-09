@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.149.1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        
+         
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .header h1 a {
+            color: #333;
+            text-decoration: none;
+        }
+        .header h1 a:hover {
+            color: #337ab7;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+              
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+            margin-bottom: 5px;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .site-footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e9ecef;
+            background: #f8f9fa;
+        }
+        .footer-text {
+            text-align: center;
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+        .author-link {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .author-link:hover {
+            color: #286090;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="header">
+    <div class="container">
+        <h1><a href="/">Daily Tech Articles Feed</a></h1>
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/categories/">Categories</a>
+            <a href="/sources/">Sources</a>
+            <a href="/about/">About</a>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <div class="filters-container">
+        <div class="filter-section">
+            <div class="filter-header" onclick="toggleFilter('categories')">
+                <h3>Categories</h3>
+                <button class="filter-toggle" id="categories-toggle">▼</button>
+            </div>
+            <div class="filter-content collapsed" id="categories-content">
+                <div class="filter-options">
+                    <a href="/" class="filter-link all-link">All</a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/educational" class="filter-link">
+                        Educational (615)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/event" class="filter-link">
+                        Event (155)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/industry_analysis" class="filter-link">
+                        Industry Analysis (471)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/product_announcements" class="filter-link">
+                        Product Announcements (953)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/security_compliance" class="filter-link">
+                        Security Compliance (251)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/categories/technical_deep_dives" class="filter-link">
+                        Technical Deep Dives (330)
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="filter-section">
+            <div class="filter-header" onclick="toggleFilter('sources')">
+                <h3>Sources</h3>
+                <button class="filter-toggle" id="sources-toggle">▼</button>
+            </div>
+            <div class="filter-content collapsed" id="sources-content">
+                <input type="text" class="filter-input" id="sources-filter" placeholder="Filter sources..." onkeyup="filterSources()">
+                <div class="filter-options" id="sources-list">
+                    <a href="/" class="filter-link all-link">All</a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/1password-blog" class="filter-link" data-source-name="1Password-Blog">
+                        1Password-Blog (25)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/amd-developer-blog" class="filter-link" data-source-name="AMD-Developer-Blog">
+                        AMD-Developer-Blog (15)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/aws-blog" class="filter-link" data-source-name="AWS-Blog">
+                        AWS-Blog (47)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/airbnb-engineering" class="filter-link" data-source-name="Airbnb-Engineering">
+                        Airbnb-Engineering (7)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/airtable-blog" class="filter-link" data-source-name="Airtable-Blog">
+                        Airtable-Blog (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/apple-developer-news" class="filter-link" data-source-name="Apple-Developer-News">
+                        Apple-Developer-News (16)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/atlassian-developer-blog" class="filter-link" data-source-name="Atlassian-Developer-Blog">
+                        Atlassian-Developer-Blog (70)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/auth0-blog" class="filter-link" data-source-name="Auth0-Blog">
+                        Auth0-Blog (55)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/canva-engineering" class="filter-link" data-source-name="Canva-Engineering">
+                        Canva-Engineering (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/cash-app-engineering" class="filter-link" data-source-name="Cash-App-Engineering">
+                        Cash-App-Engineering (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/circleci-blog" class="filter-link" data-source-name="CircleCI-Blog">
+                        CircleCI-Blog (25)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/cisco-developer-blog" class="filter-link" data-source-name="Cisco-Developer-Blog">
+                        Cisco-Developer-Blog (227)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/cloudflare-blog" class="filter-link" data-source-name="Cloudflare-Blog">
+                        Cloudflare-Blog (121)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/code-as-craft" class="filter-link" data-source-name="Code-as-Craft">
+                        Code-as-Craft (5)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/crowdstrike-blog" class="filter-link" data-source-name="CrowdStrike-Blog">
+                        CrowdStrike-Blog (47)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/databricks-blog" class="filter-link" data-source-name="Databricks-Blog">
+                        Databricks-Blog (123)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/digitalocean-blog" class="filter-link" data-source-name="DigitalOcean-Blog">
+                        DigitalOcean-Blog (28)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/docker-blog" class="filter-link" data-source-name="Docker-Blog">
+                        Docker-Blog (81)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/doordash-engineering" class="filter-link" data-source-name="DoorDash-Engineering">
+                        DoorDash-Engineering (15)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/dropbox-tech-blog" class="filter-link" data-source-name="Dropbox-Tech-Blog">
+                        Dropbox-Tech-Blog (5)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/elastic-blog" class="filter-link" data-source-name="Elastic-Blog">
+                        Elastic-Blog (89)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/engineering-at-meta" class="filter-link" data-source-name="Engineering-at-Meta">
+                        Engineering-at-Meta (25)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/github-engineering" class="filter-link" data-source-name="GitHub-Engineering">
+                        GitHub-Engineering (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/gitlab-blog" class="filter-link" data-source-name="GitLab-Blog">
+                        GitLab-Blog (46)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/google-developers-blog" class="filter-link" data-source-name="Google-Developers-Blog">
+                        Google-Developers-Blog (41)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/google-research" class="filter-link" data-source-name="Google-Research">
+                        Google-Research (41)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/grab-tech" class="filter-link" data-source-name="Grab-Tech">
+                        Grab-Tech (9)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/hashicorp-blog" class="filter-link" data-source-name="HashiCorp-Blog">
+                        HashiCorp-Blog (49)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/hashicorp-solutions-engineering-blog" class="filter-link" data-source-name="HashiCorp-Solutions-Engineering-Blog">
+                        HashiCorp-Solutions-Engineering-Blog (5)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/heroku-blog" class="filter-link" data-source-name="Heroku-Blog">
+                        Heroku-Blog (17)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/hubspot-developers" class="filter-link" data-source-name="HubSpot-Developers">
+                        HubSpot-Developers (11)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/hugging-face-blog" class="filter-link" data-source-name="Hugging-Face-Blog">
+                        Hugging-Face-Blog (39)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/jetbrains-blog" class="filter-link" data-source-name="JetBrains-Blog">
+                        JetBrains-Blog (184)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/kubernetes-blog" class="filter-link" data-source-name="Kubernetes-Blog">
+                        Kubernetes-Blog (26)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/ly-corporation-tech-blog" class="filter-link" data-source-name="LY-Corporation-Tech-Blog">
+                        LY-Corporation-Tech-Blog (21)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/lyft-engineering" class="filter-link" data-source-name="Lyft-Engineering">
+                        Lyft-Engineering (4)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/medium-engineering" class="filter-link" data-source-name="Medium-Engineering">
+                        Medium-Engineering (3)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/mongodb-blog" class="filter-link" data-source-name="MongoDB-Blog">
+                        MongoDB-Blog (53)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/mozilla-hacks" class="filter-link" data-source-name="Mozilla-Hacks">
+                        Mozilla-Hacks (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/nyt-open-blog" class="filter-link" data-source-name="NYT-Open-Blog">
+                        NYT-Open-Blog (3)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/netflix-technology-blog" class="filter-link" data-source-name="Netflix-Technology-Blog">
+                        Netflix-Technology-Blog (11)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/netlify-blog" class="filter-link" data-source-name="Netlify-Blog">
+                        Netlify-Blog (18)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/nvidia-developer-blog" class="filter-link" data-source-name="Nvidia-Developer-Blog">
+                        Nvidia-Developer-Blog (146)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/okta-developer-blog" class="filter-link" data-source-name="Okta-Developer-Blog">
+                        Okta-Developer-Blog (6)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/palantir-blog" class="filter-link" data-source-name="Palantir-Blog">
+                        Palantir-Blog (13)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/pinterest-engineering" class="filter-link" data-source-name="Pinterest-Engineering">
+                        Pinterest-Engineering (5)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/planetscale-blog" class="filter-link" data-source-name="PlanetScale-Blog">
+                        PlanetScale-Blog (11)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/pragmatic-engineer" class="filter-link" data-source-name="Pragmatic-Engineer">
+                        Pragmatic-Engineer (3)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/railway-blog" class="filter-link" data-source-name="Railway-Blog">
+                        Railway-Blog (14)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/red-hat-developer-blog" class="filter-link" data-source-name="Red-Hat-Developer-Blog">
+                        Red-Hat-Developer-Blog (162)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/reddit-engineering" class="filter-link" data-source-name="Reddit-Engineering">
+                        Reddit-Engineering (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/robinhood-engineering" class="filter-link" data-source-name="Robinhood-Engineering">
+                        Robinhood-Engineering (6)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/salesforce-engineering" class="filter-link" data-source-name="Salesforce-Engineering">
+                        Salesforce-Engineering (24)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/shopify-engineering" class="filter-link" data-source-name="Shopify-Engineering">
+                        Shopify-Engineering (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/signal-blog" class="filter-link" data-source-name="Signal-Blog">
+                        Signal-Blog (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/sketch-blog" class="filter-link" data-source-name="Sketch-Blog">
+                        Sketch-Blog (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/slack-engineering" class="filter-link" data-source-name="Slack-Engineering">
+                        Slack-Engineering (5)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/spotify-engineering" class="filter-link" data-source-name="Spotify-Engineering">
+                        Spotify-Engineering (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/stack-overflow-blog" class="filter-link" data-source-name="Stack-Overflow-Blog">
+                        Stack-Overflow-Blog (62)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/stripe-blog" class="filter-link" data-source-name="Stripe-Blog">
+                        Stripe-Blog (12)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/supabase-blog" class="filter-link" data-source-name="Supabase-Blog">
+                        Supabase-Blog (2)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/tableau-engineering" class="filter-link" data-source-name="Tableau-Engineering">
+                        Tableau-Engineering (1)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/the-new-stack" class="filter-link" data-source-name="The-New-Stack">
+                        The-New-Stack (354)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/twilio-engineering" class="filter-link" data-source-name="Twilio-Engineering">
+                        Twilio-Engineering (109)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/uber-engineering" class="filter-link" data-source-name="Uber-Engineering">
+                        Uber-Engineering (18)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/unity-blog" class="filter-link" data-source-name="Unity-Blog">
+                        Unity-Blog (8)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/unreal-engine-blog" class="filter-link" data-source-name="Unreal-Engine-Blog">
+                        Unreal-Engine-Blog (49)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/vercel-blog" class="filter-link" data-source-name="Vercel-Blog">
+                        Vercel-Blog (171)
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="/sources/webflow-blog" class="filter-link" data-source-name="Webflow-Blog">
+                        Webflow-Blog (18)
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="articles-list">
+        
+        
+        
+        
+        
+        
+        <h3 class="day-label">Thursday, July 31, 2025</h3>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/announcing-databricks-vancouver-development-center" target="_blank">Announcing Databricks Vancouver Development Center</a></h2>
+            <div class="publication-date">2025-07-31 16:30</div>
+            <div class="summary">📢 Exciting news! Databricks is expanding its R&amp;D efforts with a new development center in Vancouver. This initiative aims to enhance capabilities in data and AI, fostering innovation in the tech community. Stay tuned for updates on projects and opportunities coming from this new location! #Databricks #Vancouver #DataInnovation #AI #TechExpansion</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://stackoverflow.blog/2025/07/31/do-ai-coding-tools-help-with-imposter-syndrome-or-make-it-worse/" target="_blank">Do AI coding tools help with imposter syndrome or make it worse?</a></h2>
+            <div class="publication-date">2025-07-31 16:00</div>
+            <div class="summary">AI coding tools can influence imposter syndrome in developers in complex ways. While tools like Copilot and Codex may ease self-doubt by accelerating learning, they can also lead to overreliance, affecting code quality and understanding. The pressure to continually upskill with these tools can intensify anxiety for some developers. #ImposterSyndrome #AICoding #SoftwareDevelopment #TechTrends #ContinuousLearning 🤖📈🖥️</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Eira May</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.docker.com/blog/mcp-security-issues-threatening-ai-infrastructure/" target="_blank">MCP Horror Stories: The Security Issues Threatening AI Infrastructure</a></h2>
+            <div class="publication-date">2025-07-31 16:00</div>
+            <div class="summary">🚨 New Series Alert: MCP Horror Stories! 🚨 The first issue dives into the security vulnerabilities within the Model Context Protocol (MCP) ecosystem. MCP enables AI agents to communicate with various services, but this connectivity brings significant security risks. While MCP aims to streamline integrations, it has raised concerns about potential data breaches and system compromises due to malicious servers. Stay informed about the challenges in AI infrastructure! #AI #CyberSecurity #MCP...</div>
+            <div class="source">Source: <a href="/sources/docker-blog">Docker Blog</a></div>
+            
+            <div class="author">Ajeet Singh Raina</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/amazon-documentdb-serverless-is-now-available/" target="_blank">Amazon DocumentDB Serverless is now available</a></h2>
+            <div class="publication-date">2025-07-31 15:00</div>
+            <div class="summary">🚀 Exciting news for developers! Amazon DocumentDB Serverless is now available. This new configuration automatically adjusts compute and memory based on your application&#39;s needs, leading to potential cost savings of up to 90% compared to peak provisioning. It supports the same MongoDB compatible APIs and offers seamless scaling without data migration. Key benefits include handling variable workloads, managing multi-tenant environments, and balancing mixed-use workloads efficiently. For steady...</div>
+            <div class="source">Source: <a href="/sources/aws-blog">AWS Blog</a></div>
+            
+            <div class="author">Channy Yun (윤석찬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.heroku.com/blog/applink-fundamentals-development-flow-language-choices/" target="_blank">AppLink Fundamentals III: Building with AppLink – Development Flow and Language Choices</a></h2>
+            <div class="publication-date">2025-07-31 15:00</div>
+            <div class="summary">🌟 The latest article in the AppLink Fundamentals series focuses on the practical aspects of building with AppLink. It covers the development workflow, local testing, and managing changes to the OpenAPI specification. Key considerations for choosing programming languages for Salesforce extensions are also discussed. Additionally, the article highlights Agentforce integration, showcasing its ability to enhance agent capabilities beyond standard Salesforce functions. A real-world example...</div>
+            <div class="source">Source: <a href="/sources/heroku-blog">Heroku Blog</a></div>
+            
+            <div class="author">Ken W. Alger</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.palantir.com/americas-ai-action-plan-dab1b8fb8046?source=rss----3c87dc14372f---4" target="_blank">America’s AI Action Plan</a></h2>
+            <div class="publication-date">2025-07-31 14:03</div>
+            <div class="summary">🚀 On July 23, 2025, the White House released &#34;Winning the AI Race: America’s AI Action Plan,&#34; aiming to boost U.S. leadership in AI through 90&#43; federal policy actions. Key focuses include: - Promoting commercial AI solutions in federal procurement, especially for the DoD. - Streamlining processes for AI system approvals and leveraging existing platforms like Maven and Army Vantage. The plan emphasizes the role of testbeds for efficient AI deployment, ensuring systems meet mission-critical...</div>
+            <div class="source">Source: <a href="/sources/palantir-blog">Palantir Blog</a></div>
+            
+            <div class="author">Palantir</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/ai-sdk-5" target="_blank">AI SDK 5</a></h2>
+            <div class="publication-date">2025-07-31 13:00</div>
+            <div class="summary">🚀 The AI SDK 5 is making waves with over 2 million weekly downloads! This open-source toolkit for TypeScript and JavaScript offers a unified provider API, allowing developers to utilize any language model easily. It also supports powerful integrations with popular web frameworks. Explore the potential of AI SDK 5 for your projects! #AISDK #OpenSource #WebDevelopment #JavaScript #TypeScript</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Josh Singh</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://vercel.com/blog/summer-2025-oss-program" target="_blank">Vercel Open Source Program: Summer cohort</a></h2>
+            <div class="publication-date">2025-07-31 13:00</div>
+            <div class="summary">🚀 Exciting news from Vercel! The Vercel Open Source Program has announced its summer 2025 cohort. This initiative supports developers by providing resources, credits, and assistance to enhance their projects. This season features 28 innovative projects, including AI-powered calendars and stylish React Native components. Learn more about these amazing contributions! #Vercel #OpenSource #DeveloperCommunity #Innovation #TechForGood</div>
+            <div class="source">Source: <a href="/sources/vercel-blog">Vercel Blog</a></div>
+            
+            <div class="author">Kap Sev</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://stackoverflow.blog/2025/07/31/the-innovation-leadership-and-team-agility-inside-u-s-bank-s-cloud-journey/" target="_blank">The innovation, leadership, and team agility inside U.S. Bank’s cloud journey</a></h2>
+            <div class="publication-date">2025-07-31 07:40</div>
+            <div class="summary">🌐 In the latest episode of Leaders of Code, industry experts discuss U.S. Bank&#39;s transition from traditional banking to a multi-cloud strategy. 💡 The bank is focused on innovation while maintaining compliance in a regulated environment. Key topics include team empowerment, collaboration, and cloud migration strategies. 🤝 Leaders highlight the significance of transparency and continuous communication in driving successful change. #CloudComputing #DigitalTransformation #BankingInnovation...</div>
+            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
+            
+            <div class="author">Katja Skafar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/07/31/ibm-hyper-protect-openshift-sandboxed-containers" target="_blank">IBM Hyper Protect with OpenShift sandboxed containers</a></h2>
+            <div class="publication-date">2025-07-31 07:01</div>
+            <div class="summary">IBM is advancing data security with Hyper Protect Confidential Containers (HPCC) for Red Hat OpenShift. This solution protects sensitive workloads in untrusted environments, essential for industries like finance and healthcare. Using OpenShift sandboxed containers, HPCC ensures VM-level isolation for confidential computing. It addresses vulnerabilities of traditional containers by employing hardware-based trusted execution environments. Learn how HPCC enhances data protection and supports...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Marcos Entenza Garcia, Jens Freimann</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developer.okta.com/blog/2025/07/31/ciba-okta" target="_blank">Introducing CIBA for Secure Transaction Verification</a></h2>
+            <div class="publication-date">2025-07-31 05:00</div>
+            <div class="summary">🔐 **Introducing CIBA for Secure Transaction Verification** 🔐 Digital applications require identity verification beyond just login interfaces. CIBA (Client-Initiated Backchannel Authentication) enhances security by decoupling authentication from applications, allowing users to verify their identity securely on different devices. This method is particularly useful in scenarios like updating bank email addresses or making payments at retail POS systems without sharing credentials on public...</div>
+            <div class="source">Source: <a href="/sources/okta-developer-blog">Okta Developer Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://huggingface.co/blog/gradio-vton-mcp" target="_blank">Build an AI Shopping Assistant with Gradio MCP Servers</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚀 Python developers can supercharge their LLMs with Gradio&#39;s Model Context Protocol (MCP)! Gradio simplifies the integration of AI models from Hugging Face, enabling LLMs to tackle real-world problems. Key features include automatic conversion of functions into LLM tools, real-time notifications, and seamless file uploads. Imagine an AI shopping assistant that finds clothes for you and even shows virtual try-ons! #AI #Python #Gradio #MachineLearning #Ecommerce</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/july-28-webflow-incident-report" target="_blank">July 28 Incident report: Service availability disruption</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Webflow faced service disruptions from July 28-31, impacting the Designer, Dashboard, Marketplace, and user sign-ups. While hosted sites remained operational, core functionalities were affected. The incident involved multiple phases of malicious attacks leading to elevated latency and outages. Mitigation efforts included firewall protections and database optimizations. Full stability was restored through configuration changes and adopting a more efficient CPU architecture. For a deeper...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.unrealengine.com/learning/julys-free-learning-content-non-human-digital-characters-motion-capture-and-more" target="_blank">July’s free learning content: non-human digital characters, motion capture, and more</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚀 Dive into July&#39;s free learning content! Explore how to create non-human characters with MetaHuman, simulate realistic muscles using Chaos Flesh, and design procedural urban environments in Unreal Engine. These resources offer valuable insights for anyone looking to enhance their skills in digital character creation and animation! #GameDevelopment #UnrealEngine #MetaHuman #DigitalArt #LearningResources</div>
+            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://about.gitlab.com/blog/migrating-by-direct-transfer-is-generally-available/" target="_blank">Migrating by direct transfer is generally available</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚀 GitLab 18.3 introduces direct transfer for migrating groups and projects, making it easier for users to copy resources between instances. This feature simplifies the migration process, allowing you to move entire top-level groups with sub-groups and projects without manual file exports. It supports user contribution mapping and works reliably with large projects. For those using GitLab.com, the feature is enabled by default. Self-managed users should check their application settings. 🌐...</div>
+            <div class="source">Source: <a href="/sources/gitlab-blog">GitLab Blog</a></div>
+            
+            <div class="author">Magdalena Frankiewicz</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.twilio.com/en-us/blog/insights/regulatory-updates-spain" target="_blank">New Rules in Spain: Don’t Let Your Calls Get Ghosted</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚨 New telecom regulations in Spain are now in effect! Spanish mobile numbers cannot be used for unsolicited marketing or customer service calls. This means calls may get flagged or blocked, especially if using Transit-Caller-ID. 📞 To stay compliant, consider switching to Spanish landline or toll-free numbers. Review your number strategy to avoid disruptions in communication. Stay informed and keep your calls connected! #Telecom #Spain #Compliance #Twilio #Communication</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://about.gitlab.com/blog/securing-ai-together-gitlabs-partnership-with-security-researchers/" target="_blank">Securing AI together: GitLab’s partnership with security researchers</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">GitLab is enhancing security in AI with the support of external researchers. As AI evolves, so do the challenges, like prompt injection attacks. Our collaboration with organizations like Persistent Security helps us identify vulnerabilities and implement fast solutions. By engaging with the security research community, we aim to protect customers and ensure a secure development environment. Join us in our mission at GitLab! 🤝🔒 #AISecurity #CyberSecurity #GitLab #Collaboration #SoftwareSafety</div>
+            <div class="source">Source: <a href="/sources/gitlab-blog">GitLab Blog</a></div>
+            
+            <div class="author">Kymberlee Price</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/elastic-liferay-oem-partnership" target="_blank">Transforming digital experiences: How Liferay&#39;s partnership with Elastic drives revenue and efficiency</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Liferay partners with Elastic to enhance digital experiences for complex business needs. Since 2015, Liferay has integrated Elasticsearch into its platform, enabling tailored search solutions that improve user interactions across marketing, sales, and services. This OEM partnership simplifies procurement by allowing clients to manage everything through a single agreement. The collaboration not only boosts efficiency but also supports revenue growth for Liferay, making it easier for clients to...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Sarah Chandler,Andrew Paulsen</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/" target="_blank">Veo 3 Fast and new image-to-video capabilities</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">🚀 Google has launched Veo 3 Fast, a new model designed for speed and cost-effectiveness. It allows developers to create high-quality videos quickly, supporting both text-to-video and image-to-video capabilities. This functionality is available through the Gemini API. With prices starting at $0.40/second for videos with audio, Veo 3 Fast is ideal for programmatic advertising and content creation at scale. #Google #Veo3 #VideoContent #TechNews #Developers</div>
+            <div class="source">Source: <a href="/sources/google-developers-blog">Google Developers Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://wf-blog-2021.webflow.io/blog/july-2025-webflow-availability-incident" target="_blank">Webflow’s availability incident: what we got wrong and what we’re changing</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Webflow faced a significant service disruption on July 28, caused by a malicious attack that affected customer access. The team worked quickly to stabilize the platform. CEO&#39;s reflections highlight shortcomings in communication and support during this incident. Immediate changes include enhanced monitoring, improved infrastructure, and proactive customer updates. Webflow is committed to making the platform more reliable and transparent moving forward. #Webflow #ServiceUpdate #CustomerSupport...</div>
+            <div class="source">Source: <a href="/sources/webflow-blog">Webflow Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+        
+        <article class="article-item">
+            <h2><a href="https://blog.1password.com/why-omdia-recommends-extended-access-management-to-secure-agentic-ai/" target="_blank">Why Omdia recommends Extended Access Management to secure agentic AI</a></h2>
+            <div class="publication-date">2025-07-31 00:00</div>
+            <div class="summary">Omdia&#39;s recent report highlights significant security challenges in managing access for agentic AI. With the rise of application, device, and identity sprawl, organizations face increased risk. AI agents require extensive access but lack secure management tools, leading to potential data leaks and unauthorized actions. Omdia recommends five strategies to secure access, including the need for robust measures specifically for AI agents. 1Password Extended Access Management offers a solution by...</div>
+            <div class="source">Source: <a href="/sources/1password-blog">1Password Blog</a></div>
+            
+            <div class="author">info@1password.com (Elaine Atwell)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        
+        
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/page/70/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <a href="/page/3/" class="pagination-link">3</a>
+            
+            
+            
+            <a href="/page/4/" class="pagination-link">4</a>
+            
+            
+            
+            <a href="/page/5/" class="pagination-link">5</a>
+            
+            
+            
+            <a href="/page/6/" class="pagination-link">6</a>
+            
+            
+            
+            <a href="/page/7/" class="pagination-link">7</a>
+            
+            
+            
+            <a href="/page/8/" class="pagination-link">8</a>
+            
+            
+            
+            <a href="/page/9/" class="pagination-link">9</a>
+            
+            
+            
+            <a href="/page/10/" class="pagination-link">10</a>
+            
+            
+            
+            <a href="/page/11/" class="pagination-link">11</a>
+            
+            
+            
+            <a href="/page/12/" class="pagination-link">12</a>
+            
+            
+            
+            <a href="/page/13/" class="pagination-link">13</a>
+            
+            
+            
+            <a href="/page/14/" class="pagination-link">14</a>
+            
+            
+            
+            <a href="/page/15/" class="pagination-link">15</a>
+            
+            
+            
+            <a href="/page/16/" class="pagination-link">16</a>
+            
+            
+            
+            <a href="/page/17/" class="pagination-link">17</a>
+            
+            
+            
+            <a href="/page/18/" class="pagination-link">18</a>
+            
+            
+            
+            <a href="/page/19/" class="pagination-link">19</a>
+            
+            
+            
+            <a href="/page/20/" class="pagination-link">20</a>
+            
+            
+            
+            <a href="/page/21/" class="pagination-link">21</a>
+            
+            
+            
+            <a href="/page/22/" class="pagination-link">22</a>
+            
+            
+            
+            <a href="/page/23/" class="pagination-link">23</a>
+            
+            
+            
+            <a href="/page/24/" class="pagination-link">24</a>
+            
+            
+            
+            <a href="/page/25/" class="pagination-link">25</a>
+            
+            
+            
+            <a href="/page/26/" class="pagination-link">26</a>
+            
+            
+            
+            <a href="/page/27/" class="pagination-link">27</a>
+            
+            
+            
+            <a href="/page/28/" class="pagination-link">28</a>
+            
+            
+            
+            <a href="/page/29/" class="pagination-link">29</a>
+            
+            
+            
+            <a href="/page/30/" class="pagination-link">30</a>
+            
+            
+            
+            <a href="/page/31/" class="pagination-link">31</a>
+            
+            
+            
+            <a href="/page/32/" class="pagination-link">32</a>
+            
+            
+            
+            <a href="/page/33/" class="pagination-link">33</a>
+            
+            
+            
+            <a href="/page/34/" class="pagination-link">34</a>
+            
+            
+            
+            <a href="/page/35/" class="pagination-link">35</a>
+            
+            
+            
+            <a href="/page/36/" class="pagination-link">36</a>
+            
+            
+            
+            <a href="/page/37/" class="pagination-link">37</a>
+            
+            
+            
+            <a href="/page/38/" class="pagination-link">38</a>
+            
+            
+            
+            <a href="/page/39/" class="pagination-link">39</a>
+            
+            
+            
+            <a href="/page/40/" class="pagination-link">40</a>
+            
+            
+            
+            <a href="/page/41/" class="pagination-link">41</a>
+            
+            
+            
+            <a href="/page/42/" class="pagination-link">42</a>
+            
+            
+            
+            <a href="/page/43/" class="pagination-link">43</a>
+            
+            
+            
+            <a href="/page/44/" class="pagination-link">44</a>
+            
+            
+            
+            <a href="/page/45/" class="pagination-link">45</a>
+            
+            
+            
+            <a href="/page/46/" class="pagination-link">46</a>
+            
+            
+            
+            <a href="/page/47/" class="pagination-link">47</a>
+            
+            
+            
+            <a href="/page/48/" class="pagination-link">48</a>
+            
+            
+            
+            <a href="/page/49/" class="pagination-link">49</a>
+            
+            
+            
+            <a href="/page/50/" class="pagination-link">50</a>
+            
+            
+            
+            <a href="/page/51/" class="pagination-link">51</a>
+            
+            
+            
+            <a href="/page/52/" class="pagination-link">52</a>
+            
+            
+            
+            <a href="/page/53/" class="pagination-link">53</a>
+            
+            
+            
+            <a href="/page/54/" class="pagination-link">54</a>
+            
+            
+            
+            <a href="/page/55/" class="pagination-link">55</a>
+            
+            
+            
+            <a href="/page/56/" class="pagination-link">56</a>
+            
+            
+            
+            <a href="/page/57/" class="pagination-link">57</a>
+            
+            
+            
+            <a href="/page/58/" class="pagination-link">58</a>
+            
+            
+            
+            <a href="/page/59/" class="pagination-link">59</a>
+            
+            
+            
+            <a href="/page/60/" class="pagination-link">60</a>
+            
+            
+            
+            <a href="/page/61/" class="pagination-link">61</a>
+            
+            
+            
+            <a href="/page/62/" class="pagination-link">62</a>
+            
+            
+            
+            <a href="/page/63/" class="pagination-link">63</a>
+            
+            
+            
+            <a href="/page/64/" class="pagination-link">64</a>
+            
+            
+            
+            <a href="/page/65/" class="pagination-link">65</a>
+            
+            
+            
+            <a href="/page/66/" class="pagination-link">66</a>
+            
+            
+            
+            <a href="/page/67/" class="pagination-link">67</a>
+            
+            
+            
+            <a href="/page/68/" class="pagination-link">68</a>
+            
+            
+            
+            <a href="/page/69/" class="pagination-link">69</a>
+            
+            
+            
+            <a href="/page/70/" class="pagination-link">70</a>
+            
+            
+            
+            <span class="pagination-current">71</span>
+            
+            
+        </div>
+        
+        
+    </nav>
+    
+</div>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">
+                Contents © 2025 <a href="#" id="author-email" class="author-link">Michał Rutkowski</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+            
+            
+            setupEmailLink();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
+        
+        
+        function setupEmailLink() {
+            const emailLink = document.getElementById('author-email');
+            if (emailLink) {
+                
+                const encodedEmail = 'aG9tZWVuZEB3cC5wbA==';
+                
+                
+                const decodedEmail = atob(encodedEmail);
+                const mailtoLink = 'mailto:' + decodedEmail;
+                
+                emailLink.href = mailtoLink;
+                
+                
+                emailLink.addEventListener('click', function(e) {
+                    
+                });
+            }
+        }
+    </script>
+</body>
+</html>

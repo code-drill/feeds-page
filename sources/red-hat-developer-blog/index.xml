@@ -6,8 +6,71 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 08:15:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 20:02:15 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Hat Enterprise Linux 9.7: Top features for developers</title>
+      <link>/articles/article-2025-11-12-12008/</link>
+      <pubDate>Wed, 12 Nov 2025 20:02:15 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-12008/</guid>
+      <description>🚀 Red Hat Enterprise Linux (RHEL) 9.7 is now available, bringing many enhancements for developers! Key updates include the latest versions of Rust, GCC Toolset, LLVM, and Go compilers, all aimed at improving development speed and efficiency. Notable features are the new Rust 2024 Edition and improved performance in Go 1.24. RHEL 9.7 also introduces post-quantum cryptography for enhanced security, a locally available AI command-line assistant, and reproducible container image builds. Explore&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Red Hat Enterprise Linux 10.1: Top features for developers</title>
+      <link>/articles/article-2025-11-12-12009/</link>
+      <pubDate>Wed, 12 Nov 2025 19:19:53 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-12009/</guid>
+      <description>🚀 Red Hat Enterprise Linux (RHEL) 10.1 is now available! This release enhances developer tools and introduces new features for efficient application development. Key updates include: - Vendor-validated AI accelerator drivers for better AI integration. - Soft-reboot capability to reduce downtime during updates. - Reproducible builds for container tools, ensuring identical images. Developers can also access the latest versions of Rust, GCC, LLVM, and Go compilers for improved performance&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>New in MicroShift 4.20: The generic device plug-in</title>
+      <link>/articles/article-2025-11-12-12010/</link>
+      <pubDate>Wed, 12 Nov 2025 14:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-12010/</guid>
+      <description>🚀 Exciting news for edge computing! MicroShift 4.20 introduces a generic device plug-in, enhancing access to devices like serial ports and cameras from Kubernetes pods. This feature simplifies secure connections without granting full host access, reducing security risks. Devices are defined in the configuration, allowing for flexible resource management. For detailed steps on implementation, check the product documentation! 🖥️🔌 #MicroShift #Kubernetes #EdgeComputing #RedHat #DevOps</description>
+    </item>
+    <item>
+      <title>Exhaustive profiling toolkit: elfutils and libdwfl_stacktrace</title>
+      <link>/articles/article-2025-11-12-12011/</link>
+      <pubDate>Wed, 12 Nov 2025 08:01:04 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-12011/</guid>
+      <description>The article explores advancements in Linux stack profiling through elfutils and the new libdwfl_stacktrace initiative. It highlights how these tools aim to provide exhaustive profiling solutions, focusing on system-wide stack sample profiling without needing frame pointers. The libdwfl_stacktrace interface offers improved functionality for interacting with various profiling tools. Additionally, the article discusses the SFrame project as a lightweight alternative, although it faces challenges&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s new for developers in Red Hat OpenShift 4.20</title>
+      <link>/articles/article-2025-11-11-12012/</link>
+      <pubDate>Tue, 11 Nov 2025 14:01:05 +0000</pubDate>
+      <guid>/articles/article-2025-11-11-12012/</guid>
+      <description>🚀 Red Hat OpenShift 4.20 is now available! This release features enhancements for developers, including multicluster support and improved AI capabilities. 🔧 Key updates include a streamlined Red Hat Developer Hub, new tools in Podman Desktop, and expanded support in OpenShift Dev Spaces. Developers can now efficiently manage multiple clusters and access the latest AI models. 📊 New observability tools and infrastructure optimizations are also part of this update, enhancing overall performance&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Introducing the external secrets operator for OpenShift</title>
+      <link>/articles/article-2025-11-11-12013/</link>
+      <pubDate>Tue, 11 Nov 2025 08:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-11-11-12013/</guid>
+      <description>🚀 The external secrets operator (ESO) for Red Hat OpenShift is now generally available. This operator enhances secrets management, complementing tools like cert-manager and secrets store CSI operator. 🔐 ESO automates the management of Kubernetes secrets, improving security by allowing DevSecOps teams to manage credentials from a centralized source. 📚 For more insights on secrets management in OpenShift, check out Red Hat&amp;rsquo;s learning path. #RedHat #OpenShift #SecretsManagement #DevSecOps&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenShift AI connector for Red Hat Developer Hub (Developer Preview)</title>
+      <link>/articles/article-2025-11-10-12014/</link>
+      <pubDate>Mon, 10 Nov 2025 12:15:57 +0000</pubDate>
+      <guid>/articles/article-2025-11-10-12014/</guid>
+      <description>🚀 Exciting updates for developers! The new OpenShift AI connector for Red Hat Developer Hub allows seamless integration, automatically transferring AI model metadata into the Software Catalog. This enhancement streamlines the development process by providing a unified view of AI infrastructure and resources. Key features include dynamic plug-ins and sidecar containers that help manage AI model metadata directly from OpenShift AI. Explore the details in the latest article. #OpenShift #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>MCP in Red Hat Developer Hub: Chat with your catalog</title>
+      <link>/articles/article-2025-11-10-12015/</link>
+      <pubDate>Mon, 10 Nov 2025 12:15:55 +0000</pubDate>
+      <guid>/articles/article-2025-11-10-12015/</guid>
+      <description>🚀 Exciting updates for Red Hat Developer Hub! New plug-ins for Model Context Protocol (MCP) are now available starting with version 1.8. These tools enable MCP clients to interact with the software catalog and retrieve TechDocs documentation. 🔍 The Red Hat Developer Hub centralizes development resources, enhancing productivity. The MCP server allows for seamless connection between AI models and external tools. For installation and configuration details, check out the article! #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to develop Red Hat Enterprise Linux applications on other Linux distributions or Microsoft Windows</title>
+      <link>/articles/article-2025-11-10-12016/</link>
+      <pubDate>Mon, 10 Nov 2025 07:00:57 +0000</pubDate>
+      <guid>/articles/article-2025-11-10-12016/</guid>
+      <description>Developing applications for Red Hat Enterprise Linux (RHEL) can be done effectively on various platforms, including other Linux distributions and Microsoft Windows. One approach is using Toolbx on Linux, which creates a native command-line environment within a container. This allows developers to run RHEL applications seamlessly across different Linux versions. Alternatively, on Windows, the Windows Subsystem for Linux (WSL) enables a full Linux experience, integrating tools from both&amp;hellip;</description>
+    </item>
     <item>
       <title>Automate VM golden image builds for OpenShift with Packer</title>
       <link>/articles/article-2025-11-07-11890/</link>

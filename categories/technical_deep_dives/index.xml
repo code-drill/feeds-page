@@ -6,8 +6,50 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Nov 2025 20:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 16:30:38 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI Recovers 30,000 CPU Cores With Fluent Bit Tweak</title>
+      <link>/articles/article-2025-11-13-11976/</link>
+      <pubDate>Thu, 13 Nov 2025 16:30:38 +0000</pubDate>
+      <guid>/articles/article-2025-11-13-11976/</guid>
+      <description>OpenAI&amp;rsquo;s Fabian Ponce shared insights at KubeCon+CloudNativeCon about optimizing resources for large systems. 🖥️ The company implemented Fluent Bit across its Kubernetes nodes to manage telemetry data, generating 10PB daily. 📊 By addressing a CPU bottleneck, they recovered 30,000 CPU cores, demonstrating the impact of small tweaks in large systems. 🔧 #OpenAI #KubeCon #CloudNative #Telemetry #ResourceEfficiency</description>
+    </item>
+    <item>
+      <title>Revolutionizing Network Troubleshooting with Deep Research AI Agents</title>
+      <link>/articles/article-2025-11-13-12000/</link>
+      <pubDate>Thu, 13 Nov 2025 16:00:14 +0000</pubDate>
+      <guid>/articles/article-2025-11-13-12000/</guid>
+      <description>🚀 Deep research is changing the landscape of network troubleshooting! This article discusses the introduction of Deep Network Troubleshooting, leveraging agentic AI to enhance diagnostics. It aims to streamline root cause analysis in complex, multivendor environments through a collaborative approach. Future posts in the series will focus on reliability, error minimization, and the importance of transparency in AI operations. Stay tuned for more insights! 🤖💡 #NetworkTroubleshooting #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why You Should Break Your ML Pipelines on Purpose</title>
+      <link>/articles/article-2025-11-12-11984/</link>
+      <pubDate>Wed, 12 Nov 2025 19:00:52 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-11984/</guid>
+      <description>🚨 Machine learning systems can fail silently, causing significant issues without any alerts. Unlike traditional systems, AI pipelines may degrade over time, serving irrelevant outputs or misclassifications without notifying users. 🛠️ To combat this, chaos engineering can help test the resilience of AI systems by intentionally injecting faults to observe their behavior. 🌪️ This approach can ensure that AI systems remain reliable, even under stress. #MachineLearning #ChaosEngineering #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Exhaustive profiling toolkit: elfutils and libdwfl_stacktrace</title>
+      <link>/articles/article-2025-11-12-12011/</link>
+      <pubDate>Wed, 12 Nov 2025 08:01:04 +0000</pubDate>
+      <guid>/articles/article-2025-11-12-12011/</guid>
+      <description>The article explores advancements in Linux stack profiling through elfutils and the new libdwfl_stacktrace initiative. It highlights how these tools aim to provide exhaustive profiling solutions, focusing on system-wide stack sample profiling without needing frame pointers. The libdwfl_stacktrace interface offers improved functionality for interacting with various profiling tools. Additionally, the article discusses the SFrame project as a lightweight alternative, although it faces challenges&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Distributed Databases Power Developer Platforms at Scale</title>
+      <link>/articles/article-2025-11-10-11997/</link>
+      <pubDate>Mon, 10 Nov 2025 20:00:28 +0000</pubDate>
+      <guid>/articles/article-2025-11-10-11997/</guid>
+      <description>🚀 Distributed databases are crucial for scaling developer platforms, especially in industries like automotive. As teams focus on product-market fit, they often overlook scalability and resilience. This can lead to operational challenges and increased maintenance. To address this, an internal developer platform (IDP) was developed, emphasizing reliability and governance. Key strategies included standardized delivery pipelines, declarative infrastructure, centralized observability, and built-in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>UE5 lays the smackdown on long rendering times for WWE’s Clash in Paris</title>
+      <link>/articles/article-2025-11-10-12053/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-10-12053/</guid>
+      <description>WWE TV Production faced a tight two-week deadline to render 400 deliverables for Clash in Paris. Using UE5 technology, the Graphics and VFX team efficiently met this challenge, achieving impressive visuals with a unique Van Gogh-style aesthetic. This innovation showcases how modern tools can enhance production speed and creativity. 🎨💻🌟 #WWE #UE5 #VFX #GameDevelopment #Animation</description>
+    </item>
     <item>
       <title>Enhancing GPU-Accelerated Vector Search in Faiss with NVIDIA cuVS</title>
       <link>/articles/article-2025-11-06-11893/</link>
@@ -21,6 +63,20 @@
       <pubDate>Thu, 06 Nov 2025 16:00:04 +0000</pubDate>
       <guid>/articles/article-2025-11-06-11874/</guid>
       <description>The enterprise AI landscape is transitioning from prototypes to robust production systems. This shift has led to a complex, multilayered technology stack essential for scalable AI applications. Key players like Amazon, Microsoft, and Google are at the forefront, providing an integrated stack that covers everything from accelerated compute to user experiences. The architecture includes specialized hardware, such as GPUs and ASICs, designed to meet the high computational demands of AI. These&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How AI Gateway runs on Fluid compute</title>
+      <link>/articles/article-2025-11-06-11917/</link>
+      <pubDate>Thu, 06 Nov 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11917/</guid>
+      <description>🚀 AI Gateway is revolutionizing access to AI models! This Node.js service connects users to hundreds of AI models via one interface, processing billions of tokens daily. The key to its impressive scale lies in the innovative Fluid technology. Discover more about how AI Gateway works! #AIGateway #FluidCompute #NodeJS #AIModels #TechInnovation</description>
+    </item>
+    <item>
+      <title>How HP Industrial Print Transformed Its Data Platform with Databricks SQL</title>
+      <link>/articles/article-2025-11-06-11937/</link>
+      <pubDate>Thu, 06 Nov 2025 01:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-06-11937/</guid>
+      <description>HP’s Industrial Print Software Solutions (IPSS) has updated its data platform using Databricks SQL. This transformation aims to enhance data accessibility and analytics capabilities. The move is expected to streamline operations and improve decision-making processes within the organization. Explore how HP is leveraging technology for better insights and efficiency. 📊✨ #DataTransformation #HP #Databricks #BusinessIntelligence #TechInnovation</description>
     </item>
     <item>
       <title>Grab&#39;s Mac Cloud Exit supercharges macOS CI/CD</title>

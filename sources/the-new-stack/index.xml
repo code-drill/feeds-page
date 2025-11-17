@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Nov 2025 19:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 22:09:29 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling AI Interactions: How to Load Balance Streamable MCP</title>
+      <link>/articles/article-2025-11-17-12729/</link>
+      <pubDate>Mon, 17 Nov 2025 22:09:29 +0000</pubDate>
+      <guid>/articles/article-2025-11-17-12729/</guid>
+      <description>🚀 The Model Context Protocol (MCP) is evolving with the introduction of Streamable HTTP in early 2025. This shift is set to enhance the accessibility of MCP services. As popularity grows, scaling becomes essential, necessitating reliable load balancing. This article discusses using HAProxy to build a compliant load-balancing layer for Streamable MCP servers. Key points include ensuring session persistence through the mcp-session-id header and validating Accept headers to protect backend&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automation Complacency Can Compound Vibe Coding Risks</title>
+      <link>/articles/article-2025-11-17-12730/</link>
+      <pubDate>Mon, 17 Nov 2025 21:00:04 +0000</pubDate>
+      <guid>/articles/article-2025-11-17-12730/</guid>
+      <description>🚨 Automation in coding, or &amp;ldquo;vibe coding,&amp;rdquo; is becoming common among developers. While it boosts productivity, risks are emerging due to reliance on AI-generated code. AI&amp;rsquo;s lack of transparency can introduce vulnerabilities that skilled professionals may overlook. This has been observed even in security-focused environments. 🔒 To combat this, companies are deploying honeypots to detect new exploits. A recent project involved creating a rapid-response honeypot using AI, but it revealed&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why ‘Store Together, Access Together’ Matters for Your Database</title>
+      <link>/articles/article-2025-11-17-12731/</link>
+      <pubDate>Mon, 17 Nov 2025 20:00:47 +0000</pubDate>
+      <guid>/articles/article-2025-11-17-12731/</guid>
+      <description>Understanding the principle of &amp;ldquo;Store Together, Access Together&amp;rdquo; is vital for database performance. 📊 When data is stored in a single location, it enhances speed and reduces latency. This approach is especially beneficial in document databases, allowing developers to optimize data locality for predictable access. Modern databases face challenges like scattered data access, which can slow down performance. As applications scale, maintaining data locality becomes increasingly crucial&amp;hellip;.</description>
+    </item>
     <item>
       <title>The ROI of AI-Driven Security Automation: Metrics That Matter</title>
       <link>/articles/article-2025-11-17-12211/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Nov 2025 15:20:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 07:01:10 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce LLM benchmarking costs with oversaturation detection</title>
+      <link>/articles/article-2025-11-18-12741/</link>
+      <pubDate>Tue, 18 Nov 2025 07:01:10 +0000</pubDate>
+      <guid>/articles/article-2025-11-18-12741/</guid>
+      <description>Exploring large language model (LLM) performance is complex and costly. A recent article highlights the challenges faced by a team at Red Hat in benchmarking 7,488 combinations of models and hardware. They encountered a significant issue known as oversaturation, which invalidated over half of their tests. This led to the development of an oversaturation detection (OSD) strategy to improve efficiency. Their testing relied on a three-part stack: vLLM for inference, GuideLLM for real-world load&amp;hellip;</description>
+    </item>
     <item>
       <title>.NET 10 is now available for RHEL and OpenShift</title>
       <link>/articles/article-2025-11-17-12206/</link>

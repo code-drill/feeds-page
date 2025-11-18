@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 18 Nov 2025 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Gemini 3 Pro now available in Vercel AI Gateway</title>
+      <link>/articles/article-2025-11-18-12776/</link>
+      <pubDate>Tue, 18 Nov 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-18-12776/</guid>
+      <description>🚀 Exciting news! Google’s Gemini 3 Pro is now accessible through Vercel&amp;rsquo;s AI Gateway without needing additional provider accounts. This advanced model excels in reasoning and can handle complex tasks like multi-step function calling and instruction following. To use it, specify the model as google/gemini-3.0-pro-preview in the AI SDK. AI Gateway also offers a unified API for model management, usage tracking, and performance optimizations. Learn more about AI Gateway and its features! 🌐✨&amp;hellip;</description>
+    </item>
+    <item>
       <title>Vercel collaborates with Google for Gemini 3 Pro Preview launch</title>
       <link>/articles/article-2025-11-18-12764/</link>
       <pubDate>Tue, 18 Nov 2025 13:00:00 +0000</pubDate>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 17 Nov 2025 13:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-17-12218/</guid>
       <description>🚀 Elysia, the ergonomic TypeScript framework, is now instantly deployable on Vercel! When you deploy, Vercel automatically optimizes resources for Elysia. By default, it runs on Node, but you can choose the Bun runtime easily. Vercel’s Fluid compute ensures you only pay for active CPU time. Check out the documentation for more details! 📚💻 #Elysia #Vercel #TypeScript #WebDevelopment #Deployment</description>
+    </item>
+    <item>
+      <title>Vercel now supports Build Commands for FastAPI and Flask</title>
+      <link>/articles/article-2025-11-17-12777/</link>
+      <pubDate>Mon, 17 Nov 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-17-12777/</guid>
+      <description>🚀 Vercel has introduced Build Commands for FastAPI and Flask, enhancing deployment options for Python projects. Users can now define Build Commands in the project Settings dashboard or within the [tool.vercel.scripts] section of their pyproject.toml file. This script executes after dependency installation and before application deployment. Learn more about these updates and streamline your Python deployments! #Vercel #FastAPI #Flask #Python #WebDevelopment</description>
     </item>
     <item>
       <title>Bulk redirects are now generally available</title>

@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 19:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 19:12:27 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlined multi-tenant application development with tenant isolation mode in AWS Lambda</title>
+      <link>/articles/article-2025-11-19-12856/</link>
+      <pubDate>Wed, 19 Nov 2025 19:12:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12856/</guid>
+      <description>AWS Lambda has launched a new tenant isolation mode, enhancing multi-tenant application security. This feature allows separate execution environments for each tenant within a single function, simplifying resource management. This mode meets strict security requirements for SaaS platforms, ensuring tenant-specific code runs in isolated environments without the complexity of managing multiple functions. To enable tenant isolation, select the option during function creation in the AWS Lambda&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New business metadata features in Amazon SageMaker Catalog to improve discoverability across organizations</title>
+      <link>/articles/article-2025-11-19-12857/</link>
+      <pubDate>Wed, 19 Nov 2025 19:09:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12857/</guid>
+      <description>📊 Exciting updates in Amazon SageMaker Catalog enhance data management! The new features include column-level metadata forms and enforced glossary requirements. These tools will help organizations improve data classification, discoverability, and governance. Users can now create custom metadata forms for individual columns, allowing for better documentation and business context. Additionally, metadata enforcement rules ensure standardized vocabulary for asset publishing, enhancing compliance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Control Tower introduces a Controls Dedicated experience</title>
+      <link>/articles/article-2025-11-19-12858/</link>
+      <pubDate>Wed, 19 Nov 2025 19:07:46 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12858/</guid>
+      <description>🚀 AWS Control Tower has launched a new Controls Dedicated experience! This feature allows users to access AWS managed controls without needing a full landing zone setup, streamlining governance for established multi-account environments. Now, customers can enhance their governance stance quickly and flexibly, making it easier to adopt AWS Control Tower. Learn more about how to get started with this new setup! 🌐 #AWS #CloudComputing #Governance #AWSControlTower #TechNews</description>
+    </item>
+    <item>
+      <title>New AWS Billing Transfer for centrally managing AWS billing and costs across multiple organizations</title>
+      <link>/articles/article-2025-11-19-12859/</link>
+      <pubDate>Wed, 19 Nov 2025 19:06:48 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12859/</guid>
+      <description>🚀 AWS has introduced Billing Transfer, a new feature for managing billing across multiple organizations centrally. This tool allows billing administrators to transfer payment responsibilities while keeping individual security and governance intact. It simplifies invoice collection and payment processing within multi-organization environments. The feature is particularly beneficial for AWS Partners reselling services, enhancing efficiency and scalability in billing operations. To get started,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Monitor network performance and traffic across your EKS clusters with Container Network Observability</title>
+      <link>/articles/article-2025-11-19-12860/</link>
+      <pubDate>Wed, 19 Nov 2025 19:05:59 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12860/</guid>
+      <description>🚀 Amazon EKS has launched Container Network Observability, enhancing visibility into Kubernetes workload traffic. This new feature helps teams monitor and troubleshoot microservices more effectively, addressing the complexities of network performance in scaling environments. With tools like service maps and performance metrics, organizations can gain deeper insights into network behavior. To enable, simply navigate to your EKS cluster settings and activate the feature. #AmazonEKS #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>It’s Time To Kill Staging: The Case for Testing in Production</title>
       <link>/articles/article-2025-11-19-12847/</link>
@@ -42,6 +77,20 @@
       <pubDate>Wed, 19 Nov 2025 17:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12851/</guid>
       <description>Quantum computing is set to transform various fields, but developing effective qubits remains a challenge due to sensitivity to noise. NVIDIA and Berkeley Lab are advancing this area with GPU-accelerated EDA tools, enhancing the design of quantum chips. Their open-source simulation package, ARTEMIS, has achieved significant milestones in simulating full quantum chips. These innovations help researchers address complex interactions and improve accuracy in chip design, crucial for the future of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to reduce cloud waste: It boils down to 3 steps</title>
+      <link>/articles/article-2025-11-19-12853/</link>
+      <pubDate>Wed, 19 Nov 2025 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12853/</guid>
+      <description>🌐 Cloud computing spending is set to rise significantly, but a large portion is wasted. A recent survey indicates that 78% of companies waste 21%-50% of their cloud budgets annually. 💸 To tackle this, three steps are recommended, including rethinking app architecture from CapEx to OpEx. A real-world example shows how one insurer reduced costs from $100 million annually to just $800 per day by modernizing their analytics system for the cloud. Understanding cloud waste and optimizing resource&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why I joined Docker: security at the center of the software supply chain</title>
+      <link>/articles/article-2025-11-19-12854/</link>
+      <pubDate>Wed, 19 Nov 2025 16:55:07 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12854/</guid>
+      <description>Mark Lechner, CISO at Docker, emphasizes the need for security at the core of the software supply chain. As threats evolve, they exploit interconnected systems rather than isolated ones. He reflects on his decade-long experience in diverse sectors, highlighting the shift from controlled environments to open systems where trust must be proven. Docker’s role is crucial; with containers as the standard unit of compute, ensuring security now can reshape software development. 🔍🔐💻 #Cybersecurity&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco Nexus One Fabric: Unify Data Center Operations with Open VXLAN/EVPN Standards</title>
@@ -114,6 +163,13 @@
       <description>Cisco&amp;rsquo;s Time2Give program enables employees to spend 80 hours of paid time off on community service. Marley Pirochta and her team recently restored trails in Acadia National Park, collaborating with the Sierra Club and Friends of Acadia. This initiative links global strategy to local impact, showcasing Cisco&amp;rsquo;s commitment to sustainability. 🌍🌲 #Cisco #Time2Give #CommunityService #Sustainability #AcadiaNationalPark</description>
     </item>
     <item>
+      <title>Real-time speech-to-speech translation</title>
+      <link>/articles/article-2025-11-19-12855/</link>
+      <pubDate>Wed, 19 Nov 2025 09:59:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12855/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://research.google/blog/rss/&#34;&gt;Google Research&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://research.google/blog/real-time-speech-to-speech-translation/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Built for what’s next: Designing human-centered workplaces in the modern age</title>
       <link>/articles/article-2025-11-19-12829/</link>
       <pubDate>Wed, 19 Nov 2025 09:00:37 +0000</pubDate>
@@ -170,11 +226,32 @@
       <description>🚀 Exciting updates in Bitbucket Packages! Bitbucket now supports deleting container images and tags, enhancing your storage management. This feature is part of the open beta for our native container registry, aiming for general availability on December 3, 2025. Teams can efficiently remove outdated images, optimize costs, and reclaim storage space with automated garbage collection. Explore Bitbucket Packages today if you haven’t already! #Bitbucket #ContainerRegistry #DevOps #CloudComputing&amp;hellip;</description>
     </item>
     <item>
+      <title>Auth0 for AI Agents is Now Generally Available (GA)</title>
+      <link>/articles/article-2025-11-19-12852/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12852/</guid>
+      <description>🚀 Exciting news! Auth0 for AI Agents is now generally available. This solution empowers developers to build secure AI agents while ensuring user data safety. It allows for user identification, controlled access to data, and human approval for key actions. Start integrating security into your AI projects today! 🔒🤖 #Auth0 #AI #DataSecurity #Innovation #TechNews</description>
+    </item>
+    <item>
       <title>Behind the wheel with Max Verstappen and Yuki Tsunoda</title>
       <link>/articles/article-2025-11-19-12842/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12842/</guid>
       <description>Dive into episode five of &lt;em&gt;Securing the Win&lt;/em&gt;, where Chris Medland highlights the teamwork behind Oracle Red Bull Racing&amp;rsquo;s success. 🏎️ Max Verstappen and Yuki Tsunoda share insights on how communication, trust, and collaboration drive performance on the track. The importance of secure access and quick feedback loops is crucial for racing success. 🛠️🔑 Discover the behind-the-scenes efforts that support these drivers and keep the team ahead. #Formula1 #RedBullRacing #Teamwork #Innovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building AI Agents with Google Gemini 3 and Open Source Frameworks</title>
+      <link>/articles/article-2025-11-19-12861/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12861/</guid>
+      <description>🚀 Exciting advancements in AI with the introduction of Gemini 3 Pro Preview! This powerful model enhances (semi)-autonomous workflows through new features like &lt;code&gt;thinking_level&lt;/code&gt; for better reasoning control and Stateful Tool Use via Thought Signatures. It supports major open-source frameworks from Day 0. Key practices include simplifying prompts and maintaining a temperature setting of 1.0 for optimal performance. #AIAgents #Gemini3 #OpenSource #TechInnovation #AI</description>
+    </item>
+    <item>
+      <title>Building production AI on Google Cloud TPUs with JAX</title>
+      <link>/articles/article-2025-11-19-12862/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12862/</guid>
+      <description>🚀 Discover the JAX AI Stack, a modular platform designed for scalable machine learning on Google Cloud TPUs. Built on the JAX library, it includes essential tools like Flax, Optax, and Orbax, enabling efficient model development and production. Learn more about its architecture and benefits in the detailed technical report. #AI #MachineLearning #GoogleCloud #JAX #TechInnovation</description>
     </item>
     <item>
       <title>November Epic learning content: animation, game profiling, and more</title>

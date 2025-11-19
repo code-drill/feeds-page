@@ -6,8 +6,43 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 18:01:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 19:12:27 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlined multi-tenant application development with tenant isolation mode in AWS Lambda</title>
+      <link>/articles/article-2025-11-19-12856/</link>
+      <pubDate>Wed, 19 Nov 2025 19:12:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12856/</guid>
+      <description>AWS Lambda has launched a new tenant isolation mode, enhancing multi-tenant application security. This feature allows separate execution environments for each tenant within a single function, simplifying resource management. This mode meets strict security requirements for SaaS platforms, ensuring tenant-specific code runs in isolated environments without the complexity of managing multiple functions. To enable tenant isolation, select the option during function creation in the AWS Lambda&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New business metadata features in Amazon SageMaker Catalog to improve discoverability across organizations</title>
+      <link>/articles/article-2025-11-19-12857/</link>
+      <pubDate>Wed, 19 Nov 2025 19:09:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12857/</guid>
+      <description>📊 Exciting updates in Amazon SageMaker Catalog enhance data management! The new features include column-level metadata forms and enforced glossary requirements. These tools will help organizations improve data classification, discoverability, and governance. Users can now create custom metadata forms for individual columns, allowing for better documentation and business context. Additionally, metadata enforcement rules ensure standardized vocabulary for asset publishing, enhancing compliance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Control Tower introduces a Controls Dedicated experience</title>
+      <link>/articles/article-2025-11-19-12858/</link>
+      <pubDate>Wed, 19 Nov 2025 19:07:46 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12858/</guid>
+      <description>🚀 AWS Control Tower has launched a new Controls Dedicated experience! This feature allows users to access AWS managed controls without needing a full landing zone setup, streamlining governance for established multi-account environments. Now, customers can enhance their governance stance quickly and flexibly, making it easier to adopt AWS Control Tower. Learn more about how to get started with this new setup! 🌐 #AWS #CloudComputing #Governance #AWSControlTower #TechNews</description>
+    </item>
+    <item>
+      <title>New AWS Billing Transfer for centrally managing AWS billing and costs across multiple organizations</title>
+      <link>/articles/article-2025-11-19-12859/</link>
+      <pubDate>Wed, 19 Nov 2025 19:06:48 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12859/</guid>
+      <description>🚀 AWS has introduced Billing Transfer, a new feature for managing billing across multiple organizations centrally. This tool allows billing administrators to transfer payment responsibilities while keeping individual security and governance intact. It simplifies invoice collection and payment processing within multi-organization environments. The feature is particularly beneficial for AWS Partners reselling services, enhancing efficiency and scalability in billing operations. To get started,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Monitor network performance and traffic across your EKS clusters with Container Network Observability</title>
+      <link>/articles/article-2025-11-19-12860/</link>
+      <pubDate>Wed, 19 Nov 2025 19:05:59 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12860/</guid>
+      <description>🚀 Amazon EKS has launched Container Network Observability, enhancing visibility into Kubernetes workload traffic. This new feature helps teams monitor and troubleshoot microservices more effectively, addressing the complexities of network performance in scaling environments. With tools like service maps and performance metrics, organizations can gain deeper insights into network behavior. To enable, simply navigate to your EKS cluster settings and activate the feature. #AmazonEKS #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>OpenAI Says Its New Codex-Max Model Is Better, Faster and Cheaper</title>
       <link>/articles/article-2025-11-19-12849/</link>
@@ -70,6 +105,20 @@
       <pubDate>Wed, 19 Nov 2025 00:12:19 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12823/</guid>
       <description>🚀 Exciting updates in Bitbucket Packages! Bitbucket now supports deleting container images and tags, enhancing your storage management. This feature is part of the open beta for our native container registry, aiming for general availability on December 3, 2025. Teams can efficiently remove outdated images, optimize costs, and reclaim storage space with automated garbage collection. Explore Bitbucket Packages today if you haven’t already! #Bitbucket #ContainerRegistry #DevOps #CloudComputing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Auth0 for AI Agents is Now Generally Available (GA)</title>
+      <link>/articles/article-2025-11-19-12852/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12852/</guid>
+      <description>🚀 Exciting news! Auth0 for AI Agents is now generally available. This solution empowers developers to build secure AI agents while ensuring user data safety. It allows for user identification, controlled access to data, and human approval for key actions. Start integrating security into your AI projects today! 🔒🤖 #Auth0 #AI #DataSecurity #Innovation #TechNews</description>
+    </item>
+    <item>
+      <title>Building AI Agents with Google Gemini 3 and Open Source Frameworks</title>
+      <link>/articles/article-2025-11-19-12861/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12861/</guid>
+      <description>🚀 Exciting advancements in AI with the introduction of Gemini 3 Pro Preview! This powerful model enhances (semi)-autonomous workflows through new features like &lt;code&gt;thinking_level&lt;/code&gt; for better reasoning control and Stateful Tool Use via Thought Signatures. It supports major open-source frameworks from Day 0. Key practices include simplifying prompts and maintaining a temperature setting of 1.0 for optimal performance. #AIAgents #Gemini3 #OpenSource #TechInnovation #AI</description>
     </item>
     <item>
       <title>Unity and Epic Games Together Advance the Open, Interoperable Future for Video Gaming</title>

@@ -6,8 +6,43 @@
     <description>Recent content in AWS-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Nov 2025 22:29:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 19:12:27 +0000</lastBuildDate>
     <atom:link href="/sources/aws-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlined multi-tenant application development with tenant isolation mode in AWS Lambda</title>
+      <link>/articles/article-2025-11-19-12856/</link>
+      <pubDate>Wed, 19 Nov 2025 19:12:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12856/</guid>
+      <description>AWS Lambda has launched a new tenant isolation mode, enhancing multi-tenant application security. This feature allows separate execution environments for each tenant within a single function, simplifying resource management. This mode meets strict security requirements for SaaS platforms, ensuring tenant-specific code runs in isolated environments without the complexity of managing multiple functions. To enable tenant isolation, select the option during function creation in the AWS Lambda&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New business metadata features in Amazon SageMaker Catalog to improve discoverability across organizations</title>
+      <link>/articles/article-2025-11-19-12857/</link>
+      <pubDate>Wed, 19 Nov 2025 19:09:27 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12857/</guid>
+      <description>📊 Exciting updates in Amazon SageMaker Catalog enhance data management! The new features include column-level metadata forms and enforced glossary requirements. These tools will help organizations improve data classification, discoverability, and governance. Users can now create custom metadata forms for individual columns, allowing for better documentation and business context. Additionally, metadata enforcement rules ensure standardized vocabulary for asset publishing, enhancing compliance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Control Tower introduces a Controls Dedicated experience</title>
+      <link>/articles/article-2025-11-19-12858/</link>
+      <pubDate>Wed, 19 Nov 2025 19:07:46 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12858/</guid>
+      <description>🚀 AWS Control Tower has launched a new Controls Dedicated experience! This feature allows users to access AWS managed controls without needing a full landing zone setup, streamlining governance for established multi-account environments. Now, customers can enhance their governance stance quickly and flexibly, making it easier to adopt AWS Control Tower. Learn more about how to get started with this new setup! 🌐 #AWS #CloudComputing #Governance #AWSControlTower #TechNews</description>
+    </item>
+    <item>
+      <title>New AWS Billing Transfer for centrally managing AWS billing and costs across multiple organizations</title>
+      <link>/articles/article-2025-11-19-12859/</link>
+      <pubDate>Wed, 19 Nov 2025 19:06:48 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12859/</guid>
+      <description>🚀 AWS has introduced Billing Transfer, a new feature for managing billing across multiple organizations centrally. This tool allows billing administrators to transfer payment responsibilities while keeping individual security and governance intact. It simplifies invoice collection and payment processing within multi-organization environments. The feature is particularly beneficial for AWS Partners reselling services, enhancing efficiency and scalability in billing operations. To get started,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Monitor network performance and traffic across your EKS clusters with Container Network Observability</title>
+      <link>/articles/article-2025-11-19-12860/</link>
+      <pubDate>Wed, 19 Nov 2025 19:05:59 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12860/</guid>
+      <description>🚀 Amazon EKS has launched Container Network Observability, enhancing visibility into Kubernetes workload traffic. This new feature helps teams monitor and troubleshoot microservices more effectively, addressing the complexities of network performance in scaling environments. With tools like service maps and performance metrics, organizations can gain deeper insights into network behavior. To enable, simply navigate to your EKS cluster settings and activate the feature. #AmazonEKS #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>New Amazon Bedrock service tiers help you match AI workload performance with cost</title>
       <link>/articles/article-2025-11-18-12795/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 22:13:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 23:21:24 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplify access to external services using AWS IAM Outbound Identity Federation</title>
+      <link>/articles/article-2025-11-19-12876/</link>
+      <pubDate>Wed, 19 Nov 2025 23:21:24 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12876/</guid>
+      <description>AWS IAM has introduced outbound identity federation, allowing developers to authenticate AWS workloads with external services using short-lived JSON Web Tokens (JWTs). This eliminates the need for long-term credentials like API keys, reducing security risks. With this feature, IAM roles and users can obtain cryptographically signed JWTs that verify their AWS identity. External services can validate these tokens to enable secure access. To get started, enable outbound identity federation in&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerate workflow development with enhanced local testing in AWS Step Functions</title>
       <link>/articles/article-2025-11-19-12868/</link>
@@ -154,6 +161,20 @@
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12861/</guid>
       <description>🚀 Exciting advancements in AI with the introduction of Gemini 3 Pro Preview! This powerful model enhances (semi)-autonomous workflows through new features like &lt;code&gt;thinking_level&lt;/code&gt; for better reasoning control and Stateful Tool Use via Thought Signatures. It supports major open-source frameworks from Day 0. Key practices include simplifying prompts and maintaining a temperature setting of 1.0 for optimal performance. #AIAgents #Gemini3 #OpenSource #TechInnovation #AI</description>
+    </item>
+    <item>
+      <title>Jules &#43; Gemini 3</title>
+      <link>/articles/article-2025-11-19-12877/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12877/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.googleblog.com/feeds/posts/default&#34;&gt;Google Developers Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.googleblog.com/jules-gemini-3/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Signal Polls: Yes, no, maybe (yes!)</title>
+      <link>/articles/article-2025-11-19-12874/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12874/</guid>
+      <description>🗳️ Discover the new Signal polling feature! You can now easily gather opinions in group chats. Whether scheduling a meeting or checking preferences, creating a poll is straightforward. Just tap the + button, set your question, and add up to 10 options. Polls are encrypted for privacy, but responses are visible to all participants. This feature is rolling out on Android, Desktop, and iOS. #Signal #GroupChat #Polling #Privacy #TechUpdate</description>
     </item>
     <item>
       <title>Unity and Epic Games Together Advance the Open, Interoperable Future for Video Gaming</title>

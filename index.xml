@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 22:13:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 23:21:24 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplify access to external services using AWS IAM Outbound Identity Federation</title>
+      <link>/articles/article-2025-11-19-12876/</link>
+      <pubDate>Wed, 19 Nov 2025 23:21:24 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12876/</guid>
+      <description>AWS IAM has introduced outbound identity federation, allowing developers to authenticate AWS workloads with external services using short-lived JSON Web Tokens (JWTs). This eliminates the need for long-term credentials like API keys, reducing security risks. With this feature, IAM roles and users can obtain cryptographically signed JWTs that verify their AWS identity. External services can validate these tokens to enable secure access. To get started, enable outbound identity federation in&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerate workflow development with enhanced local testing in AWS Step Functions</title>
       <link>/articles/article-2025-11-19-12868/</link>
@@ -140,6 +147,13 @@
       <pubDate>Wed, 19 Nov 2025 16:00:43 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12837/</guid>
       <description>🚀 Cisco Nexus One Fabric is transforming data center operations by utilizing open VXLAN/EVPN standards. This unified architecture enhances network simplicity, security, and interoperability, crucial for emerging AI workloads. With a focus on collaboration, Cisco’s leadership in industry standards ensures flexibility and customer choice. #Cisco #DataCenter #Networking #OpenStandards #AI</description>
+    </item>
+    <item>
+      <title>Build a multi-agent AI system using CrewAI, Gemini, and CircleCI</title>
+      <link>/articles/article-2025-11-19-12875/</link>
+      <pubDate>Wed, 19 Nov 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12875/</guid>
+      <description>🚀 Dive into the world of multi-agent AI systems with our latest tutorial! This guide walks you through the essentials: from prerequisites and project setup to building a system that gathers and summarizes trending news articles. You&amp;rsquo;ll utilize CrewAI for coordination, Google Gemini for intelligent processing, and CircleCI for automating tests. By the end, you&amp;rsquo;ll have a collaborative AI system ready for deployment! #AI #MachineLearning #SoftwareDevelopment #CrewAI #CircleCI</description>
     </item>
     <item>
       <title>Databricks Partners with Microsoft to bring our Data Intelligence Platform to Azure Government</title>
@@ -303,6 +317,13 @@
       <description>This week, Unity developers gathered in Barcelona for Unite 2025. The Keynote featured key announcements, including new tools for game development and partnerships aimed at enhancing the gaming ecosystem. 🎮 A surprise appearance by Tim Sweeney from Epic Games highlighted collaboration efforts, such as bringing Unity games into Fortnite. New features like the Platform Toolkit and AI Gateway were also introduced to simplify development. 🚀 Unity&amp;rsquo;s commitment to supporting developers continues to&amp;hellip;</description>
     </item>
     <item>
+      <title>Jules &#43; Gemini 3</title>
+      <link>/articles/article-2025-11-19-12877/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12877/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.googleblog.com/feeds/posts/default&#34;&gt;Google Developers Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.googleblog.com/jules-gemini-3/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>November Epic learning content: animation, game profiling, and more</title>
       <link>/articles/article-2025-11-19-12841/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
@@ -315,6 +336,13 @@
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-19-12843/</guid>
       <description>🔒 Securing MCP servers is crucial to prevent credential leaks. A recent article highlights how to use 1Password to safeguard sensitive information in your projects. Instead of hardcoding API tokens in configuration files, developers can reference secrets stored in 1Password vaults. This method enhances security by injecting credentials at runtime, eliminating plaintext exposure. The approach is beneficial for various AI tools and is easy to implement using the 1Password CLI. For detailed&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Signal Polls: Yes, no, maybe (yes!)</title>
+      <link>/articles/article-2025-11-19-12874/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-19-12874/</guid>
+      <description>🗳️ Discover the new Signal polling feature! You can now easily gather opinions in group chats. Whether scheduling a meeting or checking preferences, creating a poll is straightforward. Just tap the + button, set your question, and add up to 10 options. Polls are encrypted for privacy, but responses are visible to all participants. This feature is rolling out on Android, Desktop, and iOS. #Signal #GroupChat #Polling #Privacy #TechUpdate</description>
     </item>
     <item>
       <title>Unity and Epic Games Together Advance the Open, Interoperable Future for Video Gaming</title>

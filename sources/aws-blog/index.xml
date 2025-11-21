@@ -6,8 +6,15 @@
     <description>Recent content in AWS-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 23:21:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 01:02:35 +0000</lastBuildDate>
     <atom:link href="/sources/aws-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing attribute-based access control for Amazon S3 general purpose buckets</title>
+      <link>/articles/article-2025-11-21-12926/</link>
+      <pubDate>Fri, 21 Nov 2025 01:02:35 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12926/</guid>
+      <description>🚀 AWS has launched Attribute-Based Access Control (ABAC) for S3 general purpose buckets! This feature allows administrators to manage access permissions automatically using tag-based policies. This means no more constant updates to IAM policies as teams grow and change. ABAC simplifies permissions management by granting access based on tags related to projects, teams, or data classification. To get started, enable ABAC in the S3 console or via the AWS CLI. #AWS #S3 #CloudComputing&amp;hellip;</description>
+    </item>
     <item>
       <title>Simplify access to external services using AWS IAM Outbound Identity Federation</title>
       <link>/articles/article-2025-11-19-12876/</link>

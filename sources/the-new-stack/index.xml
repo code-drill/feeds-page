@@ -6,8 +6,36 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Nov 2025 02:00:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 16:00:54 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Load Tests Lie: Harsh Truth About AI Agent Performance</title>
+      <link>/articles/article-2025-11-21-12935/</link>
+      <pubDate>Fri, 21 Nov 2025 16:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12935/</guid>
+      <description>🚨 Load tests may not reveal the true performance of AI agents! Traditional load testing assumes requests are independent and behavior is predictable. However, AI conversations build on context, increasing latency and cost with each message. This discrepancy can lead to unexpected failures in production even with successful load tests. Understand the unique challenges of AI performance! 🤖📊 #AITesting #LoadTesting #TechInsights #AIPerformance #CustomerService</description>
+    </item>
+    <item>
+      <title>Taking Your Observability Strategy to the Next Level</title>
+      <link>/articles/article-2025-11-21-12936/</link>
+      <pubDate>Fri, 21 Nov 2025 15:00:24 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12936/</guid>
+      <description>🚀 Observability strategy can be complex, with many companies struggling to define it clearly. Smaller firms often lack a strategy, while larger ones seek to enhance theirs. A meta-strategy can simplify this process, accommodating various company stages simultaneously. User journeys play a crucial role, especially for pre-product market fit startups, helping to reveal user behavior and improve product alignment. #Observability #Strategy #UserExperience #TechInsights #ProductMarketFit</description>
+    </item>
+    <item>
+      <title>Tutorial: Implement a Nginx Gateway Fabric as an Alternative to Ingress</title>
+      <link>/articles/article-2025-11-21-12937/</link>
+      <pubDate>Fri, 21 Nov 2025 14:01:43 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12937/</guid>
+      <description>Kubernetes is evolving how it handles external traffic with the announcement of the retirement of Ingress Nginx, effective March 2026. 🚦 The traditional Ingress API has limitations in advanced traffic management and routing. The new Gateway API addresses these issues, offering a unified model for multiprotocol routing and better traffic control. 🌐 Nginx Gateway Fabric, an open-source implementation of the Gateway API, enhances capabilities like blue-green deployments and request manipulation&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>CNCF Retires the Ingress Nginx Controller for Kubernetes</title>
+      <link>/articles/article-2025-11-21-12938/</link>
+      <pubDate>Fri, 21 Nov 2025 14:00:04 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12938/</guid>
+      <description>🚨 Important Update for Kubernetes Users! 🚨 The Cloud Native Computing Foundation has announced the retirement of the Ingress Nginx controller by March 2026. Users must migrate to the Gateway API or another solution to ensure continued support. Many at KubeCon+CloudNativeCon are already seeking alternatives due to this sudden change. After March, Ingress Nginx will no longer receive updates or security fixes, operating it will be at your own risk. For those unsure if they are using it, you can&amp;hellip;</description>
+    </item>
     <item>
       <title>GitHub and Microsoft Use AI To Fix Security Debt Crisis</title>
       <link>/articles/article-2025-11-21-12927/</link>

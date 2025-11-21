@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Nov 2025 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 18:40:39 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Docker Hardened Images Patches Vulnerabilities in 24 hours</title>
+      <link>/articles/article-2025-11-21-12955/</link>
+      <pubDate>Fri, 21 Nov 2025 18:40:39 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12955/</guid>
+      <description>On November 19, 2025, the Golang project announced two vulnerabilities affecting the golang.org/x/crypto/ssh package. While not critically scored, these vulnerabilities pose risks to applications using SSH in Go containers. CVE-2025-58181 allows for unbounded memory consumption, and CVE-2025-47914 affects SSH Agent servers, potentially leading to system instability. Docker Hardened Images responded promptly, patching these vulnerabilities within 24 hours through continuous monitoring and&amp;hellip;</description>
+    </item>
     <item>
       <title>Beyond the Hype: How to Use AI to Actually Increase Your Productivity as a Dev</title>
       <link>/articles/article-2025-11-21-12944/</link>

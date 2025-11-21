@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Nov 2025 16:23:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 16:36:21 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powered by DigitalOcean Hatch: How Ex-human uses GPU Droplets to Build Empathetic AI that Serves Customers</title>
+      <link>/articles/article-2025-11-21-8382/</link>
+      <pubDate>Fri, 21 Nov 2025 16:36:21 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-8382/</guid>
+      <description>🌐 DigitalOcean&amp;rsquo;s Hatch program has revamped its support for AI startups in 2024, offering discounts on GPU Droplets and premium support. 💡 Ex-human, a startup focused on empathetic AI, benefits from the program to enhance customer interactions through AI models. Their technology aims to create meaningful connections between humans and digital characters. 💰 With access to on-demand NVIDIA H100 GPU Droplets at $1.90/hour, Ex-human finds DigitalOcean&amp;rsquo;s services reliable and affordable, allowing&amp;hellip;</description>
+    </item>
     <item>
       <title>Introducing VPC encryption controls: Enforce encryption in transit within and across VPCs in a Region</title>
       <link>/articles/article-2025-11-21-12946/</link>
@@ -58,11 +65,25 @@
       <description>🌟 Exciting developments at Grab with SpellVault! Originally a no-code platform for building LLM apps, SpellVault has evolved into a powerful tool for creating intelligent AI agents. Its journey highlights a focus on accessibility, allowing users to integrate external data sources easily. Key features now include dynamic plugins and a unified tools framework, enabling apps to reason and act intelligently. This evolution positions SpellVault as a leader in the agentic future of AI. 🤖💡&amp;hellip;</description>
     </item>
     <item>
+      <title>AI-Powered Postgres index suggestions</title>
+      <link>/articles/article-2025-11-21-12951/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12951/</guid>
+      <description>🚀 Exciting news for PostgreSQL users! PlanetScale Insights now offers AI-powered index suggestions to enhance database performance. This feature analyzes your database workload and recommends new indexes to optimize query execution speed. By leveraging large language models (LLMs), the system identifies the best indexes while ensuring suggestions are validated for effectiveness. The process involves filtering query patterns and validating suggestions to guarantee substantial performance&amp;hellip;</description>
+    </item>
+    <item>
       <title>Databricks and AWS Partner to Simplify Infrastructure Setup</title>
       <link>/articles/article-2025-11-21-12929/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-21-12929/</guid>
       <description>🚀 Exciting news! Databricks and AWS have partnered to streamline infrastructure setup. Users can now instantly deploy classic workspaces through automated configuration from the Databricks account console. This enhancement aims to simplify the deployment process for better efficiency. Stay tuned for more updates! #Databricks #AWS #CloudComputing #Infrastructure #TechNews</description>
+    </item>
+    <item>
+      <title>Projects deployed using a zip file via API now support branch deploys</title>
+      <link>/articles/article-2025-11-21-12952/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-21-12952/</guid>
+      <description>🚀 Exciting news for developers! You can now create branch deploys using a ZIP file via the Netlify API. By including the new branch parameter in your API request, you enable branch-specific features like preview URLs and isolated testing environments. To deploy, use the following command: &lt;code&gt;curl -X POST \ -H &amp;quot;Authorization: Bearer YOUR_TOKEN&amp;quot; \ -F &amp;quot;zip=@your-site.zip&amp;quot; \ -F &amp;quot;branch=feature-branch&amp;quot; \ https://api.netlify.com/api/v1/sites/{site_id}/builds&lt;/code&gt; Learn more in the Netlify&amp;hellip;</description>
     </item>
     <item>
       <title>Spring Boot 4: Leaner, Safer Apps and a New Kotlin Baseline</title>

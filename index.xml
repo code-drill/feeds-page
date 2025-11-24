@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 17:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 07:00:57 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I used Red Hat Lightspeed image builder to create CIS (and more) compliant images</title>
+      <link>/articles/article-2025-11-24-12975/</link>
+      <pubDate>Mon, 24 Nov 2025 07:00:57 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12975/</guid>
+      <description>Creating compliant images just got easier with Red Hat Lightspeed! 🚀 As a Technical Marketing Manager, I discovered that building RHEL systems for regulatory compliance was time-consuming. After switching to Red Hat Lightspeed image builder, I streamlined the process significantly. Now, I can create CIS-compliant images quickly through an intuitive wizard. This tool simplifies compliance with various regulatory policies and frameworks, cutting down hours of work to just minutes. ⏱️ Interested&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a oversaturation detector with iterative error analysis</title>
+      <link>/articles/article-2025-11-24-12976/</link>
+      <pubDate>Mon, 24 Nov 2025 07:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12976/</guid>
+      <description>🚀 Excited to share insights from our recent work on building an oversaturation detector (OSD) using iterative error analysis! We began with a baseline algorithm that struggled with false alerts due to erratic initial data. By ignoring the first 25% of requests, we significantly reduced these errors. Next, we added a 30-second grace period to differentiate good runs from bad ones during the early shoot-up phase. Finally, we established a rule to alert only when both response time and request&amp;hellip;</description>
+    </item>
     <item>
       <title>Goodbye Dashboards: Agents Deliver Answers, Not Just Reports</title>
       <link>/articles/article-2025-11-23-12974/</link>

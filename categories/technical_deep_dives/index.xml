@@ -6,14 +6,42 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Nov 2025 07:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 16:47:38 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AI Tools Accelerated Building and Adopting Cloud-Agnostic SDK Tasks From Months to Weeks</title>
+      <link>/articles/article-2025-11-24-12988/</link>
+      <pubDate>Mon, 24 Nov 2025 16:47:38 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12988/</guid>
+      <description>🚀 Exciting advancements in cloud technology! Salesforce&amp;rsquo;s Claudia Santoro highlights the development of MultiCloudJ, a cloud-agnostic Java SDK. This tool allows seamless deployment across AWS, GCP, and Alibaba Cloud without provider-specific code. AI tools like Claude and Cursor have reduced development time from months to weeks, enabling faster onboarding. The three-layer architecture of MultiCloudJ addresses cloud provider differences, simplifying API interactions. #CloudComputing #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Background Coding Agents: Context Engineering (Part 2)</title>
+      <link>/articles/article-2025-11-24-12989/</link>
+      <pubDate>Mon, 24 Nov 2025 14:20:51 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12989/</guid>
+      <description>In Part 2 of our series on context engineering for background coding agents, we delve into effective migration prompts and necessary tools. Spotify has developed a coding agent to enhance our Fleet Management system, capable of editing code, running builds, and automating pull requests. However, guiding this agent effectively has proven challenging. We initially explored open-source options like Goose and Aider but faced difficulties in scaling them for large migrations. This led us to create&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Evolution and Scale of Uber’s Delivery Search Platform</title>
+      <link>/articles/article-2025-11-24-12990/</link>
+      <pubDate>Mon, 24 Nov 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12990/</guid>
+      <description>🚀 Uber Eats has developed a new semantic search platform that enhances how users find food and grocery items. This advanced system goes beyond simple keyword searches; it understands meaning and context. It effectively manages typos, synonyms, and supports multiple languages. This innovation aims to improve user experience across billions of options. #UberEats #SemanticSearch #TechInnovation #FoodDelivery #MachineLearning</description>
+    </item>
     <item>
       <title>Building a oversaturation detector with iterative error analysis</title>
       <link>/articles/article-2025-11-24-12976/</link>
       <pubDate>Mon, 24 Nov 2025 07:00:54 +0000</pubDate>
       <guid>/articles/article-2025-11-24-12976/</guid>
       <description>🚀 Excited to share insights from our recent work on building an oversaturation detector (OSD) using iterative error analysis! We began with a baseline algorithm that struggled with false alerts due to erratic initial data. By ignoring the first 25% of requests, we significantly reduced these errors. Next, we added a 30-second grace period to differentiate good runs from bad ones during the early shoot-up phase. Finally, we established a rule to alert only when both response time and request&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Unlocking Peak Performance on Qualcomm NPU with LiteRT</title>
+      <link>/articles/article-2025-11-24-12991/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-12991/</guid>
+      <description>Unlocking on-device GenAI performance is now possible with LiteRT&amp;rsquo;s Qualcomm AI Engine Direct (QNN) Accelerator. 🚀 This innovation allows for up to 100x speedup over CPU, enabling real-time AI experiences on Android devices. FastVLM-0.5B achieves impressive rates of over 11,000 tokens/sec on Snapdragon 8 Elite Gen 5 NPU. The NPU, found in over 80% of recent Qualcomm SoCs, provides dedicated AI compute, enhancing mobile performance while conserving battery life. 🔋 #GenAI #Qualcomm #NPU #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Why Load Tests Lie: Harsh Truth About AI Agent Performance</title>

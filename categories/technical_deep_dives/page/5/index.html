@@ -449,6 +449,72 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/speeding-up-data-decompression-with-nvcomp-and-the-nvidia-blackwell-decompression-engine/" target="_blank">Speeding Up Data Decompression with nvCOMP and the NVIDIA Blackwell Decompression Engine</a></h2>
+            <div class="publication-date">2025-10-06 16:00</div>
+            <div class="summary">NVIDIA has introduced the Decompression Engine (DE) in its Blackwell architecture to enhance data decompression speed while reducing latency and compute resource usage. 📊 Working alongside the nvCOMP library, DE accelerates decompression for popular formats like Snappy and LZ4, optimizing data transfers directly across PCIe or C2C. This innovation allows for better utilization of GPU resources, especially in data-intensive applications. 🚀 Developers are encouraged to use DE via nvCOMP APIs,...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Eric Schmidt</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/accelerating-large-scale-data-analytics-with-gpu-native-velox-and-nvidia-cudf/" target="_blank">Accelerating Large-Scale Data Analytics with GPU-Native Velox and NVIDIA cuDF</a></h2>
+            <div class="publication-date">2025-10-06 12:00</div>
+            <div class="summary">🚀 Accelerating data analytics is crucial as workloads grow. GPU-accelerated databases, like those using NVIDIA cuDF and Velox, provide significant performance gains over traditional CPU systems. 🔍 These advancements enable real-time insights for analysts, supporting complex queries with large datasets. 🤝 IBM and NVIDIA are collaborating to enhance platforms like Presto and Apache Spark, allowing for efficient GPU-native query execution. #DataAnalytics #GPUComputing #NVIDIA #IBM #BigData</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Gregory Kimball</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://medium.engineering/medium-android-app-migrating-from-apollo-kotlin-3-to-4-lessons-learned-ff8d0d861cdb?source=rss----2817475205d3---4" target="_blank">Medium Android App — Migrating from Apollo Kotlin 3 to 4: Lessons Learned</a></h2>
+            <div class="publication-date">2025-10-06 08:18</div>
+            <div class="summary">🚀 The Medium Android app has successfully migrated from Apollo Kotlin 3 to 4! Key updates include a new group ID and improved exception handling. The migration revealed issues with cache configuration, leading to CacheMissExceptions. The team switched to Declarative Cache IDs and added `__typename` to operations for better cache performance. Learn more about the challenges faced and solutions implemented in this detailed post! 📱💡 #ApolloKotlin #GraphQL #AndroidDevelopment #TechUpdates...</div>
+            <div class="source">Source: <a href="/sources/medium-engineering">Medium Engineering</a></div>
+            
+            <div class="author">Pierrick CAEN</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://engineering.grab.com/highly-concurrent-in-memory-counter-in-go-lang" target="_blank">Highly concurrent in-memory counter in GoLang</a></h2>
+            <div class="publication-date">2025-10-06 00:00</div>
+            <div class="summary">🚨 Facing high database CPU utilization during heavy traffic? This article explores a scenario where migrating from SQL to NoSQL seemed easy but tackling the problem through optimization proved more effective. The focus was on real-time usage count tracking for marketing campaigns, utilizing highly concurrent in-memory caching to reduce database load. By periodically flushing data, the team achieved significant efficiency improvements. The implementation of GoLang&#39;s Sync.Map led to a 68%...</div>
+            <div class="source">Source: <a href="/sources/grab-tech">Grab Tech</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://thenewstack.io/eliminating-the-precision-latency-trade-off-in-large-scale-rag/" target="_blank">Eliminating the Precision–Latency Trade-Off in Large-Scale RAG</a></h2>
             <div class="publication-date">2025-10-03 16:00</div>
             <div class="summary">🚀 **RAG Systems Redefined!** Retrieval-Augmented Generation (RAG) systems face a common challenge: balancing precision with latency. A new approach suggests redesigning retrieval to eliminate this trade-off. Key techniques include: 1️⃣ **Multiphase Ranking** - This method refines results incrementally, combining fast and deep machine learning models to enhance precision while managing costs. 2️⃣ **Layered Retrieval** - By selecting optimal retrieval units, systems can maintain quality and...</div>
@@ -1028,72 +1094,6 @@
             <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
             
             <div class="author">Greg Haskins</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/r2-sql-deep-dive/" target="_blank">R2 SQL: a deep dive into our new distributed query engine</a></h2>
-            <div class="publication-date">2025-09-25 14:00</div>
-            <div class="summary">🚀 Excited to introduce R2 SQL, a serverless query engine that enables quick analytics on vast datasets without the need for separate services! 🔍 This innovative tool allows retrieval SQL queries directly against your R2 Data Catalog, utilizing Apache Iceberg for efficient data management. 🌐 R2 SQL tackles challenges in data I/O and compute by intelligently pruning data and distributing tasks globally, ensuring efficiency and speed. #Cloudflare #R2SQL #DataAnalytics #Serverless #ApacheIceberg</div>
-            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
-            
-            <div class="author">Jérôme Schneider</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/why-your-apps-biggest-performance-bottleneck-might-be-ssl-tls/" target="_blank">Why Your App’s Biggest Performance Bottleneck Might Be SSL/TLS</a></h2>
-            <div class="publication-date">2025-09-25 13:00</div>
-            <div class="summary">Is your app&#39;s performance lagging despite optimizations? The culprit may be SSL/TLS. 🔒 While we often see it as a security feature, SSL/TLS can be a significant performance bottleneck. Each secure connection requires CPU-intensive handshakes that can compete with your app&#39;s logic. Understanding the negotiation process is essential. It involves greeting, certificate exchange, and key generation—each step adds overhead. Stay aware of these factors to improve your app&#39;s efficiency! 💻...</div>
-            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
-            
-            <div class="author">Ron Northcutt</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.uber.com/blog/ubers-strategy-to-upgrading-2m-spark-jobs/" target="_blank">Uber’s Strategy to Upgrading 2M&#43; Spark Jobs</a></h2>
-            <div class="publication-date">2025-09-25 13:00</div>
-            <div class="summary">🚀 Uber successfully migrated over 2 million daily Apache Spark jobs to Spark 3.3. This upgrade utilized automation and safe shadow testing, resulting in significant improvements and over $4 million in savings. Learn more about Uber&#39;s innovative approach to enhancing their data processing capabilities. #Uber #ApacheSpark #DataEngineering #Innovation #TechNews</div>
-            <div class="source">Source: <a href="/sources/uber-engineering">Uber Engineering</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.hubspot.com/blog/building-omnichannel-customer-connections-at-hubspot" target="_blank">Building Omnichannel Customer Connections at HubSpot: A Look Under the Hood</a></h2>
-            <div class="publication-date">2025-09-25 12:00</div>
-            <div class="summary">🌟 HubSpot is addressing the challenge of meeting customer expectations for seamless communication across channels like chat, email, voice, and social media. With a focus on developers, HubSpot is making omnichannel experiences practical and scalable. They aim to unify customer data and streamline integrations, moving away from fragmented systems. Their Custom Channels API allows businesses to create tailored messaging experiences, syncing third-party apps with HubSpot’s Help Desk and CRM for...</div>
-            <div class="source">Source: <a href="/sources/hubspot-developers">HubSpot Developers</a></div>
-            
-            <div class="author">varora@hubspot.com (Vandita Arora)</div>
             
             
             <div class="categories">

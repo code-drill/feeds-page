@@ -37,11 +37,18 @@
       <description>Amazon&amp;rsquo;s CTO, Werner Vogels, shared key insights at AWS re:Invent, marking a shift in his approach. This year, he provided predictions ahead of the event, hinting it might be his last keynote. His predictions focus on AI and its societal effects, including redefining companionship, quantum-safe encryption, and the fast transition of military tech to consumer products. Vogels emphasized the need for younger voices in tech, reflecting on his 21 years at Amazon. #AWS #WernerVogels&amp;hellip;</description>
     </item>
     <item>
+      <title>Reducing experiment duration with predicted control variates</title>
+      <link>/articles/article-2025-11-25-13048/</link>
+      <pubDate>Tue, 25 Nov 2025 16:28:26 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13048/</guid>
+      <description>Etsy has significantly enhanced its experimentation process with the evolution of CUPED, reducing average experiment duration by 3 days! 🕒 This variance reduction technique uses pre-experiment data to improve accuracy and speed in measuring outcomes. The introduction of CUPAC further cuts variance, leading to quicker decision-making. These advancements allow teams to conduct more experiments, ultimately enhancing the buyer and seller experience on the platform. #Etsy #CUPED #Experimentation&amp;hellip;</description>
+    </item>
+    <item>
       <title>Streamline Your Workflow: Announcing Environment Support for DigitalOcean App Platform</title>
       <link>/articles/article-2025-11-25-13046/</link>
       <pubDate>Tue, 25 Nov 2025 16:06:22 +0000</pubDate>
       <guid>/articles/article-2025-11-25-13046/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.digitalocean.com/blog.atom&#34;&gt;DigitalOcean Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.digitalocean.com/blog/environment-support-app-platform&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news for developers! DigitalOcean announces Environment Support for the App Platform, aimed at simplifying app management. You can now tag resource groups as Development, Staging, or Production, making it easier to oversee your applications. Additionally, the new App Cloning feature allows you to replicate apps quickly for different environments. Manage everything directly from the DigitalOcean Control Panel or via the command line with doctl. #DigitalOcean #AppPlatform #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>How Mozilla’s AI Strategy Disconnects From Its Browser Heritage</title>
@@ -147,6 +154,27 @@
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-11-25-13030/</guid>
       <description>Kubernetes configuration is crucial for successful deployments. Key practices include using the latest stable API version and storing configurations in version control systems like Git for easy rollback. YAML is preferred over JSON for readability, and keeping manifests minimal helps with debugging. Group related objects together and use annotations for clarity. Avoid creating Pods directly; instead, utilize Deployments and Jobs for better management. Learn more about these best practices for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New Gemini API updates for Gemini 3</title>
+      <link>/articles/article-2025-11-25-13050/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13050/</guid>
+      <description>🚀 Exciting updates are here for the Gemini API with the launch of Gemini 3! Developers can now leverage the new &lt;code&gt;thinking_level&lt;/code&gt; parameter to control the depth of reasoning, enhancing task complexity management. The &lt;code&gt;media_resolution&lt;/code&gt; setting allows customization of token usage for various media types, balancing quality and efficiency. Additionally, the introduction of &lt;code&gt;Thought Signatures&lt;/code&gt; improves function calling and image generation. Combined with Google Search/URL Grounding, these updates&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Partnering with Black Forest Labs to bring FLUX.2 [dev] to Workers AI</title>
+      <link>/articles/article-2025-11-25-13049/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13049/</guid>
+      <description>🚀 Exciting news! Black Forest Labs has launched FLUX.2 [dev] on Workers AI! This advanced open-weight image model enhances photorealism and offers multi-reference input with JSON prompting. 📸 FLUX.2 builds on the success of FLUX.1, generating realistic images with improved customization options. It supports up to 4 input images and produces outputs up to 4 megapixels. 🌍 The model excels in understanding the physical world, delivering accurate details like lighting, angles, and small objects&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Simplifying credential security on ChatGPT Atlas</title>
+      <link>/articles/article-2025-11-25-13047/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13047/</guid>
+      <description>AI-powered browsers are changing the way we interact online, making tasks faster and simpler. 🌐 1Password is now available on OpenAI&amp;rsquo;s ChatGPT Atlas, enhancing security and ease of use. The new onboarding process allows users to start quickly, ensuring credentials and data remain protected. 🔒 You can pin 1Password for easy access, and it seamlessly integrates with Atlas for a smooth experience. Get started today! 🚀 #1Password #ChatGPT #AISecurity #DataPrivacy #TechInnovation</description>
     </item>
     <item>
       <title>Introducing Dynamic Step Condition for Bitbucket Pipelines</title>

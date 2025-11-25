@@ -30,6 +30,13 @@
       <description>🌐 Synthetic data generation is transforming how we build large language models (LLMs). By using one model to create training examples for another, teams can fill domain-specific gaps without relying on scarce human data. 🔧 Enter SDG Hub, an open-source toolkit that simplifies synthetic data workflows. It allows users to mix LLM components with traditional data tools, enhancing efficiency and scalability. 📈 The process includes generating synthetic data, fine-tuning models, and deploying&amp;hellip;</description>
     </item>
     <item>
+      <title>Kubernetes Configuration Good Practices</title>
+      <link>/articles/article-2025-11-25-13030/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13030/</guid>
+      <description>Kubernetes configuration is crucial for successful deployments. Key practices include using the latest stable API version and storing configurations in version control systems like Git for easy rollback. YAML is preferred over JSON for readability, and keeping manifests minimal helps with debugging. Group related objects together and use annotations for clarity. Avoid creating Pods directly; instead, utilize Deployments and Jobs for better management. Learn more about these best practices for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Introducing Dynamic Step Condition for Bitbucket Pipelines</title>
       <link>/articles/article-2025-11-24-13021/</link>
       <pubDate>Mon, 24 Nov 2025 23:53:13 +0000</pubDate>

@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Configuration Good Practices</title>
+      <link>/articles/article-2025-11-25-13030/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13030/</guid>
+      <description>Kubernetes configuration is crucial for successful deployments. Key practices include using the latest stable API version and storing configurations in version control systems like Git for easy rollback. YAML is preferred over JSON for readability, and keeping manifests minimal helps with debugging. Group related objects together and use annotations for clarity. Avoid creating Pods directly; instead, utilize Deployments and Jobs for better management. Learn more about these best practices for&amp;hellip;</description>
+    </item>
     <item>
       <title>Ingress NGINX Retirement: What You Need to Know</title>
       <link>/articles/article-2025-11-11-12099/</link>

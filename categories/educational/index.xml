@@ -16,6 +16,13 @@
       <description>🚀 Exciting news for AI enthusiasts! Red Hat has introduced Models-as-a-Service (MaaS) in OpenShift, currently in developer preview. MaaS allows organizations to deploy and manage AI models as shared resources, enhancing accessibility and scalability. This new feature offers standardized API endpoints for efficient model sharing. 🔧 Setup is straightforward with a single deployment script. Users can also test sample models and experience rate limiting to ensure quality of service. For detailed&amp;hellip;</description>
     </item>
     <item>
+      <title>Kubernetes Configuration Good Practices</title>
+      <link>/articles/article-2025-11-25-13030/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-25-13030/</guid>
+      <description>Kubernetes configuration is crucial for successful deployments. Key practices include using the latest stable API version and storing configurations in version control systems like Git for easy rollback. YAML is preferred over JSON for readability, and keeping manifests minimal helps with debugging. Group related objects together and use annotations for clarity. Avoid creating Pods directly; instead, utilize Deployments and Jobs for better management. Learn more about these best practices for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Ship faster with focused Subagents in Rovo Dev CLI</title>
       <link>/articles/article-2025-11-24-13022/</link>
       <pubDate>Mon, 24 Nov 2025 23:21:45 +0000</pubDate>

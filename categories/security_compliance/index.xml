@@ -44,6 +44,13 @@
       <description>🚨 A recent security breach involved multiple npm packages being compromised through account takeover. A malicious actor added a stealthy loader to these packages, targeting the Bun runtime. 🔍 Vercel has confirmed that their environment remains secure and no internal systems were affected. They are resetting the cache for projects using the vulnerable packages. 📞 Affected customers are being notified with specific mitigation steps. Updates will be provided as the investigation continues&amp;hellip;.</description>
     </item>
     <item>
+      <title>GitLab discovers widespread npm supply chain attack</title>
+      <link>/articles/article-2025-11-24-13019/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-11-24-13019/</guid>
+      <description>🚨 GitLab&amp;rsquo;s Vulnerability Research team has uncovered a significant supply chain attack in the npm ecosystem. This campaign involves malware that spreads through infected packages, displaying worm-like behavior. The malware not only harvests credentials from various platforms but also has a destructive mechanism that can erase user data if its access channels are disrupted. 🔍 GitLab has confirmed that it is not affected but aims to help the security community combat this threat. Investigations&amp;hellip;</description>
+    </item>
+    <item>
       <title>How Docker Hardened Images Patches Vulnerabilities in 24 hours</title>
       <link>/articles/article-2025-11-21-12955/</link>
       <pubDate>Fri, 21 Nov 2025 18:40:39 +0000</pubDate>

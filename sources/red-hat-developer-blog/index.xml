@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Nov 2025 07:01:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 08:01:19 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trusted execution clusters operator: Design and flow overview</title>
+      <link>/articles/article-2025-11-26-13062/</link>
+      <pubDate>Wed, 26 Nov 2025 08:01:19 +0000</pubDate>
+      <guid>/articles/article-2025-11-26-13062/</guid>
+      <description>🔒 Confidential computing enhances cloud-native security by protecting data in use, which is traditionally vulnerable. The trusted execution cluster operator, a Kubernetes-native tool, manages clusters with hardware-based security features like secure enclaves and memory encryption. This ensures that sensitive workloads are accessed only by verified software. Key components include the Trustee for attestation and key management, and the operator automates the configuration of security&amp;hellip;</description>
+    </item>
     <item>
       <title>Autoscaling vLLM with OpenShift AI model serving: Performance validation</title>
       <link>/articles/article-2025-11-26-13061/</link>

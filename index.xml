@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Nov 2025 21:00:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 07:01:03 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use NetApp to run SAP on OpenShift Virtualization with a dual boot on bare metal</title>
+      <link>/articles/article-2025-11-27-13083/</link>
+      <pubDate>Thu, 27 Nov 2025 07:01:03 +0000</pubDate>
+      <guid>/articles/article-2025-11-27-13083/</guid>
+      <description>🚀 In complex enterprise environments, migrating virtual workloads to physical hardware can be challenging. This article highlights how Red Hat OpenShift Virtualization, NetApp Trident, and FlexClone tech can streamline this process. 🔧 It explains configuring OpenShift, installing NetApp Trident, and creating bootable LUNs for physical servers. This enables rapid migration and testing for applications like SAP HANA, ensuring consistent performance across platforms. For detailed steps on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How does cgroups v2 impact Java and Node.js in OpenShift 4?</title>
+      <link>/articles/article-2025-11-27-13084/</link>
+      <pubDate>Thu, 27 Nov 2025 07:01:02 +0000</pubDate>
+      <guid>/articles/article-2025-11-27-13084/</guid>
+      <description>Understanding the impact of cgroups v2 on Java and Node.js in OpenShift 4 is essential for developers. This article outlines compatibility concerns and solutions associated with cgroups v2, a Linux kernel feature for resource management in containers. It details how different OpenShift versions handle cgroups, emphasizing the importance of using the latest images for Node.js and OpenJDK. For those using Java, cgroups v2 compatibility was introduced in OpenJDK 8u372 and later versions. Node.js&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to enable NVIDIA GPU acceleration in OpenShift Local</title>
+      <link>/articles/article-2025-11-27-13085/</link>
+      <pubDate>Thu, 27 Nov 2025 07:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-11-27-13085/</guid>
+      <description>Unlock the power of NVIDIA GPU acceleration in OpenShift Local! 🖥️✨ This article details the steps to share an NVIDIA GPU with OpenShift Local for AI and ML workloads, enhancing your local development experience. Key topics include GPU passthrough configuration, BIOS adjustments, and validating your setup. Explore how to optimize your environment to run intensive applications without needing a dedicated server. #OpenShift #NVIDIA #GPU #AI #MachineLearning</description>
+    </item>
     <item>
       <title>Cursor 2.0 IDE Is Now Supercharged With AI and I’m Impressed</title>
       <link>/articles/article-2025-11-26-13079/</link>

@@ -16,6 +16,13 @@
       <description>🚀 Ready to simplify your firewall migration? At Cisco Live APJC, Principal Engineer Raghu Kulkarni shared insights on transitioning to Cisco Secure Firewall without the usual downtime fears. He highlighted that 95% of the migration can be staged in advance. Key points included tools for migration, essential pre-checks, and strategies for existing Firepower device configurations. Preparation is key: identify stakeholders and ensure your environment is ready for a smooth transition. #CiscoLive&amp;hellip;</description>
     </item>
     <item>
+      <title>Streamlining Security Investigations with Agents</title>
+      <link>/articles/article-2025-12-01-13180/</link>
+      <pubDate>Mon, 01 Dec 2025 16:00:42 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13180/</guid>
+      <description>🔒 Slack&amp;rsquo;s Security Engineering team is enhancing its security processes by integrating AI agents. Their security event ingestion pipeline manages billions of daily events, focusing on alert reviews during on-call shifts. The team is refining a prototype for AI-driven investigations to improve efficiency and decision-making. This post is the first in a series detailing their design choices and learnings. Stay tuned for more insights! 🚀 #CyberSecurity #AI #TechInnovation #Slack #SecurityAgents</description>
+    </item>
+    <item>
       <title>Get Started With NLP Using Hugging Face and Python</title>
       <link>/articles/article-2025-12-01-13152/</link>
       <pubDate>Mon, 01 Dec 2025 16:00:23 +0000</pubDate>
@@ -37,11 +44,39 @@
       <description>🚀 Red Hat offers .NET container images under the Universal Base Image (UBI) license, allowing free use and redistribution without a subscription. 🔒 These images feature strong security practices, including CVE monitoring and detailed software bill of materials (SBOMs). Enterprise support is available on Red Hat platforms, with community support for others. 🖥️ Images cater to various architectures, including IBM Z and Power Systems, and include separate repositories for the .NET SDK, ASP.NET&amp;hellip;</description>
     </item>
     <item>
+      <title>What’s new at Stack Overflow: December 2025</title>
+      <link>/articles/article-2025-12-01-13179/</link>
+      <pubDate>Mon, 01 Dec 2025 15:18:09 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13179/</guid>
+      <description>🚀 Exciting updates from Stack Overflow this December! The new MCP server is now in beta, allowing developers to integrate the site’s knowledge into AI applications. It supports 100 requests per day for prototyping and projects. A new question type is expanding access to developer preferences and subjective topics, maintaining quality standards. Users can now easily copy code blocks with a new button, including attribution. Plus, chat room owners can add onboarding cards for new members&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>How AI-Driven Refactoring Cut a 2-Year Legacy Code Migration to 4 Months</title>
+      <link>/articles/article-2025-12-01-13181/</link>
+      <pubDate>Mon, 01 Dec 2025 15:12:02 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13181/</guid>
+      <description>🚀 Exciting advancements in code migration! In a recent article, Lilach Nachmias, Senior Manager of Software Engineering at Salesforce, shared insights on migrating the Own Archive package into Salesforce’s Core infrastructure. This process transformed a two-year effort into just four months through AI-driven refactoring. The migration tackled challenges like undocumented legacy Apex patterns and deep dependency chains, ensuring a fully native product that enhances security and reliability&amp;hellip;.</description>
+    </item>
+    <item>
       <title>New Livestream: Engineers Talk About Spring Boot 4, Life, and Other Stuff</title>
       <link>/articles/article-2025-12-01-13159/</link>
       <pubDate>Mon, 01 Dec 2025 14:22:36 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13159/</guid>
       <description>🚀 Join us for an insightful livestream featuring the Spring team and Evgeny Borisov! 🗓️ Date: December 11, 2025 🕓 Time: 4:00–5:00 pm UTC We&amp;rsquo;ll dive into the latest updates in Spring Boot 4, explore how they enhance developer productivity, and discuss migration considerations. The session will also cover community insights and more. Don&amp;rsquo;t miss this opportunity to learn from the experts! #SpringBoot #JavaDevelopment #IntelliJIDEA #Livestream #TechTalks</description>
+    </item>
+    <item>
+      <title>Terraform search and import: Find resources and bring them into Terraform</title>
+      <link>/articles/article-2025-12-01-13177/</link>
+      <pubDate>Mon, 01 Dec 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13177/</guid>
+      <description>🌐 Struggling with cloud management? You&amp;rsquo;re not alone. A recent report reveals that 97% of organizations face challenges with their cloud infrastructure, including wasted resources and configuration drift. 🚀 Introducing Terraform Search, now available in Terraform 1.14. This tool helps discover and import unmanaged resources into a unified workflow, addressing issues like governance and cloud waste. 🔍 Learn about the benefits of auditing and managing your cloud estate effectively. #Terraform&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Get 97% faster feedback with Smarter Testing by CircleCI</title>
+      <link>/articles/article-2025-12-01-13176/</link>
+      <pubDate>Mon, 01 Dec 2025 13:45:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13176/</guid>
+      <description>🚀 Fast feedback is essential for efficient software delivery. Long build and test cycles disrupt developers, causing significant productivity loss. CircleCI addresses this with Smarter Testing, reducing feedback time by up to 97%. This innovative approach runs only the necessary tests based on code changes, enhancing efficiency without compromising quality. Stay productive with faster validation! 🔧💻 #SoftwareDevelopment #CircleCI #SmarterTesting #Productivity #DevOps</description>
     </item>
     <item>
       <title>Cutting Through the Noise: Smarter Context Management for LLM-Powered Agents</title>
@@ -56,6 +91,13 @@
       <pubDate>Mon, 01 Dec 2025 13:13:47 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13151/</guid>
       <description>Unlock the potential of semantic search with Docker Model Runner! 🚀 Embedding models are crucial in AI, enabling systems to grasp meaning beyond just words. However, using hosted APIs can lead to privacy concerns and higher costs. With Docker Model Runner, you can run models locally, ensuring data control and efficiency. Learn how to implement these models for smarter searches and discover the theory behind embeddings. #AI #SemanticSearch #Docker #DataPrivacy #EmbeddingModels</description>
+    </item>
+    <item>
+      <title>Runtime Logs now appear in the dashboard 6x faster</title>
+      <link>/articles/article-2025-12-01-13162/</link>
+      <pubDate>Mon, 01 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13162/</guid>
+      <description>🚀 Exciting news for Vercel users! Runtime Logs now load up to 6x faster in the dashboard. You can see 90% of log entries within just 5 seconds of execution. Filtering and querying are also enhanced, with 80% of filter counts resolving in under 1 second. This makes Live Mode a more efficient experience. #Vercel #RuntimeLogs #PerformanceUpgrade #TechNews</description>
     </item>
     <item>
       <title>How to set up Red Hat Lightspeed Model Context Protocol</title>
@@ -76,7 +118,14 @@
       <link>/articles/article-2025-12-01-13161/</link>
       <pubDate>Mon, 01 Dec 2025 07:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13161/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://supabase.com/feed.xml&#34;&gt;Supabase Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://supabase.com/blog/vector-buckets&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news from Supabase! They have launched &lt;strong&gt;Vector Buckets&lt;/strong&gt;, a new storage option that combines durability with built-in similarity search. This feature offers an efficient way to manage large datasets, catering to modern app needs like semantic search and recommendations. You can now choose between &lt;strong&gt;pgvector&lt;/strong&gt; for smaller datasets or &lt;strong&gt;Vector Buckets&lt;/strong&gt; for storing millions of vectors seamlessly. Explore the potential of Vector Buckets today! 🌐🔍 #Supabase #VectorStorage&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Replicate is joining Cloudflare</title>
+      <link>/articles/article-2025-12-01-13178/</link>
+      <pubDate>Mon, 01 Dec 2025 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13178/</guid>
+      <description>🚀 Exciting news! Replicate is now part of Cloudflare! Since 2019, Replicate has focused on making AI models accessible to developers, enabling them to create innovative applications. Their journey began with tools like Cog and evolved into a platform that supports running models in the cloud. Cloudflare&amp;rsquo;s robust infrastructure will enhance Replicate&amp;rsquo;s offerings, allowing for faster, edge-based AI solutions and more complex application stacks. Together, they aim to redefine AI infrastructure&amp;hellip;.</description>
     </item>
     <item>
       <title>Top announcements of AWS re:Invent 2025</title>
@@ -135,6 +184,13 @@
       <description>🎉 Celebrating 10 years of Grab&amp;rsquo;s Bug Bounty Program with HackerOne! From a small group of 23 researchers, we&amp;rsquo;ve grown into a global community of over 850 security experts. Together, we protect 187 million users across Southeast Asia. Our program adapts to new threats and includes initiatives like mobile security and exclusive global campaigns to enhance collaboration. Here’s to continued partnerships and a secure digital future! 🌏🔐 #Cybersecurity #BugBounty #Collaboration #Grab #HackerOne</description>
     </item>
     <item>
+      <title>CrowdStrike Unveils Real-Time Cloud Detection and Response Innovations</title>
+      <link>/articles/article-2025-12-01-13174/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13174/</guid>
+      <description>🚀 CrowdStrike has unveiled new cloud detection and response (CDR) capabilities aimed at enhancing security for hybrid and multi-cloud environments. These innovations allow security teams to detect and respond to threats in seconds, significantly reducing the mean time to respond (MTTR). The need for effective CDR is underscored by a 40% rise in cloud intrusions, particularly from China-nexus adversaries, as highlighted in the CrowdStrike 2025 Threat Hunting Report. Stay informed and&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elastic and Accenture Collaboration on Data Readiness for GenAI</title>
       <link>/articles/article-2025-12-01-13156/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
@@ -156,11 +212,25 @@
       <description>🚀 Exciting news for developers! The Netlify Vite Plugin now supports AI Gateway in local development. You can simply use &lt;code&gt;npm run dev&lt;/code&gt; to access AI Gateway, eliminating the previous need for &lt;code&gt;netlify dev&lt;/code&gt;. This update streamlines the developer experience for Vite frameworks like Astro. Enjoy improved compatibility with AI coding agents and automated workflows. Learn more in the documentation! 📚 #Netlify #VitePlugin #AIGateway #WebDevelopment #DeveloperExperience</description>
     </item>
     <item>
+      <title>Next.js 16: What’s New for Authentication and Authorization</title>
+      <link>/articles/article-2025-12-01-13175/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13175/</guid>
+      <description>🚀 Next.js 16 introduces key updates for authentication and authorization, enhancing security for developers. The framework now features a renamed middleware file, changing from middleware.ts to proxy.ts. This change clarifies its role as a routing layer, streamlining request interception. With the new proxy.ts, developers can implement lightweight authentication checks effectively. However, complex session management and authorization should be handled closer to data. #Nextjs16&amp;hellip;</description>
+    </item>
+    <item>
       <title>Pioneering Elastic among first partners with AWS Agentic AI Specialization</title>
       <link>/articles/article-2025-12-01-13157/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13157/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.elastic.co/blog/feed&#34;&gt;Elastic Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/blog/elastic-aws-competency-agentic-ai&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news! Elastic has achieved the AWS Agentic AI Specialization, making it one of the first partners to earn this distinction. This recognition highlights Elastic&amp;rsquo;s expertise in delivering agentic AI solutions that enhance business efficiency, creativity, and productivity on AWS. The accomplishment follows a thorough validation process, showcasing Elastic&amp;rsquo;s innovative capabilities and customer success stories. This milestone reinforces Elastic&amp;rsquo;s role in shaping transformative use&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Transform AWS Security Operations with Falcon Next-Gen SIEM</title>
+      <link>/articles/article-2025-12-01-13173/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13173/</guid>
+      <description>🚀 CrowdStrike is enhancing AWS security with the Falcon Next-Gen SIEM. This innovation includes simplified onboarding, flexible pricing, and new integrations for better cost efficiency. Key features: 🔹 Quick Start for AWS 🔹 Pay-as-you-go pricing 🔹 Expanded integration with Amazon Athena These advancements aim to help SOC teams detect and respond to threats more effectively across cloud environments. #AWS #CrowdStrike #CyberSecurity #SIEM #CloudSecurity</description>
     </item>
     <item>
       <title>Is Using Command Line AI an Option for Helping You Code?</title>

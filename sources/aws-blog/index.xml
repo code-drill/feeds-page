@@ -6,8 +6,57 @@
     <description>Recent content in AWS-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Nov 2025 16:21:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 02:17:13 +0000</lastBuildDate>
     <atom:link href="/sources/aws-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top announcements of AWS re:Invent 2025</title>
+      <link>/articles/article-2025-12-01-13141/</link>
+      <pubDate>Mon, 01 Dec 2025 02:17:13 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13141/</guid>
+      <description>🚀 AWS re:Invent 2025 has unveiled significant innovations across various domains! Key highlights include: 📊 &lt;strong&gt;Analytics&lt;/strong&gt;: AWS Clean Rooms enables privacy-preserving dataset generation for ML training. ⚙️ &lt;strong&gt;Compute&lt;/strong&gt;: AWS Lambda Managed Instances combine serverless simplicity with EC2 flexibility. ☁️ &lt;strong&gt;Containers&lt;/strong&gt;: Amazon EKS enhances Kubernetes development with managed capabilities. 🔒 &lt;strong&gt;Security&lt;/strong&gt;: IAM Policy Autopilot simplifies policy creation with AI assistance. For ongoing updates,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Amazon Route 53 Global Resolver for secure anycast DNS resolution (preview)</title>
+      <link>/articles/article-2025-12-01-13142/</link>
+      <pubDate>Mon, 01 Dec 2025 01:56:16 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13142/</guid>
+      <description>🚀 Amazon has launched the Route 53 Global Resolver, enhancing DNS resolution for hybrid environments. This service simplifies management by resolving both public and private domains globally, reducing operational complexity and costs. It offers built-in security features, including DNS traffic filtering and encrypted queries. With support for various protocols and integrated security controls, network administrators can streamline operations while maintaining compliance. Learn more about this&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Clean Rooms launches privacy-enhancing synthetic dataset generation for ML model training</title>
+      <link>/articles/article-2025-12-01-13143/</link>
+      <pubDate>Mon, 01 Dec 2025 01:55:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13143/</guid>
+      <description>🚀 Exciting news from AWS Clean Rooms! They have launched a new feature for generating privacy-enhancing synthetic datasets. This allows organizations to train machine learning models on sensitive collaborative data without compromising individual privacy. By preserving statistical patterns, this technology addresses the challenges of using granular data while ensuring compliance with privacy regulations. Organizations can now control privacy parameters and gain insights into the quality of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Partner Central now available in AWS Management Console</title>
+      <link>/articles/article-2025-12-01-13144/</link>
+      <pubDate>Mon, 01 Dec 2025 01:55:48 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13144/</guid>
+      <description>🚀 Exciting news for AWS customers! AWS Partner Central is now integrated into the AWS Management Console. This change simplifies the transition from customer to Partner, allowing easy access to solutions, opportunities, and AWS Marketplace listings—all in one place. The new console experience enables existing customers to explore partnership benefits without needing separate logins. You can manage your infrastructure and AWS Marketplace business together, streamlining workflows for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing AWS Lambda Managed Instances: Serverless simplicity with EC2 flexibility</title>
+      <link>/articles/article-2025-12-01-13145/</link>
+      <pubDate>Mon, 01 Dec 2025 01:55:39 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13145/</guid>
+      <description>🚀 AWS has introduced Lambda Managed Instances, allowing users to run Lambda functions on EC2 while enjoying serverless simplicity. This new capability enables access to specialized hardware and cost optimizations without the typical infrastructure management burden. AWS manages instance lifecycle, OS patching, and scaling. Lambda Managed Instances also support multiple requests per environment, leading to reduced compute consumption and potential savings of up to 72% through EC2 pricing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Simplify IAM policy creation with IAM Policy Autopilot, a new open source MCP server for builders</title>
+      <link>/articles/article-2025-12-01-13146/</link>
+      <pubDate>Mon, 01 Dec 2025 01:55:28 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13146/</guid>
+      <description>🚀 Introducing IAM Policy Autopilot, an open-source tool designed to streamline your AWS development! This new Model Context Protocol (MCP) server analyzes your application code to generate accurate IAM policies, integrating seamlessly with AI coding assistants like Kiro and Claude Code. With IAM Policy Autopilot, you can quickly create valid policies, reducing time spent on permission management. It stays updated with the latest AWS services, ensuring you have the necessary permissions to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing Amazon EKS Capabilities for workload orchestration and cloud resource management</title>
+      <link>/articles/article-2025-12-01-13147/</link>
+      <pubDate>Mon, 01 Dec 2025 01:55:10 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13147/</guid>
+      <description>🚀 Amazon has announced new capabilities for Elastic Kubernetes Service (EKS) to improve workload orchestration and cloud resource management. These fully managed solutions, including Argo CD, AWS Controllers for Kubernetes, and Kube Resource Orchestrator, simplify Kubernetes development by eliminating the need for infrastructure maintenance. With AWS handling scaling and updates, developers can focus on building applications without worrying about underlying components. #AmazonEKS #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>Amazon Route 53 launches Accelerated recovery for managing public DNS records</title>
       <link>/articles/article-2025-11-26-13072/</link>

@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AWS-Blog | Daily Tech Articles Feed</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>📡</text></svg>">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #fff;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        
+         
+        .header { 
+            background: #f8f9fa; 
+            border-bottom: 1px solid #e9ecef; 
+            padding: 10px 0;
+        }
+        .header .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+        .header h1 a {
+            color: #333;
+            text-decoration: none;
+        }
+        .header h1 a:hover {
+            color: #337ab7;
+        }
+        .nav { 
+            margin-top: 10px;
+        }
+        .nav a { 
+            color: #666; 
+            text-decoration: none; 
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover { 
+            color: #333; 
+            text-decoration: underline;
+        }
+        
+         
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+         
+        .articles-list { 
+            margin-top: 20px;
+        }
+        
+         
+        .day-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .day-label:first-child {
+            margin-top: 20px;
+        }
+        
+        .article-item { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .article-item:last-child { 
+            border-bottom: none; 
+        }
+        .article-item h2 { 
+            margin: 0 0 8px 0; 
+            font-size: 18px; 
+            line-height: 1.3;
+        }
+        .article-item h2 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .article-item h2 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .publication-date { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 15px;
+        }
+        .source { 
+            font-size: 13px; 
+            color: #337ab7; 
+            margin-bottom: 6px;
+        }
+        .source a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #286090;
+        }
+        .author { 
+            font-size: 13px; 
+            color: #666; 
+            margin-bottom: 6px;
+        }
+        .author::before {
+            content: "Author: ";
+        }
+        
+         
+        .summary { 
+            color: #555; 
+            line-height: 1.4; 
+            margin-bottom: 8px;
+        }
+        
+         
+        .categories { 
+            margin-bottom: 8px;
+        }
+        .categories::before {
+            content: "Category: ";
+            font-size: 13px;
+            color: #666;
+        }
+        .category-text { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category-text:hover { 
+            color: #286090;
+        }
+        .category { 
+            font-size: 13px; 
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .category:hover { 
+            color: #286090;
+        }
+        
+         
+        .pagination-info { 
+            text-align: center; 
+            margin: 20px 0; 
+            color: #666; 
+            font-size: 14px;
+        }
+        .pagination { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            margin: 30px 0; 
+            flex-wrap: wrap;
+        }
+        .pagination-numbers { 
+              
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+        .pagination-link { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            border: 1px solid #ddd; 
+            text-decoration: none; 
+            color: #333; 
+            background: #fff;
+            margin-bottom: 5px;
+        }
+        .pagination-link:hover { 
+            background: #f0f0f0; 
+            border-color: #ccc;
+        }
+        .pagination-current { 
+            display: inline-block; 
+            padding: 6px 10px; 
+            background: #333; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+         
+        .filters-container { 
+            margin-bottom: 25px; 
+            padding: 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .filter-section { 
+            margin-bottom: 18px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section h3 { 
+            margin: 0 0 12px 0; 
+            color: #333; 
+            font-size: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0066cc;
+            display: inline-block;
+        }
+        .filter-options { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px;
+        }
+        .filter-link { 
+            display: inline-block; 
+            padding: 6px 12px; 
+            background: transparent; 
+            color: #337ab7; 
+            text-decoration: none; 
+            font-size: 13px;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        .filter-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        .filter-link.all-link { 
+            background: transparent; 
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .filter-link.all-link:hover { 
+            background: #286090;
+            color: white;
+        }
+        
+         
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .filter-toggle {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #337ab7;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            transition: transform 0.2s ease;
+        }
+        .filter-toggle:hover {
+            color: #286090;
+        }
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-content.collapsed {
+            max-height: 0;
+        }
+        .filter-content.expanded {
+            max-height: 500px;
+        }
+        .show-more-btn {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            color: #337ab7;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .show-more-btn:hover {
+            background: #e9ecef;
+            color: #286090;
+        }
+        
+         
+        .filter-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            background: white;
+            color: #333;
+        }
+        .filter-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.1);
+        }
+        .filter-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        
+         
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { color: #337ab7; text-decoration: none; }
+        .breadcrumb a:hover { color: #286090; }
+        
+         
+        .taxonomy-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .taxonomy-item { padding: 15px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+        .taxonomy-item h3 { margin: 0 0 5px 0; display: flex; align-items: center; gap: 8px; }
+        .taxonomy-item .count { color: #666; font-size: 14px; font-weight: normal; }
+        .taxonomy-item .taxonomy-description { color: #666; font-size: 14px; margin: 0; }
+        .taxonomy-item h3 a { 
+            color: #337ab7; 
+            text-decoration: none; 
+        }
+        .taxonomy-item h3 a:hover { 
+            color: #286090; 
+            text-decoration: underline;
+        }
+        
+         
+        .site-footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e9ecef;
+            background: #f8f9fa;
+        }
+        .footer-text {
+            text-align: center;
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+        .author-link {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .author-link:hover {
+            color: #286090;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                padding: 15px;
+            }
+            
+             
+            .filters-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .filter-section {
+                margin-bottom: 15px;
+            }
+            .filter-section h3 {
+                font-size: 15px;
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
+            .filter-content {
+                margin-top: 8px;
+            }
+            .filter-content.collapsed {
+                max-height: 0;
+                margin-top: 0;
+            }
+            .filter-options { 
+                justify-content: flex-start;
+                gap: 6px;
+            }
+            .filter-link {
+                padding: 4px 8px;
+                font-size: 11px;
+                border-radius: 12px;
+                min-height: 36px;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+            
+             
+            .filter-content {
+                max-height: 0;
+            }
+            .filter-content.expanded {
+                max-height: none;
+                overflow-y: auto;
+                max-height: 60vh;
+            }
+            
+             
+            .filter-input {
+                font-size: 13px;
+                padding: 6px 10px;
+                margin-bottom: 10px;
+            }
+            
+            .pagination { 
+                flex-direction: column; 
+                gap: 10px;
+            }
+            .pagination-numbers { 
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Articles from Source: AWS-Blog</h1>
+    
+    <nav class="breadcrumb">
+        <a href="/">← Back to all articles</a>
+    </nav>
+    
+    
+    <div class="articles-list">
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-amazon-neptune-and-more-september-8-2025/" target="_blank">AWS Weekly Roundup: AWS Transform, Amazon Neptune, and more (September 8, 2025)</a></h2>
+            <div class="publication-date">2025-09-08 17:20</div>
+            <div class="summary">🌟 Exciting updates in the AWS community! AWS Community Day 2025 is set for September 24 in Utrecht, bringing together over 500 cloud practitioners. The event will feature 25 breakout sessions focused on serverless architectures and container optimization. 📈 Recent AWS announcements include enhancements to AWS Transform, which now analyzes detached storage infrastructure for migration cost comparisons. Additionally, Amazon Bedrock introduces Global Cross-Region inference for Claude Sonnet 4,...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Esra Kayabali</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-new-zealand-region/" target="_blank">Now Open — AWS Asia Pacific (New Zealand) Region</a></h2>
+            <div class="publication-date">2025-09-01 22:06</div>
+            <div class="summary">🚀 AWS has officially launched its first New Zealand Region with three Availability Zones! This new infrastructure allows local organizations to store data and run workloads securely within New Zealand, enhancing performance and reducing latency. The investment of NZD $7.5 billion is projected to boost the GDP by NZD $10.8 billion and create 1,000 jobs annually. Since establishing its presence in 2013, AWS has expanded its services to improve connectivity and support compliance with multiple...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Donnie Prakoso</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-amazon-q-developer-ipv6-updates-and-more-september-1-2025/" target="_blank">AWS Weekly Roundup: Amazon EC2, Amazon Q Developer, IPv6 updates, and more (September 1, 2025)</a></h2>
+            <div class="publication-date">2025-09-01 12:59</div>
+            <div class="summary">📅 This week, the AWS Heroes Summit in Seattle highlighted the contributions of the AWS Heroes community. These exceptional individuals share their expertise through content creation, speaking, and open-source projects. 🤝 The summit provided a platform for networking and collaboration, with discussions on AWS roadmaps and direct feedback opportunities to AWS service teams. 🚀 Notable launches included IPv6 support for AWS App Runner, AWS Client VPN, and RDS Data API, enhancing connectivity...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Sébastien Stormacq</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/event" class="category-text">Event</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/" target="_blank">New general-purpose Amazon EC2 M8i and M8i Flex instances are now available</a></h2>
+            <div class="publication-date">2025-08-28 19:35</div>
+            <div class="summary">🚀 Exciting news for cloud users! Amazon has launched the M8i and M8i-Flex EC2 instances powered by Intel Xeon processors. These new instances offer up to 15% better price performance and 20% higher performance than previous generations. They&#39;re designed for general workloads like web applications, databases, and AI models. M8i instances also provide enhanced network and EBS bandwidth, improving performance across various applications. #AmazonEC2 #CloudComputing #TechUpdates #AWS #IntelXeon</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Channy Yun (윤석찬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-services-scale-to-new-heights-for-prime-day-2025-key-metrics-and-milestones/" target="_blank">AWS services scale to new heights for Prime Day 2025: key metrics and milestones</a></h2>
+            <div class="publication-date">2025-08-26 16:06</div>
+            <div class="summary">🚀 Amazon Prime Day 2025 set new sales records, driven by enhanced AI features and AWS infrastructure. Prime members enjoyed billions in savings, utilizing tools like Alexa&#43; and AI Shopping Guides for a seamless shopping experience. Key AWS metrics include 1.7 trillion Lambda invocations and a 160% increase in robot commands, showcasing massive scalability. #AmazonPrimeDay #AWS #AIShopping #Ecommerce #TechInnovation</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Channy Yun (윤석찬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-aurora-10th-anniversary-amazon-ec2-r8-instances-amazon-bedrock-and-more-august-25-2025/" target="_blank">AWS Weekly Roundup: Amazon Aurora 10th anniversary, Amazon EC2 R8 instances, Amazon Bedrock and more (August 25, 2025)</a></h2>
+            <div class="publication-date">2025-08-25 16:30</div>
+            <div class="summary">🌟 Exciting week in AWS! Amazon Aurora celebrates 10 years of innovation, revolutionizing database technology with features like serverless capabilities and generative AI support. 🎉 New AWS launches include customizable dashboards in Billing and Cost Management, and enhanced access to OpenAI models through Amazon Bedrock. Check out the latest advancements! 🚀 #AWS #AmazonAurora #CloudComputing #DatabaseInnovation #OpenAI</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Betty Zheng (郑予彬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/" target="_blank">Best performance and fastest memory with the new Amazon EC2 R8i and R8i-flex instances</a></h2>
+            <div class="publication-date">2025-08-19 19:16</div>
+            <div class="summary">🚀 Amazon has launched the new R8i and R8i-flex instances, optimized for memory and powered by Intel Xeon processors. These instances offer 15% better price performance, 20% higher performance, and 2.5 times more memory throughput than previous generations. Ideal for memory-intensive workloads like SQL databases and real-time analytics, R8i instances scale up to 96xlarge with impressive capabilities for various applications. Check it out! 💻🔍 #AmazonEC2 #CloudComputing #IntelXeon...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Veliswa Boya</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-single-gpu-p5-instances-advanced-go-driver-amazon-sagemaker-hyperpod-and-more-august-18-2025/" target="_blank">AWS Weekly Roundup: Single GPU P5 instances, Advanced Go Driver, Amazon SageMaker HyperPod and more (August 18, 2025)</a></h2>
+            <div class="publication-date">2025-08-18 15:39</div>
+            <div class="summary">🚀 Exciting updates from AWS this week! The upcoming BeSA (Become a Solutions Architect) cohort starts on September 6, offering free mentoring to enhance cloud careers. Learn more on the BeSA website. New launches include: - **Amazon EC2 Single GPU P5 instances** for cost-effective ML and HPC. - **AWS Advanced Go Driver** for improved database performance. - Enhanced **Cilium support** for Amazon EKS Hybrid Nodes. For AI enthusiasts, **Amazon SageMaker HyperPod** now supports advanced features...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Prasad Rao</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-2025-gartner-magic-quadrant-for-strategic-cloud-platform-services-for-15-years-in-a-row/" target="_blank">AWS named as a Leader in 2025 Gartner Magic Quadrant for Strategic Cloud Platform Services for 15 years in a row</a></h2>
+            <div class="publication-date">2025-08-15 16:59</div>
+            <div class="summary">🎉 AWS has been named a Leader in the 2025 Gartner Magic Quadrant for Strategic Cloud Platform Services for the 15th year in a row! Gartner recognized AWS for its strong “Ability to Execute,” highlighting its commitment to delivering extensive capabilities, security, and performance for critical applications. AWS boasts the largest global cloud community, custom silicon designs, and a robust network of integration partners, all contributing to successful cloud adoption. Explore the AWS Builder...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Channy Yun (윤석찬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/celebrating-10-years-of-amazon-aurora-innovation/" target="_blank">Celebrating 10 years of Amazon Aurora innovation</a></h2>
+            <div class="publication-date">2025-08-15 16:01</div>
+            <div class="summary">🎉 Celebrating 10 years of Amazon Aurora! Join us for a livestream event on August 21, 2025, marking a decade of innovation in database technology. Amazon Aurora revolutionized the industry with its unique architecture, offering high performance and 99.99% availability at a fraction of the cost. Key milestones include the launch in 2015, the introduction of serverless capabilities in 2018, and ongoing enhancements focused on security, scalability, and cost management. #AmazonAurora...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Sébastien Stormacq</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/meet-our-newest-aws-heroes-august-2025/" target="_blank">Meet our newest AWS Heroes — August 2025</a></h2>
+            <div class="publication-date">2025-08-13 16:17</div>
+            <div class="summary">🚀 Exciting news! We proudly introduce the latest cohort of AWS Heroes for August 2025. These individuals are recognized for their outstanding contributions to the AWS community. 🌍 From AI and machine learning to serverless architectures, they bring diverse expertise and a strong commitment to knowledge sharing. Join us in welcoming Kristine Armiyants, Nadia Reyhani, and Raphael Manke, who are shaping the future of cloud computing and inspiring the next generation! 💡 #AWSHeroes #CloudComputing...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Taylor Jacobsen</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-models-automated-reasoning-checks-amazon-evs-and-more-august-11-2025/" target="_blank">AWS Weekly Roundup: OpenAI models, Automated Reasoning checks, Amazon EVS, and more (August 11, 2025)</a></h2>
+            <div class="publication-date">2025-08-11 16:05</div>
+            <div class="summary">🌍 AWS Summits in Mexico City and Jakarta brought together the community for learning and networking. 🚀 Key highlights include the availability of OpenAI models on AWS, which excel in coding and analysis. 🛠️ The new Amazon Elastic VMware Service allows running VMware environments in Amazon VPC. 🔍 Automated Reasoning checks are now available to validate content accuracy from AI models. 📈 Additional updates include expanded Amazon SQS message sizes and AWS Lambda support for GitHub Actions. #AWS...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Veliswa Boya</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/minimize-ai-hallucinations-and-deliver-up-to-99-verification-accuracy-with-automated-reasoning-checks-now-available/" target="_blank">Minimize AI hallucinations and deliver up to 99% verification accuracy with Automated Reasoning checks: Now available</a></h2>
+            <div class="publication-date">2025-08-06 15:06</div>
+            <div class="summary">🚀 Exciting news for AI developers! Amazon has launched Automated Reasoning checks, a new feature in Amazon Bedrock Guardrails. This tool offers up to 99% verification accuracy to minimize AI hallucinations and ensure data accuracy. Key features include support for large documents, simplified policy validation, and automated scenario generation. This will enhance the reliability of AI-generated content. Learn how to create policies using this tool to maintain strict adherence to rules in...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Danilo Poccia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/openai-open-weight-models-now-available-on-aws/" target="_blank">OpenAI open weight models now available on AWS</a></h2>
+            <div class="publication-date">2025-08-06 05:56</div>
+            <div class="summary">🚀 Exciting news for developers! OpenAI&#39;s open weight models are now available on AWS through Amazon Bedrock and Amazon SageMaker JumpStart. These models, gpt-oss-120b and gpt-oss-20b, are designed for text generation and reasoning tasks, providing flexibility and control over your projects. With a 128K context window and adjustable reasoning levels, they offer enhanced capabilities for coding, scientific analysis, and more. Explore and innovate with ease in a seamless environment! #OpenAI...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Danilo Poccia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-elastic-vmware-service-for-running-vmware-cloud-foundation-on-aws/" target="_blank">Introducing Amazon Elastic VMware Service for running VMware Cloud Foundation on AWS</a></h2>
+            <div class="publication-date">2025-08-05 17:08</div>
+            <div class="summary">🚀 Exciting news for organizations looking to migrate VMware workloads to the cloud! AWS has launched the Amazon Elastic VMware Service (Amazon EVS), which allows users to run VMware Cloud Foundation environments directly within Amazon VPCs. This service simplifies migration while maintaining existing tools and practices. With Amazon EVS, you can deploy fully functional environments in just a few hours, ensuring minimal disruption and full control over your cloud resources. 🌥️ Key features...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Micah Walter</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-documentdb-aws-lambda-amazon-ec2-and-more-august-4-2025/" target="_blank">AWS Weekly Roundup: Amazon DocumentDB, AWS Lambda, Amazon EC2, and more (August 4, 2025)</a></h2>
+            <div class="publication-date">2025-08-04 16:23</div>
+            <div class="summary">🚀 This week, AWS announced several key updates across its services. 🔹 Amazon DocumentDB Serverless is now live, providing a fully managed MongoDB API-compatible database. 🔹 The Amazon Q Developer CLI allows for custom agent creation to streamline specialized tasks. 🔹 Amazon Bedrock now supports DOC/DOCX files and H.265 video files for enhanced data processing. 🔹 AWS Lambda increases response streaming payload size to 200 MB, improving performance. For the full details, check the article! #AWS...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Danilo Poccia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-application-recovery-controller-region-switch-a-multi-region-application-recovery-service/" target="_blank">Introducing Amazon Application Recovery Controller Region switch: A multi-Region application recovery service</a></h2>
+            <div class="publication-date">2025-08-01 15:10</div>
+            <div class="summary">🚀 Introducing the Amazon Application Recovery Controller (ARC) Region switch! This feature allows organizations to efficiently plan and execute failover operations between AWS Regions. It automates workflows and continuously validates recovery processes, enhancing confidence in your Region failover strategy. With ARC Region switch, you can create detailed recovery plans for seamless transitions, ensuring your critical applications remain resilient during operational events. Learn more about...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Sébastien Stormacq</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://aws.amazon.com/blogs/aws/amazon-documentdb-serverless-is-now-available/" target="_blank">Amazon DocumentDB Serverless is now available</a></h2>
+            <div class="publication-date">2025-07-31 15:00</div>
+            <div class="summary">🚀 Exciting news for developers! Amazon DocumentDB Serverless is now available. This new configuration automatically adjusts compute and memory based on your application&#39;s needs, leading to potential cost savings of up to 90% compared to peak provisioning. It supports the same MongoDB compatible APIs and offers seamless scaling without data migration. Key benefits include handling variable workloads, managing multi-tenant environments, and balancing mixed-use workloads efficiently. For steady...</div>
+            <div class="source">Source: AWS Blog</div>
+            
+            <div class="author">Channy Yun (윤석찬)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+    </div>
+    
+    
+    <nav class="pagination">
+        
+        <a href="/sources/aws-blog/page/2/" class="pagination-link">&laquo; Previous</a>
+        
+        
+        <div class="pagination-numbers">
+            
+            
+            <a href="/sources/aws-blog/" class="pagination-link">1</a>
+            
+            
+            
+            <a href="/sources/aws-blog/page/2/" class="pagination-link">2</a>
+            
+            
+            
+            <span class="pagination-current">3</span>
+            
+            
+        </div>
+        
+        
+    </nav>
+    
+</div>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">
+                Contents © 2025 <a href="#" id="author-email" class="author-link">Michał Rutkowski</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function fixEmojiEncoding(text) {
+                
+                var fixed = text
+                    
+                    .replace(/ð���/g, '🚀')  
+                    .replace(/ð��»/g, '👨‍💻')  
+                    .replace(/ð���/g, '🎯')  
+                    .replace(/ð��§/g, '🔧')  
+                    .replace(/ð��¡/g, '💡')  
+                    .replace(/ð���/g, '🔒')  
+                    .replace(/ð��¡ï¸�/g, '🛡️')  
+                    .replace(/ð���ï¸�/g, '⚗️')  
+                    .replace(/ð��¬/g, '🚀')  
+                    .replace(/ð���/g, '📊')  
+                    .replace(/ð��/g, '📈')  
+                    .replace(/ð�¤�/g, '🤖')  
+                    
+                    
+                    .replace(/ð/g, '🚀')     
+                    
+                    
+                    .replace(/�/g, '');     
+                
+                return fixed;
+            }
+            
+            
+            function fixAllText(element) {
+                if (element.nodeType === Node.TEXT_NODE) {
+                    var original = element.textContent;
+                    
+                    if (original.includes('ð') || original.includes('�')) {
+                        var fixed = fixEmojiEncoding(original);
+                        if (fixed !== original) {
+                            element.textContent = fixed;
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < element.childNodes.length; i++) {
+                        fixAllText(element.childNodes[i]);
+                    }
+                }
+            }
+            
+            
+            fixAllText(document.body);
+        });
+        
+        
+        function toggleFilter(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById(sectionId + '-toggle');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            function checkScreenSize() {
+                const isMobile = window.innerWidth <= 768;
+                const categoriesContent = document.getElementById('categories-content');
+                const sourcesContent = document.getElementById('sources-content');
+                const categoriesToggle = document.getElementById('categories-toggle');
+                const sourcesToggle = document.getElementById('sources-toggle');
+                
+                if (categoriesContent && sourcesContent) {
+                    if (isMobile) {
+                        
+                        categoriesContent.classList.add('collapsed');
+                        categoriesContent.classList.remove('expanded');
+                        sourcesContent.classList.add('collapsed');
+                        sourcesContent.classList.remove('expanded');
+                        categoriesToggle.textContent = '▼';
+                        sourcesToggle.textContent = '▼';
+                    } else {
+                        
+                        categoriesContent.classList.remove('collapsed');
+                        categoriesContent.classList.add('expanded');
+                        sourcesContent.classList.remove('collapsed');
+                        sourcesContent.classList.add('expanded');
+                        categoriesToggle.textContent = '▲';
+                        sourcesToggle.textContent = '▲';
+                    }
+                }
+            }
+            
+            
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+            
+            
+            function cleanSourceNames() {
+                const sourceLinks = document.querySelectorAll('.filter-options a[href*="/sources/"]');
+                sourceLinks.forEach(link => {
+                    if (link.textContent.includes('-Blog')) {
+                        link.textContent = link.textContent.replace(/-Blog(\s*\(\d+\))?/g, '$1');
+                    }
+                });
+            }
+            
+            
+            cleanSourceNames();
+            
+            
+            clearSourcesFilter();
+            
+            
+            setupEmailLink();
+        });
+        
+        
+        function clearSourcesFilter() {
+            const sourcesInput = document.getElementById('sources-filter');
+            if (sourcesInput) {
+                sourcesInput.value = '';
+                
+                filterSources();
+            }
+        }
+        
+        
+        window.addEventListener('pageshow', function(event) {
+            clearSourcesFilter();
+        });
+        
+        
+        function filterSources() {
+            const input = document.getElementById('sources-filter');
+            const filter = input.value.toLowerCase();
+            const sourcesList = document.getElementById('sources-list');
+            const links = sourcesList.getElementsByTagName('a');
+            
+            for (let i = 0; i < links.length; i++) {
+                const link = links[i];
+                const sourceName = link.getAttribute('data-source-name') || link.textContent;
+                
+                
+                if (link.classList.contains('all-link')) {
+                    continue;
+                }
+                
+                if (sourceName.toLowerCase().indexOf(filter) > -1) {
+                    link.style.display = '';
+                } else {
+                    link.style.display = 'none';
+                }
+            }
+        }
+        
+        
+        function setupEmailLink() {
+            const emailLink = document.getElementById('author-email');
+            if (emailLink) {
+                
+                const encodedEmail = 'aG9tZWVuZEB3cC5wbA==';
+                
+                
+                const decodedEmail = atob(encodedEmail);
+                const mailtoLink = 'mailto:' + decodedEmail;
+                
+                emailLink.href = mailtoLink;
+                
+                
+                emailLink.addEventListener('click', function(e) {
+                    
+                });
+            }
+        }
+    </script>
+</body>
+</html>

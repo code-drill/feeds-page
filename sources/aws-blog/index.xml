@@ -6,8 +6,148 @@
     <description>Recent content in AWS-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 19:02:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 16:19:14 +0000</lastBuildDate>
     <atom:link href="/sources/aws-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing replication support and Intelligent-Tiering for Amazon S3 Tables</title>
+      <link>/articles/article-2025-12-02-13237/</link>
+      <pubDate>Tue, 02 Dec 2025 16:19:14 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13237/</guid>
+      <description>🚀 Exciting news for Amazon S3 Tables users! Two new features have been introduced: Intelligent-Tiering storage class and replication support. Intelligent-Tiering optimizes storage costs automatically based on access patterns, ensuring efficient data management. Replication support allows for consistent Apache Iceberg table replicas across AWS Regions and accounts without manual syncing. These updates aim to simplify storage management and enhance data accessibility. #AmazonS3 #DataManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon S3 Storage Lens adds performance metrics, support for billions of prefixes, and export to S3 Tables</title>
+      <link>/articles/article-2025-12-02-13238/</link>
+      <pubDate>Tue, 02 Dec 2025 16:15:12 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13238/</guid>
+      <description>🚀 Exciting updates for Amazon S3 Storage Lens! New features now provide enhanced insights into storage performance and usage. The addition of performance metrics, support for billions of prefixes, and export capabilities to Amazon S3 Tables will help optimize application performance and reduce costs. Performance metrics can identify issues at various levels, such as small objects that may slow down applications. Users can enable these metrics in the S3 Storage Lens advanced tier for better&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon Bedrock AgentCore adds quality evaluations and policy controls for deploying trusted AI agents</title>
+      <link>/articles/article-2025-12-02-13239/</link>
+      <pubDate>Tue, 02 Dec 2025 16:14:36 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13239/</guid>
+      <description>🚀 Amazon Bedrock AgentCore has introduced new features to enhance AI agent deployment. These updates include quality evaluations and policy controls, allowing organizations to set clear boundaries for agent actions and monitor their performance continuously. For instance, the PGA TOUR has achieved a 1,000% increase in content writing speed while significantly reducing costs. Similarly, Workday&amp;rsquo;s Planning Agent utilizes secure data features to streamline financial planning, saving users around&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build multi-step applications and AI workflows with AWS Lambda durable functions</title>
+      <link>/articles/article-2025-12-02-13240/</link>
+      <pubDate>Tue, 02 Dec 2025 16:12:19 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13240/</guid>
+      <description>🚀 AWS has introduced durable functions for Lambda, enabling the development of reliable multi-step applications. These functions allow coordination over extended periods, from seconds to a year, without incurring costs during idle times. They simplify state management and failure handling, crucial for tasks like payment processing and approvals. Key features include automatic retries, checkpointing, and the ability to pause execution efficiently. Get started by creating a new function and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New capabilities to optimize costs and improve scalability on Amazon RDS for SQL Server and Oracle</title>
+      <link>/articles/article-2025-12-02-13241/</link>
+      <pubDate>Tue, 02 Dec 2025 16:09:29 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13241/</guid>
+      <description>📢 New features for Amazon RDS enhance efficiency and scalability! Organizations can now manage their SQL Server and Oracle databases with improved options. Key updates include support for SQL Server Developer Edition, allowing cost-effective testing without licensing fees. Additionally, the new M7i/R7i instances offer optimized CPU performance and significant savings—up to 55% lower costs compared to previous generations. Explore these enhancements for better resource management! 💻💡&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Database Savings Plans for AWS Databases</title>
+      <link>/articles/article-2025-12-02-13242/</link>
+      <pubDate>Tue, 02 Dec 2025 16:09:26 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13242/</guid>
+      <description>🚀 AWS has introduced Database Savings Plans to help customers reduce database costs by up to 35%. These plans offer flexibility for managing usage across different database services, engines, and AWS Regions. Customers can maintain predictable spending and benefit from discounts on both provisioned and serverless deployments. Savings automatically apply to eligible usage each hour, allowing organizations to optimize costs even as their needs evolve. For more details, visit the Database&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon CloudWatch introduces unified data management and analytics for operations, security, and compliance</title>
+      <link>/articles/article-2025-12-02-13243/</link>
+      <pubDate>Tue, 02 Dec 2025 16:07:11 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13243/</guid>
+      <description>🚀 Amazon CloudWatch has enhanced its capabilities for unified data management and analytics. Now, it automatically normalizes log data from various sources, integrating seamlessly with formats like OCSF and Apache Iceberg. This simplifies data ingestion and reduces costs by eliminating the need for multiple storage solutions. Users can run queries effortlessly using natural language or popular query languages. The new features promote better insights across operational, security, and business&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New and enhanced AWS Support plans add AI capabilities to expert guidance</title>
+      <link>/articles/article-2025-12-02-13244/</link>
+      <pubDate>Tue, 02 Dec 2025 16:07:03 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13244/</guid>
+      <description>🚀 AWS has announced new Support plans that integrate AI capabilities with expert guidance. These plans shift from reactive problem-solving to proactive issue prevention, helping businesses avoid cloud infrastructure issues before they arise. Three tiers are available, each offering unique features and faster response times. For example, the Business Support+ plan provides intelligent assistance and 30-minute response times for critical cases. Enterprise Support enhances operations with a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon OpenSearch Service improves vector database performance and cost with GPU acceleration and auto-optimization</title>
+      <link>/articles/article-2025-12-02-13245/</link>
+      <pubDate>Tue, 02 Dec 2025 16:06:41 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13245/</guid>
+      <description>🚀 Amazon OpenSearch Service has introduced GPU acceleration and auto-optimization for vector databases. These features enable users to build large-scale vector databases up to 10 times faster and at a quarter of the cost compared to traditional methods. With auto-optimization, you can balance search quality, speed, and resource usage without needing specialized knowledge. This advancement supports applications like generative AI and enhances search capabilities. #AmazonOpenSearch&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon S3 Vectors now generally available with increased scale and performance</title>
+      <link>/articles/article-2025-12-02-13246/</link>
+      <pubDate>Tue, 02 Dec 2025 16:06:11 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13246/</guid>
+      <description>🚀 Amazon S3 Vectors is now generally available, offering impressive scale and performance for vector storage. Users can store up to 2 billion vectors in a single index and perform queries with latencies around 100ms. This update supports up to 1,000 PUT transactions per second, enhancing write performance significantly. With a fully serverless architecture, you only pay for what you use. S3 Vectors can now be utilized in 14 AWS Regions, expanding its accessibility. #AmazonS3 #CloudStorage&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon Bedrock adds 18 fully managed open weight models, including the new Mistral Large 3 and Ministral 3 models</title>
+      <link>/articles/article-2025-12-02-13247/</link>
+      <pubDate>Tue, 02 Dec 2025 16:05:57 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13247/</guid>
+      <description>🚀 Amazon Bedrock has launched 18 new fully managed open weight models, including the Mistral Large 3 and Ministral 3 series. These models come from top AI providers like Google, NVIDIA, and OpenAI, expanding Bedrock&amp;rsquo;s offerings to nearly 100 serverless models. Customers can now access these models via a unified API, streamlining evaluation and deployment without infrastructure changes. Explore new capabilities tailored to various performance needs! 🤖💡 #AmazonBedrock #AIModels #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Amazon EC2 X8aedz instances powered by 5th Gen AMD EPYC processors for memory-intensive workloads</title>
+      <link>/articles/article-2025-12-02-13248/</link>
+      <pubDate>Tue, 02 Dec 2025 16:05:44 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13248/</guid>
+      <description>🚀 Amazon has launched the new EC2 X8aedz instances, featuring 5th Gen AMD EPYC processors. These memory-optimized instances offer speeds up to 5 GHz and provide up to 3 TiB of memory, enhancing performance for electronic design automation and memory-intensive databases. With a 32:1 memory-to-vCPU ratio, they excel in high single-threaded tasks and are available in various sizes. #AmazonEC2 #CloudComputing #AMD #TechNews #Innovation</description>
+    </item>
+    <item>
+      <title>AWS DevOps Agent helps you accelerate incident response and improve system reliability (preview)</title>
+      <link>/articles/article-2025-12-02-13249/</link>
+      <pubDate>Tue, 02 Dec 2025 16:05:42 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13249/</guid>
+      <description>🚀 Exciting news from AWS! The AWS DevOps Agent is now in public preview. This service acts as an always-on DevOps engineer, enhancing incident response and system reliability. When incidents occur, the agent automatically analyzes data across various tools to identify root causes and recommends solutions, reducing resolution times. It integrates seamlessly with popular services like Amazon CloudWatch and GitHub, making it easier to manage incidents. To get started, connect the agent to your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerate AI development using Amazon SageMaker AI with serverless MLflow</title>
+      <link>/articles/article-2025-12-02-13250/</link>
+      <pubDate>Tue, 02 Dec 2025 16:02:56 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13250/</guid>
+      <description>🚀 Amazon SageMaker AI has introduced a serverless MLflow capability, enhancing AI experimentation. This new feature allows users to manage their ML workflows without the burden of infrastructure management. Experimentation is now immediate and scalable, eliminating the need for capacity planning. Getting started is easy! Simply navigate to the SageMaker AI Studio console, create your MLflow App, and enjoy rapid experimentation in just minutes. #AmazonSageMaker #MachineLearning #AI #MLflow&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon FSx for NetApp ONTAP now integrates with Amazon S3 for seamless data access</title>
+      <link>/articles/article-2025-12-02-13251/</link>
+      <pubDate>Tue, 02 Dec 2025 15:59:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13251/</guid>
+      <description>🚀 Exciting news for AWS users! Amazon FSx for NetApp ONTAP now integrates with Amazon S3, allowing seamless access to file data. This enables enhanced AI/ML workloads and analytics while keeping your data in its original file system. Use your enterprise data with services like Amazon SageMaker and Bedrock for insights and model training. To get started, create an S3 Access Point via the FSx console or AWS CLI. #AWS #DataIntegration #MachineLearning #CloudComputing #NetApp</description>
+    </item>
+    <item>
+      <title>Introducing Amazon Nova 2 Lite, a fast, cost-effective reasoning model</title>
+      <link>/articles/article-2025-12-02-13252/</link>
+      <pubDate>Tue, 02 Dec 2025 15:59:40 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13252/</guid>
+      <description>🚀 Exciting news from Amazon! Introducing Amazon Nova 2 Lite, a fast and cost-effective reasoning model designed for everyday AI workloads. It offers adjustable reasoning depth, allowing users to balance speed, intelligence, and cost. With support for text, image, video, and a one million-token context window, Nova 2 Lite enhances decision-making. It includes built-in tools for web grounding and code interpretation, making it versatile for various applications. Early users are benefiting in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New AWS Security Agent secures applications proactively from design to deployment (preview)</title>
+      <link>/articles/article-2025-12-02-13253/</link>
+      <pubDate>Tue, 02 Dec 2025 15:58:41 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13253/</guid>
+      <description>🚀 Introducing the AWS Security Agent in preview! This new tool enhances application security throughout the development lifecycle. It offers automated security reviews and context-aware penetration testing tailored to your needs. By continuously validating security from design to deployment, it helps identify vulnerabilities early, reducing delays in application launches. With the ability to scan and adapt in real-time, AWS Security Agent ensures your applications are secure before going&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Security Hub now generally available with near real-time analytics and risk prioritization</title>
+      <link>/articles/article-2025-12-02-13254/</link>
+      <pubDate>Tue, 02 Dec 2025 15:58:11 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13254/</guid>
+      <description>🚀 AWS Security Hub is now generally available, enhancing how security teams manage risks in AWS environments. This tool prioritizes critical security issues and unifies operations, enabling quicker responses through real-time risk analytics and automated signal correlation. Key features include a Summary dashboard with historical trends, customizable widgets, and detailed visualizations of threats and exposures. This aims to streamline security operations and improve overall security posture&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Amazon GuardDuty adds Extended Threat Detection for Amazon EC2 and Amazon ECS</title>
+      <link>/articles/article-2025-12-02-13255/</link>
+      <pubDate>Tue, 02 Dec 2025 15:57:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13255/</guid>
+      <description>🚀 Amazon GuardDuty has enhanced its Extended Threat Detection capabilities! New attack sequence findings for Amazon EC2 and ECS tasks improve visibility into multistage activities across cloud environments. This expansion helps security teams link various activities that may indicate complex threats. By utilizing AI and machine learning, GuardDuty provides high-confidence insights, aiding in prioritizing response actions. The new findings include incident summaries, event timelines, and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Amazon Nova Forge: Build your own frontier models using Nova</title>
+      <link>/articles/article-2025-12-02-13256/</link>
+      <pubDate>Tue, 02 Dec 2025 15:53:51 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13256/</guid>
+      <description>🚀 Introducing Amazon Nova Forge! This new program empowers organizations to create custom frontier models with ease. It combines proprietary data with Amazon-curated data, making model training more accessible and efficient. Ideal for sectors like manufacturing, R&amp;amp;D, and media, Nova Forge helps embed specialized knowledge into AI applications while reducing costs and latency. Learn more about how Nova Forge transforms AI development! #AmazonNova #AI #MachineLearning #TechInnovation #GenerativeAI</description>
+    </item>
     <item>
       <title>AWS Transform for mainframe introduces Reimagine capabilities and automated testing functionality</title>
       <link>/articles/article-2025-12-01-13193/</link>

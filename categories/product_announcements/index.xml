@@ -6,8 +6,43 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 23:25:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 16:00:24 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS’ New Policy Layer in Bedrock AgentCore Makes Sure AI Agents Can’t Give Away the Store</title>
+      <link>/articles/article-2025-12-02-13216/</link>
+      <pubDate>Tue, 02 Dec 2025 16:00:24 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13216/</guid>
+      <description>AWS has introduced new updates to Amazon Bedrock AgentCore at its re:Invent conference. These enhancements aim to simplify the development and deployment of AI agents on the AWS platform. A key feature is the new Policy layer, which provides security and policy enforcement. This allows businesses to set rules for AI agents, ensuring human validation for certain actions, like offering credits over $100. This addition is part of a broader strategy to enhance trust and safety in AI agents,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Integrates AI Infrastructure with NVIDIA NVLink Fusion for Trainium4 Deployment</title>
+      <link>/articles/article-2025-12-02-13222/</link>
+      <pubDate>Tue, 02 Dec 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13222/</guid>
+      <description>🚀 AWS has announced a collaboration with NVIDIA to enhance AI infrastructure using NVLink Fusion. This integration aims to support the deployment of Trainium4 AI chips and other technologies. 🔗 NVLink Fusion will provide a high-performance, rack-scale platform, addressing the growing complexities of AI workloads while reducing deployment risks. 📈 The partnership focuses on improving networking capabilities and streamlining the development process for custom AI solutions. #AWS #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>DataGrip 2025.3: Migration From Consoles to Query Files, Connection to Cloud Providers, Introspection Levels for Amazon Redshift, and More!</title>
+      <link>/articles/article-2025-12-02-13224/</link>
+      <pubDate>Tue, 02 Dec 2025 14:47:09 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13224/</guid>
+      <description>🚀 DataGrip 2025.3 is now available! This update introduces several key features aimed at enhancing user experience. 🔄 The transition from query consoles to query files is a significant change. Users can now migrate SQL files easily into their IDE projects, with options for customization. 🌐 Connectivity improvements allow users to link their AWS, Google Cloud, or Azure accounts, facilitating database browsing and source creation. 📂 Additionally, Amazon Redshift users benefit from new&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Analytics Buckets</title>
+      <link>/articles/article-2025-12-02-13228/</link>
+      <pubDate>Tue, 02 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13228/</guid>
+      <description>🚀 Supabase has launched Analytics Buckets to enhance data storage for analytical workloads. These specialized storage options are built on Apache Iceberg and Amazon S3, using columnar Parquet format. They are designed for efficient data scans, aggregations, and time-series queries. Analytics Buckets enable cost-effective storage, offering savings of 30-90% compared to traditional database storage. They also support open table formats and allow for schema evolution without data rewriting&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Introducing Supabase ETL</title>
+      <link>/articles/article-2025-12-02-13229/</link>
+      <pubDate>Tue, 02 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13229/</guid>
+      <description>🚀 Introducing Supabase ETL! This new change-data-capture pipeline allows you to replicate Postgres tables to analytical destinations like Analytics Buckets and BigQuery in near real time. It captures changes including inserts, updates, and deletes seamlessly. Setup is quick via the Supabase Dashboard, and it&amp;rsquo;s open source on GitHub. Discover how separating OLTP and OLAP can improve data analytics performance! #SupabaseETL #DataAnalytics #OpenSource #BigQuery #Postgres</description>
+    </item>
     <item>
       <title>How Rovo Chat embraces multi-agent orchestration</title>
       <link>/articles/article-2025-12-01-13206/</link>

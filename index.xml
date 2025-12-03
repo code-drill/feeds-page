@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Dec 2025 16:08:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 19:30:44 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Makes It Easier To Customize AI Models in Bedrock and SageMaker Without a Ph.D.</title>
+      <link>/articles/article-2025-12-03-13393/</link>
+      <pubDate>Wed, 03 Dec 2025 19:30:44 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13393/</guid>
+      <description>🚀 AWS has introduced Nova Forge, simplifying the customization of its Nova large language models for enterprises. With new options in Amazon Bedrock and SageMaker, developers can now tailor AI models without needing advanced machine learning expertise. SageMaker offers a guided experience for customization, while Bedrock focuses on Reinforcement Fine Tuning for better task performance. No Ph.D. required! 🌟 #AWS #AI #MachineLearning #SageMaker #NovaForge</description>
+    </item>
+    <item>
+      <title>How To Build AI Agents 3 Ways With Google ADK</title>
+      <link>/articles/article-2025-12-03-13394/</link>
+      <pubDate>Wed, 03 Dec 2025 19:00:50 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13394/</guid>
+      <description>🚀 Google’s Agent Development Kit (ADK) is paving the way for AI agent creation! ADK, launched at Google Cloud NEXT 2025, supports agents in various Google products. Developers appreciate its flexibility, allowing for agent building through Python, YAML, or a visual interface. This tutorial guides you to create a “Hello World” agent using all three methods. Explore the distinct approaches: - &lt;strong&gt;Imperative agents (Python)&lt;/strong&gt; offer flexibility and control. - &lt;strong&gt;Declarative agents (YAML)&lt;/strong&gt; simplify&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Enhance 3D Gaussian Reconstruction Quality for Simulation</title>
+      <link>/articles/article-2025-12-03-13396/</link>
+      <pubDate>Wed, 03 Dec 2025 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13396/</guid>
+      <description>Building photorealistic 3D environments for simulation presents challenges, even with advanced methods like 3D Gaussian Splatting. Artifacts such as blurriness and holes can affect visual quality. NVIDIA&amp;rsquo;s Omniverse NuRec addresses this with a generative model called Fixer, which effectively removes these artifacts. The post details how to use Fixer to enhance noisy 3D scenes, specifically for autonomous vehicle simulation. It includes a guide on downloading a sample scene from the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When To Log, and When To Shut Up</title>
+      <link>/articles/article-2025-12-03-13395/</link>
+      <pubDate>Wed, 03 Dec 2025 17:00:13 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13395/</guid>
+      <description>Many logs in software development can generate unnecessary noise. 🚫 The article emphasizes the importance of selective logging. Instead of logging every function or variable, developers should focus on entries that aid in debugging and understanding system performance. 📉 Context is key—logs should include relevant details like request IDs to be genuinely useful. By linking logs to traces and metrics, they become valuable evidence rather than clutter. 🔍 #Logging #Observability&amp;hellip;</description>
+    </item>
     <item>
       <title>Amazon Bedrock adds reinforcement ﬁne-tuning simplifying how developers build smarter, more accurate AI models</title>
       <link>/articles/article-2025-12-03-13390/</link>
@@ -77,6 +105,13 @@
       <pubDate>Wed, 03 Dec 2025 13:21:25 +0000</pubDate>
       <guid>/articles/article-2025-12-03-13375/</guid>
       <description>🚀 Strengthening trust in Docker MCP solutions is key as the ecosystem expands. 🔒 New enhancements include: - &lt;strong&gt;Commit Pinning&lt;/strong&gt;: Each Docker-built MCP server is linked to a specific Git commit for verifiable releases. - &lt;strong&gt;Automated, AI-Audited Updates&lt;/strong&gt;: Ensures MCP servers remain current with scalable oversight. - &lt;strong&gt;Publisher Trust Levels&lt;/strong&gt;: Clear trust indicators help developers identify verified servers. These updates enhance transparency and security for all users. #Docker #MCP&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New npm package for automatic recovery of broken streaming markdown</title>
+      <link>/articles/article-2025-12-03-13399/</link>
+      <pubDate>Wed, 03 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13399/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/new-npm-package-for-automatic-recovery-of-broken-streaming-markdown&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Summary of CVE-2025-55182</title>
@@ -177,11 +212,25 @@
       <description>🚨 Cloudflare has implemented new protections against a critical vulnerability in React Server Components (CVE-2025-55182). All customers are automatically shielded when their traffic is routed through the Cloudflare Web Application Firewall (WAF). This includes both free and paid users. Cloudflare Workers are immune to this exploit, ensuring that React applications deployed on them remain secure. For optimal safety, users are advised to update to React 19.2.1 and the latest versions of&amp;hellip;</description>
     </item>
     <item>
+      <title>Explore the updates to the Game Animation Sample Project in UE 5.7</title>
+      <link>/articles/article-2025-12-03-13398/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13398/</guid>
+      <description>🚀 Exciting updates are here for the Game Animation Sample Project (GASP) in UE 5.7! New features include the Mover plugin, Smart object setups, a slide feature, and a fresh locomotion style. These additions enhance the project and expand creative possibilities. Explore the latest developments and elevate your game animation experience! 🎮✨ #GameDevelopment #UE5 #Animation #GASP #Updates</description>
+    </item>
+    <item>
       <title>Guide: Migrate from Azure DevOps to GitLab</title>
       <link>/articles/article-2025-12-03-13381/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-03-13381/</guid>
       <description>🚀 Migrating from Azure DevOps to GitLab? This guide outlines a clear process for a successful transition. Key steps include: - Use GitLab&amp;rsquo;s Congregate or built-in tools for repository migration. - Migrate CI/CD pipelines and other assets like work items and artifacts. - Plan your migration carefully by assessing timelines and structures. Ensure to run pilot migrations to validate your process before full execution. #GitLab #AzureDevOps #MigrationGuide #DevOps #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>How disconnected data can derail modern investigations</title>
+      <link>/articles/article-2025-12-03-13397/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13397/</guid>
+      <description>Disconnected data can significantly hinder modern investigations. 🕵️‍♂️ Investigators often face challenges due to fragmented systems and unstructured data, like handwritten notes and audio recordings. This makes it hard to piece together crucial information quickly. Elastic offers a solution with its secure data mesh approach, helping agencies connect isolated data sources. This enables faster insights and supports evidence-driven outcomes without compromising security. 🔍 #DataMesh&amp;hellip;</description>
     </item>
     <item>
       <title>How Startups can Leverage Auth0’s B2B Capabilities</title>

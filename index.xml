@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Dec 2025 04:15:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 07:15:59 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tame Ray workloads on OpenShift AI with KubeRay and Kueue</title>
+      <link>/articles/article-2025-12-03-13298/</link>
+      <pubDate>Wed, 03 Dec 2025 07:15:59 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13298/</guid>
+      <description>🚀 Managing AI workloads on Kubernetes just got easier! Red Hat OpenShift AI 3 introduces KubeRay and Kueue to tackle resource management issues. This integration allows for priority-driven scheduling and efficient resource control for Ray workloads. Key workflows include: - Long-running RayClusters for interactive development - Quick-iteration jobs for rapid testing - Ephemeral clusters for automated job management Data scientists can now manage resources seamlessly with the CodeFlare SDK&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>GovWare 2025 Security Operations Centre</title>
+      <link>/articles/article-2025-12-03-13293/</link>
+      <pubDate>Wed, 03 Dec 2025 06:03:37 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13293/</guid>
+      <description>🚀 The GovWare 2025 Security Operations Centre, a collaboration with Cisco, aims to enhance security for the upcoming conference. Key missions include: - &lt;strong&gt;Protect&lt;/strong&gt;: Safeguarding the network from various threats. - &lt;strong&gt;Educate&lt;/strong&gt;: Offering SOC tours and informative content for attendees. - &lt;strong&gt;Innovate&lt;/strong&gt;: Advancing security through new tech and AI. Attendees can join the secure network while following best practices. #GovWare2025 #CyberSecurity #Innovation #Cisco #TechEvent</description>
+    </item>
     <item>
       <title>How Agentforce Achieved 3–5x Faster Response Times While Solving Enterprise-Scale Architectural Complexity</title>
       <link>/articles/article-2025-12-03-13292/</link>
@@ -450,11 +464,39 @@
       <description>🤖 Exciting insights from Ryan&amp;rsquo;s discussion with Simone Kalmakis, VP of Engineering at Viam! They explore how Viam is bridging the gap between software and robotics through abstraction layers. This makes robotics more accessible for various applications, including lobster traps and industrial sanding robots. Connect with Simone on LinkedIn to learn more! #Robotics #SoftwareDevelopment #Innovation #Technology #Engineering</description>
     </item>
     <item>
+      <title>From Detection to Deep Dive: Splunk Attack Analyzer and Endace for GovWare 2025 Security</title>
+      <link>/articles/article-2025-12-02-13294/</link>
+      <pubDate>Tue, 02 Dec 2025 08:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13294/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/security/from-detection-to-deep-dive-splunk-attack-analyzer-and-endace-for-govware-2025-security&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Automate unique compliance checks with OpenShift and CustomRule</title>
       <link>/articles/article-2025-12-02-13212/</link>
       <pubDate>Tue, 02 Dec 2025 08:00:55 +0000</pubDate>
       <guid>/articles/article-2025-12-02-13212/</guid>
       <description>Unlock enhanced compliance for Red Hat OpenShift with the new CustomRule feature! 🚀 This article reveals how security teams can automate unique compliance checks, transforming specific security rules into code. It offers practical examples on writing and integrating CustomRules into existing workflows, streamlining the auditing process. Currently in Tech Preview, this feature is designed to help organizations maintain compliance efficiently. Explore more about CustomRules and their potential!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Unmasking Attacks With Cisco XDR at the GovWare SOC</title>
+      <link>/articles/article-2025-12-02-13295/</link>
+      <pubDate>Tue, 02 Dec 2025 08:00:46 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13295/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/security/unmasking-attacks-with-cisco-xdr-at-the-govware-soc&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Splunk SOAR in Action at the GovWare: Zero-Touch Clear Text Password Response</title>
+      <link>/articles/article-2025-12-02-13296/</link>
+      <pubDate>Tue, 02 Dec 2025 08:00:45 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13296/</guid>
+      <description>At GovWare 2025, the Cisco Security Operations Centre showcased how they automated the incident response process using Splunk SOAR and Splunk Enterprise Security (ES). 🔒 Their goals included protecting the conference network, educating attendees about security risks, and driving innovation. A previous dashboard identified vulnerabilities from clear text credentials in network traffic. 📊 The integration of ES with Splunk SOAR transformed their manual response process into an automated system,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GovWare Captive Portal: (Splash Page)</title>
+      <link>/articles/article-2025-12-02-13297/</link>
+      <pubDate>Tue, 02 Dec 2025 08:00:43 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13297/</guid>
+      <description>Cisco partnered with GovWare 2025 to create a click-through captive portal for the conference. This marked the first time attendees had access to a wireless network. The project faced challenges due to compliance issues at the Marina Bay Sands. Cisco pivoted from using a firewall to the Identity Services Engine (ISE) for better management of attendee connections. Ultimately, a solution was found using DHCP option 114, allowing the portal to be advertised effectively. #GovWare2025 #Cisco&amp;hellip;</description>
     </item>
     <item>
       <title>Build custom OS images for IBM Power systems (ppc64le) with bootc</title>

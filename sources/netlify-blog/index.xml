@@ -6,8 +6,15 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netlify&#39;s response to the critical React security vulnerability</title>
+      <link>/articles/article-2025-12-03-13384/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13384/</guid>
+      <description>🚨 A critical vulnerability (CVE-2025-55182) was identified in React&amp;rsquo;s Server Functions protocol, affecting versions 19.0 to 19.2. This issue can allow attackers to execute arbitrary code in vulnerable applications. Netlify has acted swiftly, rolling out a patch on December 3 to secure all customer sites. They have found no evidence of exploitation on their platforms. For added security, it&amp;rsquo;s advised to upgrade to the latest framework versions and enable automatic updates for Next.js users&amp;hellip;.</description>
+    </item>
     <item>
       <title>Netlify Vite Plugin now supports AI Gateway locally</title>
       <link>/articles/article-2025-12-01-13149/</link>

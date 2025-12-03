@@ -16,6 +16,27 @@
       <description>🚀 Strengthening trust in Docker MCP solutions is key as the ecosystem expands. 🔒 New enhancements include: - &lt;strong&gt;Commit Pinning&lt;/strong&gt;: Each Docker-built MCP server is linked to a specific Git commit for verifiable releases. - &lt;strong&gt;Automated, AI-Audited Updates&lt;/strong&gt;: Ensures MCP servers remain current with scalable oversight. - &lt;strong&gt;Publisher Trust Levels&lt;/strong&gt;: Clear trust indicators help developers identify verified servers. These updates enhance transparency and security for all users. #Docker #MCP&amp;hellip;</description>
     </item>
     <item>
+      <title>Summary of CVE-2025-55182</title>
+      <link>/articles/article-2025-12-03-13385/</link>
+      <pubDate>Wed, 03 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13385/</guid>
+      <description>🚨 A critical vulnerability, CVE-2025-55182, has been discovered in React Server Components affecting versions 19.0 to 19.2.0. This issue can lead to remote code execution through specially crafted requests. 🛡️ Projects hosted on Vercel have protections in place, but upgrading to patched versions is strongly recommended. 🔧 Users should update to React 19.0.1, 19.1.2, or 19.2.1, and Next.js versions 15.0.5 or later. #CyberSecurity #React #NextJS #Vulnerability #SoftwareUpdate</description>
+    </item>
+    <item>
+      <title>Cloudflare WAF proactively protects against React vulnerability</title>
+      <link>/articles/article-2025-12-03-13388/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13388/</guid>
+      <description>🚨 Cloudflare has implemented new protections against a critical vulnerability in React Server Components (CVE-2025-55182). All customers are automatically shielded when their traffic is routed through the Cloudflare Web Application Firewall (WAF). This includes both free and paid users. Cloudflare Workers are immune to this exploit, ensuring that React applications deployed on them remain secure. For optimal safety, users are advised to update to React 19.2.1 and the latest versions of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Netlify&#39;s response to the critical React security vulnerability</title>
+      <link>/articles/article-2025-12-03-13384/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-03-13384/</guid>
+      <description>🚨 A critical vulnerability (CVE-2025-55182) was identified in React&amp;rsquo;s Server Functions protocol, affecting versions 19.0 to 19.2. This issue can allow attackers to execute arbitrary code in vulnerable applications. Netlify has acted swiftly, rolling out a patch on December 3 to secure all customer sites. They have found no evidence of exploitation on their platforms. For added security, it&amp;rsquo;s advised to upgrade to the latest framework versions and enable automatic updates for Next.js users&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Custom Policy Enforcement with Reasoning: Faster, Safer AI Applications</title>
       <link>/articles/article-2025-12-02-13301/</link>
       <pubDate>Tue, 02 Dec 2025 18:50:28 +0000</pubDate>

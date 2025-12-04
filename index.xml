@@ -6,8 +6,71 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 13:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 16:20:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluate your AI agents faster and more effectively</title>
+      <link>/articles/article-2025-12-04-13437/</link>
+      <pubDate>Thu, 04 Dec 2025 16:20:20 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13437/</guid>
+      <description>🚀 Exciting updates for AI developers! The DigitalOcean Gradient™ AI Platform has enhanced its agent evaluations experience for easier and faster assessments. Key changes include: - &lt;strong&gt;Goal-oriented metric grouping&lt;/strong&gt; for better organization of Safety &amp;amp; Security, Correctness, and RAG Performance. - &lt;strong&gt;Example datasets&lt;/strong&gt; for quick dataset creation. - &lt;strong&gt;Clear error messaging&lt;/strong&gt; to simplify debugging. - &lt;strong&gt;Interpretable results&lt;/strong&gt; with trace integration for efficient performance analysis. Evaluations&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenJDK 25 now available in Red Hat Enterprise Linux 10.1</title>
+      <link>/articles/article-2025-12-04-13432/</link>
+      <pubDate>Thu, 04 Dec 2025 16:07:16 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13432/</guid>
+      <description>🚀 Red Hat Enterprise Linux (RHEL) 10.1 now features OpenJDK 25 LTS, enhancing startup performance, memory efficiency, and developer ergonomics. 🔧 This update supports developers until December 2030, offering a robust foundation for applications. Key improvements include better garbage collection and concurrency features. 📦 To install, use: &lt;code&gt;sudo yum install java-25-openjdk&lt;/code&gt; #OpenJDK #RHEL #JavaDevelopment #RedHat #SoftwareUpdates</description>
+    </item>
+    <item>
+      <title>Faster Agents with Automatic Prompt Caching</title>
+      <link>/articles/article-2025-12-04-13436/</link>
+      <pubDate>Thu, 04 Dec 2025 16:00:24 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13436/</guid>
+      <description>🚀 Exciting news from Heroku! Starting December 18, 2025, they will introduce automatic prompt caching for Managed Inference and Agents. This feature, enabled by default, aims to enhance response times for common workloads without any extra effort. Currently, caching focuses on system prompts and tool definitions, excluding user messages. You can disable caching for specific requests if needed. Prompt caching works by securely storing and reusing processed components, leading to faster&amp;hellip;</description>
+    </item>
+    <item>
+      <title>KubeVirt’s Architecture: CRDs, Controllers and Daemons</title>
+      <link>/articles/article-2025-12-04-13429/</link>
+      <pubDate>Thu, 04 Dec 2025 16:00:11 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13429/</guid>
+      <description>🚀 KubeVirt is reshaping how organizations migrate to Kubernetes by bridging legacy virtual machines and modern containers. This architecture extends Kubernetes&amp;rsquo; capabilities, allowing VMs to coexist with containers on a single platform. KubeVirt introduces Custom Resource Definitions (CRDs) to manage VMs as native resources, simplifying orchestration. The recent eBook, “Running Virtual Machines on Kubernetes,” offers a comprehensive guide on this migration process. 📖 #KubeVirt #Kubernetes&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Training an X-ARM 5 robotic arm with AMD Schola and Unreal Engine</title>
+      <link>/articles/article-2025-12-04-13434/</link>
+      <pubDate>Thu, 04 Dec 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13434/</guid>
+      <description>🚀 Explore how to train the X-ARM 5 robotic arm using reinforcement learning with AMD Schola and Unreal Engine! In this process, tasks increase in complexity, starting with reaching a fixed target block and progressing to randomizing block locations. The training employs the SAC algorithm, enabling efficient learning and exploration. As the agent adapts, it aims to optimize its actions based on rewards and penalties. #Robotics #ReinforcementLearning #AI #TechInnovation #UnrealEngine</description>
+    </item>
+    <item>
+      <title>Your CI/CD Pipeline Is Not Ready To Ship AI Agents</title>
+      <link>/articles/article-2025-12-04-13430/</link>
+      <pubDate>Thu, 04 Dec 2025 15:00:12 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13430/</guid>
+      <description>🚀 The article “Your CI/CD Pipeline Is Not Ready To Ship AI Agents” highlights a critical gap in AI infrastructure. While many companies are integrating AI features, true autonomous agents are still rare. Current delivery pipelines struggle with the complexities of non-deterministic software, making reliability a challenge. The shift from &amp;ldquo;prompt and pray&amp;rdquo; to deterministic workflows emphasizes the need for robust systems engineering and proper integration testing. #AI #CICD&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Trust at Scale</title>
+      <link>/articles/article-2025-12-04-13438/</link>
+      <pubDate>Thu, 04 Dec 2025 14:59:39 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13438/</guid>
+      <description>🔍 Palantir introduces “audit.3,” a next-generation audit logging system enhancing transparency and accountability across its platforms. This evolution aims to provide quicker, structured logs, vital for organizations managing sensitive data. Comprehensive audit logging helps security teams investigate incidents and ensures compliance. 📊 The new system improves log accessibility and consistency, allowing for real-time data analysis, boosting trust in the handling of sensitive information&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Migrating Red Hat Ansible Automation Platform: From RPM to container on Red Hat Enterprise Linux</title>
+      <link>/articles/article-2025-12-04-13433/</link>
+      <pubDate>Thu, 04 Dec 2025 14:06:35 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13433/</guid>
+      <description>🚀 Exciting changes are coming for Ansible Automation users! The migration from Red Hat Ansible Automation Platform 2.5 RPM on RHEL 9 to the containerized version on RHEL 10 is underway. This shift is essential as the RPM installation will be deprecated with the release of version 2.7. Key steps include preparing your current environment, creating backups, and setting up new VMs. For detailed guidance, refer to the release notes and ensure your components are ready for a seamless transition&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Mooncake Brings Databricks Rich Transactional Processing</title>
+      <link>/articles/article-2025-12-04-13431/</link>
+      <pubDate>Thu, 04 Dec 2025 14:00:22 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13431/</guid>
+      <description>Databricks recently acquired Mooncake, enhancing its Lakebase platform for AI agents. 🌐 Mooncake offers rich transactional processing and fast analysis without managing ETL pipelines. This integration allows direct data access from PostgreSQL for decision-making. Developed by ex-SingleStore engineers, Mooncake aims to streamline the traditionally separate OLTP and OLAP systems, reducing manual data syncing efforts. #Databricks #AI #Mooncake #DataAnalytics #Lakebase</description>
+    </item>
     <item>
       <title>Cisco Live Melbourne 2025 Reflections: Transforming Cisco Customer Experience with AI and Human Expertise</title>
       <link>/articles/article-2025-12-04-13421/</link>
@@ -98,6 +161,20 @@
       <pubDate>Thu, 04 Dec 2025 00:34:44 +0000</pubDate>
       <guid>/articles/article-2025-12-04-13413/</guid>
       <description>Discover how Rovo Dev CLI leverages AI and mutation testing to enhance test quality. 🤖🛠️ Atlassian&amp;rsquo;s integration of mutation testing with Pitest aims to automate the creation of effective tests, ensuring new and modified code meets coverage standards. Mutation testing evaluates the ability of tests to catch bugs by introducing small code changes. This process helps developers strengthen their test suites and increase confidence in code quality. #MutationTesting #SoftwareTesting #AI #Atlassian&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Learning is part of the fun: Top Down with Alena Fereday</title>
+      <link>/articles/article-2025-12-04-13439/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13439/</guid>
+      <description>🌍 Meet Alena Fereday, a senior solution architect at Elastic based in Sydney. From a young age, she developed a passion for coding, often helping her sister with her homework. Now, Alena embraces continuous learning and problem-solving in her career. She balances her professional life with hobbies like reading and blogging, and she hopes to return to competitive sailing in the future. #TechCareer #ContinuousLearning #WomenInTech #Coding #Elastic</description>
+    </item>
+    <item>
+      <title>Over 20 Unreal Engine titles nominated in The Game Awards 2025</title>
+      <link>/articles/article-2025-12-04-13440/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13440/</guid>
+      <description>🌟 Exciting news from The Game Awards 2025! Over 20 developers using Unreal Engine have received nominations this year. Notably, nearly a third of all nominated games were created with this powerful engine. Check out the complete list of nominees and celebrate the creativity in gaming! 🎮🏆 #GameAwards2025 #UnrealEngine #GamingCommunity #GameDevelopment #Nominees</description>
     </item>
     <item>
       <title>We Got Claude to Fine-Tune an Open Source LLM</title>
@@ -695,6 +772,13 @@
       <description>🚀 Dive into the world of cybersecurity with Cisco&amp;rsquo;s latest ethical hacking challenge! The &amp;ldquo;Capture the Flag: Attack Chain from Recon to Root&amp;rdquo; challenge focuses on identifying vulnerabilities in web applications. Participants will learn to navigate the complete attack lifecycle, from reconnaissance to gaining administrative access. Your mission includes conducting reconnaissance, exploiting vulnerabilities, and simulating real-world attack scenarios to strengthen system defenses. Join now to&amp;hellip;</description>
     </item>
     <item>
+      <title>Announcing AMD Schola v2: Next-generation reinforcement learning for Unreal Engine</title>
+      <link>/articles/article-2025-12-02-13435/</link>
+      <pubDate>Tue, 02 Dec 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13435/</guid>
+      <description>🚀 Exciting news for developers! AMD has released Schola v2, an update to its open-source reinforcement learning plugin for Unreal® Engine 5. This version enhances capabilities and performance for AI agents. Key updates include a flexible inference architecture and native support for the Minari dataset format. The new design allows for easy customization of agent behaviors and improved management of agents during episodes. Explore the future of AI in Unreal Engine! 🎮🤖 #AMD #UnrealEngine&amp;hellip;</description>
+    </item>
+    <item>
       <title>AWS Integrates AI Infrastructure with NVIDIA NVLink Fusion for Trainium4 Deployment</title>
       <link>/articles/article-2025-12-02-13222/</link>
       <pubDate>Tue, 02 Dec 2025 16:00:00 +0000</pubDate>
@@ -959,6 +1043,13 @@
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-02-13230/</guid>
       <description>🚀 This year marks a significant evolution in the partnership between AWS and 1Password, focusing on secure access amid the rise of AI-driven development. 1Password is now a launch partner for Amazon Nova Act, enhancing secure workflows and simplifying tasks like logging into web apps. 🔑 Additionally, the MCP Server for Trelica improves SaaS visibility within AWS, while AWS Secrets Sync offers seamless integration for managing credentials. This collaboration emphasizes a shared vision for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>CI/CD for Modern Deployment: From Manual Deploys to PR Environments</title>
+      <link>/articles/article-2025-12-02-13441/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13441/</guid>
+      <description>🚀 CI/CD transforms code deployment by automating processes to reduce manual intervention. Continuous Integration (CI) merges code changes frequently and identifies issues early, while Continuous Delivery (CD) ensures seamless deployment to production. The guide highlights the benefits of PR environments, which provide isolated preview settings for testing without operational overhead. Learn more about the modern deployment practices that enhance reliability and efficiency! 🔧✨ #CICD #DevOps&amp;hellip;</description>
     </item>
     <item>
       <title>Clair Obscur: Expedition 33: autonomy, creativity, and community key to Sandfall Interactive’s success</title>
@@ -1393,6 +1484,13 @@
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13174/</guid>
       <description>🚀 CrowdStrike has unveiled new cloud detection and response (CDR) capabilities aimed at enhancing security for hybrid and multi-cloud environments. These innovations allow security teams to detect and respond to threats in seconds, significantly reducing the mean time to respond (MTTR). The need for effective CDR is underscored by a 40% rise in cloud intrusions, particularly from China-nexus adversaries, as highlighted in the CrowdStrike 2025 Threat Hunting Report. Stay informed and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deploy Full-Stack TypeScript Apps: Architectures, Execution Models, and Deployment Choices</title>
+      <link>/articles/article-2025-12-01-13442/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13442/</guid>
+      <description>🚀 Exploring full-stack TypeScript applications? This guide details the differences between full-stack frameworks and standalone services. It highlights serverless deployment options like Cloudflare Workers and Vercel, alongside the benefits of long-running servers with Railway. Key points include execution models, state management, and resource limits for each approach. This information is useful for engineers selecting the right architecture for their projects. #TypeScript #WebDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>Deploying AI at Scale Without Sacrificing Security</title>

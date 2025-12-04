@@ -6,14 +6,35 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 00:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training an X-ARM 5 robotic arm with AMD Schola and Unreal Engine</title>
+      <link>/articles/article-2025-12-04-13434/</link>
+      <pubDate>Thu, 04 Dec 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13434/</guid>
+      <description>🚀 Explore how to train the X-ARM 5 robotic arm using reinforcement learning with AMD Schola and Unreal Engine! In this process, tasks increase in complexity, starting with reaching a fixed target block and progressing to randomizing block locations. The training employs the SAC algorithm, enabling efficient learning and exploration. As the agent adapts, it aims to optimize its actions based on rewards and penalties. #Robotics #ReinforcementLearning #AI #TechInnovation #UnrealEngine</description>
+    </item>
+    <item>
+      <title>Migrating Red Hat Ansible Automation Platform: From RPM to container on Red Hat Enterprise Linux</title>
+      <link>/articles/article-2025-12-04-13433/</link>
+      <pubDate>Thu, 04 Dec 2025 14:06:35 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13433/</guid>
+      <description>🚀 Exciting changes are coming for Ansible Automation users! The migration from Red Hat Ansible Automation Platform 2.5 RPM on RHEL 9 to the containerized version on RHEL 10 is underway. This shift is essential as the RPM installation will be deprecated with the release of version 2.7. Key steps include preparing your current environment, creating backups, and setting up new VMs. For detailed guidance, refer to the release notes and ensure your components are ready for a seamless transition&amp;hellip;.</description>
+    </item>
     <item>
       <title>Rovo Dev CLI and Mutation Testing to Write Better Tests</title>
       <link>/articles/article-2025-12-04-13413/</link>
       <pubDate>Thu, 04 Dec 2025 00:34:44 +0000</pubDate>
       <guid>/articles/article-2025-12-04-13413/</guid>
       <description>Discover how Rovo Dev CLI leverages AI and mutation testing to enhance test quality. 🤖🛠️ Atlassian&amp;rsquo;s integration of mutation testing with Pitest aims to automate the creation of effective tests, ensuring new and modified code meets coverage standards. Mutation testing evaluates the ability of tests to catch bugs by introducing small code changes. This process helps developers strengthen their test suites and increase confidence in code quality. #MutationTesting #SoftwareTesting #AI #Atlassian&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Learning is part of the fun: Top Down with Alena Fereday</title>
+      <link>/articles/article-2025-12-04-13439/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13439/</guid>
+      <description>🌍 Meet Alena Fereday, a senior solution architect at Elastic based in Sydney. From a young age, she developed a passion for coding, often helping her sister with her homework. Now, Alena embraces continuous learning and problem-solving in her career. She balances her professional life with hobbies like reading and blogging, and she hopes to return to competitive sailing in the future. #TechCareer #ContinuousLearning #WomenInTech #Coding #Elastic</description>
     </item>
     <item>
       <title>Part 4: DoorDash 2025 summer intern projects</title>
@@ -149,6 +170,13 @@
       <description>Unlock the potential of your AI models with SDG Hub! 🚀 This open-source framework transforms minimal quality data into extensive synthetic datasets. It utilizes modular blocks to create automated pipelines that generate, validate, and scale data while keeping sensitive information secure. 🔒 Developers can enhance model training efficiency with tailored synthetic data, making the process faster and more cost-effective. Explore the step-by-step guide to get started with SDG Hub and create high-&amp;hellip;</description>
     </item>
     <item>
+      <title>CI/CD for Modern Deployment: From Manual Deploys to PR Environments</title>
+      <link>/articles/article-2025-12-02-13441/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-02-13441/</guid>
+      <description>🚀 CI/CD transforms code deployment by automating processes to reduce manual intervention. Continuous Integration (CI) merges code changes frequently and identifies issues early, while Continuous Delivery (CD) ensures seamless deployment to production. The guide highlights the benefits of PR environments, which provide isolated preview settings for testing without operational overhead. Learn more about the modern deployment practices that enhance reliability and efficiency! 🔧✨ #CICD #DevOps&amp;hellip;</description>
+    </item>
+    <item>
       <title>How to Authenticate with Magic Links in Go</title>
       <link>/articles/article-2025-12-02-13415/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
@@ -217,6 +245,13 @@
       <pubDate>Mon, 01 Dec 2025 07:15:56 +0000</pubDate>
       <guid>/articles/article-2025-12-01-13148/</guid>
       <description>🚀 Looking to migrate a .NET application? Consider the lift-and-shift approach on Red Hat OpenShift. This method allows you to move applications with minimal code changes, making it a practical first step towards modernization. The article details the process of containerizing an e-commerce app using a Containerfile and highlights key considerations for deployment. Key points include using the Red Hat .NET 9.0 SDK image and setting up security best practices for non-root users. For those&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deploy Full-Stack TypeScript Apps: Architectures, Execution Models, and Deployment Choices</title>
+      <link>/articles/article-2025-12-01-13442/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-01-13442/</guid>
+      <description>🚀 Exploring full-stack TypeScript applications? This guide details the differences between full-stack frameworks and standalone services. It highlights serverless deployment options like Cloudflare Workers and Vercel, alongside the benefits of long-running servers with Railway. Key points include execution models, state management, and resource limits for each approach. This information is useful for engineers selecting the right architecture for their projects. #TypeScript #WebDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>How we deploy the largest GitLab instance 12 times daily</title>

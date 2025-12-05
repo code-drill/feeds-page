@@ -6,8 +6,15 @@
     <description>Recent content in Event on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 20:00:51 +0000</lastBuildDate>
     <atom:link href="/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How etcd Solved Its Knowledge Drain With Deterministic Testing</title>
+      <link>/articles/article-2025-12-05-13512/</link>
+      <pubDate>Fri, 05 Dec 2025 20:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13512/</guid>
+      <description>The article discusses how etcd addressed knowledge loss when maintainers left the project. Lead maintainer Marek Siarkowicz highlighted that turnover led to reliability issues and critical bugs in new releases. To tackle this, the team implemented &amp;ldquo;robustness testing&amp;rdquo; and developed a framework inspired by Jepson. They aimed for linearizability in distributed systems, a significant challenge. Collaborating with Antithesis on deterministic simulation testing helped them better manage bugs and&amp;hellip;</description>
+    </item>
     <item>
       <title>NVIDIA Kaggle Grandmasters Win Artificial General Intelligence Competition</title>
       <link>/articles/article-2025-12-05-13502/</link>

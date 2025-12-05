@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 19:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 22:00:51 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Capital One Cut Tracing Data by 70% With OpenTelemetry</title>
+      <link>/articles/article-2025-12-05-13510/</link>
+      <pubDate>Fri, 05 Dec 2025 22:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13510/</guid>
+      <description>Capital One recently showcased how they reduced tracing data by 70% using OpenTelemetry. During the Observability Day at KubeCon, engineers Joseph Knight and Sateesh Mamidala discussed the challenges of managing telemetry data. They emphasized the importance of optimal sampling to avoid data overload while ensuring accurate monitoring. Their approach involved implementing dedicated infrastructure for effective trace sampling, which streamlined operations across Capital One globally&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Trae IDE Auto-Installs Python Libraries as You Code</title>
+      <link>/articles/article-2025-12-05-13511/</link>
+      <pubDate>Fri, 05 Dec 2025 21:00:21 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13511/</guid>
+      <description>🚀 Discover the unique features of Trae IDE, which auto-installs Python libraries as you code! This IDE stands out by simplifying the coding process, especially for creating applications like a Dungeons &amp;amp; Dragons character sheet. Once installed, it prompts users to install necessary libraries automatically, saving time and effort. Trae is available for free on macOS and Windows, with a Linux version on the way. #TraeIDE #PythonCoding #AItools #DeveloperLife #DungeonsAndDragons</description>
+    </item>
+    <item>
+      <title>How etcd Solved Its Knowledge Drain With Deterministic Testing</title>
+      <link>/articles/article-2025-12-05-13512/</link>
+      <pubDate>Fri, 05 Dec 2025 20:00:51 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13512/</guid>
+      <description>The article discusses how etcd addressed knowledge loss when maintainers left the project. Lead maintainer Marek Siarkowicz highlighted that turnover led to reliability issues and critical bugs in new releases. To tackle this, the team implemented &amp;ldquo;robustness testing&amp;rdquo; and developed a framework inspired by Jepson. They aimed for linearizability in distributed systems, a significant challenge. Collaborating with Antithesis on deterministic simulation testing helped them better manage bugs and&amp;hellip;</description>
+    </item>
     <item>
       <title>The Platform PM: Building an Ecosystem, Not Just a Product</title>
       <link>/articles/article-2025-12-05-13499/</link>

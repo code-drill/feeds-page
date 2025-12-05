@@ -30,6 +30,27 @@
       <description>🚀 Exciting news from Vercel! Introducing Vercel for Platforms, a new product that simplifies building and managing customer projects. Two modes are available: Multi-Tenant for a single codebase serving multiple customers, and Multi-Project for separate projects per customer. Key features include domain support, automatic routing, and easy project creation with the Vercel SDK. Start building today with the Quickstart guide! #Vercel #WebDevelopment #Platforms #TechNews #SoftwareEngineering</description>
     </item>
     <item>
+      <title>New deployments of vulnerable Next.js applications are now blocked by default</title>
+      <link>/articles/article-2025-12-05-13516/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13516/</guid>
+      <description>🚨 Important update for Next.js users! 🚨 New deployments with vulnerable versions of Next.js (CVE-2025-66478) will now be blocked by default on Vercel. It&amp;rsquo;s crucial to upgrade to a patched version to ensure your application’s security. If needed, this automatic protection can be disabled by setting the environment variable DANGEROUSLY_DEPLOY_VULNERABLE_CVE_2025_66478=1. Stay safe and informed! 🔒✨ #NextJS #Vercel #CyberSecurity #WebDevelopment #Updates</description>
+    </item>
+    <item>
+      <title>Resources for protecting against &#39;React2Shell&#39;</title>
+      <link>/articles/article-2025-12-05-13514/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13514/</guid>
+      <description>🚨 New security alert! As of December 4, proof-of-concept exploits for CVE-2025-55182 are now publicly available. This vulnerability affects all Next.js apps from versions 15.0.0 to 16.0.6. It&amp;rsquo;s crucial for developers to assess their applications and implement necessary protections. Stay informed and secure! 🔒💻 #Cybersecurity #NextJS #VulnerabilityAlert #CVE2025 #DevCommunity</description>
+    </item>
+    <item>
+      <title>Rewrites and redirects now available in runtime logs</title>
+      <link>/articles/article-2025-12-05-13515/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13515/</guid>
+      <description>🚀 Vercel has introduced a new feature for users! You can now access requests for rewrites and redirects directly in the Vercel dashboard&amp;rsquo;s runtime logs. By default, these requests are filtered out, but you can easily view them by using the Resource dropdown. - &lt;strong&gt;Rewrites&lt;/strong&gt;: Displays the destination of the rewrite. - &lt;strong&gt;Redirects&lt;/strong&gt;: Shows the redirect status code and location. This feature is available to all users. Explore it today! #Vercel #WebDevelopment #RuntimeLogs #TechUpdates&amp;hellip;</description>
+    </item>
+    <item>
       <title>Domains must now be managed at the team level</title>
       <link>/articles/article-2025-12-04-13467/</link>
       <pubDate>Thu, 04 Dec 2025 13:00:00 +0000</pubDate>

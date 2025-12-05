@@ -23,6 +23,34 @@
       <description>🚀 Discover the unique features of Trae IDE, which auto-installs Python libraries as you code! This IDE stands out by simplifying the coding process, especially for creating applications like a Dungeons &amp;amp; Dragons character sheet. Once installed, it prompts users to install necessary libraries automatically, saving time and effort. Trae is available for free on macOS and Windows, with a Linux version on the way. #TraeIDE #PythonCoding #AItools #DeveloperLife #DungeonsAndDragons</description>
     </item>
     <item>
+      <title>Expensive Delta Lake S3 Storage Mistakes (And How to Fix Them)</title>
+      <link>/articles/article-2025-12-05-13517/</link>
+      <pubDate>Fri, 05 Dec 2025 20:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13517/</guid>
+      <description>Avoid costly mistakes with Delta Lake on S3! This article discusses how to optimize cloud storage buckets specifically for Delta Lake tables. It highlights common errors that can lead to increased expenses and offers practical solutions to enhance performance and reduce costs. For anyone using Delta Lake, understanding these tips can make a significant difference. 💡💰 #DeltaLake #CloudStorage #S3 #CostOptimization #DataManagement</description>
+    </item>
+    <item>
+      <title>See what Forge developers are building for Codegeist 2025</title>
+      <link>/articles/article-2025-12-05-13520/</link>
+      <pubDate>Fri, 05 Dec 2025 20:28:20 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13520/</guid>
+      <description>🚀 Codegeist 2025 is here, with Atlassian offering up to $120,000 in prizes! I reviewed early submissions and found three innovative apps addressing common challenges. 🔹 &lt;strong&gt;SimpleDesk&lt;/strong&gt; simplifies Jira project management, offering a cleaner interface for teams needing less complexity. 🔹 &lt;strong&gt;Monkey SQL&lt;/strong&gt; integrates SQL queries into the Atlassian ecosystem, enhancing productivity with transparent AI capabilities. 🔹 &lt;strong&gt;Forge Secure Notes&lt;/strong&gt; provides encrypted storage for sensitive information within&amp;hellip;</description>
+    </item>
+    <item>
+      <title>DoTs SDK Development: Automating TypeScript Client Generation</title>
+      <link>/articles/article-2025-12-05-13513/</link>
+      <pubDate>Fri, 05 Dec 2025 20:10:20 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13513/</guid>
+      <description>🚀 Exciting news from DigitalOcean! We’ve launched DoTs, our new TypeScript SDK designed to simplify managing DigitalOcean resources. Why TypeScript? It enhances code reliability and developer experience with static type checking and intelligent code features. We’ve automated SDK generation using OpenAPI, GitHub Actions, and Kiota, ensuring consistency and up-to-date documentation. Explore how DoTs can streamline your development process! 🌐✨ #DigitalOcean #TypeScript #SDK #DevTools&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving Quality of Recommended Content through Pinner Surveys</title>
+      <link>/articles/article-2025-12-05-13521/</link>
+      <pubDate>Fri, 05 Dec 2025 20:02:12 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13521/</guid>
+      <description>Pinterest is enhancing content quality by utilizing user feedback through surveys. 📊 In partnership with the Inspired Internet Pledge, the platform collects ratings on visual appeal to understand what users value. This data is then used to train machine learning models to improve recommendations across Homefeed, Related Pins, and Search. The initiative aims to reduce low-quality content and elevate user experience. 📈✨ Learn more about how Pinterest is putting Pinners first! #Pinterest&amp;hellip;</description>
+    </item>
+    <item>
       <title>How etcd Solved Its Knowledge Drain With Deterministic Testing</title>
       <link>/articles/article-2025-12-05-13512/</link>
       <pubDate>Fri, 05 Dec 2025 20:00:51 +0000</pubDate>
@@ -121,6 +149,27 @@
       <description>🚀 Exciting news from Vercel! Introducing Vercel for Platforms, a new product that simplifies building and managing customer projects. Two modes are available: Multi-Tenant for a single codebase serving multiple customers, and Multi-Project for separate projects per customer. Key features include domain support, automatic routing, and easy project creation with the Vercel SDK. Start building today with the Quickstart guide! #Vercel #WebDevelopment #Platforms #TechNews #SoftwareEngineering</description>
     </item>
     <item>
+      <title>New deployments of vulnerable Next.js applications are now blocked by default</title>
+      <link>/articles/article-2025-12-05-13516/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13516/</guid>
+      <description>🚨 Important update for Next.js users! 🚨 New deployments with vulnerable versions of Next.js (CVE-2025-66478) will now be blocked by default on Vercel. It&amp;rsquo;s crucial to upgrade to a patched version to ensure your application’s security. If needed, this automatic protection can be disabled by setting the environment variable DANGEROUSLY_DEPLOY_VULNERABLE_CVE_2025_66478=1. Stay safe and informed! 🔒✨ #NextJS #Vercel #CyberSecurity #WebDevelopment #Updates</description>
+    </item>
+    <item>
+      <title>Resources for protecting against &#39;React2Shell&#39;</title>
+      <link>/articles/article-2025-12-05-13514/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13514/</guid>
+      <description>🚨 New security alert! As of December 4, proof-of-concept exploits for CVE-2025-55182 are now publicly available. This vulnerability affects all Next.js apps from versions 15.0.0 to 16.0.6. It&amp;rsquo;s crucial for developers to assess their applications and implement necessary protections. Stay informed and secure! 🔒💻 #Cybersecurity #NextJS #VulnerabilityAlert #CVE2025 #DevCommunity</description>
+    </item>
+    <item>
+      <title>Rewrites and redirects now available in runtime logs</title>
+      <link>/articles/article-2025-12-05-13515/</link>
+      <pubDate>Fri, 05 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13515/</guid>
+      <description>🚀 Vercel has introduced a new feature for users! You can now access requests for rewrites and redirects directly in the Vercel dashboard&amp;rsquo;s runtime logs. By default, these requests are filtered out, but you can easily view them by using the Resource dropdown. - &lt;strong&gt;Rewrites&lt;/strong&gt;: Displays the destination of the rewrite. - &lt;strong&gt;Redirects&lt;/strong&gt;: Shows the redirect status code and location. This feature is available to all users. Explore it today! #Vercel #WebDevelopment #RuntimeLogs #TechUpdates&amp;hellip;</description>
+    </item>
+    <item>
       <title>Bring your own AI agent to JetBrains IDEs</title>
       <link>/articles/article-2025-12-05-13485/</link>
       <pubDate>Fri, 05 Dec 2025 12:40:45 +0000</pubDate>
@@ -154,6 +203,13 @@
       <pubDate>Fri, 05 Dec 2025 09:14:50 +0000</pubDate>
       <guid>/articles/article-2025-12-05-13483/</guid>
       <description>During the recent Cloudflare outage, Downdetector also faced downtime, highlighting its reliance on Cloudflare. Dhruv Arora from Ookla explained that although Downdetector is multi-cloud, it uses Cloudflare for essential services like DNS and CDN. This dependency allows for lower costs, faster load times, and robust DDoS protection. Removing this dependency could significantly increase costs without improving revenue. Downdetector is exploring ways to enhance its infrastructure while managing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Treating your agents like microservices</title>
+      <link>/articles/article-2025-12-05-13519/</link>
+      <pubDate>Fri, 05 Dec 2025 08:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13519/</guid>
+      <description>Exploring the future of multi-agent architectures, Ryan talks with Guillaume De Saint Marc from Outshift by Cisco. They discuss how treating agents as microservices can enhance scalability and decentralization. Key points include the challenges of current infrastructure and the need for effective communication protocols. Discover more about these emerging technologies and connect with the AGNTCY community. 🚀🔗 #MultiAgentArchitecture #Microservices #Cisco #EmergingTech #AI</description>
     </item>
     <item>
       <title>Right-sizing recommendations for OpenShift Virtualization</title>
@@ -315,6 +371,13 @@
       <pubDate>Thu, 04 Dec 2025 19:00:06 +0000</pubDate>
       <guid>/articles/article-2025-12-04-13451/</guid>
       <description>🚀 KubeCon surveyed 219 platform engineers to explore the role of platform engineering in software organizations. Developers remain the primary focus, with 44.1% of respondents identifying them as key customers. Other stakeholders include SRE/Infra teams, data teams, and security teams. AI adoption is on the rise, with 30.1% of teams exploring AI code assistants. Future priorities include AI code reviews and automated ticket resolution. #KubeCon #PlatformEngineering #AI #SoftwareDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>HashiCorp is a Kiro powers launch partner</title>
+      <link>/articles/article-2025-12-04-13518/</link>
+      <pubDate>Thu, 04 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-04-13518/</guid>
+      <description>🚀 Exciting news from re:Invent 2025! HashiCorp is now a launch partner for Kiro, AWS&amp;rsquo;s new AI-powered IDE. Kiro introduces &amp;ldquo;powers,&amp;rdquo; specialized tools that enhance development workflows. The Terraform power offers seamless infrastructure management by activating when relevant terms are mentioned. 🌐 This approach reduces context switching and optimizes token usage, providing a smoother developer experience. To get started, simply install the Terraform power from the Kiro IDE. Learn more at&amp;hellip;</description>
     </item>
     <item>
       <title>Stop Blaming React for Your State Management Hangover</title>

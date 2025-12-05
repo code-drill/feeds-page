@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 09:14:50 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Downdetector and the real cost of no upstream dependencies</title>
+      <link>/articles/article-2025-12-05-13483/</link>
+      <pubDate>Fri, 05 Dec 2025 09:14:50 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13483/</guid>
+      <description>During the recent Cloudflare outage, Downdetector also faced downtime, highlighting its reliance on Cloudflare. Dhruv Arora from Ookla explained that although Downdetector is multi-cloud, it uses Cloudflare for essential services like DNS and CDN. This dependency allows for lower costs, faster load times, and robust DDoS protection. Removing this dependency could significantly increase costs without improving revenue. Downdetector is exploring ways to enhance its infrastructure while managing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Right-sizing recommendations for OpenShift Virtualization</title>
+      <link>/articles/article-2025-12-05-13484/</link>
+      <pubDate>Fri, 05 Dec 2025 08:01:22 +0000</pubDate>
+      <guid>/articles/article-2025-12-05-13484/</guid>
+      <description>🚀 Red Hat has introduced right-sizing recommendations in a technology preview as part of the Advanced Cluster Management for Kubernetes 2.15 release. This feature helps users optimize CPU and memory allocation for improved performance and cost efficiency. In multicluster environments, managing resource efficiency is challenging. The right-sizing capability offers end-to-end observability across Cluster, Namespace, and Virtual Machine layers, integrated with OpenShift and Prometheus telemetry&amp;hellip;.</description>
+    </item>
     <item>
       <title>Improving code quality - Session 56: Expectation at eighty percent</title>
       <link>/articles/article-2025-12-05-13476/</link>

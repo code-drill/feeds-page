@@ -13,7 +13,7 @@
       <link>/articles/article-2025-12-15-13858/</link>
       <pubDate>Mon, 15 Dec 2025 19:31:01 +0000</pubDate>
       <guid>/articles/article-2025-12-15-13858/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://eng.lyft.com/feed&#34;&gt;Lyft Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://eng.lyft.com/from-python3-8-to-python3-10-our-journey-through-a-memory-leak-1fd9b43cc01e?source=rss----25cd379abb8---4&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Upgrading from Python 3.8 to 3.10 revealed a memory leak at Lyft. During the upgrade, we noticed increased latency and timeouts in one service, linked to repository queries causing thread join delays. Using our internal memory profiling tool, we traced the issue to a compatibility problem between gevent and urllib3. Downgrading urllib3 resolved the leak! For memory leak issues, consider using gunicorn&amp;rsquo;s max-request settings to prevent OOM errors. #Python #MemoryManagement #LyftEngineering&amp;hellip;</description>
     </item>
     <item>
       <title>LyftLearn Evolution: Rethinking ML Platform Architecture</title>

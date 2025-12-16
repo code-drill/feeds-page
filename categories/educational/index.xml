@@ -30,6 +30,20 @@
       <description>In the early days of web design, centering elements was straightforward with the &lt;code&gt;&amp;lt;center&amp;gt;&lt;/code&gt; tag. However, with HTML 4.0, it was deprecated for architectural reasons, leaving developers seeking alternatives. This shift led to confusion as new layout elements didn&amp;rsquo;t address the centering issue. The introduction of CSS Grid and Flexbox eventually simplified this process, but many legacy sites still rely on outdated methods for centering. Understanding the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag is crucial, as it defines&amp;hellip;</description>
     </item>
     <item>
+      <title>Deliver secrets to Kubernetes pods without storing in etcd, using VSO</title>
+      <link>/articles/article-2025-12-16-13843/</link>
+      <pubDate>Tue, 16 Dec 2025 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13843/</guid>
+      <description>🔒 The Vault Secrets Operator (VSO) enhances secrets management in Kubernetes by syncing HashiCorp Vault secrets directly into Kubernetes Secret objects. However, the default method stores these secrets unencrypted in etcd, raising security concerns. With Vault Enterprise&amp;rsquo;s protected secrets model, secrets are delivered into pods without being stored in etcd. This method uses a CSI driver to mount secrets dynamically at runtime, ensuring they are only available within the pod and removed when&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Develop and deploy voice AI apps using Docker</title>
+      <link>/articles/article-2025-12-16-13849/</link>
+      <pubDate>Tue, 16 Dec 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13849/</guid>
+      <description>🚀 Voice AI is the future of conversational technology, but its complexity can be daunting. This article discusses how Docker simplifies the deployment of voice AI applications. 🔍 By utilizing open-source technologies, developers can create custom voice AI agents that operate on personal devices. Docker containers provide a reliable environment for building and scaling these applications. 💡 The EchoKit platform is highlighted as a practical example, featuring a server-client setup that enables&amp;hellip;</description>
+    </item>
+    <item>
       <title>Training Wheels Off: Lessons in Leadership and Letting Go</title>
       <link>/articles/article-2025-12-16-13607/</link>
       <pubDate>Tue, 16 Dec 2025 13:00:19 +0000</pubDate>
@@ -56,6 +70,27 @@
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-16-13678/</guid>
       <description>🌐 Exploring the differences between serverless functions and containers can help optimize your deployment strategies. Both approaches support automatic deployments from GitHub, but they handle tasks differently. Serverless platforms deploy functions, while containers offer persistent services. Key considerations include database connections, scheduled jobs, and long-running tasks. The choice between them depends on your application needs. Learn more about which approach may suit your project&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Behind the screens: Accessible design is good design</title>
+      <link>/articles/article-2025-12-15-13873/</link>
+      <pubDate>Mon, 15 Dec 2025 23:50:48 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13873/</guid>
+      <description>At Atlassian, accessibility is integral to our design process, not just an afterthought. Our Design System ensures all apps meet accessibility standards from the start. We established an Accessibility team to embed inclusion in design and engineering. This proactive approach aims to enhance usability and quality across all products. Key principles include accessibility by default, tooling for real-time issue identification, and empowering creators to design inclusively. Regular audits help us&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automate more in Jira: A guide to Forge Automation Actions</title>
+      <link>/articles/article-2025-12-15-13874/</link>
+      <pubDate>Mon, 15 Dec 2025 21:26:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13874/</guid>
+      <description>Unlock the potential of your workflows with Forge Automation Actions in Jira! 🚀 These custom automation steps allow you to automate repetitive tasks, saving time and minimizing errors. They integrate seamlessly with the Automation rule builder, enabling users to enhance their Jira experience effortlessly. With Forge, you can connect to external services, apply custom logic, and enrich Jira work items with relevant data from systems like CRMs. 📊 Discover how to streamline your tasks today!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Train Scientific Agents with Reinforcement Learning</title>
+      <link>/articles/article-2025-12-15-13631/</link>
+      <pubDate>Mon, 15 Dec 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13631/</guid>
+      <description>Unlocking the potential of scientific research with AI! 🤖 The article discusses how scientific AI agents can assist researchers by managing literature, planning experiments, and analyzing results, allowing more time for creative discovery. However, building these agents poses challenges, especially in maintaining context and coherence over long tasks. NVIDIA&amp;rsquo;s NeMo framework offers tools like NeMo Gym and NeMo RL to create effective training environments for these AI systems. Notably, Edison&amp;hellip;</description>
     </item>
     <item>
       <title>How to Tame Your Flaky Tests in TeamCity</title>

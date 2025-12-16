@@ -13,7 +13,7 @@
       <link>/articles/article-2025-12-16-13843/</link>
       <pubDate>Tue, 16 Dec 2025 15:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-16-13843/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.hashicorp.com/blog/feed.xml&#34;&gt;HashiCorp Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.hashicorp.com/blog/deliver-secrets-to-kubernetes-pods-without-storing-in-etcd-using-vso&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🔒 The Vault Secrets Operator (VSO) enhances secrets management in Kubernetes by syncing HashiCorp Vault secrets directly into Kubernetes Secret objects. However, the default method stores these secrets unencrypted in etcd, raising security concerns. With Vault Enterprise&amp;rsquo;s protected secrets model, secrets are delivered into pods without being stored in etcd. This method uses a CSI driver to mount secrets dynamically at runtime, ensuring they are only available within the pod and removed when&amp;hellip;</description>
     </item>
     <item>
       <title>HashiCorp is a Kiro powers launch partner</title>

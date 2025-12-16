@@ -65,6 +65,13 @@
       <description>🚀 Retrieval Augmented Generation (RAG) enhances AI language models by combining them with external knowledge bases, improving accuracy and context. 🔧 The integration of Feast, an open-source feature store, with RAG optimizes feature management, ensuring consistent training and inference. 🛠️ Introducing the FeastRAGRetriever, which supports various search methods for better information retrieval and seamless integration with Hugging Face Transformers. #AIML #MLOps #DataScience #FeatureStore #RAG</description>
     </item>
     <item>
+      <title>FAPI for Developers: Here Is Your Guide</title>
+      <link>/articles/article-2025-12-16-13826/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13826/</guid>
+      <description>📢 A new ebook, &amp;ldquo;A Developer’s Guide to FAPI,&amp;rdquo; is now available! This resource explains the importance of FAPI for regulated industries and how it enhances security beyond OAuth bearer tokens. FAPI introduces rigorous security protocols that help protect high-stakes data, shifting from a passive to an active identity verification model. It emphasizes secure access tokens through Mutual TLS (mTLS) and Demonstration of Proof-of-Possession (DPoP). Learn more about implementing these standards for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Hosting Postgres with GeoLite2: a practical guide to IP geolocation, data loading, and updates</title>
       <link>/articles/article-2025-12-16-13679/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
@@ -100,6 +107,13 @@
       <description>🚀 Exciting news for developers! With the 25.10 release, cuML wheels are now available directly from PyPI, simplifying installation. No more complex steps or Conda management—just use pip! 📦 The NVIDIA team has reduced the CUDA library binary size by ~30%, enhancing accessibility and performance. This means faster downloads and lower storage needs. For detailed installation commands and optimization techniques, check out the full article! #cuML #PyPI #CUDA #NVIDIA #PythonDevelopment</description>
     </item>
     <item>
+      <title>Databricks Lakehouse Data Modeling: Myths, Truths, and Best Practices</title>
+      <link>/articles/article-2025-12-15-13833/</link>
+      <pubDate>Mon, 15 Dec 2025 17:16:51 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13833/</guid>
+      <description>Discover the insights on Databricks Lakehouse data modeling in the recent article! It highlights how advancements in data modeling maturity and capabilities are bridging the gaps found in traditional data warehouses. The piece outlines common myths, truths, and best practices, essential for optimizing data management strategies. Stay informed and enhance your data practices! 📊💡 #DataModeling #Databricks #DataWarehouse #BestPractices #DataManagement</description>
+    </item>
+    <item>
       <title>How to Train Scientific Agents with Reinforcement Learning</title>
       <link>/articles/article-2025-12-15-13631/</link>
       <pubDate>Mon, 15 Dec 2025 14:00:00 +0000</pubDate>
@@ -121,6 +135,13 @@
       <description>Flaky tests can disrupt your CI pipeline, leading to confusion and wasted time. 🕒 This article by Satish Subrahmanya explains how TeamCity helps identify and manage flaky tests. It highlights common causes like race conditions, test dependencies, external services, and resource contention. Learn to streamline your testing process and improve team efficiency! 🚀 #SoftwareDevelopment #ContinuousIntegration #TeamCity #FlakyTests #DevOps</description>
     </item>
     <item>
+      <title>An Accessible Guide to WCAG 3.3.9: Going for Gold</title>
+      <link>/articles/article-2025-12-15-13827/</link>
+      <pubDate>Mon, 15 Dec 2025 10:40:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13827/</guid>
+      <description>WCAG 3.3.9 enhances web accessibility by removing exceptions from WCAG 3.3.8. While 3.3.8 set minimum standards for accessible authentication, 3.3.9 eliminates cognitive tests like object recognition and personal content selection. This aims to support users with severe cognitive impairments more effectively. Understanding these levels is crucial: Level AA compliance is a legal baseline, while Level AAA represents a gold standard for accessibility. #WebAccessibility #WCAG #InclusiveDesign&amp;hellip;</description>
+    </item>
+    <item>
       <title>Set up FSx for NetApp ONTAP on Red Hat OpenShift Service on AWS</title>
       <link>/articles/article-2025-12-15-13614/</link>
       <pubDate>Mon, 15 Dec 2025 07:15:54 +0000</pubDate>
@@ -135,11 +156,25 @@
       <description>Optimizing storage for cloud development environments (CDE) is crucial for enhancing developer productivity and application resilience. This guide discusses key factors like volumeMode, Persistent Volume Claim (PVC) strategies, and storage protocols (iSCSI vs. NFS). It highlights how these choices impact performance and resiliency in setups like Red Hat OpenShift on AWS using FSx for NetApp ONTAP. By understanding these elements, teams can select the best configuration for their needs. 📊💻&amp;hellip;</description>
     </item>
     <item>
+      <title>Build a Twilio SMS &#43; Microsoft Teams Integration</title>
+      <link>/articles/article-2025-12-15-13877/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13877/</guid>
+      <description>🚀 Want to streamline communication? Check out the tutorial on building a Twilio SMS and Microsoft Teams integration! This step-by-step guide helps developers connect SMS capabilities with Teams for improved messaging. Enhance your workflows and stay connected! 📱💻 #Twilio #MicrosoftTeams #Integration #DevTutorial #TechTips</description>
+    </item>
+    <item>
       <title>Hosting Postgres with pgvector: provider tradeoffs, migrations, indexes, and tuning</title>
       <link>/articles/article-2025-12-15-13680/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-15-13680/</guid>
       <description>🚀 Exploring the essentials of hosting Postgres with pgvector? This guide provides valuable insights. It covers key topics such as provider tradeoffs, migrations, index selection between IVFFlat and HNSW, and performance tuning for vector workloads. Learn about the support for pgvector across managed providers and the control you might sacrifice. Container-based platforms like Railway offer more flexibility but require greater operational responsibility. Automating migrations in your CI/CD&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to run Automated AMD Tests and Fine-Tune Twilio AMD for Accurate Voice Automation</title>
+      <link>/articles/article-2025-12-15-13876/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13876/</guid>
+      <description>Learn how to enhance your voice automation with Twilio&amp;rsquo;s AMD testing. The article covers methods for running automated AMD tests and fine-tuning settings for improved accuracy. Discover key strategies to implement in your voice applications, ensuring reliable performance. Stay ahead in cloud communications! ☁️📞 #Twilio #VoiceAutomation #CloudCommunications #AMD #TechTips</description>
     </item>
     <item>
       <title>Fedora Silverblue Has a Handy Tool To Help Simplify Development</title>

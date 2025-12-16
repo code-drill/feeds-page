@@ -6,8 +6,64 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 19:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 21:30:08 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How a Component-First Approach Fixes Figma-to-Code</title>
+      <link>/articles/article-2025-12-16-13577/</link>
+      <pubDate>Tue, 16 Dec 2025 21:30:08 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13577/</guid>
+      <description>Figma-to-code tools promise to simplify design-to-code transitions, but they often miss the mark. 🚫 While they can generate visually appealing previews, the underlying code is static and hard to maintain. Styles are hard-coded, and components lack interactivity. This leads to challenges in scalability and reusability. A component-first approach can address these issues by focusing on modular, production-ready components that align with design systems. #Figma #Code #WebDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When Vibe Coding Goes Rogue: Debugging Your Own Brain</title>
+      <link>/articles/article-2025-12-16-13579/</link>
+      <pubDate>Tue, 16 Dec 2025 20:00:35 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13579/</guid>
+      <description>Ever experienced that flow state in coding where everything clicks? This article explores &amp;ldquo;vibe coding,&amp;rdquo; a state where intuition drives development, but warns of its pitfalls. When that flow falters, debugging our mindset becomes crucial. Cognitive biases can cloud our judgment, leading to errors that feel personal. Finding a balance between intuition and structure is key for sustainable success. 🎵💻 #Coding #Development #Debugging #TechMindset #VibeCoding</description>
+    </item>
+    <item>
+      <title>CSS Layout: How To ‘Center a Div,’ the Old School Way</title>
+      <link>/articles/article-2025-12-16-13584/</link>
+      <pubDate>Tue, 16 Dec 2025 16:00:04 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13584/</guid>
+      <description>In the early days of web design, centering elements was straightforward with the &lt;code&gt;&amp;lt;center&amp;gt;&lt;/code&gt; tag. However, with HTML 4.0, it was deprecated for architectural reasons, leaving developers seeking alternatives. This shift led to confusion as new layout elements didn&amp;rsquo;t address the centering issue. The introduction of CSS Grid and Flexbox eventually simplified this process, but many legacy sites still rely on outdated methods for centering. Understanding the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag is crucial, as it defines&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improve RAG retrieval and training with Feast and Kubeflow Trainer</title>
+      <link>/articles/article-2025-12-16-13612/</link>
+      <pubDate>Tue, 16 Dec 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13612/</guid>
+      <description>🚀 Retrieval Augmented Generation (RAG) enhances AI language models by combining them with external knowledge bases, improving accuracy and context. 🔧 The integration of Feast, an open-source feature store, with RAG optimizes feature management, ensuring consistent training and inference. 🛠️ Introducing the FeastRAGRetriever, which supports various search methods for better information retrieval and seamless integration with Hugging Face Transformers. #AIML #MLOps #DataScience #FeatureStore #RAG</description>
+    </item>
+    <item>
+      <title>Set up FSx for NetApp ONTAP on Red Hat OpenShift Service on AWS</title>
+      <link>/articles/article-2025-12-15-13614/</link>
+      <pubDate>Mon, 15 Dec 2025 07:15:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13614/</guid>
+      <description>🚀 Ready to deploy a high-availability storage backend on Red Hat OpenShift Service using Amazon FSx for NetApp ONTAP? This guide walks you through the setup process, covering both iSCSI and NFS configurations. Key prerequisites include administrative access to your ROSA cluster and the AWS Management Console. Follow the steps to create your FSx file system, configure security groups, and install the NetApp Trident Operator. For detailed instructions, check out the full article! 📖🔧 #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Optimizing cloud development environment storage: FSx for ONTAP</title>
+      <link>/articles/article-2025-12-15-13615/</link>
+      <pubDate>Mon, 15 Dec 2025 07:00:56 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13615/</guid>
+      <description>Optimizing storage for cloud development environments (CDE) is crucial for enhancing developer productivity and application resilience. This guide discusses key factors like volumeMode, Persistent Volume Claim (PVC) strategies, and storage protocols (iSCSI vs. NFS). It highlights how these choices impact performance and resiliency in setups like Red Hat OpenShift on AWS using FSx for NetApp ONTAP. By understanding these elements, teams can select the best configuration for their needs. 📊💻&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Fedora Silverblue Has a Handy Tool To Help Simplify Development</title>
+      <link>/articles/article-2025-12-14-13594/</link>
+      <pubDate>Sun, 14 Dec 2025 15:00:56 +0000</pubDate>
+      <guid>/articles/article-2025-12-14-13594/</guid>
+      <description>Explore Fedora Silverblue, a Linux distribution designed for developers! 🐧 It features Toolbox, a tool that creates containerized environments for software development and debugging. This keeps your host OS clean and stable while allowing easy access to different distributions. Toolbox is preinstalled, making it simple to get started. However, it&amp;rsquo;s best for command line tools, not GUI apps. #FedoraSilverblue #Linux #Development #Toolbox #OpenSource</description>
+    </item>
+    <item>
+      <title>Three Core Principles for Sustainable Platform Design</title>
+      <link>/articles/article-2025-12-13-13596/</link>
+      <pubDate>Sat, 13 Dec 2025 18:00:58 +0000</pubDate>
+      <guid>/articles/article-2025-12-13-13596/</guid>
+      <description>In the article &amp;ldquo;Three Core Principles for Sustainable Platform Design,&amp;rdquo; key insights on effective platform engineering are discussed. A successful platform should provide software teams with contextualized tools, enabling them to focus on revenue-generating tasks. This requires a shift in how organizations deliver value, moving beyond just technology components. Three essential outcomes are highlighted for assessing platform value: 1️⃣ Quick access to needed resources. 2️⃣ Efficient&amp;hellip;</description>
+    </item>
     <item>
       <title>A Guide To Building Scalable AI Agents</title>
       <link>/articles/article-2025-12-08-13555/</link>

@@ -6,8 +6,43 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 14:47:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 15:03:39 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage credentials with Tekton and OpenShift on IBM Cloud</title>
+      <link>/articles/article-2025-12-16-13611/</link>
+      <pubDate>Tue, 16 Dec 2025 15:03:39 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13611/</guid>
+      <description>🔒 Securing CI/CD workflows is essential in cloud-native environments. This article discusses how to protect credentials and enforce compliance using Tekton Pipelines on Red Hat OpenShift on IBM Cloud. Key highlights include managing Kubernetes Secrets, integrating IBM Cloud Key Protect, and utilizing Tekton Chains for integrity. Effective security measures ensure secrets are injected only when needed, images are scanned, and unsafe deployments are blocked. Learn more about building a trusted&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improve RAG retrieval and training with Feast and Kubeflow Trainer</title>
+      <link>/articles/article-2025-12-16-13612/</link>
+      <pubDate>Tue, 16 Dec 2025 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13612/</guid>
+      <description>🚀 Retrieval Augmented Generation (RAG) enhances AI language models by combining them with external knowledge bases, improving accuracy and context. 🔧 The integration of Feast, an open-source feature store, with RAG optimizes feature management, ensuring consistent training and inference. 🛠️ Introducing the FeastRAGRetriever, which supports various search methods for better information retrieval and seamless integration with Hugging Face Transformers. #AIML #MLOps #DataScience #FeatureStore #RAG</description>
+    </item>
+    <item>
+      <title>How to reduce false positives in security scans</title>
+      <link>/articles/article-2025-12-15-13613/</link>
+      <pubDate>Mon, 15 Dec 2025 08:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13613/</guid>
+      <description>🔍 Running security scans on Python applications in Fedora or RHEL can lead to false positives. Scanners often flag backported, patched versions of setuptools or pip as vulnerable due to outdated version numbers. 🚀 To address this, Fedora Rawhide is now incorporating Software Bill of Materials (SBOM) information directly into Python wheels. This helps scanners identify the actual patched version, reducing false alerts. 📢 Feedback from the developer community is welcomed to refine this feature&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Set up FSx for NetApp ONTAP on Red Hat OpenShift Service on AWS</title>
+      <link>/articles/article-2025-12-15-13614/</link>
+      <pubDate>Mon, 15 Dec 2025 07:15:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13614/</guid>
+      <description>🚀 Ready to deploy a high-availability storage backend on Red Hat OpenShift Service using Amazon FSx for NetApp ONTAP? This guide walks you through the setup process, covering both iSCSI and NFS configurations. Key prerequisites include administrative access to your ROSA cluster and the AWS Management Console. Follow the steps to create your FSx file system, configure security groups, and install the NetApp Trident Operator. For detailed instructions, check out the full article! 📖🔧 #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Optimizing cloud development environment storage: FSx for ONTAP</title>
+      <link>/articles/article-2025-12-15-13615/</link>
+      <pubDate>Mon, 15 Dec 2025 07:00:56 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13615/</guid>
+      <description>Optimizing storage for cloud development environments (CDE) is crucial for enhancing developer productivity and application resilience. This guide discusses key factors like volumeMode, Persistent Volume Claim (PVC) strategies, and storage protocols (iSCSI vs. NFS). It highlights how these choices impact performance and resiliency in setups like Red Hat OpenShift on AWS using FSx for NetApp ONTAP. By understanding these elements, teams can select the best configuration for their needs. 📊💻&amp;hellip;</description>
+    </item>
     <item>
       <title>JBoss EAP XP 6 is here</title>
       <link>/articles/article-2025-12-08-13545/</link>

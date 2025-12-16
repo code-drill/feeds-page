@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 18:00:37 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KubeVirt Planning: Storage, Network and Security Considerations</title>
+      <link>/articles/article-2025-12-16-13581/</link>
+      <pubDate>Tue, 16 Dec 2025 18:00:37 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13581/</guid>
+      <description>📘 Discover insights from &amp;ldquo;Running Virtual Machines on Kubernetes&amp;rdquo; by Janakiram MSV! The excerpt discusses essential planning for KubeVirt, focusing on storage, network, and security. It emphasizes the importance of leveraging Kubernetes-native storage for VM management through Persistent Volume Claims (PVCs) and the use of StorageClass objects. Networking is covered as well, highlighting the default NAT access and the role of Multus for complex network scenarios. Lastly, security frameworks&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What Is Google’s Agent Development Kit? An Architectural Tour</title>
+      <link>/articles/article-2025-12-15-13589/</link>
+      <pubDate>Mon, 15 Dec 2025 15:30:10 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13589/</guid>
+      <description>Discover Google’s Agent Development Kit (ADK), a new approach for developers building AI applications. ADK shifts from simple request-response systems to an event-driven architecture, enabling advanced orchestration of agents, tools, and persistent states. The Runner is central to this setup, allowing real-time interaction and feedback through an innovative event loop. This design supports multi-step reasoning and dynamic updates. Learn more about how ADK can transform your AI projects! 🌐🤖&amp;hellip;</description>
+    </item>
     <item>
       <title>Automate Kubernetes AI Cluster Health with NVSentinel</title>
       <link>/articles/article-2025-12-08-13557/</link>

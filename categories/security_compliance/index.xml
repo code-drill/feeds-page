@@ -6,8 +6,29 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 21:00:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 15:03:39 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage credentials with Tekton and OpenShift on IBM Cloud</title>
+      <link>/articles/article-2025-12-16-13611/</link>
+      <pubDate>Tue, 16 Dec 2025 15:03:39 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13611/</guid>
+      <description>🔒 Securing CI/CD workflows is essential in cloud-native environments. This article discusses how to protect credentials and enforce compliance using Tekton Pipelines on Red Hat OpenShift on IBM Cloud. Key highlights include managing Kubernetes Secrets, integrating IBM Cloud Key Protect, and utilizing Tekton Chains for integrity. Effective security measures ensure secrets are injected only when needed, images are scanned, and unsafe deployments are blocked. Learn more about building a trusted&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Making the Cyber Resilience Act Work for Open Source</title>
+      <link>/articles/article-2025-12-15-13588/</link>
+      <pubDate>Mon, 15 Dec 2025 22:00:01 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13588/</guid>
+      <description>As the EU Cyber Resilience Act (CRA) approaches its implementation, software manufacturers are assessing its impact on security and compliance. Red Hat emphasizes its commitment to both enterprise open source solutions and cybersecurity. The company has established a comprehensive program to align with CRA requirements, ensuring secure development practices are ingrained in their processes. While the CRA raises security expectations across the industry, it may challenge smaller projects&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>How to reduce false positives in security scans</title>
+      <link>/articles/article-2025-12-15-13613/</link>
+      <pubDate>Mon, 15 Dec 2025 08:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13613/</guid>
+      <description>🔍 Running security scans on Python applications in Fedora or RHEL can lead to false positives. Scanners often flag backported, patched versions of setuptools or pip as vulnerable due to outdated version numbers. 🚀 To address this, Fedora Rawhide is now incorporating Software Bill of Materials (SBOM) information directly into Python wheels. This helps scanners identify the actual patched version, reducing false alerts. 📢 Feedback from the developer community is welcomed to refine this feature&amp;hellip;.</description>
+    </item>
     <item>
       <title>The Automation Paradox and Why Security Teams Fear Their Own Tools</title>
       <link>/articles/article-2025-12-08-13569/</link>

@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 22:00:59 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breaking Data Team Silos Is the Key To Getting AI to Production</title>
+      <link>/articles/article-2025-12-17-13964/</link>
+      <pubDate>Wed, 17 Dec 2025 22:00:59 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13964/</guid>
+      <description>Enterprises are rushing to implement AI services, but silos are forming again between data scientists and operations teams. This mirrors past challenges between developers and ops. Experts from IBM stress the importance of breaking these silos for successful AI deployment. They emphasize that foundational practices, like defining metrics and monitoring, are essential to support AI applications effectively. AI models present unique challenges, particularly in gathering user feedback for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Real-Time Decoding, Algorithmic GPU Decoders, and AI Inference Enhancements in NVIDIA CUDA-Q QEC</title>
+      <link>/articles/article-2025-12-17-13967/</link>
+      <pubDate>Wed, 17 Dec 2025 21:32:50 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13967/</guid>
+      <description>🚀 Real-time decoding is essential for fault-tolerant quantum computers. NVIDIA&amp;rsquo;s CUDA-Q QEC version 0.5.0 enhances this with low-latency decoders working alongside quantum processing units (QPU). Key improvements include online real-time decoding, GPU-accelerated algorithmic decoders, and better AI inference support. Users can efficiently conduct quantum error correction through a streamlined four-stage workflow. Explore how these advancements can accelerate your research! #QuantumComputing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run AI Agents in the Browser With the Hashbrown Framework</title>
+      <link>/articles/article-2025-12-17-13965/</link>
+      <pubDate>Wed, 17 Dec 2025 21:00:44 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13965/</guid>
+      <description>🚀 Introducing Hashbrown, an innovative open-source framework by developer Mike Ryan! This tool allows AI agents to run directly in the browser, unlike existing frameworks that operate mainly on the back end. Hashbrown simplifies the integration of chat-based AI assistants into frontend applications, enabling tasks like form filling and generating visual data. Explore the future of generative UI! 🌐✨ #AI #WebDevelopment #Hashbrown #OpenSource #TechInnovation</description>
+    </item>
+    <item>
+      <title>Kubernetes 1.35 “Timbernetes” Introduces Vertical Scaling</title>
+      <link>/articles/article-2025-12-17-13966/</link>
+      <pubDate>Wed, 17 Dec 2025 20:00:57 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13966/</guid>
+      <description>🚀 Kubernetes 1.35, also known as “Timbernetes,” has introduced vertical scaling, allowing users to adjust CPU and memory resources on-the-fly without restarting pods or containers. This release includes 60 enhancements, with 17 now stable and 19 in Beta. Notable features include KYAML for easier configuration and gang scheduling for interdependent workloads. Discover the full potential of Kubernetes 1.35! 🌱✨ #Kubernetes #TechUpdate #VerticalScaling #CloudComputing #Innovation</description>
+    </item>
+    <item>
+      <title>A More Powerful, Code-First Knowledge Base Experience on the DigitalOcean Gradient™ AI Platform</title>
+      <link>/articles/article-2025-12-17-13968/</link>
+      <pubDate>Wed, 17 Dec 2025 19:50:21 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13968/</guid>
+      <description>🚀 Exciting updates are here for DigitalOcean Gradient™ AI Knowledge Bases! The new code-first feature allows developers to manage knowledge bases entirely through code, enhancing control over data ingestion, chunking, and retrieval. 🛠️ Key features include: - Direct API access for seamless integration. - Customizable ingestion from various sources. - Flexible chunking and embedding strategies. Start exploring these improvements in public preview and streamline your AI applications today! 🌐&amp;hellip;</description>
+    </item>
     <item>
       <title>Migrate Apache Spark Workloads to GPUs at Scale on Amazon EMR with Project Aether</title>
       <link>/articles/article-2025-12-17-13951/</link>
@@ -198,6 +233,13 @@
       <description>🚀 Exciting news! Google&amp;rsquo;s Gemini 3 Flash is now available on Vercel&amp;rsquo;s AI Gateway. This model is designed for speed and outperforms Gemini 2.5, using 30% fewer tokens and operating 3x faster at a lower cost. 🔍 Users can easily call the model with a unified API, track usage, and optimize performance. Explore the AI Gateway and try it in the model playground! #Gemini3Flash #Vercel #AIGateway #GoogleAI #TechUpdates</description>
     </item>
     <item>
+      <title>Preview URLs optimized for multi-tenant platforms</title>
+      <link>/articles/article-2025-12-17-13971/</link>
+      <pubDate>Wed, 17 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13971/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/preview-urls-optimized-for-multi-tenant-platforms&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>MPS 2025.3 Has Been Released!</title>
       <link>/articles/article-2025-12-17-13928/</link>
       <pubDate>Wed, 17 Dec 2025 11:47:53 +0000</pubDate>
@@ -231,6 +273,13 @@
       <pubDate>Wed, 17 Dec 2025 07:15:54 +0000</pubDate>
       <guid>/articles/article-2025-12-17-13925/</guid>
       <description>Kubernetes monitoring is essential for managing today&amp;rsquo;s complex environments. Effective strategies enhance performance, reliability, and cost control. Key aspects include tracking various metrics like API server latency and container restart rates. AIOps integration aids in anomaly detection and proactive management. Open-source tools like Prometheus and Grafana are foundational for effective monitoring. Understanding cardinality and granularity in data management is crucial for cost&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building ChatGPT Apps with Supabase Edge Functions and mcp-use</title>
+      <link>/articles/article-2025-12-17-13970/</link>
+      <pubDate>Wed, 17 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13970/</guid>
+      <description>🚀 Discover the new potential of ChatGPT with the Apps SDK! This article explains how to build a ChatGPT app that connects to a Supabase database using mcp-use and Edge Functions. Learn to create interactive widgets for exploring database schemas, viewing data, and running SQL queries. Transform your ChatGPT experience by integrating custom interfaces and external services! #ChatGPT #Supabase #AppDevelopment #TechInnovation #MCPUse</description>
     </item>
     <item>
       <title>Optimizing Semiconductor Defect Classification with Generative AI and Vision Foundation Models</title>
@@ -294,6 +343,13 @@
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-17-13939/</guid>
       <description>🚀 Postgres 18 is now available on PlanetScale! When creating a new database, version 18.1 is the default, with options to select earlier versions. Recent offerings include $5 single-node databases and $50 Metal databases. Key updates in Postgres 18 include: - Improved query performance with a new asynchronous I/O system. - Built-in support for UUIDv7. - Enhanced multi-column index usage with Skip Scan optimization. To upgrade from Postgres 17, create a new database and follow the online&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The AEO voices to watch in 2026</title>
+      <link>/articles/article-2025-12-17-13972/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13972/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/2026-aeo-voices-to-follow&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Smarter promotions with causal machine learning</title>
@@ -623,6 +679,13 @@
       <pubDate>Tue, 16 Dec 2025 07:01:17 +0000</pubDate>
       <guid>/articles/article-2025-12-16-13612/</guid>
       <description>🚀 Retrieval Augmented Generation (RAG) enhances AI language models by combining them with external knowledge bases, improving accuracy and context. 🔧 The integration of Feast, an open-source feature store, with RAG optimizes feature management, ensuring consistent training and inference. 🛠️ Introducing the FeastRAGRetriever, which supports various search methods for better information retrieval and seamless integration with Hugging Face Transformers. #AIML #MLOps #DataScience #FeatureStore #RAG</description>
+    </item>
+    <item>
+      <title>Own Your Observability: Supabase Metrics API</title>
+      <link>/articles/article-2025-12-16-13686/</link>
+      <pubDate>Tue, 16 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-16-13686/</guid>
+      <description>🚀 Streamline your database monitoring with Supabase&amp;rsquo;s new Metrics API! You can now export your Supabase database telemetry into any Prometheus-compatible observability stack. This includes popular platforms like Grafana Cloud and Datadog. The API allows full control over monitoring, visualization, and alerting, enhancing your overall observability. 📊 Say goodbye to siloed metrics! Correlate API latency with database performance effortlessly. #Supabase #MetricsAPI #Observability&amp;hellip;</description>
     </item>
     <item>
       <title>How AI-Enabled Tooling Boosted Code Output 30% — While Keeping Quality and Deployment Safety Intact</title>

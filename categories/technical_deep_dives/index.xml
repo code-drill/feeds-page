@@ -58,6 +58,13 @@
       <description>🚀 Jira Cloud is evolving! The platform is shifting to a cloud-native, multi-tenant architecture aimed at enhancing performance, speed, and reliability. This transformation addresses the limitations of the previous single-tenant database model, ensuring better support for larger customers and more efficient data management. Key challenges tackled include enabling scalability, optimizing for reads, and improving access patterns for a more responsive user experience. #JiraCloud&amp;hellip;</description>
     </item>
     <item>
+      <title>How Temporal Powers Reliable Cloud Operations at Netflix</title>
+      <link>/articles/article-2025-12-15-13921/</link>
+      <pubDate>Mon, 15 Dec 2025 23:51:59 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13921/</guid>
+      <description>🚀 Netflix has adopted Temporal, a Durable Execution platform, to enhance its cloud operations since 2021. This tool significantly reduces transient deployment failures from 4% to 0.0001%. Temporal streamlines processes for Spinnaker, Netflix&amp;rsquo;s multi-cloud delivery platform, enabling more reliable and efficient deployments. With over 100 use cases and growing, Temporal is now integral to Netflix&amp;rsquo;s operations. #Netflix #CloudComputing #Temporal #DevOps #SoftwareEngineering</description>
+    </item>
+    <item>
       <title>From Python3.8 to Python3.10: Our Journey Through a Memory Leak</title>
       <link>/articles/article-2025-12-15-13858/</link>
       <pubDate>Mon, 15 Dec 2025 19:31:01 +0000</pubDate>
@@ -70,6 +77,13 @@
       <pubDate>Mon, 15 Dec 2025 17:42:36 +0000</pubDate>
       <guid>/articles/article-2025-12-15-13875/</guid>
       <description>Atlassian addresses risks in infrastructure-as-code through custom merge checks in Bitbucket. Change-related incidents can significantly impact cloud reliability, with 50-60% linked to recent updates. To manage this, Atlassian employs progressive deployment strategies, minimizing disruptions by gradually rolling out changes and monitoring their effects. Infrastructure-as-code practices evolve, managing diverse configurations. Service descriptors document necessary configurations for services,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Netflix Live Origin</title>
+      <link>/articles/article-2025-12-15-13922/</link>
+      <pubDate>Mon, 15 Dec 2025 17:38:16 +0000</pubDate>
+      <guid>/articles/article-2025-12-15-13922/</guid>
+      <description>🚀 Discover the architecture behind Netflix&amp;rsquo;s Live Origin! This custom server bridges cloud live streaming and Open Connect, managing content delivery efficiently. It utilizes a multi-tenant microservice model on AWS, ensuring resilience through redundant pipelines and epoch locking for segment selection. The Live Origin enhances streaming by detecting segment defects and optimizing traffic management, prioritizing critical requests during high loads. Stay tuned for more insights! #NetflixLive&amp;hellip;</description>
     </item>
     <item>
       <title>NVIDIA CUDA-X Powers the New Sirius GPU Engine for DuckDB, Setting ClickBench Records</title>

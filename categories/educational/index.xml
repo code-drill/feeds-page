@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 07:15:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simulate an Accurate Radio Environment Using NVIDIA Aerial Omniverse Digital Twin</title>
+      <link>/articles/article-2025-12-17-13937/</link>
+      <pubDate>Wed, 17 Dec 2025 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13937/</guid>
+      <description>Unlock the potential of 5G and 6G with NVIDIA&amp;rsquo;s Aerial Omniverse Digital Twin! 📡 This tutorial guides researchers and engineers in enhancing their simulations by integrating high-fidelity channel models into existing frameworks. Prerequisites include an NVIDIA RTX GPU, access to AODT Release 1.4, and basic Python knowledge. Explore how AODT fits into various programming environments like C++ and MATLAB! #5G #6G #NVIDIA #DigitalTwin #WirelessTechnology</description>
+    </item>
+    <item>
+      <title>How to Run OLAP and OLTP Together Without Resource Contention</title>
+      <link>/articles/article-2025-12-17-13932/</link>
+      <pubDate>Wed, 17 Dec 2025 15:00:54 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13932/</guid>
+      <description>📊 OLAP and OLTP serve unique functions in data processing. OLAP focuses on analytics, while OLTP targets real-time transactions. Many databases are optimized for one or the other, leading to resource contention when both run simultaneously. This can hinder overall system performance. Row-oriented databases support OLTP, and column-oriented databases are better for OLAP. However, combining workloads can reduce latency issues, as shown in recent studies with ScyllaDB. #DataManagement #OLAP&amp;hellip;</description>
+    </item>
     <item>
       <title>Fine-tune a RAG model with Feast and Kubeflow Trainer</title>
       <link>/articles/article-2025-12-17-13924/</link>
@@ -21,6 +35,13 @@
       <pubDate>Wed, 17 Dec 2025 07:15:54 +0000</pubDate>
       <guid>/articles/article-2025-12-17-13925/</guid>
       <description>Kubernetes monitoring is essential for managing today&amp;rsquo;s complex environments. Effective strategies enhance performance, reliability, and cost control. Key aspects include tracking various metrics like API server latency and container restart rates. AIOps integration aids in anomaly detection and proactive management. Open-source tools like Prometheus and Grafana are foundational for effective monitoring. Understanding cardinality and granularity in data management is crucial for cost&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Continuous Authorization Testing: FGA, GitHub Actions, and CI/CD</title>
+      <link>/articles/article-2025-12-17-13941/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-17-13941/</guid>
+      <description>🚀 Explore how to maintain consistent authorization confidence in your applications! This article discusses the importance of automating testing in CI/CD pipelines using OpenFGA and GitHub Actions. As authorization models grow complex, manual checks become inefficient and error-prone. It outlines defining OpenFGA test files and integrating them into your workflow to ensure secure code changes before production. Learn about the core components of OpenFGA and how to structure your authorization&amp;hellip;</description>
     </item>
     <item>
       <title>How a Component-First Approach Fixes Figma-to-Code</title>

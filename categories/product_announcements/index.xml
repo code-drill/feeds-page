@@ -23,6 +23,13 @@
       <description>🚀 Big news from Heroku! This month, we expand our Managed Inference and Agents, enhancing our AI PaaS framework. New additions include top-tier models like Claude Opus 4.5 and Nova 2, all accessible via a single CLI command. These models run securely on AWS, ensuring your data remains private. 🔒 Check out the refreshed aistudio.heroku.com for your provisioned models. #HerokuAI #AIModels #DataSecurity #TechUpdates #Innovation</description>
     </item>
     <item>
+      <title>Kubernetes v1.35: Job Managed By Goes GA</title>
+      <link>/articles/article-2025-12-18-14036/</link>
+      <pubDate>Thu, 18 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-18-14036/</guid>
+      <description>🚀 Exciting news in Kubernetes v1.35! The .spec.managedBy feature is now generally available, enabling external Job controllers to manage Job reconciliation. This update supports multi-cluster batch scheduling, allowing a Management Cluster to dispatch Jobs while Worker Clusters execute them. Users can track Job progress in real-time without accessing Worker Clusters. The .spec.managedBy field allows for delegation, with two operational modes: standard and delegation. This flexibility supports&amp;hellip;</description>
+    </item>
+    <item>
       <title>ReSharper and Rider 2025.3.1 Released: Next Edit Suggestions and Other Important Updates</title>
       <link>/articles/article-2025-12-18-14016/</link>
       <pubDate>Thu, 18 Dec 2025 17:47:54 +0000</pubDate>

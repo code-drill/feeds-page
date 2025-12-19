@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.35: Job Managed By Goes GA</title>
+      <link>/articles/article-2025-12-18-14036/</link>
+      <pubDate>Thu, 18 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-18-14036/</guid>
+      <description>🚀 Exciting news in Kubernetes v1.35! The .spec.managedBy feature is now generally available, enabling external Job controllers to manage Job reconciliation. This update supports multi-cluster batch scheduling, allowing a Management Cluster to dispatch Jobs while Worker Clusters execute them. Users can track Job progress in real-time without accessing Worker Clusters. The .spec.managedBy field allows for delegation, with two operational modes: standard and delegation. This flexibility supports&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.35: Timbernetes (The World Tree Release)</title>
       <link>/articles/article-2025-12-17-13974/</link>

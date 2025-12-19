@@ -58,6 +58,27 @@
       <description>🔒 Adding TLS to Nginx Gateway Fabric is essential for securing client traffic in production environments. This tutorial builds on the previous setup to implement TLS termination and automatic HTTP to HTTPS redirection. It covers generating self-signed certificates, creating a Kubernetes TLS secret, and updating the Gateway for HTTPS. Make sure to have your Nginx Gateway Fabric and necessary resources ready to follow along. #Nginx #Kubernetes #TLS #CloudSecurity #DevOps</description>
     </item>
     <item>
+      <title>From the Captain’s Chair: Igor Aleksandrov</title>
+      <link>/articles/article-2025-12-19-14058/</link>
+      <pubDate>Fri, 19 Dec 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-19-14058/</guid>
+      <description>🚀 Meet Igor Aleksandrov, a Docker Captain and CTO of JetRockets! In the latest &amp;ldquo;From the Captain’s Chair&amp;rdquo; series, Igor shares his journey from dealing with dependency issues in Rails to embracing Docker for a unified approach in development. His team prioritized consistency, implementing Docker in production first to tackle challenges effectively. 🛠️ Igor aims to engage more with the Atlanta tech community and speak at conferences to share his insights on containerization and Rails best&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Innovating to address streaming abuse — and our latest transparency report</title>
+      <link>/articles/article-2025-12-19-14060/</link>
+      <pubDate>Fri, 19 Dec 2025 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-19-14060/</guid>
+      <description>🌐 Cloudflare&amp;rsquo;s H1 2025 Transparency Report is now available. This report outlines their handling of legal requests and service abuse, showcasing their ongoing commitment to transparency. 📊 The latest updates focus on combating unauthorized streaming and copyright violations. Cloudflare is exploring innovative methods to identify and address these issues, especially in light of evolving tactics by bad actors. 🤝 Collaboration with rightsholders and policymakers is key in their approach to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Docker Hardened Images: Security Independently Validated by SRLabs</title>
+      <link>/articles/article-2025-12-19-14059/</link>
+      <pubDate>Fri, 19 Dec 2025 13:50:24 +0000</pubDate>
+      <guid>/articles/article-2025-12-19-14059/</guid>
+      <description>🚀 Docker has launched Docker Hardened Images (DHI) at no cost, providing a secure starting point for developers everywhere. 🔍 This initiative ensures that teams can trust the security of these images, validated through a rigorous assessment by SRLabs. The review focused on build practices, vulnerability management, and the effectiveness of the security features. 🛡️ SRLabs confirmed no critical vulnerabilities were found, highlighting the strong verification process and rapid response to new&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elevating Data Security: New DLP Enhancements in Cisco Secure Access</title>
       <link>/articles/article-2025-12-19-14043/</link>
       <pubDate>Fri, 19 Dec 2025 13:00:00 +0000</pubDate>
@@ -107,25 +128,32 @@
       <description>Discover the latest insights in code quality with Munetoshi Ishikawa&amp;rsquo;s article on parameter string formats! Ishikawa explains two formats, ABC and XYZ, and how to extract parameters using Kotlin&amp;rsquo;s regex capabilities. Key classes and objects, like &lt;code&gt;AbcParams&lt;/code&gt; and &lt;code&gt;Parser&lt;/code&gt;, are featured to illustrate this process. Learn more about improving code quality today! 💻📊 #CodeQuality #Kotlin #Programming #Regex #SoftwareDevelopment</description>
     </item>
     <item>
+      <title>Bringing secure, just-in-time secrets to Cursor with 1Password</title>
+      <link>/articles/article-2025-12-19-14056/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-19-14056/</guid>
+      <description>🚀 Exciting news in the world of software development! 1Password and Cursor have partnered to create a new integration featuring a Hooks Script that enhances security for developers using AI. This allows secure, just-in-time access to secrets without hardcoding or exposing credentials. 🔒 With this new functionality, 1Password serves as the secure source for secrets, ensuring they are available only when needed and authorized by the user. This integration marks a significant step toward safer&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elastic and Google Cloud’s powerful partnership in 2025</title>
       <link>/articles/article-2025-12-19-14052/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-19-14052/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.elastic.co/blog/feed&#34;&gt;Elastic Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/blog/elastic-google-cloud-2025&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Elastic and Google Cloud have strengthened their partnership in 2025, focusing on AI-driven insights. 🤝 Key highlights include integrations with Vertex AI, allowing users to build scalable and secure systems. Elastic stands out as the first vendor integrated into Google Vertex AI’s UI and SDK, enhancing data-driven responses. Stay tuned for more updates from this collaboration in 2026! 🚀 #Elastic #GoogleCloud #AI #VertexAI #Partnership</description>
     </item>
     <item>
       <title>Elastic Stack 8.19.9 released</title>
       <link>/articles/article-2025-12-19-14051/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-19-14051/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.elastic.co/blog/feed&#34;&gt;Elastic Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/blog/elastic-stack-8-19-9-released&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news! Version 8.19.9 of the Elastic Stack has been released. This update comes with important fixes and improvements over version 8.19.8. For a complete list of changes and resolved issues, please check the release notes. Consider upgrading to enhance your experience! #ElasticStack #SoftwareUpdate #TechNews #UpgradeNow</description>
     </item>
     <item>
       <title>Elastic Stack 9.1.9 released</title>
       <link>/articles/article-2025-12-19-14049/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-19-14049/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.elastic.co/blog/feed&#34;&gt;Elastic Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/blog/elastic-stack-9-1-9-released&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Elastic Stack 9.1.9 has been released! Upgrading to this version is recommended over 9.1.8 due to various improvements. For a detailed list of fixed issues and changes, refer to the release notes. Explore the benefits of Elastic Cloud with a free trial! #ElasticStack #VersionRelease #UpgradeNow #TechUpdate #ElasticCloud</description>
     </item>
     <item>
       <title>Elastic Stack 9.2.3 released</title>
@@ -133,6 +161,13 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>/articles/article-2025-12-19-14050/</guid>
       <description>🚀 Elastic Stack has launched version 9.2.3! This update is recommended over version 9.2.2. It includes important fixes and changes across its products. For a detailed overview of what&amp;rsquo;s new and improved, check the release notes. #ElasticStack #Update #TechNews #SoftwareDevelopment #VersionRelease</description>
+    </item>
+    <item>
+      <title>Why MCP’s Move Away from Server-Sent Events Simplifies Security</title>
+      <link>/articles/article-2025-12-19-14057/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-19-14057/</guid>
+      <description>🚀 The Model Context Protocol (MCP) has deprecated Server-Sent Events (SSE) in favor of Streamable HTTP. This decision aims to enhance security for developers, especially in Identity and Security fields. 🔒 SSE&amp;rsquo;s persistent connections posed risks, allowing traffic to flow without ongoing checks. Streamable HTTP simplifies communication, using a single endpoint and improving authentication practices. 💻 This shift supports stronger CORS policies and secure session management, making it a&amp;hellip;</description>
     </item>
     <item>
       <title>Google Research 2025: Bolder breakthroughs, bigger impact</title>

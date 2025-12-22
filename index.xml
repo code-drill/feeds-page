@@ -13,14 +13,28 @@
       <link>/articles/article-2025-12-22-14111/</link>
       <pubDate>Mon, 22 Dec 2025 22:00:37 +0000</pubDate>
       <guid>/articles/article-2025-12-22-14111/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://thenewstack.io/blog/feed/&#34;&gt;The New Stack&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thenewstack.io/why-ai-agents-are-just-another-backend/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>In a recent discussion, Edith Harbaugh, co-founder of LaunchDarkly, highlighted the evolution of software release practices since 2014. Today, companies expect to release updates multiple times a day, moving away from the older model of quarterly releases. AI agents are now seen as just another backend tool, enhancing the speed of deployment and customer feedback. Harbaugh emphasizes the potential of self-healing software, where AI can autonomously detect and fix issues, streamlining the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Closing the gap: bitsIO wins Splunkie Award for data and AI-powered nonprofit solutions</title>
+      <link>/articles/article-2025-12-22-14113/</link>
+      <pubDate>Mon, 22 Dec 2025 21:35:39 +0000</pubDate>
+      <guid>/articles/article-2025-12-22-14113/</guid>
+      <description>🚀 Exciting news! bitsIO has been awarded the Splunkie Award for Social Impact Partner of the Year. This marks their third win, highlighting their commitment to bridging the data divide for nonprofits. 💻 Nonprofits often face complex challenges but lack the resources of larger enterprises. bitsIO provides AI-powered Splunk services tailored to these organizations, offering support from setup to ongoing maintenance. 🌍 Their mission is to empower nonprofits to manage sensitive data and enhance&amp;hellip;</description>
     </item>
     <item>
       <title>Your Enterprise AI Strategy Must Start With Java, Not Python</title>
       <link>/articles/article-2025-12-22-14112/</link>
       <pubDate>Mon, 22 Dec 2025 21:00:06 +0000</pubDate>
       <guid>/articles/article-2025-12-22-14112/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://thenewstack.io/blog/feed/&#34;&gt;The New Stack&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thenewstack.io/your-enterprise-ai-strategy-must-start-with-java-not-python/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Implementing AI in enterprises may not require a shift to Python. Instead, focusing on Java, the dominant language in many organizations, could be more effective. Executives are encouraged to empower their existing Java developers with AI tools, leveraging the strong foundation already in place. Java and its Spring Framework are integral to enterprise applications and their functionality. #EnterpriseAI #Java #Programming #AIDevelopment #SpringFramework 🌐💻✨</description>
+    </item>
+    <item>
+      <title>Advent of Code in Rust: Winners and Highlights</title>
+      <link>/articles/article-2025-12-22-14114/</link>
+      <pubDate>Mon, 22 Dec 2025 19:29:11 +0000</pubDate>
+      <guid>/articles/article-2025-12-22-14114/</guid>
+      <description>🎉 A big thank you to all who participated in Advent of Code 2025 in Rust! It was great to see the community come together to solve puzzles during the holiday season. Before the event, Vitaly Bragilevsky shared tips on using AI effectively in the challenges. Over 12 days, daily features in the RustRover Advent Calendar highlighted useful tools for Rust developers. 🏆 Congratulations to our top winners: 1. Duro 2. JohnX4321 3. MaRcR11 4. Giacomo Stevanato 5. Agnibha Chakraborty Additionally,&amp;hellip;</description>
     </item>
     <item>
       <title>Better Relevance for AI Apps With BM25 Algorithm in PostgreSQL</title>
@@ -128,11 +142,25 @@
       <description>🎉 At the Next.js Conf and Ship AI events, we launched an innovative activation combining technology and nostalgia. Attendees had the chance to create their own AI-generated trading cards during the online registration process. This initiative aimed to enhance their experience and set the stage for real-world interactions at the events. Discover more about this unique blend of tech and fun! #AI #NextjsConf #TradingCards #TechInnovation #EventExperience</description>
     </item>
     <item>
+      <title>We removed 80% of our agent’s tools</title>
+      <link>/articles/article-2025-12-22-14115/</link>
+      <pubDate>Mon, 22 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-22-14115/</guid>
+      <description>We&amp;rsquo;ve streamlined our internal text-to-SQL agent, d0, by removing 80% of its tools. After months of development, we found the original setup to be slow and complex. By simplifying the process to just one tool—executing bash commands—we achieved a 100% success rate. This change led to faster responses and reduced maintenance. #TechInnovation #Efficiency #AI #Productivity #DataManagement</description>
+    </item>
+    <item>
       <title>Automate Oracle 19c deployments on OpenShift Virtualization</title>
       <link>/articles/article-2025-12-22-14096/</link>
       <pubDate>Mon, 22 Dec 2025 07:16:13 +0000</pubDate>
       <guid>/articles/article-2025-12-22-14096/</guid>
       <description>🚀 Automate your Oracle Database 19c deployments on OpenShift Virtualization! Installing Oracle can be complex, involving many manual steps and potential misconfigurations. However, with Red Hat Ansible Automation Platform, you can streamline the process. 🖥️ This automation reduces setup time, ensures consistent environments, and allows developers to manage their testing environments independently. For optimal results, use essential playbooks like &lt;code&gt;prepare_os.yml&lt;/code&gt; for VM provisioning and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sign OCI containers &amp; other artifacts using Sigstore Cosign &amp; CircleCI OIDC tokens</title>
+      <link>/articles/article-2025-12-22-14116/</link>
+      <pubDate>Mon, 22 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-22-14116/</guid>
+      <description>🚀 Exciting news for CircleCI users! Sigstore’s Fulcio now recognizes CircleCI’s OIDC tokens, allowing you to sign container images and artifacts directly in your pipelines—no long-lived signing keys needed. This keyless signing approach simplifies the process, enhancing security while proving artifact provenance. Get started with our sample repository: &lt;a href=&#34;https://github.com/CircleCI-Public/sign-and-publish-examples&#34;&gt;github.com/CircleCI-Public/sign-and-publish-examples&lt;/a&gt; #CircleCI #Sigstore&amp;hellip;</description>
     </item>
     <item>
       <title>The AI Competition Is Now a High-Stakes Construction Race</title>

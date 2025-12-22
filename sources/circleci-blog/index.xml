@@ -6,8 +6,15 @@
     <description>Recent content in CircleCI-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2025 11:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 07:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/circleci-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sign OCI containers &amp; other artifacts using Sigstore Cosign &amp; CircleCI OIDC tokens</title>
+      <link>/articles/article-2025-12-22-14116/</link>
+      <pubDate>Mon, 22 Dec 2025 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-22-14116/</guid>
+      <description>🚀 Exciting news for CircleCI users! Sigstore’s Fulcio now recognizes CircleCI’s OIDC tokens, allowing you to sign container images and artifacts directly in your pipelines—no long-lived signing keys needed. This keyless signing approach simplifies the process, enhancing security while proving artifact provenance. Get started with our sample repository: &lt;a href=&#34;https://github.com/CircleCI-Public/sign-and-publish-examples&#34;&gt;github.com/CircleCI-Public/sign-and-publish-examples&lt;/a&gt; #CircleCI #Sigstore&amp;hellip;</description>
+    </item>
     <item>
       <title>The ROI of autonomous validation: How to unlock $1.8M in engineering value</title>
       <link>/articles/article-2025-12-16-13910/</link>

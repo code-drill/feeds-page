@@ -37,6 +37,13 @@
       <description>This holiday season, tech brands like Hallmark and Amazon are targeting programmers and sysadmins with unique gifts. 🎄 Hallmark&amp;rsquo;s ornament features a monitor from the classic game &amp;ldquo;Oregon Trail,&amp;rdquo; reflecting a cultural shift towards tech-centric products. GitHub has also joined in with its &amp;ldquo;Ultimate gift guide,&amp;rdquo; highlighting fun items like the &amp;ldquo;GitHub Copilot Amazeball,&amp;rdquo; a playful take on decision-making tools. 🎁 Check out the full gift guide to find the perfect present for the tech&amp;hellip;</description>
     </item>
     <item>
+      <title>Avoiding Zombie Cluster Members When Upgrading to etcd v3.6</title>
+      <link>/articles/article-2025-12-21-14095/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-21-14095/</guid>
+      <description>🚨 Important Update for etcd Users! 🚨 When upgrading to etcd v3.6, always start with v3.5.26 or later. This step ensures automatic repair of your cluster and prevents the issue of &amp;ldquo;zombie members,&amp;rdquo; which can disrupt operations. To upgrade safely: 1️⃣ Update to v3.5.26+ 2️⃣ Confirm all members are healthy 3️⃣ Proceed to v3.6 If you can&amp;rsquo;t access v3.5.26, delay your upgrade. Stay informed! 🔍 #etcd #UpgradeGuide #ClusterManagement #TechTips #DatabaseManagement</description>
+    </item>
+    <item>
       <title>From Prompt to Production: A Guide to AI-Generated Design Systems</title>
       <link>/articles/article-2025-12-20-14088/</link>
       <pubDate>Sat, 20 Dec 2025 19:04:05 +0000</pubDate>

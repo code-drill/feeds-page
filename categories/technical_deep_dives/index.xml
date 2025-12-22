@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 17:35:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avoiding Zombie Cluster Members When Upgrading to etcd v3.6</title>
+      <link>/articles/article-2025-12-21-14095/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-21-14095/</guid>
+      <description>🚨 Important Update for etcd Users! 🚨 When upgrading to etcd v3.6, always start with v3.5.26 or later. This step ensures automatic repair of your cluster and prevents the issue of &amp;ldquo;zombie members,&amp;rdquo; which can disrupt operations. To upgrade safely: 1️⃣ Update to v3.5.26+ 2️⃣ Confirm all members are healthy 3️⃣ Proceed to v3.6 If you can&amp;rsquo;t access v3.5.26, delay your upgrade. Stay informed! 🔍 #etcd #UpgradeGuide #ClusterManagement #TechTips #DatabaseManagement</description>
+    </item>
     <item>
       <title>DrP: Meta’s Root Cause Analysis Platform at Scale</title>
       <link>/articles/article-2025-12-19-14071/</link>

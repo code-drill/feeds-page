@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 14:00:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 14:14:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thread Dumps and Project Loom (Virtual Threads)</title>
+      <link>/articles/article-2025-12-23-14128/</link>
+      <pubDate>Tue, 23 Dec 2025 14:14:55 +0000</pubDate>
+      <guid>/articles/article-2025-12-23-14128/</guid>
+      <description>Java&amp;rsquo;s virtual threads enhance hardware utilization for parallel I/O-bound operations by mapping multiple concurrent I/O tasks to a single OS thread without blocking. This approach requires minimal code changes, offering a lightweight concurrency model compatible with existing APIs. While this feature benefits developers, it presents challenges for Java tooling. Tools that analyze thread dumps may struggle with the increased volume of data, complicating debugging processes. Thread dumps&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes: Get the Most from Dynamic Resource Allocation</title>
       <link>/articles/article-2025-12-23-14126/</link>

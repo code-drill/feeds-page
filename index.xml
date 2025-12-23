@@ -23,6 +23,20 @@
       <description>Unlock efficient application management in Red Hat OpenShift! 🚀 The OpenShift APIs for Data Protection operator introduces a self-service backup and restore feature, enabling developers to handle their application backups without needing cluster-level permissions. This helps streamline development cycles and CI/CD pipelines. 🛠️ The process is built on a clear separation of duties, allowing developers to operate within their namespaces securely. This guide provides steps for cluster admins to&amp;hellip;</description>
     </item>
     <item>
+      <title>Thread Dumps and Project Loom (Virtual Threads)</title>
+      <link>/articles/article-2025-12-23-14128/</link>
+      <pubDate>Tue, 23 Dec 2025 14:14:55 +0000</pubDate>
+      <guid>/articles/article-2025-12-23-14128/</guid>
+      <description>Java&amp;rsquo;s virtual threads enhance hardware utilization for parallel I/O-bound operations by mapping multiple concurrent I/O tasks to a single OS thread without blocking. This approach requires minimal code changes, offering a lightweight concurrency model compatible with existing APIs. While this feature benefits developers, it presents challenges for Java tooling. Tools that analyze thread dumps may struggle with the increased volume of data, complicating debugging processes. Thread dumps&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems</title>
+      <link>/articles/article-2025-12-23-14129/</link>
+      <pubDate>Tue, 23 Dec 2025 14:07:35 +0000</pubDate>
+      <guid>/articles/article-2025-12-23-14129/</guid>
+      <description>Introducing AprielGuard, a new safety and security model for Large Language Models (LLMs). 🔒 This 8B parameter model addresses 16 categories of safety risks, including toxicity and misinformation, and detects various adversarial attacks like prompt injections and context hijacking. AprielGuard operates in both reasoning and non-reasoning modes, offering flexibility for different applications. #AI #LLM #Safety #Cybersecurity #AprielGuard</description>
+    </item>
+    <item>
       <title>Kubernetes: Get the Most from Dynamic Resource Allocation</title>
       <link>/articles/article-2025-12-23-14126/</link>
       <pubDate>Tue, 23 Dec 2025 14:00:44 +0000</pubDate>

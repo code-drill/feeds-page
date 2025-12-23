@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 00:27:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 16:00:26 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Hidden Kernel Problem at the Heart of Cloud Native Security</title>
+      <link>/articles/article-2025-12-23-14125/</link>
+      <pubDate>Tue, 23 Dec 2025 16:00:26 +0000</pubDate>
+      <guid>/articles/article-2025-12-23-14125/</guid>
+      <description>The article discusses a critical issue in cloud native security: the hidden risks associated with the Linux kernel. In cloud environments, we mainly interact with user space, while the kernel operates underneath, often overlooked. This creates a security gap, as every container and network feature ultimately relies on the kernel. Despite advancements in container security, the kernel was not designed for the multitenant cloud scale we have today. The article highlights the increasing number&amp;hellip;</description>
+    </item>
     <item>
       <title>Cisco’s MCP Scanner Introduces Behavioral Code Threat Analysis</title>
       <link>/articles/article-2025-12-23-14117/</link>

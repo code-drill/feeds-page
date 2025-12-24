@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 14:14:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 18:00:07 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale LLM Tools With a Remote MCP Architecture on Kubernetes</title>
+      <link>/articles/article-2025-12-24-14149/</link>
+      <pubDate>Wed, 24 Dec 2025 18:00:07 +0000</pubDate>
+      <guid>/articles/article-2025-12-24-14149/</guid>
+      <description>As AI systems transition to production, developers face challenges with large language model (LLM) tools. Initial local setups often fail under real workloads, leading to issues such as crashes and workflow interruptions. A new architecture proposes running Model Context Protocol (MCP) servers remotely on Kubernetes. This setup improves scalability and allows for independent tool updates without disrupting workflows. By isolating the LLM from its tools, teams can better manage and debug&amp;hellip;</description>
+    </item>
     <item>
       <title>Thread Dumps and Project Loom (Virtual Threads)</title>
       <link>/articles/article-2025-12-23-14128/</link>

@@ -23,6 +23,13 @@
       <description>Is your AI workflow lacking structure? 🤔 The article highlights the importance of composable architecture in AI coding. Instead of generating code in isolation, breaking requests into smaller parts can enhance clarity and control. However, without a cohesive framework, these components struggle to connect. Composable architecture allows for versioning and reusability, ensuring that code persists beyond a single session. This approach addresses common issues like lack of persistence, version&amp;hellip;</description>
     </item>
     <item>
+      <title>Kubernetes v1.35: Introducing Workload Aware Scheduling</title>
+      <link>/articles/article-2025-12-29-14179/</link>
+      <pubDate>Mon, 29 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-29-14179/</guid>
+      <description>🚀 Kubernetes v1.35 introduces significant advancements in workload scheduling, addressing the complexities of managing large workloads. The new Workload API allows users to define scheduling requirements for multi-Pod applications, including gang scheduling for all-or-nothing placements. This ensures efficiency for tasks like machine learning jobs. Additionally, the release includes opportunistic batching, which speeds up the scheduling process for identical Pods without user intervention&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Generative AI Apps Need an Ecosystem, Not Just a Prompt</title>
       <link>/articles/article-2025-12-29-14176/</link>
       <pubDate>Mon, 29 Dec 2025 18:00:43 +0000</pubDate>

@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Dec 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager</title>
+      <link>/articles/article-2025-12-30-14190/</link>
+      <pubDate>Tue, 30 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-30-14190/</guid>
+      <description>Kubernetes v1.35 introduces a new feature for the Cloud Controller Manager (CCM) that enhances route reconciliation. The feature gate, CloudControllerManagerWatchBasedRoutesReconciliation, allows the route controller to use watch-based informers, reducing unnecessary API requests when no changes occur. This feature can be enabled with the command: &lt;code&gt;--feature-gate=CloudControllerManagerWatchBasedRoutesReconciliation=true&lt;/code&gt;. For more details, check out KEP-5237. #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.35: Introducing Workload Aware Scheduling</title>
       <link>/articles/article-2025-12-29-14179/</link>

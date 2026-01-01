@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Dec 2025 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs</title>
+      <link>/articles/article-2025-12-31-14196/</link>
+      <pubDate>Wed, 31 Dec 2025 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2025-12-31-14196/</guid>
+      <description>Kubernetes 1.35 enhances z-pages with structured, machine-parseable responses. This update improves debugging for control plane components like kube-apiserver and kube-controller-manager. Now, endpoints /statusz and /flagz support JSON responses while maintaining backward compatibility with plain text. This makes it easier to automate monitoring and troubleshoot issues. For more insights and how to use these features, check the documentation! 📊🔍 #Kubernetes #DevOps #CloudNative #Debugging&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager</title>
       <link>/articles/article-2025-12-30-14190/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Dec 2025 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A closer look at a BGP anomaly in Venezuela</title>
+      <link>/articles/article-2026-01-06-14286/</link>
+      <pubDate>Tue, 06 Jan 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14286/</guid>
+      <description>On January 2, a BGP anomaly was observed in Venezuela, raising questions about its cause. A cybersecurity newsletter analyzed Cloudflare Radar data, noting eleven route leak events involving the ISP CANTV (AS8048) since December. These route leaks suggest possible issues with the ISP&amp;rsquo;s routing policies rather than intentional wrongdoing. BGP route leaks occur when routing announcements extend beyond their intended scope, causing potential delays in network traffic. This post explores the&amp;hellip;</description>
+    </item>
     <item>
       <title>How Workers powers our internal maintenance scheduling pipeline</title>
       <link>/articles/article-2025-12-22-14110/</link>

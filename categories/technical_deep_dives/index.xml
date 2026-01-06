@@ -6,8 +6,36 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 16:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 19:16:04 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deterministic AI Testing with Session Recording in cagent</title>
+      <link>/articles/article-2026-01-06-14275/</link>
+      <pubDate>Tue, 06 Jan 2026 19:16:04 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14275/</guid>
+      <description>🌟 AI agents present unique challenges due to non-determinism, making testing a complex task. The cagent tool addresses this by allowing developers to record interactions and replay them with consistent results. 📂 Using the VCR pattern, cagent captures the request/response cycle and stores it in a YAML file for future use. This minimizes API costs and reduces latency. 🔄 Developers can easily record and replay sessions, facilitating CI/CD integration and issue reproduction without network&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Migration at Scale: Moving Marketing Cloud Caching from Memcached to Redis at 1.5M RPS Without Downtime</title>
+      <link>/articles/article-2026-01-06-14279/</link>
+      <pubDate>Tue, 06 Jan 2026 18:19:23 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14279/</guid>
+      <description>🚀 Exciting engineering developments at Salesforce! In the latest Engineering Energizers Q&amp;amp;A, the Marketing Cloud Caching team&amp;rsquo;s journey is highlighted as they successfully migrated from Memcached to Redis without any downtime. This transition handled 1.5 million cache events per second across 50+ applications. Key focus areas included maintaining performance and security, while ensuring seamless user experiences. The shift to Redis Cluster addressed previous limitations and improved system&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Lyft’s Feature Store: Architecture, Optimization, and Evolution</title>
+      <link>/articles/article-2026-01-06-14276/</link>
+      <pubDate>Tue, 06 Jan 2026 18:10:32 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14276/</guid>
+      <description>🚗 Lyft&amp;rsquo;s Feature Store is a key element of its Data Platform, designed to streamline Machine Learning (ML) feature management at scale. This system centralizes feature engineering, ensuring consistency across diverse models and facilitating efficient model training and inference. The architecture includes Batch, Online, and Streaming features, enhancing user experience and accessibility for engineers. For more insights on the evolution and impact of the Feature Store, check out the full&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Monitoring to Observability: Our Ultra-Marathon to a Cloud-Native Platform</title>
+      <link>/articles/article-2026-01-06-14280/</link>
+      <pubDate>Tue, 06 Jan 2026 17:18:33 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14280/</guid>
+      <description>Managing a large corporate network is like running an ultra-marathon. At Uber, our engineering teams transitioned from a traditional monitoring system to a modern cloud-native observability platform. This shift aims to enhance speed, flexibility, and endurance, utilizing an open-source stack for improved performance. Our journey reflects the need for adaptability in a rapidly changing environment. 🏃‍♂️☁️🔧 #CloudNative #Observability #Engineering #UberTech #OpenSource</description>
+    </item>
     <item>
       <title>Scaling Power-Efficient AI Factories with NVIDIA Spectrum-X Ethernet Photonics</title>
       <link>/articles/article-2026-01-06-14270/</link>

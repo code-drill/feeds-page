@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Dec 2025 13:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 19:16:04 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deterministic AI Testing with Session Recording in cagent</title>
+      <link>/articles/article-2026-01-06-14275/</link>
+      <pubDate>Tue, 06 Jan 2026 19:16:04 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14275/</guid>
+      <description>🌟 AI agents present unique challenges due to non-determinism, making testing a complex task. The cagent tool addresses this by allowing developers to record interactions and replay them with consistent results. 📂 Using the VCR pattern, cagent captures the request/response cycle and stores it in a YAML file for future use. This minimizes API costs and reduces latency. 🔄 Developers can easily record and replay sessions, facilitating CI/CD integration and issue reproduction without network&amp;hellip;</description>
+    </item>
     <item>
       <title>2025 Recap: The Year Software Development Changed Shape</title>
       <link>/articles/article-2025-12-20-14087/</link>

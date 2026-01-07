@@ -16,6 +16,20 @@
       <description>🚀 A recent JetBrains survey reveals that 49% of developers use AI regularly, saving up to four hours weekly. 🔍 However, this extra time often goes to improving code quality rather than other tasks. While AI enhances coding speed, it introduces the need for careful oversight due to potential vulnerabilities. ⚠️ A warning arises: using AI for both coding and debugging may create a recursive loop, compounding errors. Security teams are also adopting AI for threat detection, but these systems can&amp;hellip;</description>
     </item>
     <item>
+      <title>Now everyone can chat on Stack Overflow</title>
+      <link>/articles/article-2026-01-07-14306/</link>
+      <pubDate>Wed, 07 Jan 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14306/</guid>
+      <description>🚀 Stack Overflow has made a significant update! Registered users can now join public chat rooms from day one. This change fosters easier connections and learning opportunities within the community. Previously, chat access was limited to users with 20 reputation points, but this new approach lowers barriers for newcomers. The Stack Overflow Lobbies, introduced in May 2025, have shown great engagement from novice users. Now, all public chat rooms will welcome new participants to enhance their&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why We Use Separate Tech Stacks for Personalization and Experimentation</title>
+      <link>/articles/article-2026-01-07-14308/</link>
+      <pubDate>Wed, 07 Jan 2026 14:41:11 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14308/</guid>
+      <description>At Spotify, personalization enhances user experience by tailoring content to individual preferences. This is achieved through advanced models that analyze user characteristics and behaviors. 🎧 Experimentation complements personalization by testing and improving these systems. By using a separate tech stack for each, Spotify can optimize both areas effectively. Learn more about the rationale behind this separation and its benefits. #Personalization #Experimentation #SpotifyEngineering&amp;hellip;</description>
+    </item>
+    <item>
       <title>Cisco’s Plan for Possible: An update on our sustainability priorities and progress</title>
       <link>/articles/article-2026-01-07-14299/</link>
       <pubDate>Wed, 07 Jan 2026 14:00:06 +0000</pubDate>
@@ -51,6 +65,13 @@
       <description>🔒 Zero trust architecture emphasizes &amp;ldquo;never trust, always verify,&amp;rdquo; ensuring continuous verification of requests. Traditional methods depend on a trustworthy infrastructure, which raises concerns for sensitive environments. 💻 Red Hat&amp;rsquo;s confidential containers utilize Trusted Execution Environments (TEE) for secure, isolated memory spaces. This enhances security by allowing workloads to prove integrity, safeguarding secrets from administrators. 🔑 The integration of SPIRE with confidential&amp;hellip;</description>
     </item>
     <item>
+      <title>Migration at Scale: Moving Marketing Cloud Caching from Memcached to Redis at 1.5M RPS Without Downtime</title>
+      <link>/articles/article-2026-01-07-14279/</link>
+      <pubDate>Wed, 07 Jan 2026 06:19:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14279/</guid>
+      <description>🚀 Exciting engineering developments at Salesforce! In the latest Engineering Energizers Q&amp;amp;A, the Marketing Cloud Caching team&amp;rsquo;s journey is highlighted as they successfully migrated from Memcached to Redis without any downtime. This transition handled 1.5 million cache events per second across 50+ applications. Key focus areas included maintaining performance and security, while ensuring seamless user experiences. The shift to Redis Cluster addressed previous limitations and improved system&amp;hellip;</description>
+    </item>
+    <item>
       <title>You need quality engineers to turn AI into ROI</title>
       <link>/articles/article-2026-01-07-14295/</link>
       <pubDate>Wed, 07 Jan 2026 05:40:00 +0000</pubDate>
@@ -76,7 +97,7 @@
       <link>/articles/article-2026-01-07-14305/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-07-14305/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://auth0.com/blog/rss.xml&#34;&gt;Auth0 Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://auth0.com/blog/mcp-november-2025-specification-update/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 The November 2025 update to the Model Context Protocol (MCP) introduces key changes aimed at enhancing AI agent security. 📄 Client Identity Metadata Documents (CIMD) streamline how clients identify themselves to servers, replacing manual registrations with a cleaner URL-based approach. This shift enhances trust through DNS and HTTPS. 🔒 Additionally, Cross App Access (XAA) allows organizations to manage authorization centrally, reducing user consent fatigue and improving security visibility&amp;hellip;.</description>
     </item>
     <item>
       <title>OWASP Top 10 2025: What&#39;s changed and why it matters</title>
@@ -212,6 +233,13 @@
       <description>🚀 Ready to make 2026 your year? Trello introduces a limited-edition AI-powered feature to help you succeed with your New Year’s resolutions! The New Year’s Resolution Board Builder creates personalized boards focused on your goals, milestones, and habits. This tool aims to turn your intentions into actionable plans. Simply share your resolution, and the builder generates a structured board filled with lists and cards to keep you on track throughout the year. Available for select users until&amp;hellip;</description>
     </item>
     <item>
+      <title>Scaling Sales Agents: Engineering Next-Gen AI for the Enterprise Era</title>
+      <link>/articles/article-2026-01-06-14307/</link>
+      <pubDate>Tue, 06 Jan 2026 16:21:03 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14307/</guid>
+      <description>🚀 Exciting advancements in AI for sales are on the horizon! In a recent Q&amp;amp;A, Shweta Joshi, Software Engineering Architect at Salesforce, discusses the evolution of the Engagement Agent. This generative-AI system automates personalized sales outreach, now scaling to support over 1 million actions monthly. The team transitioned from a single-agent model to a multi-agent architecture, enhancing reliability and efficiency. Key innovations include a smart queuing system and fairness algorithms to&amp;hellip;</description>
+    </item>
+    <item>
       <title>Bryan Cantrill: How Kubernetes Broke the AWS Cloud Monopoly</title>
       <link>/articles/article-2026-01-06-14255/</link>
       <pubDate>Tue, 06 Jan 2026 16:00:30 +0000</pubDate>
@@ -342,7 +370,7 @@
       <link>/articles/article-2026-01-06-14304/</link>
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-06-14304/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/webflow-cms-api&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Unlock the potential of your Webflow projects! The article discusses how the integration of Webflow Cloud with the CMS API allows developers to share Webflow content through a tailored API. This combination enhances flexibility and accessibility for developers looking to customize their content sharing. Explore new possibilities for your projects! 🌐✨ #Webflow #CMS #APIDevelopment #WebDevelopment #TechTutorial</description>
     </item>
     <item>
       <title>Games made with Unity: 2025 in review</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 21:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 14:41:11 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why We Use Separate Tech Stacks for Personalization and Experimentation</title>
+      <link>/articles/article-2026-01-07-14308/</link>
+      <pubDate>Wed, 07 Jan 2026 14:41:11 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14308/</guid>
+      <description>At Spotify, personalization enhances user experience by tailoring content to individual preferences. This is achieved through advanced models that analyze user characteristics and behaviors. 🎧 Experimentation complements personalization by testing and improving these systems. By using a separate tech stack for each, Spotify can optimize both areas effectively. Learn more about the rationale behind this separation and its benefits. #Personalization #Experimentation #SpotifyEngineering&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Migration at Scale: Moving Marketing Cloud Caching from Memcached to Redis at 1.5M RPS Without Downtime</title>
+      <link>/articles/article-2026-01-07-14279/</link>
+      <pubDate>Wed, 07 Jan 2026 06:19:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14279/</guid>
+      <description>🚀 Exciting engineering developments at Salesforce! In the latest Engineering Energizers Q&amp;amp;A, the Marketing Cloud Caching team&amp;rsquo;s journey is highlighted as they successfully migrated from Memcached to Redis without any downtime. This transition handled 1.5 million cache events per second across 50+ applications. Key focus areas included maintaining performance and security, while ensuring seamless user experiences. The shift to Redis Cluster addressed previous limitations and improved system&amp;hellip;</description>
+    </item>
     <item>
       <title>Small Yet Mighty: Improve Accuracy In Multimodal Search and Visual Document Retrieval with Llama Nemotron RAG Models</title>
       <link>/articles/article-2026-01-06-14284/</link>
@@ -65,6 +79,13 @@
       <description>NVIDIA is introducing optimized Ethernet networking with co-packaged optics for AI factories. 🌐 This innovation, through the Spectrum-X Ethernet Photonics, supports efficient scaling on the NVIDIA Rubin platform for AI infrastructure. It ensures reliable data transmission, improving performance and model dispatch efficiency across diverse workloads. Explore how these advancements enable seamless operations within AI factories. ⚙️💡 #NVIDIA #AIFactories #Ethernet #TechInnovation #AI</description>
     </item>
     <item>
+      <title>Scaling Sales Agents: Engineering Next-Gen AI for the Enterprise Era</title>
+      <link>/articles/article-2026-01-06-14307/</link>
+      <pubDate>Tue, 06 Jan 2026 16:21:03 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14307/</guid>
+      <description>🚀 Exciting advancements in AI for sales are on the horizon! In a recent Q&amp;amp;A, Shweta Joshi, Software Engineering Architect at Salesforce, discusses the evolution of the Engagement Agent. This generative-AI system automates personalized sales outreach, now scaling to support over 1 million actions monthly. The team transitioned from a single-agent model to a multi-agent architecture, enhancing reliability and efficiency. Key innovations include a smart queuing system and fairness algorithms to&amp;hellip;</description>
+    </item>
+    <item>
       <title>How AirFrance-KLM built a secure automation platform at global scale with Terraform, Vault, and Ansible</title>
       <link>/articles/article-2026-01-06-14264/</link>
       <pubDate>Tue, 06 Jan 2026 15:00:00 +0000</pubDate>
@@ -91,6 +112,13 @@
       <pubDate>Tue, 06 Jan 2026 00:23:00 +0000</pubDate>
       <guid>/articles/article-2026-01-06-14249/</guid>
       <description>Introducing Kinabalu AI SRE! 🚀 This innovative tool aims to enhance the on-call experience by consolidating alerts and context into one accessible platform. It utilizes AI to analyze data and facilitate quicker responses during incidents. Key features include automated triage, static diagnostics, and dynamic conversations through Slack and a Web UI. This streamlines incident management, reduces cognitive load, and supports collaboration. Stay tuned for insights on challenges and design&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Expose your Webflow CMS with a simple API</title>
+      <link>/articles/article-2026-01-06-14304/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14304/</guid>
+      <description>Unlock the potential of your Webflow projects! The article discusses how the integration of Webflow Cloud with the CMS API allows developers to share Webflow content through a tailored API. This combination enhances flexibility and accessibility for developers looking to customize their content sharing. Explore new possibilities for your projects! 🌐✨ #Webflow #CMS #APIDevelopment #WebDevelopment #TechTutorial</description>
     </item>
     <item>
       <title>Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer</title>

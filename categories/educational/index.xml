@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 08:01:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 19:00:36 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons Learned From Real-World NoSQL Database Migrations</title>
+      <link>/articles/article-2026-01-07-14310/</link>
+      <pubDate>Wed, 07 Jan 2026 19:00:36 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14310/</guid>
+      <description>In the article &amp;ldquo;Lessons Learned From Real-World NoSQL Database Migrations,&amp;rdquo; key strategies for successful NoSQL migrations are discussed. The author shares insights on schema migration, data validation, and technology switches. An example involves a media streaming company migrating from DynamoDB to ScyllaDB without moving all data. They adapted their ingestion process to write to both databases simultaneously. Challenges included understanding out-of-order writes and differences between&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build and Orchestrate End-to-End SDG Workflows with NVIDIA Isaac Sim and NVIDIA OSMO</title>
+      <link>/articles/article-2026-01-07-11268/</link>
+      <pubDate>Wed, 07 Jan 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-11268/</guid>
+      <description>Unlock the potential of robotics with synthetic data pipelines! 🤖 As robots tackle complex mobility tasks, developers require accurate simulations. NVIDIA Isaac Sim provides a solution by generating high-quality synthetic data, reducing the time and cost of real-world data collection. Key points include: - Creating simulated environments with NVIDIA Omniverse NuRec. - Utilizing SimReady assets for streamlined simulations. - Generating and augmenting synthetic data using MobilityGen and NVIDIA&amp;hellip;</description>
+    </item>
     <item>
       <title>Manage AI-powered inventory using the Red Hat Lightspeed</title>
       <link>/articles/article-2026-01-07-14296/</link>
@@ -21,6 +35,13 @@
       <pubDate>Wed, 07 Jan 2026 07:01:07 +0000</pubDate>
       <guid>/articles/article-2026-01-07-14293/</guid>
       <description>In 2025, the landscape of open source AI models evolved significantly. AI enthusiasts and organizations increasingly adopted local models for on-premises use. Key platforms like Hugging Face facilitated downloads, while inference engines like Ollama and vLLM supported deployment. The rise of DeepSeek marked a shift in the model ecosystem, with notable competition from Qwen and Llama. These models are tailored for specific applications, enhancing customer service, knowledge management, and AI-&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automating our changelog with Cursor commands</title>
+      <link>/articles/article-2026-01-07-14319/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14319/</guid>
+      <description>🌟 PlanetScale is enhancing its workflow with Cursor commands to automate changelog entries. Each time they ship a feature, a markdown file is created and merged into their GitHub repository, ensuring updates are published promptly. Cursor simplifies this process by generating changelog entries from existing documentation, making it efficient and repeatable. Additionally, these commands can be launched directly from Slack, streamlining the pull request process. #Automation #Changelog&amp;hellip;</description>
     </item>
     <item>
       <title>From Pets to Cattle: The New Mindset for Managing VMs</title>

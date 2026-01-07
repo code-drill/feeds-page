@@ -6,8 +6,36 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 16:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 19:00:36 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons Learned From Real-World NoSQL Database Migrations</title>
+      <link>/articles/article-2026-01-07-14310/</link>
+      <pubDate>Wed, 07 Jan 2026 19:00:36 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14310/</guid>
+      <description>In the article &amp;ldquo;Lessons Learned From Real-World NoSQL Database Migrations,&amp;rdquo; key strategies for successful NoSQL migrations are discussed. The author shares insights on schema migration, data validation, and technology switches. An example involves a media streaming company migrating from DynamoDB to ScyllaDB without moving all data. They adapted their ingestion process to write to both databases simultaneously. Challenges included understanding out-of-order writes and differences between&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Guesswork to Guardrails: Kubernetes Container Rightsizing</title>
+      <link>/articles/article-2026-01-07-14311/</link>
+      <pubDate>Wed, 07 Jan 2026 18:34:14 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14311/</guid>
+      <description>Kubernetes container rightsizing is essential for optimizing CPU and memory requests. 🚀 As workloads evolve, initial resource settings often become outdated, leading to inefficiencies. Rightsizing adjusts these requests to reflect actual usage, improving pod density and reducing unnecessary costs. 💰 For implementation, teams can use tools like Vertical Pod Autoscaler (VPA) or more advanced options like nOps, which offer scheduling and guardrails for safer updates. Learn more about how to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Operations Shift: Assistants to Autonomous Multiagent Systems</title>
+      <link>/articles/article-2026-01-07-14312/</link>
+      <pubDate>Wed, 07 Jan 2026 18:00:22 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14312/</guid>
+      <description>AI assistants are becoming essential in enterprise operations, evolving from simple task support to more complex autonomous systems. Initially, these assistants help humans by drafting emails and summarizing interactions. In the next phase, they will actively manage tasks within set guidelines, enhancing efficiency. The final phase will see coordinated multiagent systems that can drive revenue and retention. This shift represents a significant change in how operational tasks are designed and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Forget Predictions: Tech Leaders’ Actual 2026 Resolutions</title>
+      <link>/articles/article-2026-01-07-14313/</link>
+      <pubDate>Wed, 07 Jan 2026 17:00:12 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14313/</guid>
+      <description>As we approach 2026, tech leaders are sharing their resolutions, emphasizing action over predictions. Jeremy Colvin from Isovalent aims to enhance security by focusing on meaningful data rather than overwhelming volumes. He stresses the need for smarter, more intentional security practices. Nadav Cornberg of Eve Security urges a shift in how we secure AI agents, advocating for treating them as active participants rather than mere tools. These insights may inspire new approaches in technology&amp;hellip;</description>
+    </item>
     <item>
       <title>Is Your AI Assistant Creating a Recursive Security Loop?</title>
       <link>/articles/article-2026-01-07-14298/</link>

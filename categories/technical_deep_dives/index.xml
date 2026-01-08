@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 17:38:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 18:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)</title>
+      <link>/articles/article-2026-01-08-14361/</link>
+      <pubDate>Thu, 08 Jan 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-08-14361/</guid>
+      <description>🚀 Kubernetes v1.35 introduces mutable PersistentVolume node affinity in alpha, allowing more flexible online volume management. Previously immutable, this change lets administrators adapt to evolving storage needs without data loss. With features like live migration to regional disks, it&amp;rsquo;s crucial for Pods to access the right nodes. However, caution is advised: race conditions may arise when updating node affinity. Future integration with CSI aims to streamline this process. 🔧 Feedback is&amp;hellip;</description>
+    </item>
     <item>
       <title>Building Generalist Humanoid Capabilities with NVIDIA Isaac GR00T N1.6 Using a Sim-to-Real Workflow</title>
       <link>/articles/article-2026-01-08-14343/</link>

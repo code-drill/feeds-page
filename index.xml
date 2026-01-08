@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 22:33:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 00:15:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing the Grid: A Practical Guide to Cyber Analytics for Energy &amp; Utilities</title>
+      <link>/articles/article-2026-01-08-14328/</link>
+      <pubDate>Thu, 08 Jan 2026 00:15:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-08-14328/</guid>
+      <description>🔒 Securing the Grid is becoming increasingly vital for energy and utility sectors. The article explores how modern data platforms enhance cybersecurity operations within critical infrastructure. 💻 By leveraging advanced cyber analytics, organizations can better protect their systems from threats. The guide emphasizes practical strategies for implementing these technologies effectively. Stay informed about the evolving landscape of cybersecurity in energy! #Cybersecurity #EnergySector&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improving product analytics with Rovo Dev CLI</title>
+      <link>/articles/article-2026-01-07-14331/</link>
+      <pubDate>Wed, 07 Jan 2026 23:19:27 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14331/</guid>
+      <description>🚀 Exciting developments in product analytics with Rovo Dev CLI! At Atlassian, the Rovo Dev team is enhancing their ability to leverage real usage data. They focus on understanding feature adoption, usage frequency, and areas needing improvement. To streamline SQL writing, they introduced the Rovo Dev SQL Writer subagent. This specialized tool aids in crafting high-quality SQL queries, reducing delays and improving analytics efficiency. Learn how this innovation is shaping their analytics&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Chaos to Scale: Templatizing Spark Declarative Pipelines with DLT-META</title>
+      <link>/articles/article-2026-01-07-14329/</link>
+      <pubDate>Wed, 07 Jan 2026 22:45:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14329/</guid>
+      <description>🌟 Discover how DLT-META transforms data engineering! This article explores the challenges of maintaining manual pipelines at scale and how DLT-META offers a solution. It provides a framework for building consistent, automated, and governed declarative pipelines. Learn practical steps for implementation and see how teams are effectively using DLT-META in their workflows. #DataEngineering #DLTMeta #DeclarativePipelines #Automation #TechSolutions</description>
+    </item>
     <item>
       <title>NRF 2026: Is Your Edge Ready for Retail AI?</title>
       <link>/articles/article-2026-01-07-14325/</link>
@@ -56,6 +77,13 @@
       <pubDate>Wed, 07 Jan 2026 18:34:14 +0000</pubDate>
       <guid>/articles/article-2026-01-07-14311/</guid>
       <description>Kubernetes container rightsizing is essential for optimizing CPU and memory requests. 🚀 As workloads evolve, initial resource settings often become outdated, leading to inefficiencies. Rightsizing adjusts these requests to reflect actual usage, improving pod density and reducing unnecessary costs. 💰 For implementation, teams can use tools like Vertical Pod Autoscaler (VPA) or more advanced options like nOps, which offer scheduling and guardrails for safer updates. Learn more about how to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers</title>
+      <link>/articles/article-2026-01-07-14330/</link>
+      <pubDate>Wed, 07 Jan 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14330/</guid>
+      <description>🚀 Kubernetes v1.35 introduces a significant update for CSI drivers using service account tokens. Previously, tokens were passed via the volume_context field, which is not ideal for sensitive data. With the new beta feature, tokens can now be sent through the secrets field in NodePublishVolumeRequest, enhancing security. 🔒 This opt-in mechanism allows existing drivers to continue functioning while enabling a smoother transition to safer practices for those ready to adopt it. 🛠️ #Kubernetes&amp;hellip;</description>
     </item>
     <item>
       <title>The Secret Lives of Cisco Industrial Routers</title>

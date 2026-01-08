@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 18:34:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 22:45:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Chaos to Scale: Templatizing Spark Declarative Pipelines with DLT-META</title>
+      <link>/articles/article-2026-01-07-14329/</link>
+      <pubDate>Wed, 07 Jan 2026 22:45:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14329/</guid>
+      <description>🌟 Discover how DLT-META transforms data engineering! This article explores the challenges of maintaining manual pipelines at scale and how DLT-META offers a solution. It provides a framework for building consistent, automated, and governed declarative pipelines. Learn practical steps for implementation and see how teams are effectively using DLT-META in their workflows. #DataEngineering #DLTMeta #DeclarativePipelines #Automation #TechSolutions</description>
+    </item>
     <item>
       <title>From Guesswork to Guardrails: Kubernetes Container Rightsizing</title>
       <link>/articles/article-2026-01-07-14311/</link>
       <pubDate>Wed, 07 Jan 2026 18:34:14 +0000</pubDate>
       <guid>/articles/article-2026-01-07-14311/</guid>
       <description>Kubernetes container rightsizing is essential for optimizing CPU and memory requests. 🚀 As workloads evolve, initial resource settings often become outdated, leading to inefficiencies. Rightsizing adjusts these requests to reflect actual usage, improving pod density and reducing unnecessary costs. 💰 For implementation, teams can use tools like Vertical Pod Autoscaler (VPA) or more advanced options like nOps, which offer scheduling and guardrails for safer updates. Learn more about how to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers</title>
+      <link>/articles/article-2026-01-07-14330/</link>
+      <pubDate>Wed, 07 Jan 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-07-14330/</guid>
+      <description>🚀 Kubernetes v1.35 introduces a significant update for CSI drivers using service account tokens. Previously, tokens were passed via the volume_context field, which is not ideal for sensitive data. With the new beta feature, tokens can now be sent through the secrets field in NodePublishVolumeRequest, enhancing security. 🔒 This opt-in mechanism allows existing drivers to continue functioning while enabling a smoother transition to safer practices for those ready to adopt it. 🛠️ #Kubernetes&amp;hellip;</description>
     </item>
     <item>
       <title>Redefining Secure AI Infrastructure with NVIDIA BlueField Astra for NVIDIA Vera Rubin NVL72</title>

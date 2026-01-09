@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 19:03:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 21:12:58 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Multiple Registry Support on DigitalOcean Container Registry</title>
+      <link>/articles/article-2026-01-09-14384/</link>
+      <pubDate>Fri, 09 Jan 2026 21:12:58 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14384/</guid>
+      <description>🌟 DigitalOcean has launched Multi-Registry Support for its Container Registry, now available for Professional Plan customers! Users can create and manage up to 10 registries under a single team, enhancing organization and deployment of containerized applications. Key benefits include: - Environment isolation for different deployment stages. - Improved regional performance to reduce latency. - Better compliance with data residency regulations. For detailed usage instructions, visit the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How hands-on workshops boost teamwide AI confidence</title>
+      <link>/articles/article-2026-01-09-14393/</link>
+      <pubDate>Fri, 09 Jan 2026 20:39:03 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14393/</guid>
+      <description>Hands-on AI workshops are boosting team confidence and usage of AI tools. In a recent series of workshops, 22% of participants felt more confident using AI, with weekly usage increasing by 24%. This approach fosters collaboration and real-world application, making AI less intimidating. By focusing on practical learning, teams can innovate and become advocates for AI in their work. #AIConfidence #Workshops #Teamwork #Innovation #Learning</description>
+    </item>
+    <item>
+      <title>The Hidden Cost Killing Your Innovation Strategy</title>
+      <link>/articles/article-2026-01-09-14383/</link>
+      <pubDate>Fri, 09 Jan 2026 20:00:28 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14383/</guid>
+      <description>In the rush to adopt AI, many organizations are struggling to apply crucial lessons from DevOps and DevSecOps. This has led to a &amp;ldquo;wait and see&amp;rdquo; approach, resulting in what is termed &amp;ldquo;AI blind spot debt.&amp;rdquo; ⚠️ This debt accumulates unnoticed as AI usage expands beyond data science teams to all employees, creating a fragmented ecosystem. Security risks grow as unvetted models and APIs are used without proper oversight. 🔍 Organizations face challenges in managing governance for various AI assets,&amp;hellip;</description>
+    </item>
     <item>
       <title>The One Mistake That Weakens Every AI-Generated App</title>
       <link>/articles/article-2026-01-09-14377/</link>
@@ -79,6 +100,13 @@
       <description>🚀 Warehouses are evolving with automation and data, yet many still lack a cohesive system. NVIDIA&amp;rsquo;s Multi-Agent Intelligent Warehouse (MAIW) Blueprint aims to address this gap by providing an AI command layer that integrates WMS, ERP, and IoT systems. This solution transforms disparate data into actionable insights, enabling proactive decision-making. By unifying fragmented operations, MAIW enhances efficiency, reduces downtime, and improves safety. #SupplyChain #WarehouseManagement #AI&amp;hellip;</description>
     </item>
     <item>
+      <title>How to build agents with filesystems and bash</title>
+      <link>/articles/article-2026-01-09-14388/</link>
+      <pubDate>Fri, 09 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14388/</guid>
+      <description>Discover a simpler way to enhance agent performance using filesystems and bash tools. By replacing complex custom tooling, we reduced costs for our sales call summarization agent from ~$1.00 to ~$0.25 per call while improving output quality. This method leverages LLMs&amp;rsquo; strengths in navigating filesystems, allowing agents to manage various data types effectively. #AI #MachineLearning #DataManagement #Efficiency #TechInnovation 🚀📊💻</description>
+    </item>
+    <item>
       <title>Limit on-demand concurrent builds to one build per branch</title>
       <link>/articles/article-2026-01-09-14382/</link>
       <pubDate>Fri, 09 Jan 2026 13:00:00 +0000</pubDate>
@@ -126,6 +154,13 @@
       <pubDate>Fri, 09 Jan 2026 02:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-09-14368/</guid>
       <description>📊 In the latest article from Munetoshi Ishikawa, we explore a function designed for individual use within the LINE messaging app. The focus is on a long-running calculation function, &lt;code&gt;calculateSomeFormula&lt;/code&gt;, which ensures thread safety for concurrent calculations. Additionally, the article discusses how to display a calculation&amp;rsquo;s progress on the UI using an &lt;code&gt;isCalculating&lt;/code&gt; property. This approach leverages an &lt;code&gt;AtomicBoolean&lt;/code&gt; to manage the calculation state effectively. #CodeQuality #Kotlin&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Meet the team: How curiosity and community brought Jon Saxton to Webflow</title>
+      <link>/articles/article-2026-01-09-14389/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14389/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/team-jon-saxton&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Strengthening GitLab.com security: Mandatory multi-factor authentication</title>
@@ -742,6 +777,13 @@
       <pubDate>Tue, 06 Jan 2026 16:00:21 +0000</pubDate>
       <guid>/articles/article-2026-01-06-14258/</guid>
       <description>🚀 A new paradigm in cloud infrastructure is emerging: neoclouds. These AI-first providers focus on building GPU-dense platforms tailored for modern machine learning demands. 🖥️ Unlike traditional providers, neoclouds create AI-native fabrics from scratch, ensuring every GPU cycle and packet is optimized. 🌐 The Cisco 8000 Series with SONiC serves as the backbone, enabling operational agility and deterministic networking essential for AI workloads. #Neocloud #AI #Cisco8000 #CloudInfrastructure&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Better together: 8 essential teamwork skills to master</title>
+      <link>/articles/article-2026-01-06-14394/</link>
+      <pubDate>Tue, 06 Jan 2026 15:17:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-06-14394/</guid>
+      <description>Mastering teamwork is essential for success! 🤝 Key skills include effective communication, alignment on goals, and problem-solving strategies. Research shows that clarity is often lacking, impacting team performance. Leaders play a crucial role in fostering collaboration and creating a supportive environment. Focus on developing these skills to enhance your team&amp;rsquo;s efficiency. 🔑 #Teamwork #Collaboration #Leadership #SoftSkills #WorkplaceSuccess</description>
     </item>
     <item>
       <title>Bridging the Digital and Physical: Why Operational Technology Education Matters Now</title>

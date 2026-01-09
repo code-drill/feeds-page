@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 16:11:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 19:03:18 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The One Mistake That Weakens Every AI-Generated App</title>
+      <link>/articles/article-2026-01-09-14377/</link>
+      <pubDate>Fri, 09 Jan 2026 19:03:18 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14377/</guid>
+      <description>Building AI-generated apps often leads to challenges as you scale. 💻 Many tools prioritize quick code generation over long-term structure, resulting in unclear ownership and limitations on code reuse. This can turn development from progress into rework. A shift towards composable architecture can help. By creating independent modules instead of full applications, developers can enhance maintainability and collaboration. The article explores how to implement this approach effectively&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Open Source Retrieval Infrastructure Can Fix AI’s Production Gap</title>
+      <link>/articles/article-2026-01-09-14378/</link>
+      <pubDate>Fri, 09 Jan 2026 18:00:08 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14378/</guid>
+      <description>The article discusses the challenges faced by enterprise engineering teams in AI. While large models have gained attention, many projects remain in prototype stages due to a lack of effective retrieval systems. Retrieval-augmented generation (RAG) addresses the issue by combining language models with search engine precision, grounding responses in real data. Companies must improve their retrieval infrastructure to move beyond pilot phases and enhance data accuracy. #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Tailwind Creator Says AI Played a Role in Downsizing</title>
+      <link>/articles/article-2026-01-09-14379/</link>
+      <pubDate>Fri, 09 Jan 2026 17:00:45 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14379/</guid>
+      <description>Tailwind CSS recently laid off three engineers, representing 75% of its engineering team. Creator Adam Wathan cited AI&amp;rsquo;s impact on declining revenues during a podcast. 📉 However, the situation changed as companies like Vercel and SupaBase announced sponsorships, showing strong community support. Wathan expressed gratitude for the encouragement and emphasized their ongoing efforts to adapt. 🙏 Stay tuned for updates on this evolving story! #TailwindCSS #AI #TechNews #CommunitySupport&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Reimagining LLM Memory: Using Context as Training Data Unlocks Models That Learn at Test-Time</title>
+      <link>/articles/article-2026-01-09-14380/</link>
+      <pubDate>Fri, 09 Jan 2026 16:58:31 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14380/</guid>
+      <description>🧠 Large Language Models (LLMs) are in the spotlight for their ability to handle extensive context, including conversation histories and books. However, they still struggle with continuity, often needing repeated context. 📚 The article discusses the gap between LLM memory and human memory. It introduces a new approach called test-time training with an end-to-end formulation (TTT-E2E) that allows LLMs to adapt by compressing context into their weights. #AI #LanguageModels #MachineLearning&amp;hellip;</description>
+    </item>
     <item>
       <title>Security Is a Developer Experience Problem, Rooted in Our Foundations</title>
       <link>/articles/article-2026-01-09-14376/</link>
@@ -37,11 +65,25 @@
       <description>🚀 Google Kubernetes Engine (GKE) introduces the Agent Sandbox, designed for running AI agents and untrusted code in secure, isolated environments. 🌐 It leverages gVisor technology for strong kernel-level isolation, minimizing security risks. This open-source solution creates ephemeral runtimes, enhancing safety for Kubernetes clusters. 🔧 The Agent Sandbox includes a Custom Resource Definition (CRD) for managing workloads with VM-like attributes. GKE supports this on both standard and&amp;hellip;</description>
     </item>
     <item>
+      <title>Build an AI Catalog System That Delivers Localized, Interactive Product Experiences</title>
+      <link>/articles/article-2026-01-09-14381/</link>
+      <pubDate>Fri, 09 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14381/</guid>
+      <description>Transform your e-commerce catalogs with AI! 🛒 Many online catalogs suffer from limited product data and generic images, which impacts discoverability and sales. This tutorial guides developers and product teams on creating an AI-driven enrichment system. Utilizing NVIDIA&amp;rsquo;s advanced models, you can generate rich, localized product listings from a single image. The process includes automated titles, descriptions, categories, and even 3D assets tailored for different markets. Designed for those&amp;hellip;</description>
+    </item>
+    <item>
       <title>Multi-Agent Warehouse AI Command Layer Enables Operational Excellence and Supply Chain Intelligence</title>
       <link>/articles/article-2026-01-09-14373/</link>
       <pubDate>Fri, 09 Jan 2026 14:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-09-14373/</guid>
       <description>🚀 Warehouses are evolving with automation and data, yet many still lack a cohesive system. NVIDIA&amp;rsquo;s Multi-Agent Intelligent Warehouse (MAIW) Blueprint aims to address this gap by providing an AI command layer that integrates WMS, ERP, and IoT systems. This solution transforms disparate data into actionable insights, enabling proactive decision-making. By unifying fragmented operations, MAIW enhances efficiency, reduces downtime, and improves safety. #SupplyChain #WarehouseManagement #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Limit on-demand concurrent builds to one build per branch</title>
+      <link>/articles/article-2026-01-09-14382/</link>
+      <pubDate>Fri, 09 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14382/</guid>
+      <description>📢 Exciting update for developers! You can now limit On-Demand Concurrent Builds to one active build per branch. This means that when enabled, builds on the same branch will queue up instead of running simultaneously. Only the latest queued deployment will start once the active build finishes, while older ones will be skipped. Builds on different branches can still run at the same time. Activate this feature in your project settings or check the documentation for more details! #DevUpdates&amp;hellip;</description>
     </item>
     <item>
       <title>Bringing Real Users Into a Product Team Gathering – A JetBrains Research Story</title>

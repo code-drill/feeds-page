@@ -44,6 +44,13 @@
       <description>📊 In the latest article from Munetoshi Ishikawa, we explore a function designed for individual use within the LINE messaging app. The focus is on a long-running calculation function, &lt;code&gt;calculateSomeFormula&lt;/code&gt;, which ensures thread safety for concurrent calculations. Additionally, the article discusses how to display a calculation&amp;rsquo;s progress on the UI using an &lt;code&gt;isCalculating&lt;/code&gt; property. This approach leverages an &lt;code&gt;AtomicBoolean&lt;/code&gt; to manage the calculation state effectively. #CodeQuality #Kotlin&amp;hellip;</description>
     </item>
     <item>
+      <title>Strengthening GitLab.com security: Mandatory multi-factor authentication</title>
+      <link>/articles/article-2026-01-09-14369/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14369/</guid>
+      <description>GitLab.com is enhancing security with mandatory multi-factor authentication (MFA) for all users signing in with a username and password. 🔒 This initiative is part of their commitment to being &amp;ldquo;Secure by Design&amp;rdquo; and aims to protect against account takeover threats. 📈 If you sign in this way, set up MFA proactively to ensure a smooth transition. Notifications will be sent out before your group is required to comply. 🚀 For those using API authentication, switching to a personal access token&amp;hellip;</description>
+    </item>
+    <item>
       <title>Honeycomb’s ‘Private Cloud’ Is Largely About OpenTelemetry, AI and AWS</title>
       <link>/articles/article-2026-01-08-14357/</link>
       <pubDate>Thu, 08 Jan 2026 21:00:26 +0000</pubDate>

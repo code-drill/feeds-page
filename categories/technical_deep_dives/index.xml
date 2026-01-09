@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 14:00:57 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Cloud: A Deep Dive into GKE Sandbox for Agents</title>
+      <link>/articles/article-2026-01-09-14372/</link>
+      <pubDate>Fri, 09 Jan 2026 14:00:57 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14372/</guid>
+      <description>🚀 Google Kubernetes Engine (GKE) introduces the Agent Sandbox, designed for running AI agents and untrusted code in secure, isolated environments. 🌐 It leverages gVisor technology for strong kernel-level isolation, minimizing security risks. This open-source solution creates ephemeral runtimes, enhancing safety for Kubernetes clusters. 🔧 The Agent Sandbox includes a Custom Resource Definition (CRD) for managing workloads with VM-like attributes. GKE supports this on both standard and&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)</title>
       <link>/articles/article-2026-01-08-14361/</link>

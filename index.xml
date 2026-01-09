@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 16:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 16:11:53 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Is a Developer Experience Problem, Rooted in Our Foundations</title>
+      <link>/articles/article-2026-01-09-14376/</link>
+      <pubDate>Fri, 09 Jan 2026 16:11:53 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14376/</guid>
+      <description>🛡️ For over a decade, the tech industry has aimed to enhance software security by integrating it into developer workflows. Despite these efforts, core issues remain unsolved. 🔍 Developers care about security but face constant alerts that often distract from meaningful work. The shift-left approach added more tasks without improving foundations, leading to frustration. 📦 Using hardened container images can reduce the attack surface and streamline security. This change encourages developers to&amp;hellip;</description>
+    </item>
     <item>
       <title>Free Dockhand Tool Simplifies Docker Container Management</title>
       <link>/articles/article-2026-01-09-14370/</link>
@@ -34,7 +41,14 @@
       <link>/articles/article-2026-01-09-14373/</link>
       <pubDate>Fri, 09 Jan 2026 14:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-09-14373/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developer.nvidia.com/blog/feed&#34;&gt;Nvidia Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/multi-agent-warehouse-ai-command-layer-enables-operational-excellence-and-supply-chain-intelligence/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Warehouses are evolving with automation and data, yet many still lack a cohesive system. NVIDIA&amp;rsquo;s Multi-Agent Intelligent Warehouse (MAIW) Blueprint aims to address this gap by providing an AI command layer that integrates WMS, ERP, and IoT systems. This solution transforms disparate data into actionable insights, enabling proactive decision-making. By unifying fragmented operations, MAIW enhances efficiency, reduces downtime, and improves safety. #SupplyChain #WarehouseManagement #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Bringing Real Users Into a Product Team Gathering – A JetBrains Research Story</title>
+      <link>/articles/article-2026-01-09-14374/</link>
+      <pubDate>Fri, 09 Jan 2026 12:37:47 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14374/</guid>
+      <description>🚀 Last spring, JetBrains introduced a new approach to product development by involving real users in their Junie team gathering. They conducted hands-on workshops, both online and in-person, to bridge the gap between user assumptions and practical realities. This direct interaction allowed team members to gain valuable insights and foster empathy. Challenges included participant recruitment and training team members for live interviews, but the results were promising. Key takeaways&amp;hellip;</description>
     </item>
     <item>
       <title>Launch jobs on Ansible Automation Platform with Terraform actions</title>
@@ -77,6 +91,13 @@
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-09-14369/</guid>
       <description>GitLab.com is enhancing security with mandatory multi-factor authentication (MFA) for all users signing in with a username and password. 🔒 This initiative is part of their commitment to being &amp;ldquo;Secure by Design&amp;rdquo; and aims to protect against account takeover threats. 📈 If you sign in this way, set up MFA proactively to ensure a smooth transition. Notifications will be sent out before your group is required to comply. 🚀 For those using API authentication, switching to a personal access token&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Taming P99s in OpenFGA: How We Built a Self-Tuning Strategy Planner</title>
+      <link>/articles/article-2026-01-09-14375/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14375/</guid>
+      <description>🚀 OpenFGA has significantly reduced P99 latency by 98% using a self-tuning strategy planner! Initially, static rules were used for graph traversals, but the need for a dynamic solution became clear. The new planner adapts to real-time data, selecting the best traversal strategies based on individual graph complexities. This evolution allows continuous updates and improves performance as data distributions change. #OpenFGA #LatencyReduction #GraphTraversal #TechInnovation</description>
     </item>
     <item>
       <title>Honeycomb’s ‘Private Cloud’ Is Largely About OpenTelemetry, AI and AWS</title>

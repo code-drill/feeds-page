@@ -16,6 +16,13 @@
       <description>🚀 Google Kubernetes Engine (GKE) introduces the Agent Sandbox, designed for running AI agents and untrusted code in secure, isolated environments. 🌐 It leverages gVisor technology for strong kernel-level isolation, minimizing security risks. This open-source solution creates ephemeral runtimes, enhancing safety for Kubernetes clusters. 🔧 The Agent Sandbox includes a Custom Resource Definition (CRD) for managing workloads with VM-like attributes. GKE supports this on both standard and&amp;hellip;</description>
     </item>
     <item>
+      <title>Taming P99s in OpenFGA: How We Built a Self-Tuning Strategy Planner</title>
+      <link>/articles/article-2026-01-09-14375/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14375/</guid>
+      <description>🚀 OpenFGA has significantly reduced P99 latency by 98% using a self-tuning strategy planner! Initially, static rules were used for graph traversals, but the need for a dynamic solution became clear. The new planner adapts to real-time data, selecting the best traversal strategies based on individual graph complexities. This evolution allows continuous updates and improves performance as data distributions change. #OpenFGA #LatencyReduction #GraphTraversal #TechInnovation</description>
+    </item>
+    <item>
       <title>Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)</title>
       <link>/articles/article-2026-01-08-14361/</link>
       <pubDate>Thu, 08 Jan 2026 18:30:00 +0000</pubDate>

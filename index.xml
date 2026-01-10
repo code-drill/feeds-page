@@ -51,6 +51,13 @@
       <description>Building AI-generated apps often leads to challenges as you scale. 💻 Many tools prioritize quick code generation over long-term structure, resulting in unclear ownership and limitations on code reuse. This can turn development from progress into rework. A shift towards composable architecture can help. By creating independent modules instead of full applications, developers can enhance maintainability and collaboration. The article explores how to implement this approach effectively&amp;hellip;.</description>
     </item>
     <item>
+      <title>Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc</title>
+      <link>/articles/article-2026-01-09-14399/</link>
+      <pubDate>Fri, 09 Jan 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-09-14399/</guid>
+      <description>🚀 Kubernetes v1.35 introduces a new feature: the credential plugin policy and allowlist. This enhancement allows users to control what executables kubeconfigs can invoke, improving security against potential supply-chain attacks. Users can manage this by editing the kuberc configuration file without writing code. For more details, check the official documentation! 🔍 #Kubernetes #DevOps #CloudSecurity #kubeconfig #TechUpdates</description>
+    </item>
+    <item>
       <title>Open Source Retrieval Infrastructure Can Fix AI’s Production Gap</title>
       <link>/articles/article-2026-01-09-14378/</link>
       <pubDate>Fri, 09 Jan 2026 18:00:08 +0000</pubDate>

@@ -6,8 +6,36 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 14:00:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 19:00:36 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekend Our Pipeline Processed the Same Data 47 Times</title>
+      <link>/articles/article-2026-01-12-14414/</link>
+      <pubDate>Mon, 12 Jan 2026 19:00:36 +0000</pubDate>
+      <guid>/articles/article-2026-01-12-14414/</guid>
+      <description>On Monday, an analytics team discovered an issue: transaction volumes surged by 4,700% over the weekend. 🚀 The root cause? Their data pipeline processed the same data 47 times due to a bug in the retry logic. After investigating, they found that fallback mechanisms created a loop, repeatedly reprocessing Saturday&amp;rsquo;s transactions instead of moving forward. 🔄 This incident highlights the importance of thorough testing and monitoring in data systems. 🛠️ #DataAnalytics #DataPipeline #TechIssues&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Forks, Clouds and the New Economics of Open Source Licensing</title>
+      <link>/articles/article-2026-01-12-14415/</link>
+      <pubDate>Mon, 12 Jan 2026 18:49:33 +0000</pubDate>
+      <guid>/articles/article-2026-01-12-14415/</guid>
+      <description>HashiCorp&amp;rsquo;s license change for Terraform from MPL 2.0 to BSL sparked significant backlash, leading to the creation of OpenTofu as a fully open-source alternative. This shift has prompted discussions on protecting open source technologies from commercialization by cloud providers. The impact of commercial forking on open source maintainers raises concerns about revenue loss and increased maintenance burdens. With 96% of organizations using open source, the trend of cloud providers profiting&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How To Use LLMs for Continuous, Creative Code Refactoring</title>
+      <link>/articles/article-2026-01-12-14416/</link>
+      <pubDate>Mon, 12 Jan 2026 18:00:47 +0000</pubDate>
+      <guid>/articles/article-2026-01-12-14416/</guid>
+      <description>Unlock the power of AI in code refactoring! 🤖✨ Traditional methods limited developers to fixed transforms within IDEs. Now, AI-assisted IDEs with Model Context Protocol (MCP) support can learn from before and after examples, enabling creative code transformations. One example shows how LLMs efficiently clean up XMLUI apps without needing explicit support. By recognizing patterns, they simplify the refactoring process and help reduce code repetition. Explore how LLMs can enhance your coding&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How To Scale GitOps Without Hitting the ‘Argo Ceiling’</title>
+      <link>/articles/article-2026-01-12-14417/</link>
+      <pubDate>Mon, 12 Jan 2026 17:00:04 +0000</pubDate>
+      <guid>/articles/article-2026-01-12-14417/</guid>
+      <description>Scaling GitOps can lead to challenges, often referred to as the &amp;ldquo;Argo ceiling.&amp;rdquo; 🚧 As Argo CD instances multiply, visibility and governance can suffer. Teams often rely on custom scripts, diverting attention from core projects. To address this, a centralized GitOps control plane can enhance management while retaining familiar tools. Join the free webinar on Jan. 20 to learn actionable strategies for effective scaling! 📅 #GitOps #DevOps #Webinar #ArgoCD #Kubernetes</description>
+    </item>
     <item>
       <title>New Mobile SDK Brings Low-Code Development to On-Device AI</title>
       <link>/articles/article-2026-01-12-14413/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jan 2026 15:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 19:00:36 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekend Our Pipeline Processed the Same Data 47 Times</title>
+      <link>/articles/article-2026-01-12-14414/</link>
+      <pubDate>Mon, 12 Jan 2026 19:00:36 +0000</pubDate>
+      <guid>/articles/article-2026-01-12-14414/</guid>
+      <description>On Monday, an analytics team discovered an issue: transaction volumes surged by 4,700% over the weekend. 🚀 The root cause? Their data pipeline processed the same data 47 times due to a bug in the retry logic. After investigating, they found that fallback mechanisms created a loop, repeatedly reprocessing Saturday&amp;rsquo;s transactions instead of moving forward. 🔄 This incident highlights the importance of thorough testing and monitoring in data systems. 🛠️ #DataAnalytics #DataPipeline #TechIssues&amp;hellip;</description>
+    </item>
     <item>
       <title>The Key to Agentic Success? BASH Is All You Need</title>
       <link>/articles/article-2026-01-11-14405/</link>

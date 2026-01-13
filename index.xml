@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2026 19:00:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 19:45:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Sourcing Dicer: Databricks’ Auto-Sharder</title>
+      <link>/articles/article-2026-01-13-14477/</link>
+      <pubDate>Tue, 13 Jan 2026 19:45:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14477/</guid>
+      <description>🚀 Databricks has announced the open sourcing of Dicer, their Auto-Sharder, aimed at enhancing sharded services. This initiative focuses on building highly available services that offer high performance while maintaining low costs. The Dicer project is set to benefit developers by simplifying the process of managing sharding in distributed systems. #OpenSource #Databricks #AutoSharding #TechInnovation #SoftwareDevelopment</description>
+    </item>
     <item>
       <title>Why 40% of AI Agents Might Fail (and How To Save Yours)</title>
       <link>/articles/article-2026-01-13-14466/</link>
@@ -16,11 +23,32 @@
       <description>In 2023, a California Chevrolet dealership faced a major issue when its AI chatbot mistakenly agreed to sell a car for just $1. This incident highlights the risks of insufficient guardrails in AI deployment. Gartner predicts that over 40% of AI projects may be canceled by 2027, emphasizing the need for strong governance systems akin to those for human employees. Implementing clear rules and protections for AI agents is essential to ensure their safe operation and reliability. #AI&amp;hellip;</description>
     </item>
     <item>
+      <title>How The New York Times is scaling Unit Test Coverage using AI Tools</title>
+      <link>/articles/article-2026-01-13-14469/</link>
+      <pubDate>Tue, 13 Jan 2026 18:51:55 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14469/</guid>
+      <description>At The New York Times, AI tools are transforming how we improve unit test coverage. 🚀 Our platform teams recently leveraged generative AI to boost test coverage from 60% to over 80% across various projects. This initiative aimed to enhance reliability while allowing engineers to focus on development. While AI streamlined the process, human oversight remained essential to ensure quality and accuracy. We&amp;rsquo;re excited to see how these advancements can further support our engineering practices. 🛠️📈&amp;hellip;</description>
+    </item>
+    <item>
       <title>4 Core Principles for Scaling Your API Engineering Practice</title>
       <link>/articles/article-2026-01-13-14467/</link>
       <pubDate>Tue, 13 Jan 2026 18:00:28 +0000</pubDate>
       <guid>/articles/article-2026-01-13-14467/</guid>
       <description>Scaling your API engineering practice requires a structured approach. APIs are essential for modern enterprises, and managing numerous APIs can become complex. It’s crucial to mature your API practices as your landscape expands. Understanding the API development life cycle is key. This includes stages from requirements gathering to deprecation, with various artifacts involved at each step. To ensure consistency and efficiency, treat all API artifacts as code. This principle can streamline&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How GEICO lowered its $300M cloud spend and decoupled security from the network</title>
+      <link>/articles/article-2026-01-13-14478/</link>
+      <pubDate>Tue, 13 Jan 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14478/</guid>
+      <description>GEICO has made significant changes to its IT infrastructure to reduce cloud spending and enhance security. Initially, the company operated entirely on-premises but transitioned to a public cloud model by 2020. However, by 2022, they faced challenges with high costs and decreased developer productivity. To address these issues, GEICO is standardizing its infrastructure and shifting security focus from network-centric to identity-based approaches. This transition aims to simplify operations and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Dynamic surface codes open new avenues for quantum error correction</title>
+      <link>/articles/article-2026-01-13-14479/</link>
+      <pubDate>Tue, 13 Jan 2026 17:32:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14479/</guid>
+      <description>🌟 New advancements in quantum error correction (QEC) are here! Researchers at Google Quantum AI introduced dynamic circuits that enhance QEC by using fewer couplers and eliminating correlated errors. This innovation is vital for achieving the low error rates needed for effective quantum algorithms. In December 2024, the Willow quantum processor successfully demonstrated error correction below threshold levels, showing improved robustness of logical qubits. These dynamic circuits offer a&amp;hellip;</description>
     </item>
     <item>
       <title>Traditional Code Review Is Dead. What Comes Next?</title>
@@ -121,6 +149,13 @@
       <description>🌟 Natalia S., a Customer Delivery Leader at Cisco, shares her journey of self-discovery through the company&amp;rsquo;s culture of wellbeing. Over a decade of work and family commitments led her to feel disconnected from herself. A &amp;ldquo;Cisco Day for Me&amp;rdquo; allowed her to reflect on her identity beyond her roles. This realization sparked her involvement in a soccer event through Time2Give, reigniting her passion for volunteering and community engagement. ⚽💼 #Cisco #Wellbeing #SelfDiscovery #Volunteer #Community</description>
     </item>
     <item>
+      <title>Nick Bogaty joins Vercel as Chief Revenue Officer</title>
+      <link>/articles/article-2026-01-13-14474/</link>
+      <pubDate>Tue, 13 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14474/</guid>
+      <description>🚀 Exciting developments at Vercel! We are pleased to announce that Nick Bogaty has joined as Chief Revenue Officer. Vercel is committed to transforming Sales in the AI era, focusing on a flexible and secure approach. Our Sales team is dedicated to navigating the evolving web landscape, and we’re excited for the future ahead. #Vercel #SalesLeadership #AI #Innovation #TechNews</description>
+    </item>
+    <item>
       <title>Technical Deep Dive: How DigitalOcean and AMD Delivered a 2x Production Inference Performance Increase for Character.ai</title>
       <link>/articles/article-2026-01-13-14443/</link>
       <pubDate>Tue, 13 Jan 2026 12:30:00 +0000</pubDate>
@@ -170,11 +205,46 @@
       <description>🚀 Exciting news! CrowdStrike plans to acquire Seraphic, enhancing browser security with zero-trust protections. This move aims to secure access to corporate resources across various browsers and devices, addressing a crucial blind spot for many organizations. Seraphic&amp;rsquo;s technology will integrate with CrowdStrike’s Falcon platform, offering real-time visibility and control without needing to replace users&amp;rsquo; preferred browsers. Stay tuned for more updates! 🔒🌐 #CyberSecurity #CrowdStrike&amp;hellip;</description>
     </item>
     <item>
+      <title>Elastic Stack 8.19.10 released</title>
+      <link>/articles/article-2026-01-13-14472/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14472/</guid>
+      <description>🚀 New Release Alert! 🚀 Version 8.19.10 of the Elastic Stack is now available. It&amp;rsquo;s recommended to upgrade from the previous version, 8.19.9, for improved performance. For a detailed list of fixes and changes in this release, check the release notes. #ElasticStack #SoftwareUpdate #TechNews #UpgradeNow</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.1.10 released</title>
+      <link>/articles/article-2026-01-13-14471/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14471/</guid>
+      <description>🚀 Exciting news! Version 9.1.10 of the Elastic Stack has been released. This update is recommended over the previous version, 9.1.9. For a complete list of fixes and changes, check the release notes. Don’t forget to explore the Elastic Cloud free trial for a fully loaded deployment! ☁️ #ElasticStack #SoftwareUpdate #TechNews</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.2.4 released</title>
+      <link>/articles/article-2026-01-13-14470/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14470/</guid>
+      <description>🚀 Version 9.2.4 of the Elastic Stack has been released! It&amp;rsquo;s recommended to upgrade from version 9.2.3 to benefit from the latest fixes and improvements. For a detailed list of changes and resolved issues, please check the release notes. 📄 #ElasticStack #SoftwareUpdate #TechNews #VersionRelease</description>
+    </item>
+    <item>
       <title>Governing the Credentials That Power Your Company. Welcome to 1Password Unified Access</title>
       <link>/articles/article-2026-01-13-14455/</link>
       <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-13-14455/</guid>
       <description>🚀 Exciting news from 1Password! They are launching &lt;strong&gt;Unified Access&lt;/strong&gt;, a new feature designed to enhance security and simplify credential management for businesses. It combines the Enterprise Password Manager and SaaS Manager to extend Zero Trust governance. Admins can now discover and manage shared accounts easily, while employees enjoy a streamlined sign-in experience for all apps, whether using SSO or not. The public preview starts January 13 for eligible customers. Join the waitlist to be&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Implement Google One Tap in React with Auth0 and FedCM</title>
+      <link>/articles/article-2026-01-13-14476/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14476/</guid>
+      <description>🚀 Learn how to integrate Google One Tap in your React app using Auth0 and FedCM! This guide covers setting up Sign-in with Google, providing a simple authentication method for your users. Google One Tap allows easy sign-in with just one tap, enhancing user experience on both mobile and desktop. FedCM is a key component, offering a privacy-focused method for identity federation without relying on third-party cookies. For detailed steps, check out the full article! #GoogleOneTap #React #Auth0&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Shape the future in Sydney: Forge the Future hackathon</title>
+      <link>/articles/article-2026-01-13-14473/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-13-14473/</guid>
+      <description>🚀 Join the Forge the Future hackathon in Sydney on March 2, 2026! This event invites builders and innovators to create AI-driven solutions for community challenges. Participants will engage with the Elastic Stack and receive mentorship from AI experts. 💡 Workshops from February 2-10 will help refine ideas before the hackathon begins. As a judge, Nils Thomsen emphasizes the need for impactful, real-world applications. #ForgeTheFuture #Hackathon #AIInnovation #SydneyEvents #ElasticStack</description>
     </item>
     <item>
       <title>The Fab New Year Sale is now on!</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 16:11:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 20:27:49 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safer Docker Hub Pulls via a Sonatype-Protected Proxy</title>
+      <link>/articles/article-2026-01-14-14542/</link>
+      <pubDate>Wed, 14 Jan 2026 20:27:49 +0000</pubDate>
+      <guid>/articles/article-2026-01-14-14542/</guid>
+      <description>🔒 Modern teams rely on public container images, but they often face challenges like inconsistent base images, exposure to vulnerabilities, and unreliable workflows. A &amp;ldquo;protected repo&amp;rdquo; solves these issues by evaluating images at the border between public sources and internal systems. It ensures only trusted content is used in builds, improving security and reliability. The Nexus Repository Docker proxy plays a key role by caching approved layers and inspecting image components against&amp;hellip;</description>
+    </item>
     <item>
       <title>Security Is a Developer Experience Problem, Rooted in Our Foundations</title>
       <link>/articles/article-2026-01-09-14376/</link>

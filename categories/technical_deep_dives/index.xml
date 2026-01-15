@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 20:51:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 08:00:59 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A deep dive into OpenShift Container Platform 4.20 performance</title>
+      <link>/articles/article-2026-01-15-14553/</link>
+      <pubDate>Thu, 15 Jan 2026 08:00:59 +0000</pubDate>
+      <guid>/articles/article-2026-01-15-14553/</guid>
+      <description>🚀 A recent article explores the performance of OpenShift Container Platform 4.20, focusing on the Telco Core Reference Design and data plane workloads. The study compared three networking configurations: OVN-Kubernetes, MACVLAN, and SR-IOV, assessing their stability and throughput under varying control plane churn rates. Results showed SR-IOV and MACVLAN provided the highest throughput with minimal impact, while OVN-K experienced significant degradation. Notably, pod readiness latency&amp;hellip;</description>
+    </item>
     <item>
       <title>Adapting the Facebook Reels RecSys AI Model Based on User Feedback</title>
       <link>/articles/article-2026-01-14-14543/</link>

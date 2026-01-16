@@ -13,7 +13,7 @@
       <link>/articles/article-2026-01-16-14608/</link>
       <pubDate>Fri, 16 Jan 2026 02:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-16-14608/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://techblog.lycorp.co.jp/en/feed/index.xml&#34;&gt;LY Corporation Tech Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://techblog.lycorp.co.jp/en/62icq&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>In the latest article from &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses potential improvements in resource management code. The current implementation of the &lt;code&gt;FooResource&lt;/code&gt; class requires a manual check before calling &lt;code&gt;close()&lt;/code&gt; to avoid runtime errors. To enhance safety, making the &lt;code&gt;close()&lt;/code&gt; method idempotent could help. This change would ensure that multiple calls to &lt;code&gt;close()&lt;/code&gt; yield the same result, reducing the risk of errors. #CodeQuality #SoftwareDevelopment #ProgrammingTips 💻🔧</description>
     </item>
     <item>
       <title>Safety is a given, cost savings are a bonus: why AI services need dedicated guardrails</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Update: Multiple vulnerabilities in SvelteKit</title>
+      <link>/articles/article-2026-01-15-14598/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-15-14598/</guid>
+      <description>🚨 Security Alert for SvelteKit Users 🚨 The Svelte team has identified five vulnerabilities (CVEs) that may affect your projects. Key concerns include memory exhaustion and server crashes in various versions of Svelte and SvelteKit. On Netlify, the impact is minimal due to our serverless architecture, but proactive upgrades are advised. Upgrade to the latest versions: - devalue 5.6.2 or later - @sveltejs/kit 2.49.5 or later - @sveltejs/adapter-node 5.5.1 or later - svelte 5.46.4 or later Stay&amp;hellip;</description>
+    </item>
     <item>
       <title>GPT-5.2-Codex Now Available in AI Gateway and Agent Runners</title>
       <link>/articles/article-2026-01-14-14546/</link>

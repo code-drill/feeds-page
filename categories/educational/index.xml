@@ -30,6 +30,20 @@
       <description>In the latest article from &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses potential improvements in resource management code. The current implementation of the &lt;code&gt;FooResource&lt;/code&gt; class requires a manual check before calling &lt;code&gt;close()&lt;/code&gt; to avoid runtime errors. To enhance safety, making the &lt;code&gt;close()&lt;/code&gt; method idempotent could help. This change would ensure that multiple calls to &lt;code&gt;close()&lt;/code&gt; yield the same result, reducing the risk of errors. #CodeQuality #SoftwareDevelopment #ProgrammingTips 💻🔧</description>
     </item>
     <item>
+      <title>OddBot reinvents its animation pipeline for Playdate with Winnie the Pooh</title>
+      <link>/articles/article-2026-01-16-14618/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14618/</guid>
+      <description>OddBot has transformed its animation process for Disney Junior’s Playdate with Winnie the Pooh using real-time animation in Unreal Engine. This approach has led to a more collaborative and creative production environment, enhancing the overall fun of animation creation. Learn more about their innovative techniques and the benefits of this new pipeline! 🎨✨ #Animation #UnrealEngine #WinnieThePooh #CreativeProcess #DisneyJunior</description>
+    </item>
+    <item>
+      <title>Why Did My Auth0 Bill Change? A Guide to Proration, Discounts, and Upgrades</title>
+      <link>/articles/article-2026-01-16-14621/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14621/</guid>
+      <description>Understanding unexpected changes in your Auth0 bill? Here’s a quick overview: 🔍 &lt;strong&gt;Three-Month Rule&lt;/strong&gt;: Auth0 auto-upgrades your plan if you exceed usage limits for three consecutive months, ensuring uninterrupted access. 📊 &lt;strong&gt;Mid-Cycle Changes&lt;/strong&gt;: Upgrading or adding features mid-cycle results in prorated charges, reflecting your usage. To manage your billing, regularly audit your user volume, traffic, and integrations. #Auth0 #Billing #CloudServices #UsageAudit #TechFinance</description>
+    </item>
+    <item>
       <title>Unlocking health insights: Estimating advanced walking metrics with smartwatches</title>
       <link>/articles/article-2026-01-15-14604/</link>
       <pubDate>Thu, 15 Jan 2026 22:56:49 +0000</pubDate>

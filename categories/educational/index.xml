@@ -37,6 +37,48 @@
       <description>In the latest article from &amp;ldquo;Improving Code Quality,&amp;rdquo; Munetoshi Ishikawa discusses potential improvements in resource management code. The current implementation of the &lt;code&gt;FooResource&lt;/code&gt; class requires a manual check before calling &lt;code&gt;close()&lt;/code&gt; to avoid runtime errors. To enhance safety, making the &lt;code&gt;close()&lt;/code&gt; method idempotent could help. This change would ensure that multiple calls to &lt;code&gt;close()&lt;/code&gt; yield the same result, reducing the risk of errors. #CodeQuality #SoftwareDevelopment #ProgrammingTips 💻🔧</description>
     </item>
     <item>
+      <title>A Guide to Fine-Tuning FunctionGemma</title>
+      <link>/articles/article-2026-01-16-14635/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14635/</guid>
+      <description>🔍 FunctionGemma is an AI model designed for function calling, recently fine-tuned to enhance tool selection and enterprise compliance. This post highlights the importance of fine-tuning to resolve ambiguities in tool choice and achieve ultra-specialization. ✨ The &amp;ldquo;FunctionGemma Tuning Lab&amp;rdquo; offers a no-code demo for developers, simplifying the fine-tuning process. Explore how this can streamline your AI applications! #FunctionGemma #AITechnology #FineTuning #Developers #EnterpriseAI</description>
+    </item>
+    <item>
+      <title>Build an event registration system with Webflow and Mailchimp</title>
+      <link>/articles/article-2026-01-16-14629/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14629/</guid>
+      <description>🌐 Looking to streamline your event registration process? This article details how to connect Webflow forms to Mailchimp. You can efficiently manage event sign-ups with tag segmentation and automated confirmation emails. Learn how to enhance your registration system for a smoother experience! #Webflow #Mailchimp #EventRegistration #Automation #TechTips</description>
+    </item>
+    <item>
+      <title>Build custom feedback portals with UserVoice API and Webflow</title>
+      <link>/articles/article-2026-01-16-14631/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14631/</guid>
+      <description>🔧 Discover how to integrate UserVoice with Webflow to build custom feedback portals! The article outlines the use of a secure API proxy, OAuth 2.0, webhooks, and CMS syncing to enhance user engagement and feedback collection. This integration can streamline your feedback process effectively. #UserVoice #Webflow #FeedbackPortals #Integration #WebDevelopment</description>
+    </item>
+    <item>
+      <title>Build scalable client campaign workflows in Webflow with HubSpot integration</title>
+      <link>/articles/article-2026-01-16-14628/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14628/</guid>
+      <description>🚀 Discover how to enhance your client campaign workflows! This article explains how to connect Webflow forms to HubSpot CRM, enabling you to build scalable and efficient processes. Learn the steps to streamline your marketing efforts and improve client management. #Webflow #HubSpot #MarketingAutomation #ClientManagement #WorkflowOptimization</description>
+    </item>
+    <item>
+      <title>Embed UserVoice feedback widgets in Webflow</title>
+      <link>/articles/article-2026-01-16-14630/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14630/</guid>
+      <description>🚀 Discover how to enhance your Webflow projects by embedding UserVoice feedback widgets! This guide explains the process of using JavaScript for seamless client-side feedback and idea voting. It&amp;rsquo;s a practical way to engage your users and gather valuable insights. Learn the steps and elevate user interaction! 🗳️💻 #Webflow #UserFeedback #JavaScript #WebDevelopment #UserVoice</description>
+    </item>
+    <item>
+      <title>Five things successful IT teams get right about SaaS management</title>
+      <link>/articles/article-2026-01-16-14632/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-16-14632/</guid>
+      <description>SaaS sprawl can lead to inefficiencies and increased costs for organizations. IT teams can mitigate these issues through effective SaaS management. Successful teams focus on continuous discovery, automating the tracking of apps and user access. They manage offboarding systematically to ensure data security and compliance. Automated access reviews and linking usage to license spend help control costs and reduce risks. By sharing contract data, IT and procurement can make informed decisions,&amp;hellip;</description>
+    </item>
+    <item>
       <title>OddBot reinvents its animation pipeline for Playdate with Winnie the Pooh</title>
       <link>/articles/article-2026-01-16-14618/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>

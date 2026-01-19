@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jan 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we mitigated a vulnerability in Cloudflare’s ACME validation logic</title>
+      <link>/articles/article-2026-01-19-14657/</link>
+      <pubDate>Mon, 19 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-19-14657/</guid>
+      <description>📢 A recent vulnerability in Cloudflare&amp;rsquo;s ACME validation logic has been identified and addressed. On October 13, 2025, researchers from FearsOff reported an issue that affected some WAF features on specific ACME paths. The flaw allowed certain requests to bypass security, but Cloudflare has since patched it. No action is required from customers, and there are no known instances of exploitation. 🔒 Your security remains a priority. #Cloudflare #CyberSecurity #Vulnerability #ACME #WAF</description>
+    </item>
     <item>
       <title>Astro is joining Cloudflare</title>
       <link>/articles/article-2026-01-16-14622/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 18:32:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 17:25:41 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Avoid Common Pitfalls With JPA and Kotlin</title>
+      <link>/articles/article-2026-01-20-14683/</link>
+      <pubDate>Tue, 20 Jan 2026 17:25:41 +0000</pubDate>
+      <guid>/articles/article-2026-01-20-14683/</guid>
+      <description>Kotlin and Jakarta Persistence (JPA) are powerful for server-side development, but they come with challenges. 📊 Thorben Janssen shares best practices to avoid common pitfalls, focusing on entity class design. Key points include the necessity of no-argument constructors and non-final attributes for effective persistence. ⚙️ Additionally, implementing equals, hashCode, and toString correctly is crucial to prevent unexpected behavior. IntelliJ IDEA 2026.1 will help by detecting issues and&amp;hellip;</description>
+    </item>
     <item>
       <title>TeamCity 2025.11.2 Is Now Available</title>
       <link>/articles/article-2026-01-19-14658/</link>

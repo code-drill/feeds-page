@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jan 2026 18:00:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 22:00:39 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling autonomous agents with environment virtualization</title>
+      <link>/articles/article-2026-01-21-14737/</link>
+      <pubDate>Wed, 21 Jan 2026 22:00:39 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14737/</guid>
+      <description>🚀 The AI landscape is evolving from just smart suggestions to autonomous contributions. Tools like Claude Code and GitHub Copilot Workspace are now tackling complex tasks independently. However, code verification is becoming a significant bottleneck. For agents to truly enhance productivity, they must operate in a closed-loop system that includes real runtime data. Without this, human developers are left to troubleshoot integration errors, slowing down progress. As noted by Boris Cherny,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Streamlining CUB with a Single-Call API</title>
+      <link>/articles/article-2026-01-21-14739/</link>
+      <pubDate>Wed, 21 Jan 2026 21:28:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14739/</guid>
+      <description>🚀 CUB is a C++ library essential for high-performance GPU algorithms, known for its two-phase API that separates memory estimation from allocation. This can lead to repetitive code. With the recent shift to the single-call API in CUDA 13.1, developers can now simplify memory management without losing performance. CUB allows for efficient execution of algorithms like scan and sort directly in custom kernels, making it a powerful tool for harnessing NVIDIA GPUs. Learn more about CUB in NVIDIA&amp;rsquo;s&amp;hellip;</description>
+    </item>
+    <item>
+      <title>High-Availability Feature Flagging at Databricks</title>
+      <link>/articles/article-2026-01-21-14740/</link>
+      <pubDate>Wed, 21 Jan 2026 20:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14740/</guid>
+      <description>At Databricks, maintaining reliability while shipping software quickly is essential. They developed a high-availability feature flagging system that ensures zero downtime for their global infrastructure. This system allows for efficient feature deployment while minimizing disruptions. Learn more about this innovative approach to feature flagging! 💻🔧🌍 #Databricks #SoftwareDevelopment #FeatureFlagging #ZeroDowntime #Engineering</description>
+    </item>
     <item>
       <title>Building scalable agentic assistants: A graph-based approach</title>
       <link>/articles/article-2026-01-21-14724/</link>

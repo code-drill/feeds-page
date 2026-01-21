@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jan 2026 14:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 07:16:33 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplifying transit router deployment in Open Virtual Network</title>
+      <link>/articles/article-2026-01-21-14703/</link>
+      <pubDate>Wed, 21 Jan 2026 07:16:33 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14703/</guid>
+      <description>The Open Virtual Network (OVN) has introduced transit routers (TRs) to simplify the deployment and configuration of routing across multiple availability zones (AZs). Previously, adding a transit router required manual management of logical routers and tunnel keys, which was prone to errors. With TRs integrated into OVN Interconnect, users can now configure routers across AZs without the hassle of manual input. 🌐 The OVN Interconnect feature connects multiple OVN deployments using shared&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Selective network hosting with BGP router in OpenShift</title>
+      <link>/articles/article-2026-01-21-14704/</link>
+      <pubDate>Wed, 21 Jan 2026 07:16:31 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14704/</guid>
+      <description>📢 Red Hat OpenShift 4.19 and later now supports BGP routing through Free Range Routing (FRR), enhancing network reliability for daily application onboarding. The FRR daemonset runs on every node, allowing platform administrators to expose internal networks to external systems efficiently. 🌐 Organizations can achieve improved workload connectivity, traffic isolation, and rapid network convergence. For proper setup, ensure your cluster runs OpenShift 4.20 or later and enable FRR capabilities&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Troubleshooting with fault tree analysis and PIOSEE</title>
+      <link>/articles/article-2026-01-21-14705/</link>
+      <pubDate>Wed, 21 Jan 2026 07:16:27 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14705/</guid>
+      <description>🛠️ This article discusses two valuable troubleshooting methods for Red Hat OpenShift and middleware issues: Fault Tree Analysis (FTA) and the PIOSEE framework. FTA helps identify root causes by systematically eliminating potential failure components. It&amp;rsquo;s widely used in various industries, including aviation. 🛩️ The PIOSEE framework (Problem, Information, Options, Select, Execute, Evaluate) is designed for urgent production environments, enabling quick decision-making. Additionally, AI tools&amp;hellip;</description>
+    </item>
     <item>
       <title>AI quickstart: How to build an AI-driven product recommender with Red Hat OpenShift AI</title>
       <link>/articles/article-2026-01-20-14672/</link>

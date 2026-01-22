@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jan 2026 19:35:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 22:22:01 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overcoming Compute and Memory Bottlenecks with FlashAttention-4 on NVIDIA Blackwell</title>
+      <link>/articles/article-2026-01-22-14784/</link>
+      <pubDate>Thu, 22 Jan 2026 22:22:01 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14784/</guid>
+      <description>🚀 The transformer architecture is transforming generative AI, enabling large language models like GPT and Llama. Its self-attention mechanism allows for parallel processing, but faces challenges with memory and computation due to quadratic complexity. 🔍 FlashAttention offers a solution, improving efficiency by reducing memory access and combining computational steps into an optimized GPU kernel. 📈 This innovation lowers memory complexity and enhances training speed, allowing models to manage&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Responsible and Calibrated AI Agents with Databricks and MLflow: A Real-World Use Case Deep Dive</title>
+      <link>/articles/article-2026-01-22-14786/</link>
+      <pubDate>Thu, 22 Jan 2026 22:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14786/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/building-responsible-and-calibrated-ai-agents-databricks-and-mlflow-real-world-use-case-deep&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTO Chris Aniszczyk on the CNCF push for AI interoperability</title>
+      <link>/articles/article-2026-01-22-14783/</link>
+      <pubDate>Thu, 22 Jan 2026 21:00:55 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14783/</guid>
+      <description>🚀 Chris Aniszczyk, CTO of CNCF, discusses the similarities between AI agents and microservices. He emphasizes the importance of being cloud native for AI development, especially with tools like Kubernetes. 🌐 The CNCF is working on a conformance program to ensure AI systems meet community standards, enhancing interoperability. 🛠️ Key projects include gRPC for communication and Prometheus for observability. #AI #Microservices #CloudNative #CNCF #KubeCon</description>
+    </item>
     <item>
       <title>Using MCP Servers: From Quick Tools to Multi-Agent Systems</title>
       <link>/articles/article-2026-01-22-14779/</link>
@@ -161,6 +182,13 @@
       <pubDate>Thu, 22 Jan 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-22-14778/</guid>
       <description>🚀 Vercel Sandbox introduces filesystem snapshots! You can now capture the complete filesystem state of a running Sandbox. This feature allows you to launch new Sandboxes from existing snapshots, saving time on setup tasks like dependency installations and builds. Key functionalities include: - Creating snapshots with &lt;code&gt;sandbox.snapshot()&lt;/code&gt; - Launching Sandboxes using snapshots - Reusing snapshots for parallel testing Explore the documentation to learn more! 📚 #Vercel #WebDevelopment #DevTools&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Testing if &#34;bash is all you need&#34;</title>
+      <link>/articles/article-2026-01-22-14785/</link>
+      <pubDate>Thu, 22 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14785/</guid>
+      <description>Ankur Goyal from Braintrust discusses testing the hypothesis that &amp;ldquo;bash is all you need&amp;rdquo; for AI agents. They evaluated three agent approaches: SQL, Bash, and Filesystem agents on querying GitHub issues. SQL achieved 100% accuracy, while Bash and Filesystem lagged behind. The results showed that combining SQL and Bash into a hybrid agent improved accuracy and verification. This highlights the importance of evaluating tools to enhance AI performance. 🔍💻📊 #AI #DataAnalysis #TechInsights&amp;hellip;</description>
     </item>
     <item>
       <title>Monitoring OpenStack and OpenShift together</title>
@@ -336,6 +364,13 @@
       <pubDate>Wed, 21 Jan 2026 19:00:12 +0000</pubDate>
       <guid>/articles/article-2026-01-21-14723/</guid>
       <description>Should enterprises run containers in VMs or on bare metal? 🤔 Containers offer flexibility and portability, but the choice of deployment is crucial. For enterprises, using virtual machines (VMs) can enhance operational flexibility and security compared to bare metal servers. VMs allow for multiple Kubernetes versions across clusters, minimizing disruption during updates. This flexibility is vital for performance and compliance. Additionally, VMs provide better security isolation, reducing the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Secrets management disaster recovery without the operational burden</title>
+      <link>/articles/article-2026-01-21-14787/</link>
+      <pubDate>Wed, 21 Jan 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-21-14787/</guid>
+      <description>Managing secrets in enterprise systems can be complex and costly. 🚀 This article discusses the challenges of maintaining disaster recovery for secrets management and introduces HCP Vault Dedicated as a potential solution. It offers high availability, automated disaster recovery, and backup options, easing operational burdens for cybersecurity teams. 🔐 For those interested in optimizing their security operations, a comprehensive guide is available to assess your disaster recovery architecture&amp;hellip;.</description>
     </item>
     <item>
       <title>Cisco URWB: Powering Industrial AI &amp; Automation on the Factory Floor</title>

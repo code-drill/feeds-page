@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jan 2026 18:37:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 22:22:01 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overcoming Compute and Memory Bottlenecks with FlashAttention-4 on NVIDIA Blackwell</title>
+      <link>/articles/article-2026-01-22-14784/</link>
+      <pubDate>Thu, 22 Jan 2026 22:22:01 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14784/</guid>
+      <description>🚀 The transformer architecture is transforming generative AI, enabling large language models like GPT and Llama. Its self-attention mechanism allows for parallel processing, but faces challenges with memory and computation due to quadratic complexity. 🔍 FlashAttention offers a solution, improving efficiency by reducing memory access and combining computational steps into an optimized GPU kernel. 📈 This innovation lowers memory complexity and enhances training speed, allowing models to manage&amp;hellip;</description>
+    </item>
     <item>
       <title>How Agentforce, Data, and Apps Turned the Salesforce Stack into Agentforce 360</title>
       <link>/articles/article-2026-01-22-14781/</link>
@@ -21,6 +28,13 @@
       <pubDate>Thu, 22 Jan 2026 16:56:44 +0000</pubDate>
       <guid>/articles/article-2026-01-22-14782/</guid>
       <description>Unlocking user intent from UI interactions is crucial for enhancing mobile experiences. 📱 A recent study introduces a method using small multimodal models to effectively predict user actions without relying on large, resource-heavy models. By breaking down intent extraction into two stages, the approach maintains high accuracy while operating on-device, ensuring user privacy. 🔍 This innovative technique shows promise for future AI agents that can better anticipate user needs based on past&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Testing if &#34;bash is all you need&#34;</title>
+      <link>/articles/article-2026-01-22-14785/</link>
+      <pubDate>Thu, 22 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14785/</guid>
+      <description>Ankur Goyal from Braintrust discusses testing the hypothesis that &amp;ldquo;bash is all you need&amp;rdquo; for AI agents. They evaluated three agent approaches: SQL, Bash, and Filesystem agents on querying GitHub issues. SQL achieved 100% accuracy, while Bash and Filesystem lagged behind. The results showed that combining SQL and Bash into a hybrid agent improved accuracy and verification. This highlights the importance of evaluating tools to enhance AI performance. 🔍💻📊 #AI #DataAnalysis #TechInsights&amp;hellip;</description>
     </item>
     <item>
       <title>Enabling autonomous agents with environment virtualization</title>

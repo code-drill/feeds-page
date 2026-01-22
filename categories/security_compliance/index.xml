@@ -6,14 +6,42 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jan 2026 00:52:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 15:22:54 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Agents in Production (Agentic Runtime, #1)</title>
+      <link>/articles/article-2026-01-22-14760/</link>
+      <pubDate>Thu, 22 Jan 2026 15:22:54 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14760/</guid>
+      <description>🔍 The first article in the series about Palantir AIP&amp;rsquo;s Agentic Runtime explores how it secures agents in critical operations. Key points include: - &lt;strong&gt;Secure Access:&lt;/strong&gt; The design ensures stable performance and access control for various large language models. - &lt;strong&gt;Orchestrated Execution:&lt;/strong&gt; Agent orchestration is isolated and managed through a secure infrastructure. - &lt;strong&gt;Policy Enforcement:&lt;/strong&gt; Granular policies govern memory types and tool usage. - &lt;strong&gt;Real-Time Monitoring:&lt;/strong&gt; Comprehensive&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automate your security whack-a-mole: Q&amp;A with Exaforce</title>
+      <link>/articles/article-2026-01-22-14771/</link>
+      <pubDate>Thu, 22 Jan 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14771/</guid>
+      <description>🔒 Security threats are ever-evolving, making it challenging for organizations to keep up. Exaforce&amp;rsquo;s software aims to automate attack detection and response, helping businesses enhance their security operations. They cater to companies of all sizes, from startups to mid-sized enterprises, enabling them to either build a Security Operations Center (SOC) quickly or strengthen existing teams. Many organizations struggle with incident response and compliance, especially during SOC II audits&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Your Dependencies Don’t Care About Your FIPS Configuration</title>
+      <link>/articles/article-2026-01-22-14770/</link>
+      <pubDate>Thu, 22 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14770/</guid>
+      <description>FIPS compliance enhances software supply chain security, but adopting FIPS-enabled container images can lead to unexpected errors. 🛠️ Teams are discovering that even if the base image is correct, compatibility issues can arise from dependencies. Changes in complex systems can yield surprising results. The early adaptation phase of FIPS presents opportunities to rethink building practices. 🔄 One challenge involves prebuilt binaries that may bypass configured cryptographic boundaries, leading&amp;hellip;</description>
+    </item>
     <item>
       <title>How Agentforce Runs Secure AI Agents at 11 Million Calls Per Day</title>
       <link>/articles/article-2026-01-22-14748/</link>
       <pubDate>Thu, 22 Jan 2026 00:52:39 +0000</pubDate>
       <guid>/articles/article-2026-01-22-14748/</guid>
       <description>Meet Sahil Sobti, Lead Software Engineer at Salesforce, who oversees the Developer Access team for Agentforce. 💻 His team manages over 11 million daily agent calls, ensuring secure and reliable interactions. They focus on implementing a robust access layer that protects sensitive data while enabling growth and innovation. 🔒 Sahil emphasizes the importance of coordinating multiple teams to maintain security and functionality as Agentforce evolves. 🚀 #Salesforce #AI #Cybersecurity #Engineering&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Broken Access Control Still Dominates the OWASP Top 10 in 2026?</title>
+      <link>/articles/article-2026-01-22-14769/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-22-14769/</guid>
+      <description>🔒 Broken Access Control (BAC) remains the top security risk in the OWASP Top 10 for web applications, as confirmed in recent reports. This issue persists due to its nature as a logical vulnerability, making it difficult for automated tools to detect. Unlike technical vulnerabilities, BAC and Broken Object Level Authorization (BOLA) involve semantic flaws in how access is managed. Effective solutions require understanding these complexities and implementing best practices for access control&amp;hellip;.</description>
     </item>
     <item>
       <title>Is that allowed? Authentication and authorization in Model Context Protocol</title>

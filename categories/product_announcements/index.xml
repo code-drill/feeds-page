@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 19:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 21:00:04 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vercel’s json-render: A step toward generative UI</title>
+      <link>/articles/article-2026-01-23-14825/</link>
+      <pubDate>Fri, 23 Jan 2026 21:00:04 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14825/</guid>
+      <description>🚀 Vercel has introduced json-render, an open-source tool aimed at generative user interfaces (UI). This innovation allows AI to create web interfaces on demand. Developers can set parameters for AI interactions, enabling users to describe their needs in natural language. The AI generates and renders UI in real-time. Although currently experimental, json-render could transform how websites and applications are built, automating UI creation. Learn more about this disruptive technology! 🔍💻&amp;hellip;</description>
+    </item>
     <item>
       <title>Announcing first-class support of Iceberg format in Databricks Delta Sharing</title>
       <link>/articles/article-2026-01-23-14821/</link>
@@ -56,6 +63,13 @@
       <pubDate>Fri, 23 Jan 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-23-14817/</guid>
       <description>🚀 Vercel has introduced a new optimization that skips function uploads when the code remains unchanged. This change reduces build times by 400-600ms on average and can save up to 5 seconds for larger builds. 🌟 Deployment-specific environment variables are now injected at runtime, allowing for more efficient deployments without additional configuration. This update applies to Vercel Functions and will soon benefit Next.js projects as well. #Vercel #WebDevelopment #Optimizations #BuildTimes&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel now supports customizing platform error pages</title>
+      <link>/articles/article-2026-01-23-14826/</link>
+      <pubDate>Fri, 23 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14826/</guid>
+      <description>🚀 Vercel now allows customization of platform error pages! You can replace standard error messages with your own branded pages. This is useful for handling uncaught errors like function timeouts. Simply use your framework&amp;rsquo;s conventions to set up custom pages, and Vercel will find them automatically. This feature is available for Enterprise teams and requires no extra configuration. #Vercel #WebDevelopment #CustomErrorPages #EnterpriseSolutions #TechUpdates</description>
     </item>
     <item>
       <title>Metronome &#43; Stripe: Building the future of billing</title>

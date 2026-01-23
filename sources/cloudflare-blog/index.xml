@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Route leak incident on January 22, 2026</title>
+      <link>/articles/article-2026-01-23-14822/</link>
+      <pubDate>Fri, 23 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14822/</guid>
+      <description>🚨 On January 22, 2026, a configuration error led to an unintended leak of Border Gateway Protocol (BGP) prefixes from our Miami data center. This incident affected Cloudflare customers and other external parties, causing traffic congestion and increased latency for about 25 minutes. We apologize for any disruptions this caused. We are taking steps to ensure this does not happen again. For more on route leaks, you can check our Cloudflare Radar. #BGP #Cloudflare #NetworkSecurity #IncidentReport</description>
+    </item>
     <item>
       <title>How we mitigated a vulnerability in Cloudflare’s ACME validation logic</title>
       <link>/articles/article-2026-01-19-14657/</link>

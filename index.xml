@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 19:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 19:05:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing first-class support of Iceberg format in Databricks Delta Sharing</title>
+      <link>/articles/article-2026-01-23-14821/</link>
+      <pubDate>Fri, 23 Jan 2026 19:05:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14821/</guid>
+      <description>🚀 Exciting news from Databricks! They have announced first-class support for the Iceberg format in Delta Sharing. This update allows data recipients to access Delta Shares using any Iceberg-compatible client. Additionally, data providers can now share any Iceberg table seamlessly. #Databricks #DeltaSharing #IcebergFormat #DataSharing #DataAnalytics</description>
+    </item>
     <item>
       <title>CNCF: Kubernetes is ‘foundational’ infrastructure for AI</title>
       <link>/articles/article-2026-01-23-14812/</link>
@@ -21,6 +28,13 @@
       <pubDate>Fri, 23 Jan 2026 18:00:55 +0000</pubDate>
       <guid>/articles/article-2026-01-23-14813/</guid>
       <description>AI is reshaping the go-to-market (GTM) process, transforming how marketing, sales, and product teams work together to drive revenue. Traditional methods, reliant on CRM tools and email marketing, are facing challenges due to decreased deliverability and oversaturation. To succeed, marketers must adopt a &amp;ldquo;speed to market&amp;rdquo; approach, utilizing new AI-powered tools for efficient workflow automation. This shift emphasizes the importance of identifying the right intent signals for effective&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing GIST: The next stage in smart sampling</title>
+      <link>/articles/article-2026-01-23-14824/</link>
+      <pubDate>Fri, 23 Jan 2026 17:46:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14824/</guid>
+      <description>🚀 Introducing GIST: a groundbreaking algorithm designed for smart data sampling! GIST offers a solution for selecting high-quality data subsets that maximize both diversity and utility. This is crucial as modern machine learning requires handling vast datasets efficiently. The algorithm balances two key objectives: ensuring selected data points are diverse and useful for training accurate models. GIST has shown superior performance in tasks like image classification, backed by mathematical&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes 1.35 features that change Day 2 operations</title>
@@ -100,6 +114,13 @@
       <description>🚀 Discover how to simplify your architecture migrations with the Docker MCP Toolkit and Arm MCP Server! This collaboration between Docker and Arm focuses on automating the shift from x86 to ARM64. Organizations can achieve significant cost savings and improved performance using AWS Graviton, Azure Cobalt, and Google Cloud Axion. The Docker MCP Toolkit enables seamless migration by automating compatibility analysis, conversion, and performance predictions—all through GitHub Copilot in VS Code&amp;hellip;.</description>
     </item>
     <item>
+      <title>Route leak incident on January 22, 2026</title>
+      <link>/articles/article-2026-01-23-14822/</link>
+      <pubDate>Fri, 23 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14822/</guid>
+      <description>🚨 On January 22, 2026, a configuration error led to an unintended leak of Border Gateway Protocol (BGP) prefixes from our Miami data center. This incident affected Cloudflare customers and other external parties, causing traffic congestion and increased latency for about 25 minutes. We apologize for any disruptions this caused. We are taking steps to ensure this does not happen again. For more on route leaks, you can check our Cloudflare Radar. #BGP #Cloudflare #NetworkSecurity #IncidentReport</description>
+    </item>
+    <item>
       <title>Exposed 1.0 Is Now Available</title>
       <link>/articles/article-2026-01-23-14804/</link>
       <pubDate>Fri, 23 Jan 2026 13:07:20 +0000</pubDate>
@@ -112,6 +133,20 @@
       <pubDate>Fri, 23 Jan 2026 13:00:38 +0000</pubDate>
       <guid>/articles/article-2026-01-23-14795/</guid>
       <description>Struggling with Docker logs? 🐳 Troubleshooting can be tough, especially with many containers. A solution is Dozzle, an open-source web-based log viewer. It offers real-time monitoring, supports various log formats, and has a user-friendly interface. Deployment is straightforward on any machine running Docker. For a step-by-step guide on installation and setup, check out the full article! #Docker #DevOps #Troubleshooting #OpenSource #Dozzle</description>
+    </item>
+    <item>
+      <title>Configure build machine settings across all projects</title>
+      <link>/articles/article-2026-01-23-14816/</link>
+      <pubDate>Fri, 23 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14816/</guid>
+      <description>🚀 Build and deployment settings can now be adjusted at the team level, allowing for consistent configurations across all projects. Choose from various build machine options to optimize performance: - Standard: 4 vCPUs, 8 GB RAM - Enhanced: 8 vCPUs, 16 GB RAM - Turbo: 30 vCPUs, 60 GB RAM Control parallel builds with On-Demand Concurrent Builds for efficient resource management. Get started with these team-level settings today! #BuildSettings #ProjectManagement #DevOps #TeamEfficiency&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Faster deploys with improved function caching</title>
+      <link>/articles/article-2026-01-23-14817/</link>
+      <pubDate>Fri, 23 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14817/</guid>
+      <description>🚀 Vercel has introduced a new optimization that skips function uploads when the code remains unchanged. This change reduces build times by 400-600ms on average and can save up to 5 seconds for larger builds. 🌟 Deployment-specific environment variables are now injected at runtime, allowing for more efficient deployments without additional configuration. This update applies to Vercel Functions and will soon benefit Next.js projects as well. #Vercel #WebDevelopment #Optimizations #BuildTimes&amp;hellip;</description>
     </item>
     <item>
       <title>AI can 10x developers...in creating tech debt</title>
@@ -156,11 +191,32 @@
       <description>Unlock the potential of exclusive communities! 🌐 The article explores how to build membership sites using Webflow CMS combined with Memberstack. This integration allows creators to manage memberships effectively and engage their audience. Discover how to create a seamless experience for your community today! 💡 #Webflow #Memberstack #MembershipSite #CreatorCommunity #WebDevelopment</description>
     </item>
     <item>
+      <title>Build SaaS marketing sites in Webflow using Figma design systems</title>
+      <link>/articles/article-2026-01-23-14818/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14818/</guid>
+      <description>Transform your SaaS marketing site by integrating Figma design systems with Webflow! 🌐 The article outlines how to effectively sync design tokens, components, and CSS variables for a seamless workflow. This process allows for a more cohesive design experience. Unlock the potential of your designs and streamline your site development! 💻✨ #SaaS #Webflow #Figma #DesignSystems #WebDevelopment</description>
+    </item>
+    <item>
+      <title>FastAPI Best Practices</title>
+      <link>/articles/article-2026-01-23-14820/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14820/</guid>
+      <description>Unlock the potential of FastAPI with essential best practices! 🚀 This article explores architectural patterns and testing strategies to transform a simple script into a scalable FastAPI application. It highlights the framework&amp;rsquo;s rise due to its ease of use and powerful features. Understanding REST API design and correct HTTP verbs is crucial for consistency and usability. For developers ready to elevate their skills, check out the official documentation and advanced security examples! 🔍💻&amp;hellip;</description>
+    </item>
+    <item>
       <title>Integrate Shopify Storefront APIs with Webflow CMS to Build Scalable Content-Driven Commerce Sites</title>
       <link>/articles/article-2026-01-23-14807/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-23-14807/</guid>
       <description>Unlock the potential of your e-commerce business! This article discusses how to integrate Shopify&amp;rsquo;s Storefront APIs with Webflow&amp;rsquo;s CMS. This combination allows for the creation of scalable, content-rich shopping experiences through a headless architecture. Learn how to unify Shopify&amp;rsquo;s commerce capabilities with Webflow&amp;rsquo;s visual tools for high-performance sites. #Ecommerce #Shopify #Webflow #ContentMarketing #HeadlessCommerce 🛍️💻📈</description>
+    </item>
+    <item>
+      <title>Metronome &#43; Stripe: Building the future of billing</title>
+      <link>/articles/article-2026-01-23-14823/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14823/</guid>
+      <description>🚀 Exciting news in billing solutions! Stripe has acquired Metronome, enhancing its capabilities in usage-based billing. This partnership aims to create a comprehensive billing solution for businesses of all sizes, from startups to global enterprises. With this integration, Stripe will now support complex billing models, allowing companies to innovate in pricing and monetization. #BillingSolutions #Stripe #Metronome #Innovation #BusinessGrowth 🌟</description>
     </item>
     <item>
       <title>What’s the first security tool your small business should buy?</title>

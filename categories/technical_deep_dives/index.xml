@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jan 2026 22:22:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 08:01:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise multi-cluster scalability with OpenShift Dev Spaces</title>
+      <link>/articles/article-2026-01-23-14794/</link>
+      <pubDate>Fri, 23 Jan 2026 08:01:06 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14794/</guid>
+      <description>Red Hat OpenShift Dev Spaces is designed for single-cluster use, but it can operate in multi-cluster environments. By deploying instances in each cluster and using load balancers or DNS routing, organizations can enhance performance and reliability. 🌐 The devspaces-multicluster-redirector is an open-source routing service that directs users to the correct Dev Spaces instance based on their OpenShift group membership. This allows for efficient management of multiple instances, ensuring users&amp;hellip;</description>
+    </item>
     <item>
       <title>Overcoming Compute and Memory Bottlenecks with FlashAttention-4 on NVIDIA Blackwell</title>
       <link>/articles/article-2026-01-22-14784/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 15:46:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 19:00:44 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Async Rust: Pinning demystified</title>
+      <link>/articles/article-2026-01-26-14869/</link>
+      <pubDate>Mon, 26 Jan 2026 19:00:44 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14869/</guid>
+      <description>Async Rust is a complex topic, and the latest article, &amp;ldquo;Pinning Demystified,&amp;rdquo; dives into its intricacies. It highlights how Rust&amp;rsquo;s async engine uses a unique &amp;ldquo;pull-based&amp;rdquo; model, transforming async functions into lazy state machines. A key focus is on the concept of Pin, which prevents issues with moving self-referential structs during execution. Understanding Pin is crucial for maintaining safety in async Rust, especially with references that could become invalid if moved. This article is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building AI Agents in Kotlin – Part 5: Teaching Agents to Forget</title>
+      <link>/articles/article-2026-01-26-14874/</link>
+      <pubDate>Mon, 26 Jan 2026 16:09:12 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14874/</guid>
+      <description>In Part 5 of &amp;ldquo;Building AI Agents in Kotlin,&amp;rdquo; the focus shifts to teaching AI agents to forget. Agents can run out of context, leading to task failures and data loss. The article discusses the performance of GPT-5 Codex and Claude Sonnet 4.5, noting their strengths and limitations in handling complex tasks. 🧠 A key solution proposed is smart compression, which retains essential context while dropping unnecessary details. This approach mimics how developers hand off tasks without overwhelming&amp;hellip;</description>
+    </item>
     <item>
       <title>Nomad on OpenShift: The case for the control plane</title>
       <link>/articles/article-2026-01-26-14854/</link>

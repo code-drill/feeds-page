@@ -6,8 +6,36 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 16:00:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 19:00:56 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI DevOps vs. SRE agents: Compare AI incident response tools</title>
+      <link>/articles/article-2026-01-26-14868/</link>
+      <pubDate>Mon, 26 Jan 2026 19:00:56 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14868/</guid>
+      <description>AI agents are transforming incident response in operations. Major players like AWS and Microsoft are entering the space, alongside numerous startups. These tools help ops teams manage complex microservices architectures by diagnosing issues quickly, correlating data from various sources, and even proposing fixes. They integrate with observability tools and CI/CD pipelines to streamline the process. Key distinctions exist between AI DevOps engineers and AI SRE agents, primarily in their&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Async Rust: Pinning demystified</title>
+      <link>/articles/article-2026-01-26-14869/</link>
+      <pubDate>Mon, 26 Jan 2026 19:00:44 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14869/</guid>
+      <description>Async Rust is a complex topic, and the latest article, &amp;ldquo;Pinning Demystified,&amp;rdquo; dives into its intricacies. It highlights how Rust&amp;rsquo;s async engine uses a unique &amp;ldquo;pull-based&amp;rdquo; model, transforming async functions into lazy state machines. A key focus is on the concept of Pin, which prevents issues with moving self-referential structs during execution. Understanding Pin is crucial for maintaining safety in async Rust, especially with references that could become invalid if moved. This article is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic extends MCP with a UI framework</title>
+      <link>/articles/article-2026-01-26-14870/</link>
+      <pubDate>Mon, 26 Jan 2026 18:00:53 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14870/</guid>
+      <description>🌐 Anthropic has enhanced its MCP protocol, enabling AI models to interact with third-party applications more effectively. This new extension allows for an app-like experience within chat interfaces, benefiting both users and developers. Notably, support is already available in platforms like Goose and Visual Studio Code, with ChatGPT to follow soon. 🤝 Early partners include Amplitude, Asana, Box, and Slack, facilitating features such as document previews and message drafting directly within&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cisco is using eBPF to rethink firewalls, vulnerability mitigation</title>
+      <link>/articles/article-2026-01-26-14871/</link>
+      <pubDate>Mon, 26 Jan 2026 17:00:02 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14871/</guid>
+      <description>Cisco is advancing its network security by leveraging eBPF technology through its acquisition of Isovalent in 2024. Isovalent&amp;rsquo;s Cilium enhances Kubernetes environments by replacing IP tables with efficient in-kernel traffic routing. Their Tetragon platform enables seamless vulnerability mitigation in Cisco&amp;rsquo;s smart switches. This integration allows for faster patching and improved security without halting operations. eBPF is shaping a new approach to firewalling, moving away from traditional&amp;hellip;</description>
+    </item>
     <item>
       <title>How open standards enable zero trust on commodity hardware</title>
       <link>/articles/article-2026-01-26-14851/</link>

@@ -23,6 +23,13 @@
       <description>🚨 Security Alert for React &amp;amp; Next.js Users! 🚨 Recent vulnerabilities, like React2Shell, highlight risks in cloud native applications. Attackers can exploit small oversights and assumptions, leading to serious threats. Key points to consider: - &lt;strong&gt;React2Shell&lt;/strong&gt; affects server-side rendering (SSR) and allows server-side code execution. - Exploitation can lead to access to sensitive data and internal systems. - Client-side validation is not sufficient for server-side rendered applications. Stay&amp;hellip;</description>
     </item>
     <item>
+      <title>Security Update: DoS vulnerability in Next.js and React Server Components</title>
+      <link>/articles/article-2026-01-26-14875/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14875/</guid>
+      <description>🚨 &lt;strong&gt;Security Alert&lt;/strong&gt;: A denial-of-service (DoS) vulnerability (CVE-2026-23864) has been identified in React Server Components, impacting Next.js and other frameworks. This can lead to memory exhaustion and excessive CPU usage. Netlify users are minimally affected due to autoscaling architecture, but increased function costs could occur from exploitation. ⚙️ Affected frameworks include Next.js, React Router 7, Waku, and others. Users are urged to upgrade to patched versions as soon as&amp;hellip;</description>
+    </item>
+    <item>
       <title>Making the Most of Your Docker Hardened Images Enterprise Trial – Part 2</title>
       <link>/articles/article-2026-01-24-14836/</link>
       <pubDate>Sat, 24 Jan 2026 20:24:39 +0000</pubDate>

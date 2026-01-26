@@ -6,8 +6,15 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Update: DoS vulnerability in Next.js and React Server Components</title>
+      <link>/articles/article-2026-01-26-14875/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14875/</guid>
+      <description>🚨 &lt;strong&gt;Security Alert&lt;/strong&gt;: A denial-of-service (DoS) vulnerability (CVE-2026-23864) has been identified in React Server Components, impacting Next.js and other frameworks. This can lead to memory exhaustion and excessive CPU usage. Netlify users are minimally affected due to autoscaling architecture, but increased function costs could occur from exploitation. ⚙️ Affected frameworks include Next.js, React Router 7, Waku, and others. Users are urged to upgrade to patched versions as soon as&amp;hellip;</description>
+    </item>
     <item>
       <title>Security Update: Multiple vulnerabilities in React Router and Remix</title>
       <link>/articles/article-2026-01-19-14676/</link>

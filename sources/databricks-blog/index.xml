@@ -13,7 +13,7 @@
       <link>/articles/article-2026-01-26-14862/</link>
       <pubDate>Mon, 26 Jan 2026 15:30:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14862/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/scaling-small-llms-nvidia-mps&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Small language models are becoming increasingly effective for various enterprise applications. However, many GPUs remain underutilized during high-demand tasks. NVIDIA&amp;rsquo;s Multi-Process Service (MPS) allows multiple inference processes to share a GPU, optimizing memory and compute operations. Testing has shown that MPS can significantly improve throughput for smaller models, especially those with short context lengths. This development highlights the importance of efficient GPU utilization in&amp;hellip;</description>
     </item>
     <item>
       <title>Announcing first-class support of Iceberg format in Databricks Delta Sharing</title>

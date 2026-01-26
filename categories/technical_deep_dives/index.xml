@@ -16,6 +16,20 @@
       <description>🌐 Managing workloads at the edge has posed challenges for organizations, often forcing them to choose between Kubernetes or separate infrastructure. 🔍 Red Hat&amp;rsquo;s recent OpenStack release introduces a new approach by deploying the control plane as Operator-managed containers on OpenShift while the data plane stays on external RHEL nodes. ⚙️ HashiCorp Nomad complements this by effectively managing lightweight edge devices, ensuring seamless operation even in intermittent connectivity scenarios&amp;hellip;.</description>
     </item>
     <item>
+      <title>Scaling Small LLMs with NVIDIA MPS</title>
+      <link>/articles/article-2026-01-26-14862/</link>
+      <pubDate>Mon, 26 Jan 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14862/</guid>
+      <description>Small language models are becoming increasingly effective for various enterprise applications. However, many GPUs remain underutilized during high-demand tasks. NVIDIA&amp;rsquo;s Multi-Process Service (MPS) allows multiple inference processes to share a GPU, optimizing memory and compute operations. Testing has shown that MPS can significantly improve throughput for smaller models, especially those with short context lengths. This development highlights the importance of efficient GPU utilization in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A simulation and evaluation flywheel to develop LLM chatbots at scale</title>
+      <link>/articles/article-2026-01-26-14864/</link>
+      <pubDate>Mon, 26 Jan 2026 14:52:09 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14864/</guid>
+      <description>🚀 Exciting developments at DoorDash Support! To enhance customer and Dasher experience, we&amp;rsquo;re transitioning from traditional decision trees to large language models (LLMs) for issue resolution. LLMs offer more flexibility and human-like interactions but introduce challenges in testing due to their non-deterministic nature. To address this, we&amp;rsquo;ve created a simulation and evaluation flywheel. This system includes an offline simulator that mimics real customer interactions, allowing us to test&amp;hellip;</description>
+    </item>
+    <item>
       <title>Understanding the recommender system&#39;s two-tower model</title>
       <link>/articles/article-2026-01-26-14856/</link>
       <pubDate>Mon, 26 Jan 2026 14:23:26 +0000</pubDate>

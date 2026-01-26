@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 16:00:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 16:25:46 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Weekly Roundup: Amazon EC2 G7e instances with NVIDIA Blackwell GPUs (January 26, 2026)</title>
+      <link>/articles/article-2026-01-26-14867/</link>
+      <pubDate>Mon, 26 Jan 2026 16:25:46 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14867/</guid>
+      <description>🚀 This week&amp;rsquo;s AWS updates include the launch of Amazon EC2 G7e instances featuring NVIDIA Blackwell GPUs, enhancing GPU-intensive workloads. These instances offer up to 2.3 times better inference performance than G6e, with support for medium-sized AI models. 🎉 Additional updates include security enhancements for Amazon Corretto, cross-repository sharing in Amazon ECR, and expanded CloudWatch Database Insights in new regions. Check out the latest features in Amazon Connect for dynamic guided&amp;hellip;</description>
+    </item>
     <item>
       <title>How open standards enable zero trust on commodity hardware</title>
       <link>/articles/article-2026-01-26-14851/</link>
@@ -27,7 +34,7 @@
       <link>/articles/article-2026-01-26-14862/</link>
       <pubDate>Mon, 26 Jan 2026 15:30:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14862/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/scaling-small-llms-nvidia-mps&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Small language models are becoming increasingly effective for various enterprise applications. However, many GPUs remain underutilized during high-demand tasks. NVIDIA&amp;rsquo;s Multi-Process Service (MPS) allows multiple inference processes to share a GPU, optimizing memory and compute operations. Testing has shown that MPS can significantly improve throughput for smaller models, especially those with short context lengths. This development highlights the importance of efficient GPU utilization in&amp;hellip;</description>
     </item>
     <item>
       <title>A security checklist for your React and Next.js apps</title>
@@ -37,11 +44,25 @@
       <description>🚨 Security Alert for React &amp;amp; Next.js Users! 🚨 Recent vulnerabilities, like React2Shell, highlight risks in cloud native applications. Attackers can exploit small oversights and assumptions, leading to serious threats. Key points to consider: - &lt;strong&gt;React2Shell&lt;/strong&gt; affects server-side rendering (SSR) and allows server-side code execution. - Exploitation can lead to access to sensitive data and internal systems. - Client-side validation is not sufficient for server-side rendered applications. Stay&amp;hellip;</description>
     </item>
     <item>
+      <title>Stack Gives Back 2025!</title>
+      <link>/articles/article-2026-01-26-14866/</link>
+      <pubDate>Mon, 26 Jan 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14866/</guid>
+      <description>🌟 Exciting news from Stack Overflow! Our 17th annual Stack Gives Back campaign has concluded. In 2025, we donated $49,300 to seven charities, with each $100 donation made on behalf of our moderators. The distribution was based on community votes. This year, we included new organizations like the International Fund for Animal Welfare and the Internet Archive, alongside returning favorites like Doctors Without Borders. Learn more about the charities and how funds were allocated. #StackGivesBack&amp;hellip;</description>
+    </item>
+    <item>
       <title>**NVIDIA Earth-2 Open Models Span the Whole Weather Stack**</title>
       <link>/articles/article-2026-01-26-14861/</link>
       <pubDate>Mon, 26 Jan 2026 14:53:45 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14861/</guid>
       <description>🚀 NVIDIA has launched three new open-source models under the Earth-2 initiative, enhancing weather forecasting capabilities. These models cover various tasks including data assimilation and forecasting. Developers can utilize Earth2Studio and Physics Nemo to build and train their own simulations. Earth-2 offers a flexible platform for customized weather and climate predictions. #NVIDIA #WeatherForecasting #OpenSource #ClimateTech #AI</description>
+    </item>
+    <item>
+      <title>A simulation and evaluation flywheel to develop LLM chatbots at scale</title>
+      <link>/articles/article-2026-01-26-14864/</link>
+      <pubDate>Mon, 26 Jan 2026 14:52:09 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14864/</guid>
+      <description>🚀 Exciting developments at DoorDash Support! To enhance customer and Dasher experience, we&amp;rsquo;re transitioning from traditional decision trees to large language models (LLMs) for issue resolution. LLMs offer more flexibility and human-like interactions but introduce challenges in testing due to their non-deterministic nature. To address this, we&amp;rsquo;ve created a simulation and evaluation flywheel. This system includes an offline simulator that mimics real customer interactions, allowing us to test&amp;hellip;</description>
     </item>
     <item>
       <title>Understanding the recommender system&#39;s two-tower model</title>
@@ -63,6 +84,13 @@
       <pubDate>Mon, 26 Jan 2026 14:00:06 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14853/</guid>
       <description>Nvidia is transforming weather forecasting by making it accessible without the need for supercomputers. They launched two open-source models: Earth-2 Medium Range and Earth-2 Nowcasting. These aim to improve forecasting accuracy, crucial for sectors like agriculture, aviation, and energy. 🌍🌦️ Nvidia&amp;rsquo;s shift to transformer architectures signals a simpler, scalable approach to AI in weather prediction. This advancement is part of their Earth-2 initiative, enhancing the way we understand and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cable cuts, storms, and DNS: a look at Internet disruptions in Q4 2025</title>
+      <link>/articles/article-2026-01-26-14865/</link>
+      <pubDate>Mon, 26 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14865/</guid>
+      <description>In Q4 2025, Internet connectivity faced over 180 disruptions due to various factors. 🌍 Notable incidents included multiple cable cuts affecting several countries and disruptions caused by extreme weather and power outages. The ongoing conflict in Ukraine also impacted connectivity. In Tanzania, a government-directed Internet shutdown occurred during presidential elections, lasting over 26 hours. For detailed data, visit the Cloudflare Radar Outage Center. 📊 #InternetDisruptions #Q42025&amp;hellip;</description>
     </item>
     <item>
       <title>How to Unlock Local Detail in Coarse Climate Projections with NVIDIA Earth-2</title>
@@ -146,7 +174,7 @@
       <link>/articles/article-2026-01-26-14860/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14860/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/google-ads-integration&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news for Webflow users! Google Ads is now integrated with Webflow, enabling faster campaign launches and smarter optimization. This AI-driven tool helps businesses reach audiences across Google Search, YouTube, and more. Take advantage of this feature to enhance your marketing strategy! #GoogleAds #Webflow #DigitalMarketing #AI #BusinessGrowth</description>
     </item>
     <item>
       <title>Agentic AI meets integration: The next frontier</title>

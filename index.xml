@@ -6,14 +6,84 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 13:11:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 16:00:35 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How open standards enable zero trust on commodity hardware</title>
+      <link>/articles/article-2026-01-26-14851/</link>
+      <pubDate>Mon, 26 Jan 2026 16:00:35 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14851/</guid>
+      <description>Confidential computing aims to protect sensitive data during processing, addressing gaps where data is exposed to infrastructure. Challenges in adoption stem from the need for specialized hardware, limiting accessibility for many enterprises. However, open source developments are paving the way for workload identity solutions, enabling zero trust architectures without new hardware. Key terms include SPIFFE, which standardizes workload identity and attestation, allowing secure communication&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Nomad on OpenShift: The case for the control plane</title>
+      <link>/articles/article-2026-01-26-14854/</link>
+      <pubDate>Mon, 26 Jan 2026 15:46:05 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14854/</guid>
+      <description>🌐 Managing workloads at the edge has posed challenges for organizations, often forcing them to choose between Kubernetes or separate infrastructure. 🔍 Red Hat&amp;rsquo;s recent OpenStack release introduces a new approach by deploying the control plane as Operator-managed containers on OpenShift while the data plane stays on external RHEL nodes. ⚙️ HashiCorp Nomad complements this by effectively managing lightweight edge devices, ensuring seamless operation even in intermittent connectivity scenarios&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Scaling Small LLMs with NVIDIA MPS</title>
+      <link>/articles/article-2026-01-26-14862/</link>
+      <pubDate>Mon, 26 Jan 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14862/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/scaling-small-llms-nvidia-mps&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A security checklist for your React and Next.js apps</title>
+      <link>/articles/article-2026-01-26-14852/</link>
+      <pubDate>Mon, 26 Jan 2026 15:00:40 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14852/</guid>
+      <description>🚨 Security Alert for React &amp;amp; Next.js Users! 🚨 Recent vulnerabilities, like React2Shell, highlight risks in cloud native applications. Attackers can exploit small oversights and assumptions, leading to serious threats. Key points to consider: - &lt;strong&gt;React2Shell&lt;/strong&gt; affects server-side rendering (SSR) and allows server-side code execution. - Exploitation can lead to access to sensitive data and internal systems. - Client-side validation is not sufficient for server-side rendered applications. Stay&amp;hellip;</description>
+    </item>
+    <item>
+      <title>**NVIDIA Earth-2 Open Models Span the Whole Weather Stack**</title>
+      <link>/articles/article-2026-01-26-14861/</link>
+      <pubDate>Mon, 26 Jan 2026 14:53:45 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14861/</guid>
+      <description>🚀 NVIDIA has launched three new open-source models under the Earth-2 initiative, enhancing weather forecasting capabilities. These models cover various tasks including data assimilation and forecasting. Developers can utilize Earth2Studio and Physics Nemo to build and train their own simulations. Earth-2 offers a flexible platform for customized weather and climate predictions. #NVIDIA #WeatherForecasting #OpenSource #ClimateTech #AI</description>
+    </item>
+    <item>
+      <title>Understanding the recommender system&#39;s two-tower model</title>
+      <link>/articles/article-2026-01-26-14856/</link>
+      <pubDate>Mon, 26 Jan 2026 14:23:26 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14856/</guid>
+      <description>🚀 Dive into the architecture of the recommender system&amp;rsquo;s two-tower model with Red Hat OpenShift AI! This model simplifies the training pipeline by integrating with KFP and workflow managers like Argo Workflows. Key tasks include loading data, training models, and generating recommendations efficiently. Learn more about how engineers can optimize data sharing and pipeline performance. #AI #MachineLearning #RedHat #RecommenderSystems #OpenShiftAI</description>
+    </item>
+    <item>
+      <title>AI quickstart: Self-service agent for IT process automation</title>
+      <link>/articles/article-2026-01-26-14857/</link>
+      <pubDate>Mon, 26 Jan 2026 14:06:08 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14857/</guid>
+      <description>🚀 Discover Red Hat&amp;rsquo;s AI quickstarts! These ready-to-run solutions simplify AI deployment on open-source infrastructure. The self-service agent quickstart focuses on automating IT processes using agentic AI on Red Hat OpenShift AI. The series will cover integrations with tools like Slack and ServiceNow, ensuring a smooth transition to production. 🔗 Learn more about our framework and how it can be adapted for various IT workflows! #RedHatAI #ITAutomation #OpenSource #TechInnovation #AIQuickstart</description>
+    </item>
+    <item>
+      <title>Nvidia makes AI weather forecasting more accessible, no supercomputer needed</title>
+      <link>/articles/article-2026-01-26-14853/</link>
+      <pubDate>Mon, 26 Jan 2026 14:00:06 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14853/</guid>
+      <description>Nvidia is transforming weather forecasting by making it accessible without the need for supercomputers. They launched two open-source models: Earth-2 Medium Range and Earth-2 Nowcasting. These aim to improve forecasting accuracy, crucial for sectors like agriculture, aviation, and energy. 🌍🌦️ Nvidia&amp;rsquo;s shift to transformer architectures signals a simpler, scalable approach to AI in weather prediction. This advancement is part of their Earth-2 initiative, enhancing the way we understand and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Unlock Local Detail in Coarse Climate Projections with NVIDIA Earth-2</title>
+      <link>/articles/article-2026-01-26-14858/</link>
+      <pubDate>Mon, 26 Jan 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14858/</guid>
+      <description>Unlocking local climate details is crucial for accurate risk assessment. 🌍 NVIDIA Earth-2 offers tools to downscale coarse climate projections into high-resolution data. This process reveals local extremes like hurricanes, which are often overlooked. The platform uses the CorrDiff model to enhance climate data transformations efficiently. 📊 Learn how leading organizations are applying this technology for better climate insights. #ClimateScience #NVIDIA #RiskAssessment #AI #ClimateChange</description>
+    </item>
     <item>
       <title>Run Claude Code Locally with Docker Model Runner</title>
       <link>/articles/article-2026-01-26-14850/</link>
       <pubDate>Mon, 26 Jan 2026 13:11:59 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14850/</guid>
       <description>🚀 Explore how to run Claude Code locally using Docker Model Runner! This article details the setup process, allowing you to maintain control over your data and costs. Claude Code, Anthropic&amp;rsquo;s coding tool, enhances your coding efficiency by managing tasks and explaining code through natural language. 🔧 The integration is straightforward, enabling seamless use of custom API endpoints. For installation, follow simple commands for macOS, Linux, or Windows PowerShell. #ClaudeCode&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How We Made Variable Inspections 87 Times Faster for Unreal Engine in Rider</title>
+      <link>/articles/article-2026-01-26-14859/</link>
+      <pubDate>Mon, 26 Jan 2026 13:08:53 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14859/</guid>
+      <description>🚀 Exciting updates for Unreal Engine users! Rider&amp;rsquo;s debugger has seen a major upgrade with the expression evaluator being rewritten. Variable inspection is now up to 87 times faster on warm runs and 16 times faster on cold runs. Memory usage has also decreased significantly. These improvements are available in Rider 2026.1 EAP 1. Check it out today! #UnrealEngine #Rider #Debugging #GameDevelopment #TechUpdate</description>
     </item>
     <item>
       <title>Redefining Partnership: Cisco 360 Partner Program Goes Live</title>
@@ -58,11 +128,25 @@
       <description>🔍 The Red Hat Security Data API offers an effective way to access CVE data for Red Hat products. This guide explains how to use curl and jq to retrieve and format this data easily. 📊 Users can fetch and structure CVE information in both readable text and CSV formats, enhancing data analysis. The API supports various filters for date, severity, and specific CVEs, making it adaptable for diverse security tasks. 💻 For implementation, ensure curl and jq are installed on your system. The guide&amp;hellip;</description>
     </item>
     <item>
+      <title>9 reasons to choose Sketch in 2026</title>
+      <link>/articles/article-2026-01-26-14855/</link>
+      <pubDate>Mon, 26 Jan 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14855/</guid>
+      <description>🚀 Thinking of a new design tool in 2026? Check out Sketch! 🖥️ Sketch has undergone a major redesign, enhancing usability for designers. Features like a new Inspector and focus mode elevate the design experience. 💡 Expect robust tools like Stacks, frames, and unique additions like a minimap for navigation. 🤝 Enjoy the flexibility to collaborate in real-time or work offline, plus connect with AI tools for enhanced functionality. Explore more at sketch.com/features! #DesignTools #Sketch2026&amp;hellip;</description>
+    </item>
+    <item>
       <title>Guide to multi-homed inventory management with Red Hat Ansible Automation Platform</title>
       <link>/articles/article-2026-01-26-14843/</link>
       <pubDate>Mon, 26 Jan 2026 03:01:06 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14843/</guid>
       <description>🚀 In enterprise IT, managing multi-homed servers can be challenging. The Red Hat Ansible Automation Platform (AAP) offers a solution by treating a fully-qualified domain name (FQDN) as the &amp;ldquo;identity&amp;rdquo; for streamlined inventory management. 📊 By structuring your inventory to reduce duplication, AAP allows for effective automation while maintaining a single host count. This approach simplifies network management and enhances reporting accuracy. 🔧 The article discusses using variables for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Google Ads for Webflow: The AI-driven way to grow smarter and faster</title>
+      <link>/articles/article-2026-01-26-14860/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14860/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/google-ads-integration&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agentic AI meets integration: The next frontier</title>
@@ -182,6 +266,13 @@
       <pubDate>Fri, 23 Jan 2026 17:00:12 +0000</pubDate>
       <guid>/articles/article-2026-01-23-14814/</guid>
       <description>Kubernetes 1.35 introduces key features enhancing Day 2 operations for containerized applications. 🌟 The standout update is in-place pod resource updates, allowing seamless resizing of CPU and memory without pod restarts. This aids in managing stateful services and minimizing disruptions for AI/ML workloads. Additionally, the fine-grained supplemental group control enhances security by managing Unix group permissions for containers more effectively. 🔒 Explore these advancements for improved&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform MCP server updates: Stacks support, new tools, and tips</title>
+      <link>/articles/article-2026-01-23-14633/</link>
+      <pubDate>Fri, 23 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-23-14633/</guid>
+      <description>🚀 Exciting updates are here for the Terraform MCP server! Version 0.4 introduces new features aimed at enhancing DevOps efficiency. Key updates include support for Terraform Stacks and streamlined policy management tools. 🔒 For users facing strict data sovereignty or limited internet access, our MCP server enables AI automation in air-gapped environments, ensuring compliance and security. Discover how these improvements can optimize your workflow while keeping your infrastructure secure&amp;hellip;.</description>
     </item>
     <item>
       <title>Developer proves AI agents can be reprogrammed via new exploit</title>

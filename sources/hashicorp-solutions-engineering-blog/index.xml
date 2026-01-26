@@ -6,8 +6,15 @@
     <description>Recent content in HashiCorp-Solutions-Engineering-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 09:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 15:46:05 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-solutions-engineering-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nomad on OpenShift: The case for the control plane</title>
+      <link>/articles/article-2026-01-26-14854/</link>
+      <pubDate>Mon, 26 Jan 2026 15:46:05 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14854/</guid>
+      <description>🌐 Managing workloads at the edge has posed challenges for organizations, often forcing them to choose between Kubernetes or separate infrastructure. 🔍 Red Hat&amp;rsquo;s recent OpenStack release introduces a new approach by deploying the control plane as Operator-managed containers on OpenShift while the data plane stays on external RHEL nodes. ⚙️ HashiCorp Nomad complements this by effectively managing lightweight edge devices, ensuring seamless operation even in intermittent connectivity scenarios&amp;hellip;.</description>
+    </item>
     <item>
       <title>HCP Vault DNS forwarding to on-premises DNS servers in hybrid cloud environments</title>
       <link>/articles/article-2026-01-19-14652/</link>

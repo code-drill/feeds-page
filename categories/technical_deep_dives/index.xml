@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 17:46:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 15:46:05 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nomad on OpenShift: The case for the control plane</title>
+      <link>/articles/article-2026-01-26-14854/</link>
+      <pubDate>Mon, 26 Jan 2026 15:46:05 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14854/</guid>
+      <description>🌐 Managing workloads at the edge has posed challenges for organizations, often forcing them to choose between Kubernetes or separate infrastructure. 🔍 Red Hat&amp;rsquo;s recent OpenStack release introduces a new approach by deploying the control plane as Operator-managed containers on OpenShift while the data plane stays on external RHEL nodes. ⚙️ HashiCorp Nomad complements this by effectively managing lightweight edge devices, ensuring seamless operation even in intermittent connectivity scenarios&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Understanding the recommender system&#39;s two-tower model</title>
+      <link>/articles/article-2026-01-26-14856/</link>
+      <pubDate>Mon, 26 Jan 2026 14:23:26 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14856/</guid>
+      <description>🚀 Dive into the architecture of the recommender system&amp;rsquo;s two-tower model with Red Hat OpenShift AI! This model simplifies the training pipeline by integrating with KFP and workflow managers like Argo Workflows. Key tasks include loading data, training models, and generating recommendations efficiently. Learn more about how engineers can optimize data sharing and pipeline performance. #AI #MachineLearning #RedHat #RecommenderSystems #OpenShiftAI</description>
+    </item>
+    <item>
+      <title>How We Made Variable Inspections 87 Times Faster for Unreal Engine in Rider</title>
+      <link>/articles/article-2026-01-26-14859/</link>
+      <pubDate>Mon, 26 Jan 2026 13:08:53 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14859/</guid>
+      <description>🚀 Exciting updates for Unreal Engine users! Rider&amp;rsquo;s debugger has seen a major upgrade with the expression evaluator being rewritten. Variable inspection is now up to 87 times faster on warm runs and 16 times faster on cold runs. Memory usage has also decreased significantly. These improvements are available in Rider 2026.1 EAP 1. Check it out today! #UnrealEngine #Rider #Debugging #GameDevelopment #TechUpdate</description>
+    </item>
     <item>
       <title>Introducing GIST: The next stage in smart sampling</title>
       <link>/articles/article-2026-01-23-14824/</link>

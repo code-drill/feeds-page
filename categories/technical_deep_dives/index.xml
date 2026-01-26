@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 19:00:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 19:01:27 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Evolution of Graph Search at Netflix</title>
+      <link>/articles/article-2026-01-26-14882/</link>
+      <pubDate>Mon, 26 Jan 2026 19:01:27 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14882/</guid>
+      <description>🔍 Netflix is evolving its Graph Search platform by integrating AI to enhance search capabilities. Natural language processing is now being used, allowing users to query in everyday language instead of complex structured queries. This shift aims to improve user experience and reduce friction in retrieving information. The first part of a three-part series details how Netflix is implementing and refining this AI-driven approach. Stay tuned for more updates! 🚀 #Netflix #AI #GraphSearch&amp;hellip;</description>
+    </item>
     <item>
       <title>Async Rust: Pinning demystified</title>
       <link>/articles/article-2026-01-26-14869/</link>
       <pubDate>Mon, 26 Jan 2026 19:00:44 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14869/</guid>
       <description>Async Rust is a complex topic, and the latest article, &amp;ldquo;Pinning Demystified,&amp;rdquo; dives into its intricacies. It highlights how Rust&amp;rsquo;s async engine uses a unique &amp;ldquo;pull-based&amp;rdquo; model, transforming async functions into lazy state machines. A key focus is on the concept of Pin, which prevents issues with moving self-referential structs during execution. Understanding Pin is crucial for maintaining safety in async Rust, especially with references that could become invalid if moved. This article is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How resilient is HCP Vault during real AWS regional outages?</title>
+      <link>/articles/article-2026-01-26-14881/</link>
+      <pubDate>Mon, 26 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14881/</guid>
+      <description>On October 20, 2025, AWS us-east-1 faced significant disruptions. However, HCP Vault Dedicated showcased its resilience, maintaining 100% uptime for customer clusters during this event. 🌐🔒 While the control plane experienced some issues, the data plane continued to operate seamlessly. This incident validated our architectural design principles and highlighted the effectiveness of our operational procedures. We aim to share insights on building resilient cloud-native services. 💡📊&amp;hellip;</description>
     </item>
     <item>
       <title>Building AI Agents in Kotlin – Part 5: Teaching Agents to Forget</title>

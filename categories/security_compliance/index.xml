@@ -23,6 +23,20 @@
       <description>🚨 Security Alert for React &amp;amp; Next.js Users! 🚨 Recent vulnerabilities, like React2Shell, highlight risks in cloud native applications. Attackers can exploit small oversights and assumptions, leading to serious threats. Key points to consider: - &lt;strong&gt;React2Shell&lt;/strong&gt; affects server-side rendering (SSR) and allows server-side code execution. - Exploitation can lead to access to sensitive data and internal systems. - Client-side validation is not sufficient for server-side rendered applications. Stay&amp;hellip;</description>
     </item>
     <item>
+      <title>Summaries of CVE-2025-59471 and CVE-2025-59472</title>
+      <link>/articles/article-2026-01-26-14877/</link>
+      <pubDate>Mon, 26 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14877/</guid>
+      <description>Two medium-severity denial-of-service vulnerabilities, CVE-2025-59471 and CVE-2025-59472, have been identified in self-hosted Next.js applications. 🛠️ These vulnerabilities can lead to server crashes through memory exhaustion but do not allow data exposure or privilege escalation. Applications on Vercel&amp;rsquo;s platform remain unaffected. 🌐 CVE-2025-59471 impacts the Image Optimizer, while CVE-2025-59472 affects Partial Pre-Rendering in minimal mode. Immediate upgrades or specific workarounds are&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Summary of CVE-2026-23864</title>
+      <link>/articles/article-2026-01-26-14878/</link>
+      <pubDate>Mon, 26 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14878/</guid>
+      <description>🚨 Multiple high-severity vulnerabilities in React Server Components have been disclosed. These do not allow for Remote Code Execution but can lead to denial of service issues. Affected versions include 19.0.x, 19.1.x, and 19.2.x. Users are urged to upgrade to patched versions promptly. Vercel has implemented new rules to enhance protection. 🔗 Stay safe and informed! #React #CyberSecurity #Vulnerability #SoftwareUpdate #TechNews</description>
+    </item>
+    <item>
       <title>Security Update: DoS vulnerability in Next.js and React Server Components</title>
       <link>/articles/article-2026-01-26-14875/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>

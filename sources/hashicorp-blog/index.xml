@@ -6,8 +6,15 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How resilient is HCP Vault during real AWS regional outages?</title>
+      <link>/articles/article-2026-01-26-14881/</link>
+      <pubDate>Mon, 26 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14881/</guid>
+      <description>On October 20, 2025, AWS us-east-1 faced significant disruptions. However, HCP Vault Dedicated showcased its resilience, maintaining 100% uptime for customer clusters during this event. 🌐🔒 While the control plane experienced some issues, the data plane continued to operate seamlessly. This incident validated our architectural design principles and highlighted the effectiveness of our operational procedures. We aim to share insights on building resilient cloud-native services. 💡📊&amp;hellip;</description>
+    </item>
     <item>
       <title>Terraform MCP server updates: Stacks support, new tools, and tips</title>
       <link>/articles/article-2026-01-23-14633/</link>

@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 19:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 19:01:27 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Evolution of Graph Search at Netflix</title>
+      <link>/articles/article-2026-01-26-14882/</link>
+      <pubDate>Mon, 26 Jan 2026 19:01:27 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14882/</guid>
+      <description>🔍 Netflix is evolving its Graph Search platform by integrating AI to enhance search capabilities. Natural language processing is now being used, allowing users to query in everyday language instead of complex structured queries. This shift aims to improve user experience and reduce friction in retrieving information. The first part of a three-part series details how Netflix is implementing and refining this AI-driven approach. Stay tuned for more updates! 🚀 #Netflix #AI #GraphSearch&amp;hellip;</description>
+    </item>
     <item>
       <title>AI DevOps vs. SRE agents: Compare AI incident response tools</title>
       <link>/articles/article-2026-01-26-14868/</link>
@@ -49,6 +56,13 @@
       <pubDate>Mon, 26 Jan 2026 17:00:02 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14871/</guid>
       <description>Cisco is advancing its network security by leveraging eBPF technology through its acquisition of Isovalent in 2024. Isovalent&amp;rsquo;s Cilium enhances Kubernetes environments by replacing IP tables with efficient in-kernel traffic routing. Their Tetragon platform enables seamless vulnerability mitigation in Cisco&amp;rsquo;s smart switches. This integration allows for faster patching and improved security without halting operations. eBPF is shaping a new approach to firewalling, moving away from traditional&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How resilient is HCP Vault during real AWS regional outages?</title>
+      <link>/articles/article-2026-01-26-14881/</link>
+      <pubDate>Mon, 26 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14881/</guid>
+      <description>On October 20, 2025, AWS us-east-1 faced significant disruptions. However, HCP Vault Dedicated showcased its resilience, maintaining 100% uptime for customer clusters during this event. 🌐🔒 While the control plane experienced some issues, the data plane continued to operate seamlessly. This incident validated our architectural design principles and highlighted the effectiveness of our operational procedures. We aim to share insights on building resilient cloud-native services. 💡📊&amp;hellip;</description>
     </item>
     <item>
       <title>AWS Weekly Roundup: Amazon EC2 G7e instances with NVIDIA Blackwell GPUs (January 26, 2026)</title>
@@ -181,14 +195,14 @@
       <link>/articles/article-2026-01-26-14877/</link>
       <pubDate>Mon, 26 Jan 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14877/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/summaries-of-cve-2025-59471-and-cve-2025-59472&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Two medium-severity denial-of-service vulnerabilities, CVE-2025-59471 and CVE-2025-59472, have been identified in self-hosted Next.js applications. 🛠️ These vulnerabilities can lead to server crashes through memory exhaustion but do not allow data exposure or privilege escalation. Applications on Vercel&amp;rsquo;s platform remain unaffected. 🌐 CVE-2025-59471 impacts the Image Optimizer, while CVE-2025-59472 affects Partial Pre-Rendering in minimal mode. Immediate upgrades or specific workarounds are&amp;hellip;</description>
     </item>
     <item>
       <title>Summary of CVE-2026-23864</title>
       <link>/articles/article-2026-01-26-14878/</link>
       <pubDate>Mon, 26 Jan 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14878/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/summary-of-cve-2026-23864&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚨 Multiple high-severity vulnerabilities in React Server Components have been disclosed. These do not allow for Remote Code Execution but can lead to denial of service issues. Affected versions include 19.0.x, 19.1.x, and 19.2.x. Users are urged to upgrade to patched versions promptly. Vercel has implemented new rules to enhance protection. 🔗 Stay safe and informed! #React #CyberSecurity #Vulnerability #SoftwareUpdate #TechNews</description>
     </item>
     <item>
       <title>Privacy and Data Governance — Keys to Innovation and Trust in the AI Era</title>
@@ -258,7 +272,7 @@
       <link>/articles/article-2026-01-26-14879/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-26-14879/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/the-next-era-of-the-webflow-community&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🌐 The Webflow Community is evolving! The latest updates highlight new community spaces, innovative programs, and increased funding opportunities. These changes aim to enhance collaboration and support among members. Stay tuned for exciting developments that will strengthen connections and foster creativity! #Webflow #Community #Innovation #Collaboration #Funding</description>
     </item>
     <item>
       <title>Agentic AI meets integration: The next frontier</title>

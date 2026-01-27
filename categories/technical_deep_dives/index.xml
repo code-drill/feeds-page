@@ -51,6 +51,13 @@
       <description>Async Rust is a complex topic, and the latest article, &amp;ldquo;Pinning Demystified,&amp;rdquo; dives into its intricacies. It highlights how Rust&amp;rsquo;s async engine uses a unique &amp;ldquo;pull-based&amp;rdquo; model, transforming async functions into lazy state machines. A key focus is on the concept of Pin, which prevents issues with moving self-referential structs during execution. Understanding Pin is crucial for maintaining safety in async Rust, especially with references that could become invalid if moved. This article is&amp;hellip;</description>
     </item>
     <item>
+      <title>How Rovo solves search challenges through entity linking</title>
+      <link>/articles/article-2026-01-26-14934/</link>
+      <pubDate>Mon, 26 Jan 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-26-14934/</guid>
+      <description>Atlassian&amp;rsquo;s article reveals how Rovo enhances search efficiency through entity linking. By transforming unstructured text into structured knowledge, Rovo improves tools like Rovo Chat and Search. This is achieved through Entity Linking, which connects textual mentions to specific records in the Knowledge Graph. The article discusses the challenges of linking team names, highlighting issues like inconsistency in naming conventions and operational noise. These challenges are crucial for&amp;hellip;</description>
+    </item>
+    <item>
       <title>How resilient is HCP Vault during real AWS regional outages?</title>
       <link>/articles/article-2026-01-26-14881/</link>
       <pubDate>Mon, 26 Jan 2026 17:00:00 +0000</pubDate>

@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 03:01:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 07:01:20 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So you need more than port 80: Exposing custom ports in Kubernetes</title>
+      <link>/articles/article-2026-01-28-14947/</link>
+      <pubDate>Wed, 28 Jan 2026 07:01:20 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14947/</guid>
+      <description>🚀 In Kubernetes, developers often seek to expose custom ports beyond the usual HTTP/HTTPS. This includes ports for databases, SSH, and real-time applications. 🔧 The article explains how to create services supporting these nonstandard ports and expose them outside the cluster. Key service types like ClusterIP and LoadBalancer are highlighted for managing traffic effectively. 🌐 Learn about the role of MetalLB for on-premise setups and cloud deployments to facilitate external load balancing. For&amp;hellip;</description>
+    </item>
     <item>
       <title>A guide to AI code assistants with Red Hat OpenShift Dev Spaces</title>
       <link>/articles/article-2026-01-28-14940/</link>

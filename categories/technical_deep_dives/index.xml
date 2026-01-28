@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 03:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 16:28:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding Up Variable-Length Training with Dynamic Context Parallelism and NVIDIA Megatron Core</title>
+      <link>/articles/article-2026-01-28-14959/</link>
+      <pubDate>Wed, 28 Jan 2026 16:28:06 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14959/</guid>
+      <description>🚀 Introducing Dynamic Context Parallelism (Dynamic-CP) in NVIDIA Megatron Core! This innovative scheduling method enhances LLM post-training and DiT pre-training by adapting CP size per microbatch. It efficiently addresses the challenge of variable-length sequences, achieving up to 1.48x speedup on real-world datasets. 📈 Large-scale model training often struggles with sequence-length variability, impacting resource use. Dynamic-CP optimizes performance by managing these variations&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Agoda’s secret to 50x scale: Getting the database basics right</title>
+      <link>/articles/article-2026-01-28-14953/</link>
+      <pubDate>Wed, 28 Jan 2026 15:00:48 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14953/</guid>
+      <description>Agoda, part of Booking Holdings, is experiencing rapid growth, with server traffic increasing 50 times from January 2023 to February 2025. 📈 To manage this scale, the engineering team faced challenges in maintaining low latency on their ScyllaDB-backed feature store. They addressed unpredictable traffic patterns and potential database flooding. Worakarn Isaratham shared insights at the Monster Scale Summit on how they navigated these engineering hurdles. The feature store plays a crucial role&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we turned OpenShift installation into a smart chatbot-driven experience</title>
+      <link>/articles/article-2026-01-28-14958/</link>
+      <pubDate>Wed, 28 Jan 2026 13:56:30 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14958/</guid>
+      <description>Red Hat has transformed OpenShift installation by integrating AI into a conversational agent, simplifying the deployment process. This initiative began as an internal experiment, evolving into a tool that understands user intent and automates cluster installations. Key challenges included maintaining persistent memory and ensuring security during the interaction. Users can now engage directly with the assistant for a smoother experience, making complex installations more accessible. 💻🤖🔧✨&amp;hellip;</description>
+    </item>
     <item>
       <title>Performance and load testing in Identity Management (IdM) systems using encrypted DNS (eDNS)</title>
       <link>/articles/article-2026-01-28-14941/</link>

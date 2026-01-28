@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 16:28:06 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding Up Variable-Length Training with Dynamic Context Parallelism and NVIDIA Megatron Core</title>
+      <link>/articles/article-2026-01-28-14959/</link>
+      <pubDate>Wed, 28 Jan 2026 16:28:06 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14959/</guid>
+      <description>🚀 Introducing Dynamic Context Parallelism (Dynamic-CP) in NVIDIA Megatron Core! This innovative scheduling method enhances LLM post-training and DiT pre-training by adapting CP size per microbatch. It efficiently addresses the challenge of variable-length sequences, achieving up to 1.48x speedup on real-world datasets. 📈 Large-scale model training often struggles with sequence-length variability, impacting resource use. Dynamic-CP optimizes performance by managing these variations&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Updating Classifier Evasion for Vision Language Models</title>
+      <link>/articles/article-2026-01-28-14960/</link>
+      <pubDate>Wed, 28 Jan 2026 16:19:12 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14960/</guid>
+      <description>Advancements in AI are enhancing vision language models (VLMs), allowing them to process both text and images simultaneously. 🖼️📚 These models enable applications like interpreting graphs and processing camera feeds, broadening functionality in various systems. However, with this new capability comes potential security risks from untrusted image sources. 🔒 The article explores historical attack methods and how they apply to modern VLMs, aiding developers in understanding threats and&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Diffusion Models with an Open, Plug-and-Play Offering</title>
       <link>/articles/article-2026-01-27-14923/</link>

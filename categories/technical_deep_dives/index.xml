@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 03:01:13 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance and load testing in Identity Management (IdM) systems using encrypted DNS (eDNS)</title>
+      <link>/articles/article-2026-01-28-14941/</link>
+      <pubDate>Wed, 28 Jan 2026 03:01:13 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14941/</guid>
+      <description>🔍 The first part of a two-part series explores performance testing in Identity Management (IdM) systems using encrypted DNS (eDNS). The study examines how IdM functions under high load with over 1,000 DNS requests per second, comparing traditional DNS over UDP and TCP with DNS over TLS (DoT). Key findings detail metrics like queries per second (QPS), latency, and resource use, with results visualized using Prometheus and Grafana. The article emphasizes the impact of encryption on performance&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Diffusion Models with an Open, Plug-and-Play Offering</title>
       <link>/articles/article-2026-01-27-14923/</link>

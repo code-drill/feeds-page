@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 14:26:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 03:01:16 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A guide to AI code assistants with Red Hat OpenShift Dev Spaces</title>
+      <link>/articles/article-2026-01-28-14940/</link>
+      <pubDate>Wed, 28 Jan 2026 03:01:16 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14940/</guid>
+      <description>🚀 AI code assistants are transforming development by aiding in writing, editing, and debugging code. These tools utilize large language models (LLMs) trained on extensive codebases to enhance productivity significantly. 🔍 Red Hat OpenShift Dev Spaces offers a robust cloud development environment that allows developers to work remotely with VS Code or Jetbrains IDEs. Key features include environment as code and quick onboarding, reducing common configuration issues. 🔒 When integrating AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Performance and load testing in Identity Management (IdM) systems using encrypted DNS (eDNS)</title>
+      <link>/articles/article-2026-01-28-14941/</link>
+      <pubDate>Wed, 28 Jan 2026 03:01:13 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14941/</guid>
+      <description>🔍 The first part of a two-part series explores performance testing in Identity Management (IdM) systems using encrypted DNS (eDNS). The study examines how IdM functions under high load with over 1,000 DNS requests per second, comparing traditional DNS over UDP and TCP with DNS over TLS (DoT). Key findings detail metrics like queries per second (QPS), latency, and resource use, with results visualized using Prometheus and Grafana. The article emphasizes the impact of encryption on performance&amp;hellip;</description>
+    </item>
     <item>
       <title>Migrate BuildConfig resources to Builds for Red Hat OpenShift with Crane</title>
       <link>/articles/article-2026-01-27-14910/</link>

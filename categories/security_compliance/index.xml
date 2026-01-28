@@ -6,8 +6,22 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 16:19:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 18:30:42 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes telemetry feature fully compromises clusters</title>
+      <link>/articles/article-2026-01-28-14971/</link>
+      <pubDate>Wed, 28 Jan 2026 18:30:42 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14971/</guid>
+      <description>Kubernetes admins face a significant challenge with a newly discovered vulnerability. 🔍 Security researcher Graham Helton revealed that users with read-only permissions can execute arbitrary commands on any pod in a cluster. This issue arises from the nodes/proxy GET resource used by monitoring tools, which grants access to privileged commands. Helton&amp;rsquo;s findings show that 69 tools rely on this permission, which is considered intended behavior, not a bug. The recommended solution is to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The top 5 sources of secret sprawl, and how attackers exploit them</title>
+      <link>/articles/article-2026-01-28-14979/</link>
+      <pubDate>Wed, 28 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14979/</guid>
+      <description>🔍 Exposed secrets contribute to nearly 30% of data breaches, costing organizations an average of $4.45 million. Secret sprawl is a growing security risk that needs attention. 💻 The article highlights five common sources where secrets can leak, including collaboration tools and code repositories. Attackers often exploit these areas, leading to unauthorized access and potential breaches. 🔑 Understanding where secrets hide and how to detect them is crucial for improving security measures. By&amp;hellip;</description>
+    </item>
     <item>
       <title>Updating Classifier Evasion for Vision Language Models</title>
       <link>/articles/article-2026-01-28-14960/</link>

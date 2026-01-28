@@ -30,6 +30,20 @@
       <description>Kubernetes admins face a significant challenge with a newly discovered vulnerability. 🔍 Security researcher Graham Helton revealed that users with read-only permissions can execute arbitrary commands on any pod in a cluster. This issue arises from the nodes/proxy GET resource used by monitoring tools, which grants access to privileged commands. Helton&amp;rsquo;s findings show that 69 tools rely on this permission, which is considered intended behavior, not a bug. The recommended solution is to&amp;hellip;</description>
     </item>
     <item>
+      <title>Diagnosing instability in production-scale agent reinforcement learning</title>
+      <link>/articles/article-2026-01-28-14984/</link>
+      <pubDate>Wed, 28 Jan 2026 18:07:38 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14984/</guid>
+      <description>🚀 Hugging Face has integrated the Post-Training Toolkit into TRL, enhancing diagnostics for production-scale reinforcement learning (RL) systems. This integration allows for better monitoring and control in long-running agent systems. It helps identify late-phase instability that can develop gradually, often going unnoticed until recovery options are limited. 📈 The article discusses a specific issue with tool-using agents trained using on-policy methods, revealing that traditional metrics can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>My Journey to Airbnb: Peter Coles</title>
+      <link>/articles/article-2026-01-28-14983/</link>
+      <pubDate>Wed, 28 Jan 2026 18:04:20 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14983/</guid>
+      <description>Meet Peter Coles, Airbnb&amp;rsquo;s Head Economist for Policy and Director of Data Science. His journey spans from public school in Milwaukee to earning a PhD at Stanford, and teaching at Harvard. Peter&amp;rsquo;s passion for marketplaces began early, and he&amp;rsquo;s applied his academic insights to real-world data at Airbnb. He has led initiatives to understand short-term rentals and their impact on communities. 🌍📊 From collaborating with academic researchers to innovating within the tech space, Peter emphasizes the&amp;hellip;</description>
+    </item>
+    <item>
       <title>With Auto Browse, Google Chrome can now surf the web for you</title>
       <link>/articles/article-2026-01-28-14972/</link>
       <pubDate>Wed, 28 Jan 2026 18:00:55 +0000</pubDate>
@@ -41,7 +55,7 @@
       <link>/articles/article-2026-01-28-14981/</link>
       <pubDate>Wed, 28 Jan 2026 18:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-28-14981/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://dropbox.tech/feed&#34;&gt;Dropbox Tech Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dropbox.tech/machine-learning/vp-josh-clemm-knowledge-graphs-mcp-and-dspy-dash&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Engineering VP Josh Clemm recently shared insights on Dropbox&amp;rsquo;s use of knowledge graphs, MCP, and DSPy during a session in Jason Liu’s RAG course on Maven. He discussed how Dropbox Dash integrates with third-party apps, allowing users to easily search and manage their content. For a deeper understanding, check out the full video on Maven! #DropboxDash #KnowledgeGraphs #TechInnovation #MavenCourse #AI</description>
     </item>
     <item>
       <title>A decade of werf, a software delivery tool for Kubernetes</title>
@@ -62,7 +76,7 @@
       <link>/articles/article-2026-01-28-14982/</link>
       <pubDate>Wed, 28 Jan 2026 17:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-28-14982/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://github.blog/engineering/feed/&#34;&gt;GitHub Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>GitHub recently shared insights on the engineering behind the animated ASCII banner for Copilot CLI. 🖥️ The team faced unique challenges due to varied terminal behaviors and accessibility standards. This complicated the project, requiring over 6,000 lines of TypeScript to ensure compatibility across different environments. The result? A playful animated mascot that showcases the complexity of engineering in the CLI space. 🚀 Explore Copilot CLI’s agentic workflows, which enhance productivity&amp;hellip;</description>
     </item>
     <item>
       <title>The top 5 sources of secret sprawl, and how attackers exploit them</title>

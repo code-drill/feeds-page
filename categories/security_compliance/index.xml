@@ -16,6 +16,13 @@
       <description>Kubernetes admins face a significant challenge with a newly discovered vulnerability. 🔍 Security researcher Graham Helton revealed that users with read-only permissions can execute arbitrary commands on any pod in a cluster. This issue arises from the nodes/proxy GET resource used by monitoring tools, which grants access to privileged commands. Helton&amp;rsquo;s findings show that 69 tools rely on this permission, which is considered intended behavior, not a bug. The recommended solution is to&amp;hellip;</description>
     </item>
     <item>
+      <title>Securing Moltbot: A Developer&#39;s Checklist for AI Agent Security</title>
+      <link>/articles/article-2026-01-28-14986/</link>
+      <pubDate>Wed, 28 Jan 2026 17:19:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-14986/</guid>
+      <description>🚀 Moltbot, formerly known as Clawdbot, is revolutionizing AI with its ability to interact directly with local systems. However, this capability brings new security concerns. If compromised, it could expose sensitive information like SSH keys and personal data. To mitigate risks, developers should adopt a five-step security checklist, starting with enabling the sandbox mode. Stay informed and secure! 🔒👨‍💻 #AI #Moltbot #CyberSecurity #TechNews #DeveloperTips</description>
+    </item>
+    <item>
       <title>The top 5 sources of secret sprawl, and how attackers exploit them</title>
       <link>/articles/article-2026-01-28-14979/</link>
       <pubDate>Wed, 28 Jan 2026 17:00:00 +0000</pubDate>

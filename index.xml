@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 19:42:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 21:32:05 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Deep Dive: How we Created a Security-hardened 1-Click Deploy Moltbot</title>
+      <link>/articles/article-2026-01-29-15032/</link>
+      <pubDate>Thu, 29 Jan 2026 21:32:05 +0000</pubDate>
+      <guid>/articles/article-2026-01-29-15032/</guid>
+      <description>🚀 DigitalOcean has launched a 1-Click Deploy Moltbot, an open-source AI assistant, designed for easy and secure use. With growing interest in Moltbot, we focused on enhancing security for users deploying this software. Key features include: - Consistent, stable deployments - Safe communication through TLS - Isolation of agent code for security The 1-Click Deploy Moltbot is now available in our Marketplace, making it simple to get started! 🔗 #DigitalOcean #Moltbot #OpenSource #CyberSecurity #AI</description>
+    </item>
+    <item>
+      <title>MCP and A2A: A Network Engineer’s Mental Model for Agentic AI</title>
+      <link>/articles/article-2026-01-29-15030/</link>
+      <pubDate>Thu, 29 Jan 2026 21:20:54 +0000</pubDate>
+      <guid>/articles/article-2026-01-29-15030/</guid>
+      <description>The Model Context Protocol (MCP) and Agent-to-Agent (A2A) have become significant in the field of agentic AI. MCP, released by Anthropic in November 2024, allows LLMs to interpret APIs through natural language, seeing rapid adoption. 📈 In contrast, Google’s A2A, introduced in April 2025, helps agents discover each other’s capabilities but has seen slower uptake. While both protocols are important, MCP is currently viewed as the standard in this space. Challenges exist with MCP, particularly&amp;hellip;</description>
+    </item>
     <item>
       <title>Gemini CLI gets its hooks into the agentic development loop</title>
       <link>/articles/article-2026-01-29-15019/</link>
@@ -44,11 +58,25 @@
       <description>Understanding LLM Customization: Prompting, RAG, &amp;amp; Fine-Tuning Many teams believe there&amp;rsquo;s a clear path from prompt engineering to fine-tuning in customizing large language models (LLMs). However, this linear progression is misleading. Each method—prompting, RAG, and fine-tuning—addresses different challenges and comes with unique limitations. They should not be viewed as upgrades. A six-dimensional framework can help evaluate LLM success, focusing on data privacy, latency, control, update&amp;hellip;</description>
     </item>
     <item>
+      <title>Building AI Search on Heroku</title>
+      <link>/articles/article-2026-01-29-15031/</link>
+      <pubDate>Thu, 29 Jan 2026 17:50:08 +0000</pubDate>
+      <guid>/articles/article-2026-01-29-15031/</guid>
+      <description>🚀 Building an AI Search on Heroku can streamline your RAG systems. Many developers face challenges when vector searches return irrelevant documents. This article discusses a two-stage retrieval system that improves accuracy by reranking documents based on their relevance to the query. It highlights the architecture, including indexing and query pipelines, and Heroku services that facilitate embedding, reranking, and answer generation. Learn how to enhance your AI search capabilities!&amp;hellip;</description>
+    </item>
+    <item>
       <title>Introducing NVIDIA Cosmos Policy for Advanced Robot Control</title>
       <link>/articles/article-2026-01-29-15027/</link>
       <pubDate>Thu, 29 Jan 2026 17:03:25 +0000</pubDate>
       <guid>/articles/article-2026-01-29-15027/</guid>
       <description>🚀 Exciting news from NVIDIA! They are expanding their Cosmos™ world foundation models to address challenges in robotics, autonomous vehicles, and industrial vision AI. The latest development, Cosmos Policy, focuses on enhancing robot control and planning using these advanced models. Stay tuned for more updates! 🤖🌐 #NVIDIA #Robotics #AI #AutonomousVehicles #Innovation</description>
+    </item>
+    <item>
+      <title>Scaling enterprise AI: lessons in governance and operating models from IBM</title>
+      <link>/articles/article-2026-01-29-15035/</link>
+      <pubDate>Thu, 29 Jan 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-29-15035/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://stackoverflow.blog/feed/&#34;&gt;Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.blog/2026/01/29/scaling-enterprise-ai-lessons-in-governance-and-operating-models-from-ibm/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introducing Rovo Think Deeper: Stronger reasoning, right when you need it</title>
@@ -268,6 +296,13 @@
       <description>Webflow&amp;rsquo;s Enterprise sites have transitioned to a new CMS architecture. This upgrade enhances content scale, offers richer data models, and provides increased design flexibility. These developments aim to improve user experience and capabilities for enterprise-level projects. 🌐📈💻 #Webflow #CMS #Enterprise #WebDesign #TechUpdate</description>
     </item>
     <item>
+      <title>Why partnerships matter: Ways GlobalLink collaborations simplify multilingual content delivery</title>
+      <link>/articles/article-2026-01-29-15034/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-29-15034/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/going-global-with-globallink&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Personal AI Agents like Moltbot Are a Security Nightmare</title>
       <link>/articles/article-2026-01-28-14989/</link>
       <pubDate>Wed, 28 Jan 2026 23:37:04 +0000</pubDate>
@@ -462,6 +497,13 @@
       <pubDate>Wed, 28 Jan 2026 13:56:30 +0000</pubDate>
       <guid>/articles/article-2026-01-28-14958/</guid>
       <description>Red Hat has transformed OpenShift installation by integrating AI into a conversational agent, simplifying the deployment process. This initiative began as an internal experiment, evolving into a tool that understands user intent and automates cluster installations. Key challenges included maintaining persistent memory and ensuring security during the interaction. Users can now engage directly with the assistant for a smoother experience, making complex installations more accessible. 💻🤖🔧✨&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Stripe built a game-changing app in a single flight with v0</title>
+      <link>/articles/article-2026-01-28-15033/</link>
+      <pubDate>Wed, 28 Jan 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-28-15033/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/blog/how-stripe-built-a-game-changing-app-in-a-single-flight-with-v0&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skew Protection now supports prebuilt deployments</title>

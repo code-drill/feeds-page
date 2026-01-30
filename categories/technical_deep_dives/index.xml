@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jan 2026 18:36:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 20:01:47 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton</title>
+      <link>/articles/article-2026-01-30-15090/</link>
+      <pubDate>Fri, 30 Jan 2026 20:01:47 +0000</pubDate>
+      <guid>/articles/article-2026-01-30-15090/</guid>
+      <description>NVIDIA is advancing GPU programming with the integration of CUDA Tile as a backend for OpenAI Triton. This development targets portability for NVIDIA Tensor Cores, enhancing GPU performance. CUDA Tile allows developers to express computations at a higher abstraction level by working with data blocks (tiles). This reduces programming complexity and enables better compiler optimizations. The Triton-to-TileIR backend connects Triton with CUDA Tile IR, allowing developers to compile GPU kernels&amp;hellip;</description>
+    </item>
     <item>
       <title>Technical Deep Dive: How we Created a Security-hardened 1-Click Deploy OpenClaw</title>
       <link>/articles/article-2026-01-30-15061/</link>

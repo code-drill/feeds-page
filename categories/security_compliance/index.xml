@@ -16,6 +16,20 @@
       <description>AI coding agents enhance developer productivity by automating tasks and facilitating test-driven development. However, they pose security risks due to indirect prompt injection from malicious sources. ⚠️ To mitigate these risks, the NVIDIA AI Red Team recommends several controls, including: - &lt;strong&gt;Network egress controls&lt;/strong&gt; to block unauthorized site access. - &lt;strong&gt;File write restrictions&lt;/strong&gt; to prevent unauthorized persistence and code execution. - &lt;strong&gt;Sandboxing techniques&lt;/strong&gt; to isolate development&amp;hellip;</description>
     </item>
     <item>
+      <title>How Agentic Tool Chain Attacks Threaten AI Agent Security</title>
+      <link>/articles/article-2026-01-30-15094/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-30-15094/</guid>
+      <description>AI agents are reshaping enterprise operations, but their flexibility introduces security risks known as agentic tool chain attacks. 🔍 These attacks target the reasoning layer where AI agents decide which tools to use. By manipulating language and context, attackers can cause agents to leak data or execute unauthorized actions. Centralized architectures, like the Model Context Protocol (MCP), can amplify these risks, as a compromised server may affect multiple agents. Types of attacks include&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Security advisory for AI-assisted browsing interactions with the 1Password browser extension</title>
+      <link>/articles/article-2026-01-30-15092/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-30-15092/</guid>
+      <description>🚨 &lt;strong&gt;Security Advisory for 1Password Users&lt;/strong&gt; 🚨 A new advisory highlights risks with AI-powered browsers interacting with the 1Password extension. AI agents can read untrusted content, posing potential security threats when the extension is unlocked. To enhance user control, users can now disable automatic sign-in and adjust lock settings. Confirmations for sensitive data are also recommended to ensure safe autofill actions. Stay secure and manage your settings wisely! 🔒💻 #1Password&amp;hellip;</description>
+    </item>
+    <item>
       <title>Cisco Foundation AI Advances Agentic Security Systems for the AI Era</title>
       <link>/articles/article-2026-01-29-15002/</link>
       <pubDate>Thu, 29 Jan 2026 13:00:04 +0000</pubDate>
@@ -105,6 +119,13 @@
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-01-27-14936/</guid>
       <description>🚀 Meet MoltBot, the open-source AI agent transforming how we interact with technology! In just an hour of setup, it built a fully functional kanban board and even made a restaurant reservation using AI voice software. Its ability to dynamically adapt and take action autonomously showcases its potential. However, this innovation raises security concerns, as its memory and configurations are stored in plain text. With powerful capabilities comes the need for careful management of access and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>It’s incredible. It’s terrifying. It’s OpenClaw.</title>
+      <link>/articles/article-2026-01-27-15093/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-01-27-15093/</guid>
+      <description>OpenClaw, a new open-source AI agent, is gaining attention in the tech community for its ability to autonomously perform tasks. Users have reported impressive feats, such as securing restaurant reservations without pre-programmed routines. However, there are concerns about security, as OpenClaw stores sensitive data in plain text, making it vulnerable to attacks. As the AI landscape evolves, the need for robust security measures becomes crucial. 1Password aims to bridge this gap by providing&amp;hellip;</description>
     </item>
     <item>
       <title>How open standards enable zero trust on commodity hardware</title>

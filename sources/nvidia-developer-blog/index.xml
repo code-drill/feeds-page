@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jan 2026 20:01:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 18:43:08 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel</title>
+      <link>/articles/article-2026-02-02-15126/</link>
+      <pubDate>Mon, 02 Feb 2026 18:43:08 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15126/</guid>
+      <description>Optimizing communication in mixture-of-experts (MoE) training is crucial for large language models (LLMs). The article introduces Hybrid-EP, a solution for improving Expert Parallel communication, particularly in NVIDIA&amp;rsquo;s Megatron frameworks. This addresses challenges like communication bottlenecks and load imbalances in models like DeepSeek-V3. The new approach enhances training efficiency by integrating advanced parallelism strategies and optimizing resource usage. 🔍💻✨ #MachineLearning&amp;hellip;</description>
+    </item>
     <item>
       <title>Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton</title>
       <link>/articles/article-2026-01-30-15090/</link>

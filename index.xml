@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 16:36:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 18:43:08 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel</title>
+      <link>/articles/article-2026-02-02-15126/</link>
+      <pubDate>Mon, 02 Feb 2026 18:43:08 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15126/</guid>
+      <description>Optimizing communication in mixture-of-experts (MoE) training is crucial for large language models (LLMs). The article introduces Hybrid-EP, a solution for improving Expert Parallel communication, particularly in NVIDIA&amp;rsquo;s Megatron frameworks. This addresses challenges like communication bottlenecks and load imbalances in models like DeepSeek-V3. The new approach enhances training efficiency by integrating advanced parallelism strategies and optimizing resource usage. 🔍💻✨ #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Weekly Roundup: Amazon Bedrock agent workflows, Amazon SageMaker private connectivity, and more (February 2, 2026)</title>
+      <link>/articles/article-2026-02-02-15132/</link>
+      <pubDate>Mon, 02 Feb 2026 17:19:48 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15132/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://aws.amazon.com/blogs/aws/feed/&#34;&gt;AWS Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agent-workflows-amazon-sagemaker-private-connectivity-and-more-february-2-2026/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beyond Two Towers: Re-architecting the Serving Stack for Next-Gen Ads Lightweight Ranking Models…</title>
+      <link>/articles/article-2026-02-02-15131/</link>
+      <pubDate>Mon, 02 Feb 2026 17:01:02 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15131/</guid>
+      <description>🚀 The article &amp;ldquo;Beyond Two Towers&amp;rdquo; discusses the evolution of ad ranking models from a traditional Two-Tower architecture to a more advanced GPU-based system. 📈 The shift aims to enhance recommendation quality by allowing deeper user-item interactions, overcoming limitations of the old model. 💡 Key optimizations include bundling features with models, moving business logic into the model, and rethinking data flow to minimize latency. Stay tuned for more insights on this innovative approach!&amp;hellip;</description>
+    </item>
     <item>
       <title>Beyond automation: Dynatrace unveils agentic AI that fixes problems on its own</title>
       <link>/articles/article-2026-02-02-15114/</link>
@@ -72,6 +93,13 @@
       <description>Enterprise leaders face increasing pressure to scale AI effectively, but achieving tangible returns remains challenging. The root issue often lies in technical debt, which stems from legacy systems and disconnected processes. To maximize AI’s potential, organizations must rethink their approach to technical debt, recognizing it as a business challenge rather than just an IT issue. A connected and resilient system is essential for reliable AI outcomes. Investing in trustworthy data workflows&amp;hellip;</description>
     </item>
     <item>
+      <title>Python 3.13 and 3.14 are now available</title>
+      <link>/articles/article-2026-02-02-15128/</link>
+      <pubDate>Mon, 02 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15128/</guid>
+      <description>🚀 Exciting news for developers! Python 3.13 and 3.14 are now supported alongside Python 3.12. For projects that haven&amp;rsquo;t specified a Python version, the default will change to Python 3.14 in the upcoming months. To continue with Python 3.12, set an upper bound in your project manifest. For further details, check out the Python documentation on Vercel. #Python #Vercel #Coding #Development #Programming</description>
+    </item>
+    <item>
       <title>S3 is the new network: Rethinking data architecture for the cloud era</title>
       <link>/articles/article-2026-02-02-15111/</link>
       <pubDate>Mon, 02 Feb 2026 12:00:16 +0000</pubDate>
@@ -100,6 +128,13 @@
       <description>NVIDIA has introduced NVFP4-quantized versions of large language models (LLMs), enhancing their deployment efficiency. This new 4-bit format significantly reduces memory requirements while maintaining near-baseline accuracy, particularly in larger models. The NVFP4 format combines the compactness of low-precision quantization with floating-point arithmetic, making it suitable for large-scale inference. Key findings show that accuracy recovery improves with model size, making NVFP4 ideal for&amp;hellip;</description>
     </item>
     <item>
+      <title>1Password and 60 Day Hustle: cybersecurity for small businesses</title>
+      <link>/articles/article-2026-02-02-15130/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15130/</guid>
+      <description>Small businesses face unique challenges in cybersecurity. To address this, 1Password has partnered with 60 Day Hustle to showcase how their enterprise password manager simplifies security for entrepreneurs. Season 2 highlights contestants using 1Password to maintain access control and protect sensitive information while navigating the demands of launching a business. As cyber incidents rise, effective password management is crucial. 1Password not only secures credentials but also enhances&amp;hellip;</description>
+    </item>
+    <item>
       <title>How Three Companies Secure AI with CrowdStrike</title>
       <link>/articles/article-2026-02-02-15120/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -114,6 +149,13 @@
       <description>🚀 At Yelp, we’ve developed a Back-Testing Engine to enhance our Ad Budget Allocation process. This tool simulates potential changes to our ad algorithms using historical campaign data, allowing us to preview impacts without affecting real budgets. Our system allocates daily budgets for numerous campaigns, adapting based on previous outcomes. This innovation helps us make safer, smarter decisions. #Yelp #AdTech #Innovation #MarketingStrategy #Budgeting</description>
     </item>
     <item>
+      <title>Moving away from Webflow’s legacy Editor</title>
+      <link>/articles/article-2026-02-02-15129/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15129/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/legacy-editor-deprecation&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Scaling Identity: Implementing CI/CD with the Terraform and GitHub Actions</title>
       <link>/articles/article-2026-02-02-15121/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -126,6 +168,13 @@
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-02-02-15119/</guid>
       <description>Organizations face challenges with unsanctioned SaaS and shadow IT as employees adopt new tools for productivity. This trend often occurs outside IT oversight, leading to security risks, wasted spending, and compliance issues. Shadow IT persists due to decentralized tool ownership and ineffective manual processes. 1Password SaaS Manager offers a solution by providing continuous visibility into SaaS usage, ensuring better governance and reduced risk. Learn more about optimizing your SaaS&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s new in Git 2.53.0?</title>
+      <link>/articles/article-2026-02-02-15127/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15127/</guid>
+      <description>🚀 Git 2.53.0 has been released with notable updates! One key enhancement is geometric repacking support for partial clones, improving performance while managing packfiles. This allows Git to better handle &amp;ldquo;promisor&amp;rdquo; packfiles, ensuring efficient backfilling of missing objects. Additionally, git-fast-import(1) introduces a new mode to preserve valid signatures during history rewrites. For more insights, check the official announcement! #Git #VersionControl #SoftwareDevelopment #OpenSource #GitLab</description>
     </item>
     <item>
       <title>Liya Linux proves high performance doesn’t require a command line</title>

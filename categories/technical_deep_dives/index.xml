@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 12:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 18:43:08 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel</title>
+      <link>/articles/article-2026-02-02-15126/</link>
+      <pubDate>Mon, 02 Feb 2026 18:43:08 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15126/</guid>
+      <description>Optimizing communication in mixture-of-experts (MoE) training is crucial for large language models (LLMs). The article introduces Hybrid-EP, a solution for improving Expert Parallel communication, particularly in NVIDIA&amp;rsquo;s Megatron frameworks. This addresses challenges like communication bottlenecks and load imbalances in models like DeepSeek-V3. The new approach enhances training efficiency by integrating advanced parallelism strategies and optimizing resource usage. 🔍💻✨ #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Beyond Two Towers: Re-architecting the Serving Stack for Next-Gen Ads Lightweight Ranking Models…</title>
+      <link>/articles/article-2026-02-02-15131/</link>
+      <pubDate>Mon, 02 Feb 2026 17:01:02 +0000</pubDate>
+      <guid>/articles/article-2026-02-02-15131/</guid>
+      <description>🚀 The article &amp;ldquo;Beyond Two Towers&amp;rdquo; discusses the evolution of ad ranking models from a traditional Two-Tower architecture to a more advanced GPU-based system. 📈 The shift aims to enhance recommendation quality by allowing deeper user-item interactions, overcoming limitations of the old model. 💡 Key optimizations include bundling features with models, moving business logic into the model, and rethinking data flow to minimize latency. Stay tuned for more insights on this innovative approach!&amp;hellip;</description>
+    </item>
     <item>
       <title>S3 is the new network: Rethinking data architecture for the cloud era</title>
       <link>/articles/article-2026-02-02-15111/</link>

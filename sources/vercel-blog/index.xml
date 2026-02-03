@@ -9,11 +9,39 @@
     <lastBuildDate>Tue, 03 Feb 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Copy visual context to agents from Vercel Toolbar</title>
+      <link>/articles/article-2026-02-03-15197/</link>
+      <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15197/</guid>
+      <description>🚀 Vercel Toolbar has introduced a new feature called &amp;ldquo;Copy for Agents.&amp;rdquo; This functionality allows teams to capture visual context from comments, giving coding agents the necessary technical details for addressing deployment feedback. Agents receive structured information, including page URL, viewport dimensions, selected text, and React component tree details. This streamlines the process of understanding issues in deployed applications. The feature is now available to all Vercel users&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Introducing the new v0</title>
       <link>/articles/article-2026-02-03-15162/</link>
       <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-02-03-15162/</guid>
       <description>🚀 Introducing the new v0! Since its launch in 2024, over 4 million users have turned ideas into apps with ease. This update enhances vibe coding for production applications, featuring enterprise-grade security and seamless integrations. However, vibe coding has led to shadow IT issues, making it crucial to address security flaws and streamline workflows. The revamped v0 allows teams to work directly on existing codebases, simplifying collaboration across roles. With features that promote&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Making agent-friendly pages with content negotiation</title>
+      <link>/articles/article-2026-02-03-15194/</link>
+      <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15194/</guid>
+      <description>Agents interact with the web differently than humans, needing clean, structured text without the extra markup. To address this, we&amp;rsquo;ve updated our blog and changelog pages to allow agents to access content in markdown format while still providing a full HTML experience for human readers. This is achieved through content negotiation, which tailors responses based on the client&amp;rsquo;s request. A markdown sitemap helps agents discover available content efficiently. Learn more about optimizing content&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Vercel OSS Bug Bounty program is now available</title>
+      <link>/articles/article-2026-02-03-15195/</link>
+      <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15195/</guid>
+      <description>🚨 Vercel has launched its Open Source Software (OSS) bug bounty program on HackerOne! This initiative invites security researchers to identify vulnerabilities in Vercel&amp;rsquo;s open-source projects, which are vital for countless applications. Since 2025, a private program has helped improve security through high-severity reports. 🔍 Key projects included are Next.js, Nuxt, SWR, and more. Researchers can submit findings via HackerOne, with the goal of enhancing safety for all users. Learn more about&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Turbo build machines by default for new Pro projects</title>
+      <link>/articles/article-2026-02-03-15196/</link>
+      <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15196/</guid>
+      <description>🚀 Turbo build machines are now the standard for new Pro projects and upgrades from Hobby plans. Since their introduction in October, these machines offer 30vCPUs and 60GB of memory, enhancing build performance significantly. Teams report build time reductions of up to 70%, depending on the duration of builds. Discover more in the documentation or customize your settings! #TurboBuild #ProProjects #BuildPerformance #TechUpdates #SoftwareDevelopment</description>
     </item>
     <item>
       <title>Workflow 4.1 Beta: Event-sourced architecture</title>

@@ -23,6 +23,13 @@
       <description>🚀 Large language models (LLMs) are pushing the boundaries with context windows reaching over 256K tokens. However, training these models brings computational challenges due to memory and communication overhead. 🔍 A recent study highlights how integrating NVSHMEM with the XLA compiler enhances context parallelism, yielding a 36% speedup for the Llama 3 8B model during long-context training. 📈 Context parallelism, particularly with ring attention, optimizes memory usage and communication&amp;hellip;</description>
     </item>
     <item>
+      <title>Making agent-friendly pages with content negotiation</title>
+      <link>/articles/article-2026-02-03-15194/</link>
+      <pubDate>Tue, 03 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15194/</guid>
+      <description>Agents interact with the web differently than humans, needing clean, structured text without the extra markup. To address this, we&amp;rsquo;ve updated our blog and changelog pages to allow agents to access content in markdown format while still providing a full HTML experience for human readers. This is achieved through content negotiation, which tailors responses based on the client&amp;rsquo;s request. A markdown sitemap helps agents discover available content efficiently. Learn more about optimizing content&amp;hellip;</description>
+    </item>
+    <item>
       <title>How Agentforce Enhanced Chat Built an Agent-first Chat Experience While Ensuring Easy Migration for 3,000&#43; Customers</title>
       <link>/articles/article-2026-02-03-15146/</link>
       <pubDate>Tue, 03 Feb 2026 01:49:46 +0000</pubDate>

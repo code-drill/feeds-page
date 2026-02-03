@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 18:43:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 17:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Long-Context Model Training in JAX and XLA</title>
+      <link>/articles/article-2026-02-03-15169/</link>
+      <pubDate>Tue, 03 Feb 2026 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-03-15169/</guid>
+      <description>🚀 Large language models (LLMs) are pushing the boundaries with context windows reaching over 256K tokens. However, training these models brings computational challenges due to memory and communication overhead. 🔍 A recent study highlights how integrating NVSHMEM with the XLA compiler enhances context parallelism, yielding a 36% speedup for the Llama 3 8B model during long-context training. 📈 Context parallelism, particularly with ring attention, optimizes memory usage and communication&amp;hellip;</description>
+    </item>
     <item>
       <title>Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel</title>
       <link>/articles/article-2026-02-02-15126/</link>

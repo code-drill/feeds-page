@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 15:25:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 17:01:02 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Next Generation DB Ingestion at Pinterest</title>
+      <link>/articles/article-2026-02-05-15323/</link>
+      <pubDate>Thu, 05 Feb 2026 17:01:02 +0000</pubDate>
+      <guid>/articles/article-2026-02-05-15323/</guid>
+      <description>🚀 Pinterest is redefining its database ingestion framework to meet growing demands for real-time data. The new system addresses significant challenges from legacy batch workflows, improving latency, efficiency, and compliance. Key enhancements include a unified CDC-based framework utilizing Kafka, Flink, and Spark, ensuring timely access to data changes. Stay tuned for more insights on automated schema evolution in the next installment! 📊🔍 #DataIngestion #PinterestEngineering #RealTimeData&amp;hellip;</description>
+    </item>
     <item>
       <title>Re-Architecting Enterprise Applications for an Agentic System of Action</title>
       <link>/articles/article-2026-02-05-15307/</link>
@@ -35,6 +42,13 @@
       <pubDate>Thu, 05 Feb 2026 14:00:00 +0000</pubDate>
       <guid>/articles/article-2026-02-05-15281/</guid>
       <description>Painkiller RTX demonstrates how small teams can leverage generative AI to enhance game assets efficiently. By upscaling thousands of legacy textures into high-quality materials, the team reduces repetitive tasks and allows creativity to flourish. Key insights from team members highlight the blend of automation with artistic judgment across 35 levels, showcasing a new production pipeline approach. This innovation opens doors for those without traditional modding backgrounds to focus on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advanced Web Shell Detection and Prevention: A Deep Dive into CrowdStrike&#39;s Linux Sensor Capabilities</title>
+      <link>/articles/article-2026-02-05-15319/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-05-15319/</guid>
+      <description>Web shells are a serious threat to Linux servers, allowing adversaries to gain remote access and evade detection for extended periods. 🛡️ CrowdStrike has enhanced its Falcon® sensor for Linux to better detect PHP web shells, including pre-existing and obfuscated versions. This includes the &amp;ldquo;On write script file visibility&amp;rdquo; feature, which identifies malicious scripts as they are created. 📈 In just three months, this feature helped detect 492 web shells, improving response capabilities for&amp;hellip;</description>
     </item>
     <item>
       <title>No Display? No Problem: Cross-Device Passkey Authentication for XR Devices</title>

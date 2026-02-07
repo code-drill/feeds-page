@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Feb 2026 16:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 18:00:37 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker versus Nix: The quest for true reproducibility</title>
+      <link>/articles/article-2026-02-07-15368/</link>
+      <pubDate>Sat, 07 Feb 2026 18:00:37 +0000</pubDate>
+      <guid>/articles/article-2026-02-07-15368/</guid>
+      <description>In the article &amp;ldquo;Docker versus Nix: The quest for true reproducibility,&amp;rdquo; the focus is on performance benchmarking in software development. Docker is praised for its ability to enable engineers to share applications, yet it faces challenges with reproducibility due to &amp;ldquo;configuration drift.&amp;rdquo; This makes accurate benchmarking difficult, especially for complex applications like ScyllaDB and Cassandra. Michael Stahnke emphasizes a key distinction: while Docker is reusable, it lacks true&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How WebAssembly and Web Workers prevent UI freezes</title>
+      <link>/articles/article-2026-02-07-15369/</link>
+      <pubDate>Sat, 07 Feb 2026 17:00:55 +0000</pubDate>
+      <guid>/articles/article-2026-02-07-15369/</guid>
+      <description>🚀 WebAssembly (Wasm) and Web Workers are key to preventing UI freezes in web applications. When heavy computations overload the JavaScript main thread, users experience unresponsive pages. By offloading these tasks to background threads, Wasm helps maintain smooth interactions. The article also includes a tutorial on building a high-performance Fibonacci calculator, demonstrating how to keep UIs functional during heavy processing. Explore how to enhance your web app&amp;rsquo;s responsiveness!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How GSD turns Claude into a self-steering developer</title>
+      <link>/articles/article-2026-02-07-15370/</link>
+      <pubDate>Sat, 07 Feb 2026 17:00:30 +0000</pubDate>
+      <guid>/articles/article-2026-02-07-15370/</guid>
+      <description>🚀 ClawdBot MoltBot OpenClaw has gained remarkable popularity as an open-source AI assistant that operates on your local machine. It connects with common apps like WhatsApp and Slack, aiming to enhance the user experience. However, security issues highlight the need for caution when experimenting with LLM agents. 🔒 The article also discusses the GSD extension for Claude, showcasing its capabilities in project planning and execution, particularly using SwiftUI. 📊 #AI #OpenSource #TechTrends&amp;hellip;</description>
+    </item>
     <item>
       <title>Memory-Safe Jule language emerges as C/C&#43;&#43; alternative</title>
       <link>/articles/article-2026-02-07-15367/</link>

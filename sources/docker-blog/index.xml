@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 23:25:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardened Images Are Free. Now What?</title>
+      <link>/articles/article-2026-02-10-15445/</link>
+      <pubDate>Tue, 10 Feb 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-10-15445/</guid>
+      <description>🚀 Docker has made its Hardened Images (DHI) free, covering Alpine, Debian, and over 1,000 other images, including databases and runtimes. This shift impacts container vulnerability management significantly. DHI includes security fixes from Docker&amp;rsquo;s team, allowing platform teams to quickly pull and redeploy patched images. However, teams must still manage vulnerabilities above the DHI boundary and adapt their security practices accordingly. DHI also enhances supply chain isolation, protecting&amp;hellip;</description>
+    </item>
     <item>
       <title>Reduce Vulnerability Noise with VEX: Wiz &#43; Docker Hardened Images</title>
       <link>/articles/article-2026-02-05-15333/</link>

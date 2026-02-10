@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 16:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 19:30:42 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The hunt for truly zero-CVE container images</title>
+      <link>/articles/article-2026-02-10-15446/</link>
+      <pubDate>Tue, 10 Feb 2026 19:30:42 +0000</pubDate>
+      <guid>/articles/article-2026-02-10-15446/</guid>
+      <description>Vendors are pursuing “zero-CVE” container images to enhance security, but face challenges due to the structural limits of traditional Linux distributions. Chainguard is leading the way with its Factory 2.0 software, enabling the direct rebuilding of containers from source code to ensure safety. Other options like Docker’s Hardened Images offer reduced attack surfaces but still depend on upstream distros like Debian or Alpine. The complexities of long dependency chains and slower release&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The RISC architecture frontier: Is eBPF ready for ARM64 and RISC-V?</title>
+      <link>/articles/article-2026-02-10-15447/</link>
+      <pubDate>Tue, 10 Feb 2026 19:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-02-10-15447/</guid>
+      <description>The article discusses the evolution of the Extended Berkeley Packet Filter (eBPF) in the realms of observability and security. eBPF has become essential for networking, enabling code distribution directly from the kernel across various applications and environments. Its adoption has expanded to ARM configurations, with ongoing developments for RISC-V and Mac M3 processors. Experts highlight that while eBPF was initially tailored for x86 systems, it is being tested in new environments,&amp;hellip;</description>
+    </item>
     <item>
       <title>GitHub’s former CEO launches a developer platform for the age of agentic coding</title>
       <link>/articles/article-2026-02-10-15434/</link>

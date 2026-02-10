@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 19:30:42 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The hunt for truly zero-CVE container images</title>
+      <link>/articles/article-2026-02-10-15446/</link>
+      <pubDate>Tue, 10 Feb 2026 19:30:42 +0000</pubDate>
+      <guid>/articles/article-2026-02-10-15446/</guid>
+      <description>Vendors are pursuing “zero-CVE” container images to enhance security, but face challenges due to the structural limits of traditional Linux distributions. Chainguard is leading the way with its Factory 2.0 software, enabling the direct rebuilding of containers from source code to ensure safety. Other options like Docker’s Hardened Images offer reduced attack surfaces but still depend on upstream distros like Debian or Alpine. The complexities of long dependency chains and slower release&amp;hellip;</description>
+    </item>
     <item>
       <title>Hardened Images Are Free. Now What?</title>
       <link>/articles/article-2026-02-10-15445/</link>

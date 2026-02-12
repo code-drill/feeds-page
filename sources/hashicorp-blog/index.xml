@@ -6,8 +6,15 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing modern workloads with HashiCorp Vault and WIF</title>
+      <link>/articles/article-2026-02-12-15545/</link>
+      <pubDate>Thu, 12 Feb 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-12-15545/</guid>
+      <description>🔒 Modern enterprises face challenges with static credentials and perimeter-based security in cloud-native environments. HashiCorp Vault, paired with workload identity federation (WIF), addresses these issues by enforcing zero trust principles. ⚠️ Static secrets expose organizations to risks like credential leaks and overprivileged roles. Recent incidents highlight the dangers of &amp;ldquo;secret zero,&amp;rdquo; the initial credential needed to access Vault. 🔑 WIF with Vault removes the need for static secrets,&amp;hellip;</description>
+    </item>
     <item>
       <title>How World Bank manages hybrid cloud complexity with Terraform</title>
       <link>/articles/article-2026-02-10-15456/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New deployments with vulnerable versions of the third-party package next-mdx-remote are now blocked by default</title>
+      <link>/articles/article-2026-02-12-15530/</link>
+      <pubDate>Thu, 12 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-12-15530/</guid>
+      <description>🚨 Important Update for Developers! 🚨 New deployments using the vulnerable third-party package next-mdx-remote will be blocked by default on Vercel due to CVE-2026-0969. Upgrading to a patched version is strongly recommended, regardless of your hosting provider. For those needing to disable this automatic protection, you can set the DANGEROUSLY_DEPLOY_VULNERABLE_CVE_2026_0969=1 environment variable. Stay secure! 🔒 #CyberSecurity #Vercel #SoftwareDevelopment #NextJS #DevCommunity</description>
+    </item>
+    <item>
+      <title>Use MiniMax M2.5 on AI Gateway</title>
+      <link>/articles/article-2026-02-12-15529/</link>
+      <pubDate>Thu, 12 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-12-15529/</guid>
+      <description>🚀 MiniMax M2.5 is now live on AI Gateway! This new model enhances project planning by breaking down functions, structure, and UI design before coding begins. It supports full-stack development across multiple platforms, including Web, Android, iOS, Windows, and Mac. Key improvements include better adaptation to unfamiliar codebases and reduced search rounds for problem-solving. Explore AI Gateway for unified API access, usage tracking, and built-in performance optimizations. #AI #Development&amp;hellip;</description>
+    </item>
     <item>
       <title>Advanced egress firewall filtering for Vercel Sandbox</title>
       <link>/articles/article-2026-02-11-15487/</link>

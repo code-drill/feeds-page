@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 12:33:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 14:00:16 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub’s Agentic Workflows bring “continuous AI” into the CI/CD loop</title>
+      <link>/articles/article-2026-02-13-15570/</link>
+      <pubDate>Fri, 13 Feb 2026 14:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15570/</guid>
+      <description>🚀 GitHub introduces Agentic Workflows, integrating “continuous AI” into the CI/CD process. This innovation allows agents to monitor GitHub repositories and execute workflows based on events like new issues. Eddie Aftandilian from GitHub Next highlights its role in enhancing developer tasks without replacing existing CI/CD tools. Key use cases include automated status reports, issue triaging, and documentation alignment. Explore how Agentic Workflows can streamline your development process!&amp;hellip;</description>
+    </item>
     <item>
       <title>Moving Your Codebase to Go 1.26 With GoLand Syntax Updates</title>
       <link>/articles/article-2026-02-13-15567/</link>
@@ -21,6 +28,13 @@
       <pubDate>Fri, 13 Feb 2026 08:01:01 +0000</pubDate>
       <guid>/articles/article-2026-02-13-15562/</guid>
       <description>🚀 Red Hat has introduced the new libssh connection plug-in for the Ansible Automation Platform, replacing the Paramiko library. This update enhances security and performance while ensuring compliance with FIPS 140 standards. 🔗 The libssh plug-in uses the ansible-pylibssh library to improve SSH connections for network appliances, critical for environments requiring stringent security protocols. 🔧 Users can easily switch to libssh by adjusting configuration settings in their Ansible Playbooks&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Shedding old code with ecdysis: graceful restarts for Rust services at Cloudflare</title>
+      <link>/articles/article-2026-02-13-15577/</link>
+      <pubDate>Fri, 13 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15577/</guid>
+      <description>🌐 Cloudflare has introduced ecdysis, a Rust library designed for zero-downtime upgrades of network services. After five years of production use, it is now open source. Ecdysis allows for graceful restarts, ensuring no connections are dropped during updates. This is crucial for services that manage millions of requests globally. The library addresses the challenges of traditional restart methods, which can lead to dropped connections and degraded performance. With ecdysis, service continuity&amp;hellip;</description>
     </item>
     <item>
       <title>Custom Kernels for All from Codex and Claude</title>
@@ -84,6 +98,13 @@
       <pubDate>Thu, 12 Feb 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-02-12-15529/</guid>
       <description>🚀 MiniMax M2.5 is now live on AI Gateway! This new model enhances project planning by breaking down functions, structure, and UI design before coding begins. It supports full-stack development across multiple platforms, including Web, Android, iOS, Windows, and Mac. Key improvements include better adaptation to unfamiliar codebases and reduced search rounds for problem-solving. Explore AI Gateway for unified API access, usage tracking, and built-in performance optimizations. #AI #Development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaladoc support in the IntelliJ Scala Plugin</title>
+      <link>/articles/article-2026-02-12-15575/</link>
+      <pubDate>Thu, 12 Feb 2026 12:17:55 +0000</pubDate>
+      <guid>/articles/article-2026-02-12-15575/</guid>
+      <description>🚀 Exciting updates for Scala users! The IntelliJ Scala Plugin now supports Scaladoc using Markdown as the default syntax in Scala 3. This simplifies documentation with a more readable format, making it easier for developers to use. Key features include headers, lists, block quotes, and links. The plugin also enhances code completion for anchors, improving navigation. Check out the blog post and YouTube video for more details! #Scala #IntelliJ #Documentation #Markdown #SoftwareDevelopment</description>
     </item>
     <item>
       <title>Introducing PFCS Forward</title>

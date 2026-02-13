@@ -6,8 +6,29 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 22:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 12:45:10 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Say Goodbye to “It Works on My Machine”: A Look at TeamCity’s Pretested Commits</title>
+      <link>/articles/article-2026-02-13-15566/</link>
+      <pubDate>Fri, 13 Feb 2026 12:45:10 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15566/</guid>
+      <description>Developers often face issues when code that works locally fails in staging or production. These problems can arise from environmental differences and hidden bugs. To address this, TeamCity offers a feature called pretested commits. This process ensures that code is built and tested on TeamCity servers before it is committed, reducing the risk of broken builds. By implementing this workflow, teams can maintain a stable codebase and improve collaboration, avoiding the headaches of integration&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Moving Your Codebase to Go 1.26 With GoLand Syntax Updates</title>
+      <link>/articles/article-2026-02-13-15567/</link>
+      <pubDate>Fri, 13 Feb 2026 12:33:36 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15567/</guid>
+      <description>🚀 Exciting updates for Go developers! GoLand now supports Go 1.26 syntax updates, making it easier to modernize your code. As you update your project, GoLand highlights areas where improvements can be made without changing behavior. Key inspections include: - Pointer creation with &lt;code&gt;new()&lt;/code&gt; - Type-safe error unwrapping with &lt;code&gt;errors.AsType&lt;/code&gt; Upgrade your coding experience with these focused inspections! #GoLang #GoDevelopment #GoLand #CodingUpdates #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Building Modular Monoliths With Kotlin and Spring</title>
+      <link>/articles/article-2026-02-13-15568/</link>
+      <pubDate>Fri, 13 Feb 2026 12:27:12 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15568/</guid>
+      <description>Explore the evolution of software architecture with modular monoliths! Over a decade after Netflix popularized microservices, many companies are reconsidering their approach. The shift towards modular monoliths allows teams to develop independently while maintaining a single deployment unit. This tutorial covers the benefits of modular monoliths, their distinction from traditional monoliths, and how to implement them using Spring Modulith and Kotlin. #SoftwareArchitecture #ModularMonoliths&amp;hellip;</description>
+    </item>
     <item>
       <title>JetBrains Academy – February Digest</title>
       <link>/articles/article-2026-02-12-15554/</link>

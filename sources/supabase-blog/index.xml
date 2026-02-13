@@ -6,8 +6,15 @@
     <description>Recent content in Supabase-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/supabase-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supabase incident on February 12, 2026</title>
+      <link>/articles/article-2026-02-13-15580/</link>
+      <pubDate>Fri, 13 Feb 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15580/</guid>
+      <description>🚨 On February 12, 2026, Supabase faced a significant outage in the us-east-2 region, lasting 3 hours and 42 minutes. This impacted access to all services for customers in that area. 🔧 The outage was due to an internal monitoring deployment that unintentionally activated AWS&amp;rsquo;s VPC Block Public Access feature, blocking internet traffic. 🔄 Supabase has rolled back this change, restoring normal connectivity. They are committed to improving infrastructure safeguards to prevent future incidents&amp;hellip;.</description>
+    </item>
     <item>
       <title>Hydra joins Supabase</title>
       <link>/articles/article-2026-02-10-15484/</link>

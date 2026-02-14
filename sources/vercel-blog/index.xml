@@ -6,8 +6,15 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stale-if-error cache-control directive now supported for all responses</title>
+      <link>/articles/article-2026-02-13-15588/</link>
+      <pubDate>Fri, 13 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-13-15588/</guid>
+      <description>🚀 Exciting news for developers! Vercel CDN now supports the &lt;code&gt;stale-if-error&lt;/code&gt; directive in Cache-Control headers. This feature enhances caching during origin failures. When the origin encounters an error, the CDN can serve a stale cached response instead of an error message. This applies to issues like 500 errors or network failures, ensuring applications remain available. For more details, check the documentation! 📖 #Vercel #Caching #WebDevelopment #CDN #TechNews</description>
+    </item>
     <item>
       <title>Browserbase joins the Vercel Agent Marketplace</title>
       <link>/articles/article-2026-02-12-15542/</link>

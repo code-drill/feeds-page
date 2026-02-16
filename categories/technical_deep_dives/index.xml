@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 23:44:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 14:53:40 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance and load testing in Identity Management (IdM) systems using encrypted DNS (eDNS) and CoreDNS in OpenShift clusters</title>
+      <link>/articles/article-2026-02-16-15598/</link>
+      <pubDate>Mon, 16 Feb 2026 14:53:40 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15598/</guid>
+      <description>🔍 Dive into the latest insights on performance testing in Identity Management (IdM) systems using encrypted DNS (eDNS) and CoreDNS within OpenShift clusters. This article explores the complexity of evaluating IdM performance directly from Pods, requiring extensive tuning for optimal results. Key findings highlight the impact of DNS policies and system configurations on performance metrics. The setup, tested in AWS, achieved impressive query rates while addressing various bottlenecks to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI agent authorization with A2A protocol and HashiCorp Vault</title>
+      <link>/articles/article-2026-02-16-15596/</link>
+      <pubDate>Mon, 16 Feb 2026 14:34:14 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15596/</guid>
+      <description>Managing dynamic non-human identities (NHIs) in AI agents is a growing challenge for organizations. The A2A protocol combined with HashiCorp Vault offers a solution for secure agent authorization. Through the use of Vault as an OpenID Connect provider, client agents can authenticate and retrieve access tokens. This enables them to request additional scopes for access to server agents, thus enhancing security. The article outlines the steps to configure Vault and implement least privilege&amp;hellip;</description>
+    </item>
     <item>
       <title>GPU-Serving Two-Tower Models for Lightweight Ads Engagement Prediction</title>
       <link>/articles/article-2026-02-13-15589/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 15:27:37 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a CI/CD pipeline with OpenShift Dev Spaces and GitOps</title>
+      <link>/articles/article-2026-02-16-15597/</link>
+      <pubDate>Mon, 16 Feb 2026 15:27:37 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15597/</guid>
+      <description>🚀 Ready to set up a CI/CD pipeline? This guide covers how to leverage Red Hat OpenShift Dev Spaces and GitOps for a streamlined workflow. 🔧 Start by installing OpenShift Dev Spaces and defining your development environment with devfile.yaml. 📦 Using a pipelines-as-code approach, your CI pipeline will trigger from Git events, building the Go binary and updating the deployment manifest automatically. 📊 OpenShift GitOps (ArgoCD) will monitor changes, ensuring your application remains up to date&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Python virtual environments: isolation without the chaos</title>
+      <link>/articles/article-2026-02-16-15595/</link>
+      <pubDate>Mon, 16 Feb 2026 15:00:17 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15595/</guid>
+      <description>🌐 Installing packages globally can create conflicts between projects. A practical solution is using Python virtual environments to maintain isolation. 🔍 Each virtual environment acts as a self-contained workspace, allowing projects to have their own dependencies without affecting others. This approach enhances reliability and makes projects easier to manage. 💻 The tutorial guides you through setting up two virtual environments within a single project. #Python #VirtualEnvironments&amp;hellip;</description>
+    </item>
     <item>
       <title>How to build a membership platform with Supabase and Webflow</title>
       <link>/articles/article-2026-02-14-15587/</link>

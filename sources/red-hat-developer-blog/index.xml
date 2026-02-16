@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 08:01:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 15:27:37 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a CI/CD pipeline with OpenShift Dev Spaces and GitOps</title>
+      <link>/articles/article-2026-02-16-15597/</link>
+      <pubDate>Mon, 16 Feb 2026 15:27:37 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15597/</guid>
+      <description>🚀 Ready to set up a CI/CD pipeline? This guide covers how to leverage Red Hat OpenShift Dev Spaces and GitOps for a streamlined workflow. 🔧 Start by installing OpenShift Dev Spaces and defining your development environment with devfile.yaml. 📦 Using a pipelines-as-code approach, your CI pipeline will trigger from Git events, building the Go binary and updating the deployment manifest automatically. 📊 OpenShift GitOps (ArgoCD) will monitor changes, ensuring your application remains up to date&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Performance and load testing in Identity Management (IdM) systems using encrypted DNS (eDNS) and CoreDNS in OpenShift clusters</title>
+      <link>/articles/article-2026-02-16-15598/</link>
+      <pubDate>Mon, 16 Feb 2026 14:53:40 +0000</pubDate>
+      <guid>/articles/article-2026-02-16-15598/</guid>
+      <description>🔍 Dive into the latest insights on performance testing in Identity Management (IdM) systems using encrypted DNS (eDNS) and CoreDNS within OpenShift clusters. This article explores the complexity of evaluating IdM performance directly from Pods, requiring extensive tuning for optimal results. Key findings highlight the impact of DNS policies and system configurations on performance metrics. The setup, tested in AWS, achieved impressive query rates while addressing various bottlenecks to&amp;hellip;</description>
+    </item>
     <item>
       <title>New LibSSH connection plug-in for Ansible replaces Paramiko</title>
       <link>/articles/article-2026-02-13-15562/</link>

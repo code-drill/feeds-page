@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 21:13:08 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From notebooks to nodes: Architecting production-ready AI infrastructure</title>
+      <link>/articles/article-2026-02-17-15637/</link>
+      <pubDate>Tue, 17 Feb 2026 21:13:08 +0000</pubDate>
+      <guid>/articles/article-2026-02-17-15637/</guid>
+      <description>Transitioning from Colab notebooks to production-ready AI applications requires significant infrastructure changes. 🖥️ This process involves moving from fixed dependencies to a responsive system that handles high-traffic workloads efficiently. Key components include Kubernetes for container management, Ray for task execution, and a Feature Store for data integration. Monitoring GPU performance and model health is also crucial. This architecture supports sustained workloads and can reduce&amp;hellip;</description>
+    </item>
     <item>
       <title>Build AI-Ready Knowledge Systems Using 5 Essential Multimodal RAG Capabilities</title>
       <link>/articles/article-2026-02-17-15629/</link>
@@ -21,6 +28,13 @@
       <pubDate>Tue, 17 Feb 2026 17:01:01 +0000</pubDate>
       <guid>/articles/article-2026-02-17-15636/</guid>
       <description>Pinterest has introduced a feature called Auto Memory Retries to significantly reduce out-of-memory (OOM) errors in their Apache Spark applications. 🚀 This feature automatically identifies tasks that require more memory and retries them on larger executors, improving resource management. Pinterest processes over 90,000 Spark jobs daily, making this enhancement crucial for performance and efficiency. 🔍 The result? A remarkable 96% drop in OOM failures, freeing up resources and reducing delays&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Databricks System Tables Help Data Engineers Achieve Advanced Observability</title>
+      <link>/articles/article-2026-02-17-15648/</link>
+      <pubDate>Tue, 17 Feb 2026 16:59:25 +0000</pubDate>
+      <guid>/articles/article-2026-02-17-15648/</guid>
+      <description>Struggling with data pipeline issues at 3 AM? Databricks System Tables offer a solution! These tables provide data engineers with centralized visibility, simplifying the tracking of pipeline health. This leads to more reliable workloads and effective management of data operations. Discover how to operationalize insights and maintain your data&amp;rsquo;s integrity. 📊🔍 #DataEngineering #Databricks #DataObservability #DataPipelines #TechSolutions</description>
     </item>
     <item>
       <title>The Multi-Model Database for AI Agents: Deploy SurrealDB with Docker Extension</title>

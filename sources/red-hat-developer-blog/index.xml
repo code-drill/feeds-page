@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Feb 2026 08:01:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 15:11:32 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control updates with download-only mode in bootc</title>
+      <link>/articles/article-2026-02-18-15686/</link>
+      <pubDate>Wed, 18 Feb 2026 15:11:32 +0000</pubDate>
+      <guid>/articles/article-2026-02-18-15686/</guid>
+      <description>🚀 The bootc utility in Red Hat Enterprise Linux (RHEL) now features a &lt;strong&gt;download-only mode&lt;/strong&gt;, enhancing control over system updates. This mode allows administrators to manage updates in three phases: download and stage, lock, and explicit application. This separation is crucial for ensuring updates are applied at the right time, particularly in production environments. Commands like &lt;code&gt;# bootc upgrade --download-only&lt;/code&gt; can be used to stage updates without immediate application. Once ready,&amp;hellip;</description>
+    </item>
     <item>
       <title>Optimize infrastructure health with Red Hat Lightspeed MCP</title>
       <link>/articles/article-2026-02-18-15658/</link>

@@ -51,6 +51,13 @@
       <description>🚀 Exciting advancements in WebStreams! Recent profiling of Next.js server rendering revealed significant performance issues with WebStreams due to extensive Promise chains and object allocations. To tackle this, a new library called fast-webstreams has been developed. It optimizes the WHATWG Streams API for Node.js, achieving speeds up to 14.6x faster for React Server Components. This work aims to improve streaming performance in server-side applications and is poised to integrate into&amp;hellip;</description>
     </item>
     <item>
+      <title>Inside OpenFGA&#39;s Improved ListObjects Algorithm: A Streaming Pipeline Traversal</title>
+      <link>/articles/article-2026-02-18-15705/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-18-15705/</guid>
+      <description>🚀 OpenFGA has enhanced its ListObjects algorithm, transforming how it handles authorization models. This improvement enables a concurrent, backpressure-aware streaming pipeline that efficiently traverses relationship graphs. 🔍 ListObjects answers queries about user-object relationships, making it essential for applications with complex authorization needs. The method focuses on delivering results quickly while managing resource usage. 🛠️ The algorithm functions as a weighted graph, where&amp;hellip;</description>
+    </item>
+    <item>
       <title>From notebooks to nodes: Architecting production-ready AI infrastructure</title>
       <link>/articles/article-2026-02-17-15637/</link>
       <pubDate>Tue, 17 Feb 2026 21:13:08 +0000</pubDate>

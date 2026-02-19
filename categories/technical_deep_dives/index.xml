@@ -6,8 +6,36 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 14:42:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 18:00:24 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prometheus and OpenTelemetry finally play nice</title>
+      <link>/articles/article-2026-02-19-15783/</link>
+      <pubDate>Thu, 19 Feb 2026 18:00:24 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15783/</guid>
+      <description>Prometheus and OpenTelemetry have resolved previous compatibility issues, enhancing their integration for better observability. 🛠️ Prometheus continues to excel in metrics for Kubernetes, while OpenTelemetry now complements it with tracing and logs. Recent discussions at OTel Unplugged EU highlighted improvements, particularly Prometheus&amp;rsquo; support for UTF-8, easing integration challenges. 🌐 This collaboration aims to reduce complexity for users, creating a more streamlined approach to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization</title>
+      <link>/articles/article-2026-02-19-15784/</link>
+      <pubDate>Thu, 19 Feb 2026 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15784/</guid>
+      <description>NVIDIA&amp;rsquo;s latest GPUs, including Ampere, Hopper, and Blackwell, utilize non-uniform memory access (NUMA) behaviors while presenting a unified memory space. The article explores how increased bandwidth in newer models can enhance performance and efficiency through compute and data locality. It highlights the benefits of using Multi-Instance GPU (MIG) mode for better data localization. Key insights include the impact of memory hierarchy and the significance of minimizing data transfer latency&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling Localization with AI at Lyft</title>
+      <link>/articles/article-2026-02-19-15797/</link>
+      <pubDate>Thu, 19 Feb 2026 17:28:41 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15797/</guid>
+      <description>🚀 Lyft has revamped its localization process to meet growing demands for speed and quality. By integrating AI with human oversight, Lyft&amp;rsquo;s new translation pipeline reduces turnaround times from days to minutes. This change supports its expansion into new markets and compliance with local regulations. The pipeline operates in three phases: drafting, early release, and final review, ensuring high-quality translations. Learn more about this innovative approach! 🌍💡 #Localization #AI #Translation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Our Multi-Agent Architecture for Smarter Advertising</title>
+      <link>/articles/article-2026-02-19-15798/</link>
+      <pubDate>Thu, 19 Feb 2026 17:28:13 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15798/</guid>
+      <description>🚀 Spotify&amp;rsquo;s latest article discusses a new multi-agent architecture aimed at streamlining its advertising processes. The focus is on addressing structural inefficiencies in the ads business, where different buying channels operate with their own workflows and decision-making logic. This approach aims to create a unified decision layer, reducing redundancy and ensuring consistent behavior across platforms like Spotify Ads Manager, Salesforce, and Slack. By treating campaign management as&amp;hellip;</description>
+    </item>
     <item>
       <title>DigitalOcean Gradient™ AI GPU Droplets Optimized for Inference: Increasing Throughput at Lower the Cost</title>
       <link>/articles/article-2026-02-19-15765/</link>
@@ -35,6 +63,13 @@
       <pubDate>Thu, 19 Feb 2026 07:01:27 +0000</pubDate>
       <guid>/articles/article-2026-02-19-15755/</guid>
       <description>🔍 Discover ATen, the core tensor library powering PyTorch&amp;rsquo;s operations across various hardware. ATen is a C++ framework that enables device-agnostic tensor computations, optimizing performance on CPUs, GPUs, and more. Its architecture simplifies operations while maintaining efficiency. Key features include reference counting, lightweight views, and a sophisticated dispatch system for seamless operation execution. Learn more about how ATen enhances PyTorch performance! #PyTorch&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Faster PlanetScale Postgres connections with Cloudflare Hyperdrive</title>
+      <link>/articles/article-2026-02-19-15789/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15789/</guid>
+      <description>🌐 Cloudflare recently launched Hyperdrive, enhancing PlanetScale Postgres connections for faster, real-time applications. With automated pooling and efficient queries, this integration simplifies database connections and leverages the Cloudflare global network for optimal performance. 🌍 Hyperdrive minimizes connection latency and supports WebSockets for real-time updates. Explore the potential for high-performance apps without complex configurations. #Cloudflare #PlanetScale #WebDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>Unlock Massive Token Throughput with GPU Fractioning in NVIDIA Run:ai</title>

@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 19 Feb 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Access billing usage and cost data via API</title>
+      <link>/articles/article-2026-02-19-15791/</link>
+      <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15791/</guid>
+      <description>Vercel introduces programmatic access to billing data via API and CLI! 📊 The new /billing/charges endpoint provides data in the FOCUS v1.3 format, enabling easy integration into FinOps tools. It supports daily granularity and a maximum date range of one year. For quick insights, the vercel usage command displays current billing usage or selected date ranges. Additionally, Vantage has launched a native integration to simplify cost observability. Explore more in the API documentation! #Vercel&amp;hellip;</description>
+    </item>
+    <item>
       <title>Gemini 3.1 Pro is live on AI Gateway</title>
       <link>/articles/article-2026-02-19-15771/</link>
       <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
@@ -21,6 +28,13 @@
       <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-02-19-15772/</guid>
       <description>🚀 Vercel Blob has launched private storage in public beta! Now, sensitive files like contracts and invoices can be securely stored, requiring authentication for all operations. This prevents data exposure via public URLs. To create a private store, use the Storage dashboard or the CLI. Private storage is available on all Vercel Blob plans. #Vercel #Blob #DataSecurity #PrivateStorage #CloudStorage</description>
+    </item>
+    <item>
+      <title>Streamdown 2.3 — Refreshed design and interactive playground</title>
+      <link>/articles/article-2026-02-19-15792/</link>
+      <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15792/</guid>
+      <description>🚀 Exciting updates in Streamdown 2.3! The new version features a unified nested-card design for tables, code blocks, and Mermaid diagrams. Sticky action buttons enhance user experience, while code blocks now render plain text instantly. 🛠️ The interactive playground allows real-time execution with custom markdown, enabling quicker testing without local setups. Documentation has been reorganized for easier access, and several bugs have been resolved, improving overall functionality&amp;hellip;.</description>
     </item>
     <item>
       <title>Redesigned search and filtering for runtime logs</title>

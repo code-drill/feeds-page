@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 07:01:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 08:01:30 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenShift networking evolved: Real routing, no NAT or asymmetry</title>
+      <link>/articles/article-2026-02-19-15757/</link>
+      <pubDate>Thu, 19 Feb 2026 08:01:30 +0000</pubDate>
+      <guid>/articles/article-2026-02-19-15757/</guid>
+      <description>🔗 Red Hat OpenShift networking is advancing to align with modern data center patterns. The platform is moving away from traditional isolation models, adopting a &amp;ldquo;real routing&amp;rdquo; approach. This shift allows for seamless integration with physical networks, eliminating double-NAT complexities and ensuring traffic maintains its workload identity. Key features include: - &lt;strong&gt;Real Routing&lt;/strong&gt;: Assigning routable IPs to pods. - &lt;strong&gt;Standards-Based Integration&lt;/strong&gt;: Utilizing BGP for dynamic routing. -&amp;hellip;</description>
+    </item>
     <item>
       <title>Understanding ATen: PyTorch&#39;s tensor library</title>
       <link>/articles/article-2026-02-19-15755/</link>

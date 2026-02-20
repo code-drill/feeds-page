@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 18:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 02:10:07 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we catch and mitigate performance regressions at scale in Jira Cloud</title>
+      <link>/articles/article-2026-02-20-15839/</link>
+      <pubDate>Fri, 20 Feb 2026 02:10:07 +0000</pubDate>
+      <guid>/articles/article-2026-02-20-15839/</guid>
+      <description>In a recent article, Atlassian discusses how they address performance regressions in Jira Cloud. Small changes in this multi-tenant product can impact specific users before broader metrics reveal issues. To tackle this, they developed a detection system that pinpoints performance drops by tenant and endpoint. This system has already helped identify and mitigate over eight regressions, ensuring continued performance improvement. #JiraCloud #PerformanceMonitoring #TechInsights #Atlassian&amp;hellip;</description>
+    </item>
     <item>
       <title>Prometheus and OpenTelemetry finally play nice</title>
       <link>/articles/article-2026-02-19-15783/</link>

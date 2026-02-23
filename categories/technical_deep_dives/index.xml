@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 14:44:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy</title>
+      <link>/articles/article-2026-02-23-15941/</link>
+      <pubDate>Mon, 23 Feb 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-23-15941/</guid>
+      <description>AI model training faces challenges due to increasing model sizes and dataset demands. Higher-precision BF16 training is becoming insufficient. Lower-precision training can enhance efficiency and reduce costs. The article compares three low-precision formats—FP8-CS, MXFP8, and NVFP4—showing up to 1.6x higher throughput and similar model quality. Low-precision training uses fewer bits, lowering memory demands and boosting GPU operations. Adoption of these formats can lead to significant&amp;hellip;</description>
+    </item>
     <item>
       <title>Synthetic data for RAG evaluation: Why your RAG system needs better testing</title>
       <link>/articles/article-2026-02-23-15928/</link>

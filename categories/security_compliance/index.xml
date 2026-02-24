@@ -23,6 +23,13 @@
       <description>🚀 Firefox 148 introduces the new Sanitizer API to enhance XSS protection for web developers. This standardized API allows for safe sanitization of untrusted HTML before inserting it into the DOM. With the setHTML() method, developers can easily replace the risk-prone innerHTML assignments. Expect other browsers to adopt this essential security measure soon! 🔐💻 #XSS #WebSecurity #Firefox148 #SanitizerAPI #WebDevelopment</description>
     </item>
     <item>
+      <title>GPG key used to sign GitLab package repositories&#39; metadata has been extended</title>
+      <link>/articles/article-2026-02-24-15969/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-24-15969/</guid>
+      <description>🔒 GitLab has extended the expiration of its GPG key used for signing repository metadata from Feb. 27, 2026, to Feb. 6, 2028. This decision aligns with GitLab&amp;rsquo;s security policies and aims to reduce disruptions for users. If you configured GitLab before Feb. 17, 2026, check the official documentation to update your key. New users should follow the installation guide without any additional steps. For more details, visit the Omnibus documentation or download the public key directly from&amp;hellip;</description>
+    </item>
+    <item>
       <title>Defense against uploads: Q&amp;A with OSS file scanner, pompelmi</title>
       <link>/articles/article-2026-02-23-15937/</link>
       <pubDate>Mon, 23 Feb 2026 15:00:00 +0000</pubDate>

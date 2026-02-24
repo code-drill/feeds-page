@@ -6,8 +6,15 @@
     <description>Recent content in Mozilla-Hacks on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 17:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 13:00:02 +0000</lastBuildDate>
     <atom:link href="/sources/mozilla-hacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148</title>
+      <link>/articles/article-2026-02-24-15966/</link>
+      <pubDate>Tue, 24 Feb 2026 13:00:02 +0000</pubDate>
+      <guid>/articles/article-2026-02-24-15966/</guid>
+      <description>🚀 Firefox 148 introduces the new Sanitizer API to enhance XSS protection for web developers. This standardized API allows for safe sanitization of untrusted HTML before inserting it into the DOM. With the setHTML() method, developers can easily replace the risk-prone innerHTML assignments. Expect other browsers to adopt this essential security measure soon! 🔐💻 #XSS #WebSecurity #Firefox148 #SanitizerAPI #WebDevelopment</description>
+    </item>
     <item>
       <title>Launching Interop 2026</title>
       <link>/articles/article-2026-02-12-15541/</link>

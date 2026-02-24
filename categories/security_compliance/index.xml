@@ -6,8 +6,22 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 13:00:25 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modernizing TACACS&#43;: Why Full-Session Encryption Matters More Than Ever</title>
+      <link>/articles/article-2026-02-24-15965/</link>
+      <pubDate>Tue, 24 Feb 2026 13:00:25 +0000</pubDate>
+      <guid>/articles/article-2026-02-24-15965/</guid>
+      <description>🔒 Recent attacks by the Salt Typhoon group highlight vulnerabilities in network security, particularly with TACACS+ protocol. Attackers exploited weaknesses to steal credentials without needing complex exploits. Cisco ISE 3.4 addresses this by implementing TACACS+ over TLS 1.3, ensuring full-session encryption. This upgrade protects usernames, commands, and configurations from interception. Stay informed and secure your network! 🌐🔐 #Cybersecurity #TACACS #NetworkSecurity #CiscoISE&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148</title>
+      <link>/articles/article-2026-02-24-15966/</link>
+      <pubDate>Tue, 24 Feb 2026 13:00:02 +0000</pubDate>
+      <guid>/articles/article-2026-02-24-15966/</guid>
+      <description>🚀 Firefox 148 introduces the new Sanitizer API to enhance XSS protection for web developers. This standardized API allows for safe sanitization of untrusted HTML before inserting it into the DOM. With the setHTML() method, developers can easily replace the risk-prone innerHTML assignments. Expect other browsers to adopt this essential security measure soon! 🔐💻 #XSS #WebSecurity #Firefox148 #SanitizerAPI #WebDevelopment</description>
+    </item>
     <item>
       <title>Defense against uploads: Q&amp;A with OSS file scanner, pompelmi</title>
       <link>/articles/article-2026-02-23-15937/</link>

@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 23 Feb 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Safely inject credentials in HTTP headers with Vercel Sandbox</title>
+      <link>/articles/article-2026-02-23-15957/</link>
+      <pubDate>Mon, 23 Feb 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-23-15957/</guid>
+      <description>🚀 Vercel Sandbox has introduced automatic HTTP header injection for outbound requests. This feature keeps API keys and tokens secure, ensuring that applications can access authenticated services without exposing credentials within the sandbox environment. 🔒 The header injection is managed through network policies, allowing real-time updates without restarting the sandbox. This is particularly useful for workflows that require phased credential management. Available for Pro and Enterprise&amp;hellip;</description>
+    </item>
+    <item>
       <title>Support for now.json will be removed on March 31, 2026</title>
       <link>/articles/article-2026-02-23-15947/</link>
       <pubDate>Mon, 23 Feb 2026 13:00:00 +0000</pubDate>

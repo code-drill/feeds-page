@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Softmax More Efficient with NVIDIA Blackwell Ultra</title>
+      <link>/articles/article-2026-02-25-16020/</link>
+      <pubDate>Wed, 25 Feb 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-25-16020/</guid>
+      <description>NVIDIA Blackwell Ultra addresses the bottleneck in large language models (LLMs) caused by the softmax function. As LLMs evolve with complex attention schemes, the softmax function can slow down processing. Blackwell Ultra improves efficiency by doubling the throughput of Special Function Units (SFUs), reducing pipeline stalls. The article details how attention mechanisms work and provides benchmarks for measuring performance improvements. 📊💻 #NVIDIA #AI #MachineLearning #Softmax #BlackwellUltra</description>
+    </item>
     <item>
       <title>Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy</title>
       <link>/articles/article-2026-02-23-15941/</link>

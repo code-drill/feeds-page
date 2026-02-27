@@ -6,14 +6,35 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 08:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know</title>
+      <link>/articles/article-2026-02-27-16086/</link>
+      <pubDate>Fri, 27 Feb 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16086/</guid>
+      <description>🚨 Kubernetes is set to retire Ingress-NGINX in March 2026, revealing unexpected behaviors that could affect your cluster. This article outlines five key behaviors to be aware of, including regex handling and URL normalization. It provides insights on migrating to Gateway API while preserving critical functionalities. Stay informed and prepare for a smooth transition! 🌐🔄 #Kubernetes #IngressNGINX #CloudComputing #GatewayAPI #DevOps</description>
+    </item>
     <item>
       <title>GDAL 3.4 package: Full-featured GIS functionality on RHEL</title>
       <link>/articles/article-2026-02-27-16079/</link>
       <pubDate>Fri, 27 Feb 2026 08:01:03 +0000</pubDate>
       <guid>/articles/article-2026-02-27-16079/</guid>
       <description>When using RHEL 9 for geospatial tasks, the GDAL package offers only basic functionality. Common operations may fail due to limited driver support, which is intentional to enhance security and stability. 🌍 For full GDAL capabilities, the gdal3.4 package is available in EPEL, allowing parallel installation without causing file conflicts. This provides access to essential drivers for formats like GeoTIFF and GeoJSON. 🗺️ Key features include prefixed utilities to avoid conflicts and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>We deserve a better streams API for JavaScript</title>
+      <link>/articles/article-2026-02-27-16088/</link>
+      <pubDate>Fri, 27 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16088/</guid>
+      <description>The Web Streams API has been a key part of JavaScript, but it was created with outdated design principles. A recent article discusses its limitations and suggests a new streaming API that aligns better with modern JavaScript practices. This alternative could be significantly faster, outperforming Web streams by up to 120 times in some tests. The article highlights the need for a conversation around improving streaming APIs to enhance usability and performance for developers today. 🔗💻🚀&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Video Conferencing with Postgres</title>
+      <link>/articles/article-2026-02-27-16084/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16084/</guid>
+      <description>🚀 SpacetimeDB recently showcased the world’s first video call over a database! The setup uses PostgreSQL on PlanetScale, capturing audio and video from browsers. It encodes and streams these through a database as real-time messages. The implementation is open-sourced and features logical replication for efficient data streaming. Explore the tech behind it! 🎥💻 #VideoConferencing #PostgreSQL #OpenSource #TechInnovation</description>
     </item>
     <item>
       <title>Beyond the Controller: Architecting Decentralized Intelligence in SD-WAN</title>

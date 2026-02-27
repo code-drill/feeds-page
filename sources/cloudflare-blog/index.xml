@@ -6,8 +6,43 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Feb 2026 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toxic combinations: when small signals add up to a security incident</title>
+      <link>/articles/article-2026-02-27-16087/</link>
+      <pubDate>Fri, 27 Feb 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16087/</guid>
+      <description>Minor misconfigurations and request anomalies can seem harmless, but when they accumulate, they may lead to security incidents known as &amp;ldquo;toxic combinations.&amp;rdquo; 🛡️🔍 These combinations occur when attackers exploit multiple small issues, like debug flags or unauthenticated paths, to breach systems. Cloudflare’s data helps identify these signals early. The article outlines how to recognize these threats and emphasizes the importance of analyzing patterns rather than focusing solely on individual&amp;hellip;</description>
+    </item>
+    <item>
+      <title>ASPA: making Internet routing more secure</title>
+      <link>/articles/article-2026-02-27-16091/</link>
+      <pubDate>Fri, 27 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16091/</guid>
+      <description>🚀 ASPA is the new cryptographic standard aimed at enhancing the security of Internet routing by verifying the entire path network traffic takes. By building on existing systems like RPKI, ASPA helps prevent route leaks, ensuring data travels through authorized networks only. Cloudflare Radar now offers tools to track ASPA&amp;rsquo;s adoption across different regions. Stay informed on this important development in Internet security! 🔒🌐 #InternetSecurity #BGP #ASPA #Cloudflare #Routing</description>
+    </item>
+    <item>
+      <title>Bringing more transparency to post-quantum usage, encrypted messaging, and routing security</title>
+      <link>/articles/article-2026-02-27-16090/</link>
+      <pubDate>Fri, 27 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16090/</guid>
+      <description>🌐 Cloudflare Radar is enhancing transparency in post-quantum usage, encrypted messaging, and routing security. New tools include monitoring PQ adoption and Key Transparency logs for services like WhatsApp. Users can now verify the integrity of public key distribution in real-time. Additionally, routing security insights have expanded to include ASPA records, aiding in the detection of BGP route leaks. #Cybersecurity #PostQuantum #EncryptedMessaging #Cloudflare #RoutingSecurity</description>
+    </item>
+    <item>
+      <title>The most-seen UI on the Internet? Redesigning Turnstile and Challenge Pages</title>
+      <link>/articles/article-2026-02-27-16089/</link>
+      <pubDate>Fri, 27 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16089/</guid>
+      <description>Cloudflare&amp;rsquo;s Turnstile widget and Challenge Pages are seen 7.67 billion times daily, making them possibly the most-visible UI online. 🔍 To enhance user experience, Cloudflare undertook a redesign focusing on accessibility and usability for diverse audiences. This process involved extensive research and engineering efforts to accommodate increasing security demands without compromising user satisfaction. Learn more about their approach and the impact on users. 🌐 #UserExperience #WebDesign&amp;hellip;</description>
+    </item>
+    <item>
+      <title>We deserve a better streams API for JavaScript</title>
+      <link>/articles/article-2026-02-27-16088/</link>
+      <pubDate>Fri, 27 Feb 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16088/</guid>
+      <description>The Web Streams API has been a key part of JavaScript, but it was created with outdated design principles. A recent article discusses its limitations and suggests a new streaming API that aligns better with modern JavaScript practices. This alternative could be significantly faster, outperforming Web streams by up to 120 times in some tests. The article highlights the need for a conversation around improving streaming APIs to enhance usability and performance for developers today. 🔗💻🚀&amp;hellip;</description>
+    </item>
     <item>
       <title>How we rebuilt Next.js with AI in one week</title>
       <link>/articles/article-2026-02-24-15988/</link>

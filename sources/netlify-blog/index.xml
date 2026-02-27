@@ -6,8 +6,22 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic PHP bot scan blocking now live on all plans</title>
+      <link>/articles/article-2026-02-27-16102/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16102/</guid>
+      <description>Netlify has introduced automatic blocking of bot scans targeting PHP paths across all plans. This requires no configuration from users. 🚫 Previously, these bots cluttered Observability logs, appearing without a User-Agent header. Now, Netlify efficiently blocks them at the edge. Since implementing this feature on December 28, 2025, they have successfully blocked 2.9 billion requests. 🌐 #Netlify #WebDev #Security #PHP #Automation</description>
+    </item>
+    <item>
+      <title>Support for stale-while-revalidate in Cache API</title>
+      <link>/articles/article-2026-02-27-16103/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16103/</guid>
+      <description>🚀 Exciting news for developers! The Netlify Cache API now fully supports stale-while-revalidate (SWR), enhancing its functionality. With the &lt;code&gt;fetchWithCache&lt;/code&gt; method, stale responses can be served immediately while fetching fresh data in the background. This streamlines caching and improves user experience. For direct cache interactions, a new &lt;code&gt;needsRevalidation&lt;/code&gt; method allows manual checks and updates for stale responses. Explore more in the Cache API documentation! 📚 #Netlify #CacheAPI&amp;hellip;</description>
+    </item>
     <item>
       <title>Gemini 3.1 Flash Image Preview now available in AI Gateway</title>
       <link>/articles/article-2026-02-26-16071/</link>

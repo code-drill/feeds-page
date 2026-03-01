@@ -6,8 +6,15 @@
     <description>Recent content in Netflix-Technology-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 18:24:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 22:55:53 +0000</lastBuildDate>
     <atom:link href="/sources/netflix-technology-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mount Mayhem at Netflix: Scaling Containers on Modern CPUs</title>
+      <link>/articles/article-2026-02-28-16116/</link>
+      <pubDate>Sat, 28 Feb 2026 22:55:53 +0000</pubDate>
+      <guid>/articles/article-2026-02-28-16116/</guid>
+      <description>Behind the scenes at Netflix, scaling containers is essential for seamless streaming. 🚀 However, a recent update revealed bottlenecks linked to CPU architecture during container launches. When migrating to a new container platform, some nodes experienced long stalls due to growing mount table lengths. This led to health check timeouts and system lockups. 🔒 The issue was particularly prevalent on r5.metal instances with many-layered container images. Investigations showed that lock contention&amp;hellip;</description>
+    </item>
     <item>
       <title>MediaFM: The Multimodal AI Foundation for Media Understanding at Netflix</title>
       <link>/articles/article-2026-02-23-15946/</link>

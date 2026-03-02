@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 09:38:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 10:31:07 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Practices for Secure Error Handling in Go</title>
+      <link>/articles/article-2026-03-02-16125/</link>
+      <pubDate>Mon, 02 Mar 2026 10:31:07 +0000</pubDate>
+      <guid>/articles/article-2026-03-02-16125/</guid>
+      <description>🔒 Error handling in Go is crucial for security. Unlike other languages, Go treats errors as values, meaning they must be handled explicitly. This can expose sensitive information if not managed properly. This article outlines best practices for secure error handling, emphasizing the importance of sanitizing errors to prevent data leaks and security breaches. Learn how to create, wrap, and log errors securely to enhance API safety and protect against vulnerabilities. #GoLang #ErrorHandling&amp;hellip;</description>
+    </item>
     <item>
       <title>Your First Migration: Moving a Single Project From Jenkins to TeamCity Painlessly</title>
       <link>/articles/article-2026-03-02-16123/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in MongoDB-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 20:15:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/mongodb-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Model-based Verification of a Key-Value Storage Engine</title>
+      <link>/articles/article-2026-02-27-16138/</link>
+      <pubDate>Fri, 27 Feb 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-02-27-16138/</guid>
+      <description>In our latest update, we discuss verifying MongoDB&amp;rsquo;s distributed transactions protocol against its underlying WiredTiger storage engine. By formalizing the interface between these components, we developed a tool to automate conformance checks. This allows us to generate extensive test cases, ensuring that the implementation aligns with our abstract model. Our approach utilizes TLA+ specifications and a modified TLC model checker to create and execute tests efficiently. For further insights,&amp;hellip;</description>
+    </item>
     <item>
       <title>MongoDB.local San Francisco 2026: Ship Production AI, Faster</title>
       <link>/articles/article-2026-01-15-14586/</link>

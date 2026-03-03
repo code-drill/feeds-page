@@ -449,6 +449,91 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/a-deep-dive-into-bpf-lpm-trie-performance-and-optimization/" target="_blank">A deep dive into BPF LPM trie performance and optimization</a></h2>
+            <div class="publication-date">2025-10-21 13:00</div>
+            <div class="summary">🚀 A recent article delves into the performance of BPF LPM tries, crucial for IP matching in network routing. It began with a soft lockup issue, highlighting performance bottlenecks in BPF LPM trie maps, including slow entry lookups and CPU lockups. These problems have impacted services like Cloudflare’s Magic Firewall, causing packet loss for users. The article also explains trie structures and their efficiency in storing and searching data, making them ideal for tasks like longest prefix...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Jesper Brouer</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/load-balancing-monitor-groups-multi-service-health-checks-for-resilient/" target="_blank">Load Balancing Monitor Groups: Multi-Service Health Checks for Resilient Applications</a></h2>
+            <div class="publication-date">2025-10-17 06:00</div>
+            <div class="summary">🚀 Cloudflare Load Balancing introduces Monitor Groups! This new feature allows users to combine multiple health monitors into one assessment, enhancing application reliability. With Monitor Groups, you can determine endpoint health by aggregating results from various monitors, ensuring all critical services are functioning before routing traffic. Available now via API for Enterprise customers, it will soon be accessible in the Dashboard for all users. #Cloudflare #LoadBalancing #MonitorGroups...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Cole Bennett</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/improving-the-trustworthiness-of-javascript-on-the-web/" target="_blank">Improving the trustworthiness of Javascript on the Web</a></h2>
+            <div class="publication-date">2025-10-16 14:00</div>
+            <div class="summary">🔐 The web&#39;s power comes with challenges, especially in client-side cryptography. Current JavaScript practices make cryptography hard to trust, as sites can change code without auditability. A new specification, WAICT, aims to enhance web security by ensuring integrity, consistency, and transparency for web applications. This effort involves collaboration among browser vendors, cloud providers, and developers to protect various uses of in-browser cryptography. #WebSecurity #JavaScript...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Michael Rosenberg</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/unpacking-cloudflare-workers-cpu-performance-benchmarks/" target="_blank">Unpacking Cloudflare Workers CPU Performance Benchmarks</a></h2>
+            <div class="publication-date">2025-10-14 20:00</div>
+            <div class="summary">Cloudflare has addressed CPU performance issues in its Workers platform following benchmarks by developer Theo Browne. The initial results showed Cloudflare Workers lagging behind Vercel in CPU-intensive tasks. Investigations revealed various small problems in infrastructure and JavaScript libraries contributing to this disparity. Recent changes have improved performance, bringing Cloudflare in line with Vercel in most benchmark cases. Future enhancements aim to close remaining gaps,...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Kenton Varda</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/introducing-react-why-we-built-an-elite-incident-response-team/" target="_blank">Introducing REACT: Why We Built an Elite Incident Response Team</a></h2>
+            <div class="publication-date">2025-10-09 14:00</div>
+            <div class="summary">🌐 Exciting news from Cloudforce One! We&#39;re launching the REACT team, designed to bridge the gap between perimeter defense and internal incident response. With over 190 billion cyber threats blocked daily, we know that stopping attacks at the edge is just the beginning. Our new suite of incident response services includes proactive advisory support and real-time crisis management. REACT aims to eliminate delays in incident handling, ensuring a unified defense for organizations. Learn how we...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Trevor Lyness</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://blog.cloudflare.com/how-we-found-a-bug-in-gos-arm64-compiler/" target="_blank">How we found a bug in Go&#39;s arm64 compiler</a></h2>
             <div class="publication-date">2025-10-08 14:00</div>
             <div class="summary">Cloudflare recently uncovered a race condition in Go&#39;s arm64 compiler, triggered by their high volume of HTTP requests—84 million per second. The investigation began after sporadic panics were detected in their services, which indicated potential stack corruption. Despite initial mitigation efforts, fatal panics persisted, prompting a deeper analysis. This situation highlights the complexities of maintaining software at scale. ⚙️🔍 #GoLang #Cloudflare #SoftwareEngineering #Debugging #CompilerBug</div>
@@ -1038,91 +1123,6 @@
             <div class="categories">
                 
                 <a href="/categories/event" class="category-text">Event</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/capnweb-javascript-rpc-library/" target="_blank">Cap&#39;n Web: a new RPC system for browsers and web servers</a></h2>
-            <div class="publication-date">2025-09-22 13:00</div>
-            <div class="summary">🚀 Introducing Cap&#39;n Web, a new open-source RPC protocol designed for browsers and web servers! Cap&#39;n Web is built in pure TypeScript and enhances the capabilities of Cap&#39;n Proto with a user-friendly, schema-less approach. It uses human-readable JSON for serialization and is compatible with major browsers, Node.js, and Cloudflare Workers. Key features include bidirectional calling, passing functions by reference, and promise pipelining, all while maintaining capability-based security patterns....</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Steve Faulkner</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/new-hubs-for-startups/" target="_blank">Come build with us: Cloudflare&#39;s new hubs for startups</a></h2>
-            <div class="publication-date">2025-09-22 13:00</div>
-            <div class="summary">🚀 Cloudflare is set to open its San Francisco, Austin, London, and Lisbon offices to startups in 2026! These spaces will be available for collaboration, networking, and focused work, enhancing innovation within the tech community. The initiative aims to support early-stage startups by fostering connections in-person, building on Cloudflare’s long history of hosting community events. 🌍 Join us in creating a better digital environment! #Cloudflare #Startups #Innovation #TechCommunity...</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Caroline Quick</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/event" class="category-text">Event</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/expanding-startups-for-nonprofits/" target="_blank">Free access to Cloudflare developer services for non-profit and civil society organizations</a></h2>
-            <div class="publication-date">2025-09-22 13:00</div>
-            <div class="summary">🌐 Exciting news for non-profits! Cloudflare for Startups is now open to non-profit, civil society, and public interest organizations. Eligible groups can receive up to $250,000 in Cloudflare credits for developer services and core products. The application period is open until December 1. This initiative aims to empower small teams to maximize their impact through technology. For more details and to apply, visit the Cloudflare website! #NonProfit #Cloudflare #TechForGood #Innovation...</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Jocelyn Woolbright</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/cloudflare-1111-intern-program/" target="_blank">Help build the future: announcing Cloudflare’s goal to hire 1,111 interns in 2026</a></h2>
-            <div class="publication-date">2025-09-22 13:00</div>
-            <div class="summary">🌟 Cloudflare is set to hire 1,111 interns in 2026! This ambitious program aims to tap into new ideas and energy as the company focuses on AI and innovation. The initiative reflects Cloudflare&#39;s commitment to building a better Internet and investing in future talent. It also aims to challenge traditional methods and explore novel applications of AI. As many firms reduce intern hiring, Cloudflare is taking a different approach, viewing AI as a tool to enhance new hires&#39; contributions....</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Judy Cheong</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/event" class="category-text">Event</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/workers-for-students/" target="_blank">Introducing free access to Cloudflare developer features for students</a></h2>
-            <div class="publication-date">2025-09-22 13:00</div>
-            <div class="summary">🌟 Exciting news for students! Cloudflare is offering one year of free access to its developer features for U.S. students over 18 with a .edu email. This initiative aims to eliminate costs that often hinder students from turning their ideas into reality. Eligible students will receive enhanced usage limits on tools like Workers, KV, and Hyperdrive, essential for building full-stack applications and APIs. This program marks the beginning of Cloudflare&#39;s support for the next generation of...</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Howard Huang</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             

@@ -6,14 +6,42 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 13:47:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 19:49:57 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Minimize Game Runtime Inference Costs with Coding Agents</title>
+      <link>/articles/article-2026-03-03-16189/</link>
+      <pubDate>Tue, 03 Mar 2026 19:49:57 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16189/</guid>
+      <description>🚀 NVIDIA ACE is revolutionizing AI in gaming with its suite of technologies. It offers cloud and on-device models for in-game characters, enhancing aspects like speech and animation. The NVIDIA In-Game Inferencing SDK 1.5 introduces a new code agent sample, streamlining AI interactions in games. It focuses on reducing GPU contention by minimizing inference calls while maximizing their effectiveness. However, using AI agents poses challenges, such as potential security risks when they can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we rebuilt the search architecture for high availability in GitHub Enterprise Server</title>
+      <link>/articles/article-2026-03-03-16199/</link>
+      <pubDate>Tue, 03 Mar 2026 18:45:09 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16199/</guid>
+      <description>🚀 GitHub has enhanced the search architecture for GitHub Enterprise Server, improving its reliability and performance. The new system reduces the complexities associated with search indexes, which are essential for smooth operation. This change allows administrators to focus more on customer needs rather than maintenance tasks. Engineers faced challenges with the previous Elasticsearch integration but have now implemented a solution that increases durability in High Availability setups&amp;hellip;.</description>
+    </item>
     <item>
       <title>Optimize PyTorch training with the autograd engine</title>
       <link>/articles/article-2026-03-03-16168/</link>
       <pubDate>Tue, 03 Mar 2026 13:47:38 +0000</pubDate>
       <guid>/articles/article-2026-03-03-16168/</guid>
       <description>Discover the power of the PyTorch autograd engine! 🔍 This article explores how autograd calculates gradients, builds computational graphs, and manages memory efficiently during backpropagation. Understanding these concepts can enhance your deep learning models. Key points include: - Automatic differentiation with dynamic graph construction. - Memory optimization through pruning unnecessary computations. - The significance of forward and backward passes. #DeepLearning #PyTorch #Autograd&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling redirects to infinity on Vercel</title>
+      <link>/articles/article-2026-03-03-16192/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16192/</guid>
+      <description>🚀 Vercel has developed a new approach to handle redirects at scale, allowing for millions of static redirects per project. By utilizing sharding and Bloom filters, they have minimized latency while maintaining low memory usage. This design prioritizes fast lookups and simplicity, making it easier to manage large datasets. Bulk redirects are now available for Pro and Enterprise customers, supporting efficient site migrations and link management. #Vercel #WebDevelopment #Redirects&amp;hellip;</description>
+    </item>
+    <item>
+      <title>No need for Ctrl&#43;C when you have MCP</title>
+      <link>/articles/article-2026-03-03-16198/</link>
+      <pubDate>Tue, 03 Mar 2026 08:40:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16198/</guid>
+      <description>🚀 Exciting developments in AI connectivity! Ryan Donovan interviews David Soria Parra from Anthropic about the Model Context Protocol (MCP). They discuss its transformation from local to remote connectivity and its strong focus on security and privacy using OAuth2. MCP is now open-source and will be hosted by the Linux Foundation, making it accessible to all. Join the MCP community on Discord! #AI #OpenSource #MCP #Cybersecurity #TechNews</description>
     </item>
     <item>
       <title>How DigitalOcean’s Agentic Inference Cloud powered by NVIDIA GPUs Achieved 67% Lower Inference Costs for Workato</title>

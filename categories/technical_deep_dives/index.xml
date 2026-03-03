@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 20:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 01:36:46 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Recommendation Systems with JDK’s Vector API</title>
+      <link>/articles/article-2026-03-03-16160/</link>
+      <pubDate>Tue, 03 Mar 2026 01:36:46 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16160/</guid>
+      <description>Optimizing Netflix&amp;rsquo;s Ranker service has led to significant CPU improvements. A key focus was video serendipity scoring, which initially consumed 7.5% of CPU. By introducing batching and re-architecting memory layout, the team transformed the scoring process from costly nested loops to efficient matrix multiplications. This change reduced CPU usage per request and improved overall performance. The integration of JDK&amp;rsquo;s Vector API enabled further optimizations, leading to a 7% drop in CPU&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Tribal Knowledge to Instant Answers: Building Reffy on Databricks</title>
+      <link>/articles/article-2026-03-02-16159/</link>
+      <pubDate>Mon, 02 Mar 2026 23:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-02-16159/</guid>
+      <description>🌐 Discover how Reffy is transforming customer story access with Databricks. The article discusses the challenges of locating the right customer stories efficiently. Reffy aims to streamline this process, moving from traditional knowledge-sharing methods to instant answers. Learn about the innovative approaches being implemented to enhance customer engagement. #DataInnovation #CustomerExperience #Databricks #TechTrends #BusinessInsights</description>
+    </item>
     <item>
       <title>FFmpeg at Meta: Media Processing at Scale</title>
       <link>/articles/article-2026-03-02-16156/</link>

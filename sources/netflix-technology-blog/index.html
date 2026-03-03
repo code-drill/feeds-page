@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec?source=rss----2615bd06b42e---4" target="_blank">Optimizing Recommendation Systems with JDK’s Vector API</a></h2>
+            <div class="publication-date">2026-03-03 01:36</div>
+            <div class="summary">Optimizing Netflix&#39;s Ranker service has led to significant CPU improvements. A key focus was video serendipity scoring, which initially consumed 7.5% of CPU. By introducing batching and re-architecting memory layout, the team transformed the scoring process from costly nested loops to efficient matrix multiplications. This change reduced CPU usage per request and improved overall performance. The integration of JDK&#39;s Vector API enabled further optimizations, leading to a 7% drop in CPU...</div>
+            <div class="source">Source: Netflix Technology Blog</div>
+            
+            <div class="author">Netflix Technology Blog</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://netflixtechblog.com/mount-mayhem-at-netflix-scaling-containers-on-modern-cpus-f3b09b68beac?source=rss----2615bd06b42e---4" target="_blank">Mount Mayhem at Netflix: Scaling Containers on Modern CPUs</a></h2>
             <div class="publication-date">2026-02-28 22:55</div>
             <div class="summary">Behind the scenes at Netflix, scaling containers is essential for seamless streaming. 🚀 However, a recent update revealed bottlenecks linked to CPU architecture during container launches. When migrating to a new container platform, some nodes experienced long stalls due to growing mount table lengths. This led to health check timeouts and system lockups. 🔒 The issue was particularly prevalent on r5.metal instances with many-layered container images. Investigations showed that lock contention...</div>

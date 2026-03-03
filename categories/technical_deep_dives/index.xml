@@ -30,6 +30,13 @@
       <description>Optimizing Netflix&amp;rsquo;s Ranker service has led to significant CPU improvements. A key focus was video serendipity scoring, which initially consumed 7.5% of CPU. By introducing batching and re-architecting memory layout, the team transformed the scoring process from costly nested loops to efficient matrix multiplications. This change reduced CPU usage per request and improved overall performance. The integration of JDK&amp;rsquo;s Vector API enabled further optimizations, leading to a 7% drop in CPU&amp;hellip;</description>
     </item>
     <item>
+      <title>Embark Studios build the award-winning ARC Raiders with Unreal Engine</title>
+      <link>/articles/article-2026-03-03-16173/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16173/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.unrealengine.com/en-US/rss&#34;&gt;Unreal Engine Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.unrealengine.com/developer-interviews/embark-studios-build-the-award-winning-arc-raiders-with-unreal-engine&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>From Tribal Knowledge to Instant Answers: Building Reffy on Databricks</title>
       <link>/articles/article-2026-03-02-16159/</link>
       <pubDate>Mon, 02 Mar 2026 23:00:00 +0000</pubDate>

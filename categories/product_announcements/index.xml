@@ -16,6 +16,13 @@
       <description>🚀 Exciting news for developers! Cursor is now live as an AI agent in JetBrains IDEs via the Agent Client Protocol. You can easily access it through the agent picker, and it has full project access. Cursor enhances your coding experience with its AI-native workflows, seamlessly integrating with JetBrains&amp;rsquo; robust features like refactoring and debugging. This addition expands the growing ACP Registry, allowing you to select from various AI agents while working in your preferred IDE. No JetBrains&amp;hellip;</description>
     </item>
     <item>
+      <title>Always-on detections: eliminating the WAF “log versus block” trade-off</title>
+      <link>/articles/article-2026-03-04-16226/</link>
+      <pubDate>Wed, 04 Mar 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16226/</guid>
+      <description>🔒 Cloudflare is enhancing web security with its new Attack Signature Detection and Full-Transaction Detection features. These innovations eliminate the trade-off between logging and blocking modes in traditional WAFs. By analyzing both requests and responses, Cloudflare can reduce false positives and identify threats more effectively. Attack Signature Detection is now available in Early Access, while Full-Transaction Detection is in development. This always-on framework ensures continuous&amp;hellip;</description>
+    </item>
+    <item>
       <title>Aikido Security bets on AI to make software secure itself</title>
       <link>/articles/article-2026-03-04-16220/</link>
       <pubDate>Wed, 04 Mar 2026 14:46:47 +0000</pubDate>
@@ -30,11 +37,32 @@
       <description>Unleash has announced a new funding round of $35 million and launched Impact Metrics, enhancing their feature management capabilities. As AI accelerates software development, the need for controlled feature rollouts becomes critical. Unleash&amp;rsquo;s platform allows teams to use feature flags, enabling targeted testing and adjustments without full redeployment. CEO Egil Østhus emphasizes the importance of discipline in development, especially as AI tools increase speed and expectations. #Unleash&amp;hellip;</description>
     </item>
     <item>
+      <title>Mind the gap: new tools for continuous enforcement from boot to login</title>
+      <link>/articles/article-2026-03-04-16227/</link>
+      <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16227/</guid>
+      <description>Cloudflare introduces new tools for enhanced security, focusing on mandatory authentication and multi-factor authentication (MFA). These tools aim to bridge visibility gaps in network security from device boot to resource access. The Cloudflare One Client improves control over Internet access. Mandatory authentication ensures that only authenticated devices can connect, enhancing security and accountability. This feature will first be available on Windows, with plans for other platforms soon&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Why the “bible” of data systems is getting a massive rewrite for 2026</title>
       <link>/articles/article-2026-03-04-16216/</link>
       <pubDate>Wed, 04 Mar 2026 13:00:20 +0000</pubDate>
       <guid>/articles/article-2026-03-04-16216/</guid>
       <description>📚 Martin Kleppmann&amp;rsquo;s influential book, &lt;em&gt;Designing Data-Intensive Applications&lt;/em&gt;, is set for a major update in 2026. The second edition aims to incorporate advancements in AI and cloud-native architectures, reflecting the significant changes in data systems over the past decade. ☁️ Kleppmann, alongside co-author Chris Riccomini, focuses on retaining core concepts while updating details. The impact of cloud services on database architecture is a key highlight. Catch their insights at the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Moving from license plates to badges: the Gateway Authorization Proxy</title>
+      <link>/articles/article-2026-03-04-16229/</link>
+      <pubDate>Wed, 04 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16229/</guid>
+      <description>🌐 Cloudflare introduces the Gateway Authorization Proxy, enhancing security for clientless devices like virtual desktops and guest networks. This solution shifts identity verification from devices to the network, allowing for granular policy enforcement on any internet-connected device. The new system uses Cloudflare Access-style logins, ensuring accurate user identification for better control and compliance. Discover how this upgrade can streamline your access management! 🔒📊 #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Stop reacting to breaches and start preventing them with User Risk Scoring</title>
+      <link>/articles/article-2026-03-04-16230/</link>
+      <pubDate>Wed, 04 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16230/</guid>
+      <description>Cloudflare One introduces dynamic User Risk Scores to enhance security measures. This update allows organizations to evaluate user behavior continuously, moving beyond simple &amp;ldquo;allow/deny&amp;rdquo; access rules. 🔒 Now, security teams can assess how users behave, enabling real-time access adjustments based on risk scores derived from various behaviors like failed logins and data handling. 📊 Integrations with partners like CrowdStrike enhance this capability by providing external telemetry. This approach&amp;hellip;</description>
     </item>
     <item>
       <title>Deploy Preview screenshots in agent runs</title>

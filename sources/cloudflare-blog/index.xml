@@ -6,8 +6,43 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Always-on detections: eliminating the WAF “log versus block” trade-off</title>
+      <link>/articles/article-2026-03-04-16226/</link>
+      <pubDate>Wed, 04 Mar 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16226/</guid>
+      <description>🔒 Cloudflare is enhancing web security with its new Attack Signature Detection and Full-Transaction Detection features. These innovations eliminate the trade-off between logging and blocking modes in traditional WAFs. By analyzing both requests and responses, Cloudflare can reduce false positives and identify threats more effectively. Attack Signature Detection is now available in Early Access, while Full-Transaction Detection is in development. This always-on framework ensures continuous&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Mind the gap: new tools for continuous enforcement from boot to login</title>
+      <link>/articles/article-2026-03-04-16227/</link>
+      <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16227/</guid>
+      <description>Cloudflare introduces new tools for enhanced security, focusing on mandatory authentication and multi-factor authentication (MFA). These tools aim to bridge visibility gaps in network security from device boot to resource access. The Cloudflare One Client improves control over Internet access. Mandatory authentication ensures that only authenticated devices can connect, enhancing security and accountability. This feature will first be available on Windows, with plans for other platforms soon&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Defeating the deepfake: stopping laptop farms and insider threats</title>
+      <link>/articles/article-2026-03-04-16228/</link>
+      <pubDate>Wed, 04 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16228/</guid>
+      <description>Cloudflare is teaming up with Nametag to tackle the rising threat of laptop farms and identity fraud in remote work environments. 💻🔒 The partnership aims to enhance identity verification during employee onboarding and ensure continuous authentication, addressing vulnerabilities in the zero trust model. As attackers leverage AI and deepfake technology to infiltrate companies, traditional security measures are proving inadequate. Companies must adapt to protect sensitive information&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Moving from license plates to badges: the Gateway Authorization Proxy</title>
+      <link>/articles/article-2026-03-04-16229/</link>
+      <pubDate>Wed, 04 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16229/</guid>
+      <description>🌐 Cloudflare introduces the Gateway Authorization Proxy, enhancing security for clientless devices like virtual desktops and guest networks. This solution shifts identity verification from devices to the network, allowing for granular policy enforcement on any internet-connected device. The new system uses Cloudflare Access-style logins, ensuring accurate user identification for better control and compliance. Discover how this upgrade can streamline your access management! 🔒📊 #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Stop reacting to breaches and start preventing them with User Risk Scoring</title>
+      <link>/articles/article-2026-03-04-16230/</link>
+      <pubDate>Wed, 04 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-04-16230/</guid>
+      <description>Cloudflare One introduces dynamic User Risk Scores to enhance security measures. This update allows organizations to evaluate user behavior continuously, moving beyond simple &amp;ldquo;allow/deny&amp;rdquo; access rules. 🔒 Now, security teams can assess how users behave, enabling real-time access adjustments based on risk scores derived from various behaviors like failed logins and data handling. 📊 Integrations with partners like CrowdStrike enhance this capability by providing external telemetry. This approach&amp;hellip;</description>
+    </item>
     <item>
       <title>Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalable, and ETL-less</title>
       <link>/articles/article-2026-03-03-16180/</link>

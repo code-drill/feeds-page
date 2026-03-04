@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 20:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 23:59:59 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Preview screenshots in agent runs</title>
+      <link>/articles/article-2026-03-03-16206/</link>
+      <pubDate>Tue, 03 Mar 2026 23:59:59 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16206/</guid>
+      <description>🚀 Great news for Netlify users! Starting today, completed agent runs will display a screenshot of your Deploy Preview. This feature simplifies tracking results without needing to open the full preview. To check it out: 1. Go to your Netlify project dashboard. 2. Select Agent runs. 3. Choose an existing run or start a new one. Note: Private deploys will show a sign-in page. #Netlify #WebDevelopment #AgentRunners #DeployPreview #TechUpdates</description>
+    </item>
     <item>
       <title>Announcing Docker Hardened System Packages</title>
       <link>/articles/article-2026-03-03-16204/</link>
@@ -51,6 +58,13 @@
       <description>🚀 Google has announced a significant change for its Chrome browser: it will shift to a two-week release cycle starting September 8, 2026, with version 153. This new pace aims to provide users with quicker access to performance improvements and fixes. Currently, Chrome operates on a four-week cycle, which was established in 2021. While individual updates will be smaller to reduce disruption, Google will still offer an extended stable version on an eight-week cycle for enterprise users. Stay&amp;hellip;</description>
     </item>
     <item>
+      <title>Azure Databricks Lakebase is Generally Available</title>
+      <link>/articles/article-2026-03-03-16211/</link>
+      <pubDate>Tue, 03 Mar 2026 15:13:16 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16211/</guid>
+      <description>🚀 Exciting news! Azure Databricks Lakebase is now generally available. This new offering enables seamless integration of application development and data management. Users can leverage serverless Postgres to enhance AI agents and applications within the lakehouse framework. Stay updated on this significant development in data technology! #AzureDatabricks #DataManagement #AI #CloudComputing #TechNews</description>
+    </item>
+    <item>
       <title>Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalable, and ETL-less</title>
       <link>/articles/article-2026-03-03-16180/</link>
       <pubDate>Tue, 03 Mar 2026 14:00:00 +0000</pubDate>
@@ -70,6 +84,20 @@
       <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-03-16193/</guid>
       <description>🚀 Exciting news! GPT-5.3 Chat is now available on AI Gateway. This update enhances tone, relevance, and conversational flow, leading to more accurate answers and better web results. It also minimizes unnecessary refusals and reduces hallucination rates for clearer responses. To access this model, use the setting openai/gpt-5.3-chat in the AI SDK. Explore more about AI Gateway, its features, and try it out in the model playground! #GPT53 #AIGateway #AIUpdates #Chatbot #TechNews</description>
+    </item>
+    <item>
+      <title>Vercel Sandbox now accepts environment variables at creation</title>
+      <link>/articles/article-2026-03-03-16209/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16209/</guid>
+      <description>🚀 Exciting update for Vercel users! The Vercel Sandbox SDK and CLI now allow setting environment variables during sandbox creation. These variables will be automatically available for every command, simplifying multi-step processes. To take advantage of this feature, update to the latest Sandbox CLI and SDK by running: &lt;code&gt;npm i @vercel/sandbox&lt;/code&gt;. #Vercel #Sandbox #Development #EnvironmentVariables #TechUpdates</description>
+    </item>
+    <item>
+      <title>Vercel Workflow is now twice as fast</title>
+      <link>/articles/article-2026-03-03-16210/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16210/</guid>
+      <description>🚀 Vercel Workflow has achieved significant performance improvements! The fully managed platform, built on the Workflow Development Kit (WDK), now offers a 54% median speed increase. API response times have dropped from 37ms to 17ms, enhancing efficiency across various workflows. To benefit from these enhancements, users should update to the latest version of the Workflow DevKit (&lt;a href=&#34;mailto:workflow@4.1.0-beta.60&#34;&gt;workflow@4.1.0-beta.60&lt;/a&gt; or newer). #Vercel #Workflow #PerformanceImprovement #TechUpdate #DevKit</description>
     </item>
     <item>
       <title>How Cloudy translates complex security into human action</title>
@@ -112,6 +140,13 @@
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-03-16191/</guid>
       <description>🚀 Exciting news for developers! Google&amp;rsquo;s Gemini 3.1 Flash Lite Preview is now accessible via AI Gateway. You can integrate this model into your Netlify Functions without needing to configure API keys. 🌐 The model supports various function types and is compatible with Netlify&amp;rsquo;s caching and rate limiting features. This provides you with greater control over your site&amp;rsquo;s request behavior. For more details, check out the AI Gateway documentation. 📚 #GoogleAI #Netlify #AIIntegration #WebDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GPT-5.3 Instant now available in AI Gateway</title>
+      <link>/articles/article-2026-03-03-16207/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16207/</guid>
+      <description>🚀 OpenAI has launched the GPT-5.3 Instant model via Netlify’s AI Gateway! This model requires zero configuration, allowing users to utilize the OpenAI SDK in their Netlify Functions without the hassle of managing API keys or authentication. 💻 With automatic access to caching, rate limiting, and authentication, integrating AI has never been easier. For more details, check the AI Gateway documentation. #OpenAI #GPT5 #Netlify #AIGateway #TechNews</description>
     </item>
     <item>
       <title>The Fab March Flash Sale is now on!</title>

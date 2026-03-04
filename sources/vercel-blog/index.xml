@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 03 Mar 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Building Slack agents can be easy</title>
+      <link>/articles/article-2026-03-03-16208/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16208/</guid>
+      <description>Building Slack agents can be streamlined with the right tools. Slack’s interface allows for easy integration of agents without the need for a new UI. The process involves creating a Slack app, configuring settings, and deploying to infrastructure that meets Slack&amp;rsquo;s response requirements. 💻 Using coding agents like Claude Code can simplify this process, guiding you through each step for a deployed agent in a single session. 📦 The Slack agent skill allows for custom implementations, real-time&amp;hellip;</description>
+    </item>
+    <item>
       <title>Gemini 3.1 Flash Lite is now on AI Gateway</title>
       <link>/articles/article-2026-03-03-16176/</link>
       <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
@@ -28,6 +35,20 @@
       <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-03-16192/</guid>
       <description>🚀 Vercel has developed a new approach to handle redirects at scale, allowing for millions of static redirects per project. By utilizing sharding and Bloom filters, they have minimized latency while maintaining low memory usage. This design prioritizes fast lookups and simplicity, making it easier to manage large datasets. Bulk redirects are now available for Pro and Enterprise customers, supporting efficient site migrations and link management. #Vercel #WebDevelopment #Redirects&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Sandbox now accepts environment variables at creation</title>
+      <link>/articles/article-2026-03-03-16209/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16209/</guid>
+      <description>🚀 Exciting update for Vercel users! The Vercel Sandbox SDK and CLI now allow setting environment variables during sandbox creation. These variables will be automatically available for every command, simplifying multi-step processes. To take advantage of this feature, update to the latest Sandbox CLI and SDK by running: &lt;code&gt;npm i @vercel/sandbox&lt;/code&gt;. #Vercel #Sandbox #Development #EnvironmentVariables #TechUpdates</description>
+    </item>
+    <item>
+      <title>Vercel Workflow is now twice as fast</title>
+      <link>/articles/article-2026-03-03-16210/</link>
+      <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-03-16210/</guid>
+      <description>🚀 Vercel Workflow has achieved significant performance improvements! The fully managed platform, built on the Workflow Development Kit (WDK), now offers a 54% median speed increase. API response times have dropped from 37ms to 17ms, enhancing efficiency across various workflows. To benefit from these enhancements, users should update to the latest version of the Workflow DevKit (&lt;a href=&#34;mailto:workflow@4.1.0-beta.60&#34;&gt;workflow@4.1.0-beta.60&lt;/a&gt; or newer). #Vercel #Workflow #PerformanceImprovement #TechUpdate #DevKit</description>
     </item>
     <item>
       <title>How Avalara turns pipe dreams into patent-pending with v0</title>

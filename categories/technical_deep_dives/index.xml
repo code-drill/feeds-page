@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 05 Mar 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Controlling Floating-Point Determinism in NVIDIA CCCL</title>
+      <link>/articles/article-2026-03-05-16279/</link>
+      <pubDate>Thu, 05 Mar 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-05-16279/</guid>
+      <description>Controlling floating-point determinism can be challenging in parallel programming. NVIDIA&amp;rsquo;s CCCL 3.1 introduces a new single-phase API in CUB, allowing users to customize algorithm behavior for determinism. This feature enables configurations for the reduce algorithm&amp;rsquo;s determinism property, enhancing performance and reliability. For a detailed code example, check the full article! #NVIDIA #CUDA #ParallelProgramming #Computing #CUB</description>
+    </item>
+    <item>
       <title>Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile</title>
       <link>/articles/article-2026-03-05-16238/</link>
       <pubDate>Thu, 05 Mar 2026 17:00:00 +0000</pubDate>

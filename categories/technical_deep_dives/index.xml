@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2026 14:16:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 16:37:58 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Data 360 Optimized Kubernetes Scheduling Architecture, Delivering 13% Cost Savings</title>
+      <link>/articles/article-2026-03-05-16274/</link>
+      <pubDate>Thu, 05 Mar 2026 16:37:58 +0000</pubDate>
+      <guid>/articles/article-2026-03-05-16274/</guid>
+      <description>🚀 Data 360 has optimized its Kubernetes scheduling architecture, achieving a 13% cost reduction. Padma Aradhyula and her team manage a vast platform orchestrating millions of Spark applications daily. By redesigning the scheduling logic, they reduced node fragmentation and improved efficiency in handling bursty workloads. Their mission is to provide a reliable compute foundation, ensuring high data availability and operational reliability. Learn more about their innovative approach! 💡&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building High Throughput Payment Account Processing</title>
+      <link>/articles/article-2026-03-05-16275/</link>
+      <pubDate>Thu, 05 Mar 2026 14:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-05-16275/</guid>
+      <description>🚀 Uber has developed a Payment Account Batch Processing system that efficiently manages over 30 financial updates per second. This system is designed for hot accounts, providing sub-second batching and maintaining strict consistency without relying on special hardware or software. Discover how innovative engineering can optimize payment processing! 💳⚙️ #PaymentProcessing #TechInnovation #BackendEngineering #UberTech</description>
+    </item>
     <item>
       <title>Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations</title>
       <link>/articles/article-2026-03-05-16264/</link>
@@ -28,6 +42,13 @@
       <pubDate>Thu, 05 Mar 2026 07:00:54 +0000</pubDate>
       <guid>/articles/article-2026-03-05-16256/</guid>
       <description>Retrieval-augmented generation (RAG) is a method for answering questions using your own content without relying on general LLMs. It follows a simple pattern: retrieve context, then answer. This article explores a straightforward RAG implementation with Apache Camel and PostgreSQL, focusing on making the process easy to understand and debug. Key steps include indexing content, retrieving information, and providing answers based on the context. Learn about embeddings, chunking, and how to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A QUICker SASE client: re-building Proxy Mode</title>
+      <link>/articles/article-2026-03-05-16271/</link>
+      <pubDate>Thu, 05 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-05-16271/</guid>
+      <description>🚀 Exciting improvements in Cloudflare&amp;rsquo;s One Client! By transitioning to QUIC streams for Proxy Mode, the team has doubled throughput and significantly reduced latency. This change addresses common user frustrations like slow browsing and file transfers. The revamped architecture eliminates the inefficiencies of the previous user-space TCP stack, enhancing performance for media-heavy sites. #Cloudflare #SASE #QUIC #ProxyMode #TechInnovation</description>
     </item>
     <item>
       <title>It Wasn’t a Culture Problem: Upleveling Alert Development at Airbnb</title>

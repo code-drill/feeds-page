@@ -449,6 +449,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/client-dynamic-path-mtu-discovery/" target="_blank">Ending the &#34;silent drop&#34;: how Dynamic Path MTU Discovery makes the Cloudflare One Client more resilient</a></h2>
+            <div class="publication-date">2026-03-05 14:00</div>
+            <div class="summary">🌐 Cloudflare has enhanced its One Client with Dynamic Path MTU Discovery, transforming how packet sizes are managed. This update addresses the common &#34;PMTUD Black Hole&#34; issue, which occurs when packets exceed network limits without clear feedback. The client now adjusts packet sizes actively, ensuring stable connections across diverse networks. This advancement supports modern security needs while adapting to legacy infrastructure challenges. 🔒💻 #Cloudflare #NetworkSecurity #MTU #TechUpdate...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Todd Murray</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/faster-sase-proxy-mode-quic/" target="_blank">A QUICker SASE client: re-building Proxy Mode</a></h2>
+            <div class="publication-date">2026-03-05 06:00</div>
+            <div class="summary">🚀 Exciting improvements in Cloudflare&#39;s One Client! By transitioning to QUIC streams for Proxy Mode, the team has doubled throughput and significantly reduced latency. This change addresses common user frustrations like slow browsing and file transfers. The revamped architecture eliminates the inefficiencies of the previous user-space TCP stack, enhancing performance for media-heavy sites. #Cloudflare #SASE #QUIC #ProxyMode #TechInnovation</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Gregor Maier</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/automatic-return-routing-ip-overlap/" target="_blank">How Automatic Return Routing solves IP overlap</a></h2>
+            <div class="publication-date">2026-03-05 06:00</div>
+            <div class="summary">🚀 Automatic Return Routing (ARR) addresses the challenge of overlapping private IP addresses in enterprise networks. This new tool from Cloudflare One uses stateful flow tracking to ensure return traffic reaches the correct origin tunnel, eliminating the need for manual NAT or complex VRF configurations. ARR is designed for common scenarios like mergers, extranet connections, and cookie-cutter architectures, making it easier for overlapping networks to coexist. #Cloudflare #Networking...</div>
+            <div class="source">Source: Cloudflare Blog</div>
+            
+            <div class="author">Thea Heinen</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://blog.cloudflare.com/attack-signature-detection/" target="_blank">Always-on detections: eliminating the WAF “log versus block” trade-off</a></h2>
             <div class="publication-date">2026-03-04 15:00</div>
             <div class="summary">🔒 Cloudflare is enhancing web security with its new Attack Signature Detection and Full-Transaction Detection features. These innovations eliminate the trade-off between logging and blocking modes in traditional WAFs. By analyzing both requests and responses, Cloudflare can reduce false positives and identify threats more effectively. Attack Signature Detection is now available in Early Access, while Full-Transaction Detection is in development. This always-on framework ensures continuous...</div>
@@ -1072,57 +1123,6 @@
             <div class="categories">
                 
                 <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/bgp-route-leak-venezuela/" target="_blank">A closer look at a BGP anomaly in Venezuela</a></h2>
-            <div class="publication-date">2026-01-06 08:00</div>
-            <div class="summary">On January 2, a BGP anomaly was observed in Venezuela, raising questions about its cause. A cybersecurity newsletter analyzed Cloudflare Radar data, noting eleven route leak events involving the ISP CANTV (AS8048) since December. These route leaks suggest possible issues with the ISP&#39;s routing policies rather than intentional wrongdoing. BGP route leaks occur when routing announcements extend beyond their intended scope, causing potential delays in network traffic. This post explores the...</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Bryton Herdes</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/" target="_blank">How Workers powers our internal maintenance scheduling pipeline</a></h2>
-            <div class="publication-date">2025-12-22 14:00</div>
-            <div class="summary">Cloudflare has developed a maintenance scheduler using Workers to enhance the safety of data center operations globally. 🌍 With over 330 data centers, managing maintenance manually proved challenging. The new system automates oversight, reducing the risk of conflicts during hardware updates. ⚙️ This scheduler analyzes multiple metrics to ensure critical services remain reliable, avoiding potential downtime for customers. 🔒 Learn more about how this technology is transforming maintenance...</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Michael Hoffmann</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/fail-small-resilience-plan/" target="_blank">Code Orange: Fail Small — Our resilience plan following recent incidents</a></h2>
-            <div class="publication-date">2025-12-19 22:35</div>
-            <div class="summary">🚨 Cloudflare has declared &#34;Code Orange: Fail Small&#34; to enhance network resilience after two recent outages. These incidents, occurring on November 18 and December 5, resulted in significant service disruptions, prompting a commitment to prevent future occurrences. Key initiatives include controlled rollouts for configuration changes, improved failure mode testing, and revamped emergency procedures. Cloudflare aims for incremental improvements to ensure a more reliable network for all users....</div>
-            <div class="source">Source: Cloudflare Blog</div>
-            
-            <div class="author">Dane Knecht</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
                 
             </div>
             

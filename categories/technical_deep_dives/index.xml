@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 05:18:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 18:25:14 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecting a Rovo AI Teammate: From AI ‘Magic’ to Production-Ready Forge Code</title>
+      <link>/articles/article-2026-03-06-16339/</link>
+      <pubDate>Fri, 06 Mar 2026 18:25:14 +0000</pubDate>
+      <guid>/articles/article-2026-03-06-16339/</guid>
+      <description>🚀 Building my first production-ready Rovo app was a deep dive into AI-assisted development. I shared my internal thoughts as I navigated the journey from idea to execution. 💡 I identified a key problem: the mental load during planning. The Rovo agent helped transform vague ideas into actionable plans, easing the burden on our team. 💻 Using Rovo Studio, I quickly prototyped a solution to create team-bonding activities. The platform&amp;rsquo;s intuitive interface allowed for seamless interaction, making&amp;hellip;</description>
+    </item>
+    <item>
+      <title>LogSentinel: How Databricks uses Databricks for LLM-Powered PII Detection and Governance</title>
+      <link>/articles/article-2026-03-06-16337/</link>
+      <pubDate>Fri, 06 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-06-16337/</guid>
+      <description>Databricks is leveraging its own platform, Databricks, for LLM-powered PII detection and governance. The article discusses how LogSentinel automates the discovery of personally identifiable information (PII) in their ever-evolving datasets and logs. This approach enhances data governance and compliance, making it easier to manage sensitive information. 🔍📊 #DataGovernance #PIIDetection #Databricks #LLM #Automation</description>
+    </item>
     <item>
       <title>Scaling Jira cloud Migrations, One Bottleneck at a Time</title>
       <link>/articles/article-2026-03-06-16312/</link>
@@ -28,6 +42,13 @@
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-06-16326/</guid>
       <description>🚀 Discover how Auth0 Fine-Grained Authorization (FGA) is addressing complex enterprise access challenges. FGA, utilizing Relationship-Based Access Control (ReBAC), allows precise management of user access based on real-world relationships. This is crucial in sectors like banking and healthcare where permissions often change. For example, in banking, FGA ensures parental access to a child&amp;rsquo;s account automatically ends when the child turns 18, protecting privacy and adhering to regulations&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>High-performance envelope encryption at Ariso.ai with Vault</title>
+      <link>/articles/article-2026-03-05-16338/</link>
+      <pubDate>Thu, 05 Mar 2026 23:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-05-16338/</guid>
+      <description>🔐 Ariso.ai implements high-performance envelope encryption using HashiCorp Vault&amp;rsquo;s Transit secrets engine. This innovation ensures tenant isolation while processing sensitive data with sub-millisecond latency. Ari, the AI assistant, securely manages messages, transcripts, and credentials, eliminating risks from previous encryption methods. The platform now maintains strict cryptographic isolation across multiple categories of data. Key benefits include: - 0.46ms median latency - 8:1 encrypt-&amp;hellip;</description>
     </item>
     <item>
       <title>Controlling Floating-Point Determinism in NVIDIA CCCL</title>

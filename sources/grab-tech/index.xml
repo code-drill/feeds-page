@@ -6,8 +6,15 @@
     <description>Recent content in Grab-Tech on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 00:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 00:23:00 +0000</lastBuildDate>
     <atom:link href="/sources/grab-tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reclaiming Terabytes: Optimizing Android image caching with TLRU</title>
+      <link>/articles/article-2026-03-06-16306/</link>
+      <pubDate>Fri, 06 Mar 2026 00:23:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-06-16306/</guid>
+      <description>🚀 Grab has enhanced its Android app&amp;rsquo;s image caching by evolving the traditional LRU cache into a Time-Aware Least Recently Used (TLRU) cache. This new approach helps reclaim valuable storage space while ensuring users still enjoy optimal performance. By implementing time-based evictions, TLRU effectively manages outdated images, reducing the app&amp;rsquo;s disk footprint without compromising user experience or increasing server costs. With this improvement, Grab has achieved significant storage&amp;hellip;</description>
+    </item>
     <item>
       <title>Cursor at Grab: Adoption and impact</title>
       <link>/articles/article-2026-01-29-14995/</link>

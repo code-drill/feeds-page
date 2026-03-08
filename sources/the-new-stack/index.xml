@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 13:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 15:10:06 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is your Kubernetes cluster adding nodes when the dashboards look fine?</title>
+      <link>/articles/article-2026-03-08-16380/</link>
+      <pubDate>Sun, 08 Mar 2026 15:10:06 +0000</pubDate>
+      <guid>/articles/article-2026-03-08-16380/</guid>
+      <description>Kubernetes clusters are increasingly adding nodes despite seemingly adequate resource utilization. This trend is linked to the rise of bursty workloads, especially in AI applications, which puts pressure on scheduling and autoscaling behaviors. Even with tools like Cluster Autoscaler or Karpenter, misconfigured inputs can lead to unexpected scaling. Metrics may appear calm, but if requests are set too high and not adjusted over time, pods can end up pending, prompting the cluster to scale&amp;hellip;</description>
+    </item>
     <item>
       <title>Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines</title>
       <link>/articles/article-2026-03-08-16379/</link>

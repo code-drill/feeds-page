@@ -16,6 +16,20 @@
       <description>NVIDIA Megatron Core is a key framework for large language model development, offering advanced parallelism and GPU performance. The Technology Innovation Institute (TII) has integrated the Falcon-H1 hybrid architecture into Megatron Bridge, addressing the challenges of coordinating diverse layers. This innovative design features parallel processing of attention mechanisms and SSM. Additionally, TII&amp;rsquo;s integration of BitNet into Megatron Core enhances training efficiency through the use of&amp;hellip;</description>
     </item>
     <item>
+      <title>Decoupled by Design: Billion-Scale Vector Search</title>
+      <link>/articles/article-2026-03-09-16450/</link>
+      <pubDate>Mon, 09 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16450/</guid>
+      <description>Vector search is now a key component for AI applications, driven by the need for efficient data retrieval. The article discusses the growth of billion-scale vector search systems, highlighting their architecture and performance benefits. This technology supports varied AI tasks, ensuring faster and more accurate results. Explore the evolving landscape of AI infrastructure! 🤖🔍 #VectorSearch #AI #DataRetrieval #Technology #Innovation</description>
+    </item>
+    <item>
+      <title>Engineering Platform Trust: Cutting Customer Case Volume 20x with Petabyte-Scale Health Signals</title>
+      <link>/articles/article-2026-03-09-16451/</link>
+      <pubDate>Mon, 09 Mar 2026 17:24:03 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16451/</guid>
+      <description>🚀 Exciting developments in Salesforce! In the latest Engineering Energizers Q&amp;amp;A, Sanjeevani Bhardwaj discusses the Technical Health Score, aimed at measuring platform trust. This initiative uses analytics to process petabytes of data, providing actionable insights for Salesforce implementations. The team created a continuous feedback loop to aggregate health signals across five key pillars: Security, Efficiency, Operational Excellence, Customization, and Observability. This standardization&amp;hellip;</description>
+    </item>
+    <item>
       <title>Enhancing Distributed Inference Performance with the NVIDIA Inference Transfer Library</title>
       <link>/articles/article-2026-03-09-16440/</link>
       <pubDate>Mon, 09 Mar 2026 17:00:00 +0000</pubDate>
@@ -63,6 +77,13 @@
       <pubDate>Mon, 09 Mar 2026 03:01:19 +0000</pubDate>
       <guid>/articles/article-2026-03-09-16383/</guid>
       <description>🚀 In multi-cluster management, effective workload deployment is crucial. The Placement API and PlacementScores from Open Cluster Management enable dynamic cluster selection based on various metrics. 📊 The new Dynamic Scoring Framework automates cluster scoring using Prometheus metrics, making real-time decisions easier. It simplifies the integration process, allowing for tailored scoring logic. 🔧 Developers can create custom scorers for cost efficiency, predictive metrics, and more, enhancing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ulysses Sequence Parallelism: Training with Million-Token Contexts</title>
+      <link>/articles/article-2026-03-09-16445/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16445/</guid>
+      <description>🚀 Training large language models is evolving! The article discusses Ulysses Sequence Parallelism, a method designed to handle long sequences of up to millions of tokens. This approach is crucial for tasks like document analysis and complex reasoning. Ulysses tackles memory challenges by distributing attention computation across multiple GPUs, making it easier to manage large contexts. It&amp;rsquo;s integrated within the Hugging Face ecosystem, enhancing tools like Accelerate and the Transformers&amp;hellip;</description>
     </item>
     <item>
       <title>Why is your Kubernetes cluster adding nodes when the dashboards look fine?</title>

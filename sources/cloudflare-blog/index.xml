@@ -6,8 +6,29 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active defense: introducing a stateful vulnerability scanner for APIs</title>
+      <link>/articles/article-2026-03-09-16431/</link>
+      <pubDate>Mon, 09 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16431/</guid>
+      <description>🚀 Cloudflare has launched a new Web and API Vulnerability Scanner to help teams identify logic flaws in APIs. This tool uses AI to create API call graphs, focusing initially on the Broken Object Level Authorization (BOLA) vulnerability. Traditional security methods often miss these types of issues. The scanner will first be available to API Shield customers, with plans to expand its capabilities over time. #Cloudflare #APISecurity #VulnerabilityScanner #Cybersecurity #TechInnovation</description>
+    </item>
+    <item>
+      <title>Fixing request smuggling vulnerabilities in Pingora OSS deployments</title>
+      <link>/articles/article-2026-03-09-16430/</link>
+      <pubDate>Mon, 09 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16430/</guid>
+      <description>🚨 We have disclosed request smuggling vulnerabilities in the Pingora open source framework, specifically when used as an ingress proxy. The vulnerabilities, identified as CVE-2026-2833, CVE-2026-2835, and CVE-2026-2836, were responsibly reported by Rajat Raghav through our Bug Bounty Program. No impact was detected on Cloudflare’s CDN or customer traffic, but users of standalone Pingora deployments should upgrade to version 0.8.0 for fixes and hardening. For details on how these&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Complexity is a choice. SASE migrations shouldn’t take years.</title>
+      <link>/articles/article-2026-03-09-16432/</link>
+      <pubDate>Mon, 09 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16432/</guid>
+      <description>🌐 Cloudflare partners TachTech and Adapture are revolutionizing SASE migrations, cutting timelines from 18 months to just 6 weeks. By treating security as software, they are enhancing the deployment process for global enterprises. This shift eliminates the complexities often tied to legacy systems. Key strategies include leveraging identity-first on-ramps and consolidated policy engines for a faster transition. 📈 #Cloudflare #SASE #ZeroTrust #Cybersecurity #TechInnovation</description>
+    </item>
     <item>
       <title>From the endpoint to the prompt: a unified data security vision in Cloudflare One</title>
       <link>/articles/article-2026-03-06-16327/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 12:00:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing request smuggling vulnerabilities in Pingora OSS deployments</title>
+      <link>/articles/article-2026-03-09-16430/</link>
+      <pubDate>Mon, 09 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16430/</guid>
+      <description>🚨 We have disclosed request smuggling vulnerabilities in the Pingora open source framework, specifically when used as an ingress proxy. The vulnerabilities, identified as CVE-2026-2833, CVE-2026-2835, and CVE-2026-2836, were responsibly reported by Rajat Raghav through our Bug Bounty Program. No impact was detected on Cloudflare’s CDN or customer traffic, but users of standalone Pingora deployments should upgrade to version 0.8.0 for fixes and hardening. For details on how these&amp;hellip;</description>
+    </item>
     <item>
       <title>Encrypted Visibility Engine: The Security Analyst’s New Superpower</title>
       <link>/articles/article-2026-03-09-16389/</link>

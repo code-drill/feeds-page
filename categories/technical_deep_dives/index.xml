@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 16:53:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 19:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Falcon-H1 Hybrid Architecture in NVIDIA Megatron Core</title>
+      <link>/articles/article-2026-03-09-16439/</link>
+      <pubDate>Mon, 09 Mar 2026 19:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16439/</guid>
+      <description>NVIDIA Megatron Core is a key framework for large language model development, offering advanced parallelism and GPU performance. The Technology Innovation Institute (TII) has integrated the Falcon-H1 hybrid architecture into Megatron Bridge, addressing the challenges of coordinating diverse layers. This innovative design features parallel processing of attention mechanisms and SSM. Additionally, TII&amp;rsquo;s integration of BitNet into Megatron Core enhances training efficiency through the use of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enhancing Distributed Inference Performance with the NVIDIA Inference Transfer Library</title>
+      <link>/articles/article-2026-03-09-16440/</link>
+      <pubDate>Mon, 09 Mar 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-09-16440/</guid>
+      <description>🚀 Large language models (LLMs) are increasingly relying on large-scale distributed inference, utilizing multiple GPUs to improve user experience and reduce latency. Key techniques include disaggregated serving, efficient KV cache loading, and wide expert parallelism. These methods help maximize performance by optimizing data transfers and enabling dynamic resource allocation. The NVIDIA Inference Transfer Library (NIXL) is introduced as a solution for managing diverse hardware environments,&amp;hellip;</description>
+    </item>
     <item>
       <title>Fighting Fraud at Scale: Insights from building a real-time rules engine</title>
       <link>/articles/article-2026-03-09-16429/</link>

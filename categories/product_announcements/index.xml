@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 15:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA RTX Innovations Are Powering the Next Era of Game Development</title>
+      <link>/articles/article-2026-03-10-16484/</link>
+      <pubDate>Tue, 10 Mar 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16484/</guid>
+      <description>NVIDIA is leading a revolution in game development with its RTX ray tracing and AI-powered technologies. 🌟 At GDC 2026, they showcased innovations that enhance visual fidelity and performance. Key highlights include: - A new system for dense, path-traced foliage in NVIDIA RTX Mega Geometry. - Path-traced indirect lighting and RTX Hair for streamlined graphics in UE5. - Advanced on-device AI models for engaging gameplay and character interactions. These developments promise to transform how&amp;hellip;</description>
+    </item>
     <item>
       <title>Building a security overview dashboard for actionable insights</title>
       <link>/articles/article-2026-03-10-16478/</link>
@@ -16,11 +23,39 @@
       <description>Cloudflare has launched a new Security Overview dashboard to enhance security management. The dashboard prioritizes actionable insights, helping security teams focus on urgent vulnerabilities rather than sifting through data. Key features include Security Action Items, which rank issues by criticality, allowing teams to address risks effectively. ⚠️🔍 Additionally, the Detection Tools module provides a clear view of security tool statuses, addressing common configuration gaps. This ensures&amp;hellip;</description>
     </item>
     <item>
+      <title>Chat SDK now has an adapter directory</title>
+      <link>/articles/article-2026-03-10-16489/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16489/</guid>
+      <description>🚀 Exciting news for developers! Chat SDK now features a new adapter directory. You can easily search for platform and state adapters from both Vercel and the community. The directory includes official adapters maintained by the Chat SDK team, vendor-official adapters from companies like Resend and Beeper, and community-driven adapters. Teams are encouraged to build and submit their own adapters for inclusion. Check out the directory and the contributing guide to get started! #ChatSDK&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Sandbox now supports 1 vCPU &#43; 2 GB configurations</title>
+      <link>/articles/article-2026-03-10-16488/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16488/</guid>
+      <description>🚀 Vercel Sandbox has introduced support for 1 vCPU and 2 GB of RAM configurations! This update is perfect for single-threaded or light workloads that don&amp;rsquo;t require extra resources. The default configuration remains at 2 vCPUs and 4 GB of RAM if not specified. To start, use the resources.vcpus option in the SDK or the &amp;ndash;vcpus option in the CLI. Learn more in the documentation! 📚 #Vercel #DevTools #CloudComputing #TechUpdates #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Astro 6 just works on Netlify</title>
+      <link>/articles/article-2026-03-10-16487/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16487/</guid>
+      <description>🚀 Astro 6 is here and works seamlessly on Netlify! To upgrade, simply run: &lt;code&gt;npx @astrojs/upgrade&lt;/code&gt; 🔍 Key updates include: - &lt;strong&gt;Vite 7&lt;/strong&gt;: Experience faster builds with a redesigned dev server. - &lt;strong&gt;Content Layer API&lt;/strong&gt;: Legacy content collections are removed. - &lt;strong&gt;Node 22&lt;/strong&gt;: Support for Node 18 and 20 has ended. ⚠️ Note: &lt;code&gt;import.meta.env&lt;/code&gt; values are now inlined at build time. For runtime variables, switch to &lt;code&gt;process.env&lt;/code&gt;. Check the upgrade guide for more details! #Astro6 #Netlify #WebDevelopment&amp;hellip;</description>
+    </item>
+    <item>
       <title>Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code</title>
       <link>/articles/article-2026-03-10-16482/</link>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-10-16482/</guid>
       <description>🚀 Google has launched two new features for Gemini Code Assist in IntelliJ and VS Code: &lt;strong&gt;Finish Changes&lt;/strong&gt; and &lt;strong&gt;Outlines&lt;/strong&gt;. 🔍 &lt;strong&gt;Finish Changes&lt;/strong&gt; acts as an AI pair programmer, completing code based on your edits without needing long prompts. It understands your intent from partial code, pseudocode, and comments. 📄 &lt;strong&gt;Outlines&lt;/strong&gt; generates interactive summaries within your code, enhancing comprehension and navigation of complex files. Check out these tools to streamline your development process!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Introducing Storage Buckets on the Hugging Face Hub</title>
+      <link>/articles/article-2026-03-10-16490/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16490/</guid>
+      <description>🚀 Exciting news from Hugging Face! They have introduced Storage Buckets on the Hugging Face Hub, designed specifically for production ML needs. These buckets allow for mutable, S3-like object storage, perfect for handling intermediate files like checkpoints and logs. You can easily browse, script from Python, or manage these files using the hf CLI, streamlining your workflow. #HuggingFace #MachineLearning #StorageBuckets #AI #DataManagement</description>
     </item>
     <item>
       <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>

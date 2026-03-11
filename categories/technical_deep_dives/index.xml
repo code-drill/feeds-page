@@ -6,14 +6,35 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 13:17:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 15:53:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centralized Power: How TeamCity’s Architecture Solves Jenkins’ Scaling Problem</title>
+      <link>/articles/article-2026-03-11-16524/</link>
+      <pubDate>Wed, 11 Mar 2026 15:53:55 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16524/</guid>
+      <description>🚀 &lt;strong&gt;Scaling CI/CD with TeamCity&lt;/strong&gt; 🚀 Jenkins users often face slowdowns as builds queue up, prompting a need for better management. The article highlights common challenges such as controller bottlenecks and plugin complications that arise as teams grow. In contrast, TeamCity&amp;rsquo;s centralized server-agent architecture simplifies scaling. By reducing operational burdens, it allows teams to focus on development rather than maintenance. Explore the differences and benefits of both systems in the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerated expert-parallel distributed tuning in Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-03-11-16522/</link>
+      <pubDate>Wed, 11 Mar 2026 15:50:17 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16522/</guid>
+      <description>Red Hat OpenShift AI enhances AI performance through distributed fine-tuning of foundation models. The article discusses challenges in coordinating computation and communication across GPUs. To address this, it introduces the open-source library, fms-hf-tuning, which supports efficient fine-tuning of language and vision-language models. Key features include data preprocessing, throughput optimization, and expert parallelism techniques. The library aims to improve memory efficiency and&amp;hellip;</description>
+    </item>
     <item>
       <title>Beyond CRM: How Salesforce Engineered an Enterprise Agent Platform for Any Workload</title>
       <link>/articles/article-2026-03-11-16515/</link>
       <pubDate>Wed, 11 Mar 2026 13:17:55 +0000</pubDate>
       <guid>/articles/article-2026-03-11-16515/</guid>
       <description>Salesforce is transforming how enterprises handle agent-based systems. Their new platform, including Agentforce and Data 360, aims to be an enterprise-standard foundation for managing diverse workloads beyond CRM. This architecture supports complex, mission-critical systems while ensuring scalability and reliability. Key features include trust and governance integrated from the start, allowing agents to operate securely with sensitive data. The platform also harmonizes data from various&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Beyond Provisioning: The Developer’s Guide to Databricks Lakebase Autoscaling</title>
+      <link>/articles/article-2026-03-11-16535/</link>
+      <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16535/</guid>
+      <description>Discover how to optimize your database with the latest insights on Databricks Lakebase Autoscaling. 🚀 The article outlines two provisioning options: over-provisioning, which allocates excess resources, and under-provisioning, which can hinder performance. Learn how autoscaling can enhance efficiency and reduce costs for developers. 📈💻 #Databricks #Autoscaling #DatabaseManagement #CloudComputing #TechInsights</description>
     </item>
     <item>
       <title>Bringing Visualizations to Life in Multi‑Agent Systems With Vega‑Lite</title>
@@ -35,6 +56,13 @@
       <pubDate>Tue, 10 Mar 2026 13:30:00 +0000</pubDate>
       <guid>/articles/article-2026-03-10-16480/</guid>
       <description>🚀 Exciting advancements at Uber in ads personalization! The team has enhanced their model using Transformer-based sequential encoders and Hetero-MMoE. This upgrade aims to better understand user intent and improve targeting accuracy. These innovations are designed to scale intelligent ad delivery across the platform effectively. #UberAI #AdsPersonalization #MachineLearning #DataScience #Innovation</description>
+    </item>
+    <item>
+      <title>How we run Vercel&#39;s CDN in front of Discourse</title>
+      <link>/articles/article-2026-03-10-16529/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16529/</guid>
+      <description>Vercel&amp;rsquo;s CDN enables you to enhance applications like Discourse without a full migration. It offers firewall protection, DDoS mitigation, and useful analytics. By using Vercel Microfrontends, you can seamlessly integrate new features while maintaining user authentication. This approach provides a secure and flexible way to modernize applications incrementally. Learn more about it at community.vercel.com/live. 🌐🔒📊 #Vercel #CDN #WebDevelopment #Microfrontends #Discourse</description>
     </item>
     <item>
       <title>Rovo Dev CLI Ralph Wiggums Loop for Large Scale Test Refactoring</title>

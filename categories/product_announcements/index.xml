@@ -6,14 +6,35 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Nemotron 3 Super: An Open Hybrid Mamba-Transformer MoE for Agentic Reasoning</title>
+      <link>/articles/article-2026-03-11-16523/</link>
+      <pubDate>Wed, 11 Mar 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16523/</guid>
+      <description>Introducing the Nemotron 3 Super! 🚀 This new AI model is designed for agentic reasoning, offering enhanced efficiency for complex tasks like software development and cybersecurity. With a 120B total and 12B active parameters, it addresses key challenges like &amp;ldquo;context explosion&amp;rdquo; and the &amp;ldquo;thinking tax.&amp;rdquo; The model features a 1M-token context window, allowing for long-term memory and improved accuracy. Its innovative architecture enhances throughput by over 5x compared to previous models&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Databricks acquires Quotient AI to power AI agent evaluations</title>
+      <link>/articles/article-2026-03-11-16534/</link>
+      <pubDate>Wed, 11 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16534/</guid>
+      <description>🚀 Databricks has acquired Quotient AI, enhancing its AI agent evaluation capabilities. This acquisition aims to improve Genie, Genie Code, and Agent Bricks by integrating continuous evaluation and reinforcement learning. This move is expected to lead to more reliable AI agents in production settings. Stay tuned for updates! #Databricks #QuotientAI #ArtificialIntelligence #TechNews #Innovation</description>
+    </item>
     <item>
       <title>AI Security for Apps is now generally available</title>
       <link>/articles/article-2026-03-11-16513/</link>
       <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-11-16513/</guid>
       <description>🌐 Cloudflare has launched AI Security for Apps, providing a security layer for AI-powered applications. 📊 This new feature helps discover and protect applications, regardless of model or hosting provider. AI endpoint discovery is now free for all customers, enhancing visibility into AI deployments. 🤝 Cloudflare is expanding its collaboration with IBM for AI security and partnering with Wiz for a unified security view. #Cloudflare #AISecurity #Cybersecurity #AIApplications #TechNews</description>
+    </item>
+    <item>
+      <title>Improved data collection for Web Analytics and Speed Insights with resilient intake</title>
+      <link>/articles/article-2026-03-11-16528/</link>
+      <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16528/</guid>
+      <description>🚀 Web Analytics and Speed Insights version 2 is here! This update introduces resilient intake, enhancing data collection reliability by dynamically discovering endpoints. This means more complete traffic and performance data for your analyses. To get started, simply update your packages with no additional configuration needed. Existing setups remain unaffected. 📦 Install the latest versions to take advantage of these improvements and explore the documentation for more details! #WebAnalytics&amp;hellip;</description>
     </item>
     <item>
       <title>Slashing agent token costs by 98% with RFC 9457-compliant error responses</title>
@@ -23,11 +44,25 @@
       <description>Cloudflare has introduced RFC 9457-compliant error responses for AI agents. This change replaces traditional HTML error pages with structured Markdown and JSON payloads. The new format reduces token usage by over 98% and provides clear, actionable guidance for agents. For example, instead of just &amp;ldquo;Access denied,&amp;rdquo; agents receive specific instructions on how to proceed. This update is automatically live across the Cloudflare network, enhancing the efficiency of AI workflows without requiring&amp;hellip;</description>
     </item>
     <item>
+      <title>Subscribe to webhook events for Vercel Flags</title>
+      <link>/articles/article-2026-03-11-16527/</link>
+      <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16527/</guid>
+      <description>🔔 Exciting news for Vercel users! You can now subscribe to webhook events for enhanced visibility into feature flag operations. 📊 New event categories include: - &lt;strong&gt;Flag management&lt;/strong&gt;: Monitor when flags are created, modified, or deleted. - &lt;strong&gt;Segment management&lt;/strong&gt;: Get alerts on segment changes. These updates allow teams to integrate monitoring into their workflows and track the full lifecycle of feature flags. Check out the documentation to learn more! 📖 #Vercel #Webhooks #FeatureFlags&amp;hellip;</description>
+    </item>
+    <item>
       <title>Improve code quality and security with PatchPatrol</title>
       <link>/articles/article-2026-03-11-16508/</link>
       <pubDate>Wed, 11 Mar 2026 07:01:04 +0000</pubDate>
       <guid>/articles/article-2026-03-11-16508/</guid>
       <description>🚀 Introducing PatchPatrol, an open-source tool designed to enhance code quality and security for enterprise teams using Red Hat OpenShift. PatchPatrol integrates AI-powered analysis directly into your CI/CD pipelines, ensuring every code change meets security standards. It offers dual modes: one for code quality and another focused on security vulnerabilities, including OWASP Top 10 detection. With flexible backend options, teams can choose between local and cloud models based on their needs&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Plan mode is now available in Gemini CLI</title>
+      <link>/articles/article-2026-03-11-16538/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16538/</guid>
+      <description>🚀 Gemini CLI introduces Plan Mode! This new feature allows developers to analyze complex codebases in a read-only environment. In Plan Mode, the AI can map out architectural changes and understand dependencies without making any accidental modifications. It also uses the ask_user tool for better collaboration, allowing users to refine strategies before implementation. Explore safely with tools like read_file and grep_search, and customize your experience with personal policies. #GeminiCLI&amp;hellip;</description>
     </item>
     <item>
       <title>With its latest Phi-4 reasoning model, Microsoft reckons bigger isn’t always better</title>
@@ -105,6 +140,13 @@
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-10-16490/</guid>
       <description>🚀 Exciting news from Hugging Face! They have introduced Storage Buckets on the Hugging Face Hub, designed specifically for production ML needs. These buckets allow for mutable, S3-like object storage, perfect for handling intermediate files like checkpoints and logs. You can easily browse, script from Python, or manage these files using the hf CLI, streamlining your workflow. #HuggingFace #MachineLearning #StorageBuckets #AI #DataManagement</description>
+    </item>
+    <item>
+      <title>Telesign SMS Messaging API integration is now available in the Auth0 Marketplace</title>
+      <link>/articles/article-2026-03-10-16531/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16531/</guid>
+      <description>📢 Exciting news! The Telesign SMS Messaging API is now integrated into the Auth0 Marketplace. This integration allows businesses to send real-time SMS alerts during critical identity moments, enhancing security and user experience. 🔐 Now, organizations can automate notifications for logins, password resets, and security warnings across a global user base, ensuring timely communication. 🌍 With this integration, developers can improve user engagement without needing custom setups. #Auth0&amp;hellip;</description>
     </item>
     <item>
       <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>

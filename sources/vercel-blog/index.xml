@@ -6,14 +6,35 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improved data collection for Web Analytics and Speed Insights with resilient intake</title>
+      <link>/articles/article-2026-03-11-16528/</link>
+      <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16528/</guid>
+      <description>🚀 Web Analytics and Speed Insights version 2 is here! This update introduces resilient intake, enhancing data collection reliability by dynamically discovering endpoints. This means more complete traffic and performance data for your analyses. To get started, simply update your packages with no additional configuration needed. Existing setups remain unaffected. 📦 Install the latest versions to take advantage of these improvements and explore the documentation for more details! #WebAnalytics&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Subscribe to webhook events for Vercel Flags</title>
+      <link>/articles/article-2026-03-11-16527/</link>
+      <pubDate>Wed, 11 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-11-16527/</guid>
+      <description>🔔 Exciting news for Vercel users! You can now subscribe to webhook events for enhanced visibility into feature flag operations. 📊 New event categories include: - &lt;strong&gt;Flag management&lt;/strong&gt;: Monitor when flags are created, modified, or deleted. - &lt;strong&gt;Segment management&lt;/strong&gt;: Get alerts on segment changes. These updates allow teams to integrate monitoring into their workflows and track the full lifecycle of feature flags. Check out the documentation to learn more! 📖 #Vercel #Webhooks #FeatureFlags&amp;hellip;</description>
+    </item>
     <item>
       <title>Chat SDK now has an adapter directory</title>
       <link>/articles/article-2026-03-10-16489/</link>
       <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-10-16489/</guid>
       <description>🚀 Exciting news for developers! Chat SDK now features a new adapter directory. You can easily search for platform and state adapters from both Vercel and the community. The directory includes official adapters maintained by the Chat SDK team, vendor-official adapters from companies like Resend and Beeper, and community-driven adapters. Teams are encouraged to build and submit their own adapters for inclusion. Check out the directory and the contributing guide to get started! #ChatSDK&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we run Vercel&#39;s CDN in front of Discourse</title>
+      <link>/articles/article-2026-03-10-16529/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16529/</guid>
+      <description>Vercel&amp;rsquo;s CDN enables you to enhance applications like Discourse without a full migration. It offers firewall protection, DDoS mitigation, and useful analytics. By using Vercel Microfrontends, you can seamlessly integrate new features while maintaining user authentication. This approach provides a secure and flexible way to modernize applications incrementally. Learn more about it at community.vercel.com/live. 🌐🔒📊 #Vercel #CDN #WebDevelopment #Microfrontends #Discourse</description>
     </item>
     <item>
       <title>Vercel Sandbox now supports 1 vCPU &#43; 2 GB configurations</title>

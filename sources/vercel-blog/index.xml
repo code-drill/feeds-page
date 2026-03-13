@@ -58,6 +58,13 @@
       <description>🚀 Exciting news for developers! The Vercel CLI now allows programmatic management of feature flags directly from the terminal. This means teams can create and manage flags without navigating the dashboard. The new Flags SDK skill empowers AI agents to generate and manage flags using natural language prompts. This feature enhances server-side evaluation, ensuring layout stability and user privacy. Discover how to get started with the Flags SDK skill today! #Vercel #FeatureFlags #DevTools #AI&amp;hellip;</description>
     </item>
     <item>
+      <title>Chat SDK adds PostgreSQL state adapter</title>
+      <link>/articles/article-2026-03-10-16607/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-10-16607/</guid>
+      <description>🚀 Chat SDK has introduced support for PostgreSQL as a new state backend! This addition allows teams already using PostgreSQL to manage subscriptions, distributed locks, and key-value cache state without needing Redis. The PostgreSQL adapter uses raw SQL queries and sets up required tables automatically. It also supports TTL-based caching and distributed locking. Explore the documentation to get started! #ChatSDK #PostgreSQL #TechUpdate #SoftwareDevelopment #DatabaseIntegration</description>
+    </item>
+    <item>
       <title>Chat SDK now has an adapter directory</title>
       <link>/articles/article-2026-03-10-16489/</link>
       <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>

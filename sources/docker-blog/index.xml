@@ -6,8 +6,29 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Mar 2026 12:50:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Achieving Test Reliability for Native E2E Testing: Beyond Fixing Broken Tests</title>
+      <link>/articles/article-2026-03-13-16640/</link>
+      <pubDate>Fri, 13 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-13-16640/</guid>
+      <description>End-to-end (E2E) testing is essential for native apps across platforms, yet maintaining test reliability is more complex than writing them. 📱💻 The fragmented device ecosystem, gaps in frameworks, and unstable environments contribute to test flakiness. Teams often find themselves in a cycle of fixing tests rather than addressing root causes, leading to reduced trust in their test suites. 🔄 To improve reliability, strategies for test ownership and observability are critical. Examining&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Run Claude Code with Docker: Local Models, MCP Servers, and Secure Sandboxes</title>
+      <link>/articles/article-2026-03-13-16641/</link>
+      <pubDate>Fri, 13 Mar 2026 12:17:54 +0000</pubDate>
+      <guid>/articles/article-2026-03-13-16641/</guid>
+      <description>Unlock the potential of Claude Code by running it with Docker! 🐳 This article explains how to set up Claude Code locally, allowing full control over data and infrastructure. It details connecting to MCP servers for seamless integration with tools like Jira and GitHub, enhancing automation in your workflow. ⚙️ Learn how to create secure sandboxes for safe execution of actions, ensuring your coding agents operate without compromising security. 🔒 #ClaudeCode #Docker #AIAssistant #MCP #Automation</description>
+    </item>
+    <item>
+      <title>Secure Agent Execution with NanoClaw and Docker Sandboxes</title>
+      <link>/articles/article-2026-03-13-16642/</link>
+      <pubDate>Fri, 13 Mar 2026 12:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-13-16642/</guid>
+      <description>🚀 Agents are evolving into powerful, personal AI assistants that automate tasks and workflows. 🔒 NanoClaw, a lightweight framework, is now integrating with Docker Sandboxes to ensure secure agent execution. Each agent runs in a disposable MicroVM, enhancing isolation and security. 💡 This shift emphasizes transparency and controlled environments, allowing teams to inspect code easily while minimizing risks. With this approach, agents can operate autonomously without compromising security. #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Flexibility Over Lock-In: The Enterprise Shift in Agent Strategy</title>
       <link>/articles/article-2026-03-12-16577/</link>

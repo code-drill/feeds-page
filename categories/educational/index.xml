@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 07:01:11 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to manage Red Hat OpenShift AI dependencies with Kustomize and Argo CD</title>
+      <link>/articles/article-2026-03-13-16635/</link>
+      <pubDate>Fri, 13 Mar 2026 07:01:11 +0000</pubDate>
+      <guid>/articles/article-2026-03-13-16635/</guid>
+      <description>🚀 Managing dependencies for Red Hat OpenShift AI can be complex, but the new odh-gitops repository simplifies the process. This repository offers a GitOps-ready template with Kustomize manifests for deploying all necessary dependencies. You can easily apply configurations using the &lt;code&gt;oc apply -k&lt;/code&gt; command or through Argo CD for automated deployment. For those preferring Helm, a chart alternative is in development and will be available soon. Check out the odh-gitops repository to learn more!&amp;hellip;</description>
+    </item>
     <item>
       <title>Improving code quality - Session 69: My tips for code quality</title>
       <link>/articles/article-2026-03-13-16632/</link>

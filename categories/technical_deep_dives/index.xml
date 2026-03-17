@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Invisible Rewrite: Modernizing the Kubernetes Image Promoter</title>
+      <link>/articles/article-2026-03-17-16757/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16757/</guid>
+      <description>🚀 The Kubernetes image promoter, kpromo, has undergone a significant rewrite to improve efficiency. Originally launched in 2018, this tool ensures container images are copied, signed, and verified across multiple registries. The recent update has cut the codebase by 20% while boosting performance. Key changes include a new architecture with seven distinct phases for image promotion and enhanced features like vulnerability scanning. No user-facing changes were made, meaning workflows remain&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling Jenkins: Central Controller vs Instance Sprawl</title>
+      <link>/articles/article-2026-03-16-16756/</link>
+      <pubDate>Mon, 16 Mar 2026 23:19:18 +0000</pubDate>
+      <guid>/articles/article-2026-03-16-16756/</guid>
+      <description>Scaling Jenkins presents unique challenges as organizations grow. Initially, teams may find a single Jenkins controller sufficient for their CI/CD needs. However, as the number of pipelines and agents increases, the controller can become a bottleneck, affecting build throughput and stability. The article discusses common scaling strategies, including the use of a centralized controller for governance and visibility versus multiple controllers for workload distribution. Each approach has its&amp;hellip;</description>
+    </item>
     <item>
       <title>Using Simulation to Build Robotic Systems for Hospital Automation</title>
       <link>/articles/article-2026-03-16-16739/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Invisible Rewrite: Modernizing the Kubernetes Image Promoter</title>
+      <link>/articles/article-2026-03-17-16757/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16757/</guid>
+      <description>🚀 The Kubernetes image promoter, kpromo, has undergone a significant rewrite to improve efficiency. Originally launched in 2018, this tool ensures container images are copied, signed, and verified across multiple registries. The recent update has cut the codebase by 20% while boosting performance. Key changes include a new architecture with seven distinct phases for image promotion and enhanced features like vulnerability scanning. No user-facing changes were made, meaning workflows remain&amp;hellip;</description>
+    </item>
     <item>
       <title>Announcing the AI Gateway Working Group</title>
       <link>/articles/article-2026-03-09-16455/</link>

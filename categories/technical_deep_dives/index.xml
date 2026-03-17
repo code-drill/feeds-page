@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 18:50:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 20:09:37 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads</title>
+      <link>/articles/article-2026-03-17-16834/</link>
+      <pubDate>Tue, 17 Mar 2026 20:09:37 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16834/</guid>
+      <description>UI freezes in JetBrains IDEs are often attributed to heavy work on the Event Dispatch Thread (EDT). However, recent findings indicate that long, non-cancellable read actions in background threads from plugins are also a significant cause. Our automated reporting system has flagged numerous freeze reports linked to this issue. Identifying and addressing non-cancellable code patterns can help mitigate these problems. For developers, it’s crucial to recognize this issue to enhance user&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation</title>
+      <link>/articles/article-2026-03-17-16841/</link>
+      <pubDate>Tue, 17 Mar 2026 20:07:52 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16841/</guid>
+      <description>🚀 Meta introduces the Ranking Engineer Agent (REA), an autonomous AI agent that streamlines the machine learning lifecycle for ads ranking models. REA autonomously generates hypotheses, launches training jobs, and iterates on results, significantly reducing manual intervention. In its first rollout, REA doubled model accuracy and increased engineering output fivefold. Stay tuned for more insights on REA&amp;rsquo;s capabilities! 🤖💡 #Meta #MachineLearning #AI #Innovation #Advertising</description>
+    </item>
+    <item>
+      <title>Prompt Caching for Anthropic and OpenAI Models: Building Cost-Efficient AI Systems</title>
+      <link>/articles/article-2026-03-17-16833/</link>
+      <pubDate>Tue, 17 Mar 2026 19:25:04 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16833/</guid>
+      <description>🔍 &lt;strong&gt;Understanding Prompt Caching for AI Models&lt;/strong&gt; Large Language Models (LLMs) are key in modern AI, but token costs can escalate quickly. With prompt caching, repeated prompt segments can be reused, leading to significant reductions in both latency and costs. Key points include: - &lt;strong&gt;How it Works&lt;/strong&gt;: Identical prompt segments are stored and reused across requests. - &lt;strong&gt;Benefits&lt;/strong&gt;: Reduces costs by up to 90% and improves processing speed. - &lt;strong&gt;Use Cases&lt;/strong&gt;: Effective for applications like ChatGPT&amp;hellip;</description>
+    </item>
     <item>
       <title>WebMCP turns any Chrome web page into an MCP server for AI agents</title>
       <link>/articles/article-2026-03-17-16812/</link>

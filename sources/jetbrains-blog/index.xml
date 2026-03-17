@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 17:25:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 20:09:37 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads</title>
+      <link>/articles/article-2026-03-17-16834/</link>
+      <pubDate>Tue, 17 Mar 2026 20:09:37 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16834/</guid>
+      <description>UI freezes in JetBrains IDEs are often attributed to heavy work on the Event Dispatch Thread (EDT). However, recent findings indicate that long, non-cancellable read actions in background threads from plugins are also a significant cause. Our automated reporting system has flagged numerous freeze reports linked to this issue. Identifying and addressing non-cancellable code patterns can help mitigate these problems. For developers, it’s crucial to recognize this issue to enhance user&amp;hellip;</description>
+    </item>
     <item>
       <title>IntelliJ IDEA 2025.3.4 is Out!</title>
       <link>/articles/article-2026-03-17-16818/</link>

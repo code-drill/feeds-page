@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 11:00:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From monolith to global mesh: How Uber standardized ML at scale</title>
+      <link>/articles/article-2026-03-17-16785/</link>
+      <pubDate>Tue, 17 Mar 2026 11:00:06 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16785/</guid>
+      <description>Uber faced significant challenges in scaling its machine learning infrastructure as it transitioned from a luxury car service to a global logistics leader. In 2015, data scientists spent most of their time managing servers instead of building models. To address this, Uber developed Michelangelo, a centralized system designed to streamline the ML process. However, as the demand grew, it required a shift to a cloud-native Kubernetes architecture for better scalability. They implemented over 100&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Next-generation automated provisioning, without compromising zero-knowledge security</title>
+      <link>/articles/article-2026-03-17-16795/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-17-16795/</guid>
+      <description>1Password has introduced Automated Provisioning that enhances user management while maintaining zero-knowledge security. This solution tackles the challenges of securely automating provisioning without compromising trust. It utilizes Public Key Verification and the Account Trust Log for independent verification of keys, ensuring data integrity. By employing confidential computing within a secure enclave, sensitive operations remain protected and inaccessible to unauthorized users. Explore how&amp;hellip;</description>
+    </item>
     <item>
       <title>The Invisible Rewrite: Modernizing the Kubernetes Image Promoter</title>
       <link>/articles/article-2026-03-17-16757/</link>

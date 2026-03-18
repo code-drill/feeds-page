@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 07:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 03:01:09 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prepare to enable Linux pressure stall information on Red Hat OpenShift</title>
+      <link>/articles/article-2026-03-18-16844/</link>
+      <pubDate>Wed, 18 Mar 2026 03:01:09 +0000</pubDate>
+      <guid>/articles/article-2026-03-18-16844/</guid>
+      <description>🚀 Red Hat OpenShift 4.21 introduces Linux pressure stall information (PSI) via MachineConfig, enhancing resource monitoring for CPU, memory, and I/O. Enabling PSI helps identify resource contention and hidden bottlenecks, improving autoscaling and debugging. However, it increases memory usage for Prometheus pods, showing a 42% rise with over 500 test containers. For more insights on PSI metrics and their impact, check out the article. #OpenShift #Linux #PSI #Kubernetes #CloudComputing</description>
+    </item>
     <item>
       <title>Advanced Cluster Management 2.16 right-sizing recommendation GA</title>
       <link>/articles/article-2026-03-17-16778/</link>

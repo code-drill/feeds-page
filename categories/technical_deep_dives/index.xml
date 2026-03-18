@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 07:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 12:00:02 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling Btrfs to petabytes in production: a 74% cost reduction story</title>
+      <link>/articles/article-2026-03-18-16868/</link>
+      <pubDate>Wed, 18 Mar 2026 12:00:02 +0000</pubDate>
+      <guid>/articles/article-2026-03-18-16868/</guid>
+      <description>🚀 Chronosphere achieved a remarkable 74% reduction in storage costs by transitioning from ext4 to Btrfs for managing petabytes of time-series data. Btrfs, a copy-on-write filesystem for Linux, offers features like transparent checksumming and compression. This change significantly decreased their data storage footprint, allowing for more efficient resource use. For those interested, Btrfs can be tested on Google Cloud Platform. #Btrfs #CloudStorage #DataManagement #TechInnovation #CostSavings</description>
+    </item>
     <item>
       <title>How Advanced Cluster Management simplifies rule management</title>
       <link>/articles/article-2026-03-18-16845/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 16:35:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 10:00:58 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ IDEA’s New Kotlin Coroutine Inspections, Explained</title>
+      <link>/articles/article-2026-03-19-16918/</link>
+      <pubDate>Thu, 19 Mar 2026 10:00:58 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16918/</guid>
+      <description>IntelliJ IDEA has introduced new inspections for Kotlin coroutines to enhance coding practices. These inspections aim to guide developers towards more efficient code. Key recommendations include using &lt;code&gt;awaitAll()&lt;/code&gt; instead of &lt;code&gt;map { it.await()}&lt;/code&gt; and &lt;code&gt;joinAll()&lt;/code&gt; instead of &lt;code&gt;forEach { it.join()}&lt;/code&gt;. These alternatives improve code clarity and efficiency, particularly in handling exceptions. These updates are also available in Android Studio. #Kotlin #IntelliJ #CodingBestPractices&amp;hellip;</description>
+    </item>
     <item>
       <title>Java 26 lands without an LTS badge. Here’s why developers should care anyway.</title>
       <link>/articles/article-2026-03-18-16874/</link>

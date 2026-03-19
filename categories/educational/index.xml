@@ -6,8 +6,29 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 16:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 07:01:17 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hybrid loan-decisioning with OpenShift AI and Vertex AI</title>
+      <link>/articles/article-2026-03-19-16914/</link>
+      <pubDate>Thu, 19 Mar 2026 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16914/</guid>
+      <description>Explore how modern financial applications make loan decisions using hybrid machine learning systems! 🤖💼 The architecture features a loan approval classifier on Google Cloud with Vertex AI, while an ONNX regression model for interest rate prediction runs on Red Hat OpenShift AI on-premise. This setup ensures sensitive data remains secure and compliant. 🔒 Key components include a lightweight React frontend and a Llama-based chatbot for enhanced user interaction, all orchestrated seamlessly&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Rebalance hub workloads with managed cluster migration</title>
+      <link>/articles/article-2026-03-19-16915/</link>
+      <pubDate>Thu, 19 Mar 2026 07:01:15 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16915/</guid>
+      <description>🌐 As Kubernetes deployments grow, managing workloads efficiently becomes crucial. Red Hat Advanced Cluster Management introduces a multicluster global hub for dynamic redistribution of managed clusters. This system allows for workload balancing, easing the strain on individual hubs and reducing latency. To implement this, ensure the global hub is set up and source clusters are imported correctly. This approach supports various scenarios, including capacity redistribution and geographic&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to operate OpenShift in air-gapped environments</title>
+      <link>/articles/article-2026-03-19-16916/</link>
+      <pubDate>Thu, 19 Mar 2026 07:01:14 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16916/</guid>
+      <description>Operating Red Hat OpenShift in air-gapped environments enhances security by eliminating direct internet access. Organizations must manage all software and updates through controlled processes to meet strict compliance and sovereignty requirements. 🔒🌐 Key challenges include initial setup and ongoing maintenance. It’s crucial to establish a defined operational cadence for mirroring platform updates, managing operator catalogs, and ensuring security fixes. 📅🔄 Implementing a mirror factory can&amp;hellip;</description>
+    </item>
     <item>
       <title>What are test hooks in AI-native development?</title>
       <link>/articles/article-2026-03-18-16895/</link>

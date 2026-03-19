@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 00:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 07:01:09 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate test and failure analysis via streams for Apache Kafka</title>
+      <link>/articles/article-2026-03-19-16917/</link>
+      <pubDate>Thu, 19 Mar 2026 07:01:09 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16917/</guid>
+      <description>In enterprise software testing, syncing failure analysis between ReportPortal and Polarion is crucial. This article outlines an event-driven solution using Apache Kafka, Debezium CDC, and Quarkus to automate this sync. The approach ensures real-time updates with minimal lag, eliminating manual data entry. Key challenges included handling divergent timelines and ensuring consistent data flow across platforms. The CDC method captures updates at the database level, allowing for seamless&amp;hellip;</description>
+    </item>
     <item>
       <title>From firefighting to building: How AI agents restored our team’s core productivity</title>
       <link>/articles/article-2026-03-19-16912/</link>

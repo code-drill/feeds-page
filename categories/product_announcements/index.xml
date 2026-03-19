@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 16:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 18:00:03 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing AI Runtime: Scalable, Serverless NVIDIA GPUs on Databricks for Training and Finetuning</title>
+      <link>/articles/article-2026-03-19-16953/</link>
+      <pubDate>Thu, 19 Mar 2026 18:00:03 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16953/</guid>
+      <description>🚀 Exciting developments in AI! Databricks has introduced AI Runtime, offering scalable and serverless NVIDIA GPUs for training and fine-tuning large language models. This innovation allows users to access NVIDIA H100 GPUs instantly, optimizing AI workloads like forecasting and recommendations. This solution aims to enhance the efficiency of AI applications, particularly in multimodal foundation models. #AI #NVIDIA #Databricks #MachineLearning #Innovation</description>
+    </item>
     <item>
       <title>Run Autonomous, Self-Evolving Agents More Safely with NVIDIA OpenShell</title>
       <link>/articles/article-2026-03-19-16744/</link>
@@ -42,6 +49,13 @@
       <pubDate>Thu, 19 Mar 2026 15:39:18 +0000</pubDate>
       <guid>/articles/article-2026-03-19-16926/</guid>
       <description>🚀 Cursor has launched Composer 2, its latest in-house coding model that outperforms Anthropic’s Opus 4.6 on key benchmarks while being significantly cheaper. 💰 The cost for Composer 2 is as low as $0.5 per million input tokens, compared to Opus 4.6&amp;rsquo;s $5. 📊 On Terminal-Bench 2.0, Composer 2 scored 61.7%, closing the gap with competitors. ⚙️ This new model uses innovative &amp;lsquo;self-summarization&amp;rsquo; training for improved performance. #Cursor #AI #Coding #TechNews #Innovation</description>
+    </item>
+    <item>
+      <title>Cursor’s Composer 2 beats Opus 4.6 on coding benchmarks at a fraction of the price</title>
+      <link>/articles/article-2026-03-19-16944/</link>
+      <pubDate>Thu, 19 Mar 2026 15:39:18 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16944/</guid>
+      <description>🚀 Cursor has launched Composer 2, its latest coding model, now outperforming Anthropic&amp;rsquo;s Opus 4.6 on key benchmarks at a much lower cost. The pricing starts at $0.5 per million input tokens, while Opus 4.6 is priced at $5. Composer 2 scored 61.7% on Terminal-Bench 2.0, marking significant progress since previous versions. This model utilizes a new training technique called &amp;lsquo;self-summarization&amp;rsquo; for enhanced performance. #Cursor #AI #Coding #TechNews #Innovation</description>
     </item>
     <item>
       <title>Announcing General Availability of Real-Time Mode for Apache Spark Structured Streaming on Databricks</title>
@@ -79,6 +93,13 @@
       <description>IntelliJ IDEA has introduced new inspections for Kotlin coroutines to enhance coding practices. These inspections aim to guide developers towards more efficient code. Key recommendations include using &lt;code&gt;awaitAll()&lt;/code&gt; instead of &lt;code&gt;map { it.await()}&lt;/code&gt; and &lt;code&gt;joinAll()&lt;/code&gt; instead of &lt;code&gt;forEach { it.join()}&lt;/code&gt;. These alternatives improve code clarity and efficiency, particularly in handling exceptions. These updates are also available in Android Studio. #Kotlin #IntelliJ #CodingBestPractices&amp;hellip;</description>
     </item>
     <item>
+      <title>Code Review without the bottlenecks or the bill</title>
+      <link>/articles/article-2026-03-19-16948/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16948/</guid>
+      <description>🚀 Developers are moving faster with AI, but code review bottlenecks persist. GitLab addresses this challenge with Code Review Flow, an AI tool that automates the review of merge requests. 🔍 This feature analyzes code in real-time, providing consistent feedback without delays. It runs multiple reviews simultaneously, ensuring organization-wide standards are met. 💲 With a flat-rate pricing model, each review costs just $0.25, making it easier to manage budgets and scale reviews efficiently&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Elastic Stack 8.19.13 released</title>
       <link>/articles/article-2026-03-19-16933/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
@@ -98,6 +119,27 @@
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-19-16932/</guid>
       <description>🚀 Exciting news! Elastic Stack version 9.3.2 has been released. This update includes important fixes for potential security vulnerabilities. Upgrading to this version is recommended over 9.3.1. For a complete list of changes and issues resolved, check the release notes. #ElasticStack #SoftwareUpdate #SecurityUpdate #TechNews</description>
+    </item>
+    <item>
+      <title>GitLab 18.10 brings AI-native triage and remediation</title>
+      <link>/articles/article-2026-03-19-16946/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16946/</guid>
+      <description>🚀 GitLab 18.10 has launched with new AI-driven security features to enhance vulnerability management. The update includes Static Application Security Testing (SAST) false positive detection, which helps teams prioritize critical vulnerabilities by assessing the likelihood of false positives. Additionally, the Agentic SAST resolution flow can automatically create merge requests for verified vulnerabilities, streamlining the remediation process. Secret false positive detection is also&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab 18.10: Agentic AI now open to even more teams on GitLab</title>
+      <link>/articles/article-2026-03-19-16947/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16947/</guid>
+      <description>🚀 GitLab 18.10 introduces a new way for Free GitLab.com teams to access Agentic AI without needing a full subscription. Starting today, teams can purchase GitLab Credits monthly, enabling immediate use of the GitLab Duo Agent Platform. This allows for streamlined software development tasks like planning, code generation, and automated code review. With features like the Planner Agent and Code Review Flow, teams can enhance productivity and reduce manual effort. Learn more about how to get&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Label yourself</title>
+      <link>/articles/article-2026-03-19-16950/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16950/</guid>
+      <description>📱 Signal introduces group member labels to help clarify roles in group chats! These labels appear next to profile names, making it easy to identify responsibilities, like who is the coach or the goalie in a sports team chat. 🔒 Labels are end-to-end encrypted and can be customized for each group. Admins can manage permissions for label creation. Update your Signal app to explore this new feature! #SignalApp #GroupChats #Communication #Privacy</description>
     </item>
     <item>
       <title>Java 26 lands without an LTS badge. Here’s why developers should care anyway.</title>

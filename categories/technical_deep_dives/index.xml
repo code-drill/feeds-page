@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 19:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 21:03:54 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Etsy’s database sharding to Vitess</title>
+      <link>/articles/article-2026-03-19-16959/</link>
+      <pubDate>Thu, 19 Mar 2026 21:03:54 +0000</pubDate>
+      <guid>/articles/article-2026-03-19-16959/</guid>
+      <description>Etsy has transitioned its database management from a sharded MySQL architecture to Vitess, enhancing scalability and resilience. Originally, Etsy&amp;rsquo;s system relied on an index database, which posed risks of outages and complex manual scaling. By adopting Vitess in 2018, queries are now managed more efficiently, reducing reliance on a single point of failure. This migration, completed over five years, introduces vindexes for improved sharding strategies and allows for cross-shard queries,&amp;hellip;</description>
+    </item>
     <item>
       <title>How Slack Rebuilt Notifications 📣</title>
       <link>/articles/article-2026-03-19-16955/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 19:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Ingress2Gateway 1.0: Your Path to Gateway API</title>
+      <link>/articles/article-2026-03-20-16996/</link>
+      <pubDate>Fri, 20 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-20-16996/</guid>
+      <description>🌟 Exciting news for Kubernetes users! The Ingress2Gateway 1.0 has been released, aiding your transition from Ingress-NGINX to Gateway API before its retirement in March 2026. This tool simplifies migration by translating Ingress resources and annotations into Gateway API while highlighting any unsupported configurations. Key features include support for over 30 Ingress-NGINX annotations and comprehensive integration testing to ensure consistency in behavior. For more details, check the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Running Agents on Kubernetes with Agent Sandbox</title>
+      <link>/articles/article-2026-03-20-16997/</link>
+      <pubDate>Fri, 20 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-20-16997/</guid>
+      <description>🚀 The AI landscape is evolving with the rise of long-running, autonomous agents. Traditional models are being replaced by coordinated AI agents that maintain context and communicate over time. Kubernetes is emerging as the preferred platform for hosting these workloads, but new abstractions are needed. Enter the Agent Sandbox project under SIG Apps, which introduces a standardized API for stateful AI agent runtimes. Key features include strong isolation for untrusted code, efficient lifecycle&amp;hellip;</description>
+    </item>
     <item>
       <title>Securing Production Debugging in Kubernetes</title>
       <link>/articles/article-2026-03-18-16909/</link>

@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/crowdstrike-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>From Scanner to Stealer: Inside the trivy-action Supply Chain Compromise</title>
+      <link>/articles/article-2026-03-20-17003/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-20-17003/</guid>
+      <description>🚨 A recent investigation by CrowdStrike has uncovered a supply chain compromise involving the popular GitHub Action, aquasecurity/trivy-action. This vulnerability scanner, widely used in CI/CD pipelines, was found to have 76 of its 77 release tags compromised, replaced with a credential-stealing payload. The malicious code operates silently, allowing workflows to appear normal. Aqua Security has confirmed the breach and has removed all malicious artifacts from their repositories. CrowdStrike&amp;hellip;</description>
+    </item>
+    <item>
       <title>Tycoon2FA Phishing-as-a-Service Platform Persists Following Takedown</title>
       <link>/articles/article-2026-03-20-16988/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>

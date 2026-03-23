@@ -6,8 +6,22 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the scenes: How Database Traffic Control works</title>
+      <link>/articles/article-2026-03-23-17041/</link>
+      <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17041/</guid>
+      <description>🚦 Exciting news from PlanetScale! They introduced Database Traffic Control™, a feature aimed at preventing database overload from costly SQL queries. This post dives into how it works with Postgres. Traffic Control uses existing extensions and hooks to monitor resource usage and determine whether to allow query execution based on set rules. Learn more by checking the blog post and documentation! 📚 #DatabaseManagement #Postgres #TrafficControl #SQL #PlanetScale</description>
+    </item>
+    <item>
+      <title>Introducing Database Traffic Control</title>
+      <link>/articles/article-2026-03-23-17042/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17042/</guid>
+      <description>🚀 Introducing Database Traffic Control™ for Postgres! This new feature from PlanetScale allows you to manage query traffic in real time, protecting your database from unexpected load spikes. Set budgets for different query types based on patterns, application names, and user tags. Switch between warn and enforce modes to keep performance stable. Available now for all PlanetScale Postgres databases, it streamlines incident response and prioritizes traffic effectively. #DatabaseManagement&amp;hellip;</description>
+    </item>
     <item>
       <title>Scaling Postgres connections with PgBouncer</title>
       <link>/articles/article-2026-03-13-16650/</link>

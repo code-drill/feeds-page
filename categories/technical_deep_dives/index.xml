@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the scenes: How Database Traffic Control works</title>
+      <link>/articles/article-2026-03-23-17041/</link>
+      <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17041/</guid>
+      <description>🚦 Exciting news from PlanetScale! They introduced Database Traffic Control™, a feature aimed at preventing database overload from costly SQL queries. This post dives into how it works with Postgres. Traffic Control uses existing extensions and hooks to monitor resource usage and determine whether to allow query execution based on set rules. Learn more by checking the blog post and documentation! 📚 #DatabaseManagement #Postgres #TrafficControl #SQL #PlanetScale</description>
+    </item>
     <item>
       <title>Inside Gen 13: how we built our most powerful server yet</title>
       <link>/articles/article-2026-03-23-17030/</link>

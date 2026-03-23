@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2026 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:01:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying Disaggregated LLM Inference Workloads on Kubernetes</title>
+      <link>/articles/article-2026-03-23-17013/</link>
+      <pubDate>Mon, 23 Mar 2026 07:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17013/</guid>
+      <description>🚀 As LLM inference workloads increase in complexity, traditional monolithic serving processes face challenges. Disaggregated serving offers a solution by dividing the inference pipeline into distinct stages—prefill, decode, and routing—allowing for independent scaling and resource allocation. This article discusses how to deploy disaggregated inference on Kubernetes and explores various ecosystem solutions. Learn more about the differences between aggregated and disaggregated inference! 📊🔍&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Upgrade Advanced Cluster Management hubs without disruption</title>
+      <link>/articles/article-2026-03-23-17011/</link>
+      <pubDate>Mon, 23 Mar 2026 07:00:57 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17011/</guid>
+      <description>Upgrading Red Hat Advanced Cluster Management hubs can be challenging due to risks like downtime and upgrade failures. The new solution, managed cluster migration, allows for parallel hub deployment. This means a new hub version can be set up while the old one remains operational, ensuring zero disruption during the upgrade process. The migration is monitored closely, with automatic rollbacks in case of failures, making the upgrade process safer and more reliable. #RedHat #Kubernetes&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Eval-driven development: Build and evaluate reliable AI agents</title>
+      <link>/articles/article-2026-03-23-17012/</link>
+      <pubDate>Mon, 23 Mar 2026 07:00:54 +0000</pubDate>
+      <guid>/articles/article-2026-03-23-17012/</guid>
+      <description>🚀 Check out insights from our journey in developing the rh-ai-quickstart/it-self-service-agent! We explored an evaluations framework tailored for AI agents, emphasizing the need for comprehensive testing due to their inherent variability. Key stages of our evaluation journey include: 1️⃣ Manual testing with predefined conversations 2️⃣ Automated evaluations with custom metrics 3️⃣ Continuous integration for ongoing improvements Learn more about how we integrated these practices into our&amp;hellip;</description>
+    </item>
     <item>
       <title>coSTAR: How We Ship AI Agents at Databricks Fast, Without Breaking Things</title>
       <link>/articles/article-2026-03-20-16995/</link>

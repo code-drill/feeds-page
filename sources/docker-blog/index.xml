@@ -13,7 +13,7 @@
       <link>/articles/article-2026-03-23-17055/</link>
       <pubDate>Mon, 23 Mar 2026 23:25:14 +0000</pubDate>
       <guid>/articles/article-2026-03-23-17055/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.docker.com/blog/feed/&#34;&gt;Docker Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.docker.com/blog/trivy-supply-chain-compromise-what-docker-hub-users-should-know/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚨 &lt;strong&gt;Security Alert for Docker Hub Users&lt;/strong&gt; 🚨 A recent security incident has impacted users of the Aqua Security Vulnerability scanner (Trivy). Between March 19 and March 23, 2026, compromised images (tags 0.69.4, 0.69.5, 0.69.6, and latest) may have exposed CI/CD secrets and cloud credentials. If you downloaded these images, please stop using them and rotate your credentials immediately. The compromised images have been removed from Docker Hub. For further monitoring, check your local image&amp;hellip;</description>
     </item>
     <item>
       <title>From the Captain’s Chair: Naga Santhosh Reddy Vootukuri</title>

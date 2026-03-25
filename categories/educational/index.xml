@@ -6,14 +6,21 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 15:52:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:35:43 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads</title>
+      <link>/articles/article-2026-03-25-17125/</link>
+      <pubDate>Wed, 25 Mar 2026 16:35:43 +0000</pubDate>
+      <guid>/articles/article-2026-03-25-17125/</guid>
+      <description>Maximizing AI infrastructure efficiency is crucial for production Kubernetes environments. The article discusses how the mismatch between GPU size and model requirements leads to underutilization of resources. Lightweight models often occupy entire GPUs, resulting in inefficiencies. It offers strategies like NVIDIA Multi-Instance GPU (MIG) and time-slicing to optimize GPU usage. These methods can enhance cluster density, serving more users without compromising reliability or latency. #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Getting started with the vLLM Semantic Router project&#39;s Athena release: Optimize your tokens for agentic AI</title>
       <link>/articles/article-2026-03-25-17123/</link>
       <pubDate>Wed, 25 Mar 2026 15:52:18 +0000</pubDate>
       <guid>/articles/article-2026-03-25-17123/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developers.redhat.com/blog/feed/&#34;&gt;Red Hat Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developers.redhat.com/articles/2026/03/25/getting-started-vllm-semantic-router-athena-release&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 The vLLM Semantic Router&amp;rsquo;s Athena 0.2 release optimizes token management for AI. It intelligently routes requests between local and cloud models to reduce costs by over 90%. 🌐 The setup involves a local Qwen3-Coder-Next and a cloud fallback with Google&amp;rsquo;s Gemini 2.5 Pro. The API remains OpenAI-compatible, ensuring a seamless experience. Learn how to implement it with detailed guidance on GitHub. #AI #TokenOptimization #OpenSource #vLLM #SemanticRouter</description>
     </item>
     <item>
       <title>Designing Protein Binders Using the Generative Model Proteina-Complexa</title>
@@ -42,6 +49,13 @@
       <pubDate>Wed, 25 Mar 2026 02:08:45 +0000</pubDate>
       <guid>/articles/article-2026-03-25-17103/</guid>
       <description>Cisco IT has explored fine-tuning embedding models using the NVIDIA Nemotron RAG recipe to enhance retrieval accuracy for enterprise data. The goal was to assess if targeted fine-tuning could improve semantic search quality efficiently. Results showed measurable accuracy gains and strong time-to-value, allowing for rapid iteration without lengthy training cycles. The evaluation was performed on Cisco AI PODs using Cisco UCS 885A infrastructure powered by NVIDIA HGX. #Cisco #NVIDIA #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>An engineer’s take on onboarding at Elastic</title>
+      <link>/articles/article-2026-03-25-17128/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-25-17128/</guid>
+      <description>🚀 Senior Software Engineer Guilherme Xavier shares insights on his successful onboarding experience at Elastic, a fully remote role. He emphasizes the importance of tailored onboarding processes, especially when transitioning to unique technologies. Key aspects include comprehensive documentation and the commitment of the team to support new hires. This structured approach fosters collaboration and accelerates learning. #Onboarding #RemoteWork #TechIndustry #Elastic #SoftwareEngineering</description>
     </item>
     <item>
       <title>E-Rate Application Window Closing Soon: Secure Your Funding Before April 1, 2026</title>

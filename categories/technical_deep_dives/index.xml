@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 03:15:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A one-line Kubernetes fix that saved 600 hours a year</title>
+      <link>/articles/article-2026-03-26-17160/</link>
+      <pubDate>Thu, 26 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-26-17160/</guid>
+      <description>🚀 A recent investigation revealed that our Atlantis instance was taking 30 minutes to restart due to Kubernetes volume permission bottlenecks. By adjusting the fsGroupChangePolicy, we cut restart times down to just 30 seconds! This change saves over 600 hours annually, allowing our team to focus on important tasks instead of waiting. #Kubernetes #DevOps #Terraform #Efficiency #CloudComputing</description>
+    </item>
     <item>
       <title>Reproducible builds in Project Hummingbird</title>
       <link>/articles/article-2026-03-26-17152/</link>

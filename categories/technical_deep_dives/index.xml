@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 03:15:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reproducible builds in Project Hummingbird</title>
+      <link>/articles/article-2026-03-26-17152/</link>
+      <pubDate>Thu, 26 Mar 2026 03:15:55 +0000</pubDate>
+      <guid>/articles/article-2026-03-26-17152/</guid>
+      <description>🔍 Red Hat&amp;rsquo;s Project Hummingbird introduces reproducible builds for enhanced software supply chain security. These builds allow users to verify that OCI images match their published versions, preventing undetectable tampering. Hummingbird images, designed for environments with minimal CVEs, are created in the Konflux software factory and come with an SBOM and SLSA provenance artifact. 🛠️ By using tools like cosign and podman, users can easily rebuild Hummingbird images, ensuring trust and&amp;hellip;</description>
+    </item>
     <item>
       <title>Building an A/B testing analysis framework for mobile gaming on Databricks</title>
       <link>/articles/article-2026-03-25-17137/</link>

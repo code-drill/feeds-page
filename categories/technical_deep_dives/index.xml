@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 16:38:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The reason your pgvector benchmark is lying to you</title>
+      <link>/articles/article-2026-03-27-17192/</link>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-27-17192/</guid>
+      <description>Understanding pgvector benchmarks is crucial for successful implementation. 🛠️ While pgvector allows for storing vector embeddings in Postgres, challenges arise when scaling beyond demo scenarios. A recent article highlights the importance of realistic benchmarking, especially when moving from 10,000 vectors to millions. Operational issues can surface at scale, impacting performance. Planning and understanding these factors can lead to better outcomes. 📈 #pgvector #Postgres #DataEngineering&amp;hellip;</description>
+    </item>
     <item>
       <title>Frontend Engineering at Palantir: Redefining Real-Time Map Collaboration</title>
       <link>/articles/article-2026-03-26-17165/</link>

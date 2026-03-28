@@ -449,6 +449,74 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/" target="_blank">Docker versus Nix: The quest for true reproducibility</a></h2>
+            <div class="publication-date">2026-02-07 18:00</div>
+            <div class="summary">In the article &#34;Docker versus Nix: The quest for true reproducibility,&#34; the focus is on performance benchmarking in software development. Docker is praised for its ability to enable engineers to share applications, yet it faces challenges with reproducibility due to &#34;configuration drift.&#34; This makes accurate benchmarking difficult, especially for complex applications like ScyllaDB and Cassandra. Michael Stahnke emphasizes a key distinction: while Docker is reusable, it lacks true...</div>
+            <div class="source">Source: The New Stack</div>
+            
+            <div class="author">B. Cameron Gain</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://thenewstack.io/for-darryl-webassembly-and-web-workers/" target="_blank">How WebAssembly and Web Workers prevent UI freezes</a></h2>
+            <div class="publication-date">2026-02-07 17:00</div>
+            <div class="summary">🚀 WebAssembly (Wasm) and Web Workers are key to preventing UI freezes in web applications. When heavy computations overload the JavaScript main thread, users experience unresponsive pages. By offloading these tasks to background threads, Wasm helps maintain smooth interactions. The article also includes a tutorial on building a high-performance Fibonacci calculator, demonstrating how to keep UIs functional during heavy processing. Explore how to enhance your web app&#39;s responsiveness!...</div>
+            <div class="source">Source: The New Stack</div>
+            
+            <div class="author">Jessica Wachtel</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://thenewstack.io/openclaw-gsd/" target="_blank">How GSD turns Claude into a self-steering developer</a></h2>
+            <div class="publication-date">2026-02-07 17:00</div>
+            <div class="summary">🚀 ClawdBot MoltBot OpenClaw has gained remarkable popularity as an open-source AI assistant that operates on your local machine. It connects with common apps like WhatsApp and Slack, aiming to enhance the user experience. However, security issues highlight the need for caution when experimenting with LLM agents. 🔒 The article also discusses the GSD extension for Claude, showcasing its capabilities in project planning and execution, particularly using SwiftUI. 📊 #AI #OpenSource #TechTrends...</div>
+            <div class="source">Source: The New Stack</div>
+            
+            <div class="author">David Eastman</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://thenewstack.io/jule-open-source-programming-language/" target="_blank">Memory-Safe Jule language emerges as C/C&#43;&#43; alternative</a></h2>
+            <div class="publication-date">2026-02-07 16:00</div>
+            <div class="summary">📢 The emergence of Jule, a new open-source programming language, offers a memory-safe alternative to C/C&#43;&#43;. With calls from U.S. agencies for safer coding practices, Jule aims to address critical system vulnerabilities. It combines the performance of C with the simplicity of Go, while ensuring memory safety through runtime checks and compile-time analysis. Developed since 2022, Jule is designed to work seamlessly with existing C/C&#43;&#43; systems. Its immutable-by-default approach enhances safety,...</div>
+            <div class="source">Source: The New Stack</div>
+            
+            <div class="author">Darryl K. Taft</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://thenewstack.io/operant-ai-targets-shadow-ai-agents-with-real-time-security-platform/" target="_blank">Operant AI targets ‘shadow’ AI agents with real-time security platform</a></h2>
             <div class="publication-date">2026-02-06 18:15</div>
             <div class="summary">As AI agents expand in enterprise applications, they create security gaps. Operant AI has introduced the Agent Protector platform to address this issue. This platform offers real-time zero-trust controls for AI agents, ensuring visibility and control over managed and unmanaged agents. It includes features like behavioral threat detection and least-privilege enforcement across various environments. Operant AI is already known for its AI Gatekeeper and MCP Gateway tools, focusing on security...</div>
@@ -1060,74 +1128,6 @@
             
         </article>
         
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/" target="_blank">Mastra empowers web devs to build AI agents in TypeScript</a></h2>
-            <div class="publication-date">2026-01-28 19:00</div>
-            <div class="summary">🚀 Mastra has launched a new open-source AI framework that allows web developers to create AI agents using TypeScript instead of Python. According to co-creator Sam Bhagwat, this shift enables developers who are more familiar with JavaScript to build applications more easily. TypeScript is becoming the preferred language for web app development, offering better integration for frontend and backend development. AI agents are changing our interaction with technology, moving us toward more...</div>
-            <div class="source">Source: The New Stack</div>
-            
-            <div class="author">Loraine Lawson</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/kubernetes-telemetry-feature-fully-compromises-clusters/" target="_blank">Kubernetes telemetry feature fully compromises clusters</a></h2>
-            <div class="publication-date">2026-01-28 18:30</div>
-            <div class="summary">Kubernetes admins face a significant challenge with a newly discovered vulnerability. 🔍 Security researcher Graham Helton revealed that users with read-only permissions can execute arbitrary commands on any pod in a cluster. This issue arises from the nodes/proxy GET resource used by monitoring tools, which grants access to privileged commands. Helton&#39;s findings show that 69 tools rely on this permission, which is considered intended behavior, not a bug. The recommended solution is to...</div>
-            <div class="source">Source: The New Stack</div>
-            
-            <div class="author">Joab Jackson</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/" target="_blank">With Auto Browse, Google Chrome can now surf the web for you</a></h2>
-            <div class="publication-date">2026-01-28 18:00</div>
-            <div class="summary">🚀 Google Chrome is enhancing its capabilities with new AI features powered by Gemini 3. The standout addition is **Auto Browse**, allowing users to delegate tasks like finding flights or managing workflows directly to the browser. This feature will be available for Gemini Pro and Max subscribers soon. Also introduced is a **Gemini side panel** for easier interaction while browsing. This setup allows users to maintain multiple conversations and research products across tabs seamlessly....</div>
-            <div class="source">Source: The New Stack</div>
-            
-            <div class="author">Frederic Lardinois</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/a-decade-of-werf-a-software-delivery-tool-for-kubernetes/" target="_blank">A decade of werf, a software delivery tool for Kubernetes</a></h2>
-            <div class="publication-date">2026-01-28 17:00</div>
-            <div class="summary">Celebrating a decade of werf, a unique CLI tool for Kubernetes! 🎉 Originally designed to streamline container orchestration, werf has evolved from its beginnings in a Linux-focused DevOps service provider. It simplifies building and deploying container images with features like smart caching and integration with tools like Helm. Werf remains focused on automating established workflows, making it a valuable resource in the cloud-native ecosystem. Learn more about its journey and significance!...</div>
-            <div class="source">Source: The New Stack</div>
-            
-            <div class="author">Dmitry Shurupov</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/industry_analysis" class="category-text">Industry Analysis</a>
-                
-            </div>
-            
-        </article>
-        
     </div>
     
     
@@ -1244,6 +1244,10 @@
             
             
             <a href="/sources/the-new-stack/page/27/" class="pagination-link">27</a>
+            
+            
+            
+            <a href="/sources/the-new-stack/page/28/" class="pagination-link">28</a>
             
             
         </div>

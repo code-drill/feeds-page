@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 16:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 18:45:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kelsey Hightower at KubeCon 2026: “Everyone is a junior engineer when it comes to AI”</title>
+      <link>/articles/article-2026-03-30-17267/</link>
+      <pubDate>Mon, 30 Mar 2026 18:45:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-30-17267/</guid>
+      <description>Kelsey Hightower spoke at KubeCon 2026, emphasizing that everyone is still learning in the AI field. Kristina Kondrashevich from Electrolux shared how Hightower’s insights inspired her team to open-source their project, InfraKitchen. He challenged them during a demo, ultimately approving their work. Discussions at KubeCon centered on the role of AI in open source, highlighting the need for companies to support their dependencies and contribute to projects. #KubeCon2026 #OpenSource #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When Buying Models Become Architecture Decisions</title>
+      <link>/articles/article-2026-03-30-17268/</link>
+      <pubDate>Mon, 30 Mar 2026 17:00:13 +0000</pubDate>
+      <guid>/articles/article-2026-03-30-17268/</guid>
+      <description>In today&amp;rsquo;s fast-paced tech landscape, traditional infrastructure buying models are evolving. Modernization is now incremental, with AI changing how and where workloads operate. IT leaders must adapt quickly without being locked into long-term decisions. Cisco&amp;rsquo;s Enterprise Agreement simplifies Nutanix adoption, providing operational ease, predictable pricing, and flexibility for future growth. #TechTrends #Infrastructure #Cisco #Nutanix #AI</description>
+    </item>
     <item>
       <title>AWS Weekly Roundup: AWS AI/ML Scholars program, Agent Plugin for AWS Serverless, and more (March 30, 2026)</title>
       <link>/articles/article-2026-03-30-17264/</link>
@@ -168,6 +182,13 @@
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-30-17265/</guid>
       <description>🚀 Exciting news from Google! The Agent Development Kit (ADK) for Java has launched version 1.0.0, featuring advanced tools like Google Maps grounding and built-in URL fetching. This update also introduces a new plugin architecture for better control and management. Key improvements include enhanced context engineering and Human-in-the-Loop workflows for action confirmations. Explore the future of AI agents in Java! 🌐🤖 #Java #AI #AgentDevelopment #Google #TechUpdates</description>
+    </item>
+    <item>
+      <title>High memory usage in Postgres is good, actually</title>
+      <link>/articles/article-2026-03-30-17273/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-30-17273/</guid>
+      <description>High memory usage in PlanetScale Postgres can actually indicate a healthy system. 📊 While a dashboard may show 80% memory usage, this doesn&amp;rsquo;t mean there’s a problem. Unlike CPU, high memory usage helps keep data close to the CPU for faster access. 🖥️ Postgres uses two caching layers: its own shared_buffers and the OS page cache, both designed to minimize disk reads. Effective caching leads to better performance. For further insights, check out the documentation on normal operating ranges for&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes v1.36 Sneak Peek</title>

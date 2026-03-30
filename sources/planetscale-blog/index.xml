@@ -6,8 +6,15 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High memory usage in Postgres is good, actually</title>
+      <link>/articles/article-2026-03-30-17273/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-30-17273/</guid>
+      <description>High memory usage in PlanetScale Postgres can actually indicate a healthy system. 📊 While a dashboard may show 80% memory usage, this doesn&amp;rsquo;t mean there’s a problem. Unlike CPU, high memory usage helps keep data close to the CPU for faster access. 🖥️ Postgres uses two caching layers: its own shared_buffers and the OS page cache, both designed to minimize disk reads. Effective caching leads to better performance. For further insights, check out the documentation on normal operating ranges for&amp;hellip;</description>
+    </item>
     <item>
       <title>Stripe Projects partnership: Provision PlanetScale Postgres and MySQL databases from the Stripe CLI</title>
       <link>/articles/article-2026-03-26-17173/</link>

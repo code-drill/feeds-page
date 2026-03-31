@@ -6,8 +6,15 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graceful degradation in Postgres</title>
+      <link>/articles/article-2026-03-31-17305/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17305/</guid>
+      <description>In the article &amp;ldquo;Graceful Degradation in Postgres,&amp;rdquo; the focus is on managing database traffic effectively. When databases face high traffic, critical queries must be prioritized to maintain functionality. PlanetScale&amp;rsquo;s Traffic Control addresses this by introducing resource budgets that protect essential queries during surges. ⚙️ The article outlines how to categorize traffic into three tiers: critical, important, and best-effort. This allows teams to determine which queries can be temporarily&amp;hellip;</description>
+    </item>
     <item>
       <title>High memory usage in Postgres is good, actually</title>
       <link>/articles/article-2026-03-30-17273/</link>

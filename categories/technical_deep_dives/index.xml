@@ -6,14 +6,35 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 00:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 16:00:17 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads</title>
+      <link>/articles/article-2026-03-31-17314/</link>
+      <pubDate>Tue, 31 Mar 2026 16:00:17 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17314/</guid>
+      <description>Meta is advancing its Ads Recommender models by implementing the Adaptive Ranking Model, designed to enhance AI Recommendation Systems. This innovation aims to improve understanding of user interests while maintaining efficiency. The model addresses the &amp;ldquo;inference trilemma,&amp;rdquo; balancing complexity, latency, and cost. It utilizes intelligent request routing to serve the most effective model based on user context. Key developments include: - Inference-efficient model scaling for sub-second&amp;hellip;</description>
+    </item>
     <item>
       <title>Agent Context Pruning: How Rovo Dev keeps long sessions useful</title>
       <link>/articles/article-2026-03-31-17284/</link>
       <pubDate>Tue, 31 Mar 2026 00:10:34 +0000</pubDate>
       <guid>/articles/article-2026-03-31-17284/</guid>
       <description>Rovo Dev enhances coding sessions with agent context pruning, which optimizes memory usage during long tasks. This method prioritizes preserving key information while removing less valuable context, allowing AI agents to maintain coherence in conversations. Pruning can occur automatically or manually, ensuring users can focus on their tasks without losing important details. #AIAgents #ContextPruning #CodingEfficiency #RovoDev #TechInnovation 🤖💻📊</description>
+    </item>
+    <item>
+      <title>A stealthy octopus takes center stage in the cinematic 2.5D platformer Darwin’s Paradox!</title>
+      <link>/articles/article-2026-03-31-17304/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17304/</guid>
+      <description>🎮 Exciting news from the gaming world! ZDT&amp;rsquo;s team of experts discusses their debut title, &lt;strong&gt;Darwin&amp;rsquo;s Paradox&lt;/strong&gt;, a 2.5D platformer featuring a stealthy octopus. They highlight how Unreal Engine&amp;rsquo;s key features enhanced the game&amp;rsquo;s development and visual storytelling. This innovative approach brings a unique gaming experience to players! #DarwinsParadox #GameDevelopment #UnrealEngine #IndieGame #GamingNews 🦑✨</description>
+    </item>
+    <item>
+      <title>Graceful degradation in Postgres</title>
+      <link>/articles/article-2026-03-31-17305/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17305/</guid>
+      <description>In the article &amp;ldquo;Graceful Degradation in Postgres,&amp;rdquo; the focus is on managing database traffic effectively. When databases face high traffic, critical queries must be prioritized to maintain functionality. PlanetScale&amp;rsquo;s Traffic Control addresses this by introducing resource budgets that protect essential queries during surges. ⚙️ The article outlines how to categorize traffic into three tiers: critical, important, and best-effort. This allows teams to determine which queries can be temporarily&amp;hellip;</description>
     </item>
     <item>
       <title>Zero-Downtime PyTorch Upgrade in Production: Approaches, Pitfalls and Lessons</title>

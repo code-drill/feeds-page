@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 16:00:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 18:14:50 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stream High-Fidelity Spatial Computing Content to Any Device with NVIDIA CloudXR 6.0</title>
+      <link>/articles/article-2026-03-31-17317/</link>
+      <pubDate>Tue, 31 Mar 2026 18:14:50 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17317/</guid>
+      <description>NVIDIA CloudXR 6.0 is advancing spatial computing from visualization to active collaboration. This shift demands more GPU power for rendering high-fidelity content in real time. The new version features a universal OpenXR-based streaming runtime compatible with various headsets, operating systems, and browsers, including visionOS. Learn how to leverage CloudXR 6.0 for your projects today! 🚀🔧 #NVIDIA #CloudXR #SpatialComputing #XR #OpenXR</description>
+    </item>
+    <item>
+      <title>From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus</title>
+      <link>/articles/article-2026-03-31-17322/</link>
+      <pubDate>Tue, 31 Mar 2026 17:00:39 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17322/</guid>
+      <description>🚀 Slack has transitioned to support HTTP/3, but faced challenges with client-side observability due to legacy tools. Existing monitoring solutions lacked the capability to probe new HTTP/3 endpoints effectively. This gap hindered visibility and accurate metrics. 💡 An intern, Sebastian Feliciano, developed QUIC support for Prometheus&amp;rsquo; Blackbox Exporter, using the quic-go client. His open-source contribution enhances monitoring for the entire Prometheus community. #HTTP3 #OpenSource #Prometheus&amp;hellip;</description>
+    </item>
     <item>
       <title>Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads</title>
       <link>/articles/article-2026-03-31-17314/</link>
@@ -28,6 +42,13 @@
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-31-17304/</guid>
       <description>🎮 Exciting news from the gaming world! ZDT&amp;rsquo;s team of experts discusses their debut title, &lt;strong&gt;Darwin&amp;rsquo;s Paradox&lt;/strong&gt;, a 2.5D platformer featuring a stealthy octopus. They highlight how Unreal Engine&amp;rsquo;s key features enhanced the game&amp;rsquo;s development and visual storytelling. This innovative approach brings a unique gaming experience to players! #DarwinsParadox #GameDevelopment #UnrealEngine #IndieGame #GamingNews 🦑✨</description>
+    </item>
+    <item>
+      <title>Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText</title>
+      <link>/articles/article-2026-03-31-17325/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17325/</guid>
+      <description>Maximize your model training efficiency with the new continuous checkpointing feature in Orbax and MaxText! 🚀 This innovative approach optimizes reliability and performance by allowing asynchronous save operations only after prior saves complete. Unlike traditional fixed-frequency checkpointing, it reduces resource wastage and minimizes failure risks during large-scale training jobs. 📊 With just a few configuration changes, you can enable continuous checkpointing and enhance your training&amp;hellip;</description>
     </item>
     <item>
       <title>Graceful degradation in Postgres</title>

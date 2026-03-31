@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 16:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 17:40:21 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking efficiency: A guide to operator cache configuration on Red Hat OpenShift and Kubernetes</title>
+      <link>/articles/article-2026-03-31-17316/</link>
+      <pubDate>Tue, 31 Mar 2026 17:40:21 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17316/</guid>
+      <description>Understanding operator cache configuration on Red Hat OpenShift and Kubernetes is crucial for efficient memory management. As operators scale, issues like out of memory (OOM) errors can arise, especially in cluster scope deployments. These errors may occur during upgrades or due to unexpected caching behavior of the controller-runtime. The controller-runtime builds a cache of cluster resources, which can lead to high memory usage at startup or during spikes in resource events. Proper&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build and Stream Browser-Based XR Experiences with NVIDIA CloudXR.js</title>
+      <link>/articles/article-2026-03-31-17318/</link>
+      <pubDate>Tue, 31 Mar 2026 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17318/</guid>
+      <description>🚀 Exciting news for developers! NVIDIA has introduced CloudXR.js, a JavaScript SDK that allows streaming high-fidelity VR and AR experiences directly to web browsers. This eliminates the need for native apps and complex setups. With CloudXR.js, developers can reach enterprise users easily, using just a URL. It supports the creation of digital twins, robot teleoperation, and interactive training environments. To get started, ensure you have Node.js, a compatible browser, and the right&amp;hellip;</description>
+    </item>
     <item>
       <title>Building better AI benchmarks: How many raters are enough?</title>
       <link>/articles/article-2026-03-31-17313/</link>

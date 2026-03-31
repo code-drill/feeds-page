@@ -6,8 +6,15 @@
     <description>Recent content in Slack-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 19:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 17:00:39 +0000</lastBuildDate>
     <atom:link href="/sources/slack-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus</title>
+      <link>/articles/article-2026-03-31-17322/</link>
+      <pubDate>Tue, 31 Mar 2026 17:00:39 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17322/</guid>
+      <description>🚀 Slack has transitioned to support HTTP/3, but faced challenges with client-side observability due to legacy tools. Existing monitoring solutions lacked the capability to probe new HTTP/3 endpoints effectively. This gap hindered visibility and accurate metrics. 💡 An intern, Sebastian Feliciano, developed QUIC support for Prometheus&amp;rsquo; Blackbox Exporter, using the quic-go client. His open-source contribution enhances monitoring for the entire Prometheus community. #HTTP3 #OpenSource #Prometheus&amp;hellip;</description>
+    </item>
     <item>
       <title>How Slack Rebuilt Notifications 📣</title>
       <link>/articles/article-2026-03-19-16955/</link>

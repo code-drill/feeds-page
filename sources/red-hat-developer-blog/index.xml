@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 07:01:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 17:40:21 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking efficiency: A guide to operator cache configuration on Red Hat OpenShift and Kubernetes</title>
+      <link>/articles/article-2026-03-31-17316/</link>
+      <pubDate>Tue, 31 Mar 2026 17:40:21 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17316/</guid>
+      <description>Understanding operator cache configuration on Red Hat OpenShift and Kubernetes is crucial for efficient memory management. As operators scale, issues like out of memory (OOM) errors can arise, especially in cluster scope deployments. These errors may occur during upgrades or due to unexpected caching behavior of the controller-runtime. The controller-runtime builds a cache of cluster resources, which can lead to high memory usage at startup or during spikes in resource events. Proper&amp;hellip;</description>
+    </item>
     <item>
       <title>How to get raw device mapping with OpenShift Virtualization</title>
       <link>/articles/article-2026-03-31-17288/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2026 07:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS permission delegation now generally available in HCP Terraform</title>
+      <link>/articles/article-2026-04-01-17369/</link>
+      <pubDate>Wed, 01 Apr 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-01-17369/</guid>
+      <description>🚀 AWS temporary permission delegation is now available in HCP Terraform! This new feature helps organizations streamline their AWS setup while ensuring security. It allows temporary, scoped IAM permission delegation to trusted partners, reducing configuration burdens and accelerating deployment times. With this integration, users can simplify onboarding for AWS services and minimize errors, all while maintaining strict control over permissions. For more details on getting started, check the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>HCP Terraform adds IP allow list for Terraform resources</title>
+      <link>/articles/article-2026-04-01-17370/</link>
+      <pubDate>Wed, 01 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-01-17370/</guid>
+      <description>🚀 Exciting news for HCP Terraform users! The platform now supports IP allow lists for resources at both the organization and agent levels. This new feature ensures that tokens are only accepted from trusted IP addresses, enhancing security for infrastructure management. Admins can define CIDR ranges for agent pools, providing flexibility in enforcing network restrictions. This update helps limit access, reducing risks associated with credential exposure. For more information, check out the&amp;hellip;</description>
+    </item>
     <item>
       <title>Modernizing governance on HCP with multi-owner and global automation</title>
       <link>/articles/article-2026-03-27-17208/</link>

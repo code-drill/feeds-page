@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 03:15:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 07:13:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Falcon Perception</title>
+      <link>/articles/article-2026-04-01-17339/</link>
+      <pubDate>Wed, 01 Apr 2026 07:13:20 +0000</pubDate>
+      <guid>/articles/article-2026-04-01-17339/</guid>
+      <description>🚀 Exciting advancements in AI with Falcon Perception! This new 0.6B-parameter Transformer model excels in open-vocabulary grounding and segmentation using natural language prompts. It effectively combines image patches and text for enhanced processing. Falcon Perception achieves a Macro-F1 score of 68.0 on the SA-Co benchmark, outperforming previous models. Additionally, the introduction of PBench helps evaluate performance across various capabilities. Falcon OCR also makes its debut, scoring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Implement a multicluster event exporter for enterprise automation</title>
+      <link>/articles/article-2026-04-01-17337/</link>
+      <pubDate>Wed, 01 Apr 2026 07:01:22 +0000</pubDate>
+      <guid>/articles/article-2026-04-01-17337/</guid>
+      <description>🚀 Red Hat Advanced Cluster Management enhances Kubernetes with a multicluster global hub, enabling management at scale. This hub provides unified visibility and policy compliance across thousands of clusters. A key feature is the multicluster global hub agent, which can function as an event exporter, streamlining event data for enterprise automation. By standardizing events into CloudEvents format, it simplifies integration with tools like Ansible and Splunk, allowing for real-time visibility&amp;hellip;</description>
+    </item>
+    <item>
+      <title>YouTrack Introduces Whiteboards</title>
+      <link>/articles/article-2026-04-01-17338/</link>
+      <pubDate>Wed, 01 Apr 2026 05:20:31 +0000</pubDate>
+      <guid>/articles/article-2026-04-01-17338/</guid>
+      <description>🚀 YouTrack 2026.1 has launched Whiteboards! This new feature allows teams to plan, brainstorm, and collaborate effectively. You can connect projects for better organization, add notes, and convert them into tasks or articles. Administrators will benefit from streamlined project access management and users will enjoy enhanced notification center experiences. Explore the expanding YouTrack app ecosystem with 50 available apps on JetBrains Marketplace. #YouTrack #ProjectManagement #Collaboration&amp;hellip;</description>
+    </item>
     <item>
       <title>Bootable containers: Reduce friction with Red Hat Enterprise Linux image mode</title>
       <link>/articles/article-2026-04-01-17335/</link>
@@ -303,6 +324,13 @@
       <description>🚨 Important updates for users of packages.gitlab.com! 🚨 GitLab is migrating to a new package hosting system. The base domain remains the same, but URL formats, GPG key locations, and network requirements are changing. 🔹 Existing configurations will work until September 30, 2026, with a transition period in place. 🔹 Key actions include updating repository configurations and GPG key references. For a smooth transition, please review the updated installation documentation and make necessary&amp;hellip;</description>
     </item>
     <item>
+      <title>Detecting CVE-2026-20929: Kerberos Authentication Relay via CNAME Abuse</title>
+      <link>/articles/article-2026-03-31-17340/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17340/</guid>
+      <description>🚨 New vulnerability alert: CVE-2026-20929 has a CVSS score of 7.5 and was patched in January 2026. This vulnerability allows attackers to exploit Kerberos authentication through DNS CNAME record manipulation, targeting Active Directory Certificate Services (AD CS) for certificate enrollment. CrowdStrike has introduced a correlation-based detection method to identify this attack pattern by monitoring unusual authentication activities. Stay informed about these evolving threats! 🔒🛡️&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elastic Cloud Hosted achieves FedRAMP® High authorization</title>
       <link>/articles/article-2026-03-31-17295/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
@@ -310,11 +338,32 @@
       <description>🚀 Exciting news! Elastic Cloud Hosted has achieved FedRAMP® High authorization on AWS GovCloud (US). This certification allows US federal agencies to securely handle sensitive controlled unclassified information. It involves over 400 security controls, showcasing Elastic&amp;rsquo;s commitment to security. Elastic continues to enhance its offerings, including partnerships for SIEM-as-a-Service with CISA, and a discount program with GSA to streamline procurement. #ElasticCloud #FedRAMP #Cybersecurity&amp;hellip;</description>
     </item>
     <item>
+      <title>Getting Started with Podman Quadlets</title>
+      <link>/articles/article-2026-03-31-17343/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17343/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.twilio.com/blog/feed&#34;&gt;Twilio Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/getting-started-with-podman-quadlets&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Graceful degradation in Postgres</title>
       <link>/articles/article-2026-03-31-17305/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-03-31-17305/</guid>
       <description>In the article &amp;ldquo;Graceful Degradation in Postgres,&amp;rdquo; the focus is on managing database traffic effectively. When databases face high traffic, critical queries must be prioritized to maintain functionality. PlanetScale&amp;rsquo;s Traffic Control addresses this by introducing resource budgets that protect essential queries during surges. ⚙️ The article outlines how to categorize traffic into three tiers: critical, important, and best-effort. This allows teams to determine which queries can be temporarily&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to create a promotional campaign with RCS and SendGrid in C#</title>
+      <link>/articles/article-2026-03-31-17341/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17341/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.twilio.com/blog/feed&#34;&gt;Twilio Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.twilio.com/en-us/blog/developers/tutorials/product/how-to-create-promotional-rcs-sendgrid-in-csharp&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>March 2026 Fraud Update: AIT Tactics, Weaponized Trust, and a New Fraud Response Guide</title>
+      <link>/articles/article-2026-03-31-17342/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-03-31-17342/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.twilio.com/blog/feed&#34;&gt;Twilio Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.twilio.com/en-us/blog/insights/best-practices/quarterly-fraud-update-march-2026&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>March’s Epic learning content: Substrate, MetaHuman, and more</title>

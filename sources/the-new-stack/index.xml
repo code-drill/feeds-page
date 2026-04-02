@@ -6,8 +6,43 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2026 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line</title>
+      <link>/articles/article-2026-04-02-17395/</link>
+      <pubDate>Thu, 02 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17395/</guid>
+      <description>Recent attacks by TeamPCP highlight vulnerabilities in CI/CD pipelines. 🚨 Attackers exploited stolen credentials to deliver malicious versions of popular tools like Trivy and LiteLLM, affecting millions of developers. The trend shows that CI/CD systems, often seen as separate from production environments, are critical yet insecure. 🔒 These incidents reveal a need for stronger security measures in software supply chains, as current defaults may leave organizations exposed. #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why coding agents will break your CI/CD pipeline (and how to fix it)</title>
+      <link>/articles/article-2026-04-02-17396/</link>
+      <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17396/</guid>
+      <description>🚨 The rise of AI coding agents is reshaping CI/CD pipelines, raising critical concerns for engineering leaders. As AI generates code faster than teams can manage, new challenges arise. The validation process becomes the bottleneck, risking stability in cloud-native environments. Shared staging environments struggle under the weight of simultaneous code submissions, leading to outages and unmerged code. If not addressed, this issue could negate investments in AI tools, resulting in production&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Broadcom gave Velero to the CNCF Sandbox — and what it means for Kubernetes data protection</title>
+      <link>/articles/article-2026-04-02-17397/</link>
+      <pubDate>Thu, 02 Apr 2026 14:36:51 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17397/</guid>
+      <description>Broadcom has donated Velero to the CNCF Sandbox, enhancing its support for Kubernetes and open-source collaboration. This move aims to foster community trust and reduce proprietary perceptions. The shift in governance will help Velero better meet community needs. Broadcom seeks to strengthen its position in cloud-native solutions while addressing Kubernetes management challenges. Learn more about this strategic decision in the latest podcast episode with Dilpreet Bindra. 🎧🌐 #Kubernetes&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenClaw vs. Hermes Agent: The race to build AI assistants that never forget</title>
+      <link>/articles/article-2026-04-02-17398/</link>
+      <pubDate>Thu, 02 Apr 2026 14:26:17 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17398/</guid>
+      <description>The article discusses the challenges developers face with AI coding assistants, particularly the loss of context between sessions. OpenClaw and Hermes Agent are two open-source projects aiming to create AI assistants that remember user inputs permanently. They represent a shift from session-based tools to persistent agents that learn and adapt over time. While some session-native tools are adding memory features, OpenClaw and Hermes Agent are built for continuous operation, improving user&amp;hellip;</description>
+    </item>
+    <item>
+      <title>There’s a hidden tax on every AI-generated merge request</title>
+      <link>/articles/article-2026-04-02-17399/</link>
+      <pubDate>Thu, 02 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17399/</guid>
+      <description>AI coding tools may not be solving bottlenecks in software development; instead, they are shifting them to the review queue. This places added pressure on senior engineers who are now overwhelmed by increased merge request (MR) volumes. 📈 Despite the rise in AI usage, key delivery metrics have not shown improvement, highlighting that more MRs do not necessarily equate to higher productivity. Senior engineers are spending more time on reviews, which limits their ability to focus on design and&amp;hellip;</description>
+    </item>
     <item>
       <title>Moving beyond the “magic scaling sauce” myth</title>
       <link>/articles/article-2026-04-02-17387/</link>

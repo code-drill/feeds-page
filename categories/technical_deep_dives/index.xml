@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2026 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 21:46:27 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smarter Live Streaming at Scale: Rolling Out VBR for All Netflix Live Events</title>
+      <link>/articles/article-2026-04-02-17468/</link>
+      <pubDate>Thu, 02 Apr 2026 21:46:27 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17468/</guid>
+      <description>📺 Big news from Netflix! As of January 26, 2026, all live events are now encoded using Variable Bitrate (VBR) instead of Constant Bitrate (CBR). VBR adapts bitrate based on scene complexity, improving efficiency and scalability. While this enhances quality, it also introduces challenges with traffic predictability. We are rethinking delivery management to handle these changes effectively. #Netflix #LiveStreaming #VBR #TechUpdates #VideoQuality</description>
+    </item>
     <item>
       <title>Accelerating Vision AI Pipelines with Batch Mode VC-6 and NVIDIA Nsight</title>
       <link>/articles/article-2026-04-02-17463/</link>
       <pubDate>Thu, 02 Apr 2026 20:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-02-17463/</guid>
       <description>Accelerating Vision AI pipelines is crucial as model throughput improves. The SMPTE VC-6 codec addresses the data-to-tensor gap by using a tile-based architecture for efficient image decoding. 🌐 Recent advancements allow batch processing, optimizing workloads and reducing per-image decode time by up to 85%. This enhances the efficiency of vision AI pipelines for training and inference. ⚙️📈 Learn more about the architectural changes and optimizations that make this possible! #VisionAI #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure</title>
+      <link>/articles/article-2026-04-02-17467/</link>
+      <pubDate>Thu, 02 Apr 2026 19:59:46 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17467/</guid>
+      <description>🚀 Meta&amp;rsquo;s Ranking Engineer Agent series continues with a focus on KernelEvolve, an innovative system designed to optimize AI infrastructure. This tool accelerates the performance of Meta&amp;rsquo;s Ads Ranking models, enabling faster development and significant throughput improvements across various hardware. KernelEvolve streamlines the kernel optimization process, reducing weeks of work to hours and enhancing efficiency across multiple platforms. Learn more about this advanced approach to AI model&amp;hellip;</description>
     </item>
     <item>
       <title>Improving storage efficiency in Magic Pocket, our immutable blob store</title>

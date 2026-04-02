@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 23:31:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 03:00:55 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond guesswork: Generating accurate ingress firewall rules with oc commatrix</title>
+      <link>/articles/article-2026-04-02-17376/</link>
+      <pubDate>Thu, 02 Apr 2026 03:00:55 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17376/</guid>
+      <description>🔍 Managing firewall rules in Red Hat OpenShift can be challenging due to constant changes in clusters. The new &lt;strong&gt;oc commatrix CLI&lt;/strong&gt; addresses this issue by inspecting live clusters to generate accurate ingress rules. 📊 Unlike traditional methods that rely on outdated documentation, it automates port discovery and creates tailored rules for your environment, ensuring consistency and reducing manual errors. ✨ Key features include support for custom MachineConfigPools and validation against&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Faster AI/ML container startup with additional storage in Red Hat OpenShift 4.22</title>
+      <link>/articles/article-2026-04-02-17377/</link>
+      <pubDate>Thu, 02 Apr 2026 03:00:53 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17377/</guid>
+      <description>🚀 Red Hat OpenShift 4.22 introduces new features aimed at improving container startup times for AI/ML workloads. With multi-gigabyte model images, lengthy image pull times can delay application readiness. The new ContainerRuntimeConfig API allows administrators to manage where container images and artifacts are stored, enabling options for dedicated SSD storage, shared caches, and lazy pulling. This Technology Preview feature addresses issues like storage pressure and redundant pulls across&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Blast radius validation: Large and small Red Hat OpenShift nodes</title>
+      <link>/articles/article-2026-04-02-17378/</link>
+      <pubDate>Thu, 02 Apr 2026 03:00:51 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17378/</guid>
+      <description>🔍 Exploring the impact of node size in Red Hat OpenShift! This article evaluates if larger nodes increase operational risk during planned maintenance and outages. Tests were conducted using three-node clusters with varying sizes and workloads. 📊 Results show that when resources are balanced, larger nodes do not significantly increase recovery time. In fact, during planned maintenance, larger nodes recovered faster than smaller ones. Key focus areas include: - Operational risk related to core&amp;hellip;</description>
+    </item>
     <item>
       <title>Announcing managed daemon support for Amazon ECS Managed Instances</title>
       <link>/articles/article-2026-04-01-17375/</link>

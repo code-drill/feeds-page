@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 23:31:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 03:00:53 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faster AI/ML container startup with additional storage in Red Hat OpenShift 4.22</title>
+      <link>/articles/article-2026-04-02-17377/</link>
+      <pubDate>Thu, 02 Apr 2026 03:00:53 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17377/</guid>
+      <description>🚀 Red Hat OpenShift 4.22 introduces new features aimed at improving container startup times for AI/ML workloads. With multi-gigabyte model images, lengthy image pull times can delay application readiness. The new ContainerRuntimeConfig API allows administrators to manage where container images and artifacts are stored, enabling options for dedicated SSD storage, shared caches, and lazy pulling. This Technology Preview feature addresses issues like storage pressure and redundant pulls across&amp;hellip;</description>
+    </item>
     <item>
       <title>Announcing managed daemon support for Amazon ECS Managed Instances</title>
       <link>/articles/article-2026-04-01-17375/</link>

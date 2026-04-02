@@ -65,6 +65,13 @@
       <description>🔍 Exploring the impact of node size in Red Hat OpenShift! This article evaluates if larger nodes increase operational risk during planned maintenance and outages. Tests were conducted using three-node clusters with varying sizes and workloads. 📊 Results show that when resources are balanced, larger nodes do not significantly increase recovery time. In fact, during planned maintenance, larger nodes recovered faster than smaller ones. Key focus areas include: - Operational risk related to core&amp;hellip;</description>
     </item>
     <item>
+      <title>Patterns for Postgres Traffic Control</title>
+      <link>/articles/article-2026-04-02-17428/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-02-17428/</guid>
+      <description>Introducing Database Traffic Control™ for Postgres! 🚦 This tool helps manage resource budgets for different traffic slices, ensuring critical operations, like checkout processes, remain unaffected by heavy queries. The article provides practical patterns in Go to implement this, highlighting the use of SQLCommenter format for tagging queries. Key strategies include service isolation through unique connection strings and route-level tagging in HTTP services. Explore how to enhance your&amp;hellip;</description>
+    </item>
+    <item>
       <title>DORA Compliance at Scale: A Technical Account of Intesa Sanpaolo’s Transformation</title>
       <link>/articles/article-2026-04-01-17351/</link>
       <pubDate>Wed, 01 Apr 2026 16:00:21 +0000</pubDate>

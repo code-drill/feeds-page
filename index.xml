@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2026 21:39:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 22:15:14 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale</title>
+      <link>/articles/article-2026-04-06-17612/</link>
+      <pubDate>Mon, 06 Apr 2026 22:15:14 +0000</pubDate>
+      <guid>/articles/article-2026-04-06-17612/</guid>
+      <description>🚀 Netflix has developed an experimental caching layer for Apache Druid to enhance real-time analytics at scale. With over 10 trillion rows and 15 million events per second, repetitive queries from dashboards became a challenge. The new caching system retains older data, reducing redundant queries and improving response times by up to 66%. This innovative approach balances data freshness with performance, ensuring efficient data handling during high-demand events. #Netflix #Druid&amp;hellip;</description>
+    </item>
     <item>
       <title>Anthropic’s harness shakeup “just fragments workflows,” developers warn</title>
       <link>/articles/article-2026-04-06-17606/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 06 Apr 2026 21:01:55 +0000</pubDate>
       <guid>/articles/article-2026-04-06-17607/</guid>
       <description>MCP servers enhance Claude&amp;rsquo;s capabilities by connecting your data directly to its reasoning engine. This allows Claude to analyze your data seamlessly, eliminating the need for cumbersome workarounds. Companies can now easily build MCP servers for more efficient data processing. A simple calculator app will demonstrate the essentials of creating an MCP server. Get ready to leverage Claude for your data needs! 💻📊🔍 #DataAnalytics #AI #Claude #MCPservers #TechInnovation</description>
+    </item>
+    <item>
+      <title>How we built Organizations to help enterprises manage Cloudflare at scale</title>
+      <link>/articles/article-2026-04-06-17611/</link>
+      <pubDate>Mon, 06 Apr 2026 21:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-06-17611/</guid>
+      <description>🌐 Cloudflare announces the public beta of Organizations, a new management layer for enterprise customers. This feature simplifies user management across multiple accounts, addressing the complexities large enterprises face. With the principle of least privilege in mind, organizations can now manage permissions more effectively. The Org Super Administrator role allows centralized control without needing to join each account, easing administrative tasks. Explore how Organizations can streamline&amp;hellip;</description>
     </item>
     <item>
       <title>Let’s Talk Agentic Development: Spotify x Anthropic Live</title>
@@ -153,7 +167,7 @@
       <link>/articles/article-2026-04-06-17610/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-06-17610/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.crowdstrike.com/blog/feed/&#34;&gt;CrowdStrike Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/blog/how-crowdstrike-accelerates-exposure-evaluation-against-threats/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>CrowdStrike is enhancing its Falcon Exposure Management with a new feature called Continuous Visibility. 🌐 This capability allows for ongoing evaluation of vulnerability exposure, eliminating delays often seen with periodic scans. With adversaries acting quickly, organizations need real-time insights to respond effectively. Continuous Visibility assesses network assets and prioritizes risks immediately upon new vulnerability disclosures, ensuring teams can act confidently. 🔍 Stay informed and&amp;hellip;</description>
     </item>
     <item>
       <title>Cursor’s $2 billion bet: The IDE is now a fallback, not the default</title>

@@ -6,8 +6,85 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 16:36:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 19:11:40 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Prompt Caching at Scale</title>
+      <link>/articles/article-2026-04-07-17644/</link>
+      <pubDate>Tue, 07 Apr 2026 19:11:40 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17644/</guid>
+      <description>🌐 Prompt caching optimizes inference requests by reusing computed KV states, enhancing efficiency and reducing costs. However, as systems scale with multiple replicas, cache hit rates drop, posing challenges. 🔄 Implementing session affinity can improve performance by routing requests to the same replica, preserving cached data. 📊 Effective architectural strategies, including tiered caching and proper prompt structure, can significantly boost efficiency. #PromptCaching #AIInference&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The next chapter of Cisco and Nutanix: Building flexible infrastructure for the modern era</title>
+      <link>/articles/article-2026-04-07-17640/</link>
+      <pubDate>Tue, 07 Apr 2026 19:08:55 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17640/</guid>
+      <description>Cisco and Nutanix are collaborating to create a flexible, hyperconverged infrastructure that meets modern enterprise demands. This partnership aims to simplify operations and enhance AI adoption, allowing businesses to run workloads anywhere with consistent performance. The integration of Cisco AI PODs with Nutanix solutions addresses the complexity of deploying AI environments at scale, providing a repeatable architecture for organizations. Stay tuned for more updates on this innovative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Amazon S3 Files gives the world’s biggest object store a file system</title>
+      <link>/articles/article-2026-04-07-17637/</link>
+      <pubDate>Tue, 07 Apr 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17637/</guid>
+      <description>🚀 AWS has launched S3 Files, transforming Amazon S3 into a file system. Now, S3 buckets can be accessed using NFS v4.1+, allowing operations like creating, reading, and deleting files. This feature connects AWS compute resources directly to data in S3, enhancing collaborative workloads such as ML training and production applications. However, S3 Files cannot be mounted locally from desktops or other cloud providers. #AWS #S3Files #CloudComputing #FileSystem #TechNews 📊📁</description>
+    </item>
+    <item>
+      <title>Running AI Workloads on Rack-Scale Supercomputers: From Hardware to Topology-Aware Scheduling</title>
+      <link>/articles/article-2026-04-07-17643/</link>
+      <pubDate>Tue, 07 Apr 2026 18:51:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17643/</guid>
+      <description>🚀 The NVIDIA GB200 NVL72 and GB300 NVL72 systems are advanced rack-scale supercomputers built on NVIDIA Blackwell architecture. They feature 18 compute trays and high-bandwidth networking, designed for AI architects and HPC platform operators. A key focus is bridging the gap between hardware topology and scheduler abstractions, which can complicate operations. NVIDIA Mission Control offers solutions for effective management, integrating with platforms like Slurm and NVIDIA Run:ai to optimize&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Empowering Retail Success: How Cisco and Zebra Transform Operations</title>
+      <link>/articles/article-2026-04-07-17641/</link>
+      <pubDate>Tue, 07 Apr 2026 18:26:17 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17641/</guid>
+      <description>Cisco and Zebra Technologies are partnering to tackle costly retail downtime. Their integration of Cisco Wireless and ThousandEyes with Zebra devices enhances visibility and control for retailers. This collaboration aims to improve productivity and customer satisfaction during peak shopping hours. Retail IT teams often struggle with limited insight into device performance, which can hinder operations. By addressing these visibility gaps, retailers can better manage their systems and minimize&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Rising to the Era of AI-Powered Cyber Defense</title>
+      <link>/articles/article-2026-04-07-17642/</link>
+      <pubDate>Tue, 07 Apr 2026 18:00:40 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17642/</guid>
+      <description>🚀 Cisco is partnering with key cyber defenders through Anthropic’s Project Glasswing to tackle AI-powered threats in cybersecurity. The collaboration emphasizes the urgent need for a united front as AI capabilities evolve. Cisco aims to enhance product security and rapidly identify vulnerabilities using advanced AI technologies. As AI innovations benefit defenders, they also empower attackers, raising the stakes in the cyber landscape. The race is on to stay ahead. #Cybersecurity #AI #Cisco&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic’s Claude Mythos is real, but it’s not for you</title>
+      <link>/articles/article-2026-04-07-17638/</link>
+      <pubDate>Tue, 07 Apr 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17638/</guid>
+      <description>🌐 Anthropic recently revealed Claude Mythos, a new tier of AI models, despite it not being publicly available yet. Only select partners like Amazon, Apple, and Microsoft will access the Claude Mythos Preview through Project Glasswing for cybersecurity purposes. This model shows strong performance in coding and reasoning, scoring 83.1% on the CyberGym benchmark. Anthropic emphasizes a cautious rollout to ensure that defenders can secure their systems before wider access. #AI #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Adam Grant on how AI reshapes work: why agility beats ability</title>
+      <link>/articles/article-2026-04-07-17652/</link>
+      <pubDate>Tue, 07 Apr 2026 17:56:08 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17652/</guid>
+      <description>🌟 Adam Grant shares key insights on teamwork in an AI-driven world. He emphasizes that the main challenge is not the technology, but the people involved. 🔍 In his session at Atlassian, he argues that agility is now the new currency of success, surpassing traditional ability. Teams that adapt quickly and experiment will thrive. 🤝 Grant suggests treating AI as a thought partner to enhance collaboration, rather than a definitive source of truth. Leaders should adopt a scientific mindset, testing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS EKS Auto Mode wants to end Kubernetes toil — one node at a time</title>
+      <link>/articles/article-2026-04-07-17639/</link>
+      <pubDate>Tue, 07 Apr 2026 17:55:49 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17639/</guid>
+      <description>🚀 AWS EKS Auto Mode aims to reduce the complexities of Kubernetes management. In a recent interview, Alex Kestner, AWS Elastic Kubernetes Service&amp;rsquo;s principal product manager, discussed how this feature can alleviate the daily operational burdens on platform teams. Kestner highlighted that many challenges arise from routine tasks, such as node lifecycle management, which divert focus from delivering value to businesses. Auto Mode is designed to streamline these processes, enabling teams to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>MongoDB Predictive Auto-Scaling: An Experiment</title>
+      <link>/articles/article-2026-04-07-17651/</link>
+      <pubDate>Tue, 07 Apr 2026 17:03:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17651/</guid>
+      <description>🚀 MongoDB has introduced predictive auto-scaling for Atlas, enhancing the way it manages server loads. This new feature anticipates spikes in demand, scaling up replica sets before overload occurs. Currently, it only scales up; the existing reactive algorithm manages scaling down. Research indicates this could significantly improve performance and save costs for users. 🌍💡 #MongoDB #AutoScaling #CloudComputing #DataManagement #MachineLearning</description>
+    </item>
+    <item>
+      <title>Building a high-volume metrics pipeline with OpenTelemetry and vmagent</title>
+      <link>/articles/article-2026-04-07-17653/</link>
+      <pubDate>Tue, 07 Apr 2026 17:01:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17653/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://medium.com/feed/airbnb-engineering&#34;&gt;Airbnb Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45?source=rss----53c7c27702d5---4&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introducing the new Customer Success Experience on Cisco.com</title>
       <link>/articles/article-2026-04-07-17624/</link>
@@ -126,6 +203,13 @@
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-07-17631/</guid>
       <description>🚀 Introducing Enterprise Granular Access Control! This new feature aims to streamline team collaboration on websites by allowing scoped permissions. With this, adding contributors can enhance productivity while minimizing risks. It&amp;rsquo;s a significant step towards safer and more efficient teamwork. #Webflow #TeamCollaboration #AccessControl #Productivity #WebDevelopment</description>
+    </item>
+    <item>
+      <title>Pipeline security lessons from March supply chain incidents</title>
+      <link>/articles/article-2026-04-07-17645/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17645/</guid>
+      <description>🚨 In March 2026, multiple supply chain attacks targeted CI/CD pipelines, affecting several tools like Trivy, Checkmarx KICS, LiteLLM, and axios. The attackers exploited compromised credentials to infiltrate and manipulate these widely used systems. Key vulnerabilities included poisoned tools, packaging misconfigurations, and issues with transitive dependencies. GitLab&amp;rsquo;s Pipeline Execution Policies are recommended to enhance security and prevent similar incidents by enforcing mandatory checks&amp;hellip;</description>
     </item>
     <item>
       <title>Streamline test management with the SmartBear QMetry GitLab component</title>

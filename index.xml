@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 19:11:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 19:18:32 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launching S3 Files, making S3 buckets accessible as file systems</title>
+      <link>/articles/article-2026-04-07-17655/</link>
+      <pubDate>Tue, 07 Apr 2026 19:18:32 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17655/</guid>
+      <description>🚀 Exciting news from AWS! Amazon S3 Files now turns S3 buckets into accessible file systems. This innovation allows seamless connections between S3 and AWS compute resources, enabling data sharing with ~1ms latencies. No more trade-offs between object storage and interactive file capabilities! With S3 Files, you can manage data efficiently across multiple compute resources and benefit from intelligent pre-fetching to optimize access. Learn more about this game-changing feature! #AWS #S3Files&amp;hellip;</description>
+    </item>
     <item>
       <title>Advanced Prompt Caching at Scale</title>
       <link>/articles/article-2026-04-07-17644/</link>
@@ -83,7 +90,7 @@
       <link>/articles/article-2026-04-07-17653/</link>
       <pubDate>Tue, 07 Apr 2026 17:01:01 +0000</pubDate>
       <guid>/articles/article-2026-04-07-17653/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://medium.com/feed/airbnb-engineering&#34;&gt;Airbnb Engineering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45?source=rss----53c7c27702d5---4&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting developments in metrics migration! A recent article details the transition from StatsD to OpenTelemetry and Prometheus for a high-volume metrics pipeline. The team adopted a dual-write approach, using OpenTelemetry Protocol (OTLP) for internal services while keeping StatsD for legacy applications. This migration improved CPU efficiency and reliability, with significant benefits in data handling. They introduced a centralized aggregation pipeline using vmagent, enhancing scalability&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing the new Customer Success Experience on Cisco.com</title>
@@ -133,6 +140,13 @@
       <pubDate>Tue, 07 Apr 2026 13:01:09 +0000</pubDate>
       <guid>/articles/article-2026-04-07-17628/</guid>
       <description>Artificial Intelligence is transforming business, but it also introduces new cybersecurity risks. ⚠️ Adversarial AI is a significant concern, involving techniques that exploit and compromise AI systems. Understanding these threats is essential to protect the integrity and reliability of AI-powered products. The article outlines two main forms of adversarial AI and highlights critical attack surfaces, including AI algorithms and generative AI filters. Stay informed to safeguard your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Hello Developer: April 2026</title>
+      <link>/articles/article-2026-04-07-17654/</link>
+      <pubDate>Tue, 07 Apr 2026 13:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17654/</guid>
+      <description>🚀 Exciting updates in the latest edition of Hello Developer! 📅 Join us on bilibili and LinkedIn for engaging discussions. 🛠️ Catch up on essential sessions before WWDC26 and learn how to build a travel app with sample code. 🎨 Don&amp;rsquo;t miss the new design gallery and the significant update to Analytics in App Store Connect. #HelloDeveloper #WWDC26 #AppDevelopment #Analytics #DesignGallery</description>
     </item>
     <item>
       <title>Model Flop Utilization is the metric Aria Networks says will define the AI infrastructure era</title>

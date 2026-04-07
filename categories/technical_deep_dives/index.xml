@@ -23,6 +23,13 @@
       <description>🚀 The NVIDIA GB200 NVL72 and GB300 NVL72 systems are advanced rack-scale supercomputers built on NVIDIA Blackwell architecture. They feature 18 compute trays and high-bandwidth networking, designed for AI architects and HPC platform operators. A key focus is bridging the gap between hardware topology and scheduler abstractions, which can complicate operations. NVIDIA Mission Control offers solutions for effective management, integrating with platforms like Slurm and NVIDIA Run:ai to optimize&amp;hellip;</description>
     </item>
     <item>
+      <title>Building a high-volume metrics pipeline with OpenTelemetry and vmagent</title>
+      <link>/articles/article-2026-04-07-17653/</link>
+      <pubDate>Tue, 07 Apr 2026 17:01:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-07-17653/</guid>
+      <description>🚀 Exciting developments in metrics migration! A recent article details the transition from StatsD to OpenTelemetry and Prometheus for a high-volume metrics pipeline. The team adopted a dual-write approach, using OpenTelemetry Protocol (OTLP) for internal services while keeping StatsD for legacy applications. This migration improved CPU efficiency and reliability, with significant benefits in data handling. They introduced a centralized aggregation pipeline using vmagent, enhancing scalability&amp;hellip;</description>
+    </item>
+    <item>
       <title>Evolution of Multi-Objective Optimization at Pinterest Home feed</title>
       <link>/articles/article-2026-04-07-17635/</link>
       <pubDate>Tue, 07 Apr 2026 16:01:01 +0000</pubDate>

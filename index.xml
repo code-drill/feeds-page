@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:30:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From bytecode to bytes: automated magic packet generation</title>
+      <link>/articles/article-2026-04-08-17675/</link>
+      <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17675/</guid>
+      <description>🔍 Researchers have developed a tool that automates the generation of malware trigger packets from BPF bytecode, reducing analysis time from hours to seconds. By using symbolic execution and the Z3 theorem prover, they can efficiently reverse-engineer malicious filters. This advancement addresses the challenges posed by complex BPF programs often used in stealthy malware like BPFDoor. This innovation stands to significantly enhance security analysis in Linux environments. #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your team’s best ideas are trapped in the wrong format. AI just fixed that.</title>
+      <link>/articles/article-2026-04-08-17676/</link>
+      <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17676/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.atlassian.com/blog/rss&#34;&gt;Atlassian Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/blog/announcements/rovo-remix-3p-agents-confluence&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using ACP &#43; Deep Agents to Demystify Modern Software Engineering</title>
+      <link>/articles/article-2026-04-08-17672/</link>
+      <pubDate>Wed, 08 Apr 2026 12:32:39 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17672/</guid>
+      <description>🚀 Jacob Lee, Founding Software Engineer at LangChain, shares his journey of building a custom coding agent using Deep Agents and the Agent Client Protocol (ACP). He discusses the shift in his work, where he now delegates more to LLMs for coding tasks, enhancing his productivity while grappling with concerns about transparency. Lee’s project aims to align the coding agent with his workflow, ultimately replacing his previous tools. He highlights the benefits of using an IDE with ACP for better&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Empowering the Mission: Join Cisco at Modern Day Marine 2026</title>
+      <link>/articles/article-2026-04-08-17669/</link>
+      <pubDate>Wed, 08 Apr 2026 12:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17669/</guid>
+      <description>🚀 Join Cisco at Modern Day Marine 2026! From April 28–30, visit us at Booth #1420 to witness how our AI-driven operations and Zero Trust security are enhancing mission readiness for the Marine Corps. Explore live demos on quantum-resistant cryptography and secure IT operations aimed at addressing challenges in contested environments. Don&amp;rsquo;t miss this chance to see the future of technology in action! #Cisco #ModernDayMarine #Innovation #AITechnology #CyberSecurity</description>
+    </item>
+    <item>
+      <title>Data Optimization in Security: A Splunk Architect’s Perspective</title>
+      <link>/articles/article-2026-04-08-17670/</link>
+      <pubDate>Wed, 08 Apr 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17670/</guid>
+      <description>Data optimization in security is vital for enhancing detection engineering and improving incident response in Splunk environments. 🛡️ Improper optimization can lead to issues like lost detection fidelity and increased investigation times. It&amp;rsquo;s crucial to align data performance with detection needs rather than just reducing volume. 📊 Common mistakes include making decisions about data retention before fully understanding detection requirements, creating potential blind spots. 📉 Understanding&amp;hellip;</description>
+    </item>
     <item>
       <title>Collaborative Analytics on Databricks</title>
       <link>/articles/article-2026-04-08-17667/</link>
@@ -23,11 +58,25 @@
       <description>Unlock the potential of AI with Lola, a universal package manager designed for managing AI context. 💡 Lola simplifies the distribution and versioning of AI components using modules and marketplaces. Modules bundle all necessary files for specialized AI agents, while marketplaces offer a curated catalog for easy access to these modules. 🔧 Learn how to install Lola, add marketplaces, and manage your AI context efficiently. Explore its open-source capabilities at the Red Hat Product Security&amp;hellip;</description>
     </item>
     <item>
+      <title>Custom OIDC Providers for Supabase Auth</title>
+      <link>/articles/article-2026-04-08-17673/</link>
+      <pubDate>Wed, 08 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17673/</guid>
+      <description>🔗 Supabase Auth now supports Custom OIDC Providers! This feature allows integration with any OpenID Connect identity provider, including regional options and self-hosted solutions like GitHub Enterprise. No longer limited to the 20+ built-in providers, users can now configure their own to match compliance needs and company requirements. Custom providers operate seamlessly, maintaining the same sign-in flow and security features. #Supabase #OIDC #Authentication #TechUpdate #CloudComputing</description>
+    </item>
+    <item>
       <title>Agent-driven attestation: How Keylime&#39;s push model rethinks remote integrity verification</title>
       <link>/articles/article-2026-04-08-17664/</link>
       <pubDate>Wed, 08 Apr 2026 03:00:54 +0000</pubDate>
       <guid>/articles/article-2026-04-08-17664/</guid>
       <description>Keylime&amp;rsquo;s new push model for remote attestation redefines integrity verification by allowing agents to initiate connections and submit evidence, eliminating the need for exposed ports. 🔒 This model, supported in RHEL 10.2, addresses issues such as security risks, network complexity, and scaling by using outbound HTTPS. The article explains the transition from traditional polling to this innovative approach, beneficial for platform engineers and security architects. #Keylime #RemoteAttestation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic on Elastic: How we monitor our own services, websites, and operations</title>
+      <link>/articles/article-2026-04-08-17671/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17671/</guid>
+      <description>At Elastic, we embody the &amp;ldquo;customer zero&amp;rdquo; approach by using our own platform for monitoring services and operations. Our unified observability model enhances efficiency with integrated telemetry, AI insights, and automated workflows. This strategy reduces Mean Time to Detection (MTTD) and Mean Time to Recovery (MTTR) for faster responses. Key tools include Elastic Agent, Synthetics, and the Elastic AI Assistant, all aimed at optimizing service health and issue detection. #Elastic&amp;hellip;</description>
     </item>
     <item>
       <title>Meet the 2026 finalists of our Excellence in Engagement Awards</title>

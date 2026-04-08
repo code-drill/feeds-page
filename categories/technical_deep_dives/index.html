@@ -449,12 +449,63 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/from-bpf-to-packet/" target="_blank">From bytecode to bytes: automated magic packet generation</a></h2>
+            <div class="publication-date">2026-04-08 13:00</div>
+            <div class="summary">🔍 Researchers have developed a tool that automates the generation of malware trigger packets from BPF bytecode, reducing analysis time from hours to seconds. By using symbolic execution and the Z3 theorem prover, they can efficiently reverse-engineer malicious filters. This advancement addresses the challenges posed by complex BPF programs often used in stealthy malware like BPFDoor. This innovation stands to significantly enhance security analysis in Linux environments. #Cybersecurity...</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Axel Bosenach</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://blogs.cisco.com/security/data-optimization-in-security-splunk-architects-perspective" target="_blank">Data Optimization in Security: A Splunk Architect’s Perspective</a></h2>
+            <div class="publication-date">2026-04-08 12:00</div>
+            <div class="summary">Data optimization in security is vital for enhancing detection engineering and improving incident response in Splunk environments. 🛡️ Improper optimization can lead to issues like lost detection fidelity and increased investigation times. It&#39;s crucial to align data performance with detection needs rather than just reducing volume. 📊 Common mistakes include making decisions about data retention before fully understanding detection requirements, creating potential blind spots. 📉 Understanding...</div>
+            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
+            
+            <div class="author">Jeff Yeo</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2026/04/08/agent-driven-attestation-how-keylimes-push-model-rethinks-remote-integrity" target="_blank">Agent-driven attestation: How Keylime&#39;s push model rethinks remote integrity verification</a></h2>
             <div class="publication-date">2026-04-08 03:00</div>
             <div class="summary">Keylime&#39;s new push model for remote attestation redefines integrity verification by allowing agents to initiate connections and submit evidence, eliminating the need for exposed ports. 🔒 This model, supported in RHEL 10.2, addresses issues such as security risks, network complexity, and scaling by using outbound HTTPS. The article explains the transition from traditional polling to this innovative approach, beneficial for platform engineers and security architects. #Keylime #RemoteAttestation...</div>
             <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
             
             <div class="author">Anderson Sasaki, Sergio Arroutb, Sergio Correia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.elastic.co/blog/how-we-monitor-at-elastic" target="_blank">Elastic on Elastic: How we monitor our own services, websites, and operations</a></h2>
+            <div class="publication-date">2026-04-08 00:00</div>
+            <div class="summary">At Elastic, we embody the &#34;customer zero&#34; approach by using our own platform for monitoring services and operations. Our unified observability model enhances efficiency with integrated telemetry, AI insights, and automated workflows. This strategy reduces Mean Time to Detection (MTTD) and Mean Time to Recovery (MTTR) for faster responses. Key tools include Elastic Agent, Synthetics, and the Elastic AI Assistant, all aimed at optimizing service health and issue detection. #Elastic...</div>
+            <div class="source">Source: <a href="/sources/elastic-blog">Elastic Blog</a></div>
+            
+            <div class="author">Soham Banerjee,Brad Timmerman</div>
             
             
             <div class="categories">
@@ -1051,55 +1102,6 @@
             <div class="publication-date">2026-03-31 16:00</div>
             <div class="summary">Meta is advancing its Ads Recommender models by implementing the Adaptive Ranking Model, designed to enhance AI Recommendation Systems. This innovation aims to improve understanding of user interests while maintaining efficiency. The model addresses the &#34;inference trilemma,&#34; balancing complexity, latency, and cost. It utilizes intelligent request routing to serve the most effective model based on user context. Key developments include: - Inference-efficient model scaling for sub-second...</div>
             <div class="source">Source: <a href="/sources/engineering-at-meta">Engineering at Meta</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://stackoverflow.blog/2026/03/31/how-can-you-test-your-code-when-you-don-t-know-what-s-in-it/" target="_blank">How can you test your code when you don’t know what’s in it?</a></h2>
-            <div class="publication-date">2026-03-31 07:40</div>
-            <div class="summary">🚀 In a recent discussion, Ryan speaks with Fitz Nowlan from SmartBear about evolving software development practices. They address the challenges of testing MCP servers as LLM-driven agents create non-determinism, complicating traditional methods. The importance of data locality and construction is increasing, especially as generating source code becomes more accessible. #SoftwareDevelopment #Testing #AI #SmartBear #NonDeterminism</div>
-            <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
-            
-            <div class="author">Phoebe Sajor</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.atlassian.com/blog/developer/rovo-dev-keeps-long-sessions-useful" target="_blank">Agent Context Pruning: How Rovo Dev keeps long sessions useful</a></h2>
-            <div class="publication-date">2026-03-31 00:10</div>
-            <div class="summary">Rovo Dev enhances coding sessions with agent context pruning, which optimizes memory usage during long tasks. This method prioritizes preserving key information while removing less valuable context, allowing AI agents to maintain coherence in conversations. Pruning can occur automatically or manually, ensuring users can focus on their tasks without losing important details. #AIAgents #ContextPruning #CodingEfficiency #RovoDev #TechInnovation 🤖💻📊</div>
-            <div class="source">Source: <a href="/sources/atlassian-developer-blog">Atlassian Developer Blog</a></div>
-            
-            <div class="author">Dugald Morrow</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.unrealengine.com/developer-interviews/a-stealthy-octopus-takes-center-stage-in-the-cinematic-25d-platformer-darwins-paradox" target="_blank">A stealthy octopus takes center stage in the cinematic 2.5D platformer Darwin’s Paradox!</a></h2>
-            <div class="publication-date">2026-03-31 00:00</div>
-            <div class="summary">🎮 Exciting news from the gaming world! ZDT&#39;s team of experts discusses their debut title, **Darwin&#39;s Paradox**, a 2.5D platformer featuring a stealthy octopus. They highlight how Unreal Engine&#39;s key features enhanced the game&#39;s development and visual storytelling. This innovative approach brings a unique gaming experience to players! #DarwinsParadox #GameDevelopment #UnrealEngine #IndieGame #GamingNews 🦑✨</div>
-            <div class="source">Source: <a href="/sources/unreal-engine-blog">Unreal Engine Blog</a></div>
             
             
             <div class="categories">

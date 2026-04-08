@@ -6,14 +6,35 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From bytecode to bytes: automated magic packet generation</title>
+      <link>/articles/article-2026-04-08-17675/</link>
+      <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17675/</guid>
+      <description>🔍 Researchers have developed a tool that automates the generation of malware trigger packets from BPF bytecode, reducing analysis time from hours to seconds. By using symbolic execution and the Z3 theorem prover, they can efficiently reverse-engineer malicious filters. This advancement addresses the challenges posed by complex BPF programs often used in stealthy malware like BPFDoor. This innovation stands to significantly enhance security analysis in Linux environments. #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Data Optimization in Security: A Splunk Architect’s Perspective</title>
+      <link>/articles/article-2026-04-08-17670/</link>
+      <pubDate>Wed, 08 Apr 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17670/</guid>
+      <description>Data optimization in security is vital for enhancing detection engineering and improving incident response in Splunk environments. 🛡️ Improper optimization can lead to issues like lost detection fidelity and increased investigation times. It&amp;rsquo;s crucial to align data performance with detection needs rather than just reducing volume. 📊 Common mistakes include making decisions about data retention before fully understanding detection requirements, creating potential blind spots. 📉 Understanding&amp;hellip;</description>
+    </item>
     <item>
       <title>Agent-driven attestation: How Keylime&#39;s push model rethinks remote integrity verification</title>
       <link>/articles/article-2026-04-08-17664/</link>
       <pubDate>Wed, 08 Apr 2026 03:00:54 +0000</pubDate>
       <guid>/articles/article-2026-04-08-17664/</guid>
       <description>Keylime&amp;rsquo;s new push model for remote attestation redefines integrity verification by allowing agents to initiate connections and submit evidence, eliminating the need for exposed ports. 🔒 This model, supported in RHEL 10.2, addresses issues such as security risks, network complexity, and scaling by using outbound HTTPS. The article explains the transition from traditional polling to this innovative approach, beneficial for platform engineers and security architects. #Keylime #RemoteAttestation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic on Elastic: How we monitor our own services, websites, and operations</title>
+      <link>/articles/article-2026-04-08-17671/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17671/</guid>
+      <description>At Elastic, we embody the &amp;ldquo;customer zero&amp;rdquo; approach by using our own platform for monitoring services and operations. Our unified observability model enhances efficiency with integrated telemetry, AI insights, and automated workflows. This strategy reduces Mean Time to Detection (MTTD) and Mean Time to Recovery (MTTR) for faster responses. Key tools include Elastic Agent, Synthetics, and the Elastic AI Assistant, all aimed at optimizing service health and issue detection. #Elastic&amp;hellip;</description>
     </item>
     <item>
       <title>Advanced Prompt Caching at Scale</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Update: DoS vulnerability in Next.js and React Server Components</title>
+      <link>/articles/article-2026-04-08-17695/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-08-17695/</guid>
+      <description>🚨 Security Alert: A denial-of-service (DoS) vulnerability (CVE-2026-23869) has been identified in React Server Components affecting frameworks like Next.js. 🛠️ While Netlify&amp;rsquo;s serverless architecture minimizes the impact, exploitation could increase function costs. 🔍 Affected versions include React 19.0.0–19.2.4 and Next.js 13.x, 14.x, with certain versions requiring immediate upgrades. For more details, check the React and Next.js advisories. #SecurityUpdate #React #NextJS #Vulnerability&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deploy logs streaming is now faster</title>
+      <link>/articles/article-2026-04-06-17696/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-06-17696/</guid>
+      <description>🚀 Great news for Netlify users! Deploy logs in the Netlify UI now stream faster and more smoothly. Reduced log delivery latency means you’ll see updates in near real-time, making it easier to track builds and spot issues early. Logs are detailed on each deploy page, showing build images, caching info, and more. You can even share specific log lines with your team! No changes needed on your part. This improvement is automatic. 📄🔗 #Netlify #DevOps #WebDevelopment #Logs #TechUpdates</description>
+    </item>
     <item>
       <title>Deploy from Codex with the Netlify Plugin</title>
       <link>/articles/article-2026-03-27-17206/</link>

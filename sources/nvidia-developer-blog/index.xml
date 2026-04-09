@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 16:48:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Large-Scale GPU Workloads on Kubernetes with Slurm</title>
+      <link>/articles/article-2026-04-09-17809/</link>
+      <pubDate>Thu, 09 Apr 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17809/</guid>
+      <description>Unlocking the power of GPU workloads on Kubernetes is now possible with Slurm integration. 🌐 Slurm, a leading job scheduling system, manages over 65% of TOP500 systems. The challenge lies in integrating its capabilities into Kubernetes without duplicating environments. The Slinky project offers two solutions: the slurm-bridge for native Kubernetes workloads and the slurm-operator for running full Slurm clusters. This post highlights the slurm-operator, detailing its architecture, deployment,&amp;hellip;</description>
+    </item>
     <item>
       <title>Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP</title>
       <link>/articles/article-2026-04-09-17769/</link>

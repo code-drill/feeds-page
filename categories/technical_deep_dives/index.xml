@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 07:45:37 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Java to Wayland: A Pixel’s Journey</title>
+      <link>/articles/article-2026-04-09-17753/</link>
+      <pubDate>Thu, 09 Apr 2026 07:45:37 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17753/</guid>
+      <description>When rendering a single pixel in Java, a complex process unfolds. It begins with high-level frameworks like AWT or Swing and moves through the Java 2D graphics pipeline. Key factors include color models, gamma correction, and coordinate transformations. The pixel then travels to the Wayland compositor via shared memory buffers, where it undergoes meticulous tracking before appearing on the display. This article is a valuable resource for those focused on Java UI optimization on Linux. #Java&amp;hellip;</description>
+    </item>
     <item>
       <title>How DNS name tracking enhances network observability</title>
       <link>/articles/article-2026-04-09-17751/</link>

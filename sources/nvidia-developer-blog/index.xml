@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:48:38 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP</title>
+      <link>/articles/article-2026-04-09-17769/</link>
+      <pubDate>Thu, 09 Apr 2026 16:48:38 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17769/</guid>
+      <description>Training large language models (LLMs) requires frequent checkpoints, which can become costly. A full snapshot of model weights and states can take up significant storage space. For example, a 70B model generates checkpoints of around 782 GB every 15-30 minutes, resulting in high monthly costs. Using NVIDIA nvComp and a simple Python script, teams can reduce these costs by $56,000 monthly. The article discusses the importance of managing checkpoint expenses to optimize AI training budgets. 💻📉💰&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Accelerate Protein Structure Prediction at Proteome-Scale</title>
+      <link>/articles/article-2026-04-09-17770/</link>
+      <pubDate>Thu, 09 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17770/</guid>
+      <description>Unlocking the complexities of protein interactions! 🔍 Recent advancements in protein structure prediction focus on protein complexes rather than individual proteins. The AlphaFold Protein Structure Database (AFDB) has transformed access to monomeric structures, yet challenges remain for complex structures. A high-throughput pipeline utilizing AlphaFold-Multimer and NVIDIA technologies has been developed to predict homomeric and heteromeric protein complexes efficiently. This blog outlines&amp;hellip;</description>
+    </item>
     <item>
       <title>Integrate Physical AI Capabilities into Existing Apps with NVIDIA Omniverse Libraries</title>
       <link>/articles/article-2026-04-08-17679/</link>

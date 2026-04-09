@@ -6,14 +6,42 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 16:00:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:48:38 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP</title>
+      <link>/articles/article-2026-04-09-17769/</link>
+      <pubDate>Thu, 09 Apr 2026 16:48:38 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17769/</guid>
+      <description>Training large language models (LLMs) requires frequent checkpoints, which can become costly. A full snapshot of model weights and states can take up significant storage space. For example, a 70B model generates checkpoints of around 782 GB every 15-30 minutes, resulting in high monthly costs. Using NVIDIA nvComp and a simple Python script, teams can reduce these costs by $56,000 monthly. The article discusses the importance of managing checkpoint expenses to optimize AI training budgets. 💻📉💰&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your feedback tool is not there to tell you what to build</title>
+      <link>/articles/article-2026-04-09-17799/</link>
+      <pubDate>Thu, 09 Apr 2026 16:27:29 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17799/</guid>
+      <description>Building an effective feedback tool requires understanding the underlying needs of customers, rather than just their requests. Strong product leaders rely on a mix of insights, from company vision to direct customer interactions. A feedback system should provide context, not dictate solutions. Trust is essential for ongoing contributions from users. The challenge lies in capturing the right information to inform product development without getting lost in feature requests. #ProductManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI isn’t a productivity hack. It’s a team sport</title>
+      <link>/articles/article-2026-04-09-17800/</link>
+      <pubDate>Thu, 09 Apr 2026 16:12:39 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17800/</guid>
+      <description>AI is transforming the workplace, helping knowledge workers save an average of 76 minutes daily. However, its impact on team performance is limited, with only 4% of executives reporting that AI helps solve complex problems. 🤔 To improve outcomes, leaders can take action now. Here are two practical steps: 1️⃣ Use AI openly to set an example for your team. Share how you integrate AI in your work to encourage adoption. 2️⃣ Organize a Fix-It-Friday. Collaborate on solving common process issues&amp;hellip;</description>
+    </item>
     <item>
       <title>A simpler path to unified, AI-ready network operations</title>
       <link>/articles/article-2026-04-09-17767/</link>
       <pubDate>Thu, 09 Apr 2026 16:00:42 +0000</pubDate>
       <guid>/articles/article-2026-04-09-17767/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/networking/a-simpler-path-to-unified-ai-ready-network-operations&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Enhance your network operations with Cisco ENA for Splunk! 🌐 This tool helps unify networking data, reducing alert noise and improving observability for faster troubleshooting. By creating a single data lake, teams can gain clearer insights across Cisco environments. With features like automated device discovery, ENA supports AI-driven operations, ensuring a more efficient workflow. #Cisco #NetworkOperations #AIReady #Splunk #DataManagement</description>
+    </item>
+    <item>
+      <title>Escaping the Fork: How Meta Modernized WebRTC Across 50&#43; Use Cases</title>
+      <link>/articles/article-2026-04-09-17802/</link>
+      <pubDate>Thu, 09 Apr 2026 16:00:34 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17802/</guid>
+      <description>At Meta, we enhance real-time audio and video experiences through WebRTC across multiple platforms. We faced challenges with forking this open-source project, risking isolation from community updates. To address this, we developed a dual-stack architecture, allowing A/B testing across 50+ use cases while ensuring continuous upgrades. This innovative approach has improved performance, binary size, and security for our services like Messenger and Instagram. Learn more about how we modernized&amp;hellip;</description>
     </item>
     <item>
       <title>Gen Z needs a knowledge base (and so do you)</title>
@@ -21,6 +49,34 @@
       <pubDate>Thu, 09 Apr 2026 16:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-09-17765/</guid>
       <description>Gen Z is increasingly reliant on AI tools, with 90% using them in 2026, up from 76% in 2025. 📈 While these tools aid knowledge discovery, there are concerns about knowledge retention. Neuroscientific studies indicate that Gen Z may struggle with long-term memory compared to previous generations. 🧠 Building a solid knowledge base is essential to avoid cognitive atrophy. #GenZ #KnowledgeRetention #AITools #CognitiveHealth #JobMarket</description>
+    </item>
+    <item>
+      <title>Install once, use everywhere: Multi-app compatibility is now live on the Marketplace</title>
+      <link>/articles/article-2026-04-09-17801/</link>
+      <pubDate>Thu, 09 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17801/</guid>
+      <description>🚀 Exciting news from Atlassian! The Marketplace now supports multi-app compatibility, allowing users to install one app for both Jira and Confluence. This means less hassle with separate installations and streamlined management. To find compatible apps, check the updated listings for &amp;ldquo;Requires&amp;rdquo; and &amp;ldquo;Works With&amp;rdquo; attributes. 🛠️ Explore new solutions today and enhance your team’s workflow! #Atlassian #Jira #Confluence #Marketplace #Productivity</description>
+    </item>
+    <item>
+      <title>How Zalando built a unified data foundation for AI and analytics on Databricks</title>
+      <link>/articles/article-2026-04-09-17777/</link>
+      <pubDate>Thu, 09 Apr 2026 15:53:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17777/</guid>
+      <description>Zalando has developed a unified data foundation to enhance AI and analytics capabilities on Databricks. They focus on separating data creation from consumption, which streamlines processes and improves efficiency. Standardized metric definitions are implemented, allowing for consistent data interpretation and reliable natural language queries across dashboards and AI systems. #DataAnalytics #AI #Zalando #Databricks #DataManagement 📊🔍✨</description>
+    </item>
+    <item>
+      <title>Webinar – OSS Power-Ups: XenoAtom.Terminal.UI</title>
+      <link>/articles/article-2026-04-09-17772/</link>
+      <pubDate>Thu, 09 Apr 2026 15:32:51 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17772/</guid>
+      <description>Join us on April 16, 2026, from 15:00 – 16:30 UTC for the webinar &amp;ldquo;OSS PowerUps – XenoAtom.Terminal.UI&amp;rdquo; with Alexandre Mutel. This is the 15th episode focusing on open-source .NET projects. Discover the design choices behind XenoAtom.Terminal.UI, including how AI tools enhanced the development process. Register for a reminder or watch live on YouTube! #Webinar #OpenSource #DotNet #XenoAtom #AIInDevelopment 🌐💻📅</description>
+    </item>
+    <item>
+      <title>How to Accelerate Protein Structure Prediction at Proteome-Scale</title>
+      <link>/articles/article-2026-04-09-17770/</link>
+      <pubDate>Thu, 09 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17770/</guid>
+      <description>Unlocking the complexities of protein interactions! 🔍 Recent advancements in protein structure prediction focus on protein complexes rather than individual proteins. The AlphaFold Protein Structure Database (AFDB) has transformed access to monomeric structures, yet challenges remain for complex structures. A high-throughput pipeline utilizing AlphaFold-Multimer and NVIDIA technologies has been developed to predict homomeric and heteromeric protein complexes efficiently. This blog outlines&amp;hellip;</description>
     </item>
     <item>
       <title>Open source maintainers are drowning in AI-generated pull requests. Enterprise teams are next.</title>
@@ -142,11 +198,53 @@
       <description>🚀 Exciting news for developers! Supabase has launched Agent Skills, an open-source set of instructions designed to help AI coding agents build on Supabase correctly. With this update, users of Claude Code, Codex, GitHub Copilot, and more can enhance their Supabase tasks with just one command. While AI agents know about Supabase, they often struggle with proper implementation. Common issues include skipping RLS policies and using outdated commands. The new skills aim to address these&amp;hellip;</description>
     </item>
     <item>
+      <title>Simplifying Terraform dynamic credentials on AWS with native OIDC integration</title>
+      <link>/articles/article-2026-04-09-17778/</link>
+      <pubDate>Thu, 09 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17778/</guid>
+      <description>AWS AFT now supports native OIDC integration for Terraform, simplifying dynamic credential management. This update eliminates manual setup for OIDC providers and IAM roles, streamlining workflows while maintaining security with short-lived credentials. Operational complexity is reduced, making it easier for teams to provision secure infrastructure across accounts. Explore this new capability for enhanced efficiency! 🌐🔑 #AWS #Terraform #CloudSecurity #OIDC #InfrastructureManagement</description>
+    </item>
+    <item>
+      <title>Introducing MinDXNN: MLP library for DirectX 12</title>
+      <link>/articles/article-2026-04-09-17768/</link>
+      <pubDate>Thu, 09 Apr 2026 00:21:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17768/</guid>
+      <description>🚀 Exciting news for game developers! Introducing MinDXNN, a native HLSL and DirectX 12 library designed for fast multi-layer perceptron (MLP) inference. This library leverages AMD Radeon™ RX 9000 series matrix cores for optimized performance, streamlining the integration of MLPs into real-time rendering pipelines. Key features include optimized inference kernels, unit tests, sample applications, and complete documentation. Training support will be available in future updates. Explore MinDXNN&amp;hellip;</description>
+    </item>
+    <item>
+      <title>5 ways GitLab pipeline logic solves real engineering problems</title>
+      <link>/articles/article-2026-04-09-17771/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17771/</guid>
+      <description>Unlock the potential of GitLab&amp;rsquo;s pipeline logic! 🚀 This article explores 5 key ways GitLab addresses complex engineering challenges with its CI/CD model. From managing monorepos with parent-child pipelines to ensuring cross-repo integration in microservices, each solution is designed for real-world scenarios. Key features include: - &lt;strong&gt;DAG Execution&lt;/strong&gt; for efficient builds - &lt;strong&gt;Dynamic Child Pipelines&lt;/strong&gt; for scalable deployments - &lt;strong&gt;Merge Request Pipelines&lt;/strong&gt; ensuring accurate testing before&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Indie Games Week: April 13–17, 2026</title>
+      <link>/articles/article-2026-04-09-17773/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17773/</guid>
+      <description>🎮 Get ready for Indie Games Week from April 13–17, 2026! This online event will feature exclusive interviews with indie developers and livestreams offering valuable Unreal Engine 5 tips. Discover how studios around the world are utilizing the Epic ecosystem to create unique games. Join us for this exciting opportunity! 🌍✨ #IndieGamesWeek #UnrealEngine #GameDevelopment #IndieDev #EpicGames</description>
+    </item>
+    <item>
       <title>Multimodal Embedding &amp; Reranker Models with Sentence Transformers</title>
       <link>/articles/article-2026-04-09-17764/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-09-17764/</guid>
       <description>🚀 Exciting updates in the world of Sentence Transformers! The recent v5.4 update introduces multimodal capabilities, allowing users to encode and compare texts, images, audio, and videos through the same API. Multimodal embedding models create shared spaces for different inputs, while reranker models assess the relevance of mixed-modality pairs. Explore new applications like visual document retrieval and cross-modal search! #MachineLearning #SentenceTransformers #AI #TechUpdates #Multimodal</description>
+    </item>
+    <item>
+      <title>Secure Ruby on Rails RAG Applications with Auth0 FGA</title>
+      <link>/articles/article-2026-04-09-17776/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17776/</guid>
+      <description>🔒 Learn how to secure your Ruby on Rails RAG application using Auth0 FGA. As AI development progresses, new security threats emerge, especially in RAG applications. This article highlights the importance of securing every stage of the process, from generating to retrieving vectors and embeddings. The focus is on using Auth0 to prevent data leakage and ensure identity-aware document retrieval specific to user permissions. Discover how implementing fine-grained authorization can protect&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Webflow’s next-gen CMS: Increased CMS data design flexibility for all customers</title>
+      <link>/articles/article-2026-04-09-17775/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17775/</guid>
+      <description>🚀 Webflow has migrated all sites to a new CMS architecture. This upgrade enhances design flexibility, which is essential for AI-driven discovery. Customers can now benefit from improved data design options, making it easier to tailor their websites. Stay ahead in the digital space with these advancements! #Webflow #CMS #WebDesign #AI #DigitalInnovation</description>
     </item>
     <item>
       <title>The Atlassian Rovo MCP Server now supports Bitbucket Cloud</title>

@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:45:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:48:38 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP</title>
+      <link>/articles/article-2026-04-09-17769/</link>
+      <pubDate>Thu, 09 Apr 2026 16:48:38 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17769/</guid>
+      <description>Training large language models (LLMs) requires frequent checkpoints, which can become costly. A full snapshot of model weights and states can take up significant storage space. For example, a 70B model generates checkpoints of around 782 GB every 15-30 minutes, resulting in high monthly costs. Using NVIDIA nvComp and a simple Python script, teams can reduce these costs by $56,000 monthly. The article discusses the importance of managing checkpoint expenses to optimize AI training budgets. 💻📉💰&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Escaping the Fork: How Meta Modernized WebRTC Across 50&#43; Use Cases</title>
+      <link>/articles/article-2026-04-09-17802/</link>
+      <pubDate>Thu, 09 Apr 2026 16:00:34 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17802/</guid>
+      <description>At Meta, we enhance real-time audio and video experiences through WebRTC across multiple platforms. We faced challenges with forking this open-source project, risking isolation from community updates. To address this, we developed a dual-stack architecture, allowing A/B testing across 50+ use cases while ensuring continuous upgrades. This innovative approach has improved performance, binary size, and security for our services like Messenger and Instagram. Learn more about how we modernized&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Zalando built a unified data foundation for AI and analytics on Databricks</title>
+      <link>/articles/article-2026-04-09-17777/</link>
+      <pubDate>Thu, 09 Apr 2026 15:53:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17777/</guid>
+      <description>Zalando has developed a unified data foundation to enhance AI and analytics capabilities on Databricks. They focus on separating data creation from consumption, which streamlines processes and improves efficiency. Standardized metric definitions are implemented, allowing for consistent data interpretation and reliable natural language queries across dashboards and AI systems. #DataAnalytics #AI #Zalando #Databricks #DataManagement 📊🔍✨</description>
+    </item>
     <item>
       <title>From Java to Wayland: A Pixel’s Journey</title>
       <link>/articles/article-2026-04-09-17753/</link>

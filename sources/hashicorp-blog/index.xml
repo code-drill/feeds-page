@@ -6,8 +6,15 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplifying Terraform dynamic credentials on AWS with native OIDC integration</title>
+      <link>/articles/article-2026-04-09-17778/</link>
+      <pubDate>Thu, 09 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-09-17778/</guid>
+      <description>AWS AFT now supports native OIDC integration for Terraform, simplifying dynamic credential management. This update eliminates manual setup for OIDC providers and IAM roles, streamlining workflows while maintaining security with short-lived credentials. Operational complexity is reduced, making it easier for teams to provision secure infrastructure across accounts. Explore this new capability for enhanced efficiency! 🌐🔑 #AWS #Terraform #CloudSecurity #OIDC #InfrastructureManagement</description>
+    </item>
     <item>
       <title>AWS permission delegation now generally available in HCP Terraform</title>
       <link>/articles/article-2026-04-01-17369/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:01:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 07:16:19 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I refactored a legacy Node.js test suite with Claude (and saved 3 days of work)</title>
+      <link>/articles/article-2026-04-10-17820/</link>
+      <pubDate>Fri, 10 Apr 2026 07:16:19 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17820/</guid>
+      <description>Refactoring a legacy Node.js test suite can be a daunting task, especially with over 100 tests needing updates due to hard-coded values and missing metadata. 🛠️ Using Claude AI, the process was streamlined significantly. By employing its CLI for large-scale refactoring, I replaced outdated paths with environment variables, cutting down what would have taken three days to just an hour! ⏱️ This approach highlights how AI can efficiently assist in repetitive coding tasks. #Nodejs #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Install Red Hat Data Grid operator in a disconnected environment</title>
+      <link>/articles/article-2026-04-10-17821/</link>
+      <pubDate>Fri, 10 Apr 2026 07:16:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17821/</guid>
+      <description>Learn how to install the Red Hat Data Grid operator in a disconnected environment! 🌐 This guide details the process, which can also be applied to other Red Hat products like JBoss EAP and AMQ. Key topics include the role of the Operator Lifecycle Manager (OLM) and how to mirror images using the oc-mirror tool. For more insights, check out the full article! 📖✨ #RedHat #DataGrid #OpenShift #ContainerManagement #CloudComputing</description>
+    </item>
     <item>
       <title>Build resilient guardrails for OpenClaw AI agents on Kubernetes</title>
       <link>/articles/article-2026-04-09-17749/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2026 16:26:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 18:23:49 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Non-Obvious Patterns in Building Enterprise AI Assistants</title>
+      <link>/articles/article-2026-04-10-17843/</link>
+      <pubDate>Fri, 10 Apr 2026 18:23:49 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17843/</guid>
+      <description>Building effective AI assistants involves navigating complex internal terminology. 🌐 A recent article highlights key challenges in enterprise AI, focusing on multi-agent design and context engineering. The importance of disambiguating acronyms like CSM and NPS is crucial, as their meanings can vary significantly within a company. Understanding these non-obvious patterns can enhance AI usability and effectiveness. 🔍🤖 #AI #EnterpriseAI #TechTrends #Innovation #ArtificialIntelligence</description>
+    </item>
     <item>
       <title>Evaluating Netflix Show Synopses with LLM-as-a-Judge</title>
       <link>/articles/article-2026-04-10-17841/</link>
@@ -28,6 +35,13 @@
       <pubDate>Fri, 10 Apr 2026 13:45:48 +0000</pubDate>
       <guid>/articles/article-2026-04-10-17839/</guid>
       <description>🚀 Exciting news for developers! Databricks Lakebase introduces copy-on-write database branching for Postgres. This innovation allows your database to integrate seamlessly with Git-style workflows, enhancing your overall development process. No more bottlenecks in your workflow! #Databricks #Postgres #DatabaseBranching #DevTools #TechInnovation</description>
+    </item>
+    <item>
+      <title>Keeping a Postgres queue healthy</title>
+      <link>/articles/article-2026-04-10-17844/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17844/</guid>
+      <description>🚀 Keeping your Postgres queue healthy is essential for optimal database performance. High-churn job queues can lead to dead tuples if not monitored properly. 🔍 Postgres efficiently handles queue workloads, but it&amp;rsquo;s crucial to manage cleanup processes to avoid degrading performance, especially with mixed workloads. 📊 A well-structured queue table allows for seamless job tracking and management, ensuring that transactions stay in sync. For more insights on maintaining healthy queues in&amp;hellip;</description>
     </item>
     <item>
       <title>Building a Distributed Persistent Queue That Scaled AI Workloads 5x Under LLM Rate Limits</title>

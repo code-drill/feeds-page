@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 22:45:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 16:26:01 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluating Netflix Show Synopses with LLM-as-a-Judge</title>
+      <link>/articles/article-2026-04-10-17841/</link>
+      <pubDate>Fri, 10 Apr 2026 16:26:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17841/</guid>
+      <description>📺 Netflix faces the challenge of helping users choose from thousands of titles. To enhance viewer experience, they emphasize the importance of high-quality show synopses. 📝 Their new LLM-based system evaluates synopsis quality across four key dimensions, achieving over 85% agreement with creative writers. This method allows Netflix to identify issues before a show&amp;rsquo;s release. 🔍 The dual focus on creative quality and member feedback ensures that synopses serve both artistic standards and viewer&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Memory Scaling for AI Agents</title>
+      <link>/articles/article-2026-04-10-17838/</link>
+      <pubDate>Fri, 10 Apr 2026 16:00:17 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17838/</guid>
+      <description>Memory scaling enhances AI agents by improving their performance as they accumulate information from past interactions and feedback. 📈 This approach shifts the focus from just building stronger models to leveraging persistent memory for better context and grounding. It is particularly beneficial in enterprise settings, where agents can learn from diverse user experiences. 🏢 Databricks has made strides in this area with systems like ALHF and MemAlign, which utilize human feedback to refine&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Database Branching in Postgres: Git-Style Workflows with Databricks Lakebase</title>
+      <link>/articles/article-2026-04-10-17839/</link>
+      <pubDate>Fri, 10 Apr 2026 13:45:48 +0000</pubDate>
+      <guid>/articles/article-2026-04-10-17839/</guid>
+      <description>🚀 Exciting news for developers! Databricks Lakebase introduces copy-on-write database branching for Postgres. This innovation allows your database to integrate seamlessly with Git-style workflows, enhancing your overall development process. No more bottlenecks in your workflow! #Databricks #Postgres #DatabaseBranching #DevTools #TechInnovation</description>
+    </item>
     <item>
       <title>Building a Distributed Persistent Queue That Scaled AI Workloads 5x Under LLM Rate Limits</title>
       <link>/articles/article-2026-04-09-17817/</link>

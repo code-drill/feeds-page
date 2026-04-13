@@ -6,8 +6,50 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 16:28:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 19:30:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the scenes of Atlassian’s AI Builders Week</title>
+      <link>/articles/article-2026-04-13-17926/</link>
+      <pubDate>Mon, 13 Apr 2026 19:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17926/</guid>
+      <description>Atlassian&amp;rsquo;s AI Builders Week is a quarterly event that brings together product managers and designers to enhance their AI skills. The latest session focused on advanced workflows, resulting in 298 new agents and increased usage rates among participants. Participants reported a 95% satisfaction rate, leaving with actionable changes to implement. This initiative emphasizes hands-on learning and collaboration to drive innovation in AI. 🤖✨ #Atlassian #AIBuildersWeek #Innovation #AI #TechTraining</description>
+    </item>
+    <item>
+      <title>Scaling Recommendation Systems with Request-Level Deduplication</title>
+      <link>/articles/article-2026-04-13-17930/</link>
+      <pubDate>Mon, 13 Apr 2026 19:01:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17930/</guid>
+      <description>Scaling recommendation systems at Pinterest involves significant advancements in quality and efficiency. The team has achieved a 100x increase in model parameters, but this creates infrastructure challenges. To manage costs, they implemented request-level deduplication, which optimizes data processing and storage by eliminating redundancy. This technique enhances storage efficiency, speeds up training, and improves serving throughput. Key outcomes include 10-50x storage compression, 4x&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Towards developing future-ready skills with generative AI</title>
+      <link>/articles/article-2026-04-13-17931/</link>
+      <pubDate>Mon, 13 Apr 2026 18:15:59 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17931/</guid>
+      <description>🚀 Exciting developments in education! A recent study with New York University introduces Vantage, a tool that assesses &amp;ldquo;future-ready&amp;rdquo; skills using generative AI. This approach shows AI scoring aligns with human experts in evaluating critical skills like collaboration and creative thinking. Vantage offers high school and college students a simulated environment for practice and assessment, now available on Google Labs. Explore the potential of AI in education! 🌟 #EducationInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Four warning signs your AI and collaboration investments aren’t paying off</title>
+      <link>/articles/article-2026-04-13-17927/</link>
+      <pubDate>Mon, 13 Apr 2026 17:52:59 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17927/</guid>
+      <description>Many companies are investing heavily in AI, yet 96% report not seeing significant business value. 📉 Key warning signs include faster individual work but slower team collaboration, leading to an AI efficiency paradox. If AI improves personal productivity but not overall team performance, it may be misaligned. Additionally, while AI increases outputs like requests and documentation, bottlenecks can shift to governance and decision-making. 📊 Ensure your AI tools have clear goals and context for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Managing context in long-run agentic applications</title>
+      <link>/articles/article-2026-04-13-17929/</link>
+      <pubDate>Mon, 13 Apr 2026 17:17:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17929/</guid>
+      <description>In complex, long-running agentic systems, maintaining alignment among agents is crucial. This article discusses the challenges and mechanisms designed to enhance productivity over extended periods. It highlights a structured process for AI agents in security investigations, orchestrated by a Director, with roles for Experts and a Critic. Different phases of investigation allow for iterative improvements. To manage context effectively, three channels are utilized: the Director&amp;rsquo;s Journal, the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Next Chapter for Compass</title>
+      <link>/articles/article-2026-04-13-17928/</link>
+      <pubDate>Mon, 13 Apr 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17928/</guid>
+      <description>🚀 Exciting updates for Compass users! Compass has supported developers by centralizing software ownership and documentation. As AI becomes integral to software development, new questions have arisen about its effectiveness. With Atlassian’s acquisition of DX, Compass will transition to DX Fabric. This platform will enhance AI adoption, measure software health, and facilitate improvements. Stay tuned for guidance on your transition to DX! #SoftwareDevelopment #AI #Atlassian #TechUpdate&amp;hellip;</description>
+    </item>
     <item>
       <title>Beyond the Chatbot: How Agentic Frameworks Change Network Engineering</title>
       <link>/articles/article-2026-04-13-17891/</link>
@@ -21,6 +63,13 @@
       <pubDate>Mon, 13 Apr 2026 16:16:20 +0000</pubDate>
       <guid>/articles/article-2026-04-13-17922/</guid>
       <description>🚀 This week’s AWS Roundup highlights key developments in AI and resource management. Amazon Bedrock now supports cost allocation by IAM user, enabling better visibility into AI spending. This feature allows teams to tag resources and analyze costs effectively. 📊 Additionally, Claude Mythos Preview is now available, focusing on cybersecurity and advanced coding tasks. Limited access is provided to select organizations for enhanced security measures. 🔒 AWS also introduced the Agent Registry for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Lovable &#43; Databricks: Build Data-Driven Apps at the Speed of Thought</title>
+      <link>/articles/article-2026-04-13-17925/</link>
+      <pubDate>Mon, 13 Apr 2026 16:13:12 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17925/</guid>
+      <description>🚀 Exciting news! The official Databricks connector is now available in Lovable. This integration allows teams to build custom internal tools using enterprise data without facing backend delays. Empower your business teams to create data-driven applications seamlessly. #DataDriven #Databricks #Lovable #TechIntegration #EnterpriseSolutions</description>
     </item>
     <item>
       <title>How to Analyze Hugging Face for Arm64 Readiness</title>
@@ -100,6 +149,13 @@
       <description>🚀 Atlassian’s Forge, a cloud app development platform, has introduced usage-based pricing for developers. This shift posed a challenge in accurately measuring and billing usage at scale. 🔧 The engineering team built a robust system to collect usage events and route them to Atlassian’s billing systems. This ensures developers can track and manage their costs effectively. 📊 The architecture connects Forge services, a usage pipeline, and billing systems, making it easier for developers to&amp;hellip;</description>
     </item>
     <item>
+      <title>Elastic and Cursor partner to accelerate context engineering with coding agents</title>
+      <link>/articles/article-2026-04-13-17923/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17923/</guid>
+      <description>🚀 Elastic has announced a partnership with Cursor to enhance context engineering for coding agents. This collaboration integrates Elasticsearch&amp;rsquo;s tools and data directly into Cursor&amp;rsquo;s platform, allowing developers to access real-time data without leaving their coding environment. With the new Elastic plugin on the Cursor Marketplace, agents can query logs and triage alerts as part of their workflow. This development aims to provide a reliable foundation for AI, ensuring agents have the&amp;hellip;</description>
+    </item>
+    <item>
       <title>GitLab named a 2026 Omdia Universe Leader</title>
       <link>/articles/article-2026-04-13-17893/</link>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
@@ -112,6 +168,13 @@
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-13-17897/</guid>
       <description>🚀 Introducing Webflow AEO, a new system designed to enhance AI discovery for brands. With AEO, users can measure their brand&amp;rsquo;s visibility in AI responses and receive prioritized recommendations. This allows for efficient implementation of improvements directly within Webflow. Discover how AEO agents can help you scale your efforts! 🌐🔧 #Webflow #AEO #AI #DigitalMarketing #BrandVisibility</description>
+    </item>
+    <item>
+      <title>Netlify Database GA coming soon, no new databases for now</title>
+      <link>/articles/article-2026-04-13-17924/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17924/</guid>
+      <description>🚀 The GA version of Netlify DB is launching the week of April 20, 2026, featuring significant improvements and no extension installation needed. 🔄 Transitioning from the beta experience to GA is optional; detailed migration instructions will be provided. Users will not face data loss or extra charges. 🚫 Starting April 13, 2026, new databases can&amp;rsquo;t be created with the beta experience, but existing databases can be claimed. ⏳ If you created a database recently, remember to claim it within 7&amp;hellip;</description>
     </item>
     <item>
       <title>The Fab Spring Creator Sale has started!</title>

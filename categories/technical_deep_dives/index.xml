@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 07:16:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 19:01:01 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling Recommendation Systems with Request-Level Deduplication</title>
+      <link>/articles/article-2026-04-13-17930/</link>
+      <pubDate>Mon, 13 Apr 2026 19:01:01 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17930/</guid>
+      <description>Scaling recommendation systems at Pinterest involves significant advancements in quality and efficiency. The team has achieved a 100x increase in model parameters, but this creates infrastructure challenges. To manage costs, they implemented request-level deduplication, which optimizes data processing and storage by eliminating redundancy. This technique enhances storage efficiency, speeds up training, and improves serving throughput. Key outcomes include 10-50x storage compression, 4x&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Managing context in long-run agentic applications</title>
+      <link>/articles/article-2026-04-13-17929/</link>
+      <pubDate>Mon, 13 Apr 2026 17:17:16 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17929/</guid>
+      <description>In complex, long-running agentic systems, maintaining alignment among agents is crucial. This article discusses the challenges and mechanisms designed to enhance productivity over extended periods. It highlights a structured process for AI agents in security investigations, orchestrated by a Director, with roles for Experts and a Critic. Different phases of investigation allow for iterative improvements. To manage context effectively, three channels are utilized: the Director&amp;rsquo;s Journal, the&amp;hellip;</description>
+    </item>
     <item>
       <title>Deploy TAP-as-a-Service in OpenStack Services on OpenShift</title>
       <link>/articles/article-2026-04-13-17885/</link>

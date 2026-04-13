@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 13:08:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 14:29:45 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a CLI for all of Cloudflare</title>
+      <link>/articles/article-2026-04-13-17920/</link>
+      <pubDate>Mon, 13 Apr 2026 14:29:45 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17920/</guid>
+      <description>🚀 Cloudflare has unveiled &amp;ldquo;cf,&amp;rdquo; a unified CLI aimed at enhancing consistency across its platform. This tool simplifies interactions for developers and AI agents with nearly 3,000 API operations. 🌐 The new CLI is designed to support all Cloudflare products, allowing configuration using infrastructure-as-code. 💻 Currently in Technical Preview, users can try it by running npx cf or installing it via npm. Future updates will expand its capabilities and streamline user experience. #Cloudflare #API&amp;hellip;</description>
+    </item>
     <item>
       <title>Agents have their own computers with Sandboxes GA</title>
       <link>/articles/article-2026-04-13-17890/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 13 Apr 2026 13:08:35 +0000</pubDate>
       <guid>/articles/article-2026-04-13-17889/</guid>
       <description>🚀 Exciting news for developers! Cloudflare has introduced Durable Object Facets, allowing Dynamic Workers to create isolated SQLite databases. This feature enhances the capability to build persistent applications with real-time AI-generated code. Dynamic Workers load code quickly and efficiently, making it ideal for creating applications that require stateful interactions. Developers can now leverage Durable Objects for fast storage access, facilitating seamless user experiences. Explore the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Dynamic, identity-aware, and secure Sandbox auth</title>
+      <link>/articles/article-2026-04-13-17921/</link>
+      <pubDate>Mon, 13 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17921/</guid>
+      <description>🚀 Exciting advancements in AI security! The introduction of Outbound Workers for Sandboxes offers a programmable, zero-trust egress proxy for AI agents. This new feature enables developers to safely inject credentials and enforce dynamic security policies without exposing sensitive tokens. Sandboxes enhance security, speed, and control, allowing users to manage untrusted workloads effectively. Learn more about how this innovative approach can improve authentication for AI agents. #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Welcome to Agents Week</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2026 18:23:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 15:59:37 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Analyze Hugging Face for Arm64 Readiness</title>
+      <link>/articles/article-2026-04-13-17898/</link>
+      <pubDate>Mon, 13 Apr 2026 15:59:37 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17898/</guid>
+      <description>🚀 A recent collaboration between Docker and Arm highlights how the Docker MCP Toolkit and Arm MCP Server can assess Hugging Face Spaces for Arm64 readiness. 🔍 The analysis revealed that a common issue arises from hardcoded dependency URLs, affecting around 80% of Hugging Face Docker Spaces. This impacts the installation of models like ACE-Step v1.5 on Arm64 systems. 🛠️ A new 7-tool MCP chain has been developed to diagnose these issues quickly, providing insights into why certain models fail&amp;hellip;</description>
+    </item>
     <item>
       <title>Reclaim Developer Hours through Smarter Vulnerability Prioritization with Docker and Mend.io</title>
       <link>/articles/article-2026-04-08-17702/</link>

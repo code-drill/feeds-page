@@ -6,14 +6,70 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 10:33:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 13:00:10 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managed OAuth for Access: make internal apps agent-ready in one click</title>
+      <link>/articles/article-2026-04-14-17945/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17945/</guid>
+      <description>🚀 Cloudflare introduces Managed OAuth for Access, enhancing secure navigation for AI agents in internal applications. With this new feature, agents can authenticate on behalf of users without relying on insecure service accounts. A simple one-click setup allows seamless integration for both users and agents. This functionality supports OAuth 2.0 standards and bridges identities across Cloudflare accounts. Explore more about this feature in the open beta! 🔒✨ #Cloudflare #OAuth #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP</title>
+      <link>/articles/article-2026-04-14-17944/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17944/</guid>
+      <description>🚀 Cloudflare is enhancing Model Context Protocol (MCP) adoption across various teams to improve efficiency. We’ve integrated security measures from our Cloudflare One and Developer platforms to safeguard against risks like authorization sprawl and prompt injection. New features include Code Mode to cut token costs and Cloudflare Gateway for detecting unauthorized Shadow MCP usage. Learn more about our strategies for secure MCP workflows! #Cloudflare #MCP #AI #Cybersecurity #TechInnovation</description>
+    </item>
+    <item>
+      <title>Securing non-human identities: automated revocation, OAuth, and scoped permissions</title>
+      <link>/articles/article-2026-04-14-17943/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17943/</guid>
+      <description>🌐 Cloudflare is enhancing security for non-human identities with new features. They introduced scannable API tokens, improved OAuth visibility, and resource-scoped RBAC to help developers manage permissions effectively. This aims to prevent credential leaks and protect environments. 💡 Understanding identity is key: Principals, Credentials, and Policies must be managed together to maintain security. Cloudflare also partners with GitHub to detect leaked tokens proactively. #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh</title>
+      <link>/articles/article-2026-04-14-17946/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:09 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17946/</guid>
+      <description>🌐 Introducing Cloudflare Mesh: a new solution for secure private networking. It enables users, nodes, and AI agents to access private databases and APIs seamlessly. With integration into the Cloudflare Developer Platform, developers can ensure agents connect securely without manual setups. If you&amp;rsquo;re using Cloudflare One, you can easily adopt Mesh for your agentic workloads, enhancing security while maintaining control over your networks. Setup takes just minutes, allowing you to expand&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Red Hat MCP-ready images with image mode for Red Hat Enterprise Linux</title>
+      <link>/articles/article-2026-04-14-17939/</link>
+      <pubDate>Tue, 14 Apr 2026 12:01:27 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17939/</guid>
+      <description>🚀 Building bootable OS images just got easier with image mode for Red Hat Enterprise Linux (RHEL). This new mode integrates AI-assisted troubleshooting into development, connecting tools like VS Code to specialized intelligence streams for real-time system insights and proactive security. 🔑 Developers can set up their environment by generating SSH keys and configuring AI agents to enhance their workflow. For step-by-step guidance on utilizing the Model Context Protocol (MCP) servers for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Chai Breaks to Checkpoints: A Day at Cisco Bengaluru</title>
+      <link>/articles/article-2026-04-14-17937/</link>
+      <pubDate>Tue, 14 Apr 2026 12:00:25 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17937/</guid>
+      <description>🌞 Ever wondered what a day at Cisco Bengaluru is like? Intern Prit S. shares insights on the vibrant work culture. From enjoying chai with colleagues to spontaneous brainstorming sessions, collaboration thrives here. The campus buzzes with diverse languages and ideas, creating a unique atmosphere. Connecting with global teammates using Cisco’s technology highlights the impact of their work. #CiscoBengaluru #InternExperience #TechCulture #Collaboration #Diversity</description>
+    </item>
+    <item>
+      <title>How Cisco CX scaled AI without sacrificing security or cost</title>
+      <link>/articles/article-2026-04-14-17938/</link>
+      <pubDate>Tue, 14 Apr 2026 12:00:18 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17938/</guid>
+      <description>🚀 Cisco Customer Experience (CX) is advancing AI while maintaining security and managing costs. By utilizing AI-ready infrastructure, Cisco ensures sensitive data is secure and operational expenses are predictable. This strategy addresses the challenges of cloud environments, which can complicate data sovereignty and budgeting. The focus on on-premises deployment allows for better control and reduced exposure to threats. #Cisco #AI #Security #TechInnovation #CustomerExperience</description>
+    </item>
     <item>
       <title>Speeding up interactive rebase in JetBrains IDEs</title>
       <link>/articles/article-2026-04-14-17936/</link>
       <pubDate>Tue, 14 Apr 2026 10:33:37 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17936/</guid>
       <description>JetBrains IDEs have been enhancing Git integration for over 15 years, focusing on reliability by executing standard Git commands. 📈 With increasing repository sizes, users noted slower operations, particularly during interactive rebase tasks. This prompted a dedicated internship project to improve performance. 🚀 The article details how Git structures objects like blobs, trees, and commits, revealing where slowdowns occur. Optimizations are being introduced, especially for editing commit&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Three ways to connect an AI agent to your business data</title>
+      <link>/articles/article-2026-04-14-17941/</link>
+      <pubDate>Tue, 14 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17941/</guid>
+      <description>Discover three effective methods to connect an AI agent to your business data. 1️⃣ &lt;strong&gt;Direct Access&lt;/strong&gt;: Quick setup allows the agent to access your database directly. However, its accuracy relies on the agent&amp;rsquo;s interpretation of your data, which can lead to inconsistencies. 2️⃣ &lt;strong&gt;Formal Semantic Layer&lt;/strong&gt;: This structured approach improves reliability by using predefined metrics. While it ensures better accuracy, building this layer can take months and requires ongoing maintenance. 3️⃣&amp;hellip;</description>
     </item>
     <item>
       <title>Who needs VCs when you have friends like these?</title>
@@ -28,6 +84,13 @@
       <pubDate>Tue, 14 Apr 2026 07:15:09 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17935/</guid>
       <description>Explore the deployment of AI agents with Red Hat AI through the case of OpenClaw! 🤖 OpenClaw is an open-source personal AI assistant that demonstrates efficient model serving, safety guardrails, and agent identity management. Red Hat AI offers three model connectivity options: vLLM, Llama Stack, and Models-as-a-Service (MaaS) to enhance agent functionality. This article dives into the setup of OpenClaw and the features of the Red Hat AI platform. #RedHatAI #OpenClaw #AIAgents #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Stripe Sync Engine: from supabase to stripe</title>
+      <link>/articles/article-2026-04-14-17942/</link>
+      <pubDate>Tue, 14 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17942/</guid>
+      <description>🚀 Big news for developers! The Stripe Sync Engine, initially created by Supabase, has officially moved to the Stripe GitHub organization. This transition enhances collaboration between Supabase and Stripe, improving the integration of billing and product data. Key features now include incremental syncing, multi-account support, and a new CLI. The project remains open-source under the Apache 2.0 license, ensuring continued development and support. #Stripe #Supabase #OpenSource #DataIntegration&amp;hellip;</description>
     </item>
     <item>
       <title>Bitbucket Packages now supports Maven and npm</title>
@@ -84,6 +147,13 @@
       <pubDate>Mon, 13 Apr 2026 17:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-13-17928/</guid>
       <description>🚀 Exciting updates for Compass users! Compass has supported developers by centralizing software ownership and documentation. As AI becomes integral to software development, new questions have arisen about its effectiveness. With Atlassian’s acquisition of DX, Compass will transition to DX Fabric. This platform will enhance AI adoption, measure software health, and facilitate improvements. Stay tuned for guidance on your transition to DX! #SoftwareDevelopment #AI #Atlassian #TechUpdate&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a Robust Documentation Agent with DigitalOcean Gradient AI Platform</title>
+      <link>/articles/article-2026-04-13-17940/</link>
+      <pubDate>Mon, 13 Apr 2026 16:59:45 +0000</pubDate>
+      <guid>/articles/article-2026-04-13-17940/</guid>
+      <description>🚀 At DigitalOcean, we&amp;rsquo;ve prioritized documentation by creating an AI assistant that helps developers find answers quickly. This tool allows users to ask questions in plain language and receive accurate, actionable responses. Through extensive testing and validation, we improved the assistant&amp;rsquo;s reliability and performance, ensuring it can effectively guide users. Key components include a robust architecture on the Gradient AI Platform and a focus on metrics for continuous improvement. Explore&amp;hellip;</description>
     </item>
     <item>
       <title>Beyond the Chatbot: How Agentic Frameworks Change Network Engineering</title>

@@ -6,8 +6,36 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 14:29:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 13:00:10 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managed OAuth for Access: make internal apps agent-ready in one click</title>
+      <link>/articles/article-2026-04-14-17945/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17945/</guid>
+      <description>🚀 Cloudflare introduces Managed OAuth for Access, enhancing secure navigation for AI agents in internal applications. With this new feature, agents can authenticate on behalf of users without relying on insecure service accounts. A simple one-click setup allows seamless integration for both users and agents. This functionality supports OAuth 2.0 standards and bridges identities across Cloudflare accounts. Explore more about this feature in the open beta! 🔒✨ #Cloudflare #OAuth #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP</title>
+      <link>/articles/article-2026-04-14-17944/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17944/</guid>
+      <description>🚀 Cloudflare is enhancing Model Context Protocol (MCP) adoption across various teams to improve efficiency. We’ve integrated security measures from our Cloudflare One and Developer platforms to safeguard against risks like authorization sprawl and prompt injection. New features include Code Mode to cut token costs and Cloudflare Gateway for detecting unauthorized Shadow MCP usage. Learn more about our strategies for secure MCP workflows! #Cloudflare #MCP #AI #Cybersecurity #TechInnovation</description>
+    </item>
+    <item>
+      <title>Securing non-human identities: automated revocation, OAuth, and scoped permissions</title>
+      <link>/articles/article-2026-04-14-17943/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:10 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17943/</guid>
+      <description>🌐 Cloudflare is enhancing security for non-human identities with new features. They introduced scannable API tokens, improved OAuth visibility, and resource-scoped RBAC to help developers manage permissions effectively. This aims to prevent credential leaks and protect environments. 💡 Understanding identity is key: Principals, Credentials, and Policies must be managed together to maintain security. Cloudflare also partners with GitHub to detect leaked tokens proactively. #Cloudflare&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh</title>
+      <link>/articles/article-2026-04-14-17946/</link>
+      <pubDate>Tue, 14 Apr 2026 13:00:09 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17946/</guid>
+      <description>🌐 Introducing Cloudflare Mesh: a new solution for secure private networking. It enables users, nodes, and AI agents to access private databases and APIs seamlessly. With integration into the Cloudflare Developer Platform, developers can ensure agents connect securely without manual setups. If you&amp;rsquo;re using Cloudflare One, you can easily adopt Mesh for your agentic workloads, enhancing security while maintaining control over your networks. Setup takes just minutes, allowing you to expand&amp;hellip;</description>
+    </item>
     <item>
       <title>Building a CLI for all of Cloudflare</title>
       <link>/articles/article-2026-04-13-17920/</link>

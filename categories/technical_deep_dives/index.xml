@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 16:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 19:03:31 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load Balancing and Scaling LLM Serving</title>
+      <link>/articles/article-2026-04-15-18033/</link>
+      <pubDate>Wed, 15 Apr 2026 19:03:31 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18033/</guid>
+      <description>Load balancing for Large Language Models (LLMs) differs significantly from traditional services due to prompt caching. Efficient routing strategies are essential to maximize cache effectiveness and minimize latency. The article explores specialized routers that enhance performance while addressing the limitations of standard load balancing methods. Various inference engines like vLLM and TensorRT streamline the process, allowing for efficient handling of diverse workloads. For optimal&amp;hellip;</description>
+    </item>
     <item>
       <title>Finding zombies in our systems: A real-world story of CPU bottlenecks</title>
       <link>/articles/article-2026-04-15-18027/</link>
@@ -35,6 +42,13 @@
       <pubDate>Wed, 15 Apr 2026 12:31:12 +0000</pubDate>
       <guid>/articles/article-2026-04-15-18003/</guid>
       <description>Explore the new architectural model for executing Red Hat Ansible Automation in hybrid environments! 🌐 This model allows cloud-hosted management clusters to control on-premise OpenShift Virtualization clusters, enhancing automation proximity without requiring dedicated execution nodes. By leveraging Kubernetes, automation tasks occur directly within the same namespace as VMs, reducing latency and security risks. Learn more about how this setup optimizes operations while maintaining secure&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents</title>
+      <link>/articles/article-2026-04-15-18039/</link>
+      <pubDate>Wed, 15 Apr 2026 12:07:25 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18039/</guid>
+      <description>Introducing VAKRA, a new benchmark for evaluating AI agents in enterprise settings. 🌐 This tool assesses how well agents reason and execute tasks by analyzing their performance across multi-step workflows. Unlike traditional methods, VAKRA focuses on compositional reasoning with full execution traces. Learn more about this innovative approach to AI evaluation. 🚀 #AI #Benchmarking #VAKRA #TechInnovation #EnterpriseSolutions</description>
     </item>
     <item>
       <title>Protect identity infrastructure in cloud-native environments</title>

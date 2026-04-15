@@ -6,14 +6,21 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 19:00:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 19:03:31 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load Balancing and Scaling LLM Serving</title>
+      <link>/articles/article-2026-04-15-18033/</link>
+      <pubDate>Wed, 15 Apr 2026 19:03:31 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18033/</guid>
+      <description>Load balancing for Large Language Models (LLMs) differs significantly from traditional services due to prompt caching. Efficient routing strategies are essential to maximize cache effectiveness and minimize latency. The article explores specialized routers that enhance performance while addressing the limitations of standard load balancing methods. Various inference engines like vLLM and TensorRT streamline the process, allowing for efficient handling of diverse workloads. For optimal&amp;hellip;</description>
+    </item>
     <item>
       <title>Reading Between the Pixels: Assessing Prompt Injection Attack Success in Images</title>
       <link>/articles/article-2026-04-15-18032/</link>
       <pubDate>Wed, 15 Apr 2026 19:00:53 +0000</pubDate>
       <guid>/articles/article-2026-04-15-18032/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/ai/reading-between-the-pixels-assessing-prompt-injection-attack-success-in-images&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🖼️ New insights on multimodal typographic attacks are here! In the first part of a two-part series, experts explore how vision-language models (VLMs) can be manipulated through “typographic prompt injection.” This involves embedding malicious instructions within images, potentially bypassing traditional text-based safety measures. The implications for privacy and security are significant, affecting everything from browser agents to document processing. Stay tuned for more! #AI #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>OpenAI’s Agents SDK separates the harness from the compute</title>
@@ -28,6 +35,20 @@
       <pubDate>Wed, 15 Apr 2026 17:30:00 +0000</pubDate>
       <guid>/articles/article-2026-04-15-18031/</guid>
       <description>🌟 Claude Code is transforming software development by enabling anyone, not just developers, to create software easily. Since its launch in May 2025, it reached $1 billion in annual revenue by November, and it has doubled that in just a few months. This shift empowers teams in marketing, finance, and sales to build their own solutions. The rise of personal software is evident, with companies increasingly replacing SaaS tools with in-house solutions. A notable example is Taylor Houck, who&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Supporting passkeys to create a secure and seamless login experience</title>
+      <link>/articles/article-2026-04-15-18040/</link>
+      <pubDate>Wed, 15 Apr 2026 17:25:50 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18040/</guid>
+      <description>🚀 Exciting news from DoorDash! We&amp;rsquo;re rolling out passkeys for a more secure and user-friendly login experience. Passkeys replace traditional passwords, offering faster access without the need to remember usernames. They enhance security by reducing phishing risks and syncing across devices. With support from the FIDO Alliance, passkeys are ready for widespread use. This innovation not only improves user experience but also helps reduce fraud and support costs. #Cybersecurity #Passkeys&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Understanding AI’s Impact on Developer Workflows</title>
+      <link>/articles/article-2026-04-15-18034/</link>
+      <pubDate>Wed, 15 Apr 2026 17:00:32 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18034/</guid>
+      <description>AI coding assistants are now integral to developer workflows, as highlighted in a recent study by the Human-AI Experience team. The study analyzed two years of log data from 800 developers, aiming to understand long-term impacts of AI tools on their work. Findings indicate that AI reshapes workflows in ways that may not align with developers&amp;rsquo; perceptions. This research combines log data with surveys and interviews to provide a comprehensive view of AI&amp;rsquo;s role in development. The mixed-methods&amp;hellip;</description>
     </item>
     <item>
       <title>Finding zombies in our systems: A real-world story of CPU bottlenecks</title>
@@ -170,6 +191,13 @@
       <description>Explore the new architectural model for executing Red Hat Ansible Automation in hybrid environments! 🌐 This model allows cloud-hosted management clusters to control on-premise OpenShift Virtualization clusters, enhancing automation proximity without requiring dedicated execution nodes. By leveraging Kubernetes, automation tasks occur directly within the same namespace as VMs, reducing latency and security risks. Learn more about how this setup optimizes operations while maintaining secure&amp;hellip;</description>
     </item>
     <item>
+      <title>Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents</title>
+      <link>/articles/article-2026-04-15-18039/</link>
+      <pubDate>Wed, 15 Apr 2026 12:07:25 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18039/</guid>
+      <description>Introducing VAKRA, a new benchmark for evaluating AI agents in enterprise settings. 🌐 This tool assesses how well agents reason and execute tasks by analyzing their performance across multi-step workflows. Unlike traditional methods, VAKRA focuses on compositional reasoning with full execution traces. Learn more about this innovative approach to AI evaluation. 🚀 #AI #Benchmarking #VAKRA #TechInnovation #EnterpriseSolutions</description>
+    </item>
+    <item>
       <title>Agents are rewriting the rules of security. Here’s what engineering needs to know.</title>
       <link>/articles/article-2026-04-15-17999/</link>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
@@ -261,6 +289,13 @@
       <description>🚀 Google has enhanced the Google Pay API, offering developers improved flexibility for merchant-initiated transactions (MIT). Key updates include new features for recurring subscriptions, deferred payments, and automatic reloads. This allows merchants to clearly define future payment terms, improving transparency and reducing transaction declines. Developers can now create smoother and more secure payment experiences. #GooglePay #API #MerchantTransactions #Payments #TechUpdates</description>
     </item>
     <item>
+      <title>Redesigning for humans, search, and AI: What worked and what didn&#39;t</title>
+      <link>/articles/article-2026-04-15-18036/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18036/</guid>
+      <description>🚀 Webflow recently shared insights from their website redesign journey. They focused on bridging the gap between human self-description and AI interpretation. The article outlines what strategies were effective and which ones fell short during this process. Explore their learnings on enhancing user experience through design! #Webflow #UXDesign #AI #Redesign #UserExperience</description>
+    </item>
+    <item>
       <title>Subagents have arrived in Gemini CLI</title>
       <link>/articles/article-2026-04-15-18028/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
@@ -273,6 +308,13 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-15-18023/</guid>
       <description>In the evolving landscape of AI, identity is becoming central to product architecture. 🤖 Modern applications must balance security, privacy, and user experience. Traditional methods often treat identity as a secondary feature, leading to fragmentation. This can slow down development and create inconsistencies. Now, identity management is moving to the core, enabling secure and scalable AI experiences. A centralized identity system improves user interactions and boosts growth by facilitating&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What AEO readiness actually looks like (from the people doing the work)</title>
+      <link>/articles/article-2026-04-15-18035/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18035/</guid>
+      <description>Building AEO readiness involves practical insights from those in the field. Five practitioners share their experiences, highlighting both successful strategies and challenges faced during the process. They provide valuable advice on where to begin and what to focus on to effectively prepare for AEO. Learn from their insights to navigate your own AEO journey. 🌟🤝 #AEO #Readiness #BestPractices #Insights #Collaboration</description>
     </item>
     <item>
       <title>AWS Interconnect is now generally available, with a new option to simplify last-mile connectivity</title>
@@ -625,6 +667,13 @@
       <description>🚀 GitLab Duo Agent Platform is transforming software development by integrating agentic AI into every phase of the software lifecycle. This platform collaborates with Vertex AI on Google Cloud, enabling automated orchestration and context management for software teams. With advanced AI capabilities, GitLab users can streamline workflows, enhance security, and improve project management. Experience the future of DevSecOps with GitLab and Vertex AI. #GitLab #VertexAI #DevSecOps&amp;hellip;</description>
     </item>
     <item>
+      <title>How discoverability went from 10 blue links to AI answers</title>
+      <link>/articles/article-2026-04-14-18038/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-18038/</guid>
+      <description>SEO has long been the key to online discoverability, offering users ten blue links for answers. However, the rise of AI is shifting this dynamic. AI now provides direct answers, changing how we access information. This evolution highlights the need for businesses to adapt their strategies in this new landscape. 🔍🤖💻 #SEO #AI #DigitalMarketing #Discoverability #ContentStrategy</description>
+    </item>
+    <item>
       <title>How to Enable Self-Service Identity Management for B2B SaaS in Auth0</title>
       <link>/articles/article-2026-04-14-17961/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
@@ -637,6 +686,13 @@
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17985/</guid>
       <description>📢 Managing team members just got easier! The Members page now features new sorting and filter controls. You can search by name, filter by role, and sort by last activity. This makes it simple to organize your team and review access. These enhancements are available for teams on Pro plans and above. Check it out today! #TeamManagement #Productivity #Collaboration #ProPlans #NewFeatures</description>
+    </item>
+    <item>
+      <title>The AEO readiness gap: What leaders are getting wrong</title>
+      <link>/articles/article-2026-04-14-18037/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-18037/</guid>
+      <description>AI is transforming how buyers discover brands, yet only 26% of practitioners are adopting AEO strategies. Senior marketing leaders discuss this readiness gap and the factors contributing to the slow implementation of AEO. Understanding these insights could help bridge the divide. 🤖📊💼 #AEO #MarketingStrategy #AI #DigitalMarketing #BusinessInsights</description>
     </item>
     <item>
       <title>Unlocking real-time geospatial intelligence with Elastic</title>

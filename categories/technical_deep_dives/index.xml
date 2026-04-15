@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 16:01:04 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding zombies in our systems: A real-world story of CPU bottlenecks</title>
+      <link>/articles/article-2026-04-15-18027/</link>
+      <pubDate>Wed, 15 Apr 2026 16:01:04 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18027/</guid>
+      <description>In early 2025, Pinterest&amp;rsquo;s Kubernetes team faced crashing training jobs on their ML platform due to network connectivity issues. A three-month investigation revealed CPU bottlenecks linked to the AWS network driver and excessive memory cgroups, dubbed &amp;ldquo;zombies.&amp;rdquo; This impacted system performance, leading to job failures. The issue was traced back to a crashing ECS agent on GPU instances, which created numerous memory cgroups. Disabling this agent stabilized the system. #Tech #Engineering&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI Gateway: How to Connect Agents to External MCPs Securely</title>
+      <link>/articles/article-2026-04-15-18024/</link>
+      <pubDate>Wed, 15 Apr 2026 16:00:50 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18024/</guid>
+      <description>🚀 Exciting developments in AI! Databricks introduces the AI Gateway, enhancing how customers connect agents to external MCPs securely. This new feature simplifies model management and tool integration. The article discusses the challenges of authenticating external MCP servers and how the AI Gateway addresses these issues effectively. Learn more about getting started with this innovative solution! #AIGateway #Databricks #MCP #AI #TechInnovation</description>
+    </item>
     <item>
       <title>Postgres to Iceberg in 13 minutes: How Supermetal compares to Flink, Kafka Connect, and Spark</title>
       <link>/articles/article-2026-04-15-18015/</link>
@@ -28,6 +42,13 @@
       <pubDate>Wed, 15 Apr 2026 07:16:25 +0000</pubDate>
       <guid>/articles/article-2026-04-15-17994/</guid>
       <description>🔍 Protecting identity infrastructure in cloud-native environments is crucial. As Kubernetes and OpenShift grow, DNS traffic changes from steady to burst, risking system stability. 🛠️ Many organizations face hidden issues like silent query drops due to low recursive client limits in BIND, leading to application timeouts. A multi-layered defense is needed: increase client limits and enable CoreDNS caching to absorb bursts and reduce upstream queries. ⚙️ #CloudNative #DNS #Kubernetes #OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Product Architecture Behind Trusted AI Experiences</title>
+      <link>/articles/article-2026-04-15-18023/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18023/</guid>
+      <description>In the evolving landscape of AI, identity is becoming central to product architecture. 🤖 Modern applications must balance security, privacy, and user experience. Traditional methods often treat identity as a secondary feature, leading to fragmentation. This can slow down development and create inconsistencies. Now, identity management is moving to the core, enabling secure and scalable AI experiences. A centralized identity system improves user interactions and boosts growth by facilitating&amp;hellip;</description>
     </item>
     <item>
       <title>Using LLMs to build content embeddings for DoorDash search and recommendations</title>

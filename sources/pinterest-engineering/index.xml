@@ -6,8 +6,15 @@
     <description>Recent content in Pinterest-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 19:01:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 16:01:04 +0000</lastBuildDate>
     <atom:link href="/sources/pinterest-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding zombies in our systems: A real-world story of CPU bottlenecks</title>
+      <link>/articles/article-2026-04-15-18027/</link>
+      <pubDate>Wed, 15 Apr 2026 16:01:04 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18027/</guid>
+      <description>In early 2025, Pinterest&amp;rsquo;s Kubernetes team faced crashing training jobs on their ML platform due to network connectivity issues. A three-month investigation revealed CPU bottlenecks linked to the AWS network driver and excessive memory cgroups, dubbed &amp;ldquo;zombies.&amp;rdquo; This impacted system performance, leading to job failures. The issue was traced back to a crashing ECS agent on GPU instances, which created numerous memory cgroups. Disabling this agent stabilized the system. #Tech #Engineering&amp;hellip;</description>
+    </item>
     <item>
       <title>Scaling Recommendation Systems with Request-Level Deduplication</title>
       <link>/articles/article-2026-04-13-17930/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 20:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 07:16:25 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protect identity infrastructure in cloud-native environments</title>
+      <link>/articles/article-2026-04-15-17994/</link>
+      <pubDate>Wed, 15 Apr 2026 07:16:25 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-17994/</guid>
+      <description>🔍 Protecting identity infrastructure in cloud-native environments is crucial. As Kubernetes and OpenShift grow, DNS traffic changes from steady to burst, risking system stability. 🛠️ Many organizations face hidden issues like silent query drops due to low recursive client limits in BIND, leading to application timeouts. A multi-layered defense is needed: increase client limits and enable CoreDNS caching to absorb bursts and reduce upstream queries. ⚙️ #CloudNative #DNS #Kubernetes #OpenShift&amp;hellip;</description>
+    </item>
     <item>
       <title>Using LLMs to build content embeddings for DoorDash search and recommendations</title>
       <link>/articles/article-2026-04-14-17987/</link>

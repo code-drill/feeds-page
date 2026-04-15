@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 01:41:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 07:16:25 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protect identity infrastructure in cloud-native environments</title>
+      <link>/articles/article-2026-04-15-17994/</link>
+      <pubDate>Wed, 15 Apr 2026 07:16:25 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-17994/</guid>
+      <description>🔍 Protecting identity infrastructure in cloud-native environments is crucial. As Kubernetes and OpenShift grow, DNS traffic changes from steady to burst, risking system stability. 🛠️ Many organizations face hidden issues like silent query drops due to low recursive client limits in BIND, leading to application timeouts. A multi-layered defense is needed: increase client limits and enable CoreDNS caching to absorb bursts and reduce upstream queries. ⚙️ #CloudNative #DNS #Kubernetes #OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Engineering an AI-ready code base: Governance lessons from the Red Hat Hybrid Cloud Console</title>
+      <link>/articles/article-2026-04-15-17995/</link>
+      <pubDate>Wed, 15 Apr 2026 07:16:22 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-17995/</guid>
+      <description>🚀 Exciting developments in coding governance! Red Hat&amp;rsquo;s recent article explores how strict architectural boundaries and machine-readable constraints improved productivity during the migration of the Hybrid Cloud Console. By defining explicit rules in AGENTS.md and implementing custom lint rules, they created an environment that supports both human developers and AI coding assistants. This approach led to a significant increase in development velocity and reduced errors, showcasing the&amp;hellip;</description>
+    </item>
     <item>
       <title>Introducing Agentic Pipelines: AI automation for chores devs don’t want to do</title>
       <link>/articles/article-2026-04-15-17992/</link>
@@ -308,6 +322,13 @@
       <pubDate>Tue, 14 Apr 2026 00:27:41 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17933/</guid>
       <description>🚀 Bitbucket Packages has expanded its functionality! Now supporting Maven and npm, teams can manage JavaScript and Java packages alongside their existing workflows. This integration addresses challenges like duplicated permissions and fragmented tools. Key features include: - Easy publishing and installation of packages. - Unified permissions with no extra setup. - Full visibility into packages from the Packages page. Maven and npm packages are part of the existing Packages feature, with&amp;hellip;</description>
+    </item>
+    <item>
+      <title>April 2026 Patch Tuesday: Two Zero-Days and Eight Critical Vulnerabilities Among 164 CVEs</title>
+      <link>/articles/article-2026-04-14-17996/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17996/</guid>
+      <description>🔒 Microsoft released its April 2026 security update, addressing 164 vulnerabilities, which is double the number from March. Among these, there are two zero-day vulnerabilities, one currently exploited and one previously disclosed, along with eight critical vulnerabilities. The most common risk type is elevation of privilege, accounting for 57% of the patches. Microsoft Windows received the majority of updates, totaling 131 patches. Stay informed and secure! 🔐💻 #CyberSecurity #MicrosoftUpdates&amp;hellip;</description>
     </item>
     <item>
       <title>Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off</title>

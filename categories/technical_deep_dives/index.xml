@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 19:03:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 20:16:17 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frontend Engineering at Palantir: Polar Scaled Tiles in Zodiac</title>
+      <link>/articles/article-2026-04-15-18043/</link>
+      <pubDate>Wed, 15 Apr 2026 20:16:17 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18043/</guid>
+      <description>Frontend engineering at Palantir involves more than just web apps; it focuses on creating systems for critical decision-making. In a recent blog post, engineer Raj discusses challenges in rendering maps, particularly polar regions. Traditional tiling methods struggle with performance at the poles, leading to significant slowdowns. To address this, the Zodiac library now uses polar scaled tiles, enhancing efficiency by reducing geometry count and improving frame rates across the globe. Stay&amp;hellip;</description>
+    </item>
     <item>
       <title>Load Balancing and Scaling LLM Serving</title>
       <link>/articles/article-2026-04-15-18033/</link>

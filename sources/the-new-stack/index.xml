@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What engineering leaders get wrong about data stack consolidation</title>
+      <link>/articles/article-2026-04-15-18014/</link>
+      <pubDate>Wed, 15 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18014/</guid>
+      <description>IBM&amp;rsquo;s recent $11 billion acquisition of Confluent highlights concerns about data stack consolidation. As open-source tools become integrated into proprietary platforms, engineering teams may lose autonomy over their tech choices. This shift can lead to architectural debt, where custom implementations replace portability, limiting future flexibility. Understanding these dynamics is crucial for engineering leaders navigating the evolving landscape of data infrastructure. #DataConsolidation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Postgres to Iceberg in 13 minutes: How Supermetal compares to Flink, Kafka Connect, and Spark</title>
+      <link>/articles/article-2026-04-15-18015/</link>
+      <pubDate>Wed, 15 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18015/</guid>
+      <description>🚀 Supermetal has introduced Iceberg sink support, showcasing its performance compared to Flink, Kafka Connect, and Spark. In a recent test, Supermetal completed snapshotting from Postgres to Iceberg in just 13 minutes, significantly faster than Flink (90-116 mins), Kafka Connect (120 mins), and Spark (over 3 hours). The focus was on throughput during the snapshotting phase, revealing CDC performance as a key bottleneck for Flink and Kafka Connect. Supermetal&amp;rsquo;s unique approach allows its&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cal.com goes private: A security reckoning for open source</title>
+      <link>/articles/article-2026-04-15-18016/</link>
+      <pubDate>Wed, 15 Apr 2026 14:25:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18016/</guid>
+      <description>Cal.com, an open-source startup, has announced it will move its core codebase behind closed doors due to increasing security concerns related to AI advancements. 🤖🔒 The rise of AI systems that can identify software vulnerabilities has prompted this decision. CEO Bailey Pumfleet highlighted that greater code visibility can make systems more susceptible to attacks. 📉⚠️ Founded in 2021, Cal.com aimed to provide an open-source alternative to Calendly, but now emphasizes the need for security&amp;hellip;</description>
+    </item>
     <item>
       <title>Why “good enough” cloud databases are becoming a business risk</title>
       <link>/articles/article-2026-04-15-17998/</link>

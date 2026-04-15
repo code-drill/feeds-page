@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 12:31:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres to Iceberg in 13 minutes: How Supermetal compares to Flink, Kafka Connect, and Spark</title>
+      <link>/articles/article-2026-04-15-18015/</link>
+      <pubDate>Wed, 15 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18015/</guid>
+      <description>🚀 Supermetal has introduced Iceberg sink support, showcasing its performance compared to Flink, Kafka Connect, and Spark. In a recent test, Supermetal completed snapshotting from Postgres to Iceberg in just 13 minutes, significantly faster than Flink (90-116 mins), Kafka Connect (120 mins), and Spark (over 3 hours). The focus was on throughput during the snapshotting phase, revealing CDC performance as a key bottleneck for Flink and Kafka Connect. Supermetal&amp;rsquo;s unique approach allows its&amp;hellip;</description>
+    </item>
     <item>
       <title>Proximity automation with Red Hat Ansible Automation Platform and Red Hat OpenShift Virtualization</title>
       <link>/articles/article-2026-04-15-18003/</link>

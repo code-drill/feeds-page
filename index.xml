@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2026 03:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 07:01:07 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Hat build of Kueue 1.3: Enhanced batch workload management on Kubernetes</title>
+      <link>/articles/article-2026-04-16-18052/</link>
+      <pubDate>Thu, 16 Apr 2026 07:01:07 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18052/</guid>
+      <description>🚀 Red Hat has released Kueue 1.3, enhancing batch workload management on Kubernetes. This update introduces support for JobSet and LeaderWorkerSet, optimizing resource allocation for high-performance computing and AI tasks. 📈 The new v1beta2 APIs improve clarity and scalability, while the deprecation of v1beta1 encourages users to adopt the latest features. 🔗 Current users can explore these updates and find installation instructions in the Red Hat documentation. #Kubernetes #RedHat #Kueue&amp;hellip;</description>
+    </item>
+    <item>
+      <title>pip install vllm: The iceberg under a single command</title>
+      <link>/articles/article-2026-04-16-18053/</link>
+      <pubDate>Thu, 16 Apr 2026 07:01:05 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18053/</guid>
+      <description>🚀 The command &lt;code&gt;pip install vllm&lt;/code&gt; might seem simple, but it hides layers of build engineering complexity. 🌊 At the surface, users can serve models on various GPUs. Below, there&amp;rsquo;s intricate work involving HIPification, ROCm version management, and more. Each accelerator requires its own specific software stack and builds, impacting performance. 🔧 Red Hat AI addresses these challenges to ensure smooth multi-accelerator support. The ecosystem is evolving, but complexities remain. Learn more about&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build deterministic OpenShift dataplane performance with TRex</title>
+      <link>/articles/article-2026-04-16-18054/</link>
+      <pubDate>Thu, 16 Apr 2026 07:01:03 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18054/</guid>
+      <description>🌐 Latency-sensitive workloads require a unique approach on cloud platforms. This article explores a methodology for achieving deterministic performance in OpenShift using TRex. 🔍 The focus is on identifying stable operating conditions for DPDK workloads, emphasizing predictable latency over peak throughput. Key components include end-to-end system tuning and binary-search strategies for throughput discovery. 📊 It highlights the importance of sustainability in performance metrics and provides&amp;hellip;</description>
+    </item>
     <item>
       <title>Performance improvements with speculative decoding in vLLM for gpt-oss</title>
       <link>/articles/article-2026-04-16-18048/</link>

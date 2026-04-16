@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 21:48:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 17:14:19 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why MicroVMs: The Architecture Behind Docker Sandboxes</title>
+      <link>/articles/article-2026-04-16-18111/</link>
+      <pubDate>Thu, 16 Apr 2026 17:14:19 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18111/</guid>
+      <description>🚀 Last week, Docker introduced Sandboxes, aiming for top-tier agent isolation. 🔍 The article delves into how microVMs facilitate this approach. It compares traditional sandboxing methods, highlighting their limitations, such as slow performance and security risks. 🛡️ Docker Sandboxes utilize dedicated microVMs with isolated Docker daemons, ensuring strong security without compromising developer capabilities. #Docker #MicroVMs #Cybersecurity #DevOps #AI</description>
+    </item>
     <item>
       <title>Why We Chose the Harder Path: Docker Hardened Images, One Year Later</title>
       <link>/articles/article-2026-04-14-17986/</link>

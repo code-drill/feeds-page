@@ -6,8 +6,15 @@
     <description>Recent content in GitHub-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/github-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How GitHub uses eBPF to improve deployment safety</title>
+      <link>/articles/article-2026-04-16-18089/</link>
+      <pubDate>Thu, 16 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18089/</guid>
+      <description>🚀 GitHub is enhancing deployment safety using eBPF to tackle circular dependencies in their deployment processes. By monitoring and blocking certain calls, they prevent issues that could arise if their own platform is down. This approach allows for better management of deployment scripts and internal services. Learn more about their findings and how you can start using eBPF in your own projects! #GitHub #eBPF #DeploymentSafety #TechInnovation #SoftwareDevelopment</description>
+    </item>
     <item>
       <title>The uphill climb of making diff lines performant</title>
       <link>/articles/article-2026-04-03-17502/</link>

@@ -6,8 +6,85 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment retention policies now preserve active branch deployments</title>
+      <link>/articles/article-2026-04-17-18150/</link>
+      <pubDate>Fri, 17 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18150/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/deployment-retention-policies-now-preserve-active-branch-deployments&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Zo Computer improved AI reliability 20x on Vercel</title>
+      <link>/articles/article-2026-04-17-18151/</link>
+      <pubDate>Fri, 17 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18151/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/blog/how-zo-computer-improved-ai-reliability-20x-on-vercel&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vercel Flags is now generally available</title>
+      <link>/articles/article-2026-04-16-18078/</link>
+      <pubDate>Thu, 16 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18078/</guid>
+      <description>🚀 Vercel Flags is now generally available! This feature flag provider is integrated within the Vercel platform, allowing you to create and manage feature flags easily through the Vercel Dashboard. It supports targeting rules, user segments, and environment controls. The Flags SDK enables seamless integration with Next.js and SvelteKit applications, making it simple to implement flags in your code. For other frameworks, the Vercel Flags adapter is compatible with the OpenFeature standard&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 on AI Gateway</title>
+      <link>/articles/article-2026-04-16-18079/</link>
+      <pubDate>Thu, 16 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18079/</guid>
+      <description>🚀 Claude Opus 4.7 is now live on Vercel AI Gateway! This model is designed for long-running tasks and excels in multi-step processes. It particularly shines in knowledge-worker tasks that require visual verification. 📊 Opus 4.7 enhances programmatic tool-calling, supporting high-resolution image processing and efficient document analysis. It also features improved memory for better recall. New functionalities include task budgets for managing token usage and a simplified display for thinking&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A new programming model for durable execution</title>
+      <link>/articles/article-2026-04-16-18105/</link>
+      <pubDate>Thu, 16 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18105/</guid>
+      <description>🚀 Vercel has launched Workflows, a programming model designed for long-running, durable execution in applications. This tool simplifies the transition from prototypes to production by embedding orchestration within the application code. It handles retries, state management, and observability, eliminating the need for separate orchestration services. With over 100 million runs since its beta launch, Workflows supports both TypeScript and Python, making it versatile for various workloads. It&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How GitBook serves 30,000 sites with sub-second content updates</title>
+      <link>/articles/article-2026-04-16-18117/</link>
+      <pubDate>Thu, 16 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18117/</guid>
+      <description>GitBook now hosts 30,000 documentation sites on Vercel, serving 120 million monthly page views. 🚀 With a focus on fast updates, GitBook processes 40,000 cache invalidations daily, ensuring content updates are visible globally within 300 milliseconds. 📈 Interestingly, 41% of traffic comes from AI crawlers, highlighting the platform&amp;rsquo;s critical role in modern documentation. GitBook continues to adapt its caching strategies to meet this growing demand. 📚🤖 #GitBook #Documentation #Vercel&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Seedance 2.0 Video Generation on AI Gateway</title>
+      <link>/articles/article-2026-04-15-18044/</link>
+      <pubDate>Wed, 15 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18044/</guid>
+      <description>🚀 Exciting news for video creators! Bytedance&amp;rsquo;s Seedance 2.0 is now available on AI Gateway without needing additional accounts. This model comes in two versions: Standard, for high-quality output, and Fast, which focuses on speed and cost efficiency. Both maintain motion stability and detail even in complex scenes. Seedance 2.0 supports multiple input types and includes features like video editing and in-video text rendering. You can generate videos from text prompts, images, or a mix of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Reduced pricing for Turbo build machines</title>
+      <link>/articles/article-2026-04-15-18045/</link>
+      <pubDate>Wed, 15 Apr 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18045/</guid>
+      <description>🚀 Vercel is cutting prices for Turbo build machines by 16%! Starting April 15, new rates will be: - Turbo machines (30 CPUs): $0.105/min (down from $0.126) - Enhanced machines (8 CPUs): $0.028/min - Standard machines (4 CPUs): $0.014/min Invoices will reflect these changes as &amp;ldquo;Build CPU Minutes.&amp;rdquo; Learn more about pricing and monitor your usage from Project Usage. #Vercel #PricingUpdate #TurboBuild #CloudComputing #TechNews</description>
+    </item>
+    <item>
+      <title>Logs filtering for Vercel Workflows now available</title>
+      <link>/articles/article-2026-04-14-17959/</link>
+      <pubDate>Tue, 14 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17959/</guid>
+      <description>🚀 Vercel has introduced workflow run log filtering! Now, you can easily access all logs related to a workflow run in one place. The “View Logs” button on the workflow run details page directs you to the Logs tab for efficient filtering using Workflow Run ID and Step ID. This enhancement complements existing run-level observability features, offering a comprehensive view of step progression, payloads, and performance metrics. #Vercel #Workflows #LogFiltering #DevTools #ProductUpdate</description>
+    </item>
+    <item>
+      <title>Elastic Build Machines is now GA</title>
+      <link>/articles/article-2026-04-14-17976/</link>
+      <pubDate>Tue, 14 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17976/</guid>
+      <description>🚀 Exciting news for Pro and Enterprise customers! Elastic Build Machines, now generally available, offer a tailored approach to project builds. Since their beta launch on March 24, over 400 teams and 6000 projects have switched to Elastic as their default. 80% of projects saw cost reductions by opting for smaller machines while maintaining speed. The rest upgraded for enhanced performance. Enable elastic builds in your team or project settings today! #ElasticBuilds #Vercel #TechUpdates&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Cursor built a growth iteration loop with Vercel Microfrontends and Flags</title>
+      <link>/articles/article-2026-04-14-18006/</link>
+      <pubDate>Tue, 14 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-18006/</guid>
+      <description>🚀 Cursor has successfully unified its web presence by integrating four properties under one domain, cursor.com. This effort has led to a 5% increase in product-led signups through strategic experimentation. 🌍 The growth team enhanced localization from 4 to 11 languages, ensuring a consistent user experience. They utilized Microfrontends for seamless transitions, allowing the marketing site to launch without downtime. 📊 To measure impact, Cursor adopted a framework for A/B testing and&amp;hellip;</description>
+    </item>
     <item>
       <title>Vercel Queues now supports 7-day message TTL</title>
       <link>/articles/article-2026-04-01-17506/</link>

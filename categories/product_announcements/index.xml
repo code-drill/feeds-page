@@ -30,6 +30,13 @@
       <description>🚀 Exciting news! Genie spaces now features Agent Mode. This new functionality aims to enhance user experience by streamlining tasks and increasing efficiency. The team has put significant effort into its development. Stay tuned for more updates on how Agent Mode can benefit users! #GenieAgentMode #TechUpdates #Innovation #UserExperience #Efficiency</description>
     </item>
     <item>
+      <title>Advancing secret sync with workload identity federation</title>
+      <link>/articles/article-2026-04-17-18154/</link>
+      <pubDate>Fri, 17 Apr 2026 14:45:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18154/</guid>
+      <description>Vault Enterprise 2.0 introduces workload identity federation for secret sync, enhancing security in multi-cloud environments. 🌐 This update replaces long-lived static credentials with short-lived tokens, addressing risks associated with credential sprawl and leaks. 🔒 Now, organizations can securely manage secrets across platforms like AWS Secrets Manager and Azure Key Vault with improved reliability. Learn more about modernizing your secret management! #CloudSecurity #IdentityManagement&amp;hellip;</description>
+    </item>
+    <item>
       <title>Introducing the Agent Readiness score. Is your site agent-ready?</title>
       <link>/articles/article-2026-04-17-18126/</link>
       <pubDate>Fri, 17 Apr 2026 13:05:00 +0000</pubDate>
@@ -70,6 +77,20 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-17-18144/</guid>
       <description>🚀 A2UI v0.9 is here! This update introduces a framework-agnostic standard for AI agents to create custom UI widgets in real-time, using existing design systems. Key features include: - A new Agent SDK for Python - A shared web-core library for easier integration - Official support for React, Flutter, and Angular A2UI v0.9 aims to enhance developer experience and facilitate seamless streaming of generative interfaces across platforms. #A2UI #GenerativeUI #TechUpdate #AI #Development</description>
+    </item>
+    <item>
+      <title>Better Rails for Agents: A New Remote MCP and Railway Agent in the CLI</title>
+      <link>/articles/article-2026-04-17-18148/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18148/</guid>
+      <description>🚀 Exciting news for developers! Railway has launched a new Remote MCP that simplifies the use of agents. Now, anyone can connect MCP-compatible agents directly from their editor without local installations. 📈 The updated Railway CLI also includes a new command for interacting with the AI agent in your terminal. Check it out at &lt;a href=&#34;https://mcp.railway.com&#34;&gt;https://mcp.railway.com&lt;/a&gt; and streamline your workflow! #Railway #MCP #Developers #AI #TechInnovation</description>
+    </item>
+    <item>
+      <title>New frontend-design skill for Agent Runners</title>
+      <link>/articles/article-2026-04-17-18149/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18149/</guid>
+      <description>🚀 Exciting update for Agent Runners! They now feature a frontend-design skill, guiding AI agents to create high-quality, unique frontend interfaces. This skill helps avoid generic designs, allowing for polished UIs with real visual identity. No configuration is needed—just prompt your agent to build a UI, and the skill activates automatically. Learn more in the Netlify docs! #AgentRunners #UIDesign #AIInnovation #WebDevelopment #Netlify</description>
     </item>
     <item>
       <title>Hugging Face pushes into “computer use” with HoloTab agent that works through your browser</title>
@@ -149,6 +170,13 @@
       <description>🚀 Exciting news for developers! You can now deploy PlanetScale Postgres and MySQL databases directly from the Cloudflare dashboard. This integration allows for efficient database management and billing through your Cloudflare account. 💻 With support for Cloudflare Workers, you can easily connect and run SQL queries using popular relational databases. Enhanced performance and reliability are now at your fingertips. #Cloudflare #PlanetScale #Database #Developers #TechNews</description>
     </item>
     <item>
+      <title>Vercel Flags is now generally available</title>
+      <link>/articles/article-2026-04-16-18078/</link>
+      <pubDate>Thu, 16 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18078/</guid>
+      <description>🚀 Vercel Flags is now generally available! This feature flag provider is integrated within the Vercel platform, allowing you to create and manage feature flags easily through the Vercel Dashboard. It supports targeting rules, user segments, and environment controls. The Flags SDK enables seamless integration with Next.js and SvelteKit applications, making it simple to implement flags in your code. For other frameworks, the Vercel Flags adapter is compatible with the OpenFeature standard&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Red Hat build of Kueue 1.3: Enhanced batch workload management on Kubernetes</title>
       <link>/articles/article-2026-04-16-18052/</link>
       <pubDate>Thu, 16 Apr 2026 07:01:07 +0000</pubDate>
@@ -163,6 +191,13 @@
       <description>🚀 CircleCI has joined the Codex plugin directory, enhancing integration with popular tools like Vercel and Figma. With this new plugin, developers can manage pipeline results and resolve build failures directly within their editor. This feature aims to streamline workflows and minimize context switching, allowing for a smoother development process. Explore the benefits of this integration! #CircleCI #Codex #DevTools #SoftwareDevelopment #Integration</description>
     </item>
     <item>
+      <title>Claude Opus 4.7 on AI Gateway</title>
+      <link>/articles/article-2026-04-16-18079/</link>
+      <pubDate>Thu, 16 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18079/</guid>
+      <description>🚀 Claude Opus 4.7 is now live on Vercel AI Gateway! This model is designed for long-running tasks and excels in multi-step processes. It particularly shines in knowledge-worker tasks that require visual verification. 📊 Opus 4.7 enhances programmatic tool-calling, supporting high-resolution image processing and efficient document analysis. It also features improved memory for better recall. New functionalities include task budgets for managing token usage and a simplified display for thinking&amp;hellip;</description>
+    </item>
+    <item>
       <title>Merge Queues for Bitbucket Cloud, now in open beta</title>
       <link>/articles/article-2026-04-16-18088/</link>
       <pubDate>Thu, 16 Apr 2026 06:30:40 +0000</pubDate>
@@ -175,6 +210,13 @@
       <pubDate>Thu, 16 Apr 2026 06:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-16-18067/</guid>
       <description>🚀 Cloudflare Email Service is now in public beta! This new feature allows applications and agents to send, receive, and process emails seamlessly. Email is a universal interface, making it easier for users to interact with your agents directly through their inbox. With tools like Email Routing and Email Sending, developers can build email-native workflows without needing a custom chat app. This service simplifies email interactions while ensuring delivery and authentication. Explore the new&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A new programming model for durable execution</title>
+      <link>/articles/article-2026-04-16-18105/</link>
+      <pubDate>Thu, 16 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18105/</guid>
+      <description>🚀 Vercel has launched Workflows, a programming model designed for long-running, durable execution in applications. This tool simplifies the transition from prototypes to production by embedding orchestration within the application code. It handles retries, state management, and observability, eliminating the need for separate orchestration services. With over 100 million runs since its beta launch, Workflows supports both TypeScript and Python, making it versatile for various workloads. It&amp;hellip;</description>
     </item>
     <item>
       <title>Enhancing Developer Workflow with Rovo Dev and Notifications</title>
@@ -331,6 +373,20 @@
       <description>🚀 Introducing HoloTab by HCompany! This new Chrome extension leverages AI to enhance your web browsing experience. With HoloTab, you can automate tasks across websites with no setup required. Simply describe your needs, and let the AI handle navigation and decision-making for you. Explore the future of browsing! 🌐✨ #HoloTab #AI #WebAutomation #Technology #Innovation</description>
     </item>
     <item>
+      <title>Seedance 2.0 Video Generation on AI Gateway</title>
+      <link>/articles/article-2026-04-15-18044/</link>
+      <pubDate>Wed, 15 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18044/</guid>
+      <description>🚀 Exciting news for video creators! Bytedance&amp;rsquo;s Seedance 2.0 is now available on AI Gateway without needing additional accounts. This model comes in two versions: Standard, for high-quality output, and Fast, which focuses on speed and cost efficiency. Both maintain motion stability and detail even in complex scenes. Seedance 2.0 supports multiple input types and includes features like video editing and in-video text rendering. You can generate videos from text prompts, images, or a mix of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Reduced pricing for Turbo build machines</title>
+      <link>/articles/article-2026-04-15-18045/</link>
+      <pubDate>Wed, 15 Apr 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-15-18045/</guid>
+      <description>🚀 Vercel is cutting prices for Turbo build machines by 16%! Starting April 15, new rates will be: - Turbo machines (30 CPUs): $0.105/min (down from $0.126) - Enhanced machines (8 CPUs): $0.028/min - Standard machines (4 CPUs): $0.014/min Invoices will reflect these changes as &amp;ldquo;Build CPU Minutes.&amp;rdquo; Learn more about pricing and monitor your usage from Project Usage. #Vercel #PricingUpdate #TurboBuild #CloudComputing #TechNews</description>
+    </item>
+    <item>
       <title>Introducing Agentic Pipelines: AI automation for chores devs don’t want to do</title>
       <link>/articles/article-2026-04-15-17992/</link>
       <pubDate>Wed, 15 Apr 2026 01:41:46 +0000</pubDate>
@@ -422,6 +478,13 @@
       <description>Kumo has unveiled KumoRFM-2, a new foundation model designed for enterprise relational data. It simplifies predictive tasks by allowing users to query data in plain English without extensive training. This model can scale to over 500 billion rows, streamlining the data science process and eliminating the need for feature engineering. KumoRFM-2 has shown significant improvements in benchmarks compared to previous models. Engineers can easily connect to existing data warehouses and obtain&amp;hellip;</description>
     </item>
     <item>
+      <title>Logs filtering for Vercel Workflows now available</title>
+      <link>/articles/article-2026-04-14-17959/</link>
+      <pubDate>Tue, 14 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17959/</guid>
+      <description>🚀 Vercel has introduced workflow run log filtering! Now, you can easily access all logs related to a workflow run in one place. The “View Logs” button on the workflow run details page directs you to the Logs tab for efficient filtering using Workflow Run ID and Step ID. This enhancement complements existing run-level observability features, offering a comprehensive view of step progression, payloads, and performance metrics. #Vercel #Workflows #LogFiltering #DevTools #ProductUpdate</description>
+    </item>
+    <item>
       <title>Beyond the VPN: Cloudflare Mesh builds a private network for the age of AI agents</title>
       <link>/articles/article-2026-04-14-17948/</link>
       <pubDate>Tue, 14 Apr 2026 15:04:59 +0000</pubDate>
@@ -455,6 +518,13 @@
       <pubDate>Tue, 14 Apr 2026 13:00:09 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17946/</guid>
       <description>🌐 Introducing Cloudflare Mesh: a new solution for secure private networking. It enables users, nodes, and AI agents to access private databases and APIs seamlessly. With integration into the Cloudflare Developer Platform, developers can ensure agents connect securely without manual setups. If you&amp;rsquo;re using Cloudflare One, you can easily adopt Mesh for your agentic workloads, enhancing security while maintaining control over your networks. Setup takes just minutes, allowing you to expand&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Build Machines is now GA</title>
+      <link>/articles/article-2026-04-14-17976/</link>
+      <pubDate>Tue, 14 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-17976/</guid>
+      <description>🚀 Exciting news for Pro and Enterprise customers! Elastic Build Machines, now generally available, offer a tailored approach to project builds. Since their beta launch on March 24, over 400 teams and 6000 projects have switched to Elastic as their default. 80% of projects saw cost reductions by opting for smaller machines while maintaining speed. The rest upgraded for enhanced performance. Enable elastic builds in your team or project settings today! #ElasticBuilds #Vercel #TechUpdates&amp;hellip;</description>
     </item>
     <item>
       <title>Stripe Sync Engine: from supabase to stripe</title>

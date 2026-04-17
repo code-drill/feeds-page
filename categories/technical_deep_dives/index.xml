@@ -93,6 +93,13 @@
       <description>🌐 Latency-sensitive workloads require a unique approach on cloud platforms. This article explores a methodology for achieving deterministic performance in OpenShift using TRex. 🔍 The focus is on identifying stable operating conditions for DPDK workloads, emphasizing predictable latency over peak throughput. Key components include end-to-end system tuning and binary-search strategies for throughput discovery. 📊 It highlights the importance of sustainability in performance metrics and provides&amp;hellip;</description>
     </item>
     <item>
+      <title>How GitBook serves 30,000 sites with sub-second content updates</title>
+      <link>/articles/article-2026-04-16-18117/</link>
+      <pubDate>Thu, 16 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18117/</guid>
+      <description>GitBook now hosts 30,000 documentation sites on Vercel, serving 120 million monthly page views. 🚀 With a focus on fast updates, GitBook processes 40,000 cache invalidations daily, ensuring content updates are visible globally within 300 milliseconds. 📈 Interestingly, 41% of traffic comes from AI crawlers, highlighting the platform&amp;rsquo;s critical role in modern documentation. GitBook continues to adapt its caching strategies to meet this growing demand. 📚🤖 #GitBook #Documentation #Vercel&amp;hellip;</description>
+    </item>
+    <item>
       <title>Performance improvements with speculative decoding in vLLM for gpt-oss</title>
       <link>/articles/article-2026-04-16-18048/</link>
       <pubDate>Thu, 16 Apr 2026 03:01:04 +0000</pubDate>
@@ -238,6 +245,13 @@
       <pubDate>Tue, 14 Apr 2026 07:15:09 +0000</pubDate>
       <guid>/articles/article-2026-04-14-17935/</guid>
       <description>Explore the deployment of AI agents with Red Hat AI through the case of OpenClaw! 🤖 OpenClaw is an open-source personal AI assistant that demonstrates efficient model serving, safety guardrails, and agent identity management. Red Hat AI offers three model connectivity options: vLLM, Llama Stack, and Models-as-a-Service (MaaS) to enhance agent functionality. This article dives into the setup of OpenClaw and the features of the Red Hat AI platform. #RedHatAI #OpenClaw #AIAgents #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Cursor built a growth iteration loop with Vercel Microfrontends and Flags</title>
+      <link>/articles/article-2026-04-14-18006/</link>
+      <pubDate>Tue, 14 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-14-18006/</guid>
+      <description>🚀 Cursor has successfully unified its web presence by integrating four properties under one domain, cursor.com. This effort has led to a 5% increase in product-led signups through strategic experimentation. 🌍 The growth team enhanced localization from 4 to 11 languages, ensuring a consistent user experience. They utilized Microfrontends for seamless transitions, allowing the marketing site to launch without downtime. 📊 To measure impact, Cursor adopted a framework for A/B testing and&amp;hellip;</description>
     </item>
     <item>
       <title>Reducing Agentforce AI Debugging from Two Weeks to Same-Day with Query-Driven Observability</title>

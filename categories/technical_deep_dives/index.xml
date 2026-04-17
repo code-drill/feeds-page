@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 17 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Unweight: how we compressed an LLM 22% without sacrificing quality</title>
+      <link>/articles/article-2026-04-17-18129/</link>
+      <pubDate>Fri, 17 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18129/</guid>
+      <description>🚀 Cloudflare has introduced Unweight, a new lossless compression system that reduces LLM model footprints by up to 22%. This improvement enhances GPU memory efficiency and speeds up inference. By optimizing model weights, Unweight allows for faster processing without compromising quality. The system works by decompressing weights in on-chip memory, minimizing latency. Cloudflare also aims to promote transparency by publishing a technical paper and open-sourcing the GPU kernels. Initial tests&amp;hellip;</description>
+    </item>
+    <item>
       <title>Why Postgres wants NVMe on the hot path, and S3 everywhere else</title>
       <link>/articles/article-2026-04-17-18124/</link>
       <pubDate>Fri, 17 Apr 2026 13:00:00 +0000</pubDate>

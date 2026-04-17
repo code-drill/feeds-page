@@ -30,6 +30,13 @@
       <description>Postgres faces challenges with storage performance, particularly with commit latency. While S3 offers durability and cost-effectiveness, it&amp;rsquo;s not suited for Postgres&amp;rsquo;s needs. When a database transaction requires a flush, faster NVMe drives can perform this in microseconds, whereas slower storage can lead to significant delays. The difference in storage types affects user response times, especially in OLTP systems. Benchmarking shows that systems with faster local storage outperform those&amp;hellip;</description>
     </item>
     <item>
+      <title>How Zo Computer improved AI reliability 20x on Vercel</title>
+      <link>/articles/article-2026-04-17-18151/</link>
+      <pubDate>Fri, 17 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18151/</guid>
+      <description>🚀 Zo Computer has achieved a remarkable 20x improvement in AI reliability by integrating with Vercel&amp;rsquo;s AI SDK and AI Gateway. They reduced the retry rate from 7.5% to 0.34% and increased chat success to 99.93%. 🗨️ This shift allows users to seamlessly access AI models without coding complexities, enhancing efficiency and user experience. With an ambition to onboard one million users by 2026, Zo is setting the stage for the future of personal cloud computing. #AIMadeSimple #CloudComputing&amp;hellip;</description>
+    </item>
+    <item>
       <title>The Road to Responsive IntelliJ-Based IDEs</title>
       <link>/articles/article-2026-04-17-18119/</link>
       <pubDate>Fri, 17 Apr 2026 02:40:43 +0000</pubDate>

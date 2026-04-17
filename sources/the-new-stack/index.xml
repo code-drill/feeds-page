@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2026 19:56:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Postgres wants NVMe on the hot path, and S3 everywhere else</title>
+      <link>/articles/article-2026-04-17-18124/</link>
+      <pubDate>Fri, 17 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18124/</guid>
+      <description>Postgres faces challenges with storage performance, particularly with commit latency. While S3 offers durability and cost-effectiveness, it&amp;rsquo;s not suited for Postgres&amp;rsquo;s needs. When a database transaction requires a flush, faster NVMe drives can perform this in microseconds, whereas slower storage can lead to significant delays. The difference in storage types affects user response times, especially in OLTP systems. Benchmarking shows that systems with faster local storage outperform those&amp;hellip;</description>
+    </item>
     <item>
       <title>As agentic AI explodes, Amazon doubles down on MCP</title>
       <link>/articles/article-2026-04-16-18116/</link>

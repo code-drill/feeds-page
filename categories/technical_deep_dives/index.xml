@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 02:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Postgres wants NVMe on the hot path, and S3 everywhere else</title>
+      <link>/articles/article-2026-04-17-18124/</link>
+      <pubDate>Fri, 17 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-17-18124/</guid>
+      <description>Postgres faces challenges with storage performance, particularly with commit latency. While S3 offers durability and cost-effectiveness, it&amp;rsquo;s not suited for Postgres&amp;rsquo;s needs. When a database transaction requires a flush, faster NVMe drives can perform this in microseconds, whereas slower storage can lead to significant delays. The difference in storage types affects user response times, especially in OLTP systems. Benchmarking shows that systems with faster local storage outperform those&amp;hellip;</description>
+    </item>
     <item>
       <title>The Road to Responsive IntelliJ-Based IDEs</title>
       <link>/articles/article-2026-04-17-18119/</link>
@@ -91,6 +98,13 @@
       <pubDate>Thu, 16 Apr 2026 01:52:39 +0000</pubDate>
       <guid>/articles/article-2026-04-16-18050/</guid>
       <description>🚀 The Confluence team has made significant strides in performance, halving page load latency over the past two years. 📊 By integrating React 18’s streaming capabilities for server-side rendering, they&amp;rsquo;ve improved the time to display content, achieving a 40% enhancement in First Contentful Paint (FCP). 🛠️ Key metrics like Time to Interactive (TTI) and Hydration Success Rate help measure these improvements, ensuring a faster and more responsive user experience. #Confluence #WebPerformance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents</title>
+      <link>/articles/article-2026-04-16-18125/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-16-18125/</guid>
+      <description>Introducing Ecom-RLVE, a new framework designed for e-commerce conversational agents. This adaptive system enhances the interaction quality between users and AI by providing verifiable environments. The framework aims to improve trust and reliability in online shopping experiences. It allows conversational agents to adapt based on user behavior and preferences. Learn more about its potential impact on the e-commerce landscape! 💻🛒🤖 #Ecommerce #AI #ConversationalAgents #Innovation #TechTrends</description>
     </item>
     <item>
       <title>The PR you would have opened yourself</title>

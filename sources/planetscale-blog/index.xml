@@ -6,8 +6,15 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Approaches to tenancy in Postgres</title>
+      <link>/articles/article-2026-04-21-18228/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18228/</guid>
+      <description>Exploring multi-tenancy in Postgres? This article outlines three key approaches for managing tenant data within a single database cluster. 1️⃣ &lt;strong&gt;Row-level Isolation&lt;/strong&gt;: Each tenant&amp;rsquo;s data is separated by a specific column value (tenant_id). This is the recommended method for true multi-tenancy. 2️⃣ &lt;strong&gt;Schema-per-Tenant&lt;/strong&gt;: Each tenant has its own schema and tables. While this approach offers isolation, it shares resources. 3️⃣ &lt;strong&gt;Database-per-Tenant&lt;/strong&gt;: Each tenant gets a dedicated logical&amp;hellip;</description>
+    </item>
     <item>
       <title>Keeping a Postgres queue healthy</title>
       <link>/articles/article-2026-04-10-17844/</link>

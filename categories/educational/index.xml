@@ -51,6 +51,13 @@
       <description>📰 Exciting advancements in AI are underway! A recent article discusses the need for AI agents to better reflect Korean demographics. Current models often overlook important cultural nuances and local contexts. To address this, the Nemotron-Personas-Korea dataset includes 6 million synthetic personas based on official Korean statistics. This aims to enhance the relevance of AI in Korea’s public health and other sectors. #AI #KoreanDemographics #SyntheticPersonas #Innovation #TechUpdates</description>
     </item>
     <item>
+      <title>Approaches to tenancy in Postgres</title>
+      <link>/articles/article-2026-04-21-18228/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18228/</guid>
+      <description>Exploring multi-tenancy in Postgres? This article outlines three key approaches for managing tenant data within a single database cluster. 1️⃣ &lt;strong&gt;Row-level Isolation&lt;/strong&gt;: Each tenant&amp;rsquo;s data is separated by a specific column value (tenant_id). This is the recommended method for true multi-tenancy. 2️⃣ &lt;strong&gt;Schema-per-Tenant&lt;/strong&gt;: Each tenant has its own schema and tables. While this approach offers isolation, it shares resources. 3️⃣ &lt;strong&gt;Database-per-Tenant&lt;/strong&gt;: Each tenant gets a dedicated logical&amp;hellip;</description>
+    </item>
+    <item>
       <title>Multi-Tenant SaaS: Managing Auth0 Organizations with the My Organization API</title>
       <link>/articles/article-2026-04-21-18213/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>

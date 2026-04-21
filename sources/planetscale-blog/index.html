@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://planetscale.com/blog/approaches-to-tenancy-in-postgres" target="_blank">Approaches to tenancy in Postgres</a></h2>
+            <div class="publication-date">2026-04-21 00:00</div>
+            <div class="summary">Exploring multi-tenancy in Postgres? This article outlines three key approaches for managing tenant data within a single database cluster. 1️⃣ **Row-level Isolation**: Each tenant&#39;s data is separated by a specific column value (tenant_id). This is the recommended method for true multi-tenancy. 2️⃣ **Schema-per-Tenant**: Each tenant has its own schema and tables. While this approach offers isolation, it shares resources. 3️⃣ **Database-per-Tenant**: Each tenant gets a dedicated logical...</div>
+            <div class="source">Source: PlanetScale Blog</div>
+            
+            <div class="author">Simeon Griggs</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/educational" class="category-text">Educational</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://planetscale.com/blog/keeping-a-postgres-queue-healthy" target="_blank">Keeping a Postgres queue healthy</a></h2>
             <div class="publication-date">2026-04-10 00:00</div>
             <div class="summary">🚀 Keeping your Postgres queue healthy is essential for optimal database performance. High-churn job queues can lead to dead tuples if not monitored properly. 🔍 Postgres efficiently handles queue workloads, but it&#39;s crucial to manage cleanup processes to avoid degrading performance, especially with mixed workloads. 📊 A well-structured queue table allows for seamless job tracking and management, ensuring that transactions stay in sync. For more insights on maintaining healthy queues in...</div>

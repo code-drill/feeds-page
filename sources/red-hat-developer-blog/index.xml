@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 07:16:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 07:16:32 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combining KServe and llm-d for optimized generative AI inference</title>
+      <link>/articles/article-2026-04-21-18204/</link>
+      <pubDate>Tue, 21 Apr 2026 07:16:32 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18204/</guid>
+      <description>Enterprises are integrating generative AI into applications, facing challenges like high-volume traffic and performance optimization. This article highlights the combination of KServe and llm-d to tackle these issues. KServe simplifies model deployment on Kubernetes, while llm-d enhances intelligent request routing and GPU utilization. The integration offers practical guidance for AI platform teams, ensuring efficient inference systems at scale. 🔗 Learn more about this powerful combination!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI-powered documentation updates: From code diff to docs PR in one comment</title>
+      <link>/articles/article-2026-04-21-18205/</link>
+      <pubDate>Tue, 21 Apr 2026 07:16:30 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18205/</guid>
+      <description>🚀 Exciting news for developers! Code-to-Docs is an open source GitHub Action designed to automatically update documentation after code changes. By simply commenting [review-docs] on a pull request, AI analyzes code diffs and identifies affected documentation files. The process is straightforward: After reviewing, you can approve the updates with [update-docs], and a new pull request will be created in the documentation repository. This tool enhances collaboration and ensures documentation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>3 lessons for building reliable ServiceNow AI integrations</title>
+      <link>/articles/article-2026-04-21-18206/</link>
+      <pubDate>Tue, 21 Apr 2026 07:16:27 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18206/</guid>
+      <description>🚀 Building reliable AI integrations with ServiceNow? Here are 3 key lessons learned: 1️⃣ Structure testing environments to prevent production impact. Use external mock services for efficient integration testing. 2️⃣ Implement safeguards in AI automation to avoid issues like duplicate requests and system overload. 3️⃣ Adopt a phased deployment approach for AI integrations, balancing speed and stability. Learn more about these insights and boost your enterprise AI solutions! #AIIntegrations&amp;hellip;</description>
+    </item>
     <item>
       <title>Deploy hosted control planes with OpenShift Virtualization</title>
       <link>/articles/article-2026-04-20-18165/</link>

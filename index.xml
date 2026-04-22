@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 12:15:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen</title>
+      <link>/articles/article-2026-04-22-18260/</link>
+      <pubDate>Wed, 22 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-22-18260/</guid>
+      <description>🚀 Rust Workers on Cloudflare have made significant strides in reliability by addressing historical issues with panics and aborts. Previously, panics were fatal, potentially causing broad failures across instances. Now, with collaboration on the wasm-bindgen project, Rust Workers support error recovery, including panic unwinding and abort recovery. These improvements ensure that a single failed request does not affect others, maintaining application stability. For more details, check out how&amp;hellip;</description>
+    </item>
     <item>
       <title>PyCharm for Django Fundraiser: Why Django Matters in the AI Era – And Why We’re Supporting It</title>
       <link>/articles/article-2026-04-22-18258/</link>
@@ -182,6 +189,13 @@
       <pubDate>Tue, 21 Apr 2026 16:42:22 +0000</pubDate>
       <guid>/articles/article-2026-04-21-18221/</guid>
       <description>🚀 ReasoningBank introduces a new framework for agent memory that enhances learning from both successes and failures. As agents take on complex tasks in the real world, they often struggle to learn from past experiences. Traditional memory methods have limitations, focusing too much on successful actions and overlooking failures. ReasoningBank addresses this by distilling key insights from all experiences, leading to better performance in web browsing and software engineering tasks. Learn more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Gateway API v1.5: Moving features to Stable</title>
+      <link>/articles/article-2026-04-21-18259/</link>
+      <pubDate>Tue, 21 Apr 2026 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-21-18259/</guid>
+      <description>🚀 Exciting news from the Kubernetes SIG Network community! The Gateway API has released version 1.5, focusing on promoting several Experimental features to Stable. Key updates include ListenerSet, TLSRoute, HTTPRoute CORS Filter, and more. A new release process has also been introduced to enhance reliability. Special thanks to all contributors for their hard work! 🙌 #Kubernetes #GatewayAPI #CloudComputing #TechNews #DevOps</description>
     </item>
     <item>
       <title>Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge</title>

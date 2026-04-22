@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen</title>
+      <link>/articles/article-2026-04-22-18260/</link>
+      <pubDate>Wed, 22 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-22-18260/</guid>
+      <description>🚀 Rust Workers on Cloudflare have made significant strides in reliability by addressing historical issues with panics and aborts. Previously, panics were fatal, potentially causing broad failures across instances. Now, with collaboration on the wasm-bindgen project, Rust Workers support error recovery, including panic unwinding and abort recovery. These improvements ensure that a single failed request does not affect others, maintaining application stability. For more details, check out how&amp;hellip;</description>
+    </item>
     <item>
       <title>Moving past bots vs. humans</title>
       <link>/articles/article-2026-04-21-18214/</link>

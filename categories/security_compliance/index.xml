@@ -23,11 +23,25 @@
       <description>🔍 Understanding AI Agent Security Risks is crucial for developers! The article outlines five major risks, including over-privileged tools and memory poisoning, based on the OWASP Top 10 for Agentic Applications (2026). 💡 It emphasizes the importance of implementing Fine-Grained Authorization to ensure agents have only the permissions necessary for their tasks. Stay informed and secure! #AISecurity #OWASP #Cybersecurity #TechTrends #DeveloperTips</description>
     </item>
     <item>
+      <title>How to protect against OAuth-based supply chain breaches and credential sprawl</title>
+      <link>/articles/article-2026-04-23-18353/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18353/</guid>
+      <description>Credential sprawl can quietly accumulate within organizations, posing a serious supply chain risk. As employees connect third-party apps using OAuth, they create trust relationships that may go unchecked. Recent incidents show how compromised tools can lead to breaches, as attackers exploit valid tokens without needing to bypass security. To mitigate risks, organizations should regularly review OAuth connections, tighten permissions, and implement automated monitoring. Tools like 1Password&amp;hellip;</description>
+    </item>
+    <item>
       <title>Securing Enterprise AI: Cisco AI Defense Expands to Google Cloud</title>
       <link>/articles/article-2026-04-22-18274/</link>
       <pubDate>Wed, 22 Apr 2026 19:05:52 +0000</pubDate>
       <guid>/articles/article-2026-04-22-18274/</guid>
       <description>🚀 Enterprise AI adoption is on the rise, but so are security risks. The 2025 Cisco Cybersecurity Readiness Index reveals that 86% of organizations faced AI-related security incidents last year. To address this, Cisco AI Defense now extends its protection to Google Cloud, enhancing security for AI models and applications. Key features include automated validation, runtime protection, and centralized governance. This expansion aims to support organizations in managing AI security effectively&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Faster threat detection with Boundary session recording &#43; Auditbeat</title>
+      <link>/articles/article-2026-04-22-18355/</link>
+      <pubDate>Wed, 22 Apr 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-22-18355/</guid>
+      <description>Enhance your privileged access monitoring with HashiCorp Boundary and Elastic Auditbeat! 🔍 This integration allows organizations to combine detailed session recordings with structured, kernel-level audit events. This is crucial for industries under strict regulations, such as finance and healthcare. Boundary captures every action during privileged sessions, while Auditbeat provides real-time alerts and structured data for security operations. This two-layer approach optimizes detection and&amp;hellip;</description>
     </item>
     <item>
       <title>Terraform adds pre-written Sentinel policies for ISO 27001</title>
@@ -49,6 +63,13 @@
       <pubDate>Wed, 22 Apr 2026 07:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-22-18264/</guid>
       <description>🚀 Exciting news! Supabase has achieved ISO/IEC 27001:2022 certification. This certification validates the information security management system across its entire platform, including Database, Auth, Storage, Realtime, Edge Functions, and the Data API. ISO 27001 is an international standard focused on managing risks to information through defined policies and processes. #Supabase #ISO27001 #InformationSecurity #DataProtection #TechNews</description>
+    </item>
+    <item>
+      <title>From zero trust to continuous trust: Securing autonomous AI systems</title>
+      <link>/articles/article-2026-04-22-18356/</link>
+      <pubDate>Wed, 22 Apr 2026 05:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-22-18356/</guid>
+      <description>🔒 The shift from zero trust to continuous trust in AI systems is crucial. Traditional zero trust operates on predictable behavior, but agentic AI challenges this model. Agentic systems continuously interact with environments, making real-time decisions and dynamically requesting access. This evolution highlights the need for short-lived credentials to keep pace with changing workflows. As agentic systems evolve, trust must adapt continuously, creating new access paths that may not be fully&amp;hellip;</description>
     </item>
     <item>
       <title>Securing air-gapped environments with Elastic on Google Distributed Cloud</title>

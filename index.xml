@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 13:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 15:32:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trivy, KICS, and the shape of supply chain attacks so far in 2026</title>
+      <link>/articles/article-2026-04-23-18344/</link>
+      <pubDate>Thu, 23 Apr 2026 15:32:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18344/</guid>
+      <description>🚨 Recent supply chain attacks on Docker Hub have highlighted vulnerabilities in software publishing. In April 2026, malicious images were pushed to the Checkmarx KICS repository using stolen publisher credentials. This incident did not involve breaches of Docker&amp;rsquo;s infrastructure. Affected users are advised to rotate credentials, pull images by digest, and check logs for potential exfiltration. For more details, ensure you&amp;rsquo;re informed and prepared. 🛡️🔍 #SupplyChainSecurity #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Funding the AI-ready data center: Why flexibility wins</title>
+      <link>/articles/article-2026-04-23-18335/</link>
+      <pubDate>Thu, 23 Apr 2026 15:00:03 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18335/</guid>
+      <description>🚀 Modernizing data centers for AI is essential, but funding poses challenges. 82% of organizations say financing affects their vendor choices. As innovation cycles shorten, flexible payment solutions are key to accessing AI-ready technology without straining budgets. Cisco Capital offers options to scale infrastructure and simplify procurement, supporting the transition to modern data centers. #DataCenter #AI #CiscoCapital #Innovation #TechFinance</description>
+    </item>
+    <item>
+      <title>Black box AI drift: AI tools are making design decisions nobody asked for</title>
+      <link>/articles/article-2026-04-23-18345/</link>
+      <pubDate>Thu, 23 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18345/</guid>
+      <description>AI tools are increasingly making design decisions without clear explanations. A recent exploration into &amp;ldquo;vibe coding&amp;rdquo; revealed that while AI outputs may seem confident, the underlying processes can be flawed. The author, a former software developer, found that AI-generated code often contained incorrect assumptions and security vulnerabilities, with no transparency on its choices. This raises important questions about trust and reliability in AI-driven design. 🤖💻🔍 #AI #Design #UserExperience&amp;hellip;</description>
+    </item>
+    <item>
+      <title>IntelliJ IDEA 2026.1.1 Is Out!</title>
+      <link>/articles/article-2026-04-23-18339/</link>
+      <pubDate>Thu, 23 Apr 2026 13:04:22 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18339/</guid>
+      <description>🚀 IntelliJ IDEA 2026.1.1 is now available! This update includes several important fixes aimed at enhancing your development experience. You can update via the IDE, Toolbox App, or download from the website. Notable updates include: - WSL Python SDK setup is back - Improved Emmet for remote development - Fixed Gradle sync issues - Faster search in large Spring projects For more details, check the release notes. 🛠️ #IntelliJ #IDEUpdate #SoftwareDevelopment #Programming #TechNews</description>
+    </item>
     <item>
       <title>The switch that quantum networking has been waiting for</title>
       <link>/articles/article-2026-04-23-18310/</link>
@@ -21,6 +49,13 @@
       <pubDate>Thu, 23 Apr 2026 12:52:54 +0000</pubDate>
       <guid>/articles/article-2026-04-23-18309/</guid>
       <description>Anthropic&amp;rsquo;s Claude Opus 4.7 was launched with promises of enhanced reasoning and instruction-following capabilities. However, users are reporting challenges with the model&amp;rsquo;s performance. Some prompts that worked with previous versions now yield unexpected results. Users are finding that Claude 4.7 often second-guesses itself, leading to inefficiencies in complex tasks. Concerns from the community highlight that despite being a premium service, many feel the model has not met expectations. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI in DevOps: Why Adoption Lags in CI/CD (and What Comes Next)</title>
+      <link>/articles/article-2026-04-23-18340/</link>
+      <pubDate>Thu, 23 Apr 2026 12:29:24 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18340/</guid>
+      <description>AI is transforming software development, with over 90% of developers using it in daily tasks like coding and debugging. However, its adoption in CI/CD pipelines remains limited. ⚙️ Teams prioritize reliability and compliance in these environments, making them cautious about integrating AI. 🛠️ The article highlights that while AI is effective upstream, its impact in CI/CD is still evolving. Key insights show that AI is more beneficial where mistakes are low-cost, contrasting with the higher&amp;hellip;</description>
     </item>
     <item>
       <title>From a Message I Couldn’t Believe to a Stage I’ll Never Forget</title>
@@ -42,6 +77,20 @@
       <pubDate>Thu, 23 Apr 2026 11:29:16 +0000</pubDate>
       <guid>/articles/article-2026-04-23-18313/</guid>
       <description>🚀 Exciting updates for CLion users! The upcoming version 2026.2 is set to enhance your development experience. Key highlights include: - A simplified debugger configuration with a new &amp;ldquo;Debug Profile&amp;rdquo; section. - Support for multiple Zephyr West profiles. - Improved variable inspection during debugging. Our team aims to streamline build tools and improve the embedded experience. Stay tuned for more updates! #CLion #Debugging #SoftwareDevelopment #IDEUpdates #Zephyr</description>
+    </item>
+    <item>
+      <title>Announcing the Public Preview of Lakeflow Designer</title>
+      <link>/articles/article-2026-04-23-18343/</link>
+      <pubDate>Thu, 23 Apr 2026 10:26:45 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18343/</guid>
+      <description>🚀 Exciting news! The public preview of Lakeflow Designer has been announced. This no-code, AI-native tool is designed for seamless data preparation on Databricks. It emphasizes a fully governed experience, making data handling simpler for users. Stay tuned for more updates! #LakeflowDesigner #DataPreparation #AI #Databricks #NoCode</description>
+    </item>
+    <item>
+      <title>From Incident Counting to SLIs: How DigitalOcean Rethought Availability</title>
+      <link>/articles/article-2026-04-23-18336/</link>
+      <pubDate>Thu, 23 Apr 2026 09:15:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18336/</guid>
+      <description>📊 DigitalOcean has redefined its approach to measuring availability by shifting from an incident-based metric to Service Level Indicators (SLIs). Initially, availability numbers fluctuated between 99.5% and 99.9%, often not reflecting true customer experience. The new metric, consistently above 99.95%, better represents actual platform performance. Key changes include separating measurements into Control Plane and Data Plane, allowing for more accurate assessments of service health. This&amp;hellip;</description>
     </item>
     <item>
       <title>Introducing Apache Tomcat 10.1 in RHEL 10</title>
@@ -72,11 +121,25 @@
       <description>🚀 In our recent project, we migrated to a new Python-based CI suite and integrated CodeCov and CodeRabbit to enhance code quality. 🔍 CodeCov helps identify test coverage effectively, while CodeRabbit offers AI-driven suggestions for maintaining code consistency. 💡 Both tools are now active across multiple repositories, ensuring robust code analysis before merging. For developers focused on quality, these tools are essential. #CodeQuality #AI #DevOps #Coding #SoftwareDevelopment</description>
     </item>
     <item>
+      <title>Five Critical AI Agent Security Risks and How to Fix Them Before You Ship</title>
+      <link>/articles/article-2026-04-23-18342/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18342/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://auth0.com/blog/rss.xml&#34;&gt;Auth0 Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://auth0.com/blog/how-to-fix-five-critical-ai-agent-security-risks/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Google Axion instances now available on Elastic Cloud Hosted</title>
       <link>/articles/article-2026-04-23-18308/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-04-23-18308/</guid>
       <description>🚀 Exciting news for Elastic Cloud users! Google&amp;rsquo;s Axion-powered Arm hardware profiles are now available, offering a CPU-optimized experience. This new profile provides up to 25% better price-performance, enhancing efficiency for observability, security, and search workloads. This upgrade allows for improved data processing and cost-effective scaling, all while maintaining existing operations on Elastic Cloud. Check the regional availability for deployment options! #ElasticCloud #GoogleCloud&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Invincible VS™ brings its brutal brand of fighting to life using Unreal Engine 5</title>
+      <link>/articles/article-2026-04-23-18341/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-23-18341/</guid>
+      <description>🚀 Exciting developments in gaming! Quarter Up has utilized Unreal Engine 5 to enhance the fighting experience in Invincible VS™. The game features smooth 60 fps gameplay, including dynamic combos, special abilities, and ultimate finishers. This 3v3 tag fighting game aims to bring players intense action and visual quality. #InvincibleVS #GamingNews #UnrealEngine5 #GameDevelopment #FightingGames 🎮🔥</description>
     </item>
     <item>
       <title>Making fire feel alive: Real-time fluid simulation in Ignitement</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 20:15:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Things Developers Get Wrong About the Backend for Frontend Pattern</title>
+      <link>/articles/article-2026-04-24-18378/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-24-18378/</guid>
+      <description>Understanding the Backend for Frontend (BFF) pattern is crucial for secure app development. Common misconceptions often lead to security gaps. For instance, many believe that PKCE (Proof Key for Code Exchange) replaces BFF, but it only secures authorization codes in transit, not token storage. BFF ensures tokens are stored server-side, enhancing security against XSS attacks. Additionally, not every reverse proxy qualifies as a BFF; a true BFF acts as a confidential OAuth client. Stay&amp;hellip;</description>
+    </item>
     <item>
       <title>Winning a Kaggle Competition with Generative AI–Assisted Coding</title>
       <link>/articles/article-2026-04-23-18360/</link>

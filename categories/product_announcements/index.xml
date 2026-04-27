@@ -16,6 +16,13 @@
       <description>GitHub has announced a shift to a usage-based billing model for Copilot, effective June 1. This change ties costs directly to developers&amp;rsquo; usage of AI coding tools. The new system replaces the current fixed monthly fee and premium request units with a credit-based model linked to token consumption. Users will receive monthly AI credits, with the option to purchase more if needed. This move aims to create a more sustainable pricing model for users. GitHub has also implemented measures to manage&amp;hellip;</description>
     </item>
     <item>
+      <title>Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)</title>
+      <link>/articles/article-2026-04-27-18447/</link>
+      <pubDate>Mon, 27 Apr 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-27-18447/</guid>
+      <description>Kubernetes v1.36 introduces a significant update: the ability to modify resource requests and limits for suspended Jobs, now in beta. This feature allows adjustments to CPU, memory, and GPU specifications while the Job is paused. Previously, resource settings were fixed, necessitating Job deletion to make changes. This update benefits batch and machine learning workloads where resource needs can vary. Clusters running v1.36 can use this feature by default, enabling better resource management&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Now Available: Monthly Subscriptions with a 12-Month Commitment</title>
       <link>/articles/article-2026-04-27-18444/</link>
       <pubDate>Mon, 27 Apr 2026 13:00:33 +0000</pubDate>

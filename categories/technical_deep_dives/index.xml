@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 07:16:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Terraform is green when your cloud is broken</title>
+      <link>/articles/article-2026-04-28-18459/</link>
+      <pubDate>Tue, 28 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18459/</guid>
+      <description>🔍 Terraform can show a clean state even when actual configurations change. A recent article highlights a scenario where a Terraform plan indicated no changes, but later, an API error revealed discrepancies due to manual updates in the AWS console. The key takeaway is that Terraform&amp;rsquo;s state file captures a snapshot of infrastructure but can become out of sync with real-world changes. Stay aware of this gap to avoid unexpected incidents! ⚠️ #Terraform #CloudInfrastructure #DevOps&amp;hellip;</description>
+    </item>
     <item>
       <title>OpenShift AI observability summarizer: Transform metrics into meaning</title>
       <link>/articles/article-2026-04-28-18454/</link>

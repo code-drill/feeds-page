@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 07:16:21 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build .NET container images with Tekton</title>
+      <link>/articles/article-2026-04-28-18455/</link>
+      <pubDate>Tue, 28 Apr 2026 07:16:21 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18455/</guid>
+      <description>🚀 Tekton is a Kubernetes-native CI/CD framework that simplifies building and deploying .NET applications. With the dotnet-publish-image task, you can build and push container images directly using the .NET SDK—no Dockerfile needed! This article guides you through setting up a minimal Tekton pipeline to clone a .NET app from Git, build a container image, and push it to quay.io. Learn about task parameters, repository setup, and automating builds with Git push triggers. #Tekton #DotNET #CICD&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Exploring distroless containers with Project Hummingbird</title>
+      <link>/articles/article-2026-04-28-18456/</link>
+      <pubDate>Tue, 28 Apr 2026 07:16:18 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18456/</guid>
+      <description>🚀 Project Hummingbird offers minimal, hardened container images designed to enhance security with a reduced attack surface. These distroless images serve as drop-in replacements for standard containers. 🔍 The article explores their functionality using examples in Fedora Linux, showing how they integrate seamlessly into existing workflows. 🔒 With a focus on low vulnerabilities, Hummingbird supports various programming languages, databases, and web servers, making it a versatile option for&amp;hellip;</description>
+    </item>
     <item>
       <title>Adopting SLI/SLO for improving reliability - Part 3: Service application cases</title>
       <link>/articles/article-2026-04-28-18452/</link>

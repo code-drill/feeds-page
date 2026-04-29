@@ -6,8 +6,15 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing SSH access at scale with HashiCorp Vault</title>
+      <link>/articles/article-2026-04-29-18547/</link>
+      <pubDate>Wed, 29 Apr 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-29-18547/</guid>
+      <description>Managing SSH access at scale is critical for modern enterprises. 🔐 This article discusses an updated approach using HashiCorp Vault and Boundary for passwordless SSH access. It emphasizes the shift to SSH certificates for secure, role-based access, addressing key management challenges. Key points include: - Integration of Vault with Boundary for just-in-time credentials. - Updated best practices for configuring Vault. - Focus on SSH certificate authentication to enhance security. Ideal for&amp;hellip;</description>
+    </item>
     <item>
       <title>Turning secret detection into measurable risk reduction</title>
       <link>/articles/article-2026-04-28-18501/</link>

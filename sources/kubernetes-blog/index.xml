@@ -6,8 +6,15 @@
     <description>Recent content in Kubernetes-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 18:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 18:35:00 +0000</lastBuildDate>
     <atom:link href="/sources/kubernetes-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.36: Staleness Mitigation and Observability for Controllers</title>
+      <link>/articles/article-2026-04-28-18511/</link>
+      <pubDate>Tue, 28 Apr 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18511/</guid>
+      <description>Kubernetes v1.36 introduces significant updates to address staleness in controllers, a common issue that can lead to incorrect actions being taken. With this release, improvements in both client-go and kube-controller-manager enhance the accuracy of controller actions by ensuring they check for the latest resource versions before acting. 🛠️ Key updates include atomic FIFO processing in client-go and new capabilities for the DaemonSet, StatefulSet, ReplicaSet, and Job controllers. These&amp;hellip;</description>
+    </item>
     <item>
       <title>Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)</title>
       <link>/articles/article-2026-04-27-18447/</link>

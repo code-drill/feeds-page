@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 21:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 23:39:07 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketers: stop experimenting and start solving real-world problems with AI</title>
+      <link>/articles/article-2026-04-28-18512/</link>
+      <pubDate>Tue, 28 Apr 2026 23:39:07 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18512/</guid>
+      <description>Marketers are facing challenges with AI adoption. Many teams spend time on &amp;ldquo;AI experimentation&amp;rdquo; but struggle to implement real changes in their workflows. The issue lies in focusing on hypothetical problems instead of addressing actual needs. Companies need to treat AI like teamwork, integrating it into ongoing processes rather than as a separate project. Emphasizing real-world applications can lead to more effective use of AI in marketing strategies. #Marketing #AI #Productivity&amp;hellip;</description>
+    </item>
     <item>
       <title>Built In, Not Bolted On: What AI-Native Actually Means in Cybersecurity</title>
       <link>/articles/article-2026-04-28-18510/</link>
@@ -77,6 +84,13 @@
       <pubDate>Tue, 28 Apr 2026 18:40:00 +0000</pubDate>
       <guid>/articles/article-2026-04-28-18502/</guid>
       <description>🚀 Apple unveiled Swift Testing at WWDC 2024, replacing XCTest with faster test execution—up to 7 times quicker! Swift Testing runs tests in parallel, enhancing efficiency and providing better failure messages to aid debugging. DoorDash faced slow XCTest runs impacting CI pipelines, leading to a strategic migration to Swift Testing. They emphasized local ownership, robust tooling, and reliability checks to ensure smooth transitions. With tools like Cursor and SweetPad, engineers can now easily&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: Staleness Mitigation and Observability for Controllers</title>
+      <link>/articles/article-2026-04-28-18511/</link>
+      <pubDate>Tue, 28 Apr 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18511/</guid>
+      <description>Kubernetes v1.36 introduces significant updates to address staleness in controllers, a common issue that can lead to incorrect actions being taken. With this release, improvements in both client-go and kube-controller-manager enhance the accuracy of controller actions by ensuring they check for the latest resource versions before acting. 🛠️ Key updates include atomic FIFO processing in client-go and new capabilities for the DaemonSet, StatefulSet, ReplicaSet, and Job controllers. These&amp;hellip;</description>
     </item>
     <item>
       <title>Top announcements of the What’s Next with AWS, 2026</title>

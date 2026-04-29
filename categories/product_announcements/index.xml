@@ -23,6 +23,13 @@
       <description>🚀 DigitalOcean has introduced its AI-Native Cloud, addressing the growing challenges in AI workloads. The shift in AI infrastructure highlights inference as the new focus, with reasoning models and autonomous agents taking center stage. This full-stack solution simplifies development by reducing complexity, allowing developers to concentrate on building rather than integrating. Key features include the Inference Router, dedicated GPU infrastructure, and a wide range of models available for&amp;hellip;</description>
     </item>
     <item>
+      <title>Kubernetes v1.36: Staleness Mitigation and Observability for Controllers</title>
+      <link>/articles/article-2026-04-28-18511/</link>
+      <pubDate>Tue, 28 Apr 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-28-18511/</guid>
+      <description>Kubernetes v1.36 introduces significant updates to address staleness in controllers, a common issue that can lead to incorrect actions being taken. With this release, improvements in both client-go and kube-controller-manager enhance the accuracy of controller actions by ensuring they check for the latest resource versions before acting. 🛠️ Key updates include atomic FIFO processing in client-go and new capabilities for the DaemonSet, StatefulSet, ReplicaSet, and Job controllers. These&amp;hellip;</description>
+    </item>
+    <item>
       <title>Top announcements of the What’s Next with AWS, 2026</title>
       <link>/articles/article-2026-04-28-18505/</link>
       <pubDate>Tue, 28 Apr 2026 18:11:39 +0000</pubDate>

@@ -6,8 +6,29 @@
     <description>Recent content in Hugging-Face-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 15:58:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 16:45:09 +0000</lastBuildDate>
     <atom:link href="/sources/hugging-face-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI evals are becoming the new compute bottleneck</title>
+      <link>/articles/article-2026-04-29-18531/</link>
+      <pubDate>Wed, 29 Apr 2026 16:45:09 +0000</pubDate>
+      <guid>/articles/article-2026-04-29-18531/</guid>
+      <description>AI evaluations are facing significant cost challenges. The Holistic Agent Leaderboard (HAL) recently spent around $40,000 for 21,730 agent rollouts across 9 models. A single GAIA run on a frontier model costs nearly $2,829. Exgentic&amp;rsquo;s analysis revealed a 33× cost spread on similar tasks due to scaffold choice. As evaluations become pricier, new benchmarks are proving difficult to compress. #AI #MachineLearning #CostAnalysis #TechTrends #DataScience 🤖💰📊</description>
+    </item>
+    <item>
+      <title>Granite 4.1 LLMs: How They’re Built</title>
+      <link>/articles/article-2026-04-29-18532/</link>
+      <pubDate>Wed, 29 Apr 2026 15:01:48 +0000</pubDate>
+      <guid>/articles/article-2026-04-29-18532/</guid>
+      <description>🚀 Discover the engineering behind Granite 4.1 LLMs! This article details the development of dense, decoder-only models (3B, 8B, 30B) trained on approximately 15 trillion tokens. Key highlights include a multi-stage pre-training process and refinement through supervised fine-tuning and reinforcement learning. The 8B model stands out, matching the performance of its larger predecessor. Learn more about its technical aspects and open-source release! #Granite4 #LLMs #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>DeepInfra on Hugging Face Inference Providers 🔥</title>
+      <link>/articles/article-2026-04-29-18533/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-04-29-18533/</guid>
+      <description>🚀 Exciting news! DeepInfra is now an official Inference Provider on the Hugging Face Hub. This integration enhances serverless inference capabilities on the platform. Developers can access over 100 models easily, supporting various tasks including conversational and text-generation. DeepInfra offers competitive pricing and simplifies AI integration for applications. #DeepInfra #HuggingFace #AIInference #MachineLearning #Developers</description>
+    </item>
     <item>
       <title>Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
       <link>/articles/article-2026-04-28-18480/</link>

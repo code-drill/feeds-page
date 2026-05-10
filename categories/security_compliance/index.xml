@@ -6,8 +6,36 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Update: Multiple vulnerabilities in Next.js and React</title>
+      <link>/articles/article-2026-05-08-18684/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18684/</guid>
+      <description>🚨 &lt;strong&gt;Security Update for Next.js and React&lt;/strong&gt; 🚨 Twelve vulnerabilities have been identified in Next.js and React, including high severity issues like DoS, XSS, and middleware bypass. All were patched on May 6, 2026. For Netlify users, it is crucial to upgrade Next.js to 15.5.18 or 16.2.6 and redeploy your projects. Notably, Netlify&amp;rsquo;s infrastructure mitigates several vulnerabilities, minimizing impact. Stay secure! 🔒 #NextJS #React #WebSecurity #Netlify #Vulnerabilities</description>
+    </item>
+    <item>
+      <title>Behind the Scenes Hardening Firefox with Claude Mythos Preview</title>
+      <link>/articles/article-2026-05-07-18622/</link>
+      <pubDate>Thu, 07 May 2026 16:01:21 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18622/</guid>
+      <description>🚀 Two weeks ago, Mozilla shared how they fixed a record number of security bugs in Firefox using Claude Mythos Preview and other AI models. They improved their techniques to harness AI, transforming initial challenges into effective solutions. For the first time, they revealed some bug reports to encourage the software community to adopt similar methods. 🔍 Key issues included race conditions and bugs dating back 15 years, showcasing the depth of the findings. #Mozilla #Firefox #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitHub builds an immune system for AI coding agents running on MCP</title>
+      <link>/articles/article-2026-05-07-18575/</link>
+      <pubDate>Thu, 07 May 2026 15:04:24 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18575/</guid>
+      <description>GitHub addresses security in AI coding with new updates for its MCP servers. As AI models connect to various tools and systems, vulnerabilities like prompt injection attacks and over-permissioned agents pose risks. GitHub is enhancing security checks within the tooling layer to tackle these issues early. The public preview of dependency scanning and general availability of secret scanning aim to protect against exposed secrets and unsafe code in AI coding environments. #GitHub #AICoding&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Confidential virtual machine storage attack scenarios</title>
+      <link>/articles/article-2026-05-07-18599/</link>
+      <pubDate>Thu, 07 May 2026 07:01:51 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18599/</guid>
+      <description>Confidential Virtual Machines (CVMs) are rapidly gaining popularity, allowing for quick provisioning from major cloud providers. While CVMs enhance data confidentiality at runtime, the protection of data at rest is equally crucial. This article discusses potential attack scenarios where an attacker with read/write access to CVM storage could compromise data confidentiality and integrity. Traditional Linux encryption tools like dm-crypt/LUKS may need reevaluation in light of these threats. Key&amp;hellip;</description>
+    </item>
     <item>
       <title>Whole-of-state cyber defense: How AI-driven security helps US states protect what matters most</title>
       <link>/articles/article-2026-04-29-18541/</link>

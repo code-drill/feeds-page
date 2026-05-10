@@ -6,8 +6,29 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate deployment processes using a custom agent in GitLab Duo Agent Platform</title>
+      <link>/articles/article-2026-05-07-18654/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18654/</guid>
+      <description>🛠️ Onboarding new microservices can be complex and time-consuming. GitLab Duo Agent Platform offers a solution by creating custom agents that automate this process. In a recent tutorial, the onboarding for a fictitious bank, TanukiBank, was demonstrated. The custom agent understands specific application workflows and performs the necessary steps efficiently, saving time and reducing errors. Learn how to build your own agent and streamline deployment processes! 🚀 #GitLab #DevOps #Automation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Consolidate your GitLab stack with Gitaly on Kubernetes</title>
+      <link>/articles/article-2026-05-07-18652/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18652/</guid>
+      <description>🚀 Great news for GitLab users on Kubernetes! Gitaly is now officially available on Kubernetes, simplifying your setup by eliminating the need for a hybrid architecture. 📊 With this release, teams can run Gitaly&amp;rsquo;s memory-intensive operations within Kubernetes, enhancing stability and reducing downtime. 🔧 Gitaly can be deployed via the GitLab Helm chart, making it easier for new users to adopt a fully Kubernetes-native environment. For detailed configuration guidance, check the Gitaly on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Limit credential exposure with fine-grained personal access tokens</title>
+      <link>/articles/article-2026-05-07-18653/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18653/</guid>
+      <description>🚀 GitLab is introducing fine-grained personal access tokens (PATs) in beta, enhancing security by limiting token permissions. These tokens can be scoped to specific tasks, reducing risk if they are exposed. You can define their reach and permissions, ensuring a token is only as powerful as needed. 🔍 The updated tokens table allows for easier auditing of permissions. It&amp;rsquo;s advised to avoid using fine-grained PATs in production until they are fully available. Learn how to create and manage these&amp;hellip;</description>
+    </item>
     <item>
       <title>GitLab Patch Release: 18.11.2, 18.10.5</title>
       <link>/articles/article-2026-04-29-18542/</link>

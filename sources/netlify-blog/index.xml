@@ -6,8 +6,22 @@
     <description>Recent content in Netlify-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/netlify-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Update: Multiple vulnerabilities in Next.js and React</title>
+      <link>/articles/article-2026-05-08-18684/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18684/</guid>
+      <description>🚨 &lt;strong&gt;Security Update for Next.js and React&lt;/strong&gt; 🚨 Twelve vulnerabilities have been identified in Next.js and React, including high severity issues like DoS, XSS, and middleware bypass. All were patched on May 6, 2026. For Netlify users, it is crucial to upgrade Next.js to 15.5.18 or 16.2.6 and redeploy your projects. Notably, Netlify&amp;rsquo;s infrastructure mitigates several vulnerabilities, minimizing impact. Stay secure! 🔒 #NextJS #React #WebSecurity #Netlify #Vulnerabilities</description>
+    </item>
+    <item>
+      <title>Gemini 3.1 Flash-Lite now available in AI Gateway</title>
+      <link>/articles/article-2026-05-07-18685/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18685/</guid>
+      <description>🚀 Exciting news! Google&amp;rsquo;s Gemini 3.1 Flash-Lite model is now available via Netlify&amp;rsquo;s AI Gateway with no configuration needed. Users can implement the Google GenAI SDK directly in Netlify Functions without the hassle of managing API keys or authentication. This model supports all Function types and provides automatic access to caching, rate limiting, and authentication features. Learn more in the AI Gateway documentation! 📚✨ #GoogleGenAI #Netlify #AIGateway #TechNews #AIModel</description>
+    </item>
     <item>
       <title>New integration: Stripe Projects</title>
       <link>/articles/article-2026-04-29-18544/</link>

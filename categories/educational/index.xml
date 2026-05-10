@@ -6,8 +6,57 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 23:37:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 07:16:06 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Federated identity across the hybrid cloud using zero trust workload identity manager</title>
+      <link>/articles/article-2026-05-08-18598/</link>
+      <pubDate>Fri, 08 May 2026 07:16:06 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18598/</guid>
+      <description>🔒 Modern organizations are shifting from monolithic applications to smaller, specialized systems that interact across various environments, including on-premise and cloud. Traditional security methods, like usernames and passwords, are no longer sufficient. Instead, workload identity solutions, such as SPIFFE and SPIRE, are gaining traction. These enable secure communication without static credentials. Red Hat&amp;rsquo;s zero trust workload identity manager facilitates this on OpenShift, allowing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer</title>
+      <link>/articles/article-2026-05-07-18613/</link>
+      <pubDate>Thu, 07 May 2026 21:18:06 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18613/</guid>
+      <description>🚀 Model quantization is a key method for reducing VRAM usage and enhancing inference performance on NVIDIA GeForce RTX GPUs. This article details how to utilize the NVIDIA Model Optimizer to quantize a CLIP model in FP8 format using the post-training quantization (PTQ) method. The NVIDIA Model Optimizer offers advanced techniques like quantization and pruning, supporting various model formats such as Hugging Face and PyTorch. 💡 CLIP, a foundation model from OpenAI, effectively aligns images&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic architects reveal how to query observability data in plain English</title>
+      <link>/articles/article-2026-05-07-18573/</link>
+      <pubDate>Thu, 07 May 2026 16:27:32 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18573/</guid>
+      <description>Unlocking observability data is crucial for modern organizations. 🚀 The article emphasizes that making operational data accessible to all staff, not just SREs, enhances decision-making. App owners and finance teams can now query data directly in plain English, thanks to tools like OpenTelemetry and generative AI. Join the upcoming conversation with Elastic architects on how to unify observability data and empower your team! #Observability #DataDemocratization #GenerativeAI #OpenTelemetry&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Make Your Plugin Remote Development-Ready</title>
+      <link>/articles/article-2026-05-07-18662/</link>
+      <pubDate>Thu, 07 May 2026 12:00:15 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18662/</guid>
+      <description>🚀 Remote development is transforming plugin architecture for JetBrains IDEs. Developers now need to consider both frontend and backend processes, as they may operate on different machines or in the cloud. This shift enhances security and flexibility in development workflows. JetBrains provides resources, including a video overview, plugin templates, and detailed documentation, to support developers in adapting to this new &amp;ldquo;split mode.&amp;rdquo; 🌐 #JetBrains #PluginDevelopment #RemoteWork&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Make Code Highlighting-Friendly</title>
+      <link>/articles/article-2026-05-07-18664/</link>
+      <pubDate>Thu, 07 May 2026 09:15:31 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18664/</guid>
+      <description>Understanding code highlighting complexity can enhance your coding efficiency! 📊 This article discusses how to create code that is friendly for highlighting, which can lead to improved responsiveness and reduced resource usage. Key benefits include optimized CPU usage, cooler system temperatures, and longer battery life. 💻 It emphasizes the importance of highlighting complexity, alongside algorithmic and cognitive complexity, for better performance. Simple practices, such as modularizing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Integrate zero trust workload identity manager with Red Hat OpenShift GitOps</title>
+      <link>/articles/article-2026-05-07-18601/</link>
+      <pubDate>Thu, 07 May 2026 03:01:12 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18601/</guid>
+      <description>🔒 Red Hat OpenShift now supports the integration of a zero trust workload identity manager with Argo CD, enhancing secure communication between remote clusters using SPIFFE and SPIRE identities. This feature allows OpenShift GitOps to manage remote instances efficiently without long-lived tokens. However, currently, only SPIFFE identities can authenticate, which may limit access options. Future updates aim to support multiple identity providers. For implementation, two OpenShift clusters are&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Automate deployment processes using a custom agent in GitLab Duo Agent Platform</title>
+      <link>/articles/article-2026-05-07-18654/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18654/</guid>
+      <description>🛠️ Onboarding new microservices can be complex and time-consuming. GitLab Duo Agent Platform offers a solution by creating custom agents that automate this process. In a recent tutorial, the onboarding for a fictitious bank, TanukiBank, was demonstrated. The custom agent understands specific application workflows and performs the necessary steps efficiently, saving time and reducing errors. Learn how to build your own agent and streamline deployment processes! 🚀 #GitLab #DevOps #Automation&amp;hellip;</description>
+    </item>
     <item>
       <title>Designing In Variables: How Control Panels Accelerate The Way We Design</title>
       <link>/articles/article-2026-04-29-18558/</link>

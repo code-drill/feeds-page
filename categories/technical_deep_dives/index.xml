@@ -6,8 +6,57 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 17:13:33 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding</title>
+      <link>/articles/article-2026-05-08-18610/</link>
+      <pubDate>Fri, 08 May 2026 17:13:33 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18610/</guid>
+      <description>🚀 Exciting advancements in AI! A recent study explores enhancing Bash command generation in small language models using grammar-constrained decoding. This method aims to improve reliability for executing tasks in agentic systems. The research found that by applying this technique, the average success rate of command generation increased significantly, from 62.5% to 75.2%. This development could broaden the deployment of small models in various environments, addressing the challenges of syntax&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo</title>
+      <link>/articles/article-2026-05-08-18611/</link>
+      <pubDate>Fri, 08 May 2026 15:59:16 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18611/</guid>
+      <description>📢 Exploring structured interactions in AI, the article discusses the importance of agentic exchanges in NVIDIA Dynamo. It highlights how assistant turns intertwine reasoning with tool calls, ensuring a seamless user experience. Key improvements were made in parser and API coverage to enhance streaming behavior and performance. The focus remains on correctness and user experience as agentic harnesses evolve rapidly. #AI #NVIDIA #Dynamo #AgenticExchange #TechInnovation</description>
+    </item>
+    <item>
+      <title>How Microsoft is governing thousands of Kubernetes clusters without manual intervention</title>
+      <link>/articles/article-2026-05-07-18570/</link>
+      <pubDate>Thu, 07 May 2026 22:07:21 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18570/</guid>
+      <description>Microsoft is tackling the challenges of managing thousands of Kubernetes clusters across diverse environments without manual intervention. 🌐 With the rise of AI and the need for unified management, traditional GitOps methods face limitations at scale. As teams expand from one to hundreds of clusters, the complexities of governance increase significantly. ⚙️ Microsoft Azure Kubernetes Fleet Manager offers a solution, enabling teams to orchestrate updates and define reusable strategies for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus</title>
+      <link>/articles/article-2026-05-07-18614/</link>
+      <pubDate>Thu, 07 May 2026 16:02:58 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18614/</guid>
+      <description>🚀 Distributed deep learning relies on efficient GPU-to-GPU communication via the NVIDIA Collective Communication Library (NCCL). When training slows, pinpointing issues can be complex. The NCCL Inspector enhances this process by providing continuous performance reports, tracking operation type, size, and bandwidth. With the new real-time monitoring feature integrated with Prometheus, users can access live visualizations directly in their infrastructure dashboard. This marks a significant step&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Benchmarking scale-out AI fabrics with Cisco N9000 &#43; AMD Pensando™ Pollara 400 NICs</title>
+      <link>/articles/article-2026-05-07-18592/</link>
+      <pubDate>Thu, 07 May 2026 15:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18592/</guid>
+      <description>Cisco and AMD have teamed up to tackle the &amp;ldquo;AI paradox&amp;rdquo; in enterprises by introducing a high-performance AI fabric using Cisco N9000 switches and AMD Pensando Pollara 400 NICs. This solution addresses GPU underutilization by optimizing network performance, ensuring GPUs operate efficiently during AI training and inference tasks. The architecture includes AMD Instinct MI300X GPUs and Cisco&amp;rsquo;s advanced switches for a reliable, scalable solution. Rigorous benchmarking verifies that this setup can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Consolidate your GitLab stack with Gitaly on Kubernetes</title>
+      <link>/articles/article-2026-05-07-18652/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18652/</guid>
+      <description>🚀 Great news for GitLab users on Kubernetes! Gitaly is now officially available on Kubernetes, simplifying your setup by eliminating the need for a hybrid architecture. 📊 With this release, teams can run Gitaly&amp;rsquo;s memory-intensive operations within Kubernetes, enhancing stability and reducing downtime. 🔧 Gitaly can be deployed via the GitLab Helm chart, making it easier for new users to adopt a fully Kubernetes-native environment. For detailed configuration guidance, check the Gitaly on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Problem solving with PlanetScale Insights</title>
+      <link>/articles/article-2026-05-07-18680/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18680/</guid>
+      <description>🚀 Discover how PlanetScale Insights can enhance your database performance! This tool offers real-time data on query performance, helping you identify issues in your applications. With metrics like p50, p95, and p99, you can pinpoint slow queries that affect user experience. Explore trends and isolate performance problems with ease. Check out the detailed query list for deeper insights! 📊 #DatabasePerformance #PlanetScale #DataInsights #TechTools #SoftwareDevelopment</description>
+    </item>
     <item>
       <title>Data Mesh at Grab Part II: The Foundational Tools behind Certification</title>
       <link>/articles/article-2026-04-30-18556/</link>

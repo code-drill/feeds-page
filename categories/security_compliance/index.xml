@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 16:30:46 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brazilian betting license requirement for App Store availability</title>
+      <link>/articles/article-2026-05-08-18829/</link>
+      <pubDate>Fri, 08 May 2026 16:30:46 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18829/</guid>
+      <description>📢 Important update for developers! Brazil&amp;rsquo;s new fixed-odds betting regulation allows apps with gambling features to be listed on the App Store, provided you have a valid license from the Secretariat of Prizes and Bets (SPA). If your app includes these features, remember to select &amp;ldquo;Yes&amp;rdquo; in the age rating questionnaire, which will set the rating to A18. You must submit a new app version for license verification—updating App Review Information alone is not sufficient. Make sure to include your&amp;hellip;</description>
+    </item>
     <item>
       <title>Security Update: Multiple vulnerabilities in Next.js and React</title>
       <link>/articles/article-2026-05-08-18684/</link>
@@ -30,11 +37,32 @@
       <description>GitHub addresses security in AI coding with new updates for its MCP servers. As AI models connect to various tools and systems, vulnerabilities like prompt injection attacks and over-permissioned agents pose risks. GitHub is enhancing security checks within the tooling layer to tackle these issues early. The public preview of dependency scanning and general availability of secret scanning aim to protect against exposed secrets and unsafe code in AI coding environments. #GitHub #AICoding&amp;hellip;</description>
     </item>
     <item>
+      <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
+      <link>/articles/article-2026-05-07-18783/</link>
+      <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18783/</guid>
+      <description>🚨 Cloudflare swiftly addressed the &amp;ldquo;Copy Fail&amp;rdquo; Linux vulnerability (CVE-2026-31431) disclosed on April 29, 2026. Our security teams confirmed zero customer impact and no malicious exploitation. We assessed the vulnerability and validated our detection protocols, ensuring our infrastructure remained secure. With a global Linux server setup, we maintain regular updates and testing to protect against such threats. Learn more about our proactive measures! #Cloudflare #Cybersecurity #Linux&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Next.js May 2026 security release</title>
+      <link>/articles/article-2026-05-07-18691/</link>
+      <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18691/</guid>
+      <description>🚨 Next.js has released a security update addressing 13 vulnerabilities, including issues related to denial of service, server-side request forgery, and cross-site scripting. 🔧 Users should upgrade to the latest patched versions of Next.js (15.5.18, 16.2.6) and React (19.0.6, 19.1.7, 19.2.6) immediately. 🛡️ This release is crucial for maintaining application security. For more details, review the advisories and upgrade recommendations. #Nextjs #React #Cybersecurity #SoftwareUpdate #TechNews</description>
+    </item>
+    <item>
       <title>Confidential virtual machine storage attack scenarios</title>
       <link>/articles/article-2026-05-07-18599/</link>
       <pubDate>Thu, 07 May 2026 07:01:51 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18599/</guid>
       <description>Confidential Virtual Machines (CVMs) are rapidly gaining popularity, allowing for quick provisioning from major cloud providers. While CVMs enhance data confidentiality at runtime, the protection of data at rest is equally crucial. This article discusses potential attack scenarios where an attacker with read/write access to CVM storage could compromise data confidentiality and integrity. Traditional Linux encryption tools like dm-crypt/LUKS may need reevaluation in light of these threats. Key&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Credential management for AI agents</title>
+      <link>/articles/article-2026-05-07-18729/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18729/</guid>
+      <description>The rise of AI tools is driving an increase in &amp;ldquo;credential sprawl,&amp;rdquo; where credentials are created and managed outside centralized systems. This poses significant security risks as organizations struggle to oversee developer secrets, API keys, and more. AI agents often rely on non-human identities that can be overprivileged and poorly audited, leading to vulnerabilities. Traditional security measures like SSO are falling short, leaving gaps in protection. To combat these challenges, companies&amp;hellip;</description>
     </item>
     <item>
       <title>Whole-of-state cyber defense: How AI-driven security helps US states protect what matters most</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 18:03:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 18:35:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.36: Moving Volume Group Snapshots to GA</title>
+      <link>/articles/article-2026-05-08-18770/</link>
+      <pubDate>Fri, 08 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18770/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The Kubernetes v1.36 release has moved Volume Group Snapshots to General Availability (GA). This feature allows for crash-consistent snapshots of multiple volumes, enhancing data integrity during recovery. Volume Group Snapshots rely on new APIs and are supported only for CSI volume drivers. They enable users to restore workloads efficiently by grouping PersistentVolumeClaims for snapshotting. For more details on using this feature, check out the&amp;hellip;</description>
+    </item>
     <item>
       <title>OpenAI Codex arrives in the browser with new Chrome extension</title>
       <link>/articles/article-2026-05-08-18565/</link>
@@ -30,6 +37,20 @@
       <description>🚀 Exciting developments from Amp! They recently unveiled a rebuilt CLI called Neo, designed for remote control and enhanced workflows. This update reflects a shift towards more autonomous coding agents that operate across various environments. Despite moving beyond traditional terminals, Amp emphasizes the terminal&amp;rsquo;s ongoing importance as a key interaction point for developers. The new architecture allows users to manage CLI sessions remotely, offering live updates and flexible control. #AI&amp;hellip;</description>
     </item>
     <item>
+      <title>MCP Marketplace Brings Real-Time Intelligence to Agentic Applications</title>
+      <link>/articles/article-2026-05-08-18755/</link>
+      <pubDate>Fri, 08 May 2026 15:18:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18755/</guid>
+      <description>Discover how the MCP Marketplace enhances agentic applications with real-time intelligence. Static data limits agents&amp;rsquo; ability to reason and make decisions. The MCP Marketplace connects agents to reliable, external intelligence from partners like You.com and Moody&amp;rsquo;s. Lakebase and Genie streamline workflows, enabling agents to retain context and present decisions in natural language for user approval. #AI #RealTimeIntelligence #AgenticApplications #MCPMarketplace #DataDriven</description>
+    </item>
+    <item>
+      <title>Pushing the Frontier for Data Agents with Genie</title>
+      <link>/articles/article-2026-05-08-18756/</link>
+      <pubDate>Fri, 08 May 2026 14:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18756/</guid>
+      <description>🚀 Introducing Genie, Databricks’ advanced data agent designed to tackle complex enterprise data queries! Genie integrates both structured and unstructured data sources, enhancing its ability to provide accurate insights. The article explores challenges faced by data agents and innovative techniques such as specialized knowledge search and Multi-LLM designs. Recent experiments show a significant boost in accuracy from 32% to over 90%, while also cutting costs and latency. #DataScience #AI&amp;hellip;</description>
+    </item>
+    <item>
       <title>Anthropic recruited SpaceX’s 220,000-GPU Colossus 1 to fix what Claude users kept complaining about</title>
       <link>/articles/article-2026-05-08-18569/</link>
       <pubDate>Fri, 08 May 2026 10:00:00 +0000</pubDate>
@@ -37,11 +58,46 @@
       <description>🚀 Exciting news in the AI space! Anthropic has partnered with SpaceX, gaining access to the impressive 220,000-GPU Colossus 1. This collaboration aims to address user complaints regarding usage limits on their Claude platform. As part of this partnership, Anthropic is increasing capacity for Claude Pro and Max subscribers. Key changes include: 1️⃣ Doubling rate limits for Pro and Max plans. 2️⃣ Removing peak-hour reductions for certain users. 3️⃣ Significant increases in API rates for Claude&amp;hellip;</description>
     </item>
     <item>
+      <title>Supabase Is Now an Official ChatGPT App</title>
+      <link>/articles/article-2026-05-08-18676/</link>
+      <pubDate>Fri, 08 May 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18676/</guid>
+      <description>🚀 Supabase is now an official app within ChatGPT! You can connect your Supabase projects and manage your entire database infrastructure directly through ChatGPT. This integration allows you to execute SQL queries, modify schemas, and deploy edge functions seamlessly. With 29 tools available, you can perform tasks like listing tables, checking security recommendations, and troubleshooting—all without leaving your conversation. #Supabase #ChatGPT #DatabaseManagement #TechNews #Innovation</description>
+    </item>
+    <item>
+      <title>Chat SDK adds Messenger adapter support</title>
+      <link>/articles/article-2026-05-08-18688/</link>
+      <pubDate>Fri, 08 May 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18688/</guid>
+      <description>🚀 Chat SDK has introduced support for Messenger as a chat adapter! This update enables the creation of agents that can handle messages, reactions, multimedia downloads, and postback buttons, while automatically fetching display names from user profiles. For more details, check the Chat SDK documentation and explore supported adapters. A special thanks to @mitkodkn for the community contribution that made this possible! #ChatSDK #MessengerSupport #TechUpdate #CommunityContribution #Innovation</description>
+    </item>
+    <item>
+      <title>Chat SDK adds web adapter support</title>
+      <link>/articles/article-2026-05-08-18689/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18689/</guid>
+      <description>🚀 Exciting news for developers! The new web adapter for Chat SDK allows you to create chat UIs that connect seamlessly. You can now build in-product assistants, support agents, and more for browser-based experiences. Define your bot on the server and use the @ai-sdk/react useChat hook to stream replies live. Check out the documentation to learn about supported adapters and how to create your own! #ChatSDK #WebDevelopment #Chatbots #TechUpdates #DeveloperTools</description>
+    </item>
+    <item>
+      <title>Chat SDK now supports conversation history</title>
+      <link>/articles/article-2026-05-08-18690/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18690/</guid>
+      <description>Chat SDK has introduced support for cross-platform conversation history! 📱💻 With new transcripts and identity options, users can maintain their message history across different platforms. The bot.transcripts feature offers four main methods: - &lt;strong&gt;append&lt;/strong&gt;: Save inbound messages or bot replies - &lt;strong&gt;list&lt;/strong&gt;: Retrieve entries with filters - &lt;strong&gt;count&lt;/strong&gt;: Get total stored entries - &lt;strong&gt;delete&lt;/strong&gt;: Remove all entries for a user Check out the Chat SDK documentation to learn more or explore the templates!&amp;hellip;</description>
+    </item>
+    <item>
       <title>AMD DGF: An Open Geometry Compression Standard</title>
       <link>/articles/article-2026-05-07-18608/</link>
       <pubDate>Thu, 07 May 2026 20:51:00 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18608/</guid>
       <description>🚀 AMD has partnered with Samsung to introduce the Dense Geometry Format (DGF), a new open standard for geometry compression. This innovation aims to enhance ray-traced real-time 3D applications by reducing memory usage and latency. 🔍 The updated AMD DGF SDK now includes DGF SuperCompression technology, making geometry even smaller and easier to render on non-DGF devices. 📅 Since its introduction in July 2024, AMD has released an open-source toolchain and a provisional Vulkan extension to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA</title>
+      <link>/articles/article-2026-05-07-18771/</link>
+      <pubDate>Thu, 07 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18771/</guid>
+      <description>🚀 The Kubernetes v1.36 release enhances Dynamic Resource Allocation (DRA), introducing new features and improvements for managing hardware accelerators and resources. Key updates include: - &lt;strong&gt;Prioritized List&lt;/strong&gt;: Define fallback preferences for device requests, improving scheduling flexibility. - &lt;strong&gt;Extended Resource Support&lt;/strong&gt;: Bridges traditional systems while transitioning to DRA. - &lt;strong&gt;Partitionable Devices&lt;/strong&gt;: Share hardware accelerators efficiently across Pods. For more insights on DRA and&amp;hellip;</description>
     </item>
     <item>
       <title>Temporal reveals a serverless option for its Durable Execution platform</title>
@@ -56,6 +112,13 @@
       <pubDate>Thu, 07 May 2026 17:13:46 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18572/</guid>
       <description>🚀 OpenAI has launched three new speech models: 1️⃣ &lt;strong&gt;GPT-Realtime-2&lt;/strong&gt;: This model features “GPT-5-class reasoning” and improves performance by 11%, extending the context window to 128,000 tokens for better complex interactions. 2️⃣ &lt;strong&gt;GPT-Realtime-Translate&lt;/strong&gt;: A dedicated model for live translations, supporting over 70 input languages and translating into 13 output languages. 3️⃣ &lt;strong&gt;GPT-Realtime-Whisper&lt;/strong&gt;: The latest streaming transcription model, enhancing speech-to-text capabilities&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>LDAP secrets management now available in IBM Vault Enterprise 2.0</title>
+      <link>/articles/article-2026-05-07-18763/</link>
+      <pubDate>Thu, 07 May 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18763/</guid>
+      <description>🔑 IBM Vault Enterprise 2.0 introduces enhanced LDAP secrets management, addressing the challenges of static role lifecycle management. The new architecture allows for centralized rotation, self-managed flows, and automated credential updates. This shift helps reduce security risks and operational friction in enterprises. Key features include customizable scheduling, intelligent retries, and pause/resume controls, ensuring better management of LDAP accounts. Learn how to migrate existing roles&amp;hellip;</description>
     </item>
     <item>
       <title>I tested the new OpenAI Codex features on a real Python codebase, and it’s the strongest Claude Code rival yet</title>
@@ -86,6 +149,13 @@
       <description>🚀 Yugabyte has launched Meko, an open source data infrastructure aimed at addressing a critical issue in multi-agent AI systems—state management. 🧠 Research indicates that 37% of failures in these systems stem from inconsistent data states rather than reasoning errors. This highlights the importance of a reliable memory layer beneath the AI models. 🔧 Karthik Ranganathan, co-founder of Yugabyte, emphasizes that as AI systems grow, managing data complexity becomes increasingly challenging,&amp;hellip;</description>
     </item>
     <item>
+      <title>Vercel Flags now supports JSON values</title>
+      <link>/articles/article-2026-05-07-18692/</link>
+      <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18692/</guid>
+      <description>🚀 Exciting news for developers! Vercel Flags now supports JSON values, enhancing the previous options of boolean, string, and number values. This update simplifies feature management by allowing multiple related flags to be combined into one. For instance, you can now define a single model flag for A/B testing, instead of managing several separate flags. This makes it easier to route traffic, conduct tests, and switch models quickly when needed. Learn more about this feature and how it can&amp;hellip;</description>
+    </item>
+    <item>
       <title>Introducing virtualization platform autopilot</title>
       <link>/articles/article-2026-05-07-18600/</link>
       <pubDate>Thu, 07 May 2026 03:01:15 +0000</pubDate>
@@ -100,11 +170,39 @@
       <description>🚀 Exciting news! Google&amp;rsquo;s Gemini 3.1 Flash-Lite model is now available via Netlify&amp;rsquo;s AI Gateway with no configuration needed. Users can implement the Google GenAI SDK directly in Netlify Functions without the hassle of managing API keys or authentication. This model supports all Function types and provides automatic access to caching, rate limiting, and authentication features. Learn more in the AI Gateway documentation! 📚✨ #GoogleGenAI #Netlify #AIGateway #TechNews #AIModel</description>
     </item>
     <item>
+      <title>Introducing Ola: An Agent-Native Communication Channel and Oversight Platform from Twilio Forward</title>
+      <link>/articles/article-2026-05-07-18800/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18800/</guid>
+      <description>🚀 Introducing Ola, a new communication channel from Twilio Forward designed for seamless interaction with AI agents. This platform allows users to assign tasks, manage permissions, approve actions, and verify past activities efficiently. Stay connected and in control with Ola! #Twilio #AI #Communication #TechNews #Innovation</description>
+    </item>
+    <item>
+      <title>Introducing the Twilio MCP Server and Skills: Give Your Coding Agents Native Access to 1,800&#43; Twilio APIs</title>
+      <link>/articles/article-2026-05-07-18803/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18803/</guid>
+      <description>🚀 Twilio has launched the MCP Server and Skills, empowering AI agents with direct access to over 1,800 Twilio APIs. This innovation allows developers to enhance their coding efficiency by providing expert guidance without leaving their Integrated Development Environment (IDE). Discover how this tool can streamline your coding process! #Twilio #APIs #Coding #TechInnovation #AI</description>
+    </item>
+    <item>
       <title>Limit credential exposure with fine-grained personal access tokens</title>
       <link>/articles/article-2026-05-07-18653/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18653/</guid>
       <description>🚀 GitLab is introducing fine-grained personal access tokens (PATs) in beta, enhancing security by limiting token permissions. These tokens can be scoped to specific tasks, reducing risk if they are exposed. You can define their reach and permissions, ensuring a token is only as powerful as needed. 🔍 The updated tokens table allows for easier auditing of permissions. It&amp;rsquo;s advised to avoid using fine-grained PATs in production until they are fully available. Learn how to create and manage these&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New MSP capabilities for simpler client onboarding and stronger control</title>
+      <link>/articles/article-2026-05-07-18730/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18730/</guid>
+      <description>🚀 Exciting updates from 1Password! The new features in the Enterprise Password Manager – MSP Edition aim to streamline client onboarding and enhance control for Managed Service Providers (MSPs). Key improvements include: - &lt;strong&gt;Policy Templates&lt;/strong&gt; for consistent security settings across clients. - &lt;strong&gt;Seat Limits&lt;/strong&gt; to manage user access and prevent unexpected costs. - &lt;strong&gt;Granular Vault Permissions&lt;/strong&gt; to ensure secure access for technicians based on roles. These tools help MSPs reduce manual work and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Twilio Brings Customer Engagement Workflows into Claude by Anthropic</title>
+      <link>/articles/article-2026-05-07-18801/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18801/</guid>
+      <description>🚀 Exciting news from Twilio! Twilio has launched a Connector and Claude Code plugin that allows teams to manage customer communications seamlessly. Users can now design workflows for voice, messaging, and email directly within Claude.ai, Claude Cowork, and Claude Code. This integration enhances collaboration and streamlines customer engagement processes. #Twilio #ClaudeAI #CustomerEngagement #TechNews #Innovation</description>
     </item>
     <item>
       <title>Agents can now create Cloudflare accounts, buy domains, and deploy</title>

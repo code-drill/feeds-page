@@ -6,14 +6,49 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 17:13:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 18:09:28 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support&#34;</title>
+      <link>/articles/article-2026-05-09-18723/</link>
+      <pubDate>Sat, 09 May 2026 18:09:28 +0000</pubDate>
+      <guid>/articles/article-2026-05-09-18723/</guid>
+      <description>Introducing OncoAgent, a new dual-tier multi-agent framework designed for privacy-preserving oncology clinical decision support. This innovative system aims to enhance decision-making in cancer care while safeguarding patient information. The framework integrates advanced technologies like LangGraph and QLoRA, promoting efficient data handling. Learn more about how OncoAgent is paving the way for secure clinical AI in oncology! 🌟💻🩺 #OncoAgent #Oncology #ClinicalAI #HealthTech #PrivacyPreserving</description>
+    </item>
+    <item>
+      <title>How Superhuman and Databricks built a 200K QPS inference platform together</title>
+      <link>/articles/article-2026-05-08-18752/</link>
+      <pubDate>Fri, 08 May 2026 21:10:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18752/</guid>
+      <description>Superhuman and Databricks have successfully migrated their spelling and grammar correction workloads to the Databricks Model Serving Platform. This collaboration has resulted in impressive metrics, achieving over 200,000 queries per second (QPS) and a 60% increase in throughput, all while maintaining sub-second P99 latency. Learn more about this innovative partnership and its impact on real-time inference. 🚀📈 #DataScience #TechInnovation #RealTimeAnalytics #Collaboration #MachineLearning</description>
+    </item>
+    <item>
+      <title>Using MemAlign to Improve Evaluation of Traditional Machine Learning in Genie Code</title>
+      <link>/articles/article-2026-05-08-18753/</link>
+      <pubDate>Fri, 08 May 2026 21:10:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18753/</guid>
+      <description>Genie Code, Databricks&amp;rsquo; new AI tool, creates full ML notebooks from natural language prompts. To assess the quality of these notebooks, nine LLM judges were developed. However, human evaluations showed significant disagreement between the LLM judges and human experts on various aspects, such as model training and data imputation. This highlights the need for improved evaluation methods in machine learning. 📊🤖 #MachineLearning #AI #DataScience #GenieCode #Databricks</description>
+    </item>
+    <item>
+      <title>Enhancing Ad Relevance: Integrating Real-Time Context into Sequential Recommender Models</title>
+      <link>/articles/article-2026-05-08-18824/</link>
+      <pubDate>Fri, 08 May 2026 19:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18824/</guid>
+      <description>Enhancing ad relevance is key for effective advertising. A recent article discusses the integration of real-time context into sequential recommender models. The new Contextual Sequential Two Tower Model combines historical user data with current browsing context, improving ad recommendations on platforms like Related Pins. This method has significantly boosted candidate relevance and user engagement. 📈🛍️ Key results show a 3x to 10x increase in Recall@K and a measurable lift in Return on Ad&amp;hellip;</description>
+    </item>
     <item>
       <title>Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding</title>
       <link>/articles/article-2026-05-08-18610/</link>
       <pubDate>Fri, 08 May 2026 17:13:33 +0000</pubDate>
       <guid>/articles/article-2026-05-08-18610/</guid>
       <description>🚀 Exciting advancements in AI! A recent study explores enhancing Bash command generation in small language models using grammar-constrained decoding. This method aims to improve reliability for executing tasks in agentic systems. The research found that by applying this technique, the average success rate of command generation increased significantly, from 62.5% to 75.2%. This development could broaden the deployment of small models in various environments, addressing the challenges of syntax&amp;hellip;</description>
+    </item>
+    <item>
+      <title>EMO: Pretraining mixture of experts for emergent modularity</title>
+      <link>/articles/article-2026-05-08-18724/</link>
+      <pubDate>Fri, 08 May 2026 16:03:50 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18724/</guid>
+      <description>Introducing EMO, a new mixture-of-experts (MoE) model that enables modular structure to emerge directly from data. With EMO, you can utilize just 12.5% of its experts for specific tasks while maintaining near full-model performance. It also serves as a robust general-purpose model when all experts are engaged. Explore more: 🧠 Models: [link] 📄 Tech report: [link] 💻 Code: [link] 📊 Visualization: [link] #AI #MachineLearning #Modularity #Innovation #TechNews</description>
     </item>
     <item>
       <title>Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo</title>
@@ -23,11 +58,39 @@
       <description>📢 Exploring structured interactions in AI, the article discusses the importance of agentic exchanges in NVIDIA Dynamo. It highlights how assistant turns intertwine reasoning with tool calls, ensuring a seamless user experience. Key improvements were made in parser and API coverage to enhance streaming behavior and performance. The focus remains on correctness and user experience as agentic harnesses evolve rapidly. #AI #NVIDIA #Dynamo #AgenticExchange #TechInnovation</description>
     </item>
     <item>
+      <title>Scaling ArchUnit with Nebula ArchRules</title>
+      <link>/articles/article-2026-05-08-18836/</link>
+      <pubDate>Fri, 08 May 2026 15:55:59 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18836/</guid>
+      <description>Netflix&amp;rsquo;s JVM Ecosystem team is enhancing Java library management with &lt;strong&gt;Nebula ArchRules&lt;/strong&gt;. By utilizing ArchUnit, they can enforce architectural rules across thousands of Java repositories, addressing technical debt effectively. Key features include: - Cross-language support using bytecode analysis. - Custom rule creation with a user-friendly API. - Sharing rules across multiple repositories. This initiative aims to improve code quality and streamline library lifecycle management. 🔧📦&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI Agents Have Two Souls. You Only Control One.</title>
+      <link>/articles/article-2026-05-08-18742/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-08-18742/</guid>
+      <description>AI agents are becoming increasingly popular, yet definitions vary widely among developers. 🤔 A clearer technical definition describes an AI agent as a software program that uses generative AI models to interpret inputs and make decisions. It includes five core components: a reasoning engine, clear instructions, retrieval of data, action capabilities, and memory. Understanding these components is crucial for addressing security concerns effectively. 🔐 #AIAgents #GenerativeAI #TechSecurity #AI&amp;hellip;</description>
+    </item>
+    <item>
       <title>How Microsoft is governing thousands of Kubernetes clusters without manual intervention</title>
       <link>/articles/article-2026-05-07-18570/</link>
       <pubDate>Thu, 07 May 2026 22:07:21 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18570/</guid>
       <description>Microsoft is tackling the challenges of managing thousands of Kubernetes clusters across diverse environments without manual intervention. 🌐 With the rise of AI and the need for unified management, traditional GitOps methods face limitations at scale. As teams expand from one to hundreds of clusters, the complexities of governance increase significantly. ⚙️ Microsoft Azure Kubernetes Fleet Manager offers a solution, enabling teams to orchestrate updates and define reusable strategies for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
+      <link>/articles/article-2026-05-07-18612/</link>
+      <pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18612/</guid>
+      <description>🚀 The NVIDIA GB200 NVL72 revolutionizes GPU cluster design by extending NVLink coherence across an entire rack. This innovation enables exascale performance but alters existing scheduling assumptions. 🔧 To tackle the challenges of rack-scale locality, the Slurm workload manager has introduced the topology/block plugin. This allows for more precise application-specific NVLink requirements. 📈 The article details how to configure these features to enhance performance and optimize workload&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Informatica Built a Multi-Agent AI System to Reduce Data Workflows from Months to Days</title>
+      <link>/articles/article-2026-05-07-18821/</link>
+      <pubDate>Thu, 07 May 2026 16:40:07 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18821/</guid>
+      <description>🚀 Exciting advancements in data management! In a recent Q&amp;amp;A, Neha Awasthi from Informatica discussed CLAIRE, a multi-agent AI system. This innovative system reduces enterprise data workflows from months to days, achieving a 90% task success rate. CLAIRE integrates multiple functions like discovery, governance, and data quality through a unified interface, making complex tasks easier for users. The system features two interaction models: CLAIRE GPT for general tasks and specialized copilots&amp;hellip;</description>
     </item>
     <item>
       <title>Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus</title>
@@ -42,6 +105,20 @@
       <pubDate>Thu, 07 May 2026 15:00:16 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18592/</guid>
       <description>Cisco and AMD have teamed up to tackle the &amp;ldquo;AI paradox&amp;rdquo; in enterprises by introducing a high-performance AI fabric using Cisco N9000 switches and AMD Pensando Pollara 400 NICs. This solution addresses GPU underutilization by optimizing network performance, ensuring GPUs operate efficiently during AI training and inference tasks. The architecture includes AMD Instinct MI300X GPUs and Cisco&amp;rsquo;s advanced switches for a reliable, scalable solution. Rigorous benchmarking verifies that this setup can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Comparing Different Approaches to Sandboxing</title>
+      <link>/articles/article-2026-05-07-18777/</link>
+      <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18777/</guid>
+      <description>Exploring the future of AI interaction, Satya Nadella highlights that AI agents will soon be our primary interface with technology. To ensure safety, sandboxing is essential. It creates isolated environments for AI, minimizing risks like data loss from malicious actions. Different sandboxing methods, like chroot and systemd-nspawn, provide varying levels of isolation. Systemd-nspawn enhances security by isolating both processes and networks. #AIAgents #Sandboxing #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enhancing Flink deployment with shadow testing</title>
+      <link>/articles/article-2026-05-07-18727/</link>
+      <pubDate>Thu, 07 May 2026 00:23:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-07-18727/</guid>
+      <description>🚀 Grab&amp;rsquo;s data streaming team has introduced Shadow Testing for Apache Flink deployments, enhancing application reliability. This technique allows a new version (Shadow) to run alongside the current version (Main) without disruption. It identifies potential issues by comparing performance, minimizing downtime during updates. Users can opt for Shadow Testing during deployment, ensuring a seamless experience and increased confidence in production changes. #ApacheFlink #ShadowTesting&amp;hellip;</description>
     </item>
     <item>
       <title>Consolidate your GitLab stack with Gitaly on Kubernetes</title>

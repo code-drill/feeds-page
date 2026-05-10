@@ -13,14 +13,14 @@
       <link>/articles/article-2026-05-08-18770/</link>
       <pubDate>Fri, 08 May 2026 18:35:00 +0000</pubDate>
       <guid>/articles/article-2026-05-08-18770/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://kubernetes.io/feed.xml&#34;&gt;Kubernetes Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news for Kubernetes users! The Kubernetes v1.36 release has moved Volume Group Snapshots to General Availability (GA). This feature allows for crash-consistent snapshots of multiple volumes, enhancing data integrity during recovery. Volume Group Snapshots rely on new APIs and are supported only for CSI volume drivers. They enable users to restore workloads efficiently by grouping PersistentVolumeClaims for snapshotting. For more details on using this feature, check out the&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA</title>
       <link>/articles/article-2026-05-07-18771/</link>
       <pubDate>Thu, 07 May 2026 18:35:00 +0000</pubDate>
       <guid>/articles/article-2026-05-07-18771/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://kubernetes.io/feed.xml&#34;&gt;Kubernetes Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 The Kubernetes v1.36 release enhances Dynamic Resource Allocation (DRA), introducing new features and improvements for managing hardware accelerators and resources. Key updates include: - &lt;strong&gt;Prioritized List&lt;/strong&gt;: Define fallback preferences for device requests, improving scheduling flexibility. - &lt;strong&gt;Extended Resource Support&lt;/strong&gt;: Bridges traditional systems while transitioning to DRA. - &lt;strong&gt;Partitionable Devices&lt;/strong&gt;: Share hardware accelerators efficiently across Pods. For more insights on DRA and&amp;hellip;</description>
     </item>
     <item>
       <title>Kubernetes v1.36: Tiered Memory Protection with Memory QoS</title>

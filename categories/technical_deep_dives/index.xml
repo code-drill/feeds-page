@@ -6,14 +6,35 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 18:44:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why your AI agent doesn’t actually remember anything</title>
+      <link>/articles/article-2026-05-11-18853/</link>
+      <pubDate>Mon, 11 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-11-18853/</guid>
+      <description>📊 AI agents often seem like they remember past interactions, but that’s not the case. A recent article discusses an example where a support agent failed to recall previous conversations, starting from scratch each time a user returned. This highlights a gap in agent memory capabilities. 🤖 True memory in AI involves five key elements: persistence, selection, compression, decay, and contamination prevention. Understanding these distinctions can help improve AI agent performance. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Compile-Time Map and Compile-Time Mutable Variable with C&#43;&#43;26 Reflection</title>
+      <link>/articles/article-2026-05-11-18861/</link>
+      <pubDate>Mon, 11 May 2026 13:55:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-11-18861/</guid>
+      <description>🚀 Exciting developments in C++26! A new method for creating compile-time key-value maps has been introduced, along with a concept called compile-time mutable variables. These tools aim to enhance stateful metaprogramming. Understanding reflection is crucial, as highlighted in the article. The compile-time ticket counter example illustrates how to manage unique identifiers during compilation using new functions like substitute and define_aggregate. For more details, check out the reference&amp;hellip;</description>
+    </item>
     <item>
       <title>MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X</title>
       <link>/articles/article-2026-05-10-18844/</link>
       <pubDate>Sun, 10 May 2026 18:44:11 +0000</pubDate>
       <guid>/articles/article-2026-05-10-18844/</guid>
       <description>🌟 Introducing MachinaCheck, a new multi-agent CNC manufacturability system developed on the AMD MI300X! This innovative solution aims to address challenges faced by small CNC machine shops. It was created during the AMD Developer Hackathon held in May 2026. Stay tuned for more updates on how this technology can enhance manufacturing processes! 🛠️ #CNC #Manufacturing #Innovation #AMD #TechNews</description>
+    </item>
+    <item>
+      <title>How Superset built the IDE for AI agents on Vercel</title>
+      <link>/articles/article-2026-05-10-18858/</link>
+      <pubDate>Sun, 10 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-10-18858/</guid>
+      <description>🚀 Superset is revolutionizing AI development by allowing developers to run multiple coding agents in parallel. With an average of 1,000-1,400 deployments weekly and 600 preview deployments daily, it addresses the limitations of traditional IDEs. Built on Vercel, Superset provides isolated environments for each agent, ensuring efficiency and speed without delays. The team, composed of former CTOs, has crafted a product that scales seamlessly with user demands. #AI #Development #Superset&amp;hellip;</description>
     </item>
     <item>
       <title>Why Prometheus couldn’t see Cilium metrics at 2 a.m.</title>

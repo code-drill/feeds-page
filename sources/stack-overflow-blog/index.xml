@@ -6,8 +6,22 @@
     <description>Recent content in Stack-Overflow-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 14:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 16:25:54 +0000</lastBuildDate>
     <atom:link href="/sources/stack-overflow-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When the Sensor Starts Thinking: SnortML, Agentic AI, and the Evolving Architecture of Intrusion Detection</title>
+      <link>/articles/article-2026-05-11-18867/</link>
+      <pubDate>Mon, 11 May 2026 16:25:54 +0000</pubDate>
+      <guid>/articles/article-2026-05-11-18867/</guid>
+      <description>🔍 The article discusses the evolution of intrusion detection systems (IDS) with the introduction of SnortML and agentic AI. Traditionally, IDS relied on signature-based detection, identifying known attack patterns. However, this method has limitations, especially with novel exploits that may not trigger existing rules. Cisco Talos has introduced SnortML, a machine learning engine that operates within Snort 3. This enables faster detection by analyzing data locally, improving response times to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OAuth 2.0 – Device flow explained for Engineers, especially for Backend Engineers</title>
+      <link>/articles/article-2026-05-11-18868/</link>
+      <pubDate>Mon, 11 May 2026 16:11:05 +0000</pubDate>
+      <guid>/articles/article-2026-05-11-18868/</guid>
+      <description>Understanding OAuth 2.0&amp;rsquo;s device flow is crucial for engineers, especially backend developers. 🔑 The device flow simplifies logins on devices with limited input options, like smart TVs. Instead of typing long passwords, users receive a short code and URL to complete authentication via their phone. For implementation, the process involves sending a request to the authorization server and handling essential fields like device_code and user_code. This method enhances security and user experience&amp;hellip;</description>
+    </item>
     <item>
       <title>Introducing the Heap, the software engineering blog for everyone</title>
       <link>/articles/article-2026-05-11-18860/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 23:18:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When &#34;idle&#34; isn&#39;t idle: how a Linux kernel optimization became a QUIC bug</title>
+      <link>/articles/article-2026-05-12-18902/</link>
+      <pubDate>Tue, 12 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18902/</guid>
+      <description>A recent investigation revealed a bug in CUBIC, the default congestion controller in Linux, affecting QUIC performance at Cloudflare. The issue involved the congestion window becoming stuck at its minimum, leading to significant performance loss. The bug arose from a Linux kernel change intended to improve CUBIC&amp;rsquo;s behavior. This change inadvertently caused unexpected issues in Cloudflare&amp;rsquo;s open-source QUIC implementation, quiche. The resolution involved accurately assessing idle periods to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How EvalHub manages two-layer Kubernetes control planes</title>
+      <link>/articles/article-2026-05-12-18897/</link>
+      <pubDate>Tue, 12 May 2026 12:01:22 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18897/</guid>
+      <description>🔍 Discover how EvalHub efficiently manages AI evaluations with a two-layer Kubernetes control plane. Red Hat AI 3.4 features a unified orchestration layer that supports various evaluation frameworks, allowing for seamless onboarding and consistent scaling. The architecture includes the TrustyAI Service Operator for lifecycle management and the EvalHub Server for orchestration, facilitating robust experiment tracking and resource management. Learn more about integrating EvalHub into your&amp;hellip;</description>
+    </item>
     <item>
       <title>Building Blocks for Foundation Model Training and Inference on AWS</title>
       <link>/articles/article-2026-05-11-18879/</link>

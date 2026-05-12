@@ -449,6 +449,55 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://planetscale.com/blog/high-memory-usage-in-postgres-is-good-actually" target="_blank">High memory usage in Postgres is good, actually</a></h2>
+            <div class="publication-date">2026-03-30 00:00</div>
+            <div class="summary">High memory usage in PlanetScale Postgres can actually indicate a healthy system. 📊 While a dashboard may show 80% memory usage, this doesn&#39;t mean there’s a problem. Unlike CPU, high memory usage helps keep data close to the CPU for faster access. 🖥️ Postgres uses two caching layers: its own shared_buffers and the OS page cache, both designed to minimize disk reads. Effective caching leads to better performance. For further insights, check out the documentation on normal operating ranges for...</div>
+            <div class="source">Source: <a href="/sources/planetscale-blog">PlanetScale Blog</a></div>
+            
+            <div class="author">Simeon Griggs</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://thenewstack.io/why-pgvector-benchmarks-lie/" target="_blank">The reason your pgvector benchmark is lying to you</a></h2>
+            <div class="publication-date">2026-03-27 12:00</div>
+            <div class="summary">Understanding pgvector benchmarks is crucial for successful implementation. 🛠️ While pgvector allows for storing vector embeddings in Postgres, challenges arise when scaling beyond demo scenarios. A recent article highlights the importance of realistic benchmarking, especially when moving from 10,000 vectors to millions. Operational issues can surface at scale, impacting performance. Planning and understanding these factors can lead to better outcomes. 📈 #pgvector #Postgres #DataEngineering...</div>
+            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
+            
+            <div class="author">Naina Ananthaswamy</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/zero-downtime-patching-lakebase-part-1-prewarming" target="_blank">Zero-Downtime Patching in Lakebase Part 1: Prewarming</a></h2>
+            <div class="publication-date">2026-03-27 10:27</div>
+            <div class="summary">Introducing Zero-Downtime Patching in Lakebase! 🚀 This article discusses the importance of keeping customer databases available. It highlights the new prewarming feature that ensures compute restarts are seamless and unnoticeable to users. Stay tuned for more updates on enhancing database reliability! 🔧💡 #DatabaseManagement #ZeroDowntime #Lakebase #TechUpdate #Innovation</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://huggingface.co/blog/liberate-your-openclaw" target="_blank">Liberate your OpenClaw</a></h2>
             <div class="publication-date">2026-03-27 00:00</div>
             <div class="summary">🚀 **Liberate your OpenClaw!** 🦀 Anthropic is now limiting access to Claude models for Pro/Max subscribers. However, you can keep your agents functional using open models available on Hugging Face. You have two options: 1️⃣ Use an open model via Hugging Face Inference Providers for quick access. 2️⃣ Run a local model on your hardware for enhanced privacy and control. For assistance, just direct your code to help move your agents to Hugging Face models. #OpenClaw #HuggingFace #AI...</div>
@@ -1049,55 +1098,6 @@
             <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
             
             <div class="author">Sachi Desai</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2026/03/19/automate-test-and-failure-analysis-streams-apache-kafka" target="_blank">Automate test and failure analysis via streams for Apache Kafka</a></h2>
-            <div class="publication-date">2026-03-19 07:01</div>
-            <div class="summary">In enterprise software testing, syncing failure analysis between ReportPortal and Polarion is crucial. This article outlines an event-driven solution using Apache Kafka, Debezium CDC, and Quarkus to automate this sync. The approach ensures real-time updates with minimal lag, eliminating manual data entry. Key challenges included handling divergent timelines and ensuring consistent data flow across platforms. The CDC method captures updates at the database level, allowing for seamless...</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">Guannan Sun</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://engineering.grab.com/from-firefighting-to-building" target="_blank">From firefighting to building: How AI agents restored our team’s core productivity</a></h2>
-            <div class="publication-date">2026-03-19 00:23</div>
-            <div class="summary">🚀 Grab&#39;s Analytics Data Warehouse (ADW) team has successfully implemented a multi-agent AI system to enhance productivity. This system autonomously handles simple inquiries and collaborates on complex tasks, reclaiming significant engineering time. Key benefits include reduced response times and improved operational efficiency, allowing the team to focus on high-value projects. Learn more about our innovative approach! 📊🤖 #AI #Productivity #DataEngineering #Innovation #Automation</div>
-            <div class="source">Source: <a href="/sources/grab-tech">Grab Tech</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://engineering.salesforce.com/how-agentforce-converts-llm-responses-into-structured-ui-for-ai-agents-across-4m-sessions/" target="_blank">How Agentforce Converts LLM Responses into Structured UI for AI Agents Across 4M Sessions</a></h2>
-            <div class="publication-date">2026-03-19 00:20</div>
-            <div class="summary">🚀 Discover how Salesforce is enhancing AI interactions! In a recent Engineering Energizers Q&amp;A, Utkarsh Jain shares insights on developing the Connections capability within Agentforce. This feature transforms AI responses into structured UI components, improving user experience across over 4 million sessions. The team faced challenges in deciding when to convert text to interactive elements, ensuring usability without overwhelming users. Their approach focuses on delivering effective and...</div>
-            <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
-            
-            <div class="author">Scott Nyberg</div>
             
             
             <div class="categories">

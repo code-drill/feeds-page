@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 16:20:21 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Google Drive Sync Engine that Survives MV3 Service Workers</title>
+      <link>/articles/article-2026-05-12-18922/</link>
+      <pubDate>Tue, 12 May 2026 16:20:21 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18922/</guid>
+      <description>🚀 The transition to Chrome&amp;rsquo;s Manifest V3 (MV3) significantly changes how browser extensions are built, especially for offline-first apps like Google Drive sync engines. Key challenges include managing state and data loss due to Service Worker limitations. Moving from a background script to a disk-first model using &lt;code&gt;chrome.storage.local&lt;/code&gt; ensures data integrity during sync processes. Developers must now handle network interruptions carefully to avoid overwriting user changes. This involves&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Migrating Data Ingestion Systems at Meta Scale</title>
+      <link>/articles/article-2026-05-12-18930/</link>
+      <pubDate>Tue, 12 May 2026 16:00:57 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18930/</guid>
+      <description>🚀 Meta has revamped its data ingestion system to improve reliability at scale. The transition from a legacy system to a new architecture involved a comprehensive migration of all data ingestion processes. Key strategies included establishing a clear migration lifecycle and robust controls for a smooth transition. This upgrade enhances efficiency for analytics and product development across the company. #DataIngestion #MetaEngineering #TechInnovation #DataMigration #BigData</description>
+    </item>
     <item>
       <title>When &#34;idle&#34; isn&#39;t idle: how a Linux kernel optimization became a QUIC bug</title>
       <link>/articles/article-2026-05-12-18902/</link>
@@ -21,6 +35,13 @@
       <pubDate>Tue, 12 May 2026 12:01:22 +0000</pubDate>
       <guid>/articles/article-2026-05-12-18897/</guid>
       <description>🔍 Discover how EvalHub efficiently manages AI evaluations with a two-layer Kubernetes control plane. Red Hat AI 3.4 features a unified orchestration layer that supports various evaluation frameworks, allowing for seamless onboarding and consistent scaling. The architecture includes the TrustyAI Service Operator for lifecycle management and the EvalHub Server for orchestration, facilitating robust experiment tracking and resource management. Learn more about integrating EvalHub into your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Architecting Albion Online: How Sandbox Interactive built a PvP MMO to scale across platforms</title>
+      <link>/articles/article-2026-05-12-18909/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18909/</guid>
+      <description>🚀 Officially launched in 2017, Albion Online is a leading PvP MMO developed by Sandbox Interactive. Built on Unity, the game offers seamless cross-play across PC, Mac, Linux, iOS, Android, and Xbox Series X|S. 🔄 One key feature is its unified gameplay experience, allowing players to engage on any device with a single login. The technical foundation includes a unique Model-View-Controller architecture for smooth performance. 🤝 Community involvement plays a crucial role in development. Sandbox&amp;hellip;</description>
     </item>
     <item>
       <title>Building Blocks for Foundation Model Training and Inference on AWS</title>

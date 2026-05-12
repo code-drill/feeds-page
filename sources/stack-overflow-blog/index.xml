@@ -6,8 +6,15 @@
     <description>Recent content in Stack-Overflow-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 07:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 16:20:21 +0000</lastBuildDate>
     <atom:link href="/sources/stack-overflow-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Google Drive Sync Engine that Survives MV3 Service Workers</title>
+      <link>/articles/article-2026-05-12-18922/</link>
+      <pubDate>Tue, 12 May 2026 16:20:21 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18922/</guid>
+      <description>🚀 The transition to Chrome&amp;rsquo;s Manifest V3 (MV3) significantly changes how browser extensions are built, especially for offline-first apps like Google Drive sync engines. Key challenges include managing state and data loss due to Service Worker limitations. Moving from a background script to a disk-first model using &lt;code&gt;chrome.storage.local&lt;/code&gt; ensures data integrity during sync processes. Developers must now handle network interruptions carefully to avoid overwriting user changes. This involves&amp;hellip;</description>
+    </item>
     <item>
       <title>Connecting the dots for accurate AI</title>
       <link>/articles/article-2026-05-12-18884/</link>

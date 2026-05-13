@@ -6,8 +6,29 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 17:01:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 20:27:46 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MinIO’s MemKV promises 95% better GPU utilization by ending AI recompute tax</title>
+      <link>/articles/article-2026-05-13-18983/</link>
+      <pubDate>Wed, 13 May 2026 20:27:46 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18983/</guid>
+      <description>MinIO has introduced MemKV, a new context memory store designed to enhance GPU utilization by over 95%. This innovation addresses the &amp;ldquo;recompute tax&amp;rdquo; problem, where lost context leads to repeated computations, wasting resources. MemKV improves Time to First Token (TTFT) and Time Per Output Token (TPOT) for AI workloads by utilizing petabyte-scale, flash-based memory. It aims to provide persistent context across GPU clusters, reducing inefficiencies in AI processes. With these advancements,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>3 ways AI alert grouping is transforming on-call engineering at Atlassian</title>
+      <link>/articles/article-2026-05-13-18991/</link>
+      <pubDate>Wed, 13 May 2026 19:27:02 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18991/</guid>
+      <description>At Atlassian, AI Alert Grouping is enhancing on-call engineering by reducing alert overload. 📉 This feature in Jira Service Management clusters similar alerts into a single group, allowing engineers to triage more efficiently. Instead of wading through multiple alerts, they can focus on the underlying issue quickly. The transformation has saved over 839 hours in just 28 days, streamlining incident response and reducing cognitive load. ⚙️💡 #AI #Jira #IncidentManagement #Atlassian #Engineering</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: Advancing Workload-Aware Scheduling</title>
+      <link>/articles/article-2026-05-13-18990/</link>
+      <pubDate>Wed, 13 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18990/</guid>
+      <description>🚀 Kubernetes v1.36 introduces major advancements in workload-aware scheduling, addressing unique challenges posed by AI/ML and batch workloads. Key updates include the new Workload API as a static template and the PodGroup API for runtime management. This architecture improves scheduling efficiency and scalability. Additionally, features like topology-aware scheduling and workload-aware preemption enhance overall capabilities, making scheduling more efficient for complex workloads. 🔗 Learn&amp;hellip;</description>
+    </item>
     <item>
       <title>Viaduct 1.0 and the future of Airbnb’s data mesh</title>
       <link>/articles/article-2026-05-13-18982/</link>

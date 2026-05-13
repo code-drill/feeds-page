@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 17:01:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 20:27:46 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MinIO’s MemKV promises 95% better GPU utilization by ending AI recompute tax</title>
+      <link>/articles/article-2026-05-13-18983/</link>
+      <pubDate>Wed, 13 May 2026 20:27:46 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18983/</guid>
+      <description>MinIO has introduced MemKV, a new context memory store designed to enhance GPU utilization by over 95%. This innovation addresses the &amp;ldquo;recompute tax&amp;rdquo; problem, where lost context leads to repeated computations, wasting resources. MemKV improves Time to First Token (TTFT) and Time Per Output Token (TPOT) for AI workloads by utilizing petabyte-scale, flash-based memory. It aims to provide persistent context across GPU clusters, reducing inefficiencies in AI processes. With these advancements,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Our Path Forward</title>
+      <link>/articles/article-2026-05-13-18984/</link>
+      <pubDate>Wed, 13 May 2026 20:11:13 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18984/</guid>
+      <description>Cisco has announced a workforce reduction of fewer than 4,000 jobs, representing less than 5% of its total employee base. This decision comes as part of a strategic realignment to focus on key investment areas amid a challenging market. 📉 The company reported record Q3 FY26 earnings of $15.8 billion, reflecting 12% year-over-year growth despite competition and component shortages. Cisco emphasizes the importance of adapting to the evolving AI landscape. 🤖 Affected employees will receive&amp;hellip;</description>
+    </item>
+    <item>
+      <title>3 ways AI alert grouping is transforming on-call engineering at Atlassian</title>
+      <link>/articles/article-2026-05-13-18991/</link>
+      <pubDate>Wed, 13 May 2026 19:27:02 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18991/</guid>
+      <description>At Atlassian, AI Alert Grouping is enhancing on-call engineering by reducing alert overload. 📉 This feature in Jira Service Management clusters similar alerts into a single group, allowing engineers to triage more efficiently. Instead of wading through multiple alerts, they can focus on the underlying issue quickly. The transformation has saved over 839 hours in just 28 days, streamlining incident response and reducing cognitive load. ⚙️💡 #AI #Jira #IncidentManagement #Atlassian #Engineering</description>
+    </item>
+    <item>
+      <title>Data quality is the AI strategy</title>
+      <link>/articles/article-2026-05-13-18987/</link>
+      <pubDate>Wed, 13 May 2026 19:10:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18987/</guid>
+      <description>Data quality is crucial for effective AI in healthcare. 🏥 An academic health system has prioritized fixing its data sources to enhance AI outcomes. Real-time clinical decision support is already improving diagnosis accuracy in emergency rooms. Organizations focusing on unified data will likely see the most benefits as AI tools evolve. 📊💡 #HealthcareAI #DataQuality #AIstrategy #ClinicalSupport #DigitalHealth</description>
+    </item>
+    <item>
+      <title>The Rosetta stone of CPS: Claroty’s AI-powered library</title>
+      <link>/articles/article-2026-05-13-18988/</link>
+      <pubDate>Wed, 13 May 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18988/</guid>
+      <description>Discover how Claroty&amp;rsquo;s innovative AI-powered library addresses the identity crisis in Cyber-Physical Systems (CPS). This multi-agent AI system utilizes Databricks to enhance security and streamline operations, showcasing significant advancements in the field. Learn more about this transformative approach to CPS! 🛠️🔍 #CyberSecurity #AI #CPS #Innovation #TechTrends</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: Advancing Workload-Aware Scheduling</title>
+      <link>/articles/article-2026-05-13-18990/</link>
+      <pubDate>Wed, 13 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18990/</guid>
+      <description>🚀 Kubernetes v1.36 introduces major advancements in workload-aware scheduling, addressing unique challenges posed by AI/ML and batch workloads. Key updates include the new Workload API as a static template and the PodGroup API for runtime management. This architecture improves scheduling efficiency and scalability. Additionally, features like topology-aware scheduling and workload-aware preemption enhance overall capabilities, making scheduling more efficient for complex workloads. 🔗 Learn&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Securing the Federal Digital Experience with Cisco ThousandEyes for Government</title>
+      <link>/articles/article-2026-05-13-18985/</link>
+      <pubDate>Wed, 13 May 2026 18:33:50 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18985/</guid>
+      <description>🚀 Federal agencies are prioritizing digital resilience as a key factor in mission execution. With the new FedRAMP® Moderate authorization, Cisco ThousandEyes for Government offers essential visibility to maintain secure digital services. This platform is designed to enhance service reliability across complex IT environments. The focus is on operationalizing resilience to ensure that critical services remain dependable. #Cisco #ThousandEyes #DigitalResilience #FedRAMP #GovernmentTech</description>
+    </item>
+    <item>
+      <title>Clinical operations intelligence belongs on the Lakehouse</title>
+      <link>/articles/article-2026-05-13-18989/</link>
+      <pubDate>Wed, 13 May 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18989/</guid>
+      <description>🚀 Clinical operations intelligence is evolving with the introduction of the Site Feasibility Workbench, an open-source Databricks App. This tool enhances clinical trial site selection by utilizing machine learning for site scoring and integrates seamlessly within the Databricks workspace, eliminating the need for external APIs. It addresses the critical issue of 37% of investigator sites missing enrollment targets due to architectural challenges in clinical data management. #ClinicalTrials&amp;hellip;</description>
+    </item>
     <item>
       <title>Viaduct 1.0 and the future of Airbnb’s data mesh</title>
       <link>/articles/article-2026-05-13-18982/</link>
@@ -196,6 +252,13 @@
       <pubDate>Wed, 13 May 2026 07:40:00 +0000</pubDate>
       <guid>/articles/article-2026-05-13-18944/</guid>
       <description>🚀 Jon Hyman, co-founder and CTO of Braze, recently shared insights on transforming his engineering team into an AI-first organization. He discussed the journey of growth over 15 years and the cultural challenges of adoption within a 300-person team. Jon highlighted that over 60% of Braze&amp;rsquo;s code is now AI-generated, emphasizing model quality over mandates. He also tackled important topics like measuring AI&amp;rsquo;s business value and the costs of scaling. #TechLeadership #AI #Engineering #Braze&amp;hellip;</description>
+    </item>
+    <item>
+      <title>5 ways to fix misleading vulnerability severities with policy</title>
+      <link>/articles/article-2026-05-13-18986/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18986/</guid>
+      <description>GitLab introduces new vulnerability management policies to enhance enterprise security. 📊 These policies allow automatic adjustments to CVSS severity levels based on defined criteria, making vulnerability reports more relevant to your specific environment. Key features include the ability to set, increase, or decrease severity levels, ensuring that vulnerabilities are prioritized correctly. 🔒 Ready-to-use configurations help organizations address common scenarios, such as downgrading low-risk&amp;hellip;</description>
     </item>
     <item>
       <title>Catching invisible errors: How I built a duplicate detection agent for Kenya&#39;s HIV program</title>

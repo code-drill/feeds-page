@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 15:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 20:27:46 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MinIO’s MemKV promises 95% better GPU utilization by ending AI recompute tax</title>
+      <link>/articles/article-2026-05-13-18983/</link>
+      <pubDate>Wed, 13 May 2026 20:27:46 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18983/</guid>
+      <description>MinIO has introduced MemKV, a new context memory store designed to enhance GPU utilization by over 95%. This innovation addresses the &amp;ldquo;recompute tax&amp;rdquo; problem, where lost context leads to repeated computations, wasting resources. MemKV improves Time to First Token (TTFT) and Time Per Output Token (TPOT) for AI workloads by utilizing petabyte-scale, flash-based memory. It aims to provide persistent context across GPU clusters, reducing inefficiencies in AI processes. With these advancements,&amp;hellip;</description>
+    </item>
     <item>
       <title>Red Hat’s skill packs give AI agents something a bigger model never could: 20 years of institutional memory</title>
       <link>/articles/article-2026-05-13-18965/</link>

@@ -449,6 +449,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://www.digitalocean.com/blog/advanced-prompt-caching" target="_blank">Advanced Prompt Caching at Scale</a></h2>
+            <div class="publication-date">2026-04-07 19:11</div>
+            <div class="summary">🌐 Prompt caching optimizes inference requests by reusing computed KV states, enhancing efficiency and reducing costs. However, as systems scale with multiple replicas, cache hit rates drop, posing challenges. 🔄 Implementing session affinity can improve performance by routing requests to the same replica, preserving cached data. 📊 Effective architectural strategies, including tiered caching and proper prompt structure, can significantly boost efficiency. #PromptCaching #AIInference...</div>
+            <div class="source">Source: <a href="/sources/digitalocean-blog">DigitalOcean Blog</a></div>
+            
+            <div class="author">Andrew Dugan</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/running-ai-workloads-on-rack-scale-supercomputers-from-hardware-to-topology-aware-scheduling/" target="_blank">Running AI Workloads on Rack-Scale Supercomputers: From Hardware to Topology-Aware Scheduling</a></h2>
+            <div class="publication-date">2026-04-07 18:51</div>
+            <div class="summary">🚀 The NVIDIA GB200 NVL72 and GB300 NVL72 systems are advanced rack-scale supercomputers built on NVIDIA Blackwell architecture. They feature 18 compute trays and high-bandwidth networking, designed for AI architects and HPC platform operators. A key focus is bridging the gap between hardware topology and scheduler abstractions, which can complicate operations. NVIDIA Mission Control offers solutions for effective management, integrating with platforms like Slurm and NVIDIA Run:ai to optimize...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Ryan Prout</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45?source=rss----53c7c27702d5---4" target="_blank">Building a high-volume metrics pipeline with OpenTelemetry and vmagent</a></h2>
+            <div class="publication-date">2026-04-07 17:01</div>
+            <div class="summary">🚀 Exciting developments in metrics migration! A recent article details the transition from StatsD to OpenTelemetry and Prometheus for a high-volume metrics pipeline. The team adopted a dual-write approach, using OpenTelemetry Protocol (OTLP) for internal services while keeping StatsD for legacy applications. This migration improved CPU efficiency and reliability, with significant benefits in data handling. They introduced a centralized aggregation pipeline using vmagent, enhancing scalability...</div>
+            <div class="source">Source: <a href="/sources/airbnb-engineering">Airbnb Engineering</a></div>
+            
+            <div class="author">Eugene Ma</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://medium.com/pinterest-engineering/evolution-of-multi-objective-optimization-at-pinterest-home-feed-06657e33cd10?source=rss-ef81ef829bcb------2" target="_blank">Evolution of Multi-Objective Optimization at Pinterest Home feed</a></h2>
             <div class="publication-date">2026-04-07 16:01</div>
             <div class="summary">📢 Exciting updates from Pinterest&#39;s Home Feed! The evolution of their multi-objective optimization focuses on enhancing user engagement by improving feed recommendation systems. Key strategies include balancing short-term actions with long-term user satisfaction through advanced algorithms like Determinantal Point Process (DPP) and Sliding Spectrum Decomposition (SSD). These enhancements aim to diversify content, ensuring a more satisfying user experience. Pinterest&#39;s ongoing efforts will...</div>
@@ -1047,57 +1098,6 @@
             <div class="publication-date">2026-03-31 00:00</div>
             <div class="summary">Maximize your model training efficiency with the new continuous checkpointing feature in Orbax and MaxText! 🚀 This innovative approach optimizes reliability and performance by allowing asynchronous save operations only after prior saves complete. Unlike traditional fixed-frequency checkpointing, it reduces resource wastage and minimizes failure risks during large-scale training jobs. 📊 With just a few configuration changes, you can enable continuous checkpointing and enhance your training...</div>
             <div class="source">Source: <a href="/sources/google-developers-blog">Google Developers Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://planetscale.com/blog/graceful-degradation-in-postgres" target="_blank">Graceful degradation in Postgres</a></h2>
-            <div class="publication-date">2026-03-31 00:00</div>
-            <div class="summary">In the article &#34;Graceful Degradation in Postgres,&#34; the focus is on managing database traffic effectively. When databases face high traffic, critical queries must be prioritized to maintain functionality. PlanetScale&#39;s Traffic Control addresses this by introducing resource budgets that protect essential queries during surges. ⚙️ The article outlines how to categorize traffic into three tiers: critical, important, and best-effort. This allows teams to determine which queries can be temporarily...</div>
-            <div class="source">Source: <a href="/sources/planetscale-blog">PlanetScale Blog</a></div>
-            
-            <div class="author">Ben Dicken</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://medium.com/@Pinterest_Engineering/zero-downtime-pytorch-upgrade-in-production-approaches-pitfalls-and-lessons-db3f456dc794?source=rss-ef81ef829bcb------2" target="_blank">Zero-Downtime PyTorch Upgrade in Production: Approaches, Pitfalls and Lessons</a></h2>
-            <div class="publication-date">2026-03-30 16:01</div>
-            <div class="summary">At Pinterest, we are upgrading our ML stack from PyTorch 2.1 to 2.6 to harness improvements like better GPU support and enhanced training efficiency. 🚀 This upgrade involves navigating challenges such as outdated Ubuntu versions, breaking API changes, and ensuring zero downtime during the transition. We are carefully managing dependencies and testing at each stage to maintain performance. 🔧 Our journey highlights the importance of thorough planning and collaboration. #MachineLearning #PyTorch...</div>
-            <div class="source">Source: <a href="/sources/pinterest-engineering">Pinterest Engineering</a></div>
-            
-            <div class="author">Pinterest Engineering</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://eng.lyft.com/predicting-rider-conversion-in-sparse-data-environments-with-bayesian-trees-07227ff92789?source=rss----25cd379abb8---4" target="_blank">Predicting Rider Conversion in Sparse Data Environments with Bayesian Trees</a></h2>
-            <div class="publication-date">2026-03-30 14:43</div>
-            <div class="summary">At Lyft, predicting rider conversion is crucial for optimizing user experience and balancing supply and demand. 🚗 The challenge lies in data sparsity; specific contexts often provide limited data, making accurate predictions complex. To address this, Lyft developed a Bayesian Tree model, which structures data hierarchically and uses Bayesian smoothing for better predictions even in sparse situations. 📊 This innovative approach enhances real-time decision-making while ensuring predictions...</div>
-            <div class="source">Source: <a href="/sources/lyft-engineering">Lyft Engineering</a></div>
-            
-            <div class="author">Zammit Alban</div>
             
             
             <div class="categories">

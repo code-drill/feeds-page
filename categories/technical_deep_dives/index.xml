@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 13:05:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 16:45:02 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Model Doesn&#39;t Matter. Your Infrastructure Does.</title>
+      <link>/articles/article-2026-05-13-18972/</link>
+      <pubDate>Wed, 13 May 2026 16:45:02 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18972/</guid>
+      <description>Unlocking the potential of AI starts with the right infrastructure. 🌐 DigitalOcean emphasizes that while everyone has access to similar models, success lies in the surrounding infrastructure—routing logic, data pipelines, and scalable solutions without code rewrites. Their recent session showcased how teams can move seamlessly through serverless, dedicated, and routed setups, maximizing efficiency and reducing costs. 💡 Explore the full capabilities of DigitalOcean&amp;rsquo;s AI platform! #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials</title>
+      <link>/articles/article-2026-05-13-18970/</link>
+      <pubDate>Wed, 13 May 2026 16:39:20 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18970/</guid>
+      <description>🚀 New advancements in X-ray technology are revolutionizing materials science! The X-ray free-electron laser (XFEL) tracks structural and electron dynamics in materials like semiconductors and catalysts. With ultrashort X-ray pulses, it captures atomic movements and identifies defects. The Accelerated X-ray Analysis for Nanoscale Imaging (XANI) workflow has significantly reduced data processing time from nine months to under four hours, utilizing NVIDIA&amp;rsquo;s powerful computing technology. These&amp;hellip;</description>
+    </item>
     <item>
       <title>Build a zero trust AI pipeline with OpenShift and RHEL CVMs</title>
       <link>/articles/article-2026-05-13-18959/</link>
@@ -35,6 +49,20 @@
       <pubDate>Wed, 13 May 2026 08:52:35 +0000</pubDate>
       <guid>/articles/article-2026-05-13-18948/</guid>
       <description>Kotlin is introducing new syntax for destructuring, focusing on name-based extraction. The &amp;ldquo;val inside parentheses&amp;rdquo; syntax will allow named properties to be accessed directly, while square brackets will aid in positional destructuring. Both features are currently experimental and will evolve into stable releases. 🛠️ A migration strategy is in place, and tools for switching to the new behavior are available. This change aims to enhance code clarity and reduce errors during refactoring. #Kotlin&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Catching invisible errors: How I built a duplicate detection agent for Kenya&#39;s HIV program</title>
+      <link>/articles/article-2026-05-13-18975/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18975/</guid>
+      <description>A new duplicate detection system is transforming Kenya&amp;rsquo;s HIV program! 🌍💉 The solution, built with Elastic Agent Builder, tackles the 56% failure rate of manual duplicate detection in patient records. By using tiered risk scoring, it enhances accuracy and saves $195K annually. This innovation aims to improve data reliability for better healthcare decisions. #HealthTech #HIVAwareness #DataIntegrity #Kenya #HealthcareInnovation</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: PSI Metrics for Kubernetes Graduates to GA</title>
+      <link>/articles/article-2026-05-12-18980/</link>
+      <pubDate>Tue, 12 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-18980/</guid>
+      <description>🚀 Kubernetes v1.36 has introduced Pressure Stall Information (PSI) metrics, which offer crucial insights into resource saturation before outages occur. Unlike traditional metrics, PSI highlights stalled tasks and time lost across CPU, memory, and I/O. 📊 Performance tests confirm that the Kubelet&amp;rsquo;s overhead is minimal, ensuring safe production use even under high-density workloads. 🔍 To utilize PSI metrics, ensure your nodes are running a compatible Linux kernel and cgroup v2. For more&amp;hellip;</description>
     </item>
     <item>
       <title>Building a Google Drive Sync Engine that Survives MV3 Service Workers</title>

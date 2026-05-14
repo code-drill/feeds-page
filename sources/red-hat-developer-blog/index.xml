@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 13:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 13:01:16 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Every layer counts: Defense in depth for AI agents with Red Hat AI</title>
+      <link>/articles/article-2026-05-14-19007/</link>
+      <pubDate>Thu, 14 May 2026 13:01:16 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19007/</guid>
+      <description>🔒 Running AI agents in production involves balancing security and functionality. As teams seek shell and network access, security concerns rise. Red Hat AI emphasizes a compound security approach, addressing vulnerabilities like semantic malware that exploit natural language. Their six-layer framework enhances protection, from hardening platforms to process-level sandboxes. Learn more about securing AI agents effectively! #AI #Cybersecurity #RedHatAI #DevOps #SecurityFramework</description>
+    </item>
+    <item>
+      <title>Fun in the RUN instruction: Why container builds with distroless images can surprise you</title>
+      <link>/articles/article-2026-05-14-19008/</link>
+      <pubDate>Thu, 14 May 2026 13:01:14 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19008/</guid>
+      <description>Exploring container builds with distroless images can lead to unexpected challenges. 🐳 A recent project involving a Flask app highlighted issues when using the RUN instruction. The absence of &lt;code&gt;/bin/sh&lt;/code&gt; in distroless images leads to errors during build execution, prompting a deeper understanding of how these builds function. Testing pip installation showed that it was available, indicating the need for adjustments in command execution. 💻 #ContainerDev #Distroless #RedHat #Flask #DevOps</description>
+    </item>
     <item>
       <title>Trusted software factory: Building trust in the agentic AI era</title>
       <link>/articles/article-2026-05-13-18958/</link>

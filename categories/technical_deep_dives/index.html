@@ -449,12 +449,44 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/clickhouse-query-plan-contention/" target="_blank">Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse</a></h2>
+            <div class="publication-date">2026-05-14 13:00</div>
+            <div class="summary">🌐 At Cloudflare, we encountered a challenge with our ClickHouse cluster after a partitioning change. Although standard metrics showed no errors, critical billing jobs stalled. 🔍 Investigation revealed severe lock contention in ClickHouse&#39;s query planner. This issue was previously unnoticed, prompting us to develop upstream patches to address the bottleneck. 📊 Our ClickHouse setup handles over 100 petabytes of data, and we aim to improve retention policies for various teams. A new partitioning...</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Christian Endres</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://www.atlassian.com/blog/how-we-build/optimisation-tools-for-jira" target="_blank">Optimisation Tools for Jira: Reducing Configuration Bloat and Enhancing Performance</a></h2>
             <div class="publication-date">2026-05-14 01:31</div>
             <div class="summary">Jira Cloud continues to evolve, supporting larger clients with complex configurations. However, this growth can lead to configuration sprawl, causing slower performance and increased admin workload. To address this, new optimisation tools have been introduced. These tools help admins understand entity usage, identify redundant configurations, and perform bulk cleanup actions safely. Key features include limits on fields, work types, and other entities to enhance performance and user...</div>
             <div class="source">Source: <a href="/sources/atlassian-developer-blog">Atlassian Developer Blog</a></div>
             
             <div class="author">Jovana Dunisijevic</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://huggingface.co/blog/continuous_async" target="_blank">Unlocking asynchronicity in continuous batching</a></h2>
+            <div class="publication-date">2026-05-14 00:00</div>
+            <div class="summary">Unlocking asynchronicity in continuous batching can lead to significant performance gains for inference. This article discusses how to separate CPU and GPU workloads to optimize GPU utilization. Continuous batching has improved GPU efficiency, but it remains synchronous, causing idle time. By implementing asynchronous batching, CPU preparation and GPU computation can operate simultaneously, reducing wasted time and enhancing performance. 📈💻🚀 #AsynchronousBatching #GPUUtilization...</div>
+            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
             
             
             <div class="categories">
@@ -1062,40 +1094,6 @@
             <div class="source">Source: <a href="/sources/salesforce-engineering">Salesforce Engineering</a></div>
             
             <div class="author">Scott Nyberg</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/" target="_blank">Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus</a></h2>
-            <div class="publication-date">2026-05-07 16:02</div>
-            <div class="summary">🚀 Distributed deep learning relies on efficient GPU-to-GPU communication via the NVIDIA Collective Communication Library (NCCL). When training slows, pinpointing issues can be complex. The NCCL Inspector enhances this process by providing continuous performance reports, tracking operation type, size, and bandwidth. With the new real-time monitoring feature integrated with Prometheus, users can access live visualizations directly in their infrastructure dashboard. This marks a significant step...</div>
-            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
-            
-            <div class="author">Ava Arnaz</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blogs.cisco.com/datacenter/benchmarking-scale-out-ai-fabrics-with-cisco-n9000-amd-pensando-pollara-400-nics" target="_blank">Benchmarking scale-out AI fabrics with Cisco N9000 &#43; AMD Pensando™ Pollara 400 NICs</a></h2>
-            <div class="publication-date">2026-05-07 15:00</div>
-            <div class="summary">Cisco and AMD have teamed up to tackle the &#34;AI paradox&#34; in enterprises by introducing a high-performance AI fabric using Cisco N9000 switches and AMD Pensando Pollara 400 NICs. This solution addresses GPU underutilization by optimizing network performance, ensuring GPUs operate efficiently during AI training and inference tasks. The architecture includes AMD Instinct MI300X GPUs and Cisco&#39;s advanced switches for a reliable, scalable solution. Rigorous benchmarking verifies that this setup can...</div>
-            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
-            
-            <div class="author">Rakesh Kumar</div>
             
             
             <div class="categories">

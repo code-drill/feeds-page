@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 17:49:54 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Multi-Tenant AI Agent Platform Handling 7K&#43; Sessions Without Cross-Team Interference</title>
+      <link>/articles/article-2026-05-14-19045/</link>
+      <pubDate>Thu, 14 May 2026 17:49:54 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19045/</guid>
+      <description>🚀 Exciting advancements in AI at Salesforce! In the latest Engineering Energizers Q&amp;amp;A, we learn about Priyanka Saraf&amp;rsquo;s work on the Bring Your Own Planner (BYOP) platform. This multi-tenant AI agent platform supports over 7,000 active sessions and allows teams to create custom reasoning engines without interference. BYOP eliminates the limitations of a monolithic planner, enhancing team autonomy and development speed. Each team can scale independently, manage their code, and deploy without&amp;hellip;</description>
+    </item>
+    <item>
+      <title>LLM-as-a-Judge: Evaluating natural language search</title>
+      <link>/articles/article-2026-05-14-19023/</link>
+      <pubDate>Thu, 14 May 2026 16:32:11 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19023/</guid>
+      <description>🚀 DoorDash explores the evolution of food delivery search with its new natural language search (NLS) system. Traditional keyword matching works when users know what they want, but many search intents are more complex. NLS understands these nuanced requests, translating them into structured queries for better results. To evaluate NLS effectiveness, DoorDash shifted from manual annotations to a calibrated LLM judge, improving evaluation speed and accuracy. This change aims to ensure that&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From latency to instant: Modernizing GitHub Issues navigation performance</title>
+      <link>/articles/article-2026-05-14-19046/</link>
+      <pubDate>Thu, 14 May 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19046/</guid>
+      <description>🚀 GitHub Issues has modernized its navigation performance to enhance user experience. The team implemented client-side caching, smart prefetching, and service workers to reduce latency. This approach allows instant rendering from local data, improving flow for developers managing issues. Key metrics were established to measure performance, focusing on what matters most to users. The goal is to ensure that navigation feels seamless and efficient. Learn more about these developments and their&amp;hellip;</description>
+    </item>
     <item>
       <title>Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse</title>
       <link>/articles/article-2026-05-14-19011/</link>
@@ -21,6 +42,13 @@
       <pubDate>Thu, 14 May 2026 01:31:25 +0000</pubDate>
       <guid>/articles/article-2026-05-14-19001/</guid>
       <description>Jira Cloud continues to evolve, supporting larger clients with complex configurations. However, this growth can lead to configuration sprawl, causing slower performance and increased admin workload. To address this, new optimisation tools have been introduced. These tools help admins understand entity usage, identify redundant configurations, and perform bulk cleanup actions safely. Key features include limits on fields, work types, and other entities to enhance performance and user&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Accelerating on-device AI: A look at Arm and Google AI Edge optimization</title>
+      <link>/articles/article-2026-05-14-19048/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19048/</guid>
+      <description>🚀 Exciting advancements in on-device AI have emerged with the integration of Arm Scalable Matrix Extension 2 (SME2) and Google AI Edge software. This combination allows CPUs to act as powerful matrix-compute accelerators, enhancing audio generation performance. The use of Stability AI’s model shows over 2x speedup and 4x memory reduction, all while maintaining high quality. Discover how LiteRT, XNNPACK, and KleidiAI streamline the development process for AI applications. #AI #MachineLearning&amp;hellip;</description>
     </item>
     <item>
       <title>Unlocking asynchronicity in continuous batching</title>

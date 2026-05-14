@@ -6,8 +6,22 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New in Terraform 1.15: Dynamic sources, variable deprecation, and more</title>
+      <link>/articles/article-2026-05-13-18999/</link>
+      <pubDate>Wed, 13 May 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18999/</guid>
+      <description>🚀 Exciting updates in Terraform 1.15! This release introduces dynamic module sources, allowing variables to define module paths and versions. A new &lt;code&gt;const&lt;/code&gt; attribute indicates variable usability during initialization. Additionally, there&amp;rsquo;s a new &lt;code&gt;deprecated&lt;/code&gt; attribute for variables and outputs, providing warnings when outdated elements are used. This helps in managing transitions smoothly. #Terraform #DevOps #CloudComputing #InfrastructureAsCode #TechUpdate</description>
+    </item>
+    <item>
+      <title>Terraform Enterprise 2.0: Evolving infrastructure operations for scale</title>
+      <link>/articles/article-2026-05-12-19000/</link>
+      <pubDate>Tue, 12 May 2026 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-19000/</guid>
+      <description>🚀 Terraform Enterprise 2.0 is here to enhance infrastructure operations for scalability and governance! Key features include Stacks for managing multi-tier deployments, project-level notifications for consistent monitoring, and SCIM 2.0 support for automated user management. Improved operational visibility, secure access roles, and enhanced API token management are also introduced to streamline processes and reduce risks. For organizations looking to scale efficiently, Terraform Enterprise&amp;hellip;</description>
+    </item>
     <item>
       <title>Announcing native AI agent support in HashiCorp Vault</title>
       <link>/articles/article-2026-05-12-18919/</link>

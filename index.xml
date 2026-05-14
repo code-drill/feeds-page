@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 22:15:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 01:31:25 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimisation Tools for Jira: Reducing Configuration Bloat and Enhancing Performance</title>
+      <link>/articles/article-2026-05-14-19001/</link>
+      <pubDate>Thu, 14 May 2026 01:31:25 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19001/</guid>
+      <description>Jira Cloud continues to evolve, supporting larger clients with complex configurations. However, this growth can lead to configuration sprawl, causing slower performance and increased admin workload. To address this, new optimisation tools have been introduced. These tools help admins understand entity usage, identify redundant configurations, and perform bulk cleanup actions safely. Key features include limits on fields, work types, and other entities to enhance performance and user&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Rovo Dev in Jira as my Spec Driven executor</title>
+      <link>/articles/article-2026-05-14-19002/</link>
+      <pubDate>Thu, 14 May 2026 00:56:50 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19002/</guid>
+      <description>In my daily work, I follow a consistent workflow to tackle problems effectively. I start by understanding the issue, creating tasks, and detailing the technical aspects. This includes identifying dependencies and breaking work into manageable parts. With AI, specifically Rovo Dev, I enhance this flow. It helps me create more detailed specifications and validate my approach, keeping my projects on track. 🤖📊 #ProjectManagement #AI #Jira #Workflow #RovoDev</description>
+    </item>
     <item>
       <title>Fivetran’s CPO: Closed data stacks won’t survive the agent era</title>
       <link>/articles/article-2026-05-13-18992/</link>
@@ -91,6 +105,13 @@
       <pubDate>Wed, 13 May 2026 16:39:20 +0000</pubDate>
       <guid>/articles/article-2026-05-13-18970/</guid>
       <description>🚀 New advancements in X-ray technology are revolutionizing materials science! The X-ray free-electron laser (XFEL) tracks structural and electron dynamics in materials like semiconductors and catalysts. With ultrashort X-ray pulses, it captures atomic movements and identifies defects. The Accelerated X-ray Analysis for Nanoscale Imaging (XANI) workflow has significantly reduced data processing time from nine months to under four hours, utilizing NVIDIA&amp;rsquo;s powerful computing technology. These&amp;hellip;</description>
+    </item>
+    <item>
+      <title>New in Terraform 1.15: Dynamic sources, variable deprecation, and more</title>
+      <link>/articles/article-2026-05-13-18999/</link>
+      <pubDate>Wed, 13 May 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18999/</guid>
+      <description>🚀 Exciting updates in Terraform 1.15! This release introduces dynamic module sources, allowing variables to define module paths and versions. A new &lt;code&gt;const&lt;/code&gt; attribute indicates variable usability during initialization. Additionally, there&amp;rsquo;s a new &lt;code&gt;deprecated&lt;/code&gt; attribute for variables and outputs, providing warnings when outdated elements are used. This helps in managing transitions smoothly. #Terraform #DevOps #CloudComputing #InfrastructureAsCode #TechUpdate</description>
     </item>
     <item>
       <title>State-sponsored actors, better known as the friends you don’t want</title>
@@ -275,6 +296,13 @@
       <description>GitLab introduces new vulnerability management policies to enhance enterprise security. 📊 These policies allow automatic adjustments to CVSS severity levels based on defined criteria, making vulnerability reports more relevant to your specific environment. Key features include the ability to set, increase, or decrease severity levels, ensuring that vulnerabilities are prioritized correctly. 🔒 Ready-to-use configurations help organizations address common scenarios, such as downgrading low-risk&amp;hellip;</description>
     </item>
     <item>
+      <title>Agent Runners workflow improvements</title>
+      <link>/articles/article-2026-05-13-18996/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18996/</guid>
+      <description>🚀 Exciting updates for Agent Runners! You can now prompt changes more quickly from GitHub pull requests. A new &amp;ldquo;Make changes&amp;rdquo; link simplifies the feedback process. Additionally, a one-click copy feature makes it easier to grab output from Agent Runners. Pull requests now auto-assign ownership for better tracking. Ensure your GitHub account is linked in Netlify for this feature. #AgentRunners #GitHub #Netlify #WorkflowImprovements #DevTools</description>
+    </item>
+    <item>
       <title>Catching invisible errors: How I built a duplicate detection agent for Kenya&#39;s HIV program</title>
       <link>/articles/article-2026-05-13-18975/</link>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
@@ -287,6 +315,13 @@
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-13-18960/</guid>
       <description>🚀 Exciting news! Version 9.4.1 of the Elastic Stack has been released. Users are encouraged to upgrade from version 9.4.0 for improved performance and fixes. For a complete list of changes and issues addressed, please check the release notes. Stay updated and enhance your Elastic experience! #ElasticStack #VersionUpdate #TechNews #SoftwareRelease</description>
+    </item>
+    <item>
+      <title>Falcon AIDR Detects Threats at the Prompt Layer in Kubernetes AI Applications</title>
+      <link>/articles/article-2026-05-13-18998/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-13-18998/</guid>
+      <description>🚨 Falcon AIDR is enhancing security for Kubernetes AI applications by detecting threats at the prompt layer. AI introduces unique risks, such as prompt injection, which traditional tools cannot identify. This vulnerability can lead to sensitive data exposure and unintended actions. CrowdStrike&amp;rsquo;s Falcon Container Sensor now provides runtime visibility for these AI workloads, addressing critical security gaps. #CyberSecurity #AI #Kubernetes #DataProtection #ThreatDetection</description>
     </item>
     <item>
       <title>Gauntlet: What happens when your agent&#39;s tools fight back</title>
@@ -441,6 +476,13 @@
       <pubDate>Tue, 12 May 2026 16:41:40 +0000</pubDate>
       <guid>/articles/article-2026-05-12-18945/</guid>
       <description>🚀 AI tools are speeding up code production, but they aren&amp;rsquo;t addressing the underlying issues that lead to production failures. Many teams experience the &amp;ldquo;illusion of correctness,&amp;rdquo; where AI-generated code appears perfect but hides critical assumptions. These include boundary, concurrency, domain, and security assumptions that can lead to unexpected incidents. A strong mental model is essential: every system has a change absorption capacity. When new code exceeds this capacity, instability&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Terraform Enterprise 2.0: Evolving infrastructure operations for scale</title>
+      <link>/articles/article-2026-05-12-19000/</link>
+      <pubDate>Tue, 12 May 2026 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-12-19000/</guid>
+      <description>🚀 Terraform Enterprise 2.0 is here to enhance infrastructure operations for scalability and governance! Key features include Stacks for managing multi-tier deployments, project-level notifications for consistent monitoring, and SCIM 2.0 support for automated user management. Improved operational visibility, secure access roles, and enhanced API token management are also introduced to streamline processes and reduce risks. For organizations looking to scale efficiently, Terraform Enterprise&amp;hellip;</description>
     </item>
     <item>
       <title>Building Better, Together: The Role of Mentorship in the HubSpot Ecosystem</title>

@@ -6,8 +6,15 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Egress problems and where to find them</title>
+      <link>/articles/article-2026-05-14-19052/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19052/</guid>
+      <description>Optimizing database queries can significantly improve application performance while reducing costs. 💻💰 Egress refers to the data transferred out from your database, which often incurs costs with cloud providers. To minimize egress, focus on fetching only necessary data and reducing the frequency of requests. 📊 Common issues include retrieving too much data or making unbounded queries. Instead, limit your queries to specific columns and apply pagination for better efficiency. 📉 For more&amp;hellip;</description>
+    </item>
     <item>
       <title>Problem solving with PlanetScale Insights</title>
       <link>/articles/article-2026-05-07-18680/</link>

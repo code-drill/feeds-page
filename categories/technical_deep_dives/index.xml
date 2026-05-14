@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 17:49:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 19:24:35 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem</title>
+      <link>/articles/article-2026-05-14-19050/</link>
+      <pubDate>Thu, 14 May 2026 19:24:35 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19050/</guid>
+      <description>NVIDIA&amp;rsquo;s Vera Rubin Platform addresses the challenges of agentic AI&amp;rsquo;s scale-up problem. Agentic inference introduces non-deterministic trajectories, affecting latency across inference requests. The Vera Rubin NVL72 serves as a core compute engine, optimizing for low-latency and high-throughput demands. This platform is the first to economically handle complex multi-agent workloads with high model capability. It combines extreme co-design for enhanced performance in AI services. Discover how&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality</title>
+      <link>/articles/article-2026-05-14-19057/</link>
+      <pubDate>Thu, 14 May 2026 18:55:01 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19057/</guid>
+      <description>Introducing Granite Embedding Multilingual R2, a new open-source project under Apache 2.0. This initiative focuses on multilingual embeddings with an impressive 32K context. Research highlights that it offers the best retrieval quality for datasets under 100 million. This development aims to enhance multilingual processing in various applications. Stay tuned for further updates on advancements in multilingual technology! 🌐📊 #Multilingual #OpenSource #Apache2 #DataScience #TechInnovation</description>
+    </item>
     <item>
       <title>Creating a Multi-Tenant AI Agent Platform Handling 7K&#43; Sessions Without Cross-Team Interference</title>
       <link>/articles/article-2026-05-14-19045/</link>
@@ -49,6 +63,20 @@
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-14-19048/</guid>
       <description>🚀 Exciting advancements in on-device AI have emerged with the integration of Arm Scalable Matrix Extension 2 (SME2) and Google AI Edge software. This combination allows CPUs to act as powerful matrix-compute accelerators, enhancing audio generation performance. The use of Stability AI’s model shows over 2x speedup and 4x memory reduction, all while maintaining high quality. Discover how LiteRT, XNNPACK, and KleidiAI streamline the development process for AI applications. #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Counting to 3 with a new builder processing 50M&#43; monthly builds</title>
+      <link>/articles/article-2026-05-14-19051/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19051/</guid>
+      <description>🚀 Railway has transformed its build process by replacing the older Docker-buildx GCP autoscaler with microVM build cells running BuildKit. This change allows for improved efficiency, with 66,000 builds per hour at peak. The new system operates on a fleet of bare-metal hosts, enhancing performance and reducing issues like egress costs and noisy neighbors. Learn more about this significant upgrade and its impact on build management. #TechUpdate #SoftwareDevelopment #BuildKit #Railway&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Egress problems and where to find them</title>
+      <link>/articles/article-2026-05-14-19052/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19052/</guid>
+      <description>Optimizing database queries can significantly improve application performance while reducing costs. 💻💰 Egress refers to the data transferred out from your database, which often incurs costs with cloud providers. To minimize egress, focus on fetching only necessary data and reducing the frequency of requests. 📊 Common issues include retrieving too much data or making unbounded queries. Instead, limit your queries to specific columns and apply pagination for better efficiency. 📉 For more&amp;hellip;</description>
     </item>
     <item>
       <title>Unlocking asynchronicity in continuous batching</title>

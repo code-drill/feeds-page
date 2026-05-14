@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 13:01:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 18:35:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.36: Deprecation and removal of Service ExternalIPs</title>
+      <link>/articles/article-2026-05-14-19058/</link>
+      <pubDate>Thu, 14 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19058/</guid>
+      <description>🚨 Kubernetes 1.36 has officially deprecated the .spec.externalIPs field for Services. This change addresses security issues related to trusting users within a cluster, which could lead to vulnerabilities (CVE-2020-8554). 🔒 Instead, users are encouraged to explore better alternatives for load balancing in non-cloud clusters, such as using manually-managed LoadBalancer Services or the Gateway API. ⚠️ For those still using .spec.externalIPs, enabling the DenyServiceExternalIPs admission&amp;hellip;</description>
+    </item>
     <item>
       <title>Every layer counts: Defense in depth for AI agents with Red Hat AI</title>
       <link>/articles/article-2026-05-14-19007/</link>

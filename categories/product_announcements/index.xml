@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 16:26:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.36: Mixed Version Proxy Graduates to Beta</title>
+      <link>/articles/article-2026-05-15-19096/</link>
+      <pubDate>Fri, 15 May 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19096/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The Mixed Version Proxy (MVP) has graduated to Beta in Kubernetes v1.36 and is enabled by default. MVP enhances cluster upgrades by routing requests for unknown resources to newer API servers, preventing 404 errors and ensuring smoother operations. Key improvements include a shift from StorageVersion API to Aggregated Discovery, allowing for a unified view of all available APIs across the cluster. For those running multi-master clusters, review your API&amp;hellip;</description>
+    </item>
     <item>
       <title>AWS found bugs in 60% of software requirements. Its fix isn’t more AI — it’s a 50-year-old logic engine.</title>
       <link>/articles/article-2026-05-15-19081/</link>
@@ -49,6 +56,20 @@
       <pubDate>Fri, 15 May 2026 12:50:18 +0000</pubDate>
       <guid>/articles/article-2026-05-15-19075/</guid>
       <description>🚀 Exciting news! Compose Multiplatform 1.11.0 is now available. This update enhances the iOS and web experience, focusing on native text input, performance improvements, and UI testing. Key highlights include: - Native text input for iOS apps offers better precision and gestures. - Concurrent rendering is now enabled by default. - Upgraded Compose UI testing with v2 APIs provides more predictable results. - Improved scrolling performance for web apps. For more details, check the complete list&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sort providers by cost, latency, or throughput on AI Gateway</title>
+      <link>/articles/article-2026-05-15-19090/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19090/</guid>
+      <description>📢 Exciting updates in AI Gateway! You can now sort model providers by cost, time to first token (TTFT), or throughput (TPS). This feature allows for more control over ranking criteria based on your specific needs. Sorting is computed at request time, ensuring real-time adjustments for new providers and price changes. For detailed insights, every response includes routing metadata to explain provider choices. #AIGateway #AI #Sorting #MachineLearning #TechUpdates</description>
+    </item>
+    <item>
+      <title>Use native curl syntax with Vercel CLI</title>
+      <link>/articles/article-2026-05-15-19089/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19089/</guid>
+      <description>🚀 Exciting news for Vercel users! You can now utilize native curl syntax with the Vercel CLI. The new &lt;code&gt;vercel curl&lt;/code&gt; command accepts full URLs, bare hostnames, and the &lt;code&gt;--url&lt;/code&gt; flag, simplifying your deployment process. To get started, update to the latest Vercel CLI version and check the documentation for more details. #Vercel #CLISyntax #WebDevelopment #TechUpdate #DeveloperTools</description>
     </item>
     <item>
       <title>Amazon Bedrock introduces new advanced prompt optimization and migration tool</title>
@@ -112,6 +133,13 @@
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-14-19021/</guid>
       <description>🚀 Exciting news! The 1Password Device Trust MCP Server is now available. This open-source server connects your Device Trust data directly to AI tools like Claude and ChatGPT. 🔍 With it, IT and security teams can easily query device fleets using natural language, improving visibility and control. Key features include logging every action for auditability. 💡 The MCP Server supports 59 tools and allows users to ask questions about device compliance, vulnerabilities, and more—all from within&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Protected Source Maps: Ship browser source maps securely</title>
+      <link>/articles/article-2026-05-14-19091/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-14-19091/</guid>
+      <description>🚀 Exciting news for developers! Vercel has introduced Protected Source Maps, allowing teams to secure their production source maps. With this feature, .map files are accessible only to authorized users, ensuring sensitive information remains protected. New projects have this feature enabled by default, while existing projects can easily opt in via Settings without needing a redeploy. Learn more in the documentation! 📚🔒 #WebDevelopment #Vercel #SourceMaps #Security #DevTools</description>
     </item>
     <item>
       <title>MinIO’s MemKV promises 95% better GPU utilization by ending AI recompute tax</title>

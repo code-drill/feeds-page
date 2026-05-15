@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 16:26:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 19:53:19 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI efficiency paradox: What to do when AI boosts productivity but not results</title>
+      <link>/articles/article-2026-05-15-19097/</link>
+      <pubDate>Fri, 15 May 2026 19:53:19 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19097/</guid>
+      <description>AI is boosting individual productivity, but business results aren&amp;rsquo;t improving at the same pace. 🤔 Atlassian&amp;rsquo;s survey of over 12,000 knowledge workers reveals a significant &amp;ldquo;fragmentation tax,&amp;rdquo; costing Fortune 500 companies $161B annually. 📉 To bridge this gap, leaders should integrate AI into team workflows, focusing on quality outcomes rather than just speed. #AIEfficiency #Productivity #BusinessResults #Atlassian #Teamwork</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager</title>
+      <link>/articles/article-2026-05-15-19095/</link>
+      <pubDate>Fri, 15 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19095/</guid>
+      <description>Kubernetes v1.36 has introduced a new alpha counter metric, &lt;code&gt;route_controller_route_sync_total&lt;/code&gt;, to the Cloud Controller Manager. This metric tracks route syncs with the cloud provider. The addition supports the CloudControllerManagerWatchBasedRoutesReconciliation feature, which optimizes route reconciliation by responding only to actual node changes. This reduces unnecessary API calls and helps manage API quotas more effectively. For A/B testing, compare sync rates with the feature gate&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.36: Mixed Version Proxy Graduates to Beta</title>
+      <link>/articles/article-2026-05-15-19096/</link>
+      <pubDate>Fri, 15 May 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19096/</guid>
+      <description>🚀 Exciting news for Kubernetes users! The Mixed Version Proxy (MVP) has graduated to Beta in Kubernetes v1.36 and is enabled by default. MVP enhances cluster upgrades by routing requests for unknown resources to newer API servers, preventing 404 errors and ensuring smoother operations. Key improvements include a shift from StorageVersion API to Aggregated Discovery, allowing for a unified view of all available APIs across the cluster. For those running multi-master clusters, review your API&amp;hellip;</description>
+    </item>
     <item>
       <title>AWS found bugs in 60% of software requirements. Its fix isn’t more AI — it’s a 50-year-old logic engine.</title>
       <link>/articles/article-2026-05-15-19081/</link>
@@ -125,14 +146,14 @@
       <link>/articles/article-2026-05-15-19090/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-15-19090/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/sort-providers-by-cost-latency-or-throughput-on-ai-gateway&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>📢 Exciting updates in AI Gateway! You can now sort model providers by cost, time to first token (TTFT), or throughput (TPS). This feature allows for more control over ranking criteria based on your specific needs. Sorting is computed at request time, ensuring real-time adjustments for new providers and price changes. For detailed insights, every response includes routing metadata to explain provider choices. #AIGateway #AI #Sorting #MachineLearning #TechUpdates</description>
     </item>
     <item>
       <title>Use native curl syntax with Vercel CLI</title>
       <link>/articles/article-2026-05-15-19089/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-15-19089/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/use-native-curl-syntax-with-vercel-cli&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news for Vercel users! You can now utilize native curl syntax with the Vercel CLI. The new &lt;code&gt;vercel curl&lt;/code&gt; command accepts full URLs, bare hostnames, and the &lt;code&gt;--url&lt;/code&gt; flag, simplifying your deployment process. To get started, update to the latest Vercel CLI version and check the documentation for more details. #Vercel #CLISyntax #WebDevelopment #TechUpdate #DeveloperTools</description>
     </item>
     <item>
       <title>Accelerate Your Career and Impact with CCNA Certifications</title>
@@ -412,7 +433,7 @@
       <link>/articles/article-2026-05-14-19091/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-14-19091/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news for developers! Vercel has introduced Protected Source Maps, allowing teams to secure their production source maps. With this feature, .map files are accessible only to authorized users, ensuring sensitive information remains protected. New projects have this feature enabled by default, while existing projects can easily opt in via Settings without needing a redeploy. Learn more in the documentation! 📚🔒 #WebDevelopment #Vercel #SourceMaps #Security #DevTools</description>
     </item>
     <item>
       <title>Unlocking asynchronicity in continuous batching</title>

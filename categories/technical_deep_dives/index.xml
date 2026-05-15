@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 12:47:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 18:35:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager</title>
+      <link>/articles/article-2026-05-15-19095/</link>
+      <pubDate>Fri, 15 May 2026 18:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-15-19095/</guid>
+      <description>Kubernetes v1.36 has introduced a new alpha counter metric, &lt;code&gt;route_controller_route_sync_total&lt;/code&gt;, to the Cloud Controller Manager. This metric tracks route syncs with the cloud provider. The addition supports the CloudControllerManagerWatchBasedRoutesReconciliation feature, which optimizes route reconciliation by responding only to actual node changes. This reduces unnecessary API calls and helps manage API quotas more effectively. For A/B testing, compare sync rates with the feature gate&amp;hellip;</description>
+    </item>
     <item>
       <title>Backstage with Lakebase, part 2</title>
       <link>/articles/article-2026-05-15-19078/</link>

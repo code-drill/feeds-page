@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 18:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 16:15:17 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons learned building DoorDash’s clusterless ML feature store</title>
+      <link>/articles/article-2026-05-18-19132/</link>
+      <pubDate>Mon, 18 May 2026 16:15:17 +0000</pubDate>
+      <guid>/articles/article-2026-05-18-19132/</guid>
+      <description>🚀 DoorDash is navigating the challenges of AI and machine learning with their new clusterless ML feature store. This feature store is essential for managing vast amounts of data, crucial for delivering a seamless experience to over a billion users. It supports high-demand services like the Sibyl Prediction Service, processing around 900,000 evaluations per second. The team is learning valuable lessons about scalability, transitioning from Redis to a hybrid database model to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation</title>
+      <link>/articles/article-2026-05-18-19129/</link>
+      <pubDate>Mon, 18 May 2026 16:00:21 +0000</pubDate>
+      <guid>/articles/article-2026-05-18-19129/</guid>
+      <description>NVIDIA has introduced advancements in video generation for robots by fine-tuning Cosmos Predict 2.5 using LoRA and DoRA techniques. These enhancements aim to improve the quality and efficiency of video outputs, making robotic applications more effective. This development highlights the growing intersection of AI and robotics. 🤖🎥 #NVIDIA #Robotics #AI #VideoGeneration #TechInnovation</description>
+    </item>
+    <item>
+      <title>How we improved image download sizes on Medium with just four characters</title>
+      <link>/articles/article-2026-05-18-19135/</link>
+      <pubDate>Mon, 18 May 2026 15:29:29 +0000</pubDate>
+      <guid>/articles/article-2026-05-18-19135/</guid>
+      <description>📉 Medium has reduced image download sizes by 7% using a simple code update. By adding just four characters to the codebase, developers can enhance asset download efficiency. This improvement utilizes the new &amp;ldquo;auto&amp;rdquo; feature for lazy-loaded images, allowing browsers to optimize image loading based on user context. For web developers seeking seamless optimization, this small change can lead to significant gains. #WebDevelopment #ImageOptimization #CodingTips #Medium #TechInnovation</description>
+    </item>
     <item>
       <title>Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager</title>
       <link>/articles/article-2026-05-15-19095/</link>

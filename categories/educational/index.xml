@@ -23,6 +23,20 @@
       <description>🔧 Debugging image mode in Red Hat OpenShift 4.20 can be complex but manageable. This practical guide outlines the debugging process across three key stages: 1️⃣ &lt;strong&gt;MachineOSConfig (MOSC) Creation&lt;/strong&gt;: This is where the custom OS image blueprint is defined. Watch for configuration errors, missing secrets, and registry specifications. 2️⃣ &lt;strong&gt;MachineOSBuild (MOSB) Execution&lt;/strong&gt;: Here, the actual image build occurs. Monitor build status and check for job failures or image pull errors. 3️⃣ **Image&amp;hellip;</description>
     </item>
     <item>
+      <title>A Guide to Auth0 Authorization with Scopes, Roles, and Client Grants Explained</title>
+      <link>/articles/article-2026-05-19-19178/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-19-19178/</guid>
+      <description>Mastering Auth0 authorization is essential for secure applications. Understanding the relationship between scopes, roles, and client grants can help prevent security breaches. Authentication verifies user identity, while authorization defines what users can do. A strong authorization strategy follows the Principle of Least Privilege, ensuring users only have necessary permissions. Key components include: - &lt;strong&gt;Roles&lt;/strong&gt;: Groups of permissions assigned to users. - &lt;strong&gt;Permissions&lt;/strong&gt;: Specific actions&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Jira to PR: How we built agent-driven pipelines for design system changes</title>
+      <link>/articles/article-2026-05-19-19176/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-19-19176/</guid>
+      <description>🚀 We explored how to enhance our design system with agent-driven pipelines. Initially, our coding agent struggled without specific context, often making errors that required manual corrections. To improve its performance, we focused on making tacit knowledge explicit through detailed skills for common workflows. This shift resulted in agents producing higher-quality PRs, streamlining the review process. Our findings highlight the importance of clear instructions and proper context for&amp;hellip;</description>
+    </item>
+    <item>
       <title>What AI Tools, MCP Servers, and Skills Actually Do</title>
       <link>/articles/article-2026-05-19-19163/</link>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>

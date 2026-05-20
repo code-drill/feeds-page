@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypting large artifacts and streaming workloads with Vault</title>
+      <link>/articles/article-2026-05-20-19248/</link>
+      <pubDate>Wed, 20 May 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19248/</guid>
+      <description>🔒 HashiCorp Vault&amp;rsquo;s Transit secrets engine offers encryption-as-a-service, allowing secure data handling without managing keys directly. For larger artifacts and streaming workloads, traditional methods may cause performance issues. The new SDK introduces envelope encryption, enabling local encryption while Vault manages keys and access policies. This method simplifies key management, allowing operators to efficiently handle data without the overhead of transferring large payloads. #HashiCorp&amp;hellip;</description>
+    </item>
     <item>
       <title>Add a Specialized Deep Research Skill to Agent Harnesses</title>
       <link>/articles/article-2026-05-20-19236/</link>

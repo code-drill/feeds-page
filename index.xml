@@ -13,7 +13,14 @@
       <link>/articles/article-2026-05-20-19213/</link>
       <pubDate>Wed, 20 May 2026 08:31:08 +0000</pubDate>
       <guid>/articles/article-2026-05-20-19213/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blog.pragmaticengineer.com/rss/&#34;&gt;Pragmatic Engineer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/google-cloud-deletes-australian-trading-funds-infra/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>A significant incident occurred involving UniSuper, a $124B retirement fund in Australia. Google Cloud accidentally deleted their subscription, resulting in a two-week outage for members. Despite regional replication, all data was lost, but UniSuper&amp;rsquo;s third-party backup prevented total data loss. Google Cloud&amp;rsquo;s CEO publicly accepted responsibility for the error. This situation raises concerns about reliability in cloud services. Users experienced a notable service disruption, linking UniSuper&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What GPU kernels mean for your distributed inference</title>
+      <link>/articles/article-2026-05-20-19214/</link>
+      <pubDate>Wed, 20 May 2026 07:16:05 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19214/</guid>
+      <description>Hugging Face has elevated GPU kernels as a first-class repository type, enabling a versioned, multi-vendor distribution channel for pre-compiled compute kernels. This change doesn&amp;rsquo;t impact existing inference runtimes but offers a new tool for developers. The article clarifies the distinction between OS kernels and GPU compute kernels, and discusses their roles in distributed AI inference. For teams in production, understanding these differences is crucial to maintain agility and compliance&amp;hellip;.</description>
     </item>
     <item>
       <title>Pack your agentic stack in Slack</title>

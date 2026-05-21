@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 14:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 17:32:56 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlock Exascale Performance on NVIDIA GB200 NVL72 with Slurm Topology-Aware Job Scheduling</title>
+      <link>/articles/article-2026-05-21-19292/</link>
+      <pubDate>Thu, 21 May 2026 17:32:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-21-19292/</guid>
+      <description>Unlocking the potential of NVIDIA GB200 NVL72 requires effective workload placement. This article discusses how Slurm topology-aware job scheduling enhances performance by aligning jobs with the system’s network architecture. The GB200 NVL72 supports exascale computing with 72 interconnected GPUs, offering 130 TB/s bandwidth for AI and HPC tasks. By maximizing the use of NVLink, AI training jobs can significantly improve performance. For optimal results in shared clusters, schedulers must&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building Token‑Metered AI Services on Telco AI Factories</title>
+      <link>/articles/article-2026-05-21-19293/</link>
+      <pubDate>Thu, 21 May 2026 15:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-21-19293/</guid>
+      <description>Telcos are developing sovereign AI factories using NVIDIA&amp;rsquo;s Cloud Partner architecture. This initiative aims to provide governments and businesses with reliable in-country AI infrastructure. However, simply having infrastructure isn&amp;rsquo;t enough for scalable AI services. The focus is shifting towards token-based billing for AI services, ensuring enterprises receive production-ready applications without the complexities of managing infrastructure. This approach allows enterprises to benefit from&amp;hellip;</description>
+    </item>
     <item>
       <title>CI wasn’t built for coding agents. Here’s what comes next.</title>
       <link>/articles/article-2026-05-21-19269/</link>
@@ -49,6 +63,13 @@
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-20-19229/</guid>
       <description>🔒 Can 1Password see your vault contents? The answer is no, and it&amp;rsquo;s due to the way the product is architected. Your data is encrypted on your device before it leaves, using keys that only you hold. 1Password cannot decrypt your vault contents because it never has access to these keys. This zero-knowledge architecture ensures your privacy, even if servers are compromised. However, be aware that losing your account password or Secret Key means recovery isn&amp;rsquo;t possible. Learn more about how your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters</title>
+      <link>/articles/article-2026-05-19-19294/</link>
+      <pubDate>Tue, 19 May 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-19-19294/</guid>
+      <description>🚀 Real-time visibility into GPU usage is crucial for maximizing AI infrastructure. Many teams face challenges due to limited insights into GPU consumption on Kubernetes. The new GPU Usage Monitor, built on NVIDIA&amp;rsquo;s DCGM Exporter, provides comprehensive tracking of GPU allocation, memory use, and pod status. It simplifies monitoring with a single Helm chart deployment. This tool addresses common issues like over-provisioning and pod starvation, enabling better resource utilization and timely&amp;hellip;</description>
     </item>
     <item>
       <title>Scaling Airbnb’s identity graph with a unified knowledge graph infrastructure</title>

@@ -449,6 +449,40 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/unlock-exascale-performance-on-nvidia-gb200-nvl72-with-slurm-topology-aware-job-scheduling/" target="_blank">Unlock Exascale Performance on NVIDIA GB200 NVL72 with Slurm Topology-Aware Job Scheduling</a></h2>
+            <div class="publication-date">2026-05-21 17:32</div>
+            <div class="summary">Unlocking the potential of NVIDIA GB200 NVL72 requires effective workload placement. This article discusses how Slurm topology-aware job scheduling enhances performance by aligning jobs with the system’s network architecture. The GB200 NVL72 supports exascale computing with 72 interconnected GPUs, offering 130 TB/s bandwidth for AI and HPC tasks. By maximizing the use of NVLink, AI training jobs can significantly improve performance. For optimal results in shared clusters, schedulers must...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Sachin Lakharia</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/building-token-metered-ai-services-on-telco-ai-factories/" target="_blank">Building Token‑Metered AI Services on Telco AI Factories</a></h2>
+            <div class="publication-date">2026-05-21 15:30</div>
+            <div class="summary">Telcos are developing sovereign AI factories using NVIDIA&#39;s Cloud Partner architecture. This initiative aims to provide governments and businesses with reliable in-country AI infrastructure. However, simply having infrastructure isn&#39;t enough for scalable AI services. The focus is shifting towards token-based billing for AI services, ensuring enterprises receive production-ready applications without the complexities of managing infrastructure. This approach allows enterprises to benefit from...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Waleed Badr</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://thenewstack.io/ci-for-coding-agents/" target="_blank">CI wasn’t built for coding agents. Here’s what comes next.</a></h2>
             <div class="publication-date">2026-05-21 14:30</div>
             <div class="summary">Integration tests have been a staple in CI pipelines, but as developers use coding agents for rapid iterations, traditional methods are struggling to keep up. 🚀 The article discusses a shift towards &#34;plans,&#34; which are smaller, agent-pickable checks that run in real environments, enhancing the testing process. It highlights the need for faster validation methods and proposes integrating agents directly into CI to streamline workflows. This approach aims to collapse the feedback loops, making...</div>
@@ -540,6 +574,23 @@
             <div class="source">Source: <a href="/sources/1password-blog">1Password Blog</a></div>
             
             <div class="author">info@1password.com (Rick Fillion; Wayne Duso; K.J. Valencik; Daryl Martin)</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" target="_blank">Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters</a></h2>
+            <div class="publication-date">2026-05-19 18:00</div>
+            <div class="summary">🚀 Real-time visibility into GPU usage is crucial for maximizing AI infrastructure. Many teams face challenges due to limited insights into GPU consumption on Kubernetes. The new GPU Usage Monitor, built on NVIDIA&#39;s DCGM Exporter, provides comprehensive tracking of GPU allocation, memory use, and pod status. It simplifies monitoring with a single Helm chart deployment. This tool addresses common issues like over-provisioning and pod starvation, enabling better resource utilization and timely...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Guy Saltoun</div>
             
             
             <div class="categories">
@@ -1043,55 +1094,6 @@
             <div class="source">Source: <a href="/sources/stack-overflow-blog">Stack Overflow Blog</a></div>
             
             <div class="author">Najmul Alam Miraj</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/" target="_blank">Migrating Data Ingestion Systems at Meta Scale</a></h2>
-            <div class="publication-date">2026-05-12 16:00</div>
-            <div class="summary">🚀 Meta has revamped its data ingestion system to improve reliability at scale. The transition from a legacy system to a new architecture involved a comprehensive migration of all data ingestion processes. Key strategies included establishing a clear migration lifecycle and robust controls for a smooth transition. This upgrade enhances efficiency for analytics and product development across the company. #DataIngestion #MetaEngineering #TechInnovation #DataMigration #BigData</div>
-            <div class="source">Source: <a href="/sources/engineering-at-meta">Engineering at Meta</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/quic-death-spiral-fix/" target="_blank">When &#34;idle&#34; isn&#39;t idle: how a Linux kernel optimization became a QUIC bug</a></h2>
-            <div class="publication-date">2026-05-12 13:00</div>
-            <div class="summary">A recent investigation revealed a bug in CUBIC, the default congestion controller in Linux, affecting QUIC performance at Cloudflare. The issue involved the congestion window becoming stuck at its minimum, leading to significant performance loss. The bug arose from a Linux kernel change intended to improve CUBIC&#39;s behavior. This change inadvertently caused unexpected issues in Cloudflare&#39;s open-source QUIC implementation, quiche. The resolution involved accurately assessing idle periods to...</div>
-            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
-            
-            <div class="author">Antonio Vicente</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2026/05/12/how-evalhub-manages-two-layer-kubernetes-control-planes" target="_blank">How EvalHub manages two-layer Kubernetes control planes</a></h2>
-            <div class="publication-date">2026-05-12 12:01</div>
-            <div class="summary">🔍 Discover how EvalHub efficiently manages AI evaluations with a two-layer Kubernetes control plane. Red Hat AI 3.4 features a unified orchestration layer that supports various evaluation frameworks, allowing for seamless onboarding and consistent scaling. The architecture includes the TrustyAI Service Operator for lifecycle management and the EvalHub Server for orchestration, facilitating robust experiment tracking and resource management. Learn more about integrating EvalHub into your...</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">William Caban Babilonia, Marius Ion Danciu, Rui Vieira, Matteo Mortari, Julian Payne</div>
             
             
             <div class="categories">

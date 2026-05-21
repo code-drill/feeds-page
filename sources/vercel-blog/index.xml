@@ -16,6 +16,27 @@
       <description>🚀 Grok Build 0.1 is now accessible on Vercel AI Gateway! This beta coding model is designed for agentic coding and is currently in early access. To utilize Grok Build 0.1, set the model to xai/grok-build-0.1 in the AI SDK. The AI Gateway offers a unified API for model calls, tracking usage, and performance optimizations. Explore more about AI Gateway, check out the model leaderboard, or try it in the model playground! #GrokBuild #Vercel #AIGateway #Coding #TechUpdates</description>
     </item>
     <item>
+      <title>Chat SDK adds message subjects and direct SDK access</title>
+      <link>/articles/article-2026-05-20-19254/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19254/</guid>
+      <description>🚀 Exciting updates for Chat SDK users! You can now view the parent issue or pull request when your bot is mentioned in Linear or GitHub comments. The new feature, message.subject, provides details like title, status, and URL. Additionally, direct access to platform SDKs is now available for GitHub, Linear, and Slack, allowing for enhanced bot capabilities. Discover more in the documentation! 📚 #ChatSDK #BotDevelopment #TechUpdates #APIs #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Chat SDK now includes AI SDK tools</title>
+      <link>/articles/article-2026-05-20-19253/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19253/</guid>
+      <description>🚀 Exciting news for developers! The Chat SDK now includes a built-in AI SDK toolset via the new chat/ai subpath. This update allows you to integrate read and write actions seamlessly with a simple createChatTools(chat) call. Key features include: - Approval by default for write tools - Presets for reader, messenger, and moderator - Lazy loading of tools based on your preset For more details, check the documentation or explore our templates! 📚 #ChatSDK #AISDK #DeveloperTools #TechUpdate #Coding</description>
+    </item>
+    <item>
+      <title>Chat SDK now supports callback URLs on buttons and modals</title>
+      <link>/articles/article-2026-05-20-19255/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19255/</guid>
+      <description>🚀 Exciting news for developers! The Chat SDK now allows you to pause Workflow runs on cards and resume them with button clicks. This feature also extends to form submissions. Buttons and modals now support a new &lt;code&gt;callbackUrl&lt;/code&gt; property to send event payloads to specified endpoints. Explore the documentation to start building! 📚💻 #ChatSDK #DeveloperUpdate #WorkflowAutomation #TechNews</description>
+    </item>
+    <item>
       <title>Vercel AI Gateway plugin for WordPress</title>
       <link>/articles/article-2026-05-20-19247/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>

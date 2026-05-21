@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 21:11:28 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NanoCo bets the future of enterprise AI is one sandboxed agent per employee</title>
+      <link>/articles/article-2026-05-20-19250/</link>
+      <pubDate>Wed, 20 May 2026 21:11:28 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19250/</guid>
+      <description>🚀 NanoCo, a Tel Aviv startup, has launched a new managed service that provides each employee with a personal AI agent using their open-source NanoClaw framework. These agents operate in isolated Docker sandboxes, ensuring security and adaptability to individual roles. Unlike traditional single shared assistants, NanoCo aims for tailored solutions for every employee. The company recently secured $12 million in seed funding, with notable interest from major firms. Their innovative approach is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Built for Productivity: What the Data Finally Shows About Kotlin</title>
+      <link>/articles/article-2026-05-20-19251/</link>
+      <pubDate>Wed, 20 May 2026 20:44:25 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19251/</guid>
+      <description>Kotlin&amp;rsquo;s design prioritizes developer productivity, focusing on convenience over complexity. A recent JetBrains study shows Kotlin developers spend 15%-20% less time on tasks compared to Java, emphasizing its efficiency. Key features like data classes, null safety, and coroutines enhance code readability and reduce boilerplate. These elements collectively make coding smoother and more efficient. Explore how Kotlin&amp;rsquo;s pragmatic approach shapes development! 🚀💻 #Kotlin #Productivity&amp;hellip;</description>
+    </item>
     <item>
       <title>Mastering Agentic Techniques: AI Agent Customization</title>
       <link>/articles/article-2026-05-20-19246/</link>
@@ -212,11 +226,46 @@
       <description>1Password has partnered with OpenAI to enhance security for AI coding agents like Codex. 🤖🔐 The new 1Password Environments MCP Server allows Codex to access credentials securely, without exposing sensitive information in code. This integration ensures that secrets are managed safely and only accessed when needed. Developers can now streamline workflows while maintaining control over credentials. 🔑💻 Learn more about this integration and its benefits for your coding projects! #1Password #OpenAI&amp;hellip;</description>
     </item>
     <item>
+      <title>Announcing etcd 3.7.0-beta.0</title>
+      <link>/articles/article-2026-05-20-19256/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19256/</guid>
+      <description>🚀 Exciting news from SIG-Etcd! The first beta release of etcd v3.7.0 is now available for testing. This update introduces the RangeStream feature, improving how large result sets are handled, enhancing security, and refining legacy components. 📅 Note: Version 3.4 has reached its end of life. Users are encouraged to upgrade to ensure continued support. For details and to provide feedback, check the documentation and reach out via GitHub or the #SIG-etcd Slack channel. #etcd #Kubernetes&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Chat SDK adds message subjects and direct SDK access</title>
+      <link>/articles/article-2026-05-20-19254/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19254/</guid>
+      <description>🚀 Exciting updates for Chat SDK users! You can now view the parent issue or pull request when your bot is mentioned in Linear or GitHub comments. The new feature, message.subject, provides details like title, status, and URL. Additionally, direct access to platform SDKs is now available for GitHub, Linear, and Slack, allowing for enhanced bot capabilities. Discover more in the documentation! 📚 #ChatSDK #BotDevelopment #TechUpdates #APIs #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Chat SDK now includes AI SDK tools</title>
+      <link>/articles/article-2026-05-20-19253/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19253/</guid>
+      <description>🚀 Exciting news for developers! The Chat SDK now includes a built-in AI SDK toolset via the new chat/ai subpath. This update allows you to integrate read and write actions seamlessly with a simple createChatTools(chat) call. Key features include: - Approval by default for write tools - Presets for reader, messenger, and moderator - Lazy loading of tools based on your preset For more details, check the documentation or explore our templates! 📚 #ChatSDK #AISDK #DeveloperTools #TechUpdate #Coding</description>
+    </item>
+    <item>
+      <title>Chat SDK now supports callback URLs on buttons and modals</title>
+      <link>/articles/article-2026-05-20-19255/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19255/</guid>
+      <description>🚀 Exciting news for developers! The Chat SDK now allows you to pause Workflow runs on cards and resume them with button clicks. This feature also extends to form submissions. Buttons and modals now support a new &lt;code&gt;callbackUrl&lt;/code&gt; property to send event payloads to specified endpoints. Explore the documentation to start building! 📚💻 #ChatSDK #DeveloperUpdate #WorkflowAutomation #TechNews</description>
+    </item>
+    <item>
       <title>From brief to breakthrough: giving Frontify&#39;s product story a pulse with Rive</title>
       <link>/articles/article-2026-05-20-19240/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-20-19240/</guid>
       <description>Discover how OFF+BRAND transformed Frontify&amp;rsquo;s product narrative using Rive. 🌟 They crafted an interactive experience that combines scrolling and clicking, enhancing user engagement. This innovative approach allows users to connect more deeply with the brand&amp;rsquo;s story. Learn more about this creative process and its impact! #InteractiveDesign #UserExperience #BrandStory #Frontify #Rive</description>
+    </item>
+    <item>
+      <title>Gemini 3.5 Flash now available in Agent Runners</title>
+      <link>/articles/article-2026-05-20-19252/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-20-19252/</guid>
+      <description>🚀 Exciting news! Google&amp;rsquo;s Gemini 3.5 Flash model is now accessible via Netlify&amp;rsquo;s Agent Runners. This new feature requires zero configuration, making it easier for developers to integrate. For more details, check out the Agent Runners documentation. #GoogleGemini #Netlify #AgentRunners #TechUpdate #AI</description>
     </item>
     <item>
       <title>How to Protect Identities and Sessions from Infostealers</title>

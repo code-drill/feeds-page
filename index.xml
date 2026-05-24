@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who’s monitoring the agents?</title>
+      <link>/articles/article-2026-05-24-19366/</link>
+      <pubDate>Sun, 24 May 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-24-19366/</guid>
+      <description>Recent developments in AI frameworks like CrewAI, AutoGen, and LangGraph have shifted from demos to real-world applications. Teams are now using these tools for tasks such as incident response and automation, but challenges arise once these systems are operational. Many teams lack the visibility needed to monitor multi-agent systems effectively. Issues can surface when requests become overly complex, leading to inefficiencies and potential data leaks. Current monitoring tools fall short,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Jaeger hit 8.6× compression on 10 million spans with ClickHouse</title>
+      <link>/articles/article-2026-05-24-19367/</link>
+      <pubDate>Sun, 24 May 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-24-19367/</guid>
+      <description>🚀 Jaeger has introduced ClickHouse support in version 2.18.0, responding to user requests for efficient telemetry solutions. ClickHouse&amp;rsquo;s architecture is tailored for handling large write streams and complex analytics quickly, making it a strong choice for Jaeger’s distributed tracing. With its columnar storage, users can expect faster queries and better data compression, enhancing the overall performance of monitoring services. 📊 Learn more about the integration and its benefits in the full&amp;hellip;</description>
+    </item>
     <item>
       <title>What ClickHouse learned from a year of coding with AI agents</title>
       <link>/articles/article-2026-05-24-19365/</link>

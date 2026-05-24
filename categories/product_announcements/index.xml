@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 19:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Jaeger hit 8.6× compression on 10 million spans with ClickHouse</title>
+      <link>/articles/article-2026-05-24-19367/</link>
+      <pubDate>Sun, 24 May 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-24-19367/</guid>
+      <description>🚀 Jaeger has introduced ClickHouse support in version 2.18.0, responding to user requests for efficient telemetry solutions. ClickHouse&amp;rsquo;s architecture is tailored for handling large write streams and complex analytics quickly, making it a strong choice for Jaeger’s distributed tracing. With its columnar storage, users can expect faster queries and better data compression, enhancing the overall performance of monitoring services. 📊 Learn more about the integration and its benefits in the full&amp;hellip;</description>
+    </item>
     <item>
       <title>Observability for any agent, anywhere: Production-ready tracing with OpenTelemetry &amp; Unity Catalog on Databricks</title>
       <link>/articles/article-2026-05-22-19351/</link>

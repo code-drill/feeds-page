@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 20:35:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 07:01:32 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCP servers vs. skills: Choosing the right context for your AI</title>
+      <link>/articles/article-2026-05-25-19369/</link>
+      <pubDate>Mon, 25 May 2026 07:01:32 +0000</pubDate>
+      <guid>/articles/article-2026-05-25-19369/</guid>
+      <description>Large language models (LLMs) are powerful when given the right context. The article discusses two methods to enhance LLM capabilities: Model Context Protocol (MCP) servers and skills. MCP servers connect LLMs to external data, streamlining access and ensuring secure data handling. This allows models to retrieve and process real-time information efficiently. On the other hand, skills provide structured instructions for consistent output and specialized tasks. They help LLMs execute repetitive&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to route external and local LLMs with Models-as-a-Service</title>
+      <link>/articles/article-2026-05-25-19370/</link>
+      <pubDate>Mon, 25 May 2026 07:01:29 +0000</pubDate>
+      <guid>/articles/article-2026-05-25-19370/</guid>
+      <description>AI applications often face challenges when integrating multiple model providers like OpenAI and Anthropic directly into their code. This can complicate switching models and managing requests. To address this, a gateway can be introduced between applications and model providers, allowing for a consistent API while handling routing separately. With Red Hat OpenShift AI 3.4, the Models-as-a-Service (MaaS) capability simplifies this process, offering centralized governance for both self-hosted&amp;hellip;</description>
+    </item>
     <item>
       <title>The Pulse: Forward deployed engineering heats up again</title>
       <link>/articles/article-2026-05-24-19368/</link>

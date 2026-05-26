@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 00:40:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 07:01:20 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing infrastructure red teaming with abliterated models</title>
+      <link>/articles/article-2026-05-26-19377/</link>
+      <pubDate>Tue, 26 May 2026 07:01:20 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19377/</guid>
+      <description>🔍 Testing the security of agent workloads on Red Hat OpenShift has revealed critical insights. The study deployed OpenClaw and utilized custom probes across various attack categories. Five models were tested, with abliterated models showing 100% cooperation on adversarial prompts, highlighting the importance of infrastructure as a final security measure. Key findings include: - Tier 0 (no controls) saw significant credential exfiltration. - Adding an SSH sandbox (Tier 1) eliminated sensitive&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Solutions for SELinux MCS challenges with GitLab runners</title>
+      <link>/articles/article-2026-05-26-19379/</link>
+      <pubDate>Tue, 26 May 2026 07:01:15 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19379/</guid>
+      <description>🚀 SELinux Multi-Category Security (MCS) poses challenges for GitLab runners by restricting access between containers sharing volumes. GNOME addresses this issue with fixed MCS labels but compromises isolation. The article explores potential solutions, including microVM isolation using Cloud Hypervisor and Firecracker. Discover how these technologies may enhance security in CI environments. 🔍💻 #SELinux #GitLab #MicroVM #CloudHypervisor #DevOps</description>
+    </item>
     <item>
       <title>Scaling for MHHS: how Octopus Energy achieved a 50x cost reduction in margin data engineering</title>
       <link>/articles/article-2026-05-23-19355/</link>

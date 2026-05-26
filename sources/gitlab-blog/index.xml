@@ -6,8 +6,22 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full security scanner coverage of your codebase in minutes</title>
+      <link>/articles/article-2026-05-26-19385/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19385/</guid>
+      <description>🔍 Security teams face challenges in scaling scanner configurations as organizations grow. GitLab 19.0 introduces security configuration profiles, allowing teams to centrally manage how and when security scanners run across projects. 🚀 This feature streamlines the process, enabling static application security testing (SAST), dependency scanning, and secret detection with minimal manual setup. 💡 With default profiles, teams can easily ensure consistent security coverage across all projects. For&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Reduce supply chain risk with SBOM-based dependency scanning</title>
+      <link>/articles/article-2026-05-26-19386/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19386/</guid>
+      <description>🔍 Third-party code poses risks in software development, with recent incidents showing how compromised packages can impact multiple projects. GitLab 19.0 introduces SBOM-based dependency scanning, which tracks both direct and transitive dependencies. This tool helps developers identify vulnerable packages and their sources, ensuring better project security. With continuous scanning and integration into merge requests, teams can address vulnerabilities effectively. #SupplyChainSecurity #GitLab&amp;hellip;</description>
+    </item>
     <item>
       <title>GitLab 19.0 released</title>
       <link>/articles/article-2026-05-21-19296/</link>

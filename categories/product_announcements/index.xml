@@ -6,8 +6,22 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 17:32:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 22:08:56 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning</title>
+      <link>/articles/article-2026-05-26-19407/</link>
+      <pubDate>Tue, 26 May 2026 22:08:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19407/</guid>
+      <description>NVIDIA CompileIQ addresses a key challenge in performance engineering: optimizing compiler options for specific workloads. With the release of CUDA 13.3, CompileIQ introduces an AI-driven auto-tuning framework. It utilizes evolutionary algorithms to tailor compiler configurations for individual tasks, enhancing GPU performance. This innovation is crucial for maximizing throughput, especially in AI infrastructure, where small performance gains can significantly impact overall application&amp;hellip;</description>
+    </item>
+    <item>
+      <title>NVIDIA CUDA 13.3 Enhances GPU Development with Tile Programming in C&#43;&#43;, Compiler Autotuning, and Python Updates</title>
+      <link>/articles/article-2026-05-26-19409/</link>
+      <pubDate>Tue, 26 May 2026 21:39:17 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19409/</guid>
+      <description>🚀 NVIDIA has launched CUDA 13.3, introducing Tile programming in C++ for enhanced GPU development. This feature simplifies kernel creation while improving performance and portability across various GPU architectures. 🖥️ CUDA Python 1.0 is also here, ensuring stability with features like green contexts and process checkpointing. ⚡ For performance improvements, the new CompileIQ framework offers up to a 15% speedup on critical kernels. Key updates include official C++23 support and enhanced&amp;hellip;</description>
+    </item>
     <item>
       <title>Google ranks the best AI for building Android apps, and the winner isn’t Gemini</title>
       <link>/articles/article-2026-05-26-19388/</link>
@@ -28,6 +42,13 @@
       <pubDate>Tue, 26 May 2026 14:40:15 +0000</pubDate>
       <guid>/articles/article-2026-05-26-19393/</guid>
       <description>🚀 The Early Access Program (EAP) for IntelliJ IDEA 2026.2 is now live! The first builds can be accessed via the Toolbox App, website, and Ubuntu snap. EAP builds are free to use, and your feedback is essential for finalizing the release. Key updates include AI-assisted coding features, improved debugging tools, and revamped dependency completion. The IDE will support full method generation and advanced debugging capabilities, including the new Hibernate Debugger. Explore these features and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sandbox persistence is now GA</title>
+      <link>/articles/article-2026-05-26-19411/</link>
+      <pubDate>Tue, 26 May 2026 00:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19411/</guid>
+      <description>🚀 Exciting news for Vercel users! Sandboxes now have automatic filesystem persistence between sessions. This feature is enabled by default, simplifying your workflow without the need for manual snapshot management. Each sandbox can be uniquely named for easy retrieval and resumption. You can also opt out of persistence to save on storage costs when needed. New commands allow for sandbox creation, deletion, and metadata access. Upgrade now to start using these enhancements! #Vercel&amp;hellip;</description>
     </item>
     <item>
       <title>Enhancing Android Checkout with Dynamic Callbacks in Google Pay</title>
@@ -56,6 +77,13 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-26-19386/</guid>
       <description>🔍 Third-party code poses risks in software development, with recent incidents showing how compromised packages can impact multiple projects. GitLab 19.0 introduces SBOM-based dependency scanning, which tracks both direct and transitive dependencies. This tool helps developers identify vulnerable packages and their sources, ensuring better project security. With continuous scanning and integration into merge requests, teams can address vulnerabilities effectively. #SupplyChainSecurity #GitLab&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Domains now supports price sorting and availability filtering</title>
+      <link>/articles/article-2026-05-26-19412/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19412/</guid>
+      <description>🚀 Vercel Domains has introduced new features to enhance your domain search experience! Now, you can sort domains by price, helping you find affordable options quickly. Additionally, unavailable domains will be filtered to the bottom, allowing you to focus on what you can actually purchase. Explore these updates at vercel.com/domains! #Vercel #Domains #WebDevelopment #TechUpdates 🌐✨</description>
     </item>
     <item>
       <title>AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:01:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sandbox persistence is now GA</title>
+      <link>/articles/article-2026-05-26-19411/</link>
+      <pubDate>Tue, 26 May 2026 00:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19411/</guid>
+      <description>🚀 Exciting news for Vercel users! Sandboxes now have automatic filesystem persistence between sessions. This feature is enabled by default, simplifying your workflow without the need for manual snapshot management. Each sandbox can be uniquely named for easy retrieval and resumption. You can also opt out of persistence to save on storage costs when needed. New commands allow for sandbox creation, deletion, and metadata access. Upgrade now to start using these enhancements! #Vercel&amp;hellip;</description>
+    </item>
     <item>
       <title>Firecrawl joins the Vercel Marketplace</title>
       <link>/articles/article-2026-05-26-19399/</link>
@@ -21,6 +28,13 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-26-19380/</guid>
       <description>🚀 This week, Vercel is updating its Microfrontends routing for aliases and branch domains. 🔗 Now, when you alias a Microfrontends URL with a vc alias, it retains the complete routing configuration from the source deployment. 🌐 Additionally, project domains assigned to a git branch will route across all projects sharing that branch name, enhancing connectivity. For more details, check the Microfrontends documentation! #Vercel #Microfrontends #WebDevelopment #TechUpdate #Routing</description>
+    </item>
+    <item>
+      <title>Vercel Domains now supports price sorting and availability filtering</title>
+      <link>/articles/article-2026-05-26-19412/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19412/</guid>
+      <description>🚀 Vercel Domains has introduced new features to enhance your domain search experience! Now, you can sort domains by price, helping you find affordable options quickly. Additionally, unavailable domains will be filtered to the bottom, allowing you to focus on what you can actually purchase. Explore these updates at vercel.com/domains! #Vercel #Domains #WebDevelopment #TechUpdates 🌐✨</description>
     </item>
     <item>
       <title>Pull anomaly alert details using the Vercel CLI</title>

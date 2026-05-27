@@ -6,8 +6,29 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 22:08:56 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning</title>
+      <link>/articles/article-2026-05-26-19407/</link>
+      <pubDate>Tue, 26 May 2026 22:08:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19407/</guid>
+      <description>NVIDIA CompileIQ addresses a key challenge in performance engineering: optimizing compiler options for specific workloads. With the release of CUDA 13.3, CompileIQ introduces an AI-driven auto-tuning framework. It utilizes evolutionary algorithms to tailor compiler configurations for individual tasks, enhancing GPU performance. This innovation is crucial for maximizing throughput, especially in AI infrastructure, where small performance gains can significantly impact overall application&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Develop High-Performance GPU Kernels in C&#43;&#43; with NVIDIA CUDA Tile</title>
+      <link>/articles/article-2026-05-26-19408/</link>
+      <pubDate>Tue, 26 May 2026 21:40:16 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19408/</guid>
+      <description>Unlock the power of GPU programming with NVIDIA&amp;rsquo;s CUDA Tile! 🚀 The recently launched CUDA 13.3 allows developers to create optimized GPU kernels in C++ using tile-based abstractions. This feature simplifies GPU programming by automating parallelism and memory management. CUDA Tile C++ supports multi-dimensional arrays and enhances performance across different NVIDIA GPU architectures. It&amp;rsquo;s a game-changer for maximizing hardware capabilities without extensive code rewrites. 💻✨ #NVIDIA #CUDA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>NVIDIA CUDA 13.3 Enhances GPU Development with Tile Programming in C&#43;&#43;, Compiler Autotuning, and Python Updates</title>
+      <link>/articles/article-2026-05-26-19409/</link>
+      <pubDate>Tue, 26 May 2026 21:39:17 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19409/</guid>
+      <description>🚀 NVIDIA has launched CUDA 13.3, introducing Tile programming in C++ for enhanced GPU development. This feature simplifies kernel creation while improving performance and portability across various GPU architectures. 🖥️ CUDA Python 1.0 is also here, ensuring stability with features like green contexts and process checkpointing. ⚡ For performance improvements, the new CompileIQ framework offers up to a 15% speedup on critical kernels. Key updates include official C++23 support and enhanced&amp;hellip;</description>
+    </item>
     <item>
       <title>Run Key Genomics and Protein Folding Workloads Faster with NVIDIA RTX PRO 4500 Blackwell</title>
       <link>/articles/article-2026-05-26-19391/</link>

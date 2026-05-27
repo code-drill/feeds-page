@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 20:12:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 22:08:56 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning</title>
+      <link>/articles/article-2026-05-26-19407/</link>
+      <pubDate>Tue, 26 May 2026 22:08:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19407/</guid>
+      <description>NVIDIA CompileIQ addresses a key challenge in performance engineering: optimizing compiler options for specific workloads. With the release of CUDA 13.3, CompileIQ introduces an AI-driven auto-tuning framework. It utilizes evolutionary algorithms to tailor compiler configurations for individual tasks, enhancing GPU performance. This innovation is crucial for maximizing throughput, especially in AI infrastructure, where small performance gains can significantly impact overall application&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Develop High-Performance GPU Kernels in C&#43;&#43; with NVIDIA CUDA Tile</title>
+      <link>/articles/article-2026-05-26-19408/</link>
+      <pubDate>Tue, 26 May 2026 21:40:16 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19408/</guid>
+      <description>Unlock the power of GPU programming with NVIDIA&amp;rsquo;s CUDA Tile! 🚀 The recently launched CUDA 13.3 allows developers to create optimized GPU kernels in C++ using tile-based abstractions. This feature simplifies GPU programming by automating parallelism and memory management. CUDA Tile C++ supports multi-dimensional arrays and enhances performance across different NVIDIA GPU architectures. It&amp;rsquo;s a game-changer for maximizing hardware capabilities without extensive code rewrites. 💻✨ #NVIDIA #CUDA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>NVIDIA CUDA 13.3 Enhances GPU Development with Tile Programming in C&#43;&#43;, Compiler Autotuning, and Python Updates</title>
+      <link>/articles/article-2026-05-26-19409/</link>
+      <pubDate>Tue, 26 May 2026 21:39:17 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19409/</guid>
+      <description>🚀 NVIDIA has launched CUDA 13.3, introducing Tile programming in C++ for enhanced GPU development. This feature simplifies kernel creation while improving performance and portability across various GPU architectures. 🖥️ CUDA Python 1.0 is also here, ensuring stability with features like green contexts and process checkpointing. ⚡ For performance improvements, the new CompileIQ framework offers up to a 15% speedup on critical kernels. Key updates include official C++23 support and enhanced&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI readiness in telecommunications</title>
+      <link>/articles/article-2026-05-26-19413/</link>
+      <pubDate>Tue, 26 May 2026 21:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19413/</guid>
+      <description>Telecom companies are keen on AI, with 97% of executives adopting it. However, many initiatives struggle to reach production scale. The main issue is &amp;ldquo;data debt,&amp;rdquo; which refers to fragmented and ungoverned data that hampers effective AI use, rather than problems with the quality of AI models. 📊🤖📉 #Telecommunications #AI #DataManagement #TechTrends #Innovation</description>
+    </item>
     <item>
       <title>From cost center to growth engine: 5 lessons from Leadership Circle’s AI-first support transformation</title>
       <link>/articles/article-2026-05-26-19406/</link>
@@ -149,6 +177,13 @@
       <description>🚀 SELinux Multi-Category Security (MCS) poses challenges for GitLab runners by restricting access between containers sharing volumes. GNOME addresses this issue with fixed MCS labels but compromises isolation. The article explores potential solutions, including microVM isolation using Cloud Hypervisor and Firecracker. Discover how these technologies may enhance security in CI environments. 🔍💻 #SELinux #GitLab #MicroVM #CloudHypervisor #DevOps</description>
     </item>
     <item>
+      <title>Protecting your Supabase projects from npm supply chain attacks</title>
+      <link>/articles/article-2026-05-26-19410/</link>
+      <pubDate>Tue, 26 May 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19410/</guid>
+      <description>🔒 Protect your Supabase projects from npm supply chain attacks! Supabase is actively addressing these vulnerabilities and offers practical steps to help you reduce risks. Stay informed and take action today to safeguard your projects. #Supabase #npm #CyberSecurity #SupplyChainSecurity #TechTips</description>
+    </item>
+    <item>
       <title>Run your first microbuild in 5 minutes</title>
       <link>/articles/article-2026-05-26-19403/</link>
       <pubDate>Tue, 26 May 2026 07:00:00 +0000</pubDate>
@@ -168,6 +203,13 @@
       <pubDate>Tue, 26 May 2026 00:31:15 +0000</pubDate>
       <guid>/articles/article-2026-05-26-19375/</guid>
       <description>🚀 As enterprises rapidly adopt AI agents, governance strategies often remain fragmented. Salesforce Engineering highlights the need for a unified governance approach. By shifting focus from individual agent security to platform-level governance, they address identity, data, and API security gaps. The article explores how consistent identity propagation enhances security across multi-system workflows. This ensures reliable authorization and access controls, supporting every interaction&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sandbox persistence is now GA</title>
+      <link>/articles/article-2026-05-26-19411/</link>
+      <pubDate>Tue, 26 May 2026 00:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19411/</guid>
+      <description>🚀 Exciting news for Vercel users! Sandboxes now have automatic filesystem persistence between sessions. This feature is enabled by default, simplifying your workflow without the need for manual snapshot management. Each sandbox can be uniquely named for easy retrieval and resumption. You can also opt out of persistence to save on storage costs when needed. New commands allow for sandbox creation, deletion, and metadata access. Upgrade now to start using these enhancements! #Vercel&amp;hellip;</description>
     </item>
     <item>
       <title>5 data foundation and technology stack gaps stalling your AI agents</title>
@@ -224,6 +266,13 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-26-19386/</guid>
       <description>🔍 Third-party code poses risks in software development, with recent incidents showing how compromised packages can impact multiple projects. GitLab 19.0 introduces SBOM-based dependency scanning, which tracks both direct and transitive dependencies. This tool helps developers identify vulnerable packages and their sources, ensuring better project security. With continuous scanning and integration into merge requests, teams can address vulnerabilities effectively. #SupplyChainSecurity #GitLab&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Domains now supports price sorting and availability filtering</title>
+      <link>/articles/article-2026-05-26-19412/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-26-19412/</guid>
+      <description>🚀 Vercel Domains has introduced new features to enhance your domain search experience! Now, you can sort domains by price, helping you find affordable options quickly. Additionally, unavailable domains will be filtered to the bottom, allowing you to focus on what you can actually purchase. Explore these updates at vercel.com/domains! #Vercel #Domains #WebDevelopment #TechUpdates 🌐✨</description>
     </item>
     <item>
       <title>AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)</title>

@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 20:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 23:09:52 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes</title>
+      <link>/articles/article-2026-05-27-19462/</link>
+      <pubDate>Wed, 27 May 2026 23:09:52 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19462/</guid>
+      <description>NVIDIA&amp;rsquo;s latest article highlights the challenges of the cold-start problem in inference deployments on Kubernetes. 🚀 As demand fluctuates, scaling inference replicas is crucial, but cold starts can take several minutes, leaving GPUs idle and increasing the risk of SLA violations during peak traffic. 📈 Understanding these delays is key to improving system responsiveness. #NVIDIA #Kubernetes #CloudComputing #MachineLearning #InferenceWorkloads</description>
+    </item>
     <item>
       <title>Reliable LLM Inference at Scale</title>
       <link>/articles/article-2026-05-27-19456/</link>
@@ -254,6 +261,13 @@
       <description>🌐 The article discusses the development of a FHIR-native health data platform on Databricks Lakebase. Health Samurai is key in standardizing clinical data from various sources, including HL7v2 and C-CDA, into FHIR format. This process includes terminology normalization and patient deduplication. Aidbox operates seamlessly on Databricks Lakebase, enhancing integration and data management in healthcare. #HealthTech #FHIR #DataManagement #HealthcareInnovation #Databricks</description>
     </item>
     <item>
+      <title>Beyond the Menu Tree: How Yelp Built a Smarter Customer Success Chatbot with AI</title>
+      <link>/articles/article-2026-05-27-19464/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19464/</guid>
+      <description>🚀 Yelp has transformed its Customer Success Chatbot from a static support model to a dynamic AI-driven system. The new chatbot utilizes a Retrieval Augmented Generation (RAG) pipeline, connecting to Yelp’s knowledge base to provide accurate, context-rich responses. It routes queries through five specialized workflows, enhancing user interactions. Key features include a Question/Answering workflow, along with dedicated paths for billing, refunds, cancellations, and reviews. This ensures users&amp;hellip;</description>
+    </item>
+    <item>
       <title>Do Not Let Your AI Go Rogue, Guard Against Agentic Misalignment</title>
       <link>/articles/article-2026-05-27-19444/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
@@ -315,6 +329,13 @@
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-27-19451/</guid>
       <description>🚀 Google Pay is evolving to enhance &amp;ldquo;agentic commerce&amp;rdquo;! The platform introduces the Universal Commerce Protocol, enabling seamless integration with existing systems. New updates for Android include dynamic callbacks for easier checkouts and expanded payment support in social media apps. Cross-device biometric authentication and advanced transaction signals will help merchants reduce friction and cut costs. #GooglePay #AgenticCommerce #DigitalPayments #TechUpdates #Ecommerce</description>
+    </item>
+    <item>
+      <title>Where Railway is, and where it&#39;s going (Summer 2026)</title>
+      <link>/articles/article-2026-05-27-19463/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19463/</guid>
+      <description>🚂 Exciting updates from Railway! This quarter, Railway is focusing on rebuilding customer trust and enhancing the product. Key initiatives include launching a second-generation hardware platform and improving data center capacity. New features aim to refine the user experience, from better API interactions to a mobile app launch for Android users. Investments in support and feedback processes are underway, with the goal of streamlining operations. Stay tuned for more updates! #Railway&amp;hellip;</description>
     </item>
     <item>
       <title>Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning</title>

@@ -16,6 +16,13 @@
       <description>🚀 Keeping up with rapidly changing APIs can be a challenge. At Red Hat OpenShift AI, we faced this issue with Llama Stack, where mocked unit tests failed to reflect real-time changes. To solve this, we integrated a real Llama Stack server into our testing. By using its record-replay functionality, we avoided costly LLM calls while ensuring reliability in our tests. Now, our daily workflow includes a Slack sentinel that alerts us about compatibility, giving us early warnings on potential&amp;hellip;</description>
     </item>
     <item>
+      <title>Building a FHIR-native health data platform on Databricks Lakebase</title>
+      <link>/articles/article-2026-05-27-19420/</link>
+      <pubDate>Wed, 27 May 2026 01:14:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19420/</guid>
+      <description>🌐 The article discusses the development of a FHIR-native health data platform on Databricks Lakebase. Health Samurai is key in standardizing clinical data from various sources, including HL7v2 and C-CDA, into FHIR format. This process includes terminology normalization and patient deduplication. Aidbox operates seamlessly on Databricks Lakebase, enhancing integration and data management in healthcare. #HealthTech #FHIR #DataManagement #HealthcareInnovation #Databricks</description>
+    </item>
+    <item>
       <title>Develop High-Performance GPU Kernels in C&#43;&#43; with NVIDIA CUDA Tile</title>
       <link>/articles/article-2026-05-26-19408/</link>
       <pubDate>Tue, 26 May 2026 21:40:16 +0000</pubDate>

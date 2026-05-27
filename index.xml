@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 07:16:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 08:53:10 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability</title>
+      <link>/articles/article-2026-05-27-19419/</link>
+      <pubDate>Wed, 27 May 2026 08:53:10 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19419/</guid>
+      <description>🚀 Exciting news from KotlinConf 2026! JetBrains has announced Koog 1.0, their open-source framework for building AI agents in Kotlin and Java. Koog 1.0 focuses on stability, ensuring no breaking changes for stable modules for at least one year. Key updates include improved Android AI support, a refined Java interop layer, and enhanced persistence for long-running agents. Explore the Koog 1.0 release notes for all the details and improvements. Thank you to the community for your feedback and&amp;hellip;</description>
+    </item>
     <item>
       <title>Running AI inference on Rebellions ATOM NPU with Red Hat AI</title>
       <link>/articles/article-2026-05-27-19417/</link>
@@ -21,6 +28,13 @@
       <pubDate>Wed, 27 May 2026 07:16:01 +0000</pubDate>
       <guid>/articles/article-2026-05-27-19418/</guid>
       <description>🚀 Keeping up with rapidly changing APIs can be a challenge. At Red Hat OpenShift AI, we faced this issue with Llama Stack, where mocked unit tests failed to reflect real-time changes. To solve this, we integrated a real Llama Stack server into our testing. By using its record-replay functionality, we avoided costly LLM calls while ensuring reliability in our tests. Now, our daily workflow includes a Slack sentinel that alerts us about compatibility, giving us early warnings on potential&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a FHIR-native health data platform on Databricks Lakebase</title>
+      <link>/articles/article-2026-05-27-19420/</link>
+      <pubDate>Wed, 27 May 2026 01:14:56 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19420/</guid>
+      <description>🌐 The article discusses the development of a FHIR-native health data platform on Databricks Lakebase. Health Samurai is key in standardizing clinical data from various sources, including HL7v2 and C-CDA, into FHIR format. This process includes terminology normalization and patient deduplication. Aidbox operates seamlessly on Databricks Lakebase, enhancing integration and data management in healthcare. #HealthTech #FHIR #DataManagement #HealthcareInnovation #Databricks</description>
     </item>
     <item>
       <title>Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning</title>

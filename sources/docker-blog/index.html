@@ -451,11 +451,17 @@
         <article class="article-item">
             <h2><a href="https://www.docker.com/blog/mitigating-cve-2026-31431-copy-fail-in-docker-engine/" target="_blank">Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</a></h2>
             <div class="publication-date">2026-05-27 13:00</div>
-            <div class="summary"></div>
+            <div class="summary">🚨 A new Linux kernel vulnerability, CVE-2026-31431 (“Copy Fail”), has been disclosed. While it does not compromise Docker infrastructure, Docker Engine versions prior to v29.4.3 allowed certain risks. Docker containers could create AF_ALG sockets, which the exploit uses. If you&#39;re using Docker Engine v29.4.3 or have a patched host kernel, you’re safe. 🛡️ For those on unpatched systems, a kernel fix is available for Debian and RHEL 9, but not yet for Ubuntu. Upgrading Docker Engine can help...</div>
             <div class="source">Source: Docker Blog</div>
             
             <div class="author">Paweł Gronowski</div>
             
+            
+            <div class="categories">
+                
+                <a href="/categories/security_compliance" class="category-text">Security Compliance</a>
+                
+            </div>
             
         </article>
         

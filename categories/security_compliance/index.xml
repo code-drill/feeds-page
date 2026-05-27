@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</title>
+      <link>/articles/article-2026-05-27-19428/</link>
+      <pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19428/</guid>
+      <description>🚨 A new Linux kernel vulnerability, CVE-2026-31431 (“Copy Fail”), has been disclosed. While it does not compromise Docker infrastructure, Docker Engine versions prior to v29.4.3 allowed certain risks. Docker containers could create AF_ALG sockets, which the exploit uses. If you&amp;rsquo;re using Docker Engine v29.4.3 or have a patched host kernel, you’re safe. 🛡️ For those on unpatched systems, a kernel fix is available for Debian and RHEL 9, but not yet for Ubuntu. Upgrading Docker Engine can help&amp;hellip;</description>
+    </item>
     <item>
       <title>Gartner&#39;s Hype Cycle for Agentic AI flags security risks across every agent category</title>
       <link>/articles/article-2026-05-27-19426/</link>

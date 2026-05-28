@@ -6,8 +6,22 @@
     <description>Recent content in HashiCorp-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/hashicorp-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCIM in HashiCorp Vault standardizes provisioning in platforms</title>
+      <link>/articles/article-2026-05-28-19489/</link>
+      <pubDate>Thu, 28 May 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19489/</guid>
+      <description>HashiCorp Vault 2.0 has introduced beta SCIM support, allowing organizations to standardize user and group provisioning from external identity platforms. This feature enhances identity lifecycle management, aligning Vault with authoritative identity providers. It minimizes configuration drift and strengthens governance by automating workflows for joiners, movers, and leavers. 🔒 Teams can now use a consistent, standards-based approach to manage identities, improving compliance and scalability&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Consul 2.0 improves flexibility, control, and scalability</title>
+      <link>/articles/article-2026-05-27-19447/</link>
+      <pubDate>Wed, 27 May 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19447/</guid>
+      <description>🚀 Exciting updates in HashiCorp Consul 2.0! This release enhances the service networking platform with key features like multi-port support for service mesh on Kubernetes and integration with CyberArk Workload Identity Manager. New capabilities include global rate limiting for RPC traffic and auto-scaling for the API gateway, improving flexibility and scalability in dynamic environments. #HashiCorp #Consul #ServiceMesh #Kubernetes #CloudComputing 🌐</description>
+    </item>
     <item>
       <title>Encrypting large artifacts and streaming workloads with Vault</title>
       <link>/articles/article-2026-05-20-19248/</link>

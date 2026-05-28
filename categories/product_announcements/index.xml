@@ -6,8 +6,22 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 18:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why AWS scrapped OpenSearch’s architecture to chase agent workloads</title>
+      <link>/articles/article-2026-05-28-19494/</link>
+      <pubDate>Thu, 28 May 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19494/</guid>
+      <description>AWS has launched a major rebuild of its OpenSearch Serverless to better cater to agent workloads. This overhaul aims to reduce costs by up to 60% when compared to traditional clusters. The new architecture separates storage and compute, allowing resources to scale to zero when idle. This change addresses the bursty usage patterns typical of AI agents. Additionally, the service now auto-scales 20 times faster. Key features include support for search and vector collections at launch, as well as&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.8 is here: effort controls, dynamic workflows, cheaper fast mode, better honesty, less deception</title>
+      <link>/articles/article-2026-05-28-19495/</link>
+      <pubDate>Thu, 28 May 2026 18:08:36 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19495/</guid>
+      <description>🚀 Anthropic has launched Claude Opus 4.8, enhancing user control with new effort settings. Users can now adjust Claude&amp;rsquo;s performance for various tasks, allowing for faster or more in-depth responses. The model can also handle larger coding projects through dynamic workflows. Additionally, the fast mode is now three times cheaper, and the model boasts improved honesty and support for user autonomy. #ClaudeOpus #AIInnovation #Anthropic #TechUpdate #AI</description>
+    </item>
     <item>
       <title>SCIM in HashiCorp Vault standardizes provisioning in platforms</title>
       <link>/articles/article-2026-05-28-19489/</link>
@@ -51,11 +65,39 @@
       <description>🚀 Exciting news! Claude Opus 4.8 is now available on Vercel AI Gateway. This model is designed for long-horizon tasks and can manage complex coding activities without the need for human corrections. It also improves clarity in document drafting and data analysis. To access Opus 4.8, set the model to anthropic/claude-opus-4.8 in the AI SDK. AI Gateway offers a unified API for model usage, tracking, and performance optimizations, with no platform fees. #AI #ClaudeOpus #Vercel #TechUpdates&amp;hellip;</description>
     </item>
     <item>
+      <title>Amazon OpenSearch Serverless is now available in the Vercel Marketplace</title>
+      <link>/articles/article-2026-05-28-19502/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19502/</guid>
+      <description>🚀 Exciting news for developers! Amazon OpenSearch Serverless is now in the Vercel Marketplace. With this integration, you can easily provision OpenSearch collections directly from the Vercel dashboard, benefiting from automatic configuration and unified management of your search resources. Enjoy enhanced scalability and cost savings while building your applications! Get started today and receive $100 in credits if you create a new AWS account through Vercel. #AmazonOpenSearch&amp;hellip;</description>
+    </item>
+    <item>
       <title>Claude Opus 4.8 on GitLab: Complex agentic work, less disruption</title>
       <link>/articles/article-2026-05-28-19484/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-28-19484/</guid>
       <description>🚀 Anthropic has launched Claude Opus 4.8 on GitLab, designed for precise execution in complex multi-step tasks. This model enhances agent performance, ensuring tasks transition smoothly from intent to production. Opus 4.8 improves long-horizon execution, making teams&amp;rsquo; workflows more efficient. Additionally, it supports mid-conversation system prompts, allowing for real-time updates without losing context. Get started with GitLab Duo Agent Platform today! #GitLab #AI #ClaudeOpus&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Stack 8.19.16 released</title>
+      <link>/articles/article-2026-05-28-19498/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19498/</guid>
+      <description>🚀 Version 8.19.16 of the Elastic Stack is now available! This update includes important fixes for potential security vulnerabilities. Users are encouraged to upgrade from version 8.19.15 for better security. For a detailed list of changes and issues resolved, please check the release notes. #ElasticStack #SoftwareUpdate #CyberSecurity #TechNews #VersionRelease</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.3.5 released</title>
+      <link>/articles/article-2026-05-28-19500/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19500/</guid>
+      <description>🚀 The Elastic Stack has released version 9.3.5! This update includes important security fixes, and it is recommended to upgrade from version 9.3.4. For a comprehensive list of changes and resolved issues, check the release notes. Stay secure and updated! 🔒🛠️ #ElasticStack #SoftwareUpdate #Cybersecurity #TechNews</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.4.2 released</title>
+      <link>/articles/article-2026-05-28-19499/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19499/</guid>
+      <description>🚀 New Release Alert! Version 9.4.2 of the Elastic Stack is now available. Users are encouraged to upgrade from 9.4.1 to benefit from important security fixes. For a full list of changes and detailed fixes, check the release notes. Stay secure! 🔒 #ElasticStack #SoftwareUpdate #CyberSecurity #TechNews</description>
     </item>
     <item>
       <title>GitLab Patch Release: 19.0.1, 18.11.4, 18.10.7</title>
@@ -147,6 +189,13 @@
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-27-19460/</guid>
       <description>🚀 Exciting updates from Stripe! Stripe Radar has expanded its fraud prevention capabilities. It now blocks high-risk transactions across all payment methods, enhancing protection against new fraud types like multi-account and pay-as-you-go abuse. Platforms also gain new tools to assess and manage merchant risk effectively. Automated evidence libraries have been introduced to streamline dispute management. Stay secure with these innovative solutions! 🔒💳 #Stripe #FraudPrevention&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Experimental native binaries for Vercel CLI</title>
+      <link>/articles/article-2026-05-27-19503/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19503/</guid>
+      <description>🚀 The Vercel CLI introduces an optional experimental native binary! This new binary offers faster startup, enhanced security, and eliminates the need for a Node.js runtime. It also features code-signing for OS verification and securely stores credentials in the macOS Keychain. To try it, install the experimental package using the required -f flag. The native binary is compatible with macOS, Linux, and Windows on x64 and arm64. Share your feedback on GitHub! #Vercel #CLI #DeveloperTools&amp;hellip;</description>
     </item>
     <item>
       <title>GitLab Patch Release: 18.9.8, 18.8.10, 18.7.7, 18.6.8, 18.5.7</title>

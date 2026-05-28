@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 07:16:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 14:15:20 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slack AI: The Path to Multi-Cloud</title>
+      <link>/articles/article-2026-05-28-19478/</link>
+      <pubDate>Thu, 28 May 2026 14:15:20 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19478/</guid>
+      <description>🚀 In early 2023, Slack tackled the challenge of implementing Large Language Models (LLMs) at an enterprise scale. Over three years, they developed a multi-cloud architecture to enhance security and performance. Initially, they used AWS SageMaker, but faced issues with scaling latency and hardware availability. To address these, they introduced On-Demand Capacity Reservations. By mid-2024, Slack migrated to Amazon Bedrock, gaining operational simplicity and immediate access to new models,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we built Cloudflare&#39;s data platform and an AI agent on top of it</title>
+      <link>/articles/article-2026-05-28-19476/</link>
+      <pubDate>Thu, 28 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19476/</guid>
+      <description>🚀 Cloudflare has developed a unified analytics platform called Town Lake, along with an AI agent named Skipper. These tools simplify data access across the company, addressing challenges like data sprawl and the complexities of multiple systems. Town Lake provides a single SQL interface, while Skipper allows users to query data using plain language. This initiative aims to enhance data accessibility, accuracy, and governance. #Cloudflare #DataAnalytics #AI #TechInnovation #DataManagement</description>
+    </item>
     <item>
       <title>LogAn: Large-scale log analysis with small language models</title>
       <link>/articles/article-2026-05-28-19467/</link>

@@ -6,8 +6,50 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 14:15:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slack AI: The Path to Multi-Cloud</title>
+      <link>/articles/article-2026-05-28-19478/</link>
+      <pubDate>Thu, 28 May 2026 14:15:20 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19478/</guid>
+      <description>🚀 In early 2023, Slack tackled the challenge of implementing Large Language Models (LLMs) at an enterprise scale. Over three years, they developed a multi-cloud architecture to enhance security and performance. Initially, they used AWS SageMaker, but faced issues with scaling latency and hardware availability. To address these, they introduced On-Demand Capacity Reservations. By mid-2024, Slack migrated to Amazon Bedrock, gaining operational simplicity and immediate access to new models,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Explore Enterprise Networking Automation at Cisco Live US 2026</title>
+      <link>/articles/article-2026-05-28-19473/</link>
+      <pubDate>Thu, 28 May 2026 14:00:45 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19473/</guid>
+      <description>🌐 Get ready for Cisco Live US 2026! From May 31 to June 4, join sessions, labs, and workshops focused on enterprise networking automation. 📅 Discover key themes like AI-ready infrastructure, Atomic Configuration Replace (ACR), and Model-Driven Telemetry. 🔧 Enhance your skills in programmability and automation to prepare for the future of network management. #CiscoLive #NetworkAutomation #AI #TechInnovation #EnterpriseNetworking</description>
+    </item>
+    <item>
+      <title>Claw-style AI agents are coming to the enterprise. The governance infrastructure is still catching up.</title>
+      <link>/articles/article-2026-05-28-19471/</link>
+      <pubDate>Thu, 28 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19471/</guid>
+      <description>🚀 Automation Anywhere has announced its new &amp;ldquo;claw-style&amp;rdquo; AI agents with EnterpriseClaw, designed for enterprise use. These agents can autonomously access file systems, create tools at runtime, and interact with applications. Key partnerships with Nvidia, Okta, and OpenAI enhance security and functionality, including the use of GPT 5.5. However, there’s a notable gap between AI capabilities and enterprise governance. The potential for broad access raises concerns in sensitive environments like&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we built Cloudflare&#39;s data platform and an AI agent on top of it</title>
+      <link>/articles/article-2026-05-28-19476/</link>
+      <pubDate>Thu, 28 May 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19476/</guid>
+      <description>🚀 Cloudflare has developed a unified analytics platform called Town Lake, along with an AI agent named Skipper. These tools simplify data access across the company, addressing challenges like data sprawl and the complexities of multiple systems. Town Lake provides a single SQL interface, while Skipper allows users to query data using plain language. This initiative aims to enhance data accessibility, accuracy, and governance. #Cloudflare #DataAnalytics #AI #TechInnovation #DataManagement</description>
+    </item>
+    <item>
+      <title>The Upcoming Sunset of DataSpell</title>
+      <link>/articles/article-2026-05-28-19475/</link>
+      <pubDate>Thu, 28 May 2026 12:29:12 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19475/</guid>
+      <description>🚨 Important Update for DataSpell Users 🚨 JetBrains has announced the sunset of DataSpell as a standalone product, effective May 28, 2026. This decision aims to integrate its features into PyCharm for a more cohesive user experience. Current DataSpell users will transition to PyCharm, with eligible subscriptions converting at no additional cost by September 1, 2026. For assistance during this change, please reach out to JetBrains. #DataScience #JetBrains #PyCharm #SoftwareUpdate #DataSpell</description>
+    </item>
+    <item>
+      <title>The agentic identity crisis: Why your security isn’t ready for the AI revolution</title>
+      <link>/articles/article-2026-05-28-19472/</link>
+      <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19472/</guid>
+      <description>The article discusses the shift from traditional web applications to AI-driven agentic ecosystems. This transition presents new security challenges as AI agents can perform actions, leading to vulnerabilities like the Action-Based Threat Model and the RAG Attack Surface. Currently, agents operate in an Identity Vacuum, creating risks of unauthorized access and permission issues. As AI agents outnumber humans, addressing these security gaps is crucial. 🔐🤖💻 #CyberSecurity #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Debugging the undebuggable: building observability into probabilistic AI systems</title>
       <link>/articles/article-2026-05-28-19468/</link>
@@ -35,6 +77,13 @@
       <pubDate>Thu, 28 May 2026 03:01:06 +0000</pubDate>
       <guid>/articles/article-2026-05-28-19466/</guid>
       <description>🚀 Exciting updates for stalld! The new BPF-based queue_track backend enhances task starvation detection in Linux environments. By shifting from a poll-based method to an event-driven model, stalld improves efficiency and reliability. This change eliminates reliance on debugfs, ensuring better performance and compatibility across kernel versions. Learn more about how this evolution supports real-time workloads! 🔧💻 #Linux #BPF #stalld #TechUpdate #OpenSource</description>
+    </item>
+    <item>
+      <title>GitLab Patch Release: 19.0.1, 18.11.4, 18.10.7</title>
+      <link>/articles/article-2026-05-28-19474/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19474/</guid>
+      <description>🚀 GitLab has announced patch releases for versions 19.0.1, 18.11.4, and 18.10.7. These updates focus on fixing security vulnerabilities and improving performance. Users are encouraged to upgrade to these latest versions to enhance their experience and security. Stay safe and updated! 🔒 #GitLab #SoftwareUpdate #Cybersecurity #TechNews</description>
     </item>
     <item>
       <title>NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes</title>

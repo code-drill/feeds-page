@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 17:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:49:13 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High-Throughput Graph Abstraction at Netflix: Part I</title>
+      <link>/articles/article-2026-05-29-19551/</link>
+      <pubDate>Fri, 29 May 2026 18:49:13 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19551/</guid>
+      <description>📊 Netflix&amp;rsquo;s Graph Abstraction is designed to support high-throughput graph use cases, achieving nearly 10 million operations per second. It focuses on OLTP scenarios, ensuring low latency and cost efficiency while managing 650 TB of data. The architecture leverages existing data abstractions for efficient traversals and real-time indexing. This is just the first part of a series exploring its capabilities and integration with the Netflix ecosystem. Stay tuned for more insights! 🌐 #NetflixTech&amp;hellip;</description>
+    </item>
     <item>
       <title>Databricks at SIGMOD 2026</title>
       <link>/articles/article-2026-05-29-19548/</link>
@@ -128,6 +135,13 @@
       <description>🚀 TeamCity has released its first bug-fix update for On-Premises 2026.1 servers, version 2026.1.1. This update resolves over 20 issues, enhancing performance and stability. Key fixes include: - Ignored build agent alternate IP addresses - Issues with the Rake plugin - Problems with S3 uploads - .NET builds finding compatible agents Staying updated ensures better performance, compatibility, and security. Upgrade easily through the automatic feature or download directly from JetBrains. For&amp;hellip;</description>
     </item>
     <item>
+      <title>Function invocations now billed per unit</title>
+      <link>/articles/article-2026-05-29-19549/</link>
+      <pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19549/</guid>
+      <description>Function invocations are transitioning to a per-unit pricing model for Pro and new Enterprise customers. You will continue at your current billing rate until your next cycle, where the new cost will be $0.0000006 per invocation. This change allows for smoother scaling based on usage and team size. For more details on Vercel Functions, visit their site. #BillingUpdate #VercelFunctions #PricingChange #CloudComputing 💻📈</description>
+    </item>
+    <item>
       <title>The find out stage of AI is just supply chain and password protection​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍‌‍​‌​﻿‍‌​﻿​‌‌‍‌‍​﻿‌‍‌‍​‌​﻿‍​​‍﻿‌​﻿‌​‌‍​‍‌‍‌‍​﻿​​​‍﻿‌​﻿‌​‌‍​‌​﻿‌​‌‍​‌​‍﻿‌‌‍​‌‌‍​﻿​﻿​​​﻿‌﻿​‍﻿‌​﻿‍​‌‍‌‌​﻿‌﻿‌‍‌‌‌‍‌‍‌‍‌​‌‍‌‌​﻿‌﻿​﻿​‍​﻿​﻿​﻿‌‌‌‍‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍‌‍​‌​﻿‍‌​﻿​‌‌‍‌‍​﻿‌‍‌‍​‌​﻿‍​​‍﻿‌​﻿‌​‌‍​‍‌‍‌‍​﻿​​​‍﻿‌​﻿‌​‌‍​‌​﻿‌​‌‍​‌​‍﻿‌‌‍​‌‌‍​﻿​﻿​​​﻿‌﻿​‍﻿‌​﻿‍​‌‍‌‌​﻿‌﻿‌‍‌‌‌‍‌‍‌‍‌​‌‍‌‌​﻿‌﻿​﻿​‍​﻿​﻿​﻿‌‌‌‍‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
       <link>/articles/article-2026-05-29-19518/</link>
       <pubDate>Fri, 29 May 2026 07:40:00 +0000</pubDate>
@@ -210,6 +224,13 @@
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-05-29-19525/</guid>
       <description>Unlock the power of profiling in PyTorch! 🔍 This beginner&amp;rsquo;s guide introduces the torch.profiler tool, essential for optimizing your models. The article addresses the challenges of interpreting dense profiler traces and aims to simplify the process. In Part 1, you&amp;rsquo;ll learn to analyze a basic operation: matrix multiplication with bias. Future parts will expand on this foundation, exploring more complex structures. Stay tuned for a deep dive into optimization! 🚀 #PyTorch #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The unmanaged stack: Governing SaaS apps and AI tools outside SSO</title>
+      <link>/articles/article-2026-05-29-19550/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19550/</guid>
+      <description>🔍 In 1Password’s recent webinar, the focus was on managing SaaS apps and AI tools outside of SSO. 📊 A startling 52% of employees have used apps without IT approval, creating unmanaged risks. The webinar highlighted how 1Password SaaS Manager can help discover and govern these unapproved access points. 🔑 New integrations support governance for popular AI tools like ChatGPT and Claude, enhancing security and compliance. For more details, watch the full webinar! #CyberSecurity #SaaS #AI&amp;hellip;</description>
     </item>
     <item>
       <title>Why legacy system migration matters and how to do it (7 strategies)</title>

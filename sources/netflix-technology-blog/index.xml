@@ -6,8 +6,15 @@
     <description>Recent content in Netflix-Technology-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 14:01:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:49:13 +0000</lastBuildDate>
     <atom:link href="/sources/netflix-technology-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High-Throughput Graph Abstraction at Netflix: Part I</title>
+      <link>/articles/article-2026-05-29-19551/</link>
+      <pubDate>Fri, 29 May 2026 18:49:13 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19551/</guid>
+      <description>📊 Netflix&amp;rsquo;s Graph Abstraction is designed to support high-throughput graph use cases, achieving nearly 10 million operations per second. It focuses on OLTP scenarios, ensuring low latency and cost efficiency while managing 650 TB of data. The architecture leverages existing data abstractions for efficient traversals and real-time indexing. This is just the first part of a series exploring its capabilities and integration with the Netflix ecosystem. Stay tuned for more insights! 🌐 #NetflixTech&amp;hellip;</description>
+    </item>
     <item>
       <title>From Silos to Service Topology: Why Netflix Built a Real-Time Service Map</title>
       <link>/articles/article-2026-05-29-19539/</link>

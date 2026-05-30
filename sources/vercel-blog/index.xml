@@ -16,6 +16,13 @@
       <description>Function invocations are transitioning to a per-unit pricing model for Pro and new Enterprise customers. You will continue at your current billing rate until your next cycle, where the new cost will be $0.0000006 per invocation. This change allows for smoother scaling based on usage and team size. For more details on Vercel Functions, visit their site. #BillingUpdate #VercelFunctions #PricingChange #CloudComputing 💻📈</description>
     </item>
     <item>
+      <title>Protecting against inference theft</title>
+      <link>/articles/article-2026-05-29-19555/</link>
+      <pubDate>Fri, 29 May 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19555/</guid>
+      <description>Protecting AI endpoints is crucial as inference theft becomes a significant risk. 💻 With costs of AI prompts soaring, attackers can exploit these systems for profit. Traditional defenses like IP rate limits are no longer effective, as attackers use sophisticated methods to bypass them. 🔒 Implementing verification for each request is essential. Vercel uses BotID deep analysis to safeguard against these threats. Protect your AI systems by auditing exposed endpoints and ensuring every request is&amp;hellip;</description>
+    </item>
+    <item>
       <title>Port 8080 is now available in Vercel Sandboxes</title>
       <link>/articles/article-2026-05-29-19522/</link>
       <pubDate>Fri, 29 May 2026 00:01:00 +0000</pubDate>
@@ -28,6 +35,13 @@
       <pubDate>Fri, 29 May 2026 00:01:00 +0000</pubDate>
       <guid>/articles/article-2026-05-29-19545/</guid>
       <description>🚀 Vercel Sandbox has introduced support for Docker, allowing users to build and run containers within a secure environment. This feature enables the installation of system packages and file modifications without affecting the host system. Now, you can seamlessly run services like Redis or Postgres for testing, validate container images, and preview applications. Persistent sandboxes ensure that your Docker installations and images remain available across sessions. Additionally, FUSE&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a real-time power outage map with Next.js on Vercel</title>
+      <link>/articles/article-2026-05-28-19536/</link>
+      <pubDate>Thu, 28 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19536/</guid>
+      <description>🌩️ Endeavour Energy has revamped its outage map using Next.js on Vercel to enhance user experience during storms. By migrating to a headless setup, they achieved 38% faster deployments and real-time updates every five minutes. This new architecture allows for independent scaling, ensuring reliable service under peak traffic. Their phased migration ensured no downtime, allowing millions to access vital outage information seamlessly. 🚀 #EndeavourEnergy #NextJS #Vercel #TechInnovation #RealTimeData</description>
     </item>
     <item>
       <title>Opus 4.8 on AI Gateway</title>

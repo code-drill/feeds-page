@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 18:49:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 22:31:03 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DynoSim: Simulating the Pareto Frontier</title>
+      <link>/articles/article-2026-05-29-19553/</link>
+      <pubDate>Fri, 29 May 2026 22:31:03 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19553/</guid>
+      <description>🚀 Modern LLM serving involves many complex choices, making tuning challenging. Each deployment&amp;rsquo;s factors, like model backend and worker counts, interact in ways that can shift performance bottlenecks. 🔍 DynoSim addresses this issue by providing a workload-driven simulation of NVIDIA&amp;rsquo;s Dynamo stack. It combines various components to accurately simulate the serving process. ⚡ It&amp;rsquo;s designed for speed, achieving simulations significantly faster than real-time, showcasing its efficiency on devices&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enabling Evolutionary Database Development: database branching with Lakebase</title>
+      <link>/articles/article-2026-05-29-19556/</link>
+      <pubDate>Fri, 29 May 2026 22:04:37 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19556/</guid>
+      <description>Enabling Evolutionary Database Development is a new series by Pramod Sadalage and Kevin Hartman. It discusses the long-standing methodology of Evolutionary Database Design, emphasizing key practices and the evolution of database management since 2010. The introduction of copy-on-write database branching with Databricks Lakebase in 2026 is highlighted as a significant advancement, allowing for efficient, individual database instances for developers. This series explores the implications of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI Disruptors: How the Next Generation of Business is Being Built</title>
+      <link>/articles/article-2026-05-29-19554/</link>
+      <pubDate>Fri, 29 May 2026 21:30:04 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19554/</guid>
+      <description>At the Deploy 2026 conference, I moderated a panel with AI founders discussing what differentiates successful AI products from demos. Key insights included the importance of measuring agent performance and ensuring reliability. Founders like Angela Hoover from Andi AI and Hovsep Seraydarian from LawVo emphasized that human oversight is essential in high-stakes fields. They also highlighted the challenges of model selection in a rapidly evolving landscape, noting that execution and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>More efficient and functional workplaces start with smart building data</title>
+      <link>/articles/article-2026-05-29-19552/</link>
+      <pubDate>Fri, 29 May 2026 21:18:55 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19552/</guid>
+      <description>Smart building data is transforming workplaces by enhancing efficiency and responsiveness. 🌍 As buildings contribute to significant energy consumption and carbon emissions, leveraging workplace data is crucial for reducing costs and improving user experience. Integrating data from various systems can provide insights into actual space usage, enabling informed decisions on energy and real estate management. Explore how smart technologies can reshape our work environments! 💡🏢 #SmartBuildings&amp;hellip;</description>
+    </item>
     <item>
       <title>High-Throughput Graph Abstraction at Netflix: Part I</title>
       <link>/articles/article-2026-05-29-19551/</link>
@@ -156,11 +184,25 @@
       <description>🔍 Red Hat OpenShift Container Platform introduces key updates in system management! Starting with version 4.21, new clusters will automatically allocate system-reserved resources based on node size, addressing past memory and CPU competition issues. Additionally, version 4.22 introduces CPU limit enforcement for system daemons, enhancing stability. These changes aim to improve node performance while maintaining compatibility with existing setups. #OpenShift #RedHat #Kubernetes #CloudComputing&amp;hellip;</description>
     </item>
     <item>
+      <title>Stop pushing broken code to CI: Wire Chunk sidecars into agent hooks</title>
+      <link>/articles/article-2026-05-29-19557/</link>
+      <pubDate>Fri, 29 May 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19557/</guid>
+      <description>AI agents can now write code rapidly, but teams face delays with feedback loops. When agents push code to CI, simple issues may go unnoticed until a pipeline run, wasting time and resources. ⚙️ Chunk sidecars offer a solution by running tests in a lightweight environment before code reaches CI. This helps catch errors early in the workflow. 🛠️ Agent hooks automate validation at key checkpoints, allowing for immediate error correction during the coding process. This streamlines development and&amp;hellip;</description>
+    </item>
+    <item>
       <title>The future of product craft: Why AI-native PMs build better products, not just work faster</title>
       <link>/articles/article-2026-05-29-19519/</link>
       <pubDate>Fri, 29 May 2026 04:19:46 +0000</pubDate>
       <guid>/articles/article-2026-05-29-19519/</guid>
       <description>AI is transforming how product teams operate, enabling faster work but increasing the risk of building the wrong products. 🚀 Atlassian&amp;rsquo;s report reveals that while 89% of executives see speed gains with AI, only 6% can demonstrate its ROI. Success lies in using AI wisely, focusing on judgment rather than just tools. AI helps bridge the gap between ideas and evidence, allowing product managers to prototype and validate concepts quickly. Additionally, effective teams prioritize learning and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Protecting against inference theft</title>
+      <link>/articles/article-2026-05-29-19555/</link>
+      <pubDate>Fri, 29 May 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19555/</guid>
+      <description>Protecting AI endpoints is crucial as inference theft becomes a significant risk. 💻 With costs of AI prompts soaring, attackers can exploit these systems for profit. Traditional defenses like IP rate limits are no longer effective, as attackers use sophisticated methods to bypass them. 🔒 Implementing verification for each request is essential. Vercel uses BotID deep analysis to safeguard against these threats. Protect your AI systems by auditing exposed endpoints and ensuring every request is&amp;hellip;</description>
     </item>
     <item>
       <title>Claude as your performance analysis partner</title>
@@ -394,6 +436,13 @@
       <description>🌐 Get ready for Cisco Live US 2026! From May 31 to June 4, join sessions, labs, and workshops focused on enterprise networking automation. 📅 Discover key themes like AI-ready infrastructure, Atomic Configuration Replace (ACR), and Model-Driven Telemetry. 🔧 Enhance your skills in programmability and automation to prepare for the future of network management. #CiscoLive #NetworkAutomation #AI #TechInnovation #EnterpriseNetworking</description>
     </item>
     <item>
+      <title>Building a real-time power outage map with Next.js on Vercel</title>
+      <link>/articles/article-2026-05-28-19536/</link>
+      <pubDate>Thu, 28 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19536/</guid>
+      <description>🌩️ Endeavour Energy has revamped its outage map using Next.js on Vercel to enhance user experience during storms. By migrating to a headless setup, they achieved 38% faster deployments and real-time updates every five minutes. This new architecture allows for independent scaling, ensuring reliable service under peak traffic. Their phased migration ensured no downtime, allowing millions to access vital outage information seamlessly. 🚀 #EndeavourEnergy #NextJS #Vercel #TechInnovation #RealTimeData</description>
+    </item>
+    <item>
       <title>Claw-style AI agents are coming to the enterprise. The governance infrastructure is still catching up.</title>
       <link>/articles/article-2026-05-28-19471/</link>
       <pubDate>Thu, 28 May 2026 13:00:00 +0000</pubDate>
@@ -567,6 +616,13 @@
       <pubDate>Wed, 27 May 2026 23:09:52 +0000</pubDate>
       <guid>/articles/article-2026-05-27-19462/</guid>
       <description>NVIDIA&amp;rsquo;s latest article highlights the challenges of the cold-start problem in inference deployments on Kubernetes. 🚀 As demand fluctuates, scaling inference replicas is crucial, but cold starts can take several minutes, leaving GPUs idle and increasing the risk of SLA violations during peak traffic. 📈 Understanding these delays is key to improving system responsiveness. #NVIDIA #Kubernetes #CloudComputing #MachineLearning #InferenceWorkloads</description>
+    </item>
+    <item>
+      <title>Agentforce’s AgentScript: Building Deterministic Control for Enterprise AI Workflows</title>
+      <link>/articles/article-2026-05-27-19558/</link>
+      <pubDate>Wed, 27 May 2026 21:58:31 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19558/</guid>
+      <description>🚀 Exciting developments in enterprise AI! Elijah Ben Izzy, a Software Engineering Architect at Salesforce, is leading the creation of AgentScript. This open-source programming language simplifies the development and control of enterprise AI agents, ensuring safety and efficiency in complex workflows. AgentScript allows users to define deterministic behaviors while benefiting from the flexibility of large language models. It streamlines the developer experience by consolidating agent&amp;hellip;</description>
     </item>
     <item>
       <title>Reliable LLM Inference at Scale</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 18:49:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 22:31:03 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DynoSim: Simulating the Pareto Frontier</title>
+      <link>/articles/article-2026-05-29-19553/</link>
+      <pubDate>Fri, 29 May 2026 22:31:03 +0000</pubDate>
+      <guid>/articles/article-2026-05-29-19553/</guid>
+      <description>🚀 Modern LLM serving involves many complex choices, making tuning challenging. Each deployment&amp;rsquo;s factors, like model backend and worker counts, interact in ways that can shift performance bottlenecks. 🔍 DynoSim addresses this issue by providing a workload-driven simulation of NVIDIA&amp;rsquo;s Dynamo stack. It combines various components to accurately simulate the serving process. ⚡ It&amp;rsquo;s designed for speed, achieving simulations significantly faster than real-time, showcasing its efficiency on devices&amp;hellip;</description>
+    </item>
     <item>
       <title>High-Throughput Graph Abstraction at Netflix: Part I</title>
       <link>/articles/article-2026-05-29-19551/</link>
@@ -51,6 +58,13 @@
       <description>🚀 In early 2023, Slack tackled the challenge of implementing Large Language Models (LLMs) at an enterprise scale. Over three years, they developed a multi-cloud architecture to enhance security and performance. Initially, they used AWS SageMaker, but faced issues with scaling latency and hardware availability. To address these, they introduced On-Demand Capacity Reservations. By mid-2024, Slack migrated to Amazon Bedrock, gaining operational simplicity and immediate access to new models,&amp;hellip;</description>
     </item>
     <item>
+      <title>Building a real-time power outage map with Next.js on Vercel</title>
+      <link>/articles/article-2026-05-28-19536/</link>
+      <pubDate>Thu, 28 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-28-19536/</guid>
+      <description>🌩️ Endeavour Energy has revamped its outage map using Next.js on Vercel to enhance user experience during storms. By migrating to a headless setup, they achieved 38% faster deployments and real-time updates every five minutes. This new architecture allows for independent scaling, ensuring reliable service under peak traffic. Their phased migration ensured no downtime, allowing millions to access vital outage information seamlessly. 🚀 #EndeavourEnergy #NextJS #Vercel #TechInnovation #RealTimeData</description>
+    </item>
+    <item>
       <title>How we built Cloudflare&#39;s data platform and an AI agent on top of it</title>
       <link>/articles/article-2026-05-28-19476/</link>
       <pubDate>Thu, 28 May 2026 13:00:00 +0000</pubDate>
@@ -84,6 +98,13 @@
       <pubDate>Wed, 27 May 2026 23:09:52 +0000</pubDate>
       <guid>/articles/article-2026-05-27-19462/</guid>
       <description>NVIDIA&amp;rsquo;s latest article highlights the challenges of the cold-start problem in inference deployments on Kubernetes. 🚀 As demand fluctuates, scaling inference replicas is crucial, but cold starts can take several minutes, leaving GPUs idle and increasing the risk of SLA violations during peak traffic. 📈 Understanding these delays is key to improving system responsiveness. #NVIDIA #Kubernetes #CloudComputing #MachineLearning #InferenceWorkloads</description>
+    </item>
+    <item>
+      <title>Agentforce’s AgentScript: Building Deterministic Control for Enterprise AI Workflows</title>
+      <link>/articles/article-2026-05-27-19558/</link>
+      <pubDate>Wed, 27 May 2026 21:58:31 +0000</pubDate>
+      <guid>/articles/article-2026-05-27-19558/</guid>
+      <description>🚀 Exciting developments in enterprise AI! Elijah Ben Izzy, a Software Engineering Architect at Salesforce, is leading the creation of AgentScript. This open-source programming language simplifies the development and control of enterprise AI agents, ensuring safety and efficiency in complex workflows. AgentScript allows users to define deterministic behaviors while benefiting from the flexibility of large language models. It streamlines the developer experience by consolidating agent&amp;hellip;</description>
     </item>
     <item>
       <title>Reliable LLM Inference at Scale</title>

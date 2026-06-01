@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 12:57:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 13:46:25 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Pasting Tokens: OAuth2 Login for JetBrains IDE Plugins</title>
+      <link>/articles/article-2026-06-01-19645/</link>
+      <pubDate>Mon, 01 Jun 2026 13:46:25 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19645/</guid>
+      <description>🚀 Exciting news for developers using JetBrains IDE plugins! When a plugin requires account data, the traditional method of using personal access tokens (PATs) can pose security risks. Instead, the recommended approach leverages OAuth2 for a safer login experience. Users can simply click the Login button, which opens the provider’s authorization page in their browser. This process ensures the plugin receives a temporary access token without needing to store long-lived secrets. Implementing&amp;hellip;</description>
+    </item>
     <item>
       <title>Mellum2 Goes Open Source: A Fast Model for AI Workflows</title>
       <link>/articles/article-2026-06-01-19635/</link>

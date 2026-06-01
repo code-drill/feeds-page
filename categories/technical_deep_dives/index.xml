@@ -6,8 +6,36 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 07:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 16:53:39 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we reduced core unit boot time from hours to minutes</title>
+      <link>/articles/article-2026-06-01-19653/</link>
+      <pubDate>Mon, 01 Jun 2026 16:53:39 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19653/</guid>
+      <description>Cloudflare recently tackled a significant issue with core server reboot times. After a firmware update, reboot durations soared from minutes to four hours due to inefficiencies in UEFI data structures and network boot interfaces. 🔄 By investigating these factors, the team identified and eliminated unnecessary timeouts, restoring boot times to just minutes. This change not only improved server responsiveness but also streamlined maintenance processes across nearly 2,000 units. ⚙️ The use of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Inside DoorDash’s one-click simulation and evaluation platform for support chatbots</title>
+      <link>/articles/article-2026-06-01-19652/</link>
+      <pubDate>Mon, 01 Jun 2026 15:52:16 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19652/</guid>
+      <description>🚀 DoorDash has developed a one-click simulation platform for evaluating support chatbots, enhancing pre-launch testing speed and reliability. This platform allows for realistic, multi-turn customer conversations based on various scenarios. It shifts from manual review to automated regression testing, enabling teams to iterate quickly. With this new approach, validation of chatbot features can happen in minutes rather than hours, leading to a significant reduction in errors&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Protected: Scaling AI for silicon</title>
+      <link>/articles/article-2026-06-01-19658/</link>
+      <pubDate>Mon, 01 Jun 2026 15:07:34 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19658/</guid>
+      <description>🔒 The article &amp;ldquo;Scaling AI for Silicon&amp;rdquo; discusses strategies for integrating AI technologies into silicon-based systems. It emphasizes the importance of advancements in hardware to support AI applications and enhance their performance. Key insights include collaboration between software and hardware teams to drive innovation in this field. #AI #Silicon #TechInnovation #Engineering #Microsoft</description>
+    </item>
+    <item>
+      <title>Debunking 8 data layout myths: why Liquid Clustering outperforms partitioning</title>
+      <link>/articles/article-2026-06-01-19649/</link>
+      <pubDate>Mon, 01 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19649/</guid>
+      <description>Discover how Liquid Clustering is reshaping data layout in modern lakehouses. 📊 This approach outperforms traditional partitioning by addressing its limitations. Eight common myths about partitioning are debunked, showing that many teams may be missing out on better solutions. Users of Liquid Clustering experience significant gains in query latency, write throughput, and storage efficiency, especially at petabyte scale. 🚀 #DataManagement #LiquidClustering #Lakehouse #DataAnalysis #TechTrends</description>
+    </item>
     <item>
       <title>Protect your Kubernetes Operator from OOMKill</title>
       <link>/articles/article-2026-06-01-19600/</link>

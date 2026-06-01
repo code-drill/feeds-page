@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 08:40:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 17:25:58 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From alert noise to action: How 24 Hour Fitness transformed IT operations with Jira Service Management and Rovo Ops</title>
+      <link>/articles/article-2026-06-01-19654/</link>
+      <pubDate>Mon, 01 Jun 2026 17:25:58 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19654/</guid>
+      <description>🚀 24 Hour Fitness has transformed its IT operations using Jira Service Management and Rovo Ops. The IT Ops team reduced alert noise and cut ITSM costs by 37%. They built a connected Ops platform that enhances incident traceability and improves on-call management. Learn more about their journey from the session at Atlassian’s Team ’26 conference. #ITOps #Jira #DigitalTransformation #24HourFitness #Atlassian</description>
+    </item>
+    <item>
+      <title>Stop Pasting Tokens: OAuth2 Login for JetBrains IDE Plugins</title>
+      <link>/articles/article-2026-06-01-19645/</link>
+      <pubDate>Mon, 01 Jun 2026 13:46:25 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19645/</guid>
+      <description>🚀 Exciting news for developers using JetBrains IDE plugins! When a plugin requires account data, the traditional method of using personal access tokens (PATs) can pose security risks. Instead, the recommended approach leverages OAuth2 for a safer login experience. Users can simply click the Login button, which opens the provider’s authorization page in their browser. This process ensures the plugin receives a temporary access token without needing to store long-lived secrets. Implementing&amp;hellip;</description>
+    </item>
     <item>
       <title>How To Fix Common TypeScript Issues With Qodana</title>
       <link>/articles/article-2026-06-01-19628/</link>
@@ -28,6 +42,13 @@
       <pubDate>Mon, 01 Jun 2026 04:43:58 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19594/</guid>
       <description>Unlock the potential of Physical AI with NVIDIA Cosmos 3! 🤖🌍 This new foundation model enables robots and autonomous systems to understand the real world, predict future events, and take action effectively. NVIDIA is open-sourcing Cosmos 3’s models, training scripts, and tools for wider access and reproducibility. Dive into the blog for insights on technical workflows and applications in robotics and smart environments! #PhysicalAI #NVIDIACosmos3 #Robotics #OpenSource #Innovation</description>
+    </item>
+    <item>
+      <title>Why AI Agents Need Their Own Permission Model</title>
+      <link>/articles/article-2026-06-01-19648/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19648/</guid>
+      <description>AI agents are becoming integral to production systems, interacting with real customer data and complex workflows. However, traditional access methods like OAuth and API keys are not suited for these non-deterministic systems. ⚙️ To ensure security, a new approach using Fine-Grained Authorization is needed. This method emphasizes the least-privilege principle, allowing agents to operate effectively without broad, permanent access. 🔑 The article outlines strategies for scoping permissions,&amp;hellip;</description>
     </item>
     <item>
       <title>Enabling Evolutionary Database Development: database branching with Lakebase</title>

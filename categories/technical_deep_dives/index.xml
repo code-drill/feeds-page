@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 22:31:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 03:01:32 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Owning the system clock: Good enough?</title>
+      <link>/articles/article-2026-06-01-19592/</link>
+      <pubDate>Mon, 01 Jun 2026 03:01:32 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19592/</guid>
+      <description>Accurate timing is crucial across various industries, as applications rely on the system clock to reflect real-world time. The challenge lies in achieving consistent accuracy everywhere. ⏰ Most systems use Network Time Protocol (NTP) for millisecond accuracy, while Precision Time Protocol (PTP) can reach up to 100 nanoseconds. Global Navigation Satellite System (GNSS) is another option, but it faces risks like jamming. 🌍 To ensure reliability, a solution combines GNSS as the primary source&amp;hellip;</description>
+    </item>
     <item>
       <title>DynoSim: Simulating the Pareto Frontier</title>
       <link>/articles/article-2026-05-29-19553/</link>

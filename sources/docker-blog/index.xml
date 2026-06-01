@@ -6,8 +6,15 @@
     <description>Recent content in Docker-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/docker-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding Agent Horror Stories: The rm -rf ~/ Incident</title>
+      <link>/articles/article-2026-06-01-19638/</link>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19638/</guid>
+      <description>🚨 In Part 2 of our AI Coding Agent Horror Stories series, we delve into a real incident that highlights the vulnerabilities of AI coding agents. A developer’s request to clean up an old repository led to the deletion of their entire home directory due to a single command error. This illustrates the risks of AI agents executing commands without safeguards. Learn about the implications of such failures and how Docker Sandboxes can provide crucial isolation. #AICoding #Cybersecurity #Docker&amp;hellip;</description>
+    </item>
     <item>
       <title>Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</title>
       <link>/articles/article-2026-05-27-19428/</link>

@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 14:24:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 14:25:33 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)</title>
+      <link>/articles/article-2026-06-01-19639/</link>
+      <pubDate>Mon, 01 Jun 2026 14:25:33 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19639/</guid>
+      <description>🚀 Exciting developments in AI and AWS! Last week, a two-day AI-Driven Development Lifecycle workshop in Denver saw 17 teams deliver nearly 20 use cases. The integration of tools like Claude Code with AWS is transforming software development into more agile, AI-augmented squads. Key highlights include the launch of Claude Opus 4.8 on AWS, enhancing coding and autonomous task execution. Additionally, the next-gen AWS Resilience Hub offers a unified framework for resilience management. For more&amp;hellip;</description>
+    </item>
     <item>
       <title>DevNet Sandbox: Building the Future of Developer Experiences</title>
       <link>/articles/article-2026-06-01-19629/</link>
@@ -23,18 +30,32 @@
       <description>📢 In a recent discussion with Oscar Ledesma, Global Network Architect at BBVA Argentina, we explored the bank&amp;rsquo;s journey in digital transformation. BBVA aimed to enhance productivity through technology, recognizing the need for a robust network to stay competitive. Automation became the focal point to achieve faster changes and reduce errors. By implementing Infrastructure as Code (IaC), BBVA is building a network designed for rapid adaptation and efficiency. #DigitalTransformation #BBVA&amp;hellip;</description>
     </item>
     <item>
+      <title>Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</title>
+      <link>/articles/article-2026-06-01-19637/</link>
+      <pubDate>Mon, 01 Jun 2026 13:51:18 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19637/</guid>
+      <description>🚀 Scalable AI adoption in enterprises hinges on the concept of agent logic, according to a recent article. AI agents have the potential to transform industries, but they require intelligent guidance to ensure high quality and cost-effectiveness. This is crucial for building user trust. Understanding enterprise workflows is key, as many AI pilots have faced challenges. #EnterpriseAI #AgentLogic #AIFuture #Innovation #TechTrends</description>
+    </item>
+    <item>
+      <title>Coding Agent Horror Stories: The rm -rf ~/ Incident</title>
+      <link>/articles/article-2026-06-01-19638/</link>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19638/</guid>
+      <description>🚨 In Part 2 of our AI Coding Agent Horror Stories series, we delve into a real incident that highlights the vulnerabilities of AI coding agents. A developer’s request to clean up an old repository led to the deletion of their entire home directory due to a single command error. This illustrates the risks of AI agents executing commands without safeguards. Learn about the implications of such failures and how Docker Sandboxes can provide crucial isolation. #AICoding #Cybersecurity #Docker&amp;hellip;</description>
+    </item>
+    <item>
       <title>Mellum2 Goes Open Source: A Fast Model for AI Workflows</title>
       <link>/articles/article-2026-06-01-19635/</link>
       <pubDate>Mon, 01 Jun 2026 12:57:50 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19635/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blog.jetbrains.com/feed/&#34;&gt;JetBrains Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 Exciting news in AI! Mellum2 is now open source! This 12B model is designed to enhance routing, Q&amp;amp;A, and sub-agent tasks in software engineering. Mellum2, released under the Apache 2.0 license, addresses key challenges in production AI: latency, throughput, and cost. Its Mixture-of-Experts design activates only 2.5B parameters per token, ensuring efficient and fast performance. Ideal for experimentation and scaling, Mellum2 is ready for deployment in your systems. #AI #OpenSource&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco Secure Access and Island Browser Enable Zero Trust Everywhere</title>
       <link>/articles/article-2026-06-01-19632/</link>
       <pubDate>Mon, 01 Jun 2026 12:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19632/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/security/secure-access-island-integration&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Cisco has partnered with Island to enhance secure access through a zero trust model. This integration allows organizations to provide safe access to applications for various users on both managed and unmanaged devices. Cisco Secure Access verifies user identity and device posture, while the Island browser embeds security measures directly into user sessions. This combination ensures continuous security from login to data interaction. Explore how this partnership is reshaping the approach to&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco Secure Access and Microsoft Purview Integration for Simplified Data Protection</title>
@@ -48,7 +69,7 @@
       <link>/articles/article-2026-06-01-19633/</link>
       <pubDate>Mon, 01 Jun 2026 12:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19633/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/security/announcing-cisco-talos-threat-hunting&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚨 Cisco Talos is expanding its Threat Hunting program across Cisco Secure Endpoint, Cisco Secure Firewall, and Cisco Duo. As threats become more sophisticated, attackers are now operating in the &amp;ldquo;space between alerts.&amp;rdquo; Traditional security methods may miss subtle signs of intrusion, as many breaches begin with overlooked signals. 🔍 This expansion aims to address the challenges organizations face in detecting stealthy attacks. By enhancing threat hunting capabilities, Cisco Talos seeks to&amp;hellip;</description>
     </item>
     <item>
       <title>From Log Flood to Threat Signal: Cisco and Splunk Bring Context to Modern Defense</title>
@@ -147,6 +168,13 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19583/</guid>
       <description>🚀 Chargeflow has developed a unique website designed to meet the standards of AI search engines. The investment focuses on creating a visually distinctive platform that enhances user experience while being optimized for AI interactions. This approach aims to bridge the gap between aesthetics and functionality in the fintech space. 🌐💡 #Fintech #AI #WebDesign #Innovation #TechTrends</description>
+    </item>
+    <item>
+      <title>Webflow Cloud. One workspace for your site and your app. Or just the app.</title>
+      <link>/articles/article-2026-06-01-19636/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19636/</guid>
+      <description>🚀 Webflow Cloud introduces a significant update! Now, Webflow apps can operate on their own domains without needing a site. This change allows for seamless deployments, storage, and logs, enhancing user experience. Explore the benefits of this all-in-one workspace! #Webflow #WebDevelopment #CloudApps #TechUpdate #Innovations</description>
     </item>
     <item>
       <title>The Skills Payload: What’s Landing at Cisco Live 2026</title>

@@ -16,6 +16,13 @@
       <description>🚀 JetBrains has open-sourced Mellum2, a 12B-parameter coding model designed for agentic AI infrastructure tasks. This model expands on the original Mellum, which focused solely on code completion. Mellum2 is versatile, handling coordination, retrieval pipelines, and on-premises deployment needs. Two variants also launch with Mellum2: an “instruct” version for direct answers and a “thinking” version for complex tasks. Built with a Mixture-of-Experts architecture, it maintains speed and&amp;hellip;</description>
     </item>
     <item>
+      <title>Elastic Build Machines now protect against out of memory builds</title>
+      <link>/articles/article-2026-06-01-19663/</link>
+      <pubDate>Mon, 01 Jun 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19663/</guid>
+      <description>🚀 Elastic build machines are enhancing performance with new memory monitoring features! They now automatically adjust based on your build&amp;rsquo;s memory usage to prevent out-of-memory (OOM) failures. If your build is memory-intensive, you won’t be downgraded to a smaller machine. If memory is nearing limits, the system will upgrade to a higher tier automatically. Learn more about enabling elastic builds in your settings! 🛠️ #ElasticBuilds #MemoryManagement #Vercel #SoftwareDevelopment #TechUpdates</description>
+    </item>
+    <item>
       <title>Cisco AI Defense Gets Personal with Agent Security</title>
       <link>/articles/article-2026-06-01-19644/</link>
       <pubDate>Mon, 01 Jun 2026 16:23:46 +0000</pubDate>
@@ -86,6 +93,13 @@
       <description>🚨 Cisco Talos is expanding its Threat Hunting program across Cisco Secure Endpoint, Cisco Secure Firewall, and Cisco Duo. As threats become more sophisticated, attackers are now operating in the &amp;ldquo;space between alerts.&amp;rdquo; Traditional security methods may miss subtle signs of intrusion, as many breaches begin with overlooked signals. 🔍 This expansion aims to address the challenges organizations face in detecting stealthy attacks. By enhancing threat hunting capabilities, Cisco Talos seeks to&amp;hellip;</description>
     </item>
     <item>
+      <title>Qwen 3.7 Plus now available on AI Gateway</title>
+      <link>/articles/article-2026-06-01-19664/</link>
+      <pubDate>Mon, 01 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19664/</guid>
+      <description>🚀 Qwen 3.7 Plus from Alibaba is now live on Vercel AI Gateway! This model integrates vision and language, enabling seamless operation across GUI and CLI. It supports coding, productivity tasks, and visual perception. To use it, set the model to alibaba/qwen-3.7-plus in the AI SDK. The AI Gateway offers a unified API for enhanced performance and cost tracking. Discover more about the AI Gateway and explore its features! #AI #MachineLearning #TechNews #Alibaba #Vercel</description>
+    </item>
+    <item>
       <title>Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</title>
       <link>/articles/article-2026-06-01-19599/</link>
       <pubDate>Mon, 01 Jun 2026 04:44:55 +0000</pubDate>
@@ -119,6 +133,20 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19626/</guid>
       <description>🚀 CrowdStrike is enhancing its Falcon Exposure Management by integrating NVIDIA&amp;rsquo;s advanced AI technologies. With the help of NVIDIA&amp;rsquo;s Nemotron 3 Super models and NeMo Framework, the goal is to speed up vulnerability remediation across enterprises. This collaboration focuses on leveraging extensive security telemetry to improve threat detection and response. Learn more about how AI is transforming cybersecurity! 🔒 #CrowdStrike #Cybersecurity #AI #VulnerabilityManagement #NVIDIA</description>
+    </item>
+    <item>
+      <title>Secure Shadow AI at the Control Plane with Falcon for IT</title>
+      <link>/articles/article-2026-06-01-19666/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19666/</guid>
+      <description>🌐 CrowdStrike introduces AI Discovery and Governance for Falcon® for IT, helping organizations identify and manage AI technologies within their infrastructure. As AI becomes integral to business operations, the risk of shadow AI grows, complicating governance and security. This tool enhances visibility into AI tools and integrations, aiding teams in understanding risks and actions needed. Effective management of AI use is crucial for enterprise security. #AI #Cybersecurity #CrowdStrike&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Blob now supports OIDC authentication</title>
+      <link>/articles/article-2026-06-01-19665/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19665/</guid>
+      <description>🚀 Vercel Blob has introduced OIDC authentication as the default for new projects. This update means that Vercel-issued tokens are now short-lived and rotate automatically, eliminating the need for long-lived BLOB_READ_WRITE_TOKEN. To upgrade your existing store, update to the latest @vercel/blob and select Upgrade to OIDC from the Projects tab. Functions on Vercel automatically receive the token for authentication, allowing seamless access to private stores via the Vercel CLI. 🔗 Read the&amp;hellip;</description>
     </item>
     <item>
       <title>Webflow Cloud. One workspace for your site and your app. Or just the app.</title>

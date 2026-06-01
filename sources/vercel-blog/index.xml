@@ -6,8 +6,29 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 18:30:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elastic Build Machines now protect against out of memory builds</title>
+      <link>/articles/article-2026-06-01-19663/</link>
+      <pubDate>Mon, 01 Jun 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19663/</guid>
+      <description>🚀 Elastic build machines are enhancing performance with new memory monitoring features! They now automatically adjust based on your build&amp;rsquo;s memory usage to prevent out-of-memory (OOM) failures. If your build is memory-intensive, you won’t be downgraded to a smaller machine. If memory is nearing limits, the system will upgrade to a higher tier automatically. Learn more about enabling elastic builds in your settings! 🛠️ #ElasticBuilds #MemoryManagement #Vercel #SoftwareDevelopment #TechUpdates</description>
+    </item>
+    <item>
+      <title>Qwen 3.7 Plus now available on AI Gateway</title>
+      <link>/articles/article-2026-06-01-19664/</link>
+      <pubDate>Mon, 01 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19664/</guid>
+      <description>🚀 Qwen 3.7 Plus from Alibaba is now live on Vercel AI Gateway! This model integrates vision and language, enabling seamless operation across GUI and CLI. It supports coding, productivity tasks, and visual perception. To use it, set the model to alibaba/qwen-3.7-plus in the AI SDK. The AI Gateway offers a unified API for enhanced performance and cost tracking. Discover more about the AI Gateway and explore its features! #AI #MachineLearning #TechNews #Alibaba #Vercel</description>
+    </item>
+    <item>
+      <title>Vercel Blob now supports OIDC authentication</title>
+      <link>/articles/article-2026-06-01-19665/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19665/</guid>
+      <description>🚀 Vercel Blob has introduced OIDC authentication as the default for new projects. This update means that Vercel-issued tokens are now short-lived and rotate automatically, eliminating the need for long-lived BLOB_READ_WRITE_TOKEN. To upgrade your existing store, update to the latest @vercel/blob and select Upgrade to OIDC from the Projects tab. Functions on Vercel automatically receive the token for authentication, allowing seamless access to private stores via the Vercel CLI. 🔗 Read the&amp;hellip;</description>
+    </item>
     <item>
       <title>MiniMax M3 on AI Gateway</title>
       <link>/articles/article-2026-05-31-19590/</link>

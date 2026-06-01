@@ -20,14 +20,28 @@
       <link>/articles/article-2026-06-01-19660/</link>
       <pubDate>Mon, 01 Jun 2026 19:30:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19660/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.digitalocean.com/blog.atom&#34;&gt;DigitalOcean Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.digitalocean.com/blog/reduce-llm-inference-costs-prefix-caching&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🌐 Inference demand is rising rapidly, projected to dominate AI compute by 2030. A significant portion of compute costs is avoidable due to redundant work in systems. 🔍 DigitalOcean&amp;rsquo;s prefix-aware routing addresses this inefficiency, significantly reducing unnecessary computations. By optimizing GPU performance and caching, they enhance cost-effectiveness without hardware constraints. 🚀 Upcoming improvements in Serverless Inference will make these benefits accessible to all users, ensuring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How We Cut up to 80% of Engineering “Chores” Using AI Agents in Jira</title>
+      <link>/articles/article-2026-06-01-19687/</link>
+      <pubDate>Mon, 01 Jun 2026 19:17:06 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19687/</guid>
+      <description>Atlassian&amp;rsquo;s engineering team has found a way to reduce engineering maintenance tasks by up to 80% using AI agents in Jira. 🤖 These &amp;ldquo;chores,&amp;rdquo; like fixing flaky tests and managing feature flags, often consumed valuable time. By automating these repetitive tasks, the team can focus on more impactful work. Jira serves as the central hub where agents receive context and instructions, streamlining the workflow. Examples include using specialized agent skills to quickly address flaky tests, saving&amp;hellip;</description>
     </item>
     <item>
       <title>DigitalOcean Serverless Inference: A Deep Dive</title>
       <link>/articles/article-2026-06-01-19661/</link>
       <pubDate>Mon, 01 Jun 2026 18:44:08 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19661/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.digitalocean.com/blog.atom&#34;&gt;DigitalOcean Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.digitalocean.com/blog/serverless-inference-deep-dive&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>🚀 &lt;strong&gt;Introducing DigitalOcean Serverless Inference!&lt;/strong&gt; This API-first platform simplifies AI model deployment at scale. It supports 30+ foundation models across various modalities through a single API key. Key features include automatic scaling, intelligent routing, and built-in tools for efficient model management. Get started easily and pay only for what you use! #DigitalOcean #AI #Serverless #MachineLearning #TechInnovation</description>
+    </item>
+    <item>
+      <title>Elastic Build Machines now protect against out of memory builds</title>
+      <link>/articles/article-2026-06-01-19663/</link>
+      <pubDate>Mon, 01 Jun 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19663/</guid>
+      <description>🚀 Elastic build machines are enhancing performance with new memory monitoring features! They now automatically adjust based on your build&amp;rsquo;s memory usage to prevent out-of-memory (OOM) failures. If your build is memory-intensive, you won’t be downgraded to a smaller machine. If memory is nearing limits, the system will upgrade to a higher tier automatically. Learn more about enabling elastic builds in your settings! 🛠️ #ElasticBuilds #MemoryManagement #Vercel #SoftwareDevelopment #TechUpdates</description>
     </item>
     <item>
       <title>From alert noise to action: How 24 Hour Fitness transformed IT operations with Jira Service Management and Rovo Ops</title>
@@ -226,6 +240,13 @@
       <description>🛡️ Protecting your Kubernetes Operator from OOMKill is crucial. Kubernetes operators, which manage applications automatically, have a vulnerability linked to unfiltered informer caches. This can lead to memory exhaustion and crash your operator, exposing it to potential denial-of-service attacks. To mitigate this, ensure your cache is filtered by labels and implement best practices during updates. Learn more about safeguarding your cluster! #Kubernetes #DevOps #CloudComputing #Security&amp;hellip;</description>
     </item>
     <item>
+      <title>Qwen 3.7 Plus now available on AI Gateway</title>
+      <link>/articles/article-2026-06-01-19664/</link>
+      <pubDate>Mon, 01 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19664/</guid>
+      <description>🚀 Qwen 3.7 Plus from Alibaba is now live on Vercel AI Gateway! This model integrates vision and language, enabling seamless operation across GUI and CLI. It supports coding, productivity tasks, and visual perception. To use it, set the model to alibaba/qwen-3.7-plus in the AI SDK. The AI Gateway offers a unified API for enhanced performance and cost tracking. Discover more about the AI Gateway and explore its features! #AI #MachineLearning #TechNews #Alibaba #Vercel</description>
+    </item>
+    <item>
       <title>How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo</title>
       <link>/articles/article-2026-06-01-19593/</link>
       <pubDate>Mon, 01 Jun 2026 04:49:15 +0000</pubDate>
@@ -314,7 +335,21 @@
       <link>/articles/article-2026-06-01-19662/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-01-19662/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.elastic.co/blog/feed&#34;&gt;Elastic Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/blog/scaling-ai-financial-services-governance-architecture&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Financial services are advancing in AI, focusing on data governance, unified search, and observability architecture. Research shows that 42% of organizations plan to boost AI spending in 2026. However, many are struggling with fragmented data and trust issues, which hinder successful implementation. Experts emphasize the need for a solid data foundation to ensure accurate outputs and user trust. #AI #FinancialServices #DataGovernance #TechTrends #Innovation 🤖📊✨</description>
+    </item>
+    <item>
+      <title>Secure Shadow AI at the Control Plane with Falcon for IT</title>
+      <link>/articles/article-2026-06-01-19666/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19666/</guid>
+      <description>🌐 CrowdStrike introduces AI Discovery and Governance for Falcon® for IT, helping organizations identify and manage AI technologies within their infrastructure. As AI becomes integral to business operations, the risk of shadow AI grows, complicating governance and security. This tool enhances visibility into AI tools and integrations, aiding teams in understanding risks and actions needed. Effective management of AI use is crucial for enterprise security. #AI #Cybersecurity #CrowdStrike&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel Blob now supports OIDC authentication</title>
+      <link>/articles/article-2026-06-01-19665/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19665/</guid>
+      <description>🚀 Vercel Blob has introduced OIDC authentication as the default for new projects. This update means that Vercel-issued tokens are now short-lived and rotate automatically, eliminating the need for long-lived BLOB_READ_WRITE_TOKEN. To upgrade your existing store, update to the latest @vercel/blob and select Upgrade to OIDC from the Projects tab. Functions on Vercel automatically receive the token for authentication, allowing seamless access to private stores via the Vercel CLI. 🔗 Read the&amp;hellip;</description>
     </item>
     <item>
       <title>Webflow Cloud. One workspace for your site and your app. Or just the app.</title>

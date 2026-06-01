@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 07:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 08:40:44 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Fix Common TypeScript Issues With Qodana</title>
+      <link>/articles/article-2026-06-01-19628/</link>
+      <pubDate>Mon, 01 Jun 2026 08:40:44 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19628/</guid>
+      <description>🔧 TypeScript developers can enhance code quality by integrating Qodana with ESLint. While ESLint tackles many common issues, it has limitations, especially in cross-file findings. 🚫 ESLint can&amp;rsquo;t track how types propagate through files, which can lead to runtime errors. Qodana helps identify these issues, such as implicit any types and unsafe assumptions. 🛠️ Addressing non-null assertions is crucial. Qodana offers insights into potential crashes that ESLint may overlook. Explore how to fix&amp;hellip;</description>
+    </item>
     <item>
       <title>Protect your Kubernetes Operator from OOMKill</title>
       <link>/articles/article-2026-06-01-19600/</link>

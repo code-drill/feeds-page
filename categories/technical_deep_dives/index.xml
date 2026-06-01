@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 03:01:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 07:01:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protect your Kubernetes Operator from OOMKill</title>
+      <link>/articles/article-2026-06-01-19600/</link>
+      <pubDate>Mon, 01 Jun 2026 07:01:06 +0000</pubDate>
+      <guid>/articles/article-2026-06-01-19600/</guid>
+      <description>🛡️ Protecting your Kubernetes Operator from OOMKill is crucial. Kubernetes operators, which manage applications automatically, have a vulnerability linked to unfiltered informer caches. This can lead to memory exhaustion and crash your operator, exposing it to potential denial-of-service attacks. To mitigate this, ensure your cache is filtered by labels and implement best practices during updates. Learn more about safeguarding your cluster! #Kubernetes #DevOps #CloudComputing #Security&amp;hellip;</description>
+    </item>
     <item>
       <title>Owning the system clock: Good enough?</title>
       <link>/articles/article-2026-06-01-19592/</link>

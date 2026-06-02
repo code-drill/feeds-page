@@ -30,6 +30,13 @@
       <description>🚀 Vercel Blob has introduced OIDC authentication as the default for new projects. This update means that Vercel-issued tokens are now short-lived and rotate automatically, eliminating the need for long-lived BLOB_READ_WRITE_TOKEN. To upgrade your existing store, update to the latest @vercel/blob and select Upgrade to OIDC from the Projects tab. Functions on Vercel automatically receive the token for authentication, allowing seamless access to private stores via the Vercel CLI. 🔗 Read the&amp;hellip;</description>
     </item>
     <item>
+      <title>Chat SDK adds Lark and Feishu support</title>
+      <link>/articles/article-2026-05-31-19694/</link>
+      <pubDate>Sun, 31 May 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-05-31-19694/</guid>
+      <description>🚀 Exciting news for developers! Chat SDK has added support for Lark and Feishu through a new vendor-official adapter. This allows bots to post, edit, and delete messages seamlessly. You can now utilize Lark&amp;rsquo;s native cardkit typewriter API for streaming replies and send interactive cards. The adapter connects via Lark&amp;rsquo;s WebSocket transport, enhancing efficiency without needing an HTTP webhook endpoint. To get started, check out the Lark or Feishu documentation! 📚✨ #ChatSDK #Lark #Feishu&amp;hellip;</description>
+    </item>
+    <item>
       <title>MiniMax M3 on AI Gateway</title>
       <link>/articles/article-2026-05-31-19590/</link>
       <pubDate>Sun, 31 May 2026 07:00:00 +0000</pubDate>

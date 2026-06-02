@@ -6,8 +6,29 @@
     <description>Recent content in AMD-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2026 06:04:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:02:00 +0000</lastBuildDate>
     <atom:link href="/sources/amd-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 3</title>
+      <link>/articles/article-2026-06-02-19741/</link>
+      <pubDate>Tue, 02 Jun 2026 19:02:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19741/</guid>
+      <description>Unlock the potential of AMD RDNA™ 4 architecture GPUs with in-register matrix transpose techniques! 🔄 This article delves into optimizing matrix transposition for FFT and Neural Texture Compression using WMMA. It highlights the challenges faced due to the absence of shared-memory transpose loading and in-register capabilities. A practical solution involves using warp shuffle instructions, though it has its limitations due to the RDNA 4 WMMA layout. Explore innovative coding methods to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 2</title>
+      <link>/articles/article-2026-06-02-19742/</link>
+      <pubDate>Tue, 02 Jun 2026 19:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19742/</guid>
+      <description>Unlock the potential of AMD RDNA™ 4 architecture GPUs with the latest insights on Wide WMMA. 📈 This article explores methods to maximize memory bandwidth for low-precision GEMM operations, crucial for deep learning models like MLPs and CNNs. By extending the K dimension, users can achieve double the memory throughput for FP8 and INT8 data types, maintaining numerical accuracy. Learn more about optimizing performance and check out the sample code provided! 💻 #AMD #RDNA4 #DeepLearning #GEMM&amp;hellip;</description>
+    </item>
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 1</title>
+      <link>/articles/article-2026-06-02-19743/</link>
+      <pubDate>Tue, 02 Jun 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19743/</guid>
+      <description>🚀 Discover the latest insights on optimizing deep learning with AMD RDNA™ 4 architecture GPUs! This article dives into fused GEMMs, a key technique for enhancing performance. 📊 It explains the WMMA layout crucial for effective execution, emphasizing the need to transpose matrix D from M-major to N-major format. 💻 The guide also includes sample code and verification against hipBLAS, ensuring accuracy in implementation. #AMD #RDNA4 #DeepLearning #GEMM #TechGuide</description>
+    </item>
     <item>
       <title>Announcing AMD Schola v2.1: state trees, scale, and a richer training stack</title>
       <link>/articles/article-2026-05-19-19187/</link>

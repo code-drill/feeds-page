@@ -449,6 +449,72 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2026/05/26/testing-infrastructure-red-teaming-abliterated-models" target="_blank">Testing infrastructure red teaming with abliterated models</a></h2>
+            <div class="publication-date">2026-05-26 07:01</div>
+            <div class="summary">🔍 Testing the security of agent workloads on Red Hat OpenShift has revealed critical insights. The study deployed OpenClaw and utilized custom probes across various attack categories. Five models were tested, with abliterated models showing 100% cooperation on adversarial prompts, highlighting the importance of infrastructure as a final security measure. Key findings include: - Tier 0 (no controls) saw significant credential exfiltration. - Adding an SSH sandbox (Tier 1) eliminated sensitive...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Roy Belio</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2026/05/26/solutions-selinux-mcs-challenges-gitlab-runners" target="_blank">Solutions for SELinux MCS challenges with GitLab runners</a></h2>
+            <div class="publication-date">2026-05-26 07:01</div>
+            <div class="summary">🚀 SELinux Multi-Category Security (MCS) poses challenges for GitLab runners by restricting access between containers sharing volumes. GNOME addresses this issue with fixed MCS labels but compromises isolation. The article explores potential solutions, including microVM isolation using Cloud Hypervisor and Firecracker. Discover how these technologies may enhance security in CI environments. 🔍💻 #SELinux #GitLab #MicroVM #CloudHypervisor #DevOps</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Andrea Veri</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.twilio.com/en-us/blog/developers/tutorials/product/real-time-conversation-intelligence-flex" target="_blank">Script Adherence Using Real-time Conversation Intelligence with Twilio Flex</a></h2>
+            <div class="publication-date">2026-05-26 00:00</div>
+            <div class="summary">Enhance your customer service with Twilio&#39;s Conversation Intelligence! This tool offers real-time agent support and ensures script adherence in Twilio Flex. It&#39;s designed to improve communication and maintain consistency during customer interactions. Explore how it can transform your team’s performance! 🌟📞 #Twilio #CustomerService #ConversationIntelligence #RealTimeSupport #TechInnovation</div>
+            <div class="source">Source: <a href="/sources/twilio-engineering">Twilio Engineering</a></div>
+            
+            <div class="author">Curtis Swartzentruber, Ruma Nair, Jeff Eiden</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://www.databricks.com/blog/scaling-mhhs-how-octopus-energy-achieved-50x-cost-reduction-margin-data-engineering" target="_blank">Scaling for MHHS: how Octopus Energy achieved a 50x cost reduction in margin data engineering</a></h2>
+            <div class="publication-date">2026-05-23 00:40</div>
+            <div class="summary">Octopus Energy successfully re-engineered its data pipelines to address the increasing demands of the UK&#39;s energy grid. A team of three engineers managed to handle a 48x increase in data volume while achieving a remarkable 50x cost reduction in margin data engineering. This initiative highlights the importance of efficient data management in the energy transition. ⚡️📊 #DataEngineering #EnergyTransition #OctopusEnergy #Innovation #CostReduction</div>
+            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://huggingface.co/blog/nvidia/nemotron-labs-diffusion" target="_blank">Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models</a></h2>
             <div class="publication-date">2026-05-23 00:02</div>
             <div class="summary">🚀 Exciting advancements in language models are here! The article discusses Nemotron-Labs&#39; approach to enhancing text generation speed through diffusion language models. Traditional large language models generate text autoregressively, creating a limit on processing speed. Nemotron-Labs aims to overcome this limitation, potentially transforming how we interact with AI in coding, summarization, and more. #AI #LanguageModels #TextGeneration #Innovation #TechTrends</div>
@@ -1028,70 +1094,6 @@
             <div class="publication-date">2026-05-14 00:00</div>
             <div class="summary">🚀 Railway has transformed its build process by replacing the older Docker-buildx GCP autoscaler with microVM build cells running BuildKit. This change allows for improved efficiency, with 66,000 builds per hour at peak. The new system operates on a fleet of bare-metal hosts, enhancing performance and reducing issues like egress costs and noisy neighbors. Learn more about this significant upgrade and its impact on build management. #TechUpdate #SoftwareDevelopment #BuildKit #Railway...</div>
             <div class="source">Source: <a href="/sources/railway-blog">Railway Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://planetscale.com/blog/database-egress" target="_blank">Egress problems and where to find them</a></h2>
-            <div class="publication-date">2026-05-14 00:00</div>
-            <div class="summary">Optimizing database queries can significantly improve application performance while reducing costs. 💻💰 Egress refers to the data transferred out from your database, which often incurs costs with cloud providers. To minimize egress, focus on fetching only necessary data and reducing the frequency of requests. 📊 Common issues include retrieving too much data or making unbounded queries. Instead, limit your queries to specific columns and apply pagination for better efficiency. 📉 For more...</div>
-            <div class="source">Source: <a href="/sources/planetscale-blog">PlanetScale Blog</a></div>
-            
-            <div class="author">Simeon Griggs</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://huggingface.co/blog/continuous_async" target="_blank">Unlocking asynchronicity in continuous batching</a></h2>
-            <div class="publication-date">2026-05-14 00:00</div>
-            <div class="summary">Unlocking asynchronicity in continuous batching can lead to significant performance gains for inference. This article discusses how to separate CPU and GPU workloads to optimize GPU utilization. Continuous batching has improved GPU efficiency, but it remains synchronous, causing idle time. By implementing asynchronous batching, CPU preparation and GPU computation can operate simultaneously, reducing wasted time and enhancing performance. 📈💻🚀 #AsynchronousBatching #GPUUtilization...</div>
-            <div class="source">Source: <a href="/sources/hugging-face-blog">Hugging Face Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.databricks.com/blog/rosetta-stone-cps-clarotys-ai-powered-library" target="_blank">The Rosetta stone of CPS: Claroty’s AI-powered library</a></h2>
-            <div class="publication-date">2026-05-13 19:00</div>
-            <div class="summary">Discover how Claroty&#39;s innovative AI-powered library addresses the identity crisis in Cyber-Physical Systems (CPS). This multi-agent AI system utilizes Databricks to enhance security and streamline operations, showcasing significant advancements in the field. Learn more about this transformative approach to CPS! 🛠️🔍 #CyberSecurity #AI #CPS #Innovation #TechTrends</div>
-            <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://www.digitalocean.com/blog/your-infrastructure-matters" target="_blank">Your Model Doesn&#39;t Matter. Your Infrastructure Does.</a></h2>
-            <div class="publication-date">2026-05-13 16:45</div>
-            <div class="summary">Unlocking the potential of AI starts with the right infrastructure. 🌐 DigitalOcean emphasizes that while everyone has access to similar models, success lies in the surrounding infrastructure—routing logic, data pipelines, and scalable solutions without code rewrites. Their recent session showcased how teams can move seamlessly through serverless, dedicated, and routed setups, maximizing efficiency and reducing costs. 💡 Explore the full capabilities of DigitalOcean&#39;s AI platform! #AI...</div>
-            <div class="source">Source: <a href="/sources/digitalocean-blog">DigitalOcean Blog</a></div>
-            
-            <div class="author">Amit Jotwani</div>
             
             
             <div class="categories">

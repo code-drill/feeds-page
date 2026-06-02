@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 17:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:02:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 3</title>
+      <link>/articles/article-2026-06-02-19741/</link>
+      <pubDate>Tue, 02 Jun 2026 19:02:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19741/</guid>
+      <description>Unlock the potential of AMD RDNA™ 4 architecture GPUs with in-register matrix transpose techniques! 🔄 This article delves into optimizing matrix transposition for FFT and Neural Texture Compression using WMMA. It highlights the challenges faced due to the absence of shared-memory transpose loading and in-register capabilities. A practical solution involves using warp shuffle instructions, though it has its limitations due to the RDNA 4 WMMA layout. Explore innovative coding methods to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 2</title>
+      <link>/articles/article-2026-06-02-19742/</link>
+      <pubDate>Tue, 02 Jun 2026 19:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19742/</guid>
+      <description>Unlock the potential of AMD RDNA™ 4 architecture GPUs with the latest insights on Wide WMMA. 📈 This article explores methods to maximize memory bandwidth for low-precision GEMM operations, crucial for deep learning models like MLPs and CNNs. By extending the K dimension, users can achieve double the memory throughput for FP8 and INT8 data types, maintaining numerical accuracy. Learn more about optimizing performance and check out the sample code provided! 💻 #AMD #RDNA4 #DeepLearning #GEMM&amp;hellip;</description>
+    </item>
+    <item>
+      <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 1</title>
+      <link>/articles/article-2026-06-02-19743/</link>
+      <pubDate>Tue, 02 Jun 2026 19:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19743/</guid>
+      <description>🚀 Discover the latest insights on optimizing deep learning with AMD RDNA™ 4 architecture GPUs! This article dives into fused GEMMs, a key technique for enhancing performance. 📊 It explains the WMMA layout crucial for effective execution, emphasizing the need to transpose matrix D from M-major to N-major format. 💻 The guide also includes sample code and verification against hipBLAS, ensuring accuracy in implementation. #AMD #RDNA4 #DeepLearning #GEMM #TechGuide</description>
+    </item>
     <item>
       <title>When history fails you, borrow from geography</title>
       <link>/articles/article-2026-06-02-19731/</link>
@@ -21,6 +42,13 @@
       <pubDate>Tue, 02 Jun 2026 07:01:16 +0000</pubDate>
       <guid>/articles/article-2026-06-02-19699/</guid>
       <description>🚀 The vLLM Semantic Router enhances model efficiency by routing requests to the appropriate models based on complexity. However, a recent study found that the pretrained model had an 80% accuracy rate, leading to a 20% misrouting rate. This highlights a critical need for improved accuracy in enterprise deployments. To address this, a fine-tuning pipeline was established on OpenShift AI, significantly boosting routing accuracy from 80% to 98.5%. This adjustment ensures that models handle&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How LivePerson optimized Logstash and Kafka performance on GCP through benchmarking</title>
+      <link>/articles/article-2026-06-02-19746/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19746/</guid>
+      <description>LivePerson improved its Logstash and Kafka performance on GCP by benchmarking five machine types. They found that selecting the right infrastructure can significantly reduce costs. Switching to AMD Milan-based instances cut Logstash processing costs by over 50%, while optimizing Kafka through codec selection boosted throughput. These changes allowed for fewer high-throughput instances, reducing overall infrastructure needs. #CloudComputing #CostOptimization #GCP #Logstash #Kafka 🚀💡</description>
     </item>
     <item>
       <title>The Inference Tax: How Prefix-Aware Routing Eliminates the Hidden Cost of LLMs at Scale</title>

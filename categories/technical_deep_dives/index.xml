@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 19:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 07:01:16 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve vLLM Semantic Router accuracy with fine-tuning</title>
+      <link>/articles/article-2026-06-02-19699/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:16 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19699/</guid>
+      <description>🚀 The vLLM Semantic Router enhances model efficiency by routing requests to the appropriate models based on complexity. However, a recent study found that the pretrained model had an 80% accuracy rate, leading to a 20% misrouting rate. This highlights a critical need for improved accuracy in enterprise deployments. To address this, a fine-tuning pipeline was established on OpenShift AI, significantly boosting routing accuracy from 80% to 98.5%. This adjustment ensures that models handle&amp;hellip;</description>
+    </item>
     <item>
       <title>The Inference Tax: How Prefix-Aware Routing Eliminates the Hidden Cost of LLMs at Scale</title>
       <link>/articles/article-2026-06-01-19660/</link>

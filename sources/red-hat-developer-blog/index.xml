@@ -6,8 +6,43 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 07:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 07:01:21 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UBI 9 and 10 builders on Paketo Buildpacks with multi-arch support</title>
+      <link>/articles/article-2026-06-02-19696/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:21 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19696/</guid>
+      <description>🚀 Exciting updates from Paketo Buildpacks! UBI 9 and UBI 10 builders are now available, offering multi-architecture support for builds. These builders currently support Node.js, with Java support on the way. Base images are published on Dockerhub, making it easy to get started. Multi-arch options include arm64 and amd64, allowing for flexible application builds. For more details, check the release notes and try using the pack CLI! #PaketoBuildpacks #UBI #MultiArch #NodeJS #DevOps</description>
+    </item>
+    <item>
+      <title>Deploy Hermes Agent on OpenShift AI with vLLM model serving</title>
+      <link>/articles/article-2026-06-02-19697/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:20 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19697/</guid>
+      <description>🚀 Exciting advancements in AI deployment! The article outlines how to deploy the Hermes Agent on Red Hat OpenShift AI using GPU-accelerated vLLM model serving. This innovative agent retains user context across sessions, creating a continuous learning experience. Key features include: - Multi-platform capabilities (Telegram, Discord, Slack) - Self-improving skills from multi-step tasks - Seamless integration with OpenShift&amp;rsquo;s production-ready AI infrastructure This deployment is ideal for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Evaluation-driven development with EvalHub</title>
+      <link>/articles/article-2026-06-02-19698/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19698/</guid>
+      <description>🚀 Discover the future of AI development with Evaluation-Driven Development (EDD) using EvalHub! EDD transforms traditional test-driven development by focusing on measurable performance gaps instead of simple pass/fail outcomes. 🔍 Key Steps in EDD: 1️⃣ Define clear evaluation criteria before coding. 2️⃣ Measure quality with gradient scores for deeper insights. 3️⃣ Iterate based on data to optimize performance. EvalHub streamlines this process, ensuring effective AI outcomes through transparent&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Improve vLLM Semantic Router accuracy with fine-tuning</title>
+      <link>/articles/article-2026-06-02-19699/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:16 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19699/</guid>
+      <description>🚀 The vLLM Semantic Router enhances model efficiency by routing requests to the appropriate models based on complexity. However, a recent study found that the pretrained model had an 80% accuracy rate, leading to a 20% misrouting rate. This highlights a critical need for improved accuracy in enterprise deployments. To address this, a fine-tuning pipeline was established on OpenShift AI, significantly boosting routing accuracy from 80% to 98.5%. This adjustment ensures that models handle&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Red Hat build of Cryostat 4.2: Enhanced Java monitoring for OpenShift</title>
+      <link>/articles/article-2026-06-02-19700/</link>
+      <pubDate>Tue, 02 Jun 2026 07:01:13 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19700/</guid>
+      <description>🚀 The Red Hat build of Cryostat 4.2 is now generally available, enhancing Java monitoring on OpenShift. 📊 Key features include SQL query support for JDK Flight Recorder data, allowing for in-console analysis without downloading files. 🔍 The update also introduces async-profiler integration for better stack trace capture and smart triggers for dynamic recording management. 🔒 New observability features like audit logging and improved thread dump analysis enhance security and system tracking&amp;hellip;.</description>
+    </item>
     <item>
       <title>Protect your Kubernetes Operator from OOMKill</title>
       <link>/articles/article-2026-06-01-19600/</link>

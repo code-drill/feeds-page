@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 22:33:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 02:05:05 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamically Splitting Wide Partitions in Cassandra for Time Series Workloads</title>
+      <link>/articles/article-2026-06-03-19750/</link>
+      <pubDate>Wed, 03 Jun 2026 02:05:05 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19750/</guid>
+      <description>🚀 Netflix&amp;rsquo;s TimeSeries Abstraction efficiently manages petabytes of temporal data using Apache Cassandra. However, wide partitions in datasets can lead to high read latencies and timeouts. To address these challenges, the team developed a partitioning strategy that divides data into time chunks. This approach helps manage wide partitions and improves query efficiency. Additionally, they implemented dynamic partitioning that auto-detects and splits wide partitions based on usage, resulting in&amp;hellip;</description>
+    </item>
     <item>
       <title>How Loom turns customer support into a driver of business growth with Atlassian Customer Service Management</title>
       <link>/articles/article-2026-06-02-19749/</link>

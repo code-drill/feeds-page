@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 15:49:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enforcing the First AS in BGP AS_PATHs</title>
+      <link>/articles/article-2026-06-03-19792/</link>
+      <pubDate>Wed, 03 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19792/</guid>
+      <description>BGP is facing challenges from routing hijacks and path leaks, which disrupt Internet traffic. Recent incidents highlighted by Spamhaus show how attackers exploit unused autonomous system numbers (ASNs) to create fake AS_PATHs, misdirecting traffic. A proposed solution is First AS enforcement in BGP, ensuring that an AS is always listed as the &amp;ldquo;First AS&amp;rdquo; in route advertisements. This basic verification can help mitigate the risk of these hijacks. Research into major networks reveals how well&amp;hellip;</description>
+    </item>
     <item>
       <title>How Agentforce Conversation Client Accelerated Accessibility Remediation by 5x Using AI-Driven Workflows</title>
       <link>/articles/article-2026-06-03-19773/</link>
@@ -35,6 +42,13 @@
       <pubDate>Wed, 03 Jun 2026 02:05:05 +0000</pubDate>
       <guid>/articles/article-2026-06-03-19750/</guid>
       <description>🚀 Netflix&amp;rsquo;s TimeSeries Abstraction efficiently manages petabytes of temporal data using Apache Cassandra. However, wide partitions in datasets can lead to high read latencies and timeouts. To address these challenges, the team developed a partitioning strategy that divides data into time chunks. This approach helps manage wide partitions and improves query efficiency. Additionally, they implemented dynamic partitioning that auto-detects and splits wide partitions based on usage, resulting in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Claude please rack me a datacenter, make no mistakes</title>
+      <link>/articles/article-2026-06-03-19785/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19785/</guid>
+      <description>🚀 Railway has streamlined compute deployment for customers, enabling thousands of new hosts for millions of users. In January 2026, the team faced the challenge of operationalizing a significant investment in DDR5 DIMMs across multiple geographies and facilities. With a tight installation window, everything had to align perfectly. Instead of expanding headcount, they focused on efficient planning, managing the complex logistics with just one-and-a-half dedicated planners. This innovative&amp;hellip;</description>
     </item>
     <item>
       <title>WMMA guide for AMD RDNA 4 architecture GPUs - part 3</title>

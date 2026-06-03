@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 16:53:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/cloudflare-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enforcing the First AS in BGP AS_PATHs</title>
+      <link>/articles/article-2026-06-03-19792/</link>
+      <pubDate>Wed, 03 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19792/</guid>
+      <description>BGP is facing challenges from routing hijacks and path leaks, which disrupt Internet traffic. Recent incidents highlighted by Spamhaus show how attackers exploit unused autonomous system numbers (ASNs) to create fake AS_PATHs, misdirecting traffic. A proposed solution is First AS enforcement in BGP, ensuring that an AS is always listed as the &amp;ldquo;First AS&amp;rdquo; in route advertisements. This basic verification can help mitigate the risk of these hijacks. Research into major networks reveals how well&amp;hellip;</description>
+    </item>
     <item>
       <title>How we reduced core unit boot time from hours to minutes</title>
       <link>/articles/article-2026-06-01-19653/</link>

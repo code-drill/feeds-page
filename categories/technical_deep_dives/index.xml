@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 11:24:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 15:00:01 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One</title>
+      <link>/articles/article-2026-06-04-19818/</link>
+      <pubDate>Thu, 04 Jun 2026 15:00:01 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19818/</guid>
+      <description>AI clusters are evolving into shared infrastructures, essential for various sectors like finance and research. Cisco Nexus One enhances these systems with job-ID-based segmentation, improving connectivity and performance for demanding AI workloads. This approach addresses challenges of operational complexity and visibility across multiple tenants. Multitenancy ensures efficient GPU resource use, allowing different teams to collaborate without the need for isolated clusters. This method&amp;hellip;</description>
+    </item>
     <item>
       <title>Task-Seeded Synthetic Q&amp;A Generation for Nemotron Pretraining</title>
       <link>/articles/article-2026-06-04-19807/</link>
@@ -35,6 +42,13 @@
       <pubDate>Thu, 04 Jun 2026 03:01:10 +0000</pubDate>
       <guid>/articles/article-2026-06-04-19801/</guid>
       <description>Discover how intelligent inference scheduling with llm-d enhances AI performance on Red Hat platforms. The article explores the benefits of optimizing scheduling processes to improve efficiency and resource management in AI applications. Learn how Red Hat AI is leveraging these advancements for better outcomes. #RedHatAI #ArtificialIntelligence #TechInnovation #InferenceScheduling #llmD 🤖📈💡</description>
+    </item>
+    <item>
+      <title>Designing the hf CLI as an agent-optimized way to work with the Hub</title>
+      <link>/articles/article-2026-06-04-19823/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19823/</guid>
+      <description>🚀 The hf CLI is the official command-line tool for the Hugging Face Hub, allowing users to perform various tasks like downloading models and managing repositories directly from the terminal. Recently, it has been optimized for both human users and coding agents like Claude Code and Codex. Benchmark tests show that for complex tasks, the hf CLI is significantly more efficient, using up to 6× fewer tokens compared to traditional methods. #HuggingFace #AI #CommandLine #TechUpdate #Efficiency</description>
     </item>
     <item>
       <title>Apache Spark Real-Time Mode for Gaming: A Better Way to Do Real-Time Sessionization</title>

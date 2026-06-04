@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 03:01:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 07:16:56 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An overview of confidential containers on OpenShift bare metal</title>
+      <link>/articles/article-2026-06-04-19804/</link>
+      <pubDate>Thu, 04 Jun 2026 07:16:56 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19804/</guid>
+      <description>Discover how Confidential Containers leverage Trusted Execution Environments (TEEs) on OpenShift bare metal for enhanced workload isolation. At the core are confidential virtual machines (CVMs) that utilize Kata Containers for running Kubernetes pods, ensuring strong security through hardware isolation. 🔒 Remote attestation verifies the integrity of CVMs, ensuring sensitive materials are securely handled. This architecture supports a zero-trust model, enhancing confidentiality and integrity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>iSCSI vs. NVMe/TCP: The ultimate storage showdown for Red Hat OpenShift Virtualization</title>
+      <link>/articles/article-2026-06-04-19805/</link>
+      <pubDate>Thu, 04 Jun 2026 07:16:55 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19805/</guid>
+      <description>🔍 In the latest article, we explore the comparison between iSCSI and NVMe/TCP storage protocols in Red Hat OpenShift Virtualization. Both protocols have distinct advantages. iSCSI has been a reliable choice for years but may struggle with modern SSDs due to its single-queue architecture. In contrast, NVMe/TCP is optimized for high-performance flash storage, offering lower latency and higher IOPS. Testing shows NVMe/TCP significantly outperforms iSCSI in VM provisioning and raw disk I/O,&amp;hellip;</description>
+    </item>
     <item>
       <title>Intelligent inference scheduling with llm-d on Red Hat AI</title>
       <link>/articles/article-2026-06-04-19801/</link>

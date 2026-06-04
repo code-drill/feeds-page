@@ -6,8 +6,15 @@
     <description>Recent content in Airbnb-Engineering on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 17:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 17:01:04 +0000</lastBuildDate>
     <atom:link href="/sources/airbnb-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sitar-agent: Building a reliable dynamic configuration sidecar at scale</title>
+      <link>/articles/article-2026-06-04-19827/</link>
+      <pubDate>Thu, 04 Jun 2026 17:01:04 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19827/</guid>
+      <description>🚀 Airbnb has developed the Sitar-agent, a lightweight Kubernetes sidecar that ensures dynamic configuration delivery across thousands of service instances. 🔄 The configuration delivery lifecycle involves creation, hourly snapshot uploads, and real-time updates, ensuring services remain reliable and efficient. 📊 Key design choices include a shift from Ruby to Java for better performance and operational safety. The sidecar model maintains isolation while optimizing server load. #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>When history fails you, borrow from geography</title>
       <link>/articles/article-2026-06-02-19731/</link>

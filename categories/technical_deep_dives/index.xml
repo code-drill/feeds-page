@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 15:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 17:01:04 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sitar-agent: Building a reliable dynamic configuration sidecar at scale</title>
+      <link>/articles/article-2026-06-04-19827/</link>
+      <pubDate>Thu, 04 Jun 2026 17:01:04 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19827/</guid>
+      <description>🚀 Airbnb has developed the Sitar-agent, a lightweight Kubernetes sidecar that ensures dynamic configuration delivery across thousands of service instances. 🔄 The configuration delivery lifecycle involves creation, hourly snapshot uploads, and real-time updates, ensuring services remain reliable and efficient. 📊 Key design choices include a shift from Ruby to Java for better performance and operational safety. The sidecar model maintains isolation while optimizing server load. #Kubernetes&amp;hellip;</description>
+    </item>
     <item>
       <title>From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One</title>
       <link>/articles/article-2026-06-04-19818/</link>
       <pubDate>Thu, 04 Jun 2026 15:00:01 +0000</pubDate>
       <guid>/articles/article-2026-06-04-19818/</guid>
       <description>AI clusters are evolving into shared infrastructures, essential for various sectors like finance and research. Cisco Nexus One enhances these systems with job-ID-based segmentation, improving connectivity and performance for demanding AI workloads. This approach addresses challenges of operational complexity and visibility across multiple tenants. Multitenancy ensures efficient GPU resource use, allowing different teams to collaborate without the need for isolated clusters. This method&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Engineering 360 Unified Operations at Scale and Reached 80% Adoption</title>
+      <link>/articles/article-2026-06-04-19826/</link>
+      <pubDate>Thu, 04 Jun 2026 14:58:07 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19826/</guid>
+      <description>Salesforce engineering faced challenges with fragmented data across multiple tools, complicating operations. 🚧 To address this, they developed Engineering 360, a unified platform that now tracks 150 standardized metrics. Currently, 80% of engineering managers use it for operational reviews. 📊 Key improvements included data unification and strict metric standardization, ensuring meaningful insights while maintaining system reliability. 🔍 #Salesforce #Engineering #DataAnalytics&amp;hellip;</description>
     </item>
     <item>
       <title>Task-Seeded Synthetic Q&amp;A Generation for Nemotron Pretraining</title>
@@ -63,6 +77,13 @@
       <pubDate>Wed, 03 Jun 2026 20:20:10 +0000</pubDate>
       <guid>/articles/article-2026-06-03-19796/</guid>
       <description>📝 Plugin authors should note a key change in the IntelliJ Platform regarding file saves. Historically, saving a document ensured the latest text was written to disk. Now, the Virtual File System (VFS) updates first, with disk writes occurring later in the background. For those using IntelliJ file APIs, no changes are needed. However, if directly reading physical files or using external processes, ensure to flush pending VFS writes beforehand. For more details, refer to the official SDK&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Lights Out, Systems On: Validating Instant Power Loss Readiness</title>
+      <link>/articles/article-2026-06-03-19828/</link>
+      <pubDate>Wed, 03 Jun 2026 17:00:44 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19828/</guid>
+      <description>🔌 Meta introduces the Instantaneous PowerLoss Storm, a new testing method to ensure data centers can handle sudden power losses. This approach enhances disaster preparedness by integrating resilience into existing systems with defense-in-depth strategies. It addresses challenges from zero-notice disasters, ensuring minimal impact on overall fleet availability. Learn more about how Meta is strengthening its infrastructure! ⚡🌐 #DataCenters #DisasterPreparedness #PowerLoss #MetaEngineering&amp;hellip;</description>
     </item>
     <item>
       <title>Enforcing the First AS in BGP AS_PATHs</title>

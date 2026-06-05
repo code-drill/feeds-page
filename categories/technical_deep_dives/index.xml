@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 03:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic validation needs different infrastructure</title>
+      <link>/articles/article-2026-06-05-19876/</link>
+      <pubDate>Fri, 05 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19876/</guid>
+      <description>Building effective agentic feedback loops requires addressing infrastructure challenges. Validation checks, whether linters or tests, often run locally but face issues when scaling with multiple agents. Resource consumption can slow down machines, and unique local settings can lead to inconsistent results. To improve efficiency, consider using containers and tools like Vercel&amp;rsquo;s portless, while keeping environments consistent across teams. Cloud-based agents introduce further complexities,&amp;hellip;</description>
+    </item>
     <item>
       <title>Why your database benchmarking data is probably wrong (and how I fixed mine)</title>
       <link>/articles/article-2026-06-05-19857/</link>

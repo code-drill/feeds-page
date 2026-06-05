@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 13:49:27 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Zig Isn’t 1.0 (Yet)</title>
+      <link>/articles/article-2026-06-05-19868/</link>
+      <pubDate>Fri, 05 Jun 2026 13:49:27 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19868/</guid>
+      <description>Zig, a programming language created by Andrew Kelley, is gaining traction but has not yet released a 1.0 version. This decision stems from a focus on getting the fundamentals right rather than rushing to market. Kelley explains that the absence of a 1.0 isn&amp;rsquo;t a delay; it&amp;rsquo;s a deliberate choice to ensure stability without external pressures. While a 1.0 release could boost adoption, the team prioritizes long-term quality over quick milestones. 🎥 Watch the full interview for more insights:&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enabling Evolutionary Database Development: database branching with Lakebase, continued</title>
+      <link>/articles/article-2026-06-05-19873/</link>
+      <pubDate>Fri, 05 Jun 2026 13:35:15 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19873/</guid>
+      <description>🌐 Exciting advancements in database development are here! In the latest article, Pramod Sadalage and Kevin Hartman explore the Evolutionary Database Design methodology from 20 years ago, now enhanced by Databricks Lakebase. The new copy-on-write branching allows for efficient database changes, lifting previous constraints and enabling better collaboration between DBAs and developers. Jen, a character from the original series, demonstrates how these updated practices support team-scale&amp;hellip;</description>
+    </item>
     <item>
       <title>Data &#43; AI Summit 2026: Insider’s Guide for Financial Services Leaders</title>
       <link>/articles/article-2026-06-05-19866/</link>
@@ -37,6 +51,13 @@
       <description>🚀 Exciting updates from the OWASP Top 10 team! Tanya Janca discusses significant changes in the latest release, shifting focus from &amp;ldquo;outdated components&amp;rdquo; to the broader software supply chain. Key additions include memory safety and vibe-coding as awareness items. For developers, the OWASP Top 10 remains a vital resource for understanding critical web application security risks. Learn more about Tanya&amp;rsquo;s insights and her new podcast, DevSec Station! 🎙️ #OWASP #WebSecurity #SoftwareDevelopment&amp;hellip;</description>
     </item>
     <item>
+      <title>Agentic validation needs different infrastructure</title>
+      <link>/articles/article-2026-06-05-19876/</link>
+      <pubDate>Fri, 05 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19876/</guid>
+      <description>Building effective agentic feedback loops requires addressing infrastructure challenges. Validation checks, whether linters or tests, often run locally but face issues when scaling with multiple agents. Resource consumption can slow down machines, and unique local settings can lead to inconsistent results. To improve efficiency, consider using containers and tools like Vercel&amp;rsquo;s portless, while keeping environments consistent across teams. Cloud-based agents introduce further complexities,&amp;hellip;</description>
+    </item>
+    <item>
       <title>Installing Red Hat Enterprise Linux 10 from a bootc image with bootc</title>
       <link>/articles/article-2026-06-05-19856/</link>
       <pubDate>Fri, 05 Jun 2026 03:01:07 +0000</pubDate>
@@ -51,6 +72,13 @@
       <description>🔍 Struggling with database benchmarking? You&amp;rsquo;re not alone. An article outlines common pitfalls faced when testing AWS RDS PostgreSQL performance. One key issue is the load generator acting as a bottleneck, impacting throughput. Upgrading the client instance can help eliminate this limitation. Another factor is ensuring the test is CPU-bound rather than disk-bound by adjusting parameters. Additionally, increasing the max_wal_size can prevent performance dips during testing. For reliable&amp;hellip;</description>
     </item>
     <item>
+      <title>3 Principles to Safely Scale Agentic AI</title>
+      <link>/articles/article-2026-06-05-19872/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19872/</guid>
+      <description>🚀 Autonomous AI agents are reshaping enterprises, but they also increase security risks. As organizations adopt these technologies, their attack surface expands beyond traditional security measures. 🔒 It&amp;rsquo;s essential to adopt a secure-by-design approach. Three key principles have emerged: 1️⃣ Treat AI agents as privileged identities, enforcing strict access controls and monitoring behaviors. 2️⃣ Secure the entire AI lifecycle, from development to production, ensuring robust protection for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Agentic SOCs: The public sector’s new AI cybersecurity defense</title>
       <link>/articles/article-2026-06-05-19864/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
@@ -63,6 +91,20 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-05-19865/</guid>
       <description>At 1Password, interns are using AI to enhance their learning and problem-solving skills. Eileen Zhao and Kashish Garg shared their experiences, highlighting how AI tools help navigate complex codebases and improve communication. Eileen leverages AI for editing, understanding new concepts, and organizing her thoughts before coding. Kashish uses AI to parse information and validate his approaches, streamlining his workflow. These experiences showcase how 1Password fosters AI fluency and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>HP Anyware is being sunset: A practical guide for postproduction teams</title>
+      <link>/articles/article-2026-06-05-19869/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19869/</guid>
+      <description>HP has announced the end of new-customer sales for HP Anyware as of now. Support for existing users will cease on October 31, 2026, with broader maintenance lasting until October 31, 2029. This transition poses risks in security and compliance for postproduction teams, particularly for high-quality content workflows. The article highlights Parsec as a viable alternative. It offers low-latency remote access for editorial and finishing tasks, ensuring secure media handling while maintaining&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The skills.sh API is now available</title>
+      <link>/articles/article-2026-06-05-19870/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19870/</guid>
+      <description>🚀 The skills.sh API is officially launched! You can now authenticate using your Vercel OIDC token to access over 600,000 skills from the open-source ecosystem. Easily search for skills, get detailed information, and check security audits. Vercel provides a short-lived token for enhanced security, with a rate limit of 600 requests per minute per team. Explore the skills.sh API documentation to dive in! #SkillsAPI #Vercel #OpenSource #TechNews #APILaunch</description>
     </item>
     <item>
       <title>Atlassian named a Strong Performer in The Forrester Wave™: Strategic Portfolio Management Tools, Q2 2026</title>
@@ -350,6 +392,13 @@
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-04-19822/</guid>
       <description>Audit trails play a crucial role in today&amp;rsquo;s digital landscape. Originally designed for compliance, they now help close deals and ensure accountability for AI agents. These logs are essential for reconstructing breaches, making them a valuable asset for businesses. Embracing audit trails benefits both security and operational efficiency. 🔍📊 #AuditTrails #CyberSecurity #AIAccountability #BusinessGrowth #Compliance</description>
+    </item>
+    <item>
+      <title>Build and deploy Shopify storefronts on Vercel</title>
+      <link>/articles/article-2026-06-04-19871/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-04-19871/</guid>
+      <description>🚀 You can now build Shopify storefronts directly on Vercel! With this new integration, setting up a production-ready store is quick and easy. Simply install the Shopify integration to configure your credentials and start building a free test store. When ready, claim ownership of your store and launch! Stay tuned for the option to connect existing Shopify stores. #Shopify #Vercel #Ecommerce #WebDevelopment #Integration</description>
     </item>
     <item>
       <title>Conversational AI vs generative AI: What&#39;s the difference?</title>
@@ -870,11 +919,25 @@
       <description>🚀 Exciting news for Cisco partners! The new ‘Shop Cisco Refresh’ eCommerce platform has launched, simplifying the procurement of certified remanufactured equipment. This platform offers a user-friendly interface for easy ordering, real-time inventory access, and assurance of quality with full Cisco warranties. Maximize efficiency and drive growth with this valuable tool! 💻📈 #CiscoRefresh #eCommerce #PartnerGrowth #ITProcurement #TechInnovation</description>
     </item>
     <item>
+      <title>Agentic BI: A Practical Guide for BI Teams and Business Users</title>
+      <link>/articles/article-2026-06-02-19874/</link>
+      <pubDate>Tue, 02 Jun 2026 17:07:16 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19874/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/what-is-agentic-bi&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>When history fails you, borrow from geography</title>
       <link>/articles/article-2026-06-02-19731/</link>
       <pubDate>Tue, 02 Jun 2026 17:01:04 +0000</pubDate>
       <guid>/articles/article-2026-06-02-19731/</guid>
       <description>Airbnb faced unique forecasting challenges during the pandemic. With traditional models relying on historical data, they turned to geographic recovery signals to create reliable forecasts when local data was scarce. 🌍 By analyzing lead times for bookings across regions, they identified patterns in demand recovery, even as markets reopened at different rates. This innovative approach allowed them to inform predictions based on early signals from similar corridors. 📊 The insights gained during&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Data Science vs Data Analytics: Compare Careers, Skills, and Degrees</title>
+      <link>/articles/article-2026-06-02-19875/</link>
+      <pubDate>Tue, 02 Jun 2026 16:49:30 +0000</pubDate>
+      <guid>/articles/article-2026-06-02-19875/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://www.databricks.com/feed&#34;&gt;Databricks Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.databricks.com/blog/data-science-vs-data-analytics&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching AI to speak our design language</title>

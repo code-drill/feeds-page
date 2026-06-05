@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 13:49:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 19:03:28 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replit shows how vibe coding is getting its own financial stack — and a path to profit</title>
+      <link>/articles/article-2026-06-05-19878/</link>
+      <pubDate>Fri, 05 Jun 2026 19:03:28 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19878/</guid>
+      <description>🚀 Making apps is now more accessible, but monetizing them can be challenging. Replit aims to bridge this gap by creating a financial stack for vibe-coded apps. 🛒 Their latest feature includes a Shopify integration, allowing users to easily set up custom storefronts without prior e-commerce experience. 💻 Users can create a fully functional store in about ten minutes, connecting their Shopify account to finalize their setup. #VibeCoding #Replit #Ecommerce #Shopify #AppDevelopment</description>
+    </item>
+    <item>
+      <title>Cloudflare aqui-hires VoidZero: Did a piece of the open web just stabilize, or become more brittle?</title>
+      <link>/articles/article-2026-06-05-19879/</link>
+      <pubDate>Fri, 05 Jun 2026 19:01:18 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19879/</guid>
+      <description>Cloudflare has acquired VoidZero, known for its JavaScript development tools like Vite. Both companies emphasize that VoidZero&amp;rsquo;s open-source and community-driven ethos will remain unchanged. The developer community&amp;rsquo;s reaction is mixed, with some praising the acquisition for its potential benefits, while others express concerns about future changes and vendor lock-in. Cloudflare aims to support the continued development of VoidZero&amp;rsquo;s projects. #Cloudflare #VoidZero #OpenSource #WebDevelopment&amp;hellip;</description>
+    </item>
     <item>
       <title>Why Zig Isn’t 1.0 (Yet)</title>
       <link>/articles/article-2026-06-05-19868/</link>
@@ -72,6 +86,13 @@
       <description>🔍 Struggling with database benchmarking? You&amp;rsquo;re not alone. An article outlines common pitfalls faced when testing AWS RDS PostgreSQL performance. One key issue is the load generator acting as a bottleneck, impacting throughput. Upgrading the client instance can help eliminate this limitation. Another factor is ensuring the test is CPU-bound rather than disk-bound by adjusting parameters. Additionally, increasing the max_wal_size can prevent performance dips during testing. For reliable&amp;hellip;</description>
     </item>
     <item>
+      <title>Drives for Vercel Sandbox in Private Beta</title>
+      <link>/articles/article-2026-06-05-19880/</link>
+      <pubDate>Fri, 05 Jun 2026 00:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19880/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>3 Principles to Safely Scale Agentic AI</title>
       <link>/articles/article-2026-06-05-19872/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
@@ -105,6 +126,13 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-05-19877/</guid>
       <description>🚀 Google has introduced the Google Colab Command-Line Interface (CLI), a new tool for developers and AI agents. 🌐 This CLI connects local terminals to remote Colab runtimes, allowing users to request high-powered GPUs and run Python scripts remotely. 📦 It also simplifies artifact recovery, enabling easy access to models and logs. With its integration into standard terminal environments, it&amp;rsquo;s ready for AI agents to manage complex machine learning tasks effectively. #GoogleColab #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Our takeaways from the Gartner® Hype Cycle for Agentic AI report</title>
+      <link>/articles/article-2026-06-05-19426/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19426/</guid>
+      <description>The Gartner® Hype Cycle™ for Agentic AI emphasizes the need for human oversight in AI deployments. Fully autonomous agents are not yet ready for most enterprise use cases, and organizations should focus on semiautonomous models. Interest in AI agents is rising, with 42% of organizations expecting to adopt them within a year. However, many are unprepared for the associated risks, including security gaps and governance challenges. Key areas to address include the security of enterprise AI&amp;hellip;</description>
     </item>
     <item>
       <title>The skills.sh API is now available</title>
@@ -812,6 +840,13 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-03-19769/</guid>
       <description>AI is reshaping the buying cycle, leading customers to prefer unified platforms for observability, security, and search. Elastic is positioned to help partners capitalize on this trend through strategic growth opportunities. As customers seek efficiency and consolidation, partners can thrive by adapting quickly. Explore how to build your practice with Elastic for future success. 🌐🚀 #Elastic #AIDriven #PartnerGrowth #UnifiedPlatforms #BusinessStrategy</description>
+    </item>
+    <item>
+      <title>Trace any Vercel request from the CLI</title>
+      <link>/articles/article-2026-06-03-19787/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19787/</guid>
+      <description>🚀 Exciting news for developers! You can now generate Session Traces directly from the Vercel CLI using the new &lt;strong&gt;vercel curl &amp;ndash;trace&lt;/strong&gt; command. This allows you to create OpenTelemetry traces to specific endpoints from your terminal. To retrieve your trace, simply use the &lt;strong&gt;vercel traces get&lt;/strong&gt; command with the request ID. This feature is available on all Vercel plans. Make sure to update your Vercel CLI to the latest version to take advantage of these new commands. #Vercel #DeveloperTools&amp;hellip;</description>
     </item>
     <item>
       <title>How Loom turns customer support into a driver of business growth with Atlassian Customer Service Management</title>

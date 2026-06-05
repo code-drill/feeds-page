@@ -6,8 +6,15 @@
     <description>Recent content in Vercel-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 00:01:00 +0000</lastBuildDate>
     <atom:link href="/sources/vercel-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drives for Vercel Sandbox in Private Beta</title>
+      <link>/articles/article-2026-06-05-19880/</link>
+      <pubDate>Fri, 05 Jun 2026 00:01:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19880/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://vercel.com/atom&#34;&gt;Vercel Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The skills.sh API is now available</title>
       <link>/articles/article-2026-06-05-19870/</link>
@@ -42,6 +49,13 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-03-19786/</guid>
       <description>🚀 Grok Imagine Video 1.5 from xAI is now live on AI Gateway! This model allows users to generate videos from images with synced audio in one step. Key improvements include enhanced audio quality, photorealism, and character consistency over longer sequences. Users can also customize visual styles with expanded reference image support. To get started, set the model to xai/grok-imagine-video-1.5-preview in the AI SDK or try it in the AI Gateway Playground. #xAI #AIGateway #VideoGeneration&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Trace any Vercel request from the CLI</title>
+      <link>/articles/article-2026-06-03-19787/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-03-19787/</guid>
+      <description>🚀 Exciting news for developers! You can now generate Session Traces directly from the Vercel CLI using the new &lt;strong&gt;vercel curl &amp;ndash;trace&lt;/strong&gt; command. This allows you to create OpenTelemetry traces to specific endpoints from your terminal. To retrieve your trace, simply use the &lt;strong&gt;vercel traces get&lt;/strong&gt; command with the request ID. This feature is available on all Vercel plans. Make sure to update your Vercel CLI to the latest version to take advantage of these new commands. #Vercel #DeveloperTools&amp;hellip;</description>
     </item>
     <item>
       <title>Edit Git settings for all projects in a repo</title>

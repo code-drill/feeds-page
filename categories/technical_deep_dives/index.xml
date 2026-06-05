@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 17:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 03:01:05 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why your database benchmarking data is probably wrong (and how I fixed mine)</title>
+      <link>/articles/article-2026-06-05-19857/</link>
+      <pubDate>Fri, 05 Jun 2026 03:01:05 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19857/</guid>
+      <description>🔍 Struggling with database benchmarking? You&amp;rsquo;re not alone. An article outlines common pitfalls faced when testing AWS RDS PostgreSQL performance. One key issue is the load generator acting as a bottleneck, impacting throughput. Upgrading the client instance can help eliminate this limitation. Another factor is ensuring the test is CPU-bound rather than disk-bound by adjusting parameters. Additionally, increasing the max_wal_size can prevent performance dips during testing. For reliable&amp;hellip;</description>
+    </item>
     <item>
       <title>Sitar-agent: Building a reliable dynamic configuration sidecar at scale</title>
       <link>/articles/article-2026-06-04-19827/</link>

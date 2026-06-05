@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 07:16:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 03:01:07 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Red Hat Enterprise Linux 10 from a bootc image with bootc</title>
+      <link>/articles/article-2026-06-05-19856/</link>
+      <pubDate>Fri, 05 Jun 2026 03:01:07 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19856/</guid>
+      <description>🔧 Interested in managing Red Hat Enterprise Linux (RHEL) more efficiently? The new image mode deployment option allows installation from a bootc image, enhancing consistency and enabling atomic updates. 🖥️ With RHEL 10, you can easily deploy this system using Anaconda and the new bootc kickstart command. This method streamlines the installation process by managing core tasks while ensuring system updates can be performed later. 📥 For more details on how to get started, check the full article&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your database benchmarking data is probably wrong (and how I fixed mine)</title>
+      <link>/articles/article-2026-06-05-19857/</link>
+      <pubDate>Fri, 05 Jun 2026 03:01:05 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19857/</guid>
+      <description>🔍 Struggling with database benchmarking? You&amp;rsquo;re not alone. An article outlines common pitfalls faced when testing AWS RDS PostgreSQL performance. One key issue is the load generator acting as a bottleneck, impacting throughput. Upgrading the client instance can help eliminate this limitation. Another factor is ensuring the test is CPU-bound rather than disk-bound by adjusting parameters. Additionally, increasing the max_wal_size can prevent performance dips during testing. For reliable&amp;hellip;</description>
+    </item>
     <item>
       <title>Type what you want to break: AI-assisted chaos engineering with Krkn</title>
       <link>/articles/article-2026-06-04-19802/</link>

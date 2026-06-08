@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2026 17:46:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 18:18:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell</title>
+      <link>/articles/article-2026-06-08-19942/</link>
+      <pubDate>Mon, 08 Jun 2026 18:18:06 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19942/</guid>
+      <description>🚀 Training large language models (LLMs) efficiently relies on throughput. Every percentage of step time can significantly impact training duration and costs. The NVFP4 recipe in TransformerEngine utilizes subbyte precision for JAX pretraining, achieving high-throughput 4-bit mixed-precision training on NVIDIA Blackwell without accuracy loss compared to FP8. This post outlines the NVFP4 format&amp;rsquo;s efficiency and introduces a pretraining recipe that enhances performance using innovative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Managing Elasticsearch Reindex at Scale: Performance, Reliability, and Observability</title>
+      <link>/articles/article-2026-06-08-19943/</link>
+      <pubDate>Mon, 08 Jun 2026 17:57:01 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19943/</guid>
+      <description>Discover how Palantir enhances Elasticsearch reindexing for better performance and reliability! This article by Kevin Liang details the improvements made to the reindex machinery, ensuring efficient repairs of search indices without downtime. Key considerations include automated processes, schema-aware reconstruction, and observability mechanisms. Learn how these advancements support mission-critical search workflows in the Gotham ecosystem. 📊🔍 #Elasticsearch #DataManagement #Palantir&amp;hellip;</description>
+    </item>
     <item>
       <title>Scaling Zero Copy from 1 Trillion to 120 Trillion Rows with File Federation</title>
       <link>/articles/article-2026-06-08-19938/</link>

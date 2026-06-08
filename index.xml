@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2026 17:46:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 19:54:40 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Software Supply Chain Security Best Practices for Development Teams</title>
+      <link>/articles/article-2026-06-08-19945/</link>
+      <pubDate>Mon, 08 Jun 2026 19:54:40 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19945/</guid>
+      <description>Understanding software supply chain security is essential for development teams. With open-source malware on the rise, organizations must implement effective practices now. 🚀 This article outlines five best practices, including starting with trusted content, verifying build provenance, and integrating vulnerability analysis into workflows. 📦🔍 By treating supply chain security as an engineering discipline, teams can better protect their software against sophisticated attacks. #SoftwareSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How DoorDash’s brand affinity powers smarter targeting</title>
+      <link>/articles/article-2026-06-08-19946/</link>
+      <pubDate>Mon, 08 Jun 2026 19:34:09 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19946/</guid>
+      <description>🚀 DoorDash has launched its new Consumer Packaged Goods (CPG) Interest Targeting initiative, enabling advertisers to connect with consumers based on their restaurant order history. This initiative addresses two key questions: which consumer segments to target and how to adjust selections for various campaign objectives. DoorDash&amp;rsquo;s unique access to data allows for a deeper understanding of consumer preferences. By developing a proprietary brand-dish affinity metric, advertisers can now&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How AI is solving the memory crunch it created</title>
+      <link>/articles/article-2026-06-08-19939/</link>
+      <pubDate>Mon, 08 Jun 2026 19:25:40 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19939/</guid>
+      <description>Memory constraints are now a major challenge for tech teams, driven by hardware limitations and rising costs. 📉 Over the past year, prices for high-bandwidth memory and DRAM have surged by 170%. This has prompted a shift from a buy-all-you-can approach to data-driven optimization strategies. AI is emerging as a solution, helping enterprises optimize workloads and reduce costs by up to 50%. 🌐💡 Learn how to transition from inefficiency to smarter IT practices. #TechTrends #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Microsoft’s pitch to enterprises: Ditch Azure Repos for GitHub, despite its rocky reliability record</title>
+      <link>/articles/article-2026-06-08-19940/</link>
+      <pubDate>Mon, 08 Jun 2026 19:05:40 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19940/</guid>
+      <description>🚀 Microsoft is encouraging enterprises to transition from Azure Repos to GitHub, despite recent reliability issues at GitHub. The platform has faced outages impacting critical services like CI/CD pipelines, prompting public apologies. 📊 GitHub&amp;rsquo;s usage has surged, processing 1.4 billion commits monthly, with AI contributing significantly. To handle this load, GitHub aims for 30 times its current capacity. 🔄 Microsoft’s new tool, Enterprise Live Migrations (ELM), offers a smoother transition,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Claude Code’s biggest upgrade yet ran 5 agents at once — here’s what happened</title>
+      <link>/articles/article-2026-06-08-19941/</link>
+      <pubDate>Mon, 08 Jun 2026 19:01:20 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19941/</guid>
+      <description>🚀 Anthropic has released Claude Opus 4.8, introducing dynamic workflows in Claude Code. This feature allows Claude to function like a team of developers, enabling it to create its own orchestration scripts and run multiple subagents simultaneously. 💻 According to Anthropic, this upgrade significantly reduces project timelines, with tasks that typically take months now completed in days. 🔍 Ole Lehmann highlights that dynamic workflows elevate Claude’s capabilities, likening the AI’s role to a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell</title>
+      <link>/articles/article-2026-06-08-19942/</link>
+      <pubDate>Mon, 08 Jun 2026 18:18:06 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19942/</guid>
+      <description>🚀 Training large language models (LLMs) efficiently relies on throughput. Every percentage of step time can significantly impact training duration and costs. The NVFP4 recipe in TransformerEngine utilizes subbyte precision for JAX pretraining, achieving high-throughput 4-bit mixed-precision training on NVIDIA Blackwell without accuracy loss compared to FP8. This post outlines the NVFP4 format&amp;rsquo;s efficiency and introduces a pretraining recipe that enhances performance using innovative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Transforming solar and wind maintenance reports with Genie and AI agents</title>
+      <link>/articles/article-2026-06-08-19944/</link>
+      <pubDate>Mon, 08 Jun 2026 18:15:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19944/</guid>
+      <description>🚀 Plenitude is transforming solar and wind maintenance reports by using Databricks Genie and AI agents. They have developed an agent-based system that converts unstructured maintenance PDFs into a searchable data model. This allows users to ask natural-language questions and generate visualizations easily. Early results show improved analysis speed and secure access, paving the way for predictive maintenance. #RenewableEnergy #AI #DataAnalytics #SolarEnergy #WindEnergy</description>
+    </item>
+    <item>
+      <title>Managing Elasticsearch Reindex at Scale: Performance, Reliability, and Observability</title>
+      <link>/articles/article-2026-06-08-19943/</link>
+      <pubDate>Mon, 08 Jun 2026 17:57:01 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-19943/</guid>
+      <description>Discover how Palantir enhances Elasticsearch reindexing for better performance and reliability! This article by Kevin Liang details the improvements made to the reindex machinery, ensuring efficient repairs of search indices without downtime. Key considerations include automated processes, schema-aware reconstruction, and observability mechanisms. Learn how these advancements support mission-critical search workflows in the Gotham ecosystem. 📊🔍 #Elasticsearch #DataManagement #Palantir&amp;hellip;</description>
+    </item>
     <item>
       <title>Scaling Zero Copy from 1 Trillion to 120 Trillion Rows with File Federation</title>
       <link>/articles/article-2026-06-08-19938/</link>

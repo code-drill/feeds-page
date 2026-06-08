@@ -44,6 +44,13 @@
       <description>Transitioning AI from Jupyter Notebook to production requires significant changes in mindset and engineering practices. 🛠️ In notebooks, models thrive in controlled environments, but production demands scalable, observable systems that handle uncertainty. Key factors include high accuracy, reproducible training, and robust monitoring. 📈 Effective experimentation is crucial; chaotic testing can lead to failures in production. A disciplined approach ensures models perform reliably in real-world&amp;hellip;</description>
     </item>
     <item>
+      <title>How to set up blue-green deployments with CircleCI</title>
+      <link>/articles/article-2026-06-05-19936/</link>
+      <pubDate>Fri, 05 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-05-19936/</guid>
+      <description>🚀 Learn how to set up blue-green deployments with CircleCI! This tutorial outlines the steps: from building a sample application to writing Kubernetes manifests and creating a CircleCI pipeline. It emphasizes the importance of validation and instant rollback for safe deployments. Key points include: - Running two identical environments for seamless traffic switching. - Utilizing approval gates in your pipeline for added security. For a detailed guide, check out the tutorial! #CircleCI&amp;hellip;</description>
+    </item>
+    <item>
       <title>Enabling Evolutionary Database Development: database branching with Lakebase, continued</title>
       <link>/articles/article-2026-06-05-19873/</link>
       <pubDate>Fri, 05 Jun 2026 13:35:15 +0000</pubDate>

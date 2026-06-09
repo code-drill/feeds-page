@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 10:46:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 14:40:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When your data model is the bottleneck: lessons from Medium’s feature store</title>
+      <link>/articles/article-2026-06-09-19961/</link>
+      <pubDate>Tue, 09 Jun 2026 14:40:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19961/</guid>
+      <description>Medium’s recommendation system aims to keep readers engaged by processing user activity signals and correlating them with new articles. 📚 The feature store plays a crucial role in this system, enabling real-time data storage and retrieval to support fast user interactions. Andréas Saudemont explains how the team improved their data model to handle over 1 million operations per second effectively. Learn more about their challenges and solutions! 💡 #Medium #DataScience #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How long before we stop reading the code?</title>
+      <link>/articles/article-2026-06-09-19962/</link>
+      <pubDate>Tue, 09 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19962/</guid>
+      <description>🚀 Code reviews are facing a critical shift. Instead of focusing solely on code, experts suggest prioritizing reviews of intent, specs, and acceptance criteria. This change addresses the bottleneck caused by AI-generated code, which outpaces human review capabilities. Research shows that as code changes grow, the usefulness of comments declines. In fact, teams using AI now merge 98% more PRs, leading to longer review times. AI tools can assist in reviews, but they bring challenges like non-&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we built an AI foundation for the Revenue Operations team in Cisco Marketing</title>
+      <link>/articles/article-2026-06-09-19963/</link>
+      <pubDate>Tue, 09 Jun 2026 12:00:22 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19963/</guid>
+      <description>🚀 Cisco&amp;rsquo;s Marketing Revenue Operations team has developed an AI enablement playbook to streamline innovation and secure deployment. This initiative transforms AI strategies into actionable solutions, addressing the complexities of AI implementation. The playbook is designed to support teams in turning AI concepts into real-world impact for customers and partners. #Cisco #AI #Innovation #Marketing #RevenueOperations</description>
+    </item>
+    <item>
+      <title>Cisco SASE with Meraki: Get in the Fast Lane to SASE</title>
+      <link>/articles/article-2026-06-09-19964/</link>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19964/</guid>
+      <description>🚀 Explore the power of Cisco SASE with Meraki! This solution simplifies security by integrating SD-WAN with cloud-delivered Security Service Edge (SSE). It addresses the complexities of hybrid work environments, where users, apps, and data are spread across various locations. With Cisco SASE, teams can smoothly transition from SD-WAN to a complete SASE architecture while maintaining familiar tools. This integration promises a clearer operating model for security management. #Cisco #SASE&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Fewer False Alarms, Better Coding Flow in RustRover 2026.2</title>
+      <link>/articles/article-2026-06-09-19965/</link>
+      <pubDate>Tue, 09 Jun 2026 11:35:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19965/</guid>
+      <description>🚀 RustRover 2026.1 has made significant improvements by reducing false positives by up to 25%. This means fewer misleading warnings and a smoother coding experience. False positives occur when the IDE incorrectly flags code as problematic, even when it runs correctly. RustRover uses its own analysis engine alongside cargo check, which helps enhance IDE features but can lead to discrepancies. To maintain a seamless workflow, RustRover’s analysis reacts in real-time, allowing developers to&amp;hellip;</description>
+    </item>
     <item>
       <title>How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces</title>
       <link>/articles/article-2026-06-09-19958/</link>
@@ -44,11 +79,32 @@
       <description>🚀 Discover how agentic AI is transforming data access in enterprises! This article introduces the integration of Red Hat OpenShift AI and EnterpriseDB’s PG Airman MCP server, addressing the challenges non-technical staff face with SQL. It highlights a natural language interface that simplifies data queries and ensures compliance with data governance. Stay tuned for more insights in this four-part series! #DataGovernance #AI #PostgreSQL #OpenShift #TechInnovation</description>
     </item>
     <item>
+      <title>Defend against frontier cyber models: Cloudflare&#39;s architecture as customer zero</title>
+      <link>/articles/article-2026-06-09-19967/</link>
+      <pubDate>Tue, 09 Jun 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19967/</guid>
+      <description>🌐 In a recent article, Cloudflare discusses the importance of architecture in addressing vulnerabilities, highlighting insights from Project Glasswing. 🔍 The speed of vulnerability discovery has increased with frontier cyber models like Mythos, which can quickly identify and exploit weaknesses. However, these models do not eliminate the need for thorough security measures. 💻 Cloudflare emphasizes that their security architecture is built using its own products, serving as a model for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Improving Code Reviewer with Atlassian PR Context</title>
       <link>/articles/article-2026-06-09-19954/</link>
       <pubDate>Tue, 09 Jun 2026 05:34:52 +0000</pubDate>
       <guid>/articles/article-2026-06-09-19954/</guid>
       <description>🚀 Enhancing the Rovo Dev Code Reviewer is a key focus for improving code quality. The tool now incorporates historical PR context, allowing it to learn from past code reviews. This aims to replicate the knowledge experienced reviewers have about code patterns, team conventions, and important discussions. By utilizing Atlassian&amp;rsquo;s Teamwork Graph Collection, the Code Reviewer accesses previous PRs for relevant code changes and team feedback, combining technical accuracy with cultural insights&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>HNSW vs LSH: How Elasticsearch hits 0.99 recall@10 at 15,000 QPS — and what it costs</title>
+      <link>/articles/article-2026-06-09-17271/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-17271/</guid>
+      <description>Discover the approximate nearest neighbor (ANN) algorithm! 🌐 ANN enhances search efficiency by quickly identifying data points close to your query, even in vast datasets. As data grows, traditional nearest neighbor methods struggle, making ANN essential for effective recommendations in platforms like Spotify and Netflix. 🎶📺 Learn about its workings, types, and importance in vector search. #DataScience #MachineLearning #ANN #TechInnovation #Algorithms</description>
+    </item>
+    <item>
+      <title>The Pre-Launch Identity Audit: Shipping Secure and Optimized Auth</title>
+      <link>/articles/article-2026-06-09-19966/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19966/</guid>
+      <description>🚀 Before launching your application, it&amp;rsquo;s crucial to conduct a thorough identity audit. This ensures your Auth0 setup is secure and optimized for real-world usage. 🔍 Start with the Production Readiness Check, which scans for configuration issues and highlights security vulnerabilities. 📊 Next, monitor core usage metrics like Active Users and M2M tokens to ensure your app can scale effectively. 🔒 Lock down token signatures and clean up callback URLs to prevent security risks. #CyberSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)</title>

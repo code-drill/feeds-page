@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 05:34:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 14:40:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When your data model is the bottleneck: lessons from Medium’s feature store</title>
+      <link>/articles/article-2026-06-09-19961/</link>
+      <pubDate>Tue, 09 Jun 2026 14:40:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19961/</guid>
+      <description>Medium’s recommendation system aims to keep readers engaged by processing user activity signals and correlating them with new articles. 📚 The feature store plays a crucial role in this system, enabling real-time data storage and retrieval to support fast user interactions. Andréas Saudemont explains how the team improved their data model to handle over 1 million operations per second effectively. Learn more about their challenges and solutions! 💡 #Medium #DataScience #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Defend against frontier cyber models: Cloudflare&#39;s architecture as customer zero</title>
+      <link>/articles/article-2026-06-09-19967/</link>
+      <pubDate>Tue, 09 Jun 2026 06:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19967/</guid>
+      <description>🌐 In a recent article, Cloudflare discusses the importance of architecture in addressing vulnerabilities, highlighting insights from Project Glasswing. 🔍 The speed of vulnerability discovery has increased with frontier cyber models like Mythos, which can quickly identify and exploit weaknesses. However, these models do not eliminate the need for thorough security measures. 💻 Cloudflare emphasizes that their security architecture is built using its own products, serving as a model for&amp;hellip;</description>
+    </item>
     <item>
       <title>Improving Code Reviewer with Atlassian PR Context</title>
       <link>/articles/article-2026-06-09-19954/</link>

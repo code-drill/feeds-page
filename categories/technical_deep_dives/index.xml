@@ -6,14 +6,28 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 16:35:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 17:01:02 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world</title>
+      <link>/articles/article-2026-06-09-19982/</link>
+      <pubDate>Tue, 09 Jun 2026 17:01:02 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19982/</guid>
+      <description>Airbnb&amp;rsquo;s data teams have made significant advancements to support their expansion into Homes, Experiences, and Services. With the May 2025 release, they faced the challenge of evolving their offline data architecture. To navigate this, they established a flexible framework balancing consistency with decentralized modeling. This approach addresses the unique needs of each product line while maintaining clarity across the organization. Key principles included avoiding hybrid models, ensuring&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Federated Learning Research with AI Agents and NVIDIA FLARE Auto-FL</title>
       <link>/articles/article-2026-06-09-19971/</link>
       <pubDate>Tue, 09 Jun 2026 16:35:08 +0000</pubDate>
       <guid>/articles/article-2026-06-09-19971/</guid>
       <description>🚀 Federated Learning (FL) research often starts with exploring new strategies. The article discusses NVIDIA FLARE Auto-FL, a tool that enhances this process. It automates the testing of FL methods through well-defined benchmarks and structured workflows. This allows researchers to evaluate ideas efficiently while maintaining consistency in results. 📊 Auto-FL helps researchers navigate their experiments, keeping track of outcomes for reproducibility. Learn more about how AI agents can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Evaluate Clinical ASR Models Faster with Agent Skills and NVIDIA Nemotron Speech</title>
+      <link>/articles/article-2026-06-09-19972/</link>
+      <pubDate>Tue, 09 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19972/</guid>
+      <description>Training speech AI to understand clinical terminology is challenging. Common drug names and medical terms often aren&amp;rsquo;t included in standard speech models. 🏥 Synthetic data generation can address this gap, but accuracy in pronunciation is crucial. Incorrect pronunciations can lead to more problems rather than solutions. NVIDIA&amp;rsquo;s tools support this process, allowing quick creation of clinical benchmarks without the hurdles of real audio collection. 🎤 Clinical ASR is essential for various&amp;hellip;</description>
     </item>
     <item>
       <title>When your data model is the bottleneck: lessons from Medium’s feature store</title>

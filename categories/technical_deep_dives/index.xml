@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 17:01:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 19:38:28 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech</title>
+      <link>/articles/article-2026-06-09-19995/</link>
+      <pubDate>Tue, 09 Jun 2026 19:38:28 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19995/</guid>
+      <description>Exploring the capabilities of voice agents, a recent article evaluates how Automatic Speech Recognition (ASR) systems perform with bilingual and code-switched speech. The study highlights the challenges these systems face in accurately understanding mixed-language conversations. Findings suggest a need for ongoing improvements to better serve bilingual customers. 🤖🗣️🌍 #VoiceTechnology #BilingualCommunication #ASR #CodeSwitching #Innovation</description>
+    </item>
+    <item>
+      <title>Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT</title>
+      <link>/articles/article-2026-06-09-19988/</link>
+      <pubDate>Tue, 09 Jun 2026 18:27:52 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19988/</guid>
+      <description>Unlock faster inference with NVIDIA TensorRT! 🚀 This article discusses converting FP8-quantized checkpoints into efficient TensorRT engines. This process enhances production deployment, leading to improved throughput and GPU utilization. It details exporting checkpoints to ONNX and compiling them for real-world application, comparing FP8 performance against FP16. Learn more about the quantization workflow and its benefits! #NVIDIA #TensorRT #MachineLearning #AI #Quantization</description>
+    </item>
     <item>
       <title>Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world</title>
       <link>/articles/article-2026-06-09-19982/</link>
@@ -49,6 +63,13 @@
       <pubDate>Tue, 09 Jun 2026 05:34:52 +0000</pubDate>
       <guid>/articles/article-2026-06-09-19954/</guid>
       <description>🚀 Enhancing the Rovo Dev Code Reviewer is a key focus for improving code quality. The tool now incorporates historical PR context, allowing it to learn from past code reviews. This aims to replicate the knowledge experienced reviewers have about code patterns, team conventions, and important discussions. By utilizing Atlassian&amp;rsquo;s Teamwork Graph Collection, the Code Reviewer accesses previous PRs for relevant code changes and team feedback, combining technical accuracy with cultural insights&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>HNSW vs. LSH: How Elasticsearch hits 0.99 recall@10 at 15,000 QPS — and what it costs</title>
+      <link>/articles/article-2026-06-09-19991/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-09-19991/</guid>
+      <description>Elasticsearch&amp;rsquo;s HNSW achieves an impressive recall@10 of 0.99 at 15,000 QPS, surpassing OpenSearch for production vector search. 📊 The article explains how HNSW and DiskBBQ quantization improve recall and speed, highlighting the challenges of exact nearest neighbor search at scale. It also details the workings of HNSW and the effects of quantization on memory usage without significant recall loss. #Elasticsearch #HNSW #VectorSearch #DataScience #MachineLearning</description>
     </item>
     <item>
       <title>Building a unified consumer memory for personalization at scale</title>

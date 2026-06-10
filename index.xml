@@ -6,14 +6,28 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 17:27:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 17:34:55 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New framework for auditing machine unlearning</title>
+      <link>/articles/article-2026-06-10-20036/</link>
+      <pubDate>Wed, 10 Jun 2026 17:34:55 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20036/</guid>
+      <description>📊 A new framework for auditing machine unlearning has been introduced, focusing on the verification of AI systems&amp;rsquo; ability to forget specific training data. 🔍 This method uses two-sample testing to determine if outputs from models differ significantly, ensuring compliance with regulations like GDPR. 💻 As models grow, the need for accurate and efficient auditing becomes crucial. The Regularized f-Divergence Kernel Tests aim to enhance sensitivity and reduce false positives in this process&amp;hellip;.</description>
+    </item>
     <item>
       <title>Observability overload is drowning engineers</title>
       <link>/articles/article-2026-06-10-20022/</link>
       <pubDate>Wed, 10 Jun 2026 17:27:46 +0000</pubDate>
       <guid>/articles/article-2026-06-10-20022/</guid>
       <description>Engineers are facing challenges due to overwhelming observability data. 📊 While increased visibility into systems is beneficial, it often leads to confusion rather than quicker solutions. The abundance of data can result in chasing false leads and wasted time. To address this, AI agents are emerging as a solution, helping to parse information efficiently and suggest remediation pathways. 🤖 Join Datadog’s Vignesh Palaniappan on June 30 to explore these insights and discover how to enhance your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From repetitive tickets to instant resolution: How AI agents help reclaim your service desk for the work that matters</title>
+      <link>/articles/article-2026-06-10-20035/</link>
+      <pubDate>Wed, 10 Jun 2026 17:25:37 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20035/</guid>
+      <description>Transform your service desk with AI! 🤖✨ Discover how Rovo agents in Jira Service Management can auto-classify 90,000 tickets, eliminating wait times and enhancing efficiency. This white paper details a step-by-step guide for deployment and features a case study from Atlassian’s IT service desk. Learn about the challenges of repetitive requests and how Rovo agents can tackle them effectively, allowing skilled agents to focus on complex issues. Explore more! 📊💼 #AIinServiceDesk&amp;hellip;</description>
     </item>
     <item>
       <title>Google’s DiffusionGemma is 4x faster than its other Gemma models</title>
@@ -72,6 +86,13 @@
       <description>Understanding the Rule of Zero, Three, and Five (0/3/5) in C++ is essential for managing resource ownership effectively. 🖥️ These guidelines help prevent common issues like double-frees, dangling pointers, and broken copies. The article explores these rules and shares insights on how to enforce them using static analysis. Anna Zhukova, a software developer at Qodana, discusses her experiences and thoughts on improving code security and efficiency. 🔍✨ #Cplusplus #StaticAnalysis&amp;hellip;</description>
     </item>
     <item>
+      <title>Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors</title>
+      <link>/articles/article-2026-06-10-20037/</link>
+      <pubDate>Wed, 10 Jun 2026 15:04:30 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20037/</guid>
+      <description>🚀 AWS has launched Amazon EC2 M9g and M9gd instances, powered by the new Graviton5 processors. These instances offer enhanced compute performance, with up to 25% improvements over previous versions. 📊 Early tests show significant performance boosts for various workloads, including a 36% improvement for ClickHouse and up to 60% faster query times for MySQL databases on HubSpot. 🔍 Graviton5 is designed for demanding applications, featuring advanced memory capabilities and lower latency. Major&amp;hellip;</description>
+    </item>
+    <item>
       <title>Designing Production-Ready Battery Energy Storage Systems for AI Factories</title>
       <link>/articles/article-2026-06-10-20030/</link>
       <pubDate>Wed, 10 Jun 2026 15:00:00 +0000</pubDate>
@@ -91,6 +112,13 @@
       <pubDate>Wed, 10 Jun 2026 14:05:43 +0000</pubDate>
       <guid>/articles/article-2026-06-10-20016/</guid>
       <description>🚀 Red Hat Ansible Automation Platform 2.7 is here! This release focuses on enhancing automation for IT teams at enterprise scale. Key updates include a new visual execution environment builder and centralized content catalog to streamline processes. The intelligent assistant now supports bring-your-own-knowledge for tailored guidance. Additionally, the MCP server allows AI agents to manage automation through natural language commands, improving efficiency. Explore the new features and start&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Announcing Stack Overflow for Agents​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
+      <link>/articles/article-2026-06-10-20034/</link>
+      <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20034/</guid>
+      <description>🚀 Exciting news! Stack Overflow has launched &lt;em&gt;Stack Overflow for Agents&lt;/em&gt;, now in beta. This platform addresses the needs of AI coding agents by providing a shared knowledge base. As programming evolves, many agents face challenges due to isolated operations and outdated information. This new tool aims to bridge the &lt;em&gt;Ephemeral Intelligence Gap&lt;/em&gt;, ensuring agents can learn from each other in real-time. Developers can now direct these agents more efficiently, reducing repetitive tasks and&amp;hellip;</description>
     </item>
     <item>
       <title>Databricks wants to kill the “email me a file” problem for AI agent skills</title>
@@ -163,6 +191,13 @@
       <description>🌐 The article explores how Databricks streamlines BSA/AML compliance in financial services. It highlights the integration of previously isolated AML systems with machine learning risk scoring and AI agents into a unified workflow. This approach enhances the process from alert generation to the filing of Suspicious Activity Reports (SARs). Discover how technology is reshaping compliance! 💼🔍 #BSA #AML #Databricks #FinancialServices #Compliance</description>
     </item>
     <item>
+      <title>DiffusionGemma: The Developer Guide</title>
+      <link>/articles/article-2026-06-10-20038/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20038/</guid>
+      <description>🚀 Introducing &lt;strong&gt;DiffusionGemma&lt;/strong&gt;, an innovative text-generation model based on the Gemma 4 architecture. This experimental model utilizes diffusion-based parallel generation for faster and more efficient text processing. Key features include: - &lt;strong&gt;Compute-bound parallel generation&lt;/strong&gt;: Achieves up to 4x faster token generation on GPUs. - &lt;strong&gt;Bidirectional context awareness&lt;/strong&gt;: Enables real-time self-correction and evaluates entire text blocks simultaneously. - &lt;strong&gt;Developer-friendly design&lt;/strong&gt;:&amp;hellip;</description>
+    </item>
+    <item>
       <title>GitLab Flex: Commit once, reshape your seats and AI spend</title>
       <link>/articles/article-2026-06-10-20007/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
@@ -188,7 +223,7 @@
       <link>/articles/article-2026-06-10-20032/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-10-20032/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://auth0.com/blog/rss.xml&#34;&gt;Auth0 Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://auth0.com/blog/connect-oauth2-service-to-ai-agents-with-auth0-token-vault/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Unlock the power of Auth0 Token Vault! 🔐 This article explains how to connect any OAuth2 service to AI agents using a custom integration. Auth0’s Token Vault allows you to register your own services as social connections, making it easier for AI agents like Claude Code to call internal APIs without exposing credentials. Learn about the auth0-tv CLI tool to execute API calls seamlessly and securely. #Auth0 #AIIntegration #OAuth2 #TokenVault #TechGuide</description>
     </item>
     <item>
       <title>Introducing GitLab Orbit: Full code and lifecycle context, in one query</title>

@@ -6,8 +6,78 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 14:27:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 17:27:46 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability overload is drowning engineers</title>
+      <link>/articles/article-2026-06-10-20022/</link>
+      <pubDate>Wed, 10 Jun 2026 17:27:46 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20022/</guid>
+      <description>Engineers are facing challenges due to overwhelming observability data. 📊 While increased visibility into systems is beneficial, it often leads to confusion rather than quicker solutions. The abundance of data can result in chasing false leads and wasted time. To address this, AI agents are emerging as a solution, helping to parse information efficiently and suggest remediation pathways. 🤖 Join Datadog’s Vignesh Palaniappan on June 30 to explore these insights and discover how to enhance your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google’s DiffusionGemma is 4x faster than its other Gemma models</title>
+      <link>/articles/article-2026-06-10-20023/</link>
+      <pubDate>Wed, 10 Jun 2026 17:18:54 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20023/</guid>
+      <description>🚀 Google has introduced DiffusionGemma, an experimental model that is 4x faster than previous Gemma versions. This model utilizes diffusion to generate text in parallel, refining it step-by-step. It can produce over 1,000 tokens per second on a single Nvidia H100 GPU. While it excels in speed, it does have some limitations in quality compared to Gemma 4. Find out more on HuggingFace! #Google #AI #DiffusionGemma #MachineLearning #Innovation</description>
+    </item>
+    <item>
+      <title>Fable 5: Guardrails and burn rate are annoying users, who say it’s still better than Opus 4.8</title>
+      <link>/articles/article-2026-06-10-20024/</link>
+      <pubDate>Wed, 10 Jun 2026 17:11:37 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20024/</guid>
+      <description>🚀 Anthropic has launched Fable 5, a new Mythos-class model that promises longer autonomous operation and improved programming skills. While early reviews highlight its efficiency over Opus 4.8, users are concerned about the short usage window and strict guardrails. 💻 Fable 5 is available for Claude Pro and enterprise users, but it comes at a cost of $10 per million input tokens and $50 for output tokens. 💸 Community feedback indicates mixed feelings, with some praising its performance while&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Anthropic leader who built Claude Code says he ditched prompting — now he just writes loops.</title>
+      <link>/articles/article-2026-06-10-20025/</link>
+      <pubDate>Wed, 10 Jun 2026 17:01:52 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20025/</guid>
+      <description>Boris Cherny, head of Claude Code at Anthropic, has shifted from prompting AI directly to &amp;ldquo;writing loops.&amp;rdquo; This approach, also known as loop engineering, focuses on designing systems for coding agents to operate autonomously. Peter Steinberger and Google engineer Addy Osmani emphasize that this method transforms coding agents into long-running execution systems, enhancing their efficiency and capabilities. Loop engineering combines scheduled execution, isolated workspaces, and persistent&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS can now mathematically prove your VMs are isolated</title>
+      <link>/articles/article-2026-06-10-20026/</link>
+      <pubDate>Wed, 10 Jun 2026 16:46:34 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20026/</guid>
+      <description>AWS recently announced the general availability of its Graviton5 processor, which powers two new Amazon EC2 instances: M9g and M9gd. These instances are designed for general-purpose workloads and high-speed local storage, respectively. 🖥️ The Graviton5 features a doubled core count of 192, promising up to 25% better compute performance than its predecessor. Notably, these instances utilize the sixth-generation Nitro System, which includes the new Nitro Isolation Engine. 🔒 The Nitro Isolation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Microsoft pulled 73 GitHub repos after malware attack — but still won’t say who’s compromised</title>
+      <link>/articles/article-2026-06-10-20027/</link>
+      <pubDate>Wed, 10 Jun 2026 16:40:33 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20027/</guid>
+      <description>Last week, Microsoft disabled 73 GitHub repositories after a malware attack aimed at stealing developers’ credentials. The incident originated from a malicious commit uploaded to the durabletask repository. Despite the shutdown, Microsoft has not disclosed how many developers were impacted or specific details about the breach. GitHub stated the repos violated its terms of service but did not provide further clarification. This event highlights ongoing security concerns in the industry, as&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scale. Speed. Trust: Three Imperatives for the AI Era</title>
+      <link>/articles/article-2026-06-10-20028/</link>
+      <pubDate>Wed, 10 Jun 2026 16:29:24 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20028/</guid>
+      <description>🚀 Cisco Live 2026 highlighted key advancements for the AI era. Cisco and Splunk are combining forces to provide a robust infrastructure and intelligence layer for trusted operations. They introduced a new operating model under Cisco Cloud Control, enabling organizations to manage data at scale and leverage AI for insights while ensuring trust and visibility. Notable customer successes include Autodesk, which reduced costs and improved data management, and FINRA, enhancing operational&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation</title>
+      <link>/articles/article-2026-06-10-20029/</link>
+      <pubDate>Wed, 10 Jun 2026 16:16:30 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20029/</guid>
+      <description>🚀 Developers focused on real-time AI can benefit from DiffusionGemma, a new text generation model from Google DeepMind. This model generates tokens in parallel, increasing speed and efficiency. It can produce up to 1,000 tokens/sec on NVIDIA H100 GPUs, which enhances user experience while lowering costs. DiffusionGemma supports text and image modalities, with a total of 25.2B parameters. It&amp;rsquo;s optimized for various NVIDIA platforms, making it versatile for different AI applications. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Static Code Analysis and the Rules of Zero, Three, and Five</title>
+      <link>/articles/article-2026-06-10-20031/</link>
+      <pubDate>Wed, 10 Jun 2026 16:14:45 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20031/</guid>
+      <description>Understanding the Rule of Zero, Three, and Five (0/3/5) in C++ is essential for managing resource ownership effectively. 🖥️ These guidelines help prevent common issues like double-frees, dangling pointers, and broken copies. The article explores these rules and shares insights on how to enforce them using static analysis. Anna Zhukova, a software developer at Qodana, discusses her experiences and thoughts on improving code security and efficiency. 🔍✨ #Cplusplus #StaticAnalysis&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Designing Production-Ready Battery Energy Storage Systems for AI Factories</title>
+      <link>/articles/article-2026-06-10-20030/</link>
+      <pubDate>Wed, 10 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20030/</guid>
+      <description>AI factories are reshaping data-center infrastructure. Unlike traditional setups, they focus on manufacturing intelligence at scale. ⚡️ Battery energy storage systems (BESS) are now key components of this new architecture, enhancing reliability and performance. They help manage power demands efficiently, reducing stress on grids and onsite generation. Learn more about the importance of BESS in AI factories and the considerations for their design. 🔋💡 #AIFactories #EnergyStorage #DataCenters&amp;hellip;</description>
+    </item>
     <item>
       <title>The Inference Alpha: Maximizing Frontier Models on AMD</title>
       <link>/articles/article-2026-06-10-20018/</link>
@@ -114,11 +184,25 @@
       <description>🚀 GitLab Transcend recently highlighted key innovations for the agentic engineering era. 🔍 Announcements included a next-gen source code management system in private beta, and GitLab Orbit, a public beta context graph for the software lifecycle. 🛡️ New agents for security and governance are also in private beta, enhancing oversight for every action. 🤖 The GitLab Duo Agent Platform is now available, streamlining issue handling and code reviews. 💡 With 91% of organizations using multiple AI&amp;hellip;</description>
     </item>
     <item>
+      <title>How to Connect Any OAuth2 Service to AI Agents with Auth0 Token Vault</title>
+      <link>/articles/article-2026-06-10-20032/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20032/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://auth0.com/blog/rss.xml&#34;&gt;Auth0 Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://auth0.com/blog/connect-oauth2-service-to-ai-agents-with-auth0-token-vault/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Introducing GitLab Orbit: Full code and lifecycle context, in one query</title>
       <link>/articles/article-2026-06-10-20006/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-10-20006/</guid>
       <description>🚀 GitLab has introduced Orbit, now in public beta, to enhance code navigation and lifecycle understanding. This tool offers a live, queryable graph of code, merge requests, pipelines, and more, allowing teams to work more efficiently. In tests, Orbit outperformed other AI code review methods, achieving better accuracy in comments and summaries. Engineers can now ask complex questions and receive quick answers, improving productivity and reducing manual work. 🔗 Try GitLab Orbit today:&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What Our Design Team Stopped Doing to Start Leading the System for Quality</title>
+      <link>/articles/article-2026-06-10-20033/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20033/</guid>
+      <description>🚀 Our design team has made significant changes to enhance our workflow and increase impact. We stopped producing every screen manually and creating extensive design specs. With AI tools, we now automate these tasks, allowing designers to focus on strategic contributions. Additionally, we&amp;rsquo;ve shifted from being research librarians to using AI to quickly access insights, streamlining project initiation. Lastly, by reducing non-essential meetings, we&amp;rsquo;ve reclaimed valuable time for deep work&amp;hellip;.</description>
     </item>
     <item>
       <title>What We Learned Hiring 33 Engineers in Two Weeks</title>

@@ -6,8 +6,50 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 17:27:46 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability overload is drowning engineers</title>
+      <link>/articles/article-2026-06-10-20022/</link>
+      <pubDate>Wed, 10 Jun 2026 17:27:46 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20022/</guid>
+      <description>Engineers are facing challenges due to overwhelming observability data. 📊 While increased visibility into systems is beneficial, it often leads to confusion rather than quicker solutions. The abundance of data can result in chasing false leads and wasted time. To address this, AI agents are emerging as a solution, helping to parse information efficiently and suggest remediation pathways. 🤖 Join Datadog’s Vignesh Palaniappan on June 30 to explore these insights and discover how to enhance your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google’s DiffusionGemma is 4x faster than its other Gemma models</title>
+      <link>/articles/article-2026-06-10-20023/</link>
+      <pubDate>Wed, 10 Jun 2026 17:18:54 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20023/</guid>
+      <description>🚀 Google has introduced DiffusionGemma, an experimental model that is 4x faster than previous Gemma versions. This model utilizes diffusion to generate text in parallel, refining it step-by-step. It can produce over 1,000 tokens per second on a single Nvidia H100 GPU. While it excels in speed, it does have some limitations in quality compared to Gemma 4. Find out more on HuggingFace! #Google #AI #DiffusionGemma #MachineLearning #Innovation</description>
+    </item>
+    <item>
+      <title>Fable 5: Guardrails and burn rate are annoying users, who say it’s still better than Opus 4.8</title>
+      <link>/articles/article-2026-06-10-20024/</link>
+      <pubDate>Wed, 10 Jun 2026 17:11:37 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20024/</guid>
+      <description>🚀 Anthropic has launched Fable 5, a new Mythos-class model that promises longer autonomous operation and improved programming skills. While early reviews highlight its efficiency over Opus 4.8, users are concerned about the short usage window and strict guardrails. 💻 Fable 5 is available for Claude Pro and enterprise users, but it comes at a cost of $10 per million input tokens and $50 for output tokens. 💸 Community feedback indicates mixed feelings, with some praising its performance while&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Anthropic leader who built Claude Code says he ditched prompting — now he just writes loops.</title>
+      <link>/articles/article-2026-06-10-20025/</link>
+      <pubDate>Wed, 10 Jun 2026 17:01:52 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20025/</guid>
+      <description>Boris Cherny, head of Claude Code at Anthropic, has shifted from prompting AI directly to &amp;ldquo;writing loops.&amp;rdquo; This approach, also known as loop engineering, focuses on designing systems for coding agents to operate autonomously. Peter Steinberger and Google engineer Addy Osmani emphasize that this method transforms coding agents into long-running execution systems, enhancing their efficiency and capabilities. Loop engineering combines scheduled execution, isolated workspaces, and persistent&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS can now mathematically prove your VMs are isolated</title>
+      <link>/articles/article-2026-06-10-20026/</link>
+      <pubDate>Wed, 10 Jun 2026 16:46:34 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20026/</guid>
+      <description>AWS recently announced the general availability of its Graviton5 processor, which powers two new Amazon EC2 instances: M9g and M9gd. These instances are designed for general-purpose workloads and high-speed local storage, respectively. 🖥️ The Graviton5 features a doubled core count of 192, promising up to 25% better compute performance than its predecessor. Notably, these instances utilize the sixth-generation Nitro System, which includes the new Nitro Isolation Engine. 🔒 The Nitro Isolation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Microsoft pulled 73 GitHub repos after malware attack — but still won’t say who’s compromised</title>
+      <link>/articles/article-2026-06-10-20027/</link>
+      <pubDate>Wed, 10 Jun 2026 16:40:33 +0000</pubDate>
+      <guid>/articles/article-2026-06-10-20027/</guid>
+      <description>Last week, Microsoft disabled 73 GitHub repositories after a malware attack aimed at stealing developers’ credentials. The incident originated from a malicious commit uploaded to the durabletask repository. Despite the shutdown, Microsoft has not disclosed how many developers were impacted or specific details about the breach. GitHub stated the repos violated its terms of service but did not provide further clarification. This event highlights ongoing security concerns in the industry, as&amp;hellip;</description>
+    </item>
     <item>
       <title>Databricks wants to kill the “email me a file” problem for AI agent skills</title>
       <link>/articles/article-2026-06-10-20013/</link>

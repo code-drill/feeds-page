@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 14:05:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 07:16:12 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add automated AI evaluations to your CI/CD pipeline</title>
+      <link>/articles/article-2026-06-11-20055/</link>
+      <pubDate>Thu, 11 Jun 2026 07:16:12 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20055/</guid>
+      <description>Unlock AI evaluations in your CI/CD pipeline with EvalHub&amp;rsquo;s CLI! 🚀 This article details the workflow from setup to production, focusing on how to integrate automated evaluations. Key commands and environment variable configurations streamline the process, enhancing efficiency. Check out the series for more insights on building a scalable AI evaluation infrastructure! #AI #CICD #EvalHub #Automation #DevOps</description>
+    </item>
+    <item>
+      <title>Configure input guardrails for an OpenShift AI voice agent</title>
+      <link>/articles/article-2026-06-11-20056/</link>
+      <pubDate>Thu, 11 Jun 2026 07:16:11 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20056/</guid>
+      <description>🛡️ Strengthening security in Red Hat&amp;rsquo;s OpenShift AI voice agent is crucial. In a recent article, the implementation of guardrails to prevent prompt injection attacks was discussed, highlighting the importance of prompt engineering. 🔍 Key points include the use of MLflow to track conversation history and evaluating large language models for accuracy. 🛠️ Guardrails such as TrustyAI provide vital defenses against malicious inputs, ensuring reliable interactions in the voice agent. Explore more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Intelligent inference scheduling with llm-d on Red Hat AI</title>
+      <link>/articles/article-2026-06-11-20057/</link>
+      <pubDate>Thu, 11 Jun 2026 07:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20057/</guid>
+      <description>Discover how the open-source project llm-d enhances large language model (LLM) inference on Red Hat AI. Traditional load balancers treat LLM requests as stateless, leading to inefficiencies. llm-d optimizes performance by routing requests to GPUs with relevant cached data, significantly reducing time-to-first-token by over 99% and doubling throughput. With intelligent scheduling, it adapts to real-time loads and queue depths, ensuring efficient resource use. This new approach is seamlessly&amp;hellip;</description>
+    </item>
     <item>
       <title>What&#39;s new in Red Hat Ansible Automation Platform 2.7</title>
       <link>/articles/article-2026-06-10-20016/</link>

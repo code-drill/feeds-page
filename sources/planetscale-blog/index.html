@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://planetscale.com/blog/the-only-scalable-delete" target="_blank">The only scalable delete in Postgres is DROP TABLE</a></h2>
+            <div class="publication-date">2026-06-11 00:00</div>
+            <div class="summary">Large DELETE operations in Postgres can create more work instead of reclaiming space. Instead of deleting individual rows, consider structuring your database to use DROP TABLE or TRUNCATE for efficient data removal. When rows are deleted, they don&#39;t immediately free up disk space and can impact other transactions. This is due to Postgres&#39; Multi-Version Concurrency Control (MVCC) system. For applications needing large deletions, adopting a schema that supports DROP TABLE can enhance...</div>
+            <div class="source">Source: PlanetScale Blog</div>
+            
+            <div class="author">Tom Pang</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://planetscale.com/blog/database-egress" target="_blank">Egress problems and where to find them</a></h2>
             <div class="publication-date">2026-05-14 00:00</div>
             <div class="summary">Optimizing database queries can significantly improve application performance while reducing costs. 💻💰 Egress refers to the data transferred out from your database, which often incurs costs with cloud providers. To minimize egress, focus on fetching only necessary data and reducing the frequency of requests. 📊 Common issues include retrieving too much data or making unbounded queries. Instead, limit your queries to specific columns and apply pagination for better efficiency. 📉 For more...</div>

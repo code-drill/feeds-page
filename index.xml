@@ -6,8 +6,57 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 20:38:54 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Don’t just grab random stuff off the internet”: What Chainguard found in 52,000 open-source packages</title>
+      <link>/articles/article-2026-06-11-20096/</link>
+      <pubDate>Thu, 11 Jun 2026 20:38:54 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20096/</guid>
+      <description>Chainguard&amp;rsquo;s recent findings highlight concerns about open-source package safety. Their new source code scanner identifies &amp;ldquo;greyware,&amp;rdquo; which can be transparent yet harmful. With over 52,000 potentially dangerous packages blocked, they emphasize caution for non-technical users relying on open-source solutions. Understanding the risks is essential for safe development. 🔍💻 #CyberSecurity #OpenSource #TechSafety #Greyware #Chainguard</description>
+    </item>
+    <item>
+      <title>How MuleSoft Is Raising the Trust Bar for AI-Generated Code</title>
+      <link>/articles/article-2026-06-11-20109/</link>
+      <pubDate>Thu, 11 Jun 2026 20:15:37 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20109/</guid>
+      <description>🚀 MuleSoft is setting new standards for AI-generated code safety. In a recent Q&amp;amp;A, Melissa Cazalet, SVP of Software Engineering, discussed the Golden Gate initiative. This AI-powered governance system ensures every code change meets Salesforce&amp;rsquo;s security and compliance standards before reaching production. 🔍 The initiative prioritizes trust in a fast-paced development environment, addressing risks like insecure dependencies and compliance violations. 💻 Golden Gate aims to streamline the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>One-Click Multi-Tenant Security with  NVIDIA Quantum InfiniBand</title>
+      <link>/articles/article-2026-06-11-20098/</link>
+      <pubDate>Thu, 11 Jun 2026 19:52:37 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20098/</guid>
+      <description>NVIDIA Quantum InfiniBand has introduced intent-based security profiles in Unified Fabric Manager (UFM) for streamlined multi-tenant security. With three profiles—General, Bare Metal Cloud, and Secured Bare Metal Cloud—network admins can now auto-configure essential security features in minutes. This reduces deployment time significantly, enhancing efficiency in cloud environments. ⏱️🔒 The architecture emphasizes security across all layers, addressing vulnerabilities often found in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Production-Ready Agents Need A Production-Ready Data Platform</title>
+      <link>/articles/article-2026-06-11-20104/</link>
+      <pubDate>Thu, 11 Jun 2026 19:46:11 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20104/</guid>
+      <description>AI teams are facing rapid changes in technology. To thrive, they need a strong data platform, and MongoDB offers just that. 🌐 MongoDB supports dynamic data through JSON, enhancing agent performance with features like search and vector search. Companies like DevRev and Adobe utilize MongoDB Atlas to improve their systems and deliver real-time, personalized interactions. Moreover, MongoDB is collaborating with partners to establish open standards for agent memory, aiming for greater&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ingesting the Milky Way: Petabyte-Scale with Zerobus Ingest</title>
+      <link>/articles/article-2026-06-11-20105/</link>
+      <pubDate>Thu, 11 Jun 2026 19:45:26 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20105/</guid>
+      <description>🚀 Exciting advancements in data engineering! Databricks introduces Zerobus Ingest, a serverless streaming API designed for petabyte-scale data pipelines. This technology allows teams to deploy data solutions instantly, eliminating the need for manual infrastructure management. Zerobus utilizes dynamic partitioning to automatically scale resources, effectively managing varying data volumes. 📊💻 #DataEngineering #ZerobusIngest #BigData #Serverless #TechInnovation</description>
+    </item>
+    <item>
+      <title>How ERGO Hestia reduced time-to-market with Lakebase and Mosaic AI Model Serving</title>
+      <link>/articles/article-2026-06-11-20106/</link>
+      <pubDate>Thu, 11 Jun 2026 19:15:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20106/</guid>
+      <description>🚀 ERGO Hestia has transformed its real-time pricing engine using Databricks Lakebase and Mosaic AI Model Serving. This integration allows for data, features, and decisions to operate on a single lakehouse platform, enabling millisecond pricing. Discover how innovation can enhance efficiency in financial services. #Finance #Innovation #AI #DataAnalytics #RealTimePricing</description>
+    </item>
+    <item>
+      <title>“AI is disrupting everything”: Where do entry-level tech jobs go now?</title>
+      <link>/articles/article-2026-06-11-20097/</link>
+      <pubDate>Thu, 11 Jun 2026 18:34:19 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20097/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://thenewstack.io/blog/feed/&#34;&gt;The New Stack&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thenewstack.io/ai-junior-developer-hiring/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcoming the first cohort of Databricks student fellows</title>
       <link>/articles/article-2026-06-11-20090/</link>
@@ -35,6 +84,13 @@
       <pubDate>Thu, 11 Jun 2026 17:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20082/</guid>
       <description>Debugging in AI presents new challenges as traditional methods rely on deterministic software behavior. With AI, inputs can yield varying outputs, complicating the debugging process. To address this, a new approach called &lt;strong&gt;prompt tracing&lt;/strong&gt; is proposed, capturing the entire lifecycle of AI requests. This method aims to enhance observability and reliability in AI systems. Learn more about this evolving paradigm! 🤖🔍💻 #AIDebugging #PromptTracing #SoftwareDevelopment #TechTrends</description>
+    </item>
+    <item>
+      <title>Terraform MCP server is now generally available</title>
+      <link>/articles/article-2026-06-11-20107/</link>
+      <pubDate>Thu, 11 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20107/</guid>
+      <description>🚀 Exciting news! Terraform MCP Server 1.0 is now generally available. This server enhances infrastructure consistency and productivity by integrating AI assistants like GitHub Copilot and IBM Bob into your workflows. Teams can automate repetitive tasks, ensuring compliance and reducing manual efforts. With improved access to workspace data and natural language analysis of plan changes, decision-making becomes quicker and more informed. Security remains a top priority, with controlled access&amp;hellip;</description>
     </item>
     <item>
       <title>The Pulse: a trend of trying to cut back on AI spend within eng departments?</title>
@@ -219,11 +275,25 @@
       <description>🌟 Daniel, a training designer, faced challenges in creating effective training experiences for operators. Traditional methods often failed to engage learners, leading to gaps in knowledge when they entered the factory. 🔧 With Unity Studio, he transformed the training process by using existing 3D assets to create interactive, hands-on experiences. This allowed him to build realistic scenarios where operators could practice decision-making in a safe environment. 📈 Feedback cycles improved&amp;hellip;</description>
     </item>
     <item>
+      <title>Code is a message to the future</title>
+      <link>/articles/article-2026-06-11-20101/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20101/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://webflow.com/blog/rss.xml&#34;&gt;Webflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webflowmarketingmain.com/blog/code-as-communication&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Compliance work is overdue for a new approach</title>
       <link>/articles/article-2026-06-11-20070/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20070/</guid>
       <description>Compliance work is evolving with Elastic Security&amp;rsquo;s introduction of agentic compliance in Agent Builder. This new approach allows teams to interact with live telemetry, run ES|QL-backed checks, and automate daily compliance tasks. The focus is on PCI DSS v4.0.1, enabling deeper insights into compliance without relying solely on static dashboards. Elastic&amp;rsquo;s composable skill model enhances the user experience by allowing for scope discovery and evidence inspection, moving beyond traditional&amp;hellip;</description>
+    </item>
+    <item>
+      <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
+      <link>/articles/article-2026-06-11-20102/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20102/</guid>
+      <description>🌟 Exciting news! CrowdStrike has been named a Leader in the 2026 Frost Radar™ for Cloud and Application Runtime Security for the second year in a row. The recognition highlights CrowdStrike Falcon® Cloud Security&amp;rsquo;s advanced capabilities in adversary-informed detection and real-time cloud response. This innovative approach is crucial as organizations face increasingly sophisticated threats. CrowdStrike&amp;rsquo;s detection logic is continually updated by their dedicated threat intelligence team,&amp;hellip;</description>
     </item>
     <item>
       <title>DeepSeek models now available via Azure on AI Gateway</title>
@@ -261,6 +331,13 @@
       <description>In the latest article on profiling in PyTorch, the focus shifts from basic operations to using &lt;code&gt;nn.Linear&lt;/code&gt; to create a Multilayer Perceptron (MLP). This transition highlights key concepts such as the CPU dispatch chain and profiling traces. The post includes scripts to illustrate these points: 02_linear.py, 03_simple_mlp.py, and 03_kernels_mlp.py. For those diving deeper into PyTorch, this is a valuable resource! 🔍💻 #PyTorch #MachineLearning #DeepLearning #MLP #DataScience</description>
     </item>
     <item>
+      <title>Quantum computing, agentic AI, and the next infrastructure layer in financial services</title>
+      <link>/articles/article-2026-06-11-20099/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20099/</guid>
+      <description>As financial services firms embrace AI and explore quantum computing, a shift toward contextual intelligence platforms is underway. These platforms, featuring vector search, observability, and security, are critical for supporting autonomous and enhanced systems. Financial companies are looking to quantum technologies for advancements in portfolio optimization, fraud detection, and more. 📊🔍 Experts predict that by 2035, these innovations could generate up to $2.7 trillion in economic value&amp;hellip;.</description>
+    </item>
+    <item>
       <title>Stripe Projects adds new agent integrations, more providers, and custom developer controls</title>
       <link>/articles/article-2026-06-11-20052/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
@@ -280,6 +357,20 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20087/</guid>
       <description>Large DELETE operations in Postgres can create more work instead of reclaiming space. Instead of deleting individual rows, consider structuring your database to use DROP TABLE or TRUNCATE for efficient data removal. When rows are deleted, they don&amp;rsquo;t immediately free up disk space and can impact other transactions. This is due to Postgres&amp;rsquo; Multi-Version Concurrency Control (MVCC) system. For applications needing large deletions, adopting a schema that supports DROP TABLE can enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vercel plugin is now available in Grok Build</title>
+      <link>/articles/article-2026-06-11-20100/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20100/</guid>
+      <description>🚀 The Vercel plugin is now live in Grok Build! Grok can now leverage Vercel&amp;rsquo;s knowledge in real-time. As you edit files or use terminal commands, it provides contextually relevant information aligned with current platform APIs. To install, simply add &amp;ldquo;vercel&amp;rdquo; to your prompt or search for it in the Grok Build marketplace. Learn more in the documentation! 📚 #GrokBuild #Vercel #DevelopmentTools #TechUpdates #APIs</description>
+    </item>
+    <item>
+      <title>You Are in Control: Auth0 Enterprise Is Now Self-Service</title>
+      <link>/articles/article-2026-06-11-20103/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20103/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://auth0.com/blog/rss.xml&#34;&gt;Auth0 Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://auth0.com/blog/auth0-enterprise-self-service-plans/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scaling AI Through Data Fluency</title>
@@ -1113,6 +1204,13 @@
       <pubDate>Mon, 08 Jun 2026 14:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-08-19925/</guid>
       <description>🚀 Apache Cassandra 6.0 is now in alpha, shifting its focus from new features to taking back tasks historically handled by application teams. This version introduces the Accord consensus protocol, enhancing multi-partition workflows by moving some coordination work into the database itself. Another key change is the implementation of Transactional Cluster Metadata (TCM), which improves cluster metadata coordination and addresses some long-standing challenges. Explore the implications of these&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What can 500 years of journalism teach developers about AI trustworthiness?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌</title>
+      <link>/articles/article-2026-06-08-20108/</link>
+      <pubDate>Mon, 08 Jun 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-08-20108/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://stackoverflow.blog/feed/&#34;&gt;Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.blog/2026/06/08/what-can-500-years-of-journalism-teach-developers-about-ai-trustworthiness/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enterprise Data Strategy Roadmap for Business Outcomes</title>

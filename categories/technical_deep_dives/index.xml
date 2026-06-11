@@ -16,6 +16,13 @@
       <description>Discover how the open-source project llm-d enhances large language model (LLM) inference on Red Hat AI. Traditional load balancers treat LLM requests as stateless, leading to inefficiencies. llm-d optimizes performance by routing requests to GPUs with relevant cached data, significantly reducing time-to-first-token by over 99% and doubling throughput. With intelligent scheduling, it adapts to real-time loads and queue depths, ensuring efficient resource use. This new approach is seamlessly&amp;hellip;</description>
     </item>
     <item>
+      <title>Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP</title>
+      <link>/articles/article-2026-06-11-20063/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20063/</guid>
+      <description>In the latest article on profiling in PyTorch, the focus shifts from basic operations to using &lt;code&gt;nn.Linear&lt;/code&gt; to create a Multilayer Perceptron (MLP). This transition highlights key concepts such as the CPU dispatch chain and profiling traces. The post includes scripts to illustrate these points: 02_linear.py, 03_simple_mlp.py, and 03_kernels_mlp.py. For those diving deeper into PyTorch, this is a valuable resource! 🔍💻 #PyTorch #MachineLearning #DeepLearning #MLP #DataScience</description>
+    </item>
+    <item>
       <title>Architecting Scalable ML Platforms: The Integrated Infrastructure and Acceleration Behind Rovo</title>
       <link>/articles/article-2026-06-10-20049/</link>
       <pubDate>Wed, 10 Jun 2026 22:23:23 +0000</pubDate>

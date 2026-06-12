@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 21:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 21:40:47 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking semantics for AI: How Mercedes-Benz Korea built trusted “Talk to Data” at scale</title>
+      <link>/articles/article-2026-06-11-20119/</link>
+      <pubDate>Thu, 11 Jun 2026 21:40:47 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20119/</guid>
+      <description>Mercedes-Benz Korea has successfully implemented &amp;ldquo;Talk to Data,&amp;rdquo; enhancing AI capabilities in their operations. This initiative utilizes tools like Unity Catalog and AI agents to streamline data interaction. The collaboration with Databricks has led to the development of AI-ready semantics, improving efficiency and trust in data handling. Stay tuned for more advancements in AI! 🤖📊 #MercedesBenz #AI #DataScience #Innovation #Technology</description>
+    </item>
+    <item>
+      <title>CCNP Security News Roundup: Free SDSI Training, New Duo Course</title>
+      <link>/articles/article-2026-06-11-20112/</link>
+      <pubDate>Thu, 11 Jun 2026 21:13:02 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20112/</guid>
+      <description>🚀 Exciting updates for CCNP Security professionals! Cisco U. is offering a free SDSI Learning Path from May 29 to July 13, 2026, as part of the Rev Up to Recert program. Additionally, a new course on Duo Identity and Access Management is now available, focusing on SSO, multi-factor authentication, and identity security. This course is not linked to a certification exam but prepares learners for upcoming Cisco Security exams launching on August 27, 2026. #CiscoSecurity #CCNP #NetworkSecurity&amp;hellip;</description>
+    </item>
     <item>
       <title>Forward Deployed Engineering: Delivering Business Outcomes with AI</title>
       <link>/articles/article-2026-06-11-20089/</link>
@@ -84,6 +98,13 @@
       <pubDate>Thu, 11 Jun 2026 17:06:38 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20091/</guid>
       <description>🚀 Spatial SQL is now generally available on Databricks, offering native geospatial support with over 90 functions. 📊 Performance has improved significantly, with boolean set operations being up to 2X faster and overall enhancements showing 20% to 15X performance boosts. 🌐 With Delta Sharing and Iceberg v3, geospatial capabilities are more accessible than ever, allowing insurers to quickly analyze policies affected by events like hurricanes. #GeospatialData #Databricks #SpatialSQL #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Azure Databricks at Data &#43; AI Summit 2026 featuring Industry Leaders and Partners</title>
+      <link>/articles/article-2026-06-11-20120/</link>
+      <pubDate>Thu, 11 Jun 2026 17:00:16 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20120/</guid>
+      <description>🚀 Join Microsoft at the Data + AI Summit 2026 to explore how organizations are transforming data, analytics, and AI. Learn how joint customers are leveraging Azure Databricks to modernize data estates and enhance AI capabilities. Don&amp;rsquo;t miss key sessions on zero-copy federated analytics and new product integrations. Visit the Microsoft Booth for demos and discussions with product leaders. #DataAI #AzureDatabricks #Microsoft #AI #Analytics</description>
     </item>
     <item>
       <title>Beyond the stack trace: why AI requires a new debugging paradigm</title>
@@ -371,6 +392,13 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20087/</guid>
       <description>Large DELETE operations in Postgres can create more work instead of reclaiming space. Instead of deleting individual rows, consider structuring your database to use DROP TABLE or TRUNCATE for efficient data removal. When rows are deleted, they don&amp;rsquo;t immediately free up disk space and can impact other transactions. This is due to Postgres&amp;rsquo; Multi-Version Concurrency Control (MVCC) system. For applications needing large deletions, adopting a schema that supports DROP TABLE can enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Token Vault with Organizations Support Is Generally Available</title>
+      <link>/articles/article-2026-06-11-20118/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20118/</guid>
+      <description>🚀 Token Vault now supports Auth0 Organizations, enhancing user credential isolation within multi-tenant environments. This feature maintains separate token records for each organization, enabling secure AI agent integrations across platforms like Slack, Salesforce, and Google Workspace. By ensuring strict data boundaries, enterprises can confidently adopt these integrations without security concerns. Discover how this can transform your B2B SaaS offerings! 🔐✨ #TokenVault #Auth0 #DataSecurity&amp;hellip;</description>
     </item>
     <item>
       <title>Vercel plugin is now available in Grok Build</title>

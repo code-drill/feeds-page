@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 21:40:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling out Distroless adoption with AI</title>
+      <link>/articles/article-2026-06-12-20122/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-12-20122/</guid>
+      <description>Grab is transitioning from Ubuntu to Distroless images to enhance security by minimizing vulnerabilities. This strategic shift aims for 80% adoption by mid-2026, already covering over 900 services. However, this migration poses risks of runtime failures, requiring rigorous testing strategies. At Grab, Medium Tests are utilized to ensure services run smoothly with the new configurations while maintaining all dependencies. AI is being leveraged to automate the testing process, helping to&amp;hellip;</description>
+    </item>
     <item>
       <title>Unlocking semantics for AI: How Mercedes-Benz Korea built trusted “Talk to Data” at scale</title>
       <link>/articles/article-2026-06-11-20119/</link>
@@ -70,6 +77,13 @@
       <pubDate>Thu, 11 Jun 2026 07:00:00 +0000</pubDate>
       <guid>/articles/article-2026-06-11-20057/</guid>
       <description>Discover how the open-source project llm-d enhances large language model (LLM) inference on Red Hat AI. Traditional load balancers treat LLM requests as stateless, leading to inefficiencies. llm-d optimizes performance by routing requests to GPUs with relevant cached data, significantly reducing time-to-first-token by over 99% and doubling throughput. With intelligent scheduling, it adapts to real-time loads and queue depths, ensuring efficient resource use. This new approach is seamlessly&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Okara runs CMO agents for 120,000 companies on Vercel</title>
+      <link>/articles/article-2026-06-11-20121/</link>
+      <pubDate>Thu, 11 Jun 2026 04:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-11-20121/</guid>
+      <description>Okara leverages Vercel to manage marketing for over 120,000 businesses, processing 4 billion tokens daily. The AI CMO directs eight sub-agents focusing on SEO, social media, and content. This integration allows new AI models to be available instantly, streamlining operations with Vercel AI Gateway and Sandboxes. Okara’s efficient model means founders can enhance their marketing without the high costs of traditional agencies. 🚀 #AI #Marketing #Startups #Vercel #Innovation</description>
     </item>
     <item>
       <title>Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP</title>

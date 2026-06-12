@@ -6,8 +6,15 @@
     <description>Recent content in Dropbox-Tech-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/dropbox-tech-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Dropbox uses MCP and Dash to close the design-to-code security gap</title>
+      <link>/articles/article-2026-06-12-20110/</link>
+      <pubDate>Fri, 12 Jun 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-12-20110/</guid>
+      <description>At Dropbox, we recognize the challenge of maintaining visibility of security requirements during the development process. Our research revealed that only 12% of pull requests link back to their original threat models, causing potential gaps in security. To address this, we developed a system combining Model Context Protocol, foundational models, and Dash to retrieve relevant threat models during code reviews. This helps ensure security requirements are upheld throughout development. Learn&amp;hellip;</description>
+    </item>
     <item>
       <title>Beyond code generation: rethinking engineering productivity in the age of AI agents</title>
       <link>/articles/article-2026-05-28-19505/</link>

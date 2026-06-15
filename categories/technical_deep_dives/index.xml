@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 07:16:04 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MPI-powered gradient synchronization in PyTorch distributed training</title>
+      <link>/articles/article-2026-06-15-20173/</link>
+      <pubDate>Mon, 15 Jun 2026 07:16:04 +0000</pubDate>
+      <guid>/articles/article-2026-06-15-20173/</guid>
+      <description>In distributed training, gradient synchronization is a crucial phase often slowed by communication delays. This article explores how Message Passing Interface (MPI) enhances performance using collective operations like All-Reduce to synchronize gradients across GPUs efficiently. It details various parallelization methods: data, tensor, pipeline, and sharded data parallelism—each optimizing workload distribution among GPUs. Additionally, it addresses GPU-aware MPI, which reduces overhead and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>llama.cpp vs. vLLM: Choosing the right local LLM inference engine</title>
+      <link>/articles/article-2026-06-15-20174/</link>
+      <pubDate>Mon, 15 Jun 2026 07:16:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-15-20174/</guid>
+      <description>🌟 Exploring local large language models? Check out the differences between llama.cpp and vLLM! llama.cpp is designed for efficient inference on consumer hardware, allowing users to run models with minimal GPU requirements through quantization. This approach makes LLMs more accessible to developers without dedicated hardware. On the other hand, vLLM excels in high-throughput scenarios, managing multiple requests simultaneously and optimizing GPU utilization. It&amp;rsquo;s ideal for large-scale&amp;hellip;</description>
+    </item>
     <item>
       <title>How Dropbox uses MCP and Dash to close the design-to-code security gap</title>
       <link>/articles/article-2026-06-12-20110/</link>

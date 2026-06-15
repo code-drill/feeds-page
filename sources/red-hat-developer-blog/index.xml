@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 07:16:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 13:12:20 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using NetworkManager to permanently set an interface administratively down</title>
+      <link>/articles/article-2026-06-15-20189/</link>
+      <pubDate>Mon, 15 Jun 2026 13:12:20 +0000</pubDate>
+      <guid>/articles/article-2026-06-15-20189/</guid>
+      <description>Learn how to permanently set a network interface administratively down using NetworkManager! This article covers both legacy and new methods. Prior to NetworkManager 1.57, a special configuration file was needed. Now, with versions 1.57 and later, you can use simple nmcli commands to manage interface states without complications. For more details, check out the full article! 📡🔧 #NetworkManager #SysAdmin #Linux #Networking #nmcli</description>
+    </item>
     <item>
       <title>MPI-powered gradient synchronization in PyTorch distributed training</title>
       <link>/articles/article-2026-06-15-20173/</link>

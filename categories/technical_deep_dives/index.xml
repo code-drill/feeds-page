@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 07:01:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 15:34:44 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Hat AI Inference on Amazon EKS: Exploring the Kubernetes resources</title>
+      <link>/articles/article-2026-06-16-20246/</link>
+      <pubDate>Tue, 16 Jun 2026 15:34:44 +0000</pubDate>
+      <guid>/articles/article-2026-06-16-20246/</guid>
+      <description>🚀 Just explored the Red Hat AI Inference on Amazon EKS! This article dives into deploying a two-GPU cluster using NVIDIA L4s, focusing on Kubernetes components like cert-manager for TLS, Istio for service mesh, and KServe for model serving. Key insights include how these elements connect and work together for efficient AI inference. 📊 Learn more about the architecture and components involved! #RedHat #Kubernetes #AIInference #AmazonEKS #CloudComputing</description>
+    </item>
     <item>
       <title>Store immutable AI evaluation records with EvalHub and OCI</title>
       <link>/articles/article-2026-06-16-20222/</link>
@@ -21,6 +28,13 @@
       <pubDate>Tue, 16 Jun 2026 07:01:16 +0000</pubDate>
       <guid>/articles/article-2026-06-16-20223/</guid>
       <description>Explore the latest in agentic AI and text-to-SQL! 🖥️ This installment delves into how agentic AI allows LLMs to autonomously interact with databases, improving accuracy in data queries. Unlike traditional chat interfaces, agentic systems learn and adapt, enhancing the user experience in conversational analytics. Stay tuned for more insights on orchestrating these systems! 🚀📊 #AI #DataAnalytics #TextToSQL #AgenticAI #RedHat</description>
+    </item>
+    <item>
+      <title>How LivePerson optimized Logstash and Kafka performance on GCP through benchmarking</title>
+      <link>/articles/article-2026-06-16-19746/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-16-19746/</guid>
+      <description>LivePerson improved its Logstash and Kafka performance on GCP by benchmarking five machine types. They found that selecting the right infrastructure can significantly reduce costs. Switching to AMD Milan-based instances cut Logstash processing costs by over 50%, while optimizing Kafka through codec selection boosted throughput. These changes allowed for fewer high-throughput instances, reducing overall infrastructure needs. #CloudComputing #CostOptimization #GCP #Logstash #Kafka 🚀💡</description>
     </item>
     <item>
       <title>How Data 360 Segmentation Processes a Quadrillion Records Across Arbitrary Customer Data Models</title>

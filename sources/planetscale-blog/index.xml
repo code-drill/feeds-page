@@ -6,8 +6,15 @@
     <description>Recent content in PlanetScale-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/planetscale-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The feedback loops behind Kubernetes</title>
+      <link>/articles/article-2026-06-16-20250/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-16-20250/</guid>
+      <description>Kubernetes excels in managing workloads at scale through feedback loops. Operators act as feedback controllers, reconciling desired states, similar to a thermostat maintaining temperature. The article explains how to implement these loops, starting with running a Postgres database manually before transitioning to Kubernetes. Understanding the gap between desired and actual states is crucial for effective database management. 🔧📊 #Kubernetes #DevOps #DatabaseManagement #CloudComputing&amp;hellip;</description>
+    </item>
     <item>
       <title>See what your database is doing right now with Connections</title>
       <link>/articles/article-2026-06-15-20201/</link>

@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 23:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow SDK now supports inflight cancellation</title>
+      <link>/articles/article-2026-06-16-20219/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-16-20219/</guid>
+      <description>🚀 Exciting news for developers! The Workflow SDK 5 beta now includes support for AbortController and AbortSignal APIs. This allows users to create a controller within a workflow and manage in-flight operations more efficiently. Cancellation is seamless across steps and even persists during suspensions. Developers can now stop slow processes, handle requests efficiently, and manage parallel tasks based on changing conditions. Explore this feature with workflow@beta and check the cancellation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Workflow SDK now supports TanStack Start</title>
+      <link>/articles/article-2026-06-16-20220/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-16-20220/</guid>
+      <description>🚀 Exciting news! Workflow SDK now supports TanStack Start applications on Vercel. This integration allows developers to utilize Vite and Nitro. By adding the workflow/vite plugin to vite.config.ts, you can easily write workflow and step functions in TypeScript. These functions are durable and can endure restarts, sleep for days, and auto-retry on failures. For a deeper dive, check out the TanStack Start guide to get started! #WorkflowSDK #TanStackStart #Vercel #TypeScript #WebDevelopment</description>
+    </item>
     <item>
       <title>Databricks announces 2026 global partner awards</title>
       <link>/articles/article-2026-06-15-20218/</link>

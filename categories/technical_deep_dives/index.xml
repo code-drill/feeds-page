@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 15:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your AI pipeline is broken, and your dashboards don’t know it</title>
+      <link>/articles/article-2026-06-18-20284/</link>
+      <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20284/</guid>
+      <description>🚨 A recent incident highlighted the challenges of debugging AI systems. A corporate client&amp;rsquo;s RAG pipeline produced false financial recommendations without alerting users. 🔍 It took three days to identify that a small prompt change caused the model to ignore context. Unlike traditional software, AI debugging lacks clear error messages and root causes. To adapt, we need to rethink our debugging approach for generative AI. #AIDebugging #GenerativeAI #TechChallenges #AI #DataIntegrity</description>
+    </item>
     <item>
       <title>Red Hat AI Inference on Amazon EKS: Exploring the Kubernetes resources</title>
       <link>/articles/article-2026-06-16-20246/</link>

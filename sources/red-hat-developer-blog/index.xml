@@ -6,8 +6,43 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 14:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 07:16:07 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy MemPalace MCP Server on Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-06-19-20293/</link>
+      <pubDate>Fri, 19 Jun 2026 07:16:07 +0000</pubDate>
+      <guid>/articles/article-2026-06-19-20293/</guid>
+      <description>🚀 Exciting developments in AI memory management! The article discusses deploying MemPalace&amp;rsquo;s Model Context Protocol (MCP) server on Red Hat OpenShift AI, addressing the issue of lost context in AI conversations. MemPalace organizes memory hierarchically, improving recall and debugging. Key points include: - An HTTP/WebSocket wrapper for Kubernetes compatibility. - Health probes for better service management. - Compliance with OpenShift Security Context Constraints. This guide is valuable for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Get ready for Ansible Automation Platform 2.7</title>
+      <link>/articles/article-2026-06-19-20294/</link>
+      <pubDate>Fri, 19 Jun 2026 07:16:05 +0000</pubDate>
+      <guid>/articles/article-2026-06-19-20294/</guid>
+      <description>🚀 Red Hat Ansible Automation Platform 2.7 is now available! This release offers flexible installation methods for Red Hat Enterprise Linux (RHEL) and OpenShift. Key features include a containerized installer and two deployment topologies: Growth and Enterprise for RHEL, and Operator Growth and Enterprise for OpenShift. Upgrading from version 2.6 is supported, but users with RPM-based deployments must migrate to the containerized installer first. Learn more about the new features and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Manage LLM evaluation workloads at scale with EvalHub and Kueue</title>
+      <link>/articles/article-2026-06-18-20295/</link>
+      <pubDate>Thu, 18 Jun 2026 14:00:58 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20295/</guid>
+      <description>🚀 EvalHub is transforming LLM evaluation in Kubernetes. As AI/ML workloads grow, managing resources becomes critical. Kueue addresses this by providing a structured queueing system for workload management. It ensures fair resource sharing, prioritization of urgent jobs, and minimizes operational inefficiencies. This guide is part of a series on building a scalable AI evaluation infrastructure. #AI #Kubernetes #EvalHub #MachineLearning #WorkloadManagement</description>
+    </item>
+    <item>
+      <title>Troubleshoot application misbehavior after an OpenShift upgrade</title>
+      <link>/articles/article-2026-06-18-20296/</link>
+      <pubDate>Thu, 18 Jun 2026 14:00:31 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20296/</guid>
+      <description>🔍 After an OpenShift upgrade, diagnosing application misbehavior is crucial. This article highlights key areas to investigate: 1️⃣ &lt;strong&gt;Migration Issues&lt;/strong&gt;: Upgrades usually don’t require application changes if compatible with cgroups v1 or v2. 2️⃣ &lt;strong&gt;Troublesome Scenarios&lt;/strong&gt;: Changes in application images, workloads, or instrumentation can lead to unexpected behavior. 3️⃣ &lt;strong&gt;Container Awareness&lt;/strong&gt;: Applications must recognize container limits to function correctly. Non-container-aware applications&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Preserve OpenShift Pipelines logs with OpenTelemetry</title>
+      <link>/articles/article-2026-06-18-20297/</link>
+      <pubDate>Thu, 18 Jun 2026 07:01:08 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20297/</guid>
+      <description>🚀 Embrace CI/CD with Red Hat OpenShift Pipelines! Built on Tekton, it allows for efficient execution of cloud-native pipelines. However, high-churn environments lead to fleeting logs, making observability a challenge. 🛠️ The Red Hat build of OpenTelemetry addresses this by capturing and routing pipeline logs for both local troubleshooting and long-term storage in Splunk-HEC, ensuring compliance with industry regulations. 🔍 Enhance your logs with vital metadata and maintain easy access to&amp;hellip;</description>
+    </item>
     <item>
       <title>What&#39;s new in Red Hat build of Apache Camel 4.18</title>
       <link>/articles/article-2026-06-17-20274/</link>

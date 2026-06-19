@@ -6,8 +6,36 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 16:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 07:16:07 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy MemPalace MCP Server on Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-06-19-20293/</link>
+      <pubDate>Fri, 19 Jun 2026 07:16:07 +0000</pubDate>
+      <guid>/articles/article-2026-06-19-20293/</guid>
+      <description>🚀 Exciting developments in AI memory management! The article discusses deploying MemPalace&amp;rsquo;s Model Context Protocol (MCP) server on Red Hat OpenShift AI, addressing the issue of lost context in AI conversations. MemPalace organizes memory hierarchically, improving recall and debugging. Key points include: - An HTTP/WebSocket wrapper for Kubernetes compatibility. - Health probes for better service management. - Compliance with OpenShift Security Context Constraints. This guide is valuable for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ask the experts: 5 tips for hybrid network operations with Global Overview</title>
+      <link>/articles/article-2026-06-18-20291/</link>
+      <pubDate>Thu, 18 Jun 2026 15:00:19 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20291/</guid>
+      <description>🌐 Managing a global hybrid network can be complex due to fragmented data across multiple platforms. Experts suggest five tips to streamline operations: 1. Build from a unified view. 2. Use Global Overview as your starting point. 3. Prioritize issues effectively. 4. Choose the right operational model. 5. Plan for scalable hybrid operations. By centralizing visibility, teams can troubleshoot faster and improve efficiency. #HybridNetworking #NetworkManagement #CiscoMeraki #GlobalOverview #TechTips</description>
+    </item>
+    <item>
+      <title>Manage LLM evaluation workloads at scale with EvalHub and Kueue</title>
+      <link>/articles/article-2026-06-18-20295/</link>
+      <pubDate>Thu, 18 Jun 2026 14:00:58 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20295/</guid>
+      <description>🚀 EvalHub is transforming LLM evaluation in Kubernetes. As AI/ML workloads grow, managing resources becomes critical. Kueue addresses this by providing a structured queueing system for workload management. It ensures fair resource sharing, prioritization of urgent jobs, and minimizes operational inefficiencies. This guide is part of a series on building a scalable AI evaluation infrastructure. #AI #Kubernetes #EvalHub #MachineLearning #WorkloadManagement</description>
+    </item>
+    <item>
+      <title>Troubleshoot application misbehavior after an OpenShift upgrade</title>
+      <link>/articles/article-2026-06-18-20296/</link>
+      <pubDate>Thu, 18 Jun 2026 14:00:31 +0000</pubDate>
+      <guid>/articles/article-2026-06-18-20296/</guid>
+      <description>🔍 After an OpenShift upgrade, diagnosing application misbehavior is crucial. This article highlights key areas to investigate: 1️⃣ &lt;strong&gt;Migration Issues&lt;/strong&gt;: Upgrades usually don’t require application changes if compatible with cgroups v1 or v2. 2️⃣ &lt;strong&gt;Troublesome Scenarios&lt;/strong&gt;: Changes in application images, workloads, or instrumentation can lead to unexpected behavior. 3️⃣ &lt;strong&gt;Container Awareness&lt;/strong&gt;: Applications must recognize container limits to function correctly. Non-container-aware applications&amp;hellip;</description>
+    </item>
     <item>
       <title>How Block manages its fleet of AI coding agents from Slack</title>
       <link>/articles/article-2026-06-17-20277/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 15:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex</title>
+      <link>/articles/article-2026-06-21-20305/</link>
+      <pubDate>Sun, 21 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-21-20305/</guid>
+      <description>🚨 A recent report from Tenet Security highlights a vulnerability known as &amp;ldquo;agentjacking.&amp;rdquo; This attack exploits a public Sentry key to turn AI coding agents like Claude Code, Cursor, and Codex into code-execution engines on developers&amp;rsquo; machines. The process involves sending a fake error report that the AI agent interprets as an instruction, making it act without any malware or stolen passwords. This security flaw stems from the design of Sentry&amp;rsquo;s Data Source Name (DSN), which is safe for human&amp;hellip;</description>
+    </item>
     <item>
       <title>Lean IT, future-ready: Why adopting WPA3 for Wi‑Fi 7 is easier than you think</title>
       <link>/articles/article-2026-06-17-20273/</link>

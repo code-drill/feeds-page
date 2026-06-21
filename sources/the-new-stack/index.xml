@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex</title>
+      <link>/articles/article-2026-06-21-20305/</link>
+      <pubDate>Sun, 21 Jun 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-21-20305/</guid>
+      <description>🚨 A recent report from Tenet Security highlights a vulnerability known as &amp;ldquo;agentjacking.&amp;rdquo; This attack exploits a public Sentry key to turn AI coding agents like Claude Code, Cursor, and Codex into code-execution engines on developers&amp;rsquo; machines. The process involves sending a fake error report that the AI agent interprets as an instruction, making it act without any malware or stolen passwords. This security flaw stems from the design of Sentry&amp;rsquo;s Data Source Name (DSN), which is safe for human&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your agent wants to search like a 2010 quant</title>
+      <link>/articles/article-2026-06-21-20306/</link>
+      <pubDate>Sun, 21 Jun 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-21-20306/</guid>
+      <description>AI agents require the right information to function effectively. Their success hinges on how well they can retrieve this information, especially as models advance. The evolution of AI search has moved from simple vector databases to hybrid search methods, which improved results significantly. Despite this progress, challenges remain, especially in understanding user intent. With new innovations like Perplexity&amp;rsquo;s &amp;ldquo;search as code,&amp;rdquo; the landscape may be shifting again, allowing agents to perform&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“An agent is an LLM and a harness”: What Nvidia really thinks about OpenClaw</title>
+      <link>/articles/article-2026-06-21-20307/</link>
+      <pubDate>Sun, 21 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-21-20307/</guid>
+      <description>Nvidia&amp;rsquo;s CEO, Jenson Huang, embraces OpenClaw, reflecting a bold vision for the future of AI. Nader Khalil, Director of Developer Technologies, explains that an &amp;ldquo;agent&amp;rdquo; combines a large language model (LLM) and a harness, emphasizing the importance of iterative learning loops. Khalil highlights the evolution of AI tools, praising OpenAI&amp;rsquo;s innovations like memory features in ChatGPT, which enhance user experience. Nvidia is focused on skills development through its CUDA X library to support&amp;hellip;</description>
+    </item>
     <item>
       <title>Gemini CLI vs. Antigravity: What works, not the spec sheet</title>
       <link>/articles/article-2026-06-20-20304/</link>

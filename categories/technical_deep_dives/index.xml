@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 07:01:07 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designing distributed AI inference: Core concepts and scaling dimensions</title>
+      <link>/articles/article-2026-06-22-20309/</link>
+      <pubDate>Mon, 22 Jun 2026 07:01:07 +0000</pubDate>
+      <guid>/articles/article-2026-06-22-20309/</guid>
+      <description>Choosing the right model-serving engine like vLLM is just the starting point for enterprise AI inference. This article emphasizes the importance of understanding the core concepts of inference, the prefill and decode phases, and the dimensions of parallelism necessary for effective deployment. Key performance indicators (KPIs) such as time to first token (TTFT) and throughput are crucial for adapting to specific workloads. Recent developments include improved KV cache management and the shift&amp;hellip;</description>
+    </item>
     <item>
       <title>Your agent wants to search like a 2010 quant</title>
       <link>/articles/article-2026-06-21-20306/</link>

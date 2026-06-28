@@ -6,8 +6,43 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 18:56:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Bring it to our shop”: Workday’s pitch for keeping AI agents close to your most valuable data</title>
+      <link>/articles/article-2026-06-28-20367/</link>
+      <pubDate>Sun, 28 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-28-20367/</guid>
+      <description>Workday is advancing its AI capabilities, focusing on accuracy for payroll and HR data. CTO Gabe Monroy emphasizes that even a 99% success rate is insufficient due to the critical nature of this data. At the recent DevCon conference, Workday introduced Agent-Ready Tools to enhance agent reliability, including the Model Context Protocol and Agent Passport for testing and monitoring agents. Monroy, with a background in AI infrastructure, believes that safety in AI should be a foundational&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Okta is the first to bring AI agent governance inside FedRAMP boundaries</title>
+      <link>/articles/article-2026-06-28-20368/</link>
+      <pubDate>Sun, 28 Jun 2026 13:49:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-28-20368/</guid>
+      <description>🚀 Okta has launched its AI agent governance platform for FedRAMP and HIPAA-regulated environments, marking a significant step in identity management. This platform treats AI agents as first-class identities, enhancing security and compliance for federal agencies and healthcare organizations. The product addresses risks associated with unmanaged agents, including compliance violations and increased breach potential. With a focus on governance, it ensures agents are registered and monitored&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Shopify taught AI to spot duplicate products. Here’s why retailers are scrambling.</title>
+      <link>/articles/article-2026-06-26-20375/</link>
+      <pubDate>Fri, 26 Jun 2026 13:52:28 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20375/</guid>
+      <description>Retailers are adapting to a shift in shopping trends as AI shopping agents become more prevalent. Shopify&amp;rsquo;s new system, Catalog, helps AI identify and group duplicate product listings, enhancing product discoverability. This comes as AI-driven traffic to Shopify stores has surged significantly. As the landscape evolves, retailers are rethinking how they present product information to AI. 📈🤖 #RetailTech #AI #Shopify #Ecommerce #ProductDiscovery</description>
+    </item>
+    <item>
+      <title>Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2</title>
+      <link>/articles/article-2026-06-26-20397/</link>
+      <pubDate>Fri, 26 Jun 2026 12:38:50 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20397/</guid>
+      <description>🚀 Exciting news for developers! JetBrains is open-sourcing the LSP Client API in the upcoming 2026.2 release. This move aims to enhance IDE integration by streamlining how language servers interact with JetBrains IDEs and Android Studio, addressing challenges faced by plugin authors. The public API will undergo a name change for clarity, ensuring a better user experience. Stay tuned for updates, especially if you&amp;rsquo;re using or developing plugins! #JetBrains #LSP #OpenSource #IntelliJ&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run Codex in the cloud – DigitalOcean for Codex is now available</title>
+      <link>/articles/article-2026-06-25-20380/</link>
+      <pubDate>Thu, 25 Jun 2026 21:16:06 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20380/</guid>
+      <description>🚀 Exciting news for developers! The DigitalOcean plugin for Codex is now in Public Preview. This new feature allows you to create and connect Codex-ready cloud development machines directly within Codex, eliminating the need for manual server setup. You can provision a remote development environment using simple commands. 💻🌐 Once connected, you can configure projects, install dependencies, and manage machines—all from your own DigitalOcean account. Plus, with Codex in the ChatGPT mobile app,&amp;hellip;</description>
+    </item>
     <item>
       <title>Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation</title>
       <link>/articles/article-2026-06-25-20029/</link>
@@ -23,11 +58,46 @@
       <description>Businesses are facing challenges in managing unstructured data like PDFs and audio recordings. Traditional template-based extraction methods are becoming outdated due to the diverse formats of modern documents. 📄🔍 Amazon Bedrock Data Automation (BDA) offers a solution. This generative AI-powered service automates the extraction and transformation of various content types, ensuring faster and more accurate processing. BDA uses Foundation models for intelligent content understanding and allows&amp;hellip;</description>
     </item>
     <item>
+      <title>Introducing a Recommended Agent in AI Chat, With Codex as the Current Default</title>
+      <link>/articles/article-2026-06-25-20400/</link>
+      <pubDate>Thu, 25 Jun 2026 14:57:31 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20400/</guid>
+      <description>🚀 JetBrains AI now recommends Codex as the default coding agent for IDE users, enhancing the development experience. Previously, users selected their agents manually, but with advancements in AI, a recommended starting point simplifies the process. The selection was based on real software engineering tasks across Java, C#, and Python, focusing on task handling, cost, and speed. Want to explore other agents? You can still switch anytime! #JetBrains #AI #CodingAgents #SoftwareDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>SSH Connections Are Moving to JetBrains Daemon in the Toolbox App 3.6 EAP</title>
+      <link>/articles/article-2026-06-25-20401/</link>
+      <pubDate>Thu, 25 Jun 2026 14:54:58 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20401/</guid>
+      <description>🚀 Exciting update for developers! The Toolbox App 3.6 EAP now defaults to using the JetBrains Daemon (jetbrainsd) for SSH connections to remote environments. This change aims to enhance the reliability of remote development processes. Users are encouraged to test the EAP build and report any issues via YouTrack, including logs for better troubleshooting. Temporary workarounds are available if needed. 🔗 #JetBrains #ToolboxApp #SSH #DevCommunity #EAP</description>
+    </item>
+    <item>
+      <title>Your AI Agent Keeps Missing The Real Bottleneck.  JetBrains Rider Can Fix It Now.</title>
+      <link>/articles/article-2026-06-25-20402/</link>
+      <pubDate>Thu, 25 Jun 2026 14:17:40 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20402/</guid>
+      <description>🚀 In the world of app development, AI agents often struggle to identify real performance bottlenecks. When an app freezes, traditional AI tools guess without proper profiling data. JetBrains Rider introduces a solution: a dotTrace-backed profiling skill for its AI Assistant. This allows the agent to analyze .dtp snapshots, leading to accurate diagnostics and actionable recommendations. The results are promising, with accuracy scores improving significantly and guesswork decreasing. #JetBrains&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Explicit Lazy Imports Are Coming to Python 3.15</title>
+      <link>/articles/article-2026-06-25-20405/</link>
+      <pubDate>Thu, 25 Jun 2026 08:21:55 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20405/</guid>
+      <description>🚀 Exciting news for Python developers! Python 3.15 introduces explicit lazy imports through PEP 810. This feature allows module loading to be deferred until first use, improving startup speed and reducing memory usage. 🔍 Using proxy objects, it maintains interpreter optimizations while ensuring backward compatibility with control flags for gradual adoption. 🛠️ Python 3.15.0b1 is now available for testing. Developers can download it using &lt;code&gt;uv&lt;/code&gt; or &lt;code&gt;pyenv&lt;/code&gt; and start exploring this feature in&amp;hellip;</description>
+    </item>
+    <item>
       <title>Implement mTLS and zero trust with cert-manager and trust-manager</title>
       <link>/articles/article-2026-06-25-20353/</link>
       <pubDate>Thu, 25 Jun 2026 07:15:56 +0000</pubDate>
       <guid>/articles/article-2026-06-25-20353/</guid>
       <description>🚀 Exciting updates are here for the cert-manager operator on Red Hat OpenShift! Version 1.19 introduces the trust-manager, allowing admins to customize and distribute trusted CA bundles across Kubernetes clusters. This upgrade enhances automated management of TLS certificates and builds the foundation for mutual TLS (mTLS) security. By efficiently managing certificate lifecycles, teams can adopt zero trust principles, ensuring secure communication between workloads. 🔗 Explore the benefits of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google Antigravity agents get full context with GitLab Orbit</title>
+      <link>/articles/article-2026-06-25-20389/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-25-20389/</guid>
+      <description>🚀 Exciting news for developers! Google Antigravity now integrates with GitLab Orbit, allowing agents to access structured project data directly from the Antigravity MCP Store. With this integration, agents can query relationships between projects, pipelines, merge requests, and vulnerabilities, enhancing their ability to understand the software lifecycle. 🛠️ Discover how this improves workflows, from blast radius analyses to onboarding, enabling faster responses and accurate insights&amp;hellip;.</description>
     </item>
     <item>
       <title>OpenAI wants to claim more of the AI stack with Jalapeño, its first custom chip</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 22:25:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 19:00:45 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure</title>
+      <link>/articles/article-2026-06-26-20377/</link>
+      <pubDate>Fri, 26 Jun 2026 19:00:45 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20377/</guid>
+      <description>🚀 AI agents have evolved significantly over the past two years, transitioning from single-question responses to complex, multi-turn interactions and long-horizon planning. The NVIDIA AI-Q Blueprint serves as an open-source reference for developers, utilizing LangChain Deep Agents and the NVIDIA NeMo Agent Toolkit. It allows for both quick answers and detailed research reports. This guide details how to deploy AI-Q 2.0 on Oracle Cloud Infrastructure using Terraform and Helm, providing step-by-&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer</title>
+      <link>/articles/article-2026-06-26-20378/</link>
+      <pubDate>Fri, 26 Jun 2026 16:00:35 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20378/</guid>
+      <description>🚀 The new Nemotron 3 Ultra NVFP4 checkpoint is now optimized using NVIDIA Model Optimizer! As context windows expand, efficient movement of large model weights is crucial. Quantization, specifically NVFP4, compresses weights into a smaller format. This 4-bit floating point system offers significant performance gains. The Nemotron 3 Ultra achieves up to 5.9x higher inference throughput compared to GLM-5.1 while maintaining BF16 accuracy across nearly all benchmarks. This article details how to&amp;hellip;</description>
+    </item>
     <item>
       <title>Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps</title>
       <link>/articles/article-2026-06-25-20363/</link>

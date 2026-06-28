@@ -6,8 +6,78 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:09:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Bring it to our shop”: Workday’s pitch for keeping AI agents close to your most valuable data</title>
+      <link>/articles/article-2026-06-28-20367/</link>
+      <pubDate>Sun, 28 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-28-20367/</guid>
+      <description>Workday is advancing its AI capabilities, focusing on accuracy for payroll and HR data. CTO Gabe Monroy emphasizes that even a 99% success rate is insufficient due to the critical nature of this data. At the recent DevCon conference, Workday introduced Agent-Ready Tools to enhance agent reliability, including the Model Context Protocol and Agent Passport for testing and monitoring agents. Monroy, with a background in AI infrastructure, believes that safety in AI should be a foundational&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Okta is the first to bring AI agent governance inside FedRAMP boundaries</title>
+      <link>/articles/article-2026-06-28-20368/</link>
+      <pubDate>Sun, 28 Jun 2026 13:49:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-28-20368/</guid>
+      <description>🚀 Okta has launched its AI agent governance platform for FedRAMP and HIPAA-regulated environments, marking a significant step in identity management. This platform treats AI agents as first-class identities, enhancing security and compliance for federal agencies and healthcare organizations. The product addresses risks associated with unmanaged agents, including compliance violations and increased breach potential. With a focus on governance, it ensures agents are registered and monitored&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Greptile, Cursor, and Devin agree that agents should run their code. What they run it against matters.</title>
+      <link>/articles/article-2026-06-27-20369/</link>
+      <pubDate>Sat, 27 Jun 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-27-20369/</guid>
+      <description>The tech industry is rapidly moving towards runtime verification for agent code. 🚀 Companies like Greptile, Cursor, and Devin emphasize that agents should not only write code but also verify it in real-time. Static checks alone are insufficient. By allowing agents to run their code before human review, efficiency increases and bottlenecks are reduced. 🔄 However, challenges remain, especially in ensuring that the runtime environment accurately reflects real system interactions. As the trend&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Vibe slop is the symptom. Context debt is the disease.</title>
+      <link>/articles/article-2026-06-27-20370/</link>
+      <pubDate>Sat, 27 Jun 2026 10:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-27-20370/</guid>
+      <description>Engineers Armin Ronacher and Mario Zechner highlight a growing issue in coding: &amp;ldquo;vibe slop.&amp;rdquo; This term describes inefficient and error-prone code generated through prompt-based tools. They warn that this can lead to increased compute and resource costs, affecting startups&amp;rsquo; sustainability. Additionally, Postman&amp;rsquo;s CEO Abhinav Asthana introduces the concept of &amp;ldquo;context debt,&amp;rdquo; which refers to the complex web of services and APIs that complicate development. This debt accumulates over time and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>After Fable 5 ban, Anthropic and 19 organizations launch open source security body</title>
+      <link>/articles/article-2026-06-26-20371/</link>
+      <pubDate>Fri, 26 Jun 2026 18:36:35 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20371/</guid>
+      <description>🚀 The tech industry is uniting to enhance open-source security with the launch of Akrites, led by the Linux Foundation and backed by 19 organizations, including AWS, Google, and Microsoft. 🛡️ This initiative aims to streamline the discovery, remediation, and disclosure of vulnerabilities in critical open-source software. AI models are now making it possible to identify multiple vulnerabilities quickly, but attackers have access to these tools as well. 🔍 As AI tools reveal thousands of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The US government just told OpenAI who’s allowed to use the next GPT 5.6 model</title>
+      <link>/articles/article-2026-06-26-20372/</link>
+      <pubDate>Fri, 26 Jun 2026 18:26:50 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20372/</guid>
+      <description>🚨 The US government has mandated restrictions on OpenAI&amp;rsquo;s upcoming GPT 5.6 model due to cybersecurity concerns. 🤖 Only a select group of government-approved partners will have access during the initial release. This follows a similar directive given to Anthropic for their AI models. 🔍 OpenAI CEO Sam Altman confirmed that access will be granted customer by customer, which is an unusual approach for such technology. #OpenAI #GPT56 #AI #Cybersecurity #Innovation</description>
+    </item>
+    <item>
+      <title>AWS, Microsoft, and Google agree the session is the new unit of compute. They disagree on how to isolate it.</title>
+      <link>/articles/article-2026-06-26-20373/</link>
+      <pubDate>Fri, 26 Jun 2026 14:11:18 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20373/</guid>
+      <description>Four AI leaders—AWS, Microsoft, Google, and Anthropic—are advancing towards a common architectural shift in agent runtime updates. 🤖 While they agree that the session is the new unit of compute, they differ on how to achieve isolation. Microsoft focuses on per-session isolation, while AWS uses microVMs and Google applies dedicated sandboxes. This evolution highlights the need for session-aware execution in enterprise agents, moving beyond traditional request-level load balancing. 🌐 #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your engineering org needs an AI slop registry</title>
+      <link>/articles/article-2026-06-26-20374/</link>
+      <pubDate>Fri, 26 Jun 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20374/</guid>
+      <description>AI coding tools can accelerate coding but also amplify mistakes across projects. These errors often include subtle misalignments with project needs, leading to bloated or incorrect code that can pass initial checks. Teams typically try to improve AI instructions with files like CLAUDE.md, but this doesn&amp;rsquo;t always ensure mistake detection. An independent verification system is essential for catching these errors effectively. Aviator&amp;rsquo;s approach prioritizes verified intent over traditional code&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Shopify taught AI to spot duplicate products. Here’s why retailers are scrambling.</title>
+      <link>/articles/article-2026-06-26-20375/</link>
+      <pubDate>Fri, 26 Jun 2026 13:52:28 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20375/</guid>
+      <description>Retailers are adapting to a shift in shopping trends as AI shopping agents become more prevalent. Shopify&amp;rsquo;s new system, Catalog, helps AI identify and group duplicate product listings, enhancing product discoverability. This comes as AI-driven traffic to Shopify stores has surged significantly. As the landscape evolves, retailers are rethinking how they present product information to AI. 📈🤖 #RetailTech #AI #Shopify #Ecommerce #ProductDiscovery</description>
+    </item>
+    <item>
+      <title>The AI agent identity problem nobody’s talking about</title>
+      <link>/articles/article-2026-06-26-20376/</link>
+      <pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-26-20376/</guid>
+      <description>Many AI agent projects encounter challenges during security reviews due to unclear identity models and broad permissions. This issue can halt progress when questions arise about the identity under which agents operate. Research indicates a significant increase in AI agents, highlighting the growing need for well-defined identities to ensure accountability and security. To address this, developers must focus on key identity decisions, such as using workload identities instead of shared service&amp;hellip;</description>
+    </item>
     <item>
       <title>Public cloud vs. on-prem: Summit on where each workload belongs</title>
       <link>/articles/article-2026-06-26-20364/</link>

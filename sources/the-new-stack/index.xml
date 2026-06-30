@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operating Kubernetes at scale: a few stories from running Amazon EKS</title>
+      <link>/articles/article-2026-06-30-20433/</link>
+      <pubDate>Tue, 30 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-06-30-20433/</guid>
+      <description>Amazon EKS operates hundreds of thousands of Kubernetes clusters across 30+ AWS regions. 🛠️ Key insights reveal that many availability issues arise not from component failures, but from how components respond to problems. A resilient control plane prevents faults from escalating into outages. As workloads evolve, including AI and analytics, EKS adapts its systems to handle rapid state changes and higher demands. This evolution ensures that EKS supports mission-critical workloads effectively&amp;hellip;.</description>
+    </item>
     <item>
       <title>IdentityServer4 is dead. Here’s what comes next.</title>
       <link>/articles/article-2026-06-30-20432/</link>

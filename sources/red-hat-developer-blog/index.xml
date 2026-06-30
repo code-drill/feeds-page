@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 14:15:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 03:01:04 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up Red Hat OpenShift Virtualization ServiceNow CMDB discovery: Configuring virtual machines with a custom Discovery Pattern</title>
+      <link>/articles/article-2026-06-30-20428/</link>
+      <pubDate>Tue, 30 Jun 2026 03:01:04 +0000</pubDate>
+      <guid>/articles/article-2026-06-30-20428/</guid>
+      <description>Unlock the potential of Red Hat OpenShift Virtualization with effective ServiceNow CMDB discovery! This article guides you through creating a clean inventory of virtual machines (VMs) by defining a custom CI class and implementing a tailored Discovery pattern. Key steps include: 1️⃣ Establishing a custom CI class for OpenShift VMs. 2️⃣ Setting identification rules to reduce clutter. 3️⃣ Scheduling and validating your discovery process. Ensure your CMDB is streamlined and efficient! #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to set up OpenShift Virtualization ServiceNow CMDB discovery: Deploying an in-cluster MID Server</title>
+      <link>/articles/article-2026-06-30-20429/</link>
+      <pubDate>Tue, 30 Jun 2026 03:01:03 +0000</pubDate>
+      <guid>/articles/article-2026-06-30-20429/</guid>
+      <description>Setting up OpenShift Virtualization with ServiceNow CMDB discovery involves deploying an in-cluster MID Server. This process ensures that virtual machines are visible to IT teams and can be managed effectively. Stock ServiceNow Kubernetes discovery pulls in too much data, missing the proper classification for KubeVirt VMs. A custom discovery pattern is needed to resolve this. Key steps include creating a least-privilege service account, deploying a CA-trusted MID server, and ensuring secure&amp;hellip;</description>
+    </item>
     <item>
       <title>Build a dynamic E2E test quarantine system with Prometheus and Grafana</title>
       <link>/articles/article-2026-06-29-20416/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Heroku-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 22:31:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 21:11:54 +0000</lastBuildDate>
     <atom:link href="/sources/heroku-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Heroku CLI Credentials with System Keychain Storage</title>
+      <link>/articles/article-2026-07-01-20474/</link>
+      <pubDate>Wed, 01 Jul 2026 21:11:54 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20474/</guid>
+      <description>🚀 Heroku CLI is enhancing security with version 11.8.0 by defaulting to system keychain storage for credentials. 🔐 This uses OS-native tools to securely store authentication data while ensuring compatibility with existing workflows. 🌍 The CLI supports macOS, Linux, and Windows, integrating seamlessly with their credential management systems. 📂 While keychain storage is prioritized, support for .netrc files remains to maintain current user practices. #Heroku #CLISecurity #Keychain #DevOps&amp;hellip;</description>
+    </item>
     <item>
       <title>Heroku March 2026 Update</title>
       <link>/articles/article-2026-03-19-16961/</link>

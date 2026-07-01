@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 21:11:54 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Heroku CLI Credentials with System Keychain Storage</title>
+      <link>/articles/article-2026-07-01-20474/</link>
+      <pubDate>Wed, 01 Jul 2026 21:11:54 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20474/</guid>
+      <description>🚀 Heroku CLI is enhancing security with version 11.8.0 by defaulting to system keychain storage for credentials. 🔐 This uses OS-native tools to securely store authentication data while ensuring compatibility with existing workflows. 🌍 The CLI supports macOS, Linux, and Windows, integrating seamlessly with their credential management systems. 📂 While keychain storage is prioritized, support for .netrc files remains to maintain current user practices. #Heroku #CLISecurity #Keychain #DevOps&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenClaw’s new app doesn’t run AI on your phone. That’s the whole point.</title>
+      <link>/articles/article-2026-07-01-20471/</link>
+      <pubDate>Wed, 01 Jul 2026 21:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20471/</guid>
+      <description>🚀 OpenClaw has launched its new iOS and Android apps, allowing users to connect directly with their personal AI agents without relying on Telegram or WhatsApp. 📱 The app functions as a remote control, enabling communication with an AI that runs elsewhere, rather than on the phone itself. This design enhances performance and usability. 🔍 Similar approaches are seen in platforms like Anthropic’s Claude and OpenAI’s Codex, indicating a shift in how mobile apps are developed. #OpenClaw #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cordyceps flaw pattern is more proof CI/CD is part of the attack surface</title>
+      <link>/articles/article-2026-07-01-20472/</link>
+      <pubDate>Wed, 01 Jul 2026 20:29:58 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20472/</guid>
+      <description>🔍 On June 24, Novee Security revealed a CI/CD vulnerability named &amp;ldquo;Cordyceps,&amp;rdquo; affecting organizations like Microsoft and Google. This flaw allows unauthorized GitHub users to hijack workflows, compromising open-source supply chains. Out of 30,000 scanned repositories, 654 were flagged, with 300 confirmed exploitable. Developers often neglect CI/CD pipelines as security risks, leading to potential threats. Security scanners also struggle to identify such nuanced vulnerabilities&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Cloudflare wants to build the economic layer of the AI web</title>
+      <link>/articles/article-2026-07-01-20473/</link>
+      <pubDate>Wed, 01 Jul 2026 20:10:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20473/</guid>
+      <description>Cloudflare is evolving to support publishers in the AI-driven web landscape. They recently announced updates including crawler classifications and analytics tools to help publishers navigate changes in traffic caused by AI summaries. With their new Pay Per Use model, publishers can earn revenue when their content is featured in AI-generated answers. This approach aims to create a more sustainable economic system for content creators. #Cloudflare #AIWeb #DigitalPublishing #ContentEconomy&amp;hellip;</description>
+    </item>
     <item>
       <title>“You Only Compute Once”: How Clockwork wants to put an end to AI training restarts</title>
       <link>/articles/article-2026-07-01-20468/</link>

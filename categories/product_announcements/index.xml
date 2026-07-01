@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:41:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 17:30:00 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“You Only Compute Once”: How Clockwork wants to put an end to AI training restarts</title>
+      <link>/articles/article-2026-07-01-20468/</link>
+      <pubDate>Wed, 01 Jul 2026 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20468/</guid>
+      <description>Clockwork aims to revolutionize AI training with its new solution, TorchPass, designed to minimize disruptions caused by GPU failures. Traditionally, failures require rolling back to the last checkpoint, which is time-consuming and costly. With TorchPass, training jobs can seamlessly transition to a backup GPU, recovering in minutes without losing progress. The launch of the YOCO Guarantee ensures that 90% of failures will be resolved without checkpoint rollbacks. If not, customers receive a&amp;hellip;</description>
+    </item>
     <item>
       <title>DigitalOcean Evaluations: Production Model and Router Testing for the Inference Stack</title>
       <link>/articles/article-2026-07-01-20465/</link>

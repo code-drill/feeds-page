@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 07:16:20 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a multi-agent supervisor pattern on OpenShift</title>
+      <link>/articles/article-2026-07-01-20455/</link>
+      <pubDate>Wed, 01 Jul 2026 07:16:20 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20455/</guid>
+      <description>🚀 Explore the multi-agent supervisor pattern on OpenShift! This approach enhances security during incident investigations by isolating agents. Each agent handles specific tasks with its own sandbox, reducing risks of credential mixing and data exposure. Learn how the architecture separates data handling and orchestration for improved security. #OpenShift #CyberSecurity #AI #IncidentManagement #CloudComputing</description>
+    </item>
+    <item>
+      <title>Inside the vLLM-Omni architecture: Serving Qwen3-Omni</title>
+      <link>/articles/article-2026-07-01-20456/</link>
+      <pubDate>Wed, 01 Jul 2026 07:16:19 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20456/</guid>
+      <description>🚀 Exploring the vLLM-Omni architecture reveals how it efficiently serves the Qwen3-Omni model, which can process multimodal inputs like text, images, audio, and video. The architecture operates as a pipeline, comprising multiple stages: encoders, autoregressive language models, and generation components. This setup allows for complex tasks, such as generating distinct responses for adjusters and customers based on uploaded claims. Key features include real-time performance enhancements and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Demystify the terminology of OpenShift hosted control planes</title>
+      <link>/articles/article-2026-07-01-20457/</link>
+      <pubDate>Wed, 01 Jul 2026 07:16:17 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20457/</guid>
+      <description>Exploring Red Hat OpenShift hosted control planes can be confusing due to various terms like HyperShift, HCP, management cluster, and hosted cluster. These terms have distinct meanings and implications. This article clarifies the architecture of hosted control planes, highlighting the benefits of cost reduction, faster provisioning, and centralized management. It also discusses the importance of understanding terminology to avoid operational pitfalls. Stay tuned for part 2, which will cover&amp;hellip;</description>
+    </item>
     <item>
       <title>Scale document ingestion with Docling and Ray on OpenShift AI</title>
       <link>/articles/article-2026-06-30-20430/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 07:16:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 07:16:20 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a multi-agent supervisor pattern on Red Hat AI</title>
+      <link>/articles/article-2026-07-01-20461/</link>
+      <pubDate>Wed, 01 Jul 2026 07:16:20 +0000</pubDate>
+      <guid>/articles/article-2026-07-01-20461/</guid>
+      <description>🚨 When a checkout system goes down, troubleshooting can be overwhelming. Imagine AI agents handling metrics, logs, and runbooks for you. However, this poses a security risk—one compromised agent can expose multiple systems. The solution? Implementing a multi-agent supervisor pattern with isolated sandboxes enhances security by ensuring each agent operates within its own restricted environment. This method minimizes credential exposure and data cross-contamination, making incident&amp;hellip;</description>
+    </item>
     <item>
       <title>Inside the vLLM-Omni architecture: Serving Qwen3-Omni</title>
       <link>/articles/article-2026-07-01-20456/</link>

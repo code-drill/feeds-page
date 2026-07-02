@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 21:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 07:01:27 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batch inference on OpenShift AI with llm-d: Architecture, integration, and workflows</title>
+      <link>/articles/article-2026-07-02-20476/</link>
+      <pubDate>Thu, 02 Jul 2026 07:01:27 +0000</pubDate>
+      <guid>/articles/article-2026-07-02-20476/</guid>
+      <description>Explore the capabilities of batch inference with the llm-d batch gateway on Red Hat OpenShift AI. 🔍 This Kubernetes-native service optimizes high-volume offline tasks like model evaluations and dataset scoring, allowing efficient use of GPU resources. 🚀 It seamlessly integrates with existing LLMInferenceService backends, supporting OpenAI-compatible operations. Learn more about its architecture and workflows for effective batch processing. #OpenShiftAI #BatchInference #Kubernetes #LLM&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Upgrade RHEL with leapp</title>
+      <link>/articles/article-2026-07-02-20477/</link>
+      <pubDate>Thu, 02 Jul 2026 07:01:25 +0000</pubDate>
+      <guid>/articles/article-2026-07-02-20477/</guid>
+      <description>Upgrade your Red Hat Enterprise Linux (RHEL) with leapp! 🚀 Leapp allows for in-place system upgrades while retaining your configurations and subscriptions. However, it faces challenges with disk encryption via LUKS. To overcome this, administrators can use the TPM2 module to bypass encryption temporarily during the upgrade process. Before starting, ensure backups are in place and check your system&amp;rsquo;s configurations for a smooth transition from RHEL 8 to RHEL 9. #RHEL #Leapp #Linux&amp;hellip;</description>
+    </item>
     <item>
       <title>Securing Heroku CLI Credentials with System Keychain Storage</title>
       <link>/articles/article-2026-07-01-20474/</link>

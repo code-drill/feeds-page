@@ -16,6 +16,13 @@
       <description>Traditional CI/CD gates often fall short for production AI systems, especially with LLMs. This article outlines a new release-gating approach that includes baseline evaluations, drift detection, and shadow validation. The goal is to catch silent AI regressions before they impact users. Unlike conventional software, LLMs are probabilistic, requiring more nuanced release checks to ensure acceptable behavior. Learn more about the challenges and solutions for deploying LLMs effectively. 🤖📊🔍&amp;hellip;</description>
     </item>
     <item>
+      <title>Built for Mass Scale: Hard-Won Lessons from Teams Running High Volume Inference Workloads in Production</title>
+      <link>/articles/article-2026-07-02-20491/</link>
+      <pubDate>Thu, 02 Jul 2026 10:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-02-20491/</guid>
+      <description>🚀 Transitioning AI from prototypes to high-volume production comes with significant challenges. At DigitalOcean Deploy 2026, leaders from Workato, Hippocratic AI, and ISMG shared crucial lessons on managing latency, security, and infrastructure. 🔍 Key insights included the importance of policy-aware systems and agent permissions to enhance reliability. 💡 The takeaway? Scaling AI is about smart architecture and management, not just model performance. #AIEvolution #DigitalOcean #TechTalk&amp;hellip;</description>
+    </item>
+    <item>
       <title>Batch inference on OpenShift AI with llm-d: Architecture, integration, and workflows</title>
       <link>/articles/article-2026-07-02-20476/</link>
       <pubDate>Thu, 02 Jul 2026 07:01:27 +0000</pubDate>

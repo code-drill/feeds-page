@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 07:01:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why traditional CI/CD fails for LLMs (and the release gates we built to fix it)</title>
+      <link>/articles/article-2026-07-02-20479/</link>
+      <pubDate>Thu, 02 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-02-20479/</guid>
+      <description>Traditional CI/CD gates often fall short for production AI systems, especially with LLMs. This article outlines a new release-gating approach that includes baseline evaluations, drift detection, and shadow validation. The goal is to catch silent AI regressions before they impact users. Unlike conventional software, LLMs are probabilistic, requiring more nuanced release checks to ensure acceptable behavior. Learn more about the challenges and solutions for deploying LLMs effectively. 🤖📊🔍&amp;hellip;</description>
+    </item>
     <item>
       <title>Batch inference on OpenShift AI with llm-d: Architecture, integration, and workflows</title>
       <link>/articles/article-2026-07-02-20476/</link>

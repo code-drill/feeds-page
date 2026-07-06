@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 07:01:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 13:06:39 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smarter data generation for faster Speculator training</title>
+      <link>/articles/article-2026-07-06-20504/</link>
+      <pubDate>Mon, 06 Jul 2026 13:06:39 +0000</pubDate>
+      <guid>/articles/article-2026-07-06-20504/</guid>
+      <description>🚀 Large language models face a challenge in generating text efficiently due to the per-token processing cost. Speculative decoding offers a solution, improving throughput by 2-3 times with no loss in output quality. A smaller &amp;ldquo;speculator&amp;rdquo; model proposes tokens, while a larger &amp;ldquo;verifier&amp;rdquo; model validates them, enhancing speed and lowering latency. Training a good speculator quickly relies on high-quality data. Researchers explored using outputs from different models to cut costs and found that&amp;hellip;</description>
+    </item>
     <item>
       <title>5 anti-patterns that cause Kubernetes operator vulnerabilities</title>
       <link>/articles/article-2026-07-06-20500/</link>

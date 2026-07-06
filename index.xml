@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 10:01:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 13:06:39 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smarter data generation for faster Speculator training</title>
+      <link>/articles/article-2026-07-06-20504/</link>
+      <pubDate>Mon, 06 Jul 2026 13:06:39 +0000</pubDate>
+      <guid>/articles/article-2026-07-06-20504/</guid>
+      <description>🚀 Large language models face a challenge in generating text efficiently due to the per-token processing cost. Speculative decoding offers a solution, improving throughput by 2-3 times with no loss in output quality. A smaller &amp;ldquo;speculator&amp;rdquo; model proposes tokens, while a larger &amp;ldquo;verifier&amp;rdquo; model validates them, enhancing speed and lowering latency. Training a good speculator quickly relies on high-quality data. Researchers explored using outputs from different models to cut costs and found that&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The code review bug hunt is dead. Here’s what developers get wrong.</title>
+      <link>/articles/article-2026-07-06-20503/</link>
+      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-06-20503/</guid>
+      <description>The code review process is essential for quality assurance in software development. It aims to catch bugs early and promote mentorship among developers. However, many companies fail to define clear outcomes for these reviews. Mark Dominus emphasizes that code reviews should focus on maintainability rather than solely bug detection. He warns against relying on reviews to find bugs, as this can lead to misunderstandings and frustrations. Dominus suggests that project leaders should guide the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Natvis Comes to Linux and macOS: Visualize Your C&#43;&#43; Types Without Writing a Single Data Formatter</title>
+      <link>/articles/article-2026-07-06-20505/</link>
+      <pubDate>Mon, 06 Jul 2026 11:13:40 +0000</pubDate>
+      <guid>/articles/article-2026-07-06-20505/</guid>
+      <description>🔍 Debugging C++ just got easier! With the introduction of Natvis in Rider 2026.2, developers on Linux and macOS can now visualize their C++ types without the hassle of writing custom data formatters. 🎉 Simply define your type in a few lines of XML, and let Rider&amp;rsquo;s debugger handle the rest. This streamlines the process significantly, making debugging more efficient. #Cplusplus #Debugging #Rider #Natvis #Programming</description>
+    </item>
     <item>
       <title>Does Speaking to Agents Like Cavemen Really Save 65% of Tokens? We Test</title>
       <link>/articles/article-2026-07-06-20502/</link>

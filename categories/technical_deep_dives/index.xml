@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 13:06:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 21:44:23 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism</title>
+      <link>/articles/article-2026-07-06-20517/</link>
+      <pubDate>Mon, 06 Jul 2026 21:44:23 +0000</pubDate>
+      <guid>/articles/article-2026-07-06-20517/</guid>
+      <description>Training large-scale LLMs presents significant infrastructure challenges, particularly with thousands of GPUs involved. Unscheduled interruptions can slow down processes, impacting Goodput, which measures the effective work completed. Elastic adaptation methods like dropping data replicas and fast checkpointing help manage GPU availability but may incur throughput losses. A recent paper introduces Nonuniform Tensor Parallelism (NTP) as a solution to minimize these losses, ensuring consistent&amp;hellip;</description>
+    </item>
     <item>
       <title>Smarter data generation for faster Speculator training</title>
       <link>/articles/article-2026-07-06-20504/</link>

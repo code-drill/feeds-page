@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 21:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 07:01:17 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why your RBAC linter misses privilege escalation chains (and how to fix it)</title>
+      <link>/articles/article-2026-07-07-20519/</link>
+      <pubDate>Tue, 07 Jul 2026 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2026-07-07-20519/</guid>
+      <description>If you use kube-linter for Kubernetes RBAC setups, be aware it may miss indirect privilege escalation through binding chains. Kube-linter checks resources independently but doesn&amp;rsquo;t analyze connections between them. This can lead to vulnerabilities, allowing attackers to escalate privileges without special tools. The new tool, kube-chainsaw, addresses this by building permission graphs from static manifests, identifying critical issues that kube-linter overlooks. It scans for risky permissions&amp;hellip;</description>
+    </item>
     <item>
       <title>Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism</title>
       <link>/articles/article-2026-07-06-20517/</link>

@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 21:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 07:01:18 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualize your cluster: Manage observability with Red Hat build of Perses</title>
+      <link>/articles/article-2026-07-07-20518/</link>
+      <pubDate>Tue, 07 Jul 2026 07:01:18 +0000</pubDate>
+      <guid>/articles/article-2026-07-07-20518/</guid>
+      <description>Red Hat&amp;rsquo;s build of Perses is transforming observability management in the OpenShift ecosystem. 🌐 As a unified visualization engine, it consolidates observability tools into a Kubernetes-native experience. Key features include native Kubernetes integration, unified signal correlation, and GitOps readiness, allowing for efficient data management. 📊 Perses enhances user workflows and supports multiple data sources, making it easier for engineers to navigate observability assets. 🔍 For more&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your RBAC linter misses privilege escalation chains (and how to fix it)</title>
+      <link>/articles/article-2026-07-07-20519/</link>
+      <pubDate>Tue, 07 Jul 2026 07:01:17 +0000</pubDate>
+      <guid>/articles/article-2026-07-07-20519/</guid>
+      <description>If you use kube-linter for Kubernetes RBAC setups, be aware it may miss indirect privilege escalation through binding chains. Kube-linter checks resources independently but doesn&amp;rsquo;t analyze connections between them. This can lead to vulnerabilities, allowing attackers to escalate privileges without special tools. The new tool, kube-chainsaw, addresses this by building permission graphs from static manifests, identifying critical issues that kube-linter overlooks. It scans for risky permissions&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Dependency analytics 1.0: AI coding with supply chain security</title>
+      <link>/articles/article-2026-07-07-20520/</link>
+      <pubDate>Tue, 07 Jul 2026 07:01:15 +0000</pubDate>
+      <guid>/articles/article-2026-07-07-20520/</guid>
+      <description>🚀 AI coding tools are transforming software development, allowing developers to generate code rapidly. However, there&amp;rsquo;s a significant concern: 45% of AI-generated code has security flaws. 🔍 Introducing Dependency Analytics 1.0, a free extension for editors like VS Code. It scans project dependencies in real-time for known vulnerabilities, enhancing supply chain security without disrupting workflow. 💻 With over three million installs, it supports various ecosystems and provides immediate&amp;hellip;</description>
+    </item>
     <item>
       <title>Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism</title>
       <link>/articles/article-2026-07-06-20517/</link>

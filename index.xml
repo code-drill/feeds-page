@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 20:55:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 07:16:16 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How NetworkManager uses eBPF to support CLAT and IPv6-mostly</title>
+      <link>/articles/article-2026-07-08-20551/</link>
+      <pubDate>Wed, 08 Jul 2026 07:16:16 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20551/</guid>
+      <description>🚀 IPv6 is still not widely adopted, with only about 50% of Google users accessing it. The dual-stack model prolongs IPv4 reliance, but a new strategy called &amp;ldquo;IPv6-mostly&amp;rdquo; is emerging. 🌐 This approach allows IPv6-only clients to coexist with legacy IPv4 systems, easing the transition to an IPv6-only environment. NetworkManager 1.58 in Red Hat Enterprise Linux 10.3 utilizes customer-side translator (CLAT) and eBPF to implement this effectively. 🔍 Key features include DHCPv4 option 108, DNS64,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Running database workloads on Red Hat OpenShift Virtualization</title>
+      <link>/articles/article-2026-07-08-20552/</link>
+      <pubDate>Wed, 08 Jul 2026 07:16:15 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20552/</guid>
+      <description>🚀 This guide outlines how to run database performance tests using HammerDB on MariaDB, PostgreSQL, and Microsoft SQL Server within Red Hat OpenShift Virtualization. 🔍 Key prerequisites include having an operational OpenShift cluster, appropriate virtualization settings, and a functional storage backend. 🖥️ It provides steps for creating test virtual machines, ensuring dedicated storage, and enabling passwordless SSH for automated access. 📊 The article details the deployment methodology and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Demystify the architecture of OpenShift hosted control planes</title>
+      <link>/articles/article-2026-07-08-20553/</link>
+      <pubDate>Wed, 08 Jul 2026 07:16:13 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20553/</guid>
+      <description>Explore the final part of our series on Red Hat OpenShift&amp;rsquo;s hosted control planes (HCP). This article delves into essential architectural considerations for effective HCP adoption. Key topics include infrastructure requirements, the role of the Multicluster Engine (MCE) Operator, and the importance of storage performance for etcd. Understanding load balancing and DNS strategies is crucial, especially for bare metal deployments. For a detailed overview, check the full article! 🌐🔧 #OpenShift&amp;hellip;</description>
+    </item>
     <item>
       <title>Coinbase runs 1,200 agents and just slashed its AI bill in half</title>
       <link>/articles/article-2026-07-07-20548/</link>

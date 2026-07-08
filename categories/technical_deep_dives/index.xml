@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 07:16:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 16:05:25 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72</title>
+      <link>/articles/article-2026-07-08-20558/</link>
+      <pubDate>Wed, 08 Jul 2026 16:05:25 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20558/</guid>
+      <description>Unlock the power of analytical workloads with GPU-accelerated Presto! 🚀 Presto is an open-source SQL engine that runs fast queries on large datasets. By utilizing NVIDIA GPUs, it offers low latency, enhancing user experience and productivity. This post showcases multi-GPU execution on NVIDIA&amp;rsquo;s DGX B200 and GB200 NVL72, highlighting the impact of NVIDIA GPUDirect Storage for high I/O throughput. 📊 Learn how GPU-accelerated Presto achieves peak performance using NVIDIA cuDF algorithms and&amp;hellip;</description>
+    </item>
     <item>
       <title>How NetworkManager uses eBPF to support CLAT and IPv6-mostly</title>
       <link>/articles/article-2026-07-08-20551/</link>
@@ -21,6 +28,13 @@
       <pubDate>Wed, 08 Jul 2026 07:16:13 +0000</pubDate>
       <guid>/articles/article-2026-07-08-20553/</guid>
       <description>Explore the final part of our series on Red Hat OpenShift&amp;rsquo;s hosted control planes (HCP). This article delves into essential architectural considerations for effective HCP adoption. Key topics include infrastructure requirements, the role of the Multicluster Engine (MCE) Operator, and the importance of storage performance for etcd. Understanding load balancing and DNS strategies is crucial, especially for bare metal deployments. For a detailed overview, check the full article! 🌐🔧 #OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we used AI agents to migrate GitLab rate limiting</title>
+      <link>/articles/article-2026-07-08-20561/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20561/</guid>
+      <description>A GitLab team recently experimented with AI agents to migrate their legacy rate-limiting system. They successfully unified two paths using a structured process involving human oversight and AI support. The project highlighted the importance of careful planning, strong observability, and human judgment. While AI agents facilitated mechanical tasks, human engineers ensured quality and addressed unforeseen issues during rollouts. The team completed six cohorts, refining the migration process to&amp;hellip;</description>
     </item>
     <item>
       <title>Watch AWS engineers troubleshoot agentic AI with OpenTelemetry and OpenSearch</title>

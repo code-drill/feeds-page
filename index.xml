@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 16:05:25 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72</title>
+      <link>/articles/article-2026-07-08-20558/</link>
+      <pubDate>Wed, 08 Jul 2026 16:05:25 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20558/</guid>
+      <description>Unlock the power of analytical workloads with GPU-accelerated Presto! 🚀 Presto is an open-source SQL engine that runs fast queries on large datasets. By utilizing NVIDIA GPUs, it offers low latency, enhancing user experience and productivity. This post showcases multi-GPU execution on NVIDIA&amp;rsquo;s DGX B200 and GB200 NVL72, highlighting the impact of NVIDIA GPUDirect Storage for high I/O throughput. 📊 Learn how GPU-accelerated Presto achieves peak performance using NVIDIA cuDF algorithms and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance</title>
+      <link>/articles/article-2026-07-08-20559/</link>
+      <pubDate>Wed, 08 Jul 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20559/</guid>
+      <description>Unlock the potential of agentic systems with LangChain! 🤖 This article explores how to create a harness profile for the NVIDIA Nemotron 3 Ultra to enhance performance. It highlights the balance between accuracy and cost in agentic systems. Fine-tuning smaller models can improve efficiency, but requires expertise. Key developments include evaluation benchmarks and LangChain’s customizable agent harness profiles. Learn how to set up and validate your harness profile for optimal results! 📊💻&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Most enterprises will hand root cause analysis to AI agents within two years</title>
+      <link>/articles/article-2026-07-08-20557/</link>
+      <pubDate>Wed, 08 Jul 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20557/</guid>
+      <description>In the next two years, many enterprises plan to shift root cause analysis to AI agents. This change aims to enhance efficiency in managing complex IT systems. Currently, software engineers spend significant time analyzing logs and data to identify issues. However, this process is becoming increasingly burdensome. With the rise of generative AI (GenAI), 85% of organizations now utilize it for observability, with expectations for that number to reach 98% soon. GenAI allows for autonomous&amp;hellip;</description>
+    </item>
     <item>
       <title>“Nature is the most computationally efficient system we know”: How Refiant used swarm optimization to build a 10-million-token AI model</title>
       <link>/articles/article-2026-07-08-20556/</link>
@@ -49,6 +70,20 @@
       <pubDate>Wed, 08 Jul 2026 07:16:13 +0000</pubDate>
       <guid>/articles/article-2026-07-08-20553/</guid>
       <description>Explore the final part of our series on Red Hat OpenShift&amp;rsquo;s hosted control planes (HCP). This article delves into essential architectural considerations for effective HCP adoption. Key topics include infrastructure requirements, the role of the Multicluster Engine (MCE) Operator, and the importance of storage performance for etcd. Understanding load balancing and DNS strategies is crucial, especially for bare metal deployments. For a detailed overview, check the full article! 🌐🔧 #OpenShift&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How we used AI agents to migrate GitLab rate limiting</title>
+      <link>/articles/article-2026-07-08-20561/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20561/</guid>
+      <description>A GitLab team recently experimented with AI agents to migrate their legacy rate-limiting system. They successfully unified two paths using a structured process involving human oversight and AI support. The project highlighted the importance of careful planning, strong observability, and human judgment. While AI agents facilitated mechanical tasks, human engineers ensured quality and addressed unforeseen issues during rollouts. The team completed six cohorts, refining the migration process to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The future of governing AI agents</title>
+      <link>/articles/article-2026-07-08-20560/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-08-20560/</guid>
+      <description>The article discusses the importance of governance in autonomous security agents. It highlights that while these agents are advancing in capabilities, governance structures are lagging behind. Effective governance needs to be integrated into their architecture, focusing on reasoning, evaluation, and telemetry. Current models allow for varying levels of autonomy, but they do not ensure that agents operate effectively. With regulations like ISO 42001 and the EU AI Act approaching, organizations&amp;hellip;</description>
     </item>
     <item>
       <title>Coinbase runs 1,200 agents and just slashed its AI bill in half</title>

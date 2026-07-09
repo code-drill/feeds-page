@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 07:01:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The “silent hallucination” loop: how our autonomous data pipeline poisoned its own vector store</title>
+      <link>/articles/article-2026-07-09-20571/</link>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-09-20571/</guid>
+      <description>🚨 In a recent article, the author discusses challenges faced with an AI system for a fintech client. Initially, the system worked well, extracting data from PDFs. However, it soon generated inaccurate chatbot responses, citing outdated financial data and incorrect revenue attribution. The root cause was a faulty data ingestion process that mismanaged probabilistic outputs, leading to &amp;ldquo;hallucinations&amp;rdquo; in the database. Despite implementing a validation layer, issues persisted due to reliance on&amp;hellip;</description>
+    </item>
     <item>
       <title>EvalHub: Capability and safety benchmarking for AI models</title>
       <link>/articles/article-2026-07-09-20568/</link>

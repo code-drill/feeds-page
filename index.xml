@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 07:01:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic AI in observability: accelerating root cause analysis</title>
+      <link>/articles/article-2026-07-09-20570/</link>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-09-20570/</guid>
+      <description>🚀 The rise of agentic AI is transforming IT operations and observability in enterprises. It enhances traditional monitoring tools by accelerating data analysis from system logs and observability metrics. This integration allows engineers to conduct deeper root cause investigations more quickly and efficiently. Thaddeus Walsh from Elastic emphasizes that agentic data acts as an accelerator, freeing up time for critical analysis. Understanding your data and processes is essential for leveraging&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The “silent hallucination” loop: how our autonomous data pipeline poisoned its own vector store</title>
+      <link>/articles/article-2026-07-09-20571/</link>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-09-20571/</guid>
+      <description>🚨 In a recent article, the author discusses challenges faced with an AI system for a fintech client. Initially, the system worked well, extracting data from PDFs. However, it soon generated inaccurate chatbot responses, citing outdated financial data and incorrect revenue attribution. The root cause was a faulty data ingestion process that mismanaged probabilistic outputs, leading to &amp;ldquo;hallucinations&amp;rdquo; in the database. Despite implementing a validation layer, issues persisted due to reliance on&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“The Switzerland of AI”: OpenClaw becomes a non-profit foundation</title>
+      <link>/articles/article-2026-07-09-20572/</link>
+      <pubDate>Thu, 09 Jul 2026 12:44:35 +0000</pubDate>
+      <guid>/articles/article-2026-07-09-20572/</guid>
+      <description>🚀 OpenClaw has evolved into a non-profit foundation, marking a significant milestone in the open-source AI landscape. The initiative aims to empower users by allowing them to run AI agents locally on their machines, enhancing personal automation across various applications like WhatsApp and Slack. Chaired by Dave Morin, the foundation seeks to prioritize user control over AI, distancing it from corporate interests. For more insights, check out the full article! #OpenClaw #AI #OpenSource&amp;hellip;</description>
+    </item>
     <item>
       <title>EvalHub: Capability and safety benchmarking for AI models</title>
       <link>/articles/article-2026-07-09-20568/</link>
@@ -21,6 +42,13 @@
       <pubDate>Thu, 09 Jul 2026 07:01:17 +0000</pubDate>
       <guid>/articles/article-2026-07-09-20569/</guid>
       <description>🚀 Red Hat Data Grid enables efficient in-memory caching and cross-site replication across OpenShift clusters. The Data Grid operator facilitates this by deploying clusters and caches through user-configurable resources. By utilizing multi-site installations, data is safeguarded during outages in various locations. Key configurations include Route types and load-balancer services for secure communication. For detailed insights on deployment and troubleshooting, check the full article! #RedHat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Green DevOps: Why carbon measurement belongs in your CI/CD pipeline</title>
+      <link>/articles/article-2026-07-09-20573/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-09-20573/</guid>
+      <description>💻🌱 Software teams run hundreds of CI/CD jobs daily, each consuming energy and contributing to carbon emissions without visibility in logs. To tackle this, Eco CI and Carmen are open-source tools that integrate carbon measurement into your existing GitLab pipelines. Eco CI tracks emissions at the pipeline level, while Carmen provides deeper insights from infrastructure and application layers. Both tools help identify resource-intensive jobs and inform better engineering decisions. Starting is&amp;hellip;</description>
     </item>
     <item>
       <title>Beyond CMDB Sync: Cisco Catalyst Center for ITSM Workflows</title>

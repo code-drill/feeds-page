@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 16:41:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 18:17:40 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading</title>
+      <link>/articles/article-2026-07-10-20602/</link>
+      <pubDate>Fri, 10 Jul 2026 18:17:40 +0000</pubDate>
+      <guid>/articles/article-2026-07-10-20602/</guid>
+      <description>🚀 Large language model (LLM) training faces GPU memory limits that hinder compute efficiency. Key components like model weights and gradients compete for high-bandwidth memory (HBM). 📊 The article discusses host offloading in JAX, which alleviates HBM pressure by moving activations to pinned host memory during training. This method is particularly effective on NVIDIA Grace Blackwell systems, thanks to their high-speed connectivity. 🔍 Performance tests using MaxText workloads demonstrate the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Fundamentals of AI: Making AI practical</title>
+      <link>/articles/article-2026-07-10-20601/</link>
+      <pubDate>Fri, 10 Jul 2026 17:24:31 +0000</pubDate>
+      <guid>/articles/article-2026-07-10-20601/</guid>
+      <description>🚀 Understanding AI deployment is crucial for effective use. Training large language models (LLMs) can be very costly, yet their raw forms often lack task specificity. AI engineering bridges this gap by fine-tuning models for specific domains and addressing challenges like accurate citation. This article highlights the importance of foundation models and their applications across various tasks. Stay informed as AI continues to evolve! 🧠💡 #ArtificialIntelligence #MachineLearning #TechTrends&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Meta’s Iris push signals the next phase of AI infrastructure</title>
+      <link>/articles/article-2026-07-10-20600/</link>
+      <pubDate>Fri, 10 Jul 2026 17:02:09 +0000</pubDate>
+      <guid>/articles/article-2026-07-10-20600/</guid>
+      <description>Meta is set to manufacture its own AI chip, Iris, starting in September. This move aims to enhance their control over AI infrastructure by handling inference workloads currently run on third-party GPUs. 💻 Iris will support tasks like content ranking and recommendations across platforms like Facebook and Instagram. This shift to custom silicon is part of Meta&amp;rsquo;s strategy to reduce costs and secure its AI supply chain. 🔗 The company plans to release new iterations of Iris every six months while&amp;hellip;</description>
+    </item>
     <item>
       <title>Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead</title>
       <link>/articles/article-2026-07-10-20598/</link>

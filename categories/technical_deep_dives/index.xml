@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 16:41:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 18:17:40 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading</title>
+      <link>/articles/article-2026-07-10-20602/</link>
+      <pubDate>Fri, 10 Jul 2026 18:17:40 +0000</pubDate>
+      <guid>/articles/article-2026-07-10-20602/</guid>
+      <description>🚀 Large language model (LLM) training faces GPU memory limits that hinder compute efficiency. Key components like model weights and gradients compete for high-bandwidth memory (HBM). 📊 The article discusses host offloading in JAX, which alleviates HBM pressure by moving activations to pinned host memory during training. This method is particularly effective on NVIDIA Grace Blackwell systems, thanks to their high-speed connectivity. 🔍 Performance tests using MaxText workloads demonstrate the&amp;hellip;</description>
+    </item>
     <item>
       <title>Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead</title>
       <link>/articles/article-2026-07-10-20598/</link>

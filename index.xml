@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 16:50:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 18:23:58 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Set Up a Staging Environment on Heroku in 3 Easy Steps</title>
+      <link>/articles/article-2026-07-16-20693/</link>
+      <pubDate>Thu, 16 Jul 2026 18:23:58 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20693/</guid>
+      <description>🚀 Setting up a staging environment on Heroku is essential for smooth deployments. It allows you to test code in an environment that&amp;rsquo;s nearly identical to production, reducing bugs before they affect users. 🔧 Start by creating a pipeline and linking your staging app. This setup helps you intercept updates and test code without impacting the live environment. 📊 Remember, a well-structured pipeline can lower your Change Failure Rate, ensuring a more reliable deployment process. #Heroku&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI hasn’t shifted the bottleneck from coding to code review</title>
+      <link>/articles/article-2026-07-16-20690/</link>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20690/</guid>
+      <description>🚀 Many in the tech industry believe AI has shifted the bottleneck from coding to code review. However, recent insights suggest this perception is misleading. 🔍 Research shows that a significant number of changes often remain in deployment batches, highlighting that the real constraints lie elsewhere in the value stream. 📊 Understanding where work accumulates is crucial. Simply speeding up code reviews may not address the underlying issues. #SoftwareDevelopment #AI #CodeReview #TechInsights&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GoDaddy opened its registrar to AI agents. Then it had to build guardrails.</title>
+      <link>/articles/article-2026-07-16-20691/</link>
+      <pubDate>Thu, 16 Jul 2026 17:48:29 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20691/</guid>
+      <description>🚀 GoDaddy has launched its new Developer Platform, enabling developers to manage domains directly within their coding environments. This shift integrates domain management into CI/CD workflows, enhancing the deployment process. 🌐 Aimed at engineering teams, the platform allows for seamless domain lifecycle management, from search to purchase, all without leaving development tools. 🛠️ With new APIs, developers can easily check domain availability, configure DNS, and manage registrations,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>You don’t have a deployment problem. You have a validation problem.</title>
+      <link>/articles/article-2026-07-16-20692/</link>
+      <pubDate>Thu, 16 Jul 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20692/</guid>
+      <description>Deployment capabilities often sound impressive, with teams boasting about progressive rollouts and swift rollbacks. However, the reality reveals a different picture. Many organizations still ship changes in batches due to validation issues, not deployment problems. The article discusses how independent deployability is hindered by a lack of trust in single changes. While mechanical deployment is largely solved, confidence in changes is still a challenge. Batched releases arise from the need&amp;hellip;</description>
+    </item>
     <item>
       <title>The Pulse: What can we learn from Bun’s rapid Rust rewrite with AI?</title>
       <link>/articles/article-2026-07-16-20677/</link>
@@ -23,6 +51,13 @@
       <description>Unlocking the potential of video analytics in enterprises involves integrating AI agents into existing workflows. 🤖 The article discusses the challenges of merging video systems with tools like content management and messaging platforms. It highlights NVIDIA NemoClaw, which supports context-aware analysis and enables actionable insights from video data. Key features include generating structured reports and building multi-step workflows that enhance business processes. Learn about NVIDIA&amp;hellip;</description>
     </item>
     <item>
+      <title>What’s New in IntelliJ IDEA 2026.2</title>
+      <link>/articles/article-2026-07-16-20700/</link>
+      <pubDate>Thu, 16 Jul 2026 16:00:50 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20700/</guid>
+      <description>🚀 IntelliJ IDEA 2026.2 has been released! This update simplifies workflows and incorporates new features to enhance your Java experience. You can download it from the website or update via the IDE, Toolbox App, or Ubuntu snap packages. Key highlights include support for Java 27, Kotlin 2.4, and improved Spring development tools. Enhancements like native GitHub Copilot integration and new logpoints for debugging also feature prominently. Explore the full list of updates and a walkthrough video&amp;hellip;</description>
+    </item>
+    <item>
       <title>Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField</title>
       <link>/articles/article-2026-07-16-20684/</link>
       <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
@@ -35,6 +70,13 @@
       <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
       <guid>/articles/article-2026-07-16-20678/</guid>
       <description>Caching plays a vital role in AI systems, especially in Retrieval-Augmented Generation (RAG) pipelines. While initial implementations performed well, real production workloads revealed issues like tail latency and increased costs. Traditional caching methods, such as Redis, initially improved response times but faltered with semantic queries. When queries varied in wording, Redis struggled, leading to redundant data and higher bills. The shift to semantic caching with vector databases aimed&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s fixed in IntelliJ IDEA 2026.2</title>
+      <link>/articles/article-2026-07-16-20701/</link>
+      <pubDate>Thu, 16 Jul 2026 15:57:45 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20701/</guid>
+      <description>🚀 IntelliJ IDEA 2026.2 is here with over 1,300 bug fixes and usability improvements! Key updates include fixes for 140 performance issues, enhancing responsiveness during editing and saving files. The custom file chooser now loads directories asynchronously, improving navigation. Spring support has also been enhanced, with better handling of configuration patterns and improved code resolution. #IntelliJ #IDEUpdates #SoftwareDevelopment #TechNews #PerformanceImprovements</description>
     </item>
     <item>
       <title>Frontier Attacks Just Ended the Defender’s Advantage. Cisco IQ Is How You Get It Back</title>
@@ -128,6 +170,13 @@
       <description>In humanitarian crises, collecting accurate data quickly is essential for effective aid delivery. 🌍 Cisco Crisis Response is collaborating with nonprofit organizations to use responsible AI, which enhances data collection while prioritizing ethical practices. Partnering with Kobo, they aim to strengthen needs assessments and connect affected individuals to necessary services. Learn more about the role of responsible AI in humanitarian efforts. 🤝 #HumanitarianAid #ResponsibleAI #DataCollection&amp;hellip;</description>
     </item>
     <item>
+      <title>Bring GitLab Duo Agent Platform to your terminal</title>
+      <link>/articles/article-2026-07-16-20697/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20697/</guid>
+      <description>🚀 GitLab 19.2 introduces the Duo CLI, integrating GitLab Duo Agentic Chat directly into your terminal. This tool helps developers address issues like pipeline failures without leaving the command line. It understands your project context, making it easier to explore, plan, and build. Duo CLI supports both interactive and headless modes, allowing seamless work across GitLab&amp;rsquo;s UI and your editor. To get started, check out the GitLab Duo CLI documentation! #GitLab #DuoCLI #DevTools&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elastic achieves the AWS AI Security Distinction, securing AI-specific risks</title>
       <link>/articles/article-2026-07-16-20674/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
@@ -142,11 +191,46 @@
       <description>🔗 Elastic and Axonius have announced a new integration aimed at enhancing asset intelligence for security teams. This integration allows analysts to search and investigate Axonius data alongside existing Elastic Security data, improving visibility across devices, identities, and SaaS applications. 🔍 It supports both agent-based and agentless deployments, reducing operational overhead. The integration queries Axonius APIs to provide comprehensive asset intelligence. 📊 #Cybersecurity&amp;hellip;</description>
     </item>
     <item>
+      <title>Elastic’s guide to AI in the interview process</title>
+      <link>/articles/article-2026-07-16-20694/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20694/</guid>
+      <description>🚀 Elastic emphasizes the importance of authenticity in the interview process. While AI can assist with organizing thoughts and refining applications, it should not replace your unique experiences and skills. Remember, it&amp;rsquo;s about showcasing &lt;em&gt;you&lt;/em&gt;! For fairness, Elastic uses AI monitoring tools to ensure honesty in applications. #JobSearch #AI #Authenticity #Elastic #HiringProcess</description>
+    </item>
+    <item>
       <title>Forrester Consulting: GitLab Duo Agent Platform delivers 400% ROI</title>
       <link>/articles/article-2026-07-16-20675/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-07-16-20675/</guid>
       <description>A recent Forrester Consulting study reveals that organizations using the GitLab Duo Agent Platform achieve a remarkable 400% ROI and $7.5 million in net present value over three years. 💼📈 Key findings include: - New developers onboard 80% faster. - A migration planned for eight months was completed in just two. - QA and security teams save significant time on remediation. ⏳ The study highlights the potential of agentic coding to enhance productivity and streamline software development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab 19.2 released</title>
+      <link>/articles/article-2026-07-16-20698/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20698/</guid>
+      <description>🚀 GitLab has announced the release of version 19.2! This update includes enhancements to security features, improved CI/CD capabilities, and new integrations to streamline workflows. Users can now benefit from better performance and a more user-friendly interface. Check out the release notes for all the details! #GitLab #DevOps #SoftwareUpdate #TechNews #VersionRelease</description>
+    </item>
+    <item>
+      <title>GitLab Duo Security Review spots logic flaws scanners miss</title>
+      <link>/articles/article-2026-07-16-20696/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20696/</guid>
+      <description>GitLab&amp;rsquo;s new Security Review Flow, currently in public beta, addresses a critical gap in identifying application logic flaws that traditional static scanners often miss. 🔍 This tool analyzes code changes like a security expert, focusing on intent rather than patterns. It detects flaws such as broken authorization and business logic errors early in the development process, reducing overall costs and risks. 💻 Security Review Flow complements existing scanners, providing context-rich findings&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Turn multi-step software delivery into agentic flows you can trust</title>
+      <link>/articles/article-2026-07-16-20695/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20695/</guid>
+      <description>🚀 GitLab 19.2 introduces Custom Flows for smoother software delivery. These AI-powered workflows allow teams to automate multi-step tasks triggered by GitLab events. No more manual handoffs for common actions like reviewing merge requests or fixing pipelines! Agentic Chat enhances collaboration by recommending specialist flows, making it easier to approve and track progress. Discover how to transform your delivery processes with these new features! #GitLab #SoftwareDevelopment #Automation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When a version bump breaks your build, GitLab fixes it</title>
+      <link>/articles/article-2026-07-16-20699/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20699/</guid>
+      <description>🚀 GitLab introduces Dependency Scanning Auto-Remediation, now in beta, to enhance security by automatically addressing vulnerable dependencies. When a vulnerable package is detected, it opens a merge request to update it and uses AI to fix any build-breaking changes. This process helps shrink security backlogs without diverting developers&amp;rsquo; attention. High-severity vulnerabilities can be resolved within compliance deadlines, and each change is tracked for accountability. Learn more about this&amp;hellip;</description>
     </item>
     <item>
       <title>Build a Multi-Camera 3D Tracking Application with NVIDIA DeepStream 9.1 Skills</title>
@@ -427,6 +511,13 @@
       <pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate>
       <guid>/articles/article-2026-07-14-20631/</guid>
       <description>The article discusses the ongoing debate around Multi-Channel Processing (MCP) and its perceived limitations. While skeptics argue that MCP adds unnecessary complexity for individual developers, the situation shifts in enterprise environments. Here, MCP can enhance security and compliance by managing agent identity and permissions effectively. The piece also highlights the pitfalls of relying solely on allowlists for governance, emphasizing the need for better structural controls&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>IntelliJ Scala Plugin 2026.2 Is Out!</title>
+      <link>/articles/article-2026-07-14-20702/</link>
+      <pubDate>Tue, 14 Jul 2026 11:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-14-20702/</guid>
+      <description>🚀 The IntelliJ Scala Plugin 2026.2 is here! This update brings new features and improvements for Scala developers. Key highlights include enhanced sbt task support, allowing multiple parameters without issues. There&amp;rsquo;s also improved WSL and Docker support for various project types, including BSP-based tools. 🛠️ Additionally, Scala 3 features like Clause Interleaving (SIP-47) and better error highlighting for match types have been introduced. Check out the latest enhancements to elevate your&amp;hellip;</description>
     </item>
     <item>
       <title>What makes CIOs trust an AI agent? Thira bets it’s not the model.</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 07:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why smarter AI caching sometimes makes everything slower</title>
+      <link>/articles/article-2026-07-16-20678/</link>
+      <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20678/</guid>
+      <description>Caching plays a vital role in AI systems, especially in Retrieval-Augmented Generation (RAG) pipelines. While initial implementations performed well, real production workloads revealed issues like tail latency and increased costs. Traditional caching methods, such as Redis, initially improved response times but faltered with semantic queries. When queries varied in wording, Redis struggled, leading to redundant data and higher bills. The shift to semantic caching with vector databases aimed&amp;hellip;</description>
+    </item>
     <item>
       <title>Layered sandboxing for AI agents: OpenShift and OpenShell</title>
       <link>/articles/article-2026-07-16-20671/</link>

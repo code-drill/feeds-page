@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why smarter AI caching sometimes makes everything slower</title>
+      <link>/articles/article-2026-07-16-20678/</link>
+      <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20678/</guid>
+      <description>Caching plays a vital role in AI systems, especially in Retrieval-Augmented Generation (RAG) pipelines. While initial implementations performed well, real production workloads revealed issues like tail latency and increased costs. Traditional caching methods, such as Redis, initially improved response times but faltered with semantic queries. When queries varied in wording, Redis struggled, leading to redundant data and higher bills. The shift to semantic caching with vector databases aimed&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Linux creator Linus Torvalds tells AI haters to walk away from Linux, or go fork it</title>
+      <link>/articles/article-2026-07-16-20679/</link>
+      <pubDate>Thu, 16 Jul 2026 15:15:14 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20679/</guid>
+      <description>Linus Torvalds, the creator of Linux, has made a bold statement regarding AI in software development. He emphasizes that Linux is not an anti-AI project. Torvalds acknowledges that while some dislike AI, it is a tool that can be beneficial for software engineers. He encourages those opposed to AI to either accept it or fork the project. He also highlights the challenges AI brings but stresses that ignoring it is not the solution. Instead, he advocates for leveraging AI to assist maintainers&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI’s GPT-Red automates prompt injection testing to harden AI agents</title>
+      <link>/articles/article-2026-07-16-20680/</link>
+      <pubDate>Thu, 16 Jul 2026 14:58:18 +0000</pubDate>
+      <guid>/articles/article-2026-07-16-20680/</guid>
+      <description>OpenAI has introduced GPT-Red, an automated system for testing AI agents&amp;rsquo; security. As AI tasks evolve, traditional manual testing methods are no longer sufficient. GPT-Red continuously probes AI models to find prompt injection vulnerabilities quickly and efficiently, mapping out weaknesses that human testers can&amp;rsquo;t keep up with. Through self-play reinforcement learning, GPT-Red trains by simulating attacks and defenses, enhancing the resilience of AI systems. This innovation shows significant&amp;hellip;</description>
+    </item>
     <item>
       <title>“There are no laws, only suggestions”: What AI agents do with your instructions</title>
       <link>/articles/article-2026-07-16-20673/</link>

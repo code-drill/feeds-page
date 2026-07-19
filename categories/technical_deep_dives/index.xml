@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent</title>
+      <link>/articles/article-2026-07-19-20726/</link>
+      <pubDate>Sun, 19 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-19-20726/</guid>
+      <description>🚀 Managing Kubernetes at scale often involves dealing with frequent node failures, especially with GPUs. To address this, the EKS Node Monitoring Agent was developed to automate node detection and replacement, minimizing human intervention. This open-source tool allows Karpenter to replace failing nodes automatically, enhancing efficiency. AWS has also introduced Amazon EKS Auto Mode, which automates various cluster operations, including automatic node repair. This means less focus on&amp;hellip;</description>
+    </item>
     <item>
       <title>From intent to enforcement: Lessons from operating Kubernetes controllers at scale</title>
       <link>/articles/article-2026-07-17-20711/</link>

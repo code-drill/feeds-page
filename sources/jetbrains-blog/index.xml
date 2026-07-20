@@ -6,8 +6,22 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:29:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 10:15:24 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escape Analysis in Go – Stack vs. Heap Allocations Explained</title>
+      <link>/articles/article-2026-07-20-20734/</link>
+      <pubDate>Mon, 20 Jul 2026 10:15:24 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20734/</guid>
+      <description>🔍 Escape analysis in Go is a key optimization technique that helps the compiler decide if values should be allocated on the stack or the heap. When a value &amp;ldquo;escapes,&amp;rdquo; it means it needs to persist beyond the function&amp;rsquo;s lifetime, leading to heap allocation. Understanding this process is crucial for optimizing performance. While Go abstracts memory management, knowing how to influence escape analysis can improve your code&amp;rsquo;s efficiency. #GoLang #Programming #EscapeAnalysis #MemoryManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Does “rtk” skill really cut agent tokens by 60–90%? We tested it</title>
+      <link>/articles/article-2026-07-20-20735/</link>
+      <pubDate>Mon, 20 Jul 2026 10:11:44 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20735/</guid>
+      <description>🚀 In the latest article, the effectiveness of the “rtk” skill in reducing Claude Code token usage is examined. The claimed savings of 60-90% were tested but resulted in only a 7.6% increase in costs at low reasoning effort, with no changes at high effort levels. The task quality remained consistent across tests. This study continues the exploration of token-saving add-ons for coding agents, previously assessing the &amp;ldquo;caveman skill.&amp;rdquo; #TechTesting #CodingEfficiency #TokenSavings #AIResearch&amp;hellip;</description>
+    </item>
     <item>
       <title>Kotlin Turns 15: Celebrate the Kotlin Effect</title>
       <link>/articles/article-2026-07-17-20718/</link>

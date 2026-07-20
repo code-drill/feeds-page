@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 07:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 14:00:09 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ML-KEM vs Diffie-Hellman: The Showdown – IPsec Series, Part 3</title>
+      <link>/articles/article-2026-07-20-20732/</link>
+      <pubDate>Mon, 20 Jul 2026 14:00:09 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20732/</guid>
+      <description>In the latest IPsec Series article, the comparison between Diffie-Hellman and ML-KEM highlights key aspects of both key exchange methods. Diffie-Hellman (X25519) is small and quick but faces quantum vulnerabilities. In contrast, ML-KEM offers quantum safety but with larger sizes that can cause fragmentation in messages. The article suggests a hybrid approach, utilizing both methods to enhance security. 🔒📡 Read more to explore their performance across various metrics! #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Escape Analysis in Go – Stack vs. Heap Allocations Explained</title>
+      <link>/articles/article-2026-07-20-20734/</link>
+      <pubDate>Mon, 20 Jul 2026 10:15:24 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20734/</guid>
+      <description>🔍 Escape analysis in Go is a key optimization technique that helps the compiler decide if values should be allocated on the stack or the heap. When a value &amp;ldquo;escapes,&amp;rdquo; it means it needs to persist beyond the function&amp;rsquo;s lifetime, leading to heap allocation. Understanding this process is crucial for optimizing performance. While Go abstracts memory management, knowing how to influence escape analysis can improve your code&amp;rsquo;s efficiency. #GoLang #Programming #EscapeAnalysis #MemoryManagement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Does “rtk” skill really cut agent tokens by 60–90%? We tested it</title>
+      <link>/articles/article-2026-07-20-20735/</link>
+      <pubDate>Mon, 20 Jul 2026 10:11:44 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20735/</guid>
+      <description>🚀 In the latest article, the effectiveness of the “rtk” skill in reducing Claude Code token usage is examined. The claimed savings of 60-90% were tested but resulted in only a 7.6% increase in costs at low reasoning effort, with no changes at high effort levels. The task quality remained consistent across tests. This study continues the exploration of token-saving add-ons for coding agents, previously assessing the &amp;ldquo;caveman skill.&amp;rdquo; #TechTesting #CodingEfficiency #TokenSavings #AIResearch&amp;hellip;</description>
+    </item>
     <item>
       <title>Architect an open blueprint for cloud-native AI agents</title>
       <link>/articles/article-2026-07-20-20730/</link>

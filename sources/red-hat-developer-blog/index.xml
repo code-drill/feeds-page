@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 07:15:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:16:04 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyTorch distributed is changing and TorchComms is why</title>
+      <link>/articles/article-2026-07-20-20728/</link>
+      <pubDate>Mon, 20 Jul 2026 03:16:04 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20728/</guid>
+      <description>🚀 PyTorch is evolving with the introduction of TorchComms, a new backend layer designed to replace the old c10d. This change aims to enhance training and inference systems by providing a communicator-centric architecture. 🔄 Users can transition without rewriting existing code, allowing for a smoother migration path while maintaining core functionalities like ProcessGroup and DeviceMesh. 📊 Initial results show significant improvements in startup times and inference efficiency, particularly at&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What 429 chaos experiments taught us about Kubernetes operator resilience</title>
+      <link>/articles/article-2026-07-20-20729/</link>
+      <pubDate>Mon, 20 Jul 2026 03:16:02 +0000</pubDate>
+      <guid>/articles/article-2026-07-20-20729/</guid>
+      <description>🚀 In the latest chaos experiments on Kubernetes operators, 429 tests were conducted across 22 operators. Most operators passed standard tests like PodKill, but deeper tests like DeploymentScaleZero revealed critical gaps in resilience. Some operators failed to recover from network partitions and other failures, indicating issues with their reconciliation logic. In addition, SDK-level testing uncovered bugs that CLI tests missed, highlighting the importance of comprehensive testing strategies&amp;hellip;.</description>
+    </item>
     <item>
       <title>Benchmark Red Hat Data Grid in OpenShift 4 using Hyperfoil</title>
       <link>/articles/article-2026-07-17-20707/</link>

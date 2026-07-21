@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 07:16:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI</title>
+      <link>/articles/article-2026-07-21-20759/</link>
+      <pubDate>Tue, 21 Jul 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-21-20759/</guid>
+      <description>🚀 The NVIDIA Rubin GPU architecture is transforming AI capabilities by enabling continuous, large-scale intelligence production. These advancements support complex tasks with sustained reasoning, requiring efficient processing and low latency. The Rubin platform features enhanced Tensor Cores and a powerful memory subsystem, achieving significant improvements in energy efficiency and performance. #NVIDIA #AI #TechInnovation #GPUs #AgenticAI</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI</title>
+      <link>/articles/article-2026-07-21-20760/</link>
+      <pubDate>Tue, 21 Jul 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-21-20760/</guid>
+      <description>NVIDIA’s new Vera CPU features the Olympus core, designed for optimal single-thread performance in Agentic AI. This CPU shifts critical execution tasks to enhance responsiveness and throughput in AI operations. It focuses on strong single-thread performance, memory bandwidth, and predictable latency. Olympus was co-designed with the entire Vera Rubin platform to maximize efficiency across AI infrastructure workloads. For more technical insights, check out the NVIDIA Vera CPU white paper&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72</title>
+      <link>/articles/article-2026-07-21-20761/</link>
+      <pubDate>Tue, 21 Jul 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-21-20761/</guid>
+      <description>NVIDIA has set a new world record for pre-training with its GB300 NVL72, achieving 1,648 TFLOPs per GPU while training the DeepSeek-V3 model, which has 671B parameters. 💻 This advancement highlights the shift to mixture of experts (MoE) architectures, which allows for more efficient computation by activating only a subset of parameters per token. 🔍 However, the need for extensive communication between GPUs poses challenges, as delays can affect throughput during training. 📈 #NVIDIA #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>Operationalize AI agents with OpenShift and Kubernetes primitives</title>
       <link>/articles/article-2026-07-21-20745/</link>

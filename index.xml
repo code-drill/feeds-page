@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 18:28:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 07:01:05 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize OpenShift workloads with software-defined memory</title>
+      <link>/articles/article-2026-07-23-20798/</link>
+      <pubDate>Thu, 23 Jul 2026 07:01:05 +0000</pubDate>
+      <guid>/articles/article-2026-07-23-20798/</guid>
+      <description>Organizations are facing memory limitations as they deploy advanced AI and analytics workloads. Traditional methods of increasing memory often lead to higher costs and complexity. Kove:SDM offers a solution by disaggregating memory from compute resources in OpenShift, allowing idle memory to be pooled and dynamically allocated without changing application code. Recent tests with the WASP Electronic Warfare pipeline validated this architecture, showing stable performance even under heavy&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your AI agent needs two sandboxes: Benchmark data</title>
+      <link>/articles/article-2026-07-23-20799/</link>
+      <pubDate>Thu, 23 Jul 2026 07:01:03 +0000</pubDate>
+      <guid>/articles/article-2026-07-23-20799/</guid>
+      <description>Discover the importance of layered sandboxing for AI agents! 🛡️ The article discusses how using both NVIDIA OpenShell and Red Hat OpenShift sandboxed containers enhances security. While OpenShell prevents data exfiltration, it can&amp;rsquo;t stop kernel exploits. Conversely, OpenShift isolates kernel exploits but lacks network traffic filtering. Testing revealed that combining the two provides comprehensive protection against a wider range of threats. Explore how this dual approach can strengthen your&amp;hellip;</description>
+    </item>
     <item>
       <title>Kimi K3: White House alleges Fable 5 siphoning</title>
       <link>/articles/article-2026-07-22-20793/</link>

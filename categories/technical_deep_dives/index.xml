@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 16:07:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 03:01:17 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is pytorch compile so fast?</title>
+      <link>/articles/article-2026-07-24-20827/</link>
+      <pubDate>Fri, 24 Jul 2026 03:01:17 +0000</pubDate>
+      <guid>/articles/article-2026-07-24-20827/</guid>
+      <description>Discover how PyTorch&amp;rsquo;s Inductor compiler enhances performance by grouping operations into efficient Triton kernels. This method significantly reduces memory traffic and kernel overhead. Vertical fusion links dependent operations, optimizing GPU usage and increasing model speed by up to 10x. Explore pointwise fusion, which streamlines multiple operations into a single kernel, improving efficiency. 📈💻🔗 #PyTorch #MachineLearning #GPU #DataScience #AI</description>
+    </item>
+    <item>
+      <title>The hidden cost of observability sprawl</title>
+      <link>/articles/article-2026-07-24-20828/</link>
+      <pubDate>Fri, 24 Jul 2026 03:01:15 +0000</pubDate>
+      <guid>/articles/article-2026-07-24-20828/</guid>
+      <description>As Kubernetes usage grows, platform teams face challenges with telemetry costs and complexity. The common solution, &amp;ldquo;hard tenancy,&amp;rdquo; leads to duplicated observability stacks, increasing operational overhead and cloud expenses. A more efficient approach uses Kiali&amp;rsquo;s multi-tenancy with OpenTelemetry, allowing centralized telemetry collection while ensuring secure, cost-effective data routing. This method simplifies management and enhances developer experience without exhausting resources. 💻📊&amp;hellip;</description>
+    </item>
     <item>
       <title>Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit</title>
       <link>/articles/article-2026-07-23-20816/</link>

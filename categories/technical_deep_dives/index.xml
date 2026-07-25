@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 03:01:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How routing keys isolate Kafka consumer tests on a shared broker</title>
+      <link>/articles/article-2026-07-25-20844/</link>
+      <pubDate>Sat, 25 Jul 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-07-25-20844/</guid>
+      <description>Navigating Kafka consumer testing can be complex. A recent article discusses how routing keys can enhance testing on shared brokers. Testing requires real systems to validate changes, with challenges arising from asynchronous messaging. The proposed solution involves lightweight environments that run alongside stable services. By using routing keys, producers can tag messages, allowing consumers to filter and isolate changes effectively. This approach can help manage contamination risks and&amp;hellip;</description>
+    </item>
     <item>
       <title>Why is pytorch compile so fast?</title>
       <link>/articles/article-2026-07-24-20827/</link>

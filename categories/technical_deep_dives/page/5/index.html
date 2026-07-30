@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.jetbrains.com/platform/2026/06/async-vfs-content-writes-what-plugin-authors-need-to-know/" target="_blank">Async VFS Content Writes – What Plugin Authors Need to Know</a></h2>
+            <div class="publication-date">2026-06-03 20:20</div>
+            <div class="summary">📝 Plugin authors should note a key change in the IntelliJ Platform regarding file saves. Historically, saving a document ensured the latest text was written to disk. Now, the Virtual File System (VFS) updates first, with disk writes occurring later in the background. For those using IntelliJ file APIs, no changes are needed. However, if directly reading physical files or using external processes, ensure to flush pending VFS writes beforehand. For more details, refer to the official SDK...</div>
+            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
+            
+            <div class="author">Jakub Chrzanowski</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness/" target="_blank">Lights Out, Systems On: Validating Instant Power Loss Readiness</a></h2>
             <div class="publication-date">2026-06-03 17:00</div>
             <div class="summary">🔌 Meta introduces the Instantaneous PowerLoss Storm, a new testing method to ensure data centers can handle sudden power losses. This approach enhances disaster preparedness by integrating resilience into existing systems with defense-in-depth strategies. It addresses challenges from zero-notice disasters, ensuring minimal impact on overall fleet availability. Learn more about how Meta is strengthening its infrastructure! ⚡🌐 #DataCenters #DisasterPreparedness #PowerLoss #MetaEngineering...</div>
@@ -1079,23 +1096,6 @@
             <div class="publication-date">2026-05-27 15:15</div>
             <div class="summary">🌐 The recent article discusses how lakebase architecture addresses cloud failures. It highlights that agent workloads are changing reliability needs in cloud systems. Agents create databases four times faster than humans and require serverless, auto-scaling infrastructure. Lakebase starts tens of millions of databases daily, emphasizing resilience in its design. #CloudComputing #DataArchitecture #TechInnovation #Reliability #Serverless</div>
             <div class="source">Source: <a href="/sources/databricks-blog">Databricks Blog</a></div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2026/05/27/how-we-built-integration-testing-fast-moving-ai-backend" target="_blank">How we built integration testing for fast-moving AI backend</a></h2>
-            <div class="publication-date">2026-05-27 07:16</div>
-            <div class="summary">🚀 Keeping up with rapidly changing APIs can be a challenge. At Red Hat OpenShift AI, we faced this issue with Llama Stack, where mocked unit tests failed to reflect real-time changes. To solve this, we integrated a real Llama Stack server into our testing. By using its record-replay functionality, we avoided costly LLM calls while ensuring reliability in our tests. Now, our daily workflow includes a Slack sentinel that alerts us about compatibility, giving us early warnings on potential...</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">Avik Kundu</div>
             
             
             <div class="categories">

@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 22:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure</title>
+      <link>/articles/article-2026-08-03-21172/</link>
+      <pubDate>Mon, 03 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-03-21172/</guid>
+      <description>🚀 Running isolated tenant Kubernetes clusters on shared GPU infrastructure can enhance team autonomy without unnecessary hardware splits. This approach utilizes a single control plane with GPU sharing and per-team quotas. By using KAI Scheduler and vCluster, teams can operate independently while sharing resources effectively. The tutorial demonstrates how to set up three teams with their own GPU Kubernetes pods on one physical GPU, ensuring workload visibility is limited to each team. Learn&amp;hellip;</description>
+    </item>
     <item>
       <title>Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference</title>
       <link>/articles/article-2026-07-31-21159/</link>

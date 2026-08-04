@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 13:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 03:16:18 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One kernel feature, 93% system throughput gone: A Red Hat Enterprise Linux 10.2 kernel regression and how to mitigate it</title>
+      <link>/articles/article-2026-08-04-21177/</link>
+      <pubDate>Tue, 04 Aug 2026 03:16:18 +0000</pubDate>
+      <guid>/articles/article-2026-08-04-21177/</guid>
+      <description>🚨 Red Hat Enterprise Linux 10.2 has a kernel regression causing up to 93% throughput loss on multi-NUMA instances. This issue primarily affects larger machines, while smaller instances remain largely unaffected. To mitigate this, users can disable the NI_RANDOM scheduler feature without needing a reboot: &lt;code&gt;echo NO_NI_RANDOM &amp;gt; /sys/kernel/debug/sched/features&lt;/code&gt; For detailed insights, refer to the full article. #RedHat #Linux #KernelRegression #Performance #TechUpdate</description>
+    </item>
     <item>
       <title>Stop patching and build a better WordPress stack with Red Hat Hardened Images</title>
       <link>/articles/article-2026-08-03-21166/</link>

@@ -6,14 +6,35 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 03:16:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 08:00:29 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Computing: What IT and Business Leaders Need to Know</title>
+      <link>/articles/article-2026-08-04-21178/</link>
+      <pubDate>Tue, 04 Aug 2026 08:00:29 +0000</pubDate>
+      <guid>/articles/article-2026-08-04-21178/</guid>
+      <description>🌐 Quantum computing is transforming how businesses approach AI and security. It addresses complex problems beyond the capabilities of classical computers, utilizing qubits for parallel processing. Urgent action is needed for cryptographic migration to enhance security. Learn with Cisco offers resources to build a quantum-ready workforce. #QuantumComputing #AI #CyberSecurity #TechTrends #WorkforceDevelopment</description>
+    </item>
+    <item>
+      <title>AutoRAG: Optimizing RAG for small models</title>
+      <link>/articles/article-2026-08-04-21179/</link>
+      <pubDate>Tue, 04 Aug 2026 07:01:31 +0000</pubDate>
+      <guid>/articles/article-2026-08-04-21179/</guid>
+      <description>🚀 Exploring Retrieval-Augmented Generation (RAG) with AutoRAG! This article discusses how AutoRAG optimizes RAG for small models. It highlights the importance of tuning various settings like chunk size and retrieval methods to improve model performance. The demo showcases how AutoRAG evaluates different configurations to find the most effective way to retrieve context, ensuring better accuracy with less noise. For further insights, check out the full article! 🔍📊 #AutoRAG #MachineLearning&amp;hellip;</description>
+    </item>
     <item>
       <title>One kernel feature, 93% system throughput gone: A Red Hat Enterprise Linux 10.2 kernel regression and how to mitigate it</title>
       <link>/articles/article-2026-08-04-21177/</link>
       <pubDate>Tue, 04 Aug 2026 03:16:18 +0000</pubDate>
       <guid>/articles/article-2026-08-04-21177/</guid>
       <description>🚨 Red Hat Enterprise Linux 10.2 has a kernel regression causing up to 93% throughput loss on multi-NUMA instances. This issue primarily affects larger machines, while smaller instances remain largely unaffected. To mitigate this, users can disable the NI_RANDOM scheduler feature without needing a reboot: &lt;code&gt;echo NO_NI_RANDOM &amp;gt; /sys/kernel/debug/sched/features&lt;/code&gt; For detailed insights, refer to the full article. #RedHat #Linux #KernelRegression #Performance #TechUpdate</description>
+    </item>
+    <item>
+      <title>Azure Private Link for Elastic Cloud Serverless is now generally available</title>
+      <link>/articles/article-2026-08-04-21180/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-04-21180/</guid>
+      <description>🚀 Azure Private Link for Elastic Cloud Serverless is now generally available! This feature allows direct connections from Azure workloads to Serverless projects over Azure&amp;rsquo;s private network, eliminating public internet exposure. To enhance security, a private connection policy is required to manage access, ensuring all traffic stays within Azure&amp;rsquo;s network. 🌐🔒 Learn more about the capabilities and supported regions. #Azure #CloudComputing #Serverless #DataSecurity #PrivateLink</description>
     </item>
     <item>
       <title>Apple and Bynario agree GPT-5.5 found a real macOS bug. They disagree on the report cap.</title>

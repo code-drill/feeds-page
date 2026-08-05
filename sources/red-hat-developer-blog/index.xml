@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 07:01:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 03:01:24 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing modern hash table designs in OVN and OVS</title>
+      <link>/articles/article-2026-08-05-21202/</link>
+      <pubDate>Wed, 05 Aug 2026 03:01:24 +0000</pubDate>
+      <guid>/articles/article-2026-08-05-21202/</guid>
+      <description>🚀 During my internship at Red Hat, I explored improving hashmap performance in OVN and OVS by analyzing modern hash table designs. 🧩 My research built on a project by Rosemarie O&amp;rsquo;Riorden, who tested a new hashmap design. We compared its performance with existing implementations, focusing on metrics like insert and search times. 🔍 I also investigated Swiss tables, known for their efficiency, and created a new C library called dshmap for better integration. 📊 Benchmarks showed that while some&amp;hellip;</description>
+    </item>
     <item>
       <title>AutoRAG: Optimizing RAG for small models</title>
       <link>/articles/article-2026-08-04-21179/</link>

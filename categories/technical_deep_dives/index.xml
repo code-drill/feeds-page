@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 03:01:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pulling multi-gigabyte container images in seconds on Amazon EKS</title>
+      <link>/articles/article-2026-08-10-21213/</link>
+      <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21213/</guid>
+      <description>🚀 Machine learning is reshaping container images, with sizes often reaching 20-30 GB. This poses challenges for rapid deployment on Amazon EKS, where pulling these images can take several minutes. 🔍 Profiling revealed that the bottleneck wasn&amp;rsquo;t the network, but how software utilized available hardware. By optimizing the image pull pipeline, teams reduced pull times from minutes to seconds. 💡 Improvements are now standard in EKS Auto Mode and have been shared with containerd and SOCI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Harden local container base images in Podman Desktop</title>
+      <link>/articles/article-2026-08-10-21244/</link>
+      <pubDate>Mon, 10 Aug 2026 07:01:18 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21244/</guid>
+      <description>🔒 The article discusses how the Red Hat build of Podman Desktop integrates with Project Hummingbird to enhance container security. 🛡️ Developers can now access hardened base images directly within their local workflow, minimizing unnecessary dependencies and reducing vulnerabilities. 🖥️ The Hummingbird extension simplifies the process by offering 1-click migrations and a catalog of secure images, making it easier to maintain production-ready containers. Explore the benefits of hardened images&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your KubeVirt VMs can’t move between clusters — and how EVPN fixes it</title>
+      <link>/articles/article-2026-08-08-21221/</link>
+      <pubDate>Sat, 08 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-08-21221/</guid>
+      <description>KubeVirt allows VMs to run on Kubernetes, but migrating them between clusters poses challenges. 🖥️ Live migration requires maintaining IP and MAC addresses, necessitating a stretched Layer 2 domain. Traditional setups demand extensive network changes, which can be time-consuming. The key obstacles are network requirements: a stretched L2 domain and a dedicated migration path to handle real-time memory state transfers. EVPN/VXLAN offers a solution, enabling efficient migration without altering&amp;hellip;</description>
+    </item>
     <item>
       <title>Testing modern hash table designs in OVN and OVS</title>
       <link>/articles/article-2026-08-05-21202/</link>

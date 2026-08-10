@@ -449,6 +449,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://thenewstack.io/accelerating-eks-image-pulls/" target="_blank">Pulling multi-gigabyte container images in seconds on Amazon EKS</a></h2>
+            <div class="publication-date">2026-08-10 16:00</div>
+            <div class="summary">🚀 Machine learning is reshaping container images, with sizes often reaching 20-30 GB. This poses challenges for rapid deployment on Amazon EKS, where pulling these images can take several minutes. 🔍 Profiling revealed that the bottleneck wasn&#39;t the network, but how software utilized available hardware. By optimizing the image pull pipeline, teams reduced pull times from minutes to seconds. 💡 Improvements are now standard in EKS Auto Mode and have been shared with containerd and SOCI...</div>
+            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
+            
+            <div class="author">Sri Saran Balaji Vellore Rajakumar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2026/08/10/harden-local-container-base-images-podman-desktop" target="_blank">Harden local container base images in Podman Desktop</a></h2>
+            <div class="publication-date">2026-08-10 07:01</div>
+            <div class="summary">🔒 The article discusses how the Red Hat build of Podman Desktop integrates with Project Hummingbird to enhance container security. 🛡️ Developers can now access hardened base images directly within their local workflow, minimizing unnecessary dependencies and reducing vulnerabilities. 🖥️ The Hummingbird extension simplifies the process by offering 1-click migrations and a catalog of secure images, making it easier to maintain production-ready containers. Explore the benefits of hardened images...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Axel Stefanini, Stevan Le Meur</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://thenewstack.io/kubevirt-evpn-vm-migration/" target="_blank">Why your KubeVirt VMs can’t move between clusters — and how EVPN fixes it</a></h2>
+            <div class="publication-date">2026-08-08 14:00</div>
+            <div class="summary">KubeVirt allows VMs to run on Kubernetes, but migrating them between clusters poses challenges. 🖥️ Live migration requires maintaining IP and MAC addresses, necessitating a stretched Layer 2 domain. Traditional setups demand extensive network changes, which can be time-consuming. The key obstacles are network requirements: a stretched L2 domain and a dedicated migration path to handle real-time memory state transfers. EVPN/VXLAN offers a solution, enabling efficient migration without altering...</div>
+            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
+            
+            <div class="author">Miguel Duarte Barroso</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2026/08/05/testing-modern-hash-table-designs-in-ovn-and-ovs" target="_blank">Testing modern hash table designs in OVN and OVS</a></h2>
             <div class="publication-date">2026-08-05 03:01</div>
             <div class="summary">🚀 During my internship at Red Hat, I explored improving hashmap performance in OVN and OVS by analyzing modern hash table designs. 🧩 My research built on a project by Rosemarie O&#39;Riorden, who tested a new hashmap design. We compared its performance with existing implementations, focusing on metrics like insert and search times. 🔍 I also investigated Swiss tables, known for their efficiency, and created a new C library called dshmap for better integration. 📊 Benchmarks showed that while some...</div>
@@ -1065,57 +1116,6 @@
             <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
             
             <div class="author">Elizabeth Goodman</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/" target="_blank">Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps</a></h2>
-            <div class="publication-date">2026-07-20 15:00</div>
-            <div class="summary">Developers in 3D design, simulation, and robotics can enhance their applications with NVIDIA Omniverse RTX Sensor Simulation. The new ovrtx library allows for generating sensor outputs from OpenUSD content using a lightweight SDK. This integration supports seamless workflows, enabling teams to visualize data and validate systems effectively. Learn more about optimizing your applications with NVIDIA&#39;s tools! 🌐🔧 #NVIDIA #Omniverse #3DDesign #Simulation #AI</div>
-            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
-            
-            <div class="author">Tanya Lenz</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blogs.cisco.com/developer/ml-kem-vs-diffie-hellman-the-showdown-ipsec-series-part-3" target="_blank">ML-KEM vs Diffie-Hellman: The Showdown – IPsec Series, Part 3</a></h2>
-            <div class="publication-date">2026-07-20 14:00</div>
-            <div class="summary">In the latest IPsec Series article, the comparison between Diffie-Hellman and ML-KEM highlights key aspects of both key exchange methods. Diffie-Hellman (X25519) is small and quick but faces quantum vulnerabilities. In contrast, ML-KEM offers quantum safety but with larger sizes that can cause fragmentation in messages. The article suggests a hybrid approach, utilizing both methods to enhance security. 🔒📡 Read more to explore their performance across various metrics! #CyberSecurity...</div>
-            <div class="source">Source: <a href="/sources/cisco-developer-blog">Cisco Developer Blog</a></div>
-            
-            <div class="author">Julio Gomez</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.jetbrains.com/go/2026/07/20/escape-analysis/" target="_blank">Escape Analysis in Go – Stack vs. Heap Allocations Explained</a></h2>
-            <div class="publication-date">2026-07-20 10:15</div>
-            <div class="summary">🔍 Escape analysis in Go is a key optimization technique that helps the compiler decide if values should be allocated on the stack or the heap. When a value &#34;escapes,&#34; it means it needs to persist beyond the function&#39;s lifetime, leading to heap allocation. Understanding this process is crucial for optimizing performance. While Go abstracts memory management, knowing how to influence escape analysis can improve your code&#39;s efficiency. #GoLang #Programming #EscapeAnalysis #MemoryManagement...</div>
-            <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
-            
-            <div class="author">Dominika Stankiewicz</div>
             
             
             <div class="categories">

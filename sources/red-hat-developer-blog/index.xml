@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 07:01:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 07:01:20 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MiDojo: Improve AI agent security with real-world red-teaming</title>
+      <link>/articles/article-2026-08-10-21243/</link>
+      <pubDate>Mon, 10 Aug 2026 07:01:20 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21243/</guid>
+      <description>🌐 Introducing MiDojo, an open-source framework designed to enhance the security of AI agents in real-world environments. 🔒 By applying the &amp;ldquo;bring your own agent&amp;rdquo; (BYOA) principle, MiDojo enables effective red-teaming, focusing on system-level security rather than just model-level testing. 📊 It features an interception layer that tests agents against real threats, measuring both security and utility to provide clear insights on performance. Explore MiDojo on GitHub and ensure your AI agent is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Harden local container base images in Podman Desktop</title>
+      <link>/articles/article-2026-08-10-21244/</link>
+      <pubDate>Mon, 10 Aug 2026 07:01:18 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21244/</guid>
+      <description>🔒 The article discusses how the Red Hat build of Podman Desktop integrates with Project Hummingbird to enhance container security. 🛡️ Developers can now access hardened base images directly within their local workflow, minimizing unnecessary dependencies and reducing vulnerabilities. 🖥️ The Hummingbird extension simplifies the process by offering 1-click migrations and a catalog of secure images, making it easier to maintain production-ready containers. Explore the benefits of hardened images&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Upgrade OpenShift AI faster using an AI coding assistant</title>
+      <link>/articles/article-2026-08-07-21245/</link>
+      <pubDate>Fri, 07 Aug 2026 14:56:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21245/</guid>
+      <description>🚀 Red Hat&amp;rsquo;s IT AI Platforms team recently upgraded OpenShift AI from version 2.25.5 to 3.3.2, a complex task that they accomplished in just 8 weeks using an AI coding assistant. This approach, which typically would take 6 months with multiple engineers, reduced engineering effort by about 60%. The upgrade involved a new architecture and tools to ensure zero data loss and minimal user impact. Learn more about their innovative methodology! #OpenShiftAI #RedHat #AI #TechUpgrade #Innovation</description>
+    </item>
     <item>
       <title>Trace Kubernetes resources for llm-d model serving</title>
       <link>/articles/article-2026-08-05-21203/</link>

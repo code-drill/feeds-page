@@ -6,8 +6,134 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 18:44:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 17:16:20 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta’s Muse Glimmer fits on a laptop</title>
+      <link>/articles/article-2026-08-10-21212/</link>
+      <pubDate>Mon, 10 Aug 2026 17:16:20 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21212/</guid>
+      <description>🚀 Meta has launched Muse Glimmer, a 30-billion-parameter open-weight model that fits on a laptop. This model is designed to run agentic workflows locally, enabling efficient task management. It transforms the larger Muse Spark model into a compact version that can handle complex tasks. Glimmer combines advanced training techniques, allowing it to connect local agents with centrally trained models, enhancing user data privacy. Learn more about this innovative approach! #Meta #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Pulling multi-gigabyte container images in seconds on Amazon EKS</title>
+      <link>/articles/article-2026-08-10-21213/</link>
+      <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21213/</guid>
+      <description>🚀 Machine learning is reshaping container images, with sizes often reaching 20-30 GB. This poses challenges for rapid deployment on Amazon EKS, where pulling these images can take several minutes. 🔍 Profiling revealed that the bottleneck wasn&amp;rsquo;t the network, but how software utilized available hardware. By optimizing the image pull pipeline, teams reduced pull times from minutes to seconds. 💡 Improvements are now standard in EKS Auto Mode and have been shared with containerd and SOCI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Meta Muse Code vs. Fable 5: Meta Muse is cheaper, but at what cost?</title>
+      <link>/articles/article-2026-08-10-21214/</link>
+      <pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21214/</guid>
+      <description>Meta recently launched Muse Code, its first AI coding agent, built on the Muse Spark 1.2 model. Mark Zuckerberg claims it can handle extensive software engineering tasks efficiently. 💻✨ The pricing for Muse Code starts at $1.25 per million input tokens, making it significantly cheaper than competitors like Fable 5. However, there&amp;rsquo;s a catch: using the affordable &amp;ldquo;contributor&amp;rdquo; tier means your data may be used for product improvements. 🔄 Tests comparing Muse Code to Claude Code revealed&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“It blows my mind”-“It has a tendency to overengineer things a little”: Developers react to road-testing OpenAI GPT‑5.6 Sol</title>
+      <link>/articles/article-2026-08-10-21215/</link>
+      <pubDate>Mon, 10 Aug 2026 14:28:08 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21215/</guid>
+      <description>OpenAI launched its GPT-5.6 models globally in July, offering three versions: Sol, Terra, and Luna. Developers are particularly impressed with Sol, which is noted for its efficiency and strong safety features. One user, Russell Twilligear, highlighted Sol&amp;rsquo;s superior performance in creating and correcting a large database compared to Anthropic’s Claude Opus 5. This comparison showcases the different strengths of each model in real-world tasks. #OpenAI #GPT56 #AIModels #Developers #TechNews 🌐💻✨</description>
+    </item>
+    <item>
+      <title>V4-Flash vs. V4-Pro: DeepSeek promised better and cheaper. It’s true,  but not how I expected.</title>
+      <link>/articles/article-2026-08-10-21216/</link>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-10-21216/</guid>
+      <description>DeepSeek has updated its V4-Flash model, claiming it outperforms the V4-Pro on coding tasks. 💻 The V4-Flash is priced at $0.14 per million input tokens and $0.28 for output, significantly lower than V4-Pro’s $0.435 and $0.87. This raises questions about the necessity of the V4-Pro model. Testing included bug fixes, feature builds, and performance optimization tasks to compare the two models directly. 📊 For those interested in AI coding solutions, this update is noteworthy. #DeepSeek #AIModels&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Platform Engineering ROI: What it costs to build your own platform</title>
+      <link>/articles/article-2026-08-09-21217/</link>
+      <pubDate>Sun, 09 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-09-21217/</guid>
+      <description>Building your own internal developer platform can be costly. Over five years, it may require around 60 staff and approximately $7.5 million annually, totaling $37.5 million. Many executives may overlook these costs, as they are distributed across various budget areas. In contrast, buying a commercial platform often requires fewer staff for operation. Understanding these costs is crucial for informed decision-making. #PlatformEngineering #CostAnalysis #TechInvestment #InternalPlatforms #DevOps</description>
+    </item>
+    <item>
+      <title>Coding agents can be evaluated. We just have to evaluate the work.</title>
+      <link>/articles/article-2026-08-09-21218/</link>
+      <pubDate>Sun, 09 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-09-21218/</guid>
+      <description>Evaluating coding agents is possible, though complex. A recent discussion highlights that while software engineering is open-ended and agents can yield various valid solutions, this doesn&amp;rsquo;t mean they cannot be evaluated. The argument suggests we should assess coding agents similarly to traditional software systems. Key evaluation criteria include ensuring build success, passing tests, and maintaining compatibility. While some software qualities require human judgment, coding agents can still&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI coding got faster. Why didn’t engineering?</title>
+      <link>/articles/article-2026-08-09-21219/</link>
+      <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-09-21219/</guid>
+      <description>AI is boosting individual coding speed, but engineering processes are still lagging. A recent report from DX highlights that while AI investment has surged 28 times, overall engineering velocity remains stagnant or even declines. Concerns arise over the allocation of resources, as engineers are still spending time on maintenance rather than new features. The Developer Experience Index shows a drop in change confidence, meaning developers are less certain about releasing code, despite easier&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI adoption isn’t the same as AI usage</title>
+      <link>/articles/article-2026-08-08-21220/</link>
+      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-08-21220/</guid>
+      <description>AI adoption is often confused with AI usage. Many organizations report high seat activations and token spending, but this doesn&amp;rsquo;t reflect real changes in software development practices. Metrics like token spend or pull request counts can mislead teams, showing activity without true improvement. Goodhart’s Law highlights this issue: when a metric becomes the target, it stops reflecting reality. To assess genuine AI adoption, consider: if tools were removed, would anything break? True adoption&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your KubeVirt VMs can’t move between clusters — and how EVPN fixes it</title>
+      <link>/articles/article-2026-08-08-21221/</link>
+      <pubDate>Sat, 08 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-08-21221/</guid>
+      <description>KubeVirt allows VMs to run on Kubernetes, but migrating them between clusters poses challenges. 🖥️ Live migration requires maintaining IP and MAC addresses, necessitating a stretched Layer 2 domain. Traditional setups demand extensive network changes, which can be time-consuming. The key obstacles are network requirements: a stretched L2 domain and a dedicated migration path to handle real-time memory state transfers. EVPN/VXLAN offers a solution, enabling efficient migration without altering&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Five AI rivals just backed a shared plugin standard. Here’s why it matters for developers.</title>
+      <link>/articles/article-2026-08-08-21222/</link>
+      <pubDate>Sat, 08 Aug 2026 13:50:59 +0000</pubDate>
+      <guid>/articles/article-2026-08-08-21222/</guid>
+      <description>OpenAI, AWS, Cursor, GitHub, and Microsoft have united to support Agent Plugins 1.0.0, a new standard for reusable AI components. 🤝 This portable package format aims to enhance AI agents by making their skills and servers easily shareable across various platforms. Developers can now benefit from a unified structure, promoting collaboration and efficiency. 📦 Vercel initiated this proposal, highlighting its importance for developers in creating extensions and ensuring compatibility among&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI skills start on laptops. Enterprises inherit the mess.</title>
+      <link>/articles/article-2026-08-08-21223/</link>
+      <pubDate>Sat, 08 Aug 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-08-21223/</guid>
+      <description>AI skills in enterprises can become chaotic, as noted by Sagar Batchu, CEO of Speakeasy. Skills often start as personal projects, leading to scattered libraries without clear ownership or versioning. 🧩 To address this, Speakeasy introduced Skills Management, centralizing skill registration and ensuring version control for better oversight. This aims to help organizations manage their growing libraries effectively. 🔍 #AISkills #SkillManagement #TechInnovation #EnterpriseSolutions #Speakeasy</description>
+    </item>
+    <item>
+      <title>Auto Mode will soon be the default in Claude Code — because humans can’t be trusted</title>
+      <link>/articles/article-2026-08-07-21224/</link>
+      <pubDate>Fri, 07 Aug 2026 21:42:44 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21224/</guid>
+      <description>📢 Exciting news from Anthropic! Starting August 14, auto mode will become the default for Claude Code users. This mode allows Claude to determine when human intervention is necessary, reducing the burden of constant permission prompts. Research shows that users approve 97% of prompts reflexively, often missing dangerous commands. In contrast, Claude in auto mode identifies 89% of these risks. This update aims to enhance safety and efficiency, allowing users to focus on critical tasks&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The AI model OpenAI won’t release yet — and what it found in testing</title>
+      <link>/articles/article-2026-08-07-21225/</link>
+      <pubDate>Fri, 07 Aug 2026 20:56:38 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21225/</guid>
+      <description>🚫 OpenAI is pausing work on its upcoming AI model, Astra, due to concerns over its cybersecurity capabilities. Testing revealed that Astra may have reached a new critical cybersecurity threshold, prompting the company to enhance security measures and conduct further evaluations. This move reflects OpenAI&amp;rsquo;s commitment to ensuring safety in AI development. #OpenAI #Cybersecurity #AI #Astra #TechNews</description>
+    </item>
+    <item>
+      <title>The npm attack that turned provenance attestations into camouflage</title>
+      <link>/articles/article-2026-08-07-21226/</link>
+      <pubDate>Fri, 07 Aug 2026 18:31:59 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21226/</guid>
+      <description>🚨 A recent npm supply-chain attack has impacted over 400 packages, including Keyv and Cacheable. Researchers found attackers used stolen developer credentials to release malicious versions of software. This trend highlights vulnerabilities in trusted publishing workflows. The malware, a variant of the Mini Shai-Hulud worm, exploited npm&amp;rsquo;s preinstall hooks to run before security checks. It could request its own tokens, complicating provenance verification. Stay vigilant! 🔒💻&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Meta’s new coding agent is cheap (but it’ll cost you your data).</title>
+      <link>/articles/article-2026-08-07-21227/</link>
+      <pubDate>Fri, 07 Aug 2026 18:17:56 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21227/</guid>
+      <description>📢 Meta has introduced Muse Code, its new coding agent aimed at simplifying software engineering tasks like code writing and validation. This agent is powered by the latest Muse Spark 1.2, promising enhancements in code generation and debugging. Notably, it&amp;rsquo;s priced lower than competitors like Anthropic&amp;rsquo;s Claude Code and OpenAI&amp;rsquo;s Codex. 💰 However, to access the lowest pricing, users must share their coding data with Meta, raising concerns for many engineering leaders about data privacy and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Coinbase, Shopify and Ramp all built their own coding agents. All three still pay Anthropic.</title>
+      <link>/articles/article-2026-08-07-21228/</link>
+      <pubDate>Fri, 07 Aug 2026 18:16:03 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21228/</guid>
+      <description>Enterprise engineering teams are aligning on a shared architecture for AI-assisted software development. Companies like Coinbase, Shopify, and Ramp have developed internal coding agents, yet they still rely on models from Anthropic, OpenAI, and Google for reasoning. These agents focus on workflow orchestration and tool access rather than replacing existing commercial tools. Each platform—Forge, River, and Inspect—serves similar functions, integrating various tools to enhance developer&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The “AI kill switch” assumes you know what you are trying to shut down</title>
+      <link>/articles/article-2026-08-07-21229/</link>
+      <pubDate>Fri, 07 Aug 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-07-21229/</guid>
+      <description>The concept of an &amp;ldquo;AI kill switch&amp;rdquo; has gained attention as a way to address fears surrounding AI autonomy. With AI systems becoming more complex, people seek assurance that they can intervene if risks arise. Recent incidents have prompted bipartisan efforts to ensure AI companies maintain shutdown capabilities. However, the challenge lies in determining what exactly gets shut down, given the interconnected nature of modern AI systems. This complexity raises important questions for&amp;hellip;</description>
+    </item>
     <item>
       <title>Google’s four AI departures: “We wanted to build something differently”</title>
       <link>/articles/article-2026-08-05-21210/</link>

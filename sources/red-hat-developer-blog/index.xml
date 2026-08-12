@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 03:01:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 07:15:58 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to check if your model is supported by vLLM in Red Hat AI</title>
+      <link>/articles/article-2026-08-12-21280/</link>
+      <pubDate>Wed, 12 Aug 2026 07:15:58 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21280/</guid>
+      <description>🚀 New large language models (LLMs) are emerging rapidly, and the vLLM community is keeping pace with Day 0 support for many. To check if your model is compatible with vLLM, start by exploring the Red Hat validated models program. Models in this program have been tested by Red Hat engineers. You can find the catalog on the RedHatAI Hugging Face page. If your model isn&amp;rsquo;t validated, check its architecture in the config.json file. Ensure it aligns with supported architectures on the vLLM models&amp;hellip;</description>
+    </item>
     <item>
       <title>Extend zero trust workload identity manager to virtual machines with Red Hat OpenShift Virtualization</title>
       <link>/articles/article-2026-08-12-21279/</link>

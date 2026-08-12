@@ -6,8 +6,36 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 07:58:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 12:05:32 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What’s New in PyCharm 2026.2.1</title>
+      <link>/articles/article-2026-08-12-21286/</link>
+      <pubDate>Wed, 12 Aug 2026 12:05:32 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21286/</guid>
+      <description>🚀 Exciting updates in PyCharm 2026.2.1 for AI developers! AI agents can now work directly in Jupyter notebooks with a live kernel, ensuring better performance and reliability. Additionally, agents can now utilize the correct Python environments for package installations, streamlining your workflow. 📝 The release also introduces support for marimo notebooks via a new plugin, allowing seamless integration within PyCharm. Note that some low-usage bundled plugins have been deprecated to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>We Stopped AI Agents From Installing Into the Wrong Python: Task Success Rates Jumped to 95%&#43;</title>
+      <link>/articles/article-2026-08-12-21287/</link>
+      <pubDate>Wed, 12 Aug 2026 12:01:07 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21287/</guid>
+      <description>🚀 AI agents can simplify tasks, but they often struggle with Python environments, leading to broken setups. PyCharm&amp;rsquo;s new Agent Environment Coordinator skill addresses this issue. Testing showed an increase in task success rates from 68% to 98% when agents had access to the project&amp;rsquo;s environment. This improvement means fewer headaches for developers. For anyone using AI in Python projects, consider how this could enhance your workflow. #AI #Python #Development #PyCharm #TechUpdates</description>
+    </item>
+    <item>
+      <title>We Gave AI Agents a Live Jupyter Kernel in PyCharm</title>
+      <link>/articles/article-2026-08-12-21288/</link>
+      <pubDate>Wed, 12 Aug 2026 12:00:34 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21288/</guid>
+      <description>🚀 Exciting news for Jupyter users! A new Jupyter skill has been integrated into PyCharm, allowing AI agents to operate within a live kernel. This enhancement prevents common issues like .ipynb corruption and loss of trained models. It also optimizes resource usage during long tasks, saving both time and budget. In tests, using the kernel proved to be 12% cheaper than the shell for machine learning tasks. #AI #Jupyter #PyCharm #MachineLearning #Innovation</description>
+    </item>
+    <item>
+      <title>Unbundling and Deprecating Low-Usage Plugins in PyCharm</title>
+      <link>/articles/article-2026-08-12-21289/</link>
+      <pubDate>Wed, 12 Aug 2026 11:59:50 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21289/</guid>
+      <description>🚨 PyCharm Update Alert 🚨 Starting with PyCharm 2026.2, several low-usage plugins, including Data Wrangler, Hugging Face, and Google Colab, are being unbundled and deprecated. This change aims to streamline our codebase and enhance performance. Developers can still find these plugins on JetBrains Marketplace while the source will be available in the Obsolete Plugins repository. For more details, check the blog post on compatibility and next steps. #PyCharm #PluginUpdate #JetBrains&amp;hellip;</description>
+    </item>
     <item>
       <title>Top 5 AI Features in IntelliJ IDEA</title>
       <link>/articles/article-2026-08-12-21281/</link>

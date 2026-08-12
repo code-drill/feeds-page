@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How GitLab tracks vulnerabilities through refactors and reformatting</title>
+      <link>/articles/article-2026-08-12-21285/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-12-21285/</guid>
+      <description>GitLab has advanced its vulnerability tracking to address issues caused by non-functional code changes like comments and formatting. The new method, based on the Scope+Offset fingerprinting technique, allows for more accurate tracking by ignoring non-functional lines. This change has reduced duplicate findings by 100%, enhancing the reliability of scan results. 📈🔍 Evaluated on 439 source files across multiple languages, this method shows significant improvements in efficiency. Learn more&amp;hellip;</description>
+    </item>
     <item>
       <title>Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard</title>
       <link>/articles/article-2026-08-11-21270/</link>

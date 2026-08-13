@@ -37,6 +37,13 @@
       <description>🚀 Building AI agents involves more than just selecting a single model. Each model has unique strengths and weaknesses, impacting cost and performance. 🔄 NVIDIA NeMo Switchyard addresses this by routing tasks to the most suitable models, improving efficiency and accuracy without needing to redesign applications. 📊 This system allows developers to create more effective AI workflows, adapting to various workload requirements. #AI #NVIDIA #NeMoSwitchyard #MachineLearning #Efficiency</description>
     </item>
     <item>
+      <title>One line of Python, and a 3× drop in p99</title>
+      <link>/articles/article-2026-08-11-21304/</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-11-21304/</guid>
+      <description>This week, we made a significant improvement by removing a single log statement from a service&amp;rsquo;s hot path. As a result, the 99th-percentile response latency dropped from ~48ms to ~18ms, and CPU usage decreased similarly. After the change, latency never exceeded 40ms, showcasing a clear performance boost. 📉 Interestingly, the change highlights the importance of measurement over code review in identifying performance issues. #TechUpdate #PerformanceOptimization #Python #SoftwareEngineering&amp;hellip;</description>
+    </item>
+    <item>
       <title>Pulling multi-gigabyte container images in seconds on Amazon EKS</title>
       <link>/articles/article-2026-08-10-21213/</link>
       <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>

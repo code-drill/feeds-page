@@ -6,8 +6,15 @@
     <description>Recent content in SoundCloud on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/soundcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One line of Python, and a 3× drop in p99</title>
+      <link>/articles/article-2026-08-11-21304/</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-11-21304/</guid>
+      <description>This week, we made a significant improvement by removing a single log statement from a service&amp;rsquo;s hot path. As a result, the 99th-percentile response latency dropped from ~48ms to ~18ms, and CPU usage decreased similarly. After the change, latency never exceeded 40ms, showcasing a clear performance boost. 📉 Interestingly, the change highlights the importance of measurement over code review in identifying performance issues. #TechUpdate #PerformanceOptimization #Python #SoftwareEngineering&amp;hellip;</description>
+    </item>
     <item>
       <title>API Credentials from Your Terminal, and OpenAPI on GitHub</title>
       <link>/articles/article-2026-06-16-20281/</link>

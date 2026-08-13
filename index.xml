@@ -16,6 +16,13 @@
       <description>Struggling with LLM deployment? Neural Navigator offers a data-driven solution to eliminate guesswork. It transforms natural language requirements into optimized infrastructure using a 4-step workflow: intent extraction, research-backed mapping, multi-criteria ranking, and 1-click deployment. This approach prioritizes service level objectives and benchmarks for efficient production. Learn more about enhancing your LLM deployments with precision! 🚀🔍 #LLM #NeuralNavigator #DataDriven #AI&amp;hellip;</description>
     </item>
     <item>
+      <title>Qodana Lints Your Code. What’s Checking Your DevOps and Platform Engineering Stack?</title>
+      <link>/articles/article-2026-08-13-21305/</link>
+      <pubDate>Thu, 13 Aug 2026 06:35:26 +0000</pubDate>
+      <guid>/articles/article-2026-08-13-21305/</guid>
+      <description>🚀 In DevOps, unnoticed changes can lead to significant consequences. A recent article highlights issues like Kubernetes deployments lacking resource limits and GitHub Actions workflows running with mutable tags—often shipping unnoticed to production. 🔍 Qodana offers a solution by linting application code, identifying unused variables, security vulnerabilities, and code style violations before they reach production. It emphasizes the importance of quality gates and inline IDE feedback for&amp;hellip;</description>
+    </item>
+    <item>
       <title>Build a DIY pipeline for a trusted software supply chain</title>
       <link>/articles/article-2026-08-13-21302/</link>
       <pubDate>Thu, 13 Aug 2026 03:01:08 +0000</pubDate>
@@ -301,6 +308,13 @@
       <pubDate>Tue, 11 Aug 2026 01:06:16 +0000</pubDate>
       <guid>/articles/article-2026-08-11-21263/</guid>
       <description>🔒 Teams are leveraging Claude Enterprise for various tasks beyond chat, but this creates new security risks. Prompt injections can exploit the system, making it crucial to secure interactions. Cisco AI Defense steps in to inspect prompts for threats before they&amp;rsquo;re processed. This proactive approach goes beyond traditional data loss prevention, focusing on intent and conversation context. By blocking harmful prompts, Cisco ensures safer AI usage. #CyberSecurity #AI #DataProtection #Cisco&amp;hellip;</description>
+    </item>
+    <item>
+      <title>One line of Python, and a 3× drop in p99</title>
+      <link>/articles/article-2026-08-11-21304/</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-11-21304/</guid>
+      <description>This week, we made a significant improvement by removing a single log statement from a service&amp;rsquo;s hot path. As a result, the 99th-percentile response latency dropped from ~48ms to ~18ms, and CPU usage decreased similarly. After the change, latency never exceeded 40ms, showcasing a clear performance boost. 📉 Interestingly, the change highlights the importance of measurement over code review in identifying performance issues. #TechUpdate #PerformanceOptimization #Python #SoftwareEngineering&amp;hellip;</description>
     </item>
     <item>
       <title>OpenAI built a model it doesn’t want most people to use</title>

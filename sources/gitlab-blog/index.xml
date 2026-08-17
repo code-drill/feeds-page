@@ -6,8 +6,22 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critical remote code execution in Serena, a popular MCP coding agent</title>
+      <link>/articles/article-2026-08-17-21348/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-17-21348/</guid>
+      <description>🚨 A critical vulnerability has been identified in Serena, a popular AI coding agent. It allows arbitrary code execution when a developer opens a project. 🔍 GitLab&amp;rsquo;s Threat Research Group discovered a server-side template injection, prompting immediate updates to version 1.7.0 for users of version 1.6.1 or earlier. 📂 Attackers can exploit this by embedding malicious files in repositories, bypassing Serena&amp;rsquo;s trust model. For those utilizing Serena, ensure you&amp;rsquo;re updated to maintain security&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11</title>
+      <link>/articles/article-2026-08-17-21347/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-17-21347/</guid>
+      <description>🚨 GitLab has announced a critical patch release for several versions: 19.2.4, 19.1.6, 19.0.8, and 18.11.11. This update addresses important security vulnerabilities, enhancing the overall safety of the platform. Users are encouraged to upgrade to the latest versions to ensure their projects remain secure. 🔒 Stay informed and keep your systems safe! #GitLab #SecurityUpdate #SoftwareRelease #CyberSecurity #TechNews</description>
+    </item>
     <item>
       <title>How I built a demo generator with GitLab Duo Agent Platform</title>
       <link>/articles/article-2026-08-13-21315/</link>

@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 15:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit</title>
+      <link>/articles/article-2026-08-18-21363/</link>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21363/</guid>
+      <description>Unlock the potential of materials simulation with the NVIDIA ALCHEMI Toolkit! This innovative tool addresses challenges in atomistic simulations by combining machine learning with GPU acceleration. It streamlines the creation of simulation workflows using user-friendly, natural-language prompts. Explore how to set up your environment and improve code reliability with the Toolkit for effective simulation results. #NVIDIA #ALCHEMI #MaterialsScience #AICoding #SimulationTools 🧪💻🔬✨</description>
+    </item>
+    <item>
+      <title>A Claude Code skill was eating 200,000 tokens before answering a single question</title>
+      <link>/articles/article-2026-08-18-21361/</link>
+      <pubDate>Tue, 18 Aug 2026 17:42:50 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21361/</guid>
+      <description>A recent update from Anthropic reveals that its Claude Code skill was previously consuming over 200,000 tokens before responding to a question. With version 2.1.234, this has been reduced to approximately 25,000 tokens, a significant drop of over 85%. This change was achieved by loading reference documentation on demand rather than upfront. Developers had previously identified this issue, noting that the embedded reference files were contributing to excessive token usage. The update aims to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Agentic AI has a latency problem that more compute won’t solve</title>
+      <link>/articles/article-2026-08-18-21362/</link>
+      <pubDate>Tue, 18 Aug 2026 16:58:18 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21362/</guid>
+      <description>🚀 A recent report reveals a significant issue in enterprise AI deployments: 50% are failing to meet their latency targets during peak load. 📊 The Akamai State of AI Inference 2026 report highlights that 82% of organizations require response times under 500 milliseconds, yet many are falling short. 🔄 The root of the problem lies in the iterative nature of agentic workflows, causing delays due to multiple operational &amp;ldquo;hops&amp;rdquo; across networks. 💻 Simply adding more GPU capacity won&amp;rsquo;t solve this&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy</title>
+      <link>/articles/article-2026-08-18-21364/</link>
+      <pubDate>Tue, 18 Aug 2026 16:48:08 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21364/</guid>
+      <description>Unlock the power of UMAP with NVIDIA&amp;rsquo;s latest advancements! 🚀 Uniform Manifold Approximation and Projection (UMAP) is essential for data visualization and feature extraction. However, as datasets grow, running UMAP can become costly and time-consuming. NVIDIA&amp;rsquo;s cuML now allows multiple GPUs to speed up the all-neighbors graph construction, drastically reducing training time. This enables analysis of massive datasets in minutes rather than hours. Explore how to leverage this multi-GPU&amp;hellip;</description>
+    </item>
     <item>
       <title>AI Coding Agents: Adoption Trends</title>
       <link>/articles/article-2026-08-18-21359/</link>
@@ -91,6 +119,13 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-08-18-21358/</guid>
       <description>🚀 Setting up cloud environments can be complex and error-prone. This tutorial demonstrates how to automate the process using GitLab as the main control hub. 📦 With OpenTofu and GitLab CI/CD, users can define cloud infrastructure as code and deploy applications using GitOps practices with Argo CD. 🔑 Benefits of this approach include reproducibility, version control, and enhanced security. For a complete guide on provisioning AWS environments and deploying applications, check the tutorial!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From retrieval to agents: 5 takeaways on production architecture for AI agents</title>
+      <link>/articles/article-2026-08-18-21365/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21365/</guid>
+      <description>As enterprises evolve toward agentic AI, several key shifts are emerging in production architecture. The focus has moved from traditional search metrics to evaluating the reliability of retrieval and context layers. This means agents now operate in reasoning loops, requiring data retrieval that is both fast and scalable. The Model Context Protocol (MCP) is becoming essential for connecting agents to enterprise resources. Stay informed about these changes in AI architecture! 🤖📊 #AI #AgenticAI&amp;hellip;</description>
     </item>
     <item>
       <title>Claude can now delete your production voice agent from a chat window</title>

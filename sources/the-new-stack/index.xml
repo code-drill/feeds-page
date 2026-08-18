@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 13:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 17:42:50 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Claude Code skill was eating 200,000 tokens before answering a single question</title>
+      <link>/articles/article-2026-08-18-21361/</link>
+      <pubDate>Tue, 18 Aug 2026 17:42:50 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21361/</guid>
+      <description>A recent update from Anthropic reveals that its Claude Code skill was previously consuming over 200,000 tokens before responding to a question. With version 2.1.234, this has been reduced to approximately 25,000 tokens, a significant drop of over 85%. This change was achieved by loading reference documentation on demand rather than upfront. Developers had previously identified this issue, noting that the embedded reference files were contributing to excessive token usage. The update aims to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Agentic AI has a latency problem that more compute won’t solve</title>
+      <link>/articles/article-2026-08-18-21362/</link>
+      <pubDate>Tue, 18 Aug 2026 16:58:18 +0000</pubDate>
+      <guid>/articles/article-2026-08-18-21362/</guid>
+      <description>🚀 A recent report reveals a significant issue in enterprise AI deployments: 50% are failing to meet their latency targets during peak load. 📊 The Akamai State of AI Inference 2026 report highlights that 82% of organizations require response times under 500 milliseconds, yet many are falling short. 🔄 The root of the problem lies in the iterative nature of agentic workflows, causing delays due to multiple operational &amp;ldquo;hops&amp;rdquo; across networks. 💻 Simply adding more GPU capacity won&amp;rsquo;t solve this&amp;hellip;</description>
+    </item>
     <item>
       <title>OpenAI’s Greg Brockman: Z.ai’s GLM-5.3 likely to “significantly accelerate the threat landscape”</title>
       <link>/articles/article-2026-08-18-21351/</link>

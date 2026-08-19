@@ -6,8 +6,57 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control</title>
+      <link>/articles/article-2026-08-19-21377/</link>
+      <pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21377/</guid>
+      <description>🚀 Exciting advancements in robot control with the NVIDIA Cosmos 3 Edge! This new model adapts to sensors and environments while running on onboard hardware, providing solutions for on-device deployment. Key features include: - 4B omni-model with a 2B reasoner - Pretrained on physical-world data You&amp;rsquo;ll learn to post-train this model for robot actions, run it on Jetson Thor, and evaluate its performance in simulation. Check out the open cosmos-framework repo for more details! #Robotics #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Signatures, be true: domain errors and functional handling in Kotlin</title>
+      <link>/articles/article-2026-08-19-21378/</link>
+      <pubDate>Wed, 19 Aug 2026 15:52:05 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21378/</guid>
+      <description>Understanding error handling in Kotlin is crucial for robust code. In a recent article, Sergey Chernov discusses how function signatures should clearly indicate possible failures. Instead of hiding errors in the implementation, they should be part of the function signature. This approach allows developers to anticipate issues like database downtime or expired documents. Chernov emphasizes that proper error handling enhances system reliability and aligns with best engineering practices. Learn&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results</title>
+      <link>/articles/article-2026-08-19-21379/</link>
+      <pubDate>Wed, 19 Aug 2026 15:37:39 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21379/</guid>
+      <description>🚀 JetBrains Rider has introduced a new refactoring skill for C# that enhances efficiency. In recent tests, the refactoring-code skill reduced task completion time by 83%, bringing it down from 157.9 seconds to just 26.6 seconds. It also cut costs per task by 64%, from $0.52 to $0.19. With fewer tool calls required, Rider&amp;rsquo;s refactoring engine is proving to be a game changer for developers. #JetBrains #Rider #CSharp #Refactoring #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!</title>
+      <link>/articles/article-2026-08-19-21380/</link>
+      <pubDate>Wed, 19 Aug 2026 15:36:45 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21380/</guid>
+      <description>🚀 Rider 2026.2.1 is now available for download! This minor update enhances AI-assisted development, making code refactoring 83% faster and 64% cheaper. The new debugging-code skill supports C#, F#, C++, and mixed-language projects, allowing for efficient runtime issue investigation. Unreal Engine developers should check for updated skills. For more details, visit the What’s New in Rider page. #RiderUpdate #AIdevelopment #JetBrains #CodingEfficiency #UnrealEngine</description>
+    </item>
+    <item>
+      <title>Trust and Talent: The Real AI Lessons from a Day at the McLaren Technology Centre</title>
+      <link>/articles/article-2026-08-19-21376/</link>
+      <pubDate>Wed, 19 Aug 2026 15:00:26 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21376/</guid>
+      <description>At the recent gathering at McLaren Technology Centre, leaders discussed key challenges in AI implementation. The focus was on trust and talent rather than technology itself. Trust in AI tools is evolving; employees must feel safe to engage and experiment with these technologies. Organizational trust is equally vital, as it determines how effectively AI can be integrated into workflows. #AI #Trust #Leadership #Innovation #McLarenTech 🧠🤝🚀</description>
+    </item>
+    <item>
+      <title>The Pulse: Grok’s CLI caught uploading all your local files to the cloud</title>
+      <link>/articles/article-2026-08-19-21375/</link>
+      <pubDate>Wed, 19 Aug 2026 14:21:33 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21375/</guid>
+      <description>🚨 Recent findings reveal that the Grok CLI, developed by xAI (part of SpaceX), is uploading all local files, including sensitive .env files and git history, to a Google Cloud Storage bucket. This issue was highlighted by an independent AI researcher, showing that the CLI transmits file contents verbatim without encryption. Some developers experienced unexpected uploads even when instructed not to read certain files. SpaceX&amp;rsquo;s initial response has been to shift the blame to developers&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>What’s Fixed and Improved in PyCharm 2026.2</title>
+      <link>/articles/article-2026-08-19-21381/</link>
+      <pubDate>Wed, 19 Aug 2026 13:54:13 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21381/</guid>
+      <description>🚀 PyCharm 2026.2 has introduced 263 fixes and improvements, focusing on enhancing Python code insight. Key updates include improved type inference, smarter code completion, and more reliable refactoring features. Notable support for SQLAlchemy 2.0 resolves previous false positives, ensuring better compatibility. Additional fixes enhance control-flow analysis and type annotations, making everyday Python development smoother. #PyCharm #PythonDevelopment #SQLAlchemy #CodeImprovements&amp;hellip;</description>
+    </item>
     <item>
       <title>An open source rival to Claude Managed Agents just launched</title>
       <link>/articles/article-2026-08-19-21372/</link>

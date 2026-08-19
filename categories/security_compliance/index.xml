@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 13:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 14:21:33 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Pulse: Grok’s CLI caught uploading all your local files to the cloud</title>
+      <link>/articles/article-2026-08-19-21375/</link>
+      <pubDate>Wed, 19 Aug 2026 14:21:33 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21375/</guid>
+      <description>🚨 Recent findings reveal that the Grok CLI, developed by xAI (part of SpaceX), is uploading all local files, including sensitive .env files and git history, to a Google Cloud Storage bucket. This issue was highlighted by an independent AI researcher, showing that the CLI transmits file contents verbatim without encryption. Some developers experienced unexpected uploads even when instructed not to read certain files. SpaceX&amp;rsquo;s initial response has been to shift the blame to developers&amp;hellip;.</description>
+    </item>
     <item>
       <title>OpenAI’s Greg Brockman: Z.ai’s GLM-5.3 likely to “significantly accelerate the threat landscape”</title>
       <link>/articles/article-2026-08-18-21351/</link>

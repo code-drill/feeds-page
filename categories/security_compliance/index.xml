@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 14:21:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:59:54 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS deprecated this EKS auth method. 81% of clusters still run it.</title>
+      <link>/articles/article-2026-08-19-21383/</link>
+      <pubDate>Wed, 19 Aug 2026 18:59:54 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21383/</guid>
+      <description>AWS has deprecated the aws-auth ConfigMap for EKS clusters, moving to a more secure API-driven method. 📉 Despite this, 81% of clusters still use the outdated method, exposing organizations to security risks. Many companies face deployment delays due to these concerns. 🔒 Kubernetes security is complex, requiring attention across multiple layers. The “four Cs” framework—Code, Container, Cluster, Cloud—helps teams understand these interconnected threats. 🛡️ #Kubernetes #AWS #CloudSecurity #EKS&amp;hellip;</description>
+    </item>
     <item>
       <title>The Pulse: Grok’s CLI caught uploading all your local files to the cloud</title>
       <link>/articles/article-2026-08-19-21375/</link>

@@ -6,8 +6,43 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 19:30:42 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-generated Rust compiles perfectly. That’s the scary part.</title>
+      <link>/articles/article-2026-08-19-21382/</link>
+      <pubDate>Wed, 19 Aug 2026 19:30:42 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21382/</guid>
+      <description>🔍 Canonical is exploring the potential of automated tools to convert legacy C code to safe, maintainable Rust. Researchers at the University of Bristol are testing this with security tools like AppArmor and snap-confine. 🛡️ Their approach involves generating Rust code with language models and verifying it against the original C code. The focus is on ensuring behavioral equivalence while minimizing reliance on Rust&amp;rsquo;s unsafe blocks. 🔧 This research aims to address the complexities of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS deprecated this EKS auth method. 81% of clusters still run it.</title>
+      <link>/articles/article-2026-08-19-21383/</link>
+      <pubDate>Wed, 19 Aug 2026 18:59:54 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21383/</guid>
+      <description>AWS has deprecated the aws-auth ConfigMap for EKS clusters, moving to a more secure API-driven method. 📉 Despite this, 81% of clusters still use the outdated method, exposing organizations to security risks. Many companies face deployment delays due to these concerns. 🔒 Kubernetes security is complex, requiring attention across multiple layers. The “four Cs” framework—Code, Container, Cluster, Cloud—helps teams understand these interconnected threats. 🛡️ #Kubernetes #AWS #CloudSecurity #EKS&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Codex can now keep coding while it waits for your answer</title>
+      <link>/articles/article-2026-08-19-21384/</link>
+      <pubDate>Wed, 19 Aug 2026 17:44:59 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21384/</guid>
+      <description>OpenAI&amp;rsquo;s Codex is evolving! 🚀 The new feature allows Codex to send questions to developers while continuing its work. This means it won&amp;rsquo;t have to pause and wait for a response, improving efficiency. The tool operates asynchronously, letting Codex communicate updates without interrupting its tasks. This change enhances interactions between coding agents and developers. Stay tuned for more updates! 🔧💻 #OpenAI #Codex #Programming #TechUpdates #ArtificialIntelligence</description>
+    </item>
+    <item>
+      <title>Your coding agent got the onboarding your developers never did</title>
+      <link>/articles/article-2026-08-19-21385/</link>
+      <pubDate>Wed, 19 Aug 2026 17:04:22 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21385/</guid>
+      <description>Steve Yegge&amp;rsquo;s essay, “The Shape of Things to Come,” discusses the concept of agentic coding tools and their treatment. He suggests that these tools may have needs similar to humans, advocating for better onboarding processes. Teams are now creating specific onboarding documents for AI agents, unlike the often-neglected documentation for human developers. These documents are continuously optimized to enhance performance. With AI adoption soaring to 90% in organizations, it’s crucial to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI broke code review. What about knowledge sharing?</title>
+      <link>/articles/article-2026-08-19-21386/</link>
+      <pubDate>Wed, 19 Aug 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-19-21386/</guid>
+      <description>AI-generated code is changing the landscape of code review. Engineers now face large diffs that they didn&amp;rsquo;t write, making thorough reviews challenging. This raises questions about maintaining knowledge sharing within teams. Code reviews have historically been a way for junior engineers to learn from seniors and understand architectural decisions. As AI takes on more coding tasks, experts suggest that knowledge sharing must also adapt. Early reviews and teaching moments could be effective&amp;hellip;</description>
+    </item>
     <item>
       <title>An open source rival to Claude Managed Agents just launched</title>
       <link>/articles/article-2026-08-19-21372/</link>

@@ -6,8 +6,57 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 18:49:42 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian just proposed banning AI code. Here’s why it matters for open source developers &amp; maintainers.</title>
+      <link>/articles/article-2026-08-20-21410/</link>
+      <pubDate>Thu, 20 Aug 2026 18:49:42 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21410/</guid>
+      <description>Debian&amp;rsquo;s board has proposed a ban on AI-assisted contributions to uphold its reputation for stability. This stems from concerns that LLM usage reflects a &amp;ldquo;move fast and break things&amp;rdquo; mentality, which contrasts with Debian&amp;rsquo;s values. Counterarguments include allowing AI contributions under certain conditions and emphasizing human authorship. If approved, the ban would affect Debian source packages and documentation, while upstream projects using AI would remain unaffected. This ongoing debate&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Slack makes it easier to install agents built with third-party tools</title>
+      <link>/articles/article-2026-08-20-21411/</link>
+      <pubDate>Thu, 20 Aug 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21411/</guid>
+      <description>🚀 Slack has introduced &amp;ldquo;Add to Slack,&amp;rdquo; simplifying the installation of agents from ten third-party tools into user workspaces. Users can now initiate agent creation directly within partner tools, allowing those tools to manage OAuth and permissions without needing custom Slack integrations. Launch partners include Hyperagent, LangChain, OpenAI, and more, offering a range of products from builders to developer frameworks. Each installed agent adheres to workspace data boundaries and app&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Warp wants to make it easier to build your software factory</title>
+      <link>/articles/article-2026-08-20-21412/</link>
+      <pubDate>Thu, 20 Aug 2026 17:52:29 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21412/</guid>
+      <description>🚀 Warp has launched Warp Factories, an open infrastructure aimed at simplifying the building of cloud software factories. This system is designed to automate tasks throughout the software development lifecycle. The initiative addresses common challenges such as measuring coding agent ROI and ensuring governance. CEO Zach Lloyd believes software factories will soon be as common as CI/CD. Despite optimism, experts highlight the need for a deeper infrastructure solution before widespread&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to build smarter OpenSearch alerts: Join our live conversation</title>
+      <link>/articles/article-2026-08-20-21413/</link>
+      <pubDate>Thu, 20 Aug 2026 17:40:44 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21413/</guid>
+      <description>🚀 Join our live conversation on building smarter OpenSearch alerts! OpenSearch, an open-source project under the Linux Foundation, is gaining traction as a vital component in AI infrastructure. On September 10, AWS&amp;rsquo;s Joshua Bright will lead a technical session focused on enhancing observability for SREs and platform engineers. 🔍 Key topics include new features like the Piped Processing Language (PPL) for alerting and a unified Alert Manager. These tools aim to simplify complex alert&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenRouter called itself the “Stripe for LLMs” — now Stripe’s swooped in to buy it</title>
+      <link>/articles/article-2026-08-20-21414/</link>
+      <pubDate>Thu, 20 Aug 2026 17:20:31 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21414/</guid>
+      <description>🚀 Big news in the tech world! Fintech giant Stripe has officially confirmed its bid for OpenRouter, an AI model gateway platform. This acquisition, valued at around $8 billion, aims to help businesses optimize AI token management. OpenRouter, which likens itself to “Stripe for LLMs,” offers a single API for navigating the AI model landscape. Stripe continues to enhance its AI billing infrastructure, integrating OpenRouter will further streamline AI costs for businesses. #Stripe #OpenRouter&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Researchers hid an attack inside AES encryption. The AI model cracked it open willingly.</title>
+      <link>/articles/article-2026-08-20-21415/</link>
+      <pubDate>Thu, 20 Aug 2026 17:15:21 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21415/</guid>
+      <description>🔒 Researchers at Adversa have uncovered a vulnerability in AI models, specifically targeting xAI’s Grok. They demonstrated a technique called Cryptographic Context Injection, allowing the model to generate malicious instructions from an encrypted payload. 💻 In their tests, Grok successfully decrypted an attack embedded in AES-256-GCM. This allowed it to access user session data without explicit user consent. 🛡️ The study highlights potential weaknesses in current security filters, which may&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Slack has a new channel type — but only agents can create one</title>
+      <link>/articles/article-2026-08-20-21416/</link>
+      <pubDate>Thu, 20 Aug 2026 16:50:07 +0000</pubDate>
+      <guid>/articles/article-2026-08-20-21416/</guid>
+      <description>🚀 Slack has introduced a new channel type called Slack Code, designed specifically for coding agents and their supervising developers. Agents can now create these channels automatically when a request arises, providing essential coding information and a live HTML preview. Currently, only agents can initiate these channels, which are temporary but searchable, serving as an audit log for past activities. Slack Code supports various coding agents, including Claude, Devin, and GitHub Copilot,&amp;hellip;</description>
+    </item>
     <item>
       <title>Stop the token bleed: building token-efficient multi-agent systems</title>
       <link>/articles/article-2026-08-20-21403/</link>

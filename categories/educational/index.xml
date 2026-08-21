@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 22:22:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 08:35:26 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot Configuration Management Best Practices</title>
+      <link>/articles/article-2026-08-21-21431/</link>
+      <pubDate>Fri, 21 Aug 2026 08:35:26 +0000</pubDate>
+      <guid>/articles/article-2026-08-21-21431/</guid>
+      <description>🌱 Spring Boot offers robust externalized application configuration support, allowing a single artifact to operate across various environments. Key best practices include: - Keeping configuration separate from application code. - Validating configurations at startup to prevent application failure. - Utilizing a dedicated secrets management system for sensitive values. Configuration properties can be classified into three categories: 1. Application defaults (non-secret values). 2. Deployment&amp;hellip;</description>
+    </item>
     <item>
       <title>Developing NVIDIA Holoscan applications with CLI, skills, and AI coding agents</title>
       <link>/articles/article-2026-08-19-21395/</link>

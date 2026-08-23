@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 16:21:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why real-time AI at scale is so hard</title>
+      <link>/articles/article-2026-08-23-21452/</link>
+      <pubDate>Sun, 23 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-23-21452/</guid>
+      <description>Real-time AI at scale presents significant challenges, particularly when transitioning from development to production. 🛠️ Latency and accuracy issues often stem from the data pipeline rather than the model itself. Tim Koopmans shares lessons learned from building a financial trading app, highlighting that tail latency can become problematic under high load, leading to performance spikes. 📈 Stale features may also contribute to unexpected drops in accuracy, emphasizing the importance of&amp;hellip;</description>
+    </item>
     <item>
       <title>GPU-Accelerated Clustering for Financial Instruments at Scale</title>
       <link>/articles/article-2026-08-21-21440/</link>

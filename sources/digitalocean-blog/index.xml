@@ -6,8 +6,15 @@
     <description>Recent content in DigitalOcean-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 21:20:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 21:25:19 +0000</lastBuildDate>
     <atom:link href="/sources/digitalocean-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patching at Fleet Scale, Twice: How DigitalOcean Closed Januscape and the AMD Safe RET Issue Without Customer Impact</title>
+      <link>/articles/article-2026-08-24-21473/</link>
+      <pubDate>Mon, 24 Aug 2026 21:25:19 +0000</pubDate>
+      <guid>/articles/article-2026-08-24-21473/</guid>
+      <description>In July, DigitalOcean faced two significant security vulnerabilities: Januscape and AMD Safe RET. The Januscape flaw was patched fleet-wide in just eight days, with zero customer impact. This involved livepatching and careful rollout strategies. Shortly after, a separate AMD issue required a different approach, impacting 1,600 hypervisors. The team efficiently managed the situation through structured coordination and automation, achieving full remediation in less than 1.5 weeks. DigitalOcean&amp;hellip;</description>
+    </item>
     <item>
       <title>DigitalOcean Inference Router, Now Cache-Aware: Why the Cheapest Model Isn&#39;t Always the Best Deal</title>
       <link>/articles/article-2026-08-20-21425/</link>

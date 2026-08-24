@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 15:08:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 19:43:10 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mutual Post-Quantum Auth over IKEv2 – IPsec Series, Part 8</title>
+      <link>/articles/article-2026-08-24-21468/</link>
+      <pubDate>Mon, 24 Aug 2026 19:43:10 +0000</pubDate>
+      <guid>/articles/article-2026-08-24-21468/</guid>
+      <description>🔐 In the latest installment of the IPsec series, mutual authentication over IKEv2 is explored. The process begins with classical ECDSA followed by post-quantum ML-DSA, highlighting how they authenticate two peers using Docker containers. The setup involves a small Certificate Authority that signs leaf certificates for each peer. This method keeps data transmission efficient, particularly important when using post-quantum certs. #Cybersecurity #PostQuantum #IKEv2 #MutualAuthentication #IPsec</description>
+    </item>
     <item>
       <title>Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules</title>
       <link>/articles/article-2026-08-24-21457/</link>

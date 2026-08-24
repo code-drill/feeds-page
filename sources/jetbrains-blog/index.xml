@@ -6,8 +6,29 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 08:35:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 14:18:56 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Help AI Coding Agents Write Up-To-Date Code With Modern Golang Skills</title>
+      <link>/articles/article-2026-08-24-21463/</link>
+      <pubDate>Mon, 24 Aug 2026 14:18:56 +0000</pubDate>
+      <guid>/articles/article-2026-08-24-21463/</guid>
+      <description>🚀 AI coding agents can produce Go code, but they often use outdated patterns. To address this, the GoLand team developed &lt;strong&gt;Modern Go Guidelines&lt;/strong&gt;. These guidelines help agents write code that aligns with the Go version in your project, from 1.0 to 1.27. They ensure compatibility by providing relevant skills based on the version specified in your go.mod file. The tool utilizes a CLI for focused output, offering concise guidelines and detailed explanations as needed. Explore the GitHub&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How We Optimized the Qwen 3.6 Model for Our Junie Agent</title>
+      <link>/articles/article-2026-08-24-21464/</link>
+      <pubDate>Mon, 24 Aug 2026 14:11:34 +0000</pubDate>
+      <guid>/articles/article-2026-08-24-21464/</guid>
+      <description>🚀 Exciting updates on the Junie Local project! We recently launched an initial version that enables users to run Junie entirely locally on a MacBook M5 with Qwen3.6-27B. This model allows for local inference across various hardware setups. The article details the optimizations made throughout the Junie agent, enhancing its efficiency. Notably, improvements were made to the rolling context and the handling of KV caches, allowing for faster task execution. Read more about the technical aspects&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Junie Can Now Run Entirely on Your Mac – No Credits, No Cloud</title>
+      <link>/articles/article-2026-08-24-21465/</link>
+      <pubDate>Mon, 24 Aug 2026 14:10:39 +0000</pubDate>
+      <guid>/articles/article-2026-08-24-21465/</guid>
+      <description>🚀 Junie Local now runs entirely on your Mac without the need for credits or cloud connectivity! With a simple command, you can download and utilize the optimized Qwen3.6 model directly on your machine. Your data stays private, and setup is minimal. Performance improvements focus on prefill speed, ensuring efficient coding assistance. The model has been rigorously tested to deliver competitive results against leading cloud options. Explore the ease of on-device coding with Junie Local!&amp;hellip;</description>
+    </item>
     <item>
       <title>Spring Boot Configuration Management Best Practices</title>
       <link>/articles/article-2026-08-21-21431/</link>

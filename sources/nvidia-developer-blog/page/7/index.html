@@ -449,6 +449,74 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/" target="_blank">Making Softmax More Efficient with NVIDIA Blackwell Ultra</a></h2>
+            <div class="publication-date">2026-02-25 17:00</div>
+            <div class="summary">NVIDIA Blackwell Ultra addresses the bottleneck in large language models (LLMs) caused by the softmax function. As LLMs evolve with complex attention schemes, the softmax function can slow down processing. Blackwell Ultra improves efficiency by doubling the throughput of Special Function Units (SFUs), reducing pipeline stalls. The article details how attention mechanisms work and provides benchmarks for measuring performance improvements. 📊💻 #NVIDIA #AI #MachineLearning #Softmax #BlackwellUltra</div>
+            <div class="source">Source: Nvidia Developer Blog</div>
+            
+            <div class="author">Jamie Li</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/" target="_blank">Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy</a></h2>
+            <div class="publication-date">2026-02-23 18:00</div>
+            <div class="summary">AI model training faces challenges due to increasing model sizes and dataset demands. Higher-precision BF16 training is becoming insufficient. Lower-precision training can enhance efficiency and reduce costs. The article compares three low-precision formats—FP8-CS, MXFP8, and NVFP4—showing up to 1.6x higher throughput and similar model quality. Low-precision training uses fewer bits, lowering memory demands and boosting GPU operations. Adoption of these formats can lead to significant...</div>
+            <div class="source">Source: Nvidia Developer Blog</div>
+            
+            <div class="author">Aditya Vavre</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/" target="_blank">Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization</a></h2>
+            <div class="publication-date">2026-02-19 17:30</div>
+            <div class="summary">NVIDIA&#39;s latest GPUs, including Ampere, Hopper, and Blackwell, utilize non-uniform memory access (NUMA) behaviors while presenting a unified memory space. The article explores how increased bandwidth in newer models can enhance performance and efficiency through compute and data locality. It highlights the benefits of using Multi-Instance GPU (MIG) mode for better data localization. Key insights include the impact of memory hierarchy and the significance of minimizing data transfer latency...</div>
+            <div class="source">Source: Nvidia Developer Blog</div>
+            
+            <div class="author">Mukul Joshi</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/unlock-massive-token-throughput-with-gpu-fractioning-in-nvidia-runai/" target="_blank">Unlock Massive Token Throughput with GPU Fractioning in NVIDIA Run:ai</a></h2>
+            <div class="publication-date">2026-02-18 18:00</div>
+            <div class="summary">Unlocking high throughput in AI workloads is essential. NVIDIA Run:ai tackles this with intelligent scheduling and dynamic GPU fractioning, enhancing resource efficiency. 🚀 A recent benchmark with Nebius shows that fractional GPU allocation can significantly boost large language model (LLM) inference performance. Results indicate impressive stats, like achieving 77% GPU throughput with just a 0.5 GPU fraction. 📊 This approach allows enterprises to run multiple LLMs efficiently, meeting user...</div>
+            <div class="source">Source: Nvidia Developer Blog</div>
+            
+            <div class="author">Boskey Savla</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute/" target="_blank">Topping the GPU MODE Kernel Leaderboard with NVIDIA cuda.compute</a></h2>
             <div class="publication-date">2026-02-18 17:00</div>
             <div class="summary">NVIDIA&#39;s cuda.compute library is transforming GPU programming for Python developers. Historically, achieving fast GPU performance required C&#43;&#43; expertise. However, cuda.compute offers a high-level Python API that simplifies access to optimized CUDA primitives. This innovation helped the NVIDIA CCCL team excel in the GPU MODE leaderboard, achieving top finishes across various architectures. 🏆💻 The library enables custom data types, supports rapid development with JIT compilation, and maintains...</div>
@@ -1055,74 +1123,6 @@
             <div class="categories">
                 
                 <a href="/categories/educational" class="category-text">Educational</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/redefining-secure-ai-infrastructure-with-nvidia-bluefield-astra-for-nvidia-vera-rubin-nvl72/" target="_blank">Redefining Secure AI Infrastructure with NVIDIA BlueField Astra for NVIDIA Vera Rubin NVL72</a></h2>
-            <div class="publication-date">2026-01-07 17:00</div>
-            <div class="summary">🚀 Large-scale AI innovation is pushing the need for advanced computing infrastructure. Service providers are focusing on security and tenant isolation to effectively manage AI workloads. 🔍 The introduction of NVIDIA BlueField Astra on BlueField-4 redefines how AI infrastructure is managed. It enables better control and scalability for service providers. 🌐 Additionally, the NVIDIA Ethernet SuperNIC is designed to meet the demanding requirements of AI workloads, ensuring high performance and...</div>
-            <div class="source">Source: Nvidia Developer Blog</div>
-            
-            <div class="author">Erez Tweg</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/introducing-nvidia-bluefield-4-powered-inference-context-memory-storage-platform-for-the-next-frontier-of-ai/" target="_blank">Introducing NVIDIA BlueField-4-Powered Inference Context Memory Storage Platform for the Next Frontier of AI</a></h2>
-            <div class="publication-date">2026-01-06 17:30</div>
-            <div class="summary">Introducing the NVIDIA BlueField-4-Powered Inference Context Memory Storage Platform, designed to address the challenges faced by AI-native organizations. As AI workflows evolve, the demand for scalable context windows and efficient memory systems has increased. The Rubin platform organizes AI infrastructure into compute pods, enhancing performance and power efficiency. The NVIDIA Inference Context Memory Storage (ICMS) provides an optimized storage solution that supports gigascale inference,...</div>
-            <div class="source">Source: Nvidia Developer Blog</div>
-            
-            <div class="author">Moshe Anschel</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/scaling-power-efficient-ai-factories-with-nvidia-spectrum-x-ethernet-photonics/" target="_blank">Scaling Power-Efficient AI Factories with NVIDIA Spectrum-X Ethernet Photonics</a></h2>
-            <div class="publication-date">2026-01-06 16:59</div>
-            <div class="summary">NVIDIA is introducing optimized Ethernet networking with co-packaged optics for AI factories. 🌐 This innovation, through the Spectrum-X Ethernet Photonics, supports efficient scaling on the NVIDIA Rubin platform for AI infrastructure. It ensures reliable data transmission, improving performance and model dispatch efficiency across diverse workloads. Explore how these advancements enable seamless operations within AI factories. ⚙️💡 #NVIDIA #AIFactories #Ethernet #TechInnovation #AI</div>
-            <div class="source">Source: Nvidia Developer Blog</div>
-            
-            <div class="author">Ashkan Seyedi</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developer.nvidia.com/blog/open-source-ai-tool-upgrades-speed-up-llm-and-diffusion-models-on-nvidia-rtx-pcs/" target="_blank">Open-Source AI Tool Upgrades Speed Up LLM and Diffusion Models on NVIDIA RTX PCs</a></h2>
-            <div class="publication-date">2026-01-06 05:30</div>
-            <div class="summary">AI development on PCs is rapidly growing, fueled by advancements in small language models and diffusion models like FLUX.2 and GPT-OSS-20B. 📈 NVIDIA is set to announce upgrades for AI PC developers at CES 2026, enhancing tools like llama.cpp and ComfyUI. These updates promise improved performance and efficiency on NVIDIA GPUs. 💻✨ Key highlights include optimized inference and significant memory savings with new quantized formats. 🛠️ #AIDevelopment #NVIDIA #OpenSourceAI #TechUpdates #CES2026</div>
-            <div class="source">Source: Nvidia Developer Blog</div>
-            
-            <div class="author">Annamalai Chockalingam</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/product_announcements" class="category-text">Product Announcements</a>
                 
             </div>
             

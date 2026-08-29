@@ -6,8 +6,36 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 20:57:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 17:06:28 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect</title>
+      <link>/articles/article-2026-08-28-21544/</link>
+      <pubDate>Fri, 28 Aug 2026 17:06:28 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21544/</guid>
+      <description>Unlock the potential of Open AI models with NVIDIA TensorRT Model Connect! 🚀 This tool simplifies deploying models from Hugging Face to native C++ applications in just two commands. It provides reference implementations, allowing users to inspect and modify as needed. Additionally, TensorRT Model Connect supports custom GPU kernels and adapts to the evolving open model ecosystem. #NVIDIA #TensorRT #AIModels #MachineLearning #CPlusPlus</description>
+    </item>
+    <item>
+      <title>NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure</title>
+      <link>/articles/article-2026-08-26-21545/</link>
+      <pubDate>Wed, 26 Aug 2026 21:06:58 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21545/</guid>
+      <description>NVIDIA introduces NVLink Fusion to enhance AI infrastructure for large models and complex workloads. This technology supports the deployment of custom AI accelerators (XPUs) and CPUs, streamlining their integration into data centers. Key benefits include improved performance, reduced development complexity, and faster market readiness. NVHBM technology offers increased memory bandwidth, efficient area usage, and lower power consumption, addressing critical challenges in AI accelerator design&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents</title>
+      <link>/articles/article-2026-08-26-21546/</link>
+      <pubDate>Wed, 26 Aug 2026 20:05:06 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21546/</guid>
+      <description>🚀 Navigation is key for robots to achieve autonomy, combining perception and motion effectively. Developing navigation for different robots or environments can be costly and complex. An agent-driven workflow simplifies this by allowing developers to define the robot and its goals while automating asset preparation and testing. The COMPASS framework enhances this process by enabling scalable cross-embodiment mobility, reusing navigation behaviors and training specialized policies without&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding</title>
+      <link>/articles/article-2026-08-26-21547/</link>
+      <pubDate>Wed, 26 Aug 2026 17:07:12 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21547/</guid>
+      <description>🚀 Alibaba has released the model weights for Qwen3.8-Flash-Next, previewing the upcoming Qwen4 architecture. This multimodal mixture-of-experts model features a 125B-parameter main model and an additional 51B N-gram embeddings, with a native 262,144-token context window. NVIDIA supports this model through SGLang, vLLM, and TensorRT, making it suited for high-volume applications like agentic coding and document processing. Notably, Qwen3.8-Flash-Next employs innovative architectures to enhance&amp;hellip;</description>
+    </item>
     <item>
       <title>Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo</title>
       <link>/articles/article-2026-08-25-21497/</link>

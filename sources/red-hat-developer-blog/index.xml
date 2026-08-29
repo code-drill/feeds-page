@@ -6,14 +6,56 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 08:16:11 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-service backup for VMs and containers on OpenShift: No cluster-admin required</title>
+      <link>/articles/article-2026-08-28-21537/</link>
+      <pubDate>Fri, 28 Aug 2026 08:16:11 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21537/</guid>
+      <description>Running a multi-tenant Red Hat OpenShift cluster can be challenging. Currently, every backup and restore with Velero needs cluster-admin privileges. This limits application teams from managing their own workloads effectively. They often rely on the platform team, creating delays and bottlenecks in the process. A new approach to self-service backup may help streamline these operations. 🔄💻💡 #OpenShift #Backup #CloudComputing #DevOps #RedHat</description>
+    </item>
+    <item>
+      <title>Building hermetic notebook images for Open Data Hub and Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-08-28-21538/</link>
+      <pubDate>Fri, 28 Aug 2026 03:01:13 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21538/</guid>
+      <description>🚀 Building reliable notebook images for Open Data Hub and Red Hat OpenShift AI has been streamlined. Key to this process is the concept of hermetic builds, where nothing is downloaded during the build. Dependencies are pre-fetched and installed from a local cache, ensuring consistency and eliminating network issues. This approach works seamlessly across different environments, including laptops and GitHub Actions. 🔧💻 #OpenDataHub #RedHat #DevOps #Containerization #AI</description>
+    </item>
+    <item>
+      <title>llm-d flow control: Priority queuing for shared GPU inference</title>
+      <link>/articles/article-2026-08-27-21539/</link>
+      <pubDate>Thu, 27 Aug 2026 03:01:23 +0000</pubDate>
+      <guid>/articles/article-2026-08-27-21539/</guid>
+      <description>🚀 llm-d flow control introduces priority-aware admission and tenant fairness scheduling for GPUs. This enhancement allows platform teams to effectively manage mixed workloads on shared model pools. Now available in Red Hat AI Inference 3.5, this feature aims to optimize GPU resource utilization. #RedHat #AIInference #GPU #TechUpdates #MachineLearning</description>
+    </item>
+    <item>
+      <title>How AI observability works with MLflow</title>
+      <link>/articles/article-2026-08-26-21540/</link>
+      <pubDate>Wed, 26 Aug 2026 09:16:42 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21540/</guid>
+      <description>Understanding AI observability is crucial, especially since AI responses can be inaccurate. The article explores how MLflow is utilized to enhance AI observability, ensuring better monitoring and evaluation of AI models. For those interested in improving AI accuracy, this piece provides valuable insights. 🤖📊 #AI #MLflow #DataScience #TechInsights</description>
+    </item>
+    <item>
+      <title>Try the Ansible playbook generation lab with Gemini and OpenAI</title>
+      <link>/articles/article-2026-08-26-21541/</link>
+      <pubDate>Wed, 26 Aug 2026 07:01:16 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21541/</guid>
+      <description>🚀 Red Hat&amp;rsquo;s Ansible Automation Platform has enhanced its VS Code extension since 2021. Key features include automatic linting and simplified documentation access. A standout capability is the generation of Ansible playbooks and roles using AI language models. Explore the Ansible playbook generation lab with Gemini and OpenAI! #RedHat #Ansible #Automation #AI #VSCode</description>
+    </item>
     <item>
       <title>Automating Red Hat OpenShift AI installations with Helm and GitOps</title>
       <link>/articles/article-2026-08-26-21500/</link>
       <pubDate>Wed, 26 Aug 2026 03:01:06 +0000</pubDate>
       <guid>/articles/article-2026-08-26-21500/</guid>
       <description>Discover a new method for automating Red Hat OpenShift AI installations using Helm and GitOps. This article builds on previous insights about managing OpenShift AI dependencies and presents a more streamlined approach for deployment. Learn how this can enhance your workflow! 🚀🔧 #RedHat #OpenShiftAI #GitOps #Helm #Automation</description>
+    </item>
+    <item>
+      <title>GRPO fine-tuning on Red Hat OpenShift AI: Reinforcement learning from verifiable rewards with Training Hub</title>
+      <link>/articles/article-2026-08-26-21542/</link>
+      <pubDate>Wed, 26 Aug 2026 03:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21542/</guid>
+      <description>Large language models are great for conversation, but enterprise needs often require structured reasoning, like generating SQL or JSON. Supervised fine-tuning improves these skills but can be costly and time-consuming to curate data. Explore how GRPO fine-tuning on Red Hat OpenShift AI addresses these challenges with reinforcement learning. #AI #RedHat #MachineLearning #DataScience #EnterpriseSolutions 🤖📊</description>
     </item>
     <item>
       <title>GRPO fine-tuning on Red Hat OpenShift AI: Reinforcement learning from verifiable rewards with Training Hub</title>

@@ -6,8 +6,43 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 20:51:48 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JetBrains told everyone to patch. It didn’t patch itself.</title>
+      <link>/articles/article-2026-08-28-21504/</link>
+      <pubDate>Fri, 28 Aug 2026 20:51:48 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21504/</guid>
+      <description>🚨 JetBrains has alerted users of its Cadence cloud service to rotate credentials after a critical vulnerability in TeamCity was exploited. Despite disclosing the issue on July 27, an unpatched JetBrains server was compromised between August 8 and 24. The breach potentially exposed sensitive data, including credentials and source code. Users are advised to treat all affected credentials as compromised. #JetBrains #CyberSecurity #DataBreach #CloudComputing #Vulnerability</description>
+    </item>
+    <item>
+      <title>The Patch Window Just Closed. Here’s What Comes Next.</title>
+      <link>/articles/article-2026-08-28-21529/</link>
+      <pubDate>Fri, 28 Aug 2026 12:55:06 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21529/</guid>
+      <description>The recent article highlights a significant shift in the vulnerability landscape. With the rise of AI models, attackers can now exploit software flaws at machine scale, drastically reducing the time between flaw disclosure and exploitation. The time-to-exploitation (TTE) has gone negative, meaning flaws are often exploited before public disclosure. This change challenges traditional vulnerability management practices, emphasizing the need for faster responses to close the vulnerability gap&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Security Incident Affecting JetBrains Cadence</title>
+      <link>/articles/article-2026-08-28-21556/</link>
+      <pubDate>Fri, 28 Aug 2026 09:50:14 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21556/</guid>
+      <description>🚨 Important Update on JetBrains Cadence Security Incident 🚨 JetBrains is investigating a security incident involving Cadence, a service that integrates with PyCharm. Unauthorized access has been confirmed, leading to customer data exposure. Affected users have been contacted directly. Immediate actions are recommended, such as revoking and rotating credentials, and treating project executions as untrusted. For further details and ongoing updates, visit the JetBrains site. #JetBrains&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Differential Privacy for Hugging Face Trainers – Without Rewriting Your Training Loop</title>
+      <link>/articles/article-2026-08-27-21558/</link>
+      <pubDate>Thu, 27 Aug 2026 15:31:12 +0000</pubDate>
+      <guid>/articles/article-2026-08-27-21558/</guid>
+      <description>🚀 JetBrains Research introduces DPTrainer, a new open-source library that integrates Opacus and Hugging Face Trainer. This tool allows for training privacy-preserving models without altering existing training loops. 🔒 Differential privacy is key in protecting sensitive data during model training. It ensures that the inclusion or exclusion of any single data point does not affect the model&amp;rsquo;s behavior, safeguarding against membership inference attacks. 📈 By leveraging data from their IDEs,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab compliance frameworks: Adhere to SOC 2 in minutes</title>
+      <link>/articles/article-2026-08-27-21550/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-27-21550/</guid>
+      <description>GitLab offers custom compliance frameworks that simplify adherence to standards like SOC 2. Instead of the traditional documentation approach, users set controls once, and the platform continuously verifies compliance. This shift allows for real-time monitoring and reduces audit preparation time. Templates for standards such as SOC 2 streamline the setup process, making compliance accessible in just a few clicks. Explore how these frameworks enhance oversight and ensure ongoing adherence. 📊🔍&amp;hellip;</description>
+    </item>
     <item>
       <title>Machine vs. machine: The new reality of cybersecurity in ANZ</title>
       <link>/articles/article-2026-08-26-21499/</link>

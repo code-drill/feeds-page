@@ -6,8 +6,78 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 20:57:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 18:31:38 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LM Studio built a judge for AI commands. Then the judge started agreeing with the defendant.</title>
+      <link>/articles/article-2026-08-28-21505/</link>
+      <pubDate>Fri, 28 Aug 2026 18:31:38 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21505/</guid>
+      <description>LM Studio&amp;rsquo;s recent development highlights the challenges in AI command evaluation. 🤖 Their tool, Auto Review, effectively clears 82% of commands for safety using a structure-based analysis, rather than just string checks. It builds abstract syntax trees to track command capabilities and potential risks. With over 11,651 test cases, LM Studio addresses the unique behaviors of command-line tools, ensuring more secure AI operations. 🔍 For commands that pose risks, a separate AI agent, the Shell&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Isolated Agents to Collective Intelligence: Why A2A Is the Protocol the Agentic SOC Has Been Waiting For</title>
+      <link>/articles/article-2026-08-28-21528/</link>
+      <pubDate>Fri, 28 Aug 2026 15:00:11 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21528/</guid>
+      <description>The Agentic SOC requires two key protocols: MCP and A2A. MCP connects agents to their data and tools, enhancing their capabilities. A2A, on the other hand, facilitates communication between agents across different platforms, enabling seamless collaboration. Together, they address the challenges of isolated security operations and improve efficiency. #CyberSecurity #AgenticSOC #MCP #A2A #Technology 🛡️🔗💻</description>
+    </item>
+    <item>
+      <title>Project Loom in IntelliJ IDEA: Virtual Threads, Scoped Values, and Structured Concurrency</title>
+      <link>/articles/article-2026-08-28-21557/</link>
+      <pubDate>Fri, 28 Aug 2026 05:03:34 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21557/</guid>
+      <description>Discover how Project Loom is transforming Java concurrency! This initiative addresses long-standing challenges in multithreaded programming, such as resource costs and thread management issues. Key features include: 🔹 &lt;strong&gt;Virtual Threads&lt;/strong&gt; - Lightweight threads managed by the JVM for better scalability. 🔹 &lt;strong&gt;Scoped Values&lt;/strong&gt; - Immutable data sharing that prevents memory leaks. 🔹 &lt;strong&gt;Structured Concurrency&lt;/strong&gt; - Treats related threads as a single unit for easier cancellation and error handling&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Building hermetic notebook images for Open Data Hub and Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-08-28-21538/</link>
+      <pubDate>Fri, 28 Aug 2026 03:01:13 +0000</pubDate>
+      <guid>/articles/article-2026-08-28-21538/</guid>
+      <description>🚀 Building reliable notebook images for Open Data Hub and Red Hat OpenShift AI has been streamlined. Key to this process is the concept of hermetic builds, where nothing is downloaded during the build. Dependencies are pre-fetched and installed from a local cache, ensuring consistency and eliminating network issues. This approach works seamlessly across different environments, including laptops and GitHub Actions. 🔧💻 #OpenDataHub #RedHat #DevOps #Containerization #AI</description>
+    </item>
+    <item>
+      <title>vPC and ESI-based multi-homing: The dynamic duo powering scalable, resilient data centers</title>
+      <link>/articles/article-2026-08-27-21533/</link>
+      <pubDate>Thu, 27 Aug 2026 15:00:21 +0000</pubDate>
+      <guid>/articles/article-2026-08-27-21533/</guid>
+      <description>Unlock the potential of your data center with vPC and ESI-based multi-homing! 🚀 These technologies enhance network reliability, enabling rapid convergence essential for AI applications. They eliminate dedicated peer-links and support agile, resilient designs. Discover how they work together to power modern data centers. #DataCenter #Networking #AI #Cisco #Technology</description>
+    </item>
+    <item>
+      <title>Why basic RAG fails at multi-hop reasoning (and how GraphRAG fixes it)</title>
+      <link>/articles/article-2026-08-27-21515/</link>
+      <pubDate>Thu, 27 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-27-21515/</guid>
+      <description>Current AI engineering methods for LLMs often oversimplify solutions, especially in handling hallucinations and complex queries. The standard Retrieval-Augmented Generation (RAG) system struggles with multi-hop reasoning, as it relies on chunked text and assumes semantic similarity equals relevance. This approach falls short when questions require linking multiple concepts. GraphRAG addresses these issues by integrating knowledge graphs with semantic vector search. This allows for structured&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding</title>
+      <link>/articles/article-2026-08-26-21547/</link>
+      <pubDate>Wed, 26 Aug 2026 17:07:12 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21547/</guid>
+      <description>🚀 Alibaba has released the model weights for Qwen3.8-Flash-Next, previewing the upcoming Qwen4 architecture. This multimodal mixture-of-experts model features a 125B-parameter main model and an additional 51B N-gram embeddings, with a native 262,144-token context window. NVIDIA supports this model through SGLang, vLLM, and TensorRT, making it suited for high-volume applications like agentic coding and document processing. Notably, Qwen3.8-Flash-Next employs innovative architectures to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When AI agent traces become application data</title>
+      <link>/articles/article-2026-08-26-21525/</link>
+      <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21525/</guid>
+      <description>When a test fails, developers can rely on AI agents to analyze relevant files, run tests, and validate changes. 🛠️ The activity of these agents is logged, allowing developers to review modifications and understand the impact over time. 📊 This trace can become application data, essential for maintaining accurate records of execution for future reference. Developers must ensure that sensitive internal data remains secure while accessing this information. 🔒 The volume of data generated varies&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How AI observability works with MLflow</title>
+      <link>/articles/article-2026-08-26-21540/</link>
+      <pubDate>Wed, 26 Aug 2026 09:16:42 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21540/</guid>
+      <description>Understanding AI observability is crucial, especially since AI responses can be inaccurate. The article explores how MLflow is utilized to enhance AI observability, ensuring better monitoring and evaluation of AI models. For those interested in improving AI accuracy, this piece provides valuable insights. 🤖📊 #AI #MLflow #DataScience #TechInsights</description>
+    </item>
+    <item>
+      <title>GRPO fine-tuning on Red Hat OpenShift AI: Reinforcement learning from verifiable rewards with Training Hub</title>
+      <link>/articles/article-2026-08-26-21542/</link>
+      <pubDate>Wed, 26 Aug 2026 03:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-26-21542/</guid>
+      <description>Large language models are great for conversation, but enterprise needs often require structured reasoning, like generating SQL or JSON. Supervised fine-tuning improves these skills but can be costly and time-consuming to curate data. Explore how GRPO fine-tuning on Red Hat OpenShift AI addresses these challenges with reinforcement learning. #AI #RedHat #MachineLearning #DataScience #EnterpriseSolutions 🤖📊</description>
+    </item>
     <item>
       <title>Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo</title>
       <link>/articles/article-2026-08-25-21497/</link>

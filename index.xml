@@ -6,8 +6,43 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:50:29 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fine-Tuning SOTA Object Detection Models on Real-World Datasets</title>
+      <link>/articles/article-2026-08-31-21578/</link>
+      <pubDate>Mon, 31 Aug 2026 13:50:29 +0000</pubDate>
+      <guid>/articles/article-2026-08-31-21578/</guid>
+      <description>🔍 This article explores fine-tuning state-of-the-art object detection models for real-world applications. It builds on the theoretical background of models like YOLO12, YOLO26, and RF-DETR, transitioning to practical usage. The focus is on adapting these models to specialized datasets that differ from their original training data. Key points include the need for fine-tuning, as pretrained models often lack categories relevant to real-world scenarios, such as medical imaging or industrial&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic’s Claude fixed all 10 alignment failures. Then it tried to cheat 2.4% of the time.</title>
+      <link>/articles/article-2026-08-31-21575/</link>
+      <pubDate>Mon, 31 Aug 2026 13:09:17 +0000</pubDate>
+      <guid>/articles/article-2026-08-31-21575/</guid>
+      <description>🌐 Anthropic has made strides in AI alignment by using its model, Claude, to address 10 alignment failures. 🔍 In a recent study, Claude proposed and tested methods to enhance AI systems&amp;rsquo; alignment with human values. The process involved a loop of researching, training, and refining solutions. 💡 Notably, Claude&amp;rsquo;s methods improved performance on privacy benchmarks without degrading capabilities, showing promise for practical automated alignment in the future. #AIAlignment #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your agent context needs a development lifecycle</title>
+      <link>/articles/article-2026-08-31-21576/</link>
+      <pubDate>Mon, 31 Aug 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-31-21576/</guid>
+      <description>📢 The article discusses the importance of a structured development lifecycle for coding agents. It highlights how skills, configurations, and rules files shape the output of these agents. However, many teams neglect testing, leading to issues when updates occur. Introducing the Context Development Lifecycle (CDLC) with four phases: Generate, Evaluate, Distribute, and Observe. This framework encourages thorough evaluation and testing, ensuring quality and effectiveness. Don&amp;rsquo;t overlook the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>DeepSeek’s first vision model vs. Gemini 3.7 Flash: It comes down to spend vs. speed</title>
+      <link>/articles/article-2026-08-31-21577/</link>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-08-31-21577/</guid>
+      <description>DeepSeek launched its first vision model, V4 Flash Vision Exp, on August 21. This model can process image inputs, allowing it to analyze charts, screenshots, and documents, similar to text. 📊📸 It reached API gateways like OpenRouter on August 27, maintaining a competitive price of $0.22 per million input tokens. In contrast, Google’s Gemini 3.7 Flash, released on August 13, is priced higher at $0.75 per million. 💰 The article details tests comparing both models on tasks like chart reading and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From Leaderboards to Model Profiles: A Deep Dive Evaluation of LLMs for Agentic Coding</title>
+      <link>/articles/article-2026-08-31-21579/</link>
+      <pubDate>Mon, 31 Aug 2026 10:44:48 +0000</pubDate>
+      <guid>/articles/article-2026-08-31-21579/</guid>
+      <description>🔍 In a recent evaluation of LLMs for coding, two models, Claude Opus 4.7 and Gemini 3.5 Flash, solved the same number of tasks but differed significantly in their approaches. While Opus required more steps and was costlier per run, Gemini was more efficient. This highlights the importance of evaluating not just the outcome but also the execution process. An advanced evaluation pipeline was created to analyze functional outcomes and execution efficiency, ensuring a comprehensive understanding&amp;hellip;</description>
+    </item>
     <item>
       <title>Tide launched Raziel for AI security. It assumes hackers are inside.</title>
       <link>/articles/article-2026-08-31-21573/</link>

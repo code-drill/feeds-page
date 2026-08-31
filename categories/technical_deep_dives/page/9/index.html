@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://blog.cloudflare.com/quic-death-spiral-fix/" target="_blank">When &#34;idle&#34; isn&#39;t idle: how a Linux kernel optimization became a QUIC bug</a></h2>
+            <div class="publication-date">2026-05-12 13:00</div>
+            <div class="summary">A recent investigation revealed a bug in CUBIC, the default congestion controller in Linux, affecting QUIC performance at Cloudflare. The issue involved the congestion window becoming stuck at its minimum, leading to significant performance loss. The bug arose from a Linux kernel change intended to improve CUBIC&#39;s behavior. This change inadvertently caused unexpected issues in Cloudflare&#39;s open-source QUIC implementation, quiche. The resolution involved accurately assessing idle periods to...</div>
+            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
+            
+            <div class="author">Antonio Vicente</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developers.redhat.com/articles/2026/05/12/how-evalhub-manages-two-layer-kubernetes-control-planes" target="_blank">How EvalHub manages two-layer Kubernetes control planes</a></h2>
             <div class="publication-date">2026-05-12 12:01</div>
             <div class="summary">🔍 Discover how EvalHub efficiently manages AI evaluations with a two-layer Kubernetes control plane. Red Hat AI 3.4 features a unified orchestration layer that supports various evaluation frameworks, allowing for seamless onboarding and consistent scaling. The architecture includes the TrustyAI Service Operator for lifecycle management and the EvalHub Server for orchestration, facilitating robust experiment tracking and resource management. Learn more about integrating EvalHub into your...</div>
@@ -1079,23 +1096,6 @@
             <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
             
             <div class="author">Dejun Lin</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://medium.com/airbnb-engineering/skipper-building-airbnbs-embedded-workflow-engine-f6c34552146f?source=rss----53c7c27702d5---4" target="_blank">Skipper: Building Airbnb’s embedded workflow engine</a></h2>
-            <div class="publication-date">2026-04-28 17:01</div>
-            <div class="summary">Airbnb has introduced Skipper, an embedded workflow engine designed to enhance durable execution in complex processes, like insurance claims. Traditional solutions often rely on external orchestration, leading to operational complexities and dependencies. Skipper addresses these issues by allowing workflows to run within existing services, minimizing overhead while maintaining reliability. With a focus on simplicity and clarity, Skipper enables developers to write business logic directly,...</div>
-            <div class="source">Source: <a href="/sources/airbnb-engineering">Airbnb Engineering</a></div>
-            
-            <div class="author">Ricardo Gamba</div>
             
             
             <div class="categories">

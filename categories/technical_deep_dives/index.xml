@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 03:01:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 07:01:43 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orchestrate production RAG with OpenShift AI</title>
+      <link>/articles/article-2026-09-01-21593/</link>
+      <pubDate>Tue, 01 Sep 2026 07:01:43 +0000</pubDate>
+      <guid>/articles/article-2026-09-01-21593/</guid>
+      <description>Discover how to enhance your streaming retrieval-augmented generation (RAG) pipeline with OpenShift AI. The previous article outlined a single Ray Data script that handles parsing, chunking, embedding, and writing to Milvus. However, this monolithic approach has a drawback: if a parsing error occurs, you must restart the entire process. Learn more about optimizing your RAG workflow! 🚀💻 #OpenShiftAI #DataPipeline #RAG #TechInnovation #RedHatDeveloper</description>
+    </item>
     <item>
       <title>Red Hat OpenShift autoscaling using MachineSet autoscaler with KEDA</title>
       <link>/articles/article-2026-09-01-21592/</link>

@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 03:01:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 07:54:55 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ensuring Code Compliance in Public Sector Software Projects</title>
+      <link>/articles/article-2026-09-01-21594/</link>
+      <pubDate>Tue, 01 Sep 2026 07:54:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-01-21594/</guid>
+      <description>In the public sector, secure coding is vital for protecting sensitive citizen data. Software projects must comply with data protection laws and governance standards to maintain trust and accountability. IBM reports that the cost of a data breach averages nearly $5 million, highlighting the financial risks associated with non-compliance. Ensuring code quality can mitigate risks and avoid costly penalties. A compliance cheat sheet for developers outlines common issues and offers strategies to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Orchestrate production RAG with OpenShift AI</title>
+      <link>/articles/article-2026-09-01-21593/</link>
+      <pubDate>Tue, 01 Sep 2026 07:01:43 +0000</pubDate>
+      <guid>/articles/article-2026-09-01-21593/</guid>
+      <description>Discover how to enhance your streaming retrieval-augmented generation (RAG) pipeline with OpenShift AI. The previous article outlined a single Ray Data script that handles parsing, chunking, embedding, and writing to Milvus. However, this monolithic approach has a drawback: if a parsing error occurs, you must restart the entire process. Learn more about optimizing your RAG workflow! 🚀💻 #OpenShiftAI #DataPipeline #RAG #TechInnovation #RedHatDeveloper</description>
+    </item>
+    <item>
+      <title>Authenticating TeamCity Builds to External Services With OIDC</title>
+      <link>/articles/article-2026-09-01-21595/</link>
+      <pubDate>Tue, 01 Sep 2026 06:58:08 +0000</pubDate>
+      <guid>/articles/article-2026-09-01-21595/</guid>
+      <description>🔐 Static credentials in CI/CD environments pose security risks and management challenges due to potential leaks and the need for regular updates. This article discusses how OIDC (OpenID Connect) offers a solution by allowing secure authentication without storing static credentials. Major cloud providers support OIDC, enhancing security for CI/CD pipelines. The new TeamCity OIDC JWT plugin enables builds to authenticate securely with services like AWS and Google Cloud. It acts as an identity&amp;hellip;</description>
+    </item>
     <item>
       <title>Developing LLM guardrail configs locally with NeMo Guardrails</title>
       <link>/articles/article-2026-09-01-21591/</link>

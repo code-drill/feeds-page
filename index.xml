@@ -128,6 +128,13 @@
       <description>🚀 Model sizes are rapidly increasing, doubling each year, while GPU memory struggles to keep pace. 📈 The article discusses LLM quantization, a technique that enables efficient deployment of large models on accessible hardware. This is essential for serving multiple users effectively. 💡 Learn how quantization can help in managing resource limitations while maximizing performance. #LLM #Quantization #MachineLearning #AI #TechTrends</description>
     </item>
     <item>
+      <title>Critical remote code execution in vm2, a widely used Node.js sandbox library</title>
+      <link>/articles/article-2026-09-02-21634/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-02-21634/</guid>
+      <description>🚨 &lt;strong&gt;Critical Vulnerability Alert&lt;/strong&gt; 🚨 GitLab&amp;rsquo;s Threat Research Group has identified a serious sandbox escape vulnerability in the widely used Node.js library, &lt;strong&gt;vm2&lt;/strong&gt;. This flaw, rated CVSS 3.1: 10.0, allows remote code execution due to unsafe default configurations. Users running &lt;strong&gt;vm2 Version 3.11.6 or earlier&lt;/strong&gt; with &lt;code&gt;require.external&lt;/code&gt; enabled should update to &lt;strong&gt;Version 3.11.7&lt;/strong&gt; immediately. However, further configuration hardening is necessary to mitigate ongoing risks. 💡 For robust&amp;hellip;</description>
+    </item>
+    <item>
       <title>Elastic Stack 8.19.21 released</title>
       <link>/articles/article-2026-09-02-21618/</link>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>

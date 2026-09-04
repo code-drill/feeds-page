@@ -6,8 +6,57 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:01:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 18:04:55 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Memory-Driven Agent with NVIDIA NemoClaw</title>
+      <link>/articles/article-2026-09-04-21663/</link>
+      <pubDate>Fri, 04 Sep 2026 18:04:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21663/</guid>
+      <description>🚀 Exciting advancements in AI are here! The article discusses the development of a memory-driven Chief of Staff agent using NVIDIA NemoClaw. This AI agent reconstructs context to enhance productivity in enterprise workflows. Key features include a self model that organizes relevant information, tracks obligations, and allows user corrections to build trust. The design emphasizes maintaining context, separating evidence from action, and prioritizing user intent. For more insights, check the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson</title>
+      <link>/articles/article-2026-09-04-21664/</link>
+      <pubDate>Fri, 04 Sep 2026 16:21:04 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21664/</guid>
+      <description>🚀 Running AI at the edge is becoming easier! Recent advancements have led to the development of compact open models that can perform multi-step reasoning without relying on data centers. This shift allows NVIDIA Jetson to run models like Nemotron 3.5 Lightning and Qwen3.8-27B locally, enabling applications in various fields. Developers can now optimize inference performance and validate configurations more effectively. Key topics include model selection, NVFP4 quantization, and usage of vLLM&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Configure admission fair sharing in Red Hat build of Kueue 1.4</title>
+      <link>/articles/article-2026-09-04-21660/</link>
+      <pubDate>Fri, 04 Sep 2026 07:01:10 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21660/</guid>
+      <description>In shared AI and high-performance computing clusters, managing limited hardware resources like GPUs and CPUs is crucial for OpenShift platform engineers. The FIFO admission rule can lead to long wait times for later workloads, impacting service predictability. Red Hat build of Kueue 1.4 introduces two methods for ensuring fairness: fair sharing-based preemption and admission fair sharing. Learn more about optimizing resource management! 🚀💻 #OpenShift #Kueue #ResourceManagement #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to Carry User Identity Across Federated Kubernetes and AI Platforms</title>
+      <link>/articles/article-2026-09-03-21665/</link>
+      <pubDate>Thu, 03 Sep 2026 22:36:02 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21665/</guid>
+      <description>Modern AI platforms are complex, often requiring users to navigate multiple clusters and services. A central identity gateway can streamline user identity across federated environments. Traditional single sign-on (SSO) methods fall short when users move between systems. A central gateway maintains user sessions while data-plane gateways validate identities for applications, enhancing security and user experience. This approach has shown a 55% reduction in login events at NVIDIA, supporting&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to find failures without drowning in tracing data</title>
+      <link>/articles/article-2026-09-03-21644/</link>
+      <pubDate>Thu, 03 Sep 2026 20:17:25 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21644/</guid>
+      <description>Understanding system failures is vital for maintaining performance. 📊 Metrics dashboards provide a system&amp;rsquo;s health snapshot, while logs help identify specific failures. Tracing, however, tracks requests from origin to user, offering deeper insights into issues. Yet, managing tracing data can be overwhelming and costly. Techniques like head sampling and dynamic sampling can help manage data effectively. For more insights, check out the latest episode of The New Stack podcast featuring Sarah&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Evaluating LLM guardrail configs locally with EvalHub</title>
+      <link>/articles/article-2026-09-03-21662/</link>
+      <pubDate>Thu, 03 Sep 2026 16:58:28 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21662/</guid>
+      <description>In part 2 of the series on local guardrail development, the focus is on evaluating LLM guardrail configurations using EvalHub. The article expands on the design and development process discussed in the first part, emphasizing the importance of manual testing to ensure effectiveness. Stay tuned for further insights on enhancing local configurations! 🔍💻 #EvalHub #LLM #GuardrailDevelopment #RedHat #TechInsights</description>
+    </item>
+    <item>
+      <title>Learning to Code in the Age of AI: Advice From a Top Udemy Instructor</title>
+      <link>/articles/article-2026-09-03-21672/</link>
+      <pubDate>Thu, 03 Sep 2026 10:45:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21672/</guid>
+      <description>🚀 In a recent interview with Ardit Sulce, a leading Python instructor on Udemy, key insights were shared on learning to code in the AI era. He emphasizes the importance of practical application, stating that beginners should focus on building real projects with professional tools. Ardit also discusses the evolving role of teachers, noting that AI now handles many basic queries, allowing educators to focus on more complex student needs. For junior developers, mastering three key skills is&amp;hellip;</description>
+    </item>
     <item>
       <title>Evaluate AI agents with IBM CLEAR &amp; EvalHub on OpenShift AI</title>
       <link>/articles/article-2026-09-03-21636/</link>

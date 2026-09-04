@@ -6,8 +6,120 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 20:14:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 21:08:36 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft built a prompt injection detector. Then it caught a phishing campaign instead.</title>
+      <link>/articles/article-2026-09-04-21638/</link>
+      <pubDate>Fri, 04 Sep 2026 21:08:36 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21638/</guid>
+      <description>🚨 Microsoft recently flagged a phishing campaign that exploits a gap in machine text reading. Attackers are using invisible Unicode tag characters in emails to bypass spam filters. These characters alter the processing of keywords like &amp;ldquo;funding&amp;rdquo; and &amp;ldquo;credit,&amp;rdquo; making them undetectable to security systems. In just a few days, the campaign saw over 2.3 million flagged messages, presenting ordinary offers while hiding malicious intent. #CyberSecurity #Phishing #Microsoft #Unicode #TechNews</description>
+    </item>
+    <item>
+      <title>“Sorry for the messy rollout”: OpenAI launched GPT-6 Astra, but developers are locked out</title>
+      <link>/articles/article-2026-09-04-21639/</link>
+      <pubDate>Fri, 04 Sep 2026 16:04:42 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21639/</guid>
+      <description>OpenAI has launched GPT-6 Astra, but many developers are still awaiting access. CEO Sam Altman acknowledged the &amp;ldquo;messy rollout&amp;rdquo; and apologized for the delays. He stated that broader access for API customers and ChatGPT subscribers would begin soon, starting with Pro subscribers. While Astra&amp;rsquo;s API documentation is available, developers are still waiting for the rollout to complete. OpenAI&amp;rsquo;s engineering lead mentioned that the process will take a few days as they bring new systems online&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>OpenAI will sell you Astra, but not the system that scored 98.6% on ARC-AGI-3</title>
+      <link>/articles/article-2026-09-04-21640/</link>
+      <pubDate>Fri, 04 Sep 2026 15:25:17 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21640/</guid>
+      <description>OpenAI&amp;rsquo;s Astra model recently achieved impressive results on the ARC-AGI-3 benchmark, scoring 98.6% using the OpenAI Provider Adapter. 🧠✨ In contrast, the same model scored 62.7% with ARC Prize&amp;rsquo;s standard harness. This highlights the significance of harness engineering in AI performance and cost-effectiveness. The ARC-AGI-3 benchmark pushes models to learn in interactive environments without explicit guidance, showcasing the advancements in AI capabilities. 📊 #OpenAI #Astra #AI #Benchmarking&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI agent evaluations are part of the product</title>
+      <link>/articles/article-2026-09-04-21641/</link>
+      <pubDate>Fri, 04 Sep 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21641/</guid>
+      <description>Evaluating AI agents is essential to ensure consistent performance. A team tests agents with representative questions, recording their responses to approve changes. However, updates can lead to unforeseen issues that may only surface through user feedback. To maintain quality, a repeatable evaluation system is crucial. This system should define correct behavior, separate results from processes, and focus on real user tasks. #AIEvaluation #ProductQuality #TechDevelopment #AI #UserFeedback 🤖🛠️📊</description>
+    </item>
+    <item>
+      <title>“1% of my engineers are responsible for 40% of token spend”: Why Coder and SpaceXAI want to give developers nice things</title>
+      <link>/articles/article-2026-09-04-21642/</link>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21642/</guid>
+      <description>🚀 Coder has launched its Coder Agent Relay service in partnership with SpaceXAI. This new service allows engineering teams to run coding-agent tools on their own infrastructure, enhancing compliance for regulated industries like banking and defense. 👩‍💻 Coder&amp;rsquo;s CEO, Rob Whiteley, notes that a small percentage of engineers account for a large portion of token spending, highlighting a gap in technology adoption. The focus is shifting towards upskilling developers rather than simply measuring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI spends $1 billion to expand Daybreak to defend power, water, and banking</title>
+      <link>/articles/article-2026-09-03-21643/</link>
+      <pubDate>Thu, 03 Sep 2026 21:22:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21643/</guid>
+      <description>🚀 OpenAI has announced a $1 billion initiative called Daybreak for Frontline Defenders. This global program aims to enhance cyber defense for essential services like power, water, and banking. The initiative expands access to OpenAI&amp;rsquo;s cyber models and training for defenders worldwide, including a pilot project with MS-ISAC in the U.S. to support local cyber defenders. OpenAI is also collaborating with over 150 organizations to promote advanced cyber capabilities and collective action in cyber&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to find failures without drowning in tracing data</title>
+      <link>/articles/article-2026-09-03-21644/</link>
+      <pubDate>Thu, 03 Sep 2026 20:17:25 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21644/</guid>
+      <description>Understanding system failures is vital for maintaining performance. 📊 Metrics dashboards provide a system&amp;rsquo;s health snapshot, while logs help identify specific failures. Tracing, however, tracks requests from origin to user, offering deeper insights into issues. Yet, managing tracing data can be overwhelming and costly. Techniques like head sampling and dynamic sampling can help manage data effectively. For more insights, check out the latest episode of The New Stack podcast featuring Sarah&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra’s score of 98.6% looked like AGI. Then researchers read the fine print.</title>
+      <link>/articles/article-2026-09-03-21645/</link>
+      <pubDate>Thu, 03 Sep 2026 19:05:24 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21645/</guid>
+      <description>OpenAI&amp;rsquo;s GPT-6 Astra scored 98.6% on the ARC-AGI-3 test, a significant improvement over GPT-5.6 Sol’s 7.8%. This test evaluates AI in unfamiliar environments, highlighting its ability to adapt. However, the score comes with caveats regarding the evaluation setup used. Astra also excelled in various benchmarks, scoring 97.6% on FrontierMath Tier 4 and 100% on ExploitBench. Notably, Astra contributed to new findings in prime number theory, showcasing its potential beyond just benchmarks. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cut GPU inference cold start from 8 minutes to less than a minute</title>
+      <link>/articles/article-2026-09-03-21646/</link>
+      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21646/</guid>
+      <description>🚀 New advancements in GPU inference! An article details how the cold start time for GPU models has been reduced from 8 minutes to under 1 minute. This improvement involves identifying and addressing six bottlenecks during the startup process. Key findings include that for a 64 GB model, 65% of time is spent recompiling CUDA kernels, while for a 203 GB model, 92% of time is spent on downloading weights. Many of these issues can be fixed with configuration changes. Optimizations can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The systems guide to production token optimization</title>
+      <link>/articles/article-2026-09-03-21647/</link>
+      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21647/</guid>
+      <description>Understanding production token optimization is crucial for scaling enterprise AI applications. Many teams mistake rising API bills as the core issue, but it’s more about efficient token management. Token optimization involves tackling distributed systems and hardware utilization challenges. The article discusses how systems like Concierge and Pathfinder faced bottlenecks due to autoregressive costs. It highlights the importance of recognizing that a token is not merely a word, with providers&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI launches GPT-6 Astra and says welcome to the “AGI era”</title>
+      <link>/articles/article-2026-09-03-21648/</link>
+      <pubDate>Thu, 03 Sep 2026 18:02:40 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21648/</guid>
+      <description>🚀 OpenAI has launched GPT-6 Astra, claiming it to be “the world’s most intelligent and aligned model.” During a press briefing, President Greg Brockman suggested that we may now be entering the AGI era, though he emphasized that the concept of AGI is still evolving. Astra represents OpenAI’s largest training run, utilizing over 100,000 GPUs. #OpenAI #GPT6 #AGI #ArtificialIntelligence #TechNews</description>
+    </item>
+    <item>
+      <title>“Hugging Face will remain an open platform”: Nvidia strikes $12.9B deal for the ‘GitHub of AI’</title>
+      <link>/articles/article-2026-09-03-21649/</link>
+      <pubDate>Thu, 03 Sep 2026 17:52:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21649/</guid>
+      <description>Nvidia has confirmed its acquisition of Hugging Face for $12.9 billion, a major move in the AI industry. 🤖 Despite concerns about platform openness, CEO Jensen Huang assures that Hugging Face will remain an open platform. It will continue to support multiple cloud services and hardware, ensuring neutrality in AI development. ☁️🔧 Huang emphasizes that Nvidia&amp;rsquo;s own compute resources will not be mandatory for using Hugging Face. The focus remains on fostering an inclusive AI ecosystem. 🌐 #Nvidia&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI Agents built a 3D city for $33 in two hours —and exposed a major flaw</title>
+      <link>/articles/article-2026-09-03-21650/</link>
+      <pubDate>Thu, 03 Sep 2026 17:34:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21650/</guid>
+      <description>PhiloLabs conducted an experiment using AI coding agents to build a 3D version of San Francisco’s Union Square in just two hours. 🏙️💻 The project utilized real-world data and resulted in a detailed scene with buildings, storefronts, and moving pedestrians. The total cost for the API calls was approximately $33. To identify visual flaws, the agents created 147 comparison sheets, allowing for a detailed review of the model. They produced nine reports to address issues like proportions and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Nvidia PAIR lets you put your idle Macs and PCs to work for AI agents</title>
+      <link>/articles/article-2026-09-03-21651/</link>
+      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21651/</guid>
+      <description>🚀 Nvidia has introduced the Personal AI Router (PAIR), an open-source software designed to utilize idle Macs and PCs for running AI models. This tool optimizes workflows by allowing lead agents to delegate tasks to subagents across different devices. PAIR identifies eligible machines on your network and routes requests accordingly. It supports Windows, macOS, and Linux with compatible GPUs, enhancing local AI capabilities. #Nvidia #AI #TechNews #OpenSource #MachineLearning</description>
+    </item>
+    <item>
+      <title>Want to scale AI agents without breaking anything? Retrieval engineering is the answer.</title>
+      <link>/articles/article-2026-09-03-21652/</link>
+      <pubDate>Thu, 03 Sep 2026 15:38:20 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21652/</guid>
+      <description>🚀 AI agents are on the rise as businesses increasingly adopt this technology. However, as deployment scales, challenges with data retrieval are emerging. ⚙️ Companies face issues with concurrency and ensuring that AI information is up-to-date and accessible. This can hinder the effectiveness of AI agents in production. 💬 Join a live discussion on September 24 at 12 p.m. ET, featuring experts from GigaOm and Vespa.ai. They will delve into improving retrieval architecture for better&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“Google was ahead only a few hours”: Muse Spark 1.3 edges out Gemini as Meta claims its biggest coding leap yet</title>
+      <link>/articles/article-2026-09-03-21653/</link>
+      <pubDate>Thu, 03 Sep 2026 15:37:07 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21653/</guid>
+      <description>🚀 Exciting developments from Meta this week! The company officially launched its Muse Code coding agent and introduced Muse Spark 1.3, claiming significant improvements in coding tasks. Meta&amp;rsquo;s CEO, Mark Zuckerberg, highlighted the model&amp;rsquo;s &amp;ldquo;frontier performance&amp;rdquo; and noted that open-weight releases are coming soon, though details on licensing are still pending. Additionally, Zuckerberg teased the upcoming model, codenamed Watermelon. 🍉 Stay tuned for more updates! #Meta #AI #Coding #MuseSpark&amp;hellip;</description>
+    </item>
     <item>
       <title>Multiverse says its 438B model is fast enough for AI agents. The benchmarks tell a more complicated story.</title>
       <link>/articles/article-2026-09-02-21630/</link>

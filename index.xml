@@ -6,8 +6,246 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:01:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 21:08:36 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft built a prompt injection detector. Then it caught a phishing campaign instead.</title>
+      <link>/articles/article-2026-09-04-21638/</link>
+      <pubDate>Fri, 04 Sep 2026 21:08:36 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21638/</guid>
+      <description>🚨 Microsoft recently flagged a phishing campaign that exploits a gap in machine text reading. Attackers are using invisible Unicode tag characters in emails to bypass spam filters. These characters alter the processing of keywords like &amp;ldquo;funding&amp;rdquo; and &amp;ldquo;credit,&amp;rdquo; making them undetectable to security systems. In just a few days, the campaign saw over 2.3 million flagged messages, presenting ordinary offers while hiding malicious intent. #CyberSecurity #Phishing #Microsoft #Unicode #TechNews</description>
+    </item>
+    <item>
+      <title>Building a Memory-Driven Agent with NVIDIA NemoClaw</title>
+      <link>/articles/article-2026-09-04-21663/</link>
+      <pubDate>Fri, 04 Sep 2026 18:04:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21663/</guid>
+      <description>🚀 Exciting advancements in AI are here! The article discusses the development of a memory-driven Chief of Staff agent using NVIDIA NemoClaw. This AI agent reconstructs context to enhance productivity in enterprise workflows. Key features include a self model that organizes relevant information, tracks obligations, and allows user corrections to build trust. The design emphasizes maintaining context, separating evidence from action, and prioritizing user intent. For more insights, check the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson</title>
+      <link>/articles/article-2026-09-04-21664/</link>
+      <pubDate>Fri, 04 Sep 2026 16:21:04 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21664/</guid>
+      <description>🚀 Running AI at the edge is becoming easier! Recent advancements have led to the development of compact open models that can perform multi-step reasoning without relying on data centers. This shift allows NVIDIA Jetson to run models like Nemotron 3.5 Lightning and Qwen3.8-27B locally, enabling applications in various fields. Developers can now optimize inference performance and validate configurations more effectively. Key topics include model selection, NVFP4 quantization, and usage of vLLM&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>“Sorry for the messy rollout”: OpenAI launched GPT-6 Astra, but developers are locked out</title>
+      <link>/articles/article-2026-09-04-21639/</link>
+      <pubDate>Fri, 04 Sep 2026 16:04:42 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21639/</guid>
+      <description>OpenAI has launched GPT-6 Astra, but many developers are still awaiting access. CEO Sam Altman acknowledged the &amp;ldquo;messy rollout&amp;rdquo; and apologized for the delays. He stated that broader access for API customers and ChatGPT subscribers would begin soon, starting with Pro subscribers. While Astra&amp;rsquo;s API documentation is available, developers are still waiting for the rollout to complete. OpenAI&amp;rsquo;s engineering lead mentioned that the process will take a few days as they bring new systems online&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>OpenAI will sell you Astra, but not the system that scored 98.6% on ARC-AGI-3</title>
+      <link>/articles/article-2026-09-04-21640/</link>
+      <pubDate>Fri, 04 Sep 2026 15:25:17 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21640/</guid>
+      <description>OpenAI&amp;rsquo;s Astra model recently achieved impressive results on the ARC-AGI-3 benchmark, scoring 98.6% using the OpenAI Provider Adapter. 🧠✨ In contrast, the same model scored 62.7% with ARC Prize&amp;rsquo;s standard harness. This highlights the significance of harness engineering in AI performance and cost-effectiveness. The ARC-AGI-3 benchmark pushes models to learn in interactive environments without explicit guidance, showcasing the advancements in AI capabilities. 📊 #OpenAI #Astra #AI #Benchmarking&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Frontier AI just raised the stakes, and the old playbook won’t hold up</title>
+      <link>/articles/article-2026-09-04-21654/</link>
+      <pubDate>Fri, 04 Sep 2026 15:00:46 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21654/</guid>
+      <description>Frontier AI is transforming cybersecurity by accelerating vulnerability discovery. 📈 Recent updates from Project Glasswing revealed over 10,000 critical vulnerabilities in just a month. Companies like Mozilla and Cloudflare are seeing significant improvements in fixing these issues, but the challenge lies in keeping up with the discovery rate. With vulnerability exploitation now the top access vector, the need for layered defenses and rapid remediation is more critical than ever&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>AI agent evaluations are part of the product</title>
+      <link>/articles/article-2026-09-04-21641/</link>
+      <pubDate>Fri, 04 Sep 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21641/</guid>
+      <description>Evaluating AI agents is essential to ensure consistent performance. A team tests agents with representative questions, recording their responses to approve changes. However, updates can lead to unforeseen issues that may only surface through user feedback. To maintain quality, a repeatable evaluation system is crucial. This system should define correct behavior, separate results from processes, and focus on real user tasks. #AIEvaluation #ProductQuality #TechDevelopment #AI #UserFeedback 🤖🛠️📊</description>
+    </item>
+    <item>
+      <title>“1% of my engineers are responsible for 40% of token spend”: Why Coder and SpaceXAI want to give developers nice things</title>
+      <link>/articles/article-2026-09-04-21642/</link>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21642/</guid>
+      <description>🚀 Coder has launched its Coder Agent Relay service in partnership with SpaceXAI. This new service allows engineering teams to run coding-agent tools on their own infrastructure, enhancing compliance for regulated industries like banking and defense. 👩‍💻 Coder&amp;rsquo;s CEO, Rob Whiteley, notes that a small percentage of engineers account for a large portion of token spending, highlighting a gap in technology adoption. The focus is shifting towards upskilling developers rather than simply measuring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build AI-assisted firewall workflows with Ansible Automation Platform</title>
+      <link>/articles/article-2026-09-04-21659/</link>
+      <pubDate>Fri, 04 Sep 2026 07:01:12 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21659/</guid>
+      <description>Unlock the power of automation with Ansible! 🔒✨ The article discusses how to integrate AI-assisted workflows into firewall management. It highlights the ability to manage access requests, such as allowing app-client-01 to connect to the database on port 5432. Explore how Ansible can streamline these processes effectively. #Ansible #Automation #Cybersecurity #AI #FirewallManagement</description>
+    </item>
+    <item>
+      <title>Configure admission fair sharing in Red Hat build of Kueue 1.4</title>
+      <link>/articles/article-2026-09-04-21660/</link>
+      <pubDate>Fri, 04 Sep 2026 07:01:10 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21660/</guid>
+      <description>In shared AI and high-performance computing clusters, managing limited hardware resources like GPUs and CPUs is crucial for OpenShift platform engineers. The FIFO admission rule can lead to long wait times for later workloads, impacting service predictability. Red Hat build of Kueue 1.4 introduces two methods for ensuring fairness: fair sharing-based preemption and admission fair sharing. Learn more about optimizing resource management! 🚀💻 #OpenShift #Kueue #ResourceManagement #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Open by design: How Elastic supports MOSA, the DoD&#39;s Modular Open Systems Approach</title>
+      <link>/articles/article-2026-09-04-21668/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21668/</guid>
+      <description>The article discusses how Elastic supports the Department of Defense&amp;rsquo;s Modular Open Systems Approach (MOSA) for major defense acquisition programs. Since 2019, MOSA has been a requirement, emphasizing modular designs and consensus-based standards. Program offices must evaluate components based on their ability to support MOSA. Currently, there are no certified MOSA products. Instead, the focus is on assessing modularity, openness, scalability, flexibility, and reusability. Elastic plays a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why your AI bill tripled while token prices fell 75%</title>
+      <link>/articles/article-2026-09-04-21667/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-04-21667/</guid>
+      <description>AI bills are on the rise, despite a 75% drop in token prices. 🏷️ The reason? Agentic AI costs stem from complex workloads that require extensive reasoning and multiple interactions, leading to higher token consumption. Each step in a task can incur costs multiple times. IT leaders must adapt their strategies to manage these expenses effectively. 💡 #AI #TechTrends #CostManagement #AgenticAI #Innovation</description>
+    </item>
+    <item>
+      <title>How to Carry User Identity Across Federated Kubernetes and AI Platforms</title>
+      <link>/articles/article-2026-09-03-21665/</link>
+      <pubDate>Thu, 03 Sep 2026 22:36:02 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21665/</guid>
+      <description>Modern AI platforms are complex, often requiring users to navigate multiple clusters and services. A central identity gateway can streamline user identity across federated environments. Traditional single sign-on (SSO) methods fall short when users move between systems. A central gateway maintains user sessions while data-plane gateways validate identities for applications, enhancing security and user experience. This approach has shown a 55% reduction in login events at NVIDIA, supporting&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI spends $1 billion to expand Daybreak to defend power, water, and banking</title>
+      <link>/articles/article-2026-09-03-21643/</link>
+      <pubDate>Thu, 03 Sep 2026 21:22:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21643/</guid>
+      <description>🚀 OpenAI has announced a $1 billion initiative called Daybreak for Frontline Defenders. This global program aims to enhance cyber defense for essential services like power, water, and banking. The initiative expands access to OpenAI&amp;rsquo;s cyber models and training for defenders worldwide, including a pilot project with MS-ISAC in the U.S. to support local cyber defenders. OpenAI is also collaborating with over 150 organizations to promote advanced cyber capabilities and collective action in cyber&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your Agent Trusts Things You Never Approved</title>
+      <link>/articles/article-2026-09-03-21655/</link>
+      <pubDate>Thu, 03 Sep 2026 20:59:04 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21655/</guid>
+      <description>Recent breaches show a common pattern: attackers exploit trusted components rather than forcing entry. This highlights the need for vigilance in what systems we trust, including packages and tools. In the realm of networking, automation can enhance AI&amp;rsquo;s effectiveness by mitigating risks associated with spurious correlations. Stay informed and proactive! 🔐🔍 #CyberSecurity #Networking #Automation #AI #Trustworthiness</description>
+    </item>
+    <item>
+      <title>How to find failures without drowning in tracing data</title>
+      <link>/articles/article-2026-09-03-21644/</link>
+      <pubDate>Thu, 03 Sep 2026 20:17:25 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21644/</guid>
+      <description>Understanding system failures is vital for maintaining performance. 📊 Metrics dashboards provide a system&amp;rsquo;s health snapshot, while logs help identify specific failures. Tracing, however, tracks requests from origin to user, offering deeper insights into issues. Yet, managing tracing data can be overwhelming and costly. Techniques like head sampling and dynamic sampling can help manage data effectively. For more insights, check out the latest episode of The New Stack podcast featuring Sarah&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra’s score of 98.6% looked like AGI. Then researchers read the fine print.</title>
+      <link>/articles/article-2026-09-03-21645/</link>
+      <pubDate>Thu, 03 Sep 2026 19:05:24 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21645/</guid>
+      <description>OpenAI&amp;rsquo;s GPT-6 Astra scored 98.6% on the ARC-AGI-3 test, a significant improvement over GPT-5.6 Sol’s 7.8%. This test evaluates AI in unfamiliar environments, highlighting its ability to adapt. However, the score comes with caveats regarding the evaluation setup used. Astra also excelled in various benchmarks, scoring 97.6% on FrontierMath Tier 4 and 100% on ExploitBench. Notably, Astra contributed to new findings in prime number theory, showcasing its potential beyond just benchmarks. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cut GPU inference cold start from 8 minutes to less than a minute</title>
+      <link>/articles/article-2026-09-03-21646/</link>
+      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21646/</guid>
+      <description>🚀 New advancements in GPU inference! An article details how the cold start time for GPU models has been reduced from 8 minutes to under 1 minute. This improvement involves identifying and addressing six bottlenecks during the startup process. Key findings include that for a 64 GB model, 65% of time is spent recompiling CUDA kernels, while for a 203 GB model, 92% of time is spent on downloading weights. Many of these issues can be fixed with configuration changes. Optimizations can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The systems guide to production token optimization</title>
+      <link>/articles/article-2026-09-03-21647/</link>
+      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21647/</guid>
+      <description>Understanding production token optimization is crucial for scaling enterprise AI applications. Many teams mistake rising API bills as the core issue, but it’s more about efficient token management. Token optimization involves tackling distributed systems and hardware utilization challenges. The article discusses how systems like Concierge and Pathfinder faced bottlenecks due to autoregressive costs. It highlights the importance of recognizing that a token is not merely a word, with providers&amp;hellip;</description>
+    </item>
+    <item>
+      <title>OpenAI launches GPT-6 Astra and says welcome to the “AGI era”</title>
+      <link>/articles/article-2026-09-03-21648/</link>
+      <pubDate>Thu, 03 Sep 2026 18:02:40 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21648/</guid>
+      <description>🚀 OpenAI has launched GPT-6 Astra, claiming it to be “the world’s most intelligent and aligned model.” During a press briefing, President Greg Brockman suggested that we may now be entering the AGI era, though he emphasized that the concept of AGI is still evolving. Astra represents OpenAI’s largest training run, utilizing over 100,000 GPUs. #OpenAI #GPT6 #AGI #ArtificialIntelligence #TechNews</description>
+    </item>
+    <item>
+      <title>Speeding up LLM inference with P-EAGLE in vLLM Speculators</title>
+      <link>/articles/article-2026-09-03-21661/</link>
+      <pubDate>Thu, 03 Sep 2026 17:56:11 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21661/</guid>
+      <description>🚀 Amazon has introduced P-EAGLE, a new speculative decoding algorithm designed to enhance LLM inference. This innovation builds on EAGLE-3 by incorporating parallel drafting, which aims to improve efficiency in processing. Discover how P-EAGLE is set to advance speculative decoding technology in the latest update. #TechInnovation #MachineLearning #Amazon #SpeculativeDecoding #AI</description>
+    </item>
+    <item>
+      <title>“Hugging Face will remain an open platform”: Nvidia strikes $12.9B deal for the ‘GitHub of AI’</title>
+      <link>/articles/article-2026-09-03-21649/</link>
+      <pubDate>Thu, 03 Sep 2026 17:52:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21649/</guid>
+      <description>Nvidia has confirmed its acquisition of Hugging Face for $12.9 billion, a major move in the AI industry. 🤖 Despite concerns about platform openness, CEO Jensen Huang assures that Hugging Face will remain an open platform. It will continue to support multiple cloud services and hardware, ensuring neutrality in AI development. ☁️🔧 Huang emphasizes that Nvidia&amp;rsquo;s own compute resources will not be mandatory for using Hugging Face. The focus remains on fostering an inclusive AI ecosystem. 🌐 #Nvidia&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cisco and the DISA STIG: Turning Zero Trust Policy into Repeatable Practice – Part 1: Cisco ISE</title>
+      <link>/articles/article-2026-09-03-21656/</link>
+      <pubDate>Thu, 03 Sep 2026 17:50:30 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21656/</guid>
+      <description>🚀 The updated DISA STIG for Cisco Identity Services Engine (ISE) aids DoD teams in implementing security policies into actionable controls. 🔒 This framework helps enforce Zero Trust and enhances network access security in critical environments. Learn more about this important development! #ZeroTrust #CyberSecurity #Cisco #DISA #DoD</description>
+    </item>
+    <item>
+      <title>AI Agents built a 3D city for $33 in two hours —and exposed a major flaw</title>
+      <link>/articles/article-2026-09-03-21650/</link>
+      <pubDate>Thu, 03 Sep 2026 17:34:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21650/</guid>
+      <description>PhiloLabs conducted an experiment using AI coding agents to build a 3D version of San Francisco’s Union Square in just two hours. 🏙️💻 The project utilized real-world data and resulted in a detailed scene with buildings, storefronts, and moving pedestrians. The total cost for the API calls was approximately $33. To identify visual flaws, the agents created 147 comparison sheets, allowing for a detailed review of the model. They produced nine reports to address issues like proportions and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Pulse: Meta wanted to reduce teams by 60% because of AI</title>
+      <link>/articles/article-2026-09-03-21637/</link>
+      <pubDate>Thu, 03 Sep 2026 17:01:49 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21637/</guid>
+      <description>🚨 Meta&amp;rsquo;s leadership considered a significant reduction in team sizes by 60% as part of an &amp;ldquo;AI-native&amp;rdquo; strategy. This plan, known as Project Organization Transformation, aimed to shift many tasks from human employees to AI systems. However, CEO Mark Zuckerberg later reversed this decision. The outcome has led to low employee morale and technical issues, such as recent outages on Instagram. #Meta #AI #TechNews #Leadership #WorkplaceCulture</description>
+    </item>
+    <item>
+      <title>Evaluating LLM guardrail configs locally with EvalHub</title>
+      <link>/articles/article-2026-09-03-21662/</link>
+      <pubDate>Thu, 03 Sep 2026 16:58:28 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21662/</guid>
+      <description>In part 2 of the series on local guardrail development, the focus is on evaluating LLM guardrail configurations using EvalHub. The article expands on the design and development process discussed in the first part, emphasizing the importance of manual testing to ensure effectiveness. Stay tuned for further insights on enhancing local configurations! 🔍💻 #EvalHub #LLM #GuardrailDevelopment #RedHat #TechInsights</description>
+    </item>
+    <item>
+      <title>Nvidia PAIR lets you put your idle Macs and PCs to work for AI agents</title>
+      <link>/articles/article-2026-09-03-21651/</link>
+      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21651/</guid>
+      <description>🚀 Nvidia has introduced the Personal AI Router (PAIR), an open-source software designed to utilize idle Macs and PCs for running AI models. This tool optimizes workflows by allowing lead agents to delegate tasks to subagents across different devices. PAIR identifies eligible machines on your network and routes requests accordingly. It supports Windows, macOS, and Linux with compatible GPUs, enhancing local AI capabilities. #Nvidia #AI #TechNews #OpenSource #MachineLearning</description>
+    </item>
+    <item>
+      <title>NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network</title>
+      <link>/articles/article-2026-09-03-21666/</link>
+      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21666/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://developer.nvidia.com/blog/feed&#34;&gt;Nvidia Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Want to scale AI agents without breaking anything? Retrieval engineering is the answer.</title>
+      <link>/articles/article-2026-09-03-21652/</link>
+      <pubDate>Thu, 03 Sep 2026 15:38:20 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21652/</guid>
+      <description>🚀 AI agents are on the rise as businesses increasingly adopt this technology. However, as deployment scales, challenges with data retrieval are emerging. ⚙️ Companies face issues with concurrency and ensuring that AI information is up-to-date and accessible. This can hinder the effectiveness of AI agents in production. 💬 Join a live discussion on September 24 at 12 p.m. ET, featuring experts from GigaOm and Vespa.ai. They will delve into improving retrieval architecture for better&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“Google was ahead only a few hours”: Muse Spark 1.3 edges out Gemini as Meta claims its biggest coding leap yet</title>
+      <link>/articles/article-2026-09-03-21653/</link>
+      <pubDate>Thu, 03 Sep 2026 15:37:07 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21653/</guid>
+      <description>🚀 Exciting developments from Meta this week! The company officially launched its Muse Code coding agent and introduced Muse Spark 1.3, claiming significant improvements in coding tasks. Meta&amp;rsquo;s CEO, Mark Zuckerberg, highlighted the model&amp;rsquo;s &amp;ldquo;frontier performance&amp;rdquo; and noted that open-weight releases are coming soon, though details on licensing are still pending. Additionally, Zuckerberg teased the upcoming model, codenamed Watermelon. 🍉 Stay tuned for more updates! #Meta #AI #Coding #MuseSpark&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Crypto Agility: Why PQC Is Not a One-Time Upgrade</title>
+      <link>/articles/article-2026-09-03-21657/</link>
+      <pubDate>Thu, 03 Sep 2026 15:00:56 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21657/</guid>
+      <description>🔒 Crypto agility is vital for networks adopting post-quantum cryptography (PQC). It allows organizations to update cryptographic methods without overhauling their infrastructure. As quantum computing and AI evolve, so do security threats. This demands adaptable systems that can keep pace with changing standards and vulnerabilities. For lasting security, organizations must design infrastructure for ongoing evolution, not just a one-time upgrade. #CryptoAgility #PQC #Cybersecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Backbone of Modern AI Data Centers: Networking the Gray Space</title>
+      <link>/articles/article-2026-09-03-21658/</link>
+      <pubDate>Thu, 03 Sep 2026 13:19:25 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21658/</guid>
+      <description>AI data centers depend on effective networking to enhance uptime, security, and efficiency. Cisco&amp;rsquo;s approach integrates white and gray spaces, providing a unified solution. This strategy aims to support the growing demands of AI technologies. Discover more about Cisco&amp;rsquo;s innovations at ITS World Congress 2025, Booth #1741. 🚀💻 #AIdatacenters #Cisco #Networking #ITS2025 #Innovation</description>
+    </item>
+    <item>
+      <title>Learning to Code in the Age of AI: Advice From a Top Udemy Instructor</title>
+      <link>/articles/article-2026-09-03-21672/</link>
+      <pubDate>Thu, 03 Sep 2026 10:45:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21672/</guid>
+      <description>🚀 In a recent interview with Ardit Sulce, a leading Python instructor on Udemy, key insights were shared on learning to code in the AI era. He emphasizes the importance of practical application, stating that beginners should focus on building real projects with professional tools. Ardit also discusses the evolving role of teachers, noting that AI now handles many basic queries, allowing educators to focus on more complex student needs. For junior developers, mastering three key skills is&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More</title>
+      <link>/articles/article-2026-09-03-21673/</link>
+      <pubDate>Thu, 03 Sep 2026 10:40:05 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21673/</guid>
+      <description>🚀 Kotlin Toolchain 0.12.0 has been released! This update introduces key features including multiplatform libraries publication and a preview for Wasm application support. It also enhances Compose Hot Reload from the command line. klibs.io now operates on Kotlin Toolchain in production, utilizing JDK 21, Spring Boot 4, and PostgreSQL. For full details, including changes and bug fixes, check the release notes! #Kotlin #SoftwareDevelopment #TechUpdate #Wasm #Multiplatform</description>
+    </item>
     <item>
       <title>Evaluate AI agents with IBM CLEAR &amp; EvalHub on OpenShift AI</title>
       <link>/articles/article-2026-09-03-21636/</link>
@@ -21,6 +259,34 @@
       <pubDate>Thu, 03 Sep 2026 03:01:18 +0000</pubDate>
       <guid>/articles/article-2026-09-03-21635/</guid>
       <description>🚀 Migrating to Red Hat OpenShift Virtualization can modernize your infrastructure without disrupting existing network settings. However, traditional systems often face challenges in maintaining connectivity for imported VMs and ensuring multi-tenant isolation. The article highlights solutions using BGP and EVPN to streamline these processes. #RedHat #OpenShift #Virtualization #Networking #BGP #EVPN</description>
+    </item>
+    <item>
+      <title>Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation</title>
+      <link>/articles/article-2026-09-03-21669/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21669/</guid>
+      <description>📢 Tencent Cloud and Elastic have expanded their strategic partnership to enhance AI search capabilities for enterprises. In August 2026, they announced a deeper collaboration focused on AI search, enterprise data, and agentic applications. This aims to help businesses establish dedicated AI search foundations. 🤝 They also launched the Tencent Cloud Elasticsearch Service (ES) Enterprise Edition, integrating Elastic&amp;rsquo;s search and AI capabilities. As AI evolves, the need for real-time access to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Elastic Stack 9.5.3 released</title>
+      <link>/articles/article-2026-09-03-21671/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21671/</guid>
+      <description>🚀 Version 9.5.3 of the Elastic Stack has been released! Upgrading to this latest version is recommended for improved performance over 9.5.2. For a detailed overview of fixed issues and changes, check the release notes. 💻 Explore the benefits of Elastic Cloud with a free trial! #ElasticStack #SoftwareUpdate #TechNews #DataManagement #Elasticsearch</description>
+    </item>
+    <item>
+      <title>The security attack that hid inside your observability data</title>
+      <link>/articles/article-2026-09-03-21670/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-03-21670/</guid>
+      <description>🚨 Cybersecurity Alert! 🚨 A recent article highlights the risks of having separate observability and security platforms. When an ops team sees a CPU spike but the security team sees nothing, attackers can exploit this gap. A cryptominer can disguise itself as a normal process, leading to costly oversights. The lack of unified data means threats can go unnoticed, and organizations may end up duplicating costs. It&amp;rsquo;s crucial for teams to integrate observability and security for better threat&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Register Now for JetBrains GameDev Day 2026</title>
+      <link>/articles/article-2026-09-02-21674/</link>
+      <pubDate>Wed, 02 Sep 2026 23:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-02-21674/</guid>
+      <description>🚀 Exciting news for game developers! JetBrains GameDev Day returns on September 28 with a full day of practical talks focused on game production. Topics include AI integration, debugging, and performance profiling across various engines like Unity and Unreal. Join for free online or attend watch parties in Belgrade and Limassol. Don&amp;rsquo;t miss this opportunity to learn from industry experts! 🗓️ Register now to secure your spot! #GameDevDay #JetBrains #GameDevelopment #Unity #UnrealEngine</description>
     </item>
     <item>
       <title>Multiverse says its 438B model is fast enough for AI agents. The benchmarks tell a more complicated story.</title>

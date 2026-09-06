@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 13:30:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polars 2.0 pre-release comes with a 5x speed boost — but it could change row order</title>
+      <link>/articles/article-2026-09-06-21678/</link>
+      <pubDate>Sun, 06 Sep 2026 13:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-06-21678/</guid>
+      <description>🚀 Polars 2.0 pre-release offers a significant performance boost, promising up to 5x faster query execution with its new streaming engine. However, users should note that this change may alter the order of returned rows, impacting processes relying on specific row arrangements. To mitigate this risk, users can enforce row order by sorting or using the maintain_order=True option. #Polars #DataProcessing #OpenSource #DataAnalysis #PerformanceBoost</description>
+    </item>
     <item>
       <title>Building trust in agentic RAG starts with evidence</title>
       <link>/articles/article-2026-09-05-21677/</link>

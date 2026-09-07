@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2026 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 03:00:55 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
+      <link>/articles/article-2026-09-07-21680/</link>
+      <pubDate>Mon, 07 Sep 2026 03:00:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21680/</guid>
+      <description>🔍 Red Hat Advanced Cluster Security for Kubernetes offers an image scanning API crucial for CI/CD pipelines assessing vulnerabilities. 🚫 However, upgrades and restarts can cause downtime, disrupting essential build processes. This article outlines a reference architecture that resolves this issue by utilizing two Central service instances along with a client-side failover mechanism. #Kubernetes #RedHat #DevOps #Cybersecurity #HAScanning</description>
+    </item>
+    <item>
+      <title>Permissions belong in the assembly context</title>
+      <link>/articles/article-2026-09-07-21679/</link>
+      <pubDate>Mon, 07 Sep 2026 03:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21679/</guid>
+      <description>🔍 Understanding permissions in data context is crucial. When team members transition roles, existing data access can remain unchecked for hours. This raises concerns about unauthorized information retrieval. The article emphasizes that permissions should be integrated into context assembly, rather than applied as an afterthought. Proper structuring ensures that sensitive data remains protected. Major platforms, like AWS, are evolving to incorporate these principles, but many businesses&amp;hellip;</description>
+    </item>
     <item>
       <title>Polars 2.0 pre-release comes with a 5x speed boost — but it could change row order</title>
       <link>/articles/article-2026-09-06-21678/</link>

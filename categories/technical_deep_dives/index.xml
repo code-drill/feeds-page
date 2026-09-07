@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 03:00:55 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
+      <link>/articles/article-2026-09-07-21680/</link>
+      <pubDate>Mon, 07 Sep 2026 03:00:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21680/</guid>
+      <description>🔍 Red Hat Advanced Cluster Security for Kubernetes offers an image scanning API crucial for CI/CD pipelines assessing vulnerabilities. 🚫 However, upgrades and restarts can cause downtime, disrupting essential build processes. This article outlines a reference architecture that resolves this issue by utilizing two Central service instances along with a client-side failover mechanism. #Kubernetes #RedHat #DevOps #Cybersecurity #HAScanning</description>
+    </item>
     <item>
       <title>Building trust in agentic RAG starts with evidence</title>
       <link>/articles/article-2026-09-05-21677/</link>

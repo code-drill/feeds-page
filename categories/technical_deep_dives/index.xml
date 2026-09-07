@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 03:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 07:01:34 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding W8A8 INT8 LLM quantization: Half the size, better performance, same accuracy</title>
+      <link>/articles/article-2026-09-07-21681/</link>
+      <pubDate>Mon, 07 Sep 2026 07:01:34 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21681/</guid>
+      <description>Large language models like Llama 3.1 8B require significant GPU memory, around 15 GB when using Bfloat16 (BF16) precision. This includes storage for 8 billion parameters and additional memory for key-value caches and activations during inference. W8A8 INT8 quantization offers a solution by reducing model size while maintaining performance and accuracy. 🔍💡📉 #MachineLearning #AI #ModelOptimization #Quantization</description>
+    </item>
     <item>
       <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
       <link>/articles/article-2026-09-07-21680/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 03:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 07:01:34 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding W8A8 INT8 LLM quantization: Half the size, better performance, same accuracy</title>
+      <link>/articles/article-2026-09-07-21681/</link>
+      <pubDate>Mon, 07 Sep 2026 07:01:34 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21681/</guid>
+      <description>Large language models like Llama 3.1 8B require significant GPU memory, around 15 GB when using Bfloat16 (BF16) precision. This includes storage for 8 billion parameters and additional memory for key-value caches and activations during inference. W8A8 INT8 quantization offers a solution by reducing model size while maintaining performance and accuracy. 🔍💡📉 #MachineLearning #AI #ModelOptimization #Quantization</description>
+    </item>
+    <item>
+      <title>Red Hat Developer Hub software template authoring with rhdh-templates</title>
+      <link>/articles/article-2026-09-07-21682/</link>
+      <pubDate>Mon, 07 Sep 2026 07:01:32 +0000</pubDate>
+      <guid>/articles/article-2026-09-07-21682/</guid>
+      <description>🚀 Red Hat Developer Hub offers a new approach to software template authoring with rhdh-templates. Platform engineers and developers often face challenges with Nunjucks syntax and locating YAML files. The process can lead to errors that are only identified after rendering in the developer portal. AI tools may assist with generic YAML, but they do not support the specific conventions of Red Hat Developer Hub and Backstage. #RedHat #DeveloperHub #YAML #SoftwareTemplates #TechNews</description>
+    </item>
     <item>
       <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
       <link>/articles/article-2026-09-07-21680/</link>

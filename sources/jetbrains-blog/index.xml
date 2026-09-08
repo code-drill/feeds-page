@@ -6,8 +6,15 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 10:54:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 12:34:18 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debug Past an HTTP 403 Without Breaking Spring Security</title>
+      <link>/articles/article-2026-09-08-21700/</link>
+      <pubDate>Tue, 08 Sep 2026 12:34:18 +0000</pubDate>
+      <guid>/articles/article-2026-09-08-21700/</guid>
+      <description>Debugging Spring MVC can sometimes lead to unexpected HTTP 403 errors. 🛠️ When encountering these responses, it’s crucial to identify the required roles for the endpoint. IntelliJ IDEA offers inlays that simplify this process by displaying role-based requirements without modifying the SecurityConfig. You can also choose to unlock the endpoint temporarily for your debugging session. However, be cautious, as this action affects all requests to that URI, not just those from the IDE. 🔒&amp;hellip;</description>
+    </item>
     <item>
       <title>TypeScript 7 in WebStorm: Faster Coding Assistance for Angular and React, No Migration Required</title>
       <link>/articles/article-2026-09-08-21695/</link>

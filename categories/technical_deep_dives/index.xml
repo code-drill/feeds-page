@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 12:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 14:20:16 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize vLLM speculative decoding with FastMTP heads</title>
+      <link>/articles/article-2026-09-08-21703/</link>
+      <pubDate>Tue, 08 Sep 2026 14:20:16 +0000</pubDate>
+      <guid>/articles/article-2026-09-08-21703/</guid>
+      <description>Large language models (LLMs) face challenges with autoregressive decoding, as they rely heavily on memory bandwidth. Each token requires a full forward pass over billions of parameters, leading to inefficiencies. The article discusses the MTP training objective, which helps models like DeepSeek and Qwen predict multiple future tokens, enhancing data efficiency and quality. For more insights, check out the full article! 📈💡 #LLM #DataEfficiency #MachineLearning #FastMTP #RedHatDeveloper</description>
+    </item>
     <item>
       <title>Debug Past an HTTP 403 Without Breaking Spring Security</title>
       <link>/articles/article-2026-09-08-21700/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in JetBrains-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 12:51:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:45:27 +0000</lastBuildDate>
     <atom:link href="/sources/jetbrains-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem</title>
+      <link>/articles/article-2026-09-09-21724/</link>
+      <pubDate>Wed, 09 Sep 2026 16:45:27 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21724/</guid>
+      <description>ReSharper&amp;rsquo;s recent launch of its out-of-process (OOP) architecture faced challenges with slower startup times on Windows. Initial profiling revealed that Microsoft Defender was scanning the ReSharper process longer than anticipated. This unexpected latency impacted user experience, prompting further investigation. Collaborating with Microsoft, JetBrains developed a tool for measuring Defender&amp;rsquo;s impact, enhancing performance insights for its community. Learn more about their findings and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Get Gemini 3.8 Flash With 75% Off</title>
+      <link>/articles/article-2026-09-09-21725/</link>
+      <pubDate>Wed, 09 Sep 2026 14:18:17 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21725/</guid>
+      <description>🚀 Exciting news! Google has launched Gemini 3.8 Flash, designed for long engineering tasks and now available at 75% off. This version focuses on exploring multi-step tasks to ensure accuracy, making it a strong tool for complex projects. For quick fixes, Gemini 3.7 Flash remains a cost-effective option. Don&amp;rsquo;t miss this limited-time offer! #GoogleGemini #CodingTools #TechInnovation #SoftwareDevelopment #DiscountDeal</description>
+    </item>
     <item>
       <title>Join our live webinars: Migrating from Atlassian to YouTrack</title>
       <link>/articles/article-2026-09-09-21717/</link>

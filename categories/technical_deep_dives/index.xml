@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 10:39:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:45:27 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem</title>
+      <link>/articles/article-2026-09-09-21724/</link>
+      <pubDate>Wed, 09 Sep 2026 16:45:27 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21724/</guid>
+      <description>ReSharper&amp;rsquo;s recent launch of its out-of-process (OOP) architecture faced challenges with slower startup times on Windows. Initial profiling revealed that Microsoft Defender was scanning the ReSharper process longer than anticipated. This unexpected latency impacted user experience, prompting further investigation. Collaborating with Microsoft, JetBrains developed a tool for measuring Defender&amp;rsquo;s impact, enhancing performance insights for its community. Learn more about their findings and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deploy NeMo Guardrails on Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-09-09-21722/</link>
+      <pubDate>Wed, 09 Sep 2026 15:05:01 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21722/</guid>
+      <description>In part 3 of the series on local guardrail development, the focus is on deploying NeMo Guardrails on Red Hat OpenShift AI. The previous articles covered designing guardrail configurations and conducting manual testing. The second part emphasized rigorous testing against large-scale risk datasets. This series offers valuable insights for developers. 📊🔧 #NeMoGuardrails #RedHat #OpenShiftAI #TechDevelopment #DataSafety</description>
+    </item>
     <item>
       <title>The Evolution of WSL Support in JetBrains IDEs</title>
       <link>/articles/article-2026-09-09-21714/</link>

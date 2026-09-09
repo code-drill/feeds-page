@@ -6,8 +6,57 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 14:01:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:45:27 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem</title>
+      <link>/articles/article-2026-09-09-21724/</link>
+      <pubDate>Wed, 09 Sep 2026 16:45:27 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21724/</guid>
+      <description>ReSharper&amp;rsquo;s recent launch of its out-of-process (OOP) architecture faced challenges with slower startup times on Windows. Initial profiling revealed that Microsoft Defender was scanning the ReSharper process longer than anticipated. This unexpected latency impacted user experience, prompting further investigation. Collaborating with Microsoft, JetBrains developed a tool for measuring Defender&amp;rsquo;s impact, enhancing performance insights for its community. Learn more about their findings and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How much control should AI get? A CISO roundtable takes on SOC autonomy</title>
+      <link>/articles/article-2026-09-09-21719/</link>
+      <pubDate>Wed, 09 Sep 2026 15:38:58 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21719/</guid>
+      <description>Security operations centers (SOCs) face challenges with alert management, and AI is emerging as a solution. AI can autonomously investigate alerts, analyze data from various systems, and suggest actions, helping analysts manage the growing volume of potential threats. This shift raises important questions about the level of control organizations are willing to relinquish to AI. 🤖🔍 Discussion points from the recent CISO Roundtable include the balance between AI assistance and autonomy, the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Built for agents: Omarchy&#39;s pipeline moves to DigitalOcean</title>
+      <link>/articles/article-2026-09-09-21723/</link>
+      <pubDate>Wed, 09 Sep 2026 15:30:15 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21723/</guid>
+      <description>🚀 Omarchy, the innovative keyboard-first Linux desktop by David Heinemeier Hansson, has migrated its production pipeline to DigitalOcean. This move enhances their ability to manage bursty agent workloads efficiently. DigitalOcean’s infrastructure supports a streamlined process for provisioning Droplets, executing tasks, and optimizing resources. Additionally, DigitalOcean joins the Omacom Foundation as a Founding Corporate Patron, reinforcing their commitment to open source. 🌐 Stay tuned for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Deploy NeMo Guardrails on Red Hat OpenShift AI</title>
+      <link>/articles/article-2026-09-09-21722/</link>
+      <pubDate>Wed, 09 Sep 2026 15:05:01 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21722/</guid>
+      <description>In part 3 of the series on local guardrail development, the focus is on deploying NeMo Guardrails on Red Hat OpenShift AI. The previous articles covered designing guardrail configurations and conducting manual testing. The second part emphasized rigorous testing against large-scale risk datasets. This series offers valuable insights for developers. 📊🔧 #NeMoGuardrails #RedHat #OpenShiftAI #TechDevelopment #DataSafety</description>
+    </item>
+    <item>
+      <title>Cisco and Axis Communications: Greater visibility, scalability, and incident management</title>
+      <link>/articles/article-2026-09-09-21720/</link>
+      <pubDate>Wed, 09 Sep 2026 15:00:31 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21720/</guid>
+      <description>Cisco and Axis Communications have introduced a new integration that allows users to manage Axis devices directly through the Meraki dashboard. This collaboration enhances both IT and physical security management by providing centralized visibility and streamlined operations on a single platform. This scalable solution aims to improve incident management for organizations. 🔗 #Cisco #AxisCommunications #Meraki #Security #Technology</description>
+    </item>
+    <item>
+      <title>Now generally available: See how Stack Automation by Quali cuts deployment time</title>
+      <link>/articles/article-2026-09-09-21721/</link>
+      <pubDate>Wed, 09 Sep 2026 15:00:14 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21721/</guid>
+      <description>🚀 Stack Automation by Quali, in collaboration with Cisco, is now available! This solution significantly reduces manual infrastructure deployment time, transforming the process into an automated experience that only takes minutes. Say goodbye to lengthy deployments and embrace efficiency! ⏱️ #StackAutomation #Quali #Cisco #CloudSolutions #InfrastructureAutomation</description>
+    </item>
+    <item>
+      <title>Get Gemini 3.8 Flash With 75% Off</title>
+      <link>/articles/article-2026-09-09-21725/</link>
+      <pubDate>Wed, 09 Sep 2026 14:18:17 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21725/</guid>
+      <description>🚀 Exciting news! Google has launched Gemini 3.8 Flash, designed for long engineering tasks and now available at 75% off. This version focuses on exploring multi-step tasks to ensure accuracy, making it a strong tool for complex projects. For quick fixes, Gemini 3.7 Flash remains a cost-effective option. Don&amp;rsquo;t miss this limited-time offer! #GoogleGemini #CodingTools #TechInnovation #SoftwareDevelopment #DiscountDeal</description>
+    </item>
     <item>
       <title>Use a local and open source code assistant</title>
       <link>/articles/article-2026-09-09-21716/</link>

@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2026/08/04/mitigate-newidle-linux-kernel-scheduler-regression" target="_blank">One kernel feature, 93% system throughput gone: A Red Hat Enterprise Linux 10.2 kernel regression and how to mitigate it</a></h2>
+            <div class="publication-date">2026-08-04 03:16</div>
+            <div class="summary">🚨 Red Hat Enterprise Linux 10.2 has a kernel regression causing up to 93% throughput loss on multi-NUMA instances. This issue primarily affects larger machines, while smaller instances remain largely unaffected. To mitigate this, users can disable the NI_RANDOM scheduler feature without needing a reboot: `echo NO_NI_RANDOM &gt; /sys/kernel/debug/sched/features` For detailed insights, refer to the full article. #RedHat #Linux #KernelRegression #Performance #TechUpdate</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Sayali Bhavsar</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/" target="_blank">NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage</a></h2>
             <div class="publication-date">2026-08-03 16:00</div>
             <div class="summary">NVIDIA&#39;s new Vera BlueField-4 STX Storage Processor enhances AI-native storage systems. It improves encryption, compression, integrity checking, and recovery, addressing the growing demands of concurrent AI agents. Faster processing reduces CPU load and power use while increasing efficiency. The benchmark shows Vera outperforming traditional x86 CPUs, optimizing data flow and performance. #NVIDIA #AI #DataStorage #TechNews #Innovation 🚀💻📊🔒</div>
@@ -1099,23 +1116,6 @@
             <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
             
             <div class="author">Sajjan Gundapuneedi</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/kubernetes-controllers-at-scale/" target="_blank">From intent to enforcement: Lessons from operating Kubernetes controllers at scale</a></h2>
-            <div class="publication-date">2026-07-17 12:00</div>
-            <div class="summary">Kubernetes controllers are essential for maintaining the platform’s declarative model. They observe system states and ensure intent is met, even as conditions change. However, operating at scale introduces challenges, particularly in maintaining correctness while dealing with cache lag and object churn. In Amazon EKS, two key controllers address these issues: the Network Policy Controller and the VPC Resource Controller. The former manages traffic within the cluster, while the latter assigns...</div>
-            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
-            
-            <div class="author">Sri Saran Balaji Vellore Rajakumar</div>
             
             
             <div class="categories">

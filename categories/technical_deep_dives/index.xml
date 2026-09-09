@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 16:45:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 20:31:04 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving</title>
+      <link>/articles/article-2026-09-09-21733/</link>
+      <pubDate>Wed, 09 Sep 2026 20:31:04 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21733/</guid>
+      <description>🚀 Explore the benefits of Encode-Prefill-Decode (EPD) disaggregation for multimodal models! This technique optimizes inference by separating vision encoding from prefill and decode stages, significantly enhancing performance. With NVIDIA Dynamo, users can achieve up to 5x faster time to first token and 7x quicker end-to-end responses. However, EPD disaggregation is not always the best choice. It&amp;rsquo;s ideal for image-heavy prompts and quantized mixture-of-experts models. #AI #MachineLearning&amp;hellip;</description>
+    </item>
     <item>
       <title>Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem</title>
       <link>/articles/article-2026-09-09-21724/</link>

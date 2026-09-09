@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 20:31:04 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving</title>
+      <link>/articles/article-2026-09-09-21733/</link>
+      <pubDate>Wed, 09 Sep 2026 20:31:04 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21733/</guid>
+      <description>🚀 Explore the benefits of Encode-Prefill-Decode (EPD) disaggregation for multimodal models! This technique optimizes inference by separating vision encoding from prefill and decode stages, significantly enhancing performance. With NVIDIA Dynamo, users can achieve up to 5x faster time to first token and 7x quicker end-to-end responses. However, EPD disaggregation is not always the best choice. It&amp;rsquo;s ideal for image-heavy prompts and quantized mixture-of-experts models. #AI #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs</title>
+      <link>/articles/article-2026-09-09-21734/</link>
+      <pubDate>Wed, 09 Sep 2026 20:24:12 +0000</pubDate>
+      <guid>/articles/article-2026-09-09-21734/</guid>
+      <description>🚀 Exciting updates in CUDA Toolkit 13.4! This release introduces support for Windows on Arm, expanding developer capabilities on this platform. Previously available only on Linux, CUDA applications can now run seamlessly on Windows. Key highlights include early access to the NVIDIA Rubin architecture, improved GPU management with Multi-Process Service V3, and advancements in CUDA Python functionality. These enhancements aim to optimize GPU resource management and improve performance for&amp;hellip;</description>
+    </item>
     <item>
       <title>Introducing CUDA Rust: Two Tracks for Writing GPU Kernels</title>
       <link>/articles/article-2026-09-08-21698/</link>

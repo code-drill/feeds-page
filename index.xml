@@ -6,8 +6,50 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 10:37:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fable 5.1 vs. Fable 5: Results on a real-world budget, not the spec sheet</title>
+      <link>/articles/article-2026-09-10-21739/</link>
+      <pubDate>Thu, 10 Sep 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21739/</guid>
+      <description>🚀 Anthropic recently launched Claude Fable 5.1, highlighting its Terminal-Bench-Science score of 52.6%, significantly higher than Fable 5&amp;rsquo;s 24.7%. However, the testing conditions for these scores are not typical for average users. The benchmark allows for extensive resources and time that most do not have. To assess real-world performance, I tested both models on common tasks with a modest budget. The results showed that Fable 5 and 5.1 are closer in everyday use than the benchmark indicates&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>47,000 job listings reveal the engineering roles that AI is creating</title>
+      <link>/articles/article-2026-09-10-21740/</link>
+      <pubDate>Thu, 10 Sep 2026 13:09:28 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21740/</guid>
+      <description>🚀 Major shifts in technology are reshaping engineering roles! A recent analysis of 47,000 job postings reveals over 2,000 skills leading to 23 new job titles in AI and ML. Companies are merging existing roles to adapt to AI demands, with many roles requiring diverse skill sets. As organizations evolve, understanding the balance between AI and human skills is vital. Explore the emerging engineering jobs and how to attract tech talent in this changing landscape. #AIJobs #Engineering #TechTalent&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From token consumer to token provider: Building your org&#39;s AI API</title>
+      <link>/articles/article-2026-09-10-21744/</link>
+      <pubDate>Thu, 10 Sep 2026 13:01:50 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21744/</guid>
+      <description>AI implementation is proving costly for organizations, as many have opted to use external AI providers for their workflows. Initially, this approach seemed effective due to accessible APIs and reliable models. However, unexpected expenses have raised concerns among businesses. Exploring the shift from being token consumers to becoming token providers could help organizations manage costs better. 🌐💡 #AI #BusinessStrategy #TechTrends #Innovation</description>
+    </item>
+    <item>
+      <title>Stop AI code sprawl before it destroys your software design</title>
+      <link>/articles/article-2026-09-10-21741/</link>
+      <pubDate>Thu, 10 Sep 2026 12:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21741/</guid>
+      <description>AI code generators can speed up development, but they introduce a significant risk: Comprehension Debt. This occurs when teams lose understanding of their software architecture due to AI-generated code that may function correctly but violates design principles. To combat this, the article suggests transitioning from passive documentation to Executable Architecture using tools like pytest-archon. It emphasizes the importance of CI/CD pipelines to monitor architectural boundaries, as human&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Unpacking My Bags: How I Found Belonging, Scale, and Real-Time Networking at Cisco</title>
+      <link>/articles/article-2026-09-10-21743/</link>
+      <pubDate>Thu, 10 Sep 2026 12:00:13 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21743/</guid>
+      <description>🌟 Altanai B. shares her unique career journey in her article, highlighting how she discovered a sense of belonging at Cisco. She emphasizes the importance of real-time networking and support within the company. Additionally, Maria E. reflects on her impact at Cisco after engaging with students in the High Externship Program. #CareerJourney #Cisco #Networking #Belonging #TechCommunity</description>
+    </item>
+    <item>
+      <title>AI floods security teams with flaws — business context sets priorities</title>
+      <link>/articles/article-2026-09-10-21742/</link>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21742/</guid>
+      <description>A recent article highlights a critical issue in security teams overwhelmed by AI-generated alerts. A security researcher identified an exposed database during a routine scan. Initially flagged for concern, it turned out to be a test database, not containing sensitive data. This illustrates the challenge of assessing vulnerabilities accurately. With increasing data flow and limited resources, prioritizing security tasks has become essential. Experts, like Jon Rose from IOmergent, emphasize the&amp;hellip;</description>
+    </item>
     <item>
       <title>Join Us at the Zephyr Project Meetup in Amsterdam</title>
       <link>/articles/article-2026-09-10-21738/</link>
@@ -35,6 +77,13 @@
       <pubDate>Thu, 10 Sep 2026 09:00:00 +0000</pubDate>
       <guid>/articles/article-2026-09-10-21737/</guid>
       <description>NVIDIA&amp;rsquo;s supply chain is among the most complex globally, measured from &amp;ldquo;wafer-out&amp;rdquo; to &amp;ldquo;first token.&amp;rdquo; The process involves two key intervals: time-to-rack and time-to-token. Time-to-rack spans from silicon fabrication to system assembly, while time-to-token covers operational setup, including power and software. With millions of parts and global suppliers, the supply chain faces challenges in component availability, impacting assembly timelines. Components arrive from various sources,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Co-Create: Building GitLab with our users</title>
+      <link>/articles/article-2026-09-10-21745/</link>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-10-21745/</guid>
+      <description>GitLab&amp;rsquo;s Co-Create program empowers users to collaborate directly with us on product improvements. In the first half of 2026, over 650 contributors drove 4,874 enhancements, including API extensions and increased CI/CD capabilities. This initiative focuses on addressing real-world challenges, making GitLab more user-friendly and secure. Join us in shaping the future of GitLab! 🚀🤝 #GitLab #CoCreate #UserCollaboration #ProductDevelopment #Innovation</description>
     </item>
     <item>
       <title>When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving</title>

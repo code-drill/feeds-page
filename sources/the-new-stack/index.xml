@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 22:54:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AWS Lambda logs every flow across thousands of microVMs per host with eBPF and Rust</title>
+      <link>/articles/article-2026-09-11-21761/</link>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-11-21761/</guid>
+      <description>AWS Lambda has enhanced its logging system to address security and operational challenges. The platform now uses eBPF and Rust to create a network flow log for every microVM, ensuring complete records of network activity for all tenants, even for brief workloads. This upgrade improves incident response and compliance while minimizing system overhead. The new system replaces an outdated architecture that struggled with Lambda&amp;rsquo;s high request volumes. #AWS #Lambda #eBPF #CloudComputing #MicroVMs&amp;hellip;</description>
+    </item>
     <item>
       <title>AWS open-sources Pizza Bot: email-style inbox for background AI agents</title>
       <link>/articles/article-2026-09-10-21760/</link>

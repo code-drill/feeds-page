@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:01:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 16:39:15 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</title>
+      <link>/articles/article-2026-09-14-21788/</link>
+      <pubDate>Mon, 14 Sep 2026 16:39:15 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21788/</guid>
+      <description>🚀 Mixture of Experts (MoE) is transforming large-scale AI model training. Models like DeepSeek, Qwen, and Mixtral outperform dense models while reducing compute costs. 🔍 MoE uses conditional computation, activating only selected expert networks for efficiency. However, scaling MoE training poses challenges, such as token routing and expert dispatch. 📈 Recent advancements with JAX and NVIDIA Transformer Engine have improved MoE performance from 103 TFLOPS/GPU to 1,068 TFLOPS/GPU, highlighting&amp;hellip;</description>
+    </item>
     <item>
       <title>Understanding W8A8 INT8 LLM quantization: Accuracy and performance results</title>
       <link>/articles/article-2026-09-14-21784/</link>

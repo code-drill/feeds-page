@@ -6,8 +6,36 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:59:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 16:39:15 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</title>
+      <link>/articles/article-2026-09-14-21788/</link>
+      <pubDate>Mon, 14 Sep 2026 16:39:15 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21788/</guid>
+      <description>🚀 Mixture of Experts (MoE) is transforming large-scale AI model training. Models like DeepSeek, Qwen, and Mixtral outperform dense models while reducing compute costs. 🔍 MoE uses conditional computation, activating only selected expert networks for efficiency. However, scaling MoE training poses challenges, such as token routing and expert dispatch. 📈 Recent advancements with JAX and NVIDIA Transformer Engine have improved MoE performance from 103 TFLOPS/GPU to 1,068 TFLOPS/GPU, highlighting&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Toolbox App 3.8: Improves IDE Update Handling on macOS and Fixes Keyboard Navigation</title>
+      <link>/articles/article-2026-09-14-21790/</link>
+      <pubDate>Mon, 14 Sep 2026 16:05:56 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21790/</guid>
+      <description>🚀 Exciting updates in Toolbox App 3.8! This version restores keyboard navigation in project and tool lists, enhancing user experience. On macOS, manual IDE updates remain available even if the installation directory is marked as protected. Users can navigate easily using keyboard shortcuts on Windows. Cleanup progress for leftover directories is now visible, ensuring better management. For more details, check the update notes. #ToolboxApp #JetBrains #SoftwareUpdate #macOS #KeyboardNavigation</description>
+    </item>
+    <item>
+      <title>AI keeps finding security flaws — here’s what to fix first</title>
+      <link>/articles/article-2026-09-14-21742/</link>
+      <pubDate>Mon, 14 Sep 2026 15:20:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21742/</guid>
+      <description>A recent article highlights a critical issue in security teams overwhelmed by AI-generated alerts. A security researcher identified an exposed database during a routine scan. Initially flagged for concern, it turned out to be a test database, not containing sensitive data. This illustrates the challenge of assessing vulnerabilities accurately. With increasing data flow and limited resources, prioritizing security tasks has become essential. Experts, like Jon Rose from IOmergent, emphasize the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your AI coding spend bought 25% more output. Duplication rose 81%.</title>
+      <link>/articles/article-2026-09-14-21786/</link>
+      <pubDate>Mon, 14 Sep 2026 14:39:14 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21786/</guid>
+      <description>Recent insights reveal that AI coding tools have increased output by 25%, but duplication has surged by 81%. 📊 As companies assess their AI budgets, the focus is shifting to measuring true value rather than just volume. Many organizations are finding that increased code production does not directly translate to meaningful business outcomes. 💻 GitClear&amp;rsquo;s analysis indicates that while heavy AI users may outpace non-users, this success often stems from prior performance rather than AI adoption&amp;hellip;</description>
+    </item>
     <item>
       <title>Chinese AI models dominate OpenRouter’s US token consumption. It can now guarantee that traffic stays entirely in the US.</title>
       <link>/articles/article-2026-09-14-21783/</link>
@@ -30,11 +58,25 @@
       <description>🚀 Great news for developers! Python 3.14 is now available in a free-threaded build for Red Hat Enterprise Linux 9.8 and 10.2. This new version allows for full parallel CPU execution, enhancing performance. You can find both the standard and free-threaded variants in the Red Hat CodeReady Linux Builder repositories. This marks the first official support for the free-threaded build. #Python #RedHat #Development #RHEL #TechNews</description>
     </item>
     <item>
+      <title>Building for the AI era: Inside Cisco IT’s Wi-Fi 7 revolution</title>
+      <link>/articles/article-2026-09-14-21787/</link>
+      <pubDate>Mon, 14 Sep 2026 13:00:21 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21787/</guid>
+      <description>🚀 Cisco IT has successfully upgraded to Wi-Fi 7 for 90,000 employees without any downtime. This transition was made possible through their integrated networking stack, ensuring a seamless global rollout. The Wi-Fi 7 standard brings higher speeds and greater capacity, positioning Cisco to meet future network demands effectively. #WiFi7 #CiscoIT #Networking #TechUpgrade #FutureReady</description>
+    </item>
+    <item>
       <title>Why an old caching trick is your secret to lower LLM costs</title>
       <link>/articles/article-2026-09-14-21782/</link>
       <pubDate>Mon, 14 Sep 2026 11:00:00 +0000</pubDate>
       <guid>/articles/article-2026-09-14-21782/</guid>
       <description>Implementing caching strategies can significantly reduce costs when using large language models (LLMs). By checking if the inputs and context have changed before making a request, you can avoid unnecessary charges. This is achieved by creating an exact-match cache key based on fingerprints of the inputs. In practice, this approach minimizes compute waste in production data pipelines and can help manage costs associated with repeated LLM queries. Explore the benefits of exact-match caching to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab Dedicated: Compliance for a new regulatory era</title>
+      <link>/articles/article-2026-09-14-21789/</link>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21789/</guid>
+      <description>🚀 GitLab Dedicated is designed to meet evolving compliance needs in today&amp;rsquo;s regulatory landscape. With enforcement of NIS2 and GDPR, European enterprises face increased scrutiny over cybersecurity and data management. This single-tenant SaaS solution offers increased isolation, allowing organizations to maintain control over their data while minimizing risk. GitLab manages operational updates and disaster recovery, ensuring compliance without burdening your platform team. Explore how GitLab&amp;hellip;</description>
     </item>
     <item>
       <title>Chip Huyen explains how to cut inference costs without new hardware</title>

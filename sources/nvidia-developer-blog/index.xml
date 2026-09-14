@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:55:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 16:39:15 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</title>
+      <link>/articles/article-2026-09-14-21788/</link>
+      <pubDate>Mon, 14 Sep 2026 16:39:15 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21788/</guid>
+      <description>🚀 Mixture of Experts (MoE) is transforming large-scale AI model training. Models like DeepSeek, Qwen, and Mixtral outperform dense models while reducing compute costs. 🔍 MoE uses conditional computation, activating only selected expert networks for efficiency. However, scaling MoE training poses challenges, such as token routing and expert dispatch. 📈 Recent advancements with JAX and NVIDIA Transformer Engine have improved MoE performance from 103 TFLOPS/GPU to 1,068 TFLOPS/GPU, highlighting&amp;hellip;</description>
+    </item>
     <item>
       <title>How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra</title>
       <link>/articles/article-2026-09-10-21750/</link>

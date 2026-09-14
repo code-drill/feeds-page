@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 13:01:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:01:43 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding W8A8 INT8 LLM quantization: Accuracy and performance results</title>
+      <link>/articles/article-2026-09-14-21784/</link>
+      <pubDate>Mon, 14 Sep 2026 13:01:43 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21784/</guid>
+      <description>🚀 Exciting progress in model quantization! The article discusses how the Llama 3.1 8B Instruct model was compressed from 14.9 GB to 8.0 GB using 8-bit integer (INT8) W8A8 quantization techniques, including SmoothQuant and GPTQ. This approach maintains accuracy while enhancing performance. #AI #Quantization #MachineLearning #DataScience #ModelOptimization</description>
+    </item>
+    <item>
+      <title>Python 3.14 free-threaded build is now available in RHEL</title>
+      <link>/articles/article-2026-09-14-21785/</link>
+      <pubDate>Mon, 14 Sep 2026 13:01:41 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21785/</guid>
+      <description>🚀 Great news for developers! Python 3.14 is now available in a free-threaded build for Red Hat Enterprise Linux 9.8 and 10.2. This new version allows for full parallel CPU execution, enhancing performance. You can find both the standard and free-threaded variants in the Red Hat CodeReady Linux Builder repositories. This marks the first official support for the free-threaded build. #Python #RedHat #Development #RHEL #TechNews</description>
+    </item>
     <item>
       <title>Unlock a LUKS root over SSH on Fedora and Red Hat Enterprise Linux</title>
       <link>/articles/article-2026-09-11-21763/</link>

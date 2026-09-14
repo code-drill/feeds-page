@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 11:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why an old caching trick is your secret to lower LLM costs</title>
+      <link>/articles/article-2026-09-14-21782/</link>
+      <pubDate>Mon, 14 Sep 2026 11:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-14-21782/</guid>
+      <description>Implementing caching strategies can significantly reduce costs when using large language models (LLMs). By checking if the inputs and context have changed before making a request, you can avoid unnecessary charges. This is achieved by creating an exact-match cache key based on fingerprints of the inputs. In practice, this approach minimizes compute waste in production data pipelines and can help manage costs associated with repeated LLM queries. Explore the benefits of exact-match caching to&amp;hellip;</description>
+    </item>
     <item>
       <title>Chip Huyen explains how to cut inference costs without new hardware</title>
       <link>/articles/article-2026-09-13-21780/</link>

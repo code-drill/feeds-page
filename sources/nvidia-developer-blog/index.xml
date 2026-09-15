@@ -6,8 +6,36 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 16:39:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:00:11 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each</title>
+      <link>/articles/article-2026-09-15-21803/</link>
+      <pubDate>Tue, 15 Sep 2026 17:00:11 +0000</pubDate>
+      <guid>/articles/article-2026-09-15-21803/</guid>
+      <description>Exploring model architectures: Dense vs. Mixture-of-Experts (MoE) 🤖 Dense models activate all parameters per token, ensuring consistency. In contrast, MoE models, like Nemotron 3.5 Lightning, only activate a subset for each token, enhancing capacity without using all parameters. ⚙️ The choice between these models impacts throughput, memory cost, and complexity, making it essential to consider deployment needs. Learn more about their performance and application scenarios! 📊 #MachineLearning&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin</title>
+      <link>/articles/article-2026-09-15-21804/</link>
+      <pubDate>Tue, 15 Sep 2026 16:55:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-15-21804/</guid>
+      <description>NVIDIA&amp;rsquo;s Vera Rubin platform is designed for power-efficient AI at scale, focusing on performance per watt. ⚡ Key features include the NVL72 core, which optimizes both large and small batch processing. Innovations like NVIDIA DSX MaxLPS software help manage power across racks, increasing GPU provisioning by 40% and boosting throughput by 35%. The Groq 3 LPX accelerator enhances low-latency performance through a deterministic execution model, allowing precise scheduling of data movements and&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories</title>
+      <link>/articles/article-2026-09-15-21805/</link>
+      <pubDate>Tue, 15 Sep 2026 16:55:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-15-21805/</guid>
+      <description>🚀 For large-scale AI factories, maintaining continuous output is crucial for productivity. NVIDIA&amp;rsquo;s NVLink 6 provides essential multi-layer resiliency, ensuring that workloads progress without interruption. This is vital as AI models grow and require robust network infrastructure to handle transient errors effectively. The Vera Rubin platform connects GPUs into a single compute unit, enhancing reliability and maximizing cluster productivity. Learn more about how NVLink 6 ensures optimal&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE</title>
+      <link>/articles/article-2026-09-15-21806/</link>
+      <pubDate>Tue, 15 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-15-21806/</guid>
+      <description>🌐 Federated learning (FL) can start simply, but managing larger projects introduces complexity. Different environments like Docker, Kubernetes, and Slurm can hinder collaboration. 🔧 NVIDIA FLARE addresses this by separating federation services from job execution. This allows each site to use its preferred infrastructure while maintaining control over data and compute policies. 📦 With FLARE 2.8 supporting Docker and Kubernetes, and 2.9 adding Slurm, organizations can efficiently manage&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</title>
       <link>/articles/article-2026-09-14-21788/</link>

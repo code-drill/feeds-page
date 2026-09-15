@@ -449,6 +449,57 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/" target="_blank">Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each</a></h2>
+            <div class="publication-date">2026-09-15 17:00</div>
+            <div class="summary">Exploring model architectures: Dense vs. Mixture-of-Experts (MoE) 🤖 Dense models activate all parameters per token, ensuring consistency. In contrast, MoE models, like Nemotron 3.5 Lightning, only activate a subset for each token, enhancing capacity without using all parameters. ⚙️ The choice between these models impacts throughput, memory cost, and complexity, making it essential to consider deployment needs. Learn more about their performance and application scenarios! 📊 #MachineLearning...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Elizabeth Goodman</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/" target="_blank">How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin</a></h2>
+            <div class="publication-date">2026-09-15 16:55</div>
+            <div class="summary">NVIDIA&#39;s Vera Rubin platform is designed for power-efficient AI at scale, focusing on performance per watt. ⚡ Key features include the NVL72 core, which optimizes both large and small batch processing. Innovations like NVIDIA DSX MaxLPS software help manage power across racks, increasing GPU provisioning by 40% and boosting throughput by 35%. The Groq 3 LPX accelerator enhances low-latency performance through a deterministic execution model, allowing precise scheduling of data movements and...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Tanya Lenz</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
+            <h2><a href="https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/" target="_blank">How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories</a></h2>
+            <div class="publication-date">2026-09-15 16:55</div>
+            <div class="summary">🚀 For large-scale AI factories, maintaining continuous output is crucial for productivity. NVIDIA&#39;s NVLink 6 provides essential multi-layer resiliency, ensuring that workloads progress without interruption. This is vital as AI models grow and require robust network infrastructure to handle transient errors effectively. The Vera Rubin platform connects GPUs into a single compute unit, enhancing reliability and maximizing cluster productivity. Learn more about how NVLink 6 ensures optimal...</div>
+            <div class="source">Source: <a href="/sources/nvidia-developer-blog">Nvidia Developer Blog</a></div>
+            
+            <div class="author">Elizabeth Goodman</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://thenewstack.io/kubernetes-volume-group-snapshots/" target="_blank">Kubernetes 1.36 restores a lost guarantee for database backups</a></h2>
             <div class="publication-date">2026-09-15 13:00</div>
             <div class="summary">Kubernetes 1.36 addresses a critical issue for database backups. 🌐 Historically, restoring PostgreSQL clusters has faced challenges with volume consistency. When snapshots are taken of separate PersistentVolumeClaims (PVCs), they may not capture the same point in time, leading to potential restore failures. This inconsistency arises from the move to cloud-native environments, which lack the ‘consistency group’ feature found in traditional enterprise storage. As teams transition to Kubernetes,...</div>
@@ -1065,57 +1116,6 @@
             <div class="source">Source: <a href="/sources/jetbrains-blog">JetBrains Blog</a></div>
             
             <div class="author">Dmitry Savelev</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2026/08/31/ai-powered-multicluster-management-querying-fleet-health-openshift-lightspeed" target="_blank">AI-powered multicluster management: Querying fleet health with OpenShift Lightspeed and Red Hat Advanced Cluster Management</a></h2>
-            <div class="publication-date">2026-08-31 07:16</div>
-            <div class="summary">Managing large-scale Kubernetes environments presents significant challenges, especially in maintaining visibility and troubleshooting across multiple clusters. As the number of managed clusters increases, platform engineers face a higher cognitive load, which can slow response times during critical incidents. OpenShift Lightspeed and Red Hat Advanced Cluster Management offer solutions to help manage fleet health effectively. 🔧💻🚀 #Kubernetes #OpenShift #RedHat #CloudManagement #TechSolutions</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">Diego Alvarez Ponce, Luiz Bernardo Levenhagen</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://developers.redhat.com/articles/2026/08/31/stop-wasting-gpu-allocation-in-kubernetes-with-gpu-pruner" target="_blank">Stop wasting GPU allocation in Kubernetes with GPU-pruner</a></h2>
-            <div class="publication-date">2026-08-31 03:01</div>
-            <div class="summary">Are idle GPUs costing you? 🖥️💸 In Kubernetes, wasted GPU resources can lead to significant expenses. Users often find GPUs allocated for days with minimal activity, resulting in unnecessary charges. The article introduces GPU-pruner, a tool designed to address this issue by optimizing GPU allocation. Learn more about how to manage your resources effectively! #Kubernetes #GPUManagement #CloudComputing #TechSolutions #ResourceOptimization</div>
-            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
-            
-            <div class="author">Fahim Uddin</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://thenewstack.io/building-ai-agent-harness/" target="_blank">Your AI agent is only as good as the harness around it</a></h2>
-            <div class="publication-date">2026-08-30 15:00</div>
-            <div class="summary">An AI agent can perform impressively in demos when conditions are ideal, but real-world performance often reveals challenges. When faced with questions that differ slightly or incomplete data, the agent may struggle. The article emphasizes the importance of a robust &#34;agent harness&#34; that surrounds the model, ensuring it operates effectively in production environments. This harness acts as a safety net, defining what data the agent can access and how it responds to errors. Effective...</div>
-            <div class="source">Source: <a href="/sources/the-new-stack">The New Stack</a></div>
-            
-            <div class="author">Jeremy Daly</div>
             
             
             <div class="categories">

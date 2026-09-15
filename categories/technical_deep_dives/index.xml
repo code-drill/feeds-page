@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 19:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes 1.36 restores a lost guarantee for database backups</title>
+      <link>/articles/article-2026-09-15-21798/</link>
+      <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-15-21798/</guid>
+      <description>Kubernetes 1.36 addresses a critical issue for database backups. 🌐 Historically, restoring PostgreSQL clusters has faced challenges with volume consistency. When snapshots are taken of separate PersistentVolumeClaims (PVCs), they may not capture the same point in time, leading to potential restore failures. This inconsistency arises from the move to cloud-native environments, which lack the ‘consistency group’ feature found in traditional enterprise storage. As teams transition to Kubernetes,&amp;hellip;</description>
+    </item>
     <item>
       <title>The Honest Migration Playbook – IPsec Series, Part 11</title>
       <link>/articles/article-2026-09-14-21793/</link>

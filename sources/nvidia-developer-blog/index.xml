@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 17:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 16:28:59 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Translating CUDA Tile Operations from Python to Rust Using Agentic AI</title>
+      <link>/articles/article-2026-09-16-21826/</link>
+      <pubDate>Wed, 16 Sep 2026 16:28:59 +0000</pubDate>
+      <guid>/articles/article-2026-09-16-21826/</guid>
+      <description>🚀 Exciting advancements in GPU kernel authoring! The cuTile Rust (cutile-rs) system enhances the Rust programming language by integrating tile-based GPU kernel authoring. It ensures safe ownership while allowing programmers to manage lower-level control when needed. An AI agent skill translates existing CUDA Tile Python and Triton-TileIR kernels into cuTile Rust, achieving 99.5% performance accuracy. This includes 24 public operators and around 40 GPU kernels for various tasks. For those&amp;hellip;</description>
+    </item>
     <item>
       <title>Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each</title>
       <link>/articles/article-2026-09-15-21803/</link>

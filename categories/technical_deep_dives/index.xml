@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 17:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:05:06 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why your Kafka topic ignores retention.ms (and how to fix it)</title>
+      <link>/articles/article-2026-09-16-21817/</link>
+      <pubDate>Wed, 16 Sep 2026 13:05:06 +0000</pubDate>
+      <guid>/articles/article-2026-09-16-21817/</guid>
+      <description>A recent support case highlighted an issue with Kafka topic retention. A topic set for 12-hour retention (retention.ms) still showed messages from July 24 after 4 days. 📅 The broker logged no errors, indicating the retention policy was functioning properly. The delay in removing old records was due to segment layout and continuous write patterns. For more insights, check out the article! 📖 #Kafka #DataRetention #RedHat #TechSupport #SoftwareDevelopment</description>
+    </item>
     <item>
       <title>Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each</title>
       <link>/articles/article-2026-09-15-21803/</link>

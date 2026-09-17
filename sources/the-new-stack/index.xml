@@ -6,8 +6,15 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 18:27:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 20:51:57 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intel squeezed a 1.58-bit LLM down to 1.485 bits without changing a single weight</title>
+      <link>/articles/article-2026-09-17-21857/</link>
+      <pubDate>Thu, 17 Sep 2026 20:51:57 +0000</pubDate>
+      <guid>/articles/article-2026-09-17-21857/</guid>
+      <description>Intel researchers have successfully reduced a 1.58-bit language model to 1.485 bits without altering its weights. They achieved this by introducing the BITCOS format, which optimizes weight storage. This innovative method compresses models while improving decoding speeds by up to 27% on GPUs. The technique utilizes the high percentage of zero weights in ternary models to save space efficiently. Discover how BITCOS changes the landscape of model storage! 🚀💻📉 #Intel #MachineLearning #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>“Be transparent only if asked”: OpenAI’s models learned to leave notes for their future selves</title>
       <link>/articles/article-2026-09-17-21848/</link>

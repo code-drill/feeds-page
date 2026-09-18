@@ -6,8 +6,71 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How buildpacks help enterprises finally operate container security controls at scale</title>
+      <link>/articles/article-2026-09-18-21859/</link>
+      <pubDate>Fri, 18 Sep 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21859/</guid>
+      <description>Buildpacks offer a solution to container security challenges by standardizing application image paths. 🌐 They help centralize governance on build inputs, runtime images, and Software Bill of Materials (SBOM), making it easier to enforce security controls at scale. 🔒 Inconsistent Dockerfiles and uneven rebuild practices often lead to vulnerabilities lingering in production. A consistent approach is critical for effective security management. Learn more about how Buildpacks can enhance your&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Red Hat OpenShift networking: Default OVN-Kubernetes vs. Cilium operator</title>
+      <link>/articles/article-2026-09-18-21863/</link>
+      <pubDate>Fri, 18 Sep 2026 13:01:55 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21863/</guid>
+      <description>As organizations scale their Red Hat OpenShift environments, choosing the right Container Network Interface (CNI) is crucial. The article discusses the differences between the default OVN-Kubernetes and the Cilium operator. Both play significant roles in supporting microservices, AI workloads, and multi-cluster management through Cluster API (CAPI). Networking impacts security, application performance, and operational visibility in Kubernetes environments. #RedHat #OpenShift #Kubernetes #CNI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Matching OpenShift edge topologies to your physical footprint</title>
+      <link>/articles/article-2026-09-18-21864/</link>
+      <pubDate>Fri, 18 Sep 2026 13:01:54 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21864/</guid>
+      <description>Explore the various topologies of Red Hat OpenShift and how they align with your physical infrastructure. The article emphasizes understanding these configurations to optimize your edge computing strategy. Learn how to choose the right topology for your specific needs. 🔍📊💻 #RedHat #OpenShift #EdgeComputing #TechInsights #CloudComputing</description>
+    </item>
+    <item>
+      <title>What did AI cost you this quarter?</title>
+      <link>/articles/article-2026-09-18-21865/</link>
+      <pubDate>Fri, 18 Sep 2026 13:01:52 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21865/</guid>
+      <description>Understanding the costs of AI in your organization is crucial. 🏢 Many platform teams struggle to provide accurate figures when asked by CFOs. Departments need to present detailed cost breakdowns ahead of board meetings, highlighting the importance of transparency. 📊 Stay informed and prepared to discuss AI expenditures. #AI #CostManagement #Finance #BusinessInsights</description>
+    </item>
+    <item>
+      <title>Your agent is only as good as your infrastructure</title>
+      <link>/articles/article-2026-09-18-21860/</link>
+      <pubDate>Fri, 18 Sep 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21860/</guid>
+      <description>🚀 Your AI agent&amp;rsquo;s performance relies heavily on the infrastructure it operates within. In testing, it efficiently reviewed pull requests, but in production, delays can occur due to shared resources. AI agents work differently than chatbots, executing complex workflows that impact latency and reliability. Understanding this can help optimize performance. #AI #Infrastructure #TechInsights #DevOps #MachineLearning</description>
+    </item>
+    <item>
+      <title>Open-weight models now handle a majority of tokens on Vercel’s AI Gateway. But Anthropic still takes 64% of the spend.</title>
+      <link>/articles/article-2026-09-18-21861/</link>
+      <pubDate>Fri, 18 Sep 2026 12:42:58 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21861/</guid>
+      <description>Open-weight models are now handling over half of the tokens on Vercel’s AI Gateway, reaching 56% in August. 📊 Chinese-developed models make up a significant portion of this usage. Vercel&amp;rsquo;s CEO highlighted that August saw a record day with 62% of traffic from open-weight models. 🚀 However, Anthropic still accounts for 64% of spending. As enterprise adoption increases, the trend may continue to rise. #AIGateway #OpenWeightModels #AITrends #Vercel #TechNews</description>
+    </item>
+    <item>
+      <title>Code review is burning out your best engineers</title>
+      <link>/articles/article-2026-09-18-21862/</link>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21862/</guid>
+      <description>Many teams are facing a common challenge: their top engineers are overwhelmed by code review demands, especially with the rise of AI-generated code. A recent study revealed that 77% of engineers now spend less time coding and more time reviewing AI output. This shift has led to a significant increase in pull requests and review times. Reviewing AI-generated code poses unique difficulties, as the intent behind the code is often missing. Engineers are forced to reverse-engineer the rationale,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your diff has a demo now with Junie /demo</title>
+      <link>/articles/article-2026-09-18-21866/</link>
+      <pubDate>Fri, 18 Sep 2026 11:51:27 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21866/</guid>
+      <description>🚀 Introducing Junie /demo! This new mode in Junie CLI allows you to delegate app checks. Simply describe what you need, and Junie builds, launches, and interacts with your app&amp;rsquo;s UI. You&amp;rsquo;ll receive an HTML report, screenshots, and a video for easy review. It&amp;rsquo;s designed to streamline your workflow and keep results transparent. Get started by setting up Junie /demo, and let it handle routine checks while you focus on more critical tasks! #Junie #AppDevelopment #Automation #QualityAssurance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Ktor 3.6.0 Is Now Available!</title>
+      <link>/articles/article-2026-09-18-21867/</link>
+      <pubDate>Fri, 18 Sep 2026 10:45:56 +0000</pubDate>
+      <guid>/articles/article-2026-09-18-21867/</guid>
+      <description>🚀 Ktor 3.6.0 has launched with several new experimental features! This release introduces typed authentication capabilities, specialized support for OpenID Connect, and HTTP/3 support for the Netty engine. Improvements in routing and request handling enhance the developer experience. Explore the full list of changes on the Ktor website! #Ktor #Kotlin #OpenIDConnect #HTTP3 #WebDevelopment</description>
+    </item>
     <item>
       <title>SNAP payment error detection: how Elastic helps US states beat the FY2028 penalty</title>
       <link>/articles/article-2026-09-18-21852/</link>

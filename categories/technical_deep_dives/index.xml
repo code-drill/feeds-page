@@ -6,8 +6,43 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 19:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient MoE Training for Biological Foundation Models</title>
+      <link>/articles/article-2026-09-24-21925/</link>
+      <pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-24-21925/</guid>
+      <description>Exploring the advancements in language models, the article discusses the challenges of scaling dense architectures. Mixture-of-experts (MoE) architectures offer a solution by activating only a small number of subnetworks for each token, enhancing efficiency in large language models. However, effective implementation is crucial as it can impact GPU utilization and introduce additional challenges. NVIDIA&amp;rsquo;s Transformer Engine helps optimize these processes, aiming to improve efficiency in&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Self-encrypting VM images for confidential environments hands on</title>
+      <link>/articles/article-2026-09-24-21917/</link>
+      <pubDate>Thu, 24 Sep 2026 13:32:01 +0000</pubDate>
+      <guid>/articles/article-2026-09-24-21917/</guid>
+      <description>Confidential virtual machine (VM) technologies, such as AMD&amp;rsquo;s SEV-SNP and Intel&amp;rsquo;s TDX, are gaining traction in both public and private cloud environments. 🌐 These technologies focus on protecting data during runtime, ensuring that malicious hosts cannot access sensitive information. However, the challenge of securing persistent storage remains with the guest operating system. 🔒 For more insights, check out the full article on Red Hat Developer! #ConfidentialComputing #VirtualMachines&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Scaling GitOps: The &#34;pull&#34; architecture for global fleets</title>
+      <link>/articles/article-2026-09-24-21918/</link>
+      <pubDate>Thu, 24 Sep 2026 13:02:07 +0000</pubDate>
+      <guid>/articles/article-2026-09-24-21918/</guid>
+      <description>🚀 Validating new architectures is essential for successful enterprise software deployment. Our recent performance and scale test focused on the argocd-agent pull architecture, confirming its ability to meet robust enterprise requirements. Discover more about this innovative approach in our latest article! #GitOps #EnterpriseSoftware #AgileDevelopment #RedHat #TechnologyTrends</description>
+    </item>
+    <item>
+      <title>Query decomposition doesn’t fix context starvation — it just moves it</title>
+      <link>/articles/article-2026-09-24-21892/</link>
+      <pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-24-21892/</guid>
+      <description>Understanding context starvation is crucial in query decomposition. When a complex query is broken down, the system may retrieve multiple relevant passages. However, often only one response is prioritized, leading to context starvation for other important sub-intents. This issue highlights the need for better allocation rather than just retrieval in information systems. #ContextStarvation #QueryDecomposition #InformationRetrieval #TechInsights 📊🤖📚</description>
+    </item>
+    <item>
+      <title>Trust, but verify: Atomic claim checking against LLM hallucinations</title>
+      <link>/articles/article-2026-09-24-21941/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-09-24-21941/</guid>
+      <description>🚀 Tackling knowledge base duplication can be challenging for support teams. For years, the use of large language models (LLMs) faced issues due to hallucinations, which hindered effective cleanup. By employing atomic claim checking, teams successfully separated generation from verification. This method helped clear a four-year backlog of duplicate articles, improving knowledge accuracy. 📚🔍 #KnowledgeManagement #LLM #TechUpdates #SupportTeams #Innovation</description>
+    </item>
     <item>
       <title>Benchmarking LLM Inference at Scale with AIPerf</title>
       <link>/articles/article-2026-09-18-21873/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in DigitalOcean-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 17:12:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 08:53:19 +0000</lastBuildDate>
     <atom:link href="/sources/digitalocean-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How DigitalOcean Manages Credentials for Autonomous Agents</title>
+      <link>/articles/article-2026-09-28-21960/</link>
+      <pubDate>Mon, 28 Sep 2026 08:53:19 +0000</pubDate>
+      <guid>/articles/article-2026-09-28-21960/</guid>
+      <description>DigitalOcean is enhancing security for autonomous agents by implementing a system that manages credentials effectively. Agents performing tasks like processing refunds need access to sensitive information. However, they may encounter untrusted content that could lead to data exposure. DigitalOcean Managed Agents separates credential access from the agent&amp;rsquo;s environment, ensuring API keys and sensitive data remain secure and outside of the agent&amp;rsquo;s reach. This approach aligns with NVIDIA’s Agent&amp;hellip;</description>
+    </item>
     <item>
       <title>The agent-first cloud: why we built Managed Agents</title>
       <link>/articles/article-2026-09-25-21937/</link>

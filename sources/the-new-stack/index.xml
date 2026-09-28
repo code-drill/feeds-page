@@ -6,8 +6,22 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 14:07:38 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pgEdge’s new agent database branches never merge back into the source</title>
+      <link>/articles/article-2026-09-28-21964/</link>
+      <pubDate>Mon, 28 Sep 2026 14:07:38 +0000</pubDate>
+      <guid>/articles/article-2026-09-28-21964/</guid>
+      <description>pgEdge has launched Starfleet, a Postgres cloud platform aimed at improving the transition from prototype to production. It offers database branching and agent tooling to meet various deployment needs, while ensuring security and compliance. Each coding agent operates in its own isolated environment, allowing for experimentation without merging back into the source database. Starfleet maintains a connection to the original database&amp;rsquo;s IP allowlist, ensuring controlled access. Developers can&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic bought Stainless and shuttered its SDK generator. Cloudflare open-sourced Forge instead.</title>
+      <link>/articles/article-2026-09-28-21965/</link>
+      <pubDate>Mon, 28 Sep 2026 13:39:58 +0000</pubDate>
+      <guid>/articles/article-2026-09-28-21965/</guid>
+      <description>Cloudflare has introduced Forge, an open-source tool that generates SDKs, command-line tools, and documentation from API definitions. 🛠️ Available under an Apache 2.0 license, Forge allows users to run and modify it without costs. This announcement follows Google&amp;rsquo;s recent move to open-source its API tooling after losing its SDK generator. Both companies emphasize the importance of open infrastructure for API tools. 🌐 #Cloudflare #OpenSource #APITools #Forge #TechNews</description>
+    </item>
     <item>
       <title>Nvidia launches Open Agent Safety Platform to lock down rogue AI agents</title>
       <link>/articles/article-2026-09-28-21961/</link>

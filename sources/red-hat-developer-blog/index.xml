@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 13:01:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 13:01:47 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed training on OpenShift AI 3.4 with Kubeflow Trainer v2</title>
+      <link>/articles/article-2026-09-29-21988/</link>
+      <pubDate>Tue, 29 Sep 2026 13:01:47 +0000</pubDate>
+      <guid>/articles/article-2026-09-29-21988/</guid>
+      <description>Running distributed training on Kubernetes has traditionally required selecting a framework-specific custom resource definition (CRD). Options included PyTorchJob, TFJob, and MPIJob, each with unique configurations and failure behaviors. The article discusses how these complexities can affect distributed training setups. OpenShift AI 3.4 aims to simplify this process using the Kubeflow Trainer v2. 🔍 Explore the advancements in distributed training! #OpenShift #Kubernetes #AI #Kubeflow&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Red team your AI model with garak</title>
+      <link>/articles/article-2026-09-29-21989/</link>
+      <pubDate>Tue, 29 Sep 2026 13:01:46 +0000</pubDate>
+      <guid>/articles/article-2026-09-29-21989/</guid>
+      <description>🚀 Your team has successfully launched an internal chatbot using an open-weight model. It efficiently answers queries, summarizes documents, and aids in onboarding. However, questions arise about its security. The security team wonders if it has been tested for vulnerabilities, such as the potential to be jailbroken. Understanding these risks is crucial for maintaining the integrity of your AI model. #AI #Chatbot #Security #RedTeam #OpenSource</description>
+    </item>
+    <item>
+      <title>How we cut CI failure triage from hours to minutes using AI</title>
+      <link>/articles/article-2026-09-29-21990/</link>
+      <pubDate>Tue, 29 Sep 2026 13:01:43 +0000</pubDate>
+      <guid>/articles/article-2026-09-29-21990/</guid>
+      <description>🚀 Tackling CI failures just got easier! A recent article discusses how a platform team faced 80 failed jobs each Monday, with trace logs containing up to 50,000 lines. Identifying issues from nightly builds across various architectures was time-consuming. By implementing AI, they reduced the triage time from hours to mere minutes. #CIFailures #AI #DevOps #ContinuousIntegration #RedHatDeveloper</description>
+    </item>
     <item>
       <title>Upgrading to Red Hat JBoss Web Server 7: Key changes &amp; impacts</title>
       <link>/articles/article-2026-09-28-21968/</link>

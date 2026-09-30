@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 20:54:59 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton</title>
+      <link>/articles/article-2026-09-30-22024/</link>
+      <pubDate>Wed, 30 Sep 2026 20:54:59 +0000</pubDate>
+      <guid>/articles/article-2026-09-30-22024/</guid>
+      <description>Unlock the potential of generative recommenders (GR) with NVIDIA Dynamo-Triton! GR systems enhance personalization by treating recommendations as sequence modeling over user behavior. This method captures user interactions and context effectively. Dynamo-Triton supports a streamlined HSTU GR inference workflow, achieving significant latency improvements. Benchmarks show up to 5.93x lower latency with GPU-backed KV caching. Learn how to transition your HSTU models from development to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK</title>
+      <link>/articles/article-2026-09-30-22025/</link>
+      <pubDate>Wed, 30 Sep 2026 19:13:02 +0000</pubDate>
+      <guid>/articles/article-2026-09-30-22025/</guid>
+      <description>🚀 NVIDIA is enhancing AI storage access with cuObject and the SCADA Server SDK. AI engineers and cloud providers need quick and secure access to large file and object storage. The demand for high-speed data transfer is growing, requiring RDMA-accelerated, zero-copy methods. NVIDIA&amp;rsquo;s partnership with Google Cloud and Microsoft expands xio-sig, introducing cuObject for easier storage integration. The new SCADA SDK allows storage providers to create responsive servers for GPU requests, improving&amp;hellip;</description>
+    </item>
     <item>
       <title>Tracing Agent Harness Behavior with NVIDIA NeMo Relay</title>
       <link>/articles/article-2026-09-30-22019/</link>

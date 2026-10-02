@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 22:00:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 15:00:08 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Talent Gap Is a Business Risk — Not Just an HR Problem</title>
+      <link>/articles/article-2026-10-02-22055/</link>
+      <pubDate>Fri, 02 Oct 2026 15:00:08 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22055/</guid>
+      <description>The talent gap poses significant risks for businesses, highlighting the need for organizations to focus on talent readiness. It’s not just an HR issue; maintaining growth and quality of service relies on having skilled professionals. Cisco Talent Bridge offers connections to certified talent, helping companies achieve their goals. #TalentGap #BusinessRisk #TalentManagement #CiscoTalentBridge #WorkforceDevelopment 💼🌍✨</description>
+    </item>
+    <item>
+      <title>“No reason why everyone should have an identical Claude experience”: Anthropic’s mods let you change Claude Code’s look and behavior</title>
+      <link>/articles/article-2026-10-02-22053/</link>
+      <pubDate>Fri, 02 Oct 2026 14:07:50 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22053/</guid>
+      <description>🔧 Anthropic has introduced mods for Claude Code, allowing developers to customize its appearance and behavior more deeply than before. These mods are small JavaScript or TypeScript functions that change how Claude interacts, including rewriting prompts and modifying the interface. Boris Cherny emphasizes that customization is key, as everyone&amp;rsquo;s needs are different. Developers can package their mods as plugins for others to use. #ClaudeCode #Anthropic #Customization #TechInnovation #Developers</description>
+    </item>
+    <item>
+      <title>Benchmarking AI decision models against traditional guardrails</title>
+      <link>/articles/article-2026-10-02-22056/</link>
+      <pubDate>Fri, 02 Oct 2026 13:01:51 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22056/</guid>
+      <description>As generative AI applications advance, platform engineers face the challenge of balancing flexibility with reliability. 🤖 Traditional classifiers need custom training data, while LLM-as-a-judge guardrails offer more adaptability. The rise of &amp;ldquo;decision models,&amp;rdquo; such as TypeSafe AI&amp;rsquo;s Jev and &amp;ldquo;System One,&amp;rdquo; provides a potential middle ground by delivering fixed decisions based on specific inputs. #AIDecisionMaking #GenerativeAI #TechInnovation</description>
+    </item>
+    <item>
+      <title>Kube AuthKit: Unified Kubernetes and OpenShift auth in Python</title>
+      <link>/articles/article-2026-10-02-22057/</link>
+      <pubDate>Fri, 02 Oct 2026 13:01:50 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22057/</guid>
+      <description>Discover Kube AuthKit, a lightweight Python library that simplifies authentication for Kubernetes and Red Hat OpenShift. With a single, consistent API, it supports various authentication methods, including kubeconfig, service accounts, OIDC, and OpenShift OAuth—all in just one line of code. Explore how Kube AuthKit can streamline your workflows! 🚀🔒 #KubeAuthKit #Kubernetes #OpenShift #Python #DevOps</description>
+    </item>
+    <item>
+      <title>Smarter GPU sharing: How Red Hat build of Kueue works with dynamic resource allocation</title>
+      <link>/articles/article-2026-10-02-22058/</link>
+      <pubDate>Fri, 02 Oct 2026 13:01:47 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22058/</guid>
+      <description>GPU demand for AI is increasing, but fair sharing across teams poses challenges. The Kubernetes device plug-in model treats GPUs as simple integers, lacking essential device details like VRAM and compute capability. Red Hat&amp;rsquo;s Kueue addresses these issues with dynamic resource allocation, enhancing cluster management. Discover how this innovative approach can improve GPU utilization. 💻🔧 #GPU #Kubernetes #AI #RedHat #CloudComputing</description>
+    </item>
+    <item>
+      <title>K3s vs. K8s: When lightweight Kubernetes distros win (and when they don’t)</title>
+      <link>/articles/article-2026-10-02-22054/</link>
+      <pubDate>Fri, 02 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22054/</guid>
+      <description>K3s and K8s are two Kubernetes distributions catering to different needs. K8s is a powerful orchestration platform with comprehensive features but comes with significant operational weight. In contrast, K3s is a lightweight version designed for simplicity and lower resource usage, making it ideal for smaller environments. Choosing between them depends on your infrastructure and team requirements. 🤖🌐🔧 #Kubernetes #K3s #K8s #CloudComputing #DevOps</description>
+    </item>
+    <item>
+      <title>DeepSeek-Reasonix: How a poisoned config can hijack an AI coding agent</title>
+      <link>/articles/article-2026-10-02-22060/</link>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22060/</guid>
+      <description>🚨 GitLab&amp;rsquo;s Threat Research Group has identified a critical command execution vulnerability in DeepSeek-Reasonix Studio. This flaw, known as ConfigPoisoning, may allow malicious code execution when developers view file diffs. To mitigate this risk, users are advised to update to DeepSeek-Reasonix Studio 2.21.0 or DeepSeek Reasonix npm 1.39.3. 🛠️ It&amp;rsquo;s important to note that this vulnerability affects multiple coding agents, highlighting a broader security concern in AI-assisted development&amp;hellip;</description>
+    </item>
+    <item>
+      <title>From reactive to resilient: Findings from the Total Economic Impact of Elastic Observability 2026</title>
+      <link>/articles/article-2026-10-02-22059/</link>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22059/</guid>
+      <description>A recent Forrester Consulting study highlights the benefits of Elastic Observability for enterprises. Firms that implemented this solution reported a 362% ROI and $28.1 million in benefits over three years, with payback in under six months. This shift helped reclaim thousands of engineering hours previously spent on incident response. The findings emphasize improvements in operational efficiency and financial performance, moving from a reactive to a resilient model. #ElasticObservability #ROI&amp;hellip;</description>
+    </item>
     <item>
       <title>OpenAI’s always-on agents are free, until one specific thing happens</title>
       <link>/articles/article-2026-10-01-22052/</link>

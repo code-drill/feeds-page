@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 13:01:47 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smarter GPU sharing: How Red Hat build of Kueue works with dynamic resource allocation</title>
+      <link>/articles/article-2026-10-02-22058/</link>
+      <pubDate>Fri, 02 Oct 2026 13:01:47 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22058/</guid>
+      <description>GPU demand for AI is increasing, but fair sharing across teams poses challenges. The Kubernetes device plug-in model treats GPUs as simple integers, lacking essential device details like VRAM and compute capability. Red Hat&amp;rsquo;s Kueue addresses these issues with dynamic resource allocation, enhancing cluster management. Discover how this innovative approach can improve GPU utilization. 💻🔧 #GPU #Kubernetes #AI #RedHat #CloudComputing</description>
+    </item>
+    <item>
+      <title>K3s vs. K8s: When lightweight Kubernetes distros win (and when they don’t)</title>
+      <link>/articles/article-2026-10-02-22054/</link>
+      <pubDate>Fri, 02 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22054/</guid>
+      <description>K3s and K8s are two Kubernetes distributions catering to different needs. K8s is a powerful orchestration platform with comprehensive features but comes with significant operational weight. In contrast, K3s is a lightweight version designed for simplicity and lower resource usage, making it ideal for smaller environments. Choosing between them depends on your infrastructure and team requirements. 🤖🌐🔧 #Kubernetes #K3s #K8s #CloudComputing #DevOps</description>
+    </item>
     <item>
       <title>Use Graph RAG when relationships are part of the evidence</title>
       <link>/articles/article-2026-10-01-22033/</link>

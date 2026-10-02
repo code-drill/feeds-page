@@ -6,8 +6,15 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepSeek-Reasonix: How a poisoned config can hijack an AI coding agent</title>
+      <link>/articles/article-2026-10-02-22060/</link>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-02-22060/</guid>
+      <description>🚨 GitLab&amp;rsquo;s Threat Research Group has identified a critical command execution vulnerability in DeepSeek-Reasonix Studio. This flaw, known as ConfigPoisoning, may allow malicious code execution when developers view file diffs. To mitigate this risk, users are advised to update to DeepSeek-Reasonix Studio 2.21.0 or DeepSeek Reasonix npm 1.39.3. 🛠️ It&amp;rsquo;s important to note that this vulnerability affects multiple coding agents, highlighting a broader security concern in AI-assisted development&amp;hellip;</description>
+    </item>
     <item>
       <title>GitLab and Claude Code: Fast, compliant AI</title>
       <link>/articles/article-2026-09-29-22002/</link>

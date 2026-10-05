@@ -16,6 +16,13 @@
       <description>🚀 Palo Alto Networks has unveiled Cortex XCOR, an AI-driven platform aimed at improving observability. This tool shifts the focus from manual incident responses to automated investigations and recommendations. 🤖 Designed to address the challenges of cloud-native architectures, XCOR aims to reduce the need for engineers to troubleshoot at odd hours. While it still involves human oversight, the platform promises to enhance efficiency in handling outages. #AI #Observability #TechInnovation&amp;hellip;</description>
     </item>
     <item>
+      <title>dotInsights | October 2026</title>
+      <link>/articles/article-2026-10-05-22075/</link>
+      <pubDate>Mon, 05 Oct 2026 13:57:56 +0000</pubDate>
+      <guid>/articles/article-2026-10-05-22075/</guid>
+      <description>🔍 Did you know? The System.Threading.Interlocked class allows atomic operations on shared variables, enabling safe updates by multiple threads without using locks. Welcome to dotInsights by JetBrains! This newsletter shares the latest in .NET and software development. 📚 Recent highlights include: - C# 15 updates and TypeSafe’s AI model in .NET. - Creating an Account UI in .NET MAUI. - Control flow obfuscation for .NET and Java teams. Stay informed! #dotNet #SoftwareDevelopment #JetBrains&amp;hellip;</description>
+    </item>
+    <item>
       <title>Why your non-root container dropped its capabilities (and how to fix it)</title>
       <link>/articles/article-2026-10-05-22069/</link>
       <pubDate>Mon, 05 Oct 2026 13:15:18 +0000</pubDate>
@@ -49,6 +56,13 @@
       <pubDate>Mon, 05 Oct 2026 10:46:19 +0000</pubDate>
       <guid>/articles/article-2026-10-05-22067/</guid>
       <description>🚨 Important Update for Kotlin Developers! 🚨 Starting with IntelliJ IDEA 2026.3 and Android Studio Rabbit 2 | 2026.2.2, support for Swift language IDE features in the Kotlin Multiplatform (KMP) plugin will be discontinued. This includes editing, syntax highlighting, and navigation for Swift files. However, running iOS applications and debugging Kotlin code on iOS will still be fully supported. Existing Swift functionality will remain in earlier versions, but those versions won&amp;rsquo;t receive&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Two front doors: Module-level access in a Django GRC app</title>
+      <link>/articles/article-2026-10-05-22074/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-05-22074/</guid>
+      <description>🚪 GitLab&amp;rsquo;s engineering team recently tackled authorization challenges in their internal GRC tool, which serves both the Security Compliance and Internal Audit teams. The original setup only checked if users were logged in, leading to significant security gaps. The team restructured the app, creating independent modules for each audience while maintaining a core with shared functionalities. 🔒 Access control now relies on Django&amp;rsquo;s built-in auth system, ensuring that users can only access data&amp;hellip;</description>
     </item>
     <item>
       <title>Agents have made CI the bottleneck. Faster pipelines are the wrong fix.</title>

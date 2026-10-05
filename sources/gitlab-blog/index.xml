@@ -6,8 +6,15 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two front doors: Module-level access in a Django GRC app</title>
+      <link>/articles/article-2026-10-05-22074/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-05-22074/</guid>
+      <description>🚪 GitLab&amp;rsquo;s engineering team recently tackled authorization challenges in their internal GRC tool, which serves both the Security Compliance and Internal Audit teams. The original setup only checked if users were logged in, leading to significant security gaps. The team restructured the app, creating independent modules for each audience while maintaining a core with shared functionalities. 🔒 Access control now relies on Django&amp;rsquo;s built-in auth system, ensuring that users can only access data&amp;hellip;</description>
+    </item>
     <item>
       <title>DeepSeek-Reasonix: How a poisoned config can hijack an AI coding agent</title>
       <link>/articles/article-2026-10-02-22060/</link>

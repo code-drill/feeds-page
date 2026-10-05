@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2026 20:28:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 13:57:56 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotInsights | October 2026</title>
+      <link>/articles/article-2026-10-05-22075/</link>
+      <pubDate>Mon, 05 Oct 2026 13:57:56 +0000</pubDate>
+      <guid>/articles/article-2026-10-05-22075/</guid>
+      <description>🔍 Did you know? The System.Threading.Interlocked class allows atomic operations on shared variables, enabling safe updates by multiple threads without using locks. Welcome to dotInsights by JetBrains! This newsletter shares the latest in .NET and software development. 📚 Recent highlights include: - C# 15 updates and TypeSafe’s AI model in .NET. - Creating an Account UI in .NET MAUI. - Control flow obfuscation for .NET and Java teams. Stay informed! #dotNet #SoftwareDevelopment #JetBrains&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Two front doors: Module-level access in a Django GRC app</title>
+      <link>/articles/article-2026-10-05-22074/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-05-22074/</guid>
+      <description>🚪 GitLab&amp;rsquo;s engineering team recently tackled authorization challenges in their internal GRC tool, which serves both the Security Compliance and Internal Audit teams. The original setup only checked if users were logged in, leading to significant security gaps. The team restructured the app, creating independent modules for each audience while maintaining a core with shared functionalities. 🔒 Access control now relies on Django&amp;rsquo;s built-in auth system, ensuring that users can only access data&amp;hellip;</description>
+    </item>
     <item>
       <title>Early Talent Hiring at Palantir</title>
       <link>/articles/article-2026-10-02-22063/</link>

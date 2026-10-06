@@ -6,8 +6,22 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependency Firewall: Block risky packages before the build</title>
+      <link>/articles/article-2026-10-06-22086/</link>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-06-22086/</guid>
+      <description>🚨 Introducing GitLab Dependency Firewall! 🚨 This new tool helps block malicious, vulnerable, and non-compliant packages before they reach your builds. With AI coding agents pulling in dependencies, the risk of unreviewed packages increases. The Firewall allows you to set policies for package status, vulnerability severity, license types, and age, ensuring only safe packages make it into your builds. Get early access to streamline your security and governance! 🔒 #GitLab #DependencyFirewall&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Every artifact your teams ship, assembled right the first time</title>
+      <link>/articles/article-2026-10-06-22087/</link>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-06-22087/</guid>
+      <description>🚀 GitLab has launched Artifact Central in beta for GitLab.com users! This new organization-level registry simplifies artifact management by consolidating storage and access across projects. With Artifact Central, teams can set policies once at the organization level, ensuring consistency. Developers benefit from a single URL for all artifact types, whether hosted or remote. Every artifact published carries automatic build provenance, making traceability easier. This feature is designed to&amp;hellip;</description>
+    </item>
     <item>
       <title>Two front doors: Module-level access in a Django GRC app</title>
       <link>/articles/article-2026-10-05-22074/</link>

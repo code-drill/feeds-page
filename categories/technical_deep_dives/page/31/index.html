@@ -449,6 +449,23 @@
     <div class="articles-list">
         
         <article class="article-item">
+            <h2><a href="https://developers.redhat.com/articles/2025/10/10/nodejs-20-memory-management-containers" target="_blank">Node.js 20&#43; memory management in containers</a></h2>
+            <div class="publication-date">2025-10-10 07:00</div>
+            <div class="summary">Node.js 20 enhances memory management in containers by being container-aware, limiting heap size based on cgroup limits. This adaptation helps prevent memory overflow issues on platforms like OpenShift. The maximum heap size is 50% of the container size, capping at 2 GiB for larger containers. Developers can also set specific limits using the `--max-old-space-size` flag. For efficient CPU allocation, combining `worker_threads` with multiple CPU limits can improve performance, but balance is...</div>
+            <div class="source">Source: <a href="/sources/red-hat-developer-blog">Red Hat Developer Blog</a></div>
+            
+            <div class="author">Francisco De Melo Junior, Alexander Barbosa Ayala</div>
+            
+            
+            <div class="categories">
+                
+                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
+                
+            </div>
+            
+        </article>
+        
+        <article class="article-item">
             <h2><a href="https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4" target="_blank">From Static Rate Limiting to Adaptive Traffic Management in Airbnb’s Key-Value Store</a></h2>
             <div class="publication-date">2025-10-09 16:01</div>
             <div class="summary">Airbnb has enhanced its key-value store, Mussel, with advanced traffic management techniques. 🌐 The updated system includes resource-aware rate control, which measures the real cost of requests, and load shedding to prioritize critical traffic during peak times. 🚦 Additionally, hot-key detection helps manage sudden spikes from bots or DDoS attacks, ensuring stability and performance for users. Read more about these improvements and their impact on service reliability. 📈 #AirbnbTech...</div>
@@ -1081,23 +1098,6 @@
             <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
             
             <div class="author">Harris Hancock</div>
-            
-            
-            <div class="categories">
-                
-                <a href="/categories/technical_deep_dives" class="category-text">Technical Deep Dives</a>
-                
-            </div>
-            
-        </article>
-        
-        <article class="article-item">
-            <h2><a href="https://blog.cloudflare.com/how-cloudflare-uses-the-worlds-greatest-collection-of-performance-data/" target="_blank">How Cloudflare uses the world’s greatest collection of performance data to make the world’s fastest global network even faster</a></h2>
-            <div class="publication-date">2025-09-26 06:00</div>
-            <div class="summary">Cloudflare has announced enhancements to its global network performance. By analyzing extensive traffic data, they are optimizing their congestion control system to handle Internet-scale congestion more efficiently. 🌐 Early results show an average speed increase of 10% across their network. This improvement is driven by new algorithmic methods that leverage insights from their vast Free Plan user base. 🚀 These updates aim to ensure faster and more reliable connections for all customers. 📈...</div>
-            <div class="source">Source: <a href="/sources/cloudflare-blog">Cloudflare Blog</a></div>
-            
-            <div class="author">Richard Boulton</div>
             
             
             <div class="categories">

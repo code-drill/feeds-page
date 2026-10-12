@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:00:54 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding</title>
+      <link>/articles/article-2026-10-12-22192/</link>
+      <pubDate>Mon, 12 Oct 2026 16:00:54 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22192/</guid>
+      <description>🚀 ReplaySSM rethinks state storage for hybrid models, combining state-space model (SSM) layers with attention layers for improved decoding speed. Key advancements include a checkpoint representation of SSM state, which reduces latency and addresses issues like state traffic and error accumulation. This collaboration between NVIDIA and Princeton&amp;rsquo;s Dao AI Lab highlights significant benefits for models such as GLM-5.3-Flash and Kimi-K3. The full paper is available on arXiv, with code on GitHub&amp;hellip;.</description>
+    </item>
     <item>
       <title>Claude Code found my app’s shared contract in two MCP calls. Then the records ran out.</title>
       <link>/articles/article-2026-10-11-22180/</link>

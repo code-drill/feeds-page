@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 15:54:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 20:48:01 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPUs on Kubernetes are bring-your-own-everything, starting with the bill</title>
+      <link>/articles/article-2026-10-12-22193/</link>
+      <pubDate>Mon, 12 Oct 2026 20:48:01 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22193/</guid>
+      <description>Running a Kubernetes platform with GPUs presents unique challenges. Unlike CPU and memory, GPU metrics are not automatically tracked, requiring teams to build their own visibility tools. 📊 NVIDIA&amp;rsquo;s DCGM exporter reports at the physical device level, which can lead to inaccurate usage data when multiple pods share a GPU. This can result in misleading metrics for resource allocation. ⚠️ Furthermore, rightsizing for GPUs is complicated. Unlike CPUs, GPUs require whole-number requests without&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google paid $90,000 for this bug, then waited two months to fix it</title>
+      <link>/articles/article-2026-10-12-22194/</link>
+      <pubDate>Mon, 12 Oct 2026 20:47:17 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22194/</guid>
+      <description>Google recently addressed a critical security flaw in its developer documentation infrastructure. This unauthenticated RCE vulnerability was discovered by Simon Köck, allowing potential code execution on the server due to a reused OAuth client secret. 🔒 The issue remained unpatched for two months, raising concerns about possible exploitation. Köck received a $90,000 bounty for his findings, highlighting the severity of the vulnerability, which was rated S0, the highest on Google&amp;rsquo;s scale. 💰&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Coding agents made building easy. Platform teams that build from scratch are 3.5x more likely to lack a strategy.</title>
+      <link>/articles/article-2026-10-12-22195/</link>
+      <pubDate>Mon, 12 Oct 2026 19:28:27 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22195/</guid>
+      <description>📊 The article discusses the build-or-buy dilemma in platform engineering, highlighting that teams building from scratch are 3.5x more likely to lack a clear strategy. 🤖 AI has simplified the building process, but it doesn&amp;rsquo;t eliminate the ongoing responsibilities of maintenance and governance. 🔍 The majority of platform teams prefer using underlying tools (51.3%) over templates (31.2%) or custom builds (17.5%). This shift reflects a maturity trend in architectural choices, emphasizing&amp;hellip;</description>
+    </item>
     <item>
       <title>Andrej Karpathy says only 5,000 people have seen what AI can really do</title>
       <link>/articles/article-2026-10-12-22191/</link>

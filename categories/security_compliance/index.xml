@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 20:47:17 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google paid $90,000 for this bug, then waited two months to fix it</title>
+      <link>/articles/article-2026-10-12-22194/</link>
+      <pubDate>Mon, 12 Oct 2026 20:47:17 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22194/</guid>
+      <description>Google recently addressed a critical security flaw in its developer documentation infrastructure. This unauthenticated RCE vulnerability was discovered by Simon Köck, allowing potential code execution on the server due to a reused OAuth client secret. 🔒 The issue remained unpatched for two months, raising concerns about possible exploitation. Köck received a $90,000 bounty for his findings, highlighting the severity of the vulnerability, which was rated S0, the highest on Google&amp;rsquo;s scale. 💰&amp;hellip;</description>
+    </item>
     <item>
       <title>Claude found 29,000 possible bugs in open source. Only 516 have been fixed.</title>
       <link>/articles/article-2026-10-11-22181/</link>

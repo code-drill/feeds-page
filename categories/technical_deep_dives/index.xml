@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 16:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 20:48:01 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPUs on Kubernetes are bring-your-own-everything, starting with the bill</title>
+      <link>/articles/article-2026-10-12-22193/</link>
+      <pubDate>Mon, 12 Oct 2026 20:48:01 +0000</pubDate>
+      <guid>/articles/article-2026-10-12-22193/</guid>
+      <description>Running a Kubernetes platform with GPUs presents unique challenges. Unlike CPU and memory, GPU metrics are not automatically tracked, requiring teams to build their own visibility tools. 📊 NVIDIA&amp;rsquo;s DCGM exporter reports at the physical device level, which can lead to inaccurate usage data when multiple pods share a GPU. This can result in misleading metrics for resource allocation. ⚠️ Furthermore, rightsizing for GPUs is complicated. Unlike CPUs, GPUs require whole-number requests without&amp;hellip;</description>
+    </item>
     <item>
       <title>ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding</title>
       <link>/articles/article-2026-10-12-22192/</link>

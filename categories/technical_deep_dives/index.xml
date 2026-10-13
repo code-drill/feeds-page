@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 20:48:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:17:03 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sharding etcd on hosted control planes and what the numbers actually say</title>
+      <link>/articles/article-2026-10-13-22206/</link>
+      <pubDate>Tue, 13 Oct 2026 13:17:03 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22206/</guid>
+      <description>Understanding the pressure on etcd in Kubernetes clusters is essential. Every write request funnels through etcd&amp;rsquo;s write-ahead log and backend, impacting performance, especially in hosted control planes. This pressure often arises from unaccessed objects, highlighting the need for effective management. For more details, check out the full article! 📊🔍 #Kubernetes #etcd #CloudComputing #DevOps #RedHat</description>
+    </item>
     <item>
       <title>GPUs on Kubernetes are bring-your-own-everything, starting with the bill</title>
       <link>/articles/article-2026-10-12-22193/</link>

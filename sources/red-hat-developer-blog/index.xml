@@ -6,8 +6,29 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:26:16 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test and deploy bootable containers with bootc virtualization kit (bcvk)</title>
+      <link>/articles/article-2026-10-13-22204/</link>
+      <pubDate>Tue, 13 Oct 2026 13:26:16 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22204/</guid>
+      <description>Discover how bootable containers can streamline OS management! 🖥️ Traditional operating systems often face issues like configuration drift, slow updates, and complex rollbacks. Bootable containers offer a solution by packaging the OS as an application image. This allows teams to test base images locally and deploy consistent builds across various infrastructures. 🌐 #BootableContainers #OSManagement #Virtualization #TechSolutions</description>
+    </item>
+    <item>
+      <title>Red Hat AI Inference 3.5 MaaS governance on AKS</title>
+      <link>/articles/article-2026-10-13-22205/</link>
+      <pubDate>Tue, 13 Oct 2026 13:17:06 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22205/</guid>
+      <description>Red Hat AI Inference 3.5 addresses governance challenges in public cloud Kubernetes clusters. It provides solutions for securing endpoints, authenticating developers, and managing GPU costs across teams. This multi-tenant governance approach supports any Kubernetes distribution, making it easier for platform engineers to manage AI models. #RedHat #AI #Kubernetes #Governance #CloudComputing 🌐🤖💻</description>
+    </item>
+    <item>
+      <title>Sharding etcd on hosted control planes and what the numbers actually say</title>
+      <link>/articles/article-2026-10-13-22206/</link>
+      <pubDate>Tue, 13 Oct 2026 13:17:03 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22206/</guid>
+      <description>Understanding the pressure on etcd in Kubernetes clusters is essential. Every write request funnels through etcd&amp;rsquo;s write-ahead log and backend, impacting performance, especially in hosted control planes. This pressure often arises from unaccessed objects, highlighting the need for effective management. For more details, check out the full article! 📊🔍 #Kubernetes #etcd #CloudComputing #DevOps #RedHat</description>
+    </item>
     <item>
       <title>Build an AI matching engine with Docling, Granite &amp; OpenShift AI</title>
       <link>/articles/article-2026-10-12-22186/</link>

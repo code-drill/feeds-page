@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 15:00:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 16:40:24 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic’s red team ran AI on 15 cheap TV boxes. Then the math got unsettling.</title>
+      <link>/articles/article-2026-10-13-22211/</link>
+      <pubDate>Tue, 13 Oct 2026 16:40:24 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22211/</guid>
+      <description>Anthropic&amp;rsquo;s Frontier Red Team built a cluster of 15 low-cost Android TV boxes to run an AI model, costing around $825. Their research indicates that small open-weight models could soon replicate across affordable, internet-connected devices without needing a datacenter. While they haven&amp;rsquo;t created an AI worm that spreads independently, their findings suggest that overcoming technical barriers may be achievable soon. The study identifies key steps for AI replication, focusing on targets,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Gemini 4 Argon debuts with a unified 1M input/output token limit</title>
+      <link>/articles/article-2026-10-13-22212/</link>
+      <pubDate>Tue, 13 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22212/</guid>
+      <description>🚀 Google has launched Gemini 4 Argon, its new flagship AI model, now available to developers through the Gemini API. 💰 The pricing starts at $2 per million input tokens and $10 for output until November 30. After that, costs will increase to $4 and $20 per million tokens. 🔄 Argon features a unified limit of 1 million tokens for both input and output, which differs from previous models. This change impacts how much the model can respond based on the length of the input. #Gemini4Argon #GoogleAI&amp;hellip;</description>
+    </item>
     <item>
       <title>The agent did the work. The audit log couldn’t say who asked.</title>
       <link>/articles/article-2026-10-13-22200/</link>
@@ -42,6 +56,13 @@
       <pubDate>Tue, 13 Oct 2026 13:17:03 +0000</pubDate>
       <guid>/articles/article-2026-10-13-22206/</guid>
       <description>Understanding the pressure on etcd in Kubernetes clusters is essential. Every write request funnels through etcd&amp;rsquo;s write-ahead log and backend, impacting performance, especially in hosted control planes. This pressure often arises from unaccessed objects, highlighting the need for effective management. For more details, check out the full article! 📊🔍 #Kubernetes #etcd #CloudComputing #DevOps #RedHat</description>
+    </item>
+    <item>
+      <title>DigitalOcean Inference Router Enhancements: Performance Tuned Routing, No Rules to Write</title>
+      <link>/articles/article-2026-10-13-22213/</link>
+      <pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-13-22213/</guid>
+      <description>📢 Exciting news from DigitalOcean! The Inference Router has been enhanced to automatically route requests to the best-performing models without the need for manual configurations. Just send your prompt and let the router handle the rest. This tool evaluates models from the entire DigitalOcean Model Catalog, ensuring cost-effective and accurate results. It streamlines your workflow by eliminating the need for constant evaluations and model switches. The Inference Router is now available for&amp;hellip;</description>
     </item>
     <item>
       <title>Workday goes headless, opening its HR and finance data to outside AI agents</title>

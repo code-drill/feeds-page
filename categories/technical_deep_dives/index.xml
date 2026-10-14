@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:26:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 17:43:51 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Where do you look when Kubernetes is healthy but requests stall?</title>
+      <link>/articles/article-2026-10-14-22232/</link>
+      <pubDate>Wed, 14 Oct 2026 17:43:51 +0000</pubDate>
+      <guid>/articles/article-2026-10-14-22232/</guid>
+      <description>In cloud-native operations, the &amp;ldquo;phantom slowdown&amp;rdquo; can be frustrating. 🌐 Despite Kubernetes dashboards showing no issues, users may experience latency in applications. Mahesh Ramachandran from HPE OpsRamp explains that health checks like liveness and readiness probes don&amp;rsquo;t always reflect true application performance. Continuous telemetry and AI-assisted analysis can help teams trace intermittent slowdowns. Learn more about tackling these elusive issues! 📊🔍 #Kubernetes #CloudNative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym</title>
+      <link>/articles/article-2026-10-14-22236/</link>
+      <pubDate>Wed, 14 Oct 2026 16:10:45 +0000</pubDate>
+      <guid>/articles/article-2026-10-14-22236/</guid>
+      <description>🚀 AI agents are transforming chip design workflows, but reliability remains a challenge. Errors can propagate through stages, impacting final outputs. 🔍 NVIDIA NeMo Gym is addressing these issues by evaluating agents against verified results. This helps teams trace errors and improve automation trustworthiness. 📈 A case study with Siemens Fuse EDA shows a rise in reliability scores from 55% to ~95% by refining agent skills. Learn how to enhance your chip design process with AI tools!&amp;hellip;</description>
+    </item>
     <item>
       <title>Inside Action Gateway in Managed Agents</title>
       <link>/articles/article-2026-10-13-22216/</link>

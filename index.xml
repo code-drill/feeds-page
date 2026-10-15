@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 15:01:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 18:00:01 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
+      <link>/articles/article-2026-10-15-22261/</link>
+      <pubDate>Thu, 15 Oct 2026 18:00:01 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22261/</guid>
+      <description>🚀 Meta has launched Muse Spark Open, a new coding-optimized 816B mixture-of-experts (MoE) model. With 42B active parameters and a 1M token context window, it enhances agentic coding workflows by improving accuracy and understanding across complex codebases. This model supports multimodal tasks, processing text, images, and audio seamlessly, making it ideal for extensive coding projects. #Meta #AI #Coding #MuseSpark #Innovation</description>
+    </item>
+    <item>
+      <title>OpenAI promised developers six months’ notice. GPT-4o users got three.</title>
+      <link>/articles/article-2026-10-15-22258/</link>
+      <pubDate>Thu, 15 Oct 2026 17:52:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22258/</guid>
+      <description>🚨 OpenAI has announced the retirement of four GPT-4 models from its API on January 14, 2027. This includes GPT-4o, GPT-4o mini, GPT-4.1, and GPT-4.1 mini. Developers received just three months&amp;rsquo; notice to migrate their applications. 🔄 The recommended replacement is GPT-6 Luna, which has different reasoning and tool call processes. This change may complicate migration beyond simply updating the model ID. 💡 GPT-4o was initially released in May 2024 and had a strong user base. Despite its return&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Pulse: new trend of building “internal vibe-coding apps” at tech companies</title>
+      <link>/articles/article-2026-10-15-22257/</link>
+      <pubDate>Thu, 15 Oct 2026 17:01:10 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22257/</guid>
+      <description>🚀 Tech companies are embracing a new trend with &amp;ldquo;internal vibe-coding apps.&amp;rdquo; Ramp&amp;rsquo;s platform, Glass, allows non-engineers to create and share complex internal applications easily. Users can connect data sources to enhance functionality. Stripe has introduced a similar tool, Harbor, developed in just six weeks. These innovations highlight a shift towards empowering all employees in tech environments. #TechTrends #Innovation #VibeCoding #InternalTools #AI</description>
+    </item>
+    <item>
+      <title>Front-End Web Deep Dive: Runtime Config</title>
+      <link>/articles/article-2026-10-15-22262/</link>
+      <pubDate>Thu, 15 Oct 2026 17:00:42 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22262/</guid>
+      <description>🚀 Exciting updates from Heroku! The Front-End Web Cloud Native Buildpack now supports runtime configuration that is secure and requires no re-builds. By applying Twelve-Factor principles, developers can manage environment variables directly in HTML as data-* attributes. This simplifies configuration changes without the need for full re-builds. Learn how to implement runtime configuration for static web apps and streamline your deployment process! 🌐🔧 #WebDevelopment #Heroku #CloudNative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Meta ships Muse Spark Open, its answer to China’s best open-weight models</title>
+      <link>/articles/article-2026-10-15-22259/</link>
+      <pubDate>Thu, 15 Oct 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22259/</guid>
+      <description>📢 Meta has launched Muse Spark Open, an advanced 816B open model with 42B active parameters, claiming it as the most capable US open-weight model to date. The model is accessible via several APIs and can be downloaded from major platforms like Amazon SageMaker and Hugging Face. It operates under the “Muse Model License,” allowing free use for many developers, but companies with over $20 million in revenue must notify Meta before commercial use. Internal use is free, but military and critical&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a computer that can pause and resume in milliseconds: Inside the MicroVM architecture behind Managed Agents</title>
+      <link>/articles/article-2026-10-15-22263/</link>
+      <pubDate>Thu, 15 Oct 2026 16:29:58 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22263/</guid>
+      <description>🚀 DigitalOcean has introduced Managed Agents, utilizing Firecracker microVM architecture for efficient session management. Each session operates in isolation, ensuring stable network configurations and immutable storage for checkpoints. This design allows sessions to pause and resume quickly, improving resource usage. Key components include self-contained cells for capacity management and a control plane for lifecycle decisions. This structure enhances fault tolerance while maintaining&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Nvidia squeezed a 74B agent model into 24GB so it can run on your laptop</title>
+      <link>/articles/article-2026-10-15-22260/</link>
+      <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22260/</guid>
+      <description>🚀 Nvidia has announced updates to its Nemotron family, introducing the Nemotron 3.5 Super VL model with 120 billion parameters, designed for complex multimodal tasks. The new Bolt models (74B and 4B) are optimized for local use on laptops, focusing on speed and efficiency for everyday tasks like web browsing and research. 💻 While Super VL aims for high accuracy in various applications, its benchmark results show mixed performance compared to other models, including Alibaba&amp;rsquo;s Qwen. The larger&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google Summer of Code 2026 With the Kotlin Foundation: Recap</title>
+      <link>/articles/article-2026-10-15-22264/</link>
+      <pubDate>Thu, 15 Oct 2026 15:03:05 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22264/</guid>
+      <description>🌟 Google Summer of Code 2026 has concluded, marking the Kotlin Foundation&amp;rsquo;s fourth participation! This year, two projects made significant strides in the Kotlin ecosystem. One project, led by Ayako Hayasaka, improved recursion support in the Kotlin/Wasm backend, enhancing performance for recursive programs. A special thank you to all mentors for their support! 🙏 #GoogleSummerOfCode #Kotlin #OpenSource #Programming #Mentorship</description>
+    </item>
     <item>
       <title>Optimized support for Open NVIDIA Nemotron 3.5 Super VL</title>
       <link>/articles/article-2026-10-15-22253/</link>

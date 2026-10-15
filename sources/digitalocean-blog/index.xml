@@ -6,8 +6,15 @@
     <description>Recent content in DigitalOcean-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:26:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:29:58 +0000</lastBuildDate>
     <atom:link href="/sources/digitalocean-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a computer that can pause and resume in milliseconds: Inside the MicroVM architecture behind Managed Agents</title>
+      <link>/articles/article-2026-10-15-22263/</link>
+      <pubDate>Thu, 15 Oct 2026 16:29:58 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22263/</guid>
+      <description>🚀 DigitalOcean has introduced Managed Agents, utilizing Firecracker microVM architecture for efficient session management. Each session operates in isolation, ensuring stable network configurations and immutable storage for checkpoints. This design allows sessions to pause and resume quickly, improving resource usage. Key components include self-contained cells for capacity management and a control plane for lifecycle decisions. This structure enhances fault tolerance while maintaining&amp;hellip;</description>
+    </item>
     <item>
       <title>Inside Action Gateway in Managed Agents</title>
       <link>/articles/article-2026-10-13-22216/</link>

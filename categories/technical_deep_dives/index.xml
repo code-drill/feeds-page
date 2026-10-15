@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 17:00:42 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front-End Web Deep Dive: Runtime Config</title>
+      <link>/articles/article-2026-10-15-22262/</link>
+      <pubDate>Thu, 15 Oct 2026 17:00:42 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22262/</guid>
+      <description>🚀 Exciting updates from Heroku! The Front-End Web Cloud Native Buildpack now supports runtime configuration that is secure and requires no re-builds. By applying Twelve-Factor principles, developers can manage environment variables directly in HTML as data-* attributes. This simplifies configuration changes without the need for full re-builds. Learn how to implement runtime configuration for static web apps and streamline your deployment process! 🌐🔧 #WebDevelopment #Heroku #CloudNative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a computer that can pause and resume in milliseconds: Inside the MicroVM architecture behind Managed Agents</title>
+      <link>/articles/article-2026-10-15-22263/</link>
+      <pubDate>Thu, 15 Oct 2026 16:29:58 +0000</pubDate>
+      <guid>/articles/article-2026-10-15-22263/</guid>
+      <description>🚀 DigitalOcean has introduced Managed Agents, utilizing Firecracker microVM architecture for efficient session management. Each session operates in isolation, ensuring stable network configurations and immutable storage for checkpoints. This design allows sessions to pause and resume quickly, improving resource usage. Key components include self-contained cells for capacity management and a control plane for lifecycle decisions. This structure enhances fault tolerance while maintaining&amp;hellip;</description>
+    </item>
     <item>
       <title>Red Hat OpenShift Virtualization memory management overview</title>
       <link>/articles/article-2026-10-15-22254/</link>

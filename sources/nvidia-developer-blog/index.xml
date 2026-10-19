@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile</title>
+      <link>/articles/article-2026-10-19-22312/</link>
+      <pubDate>Mon, 19 Oct 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-19-22312/</guid>
+      <description>🚀 NVIDIA CUDA Tile (cuTile) is a Python-based DSL designed for optimizing GPU performance. It simplifies tile-level GPU programming by using high-level primitives. Jane Street, an early adopter, implemented Mamba-2 using cuTile, improving their sequence modeling. The article discusses the three custom kernels that enhance the Mamba-2 forward pass. For details on setup and architecture trade-offs, check out the full article! #NVIDIA #MachineLearning #CUDA #DeepLearning #AI</description>
+    </item>
     <item>
       <title>Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</title>
       <link>/articles/article-2026-10-16-22281/</link>

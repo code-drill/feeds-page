@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 16:49:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 20:44:17 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assess the entire inference stack — not just open model benchmarks</title>
+      <link>/articles/article-2026-10-20-22334/</link>
+      <pubDate>Tue, 20 Oct 2026 20:44:17 +0000</pubDate>
+      <guid>/articles/article-2026-10-20-22334/</guid>
+      <description>Engineers are often guided by impressive benchmark results when selecting open models. However, these benchmarks do not guarantee success in production environments. Factors like model accuracy and the specific information provided play crucial roles in actual performance, especially for long-horizon AI tasks. Ryan Hanrui Wang from Nebius emphasizes that organizations should consider the entire inference stack and customize benchmarks to align with their specific needs. For those requiring&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Your Kubernetes dashboard is green. Your users are seeing red.</title>
+      <link>/articles/article-2026-10-20-22232/</link>
+      <pubDate>Tue, 20 Oct 2026 19:02:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-20-22232/</guid>
+      <description>In cloud-native operations, the &amp;ldquo;phantom slowdown&amp;rdquo; can be frustrating. 🌐 Despite Kubernetes dashboards showing no issues, users may experience latency in applications. Mahesh Ramachandran from HPE OpsRamp explains that health checks like liveness and readiness probes don&amp;rsquo;t always reflect true application performance. Continuous telemetry and AI-assisted analysis can help teams trace intermittent slowdowns. Learn more about tackling these elusive issues! 📊🔍 #Kubernetes #CloudNative&amp;hellip;</description>
+    </item>
+    <item>
+      <title>ElevenLabs wants to run your voice agent. Here’s what developers give up.</title>
+      <link>/articles/article-2026-10-20-22335/</link>
+      <pubDate>Tue, 20 Oct 2026 18:43:47 +0000</pubDate>
+      <guid>/articles/article-2026-10-20-22335/</guid>
+      <description>🚀 ElevenLabs has introduced Eleven Realtime, featuring two voice-agent models: Mini and Max. These integrate speech recognition and reasoning while offering managed services for developers. 🔧 Developers can customize settings like prompts and turn-taking, but can&amp;rsquo;t configure the underlying models directly. This trade-off simplifies development but limits troubleshooting options. 📊 Performance tests show Max excels in complex tasks, with a completion rate of 87.1%, while Mini scored 60.3%&amp;hellip;.</description>
+    </item>
     <item>
       <title>Scripted tests can’t keep up with AI-written code. Datadog is betting agents can.</title>
       <link>/articles/article-2026-10-20-22330/</link>

@@ -6,8 +6,36 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:52:16 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside NVIDIA Sentry: Secure AI Agents at Runtime</title>
+      <link>/articles/article-2026-10-21-22352/</link>
+      <pubDate>Wed, 21 Oct 2026 09:52:16 +0000</pubDate>
+      <guid>/articles/article-2026-10-21-22352/</guid>
+      <description>🚀 NVIDIA Sentry is a new security framework designed to monitor AI agents and enforce access policies. It ensures that agents operate within their defined boundaries, even if they can bypass security controls. Built on NVIDIA DOCA and running on BlueField-4 DPUs, Sentry provides host-isolated runtime protection for AI systems. This framework establishes a separate hardware trust domain, continuously evaluating agent behavior for security and integrity. #NVIDIA #AI #CyberSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale</title>
+      <link>/articles/article-2026-10-21-22353/</link>
+      <pubDate>Wed, 21 Oct 2026 09:50:14 +0000</pubDate>
+      <guid>/articles/article-2026-10-21-22353/</guid>
+      <description>NVIDIA&amp;rsquo;s OpenShell Reference Architecture enhances security for autonomous AI agents operating at scale. These agents can perform complex tasks but may pose risks by accessing sensitive systems. OpenShell ensures safety through governance that manages agent activities. Key components include a control plane, a supervisor for policy checks, a sandbox for isolation, and a policy prover for verification. This structure helps maintain secure operations while allowing agents to adapt and perform&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Developing an AI Factory Digital Twin with an Agent-Assisted Workflow</title>
+      <link>/articles/article-2026-10-21-22354/</link>
+      <pubDate>Wed, 21 Oct 2026 09:38:49 +0000</pubDate>
+      <guid>/articles/article-2026-10-21-22354/</guid>
+      <description>🚀 Building an AI factory digital twin involves creating a cohesive model from site plans, equipment, and engineering needs. The NVIDIA Omniverse DSX Blueprint offers essential assets and workflows to aid in this process. With the help of Frontier AI models, developers can effectively assemble and revise designs. This agent-assisted workflow enables teams to explore layouts and prepare for engineering reviews. #AIFactory #DigitalTwin #NVIDIA #Engineering #Simulation</description>
+    </item>
+    <item>
+      <title>Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD</title>
+      <link>/articles/article-2026-10-21-22355/</link>
+      <pubDate>Wed, 21 Oct 2026 09:35:32 +0000</pubDate>
+      <guid>/articles/article-2026-10-21-22355/</guid>
+      <description>NVIDIA&amp;rsquo;s DSX POD streamlines AI factory integration by shifting much of the setup to a controlled factory environment. 🏭 This approach allows operators to receive pre-integrated AI infrastructure, reducing onsite complexity and accelerating productivity. The DSX POD aligns with NVIDIA&amp;rsquo;s Vera Rubin platform, enhancing deployment efficiency through standardized processes. Learn how this innovation supports a faster path to productive AI capacity. ⚡️🔗 #NVIDIA #AIFactory #TechInnovation&amp;hellip;</description>
+    </item>
     <item>
       <title>Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile</title>
       <link>/articles/article-2026-10-19-22312/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 16:39:09 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage</title>
+      <link>/articles/article-2026-10-22-22389/</link>
+      <pubDate>Thu, 22 Oct 2026 16:39:09 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22389/</guid>
+      <description>Unlocking the power of GPU memory in Python is crucial for handling large datasets. 📊 NVIDIA&amp;rsquo;s GPUDirect Storage (GDS) enables direct data transfer from storage to GPU memory, enhancing efficiency and reducing CPU load. This technology supports a variety of major storage vendors. The article highlights the use of NVIDIA KvikIO, a library that simplifies high-performance file I/O in Python and C++. 🐍 Learn how to configure storage I/O and leverage GDS for accelerated data movement. #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes</title>
+      <link>/articles/article-2026-10-22-22390/</link>
+      <pubDate>Thu, 22 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22390/</guid>
+      <description>🚀 AI development is evolving! Developers are now running multiple models in parallel and experimenting with advanced architectures using NVIDIA DGX Spark. NVIDIA recently announced support for eight-node DGX Spark clusters, which can scale unified memory to 1 TB. This upgrade enables the use of larger models, including the GLM 5.3 (753B), for local training and inference. 🔧 The new NVIDIA Sync simplifies clustering and device management. A benchmark showcases impressive performance, reaching&amp;hellip;</description>
+    </item>
     <item>
       <title>Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search</title>
       <link>/articles/article-2026-10-21-22362/</link>

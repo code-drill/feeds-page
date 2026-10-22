@@ -6,8 +6,50 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 22:17:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 15:01:54 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI found a critical PHP flaw. The bigger failure began in 2024.</title>
+      <link>/articles/article-2026-10-22-22373/</link>
+      <pubDate>Thu, 22 Oct 2026 15:01:54 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22373/</guid>
+      <description>🚨 On Wednesday, several websites went offline due to critical flaws in PHP, a language powering around 70% of the web. The vulnerabilities, identified as CVE-2026-109618 and CVE-2026-109619, prompted site operators to take precautions. WordPress advised users to update PHP, though no WordPress update was necessary. This incident highlights challenges in managing open-source security as AI tools speed up the discovery of exploits. Discussions on coordinated disclosure are ongoing among&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Who on-calls an AI? This is the unresolved crisis of agent ownership</title>
+      <link>/articles/article-2026-10-22-22374/</link>
+      <pubDate>Thu, 22 Oct 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22374/</guid>
+      <description>At 2:07 a.m., an AI agent encountered failures, raising key questions about ownership and operational risk. 🤖 The article emphasizes that the focus should shift from model selection to identifying who owns the system. Effective production agents require defined ownership, controls, and clear human intervention paths. Establishing these elements is crucial for dependable AI services. 🔧 #AI #AgentOwnership #Technology #OperationalRisk #AIManagement</description>
+    </item>
+    <item>
+      <title>PHP’s security scramble is just a preview: AI is digging up flaws faster than maintainers can fix them</title>
+      <link>/articles/article-2026-10-22-22375/</link>
+      <pubDate>Thu, 22 Oct 2026 14:35:13 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22375/</guid>
+      <description>🚨 A significant security incident is impacting businesses, schools, and government websites due to vulnerabilities in PHP, known as PHP2Shell. These flaws allow attackers to execute malicious code on servers. Major tech companies like Cloudflare and Automattic have implemented protections, while the PHP project issued emergency fixes for affected versions. The situation highlights the increasing challenge for the open-source community, as AI tools rapidly identify security flaws&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price</title>
+      <link>/articles/article-2026-10-22-22376/</link>
+      <pubDate>Thu, 22 Oct 2026 14:22:50 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22376/</guid>
+      <description>DeepSeek has launched V4.1-Flash-1017, updating its Flash model with improved task runtime and output length. 🛠️ The model, available via API and Hugging Face, shows a benchmark score of 42.3 on Terminal-Bench 4.0, outperforming Anthropic&amp;rsquo;s Claude Haiku 5.5, which scored 39.2. Pricing varies, with DeepSeek offering competitive rates, especially for long prompts. 💰 Testing focused on areas where each model excels, providing insight into their performance. #DeepSeek #ClaudeHaiku #AIModels&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI agent security is a lifecycle — not a gatekeeper</title>
+      <link>/articles/article-2026-10-22-22377/</link>
+      <pubDate>Thu, 22 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22377/</guid>
+      <description>In enterprise security, traditional methods focus on identity and permissions. However, AI agents complicate this by interpreting objectives and making decisions using inherited credentials. 🤖 The challenge lies in ensuring that these agents do not perform unintended actions, even with valid credentials. This calls for a continuous agent security lifecycle, rather than just a checkpoint. 🔒 Effective security must assess not just who is acting but what the agent attempts to do and under which&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Google turns the infrastructure behind Gemini’s agents into a cloud service</title>
+      <link>/articles/article-2026-10-22-22378/</link>
+      <pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22378/</guid>
+      <description>🚀 Google is set to offer the infrastructure behind its Gemini agents to Google Cloud users in preview. This new service, Agent Compute Engine, will provide each AI agent with a hardware-isolated microVM, combining speed and security. Other companies, like AWS and startups E2B and Daytona, also provide similar agent sandboxes. Google has experience in this area, with existing offerings like GKE and the Gemini Enterprise Agent Platform. #GoogleCloud #AI #Technology #CloudServices #Gemini</description>
+    </item>
     <item>
       <title>AI found flaws in the code behind 70% of the web. The fix took two months.</title>
       <link>/articles/article-2026-10-21-22367/</link>

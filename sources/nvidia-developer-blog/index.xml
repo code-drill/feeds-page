@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 14:58:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 17:27:52 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2</title>
+      <link>/articles/article-2026-10-23-22407/</link>
+      <pubDate>Fri, 23 Oct 2026 17:27:52 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22407/</guid>
+      <description>🚀 The Global Performance Tuner in NVIDIA TensorRT 11.1 automates performance tuning for deep learning models. It customizes optimizations for various models, enhancing accuracy and efficiency. This second part of the series delves into the algorithm and design behind the tuner, explaining how different scheduling strategies are represented as build routes. For best practices on implementation, refer to the full article. #NVIDIA #TensorRT #DeepLearning #PerformanceTuning #AI</description>
+    </item>
+    <item>
+      <title>Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1</title>
+      <link>/articles/article-2026-10-23-22408/</link>
+      <pubDate>Fri, 23 Oct 2026 17:27:35 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22408/</guid>
+      <description>Deploying neural networks involves complex decisions beyond simply converting operators to GPU kernels. NVIDIA TensorRT uses scheduling to optimize performance through choices about graph transformations, fusion, and memory placement. However, no single strategy fits all models, as changes can impact inference performance and accuracy differently. This article introduces the Global Performance Tuner in TensorRT 11.1, aimed at enhancing performance tuning. It uses an analogy of a chef&amp;hellip;</description>
+    </item>
     <item>
       <title>Using AI Agents to Teach Robots Like Microduck to Walk in Simulation</title>
       <link>/articles/article-2026-10-23-22404/</link>

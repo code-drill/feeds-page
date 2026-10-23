@@ -6,8 +6,57 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:58:32 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using AI Agents to Teach Robots Like Microduck to Walk in Simulation</title>
+      <link>/articles/article-2026-10-23-22404/</link>
+      <pubDate>Fri, 23 Oct 2026 14:58:32 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22404/</guid>
+      <description>🚀 Teaching robots like Microduck to walk involves more than a simple walking policy. They must perceive their surroundings and adapt to obstacles. 🛠️ The process includes creating a simulation environment and using NVIDIA tools like RTX Spark and Isaac Lab for training and evaluation. 📊 This article outlines how to set up a simulated obstacle course and refine navigation policies for real-world deployment. #Robotics #ArtificialIntelligence #Simulation #NVIDIA #TechInnovation</description>
+    </item>
+    <item>
+      <title>A few engineers asked IT for Linux. Then it spread to 200 machines.</title>
+      <link>/articles/article-2026-10-23-22398/</link>
+      <pubDate>Fri, 23 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22398/</guid>
+      <description>🌐 Linux is becoming essential for AI developers, with Nvidia&amp;rsquo;s DGX Spark and OpenAI&amp;rsquo;s Codex CLI supporting it. However, getting Linux approved for workplace use remains challenging. 🔒 Angelo Huang of Swif.ai emphasizes the need for IT teams to manage and secure Linux devices effectively. Swif is expanding its Linux management capabilities, aiming to simplify compliance. 🖥️ With support for various Linux distributions, Swif is addressing the gap in enterprise security and compliance for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>PHP2Shell was only the beginning: AI is accelerating the patch race</title>
+      <link>/articles/article-2026-10-23-22397/</link>
+      <pubDate>Fri, 23 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22397/</guid>
+      <description>🌐 Recent PHP vulnerabilities have caused significant disruptions across Europe, affecting government websites and public services. Germany, France, Belgium, and the Netherlands took measures to safeguard their systems. Many organizations globally followed suit. The vulnerabilities, known as PHP2Shell (CVE-2026-109618 and CVE-2026-109619), highlight a critical issue: 40% of PHP users are on unsupported versions. As AI accelerates vulnerability discovery, the open-source community faces ongoing&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advanced authentication for Data Grid in Red Hat OpenShift 4: LDAP and LDAPS</title>
+      <link>/articles/article-2026-10-23-22401/</link>
+      <pubDate>Fri, 23 Oct 2026 13:16:37 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22401/</guid>
+      <description>Explore advanced authentication methods for Red Hat Data Grid in OpenShift 4! 🔐 This guide, the second in our series, delves into direct directory integration. It covers how to validate directory authentication using a local OpenLDAP or connect to corporate Active Directory. Learn about operator configuration and TLS certificate setup with the Infinispan custom resource. #RedHat #OpenShift #DataGrid #LDAP #Security</description>
+    </item>
+    <item>
+      <title>Locking down MCP at the gateway</title>
+      <link>/articles/article-2026-10-23-22402/</link>
+      <pubDate>Fri, 23 Oct 2026 13:16:36 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22402/</guid>
+      <description>🔒 The Model Context Protocol (MCP) streamlines access to various tools within an enterprise platform, especially in telecommunications. 📊 This includes systems like network inventory, service assurance, ticketing, and customer databases, all accessed through a shared MCP gateway. 🛡️ However, it&amp;rsquo;s crucial to maintain policy boundaries at this gateway. Just because a caller is authenticated doesn&amp;rsquo;t mean they should have unrestricted access to all systems or operations. #MCP #DataSecurity&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Advanced authentication for Data Grid in Red Hat OpenShift 4: Keycloak and SSO</title>
+      <link>/articles/article-2026-10-23-22403/</link>
+      <pubDate>Fri, 23 Oct 2026 13:16:33 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22403/</guid>
+      <description>Learn how to set up authentication for Red Hat Data Grid in OpenShift 4! This article details the process of using Red Hat&amp;rsquo;s Keycloak to enable single sign-on (SSO) for console access control. Stay tuned for part 2, where direct integration with LDAP/LDAPS will be discussed. 🔐🔑 #RedHat #OpenShift #DataGrid #Keycloak #SSO</description>
+    </item>
+    <item>
+      <title>The Road to Zero: Scaling Safety Through Intelligent Infrastructure</title>
+      <link>/articles/article-2026-10-23-22399/</link>
+      <pubDate>Fri, 23 Oct 2026 12:36:57 +0000</pubDate>
+      <guid>/articles/article-2026-10-23-22399/</guid>
+      <description>Urban roadways are becoming more complex, prompting Departments of Transportation to focus on advanced V2X technology. At the same time, there is a critical need for robust cybersecurity measures to protect these systems. Balancing innovation and safety is vital for the future of urban infrastructure. 🌐🔒 #SmartCities #Cybersecurity #Transportation #V2X #UrbanPlanning</description>
+    </item>
     <item>
       <title>Microsoft’s new voice AI can start working out what you want before you finish speaking</title>
       <link>/articles/article-2026-10-23-22396/</link>
@@ -119,6 +168,13 @@
       <pubDate>Thu, 22 Oct 2026 14:35:13 +0000</pubDate>
       <guid>/articles/article-2026-10-22-22375/</guid>
       <description>🚨 A significant security incident is impacting businesses, schools, and government websites due to vulnerabilities in PHP, known as PHP2Shell. These flaws allow attackers to execute malicious code on servers. Major tech companies like Cloudflare and Automattic have implemented protections, while the PHP project issued emergency fixes for affected versions. The situation highlights the increasing challenge for the open-source community, as AI tools rapidly identify security flaws&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Segment Routing Fundamentals: Decoding SRv6 and Network Programming [Part 2]</title>
+      <link>/articles/article-2026-10-22-22400/</link>
+      <pubDate>Thu, 22 Oct 2026 14:23:46 +0000</pubDate>
+      <guid>/articles/article-2026-10-22-22400/</guid>
+      <description>Discover the key insights from &amp;ldquo;Segment Routing Fundamentals: Decoding SRv6 and Network Programming.&amp;rdquo; This article highlights the significance of SRv6 in modern networks, especially its role in 5G and AI infrastructure development. It delves into SRv6 architecture, network programming, and SID naming conventions. Stay informed on how these advancements are shaping the future of networking! 🌐📡 #SRv6 #Networking #AI #5G #Innovation</description>
     </item>
     <item>
       <title>DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price</title>

@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 14:30:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS says its AI security agent fixes 89% of bugs — but there’s a catch</title>
+      <link>/articles/article-2026-10-24-22415/</link>
+      <pubDate>Sat, 24 Oct 2026 14:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-24-22415/</guid>
+      <description>AWS has launched Continuum, an AI service designed to identify and validate code vulnerabilities in repositories. It checks these against the AWS environment and proposes fixes through pull requests. 🚀 The service claims an 89% success rate based on its performance in CyberGym-E2E tests, a significant improvement over previous benchmarks. However, issues remain regarding the effectiveness of its fixes, as highlighted by the PHP2Shell case. 🔍 While the tool excels at identifying bugs, the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building an agentic software factory? Start with the sensor.</title>
+      <link>/articles/article-2026-10-24-22416/</link>
+      <pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-24-22416/</guid>
+      <description>🚀 The gap in software delivery speed is closing, with the top engineering teams leading the way. The shift is now towards building &amp;ldquo;software factories&amp;rdquo; that automate the delivery process. Anthropic recently reported a jump from 2,500 to over 30,000 code merges daily, indicating a shift from coding bottlenecks to developer infrastructure challenges. Key to this transformation is the role of sensors in verifying changes, ensuring that teams can keep up with rapid deployments&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)</title>
+      <link>/articles/article-2026-10-24-22417/</link>
+      <pubDate>Sat, 24 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-24-22417/</guid>
+      <description>Kubernetes autoscalers face challenges due to conflicting outputs from multiple controllers. While HPA, VPA, KEDA, and Karpenter operate independently, they provide contradictory recommendations for resource allocation. This disconnect highlights an architectural gap in Kubernetes operations. The article discusses how the Unix philosophy of modular tools is compromised when autoscalers act concurrently, leading to inefficiencies. #Kubernetes #Autoscaling #CloudComputing #DevOps #SRE 🌐🔧📈</description>
+    </item>
     <item>
       <title>Before you expand your GPU pool, measure the outcome</title>
       <link>/articles/article-2026-10-24-22414/</link>

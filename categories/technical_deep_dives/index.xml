@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 17:27:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)</title>
+      <link>/articles/article-2026-10-24-22417/</link>
+      <pubDate>Sat, 24 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-24-22417/</guid>
+      <description>Kubernetes autoscalers face challenges due to conflicting outputs from multiple controllers. While HPA, VPA, KEDA, and Karpenter operate independently, they provide contradictory recommendations for resource allocation. This disconnect highlights an architectural gap in Kubernetes operations. The article discusses how the Unix philosophy of modular tools is compromised when autoscalers act concurrently, leading to inefficiencies. #Kubernetes #Autoscaling #CloudComputing #DevOps #SRE 🌐🔧📈</description>
+    </item>
     <item>
       <title>Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2</title>
       <link>/articles/article-2026-10-23-22407/</link>

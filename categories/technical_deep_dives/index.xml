@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 17:21:41 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three layers, all config: how DigitalOcean Managed Agents enforce NVIDIA OpenShell-aligned boundaries</title>
+      <link>/articles/article-2026-10-26-22436/</link>
+      <pubDate>Mon, 26 Oct 2026 17:21:41 +0000</pubDate>
+      <guid>/articles/article-2026-10-26-22436/</guid>
+      <description>🚀 A recent article discusses how DigitalOcean Managed Agents successfully migrated huffl.ai&amp;rsquo;s production backend from Supabase to DigitalOcean. The migration was managed entirely through chat, showcasing the ease of using AI agents. However, the article emphasizes the importance of security in such operations. DigitalOcean ensures safety through three layers of configuration: credentials are kept secure, a defined filesystem posture is enforced, and network access is restricted to a specified&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield</title>
+      <link>/articles/article-2026-10-26-22435/</link>
+      <pubDate>Mon, 26 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-26-22435/</guid>
+      <description>NVIDIA Minerva addresses the challenges of managing complex AI factories with hundreds of thousands of GPUs and intricate networks. 🎛️ The platform collects telemetry data across the entire system, uniting insights from different teams to identify issues quickly. This helps prevent lost production time caused by subtle failures that can disrupt GPU performance. ⏳ Conventional monitoring struggles with &amp;ldquo;gray failures,&amp;rdquo; where problems are not easily detectable. Minerva uses AI to correlate&amp;hellip;</description>
+    </item>
     <item>
       <title>Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)</title>
       <link>/articles/article-2026-10-24-22417/</link>

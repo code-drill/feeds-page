@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 14:23:01 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“I don’t use Astra every day”: OpenAI developer lead tells TNS why</title>
+      <link>/articles/article-2026-10-27-22453/</link>
+      <pubDate>Tue, 27 Oct 2026 14:23:01 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22453/</guid>
+      <description>OpenAI&amp;rsquo;s recent DevDay showcased over 20 new AI tools and models, including GPT-6.1 Sol and a faster Ultrafast tier for GPT-6 Astra. These updates aim to enhance developers’ work and streamline processes. Persistent agents, known as OpenAI dots, will assist users by connecting to over 4,000 apps and taking on various tasks for review. Developer lead Vaibhav Srivastav emphasized the importance of reducing friction for users while managing costs. Stay tuned for more updates! 🚀🤖💡 #OpenAI #DevDay&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The hidden failure paths that affect Kubernetes control plane availability</title>
+      <link>/articles/article-2026-10-27-22454/</link>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22454/</guid>
+      <description>Kubernetes control plane availability is influenced by how its components perform under stress. Even non-crashing components can cause outages due to shared metadata and aggressive health checks. Three key cases highlight this issue: 1️⃣ An extension API server published an invalid schema, impacting unrelated clients. 2️⃣ DaemonSet agents restarting created a request storm for the API server. 3️⃣ A liveness check misdiagnosed a dependency outage, leading to unnecessary restarts. These&amp;hellip;</description>
+    </item>
+    <item>
+      <title>When “isolated” doesn’t mean isolated: How to sandbox AI agents</title>
+      <link>/articles/article-2026-10-27-22455/</link>
+      <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22455/</guid>
+      <description>🔒 The article discusses the challenges of isolating AI agents within enterprise environments. Traditionally, workload separation was simpler with physical servers and VLANs, but AI agents have broader access by default. This creates significant security risks for organizations. Containers, like Docker, offer some isolation but are not foolproof. Relying solely on them may expose critical boundaries. Effective sandboxing requires built-in security policies to protect against potential&amp;hellip;</description>
+    </item>
     <item>
       <title>One pod, one node: The architecture behind serverless Kubernetes on AWS</title>
       <link>/articles/article-2026-10-27-22451/</link>

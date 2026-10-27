@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3 Ways to Boost MoE Inference on NVIDIA DGX Spark</title>
+      <link>/articles/article-2026-10-27-22460/</link>
+      <pubDate>Tue, 27 Oct 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22460/</guid>
+      <description>Boosting inference performance on NVIDIA DGX Spark can be achieved by addressing key limitations. Recent evaluations of the Ling-3.0-flash model identified memory-bound issues during decoding. Performance can be improved through three techniques: 1️⃣ Humming MXFP4 MoE kernels for optimized expert computation. 2️⃣ Online FP8 quantization to reduce weight-read volume. 3️⃣ Multi-token prediction for efficient token generation. The article provides insights into how these optimizations work,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“I don’t use Astra every day”: OpenAI developer lead tells TNS why</title>
+      <link>/articles/article-2026-10-27-22453/</link>
+      <pubDate>Tue, 27 Oct 2026 14:23:01 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22453/</guid>
+      <description>OpenAI&amp;rsquo;s recent DevDay showcased over 20 new AI tools and models, including GPT-6.1 Sol and a faster Ultrafast tier for GPT-6 Astra. These updates aim to enhance developers’ work and streamline processes. Persistent agents, known as OpenAI dots, will assist users by connecting to over 4,000 apps and taking on various tasks for review. Developer lead Vaibhav Srivastav emphasized the importance of reducing friction for users while managing costs. Stay tuned for more updates! 🚀🤖💡 #OpenAI #DevDay&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The hidden failure paths that affect Kubernetes control plane availability</title>
+      <link>/articles/article-2026-10-27-22454/</link>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22454/</guid>
+      <description>Kubernetes control plane availability is influenced by how its components perform under stress. Even non-crashing components can cause outages due to shared metadata and aggressive health checks. Three key cases highlight this issue: 1️⃣ An extension API server published an invalid schema, impacting unrelated clients. 2️⃣ DaemonSet agents restarting created a request storm for the API server. 3️⃣ A liveness check misdiagnosed a dependency outage, leading to unnecessary restarts. These&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Autonomous Channel: How Cisco Is Pioneering Agentic Solutions for Distribution</title>
+      <link>/articles/article-2026-10-27-22456/</link>
+      <pubDate>Tue, 27 Oct 2026 13:28:30 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22456/</guid>
+      <description>Cisco is leading the way in transforming 2-Tier distribution with its focus on agentic AI. 🤖 By partnering with Ingram Micro and TD SYNNEX, Cisco is automating workflows and enhancing efficiency within the channel. This shift aims to create a more secure and scalable ecosystem for partners and customers alike. 🔗 Stay updated on the future of distribution! 📈 #Cisco #AI #Distribution #Innovation #Automation</description>
+    </item>
+    <item>
+      <title>Deploying third-party applications to Red Hat OpenShift: Common pitfalls and how to avoid them</title>
+      <link>/articles/article-2026-10-27-22457/</link>
+      <pubDate>Tue, 27 Oct 2026 13:01:29 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22457/</guid>
+      <description>Deploying third-party applications on Red Hat OpenShift can be challenging. 🚧 Many enterprises face issues when their internal teams lack the necessary skills for deployment and maintenance, or when vendor support doesn&amp;rsquo;t meet expectations. Understanding these common pitfalls is crucial for a smooth integration process. #RedHat #OpenShift #Containers #CloudComputing #ITChallenges</description>
+    </item>
+    <item>
+      <title>Smaller model, sharper insights: How Atos approached  structured outputs</title>
+      <link>/articles/article-2026-10-27-22458/</link>
+      <pubDate>Tue, 27 Oct 2026 13:01:28 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22458/</guid>
+      <description>Atos, a Red Hat Partner, has successfully executed a proof of value (PoV) for a German public sector client. Their findings indicate that smaller AI models can provide sharper insights, challenging the common belief that larger models are superior. This approach highlights the potential for efficiency and effectiveness in AI applications. 🤖🔍 #Atos #AIInsights #RedHat #Innovation #PublicSector</description>
+    </item>
+    <item>
+      <title>Apache Camel tool calling: LLM integrations with bounded loops</title>
+      <link>/articles/article-2026-10-27-22459/</link>
+      <pubDate>Tue, 27 Oct 2026 13:01:25 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22459/</guid>
+      <description>Discover how Apache Camel enhances language models through tool calling. 🛠️ This integration allows models to bridge the gap between text generation and task execution. By providing bounded loops, it enables safe interactions with real environments, turning vague questions into actionable queries. Learn more about this innovative approach! 🔍 #ApacheCamel #LanguageModels #ToolCalling #AIIntegration #RedHatDeveloper</description>
+    </item>
+    <item>
+      <title>When “isolated” doesn’t mean isolated: How to sandbox AI agents</title>
+      <link>/articles/article-2026-10-27-22455/</link>
+      <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22455/</guid>
+      <description>🔒 The article discusses the challenges of isolating AI agents within enterprise environments. Traditionally, workload separation was simpler with physical servers and VLANs, but AI agents have broader access by default. This creates significant security risks for organizations. Containers, like Docker, offer some isolation but are not foolproof. Relying solely on them may expose critical boundaries. Effective sandboxing requires built-in security policies to protect against potential&amp;hellip;</description>
+    </item>
     <item>
       <title>One pod, one node: The architecture behind serverless Kubernetes on AWS</title>
       <link>/articles/article-2026-10-27-22451/</link>
@@ -21,6 +77,13 @@
       <pubDate>Tue, 27 Oct 2026 09:36:36 +0000</pubDate>
       <guid>/articles/article-2026-10-27-22452/</guid>
       <description>🚀 Exciting updates for JetBrains IDE users! Starting with version 2026.3, the built-in terminal now operates on libghostty, enhancing compatibility with modern tools like AI coding agents and TUI apps. This change improves keybindings and multi-line prompts, making your coding experience smoother. Additionally, terminal applications will now adapt to your IDE&amp;rsquo;s theme automatically, creating a more cohesive look. Rich output from terminal applications will render better, thanks to support for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Extend GitLab Duo Agent Platform into your business systems</title>
+      <link>/articles/article-2026-10-27-22461/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22461/</guid>
+      <description>🚀 GitLab Duo Agent Platform enhances DevSecOps by integrating with business systems like Salesforce. When errors occur, the platform automatically analyzes the code and generates a GitLab issue with root-cause insights. This streamlines issue tracking and fixes, reducing downtime for users. Learn how to create custom flows to improve your team&amp;rsquo;s efficiency! #DevSecOps #GitLab #Salesforce #Automation #ErrorHandling</description>
     </item>
     <item>
       <title>Celebrating the Winners of Cisco’s 2026 Partner Innovation Challenge</title>

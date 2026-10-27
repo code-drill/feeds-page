@@ -6,8 +6,15 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3 Ways to Boost MoE Inference on NVIDIA DGX Spark</title>
+      <link>/articles/article-2026-10-27-22460/</link>
+      <pubDate>Tue, 27 Oct 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22460/</guid>
+      <description>Boosting inference performance on NVIDIA DGX Spark can be achieved by addressing key limitations. Recent evaluations of the Ling-3.0-flash model identified memory-bound issues during decoding. Performance can be improved through three techniques: 1️⃣ Humming MXFP4 MoE kernels for optimized expert computation. 2️⃣ Online FP8 quantization to reduce weight-read volume. 3️⃣ Multi-token prediction for efficient token generation. The article provides insights into how these optimizations work,&amp;hellip;</description>
+    </item>
     <item>
       <title>How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield</title>
       <link>/articles/article-2026-10-26-22435/</link>

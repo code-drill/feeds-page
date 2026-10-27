@@ -6,8 +6,15 @@
     <description>Recent content in Product_announcements on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:50:39 +0000</lastBuildDate>
     <atom:link href="/categories/product_announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4</title>
+      <link>/articles/article-2026-10-27-22466/</link>
+      <pubDate>Tue, 27 Oct 2026 20:50:39 +0000</pubDate>
+      <guid>/articles/article-2026-10-27-22466/</guid>
+      <description>🚀 Exciting advancements in GPU sharing with NVIDIA CUDA 13.4! Many AI workloads utilize only a portion of a GPU, leading to idle capacity. CUDA 13.4 introduces memory enforcement in time-sharing mode, allowing better resource management. Key features include exact memory allocation, guaranteed ranges, and a choice of compute modes for workloads. To implement these features, a new open-source Kubernetes operator, gpu-fractioning, is available on GitHub, enhancing GPU efficiency across&amp;hellip;</description>
+    </item>
     <item>
       <title>NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games</title>
       <link>/articles/article-2026-10-27-22463/</link>

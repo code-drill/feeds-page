@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:16:22 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How DRA can improve the performance of distributed LLM inference workloads with RDMA and SR-IOV</title>
+      <link>/articles/article-2026-10-28-22479/</link>
+      <pubDate>Wed, 28 Oct 2026 13:16:22 +0000</pubDate>
+      <guid>/articles/article-2026-10-28-22479/</guid>
+      <description>Modern LLM inference is evolving from a computing issue to a challenge of distributed networks. 📡 To achieve high throughput and manage larger context windows, systems like vLLM and frameworks such as llm-d are adopting disaggregated and highly parallel architectures. This shift highlights the importance of RDMA and SR-IOV in enhancing performance. 🚀 #DistributedLLM #AI #TechInnovation #PerformanceOptimization</description>
+    </item>
+    <item>
+      <title>AI agents need to be replaceable – without losing your work</title>
+      <link>/articles/article-2026-10-28-22474/</link>
+      <pubDate>Wed, 28 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-28-22474/</guid>
+      <description>AI agents play a crucial role in processing tasks like refunds, but they face unique challenges when interruptions occur. If an agent crashes during a refund request, a replacement agent must carefully manage the operation without causing errors, such as issuing double refunds. This highlights the importance of maintaining a durable operation record. The article emphasizes that the replacement agent needs to inherit the original operation details to ensure accuracy in transactions&amp;hellip;.</description>
+    </item>
     <item>
       <title>From human clicks to agentic velocity: What OpenAI’s 1.2 billion scale means for your auth</title>
       <link>/articles/article-2026-10-28-22469/</link>

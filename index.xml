@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</title>
+      <link>/articles/article-2026-10-29-22503/</link>
+      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22503/</guid>
+      <description>Unlocking the potential of Tensor Core performance can enhance machine learning interatomic potentials (MLIPs) for atomistic simulations. 🌌 These simulations are vital for understanding molecular and material behavior, but balancing cost and accuracy is crucial. MLIPs utilize neural networks to predict energies and forces efficiently, allowing for larger systems to be studied. However, numerical precision is essential for stability in these simulations. By leveraging Tensor Core FP32 methods,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Mistral’s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: “There’s nothing you can’t do with this model that you can do with competitors.”</title>
+      <link>/articles/article-2026-10-29-22498/</link>
+      <pubDate>Thu, 29 Oct 2026 14:49:44 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22498/</guid>
+      <description>Mistral has introduced the Mistral Large 4 (ML4) model on Hugging Face, claiming it leads in coding capabilities over GLM-5.3. This release follows extensive testing and reflects improvements via reinforcement learning. 💻 Mistral emphasizes the importance of open weights for transparency and continuity in AI development. VP Pierre Stock advocates for open access, drawing parallels to essential utilities like electricity. 🔌 The company aims to shape the future of AI with this model as a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS Elastic Beanstalk for regulated workloads: Built for the next decade, not just the first deploy</title>
+      <link>/articles/article-2026-10-29-22499/</link>
+      <pubDate>Thu, 29 Oct 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22499/</guid>
+      <description>AWS Elastic Beanstalk addresses the needs of regulated industries by focusing on long-term application support, not just rapid deployment. In sectors like healthcare and finance, applications must remain secure and compliant throughout their lifecycle. This requires ongoing attention to security, updates, and audits, beyond the initial launch. For many mid-size organizations, achieving compliance can be challenging without dedicated teams. Efficient infrastructure management is crucial to&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“I don’t think the world needs a new GitHub”: What GitHub’s leaders really think about their new rivals</title>
+      <link>/articles/article-2026-10-29-22500/</link>
+      <pubDate>Thu, 29 Oct 2026 13:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22500/</guid>
+      <description>At the Universe &amp;lsquo;26 conference, GitHub addressed its platform&amp;rsquo;s stability and future investments, including 4 million new cores and 160 petabytes of storage. Leadership, including COO Kyle Daigle, discussed the competitive landscape, particularly in light of a new GitHub alternative launched by former CEO Thomas Dohmke. Daigle emphasized GitHub&amp;rsquo;s commitment to evolving for developers&amp;rsquo; needs, stating, “I don’t think the world needs a new GitHub.” #GitHub #TechNews #DeveloperTools #Innovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sizing Red Hat Quay: Profiling components to find real limits</title>
+      <link>/articles/article-2026-10-29-22502/</link>
+      <pubDate>Thu, 29 Oct 2026 13:01:44 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22502/</guid>
+      <description>Discover how Red Hat Quay, a container image registry, supports secure storage and distribution of container images across various environments. 🖥️ In response to a large enterprise&amp;rsquo;s request, a systematic approach was developed to profile Quay&amp;rsquo;s components and assess its performance capabilities. 📊 Learn more about the insights gained from this sizing method in the full article! #RedHat #ContainerRegistry #Quay #PerformanceTesting #CloudComputing</description>
+    </item>
+    <item>
+      <title>From GDScript to GDExtensions: One IDE for Your Godot Code</title>
+      <link>/articles/article-2026-10-29-22504/</link>
+      <pubDate>Thu, 29 Oct 2026 13:00:44 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22504/</guid>
+      <description>🚀 Exciting news for Godot developers! JetBrains has renewed its sponsorship of the Godot Foundation until 2027. Their IDE, Rider, now supports GDScript, C#, and C++ GDExtensions all in one place—free for non-commercial use! At GodotCon, many were surprised to learn about Rider&amp;rsquo;s GDScript capabilities. The latest versions include improved debugging, scene management, and a new integration addon with the Godot editor. Explore Rider&amp;rsquo;s features to enhance your game development experience! 🎮✨&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Kubernetes platforms keep rebuilding a layer they could share</title>
+      <link>/articles/article-2026-10-29-22501/</link>
+      <pubDate>Thu, 29 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22501/</guid>
+      <description>Kubernetes platforms often reinvent similar functionalities across different teams. Many organizations develop controllers to manage resources without significant business logic. Despite the tools available, such as Kubebuilder, teams face challenges like bugs and maintenance as they create multiple versions of the same controller. Kubernetes has the necessary components but lacks a unified approach, leading to repetitive development efforts. Tools like Helm and Argo CD also build their own&amp;hellip;</description>
+    </item>
+    <item>
+      <title>SEGGER Tools Gain Deeper Integration in CLion with AI-assisted Debugging</title>
+      <link>/articles/article-2026-10-29-22505/</link>
+      <pubDate>Thu, 29 Oct 2026 12:59:21 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22505/</guid>
+      <description>🚀 Exciting news for embedded developers! SEGGER tools are now integrated into JetBrains CLion, enhancing the debugging experience. CLion offers dedicated support for J-Link debug probes, Ozone debugger, and SystemView for real-time analysis. The latest release features AI-assisted debugging for efficient fault tracing on Cortex-M devices. Join the free webinar on November 10, 2026, to see this integration in action! #EmbeddedDevelopment #Debugging #AI #JetBrains #SEGGER</description>
+    </item>
     <item>
       <title>From Small Village to Global Career: My Journey at Cisco</title>
       <link>/articles/article-2026-10-29-22493/</link>

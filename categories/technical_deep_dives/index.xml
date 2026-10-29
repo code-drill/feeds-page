@@ -6,8 +6,29 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</title>
+      <link>/articles/article-2026-10-29-22503/</link>
+      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22503/</guid>
+      <description>Unlocking the potential of Tensor Core performance can enhance machine learning interatomic potentials (MLIPs) for atomistic simulations. 🌌 These simulations are vital for understanding molecular and material behavior, but balancing cost and accuracy is crucial. MLIPs utilize neural networks to predict energies and forces efficiently, allowing for larger systems to be studied. However, numerical precision is essential for stability in these simulations. By leveraging Tensor Core FP32 methods,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Sizing Red Hat Quay: Profiling components to find real limits</title>
+      <link>/articles/article-2026-10-29-22502/</link>
+      <pubDate>Thu, 29 Oct 2026 13:01:44 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22502/</guid>
+      <description>Discover how Red Hat Quay, a container image registry, supports secure storage and distribution of container images across various environments. 🖥️ In response to a large enterprise&amp;rsquo;s request, a systematic approach was developed to profile Quay&amp;rsquo;s components and assess its performance capabilities. 📊 Learn more about the insights gained from this sizing method in the full article! #RedHat #ContainerRegistry #Quay #PerformanceTesting #CloudComputing</description>
+    </item>
+    <item>
+      <title>Why Kubernetes platforms keep rebuilding a layer they could share</title>
+      <link>/articles/article-2026-10-29-22501/</link>
+      <pubDate>Thu, 29 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22501/</guid>
+      <description>Kubernetes platforms often reinvent similar functionalities across different teams. Many organizations develop controllers to manage resources without significant business logic. Despite the tools available, such as Kubebuilder, teams face challenges like bugs and maintenance as they create multiple versions of the same controller. Kubernetes has the necessary components but lacks a unified approach, leading to repetitive development efforts. Tools like Helm and Argo CD also build their own&amp;hellip;</description>
+    </item>
     <item>
       <title>The 5 essential layers of AI agent sandboxing on Kubernetes</title>
       <link>/articles/article-2026-10-29-22491/</link>

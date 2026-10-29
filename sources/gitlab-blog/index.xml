@@ -6,8 +6,22 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab Orbit is GA: Higher agent accuracy, lower token cost</title>
+      <link>/articles/article-2026-10-29-22494/</link>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22494/</guid>
+      <description>🚀 GitLab Orbit is now generally available! This new context graph enhances agent accuracy by providing a live, queryable view of code, merge requests, and pipelines. It reduces unnecessary retries, allowing agents to use up to 4.5x fewer tokens during tasks. Comparative testing showed that agents connected to Orbit performed significantly better, understanding codebases more effectively. Learn more about how GitLab Orbit can improve your software lifecycle management! #GitLab #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab Orbit: Find vulnerability blast radius without the manual hunt</title>
+      <link>/articles/article-2026-10-29-22495/</link>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-29-22495/</guid>
+      <description>🚀 GitLab has launched Orbit, a tool designed to streamline vulnerability management. 🌐 Orbit consolidates code, pipelines, and security findings into one graph, allowing teams to quickly identify affected projects and their owners with a single query. This reduces the time spent manually piecing together information. 🔎 The recent PHP2Shell vulnerabilities highlight the challenge of tracking down affected installations. Orbit provides a comprehensive view, ensuring teams understand their&amp;hellip;</description>
+    </item>
     <item>
       <title>What happens when vulnerabilities are discovered faster than you can fix them?</title>
       <link>/articles/article-2026-10-28-22490/</link>

@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 15:01:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:29:11 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes just formed a workload conformance group. Here’s why it matters for AI teams.</title>
+      <link>/articles/article-2026-10-30-22519/</link>
+      <pubDate>Fri, 30 Oct 2026 17:29:11 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22519/</guid>
+      <description>🚀 Kubernetes has established a new Workload Conformance Group to enhance guidance for AI workloads. This initiative aims to support teams in running large language models efficiently across multiple GPUs. 📚 In partnership with HPE, The New Stack has also released a guidebook titled &amp;ldquo;Kubernetes in 2027,&amp;rdquo; which outlines essential checks for managing AI workloads on Kubernetes. 🌟 HPE will showcase their solutions at KubeCon NA, focusing on visibility and control across Kubernetes environments&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The Pulse: Time to rethink software security because of AI?</title>
+      <link>/articles/article-2026-10-30-22518/</link>
+      <pubDate>Fri, 30 Oct 2026 16:49:15 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22518/</guid>
+      <description>🚨 Recent security breaches highlight urgent vulnerabilities in software security. This week, several incidents exposed critical risks across major platforms. Notably, an intermediate CA certificate was compromised, enabling potential man-in-the-middle attacks. PHP servers are at risk of remote code execution due to unpatched systems. Meanwhile, GitLab and Node.js also reported vulnerabilities requiring immediate attention. Additionally, a significant breach at TiDB resulted in the exposure of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>IntelliJ IDEA 2026.2.4 Is Out!</title>
+      <link>/articles/article-2026-10-30-22522/</link>
+      <pubDate>Fri, 30 Oct 2026 16:11:52 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22522/</guid>
+      <description>🚀 The latest IntelliJ IDEA 2026.2.4 is now available for update! You can upgrade from inside the IDE, the Toolbox App, or download directly from the website. Key improvements include: - Fixed file visibility issues in WSL projects. - Enhanced Java onboarding experience. - Optimized import functionality without slowing down the IDE. - More reliable startup even with invalid plugin cache data. Check the release notes for more details. Happy coding! 👩‍💻👨‍💻 #IntelliJ #IDEUpdate #JavaDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Platform Possibilities Multiply with Ecosystem Profitability</title>
+      <link>/articles/article-2026-10-30-22520/</link>
+      <pubDate>Fri, 30 Oct 2026 16:00:28 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22520/</guid>
+      <description>In the AI era, platform success relies on a strong ecosystem. Cisco emphasizes that when it provides the foundational support, partners can create added value. By integrating its Identity Services Engine (ISE) with mobile device management systems, Cisco enhances deployment flexibility, key for securing BYOD environments. Partner profitability is crucial for collective growth. 🌐🤝🔒 #EcosystemProfitability #Cisco #AI #BYOD #TechInnovation</description>
+    </item>
+    <item>
+      <title>Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw</title>
+      <link>/articles/article-2026-10-30-22521/</link>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22521/</guid>
+      <description>🚀 Building autonomous agents just got easier with NVIDIA NemoClaw! To create these agents, developers need a model, a harness, and domain-specific tools. NemoClaw provides open blueprints that let you customize and control your stack. NemoClaw supports various harnesses like OpenClaw, Hermes Agent, and LangChain Deep Agents, enhancing capabilities and ensuring safe operation. Discover how to integrate these components for reliable execution in production! #NVIDIA #NemoClaw #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Remote Development in 2026.3: What’s New?</title>
+      <link>/articles/article-2026-10-30-22523/</link>
+      <pubDate>Fri, 30 Oct 2026 15:55:39 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22523/</guid>
+      <description>🚀 JetBrains IDEs are making remote development more accessible in version 2026.3! You can now start and manage remote sessions directly within the IDE. Recent remote projects are easily identifiable alongside local ones, streamlining your workflow. 🔗 Initiating connections to remote hosts is straightforward, with a simplified two-step dialog for first-time connections. SSH support has also been enhanced with native OpenSSH. This update aims to consolidate your remote development process into&amp;hellip;</description>
+    </item>
+    <item>
+      <title>eMudhra Certificate Authority Incident: Status and Guidance for JetBrains Products</title>
+      <link>/articles/article-2026-10-30-22524/</link>
+      <pubDate>Fri, 30 Oct 2026 15:33:00 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22524/</guid>
+      <description>🚨 JetBrains is addressing the eMudhra Certificate Authority security incident impacting several of its products. Our teams are working on security updates for affected tools, including IDEs, Toolbox App, and TeamCity. 🛠️ Customers are encouraged to keep their software up to date. As of now, no exploitation of this issue has been reported against JetBrains customers. Stay informed and secure! 🔒 #JetBrains #CyberSecurity #SoftwareUpdates #eMudhra #DevTools</description>
+    </item>
+    <item>
+      <title>Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now</title>
+      <link>/articles/article-2026-10-30-22525/</link>
+      <pubDate>Fri, 30 Oct 2026 15:24:48 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22525/</guid>
+      <description>🚨 Important Update for JetBrains Users! 🚨 The private keys of eight eMudhra intermediate certificates were compromised, potentially allowing attackers to impersonate websites connected to JetBrains tools. To address this, JetBrains has released fixed versions for several IDEs, including IntelliJ IDEA, PyCharm, and WebStorm. Users are urged to update to the latest versions to ensure security. If you&amp;rsquo;re using older versions or the Toolbox App, please note that they will not receive fixes. A&amp;hellip;</description>
+    </item>
     <item>
       <title>How to Check and Configure NVIDIA GPUDirect Storage for Your Platform</title>
       <link>/articles/article-2026-10-30-22516/</link>

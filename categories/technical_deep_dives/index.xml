@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 13:01:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:56:41 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Busy GPUs can hide slow AI inference on Kubernetes</title>
+      <link>/articles/article-2026-10-30-22527/</link>
+      <pubDate>Fri, 30 Oct 2026 19:56:41 +0000</pubDate>
+      <guid>/articles/article-2026-10-30-22527/</guid>
+      <description>Kubernetes clusters can appear healthy, yet AI services may still underperform. 🚀 A model might generate a fast initial response but take longer to deliver a complete answer or provide incorrect information. Monitoring GPU activity alone does not reflect service quality. It’s crucial to measure AI service performance before deployment and compare it with live behavior. Key metrics include time to first token, output efficiency, and answer quality. 📊 For a successful AI service, understanding&amp;hellip;</description>
+    </item>
     <item>
       <title>Federated multi-cluster Ansible Automation Platform with GitOps</title>
       <link>/articles/article-2026-10-30-22515/</link>

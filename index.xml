@@ -6,8 +6,29 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 21:03:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI built itself a new Git backend, too</title>
+      <link>/articles/article-2026-11-03-22560/</link>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-03-22560/</guid>
+      <description>OpenAI recently shared insights on its new Git backend, named Pando, designed to enhance its monorepo&amp;rsquo;s efficiency. This development significantly reduces push latency by nearly 5x and currently handles close to a petabyte of Git data daily. Despite facing challenges similar to other enterprises, OpenAI chose to remain within the Git ecosystem, believing that the conventional Git server structure was the main issue, not the Git protocol itself. #OpenAI #Git #Pando #SoftwareDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Diagnose Distributed AI Workload Failures with NVIDIA Attribution</title>
+      <link>/articles/article-2026-11-02-22562/</link>
+      <pubDate>Mon, 02 Nov 2026 23:39:34 +0000</pubDate>
+      <guid>/articles/article-2026-11-02-22562/</guid>
+      <description>🔍 In distributed AI workloads, a single error can lead to multiple symptoms, making diagnosis challenging. NVIDIA Attribution helps by analyzing workload evidence to identify failure patterns. 🛠️ This system correlates logs, metrics, and telemetry, providing a structured diagnosis that includes the root cause and affected nodes. 📊 With two components, the Attribution Service and Blueprint, it offers a clear process to scope workloads, collect observations, and extract significant events&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Keep Distributed Training Running with Automated Workload Recovery</title>
+      <link>/articles/article-2026-11-02-22563/</link>
+      <pubDate>Mon, 02 Nov 2026 22:43:05 +0000</pubDate>
+      <guid>/articles/article-2026-11-02-22563/</guid>
+      <description>🚀 As distributed AI training expands, hardware and software failures can disrupt progress. Fast recovery is crucial to maintain efficiency. NVIDIA Recovery, part of the DSX OS, automates this process by detecting interruptions and managing restarts from checkpoints. This reduces manual effort and maintains productivity across training jobs. Learn how to implement this solution in your own cluster for improved performance. #AI #DistributedTraining #NVIDIA #Automation #TechInnovation</description>
+    </item>
     <item>
       <title>Developers are downgrading their AI on purpose — and it’s working</title>
       <link>/articles/article-2026-11-02-22558/</link>
@@ -21,6 +42,13 @@
       <pubDate>Mon, 02 Nov 2026 19:03:38 +0000</pubDate>
       <guid>/articles/article-2026-11-02-22559/</guid>
       <description>Cognition has introduced a new budget feature for its AI coding agent, Devin, allowing businesses to manage spending effectively. Administrators can set hierarchical budgets for teams and projects, tracking expenses and approving additional capacity based on efficiency. However, if a budget runs out during a task, the session will stop. This change addresses the challenges of scaling AI usage across large organizations, ensuring better oversight and control. Learn more about how this feature&amp;hellip;</description>
+    </item>
+    <item>
+      <title>PHP2Shell: How Cisco Helps Customers Respond to AI-Accelerated Threats</title>
+      <link>/articles/article-2026-11-02-22561/</link>
+      <pubDate>Mon, 02 Nov 2026 18:24:13 +0000</pubDate>
+      <guid>/articles/article-2026-11-02-22561/</guid>
+      <description>Cisco is addressing the PHP2Shell threat by offering resources to help customers enhance their resilience against AI-driven security challenges. Their focus is on providing guidance on current protections and strategies for future threats. Stay informed and prepared! 💻🔒 #Cisco #CyberSecurity #AIThreats #PHP2Shell #Resilience</description>
     </item>
     <item>
       <title>Canva’s new design model doesn’t generate images. It writes code to edit them.</title>

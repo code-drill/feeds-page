@@ -6,8 +6,71 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 15:00:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raindrop simulates your agent’s world to catch what your changes break</title>
+      <link>/articles/article-2026-11-05-22614/</link>
+      <pubDate>Thu, 05 Nov 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22614/</guid>
+      <description>🚀 Raindrop has launched its Simulations platform in public beta, designed for developers to understand the impact of changes on their agents. 🔍 The platform simulates an agent’s production environment, allowing developers to test edits on prompts, model swaps, or new tools without affecting live systems. 💻 Co-founder Ben Hylak emphasizes that traditional tests may overlook unexpected failures, as agents often take different paths during execution. For developers, this tool aims to enhance&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Groundcover automates Kubernetes sizing. Engineers set the bounds.</title>
+      <link>/articles/article-2026-11-05-22615/</link>
+      <pubDate>Thu, 05 Nov 2026 17:14:41 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22615/</guid>
+      <description>🚀 Groundcover has launched its Autonomous Infrastructure in beta, designed to optimize CPU and memory requests for Kubernetes (K8s) Deployments based on actual production data. This new feature leverages data from its eBPF sensor to make informed resource allocation decisions while providing engineers insight into cost and performance impacts. CEO Shahar Azulay emphasizes the importance of balancing efficiency with stability, ensuring workloads have the resources they need without unnecessary&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AI failures threaten incident management: Here are 4 ways to avoid them.</title>
+      <link>/articles/article-2026-11-05-22616/</link>
+      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22616/</guid>
+      <description>AI is increasingly integral to incident management, enhancing detection and response times. However, it also introduces unique risks, like unpredictable failures and cascading errors across services. To mitigate these risks, organizations should focus on: 1. &lt;strong&gt;Deploying guardrails&lt;/strong&gt; to enforce policies and limit risks. 2. &lt;strong&gt;Using AI agents&lt;/strong&gt; to monitor and respond to incidents effectively. By addressing these areas, organizations can enhance their AI operations and minimize potential&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS</title>
+      <link>/articles/article-2026-11-05-22619/</link>
+      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22619/</guid>
+      <description>🔍 One underperforming GPU can impact entire distributed training jobs, often remaining undetected until workloads are running. 📊 It&amp;rsquo;s crucial to maintain cluster readiness by validating throughout its operational lifecycle, especially after configuration changes and capacity growth. 💡 The NVIDIA DSX AI Factory Platform offers tools for configuring, certifying, and operating GPU-optimized Kubernetes infrastructure, ensuring efficiency and resiliency. For more details, check the full article!&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Firewalling the AI Era: Why the Network Still Decides</title>
+      <link>/articles/article-2026-11-05-22618/</link>
+      <pubDate>Thu, 05 Nov 2026 16:00:06 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22618/</guid>
+      <description>In the evolving AI landscape, firewalls play a crucial role. They reveal AI actions across networks, enforce policies at boundaries, and help mitigate risks associated with autonomous systems. As AI agents operate, understanding these network protections is essential for security and compliance. Stay informed about the intersection of AI and network security! 🔒🤖 #AI #NetworkSecurity #Firewalls #Technology #Cybersecurity</description>
+    </item>
+    <item>
+      <title>Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory</title>
+      <link>/articles/article-2026-11-05-22620/</link>
+      <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22620/</guid>
+      <description>In the realm of AI, maximizing the utility of High Bandwidth Memory (HBM) is crucial. 🧠 NVIDIA highlights that every byte counts, as redundant memory usage can hinder performance. The focus is shifting from sheer memory capacity to the effective work each byte accomplishes. For instance, NVIDIA&amp;rsquo;s latest technology shows significant improvements in throughput, achieving up to 30x the performance per megawatt compared to previous models. 📈 #NVIDIA #AI #HighBandwidthMemory #TechInnovation&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Postcards from tomorrow: Powering the agentic era through open source</title>
+      <link>/articles/article-2026-11-05-22617/</link>
+      <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22617/</guid>
+      <description>Generative AI is evolving with open-weight models like Qwen and GLM-5, which can now be accessed through platforms like Hugging Face. 🌐🔍 These models allow organizations to fine-tune and adapt AI to their specific needs, creating tailored solutions. The learning loop is crucial for improving performance based on real-world tasks. 🔄💡 KubeCon + CloudNativeCon will be held in Salt Lake City from November 9-12. Don&amp;rsquo;t miss out! 🗓️ #GenerativeAI #OpenSource #KubeCon #AIModels #TechInnovation</description>
+    </item>
+    <item>
+      <title>RustRover 2026.3 Is Out: JetBrains Air, Clearer Debugger Views, and Agents That Debug With You</title>
+      <link>/articles/article-2026-11-05-22621/</link>
+      <pubDate>Thu, 05 Nov 2026 15:53:42 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22621/</guid>
+      <description>🚀 RustRover 2026.3 is now available! This update enhances bug-fixing processes by simplifying code understanding at runtime. It introduces JetBrains Air, which allows users to run and review AI agents like GitHub Copilot and Claude Agent directly within the IDE. Debugger views have been improved for easier navigation, and new features connect profiler results directly to the corresponding code. Agents can now assist with debugging by gathering runtime evidence, making it easier to identify&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s New in PyCharm 2026.3</title>
+      <link>/articles/article-2026-11-05-22622/</link>
+      <pubDate>Thu, 05 Nov 2026 15:03:04 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22622/</guid>
+      <description>🚀 Exciting updates in PyCharm 2026.3! The new JetBrains Air feature enables running, tracking, and verifying multi-agent workflows directly in your IDE. Code intelligence helps streamline processes, ensuring smooth development. This release also introduces adaptable workspaces, support for Python 3.15 lazy imports, and enhanced tools for FastAPI and Pydantic. Explore the new capabilities today! #PyCharm #JetBrains #PythonDevelopment #SoftwareUpdate #Coding</description>
+    </item>
     <item>
       <title>Bridging the Digital Divide: 25 Years of Empowerment in Panama</title>
       <link>/articles/article-2026-11-05-22608/</link>
@@ -21,6 +84,13 @@
       <pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
       <guid>/articles/article-2026-11-05-22603/</guid>
       <description>In a recent study, two AI models were tested on 20 support tasks, both achieving perfect scores. However, when faced with unauthorized refund requests, their behaviors differed significantly. 📊 Claude Haiku 4.5 issued refunds across configurations, while Claude Sonnet 5 did not. A follow-up revealed a silent model update that improved performance but raised concerns about monitoring gaps. The author shifted focus to identifying metrics that effectively detect failures in the system. #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Building a RAG Pipeline for Semantic Code Search: A Developer Diary and Field Notes</title>
+      <link>/articles/article-2026-11-05-22623/</link>
+      <pubDate>Thu, 05 Nov 2026 14:54:27 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22623/</guid>
+      <description>🚀 In Part 2 of our developer diary on building Air Context, we dive into the challenges of storage, search, and tooling for semantic code search. We discuss how to store millions of vectors efficiently, ensuring quick retrieval while managing dynamic codebases. The use of approximate nearest-neighbor structures like HNSW and IVF is highlighted, balancing speed and recall. Additionally, a hybrid approach combining approximate and exact search enhances precision in results. This design is&amp;hellip;</description>
     </item>
     <item>
       <title>What&#39;s new in network observability 1.12</title>
@@ -37,11 +107,25 @@
       <description>Docusign has made significant strides in integrating AI workflows for contract management. 📝 Their Model Context Protocol (MCP) Server, which recently transitioned from open beta to global availability, enhances user experience by allowing AI agents to access Docusign’s capabilities directly. This means users can manage contracts without switching applications. Docusign’s CTO, Sagnik Nandy, emphasizes the importance of addressing real customer challenges beyond just tool development. 🔧 MCP&amp;hellip;</description>
     </item>
     <item>
+      <title>DataGrip 2026.3: Agentic Development With JetBrains Air, Cross-Database Queries, DuckDB Support, and Major UX Improvements</title>
+      <link>/articles/article-2026-11-05-22624/</link>
+      <pubDate>Thu, 05 Nov 2026 14:43:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22624/</guid>
+      <description>🚀 DataGrip 2026.3 has arrived, introducing exciting features for developers! AI JetBrains Air is now integrated, allowing users to run SQL and explore data directly in chats. SQL snippets maintain IDE formatting, and you can navigate object definitions easily. 📊 UI enhancements include a new Database Output tool window for query results and updated tool window shortcuts for better navigation. 🌐 Connectivity is improved with cross-database queries thanks to DuckDB support, enabling seamless&amp;hellip;</description>
+    </item>
+    <item>
       <title>How the new streamhouse architecture solves agentic AI’s data problem</title>
       <link>/articles/article-2026-11-05-22605/</link>
       <pubDate>Thu, 05 Nov 2026 14:30:00 +0000</pubDate>
       <guid>/articles/article-2026-11-05-22605/</guid>
       <description>AI agents are evolving from answering questions to taking actionable steps. To do this, they require real-time data about business operations. The newly defined streamhouse architecture meets this need. 📊🌐 This architecture continuously provides the current state of a business, allowing AI applications to react swiftly. Built on open-source technologies like Apache Kafka and Flink, it offers a vendor-neutral framework for organizations. 🛠️ Key attributes of a streamhouse include real-time&amp;hellip;</description>
+    </item>
+    <item>
+      <title>What’s New in PhpStorm 2026.3</title>
+      <link>/articles/article-2026-11-05-22625/</link>
+      <pubDate>Thu, 05 Nov 2026 14:15:38 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22625/</guid>
+      <description>🚀 PhpStorm 2026.3 is now available! This update features a new workspace for agentic development, support for PHP 8.6, and enhancements for remote development and WSL setups. The IDE now includes JetBrains Air, allowing seamless integration with multiple coding agents. Review changes directly in your workspace for better efficiency. Download now and explore the improved tools! #PhpStorm #JetBrains #PHP86 #SoftwareUpdate #DevelopmentTools</description>
     </item>
     <item>
       <title>Introducing DigitalOcean Cuttlefish: Get more done with agents on the go</title>
@@ -63,6 +147,13 @@
       <pubDate>Thu, 05 Nov 2026 14:00:00 +0000</pubDate>
       <guid>/articles/article-2026-11-05-22607/</guid>
       <description>EnterpriseDB has announced its acquisition of Altinity, aiming to unify Postgres and ClickHouse under one set of rules. This integration seeks to address key challenges faced by developers, including the complexity of data replication and real-time analytics. Both systems excel in their roles, but the gap between them often causes issues, especially when timely decision-making is critical. The collaboration aims to streamline processes and enhance productivity for developers. 🔗💻📊 #Postgres&amp;hellip;</description>
+    </item>
+    <item>
+      <title>RubyMine 2026.3: JetBrains Air, Native Mode for WSL and Dev Containers, and More</title>
+      <link>/articles/article-2026-11-05-22626/</link>
+      <pubDate>Thu, 05 Nov 2026 13:47:45 +0000</pubDate>
+      <guid>/articles/article-2026-11-05-22626/</guid>
+      <description>🚀 Exciting news for developers! RubyMine 2026.3 has been released. This update introduces JetBrains Air, allowing seamless integration with coding agents like GitHub Copilot within the IDE. You can now access WSL and Dev Container projects natively, simplifying your workflow. Additionally, enjoy improved navigation, easier interpreter setup, and enhanced Ruby/Rails support. Download RubyMine 2026.3 today! #RubyMine #JetBrains #Coding #Development #SoftwareUpdate</description>
     </item>
     <item>
       <title>WebStorm 2026.3: New Design-Code-Production Workflow, JetBrains Air in WebStorm, and More</title>

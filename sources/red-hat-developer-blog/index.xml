@@ -6,8 +6,15 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 14:51:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:01:47 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Kubernetes logs easier to correlate with traces using the log normalizer operator</title>
+      <link>/articles/article-2026-11-06-22639/</link>
+      <pubDate>Fri, 06 Nov 2026 13:01:47 +0000</pubDate>
+      <guid>/articles/article-2026-11-06-22639/</guid>
+      <description>Enhance your Kubernetes logging with the new log normalizer operator for Red Hat OpenShift! 🚀 This tool injects a sidecar into selected pods to capture application output seamlessly, without needing code changes. It detects input formats, reassembles multiline entries, and produces structured records. You can access these records via kubectl logs and export them to an OpenTelemetry collector over OTLP. #Kubernetes #RedHat #OpenShift #Logging #TechUpdates</description>
+    </item>
     <item>
       <title>What&#39;s new in network observability 1.12</title>
       <link>/articles/article-2026-11-05-22609/</link>

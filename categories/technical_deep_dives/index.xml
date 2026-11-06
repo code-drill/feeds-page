@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:01:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 18:03:26 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Reinforcement Learning Weight Refit with the Reshard Collective</title>
+      <link>/articles/article-2026-11-06-22643/</link>
+      <pubDate>Fri, 06 Nov 2026 18:03:26 +0000</pubDate>
+      <guid>/articles/article-2026-11-06-22643/</guid>
+      <description>🚀 In reinforcement learning (RL), the process of updating model weights between training and inference GPUs, known as refit, faces challenges due to differing computational requirements and large communication payloads. 🖥️ The Reshard collective offers a solution, enhancing efficiency in weight refit. An open-source implementation, NCCL M2N Reshard, is available on GitHub. 🔍 This advancement aims to improve communication in distributed systems as models continue to scale, addressing the&amp;hellip;</description>
+    </item>
     <item>
       <title>Make Kubernetes logs easier to correlate with traces using the log normalizer operator</title>
       <link>/articles/article-2026-11-06-22639/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 16:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 14:29:57 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-time state has a cost your memory bill won’t show</title>
+      <link>/articles/article-2026-11-09-22661/</link>
+      <pubDate>Mon, 09 Nov 2026 14:29:57 +0000</pubDate>
+      <guid>/articles/article-2026-11-09-22661/</guid>
+      <description>Real-time applications often use multiple tools for distinct roles, like Kafka for event handling and Flink for processing. However, this setup can lead to hidden costs. When data moves between components, or when state is duplicated, maintaining efficiency becomes challenging. For instance, Flink&amp;rsquo;s internal state isn&amp;rsquo;t suitable for general serving, leading to the need for additional layers like Redis. This can create synchronization issues, especially across availability zones, risking&amp;hellip;</description>
+    </item>
     <item>
       <title>Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework</title>
       <link>/articles/article-2026-11-08-22657/</link>

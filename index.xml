@@ -6,8 +6,50 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 15:00:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights</title>
+      <link>/articles/article-2026-11-11-22738/</link>
+      <pubDate>Wed, 11 Nov 2026 18:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22738/</guid>
+      <description>📊 Accelerators, particularly GPUs, are a significant expense in infrastructure budgets. Many organizations struggle with visibility into their usage, leading to costly inefficiencies. Amazon CloudWatch has introduced accelerated compute insights, offering a comprehensive view of all accelerators in use. This tool helps identify who is using each GPU, detects failures, and estimates cost impacts. With support for NVIDIA GPUs and AWS&amp;rsquo;s own hardware, teams can now manage mixed fleets&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic’s Claude Fable 5.2 built a shooter in 1 prompt — but it took 8 hours and $550</title>
+      <link>/articles/article-2026-11-11-22739/</link>
+      <pubDate>Wed, 11 Nov 2026 17:52:06 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22739/</guid>
+      <description>Anthropic&amp;rsquo;s Claude Fable 5.2 recently built a playable first-person shooter called Saltline in just one prompt. 🎮 The project took eight hours, processing 445 million input tokens, and cost around $550. The game features a rain-soaked port setting where players fight drones and robotic dogs. Engineer Felix Rieseberg enhanced the game after its initial generation, while YouTuber Matthew Berman explored further, creating a Gears of War-inspired level at a much higher cost. Discover the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>AWS had its agents build a free and open emulator for AWS. They now maintain it, too.</title>
+      <link>/articles/article-2026-11-11-22740/</link>
+      <pubDate>Wed, 11 Nov 2026 17:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22740/</guid>
+      <description>🚀 AWS has launched a new emulator called AWS Emulator, built and maintained by a dedicated team of agents. This initiative raises questions about LocalStack and aims to provide a reliable tool for testing code against AWS services without needing credentials. 🛠️ The emulator is available under the Creative Commons Zero license, making it public domain. AWS emphasizes the importance of keeping emulators up-to-date to ensure trust and accuracy. 🔍 This project originated from an experiment by&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Developers have been hacking around MCP’s file-upload problem for two years. A fix is taking shape.</title>
+      <link>/articles/article-2026-11-11-22741/</link>
+      <pubDate>Wed, 11 Nov 2026 17:11:55 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22741/</guid>
+      <description>🔧 The Model Context Protocol (MCP) has been essential for linking AI assistants with external tools since its launch by Anthropic two years ago. 📊 Recent developments aim to simplify server deployment and integrate existing identity management for companies. However, a significant challenge has been transferring files from AI apps to MCP tools. 📄 To address this, MCP developers have proposed a draft extension that standardizes file uploads and downloads, reflecting the evolving needs of&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory</title>
+      <link>/articles/article-2026-11-11-22743/</link>
+      <pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22743/</guid>
+      <description>🚀 Teams using NVIDIA Dynamo, Kubeflow, or Slurm need clear visibility into their AI workloads. Standard deployment bundles often don’t capture running artifacts accurately. 🔍 The NVIDIA AI Cluster Runtime (AICR) has introduced a qualified AI Bill of Materials (AIBOM) to enhance tracking on Kubernetes. This ensures reproducible deployment bundles with version-locked recipes. 🛠️ AICR offers a reliable configuration by binding upstream sources and verifying security settings, significantly&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Nitric stopped asking one AI agent to do everything</title>
+      <link>/articles/article-2026-11-11-22742/</link>
+      <pubDate>Wed, 11 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22742/</guid>
+      <description>🚀 Nitric&amp;rsquo;s engineering team has redefined their approach to incident management. Previously, they frequently woke on-call engineers for production incidents, many of which were minor. 🔍 By implementing specialized AI agents, they reduced unnecessary interruptions and improved issue resolution. Engineers now review and refine assessments, fostering confidence in their processes. 💻 They are developing Sugabots, an open-source workspace for collaboration between engineers and AI agents. This&amp;hellip;</description>
+    </item>
     <item>
       <title>Rebuilding PubHub: A Cautionary Tale of AI-Driven Requirements, Part 4</title>
       <link>/articles/article-2026-11-11-22735/</link>

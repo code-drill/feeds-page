@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:15:21 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic built a model that beats Opus. It recommends Opus anyway.</title>
+      <link>/articles/article-2026-11-11-22744/</link>
+      <pubDate>Wed, 11 Nov 2026 19:15:21 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22744/</guid>
+      <description>🚀 Anthropic has launched a new coding model, Fable 5.2, which outperforms Opus 5.5 on key benchmarks and can tackle complex tasks at a lower cost. Despite this, Anthropic recommends Opus as the best choice for daily coding and knowledge work. Fable is designed for larger projects and multi-agent collaborations. Interestingly, while Fable costs more per token, it can complete tasks more economically. It can also coordinate with other models for efficiency. #AI #MachineLearning #Coding&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why Nvidia gave OpenShell to the CNCF</title>
+      <link>/articles/article-2026-11-11-22745/</link>
+      <pubDate>Wed, 11 Nov 2026 19:13:54 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22745/</guid>
+      <description>🚀 Nvidia has donated OpenShell, its open-source runtime for securing AI agents, to the Cloud Native Computing Foundation (CNCF). This announcement was made at KubeCon + CloudNativeCon North America. OpenShell joins the CNCF as a Sandbox project, which is the entry-level tier for new initiatives. Nvidia&amp;rsquo;s senior director of AI software, Ali Golshan, highlighted the importance of securing AI as a foundational infrastructure. The project utilizes existing CNCF resources like Kubernetes and Cedar&amp;hellip;</description>
+    </item>
     <item>
       <title>Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights</title>
       <link>/articles/article-2026-11-11-22738/</link>
@@ -91,6 +105,13 @@
       <pubDate>Wed, 11 Nov 2026 09:38:53 +0000</pubDate>
       <guid>/articles/article-2026-11-11-22733/</guid>
       <description>🚀 JetBrains has introduced Air in its IDEs with the 2026.3 release, addressing the growing challenge of code review in AI-assisted development. 👨‍💻 Developers now spend an average of 4+ hours weekly reviewing AI-generated code. Air enables seamless integration of coding agents into existing workflows, ensuring developers remain in control. 🔍 Key features include parallel agent sessions, notifications for agent input, and support for various agents like Codex and GitHub Copilot. Explore the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How to prevent leaks from Claude Code&#39;s &#39;Don&#39;t ask again&#39; file</title>
+      <link>/articles/article-2026-11-11-22746/</link>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-11-22746/</guid>
+      <description>🔍 Discover how to prevent leaks from Claude Code&amp;rsquo;s file on GitLab! This guide explains steps to find and remove secrets that were unintentionally committed. Key measures include updating .gitignore and implementing push rules to block sensitive files. For developers, it’s crucial to assess and clean affected projects to safeguard sensitive information. 💻🔐 #GitLab #CyberSecurity #ClaudeCode #DataProtection #DevOps</description>
     </item>
     <item>
       <title>ReSharper 2026.3: Claude Agent and Codex in Visual Studio, .NET 11 and C# 15 Support, and More</title>

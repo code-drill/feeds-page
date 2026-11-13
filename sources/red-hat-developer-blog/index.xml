@@ -6,8 +6,22 @@
     <description>Recent content in Red-Hat-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 14:01:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:06:22 +0000</lastBuildDate>
     <atom:link href="/sources/red-hat-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A day in the life of an NVIDIA H100 on Red Hat OpenShift 5</title>
+      <link>/articles/article-2026-11-13-22769/</link>
+      <pubDate>Fri, 13 Nov 2026 14:06:22 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22769/</guid>
+      <description>Discover how NVIDIA H100 GPUs interact with Red Hat OpenShift 5! Traditionally, requesting a GPU in Kubernetes required just one line of code. However, this approach limits visibility into GPU specifics like memory needs or potential faults. This article highlights the challenges and limitations of GPU scheduling in Kubernetes. #NVIDIA #Kubernetes #OpenShift #CloudComputing #TechInsights</description>
+    </item>
+    <item>
+      <title>Migrate BuildConfigs to builds for Red Hat OpenShift with one plug-in install</title>
+      <link>/articles/article-2026-11-13-22770/</link>
+      <pubDate>Fri, 13 Nov 2026 13:02:10 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22770/</guid>
+      <description>Red Hat OpenShift has been using BuildConfigs for container image creation. The new Builds feature offers a Kubernetes-native approach based on Shipwright. This method allows for builds to run without root privileges and supports Buildah and source-to-image (S2I) strategies. Migrating BuildConfigs manually can be slow and prone to errors. #RedHat #OpenShift #Kubernetes #Containerization #DevOps 🚀📦🔧</description>
+    </item>
     <item>
       <title>Run Red Hat Enterprise Linux CoreOS on NVIDIA BlueField DPUs</title>
       <link>/articles/article-2026-11-12-22750/</link>

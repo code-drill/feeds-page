@@ -6,14 +6,56 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 14:50:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 18:15:22 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The context problem: It’s what’s really breaking AI agents at scale</title>
+      <link>/articles/article-2026-11-13-22771/</link>
+      <pubDate>Fri, 13 Nov 2026 18:15:22 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22771/</guid>
+      <description>AI models are evolving, but the context gap remains a challenge for many enterprises. Sri Desikan from Elastic highlights that without proper context, investments in AI can be wasted. Simply connecting data isn&amp;rsquo;t enough; it requires pre-organizing corporate data into an AI index for efficient access. This approach can lower costs and improve the accuracy of AI agents, though it raises questions about privacy and data handling. #AI #DataManagement #TechTrends #Innovation #Automation 🤖📊🔍</description>
+    </item>
+    <item>
+      <title>DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it</title>
+      <link>/articles/article-2026-11-13-22772/</link>
+      <pubDate>Fri, 13 Nov 2026 17:56:30 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22772/</guid>
+      <description>DeepSeek&amp;rsquo;s open-source coding agent faces challenges in performance on the Terminal-Bench benchmark. Despite being statistically tied for first in five evaluations, it drops to sixth due to its habit of shutting down background processes after completing tasks. This behavior affected its success in specific tasks, where it only passed 2 out of 36 attempts. Competing agents, like OpenCode and Hermes, managed to pass all tasks, highlighting a gap in performance linked to this coding practice&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Adapt Human Motion for Robots with NVIDIA SOMA Retargeter</title>
+      <link>/articles/article-2026-11-13-22775/</link>
+      <pubDate>Fri, 13 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22775/</guid>
+      <description>🚀 Exciting advancements in robotics! NVIDIA&amp;rsquo;s SOMA Retargeter allows roboticists to adapt human motion for humanoid robots. It uses human demonstrations to teach robots natural movement while accommodating their unique structures. This open-source tool processes various human motion sources and provides consistent input for robot motion refinement. Learn more about the retargeting process and how it connects to policy learning! 🤖 #Robotics #NVIDIA #Innovation #MotionCapture #HumanoidRobots</description>
+    </item>
+    <item>
+      <title>When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM</title>
+      <link>/articles/article-2026-11-13-22774/</link>
+      <pubDate>Fri, 13 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22774/</guid>
+      <description>🚀 Running large models like GLM-5.3 locally requires significant GPU memory. Two NVIDIA DGX Stations linked via ConnectX-8 RDMA can serve one model with tensor parallelism to split weights and computation. This setup allows for efficient processing of 753 billion parameters while maintaining all model weights accessible. Learn how to set up this system and measure performance under load! 📊 #NVIDIA #MachineLearning #AI #TensorParallelism #GLM5.3</description>
+    </item>
+    <item>
+      <title>BYOH: Bring Your Own Harness with Cisco IQ, for partners</title>
+      <link>/articles/article-2026-11-13-22773/</link>
+      <pubDate>Fri, 13 Nov 2026 16:22:46 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22773/</guid>
+      <description>🚀 Cisco introduces BYOH (Bring Your Own Harness), enhancing security with trusted context as part of the security perimeter. Cisco IQ enables developers and AI agents through its APIs and MCP server, providing a unified model and clear guidelines for better platform integration. Learn more about this innovative approach in the full article! #CiscoIQ #Cybersecurity #TechInnovation #APIs #BYOH</description>
+    </item>
     <item>
       <title>Here’s how to teach AI agents to search like human experts</title>
       <link>/articles/article-2026-11-13-22768/</link>
       <pubDate>Fri, 13 Nov 2026 14:50:37 +0000</pubDate>
       <guid>/articles/article-2026-11-13-22768/</guid>
       <description>🌟 The topic of agentic retrieval is gaining attention as companies strive to automate work. However, many are not fully prepared for this transition. Simply deploying an AI agent without proper data organization can lead to ineffective results. To effectively utilize AI agents, businesses need to enhance their data management strategies. For insights, join The New Stack’s live discussion with Jenny Morris from Vespa.ai on December 2. #AI #Automation #DataManagement #AgenticRetrieval #Webinar</description>
+    </item>
+    <item>
+      <title>What’s Fixed and Improved in PyCharm 2026.3</title>
+      <link>/articles/article-2026-11-13-22776/</link>
+      <pubDate>Fri, 13 Nov 2026 14:28:09 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22776/</guid>
+      <description>🚀 PyCharm 2026.3 has been released, bringing exciting features like JetBrains Air, workspaces, and support for Python 3.15 lazy imports. This version also includes 303 fixes that enhance everyday Python development, such as smarter code completion and improved debugging. Notably, the update resolves long-standing issues with functools.partial and provides more accurate type inference for generics and collections. Stay updated and enhance your coding experience! 🐍✨ #PyCharm #PythonDevelopment&amp;hellip;</description>
     </item>
     <item>
       <title>A day in the life of an NVIDIA H100 on Red Hat OpenShift 5</title>

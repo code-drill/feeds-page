@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 14:50:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM</title>
+      <link>/articles/article-2026-11-13-22774/</link>
+      <pubDate>Fri, 13 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-13-22774/</guid>
+      <description>🚀 Running large models like GLM-5.3 locally requires significant GPU memory. Two NVIDIA DGX Stations linked via ConnectX-8 RDMA can serve one model with tensor parallelism to split weights and computation. This setup allows for efficient processing of 753 billion parameters while maintaining all model weights accessible. Learn how to set up this system and measure performance under load! 📊 #NVIDIA #MachineLearning #AI #TensorParallelism #GLM5.3</description>
+    </item>
     <item>
       <title>Here’s how to teach AI agents to search like human experts</title>
       <link>/articles/article-2026-11-13-22768/</link>

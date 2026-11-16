@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 22:13:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 17:59:39 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%.</title>
+      <link>/articles/article-2026-11-16-22796/</link>
+      <pubDate>Mon, 16 Nov 2026 17:59:39 +0000</pubDate>
+      <guid>/articles/article-2026-11-16-22796/</guid>
+      <description>🚀 Dax Raad has revamped the OpenCode browser automation tool using Rust for just $60. This shift has led to a remarkable 97% reduction in memory usage. The new Rust binary is only 4.3 MB, down from the previous 53-64 MB Node version. Each OpenCode Browse connector now consumes about 5.6 MB, a significant improvement. 🔧 The tool connects AI coding agents to browsers via a Chromium extension, utilizing WebSockets and the Chrome DevTools Protocol for operations. Not all features from the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0</title>
+      <link>/articles/article-2026-11-16-22802/</link>
+      <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-16-22802/</guid>
+      <description>🚀 The latest results from MLPerf Endpoints v1.0 highlight the performance of NVIDIA&amp;rsquo;s Vera Rubin NVL72 in handling demanding agentic workloads. AI agents now manage longer conversation histories, requiring robust inference systems to maintain speed and quality. 📈 Provisional results show NVL72 achieving over 10x the throughput per kilowatt compared to NVIDIA GB300, while ensuring a minimum interactivity of 50 tokens per second per user. These advancements are crucial for efficient multi-turn&amp;hellip;</description>
+    </item>
     <item>
       <title>Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS</title>
       <link>/articles/article-2026-11-13-22780/</link>

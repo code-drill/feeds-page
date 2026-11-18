@@ -6,8 +6,29 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 22:13:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 vs. ScyllaDB for tiny telemetry: What Red Canary learned the hard way</title>
+      <link>/articles/article-2026-11-18-22838/</link>
+      <pubDate>Wed, 18 Nov 2026 15:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22838/</guid>
+      <description>At Red Canary, managing large volumes of small telemetry data from numerous endpoints posed significant challenges. Initially, uploading these small payloads to S3 was costly due to fees per operation. To mitigate this, they tried merging data, but this led to issues like file-size limits and delays in data freshness. Ultimately, they found success with ScyllaDB, a write-optimized database, which improved both latency and costs. Staff engineer Andres Medina shared their journey and insights&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Why verification, not generation, is your secret to AI coding ROI</title>
+      <link>/articles/article-2026-11-18-22839/</link>
+      <pubDate>Wed, 18 Nov 2026 14:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22839/</guid>
+      <description>AI coding tools are becoming essential, with 65% of code now generated or assisted by AI. However, challenges remain in verifying this code. 53% of developers report spending more time reviewing code than creating it. Trust in AI-generated code is still low, with 94% expressing doubts about its correctness. As adoption grows, so do concerns about code quality and security. #AICoding #CodeReview #SoftwareDevelopment #TechTrends #AI</description>
+    </item>
+    <item>
+      <title>“Collaboration over competition”: Hugging Face hands model inference traffic to OpenRouter</title>
+      <link>/articles/article-2026-11-18-22840/</link>
+      <pubDate>Wed, 18 Nov 2026 13:39:13 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22840/</guid>
+      <description>Hugging Face and OpenRouter are teaming up to enhance AI model inference for developers. This partnership will allow Hugging Face to utilize OpenRouter’s infrastructure to improve request routing based on pricing, performance, and reliability. Previously, Hugging Face&amp;rsquo;s own system faced challenges with request failures. Now, with OpenRouter, requests can seamlessly switch to other providers if issues arise, reducing failures. CEO Clément Delangue emphasizes that this collaboration showcases&amp;hellip;</description>
+    </item>
     <item>
       <title>Your AI coding agent could cost 5x more depending on the harness, benchmark finds</title>
       <link>/articles/article-2026-11-17-22833/</link>

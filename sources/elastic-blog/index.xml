@@ -16,6 +16,13 @@
       <description>📢 Exciting news for Azure users! Elastic Cloud Serverless is now available in the Toronto region, expanding its global presence to 13 Azure regions. This enhancement supports customers by managing massive data volumes efficiently. With its cloud-native architecture, it allows for real-time scaling, ensuring quick responses even under heavy demand. Elastic Cloud Serverless simplifies app deployment, handling upgrades and security, while providing the latest AI capabilities. #Azure&amp;hellip;</description>
     </item>
     <item>
+      <title>Java4Shell Remote Code Execution (RCE) Vulnerability - CVE-2026-114938</title>
+      <link>/articles/article-2026-11-18-22872/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22872/</guid>
+      <description>🚨 New vulnerability alert: CVE-2026-114938, known as Java4Shell, affects OpenJDK and Oracle Java SE. Elastic has confirmed that Elasticsearch versions 7.17.3 and later are vulnerable, allowing authenticated users to execute remote code. Unauthenticated users can trigger Denial of Service (DoS) against Elasticsearch nodes. 🛡️ Logstash versions 8.6.2 and later are also affected, with specific conditions for exploitation. Updates are being prepared to address these issues in upcoming releases. 🔄&amp;hellip;</description>
+    </item>
+    <item>
       <title>Java4Shell Remove Code Execution (RCE) Vulnerability - CVE-2026-114938</title>
       <link>/articles/article-2026-11-18-22870/</link>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>

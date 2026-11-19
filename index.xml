@@ -6,8 +6,15 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 23:15:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:45:11 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google’s Gemini 4 Neon tripled its coding score without changing the model</title>
+      <link>/articles/article-2026-11-19-22871/</link>
+      <pubDate>Thu, 19 Nov 2026 00:45:11 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22871/</guid>
+      <description>🚀 Google’s Gemini 4 Neon achieved a significant coding score increase, resolving 12.8% of the SWE-sweep benchmark using the mini-SWE harness. This score soared to 39.0% when using the Antigravity harness. This improvement raises questions about the roles of the model versus the harness. 🔍 Testing revealed that harness configurations significantly impact performance across different models. However, the exact factors contributing to these results remain unclear. #Google #Gemini4Neon #Coding&amp;hellip;</description>
+    </item>
     <item>
       <title>Automated Certificate Management is Moving to ECDSA Certificates</title>
       <link>/articles/article-2026-11-18-22868/</link>
@@ -177,11 +184,25 @@
       <description>🚀 GitLab&amp;rsquo;s Transcend Hackathon showcased innovative solutions for the challenges of post-code production. Over 3,300 developers participated, submitting 783 projects focused on automating workflows using the GitLab Duo Agent Platform. 🏆 Winning projects included a pharmacy app that fixed bugs via a phone shake in just 18 minutes and a tool converting teacher emails into tactile graphs for blind students. The prize pool totaled $45,000 across various categories, recognizing projects that&amp;hellip;</description>
     </item>
     <item>
+      <title>Java4Shell Remote Code Execution (RCE) Vulnerability - CVE-2026-114938</title>
+      <link>/articles/article-2026-11-18-22872/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22872/</guid>
+      <description>🚨 New vulnerability alert: CVE-2026-114938, known as Java4Shell, affects OpenJDK and Oracle Java SE. Elastic has confirmed that Elasticsearch versions 7.17.3 and later are vulnerable, allowing authenticated users to execute remote code. Unauthenticated users can trigger Denial of Service (DoS) against Elasticsearch nodes. 🛡️ Logstash versions 8.6.2 and later are also affected, with specific conditions for exploitation. Updates are being prepared to address these issues in upcoming releases. 🔄&amp;hellip;</description>
+    </item>
+    <item>
       <title>Java4Shell Remove Code Execution (RCE) Vulnerability - CVE-2026-114938</title>
       <link>/articles/article-2026-11-18-22870/</link>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-11-18-22870/</guid>
       <description>🚨 A new remote code execution vulnerability, CVE-2026-114938 (Java4Shell), has been identified in OpenJDK and Oracle Java SE. Disclosed on November 17, 2026, this affects various versions of Elasticsearch and Logstash. 🔍 Elasticsearch versions 7.17.3 and later are vulnerable, allowing RCE through authenticated users and DoS via unauthenticated actors. Logstash versions 8.6.2 and later are also impacted, but earlier versions remain safe. 🔧 Elastic is working on updates to address these&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The recommended GitLab configuration for agentic engineering</title>
+      <link>/articles/article-2026-11-18-22873/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22873/</guid>
+      <description>🚀 Agents are evolving beyond just code drafting! Teams now use them to enhance workflow efficiency in reviews and merges. 🔗 Integrating GitLab Duo Agent Platform ensures that every change follows established security and compliance protocols, unifying context across your software lifecycle. 🛠️ Focus on automation by configuring your local coding harness with GitLab. Learn how to streamline issues, automate code reviews, and resolve pipelines for a smoother workflow. 📈 Discover how to maximize&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco U. Spotlight 2026: Learn, Connect, and Innovate Together</title>

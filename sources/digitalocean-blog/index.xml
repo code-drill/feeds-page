@@ -6,8 +6,15 @@
     <description>Recent content in DigitalOcean-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 17:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 19:38:30 +0000</lastBuildDate>
     <atom:link href="/sources/digitalocean-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmarking v5 Droplets: what the numbers say across real workloads</title>
+      <link>/articles/article-2026-11-19-22896/</link>
+      <pubDate>Thu, 19 Nov 2026 19:38:30 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22896/</guid>
+      <description>📊 We recently compared v5 (5th Gen AMD EPYC) Droplets with Dedicated Premium across various workloads. For general-purpose microservices, v5 managed 1,500 requests per second, outperforming Dedicated Premium’s 1,000 by up to 50%. It also halved response time and used less CPU. In CPU-bound scenarios, v5 delivered 35% more transactions per second across popular databases. Memory-bound workloads showed even larger gains, exceeding 2x the throughput. Overall, v5 Droplets enhance performance for&amp;hellip;</description>
+    </item>
     <item>
       <title>Virtualization, Responsible Disclosure, and CVE-2026-99312</title>
       <link>/articles/article-2026-11-19-22889/</link>

@@ -6,8 +6,50 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 17:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 20:28:13 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo</title>
+      <link>/articles/article-2026-11-19-22895/</link>
+      <pubDate>Thu, 19 Nov 2026 20:28:13 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22895/</guid>
+      <description>🚀 Reinforcement Learning (RL) uses rewards to train models, improving problem-solving and task completion. However, as training scales, challenges like redundant compute work and slow rollouts can hinder progress. NVIDIA Dynamo offers solutions to these bottlenecks, enhancing sample generation and speeding up training iterations. Learn more about how Dynamo optimizes RL processes! #ReinforcementLearning #NVIDIA #MachineLearning #AI #Technology</description>
+    </item>
+    <item>
+      <title>An engineer didn’t message his AI for 22 of 44 days. It built an Android app anyway.</title>
+      <link>/articles/article-2026-11-19-22892/</link>
+      <pubDate>Thu, 19 Nov 2026 20:22:18 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22892/</guid>
+      <description>Cognition has developed Devin, an autonomous engineer, that recently built an Android app with minimal human oversight. With the launch of Devin Bots, the focus shifts to management, allowing agents to oversee coding sessions and engineering outcomes over extended periods. CEO Scott Wu emphasizes the potential for significant productivity gains through automation. The Devin Bots can now assign ongoing goals, streamlining tasks like synchronizing app features across platforms. In a recent&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Patching at the speed of discovery: full-fleet Network OS upgrades in days, not months</title>
+      <link>/articles/article-2026-11-19-22894/</link>
+      <pubDate>Thu, 19 Nov 2026 20:06:15 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22894/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://blogs.cisco.com/feed&#34;&gt;Cisco Developer Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogs.cisco.com/cisco-on-cisco/patching-at-the-speed-of-discovery-full-fleet-network-os-upgrades-in-days-not-months&#34;&gt;Read full article&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Benchmarking v5 Droplets: what the numbers say across real workloads</title>
+      <link>/articles/article-2026-11-19-22896/</link>
+      <pubDate>Thu, 19 Nov 2026 19:38:30 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22896/</guid>
+      <description>📊 We recently compared v5 (5th Gen AMD EPYC) Droplets with Dedicated Premium across various workloads. For general-purpose microservices, v5 managed 1,500 requests per second, outperforming Dedicated Premium’s 1,000 by up to 50%. It also halved response time and used less CPU. In CPU-bound scenarios, v5 delivered 35% more transactions per second across popular databases. Memory-bound workloads showed even larger gains, exceeding 2x the throughput. Overall, v5 Droplets enhance performance for&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Pulse: What can we learn from the Railway hack?</title>
+      <link>/articles/article-2026-11-19-22891/</link>
+      <pubDate>Thu, 19 Nov 2026 18:53:58 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22891/</guid>
+      <description>🚨 Railway recently experienced a significant security breach involving attack methods utilizing AI models without safeguards. The company shared a detailed postmortem outlining the attack phases, revealing how the intruder first attempted and then executed a series of exploits to access sensitive customer data, including AI provider keys. This incident highlights the evolving tactics of cyber attackers and the importance of robust security measures in tech infrastructure. 🔐 #CyberSecurity #AI&amp;hellip;</description>
+    </item>
+    <item>
+      <title>“Be ready for change”: AAIF’s CTO on why the agent stack won’t settle</title>
+      <link>/articles/article-2026-11-19-22893/</link>
+      <pubDate>Thu, 19 Nov 2026 18:24:12 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22893/</guid>
+      <description>🌟 The Agentic AI Foundation (AAIF) is evolving rapidly, addressing the challenges of AI agent communication. In just ten months, developers face issues like vendor lock-in and fragmented protocols. The AAIF aims to standardize these interactions with projects such as the Model Context Protocol (MCP). Recent contributions from Anthropic and OpenAI have expanded AAIF&amp;rsquo;s hosted projects to ten. This initiative promotes neutral governance and effective communication between AI models. #AI&amp;hellip;</description>
+    </item>
     <item>
       <title>IDrive wants to back up your coding agents, too</title>
       <link>/articles/article-2026-11-19-22883/</link>
@@ -133,6 +175,55 @@
       <pubDate>Thu, 19 Nov 2026 00:45:11 +0000</pubDate>
       <guid>/articles/article-2026-11-19-22871/</guid>
       <description>🚀 Google’s Gemini 4 Neon achieved a significant coding score increase, resolving 12.8% of the SWE-sweep benchmark using the mini-SWE harness. This score soared to 39.0% when using the Antigravity harness. This improvement raises questions about the roles of the model versus the harness. 🔍 Testing revealed that harness configurations significantly impact performance across different models. However, the exact factors contributing to these results remain unclear. #Google #Gemini4Neon #Coding&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Cut your vulnerability backlog with agentic remediation</title>
+      <link>/articles/article-2026-11-19-22900/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22900/</guid>
+      <description>Vulnerability backlogs are increasing rapidly, outpacing teams&amp;rsquo; ability to address them. AI is now both writing code and identifying flaws at unprecedented speeds, making it essential for security teams to adapt. GitLab 19.6 offers tools to help manage these challenges. With new features like agentic triage and remediation, teams can prioritize vulnerabilities based on risk and exploitability without extensive scripting. The introduction of the MTTR chart allows security leaders to track&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Duo Agent Platform now does up to 2x more per GitLab Credit</title>
+      <link>/articles/article-2026-11-19-22902/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22902/</guid>
+      <description>🚀 GitLab Duo Agent Platform is enhancing efficiency! Customers can now stretch their GitLab Credits up to 2x further by reducing model requests for tasks. ✨ New features include automating Slack conversations, scheduling routine tasks, and improving security scans with the Business Logic Security Analyzer. 💼 Get more from your credits and streamline your software development process. For more details, check with your GitLab account team! #GitLab #DuoAgent #Efficiency #SoftwareDevelopment&amp;hellip;</description>
+    </item>
+    <item>
+      <title>GitLab 19.6 released</title>
+      <link>/articles/article-2026-11-19-22901/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22901/</guid>
+      <description>🚀 GitLab has officially released version 19.6! This update introduces several new features aimed at improving user experience and project management. Enhanced CI/CD capabilities and better security measures are among the key highlights. Users can now benefit from streamlined workflows and increased integration options. Stay updated with the latest enhancements! #GitLab #SoftwareUpdate #DevOps #TechNews #VersionRelease</description>
+    </item>
+    <item>
+      <title>Keep recurring work moving with scheduled automations</title>
+      <link>/articles/article-2026-11-19-22899/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22899/</guid>
+      <description>🚀 Scheduled automations are now in beta with GitLab 19.6! These automations help engineering teams manage routine tasks without needing human triggers. This means tasks like issue triaging can run on a reliable schedule, improving efficiency. 🗓️ With a clear history of actions and results, teams can trust the automated processes in their workflow. Explore how to implement scheduled automations today! #GitLab #DevSecOps #Automation #SoftwareDevelopment #Efficiency</description>
+    </item>
+    <item>
+      <title>Rotate a leaked GitLab token and let GitLab Duo fix the code</title>
+      <link>/articles/article-2026-11-19-22897/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22897/</guid>
+      <description>🚨 GitLab introduces a new feature to improve security by allowing users to remediate leaked personal access tokens (PATs) directly from the vulnerability page with the &amp;ldquo;Rotate and fix&amp;rdquo; option. This feature, available in GitLab 19.6 for Ultimate users, automatically revokes the exposed token, generates a replacement, and updates CI/CD jobs without revealing the new token. Using GitLab Duo Agent Platform, the solution streamlines the process and helps prevent token leaks. 🔒 For organizations, a&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The best way to use your coding agents with GitLab</title>
+      <link>/articles/article-2026-11-19-22903/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22903/</guid>
+      <description>🚀 Enhance your coding workflow with GitLab Duo! Integrate your coding agents like Claude Code and Codex to streamline code reviews and security checks. GitLab’s Duo setup enforces security standards and tracks changes effectively, ensuring consistency across your team. Easily configure code review, pipeline repairs, and security triage all in one session. Each merge request can receive a review for just $0.25, making quality checks accessible. Learn how to set up and optimize your coding&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Turn Slack conversations into trusted software, faster</title>
+      <link>/articles/article-2026-11-19-22898/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22898/</guid>
+      <description>🚀 GitLab for Slack is enhancing teamwork by turning conversations into actionable tasks. AI agents read discussions and transform decisions into tracked work, streamlining the process from Slack to GitLab. This integration helps teams stay organized without switching tools. Available now for GitLab.com users, with broader access coming soon. 🔗 #GitLab #SlackIntegration #Productivity #Teamwork #AI</description>
     </item>
     <item>
       <title>Automated Certificate Management is Moving to ECDSA Certificates</title>
@@ -287,6 +378,13 @@
       <pubDate>Wed, 18 Nov 2026 10:00:21 +0000</pubDate>
       <guid>/articles/article-2026-11-18-22836/</guid>
       <description>Cisco has embraced frontier AI to enhance its security measures. By scanning 6.7 billion lines of code, the company has identified approximately 4,000 security fixes. This represents a significant change in the way Cisco approaches code development and maintenance, focusing on proactive solutions. 🔍💻 Learn more about how AI is reshaping security in tech. #Cisco #AI #Cybersecurity #TechInnovation #SoftwareDevelopment</description>
+    </item>
+    <item>
+      <title>Agentic engineering with GitLab and your local agent: A walkthrough</title>
+      <link>/articles/article-2026-11-18-22904/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22904/</guid>
+      <description>Unlock automation in your workflow with GitLab Duo Agent Platform! 🚀 Connect your existing local harness, like Claude Code, to streamline tasks such as issue handling, merge requests, and pipeline fixes. The article outlines a guided setup and explores four key workflows to enhance productivity. Ideal for teams aiming for efficient coding and security management. Learn more about setting it up! 🔧💻 #GitLab #Automation #DevOps #Coding #SoftwareDevelopment</description>
     </item>
     <item>
       <title>Celebrating Microsoft Ignite with Azure region expansion in Toronto</title>

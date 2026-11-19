@@ -6,8 +6,22 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 20:38:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 23:15:28 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Certificate Management is Moving to ECDSA Certificates</title>
+      <link>/articles/article-2026-11-18-22868/</link>
+      <pubDate>Wed, 18 Nov 2026 23:15:28 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22868/</guid>
+      <description>🚀 Heroku is transitioning Automated Certificate Management (ACM) from RSA keys to ECDSA keys for TLS certificates. 🔐 ECDSA offers enhanced security, including forward secrecy and stronger keys. Starting December 21, 2026, ACM will automatically refresh certificates to ECDSA. By January 29, 2027, all eligible apps will use ECDSA certificates. 📧 Heroku will notify users if any clients can&amp;rsquo;t support ECDSA, ensuring continued functionality. For more details, check your app&amp;rsquo;s settings! #Heroku&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build an On-Call Team of AI Agents on DigitalOcean MicroVMs</title>
+      <link>/articles/article-2026-11-18-22869/</link>
+      <pubDate>Wed, 18 Nov 2026 22:22:27 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22869/</guid>
+      <description>🚀 Explore how we built an on-call team of AI agents using DigitalOcean MicroVMs! Each agent operates in its own secure MicroVM, reading metrics and commits while ensuring safety through human approval for rollbacks. This setup minimizes costs by pausing agents during idle times. Learn about how MicroVMs enhance performance and security, allowing for efficient incident management. 🔗 Check out the full guide to build your own team! #AI #DigitalOcean #MicroVM #CloudComputing #IncidentManagement</description>
+    </item>
     <item>
       <title>Microsoft says Bing serves 1B people. Its next search engine isn’t for them.</title>
       <link>/articles/article-2026-11-18-22856/</link>
@@ -161,6 +175,13 @@
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <guid>/articles/article-2026-11-18-22853/</guid>
       <description>🚀 GitLab&amp;rsquo;s Transcend Hackathon showcased innovative solutions for the challenges of post-code production. Over 3,300 developers participated, submitting 783 projects focused on automating workflows using the GitLab Duo Agent Platform. 🏆 Winning projects included a pharmacy app that fixed bugs via a phone shake in just 18 minutes and a tool converting teacher emails into tactile graphs for blind students. The prize pool totaled $45,000 across various categories, recognizing projects that&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Java4Shell Remove Code Execution (RCE) Vulnerability - CVE-2026-114938</title>
+      <link>/articles/article-2026-11-18-22870/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-18-22870/</guid>
+      <description>🚨 A new remote code execution vulnerability, CVE-2026-114938 (Java4Shell), has been identified in OpenJDK and Oracle Java SE. Disclosed on November 17, 2026, this affects various versions of Elasticsearch and Logstash. 🔍 Elasticsearch versions 7.17.3 and later are vulnerable, allowing RCE through authenticated users and DoS via unauthenticated actors. Logstash versions 8.6.2 and later are also impacted, but earlier versions remain safe. 🔧 Elastic is working on updates to address these&amp;hellip;</description>
     </item>
     <item>
       <title>Cisco U. Spotlight 2026: Learn, Connect, and Innovate Together</title>

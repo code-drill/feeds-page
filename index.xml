@@ -6,8 +6,64 @@
     <description>Recent content on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 17:31:44 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDrive wants to back up your coding agents, too</title>
+      <link>/articles/article-2026-11-19-22883/</link>
+      <pubDate>Thu, 19 Nov 2026 17:31:44 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22883/</guid>
+      <description>IDrive has introduced AI Agents Backup, a new feature aimed at securing data from coding agents like Claude Code, Cursor, Codex, and Cline. This feature automatically finds and backs up important local files to a user’s IDrive account. Many developers may overlook valuable data, such as session transcripts and configuration files, which are often stored in hidden folders. IDrive&amp;rsquo;s CEO emphasizes the importance of this data as part of a developer&amp;rsquo;s work product. The backup feature protects&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Virtualization, Responsible Disclosure, and CVE-2026-99312</title>
+      <link>/articles/article-2026-11-19-22889/</link>
+      <pubDate>Thu, 19 Nov 2026 17:13:35 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22889/</guid>
+      <description>A recent security update highlights the importance of responsible disclosure in cloud computing. Researcher Oren Yomtov identified a critical flaw, CVE-2026-99312, in KVM, allowing potential access to host memory on AMD processors. This issue emphasizes the need for prompt reporting to prevent exploitation. The KVM community swiftly addressed the flaw, with fixes rolled out in stable kernel versions. Users running their own KVM hosts on AMD are advised to update or disable nested&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition</title>
+      <link>/articles/article-2026-11-19-22887/</link>
+      <pubDate>Thu, 19 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22887/</guid>
+      <description>Unlocking real-time AI in scientific instruments is now feasible! NVIDIA&amp;rsquo;s DAQIRI library enhances data acquisition by enabling real-time processing of high-bandwidth sensor data on GPU platforms. This allows for immediate analysis and adjustments during experiments without the need to write to disk. A case study on a high-dynamic-range electron microscopy camera showcases how this technology simplifies complex setups and processes over 500 Gbps of data, vastly improving measurement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work together</title>
+      <link>/articles/article-2026-11-19-22884/</link>
+      <pubDate>Thu, 19 Nov 2026 16:58:48 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22884/</guid>
+      <description>🚀 Vercel has introduced an experimental shared message board called Board, designed for AI agents to collaborate efficiently. This tool allows agents to claim tasks, share insights, and track progress while developers can monitor the workflow. Initially created for Vercel&amp;rsquo;s engineering operations, Board has improved coordination in security tasks and software development. The need for effective communication among AI agents is evident, as demonstrated by OpenAI&amp;rsquo;s recent work on the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build Tool-Calling Parsers in Rust with AI Agents</title>
+      <link>/articles/article-2026-11-19-22888/</link>
+      <pubDate>Thu, 19 Nov 2026 16:30:46 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22888/</guid>
+      <description>🚀 Discover how to build tool-calling parsers in Rust using AI agents! In this article, you&amp;rsquo;ll learn about parsing tool calls that may arrive in fragments or include model-specific markup. A frontend parser organizes this output into usable text and tool calls. Using a weather request example, the process involves tokenization and an inference engine to generate and separate reasoning, visible text, and calls. This ensures compatibility with OpenAI responses. #Rust #AI #ToolParsing #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Where should AI workloads run? Probably next to the data.</title>
+      <link>/articles/article-2026-11-19-22885/</link>
+      <pubDate>Thu, 19 Nov 2026 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22885/</guid>
+      <description>AWS recently increased prices for EC2 Capacity Blocks, raising costs by about 15% in January and 20% in July. This change highlights the importance of data location when managing AI workloads. Data gravity affects AI more than analytics. It refers to the tendency of compute resources to cluster near large datasets. Moving data can be more expensive than moving processing logic, especially with large datasets. Centralizing compute often requires data transfers, which can add significant costs&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Amazon ECS handles blue/green, canary, and linear deployments</title>
+      <link>/articles/article-2026-11-19-22886/</link>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22886/</guid>
+      <description>Amazon ECS simplifies container deployments by integrating essential features like traffic-splitting, alarm evaluation, and rollback automation directly into its system. With a single API endpoint, users can easily access these capabilities without needing extensive customization or new frameworks. ECS offers various deployment strategies, including blue/green, canary, and linear, all configurable to suit your needs. Learn how ECS compares to Kubernetes tools like Argo Rollouts and Flagger,&amp;hellip;</description>
+    </item>
+    <item>
+      <title>JetBrains Plugin Developer Conf 2026: Watch All the Talks</title>
+      <link>/articles/article-2026-11-19-22890/</link>
+      <pubDate>Thu, 19 Nov 2026 14:52:45 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22890/</guid>
+      <description>🚀 JetBrains Plugin Developer Conf 2026 took place on November 10, focusing on the latest in plugin development. Experts discussed the impact of AI, new IntelliJ Platform APIs, and plugin architecture. 🎥 Missed it? All session recordings are now available on YouTube! 🌐 Key topics included AI-assisted development, building language plugins, and scalable architectures. Stay informed on future events and updates by subscribing to JetBrains Marketplace! #JetBrains #PluginDevelopment #AI #IntelliJ&amp;hellip;</description>
+    </item>
     <item>
       <title>Agent security is product security, and your marketing site counts</title>
       <link>/articles/article-2026-11-19-22876/</link>

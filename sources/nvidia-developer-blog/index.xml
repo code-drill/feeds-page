@@ -6,8 +6,22 @@
     <description>Recent content in Nvidia-Developer-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/nvidia-developer-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition</title>
+      <link>/articles/article-2026-11-19-22887/</link>
+      <pubDate>Thu, 19 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22887/</guid>
+      <description>Unlocking real-time AI in scientific instruments is now feasible! NVIDIA&amp;rsquo;s DAQIRI library enhances data acquisition by enabling real-time processing of high-bandwidth sensor data on GPU platforms. This allows for immediate analysis and adjustments during experiments without the need to write to disk. A case study on a high-dynamic-range electron microscopy camera showcases how this technology simplifies complex setups and processes over 500 Gbps of data, vastly improving measurement&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Build Tool-Calling Parsers in Rust with AI Agents</title>
+      <link>/articles/article-2026-11-19-22888/</link>
+      <pubDate>Thu, 19 Nov 2026 16:30:46 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22888/</guid>
+      <description>🚀 Discover how to build tool-calling parsers in Rust using AI agents! In this article, you&amp;rsquo;ll learn about parsing tool calls that may arrive in fragments or include model-specific markup. A frontend parser organizes this output into usable text and tool calls. Using a weather request example, the process involves tokenization and an inference engine to generate and separate reasoning, visible text, and calls. This ensures compatibility with OpenAI responses. #Rust #AI #ToolParsing #NVIDIA&amp;hellip;</description>
+    </item>
     <item>
       <title>Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos</title>
       <link>/articles/article-2026-11-18-22852/</link>

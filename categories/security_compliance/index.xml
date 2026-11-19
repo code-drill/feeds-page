@@ -6,8 +6,15 @@
     <description>Recent content in Security_compliance on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 17:13:35 +0000</lastBuildDate>
     <atom:link href="/categories/security_compliance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtualization, Responsible Disclosure, and CVE-2026-99312</title>
+      <link>/articles/article-2026-11-19-22889/</link>
+      <pubDate>Thu, 19 Nov 2026 17:13:35 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22889/</guid>
+      <description>A recent security update highlights the importance of responsible disclosure in cloud computing. Researcher Oren Yomtov identified a critical flaw, CVE-2026-99312, in KVM, allowing potential access to host memory on AMD processors. This issue emphasizes the need for prompt reporting to prevent exploitation. The KVM community swiftly addressed the flaw, with fixes rolled out in stable kernel versions. Users running their own KVM hosts on AMD are advised to update or disable nested&amp;hellip;</description>
+    </item>
     <item>
       <title>Agent security is product security, and your marketing site counts</title>
       <link>/articles/article-2026-11-19-22876/</link>

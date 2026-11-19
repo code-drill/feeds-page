@@ -6,8 +6,22 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:16:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 16:30:46 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Tool-Calling Parsers in Rust with AI Agents</title>
+      <link>/articles/article-2026-11-19-22888/</link>
+      <pubDate>Thu, 19 Nov 2026 16:30:46 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22888/</guid>
+      <description>🚀 Discover how to build tool-calling parsers in Rust using AI agents! In this article, you&amp;rsquo;ll learn about parsing tool calls that may arrive in fragments or include model-specific markup. A frontend parser organizes this output into usable text and tool calls. Using a weather request example, the process involves tokenization and an inference engine to generate and separate reasoning, visible text, and calls. This ensures compatibility with OpenAI responses. #Rust #AI #ToolParsing #NVIDIA&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Amazon ECS handles blue/green, canary, and linear deployments</title>
+      <link>/articles/article-2026-11-19-22886/</link>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22886/</guid>
+      <description>Amazon ECS simplifies container deployments by integrating essential features like traffic-splitting, alarm evaluation, and rollback automation directly into its system. With a single API endpoint, users can easily access these capabilities without needing extensive customization or new frameworks. ECS offers various deployment strategies, including blue/green, canary, and linear, all configurable to suit your needs. Learn how ECS compares to Kubernetes tools like Argo Rollouts and Flagger,&amp;hellip;</description>
+    </item>
     <item>
       <title>The ultimate guide to analyzing and troubleshooting critical issues on Red Hat Enterprise Linux 8 and 9</title>
       <link>/articles/article-2026-11-19-22879/</link>

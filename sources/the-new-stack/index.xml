@@ -6,8 +6,36 @@
     <description>Recent content in The-New-Stack on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 17:31:44 +0000</lastBuildDate>
     <atom:link href="/sources/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDrive wants to back up your coding agents, too</title>
+      <link>/articles/article-2026-11-19-22883/</link>
+      <pubDate>Thu, 19 Nov 2026 17:31:44 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22883/</guid>
+      <description>IDrive has introduced AI Agents Backup, a new feature aimed at securing data from coding agents like Claude Code, Cursor, Codex, and Cline. This feature automatically finds and backs up important local files to a user’s IDrive account. Many developers may overlook valuable data, such as session transcripts and configuration files, which are often stored in hidden folders. IDrive&amp;rsquo;s CEO emphasizes the importance of this data as part of a developer&amp;rsquo;s work product. The backup feature protects&amp;hellip;</description>
+    </item>
+    <item>
+      <title>A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work together</title>
+      <link>/articles/article-2026-11-19-22884/</link>
+      <pubDate>Thu, 19 Nov 2026 16:58:48 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22884/</guid>
+      <description>🚀 Vercel has introduced an experimental shared message board called Board, designed for AI agents to collaborate efficiently. This tool allows agents to claim tasks, share insights, and track progress while developers can monitor the workflow. Initially created for Vercel&amp;rsquo;s engineering operations, Board has improved coordination in security tasks and software development. The need for effective communication among AI agents is evident, as demonstrated by OpenAI&amp;rsquo;s recent work on the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Where should AI workloads run? Probably next to the data.</title>
+      <link>/articles/article-2026-11-19-22885/</link>
+      <pubDate>Thu, 19 Nov 2026 16:30:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22885/</guid>
+      <description>AWS recently increased prices for EC2 Capacity Blocks, raising costs by about 15% in January and 20% in July. This change highlights the importance of data location when managing AI workloads. Data gravity affects AI more than analytics. It refers to the tendency of compute resources to cluster near large datasets. Moving data can be more expensive than moving processing logic, especially with large datasets. Centralizing compute often requires data transfers, which can add significant costs&amp;hellip;</description>
+    </item>
+    <item>
+      <title>How Amazon ECS handles blue/green, canary, and linear deployments</title>
+      <link>/articles/article-2026-11-19-22886/</link>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-19-22886/</guid>
+      <description>Amazon ECS simplifies container deployments by integrating essential features like traffic-splitting, alarm evaluation, and rollback automation directly into its system. With a single API endpoint, users can easily access these capabilities without needing extensive customization or new frameworks. ECS offers various deployment strategies, including blue/green, canary, and linear, all configurable to suit your needs. Learn how ECS compares to Kubernetes tools like Argo Rollouts and Flagger,&amp;hellip;</description>
+    </item>
     <item>
       <title>Agent security is product security, and your marketing site counts</title>
       <link>/articles/article-2026-11-19-22876/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 20:28:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your AI agent’s “memory problem” may be something else</title>
+      <link>/articles/article-2026-11-20-22917/</link>
+      <pubDate>Fri, 20 Nov 2026 17:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-20-22917/</guid>
+      <description>AI agents often face challenges when users return after a break. These issues are not merely &amp;ldquo;memory problems,&amp;rdquo; but arise from the need for additional context. Three key context layers are essential for effective operation: workflow state, agent memory, and external knowledge. Each layer has distinct roles and requires clear management. Tools like LangGraph and LangChain help developers, but ownership and lifecycle must be defined to ensure smooth functioning. #AI #TechInsights #LangGraph&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Anthropic says Claude writes and reviews 90% of its team’s code. The catch is how it checks the work.</title>
+      <link>/articles/article-2026-11-20-22918/</link>
+      <pubDate>Fri, 20 Nov 2026 16:41:28 +0000</pubDate>
+      <guid>/articles/article-2026-11-20-22918/</guid>
+      <description>Anthropic reveals that Claude writes and reviews about 90% of the code for its Claude Code project. To ensure quality, the company utilizes a verification system that automates checks, allowing engineers to assess the output without reviewing every change manually. This approach has sparked discussions among developers regarding the costs involved and the effectiveness of model-driven verification. To tackle verification costs, Anthropic prioritizes deterministic checks before engaging&amp;hellip;</description>
+    </item>
     <item>
       <title>Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo</title>
       <link>/articles/article-2026-11-19-22895/</link>

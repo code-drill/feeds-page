@@ -6,8 +6,15 @@
     <description>Recent content in GitLab-Blog on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/sources/gitlab-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java4Shell: GitLab helps find and remediate a critical Java flaw</title>
+      <link>/articles/article-2026-11-20-22926/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-20-22926/</guid>
+      <description>GitLab addresses the Java4Shell vulnerability, confirming it is not exploitable in its managed infrastructure. OpenJDK released a fix on November 17, 2026, for a memory corruption flaw affecting Java runtimes. Users are advised to upgrade to fixed versions or disable vulnerable optimizations. Check your Java projects with GitLab&amp;rsquo;s container scanning and Orbit features to ensure all components are secure. 🔒🤖 #Java4Shell #GitLab #Cybersecurity #OpenJDK #VulnerabilityManagement</description>
+    </item>
     <item>
       <title>Cut your vulnerability backlog with agentic remediation</title>
       <link>/articles/article-2026-11-19-22900/</link>

@@ -37,6 +37,13 @@
       <description>🚨 &lt;strong&gt;Security Alert for YouTrack Server&lt;/strong&gt; 🚨 On November 17, 2026, a critical Java vulnerability known as CVE-2026-114938 (Java4Shell) was disclosed, impacting YouTrack Server. Updates with a fixed Java runtime are now available. YouTrack Cloud users are not affected and need not take action. Administrators must update to fixed builds based on their version or apply a temporary workaround if immediate updates aren&amp;rsquo;t possible. Details on versions and workaround steps are provided. Stay secure!&amp;hellip;</description>
     </item>
     <item>
+      <title>Java4Shell: GitLab helps find and remediate a critical Java flaw</title>
+      <link>/articles/article-2026-11-20-22926/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/articles/article-2026-11-20-22926/</guid>
+      <description>GitLab addresses the Java4Shell vulnerability, confirming it is not exploitable in its managed infrastructure. OpenJDK released a fix on November 17, 2026, for a memory corruption flaw affecting Java runtimes. Users are advised to upgrade to fixed versions or disable vulnerable optimizations. Check your Java projects with GitLab&amp;rsquo;s container scanning and Orbit features to ensure all components are secure. 🔒🤖 #Java4Shell #GitLab #Cybersecurity #OpenJDK #VulnerabilityManagement</description>
+    </item>
+    <item>
       <title>The Pulse: What can we learn from the Railway hack?</title>
       <link>/articles/article-2026-11-19-22891/</link>
       <pubDate>Thu, 19 Nov 2026 18:53:58 +0000</pubDate>

@@ -6,8 +6,15 @@
     <description>Recent content in Educational on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 14:01:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:09:28 +0000</lastBuildDate>
     <atom:link href="/categories/educational/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension</title>
+      <link>/articles/article-2026-11-23-22943/</link>
+      <pubDate>Mon, 23 Nov 2026 17:09:28 +0000</pubDate>
+      <guid>/articles/article-2026-11-23-22943/</guid>
+      <description>🚀 Exciting news for DuckDB users! The new Sirius core extension brings GPU acceleration to your analytical queries, making them faster and more efficient. With just two SQL commands, you can install and load Sirius to enhance query performance on NVIDIA GPUs without changing your existing SQL code. Key features include: - Easy installation with INSTALL and LOAD commands. - Retaining familiar SQL syntax for supported queries. - Automatic fallback to CPU for unsupported features. Start&amp;hellip;</description>
+    </item>
     <item>
       <title>Configure Red Hat OpenShift Lightspeed autonomous agents</title>
       <link>/articles/article-2026-11-23-22936/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 23 Nov 2026 13:00:14 +0000</pubDate>
       <guid>/articles/article-2026-11-23-22935/</guid>
       <description>Josh H. shares his journey at Cisco, emphasizing the importance of creating opportunities for the next generation of Native talent. He reflects on his path from being welcomed as an apprentice to now welcoming others as a guide, demonstrating a commitment to mentorship. Harsha V. also highlights the significance of this full-circle moment, showing how their experiences can inspire future talent. 🌍🤝 #DiversityInTech #Mentorship #Cisco #NativeTalent #CareerJourney</description>
+    </item>
+    <item>
+      <title>Creating Polars Expression Plugins in PyCharm: A Step-by-Step Guide for Rust Beginners</title>
+      <link>/articles/article-2026-11-23-22946/</link>
+      <pubDate>Mon, 23 Nov 2026 12:42:50 +0000</pubDate>
+      <guid>/articles/article-2026-11-23-22946/</guid>
+      <description>🚀 Polars is a high-performance DataFrame library in Rust, favored by data scientists for its ability to handle large datasets efficiently. With features like multicore CPU parallelism and lazy execution, it outperforms traditional tools. However, specialized processes often require custom expression plugins. 🔧 Creating these plugins allows for optimization, parallelism, and native performance, but they must be implemented in Rust. For PyCharm users new to Rust, the article provides a step-by-&amp;hellip;</description>
     </item>
     <item>
       <title>JetBrains Air in GoLand: Build, Review, and Profile Go Code With Agents</title>

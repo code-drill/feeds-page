@@ -6,8 +6,15 @@
     <description>Recent content in Technical_deep_dives on Daily Tech Articles Feed</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:16:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 19:26:18 +0000</lastBuildDate>
     <atom:link href="/categories/technical_deep_dives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confluent spent 3 months rewriting Kafka’s Java client in Rust with AI — and had to start over</title>
+      <link>/articles/article-2026-11-24-22970/</link>
+      <pubDate>Tue, 24 Nov 2026 19:26:18 +0000</pubDate>
+      <guid>/articles/article-2026-11-24-22970/</guid>
+      <description>Confluent recently shared insights on their three-month effort to rewrite Apache Kafka’s Java client in Rust using AI coding agents. Initially, they faced performance issues with their first implementation, leading to a complete restart. Now, they&amp;rsquo;ve established a multi-agent workflow to ensure non-Java clients stay aligned with Kafka&amp;rsquo;s evolution. Their approach involved translating 191 upstream Kafka commits in under two days, and they&amp;rsquo;ve released a Rust client along with a preview of a new&amp;hellip;</description>
+    </item>
     <item>
       <title>Chasing CVEs: Lessons from a real container build using Red Hat Hardened Images</title>
       <link>/articles/article-2026-11-24-22960/</link>
